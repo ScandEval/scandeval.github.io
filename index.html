@@ -1,24 +1,8 @@
 ---
 layout: page
-mathjax: true
 title: ScandEval
 subtitle:A Scandinavian Natural Language Understanding Benchmark
-use-site-title: true
 meta-description: ScandEval Benchmark of language models on Scandinavian language tasks
 ---
 
-{% if paginator.total_pages > 1 %}
-<ul class="pager main-pager">
-  {% if paginator.previous_page %}
-  <li class="previous">
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
-  </li>
-  {% endif %}
-  {% if paginator.next_page %}
-  <li class="next">
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
-  </li>
-  {% endif %}
-</ul>
-{% endif %}
 
