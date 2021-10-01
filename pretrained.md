@@ -1,6 +1,6 @@
 ---
 layout: leaderboard
-title: Pretrained Model Benchmark
+title: Pretrained Benchmark
 ---
 
 Description.

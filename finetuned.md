@@ -1,6 +1,6 @@
 ---
 layout: leaderboard
-title: Finetuned Model Benchmark
+title: Finetuned Benchmark
 ---
 
 Description.
