@@ -5,14 +5,14 @@
 
 # If you are building a simple GitHub user page (https://username.github.io) then use these settings:
 #url: "https://scandeval.github.io"
-url: "https://saattrupdan.github.io"
+url: "https://scandeval.github.io"
 baseurl: ""
 
 # Name of website
 title: ScandEval
 
 # Short description of your site
-description: A Benchmark for Scandinavian Natural Language Understanding
+description: A Scandinavian Natural Language Understanding Benchmark
 
 # --- Navigation bar options --- #
 
