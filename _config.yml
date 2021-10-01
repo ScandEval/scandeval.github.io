@@ -18,7 +18,7 @@ description: A Scandinavian Natural Language Understanding Benchmark
 
 # List of links in the navigation bar
 navbar-links:
-  Description: "index"
+  About: "index"
   Pretrained Benchmark: "pretrained"
   Finetuned Benchmark: "finetuned"
   # Paper: "paper"
