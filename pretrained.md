@@ -75,7 +75,7 @@ title: Pretrained Benchmark
     <td class="clf-score"></td> <!-- Mean classification score -->
     <td class="da ner">74.29 ± 0.34 / 77.94 ± 0.41</td> <!-- DaNE -->
     <td class="da pos">97.72 ± 0.03</td> <!-- DDT-POS -->
-    <td class="da dep"></td> <!-- DDT-DEP -->
+    <td class="da dep">61.06 ± 0.19 / 63.55 ± 0.19</td> <!-- DDT-DEP -->
     <td class="da clf">61.03 ± 0.53</td> <!-- AngryTweets -->
     <td class="da clf">61.61 ± 0.48</td> <!-- TwitterSent -->
     <td class="da clf">64.02 ± 0.64</td> <!-- Europarl -->
@@ -163,7 +163,7 @@ title: Pretrained Benchmark
     <td class="clf-score"></td> <!-- Mean classification score -->
     <td class="da ner">79.19 ± 0.54 / 81.66 ± 0.46</td> <!-- DaNE -->
     <td class="da pos">98.00 ± 0.03</td> <!-- DDT-POS -->
-    <td class="da dep"></td> <!-- DDT-DEP -->
+    <td class="da dep">60.49 ± 0.30 / 63.15 ± 0.29</td> <!-- DDT-DEP -->
     <td class="da clf">48.21 ± 2.96</td> <!-- AngryTweets -->
     <td class="da clf">58.71 ± 2.43</td> <!-- TwitterSent -->
     <td class="da clf">22.01 ± 0.25</td> <!-- Europarl -->
@@ -207,7 +207,7 @@ title: Pretrained Benchmark
     <td class="clf-score"></td> <!-- Mean classification score -->
     <td class="da ner">81.94 ± 0.35 / 84.90 ± 0.30</td> <!-- DaNE -->
     <td class="da pos">97.93 ± 0.04</td> <!-- DDT-POS -->
-    <td class="da dep"></td> <!-- DDT-DEP -->
+    <td class="da dep">55.61 ± 0.25 / 58.31 ± 0.26</td> <!-- DDT-DEP -->
     <td class="da clf">39.68 ± 1.28</td> <!-- AngryTweets -->
     <td class="da clf">34.03 ± 1.67</td> <!-- TwitterSent -->
     <td class="da clf">23.78 ± 1.83</td> <!-- Europarl -->
@@ -251,7 +251,7 @@ title: Pretrained Benchmark
     <td class="clf-score"></td> <!-- Mean classification score -->
     <td class="da ner">76.63 ± 0.41 / 79.09 ± 0.46</td> <!-- DaNE -->
     <td class="da pos">98.03 ± 0.02</td> <!-- DDT-POS -->
-    <td class="da dep"></td> <!-- DDT-DEP -->
+    <td class="da dep">63.82 ± 0.30 / 65.98 ± 0.30</td> <!-- DDT-DEP -->
     <td class="da clf">62.81 ± 0.35</td> <!-- AngryTweets -->
     <td class="da clf">47.08 ± 0.47</td> <!-- TwitterSent -->
     <td class="da clf">57.42 ± 1.60</td> <!-- Europarl -->
@@ -295,7 +295,7 @@ title: Pretrained Benchmark
     <td class="clf-score"></td> <!-- Mean classification score -->
     <td class="da ner">57.20 ± 0.50 / 59.12 ± 0.55</td> <!-- DaNE -->
     <td class="da pos">95.48 ± 0.04</td> <!-- DDT-POS -->
-    <td class="da dep"></td> <!-- DDT-DEP -->
+    <td class="da dep">42.94 ± 0.13 / 46.20 ± 0.13</td> <!-- DDT-DEP -->
     <td class="da clf">56.48 ± 0.38</td> <!-- AngryTweets -->
     <td class="da clf">43.77 ± 0.68</td> <!-- TwitterSent -->
     <td class="da clf">22.73 ± 1.56</td> <!-- Europarl -->
@@ -427,7 +427,7 @@ title: Pretrained Benchmark
     <td class="clf-score"></td> <!-- Mean classification score -->
     <td class="da ner">80.79 ± 0.33 / 82.67 ± 0.33</td> <!-- DaNE -->
     <td class="da pos">96.79 ± 0.04</td> <!-- DDT-POS -->
-    <td class="da dep"></td> <!-- DDT-DEP -->
+    <td class="da dep">54.81 ± 0.21 / 57.76 ± 0.20</td> <!-- DDT-DEP -->
     <td class="da clf">53.73 ± 0.40</td> <!-- AngryTweets -->
     <td class="da clf">45.03 ± 0.38</td> <!-- TwitterSent -->
     <td class="da clf">51.71 ± 0.87</td> <!-- Europarl -->
@@ -515,7 +515,7 @@ title: Pretrained Benchmark
     <td class="clf-score"></td> <!-- Mean classification score -->
     <td class="da ner">77.32 ± 0.28 / 81.12 ± 0.32</td> <!-- DaNE -->
     <td class="da pos">97.38 ± 0.02</td> <!-- DDT-POS -->
-    <td class="da dep"></td> <!-- DDT-DEP -->
+    <td class="da dep">58.13 ± 0.24 / 60.85 ± 0.23</td> <!-- DDT-DEP -->
     <td class="da clf">56.19 ± 0.27</td> <!-- AngryTweets -->
     <td class="da clf">39.52 ± 0.75</td> <!-- TwitterSent -->
     <td class="da clf">24.70 ± 1.70</td> <!-- Europarl -->
@@ -559,7 +559,7 @@ title: Pretrained Benchmark
     <td class="clf-score"></td> <!-- Mean classification score -->
     <td class="da ner">78.74 ± 0.36 / 81.28 ± 0.34</td> <!-- DaNE -->
     <td class="da pos">96.41 ± 0.04</td> <!-- DDT-POS -->
-    <td class="da dep"></td> <!-- DDT-DEP -->
+    <td class="da dep">60.27 ± 0.15 / 63.29 ± 0.15</td> <!-- DDT-DEP -->
     <td class="da clf">56.60 ± 0.53</td> <!-- AngryTweets -->
     <td class="da clf">50.75 ± 0.69</td> <!-- TwitterSent -->
     <td class="da clf">22.63 ± 1.55</td> <!-- Europarl -->
@@ -603,7 +603,7 @@ title: Pretrained Benchmark
     <td class="clf-score"></td> <!-- Mean classification score -->
     <td class="da ner">69.88 ± 0.41 / 71.89 ± 0.45</td> <!-- DaNE -->
     <td class="da pos">94.50 ± 0.05</td> <!-- DDT-POS -->
-    <td class="da dep"></td> <!-- DDT-DEP -->
+    <td class="da dep">51.10 ± 0.44 / 54.44 ± 0.46</td> <!-- DDT-DEP -->
     <td class="da clf">47.97 ± 0.36</td> <!-- AngryTweets -->
     <td class="da clf">43.37 ± 0.35</td> <!-- TwitterSent -->
     <td class="da clf">22.58 ± 1.23</td> <!-- Europarl -->
@@ -647,7 +647,7 @@ title: Pretrained Benchmark
     <td class="clf-score"></td> <!-- Mean classification score -->
     <td class="da ner">79.05 ± 0.43 / 80.88 ± 0.39</td> <!-- DaNE -->
     <td class="da pos">97.39 ± 0.03</td> <!-- DDT-POS -->
-    <td class="da dep"></td> <!-- DDT-DEP -->
+    <td class="da dep">52.93 ± 0.34 / 55.33 ± 0.33</td> <!-- DDT-DEP -->
     <td class="da clf">60.78 ± 0.20</td> <!-- AngryTweets -->
     <td class="da clf">23.18 ± 0.22</td> <!-- TwitterSent -->
     <td class="da clf">22.63 ± 0.72</td> <!-- Europarl -->
@@ -691,7 +691,7 @@ title: Pretrained Benchmark
     <td class="clf-score"></td> <!-- Mean classification score -->
     <td class="da ner">83.81 ± 0.34 / 85.14 ± 0.37</td> <!-- DaNE -->
     <td class="da pos">98.28 ± 0.02</td> <!-- DDT-POS -->
-    <td class="da dep"></td> <!-- DDT-DEP -->
+    <td class="da dep">65.82 ± 0.31 / 68.13 ± 0.31</td> <!-- DDT-DEP -->
     <td class="da clf">64.83 ± 0.48</td> <!-- AngryTweets -->
     <td class="da clf">52.42 ± 0.75</td> <!-- TwitterSent -->
     <td class="da clf">65.54 ± 0.75</td> <!-- Europarl -->
@@ -779,7 +779,7 @@ title: Pretrained Benchmark
     <td class="clf-score"></td> <!-- Mean classification score -->
     <td class="da ner">82.22 ± 0.26 / 85.55 ± 0.29</td> <!-- DaNE -->
     <td class="da pos">97.22 ± 0.03</td> <!-- DDT-POS -->
-    <td class="da dep"></td> <!-- DDT-DEP -->
+    <td class="da dep">63.63 ± 0.15 / 66.28 ± 0.16</td> <!-- DDT-DEP -->
     <td class="da clf">56.49 ± 0.40</td> <!-- AngryTweets -->
     <td class="da clf">49.94 ± 0.58</td> <!-- TwitterSent -->
     <td class="da clf">22.73 ± 2.10</td> <!-- Europarl -->
@@ -911,7 +911,7 @@ title: Pretrained Benchmark
     <td class="clf-score"></td> <!-- Mean classification score -->
     <td class="da ner">74.84 ± 0.55 / 77.51 ± 0.53</td> <!-- DaNE -->
     <td class="da pos">97.76 ± 0.03</td> <!-- DDT-POS -->
-    <td class="da dep"></td> <!-- DDT-DEP -->
+    <td class="da dep">55.55 ± 0.29 / 58.10 ± 0.27</td> <!-- DDT-DEP -->
     <td class="da clf">42.98 ± 0.53</td> <!-- AngryTweets -->
     <td class="da clf">41.60 ± 0.36</td> <!-- TwitterSent -->
     <td class="da clf">49.08 ± 0.53</td> <!-- Europarl -->
@@ -955,7 +955,7 @@ title: Pretrained Benchmark
     <td class="clf-score"></td> <!-- Mean classification score -->
     <td class="da ner">82.51 ± 0.33 / 83.49 ± 0.34</td> <!-- DaNE -->
     <td class="da pos">97.97 ± 0.02</td> <!-- DDT-POS -->
-    <td class="da dep"></td> <!-- DDT-DEP -->
+    <td class="da dep">66.08 ± 0.41 / 68.80 ± 0.39</td> <!-- DDT-DEP -->
     <td class="da clf">64.30 ± 0.29</td> <!-- AngryTweets -->
     <td class="da clf">66.10 ± 0.50</td> <!-- TwitterSent -->
     <td class="da clf">73.70 ± 0.46</td> <!-- Europarl -->
@@ -1043,7 +1043,7 @@ title: Pretrained Benchmark
     <td class="clf-score"></td> <!-- Mean classification score -->
     <td class="da ner">59.80 ± 0.38 / 61.70 ± 0.43</td> <!-- DaNE -->
     <td class="da pos">93.17 ± 0.11</td> <!-- DDT-POS -->
-    <td class="da dep"></td> <!-- DDT-DEP -->
+    <td class="da dep">36.29 ± 0.24 / 40.29 ± 0.26</td> <!-- DDT-DEP -->
     <td class="da clf">52.93 ± 0.32</td> <!-- AngryTweets -->
     <td class="da clf">30.17 ± 0.51</td> <!-- TwitterSent -->
     <td class="da clf">21.96 ± 0.16</td> <!-- Europarl -->
@@ -1087,7 +1087,7 @@ title: Pretrained Benchmark
     <td class="clf-score"></td> <!-- Mean classification score -->
     <td class="da ner">84.31 ± 0.32 / 85.60 ± 0.34</td> <!-- DaNE -->
     <td class="da pos">98.32 ± 0.03</td> <!-- DDT-POS -->
-    <td class="da dep"></td> <!-- DDT-DEP -->
+    <td class="da dep">69.60 ± 0.14 / 72.08 ± 0.15</td> <!-- DDT-DEP -->
     <td class="da clf">63.89 ± 0.75</td> <!-- AngryTweets -->
     <td class="da clf">55.46 ± 0.49</td> <!-- TwitterSent -->
     <td class="da clf">69.92 ± 0.76</td> <!-- Europarl -->
@@ -1131,7 +1131,7 @@ title: Pretrained Benchmark
     <td class="clf-score"></td> <!-- Mean classification score -->
     <td class="da ner">85.98 ± 0.41 / 87.49 ± 0.35</td> <!-- DaNE -->
     <td class="da pos">98.49 ± 0.02</td> <!-- DDT-POS -->
-    <td class="da dep"></td> <!-- DDT-DEP -->
+    <td class="da dep">71.42 ± 0.50 / 73.62 ± 0.50</td> <!-- DDT-DEP -->
     <td class="da clf">69.19 ± 0.91</td> <!-- AngryTweets -->
     <td class="da clf">67.07 ± 0.44</td> <!-- TwitterSent -->
     <td class="da clf">50.66 ± 4.65</td> <!-- Europarl -->
@@ -1175,7 +1175,7 @@ title: Pretrained Benchmark
     <td class="clf-score"></td> <!-- Mean classification score -->
     <td class="da ner">81.71 ± 0.26 / 83.91 ± 0.29</td> <!-- DaNE -->
     <td class="da pos">97.38 ± 0.02</td> <!-- DDT-POS -->
-    <td class="da dep"></td> <!-- DDT-DEP -->
+    <td class="da dep">61.38 ± 0.38 / 63.90 ± 0.36</td> <!-- DDT-DEP -->
     <td class="da clf">58.61 ± 0.56</td> <!-- AngryTweets -->
     <td class="da clf">50.63 ± 0.69</td> <!-- TwitterSent -->
     <td class="da clf">22.73 ± 2.03</td> <!-- Europarl -->
@@ -1219,7 +1219,7 @@ title: Pretrained Benchmark
     <td class="clf-score"></td> <!-- Mean classification score -->
     <td class="da ner">81.24 ± 0.35 / 83.51 ± 0.34</td> <!-- DaNE -->
     <td class="da pos">96.87 ± 0.04</td> <!-- DDT-POS -->
-    <td class="da dep"></td> <!-- DDT-DEP -->
+    <td class="da dep">54.55 ± 0.32 / 57.46 ± 0.33</td> <!-- DDT-DEP -->
     <td class="da clf">55.27 ± 0.33</td> <!-- AngryTweets -->
     <td class="da clf">35.77 ± 1.24</td> <!-- TwitterSent -->
     <td class="da clf">38.20 ± 1.21</td> <!-- Europarl -->
@@ -1351,7 +1351,7 @@ title: Pretrained Benchmark
     <td class="clf-score"></td> <!-- Mean classification score -->
     <td class="da ner">81.87 ± 0.36 / 84.11 ± 0.40</td> <!-- DaNE -->
     <td class="da pos">97.46 ± 0.03</td> <!-- DDT-POS -->
-    <td class="da dep"></td> <!-- DDT-DEP -->
+    <td class="da dep">62.43 ± 0.41 / 64.95 ± 0.40</td> <!-- DDT-DEP -->
     <td class="da clf">57.43 ± 0.60</td> <!-- AngryTweets -->
     <td class="da clf">49.73 ± 0.73</td> <!-- TwitterSent -->
     <td class="da clf">54.04 ± 0.88</td> <!-- Europarl -->
@@ -1395,7 +1395,7 @@ title: Pretrained Benchmark
     <td class="clf-score"></td> <!-- Mean classification score -->
     <td class="da ner">80.89 ± 0.42 / 83.33 ± 0.35</td> <!-- DaNE -->
     <td class="da pos">97.21 ± 0.03</td> <!-- DDT-POS -->
-    <td class="da dep"></td> <!-- DDT-DEP -->
+    <td class="da dep">60.58 ± 0.44 / 63.06 ± 0.44</td> <!-- DDT-DEP -->
     <td class="da clf">57.96 ± 0.54</td> <!-- AngryTweets -->
     <td class="da clf">49.34 ± 0.49</td> <!-- TwitterSent -->
     <td class="da clf">22.73 ± 1.88</td> <!-- Europarl -->
@@ -1571,7 +1571,7 @@ title: Pretrained Benchmark
     <td class="clf-score"></td> <!-- Mean classification score -->
     <td class="da ner">77.16 ± 0.54 / 79.64 ± 0.54</td> <!-- DaNE -->
     <td class="da pos">96.71 ± 0.05</td> <!-- DDT-POS -->
-    <td class="da dep"></td> <!-- DDT-DEP -->
+    <td class="da dep">54.13 ± 0.18 / 57.10 ± 0.19</td> <!-- DDT-DEP -->
     <td class="da clf">53.93 ± 0.47</td> <!-- AngryTweets -->
     <td class="da clf">45.71 ± 1.17</td> <!-- TwitterSent -->
     <td class="da clf">35.70 ± 1.30</td> <!-- Europarl -->
@@ -1703,7 +1703,7 @@ title: Pretrained Benchmark
     <td class="clf-score"></td> <!-- Mean classification score -->
     <td class="da ner">75.17 ± 0.44 / 77.59 ± 0.53</td> <!-- DaNE -->
     <td class="da pos">97.63 ± 0.02</td> <!-- DDT-POS -->
-    <td class="da dep"></td> <!-- DDT-DEP -->
+    <td class="da dep">52.11 ± 0.44 / 54.86 ± 0.45</td> <!-- DDT-DEP -->
     <td class="da clf">60.72 ± 0.28</td> <!-- AngryTweets -->
     <td class="da clf">45.40 ± 0.35</td> <!-- TwitterSent -->
     <td class="da clf">42.15 ± 2.21</td> <!-- Europarl -->
@@ -1747,7 +1747,7 @@ title: Pretrained Benchmark
     <td class="clf-score"></td> <!-- Mean classification score -->
     <td class="da ner">73.92 ± 0.44 / 76.76 ± 0.40</td> <!-- DaNE -->
     <td class="da pos">96.54 ± 0.04</td> <!-- DDT-POS -->
-    <td class="da dep"></td> <!-- DDT-DEP -->
+    <td class="da dep">53.75 ± 0.61 / 57.27 ± 0.58</td> <!-- DDT-DEP -->
     <td class="da clf">52.72 ± 0.32</td> <!-- AngryTweets -->
     <td class="da clf">49.10 ± 1.59</td> <!-- TwitterSent -->
     <td class="da clf">22.01 ± 0.19</td> <!-- Europarl -->
@@ -1791,7 +1791,7 @@ title: Pretrained Benchmark
     <td class="clf-score"></td> <!-- Mean classification score -->
     <td class="da ner">32.65 ± 0.30 / 30.70 ± 0.33</td> <!-- DaNE -->
     <td class="da pos">81.92 ± 0.09</td> <!-- DDT-POS -->
-    <td class="da dep"></td> <!-- DDT-DEP -->
+    <td class="da dep">22.57 ± 0.14 / 27.23 ± 0.14</td> <!-- DDT-DEP -->
     <td class="da clf">38.77 ± 0.18</td> <!-- AngryTweets -->
     <td class="da clf">22.93 ± 0.16</td> <!-- TwitterSent -->
     <td class="da clf">21.96 ± 0.16</td> <!-- Europarl -->
