@@ -3,8 +3,6 @@ layout: leaderboard
 title: Pretrained Benchmark
 ---
 
-Description.
-
 <div class="table-wrapper centered">
 <table id="pretrained-leaderboard" class="sortable fixed centered small-font">
  <thead>

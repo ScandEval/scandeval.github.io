@@ -3,8 +3,6 @@ layout: leaderboard
 title: Finetuned Benchmark
 ---
 
-Description.
-
 <div class="table-wrapper centered">
 <table id="finetuned-leaderboard" class="sortable fixed centered small-font">
  <thead>
