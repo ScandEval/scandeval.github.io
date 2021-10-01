@@ -787,3 +787,7 @@ td.gutter {
   font-style: italic;
   font-size: 16px;
 }
+
+#frontpage-content {
+    margin: 5px;
+}
