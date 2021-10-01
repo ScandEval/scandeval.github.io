@@ -25,7 +25,7 @@ wider than the pretrained benchmark results, as we have to take the variability
 of the initialised parameters of the model into account.
 
 All benchmark results have been computed using the associated
-[ScandEval](https://github.com/saattrupdan/ScandEval) Python package, which you
+[ScandEval Python package](https://github.com/saattrupdan/ScandEval), which you
 can use to replicate the results as well. A paper on the package and
 leaderboards is in preparation, describing the methodology and all the datasets
 used in more depth.
