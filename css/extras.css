@@ -1,0 +1,21 @@
+/* Define the `fixed` class for tables, which wraps text properly */
+table.fixed {word-break:break-all;}
+table.fixed td {overflow:hidden;}
+
+/* Define the `centered` class for tables, which centers it */
+.centered {margin-left: auto; margin-right: auto;}
+table.centered th {text-align: center;}
+table.centered td {text-align: center;}
+
+/* Define the `small-font` class for tables, which makes the font smaller */
+table.small-font th {font-size: 14px;}
+table.small-font td {font-size: 14px;}
+
+/* Format the table inside the table wrapper, in particular ensures that the
+   table can be scrolled in both the x- and y-direction */
+div.table-wrapper {display: block; overflow-x: auto; white-space: nowrap;
+                   overflow-y: auto; width: 90%; height: 400px;}
+
+/* Ensure that the top row of the table being inside the table wrapper stays
+   fixed while scrolling */
+div.table-wrapper thead th {position: sticky; top: 0; z-index: 1;}
