@@ -6,7 +6,6 @@ subtitle: A Scandinavian Natural Language Understanding Benchmark
 use-site-title: true
 meta-description: ScandEval Benchmark of language models on Scandinavian language tasks
 ---
-
 The `ScandEval` benchmark can be used to compare both pretrained language
 models on Scandinavian language tasks, as well as comparing finetuned models on
 the tasks they were finetuned for.
