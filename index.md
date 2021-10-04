@@ -8,7 +8,10 @@ meta-description: ScandEval Benchmark of language models on Scandinavian languag
 ---
 The `ScandEval` benchmark can be used to compare both pretrained language
 models on Scandinavian language tasks, as well as comparing finetuned models on
-the tasks they were finetuned for.
+the tasks they were finetuned for. The benchmark evaluates the models on a
+variety of tasks: part-of-speech tagging, dependency parsing, named entity
+recognition and various classification tasks. By "Scandinavian" we here mean
+Danish, Swedish, Norwegian (both Bokmål and Nynorsk), Icelandic and Faroese.
 
 The [Pretrained Benchmark](https://scandeval.github.io/pretrained/) contains
 the result of finetuning the language model 10 times, and evaluating each of
