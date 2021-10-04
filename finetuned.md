@@ -297,7 +297,7 @@ title: Finetuned Benchmark
     <td class="sv ner">53.35 ± 0.17 / 63.05 ± 0.19</td> <!-- SUC3 -->
     <td class="is ner">50.57 ± 0.46</td> <!-- WikiANN-IS -->
     <td class="fo ner">51.72 ± 0.52</td> <!-- WikiANN-FO -->
-    <td class="da pos"></td> <!-- DDT-POS -->
+    <td class="da pos">98.50 ± 0.07</td> <!-- DDT-POS -->
     <td class="no pos"></td> <!-- NDT-NB-POS -->
     <td class="no pos"></td> <!-- NDT-NN-POS -->
     <td class="sv pos"></td> <!-- SDT-POS -->
