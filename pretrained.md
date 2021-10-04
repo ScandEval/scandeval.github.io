@@ -129,7 +129,7 @@ title: Pretrained Benchmark
     <td class="no ner">77.21 ± 0.27 / 80.87 ± 0.27</td> <!-- NorNE-NN -->
     <td class="no pos">98.11 ± 0.02</td> <!-- NDT-NB-POS -->
     <td class="no pos">97.42 ± 0.03</td> <!-- NDT-NN-POS -->
-    <td class="no dep"></td> <!-- NDT-NB-DEP -->
+    <td class="no dep">80.68 ± 0.22 / 82.96 ± 0.21</td> <!-- NDT-NB-DEP -->
     <td class="no dep"></td> <!-- NDT-NN-DEP -->
     <td class="no clf">58.23 ± 0.92</td> <!-- NoReC -->
     <td class="no clf">66.66 ± 0.38</td> <!-- NorDial -->
@@ -173,7 +173,7 @@ title: Pretrained Benchmark
     <td class="no ner">80.39 ± 0.47 / 84.13 ± 0.53</td> <!-- NorNE-NN -->
     <td class="no pos">98.19 ± 0.02</td> <!-- NDT-NB-POS -->
     <td class="no pos">97.40 ± 0.03</td> <!-- NDT-NN-POS -->
-    <td class="no dep"></td> <!-- NDT-NB-DEP -->
+    <td class="no dep">83.12 ± 0.18 / 85.51 ± 0.17</td> <!-- NDT-NB-DEP -->
     <td class="no dep"></td> <!-- NDT-NN-DEP -->
     <td class="no clf">57.19 ± 0.74</td> <!-- NoReC -->
     <td class="no clf">65.78 ± 0.52</td> <!-- NorDial -->
@@ -217,7 +217,7 @@ title: Pretrained Benchmark
     <td class="no ner">85.29 ± 0.25 / 88.47 ± 0.24</td> <!-- NorNE-NN -->
     <td class="no pos">98.52 ± 0.02</td> <!-- NDT-NB-POS -->
     <td class="no pos">98.29 ± 0.03</td> <!-- NDT-NN-POS -->
-    <td class="no dep"></td> <!-- NDT-NB-DEP -->
+    <td class="no dep">82.83 ± 0.26 / 85.18 ± 0.25</td> <!-- NDT-NB-DEP -->
     <td class="no dep"></td> <!-- NDT-NN-DEP -->
     <td class="no clf">53.70 ± 0.69</td> <!-- NoReC -->
     <td class="no clf">66.83 ± 0.42</td> <!-- NorDial -->
@@ -272,7 +272,7 @@ title: Pretrained Benchmark
     <td class="sv clf">38.84 ± 1.86</td> <!-- ABSAbank-Imm -->
     <td class="is ner">79.04 ± 0.35</td> <!-- WikiANN-IS -->
     <td class="is pos">98.22 ± 0.04</td> <!-- IDT-POS -->
-    <td class="is dep"></td> <!-- IDT-DEP -->
+    <td class="is dep">72.40 ± 0.45 / 75.73 ± 0.43</td> <!-- IDT-DEP -->
     <td class="is clf">37.48 ± 0.17</td> <!-- NoReC-IS -->
     <td class="fo ner">84.09 ± 0.18</td> <!-- WikiANN-FO -->
     <td class="fo pos">94.40 ± 0.06</td> <!-- FDT-POS -->
@@ -316,7 +316,7 @@ title: Pretrained Benchmark
     <td class="sv clf">44.43 ± 0.35</td> <!-- ABSAbank-Imm -->
     <td class="is ner">73.63 ± 0.13</td> <!-- WikiANN-IS -->
     <td class="is pos">97.75 ± 0.05</td> <!-- IDT-POS -->
-    <td class="is dep"></td> <!-- IDT-DEP -->
+    <td class="is dep">80.15 ± 0.27 / 81.30 ± 0.25</td> <!-- IDT-DEP -->
     <td class="is clf">38.42 ± 0.20</td> <!-- NoReC-IS -->
     <td class="fo ner">76.28 ± 0.18</td> <!-- WikiANN-FO -->
     <td class="fo pos">91.28 ± 0.10</td> <!-- FDT-POS -->
@@ -349,7 +349,7 @@ title: Pretrained Benchmark
     <td class="no ner">85.65 ± 0.15 / 88.92 ± 0.13</td> <!-- NorNE-NN -->
     <td class="no pos">98.16 ± 0.03</td> <!-- NDT-NB-POS -->
     <td class="no pos">97.88 ± 0.02</td> <!-- NDT-NN-POS -->
-    <td class="no dep"></td> <!-- NDT-NB-DEP -->
+    <td class="no dep">81.89 ± 0.14 / 84.02 ± 0.13</td> <!-- NDT-NB-DEP -->
     <td class="no dep"></td> <!-- NDT-NN-DEP -->
     <td class="no clf">60.48 ± 0.60</td> <!-- NoReC -->
     <td class="no clf">74.18 ± 1.56</td> <!-- NorDial -->
@@ -404,7 +404,7 @@ title: Pretrained Benchmark
     <td class="sv clf">25.49 ± 0.25</td> <!-- ABSAbank-Imm -->
     <td class="is ner">54.52 ± 0.20</td> <!-- WikiANN-IS -->
     <td class="is pos">63.95 ± 0.28</td> <!-- IDT-POS -->
-    <td class="is dep"></td> <!-- IDT-DEP -->
+    <td class="is dep">26.32 ± 0.30 / 36.77 ± 0.37</td> <!-- IDT-DEP -->
     <td class="is clf">43.14 ± 0.39</td> <!-- NoReC-IS -->
     <td class="fo ner">63.54 ± 0.21</td> <!-- WikiANN-FO -->
     <td class="fo pos">68.74 ± 0.11</td> <!-- FDT-POS -->
@@ -437,7 +437,7 @@ title: Pretrained Benchmark
     <td class="no ner">83.71 ± 0.22 / 87.39 ± 0.17</td> <!-- NorNE-NN -->
     <td class="no pos">97.73 ± 0.02</td> <!-- NDT-NB-POS -->
     <td class="no pos">97.42 ± 0.03</td> <!-- NDT-NN-POS -->
-    <td class="no dep"></td> <!-- NDT-NB-DEP -->
+    <td class="no dep">78.77 ± 0.12 / 81.42 ± 0.12</td> <!-- NDT-NB-DEP -->
     <td class="no dep"></td> <!-- NDT-NN-DEP -->
     <td class="no clf">58.39 ± 0.38</td> <!-- NoReC -->
     <td class="no clf">74.04 ± 1.29</td> <!-- NorDial -->
@@ -481,7 +481,7 @@ title: Pretrained Benchmark
     <td class="no ner">83.86 ± 0.35 / 87.78 ± 0.31</td> <!-- NorNE-NN -->
     <td class="no pos">97.90 ± 0.02</td> <!-- NDT-NB-POS -->
     <td class="no pos">97.53 ± 0.02</td> <!-- NDT-NN-POS -->
-    <td class="no dep"></td> <!-- NDT-NB-DEP -->
+    <td class="no dep">83.72 ± 0.12 / 86.04 ± 0.11</td> <!-- NDT-NB-DEP -->
     <td class="no dep"></td> <!-- NDT-NN-DEP -->
     <td class="no clf">65.43 ± 0.34</td> <!-- NoReC -->
     <td class="no clf">68.86 ± 1.26</td> <!-- NorDial -->
@@ -525,7 +525,7 @@ title: Pretrained Benchmark
     <td class="no ner">83.69 ± 0.29 / 87.47 ± 0.24</td> <!-- NorNE-NN -->
     <td class="no pos">98.26 ± 0.03</td> <!-- NDT-NB-POS -->
     <td class="no pos">97.67 ± 0.02</td> <!-- NDT-NN-POS -->
-    <td class="no dep"></td> <!-- NDT-NB-DEP -->
+    <td class="no dep">81.51 ± 0.19 / 83.80 ± 0.19</td> <!-- NDT-NB-DEP -->
     <td class="no dep"></td> <!-- NDT-NN-DEP -->
     <td class="no clf">60.02 ± 0.63</td> <!-- NoReC -->
     <td class="no clf">63.72 ± 0.49</td> <!-- NorDial -->
@@ -624,7 +624,7 @@ title: Pretrained Benchmark
     <td class="sv clf">30.21 ± 1.73</td> <!-- ABSAbank-Imm -->
     <td class="is ner">77.50 ± 0.32</td> <!-- WikiANN-IS -->
     <td class="is pos">95.91 ± 0.32</td> <!-- IDT-POS -->
-    <td class="is dep"></td> <!-- IDT-DEP -->
+    <td class="is dep">67.40 ± 1.31 / 70.61 ± 1.27</td> <!-- IDT-DEP -->
     <td class="is clf">28.16 ± 0.58</td> <!-- NoReC-IS -->
     <td class="fo ner">82.25 ± 0.14</td> <!-- WikiANN-FO -->
     <td class="fo pos">89.95 ± 0.11</td> <!-- FDT-POS -->
@@ -657,7 +657,7 @@ title: Pretrained Benchmark
     <td class="no ner">87.48 ± 0.23 / 90.80 ± 0.19</td> <!-- NorNE-NN -->
     <td class="no pos">98.51 ± 0.03</td> <!-- NDT-NB-POS -->
     <td class="no pos">98.45 ± 0.02</td> <!-- NDT-NN-POS -->
-    <td class="no dep"></td> <!-- NDT-NB-DEP -->
+    <td class="no dep">81.89 ± 0.28 / 83.80 ± 0.27</td> <!-- NDT-NB-DEP -->
     <td class="no dep"></td> <!-- NDT-NN-DEP -->
     <td class="no clf">30.68 ± 0.62</td> <!-- NoReC -->
     <td class="no clf">67.17 ± 0.36</td> <!-- NorDial -->
@@ -789,7 +789,7 @@ title: Pretrained Benchmark
     <td class="no ner">86.57 ± 0.25 / 89.18 ± 0.19</td> <!-- NorNE-NN -->
     <td class="no pos">98.21 ± 0.03</td> <!-- NDT-NB-POS -->
     <td class="no pos">97.99 ± 0.02</td> <!-- NDT-NN-POS -->
-    <td class="no dep"></td> <!-- NDT-NB-DEP -->
+    <td class="no dep">82.17 ± 0.19 / 84.24 ± 0.20</td> <!-- NDT-NB-DEP -->
     <td class="no dep"></td> <!-- NDT-NN-DEP -->
     <td class="no clf">61.88 ± 0.28</td> <!-- NoReC -->
     <td class="no clf">69.43 ± 0.97</td> <!-- NorDial -->
@@ -844,7 +844,7 @@ title: Pretrained Benchmark
     <td class="sv clf">45.09 ± 0.50</td> <!-- ABSAbank-Imm -->
     <td class="is ner">87.08 ± 0.11</td> <!-- WikiANN-IS -->
     <td class="is pos">98.95 ± 0.02</td> <!-- IDT-POS -->
-    <td class="is dep"></td> <!-- IDT-DEP -->
+    <td class="is dep">83.81 ± 0.59 / 85.18 ± 0.51</td> <!-- IDT-DEP -->
     <td class="is clf">48.36 ± 0.28</td> <!-- NoReC-IS -->
     <td class="fo ner">89.82 ± 0.15</td> <!-- WikiANN-FO -->
     <td class="fo pos">97.03 ± 0.03</td> <!-- FDT-POS -->
@@ -921,7 +921,7 @@ title: Pretrained Benchmark
     <td class="no ner">76.09 ± 0.28 / 79.38 ± 0.26</td> <!-- NorNE-NN -->
     <td class="no pos">97.77 ± 0.03</td> <!-- NDT-NB-POS -->
     <td class="no pos">97.18 ± 0.02</td> <!-- NDT-NN-POS -->
-    <td class="no dep"></td> <!-- NDT-NB-DEP -->
+    <td class="no dep">77.71 ± 0.17 / 80.49 ± 0.16</td> <!-- NDT-NB-DEP -->
     <td class="no dep"></td> <!-- NDT-NN-DEP -->
     <td class="no clf">45.04 ± 0.15</td> <!-- NoReC -->
     <td class="no clf">69.09 ± 0.86</td> <!-- NorDial -->
@@ -932,7 +932,7 @@ title: Pretrained Benchmark
     <td class="sv clf">30.21 ± 1.18</td> <!-- ABSAbank-Imm -->
     <td class="is ner">70.97 ± 0.18</td> <!-- WikiANN-IS -->
     <td class="is pos">90.78 ± 0.11</td> <!-- IDT-POS -->
-    <td class="is dep"></td> <!-- IDT-DEP -->
+    <td class="is dep">66.85 ± 0.41 / 73.86 ± 0.32</td> <!-- IDT-DEP -->
     <td class="is clf">38.78 ± 0.36</td> <!-- NoReC-IS -->
     <td class="fo ner">78.36 ± 0.15</td> <!-- WikiANN-FO -->
     <td class="fo pos">83.93 ± 0.09</td> <!-- FDT-POS -->
@@ -965,7 +965,7 @@ title: Pretrained Benchmark
     <td class="no ner">89.34 ± 0.17 / 91.96 ± 0.17</td> <!-- NorNE-NN -->
     <td class="no pos">98.56 ± 0.02</td> <!-- NDT-NB-POS -->
     <td class="no pos">98.13 ± 0.03</td> <!-- NDT-NN-POS -->
-    <td class="no dep"></td> <!-- NDT-NB-DEP -->
+    <td class="no dep">86.36 ± 0.07 / 88.23 ± 0.06</td> <!-- NDT-NB-DEP -->
     <td class="no dep"></td> <!-- NDT-NN-DEP -->
     <td class="no clf">69.49 ± 0.33</td> <!-- NoReC -->
     <td class="no clf">67.50 ± 0.61</td> <!-- NorDial -->
@@ -1020,7 +1020,7 @@ title: Pretrained Benchmark
     <td class="sv clf">47.84 ± 0.39</td> <!-- ABSAbank-Imm -->
     <td class="is ner">89.94 ± 0.15</td> <!-- WikiANN-IS -->
     <td class="is pos">99.46 ± 0.02</td> <!-- IDT-POS -->
-    <td class="is dep"></td> <!-- IDT-DEP -->
+    <td class="is dep">90.16 ± 0.31 / 91.26 ± 0.28</td> <!-- IDT-DEP -->
     <td class="is clf">53.98 ± 0.31</td> <!-- NoReC-IS -->
     <td class="fo ner">86.78 ± 0.17</td> <!-- WikiANN-FO -->
     <td class="fo pos">97.47 ± 0.04</td> <!-- FDT-POS -->
@@ -1229,7 +1229,7 @@ title: Pretrained Benchmark
     <td class="no ner">83.23 ± 0.29 / 86.74 ± 0.21</td> <!-- NorNE-NN -->
     <td class="no pos">97.81 ± 0.02</td> <!-- NDT-NB-POS -->
     <td class="no pos">97.52 ± 0.04</td> <!-- NDT-NN-POS -->
-    <td class="no dep"></td> <!-- NDT-NB-DEP -->
+    <td class="no dep">79.53 ± 0.15 / 82.15 ± 0.14</td> <!-- NDT-NB-DEP -->
     <td class="no dep"></td> <!-- NDT-NN-DEP -->
     <td class="no clf">54.25 ± 0.55</td> <!-- NoReC -->
     <td class="no clf">67.53 ± 0.54</td> <!-- NorDial -->
@@ -1273,7 +1273,7 @@ title: Pretrained Benchmark
     <td class="no ner">86.11 ± 0.25 / 89.73 ± 0.15</td> <!-- NorNE-NN -->
     <td class="no pos">98.43 ± 0.03</td> <!-- NDT-NB-POS -->
     <td class="no pos">98.11 ± 0.03</td> <!-- NDT-NN-POS -->
-    <td class="no dep"></td> <!-- NDT-NB-DEP -->
+    <td class="no dep">87.23 ± 0.07 / 89.14 ± 0.08</td> <!-- NDT-NB-DEP -->
     <td class="no dep"></td> <!-- NDT-NN-DEP -->
     <td class="no clf">67.20 ± 0.32</td> <!-- NoReC -->
     <td class="no clf">66.24 ± 0.47</td> <!-- NorDial -->
@@ -1317,7 +1317,7 @@ title: Pretrained Benchmark
     <td class="no ner">86.74 ± 0.20 / 89.79 ± 0.17</td> <!-- NorNE-NN -->
     <td class="no pos">98.15 ± 0.02</td> <!-- NDT-NB-POS -->
     <td class="no pos">98.05 ± 0.03</td> <!-- NDT-NN-POS -->
-    <td class="no dep"></td> <!-- NDT-NB-DEP -->
+    <td class="no dep">81.23 ± 0.17 / 83.35 ± 0.18</td> <!-- NDT-NB-DEP -->
     <td class="no dep"></td> <!-- NDT-NN-DEP -->
     <td class="no clf">62.44 ± 0.26</td> <!-- NoReC -->
     <td class="no clf">72.99 ± 1.46</td> <!-- NorDial -->
@@ -1361,7 +1361,7 @@ title: Pretrained Benchmark
     <td class="no ner">86.32 ± 0.28 / 89.03 ± 0.24</td> <!-- NorNE-NN -->
     <td class="no pos">98.24 ± 0.03</td> <!-- NDT-NB-POS -->
     <td class="no pos">98.03 ± 0.02</td> <!-- NDT-NN-POS -->
-    <td class="no dep"></td> <!-- NDT-NB-DEP -->
+    <td class="no dep">82.68 ± 0.17 / 84.75 ± 0.17</td> <!-- NDT-NB-DEP -->
     <td class="no dep">80.35 ± 0.21 / 82.82 ± 0.20</td> <!-- NDT-NN-DEP -->
     <td class="no clf">62.97 ± 0.29</td> <!-- NoReC -->
     <td class="no clf">70.33 ± 1.59</td> <!-- NorDial -->
@@ -1405,7 +1405,7 @@ title: Pretrained Benchmark
     <td class="no ner">86.17 ± 0.12 / 89.40 ± 0.15</td> <!-- NorNE-NN -->
     <td class="no pos">98.21 ± 0.02</td> <!-- NDT-NB-POS -->
     <td class="no pos">98.05 ± 0.02</td> <!-- NDT-NN-POS -->
-    <td class="no dep"></td> <!-- NDT-NB-DEP -->
+    <td class="no dep">82.23 ± 0.22 / 84.34 ± 0.22</td> <!-- NDT-NB-DEP -->
     <td class="no dep"></td> <!-- NDT-NN-DEP -->
     <td class="no clf">64.61 ± 0.37</td> <!-- NoReC -->
     <td class="no clf">74.97 ± 1.34</td> <!-- NorDial -->
@@ -1449,7 +1449,7 @@ title: Pretrained Benchmark
     <td class="no ner">84.81 ± 0.23 / 88.09 ± 0.19</td> <!-- NorNE-NN -->
     <td class="no pos">97.81 ± 0.02</td> <!-- NDT-NB-POS -->
     <td class="no pos">97.54 ± 0.03</td> <!-- NDT-NN-POS -->
-    <td class="no dep"></td> <!-- NDT-NB-DEP -->
+    <td class="no dep">78.19 ± 0.11 / 80.77 ± 0.11</td> <!-- NDT-NB-DEP -->
     <td class="no dep"></td> <!-- NDT-NN-DEP -->
     <td class="no clf">55.33 ± 0.51</td> <!-- NoReC -->
     <td class="no clf">73.66 ± 1.40</td> <!-- NorDial -->
@@ -1460,7 +1460,7 @@ title: Pretrained Benchmark
     <td class="sv clf">49.64 ± 0.38</td> <!-- ABSAbank-Imm -->
     <td class="is ner">87.76 ± 0.12</td> <!-- WikiANN-IS -->
     <td class="is pos">99.09 ± 0.02</td> <!-- IDT-POS -->
-    <td class="is dep"></td> <!-- IDT-DEP -->
+    <td class="is dep">83.18 ± 0.26 / 84.80 ± 0.23</td> <!-- IDT-DEP -->
     <td class="is clf">49.50 ± 0.29</td> <!-- NoReC-IS -->
     <td class="fo ner">89.16 ± 0.13</td> <!-- WikiANN-FO -->
     <td class="fo pos">96.99 ± 0.05</td> <!-- FDT-POS -->
@@ -1493,7 +1493,7 @@ title: Pretrained Benchmark
     <td class="no ner">83.06 ± 0.25 / 86.77 ± 0.21</td> <!-- NorNE-NN -->
     <td class="no pos">97.79 ± 0.02</td> <!-- NDT-NB-POS -->
     <td class="no pos">97.57 ± 0.03</td> <!-- NDT-NN-POS -->
-    <td class="no dep"></td> <!-- NDT-NB-DEP -->
+    <td class="no dep">78.77 ± 0.20 / 81.32 ± 0.19</td> <!-- NDT-NB-DEP -->
     <td class="no dep"></td> <!-- NDT-NN-DEP -->
     <td class="no clf">55.86 ± 0.59</td> <!-- NoReC -->
     <td class="no clf">67.32 ± 0.38</td> <!-- NorDial -->
@@ -1504,7 +1504,7 @@ title: Pretrained Benchmark
     <td class="sv clf">48.25 ± 0.57</td> <!-- ABSAbank-Imm -->
     <td class="is ner">87.66 ± 0.13</td> <!-- WikiANN-IS -->
     <td class="is pos">99.00 ± 0.02</td> <!-- IDT-POS -->
-    <td class="is dep"></td> <!-- IDT-DEP -->
+    <td class="is dep">86.00 ± 0.17 / 87.16 ± 0.16</td> <!-- IDT-DEP -->
     <td class="is clf">36.33 ± 0.89</td> <!-- NoReC-IS -->
     <td class="fo ner">89.67 ± 0.12</td> <!-- WikiANN-FO -->
     <td class="fo pos">96.73 ± 0.06</td> <!-- FDT-POS -->
@@ -1537,7 +1537,7 @@ title: Pretrained Benchmark
     <td class="no ner">88.18 ± 0.23 / 91.19 ± 0.19</td> <!-- NorNE-NN -->
     <td class="no pos">98.28 ± 0.03</td> <!-- NDT-NB-POS -->
     <td class="no pos">98.01 ± 0.03</td> <!-- NDT-NN-POS -->
-    <td class="no dep"></td> <!-- NDT-NB-DEP -->
+    <td class="no dep">82.55 ± 0.15 / 84.59 ± 0.15</td> <!-- NDT-NB-DEP -->
     <td class="no dep"></td> <!-- NDT-NN-DEP -->
     <td class="no clf">63.64 ± 0.29</td> <!-- NoReC -->
     <td class="no clf">67.17 ± 1.15</td> <!-- NorDial -->
@@ -1581,7 +1581,7 @@ title: Pretrained Benchmark
     <td class="no ner">84.19 ± 0.28 / 87.81 ± 0.23</td> <!-- NorNE-NN -->
     <td class="no pos">97.83 ± 0.02</td> <!-- NDT-NB-POS -->
     <td class="no pos">97.56 ± 0.02</td> <!-- NDT-NN-POS -->
-    <td class="no dep"></td> <!-- NDT-NB-DEP -->
+    <td class="no dep">78.28 ± 0.08 / 80.80 ± 0.08</td> <!-- NDT-NB-DEP -->
     <td class="no dep"></td> <!-- NDT-NN-DEP -->
     <td class="no clf">57.58 ± 0.60</td> <!-- NoReC -->
     <td class="no clf">67.21 ± 0.54</td> <!-- NorDial -->
@@ -1625,7 +1625,7 @@ title: Pretrained Benchmark
     <td class="no ner">83.60 ± 0.27 / 86.67 ± 0.23</td> <!-- NorNE-NN -->
     <td class="no pos">97.73 ± 0.02</td> <!-- NDT-NB-POS -->
     <td class="no pos">97.54 ± 0.03</td> <!-- NDT-NN-POS -->
-    <td class="no dep"></td> <!-- NDT-NB-DEP -->
+    <td class="no dep">77.77 ± 0.18 / 80.50 ± 0.17</td> <!-- NDT-NB-DEP -->
     <td class="no dep"></td> <!-- NDT-NN-DEP -->
     <td class="no clf">56.33 ± 0.40</td> <!-- NoReC -->
     <td class="no clf">74.07 ± 1.01</td> <!-- NorDial -->
@@ -1636,7 +1636,7 @@ title: Pretrained Benchmark
     <td class="sv clf">46.37 ± 0.44</td> <!-- ABSAbank-Imm -->
     <td class="is ner">86.94 ± 0.12</td> <!-- WikiANN-IS -->
     <td class="is pos">99.08 ± 0.02</td> <!-- IDT-POS -->
-    <td class="is dep"></td> <!-- IDT-DEP -->
+    <td class="is dep">82.52 ± 0.93 / 84.03 ± 0.83</td> <!-- IDT-DEP -->
     <td class="is clf">46.88 ± 0.15</td> <!-- NoReC-IS -->
     <td class="fo ner">89.90 ± 0.13</td> <!-- WikiANN-FO -->
     <td class="fo pos">97.01 ± 0.05</td> <!-- FDT-POS -->
@@ -1669,7 +1669,7 @@ title: Pretrained Benchmark
     <td class="no ner">76.86 ± 0.25 / 80.40 ± 0.27</td> <!-- NorNE-NN -->
     <td class="no pos">97.81 ± 0.03</td> <!-- NDT-NB-POS -->
     <td class="no pos">97.45 ± 0.02</td> <!-- NDT-NN-POS -->
-    <td class="no dep"></td> <!-- NDT-NB-DEP -->
+    <td class="no dep">76.24 ± 0.24 / 78.91 ± 0.24</td> <!-- NDT-NB-DEP -->
     <td class="no dep"></td> <!-- NDT-NN-DEP -->
     <td class="no clf">61.32 ± 0.30</td> <!-- NoReC -->
     <td class="no clf">64.94 ± 0.54</td> <!-- NorDial -->
@@ -1724,7 +1724,7 @@ title: Pretrained Benchmark
     <td class="sv clf">43.73 ± 0.84</td> <!-- ABSAbank-Imm -->
     <td class="is ner">69.03 ± 0.19</td> <!-- WikiANN-IS -->
     <td class="is pos">90.69 ± 0.11</td> <!-- IDT-POS -->
-    <td class="is dep"></td> <!-- IDT-DEP -->
+    <td class="is dep">70.97 ± 0.48 / 76.04 ± 0.38</td> <!-- IDT-DEP -->
     <td class="is clf">41.29 ± 1.01</td> <!-- NoReC-IS -->
     <td class="fo ner">78.15 ± 0.28</td> <!-- WikiANN-FO -->
     <td class="fo pos">84.54 ± 0.10</td> <!-- FDT-POS -->
@@ -1757,7 +1757,7 @@ title: Pretrained Benchmark
     <td class="no ner">77.93 ± 0.28 / 81.75 ± 0.27</td> <!-- NorNE-NN -->
     <td class="no pos">97.88 ± 0.03</td> <!-- NDT-NB-POS -->
     <td class="no pos">96.99 ± 0.04</td> <!-- NDT-NN-POS -->
-    <td class="no dep"></td> <!-- NDT-NB-DEP -->
+    <td class="no dep">82.84 ± 0.25 / 85.65 ± 0.23</td> <!-- NDT-NB-DEP -->
     <td class="no dep">79.13 ± 0.09 / 82.42 ± 0.08</td> <!-- NDT-NN-DEP -->
     <td class="no clf">45.58 ± 0.91</td> <!-- NoReC -->
     <td class="no clf">68.27 ± 1.00</td> <!-- NorDial -->
@@ -1812,7 +1812,7 @@ title: Pretrained Benchmark
     <td class="sv clf">29.03 ± 0.69</td> <!-- ABSAbank-Imm -->
     <td class="is ner">63.44 ± 0.13</td> <!-- WikiANN-IS -->
     <td class="is pos">95.71 ± 0.07</td> <!-- IDT-POS -->
-    <td class="is dep"></td> <!-- IDT-DEP -->
+    <td class="is dep">76.12 ± 0.27 / 77.50 ± 0.26</td> <!-- IDT-DEP -->
     <td class="is clf">38.68 ± 0.35</td> <!-- NoReC-IS -->
     <td class="fo ner">70.74 ± 0.31</td> <!-- WikiANN-FO -->
     <td class="fo pos">85.33 ± 0.09</td> <!-- FDT-POS -->
