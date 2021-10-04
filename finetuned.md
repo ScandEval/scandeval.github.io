@@ -299,7 +299,7 @@ title: Finetuned Benchmark
     <td class="fo ner">51.72 ± 0.52</td> <!-- WikiANN-FO -->
     <td class="da pos">98.50 ± 0.07</td> <!-- DDT-POS -->
     <td class="no pos">88.68 ± 0.09</td> <!-- NDT-NB-POS -->
-    <td class="no pos"></td> <!-- NDT-NN-POS -->
+    <td class="no pos">85.30 ± 0.16</td> <!-- NDT-NN-POS -->
     <td class="sv pos"></td> <!-- SDT-POS -->
     <td class="is pos">86.32 ± 0.26</td> <!-- IDT-POS -->
     <td class="fo pos">73.05 ± 0.20</td> <!-- FDT-POS -->
