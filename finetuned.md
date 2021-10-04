@@ -300,7 +300,7 @@ title: Finetuned Benchmark
     <td class="da pos">98.50 ± 0.07</td> <!-- DDT-POS -->
     <td class="no pos">88.68 ± 0.09</td> <!-- NDT-NB-POS -->
     <td class="no pos">85.30 ± 0.16</td> <!-- NDT-NN-POS -->
-    <td class="sv pos"></td> <!-- SDT-POS -->
+    <td class="sv pos">92.21 ± 0.09</td> <!-- SDT-POS -->
     <td class="is pos">86.32 ± 0.26</td> <!-- IDT-POS -->
     <td class="fo pos">73.05 ± 0.20</td> <!-- FDT-POS -->
     <td class="da dep">87.08 ± 0.32 / 89.13 ± 0.34</td> <!-- DDT-DEP -->
