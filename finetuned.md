@@ -304,9 +304,9 @@ title: Finetuned Benchmark
     <td class="is pos">86.32 ± 0.26</td> <!-- IDT-POS -->
     <td class="fo pos">73.05 ± 0.20</td> <!-- FDT-POS -->
     <td class="da dep">87.08 ± 0.32 / 89.13 ± 0.34</td> <!-- DDT-DEP -->
-    <td class="no dep"></td> <!-- NDT-NB-DEP -->
-    <td class="no dep"></td> <!-- NDT-NN-DEP -->
-    <td class="sv dep"></td> <!-- SDT-DEP -->
+    <td class="no dep">72.77 ± 0.20 / 80.02 ± 0.16</td> <!-- NDT-NB-DEP -->
+    <td class="no dep">69.22 ± 0.32 / 77.53 ± 0.31</td> <!-- NDT-NN-DEP -->
+    <td class="sv dep">71.97 ± 0.36 / 79.57 ± 0.44</td> <!-- SDT-DEP -->
     <td class="is dep">42.49 ± 0.63 / 54.85 ± 0.71</td> <!-- IDT-DEP -->
     <td class="fo dep">40.63 ± 0.53 / 54.65 ± 0.50</td> <!-- FDT-DEP -->
     <td class="da sent">-</td> <!-- AngryTweets -->
