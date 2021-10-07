@@ -135,7 +135,7 @@ title: Pretrained Benchmark
     <td class="no clf">66.66 ± 0.38</td> <!-- NorDial -->
     <td class="sv ner"></td> <!-- SUC3 -->
     <td class="sv pos">96.29 ± 0.04</td> <!-- SDT-POS -->
-    <td class="sv dep"></td> <!-- SDT-DEP -->
+    <td class="sv dep">58.72 ± 0.41 / 62.47 ± 0.41</td> <!-- SDT-DEP -->
     <td class="sv clf">42.60 ± 0.39</td> <!-- DaLaJ -->
     <td class="sv clf">48.78 ± 0.47</td> <!-- ABSAbank-Imm -->
     <td class="is ner">83.67 ± 0.16</td> <!-- WikiANN-IS -->
@@ -353,9 +353,9 @@ title: Pretrained Benchmark
     <td class="no dep"></td> <!-- NDT-NN-DEP -->
     <td class="no clf">60.48 ± 0.60</td> <!-- NoReC -->
     <td class="no clf">74.18 ± 1.56</td> <!-- NorDial -->
-    <td class="sv ner"></td> <!-- SUC3 -->
+    <td class="sv ner">84.78 ± 0.05 / 88.11 ± 0.06</td> <!-- SUC3 -->
     <td class="sv pos">97.71 ± 0.03</td> <!-- SDT-POS -->
-    <td class="sv dep"></td> <!-- SDT-DEP -->
+    <td class="sv dep">66.30 ± 0.35 / 68.89 ± 0.35</td> <!-- SDT-DEP -->
     <td class="sv clf">48.26 ± 0.41</td> <!-- DaLaJ -->
     <td class="sv clf">49.53 ± 0.43</td> <!-- ABSAbank-Imm -->
     <td class="is ner">88.86 ± 0.15</td> <!-- WikiANN-IS -->
@@ -443,7 +443,7 @@ title: Pretrained Benchmark
     <td class="no clf">74.04 ± 1.29</td> <!-- NorDial -->
     <td class="sv ner"></td> <!-- SUC3 -->
     <td class="sv pos">96.81 ± 0.03</td> <!-- SDT-POS -->
-    <td class="sv dep"></td> <!-- SDT-DEP -->
+    <td class="sv dep">55.80 ± 0.33 / 59.04 ± 0.33</td> <!-- SDT-DEP -->
     <td class="sv clf">48.33 ± 0.28</td> <!-- DaLaJ -->
     <td class="sv clf">47.82 ± 0.57</td> <!-- ABSAbank-Imm -->
     <td class="is ner">87.77 ± 0.17</td> <!-- WikiANN-IS -->
@@ -663,7 +663,7 @@ title: Pretrained Benchmark
     <td class="no clf">67.17 ± 0.36</td> <!-- NorDial -->
     <td class="sv ner"></td> <!-- SUC3 -->
     <td class="sv pos">55.13 ± 1.05</td> <!-- SDT-POS -->
-    <td class="sv dep"></td> <!-- SDT-DEP -->
+    <td class="sv dep">1.52 ± 0.05 / 7.63 ± 0.09</td> <!-- SDT-DEP -->
     <td class="sv clf">48.91 ± 1.08</td> <!-- DaLaJ -->
     <td class="sv clf">42.96 ± 0.42</td> <!-- ABSAbank-Imm -->
     <td class="is ner">83.41 ± 0.15</td> <!-- WikiANN-IS -->
@@ -795,7 +795,7 @@ title: Pretrained Benchmark
     <td class="no clf">69.43 ± 0.97</td> <!-- NorDial -->
     <td class="sv ner"></td> <!-- SUC3 -->
     <td class="sv pos">97.77 ± 0.03</td> <!-- SDT-POS -->
-    <td class="sv dep"></td> <!-- SDT-DEP -->
+    <td class="sv dep">64.25 ± 0.68 / 66.84 ± 0.65</td> <!-- SDT-DEP -->
     <td class="sv clf">47.80 ± 0.39</td> <!-- DaLaJ -->
     <td class="sv clf">47.25 ± 0.60</td> <!-- ABSAbank-Imm -->
     <td class="is ner">88.99 ± 0.13</td> <!-- WikiANN-IS -->
@@ -839,7 +839,7 @@ title: Pretrained Benchmark
     <td class="no clf">69.34 ± 0.85</td> <!-- NorDial -->
     <td class="sv ner"></td> <!-- SUC3 -->
     <td class="sv pos">96.84 ± 0.05</td> <!-- SDT-POS -->
-    <td class="sv dep"></td> <!-- SDT-DEP -->
+    <td class="sv dep">54.59 ± 0.14 / 57.66 ± 0.14</td> <!-- SDT-DEP -->
     <td class="sv clf">46.44 ± 0.25</td> <!-- DaLaJ -->
     <td class="sv clf">45.09 ± 0.50</td> <!-- ABSAbank-Imm -->
     <td class="is ner">87.08 ± 0.11</td> <!-- WikiANN-IS -->
@@ -1323,7 +1323,7 @@ title: Pretrained Benchmark
     <td class="no clf">72.99 ± 1.46</td> <!-- NorDial -->
     <td class="sv ner"></td> <!-- SUC3 -->
     <td class="sv pos">97.48 ± 0.03</td> <!-- SDT-POS -->
-    <td class="sv dep"></td> <!-- SDT-DEP -->
+    <td class="sv dep">65.76 ± 0.31 / 68.38 ± 0.30</td> <!-- SDT-DEP -->
     <td class="sv clf">46.87 ± 0.43</td> <!-- DaLaJ -->
     <td class="sv clf">47.93 ± 0.42</td> <!-- ABSAbank-Imm -->
     <td class="is ner">89.19 ± 0.14</td> <!-- WikiANN-IS -->
@@ -1367,7 +1367,7 @@ title: Pretrained Benchmark
     <td class="no clf">70.33 ± 1.59</td> <!-- NorDial -->
     <td class="sv ner"></td> <!-- SUC3 -->
     <td class="sv pos">97.90 ± 0.03</td> <!-- SDT-POS -->
-    <td class="sv dep"></td> <!-- SDT-DEP -->
+    <td class="sv dep">64.69 ± 0.56 / 67.21 ± 0.56</td> <!-- SDT-DEP -->
     <td class="sv clf">45.02 ± 0.50</td> <!-- DaLaJ -->
     <td class="sv clf">47.82 ± 0.46</td> <!-- ABSAbank-Imm -->
     <td class="is ner">89.55 ± 0.13</td> <!-- WikiANN-IS -->
@@ -1409,9 +1409,9 @@ title: Pretrained Benchmark
     <td class="no dep"></td> <!-- NDT-NN-DEP -->
     <td class="no clf">64.61 ± 0.37</td> <!-- NoReC -->
     <td class="no clf">74.97 ± 1.34</td> <!-- NorDial -->
-    <td class="sv ner"></td> <!-- SUC3 -->
+    <td class="sv ner">85.62 ± 0.17 / 88.58 ± 0.17</td> <!-- SUC3 -->
     <td class="sv pos">97.69 ± 0.03</td> <!-- SDT-POS -->
-    <td class="sv dep"></td> <!-- SDT-DEP -->
+    <td class="sv dep">63.44 ± 0.13 / 65.91 ± 0.13</td> <!-- SDT-DEP -->
     <td class="sv clf">46.55 ± 0.36</td> <!-- DaLaJ -->
     <td class="sv clf">45.34 ± 0.47</td> <!-- ABSAbank-Imm -->
     <td class="is ner">89.12 ± 0.11</td> <!-- WikiANN-IS -->
@@ -1455,7 +1455,7 @@ title: Pretrained Benchmark
     <td class="no clf">73.66 ± 1.40</td> <!-- NorDial -->
     <td class="sv ner"></td> <!-- SUC3 -->
     <td class="sv pos">97.08 ± 0.04</td> <!-- SDT-POS -->
-    <td class="sv dep"></td> <!-- SDT-DEP -->
+    <td class="sv dep">57.13 ± 0.37 / 60.24 ± 0.37</td> <!-- SDT-DEP -->
     <td class="sv clf">47.74 ± 0.31</td> <!-- DaLaJ -->
     <td class="sv clf">49.64 ± 0.38</td> <!-- ABSAbank-Imm -->
     <td class="is ner">87.76 ± 0.12</td> <!-- WikiANN-IS -->
@@ -1499,7 +1499,7 @@ title: Pretrained Benchmark
     <td class="no clf">67.32 ± 0.38</td> <!-- NorDial -->
     <td class="sv ner"></td> <!-- SUC3 -->
     <td class="sv pos">96.70 ± 0.04</td> <!-- SDT-POS -->
-    <td class="sv dep"></td> <!-- SDT-DEP -->
+    <td class="sv dep">56.76 ± 0.16 / 59.79 ± 0.16</td> <!-- SDT-DEP -->
     <td class="sv clf">48.10 ± 0.38</td> <!-- DaLaJ -->
     <td class="sv clf">48.25 ± 0.57</td> <!-- ABSAbank-Imm -->
     <td class="is ner">87.66 ± 0.13</td> <!-- WikiANN-IS -->
@@ -1543,7 +1543,7 @@ title: Pretrained Benchmark
     <td class="no clf">67.17 ± 1.15</td> <!-- NorDial -->
     <td class="sv ner"></td> <!-- SUC3 -->
     <td class="sv pos">97.76 ± 0.03</td> <!-- SDT-POS -->
-    <td class="sv dep"></td> <!-- SDT-DEP -->
+    <td class="sv dep">63.43 ± 0.36 / 65.98 ± 0.37</td> <!-- SDT-DEP -->
     <td class="sv clf">46.25 ± 0.79</td> <!-- DaLaJ -->
     <td class="sv clf">49.62 ± 0.38</td> <!-- ABSAbank-Imm -->
     <td class="is ner">89.36 ± 0.15</td> <!-- WikiANN-IS -->
@@ -1587,7 +1587,7 @@ title: Pretrained Benchmark
     <td class="no clf">67.21 ± 0.54</td> <!-- NorDial -->
     <td class="sv ner"></td> <!-- SUC3 -->
     <td class="sv pos">97.01 ± 0.04</td> <!-- SDT-POS -->
-    <td class="sv dep"></td> <!-- SDT-DEP -->
+    <td class="sv dep">57.46 ± 0.33 / 60.64 ± 0.33</td> <!-- SDT-DEP -->
     <td class="sv clf">47.25 ± 0.38</td> <!-- DaLaJ -->
     <td class="sv clf">47.72 ± 0.37</td> <!-- ABSAbank-Imm -->
     <td class="is ner">87.15 ± 0.11</td> <!-- WikiANN-IS -->
@@ -1631,7 +1631,7 @@ title: Pretrained Benchmark
     <td class="no clf">74.07 ± 1.01</td> <!-- NorDial -->
     <td class="sv ner"></td> <!-- SUC3 -->
     <td class="sv pos">96.71 ± 0.04</td> <!-- SDT-POS -->
-    <td class="sv dep"></td> <!-- SDT-DEP -->
+    <td class="sv dep">56.60 ± 0.30 / 59.68 ± 0.31</td> <!-- SDT-DEP -->
     <td class="sv clf">34.30 ± 0.68</td> <!-- DaLaJ -->
     <td class="sv clf">46.37 ± 0.44</td> <!-- ABSAbank-Imm -->
     <td class="is ner">86.94 ± 0.12</td> <!-- WikiANN-IS -->
