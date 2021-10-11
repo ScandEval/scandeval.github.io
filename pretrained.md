@@ -267,7 +267,7 @@ title: Pretrained Benchmark
     <td class="no clf">64.96 ± 0.38</td> <!-- NorDial -->
     <td class="sv ner"></td> <!-- SUC3 -->
     <td class="sv pos">96.14 ± 0.03</td> <!-- SDT-POS -->
-    <td class="sv dep"></td> <!-- SDT-DEP -->
+    <td class="sv dep">56.85 ± 0.13 / 60.60 ± 0.13</td> <!-- SDT-DEP -->
     <td class="sv clf">49.63 ± 1.14</td> <!-- DaLaJ -->
     <td class="sv clf">38.84 ± 1.86</td> <!-- ABSAbank-Imm -->
     <td class="is ner">79.04 ± 0.35</td> <!-- WikiANN-IS -->
@@ -311,7 +311,7 @@ title: Pretrained Benchmark
     <td class="no clf">64.26 ± 0.42</td> <!-- NorDial -->
     <td class="sv ner"></td> <!-- SUC3 -->
     <td class="sv pos">92.25 ± 0.04</td> <!-- SDT-POS -->
-    <td class="sv dep"></td> <!-- SDT-DEP -->
+    <td class="sv dep">38.70 ± 0.12 / 42.98 ± 0.13</td> <!-- SDT-DEP -->
     <td class="sv clf">47.24 ± 0.27</td> <!-- DaLaJ -->
     <td class="sv clf">44.43 ± 0.35</td> <!-- ABSAbank-Imm -->
     <td class="is ner">73.63 ± 0.13</td> <!-- WikiANN-IS -->
@@ -883,7 +883,7 @@ title: Pretrained Benchmark
     <td class="no clf">64.82 ± 0.47</td> <!-- NorDial -->
     <td class="sv ner"></td> <!-- SUC3 -->
     <td class="sv pos">95.22 ± 0.04</td> <!-- SDT-POS -->
-    <td class="sv dep"></td> <!-- SDT-DEP -->
+    <td class="sv dep">60.04 ± 0.22 / 64.32 ± 0.23</td> <!-- SDT-DEP -->
     <td class="sv clf">47.67 ± 1.13</td> <!-- DaLaJ -->
     <td class="sv clf">48.93 ± 0.60</td> <!-- ABSAbank-Imm -->
     <td class="is ner">66.68 ± 0.27</td> <!-- WikiANN-IS -->
@@ -1015,7 +1015,7 @@ title: Pretrained Benchmark
     <td class="no clf">64.31 ± 0.62</td> <!-- NorDial -->
     <td class="sv ner"></td> <!-- SUC3 -->
     <td class="sv pos">95.62 ± 0.05</td> <!-- SDT-POS -->
-    <td class="sv dep"></td> <!-- SDT-DEP -->
+    <td class="sv dep">59.87 ± 0.13 / 64.46 ± 0.13</td> <!-- SDT-DEP -->
     <td class="sv clf">33.17 ± 0.12</td> <!-- DaLaJ -->
     <td class="sv clf">47.84 ± 0.39</td> <!-- ABSAbank-Imm -->
     <td class="is ner">89.94 ± 0.15</td> <!-- WikiANN-IS -->
@@ -1059,7 +1059,7 @@ title: Pretrained Benchmark
     <td class="no clf">62.56 ± 0.49</td> <!-- NorDial -->
     <td class="sv ner"></td> <!-- SUC3 -->
     <td class="sv pos">93.51 ± 0.06</td> <!-- SDT-POS -->
-    <td class="sv dep"></td> <!-- SDT-DEP -->
+    <td class="sv dep">39.58 ± 0.15 / 44.06 ± 0.17</td> <!-- SDT-DEP -->
     <td class="sv clf">33.17 ± 0.12</td> <!-- DaLaJ -->
     <td class="sv clf">42.12 ± 0.41</td> <!-- ABSAbank-Imm -->
     <td class="is ner">83.41 ± 0.16</td> <!-- WikiANN-IS -->
