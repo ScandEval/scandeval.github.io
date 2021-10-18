@@ -1152,7 +1152,7 @@ title: Pretrained Benchmark
     <td class="sv clf">54.05 ± 0.87</td> <!-- ABSAbank-Imm -->
     <td class="is ner">90.64 ± 0.16</td> <!-- WikiANN-IS -->
     <td class="is pos">99.45 ± 0.02</td> <!-- IDT-POS -->
-    <td class="is dep"></td> <!-- IDT-DEP -->
+    <td class="is dep">88.55 ± 0.42 / 89.64 ± 0.38</td> <!-- IDT-DEP -->
     <td class="is clf">56.63 ± 0.27</td> <!-- NoReC-IS -->
     <td class="fo ner">91.09 ± 0.11</td> <!-- WikiANN-FO -->
     <td class="fo pos">98.26 ± 0.06</td> <!-- FDT-POS -->
