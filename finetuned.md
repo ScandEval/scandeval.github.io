@@ -67,7 +67,7 @@ title: Finetuned Benchmark
     <td class="no ner">45.91 ± 0.36 / 48.79 ± 0.39</td> <!-- NorNE-NB -->
     <td class="no ner">44.93 ± 0.54 / 49.60 ± 0.61</td> <!-- NorNE-NN -->
     <td class="sv ner">16.80 ± 0.11 / 21.72 ± 0.18</td> <!-- SUC3 -->
-    <td class="is ner"></td> <!-- MIM-GOLD-NER -->
+    <td class="is ner">11.70 ± 0.19 / 15.27 ± 0.21</td> <!-- MIM-GOLD-NER -->
     <td class="fo ner">19.69 ± 0.64</td> <!-- WikiANN-FO -->
     <td class="da pos">94.70 ± 0.17</td> <!-- DDT-POS -->
     <td class="no pos">73.28 ± 0.13</td> <!-- NDT-NB-POS -->
@@ -105,7 +105,7 @@ title: Finetuned Benchmark
     <td class="no ner">53.47 ± 0.33 / 56.96 ± 0.28</td> <!-- NorNE-NB -->
     <td class="no ner">37.44 ± 0.67 / 40.55 ± 0.77</td> <!-- NorNE-NN -->
     <td class="sv ner">19.34 ± 0.15 / 23.30 ± 0.17</td> <!-- SUC3 -->
-    <td class="is ner"></td> <!-- MIM-GOLD-NER -->
+    <td class="is ner">5.94 ± 0.18 / 7.81 ± 0.24</td> <!-- MIM-GOLD-NER -->
     <td class="fo ner">16.58 ± 0.48</td> <!-- WikiANN-FO -->
     <td class="da pos">95.69 ± 0.19</td> <!-- DDT-POS -->
     <td class="no pos">76.24 ± 0.17</td> <!-- NDT-NB-POS -->
@@ -143,7 +143,7 @@ title: Finetuned Benchmark
     <td class="no ner">57.04 ± 0.34 / 62.39 ± 0.39</td> <!-- NorNE-NB -->
     <td class="no ner">37.68 ± 0.51 / 42.75 ± 0.64</td> <!-- NorNE-NN -->
     <td class="sv ner">20.95 ± 0.15 / 27.08 ± 0.17</td> <!-- SUC3 -->
-    <td class="is ner"></td> <!-- MIM-GOLD-NER -->
+    <td class="is ner">8.40 ± 0.13 / 9.76 ± 0.19</td> <!-- MIM-GOLD-NER -->
     <td class="fo ner">15.39 ± 0.71</td> <!-- WikiANN-FO -->
     <td class="da pos">96.05 ± 0.14</td> <!-- DDT-POS -->
     <td class="no pos">76.55 ± 0.12</td> <!-- NDT-NB-POS -->
@@ -447,7 +447,7 @@ title: Finetuned Benchmark
     <td class="no ner">38.63 ± 0.54 / 39.89 ± 0.55</td> <!-- NorNE-NB -->
     <td class="no ner">18.47 ± 0.50 / 18.91 ± 0.52</td> <!-- NorNE-NN -->
     <td class="sv ner">23.07 ± 0.29 / 23.80 ± 0.29</td> <!-- SUC3 -->
-    <td class="is ner"></td> <!-- MIM-GOLD-NER -->
+    <td class="is ner">5.92 ± 0.17 / 6.35 ± 0.18</td> <!-- MIM-GOLD-NER -->
     <td class="fo ner">21.96 ± 0.34</td> <!-- WikiANN-FO -->
     <td class="da pos">-</td> <!-- DDT-POS -->
     <td class="no pos">-</td> <!-- NDT-NB-POS -->
@@ -599,7 +599,7 @@ title: Finetuned Benchmark
     <td class="no ner">34.15 ± 0.60 / 36.10 ± 0.61</td> <!-- NorNE-NB -->
     <td class="no ner">38.05 ± 0.32 / 39.99 ± 0.50</td> <!-- NorNE-NN -->
     <td class="sv ner">13.14 ± 0.09 / 15.46 ± 0.13</td> <!-- SUC3 -->
-    <td class="is ner"></td> <!-- MIM-GOLD-NER -->
+    <td class="is ner">12.41 ± 0.22 / 15.06 ± 0.29</td> <!-- MIM-GOLD-NER -->
     <td class="fo ner">25.83 ± 0.87</td> <!-- WikiANN-FO -->
     <td class="da pos">-</td> <!-- DDT-POS -->
     <td class="no pos">-</td> <!-- NDT-NB-POS -->
