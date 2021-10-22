@@ -306,7 +306,7 @@ title: Pretrained Benchmark
     <td class="no pos">95.17 ± 0.04</td> <!-- NDT-NB-POS -->
     <td class="no pos">94.05 ± 0.04</td> <!-- NDT-NN-POS -->
     <td class="no dep">64.59 ± 0.09 / 68.21 ± 0.09</td> <!-- NDT-NB-DEP -->
-    <td class="no dep"></td> <!-- NDT-NN-DEP -->
+    <td class="no dep">58.54 ± 2.15 / 62.84 ± 2.12</td> <!-- NDT-NN-DEP -->
     <td class="no clf">50.21 ± 0.49</td> <!-- NoReC -->
     <td class="no clf">64.26 ± 0.42</td> <!-- NorDial -->
     <td class="sv ner">66.64 ± 0.14 / 70.92 ± 0.15</td> <!-- SUC3 -->
@@ -1186,7 +1186,7 @@ title: Pretrained Benchmark
     <td class="no pos">98.25 ± 0.02</td> <!-- NDT-NB-POS -->
     <td class="no pos">98.03 ± 0.03</td> <!-- NDT-NN-POS -->
     <td class="no dep">84.30 ± 0.05 / 86.33 ± 0.05</td> <!-- NDT-NB-DEP -->
-    <td class="no dep">71.50 ± 0.25 / 74.49 ± 0.25</td> <!-- NDT-NN-DEP -->
+    <td class="no dep">77.38 ± 1.79 / 79.90 ± 1.82</td> <!-- NDT-NN-DEP -->
     <td class="no clf">62.48 ± 0.27</td> <!-- NoReC -->
     <td class="no clf">67.65 ± 0.96</td> <!-- NorDial -->
     <td class="sv ner">85.65 ± 0.09 / 88.63 ± 0.08</td> <!-- SUC3 -->
@@ -1230,7 +1230,7 @@ title: Pretrained Benchmark
     <td class="no pos">97.81 ± 0.02</td> <!-- NDT-NB-POS -->
     <td class="no pos">97.52 ± 0.04</td> <!-- NDT-NN-POS -->
     <td class="no dep">79.53 ± 0.15 / 82.15 ± 0.14</td> <!-- NDT-NB-DEP -->
-    <td class="no dep"></td> <!-- NDT-NN-DEP -->
+    <td class="no dep">71.50 ± 0.25 / 74.49 ± 0.25</td> <!-- NDT-NN-DEP -->
     <td class="no clf">54.25 ± 0.55</td> <!-- NoReC -->
     <td class="no clf">67.53 ± 0.54</td> <!-- NorDial -->
     <td class="sv ner">83.30 ± 0.08 / 86.79 ± 0.08</td> <!-- SUC3 -->
@@ -1714,7 +1714,7 @@ title: Pretrained Benchmark
     <td class="no pos">97.54 ± 0.03</td> <!-- NDT-NB-POS -->
     <td class="no pos">97.15 ± 0.02</td> <!-- NDT-NN-POS -->
     <td class="no dep">72.15 ± 0.53 / 75.04 ± 0.51</td> <!-- NDT-NB-DEP -->
-    <td class="no dep"></td> <!-- NDT-NN-DEP -->
+    <td class="no dep">66.47 ± 0.22 / 69.89 ± 0.23</td> <!-- NDT-NN-DEP -->
     <td class="no clf">46.62 ± 0.19</td> <!-- NoReC -->
     <td class="no clf">64.23 ± 0.54</td> <!-- NorDial -->
     <td class="sv ner">72.70 ± 0.18 / 76.56 ± 0.17</td> <!-- SUC3 -->
