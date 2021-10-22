@@ -218,7 +218,7 @@ title: Pretrained Benchmark
     <td class="no pos">98.52 ± 0.02</td> <!-- NDT-NB-POS -->
     <td class="no pos">98.29 ± 0.03</td> <!-- NDT-NN-POS -->
     <td class="no dep">82.83 ± 0.26 / 85.18 ± 0.25</td> <!-- NDT-NB-DEP -->
-    <td class="no dep"></td> <!-- NDT-NN-DEP -->
+    <td class="no dep">78.38 ± 0.24 / 81.03 ± 0.24</td> <!-- NDT-NN-DEP -->
     <td class="no clf">53.70 ± 0.69</td> <!-- NoReC -->
     <td class="no clf">66.83 ± 0.42</td> <!-- NorDial -->
     <td class="sv ner">82.71 ± 0.06 / 86.28 ± 0.06</td> <!-- SUC3 -->
@@ -306,7 +306,7 @@ title: Pretrained Benchmark
     <td class="no pos">95.17 ± 0.04</td> <!-- NDT-NB-POS -->
     <td class="no pos">94.05 ± 0.04</td> <!-- NDT-NN-POS -->
     <td class="no dep">64.59 ± 0.09 / 68.21 ± 0.09</td> <!-- NDT-NB-DEP -->
-    <td class="no dep"></td> <!-- NDT-NN-DEP -->
+    <td class="no dep">58.54 ± 2.15 / 62.84 ± 2.12</td> <!-- NDT-NN-DEP -->
     <td class="no clf">50.21 ± 0.49</td> <!-- NoReC -->
     <td class="no clf">64.26 ± 0.42</td> <!-- NorDial -->
     <td class="sv ner">66.64 ± 0.14 / 70.92 ± 0.15</td> <!-- SUC3 -->
@@ -526,7 +526,7 @@ title: Pretrained Benchmark
     <td class="no pos">98.26 ± 0.03</td> <!-- NDT-NB-POS -->
     <td class="no pos">97.67 ± 0.02</td> <!-- NDT-NN-POS -->
     <td class="no dep">81.51 ± 0.19 / 83.80 ± 0.19</td> <!-- NDT-NB-DEP -->
-    <td class="no dep"></td> <!-- NDT-NN-DEP -->
+    <td class="no dep">76.05 ± 0.36 / 79.05 ± 0.34</td> <!-- NDT-NN-DEP -->
     <td class="no clf">60.02 ± 0.63</td> <!-- NoReC -->
     <td class="no clf">63.72 ± 0.49</td> <!-- NorDial -->
     <td class="sv ner">85.10 ± 0.06 / 88.27 ± 0.06</td> <!-- SUC3 -->
@@ -658,7 +658,7 @@ title: Pretrained Benchmark
     <td class="no pos">98.51 ± 0.03</td> <!-- NDT-NB-POS -->
     <td class="no pos">98.45 ± 0.02</td> <!-- NDT-NN-POS -->
     <td class="no dep">81.89 ± 0.28 / 83.80 ± 0.27</td> <!-- NDT-NB-DEP -->
-    <td class="no dep"></td> <!-- NDT-NN-DEP -->
+    <td class="no dep">35.50 ± 0.93 / 37.40 ± 0.93</td> <!-- NDT-NN-DEP -->
     <td class="no clf">30.68 ± 0.62</td> <!-- NoReC -->
     <td class="no clf">67.17 ± 0.36</td> <!-- NorDial -->
     <td class="sv ner">82.18 ± 0.09 / 85.79 ± 0.08</td> <!-- SUC3 -->
@@ -702,7 +702,7 @@ title: Pretrained Benchmark
     <td class="no pos">98.80 ± 0.02</td> <!-- NDT-NB-POS -->
     <td class="no pos">98.83 ± 0.02</td> <!-- NDT-NN-POS -->
     <td class="no dep">84.54 ± 0.26 / 86.19 ± 0.26</td> <!-- NDT-NB-DEP -->
-    <td class="no dep"></td> <!-- NDT-NN-DEP -->
+    <td class="no dep">83.68 ± 0.18 / 85.53 ± 0.18</td> <!-- NDT-NN-DEP -->
     <td class="no clf">75.60 ± 0.42</td> <!-- NoReC -->
     <td class="no clf">69.39 ± 0.38</td> <!-- NorDial -->
     <td class="sv ner">88.13 ± 0.07 / 90.69 ± 0.07</td> <!-- SUC3 -->
@@ -746,7 +746,7 @@ title: Pretrained Benchmark
     <td class="no pos">98.56 ± 0.02</td> <!-- NDT-NB-POS -->
     <td class="no pos">98.48 ± 0.02</td> <!-- NDT-NN-POS -->
     <td class="no dep">88.40 ± 0.24 / 90.12 ± 0.24</td> <!-- NDT-NB-DEP -->
-    <td class="no dep"></td> <!-- NDT-NN-DEP -->
+    <td class="no dep">86.29 ± 0.27 / 88.06 ± 0.27</td> <!-- NDT-NN-DEP -->
     <td class="no clf">75.68 ± 0.33</td> <!-- NoReC -->
     <td class="no clf">67.30 ± 0.41</td> <!-- NorDial -->
     <td class="sv ner">85.54 ± 0.08 / 88.55 ± 0.12</td> <!-- SUC3 -->
@@ -966,7 +966,7 @@ title: Pretrained Benchmark
     <td class="no pos">98.56 ± 0.02</td> <!-- NDT-NB-POS -->
     <td class="no pos">98.13 ± 0.03</td> <!-- NDT-NN-POS -->
     <td class="no dep">86.36 ± 0.07 / 88.23 ± 0.06</td> <!-- NDT-NB-DEP -->
-    <td class="no dep"></td> <!-- NDT-NN-DEP -->
+    <td class="no dep">82.11 ± 0.48 / 84.31 ± 0.47</td> <!-- NDT-NN-DEP -->
     <td class="no clf">69.49 ± 0.33</td> <!-- NoReC -->
     <td class="no clf">67.50 ± 0.61</td> <!-- NorDial -->
     <td class="sv ner">85.33 ± 0.06 / 88.36 ± 0.06</td> <!-- SUC3 -->
@@ -1098,7 +1098,7 @@ title: Pretrained Benchmark
     <td class="no pos">98.63 ± 0.03</td> <!-- NDT-NB-POS -->
     <td class="no pos">98.30 ± 0.02</td> <!-- NDT-NN-POS -->
     <td class="no dep">87.61 ± 0.07 / 89.48 ± 0.06</td> <!-- NDT-NB-DEP -->
-    <td class="no dep"></td> <!-- NDT-NN-DEP -->
+    <td class="no dep">84.90 ± 0.12 / 87.13 ± 0.11</td> <!-- NDT-NN-DEP -->
     <td class="no clf">71.62 ± 0.24</td> <!-- NoReC -->
     <td class="no clf">68.31 ± 0.57</td> <!-- NorDial -->
     <td class="sv ner">87.30 ± 0.07 / 90.04 ± 0.07</td> <!-- SUC3 -->
@@ -1142,7 +1142,7 @@ title: Pretrained Benchmark
     <td class="no pos">98.78 ± 0.02</td> <!-- NDT-NB-POS -->
     <td class="no pos">98.55 ± 0.02</td> <!-- NDT-NN-POS -->
     <td class="no dep">85.32 ± 0.27 / 86.86 ± 0.27</td> <!-- NDT-NB-DEP -->
-    <td class="no dep"></td> <!-- NDT-NN-DEP -->
+    <td class="no dep">83.45 ± 0.14 / 85.68 ± 0.14</td> <!-- NDT-NN-DEP -->
     <td class="no clf">63.44 ± 3.51</td> <!-- NoReC -->
     <td class="no clf">68.29 ± 0.66</td> <!-- NorDial -->
     <td class="sv ner">88.07 ± 0.11 / 90.63 ± 0.11</td> <!-- SUC3 -->
@@ -1230,7 +1230,7 @@ title: Pretrained Benchmark
     <td class="no pos">97.81 ± 0.02</td> <!-- NDT-NB-POS -->
     <td class="no pos">97.52 ± 0.04</td> <!-- NDT-NN-POS -->
     <td class="no dep">79.53 ± 0.15 / 82.15 ± 0.14</td> <!-- NDT-NB-DEP -->
-    <td class="no dep"></td> <!-- NDT-NN-DEP -->
+    <td class="no dep">71.50 ± 0.25 / 74.49 ± 0.25</td> <!-- NDT-NN-DEP -->
     <td class="no clf">54.25 ± 0.55</td> <!-- NoReC -->
     <td class="no clf">67.53 ± 0.54</td> <!-- NorDial -->
     <td class="sv ner">83.30 ± 0.08 / 86.79 ± 0.08</td> <!-- SUC3 -->
@@ -1274,7 +1274,7 @@ title: Pretrained Benchmark
     <td class="no pos">98.43 ± 0.03</td> <!-- NDT-NB-POS -->
     <td class="no pos">98.11 ± 0.03</td> <!-- NDT-NN-POS -->
     <td class="no dep">87.23 ± 0.07 / 89.14 ± 0.08</td> <!-- NDT-NB-DEP -->
-    <td class="no dep"></td> <!-- NDT-NN-DEP -->
+    <td class="no dep">83.45 ± 0.14 / 85.68 ± 0.14</td> <!-- NDT-NN-DEP -->
     <td class="no clf">67.20 ± 0.32</td> <!-- NoReC -->
     <td class="no clf">66.24 ± 0.47</td> <!-- NorDial -->
     <td class="sv ner">85.34 ± 0.07 / 88.74 ± 0.07</td> <!-- SUC3 -->
@@ -1538,7 +1538,7 @@ title: Pretrained Benchmark
     <td class="no pos">98.28 ± 0.03</td> <!-- NDT-NB-POS -->
     <td class="no pos">98.01 ± 0.03</td> <!-- NDT-NN-POS -->
     <td class="no dep">82.55 ± 0.15 / 84.59 ± 0.15</td> <!-- NDT-NB-DEP -->
-    <td class="no dep"></td> <!-- NDT-NN-DEP -->
+    <td class="no dep">78.79 ± 0.13 / 81.23 ± 0.13</td> <!-- NDT-NN-DEP -->
     <td class="no clf">63.64 ± 0.29</td> <!-- NoReC -->
     <td class="no clf">67.17 ± 1.15</td> <!-- NorDial -->
     <td class="sv ner">84.78 ± 0.05 / 87.83 ± 0.05</td> <!-- SUC3 -->
@@ -1714,7 +1714,7 @@ title: Pretrained Benchmark
     <td class="no pos">97.54 ± 0.03</td> <!-- NDT-NB-POS -->
     <td class="no pos">97.15 ± 0.02</td> <!-- NDT-NN-POS -->
     <td class="no dep">72.15 ± 0.53 / 75.04 ± 0.51</td> <!-- NDT-NB-DEP -->
-    <td class="no dep"></td> <!-- NDT-NN-DEP -->
+    <td class="no dep">66.47 ± 0.22 / 69.89 ± 0.23</td> <!-- NDT-NN-DEP -->
     <td class="no clf">46.62 ± 0.19</td> <!-- NoReC -->
     <td class="no clf">64.23 ± 0.54</td> <!-- NorDial -->
     <td class="sv ner">72.70 ± 0.18 / 76.56 ± 0.17</td> <!-- SUC3 -->
