@@ -358,7 +358,7 @@ title: Pretrained Benchmark
     <td class="sv dep">66.30 ± 0.35 / 68.89 ± 0.35</td> <!-- SDT-DEP -->
     <td class="sv clf">48.26 ± 0.41</td> <!-- DaLaJ -->
     <td class="sv clf">49.53 ± 0.43</td> <!-- ABSAbank-Imm -->
-    <td class="is ner"><!-- MIM-GOLD-NER -->
+    <td class="is ner">85.28 ± 0.15 / 84.89 ± 0.16<!-- MIM-GOLD-NER -->
     <td class="is pos">99.12 ± 0.03</td> <!-- IDT-POS -->
     <td class="is dep">80.51 ± 1.10 / 82.37 ± 0.99</td> <!-- IDT-DEP -->
     <td class="is clf">43.96 ± 0.29</td> <!-- NoReC-IS -->
@@ -798,7 +798,7 @@ title: Pretrained Benchmark
     <td class="sv dep">64.25 ± 0.68 / 66.84 ± 0.65</td> <!-- SDT-DEP -->
     <td class="sv clf">47.80 ± 0.39</td> <!-- DaLaJ -->
     <td class="sv clf">47.25 ± 0.60</td> <!-- ABSAbank-Imm -->
-    <td class="is ner"><!-- MIM-GOLD-NER -->
+    <td class="is ner">84.64 ± 0.11 / 84.47 ± 0.12<!-- MIM-GOLD-NER -->
     <td class="is pos">99.11 ± 0.02</td> <!-- IDT-POS -->
     <td class="is dep">82.03 ± 0.82 / 83.72 ± 0.73</td> <!-- IDT-DEP -->
     <td class="is clf">51.78 ± 0.31</td> <!-- NoReC-IS -->
@@ -1326,7 +1326,7 @@ title: Pretrained Benchmark
     <td class="sv dep">65.76 ± 0.31 / 68.38 ± 0.30</td> <!-- SDT-DEP -->
     <td class="sv clf">46.87 ± 0.43</td> <!-- DaLaJ -->
     <td class="sv clf">47.93 ± 0.42</td> <!-- ABSAbank-Imm -->
-    <td class="is ner"><!-- MIM-GOLD-NER -->
+    <td class="is ner">85.11 ± 0.09 / 84.95 ± 0.12<!-- MIM-GOLD-NER -->
     <td class="is pos">99.21 ± 0.02</td> <!-- IDT-POS -->
     <td class="is dep">81.07 ± 0.75 / 82.84 ± 0.68</td> <!-- IDT-DEP -->
     <td class="is clf">49.54 ± 0.28</td> <!-- NoReC-IS -->
@@ -1414,7 +1414,7 @@ title: Pretrained Benchmark
     <td class="sv dep">63.44 ± 0.13 / 65.91 ± 0.13</td> <!-- SDT-DEP -->
     <td class="sv clf">46.55 ± 0.36</td> <!-- DaLaJ -->
     <td class="sv clf">45.34 ± 0.47</td> <!-- ABSAbank-Imm -->
-    <td class="is ner"><!-- MIM-GOLD-NER -->
+    <td class="is ner">85.15 ± 0.26 / 84.57 ± 0.34<!-- MIM-GOLD-NER -->
     <td class="is pos">99.20 ± 0.02</td> <!-- IDT-POS -->
     <td class="is dep">78.93 ± 0.89 / 80.93 ± 0.82</td> <!-- IDT-DEP -->
     <td class="is clf">40.66 ± 0.70</td> <!-- NoReC-IS -->
@@ -1546,7 +1546,7 @@ title: Pretrained Benchmark
     <td class="sv dep">63.43 ± 0.36 / 65.98 ± 0.37</td> <!-- SDT-DEP -->
     <td class="sv clf">46.25 ± 0.79</td> <!-- DaLaJ -->
     <td class="sv clf">49.62 ± 0.38</td> <!-- ABSAbank-Imm -->
-    <td class="is ner"><!-- MIM-GOLD-NER -->
+    <td class="is ner">85.27 ± 0.09 / 84.81 ± 0.10<!-- MIM-GOLD-NER -->
     <td class="is pos">99.06 ± 0.02</td> <!-- IDT-POS -->
     <td class="is dep">80.02 ± 1.07 / 81.93 ± 0.97</td> <!-- IDT-DEP -->
     <td class="is clf">40.16 ± 0.62</td> <!-- NoReC-IS -->
