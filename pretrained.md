@@ -1142,7 +1142,7 @@ title: Pretrained Benchmark
     <td class="no pos">98.78 ± 0.02</td> <!-- NDT-NB-POS -->
     <td class="no pos">98.55 ± 0.02</td> <!-- NDT-NN-POS -->
     <td class="no dep">85.32 ± 0.27 / 86.86 ± 0.27</td> <!-- NDT-NB-DEP -->
-    <td class="no dep">87.61 ± 0.07 / 89.48 ± 0.06</td> <!-- NDT-NN-DEP -->
+    <td class="no dep">86.22 ± 0.28 / 88.02 ± 0.28</td> <!-- NDT-NN-DEP -->
     <td class="no clf">63.44 ± 3.51</td> <!-- NoReC -->
     <td class="no clf">68.29 ± 0.66</td> <!-- NorDial -->
     <td class="sv ner">88.07 ± 0.11 / 90.63 ± 0.11</td> <!-- SUC3 -->
