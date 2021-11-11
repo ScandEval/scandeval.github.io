@@ -709,9 +709,9 @@ title: Finetuned Benchmark
     <td class="no">-</td> <!-- NorDial -->
     <td class="sv">-</td> <!-- DaLaJ -->
     <td class="sv">-</td> <!-- ABSAbank-Imm -->
-    <td class="da ner"></td> <!-- DaNE -->
-    <td class="no ner"></td> <!-- NorNE-NB -->
-    <td class="no ner"></td> <!-- NorNE-NN -->
+    <td class="da ner">51.88 ± 1.32 / 61.59 ± 1.41</td> <!-- DaNE -->
+    <td class="no ner">46.25 ± 0.85 / 49.47 ± 0.99</td> <!-- NorNE-NB -->
+    <td class="no ner">48.90 ± 0.57 / 52.59 ± 0.64</td> <!-- NorNE-NN -->
     <td class="sv ner"></td> <!-- SUC3 -->
     <td class="is ner"></td> <!-- MIM-GOLD-NER -->
     <td class="fo ner"></td> <!-- WikiANN-FO -->
