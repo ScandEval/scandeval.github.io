@@ -206,7 +206,7 @@ title: Finetuned Benchmark
    <tr>
     <td>chcaa/da_dacy_small_trf</td> <!-- Model ID -->
     <td class="size">52</td> <!-- Model size -->
-    <td class="></td> <!-- Inference speed -->
+    <td class=">19.36 ± 0.95</td> <!-- Inference speed -->
     <td class="ner-score"></td> <!-- Mean NER score -->
     <td class="pos-score"></td> <!-- Mean POS score -->
     <td class="dep-score"></td> <!-- Mean dependency parsing score -->
@@ -244,7 +244,7 @@ title: Finetuned Benchmark
    <tr>
     <td>chcaa/da_dacy_medium_trf</td> <!-- Model ID -->
     <td class="size">422</td> <!-- Model size -->
-    <td class="></td> <!-- Inference speed -->
+    <td class=">3.16 ± 0.12</td> <!-- Inference speed -->
     <td class="ner-score"></td> <!-- Mean NER score -->
     <td class="pos-score"></td> <!-- Mean POS score -->
     <td class="dep-score"></td> <!-- Mean dependency parsing score -->
@@ -320,7 +320,7 @@ title: Finetuned Benchmark
    <tr>
     <td>radbrt/nb_nocy_trf</td> <!-- Model ID -->
     <td class="size">425</td> <!-- Model size -->
-    <td class="></td> <!-- Inference speed -->
+    <td class=">2.91 ± 0.09</td> <!-- Inference speed -->
     <td class="ner-score"></td> <!-- Mean NER score -->
     <td class="pos-score"></td> <!-- Mean POS score -->
     <td class="dep-score"></td> <!-- Mean dependency parsing score -->
@@ -358,7 +358,7 @@ title: Finetuned Benchmark
    <tr>
     <td>pin/senda</td> <!-- Model ID -->
     <td class="size">422</td> <!-- Model size -->
-    <td class="></td> <!-- Inference speed -->
+    <td class=">3.17 ± 0.10</td> <!-- Inference speed -->
     <td class="ner-score">-</td> <!-- Mean NER score -->
     <td class="pos-score">-</td> <!-- Mean POS score -->
     <td class="dep-score">-</td> <!-- Mean dependency parsing score -->
@@ -736,6 +736,44 @@ title: Finetuned Benchmark
     <td class="fo sent">-</td> <!-- NoReC-FO -->
    </tr>
    <tr>
+    <td>vesteinn/XLMR-ENIS-finetuned-ner</td> <!-- Model ID -->
+    <td class="size">473</td> <!-- Model size -->
+    <td class=">2.34 ± 0.06</td> <!-- Inference speed -->
+    <td class="ner-score"></td> <!-- Mean NER score -->
+    <td class="pos-score">-</td> <!-- Mean POS score -->
+    <td class="dep-score">-</td> <!-- Mean dependency parsing score -->
+    <td class="sent-score">-</td> <!-- Mean sentiment classification score -->
+    <td class="da">-</td> <!-- DKHate -->
+    <td class="no">-</td> <!-- NorDial -->
+    <td class="sv">-</td> <!-- DaLaJ -->
+    <td class="sv">-</td> <!-- ABSAbank-Imm -->
+    <td class="da ner"></td> <!-- DaNE -->
+    <td class="no ner"></td> <!-- NorNE-NB -->
+    <td class="no ner"></td> <!-- NorNE-NN -->
+    <td class="sv ner"></td> <!-- SUC3 -->
+    <td class="is ner"></td> <!-- MIM-GOLD-NER -->
+    <td class="fo ner"></td> <!-- WikiANN-FO -->
+    <td class="da pos">-</td> <!-- DDT-POS -->
+    <td class="no pos">-</td> <!-- NDT-NB-POS -->
+    <td class="no pos">-</td> <!-- NDT-NN-POS -->
+    <td class="sv pos">-</td> <!-- SDT-POS -->
+    <td class="is pos">-</td> <!-- IDT-POS -->
+    <td class="fo pos">-</td> <!-- FDT-POS -->
+    <td class="da dep">-</td> <!-- DDT-DEP -->
+    <td class="no dep">-</td> <!-- NDT-NB-DEP -->
+    <td class="no dep">-</td> <!-- NDT-NN-DEP -->
+    <td class="sv dep">-</td> <!-- SDT-DEP -->
+    <td class="is dep">-</td> <!-- IDT-DEP -->
+    <td class="fo dep">-</td> <!-- FDT-DEP -->
+    <td class="da sent">-</td> <!-- AngryTweets -->
+    <td class="da sent">-</td> <!-- TwitterSent -->
+    <td class="da sent">-</td> <!-- Europarl -->
+    <td class="da sent">-</td> <!-- LCC -->
+    <td class="no sent">-</td> <!-- NoReC -->
+    <td class="is sent">-</td> <!-- NoReC-IS -->
+    <td class="fo sent">-</td> <!-- NoReC-FO -->
+   </tr>
+   <tr>
     <td>spacy/xx_ent_wiki_sm</td> <!-- Model ID -->
     <td class="size">11</td> <!-- Model size -->
     <td class="></td> <!-- Inference speed -->
@@ -814,7 +852,7 @@ title: Finetuned Benchmark
    <tr>
     <td>spacy/nb_core_news_md</td> <!-- Model ID -->
     <td class="size">44</td> <!-- Model size -->
-    <td class="></td> <!-- Inference speed -->
+    <td class=">66.55 ± 45.88</td> <!-- Inference speed -->
     <td class="ner-score"></td> <!-- Mean NER score -->
     <td class="pos-score"></td> <!-- Mean POS score -->
     <td class="dep-score"></td> <!-- Mean dependency parsing score -->
@@ -905,6 +943,44 @@ title: Finetuned Benchmark
     <td class="sv ner">-</td> <!-- SUC3 -->
     <td class="is ner">-</td> <!-- MIM-GOLD-NER -->
     <td class="fo ner">-</td> <!-- WikiANN-FO -->
+    <td class="da pos">-</td> <!-- DDT-POS -->
+    <td class="no pos">-</td> <!-- NDT-NB-POS -->
+    <td class="no pos">-</td> <!-- NDT-NN-POS -->
+    <td class="sv pos">-</td> <!-- SDT-POS -->
+    <td class="is pos">-</td> <!-- IDT-POS -->
+    <td class="fo pos">-</td> <!-- FDT-POS -->
+    <td class="da dep">-</td> <!-- DDT-DEP -->
+    <td class="no dep">-</td> <!-- NDT-NB-DEP -->
+    <td class="no dep">-</td> <!-- NDT-NN-DEP -->
+    <td class="sv dep">-</td> <!-- SDT-DEP -->
+    <td class="is dep">-</td> <!-- IDT-DEP -->
+    <td class="fo dep">-</td> <!-- FDT-DEP -->
+    <td class="da sent">68.89 ± 1.05</td> <!-- AngryTweets -->
+    <td class="da sent">70.00 ± 0.79</td> <!-- TwitterSent -->
+    <td class="da sent">-</td> <!-- Europarl -->
+    <td class="da sent">67.11 ± 2.83</td> <!-- LCC -->
+    <td class="no sent">36.08 ± 3.05</td> <!-- NoReC -->
+    <td class="is sent">29.40 ± 0.55</td> <!-- NoReC-IS -->
+    <td class="fo sent">32.53 ± 1.04</td> <!-- NoReC-FO -->
+   </tr>
+   <tr>
+    <td>DaNLP/da-bert-ner</td> <!-- Model ID -->
+    <td class="size">420</td> <!-- Model size -->
+    <td class=">3.18 ± 0.08</td> <!-- Inference speed -->
+    <td class="ner-score"></td> <!-- Mean NER score -->
+    <td class="pos-score">-</td> <!-- Mean POS score -->
+    <td class="dep-score">-</td> <!-- Mean dependency parsing score -->
+    <td class="sent-score">-</td> <!-- Mean sentiment classification score -->
+    <td class="da">-</td> <!-- DKHate -->
+    <td class="no">-</td> <!-- NorDial -->
+    <td class="sv">-</td> <!-- DaLaJ -->
+    <td class="sv">-</td> <!-- ABSAbank-Imm -->
+    <td class="da ner"></td> <!-- DaNE -->
+    <td class="no ner"></td> <!-- NorNE-NB -->
+    <td class="no ner"></td> <!-- NorNE-NN -->
+    <td class="sv ner"></td> <!-- SUC3 -->
+    <td class="is ner"></td> <!-- MIM-GOLD-NER -->
+    <td class="fo ner"></td> <!-- WikiANN-FO -->
     <td class="da pos">-</td> <!-- DDT-POS -->
     <td class="no pos">-</td> <!-- NDT-NB-POS -->
     <td class="no pos">-</td> <!-- NDT-NN-POS -->
