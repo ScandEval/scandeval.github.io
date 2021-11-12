@@ -510,7 +510,7 @@ title: Finetuned Benchmark
    <tr>
     <td>Maltehb/danish-bert-botxo-ner-dane</td> <!-- Model ID -->
     <td class="size">420</td> <!-- Model size -->
-    <td class="></td> <!-- Inference speed -->
+    <td class=">3.19 ± 0.10</td> <!-- Inference speed -->
     <td class="ner-score"></td> <!-- Mean NER score -->
     <td class="pos-score">-</td> <!-- Mean POS score -->
     <td class="dep-score">-</td> <!-- Mean dependency parsing score -->
@@ -586,7 +586,7 @@ title: Finetuned Benchmark
    <tr>
     <td>KB/bert-base-swedish-cased-ner</td> <!-- Model ID -->
     <td class="size">476</td> <!-- Model size -->
-    <td class="></td> <!-- Inference speed -->
+    <td class=">2.97 ± 0.08</td> <!-- Inference speed -->
     <td class="ner-score"></td> <!-- Mean NER score -->
     <td class="pos-score">-</td> <!-- Mean POS score -->
     <td class="dep-score">-</td> <!-- Mean dependency parsing score -->
@@ -624,7 +624,7 @@ title: Finetuned Benchmark
    <tr>
     <td>RecordedFuture/Swedish-NER</td> <!-- Model ID -->
     <td class="size">474</td> <!-- Model size -->
-    <td class="></td> <!-- Inference speed -->
+    <td class=">2.96 ± 0.09</td> <!-- Inference speed -->
     <td class="ner-score"></td> <!-- Mean NER score -->
     <td class="pos-score">-</td> <!-- Mean POS score -->
     <td class="dep-score">-</td> <!-- Mean dependency parsing score -->
