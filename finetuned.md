@@ -396,7 +396,7 @@ title: Finetuned Benchmark
    <tr>
     <td>saattrupdan/nbailab-base-ner-scandi</td> <!-- Model ID -->
     <td class="size">676</td> <!-- Model size -->
-    <td class="></td> <!-- Inference speed -->
+    <td class=">3.02 ± 0.10</td> <!-- Inference speed -->
     <td class="ner-score"></td> <!-- Mean NER score -->
     <td class="pos-score">-</td> <!-- Mean POS score -->
     <td class="dep-score">-</td> <!-- Mean dependency parsing score -->
@@ -700,7 +700,7 @@ title: Finetuned Benchmark
    <tr>
     <td>m3hrdadfi/icelandic-ner-roberta</td> <!-- Model ID -->
     <td class="size">473</td> <!-- Model size -->
-    <td class="></td> <!-- Inference speed -->
+    <td class=">2.35 ± 0.05</td> <!-- Inference speed -->
     <td class="ner-score"></td> <!-- Mean NER score -->
     <td class="pos-score">-</td> <!-- Mean POS score -->
     <td class="dep-score">-</td> <!-- Mean dependency parsing score -->
