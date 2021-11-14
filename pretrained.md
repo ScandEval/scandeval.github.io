@@ -61,47 +61,6 @@ title: Pretrained Benchmark
  <tbody>
    <tr>
     <td>Maltehb/danish-bert-botxo</td> <!-- Model ID -->
-    <td class="size">424</td> <!-- Model size -->
-    <td class="speed">2.78 ± 0.07</td> <!-- Inference speed -->
-    <td class="score"></td> <!-- ScandEval score -->
-    <td class="da-score"></td> <!-- Danish score -->
-    <td class="no-score"></td> <!-- Norwegian score -->
-    <td class="sv-score"></td> <!-- Swedish score -->
-    <td class="is-score"></td> <!-- Icelandic score -->
-    <td class="fo-score"></td> <!-- Faroese score -->
-    <td class="ner-score"></td> <!-- Mean NER score -->
-    <td class="pos-score"></td> <!-- Mean POS score -->
-    <td class="dep-score"></td> <!-- Mean dependency parsing score -->
-    <td class="clf-score"></td> <!-- Mean classification score -->
-    <td class="da ner">74.29 ± 0.34 / 77.94 ± 0.41</td> <!-- DaNE -->
-    <td class="da pos">97.72 ± 0.03</td> <!-- DDT-POS -->
-    <td class="da dep">61.06 ± 0.19 / 63.55 ± 0.19</td> <!-- DDT-DEP -->
-    <td class="da clf">61.03 ± 0.53</td> <!-- AngryTweets -->
-    <td class="da clf">61.61 ± 0.48</td> <!-- TwitterSent -->
-    <td class="da clf">64.02 ± 0.64</td> <!-- Europarl -->
-    <td class="da clf">59.19 ± 0.80</td> <!-- LCC -->
-    <td class="da clf">70.56 ± 0.57</td> <!-- DKHate -->
-    <td class="no ner">77.27 ± 0.22 / 79.72 ± 0.15</td> <!-- NorNE-NB -->
-    <td class="no ner">75.54 ± 0.27 / 78.42 ± 0.28</td> <!-- NorNE-NN -->
-    <td class="no pos">97.32 ± 0.04</td> <!-- NDT-NB-POS -->
-    <td class="no pos">96.47 ± 0.03</td> <!-- NDT-NN-POS -->
-    <td class="no dep">79.99 ± 0.36 / 82.25 ± 0.35</td> <!-- NDT-NB-DEP -->
-    <td class="no dep">71.15 ± 0.28 / 74.16 ± 0.28</td> <!-- NDT-NN-DEP -->
-    <td class="no clf">57.47 ± 2.35</td> <!-- NoReC -->
-    <td class="no clf">68.74 ± 1.16</td> <!-- NorDial -->
-    <td class="sv ner">71.37 ± 0.15 / 74.52 ± 0.17</td> <!-- SUC3 -->
-    <td class="sv pos">91.57 ± 0.05</td> <!-- SDT-POS -->
-    <td class="sv dep">44.38 ± 0.21 / 48.61 ± 0.19</td> <!-- SDT-DEP -->
-    <td class="sv clf">33.14 ± 0.12</td> <!-- DaLaJ -->
-    <td class="sv clf">30.75 ± 0.51</td> <!-- ABSAbank-Imm -->
-    <td class="is ner">54.38 ± 0.16 / 47.81 ± 0.20<!-- MIM-GOLD-NER -->
-    <td class="is pos">90.79 ± 0.12</td> <!-- IDT-POS -->
-    <td class="is dep">77.13 ± 0.31 / 80.53 ± 0.27</td> <!-- IDT-DEP -->
-    <td class="is clf">36.81 ± 1.31</td> <!-- NoReC-IS -->
-    <td class="fo ner">76.60 ± 0.28</td> <!-- WikiANN-FO -->
-    <td class="fo pos">82.71 ± 0.09</td> <!-- FDT-POS -->
-    <td class="fo dep">29.60 ± 0.29 / 33.56 ± 0.29</td> <!-- FDT-DEP -->
-    <td class="fo clf">30.50 ± 0.55</td> <!-- NoReC-FO -->
    </tr>
  </tbody>
 </table>
