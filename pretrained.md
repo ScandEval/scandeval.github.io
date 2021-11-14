@@ -65,6 +65,15 @@ title: Pretrained Benchmark
     <td class="speed">2.78 ± 0.07</td> <!-- Inference speed -->
     <td class="score"></td> <!-- ScandEval score -->
     <td class="da-score"></td> <!-- Danish score -->
+    <td class="no-score"></td> <!-- Norwegian score -->
+    <td class="sv-score"></td> <!-- Swedish score -->
+    <td class="is-score"></td> <!-- Icelandic score -->
+    <td class="fo-score"></td> <!-- Faroese score -->
+    <td class="ner-score"></td> <!-- Mean NER score -->
+    <td class="pos-score"></td> <!-- Mean POS score -->
+    <td class="dep-score"></td> <!-- Mean dependency parsing score -->
+    <td class="clf-score"></td> <!-- Mean classification score -->
+    <td class="da ner">74.29 ± 0.34 / 77.94 ± 0.41</td> <!-- DaNE -->
    </tr>
  </tbody>
 </table>
