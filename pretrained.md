@@ -47,7 +47,7 @@ title: Pretrained Benchmark
      <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Swedish correct grammar classification - Macro-F1">DaLaJ</span></th>
      <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Swedish immigration sentiment classification - Macro-F1">ABSAbank-Imm</span></th>
 
-     <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Icelandic NER tagging - Micro-F1">WikiANN-IS</span></th>
+     <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Icelandic NER tagging - Micro-F1">MIM-GOLD-NER</span></th>
      <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Icelandic POS tagging - Accuracy">IDT-POS</span></th>
      <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Icelandic dependency parsing - LAS / UAS">IDT-DEP</span></th>
      <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Icelandic sentiment classification - Macro-F1">NoReC-IS</span></th>
@@ -62,7 +62,7 @@ title: Pretrained Benchmark
    <tr>
     <td>Maltehb/danish-bert-botxo</td> <!-- Model ID -->
     <td class="size">424</td> <!-- Model size -->
-    <td class="speed">4.11 ± 0.12</td> <!-- Inference speed -->
+    <td class="speed">2.78 ± 0.07</td> <!-- Inference speed -->
     <td class="score"></td> <!-- ScandEval score -->
     <td class="da-score"></td> <!-- Danish score -->
     <td class="no-score"></td> <!-- Norwegian score -->
@@ -94,7 +94,7 @@ title: Pretrained Benchmark
     <td class="sv dep">44.38 ± 0.21 / 48.61 ± 0.19</td> <!-- SDT-DEP -->
     <td class="sv clf">33.14 ± 0.12</td> <!-- DaLaJ -->
     <td class="sv clf">30.75 ± 0.51</td> <!-- ABSAbank-Imm -->
-    <td class="is ner">70.68 ± 0.21</td> <!-- WikiANN-IS -->
+    <td class="is ner">54.38 ± 0.16 / 47.81 ± 0.20<!-- MIM-GOLD-NER -->
     <td class="is pos">90.79 ± 0.12</td> <!-- IDT-POS -->
     <td class="is dep">77.13 ± 0.31 / 80.53 ± 0.27</td> <!-- IDT-DEP -->
     <td class="is clf">36.81 ± 1.31</td> <!-- NoReC-IS -->
@@ -106,7 +106,7 @@ title: Pretrained Benchmark
    <tr>
     <td>Maltehb/-l-ctra-danish-electra-small-cased</td> <!-- Model ID -->
     <td class="size">55</td> <!-- Model size -->
-    <td class="speed">25.56 ± 2.39</td> <!-- Inference speed -->
+    <td class="speed">20.40 ± 1.35</td> <!-- Inference speed -->
     <td class="score"></td> <!-- ScandEval score -->
     <td class="da-score"></td> <!-- Danish score -->
     <td class="no-score"></td> <!-- Norwegian score -->
@@ -138,7 +138,7 @@ title: Pretrained Benchmark
     <td class="sv dep">58.72 ± 0.41 / 62.47 ± 0.41</td> <!-- SDT-DEP -->
     <td class="sv clf">42.60 ± 0.39</td> <!-- DaLaJ -->
     <td class="sv clf">48.78 ± 0.47</td> <!-- ABSAbank-Imm -->
-    <td class="is ner">83.67 ± 0.16</td> <!-- WikiANN-IS -->
+    <td class="is ner">78.36 ± 0.20 / 77.50 ± 0.25<!-- MIM-GOLD-NER -->
     <td class="is pos">98.32 ± 0.05</td> <!-- IDT-POS -->
     <td class="is dep">74.64 ± 0.37 / 78.04 ± 0.36</td> <!-- IDT-DEP -->
     <td class="is clf">37.83 ± 0.21</td> <!-- NoReC-IS -->
@@ -150,7 +150,7 @@ title: Pretrained Benchmark
    <tr>
     <td>flax-community/roberta-base-danish</td> <!-- Model ID -->
     <td class="size">476</td> <!-- Model size -->
-    <td class="speed">2.75 ± 0.08</td> <!-- Inference speed -->
+    <td class="speed">2.82 ± 0.10</td> <!-- Inference speed -->
     <td class="score"></td> <!-- ScandEval score -->
     <td class="da-score"></td> <!-- Danish score -->
     <td class="no-score"></td> <!-- Norwegian score -->
@@ -182,7 +182,7 @@ title: Pretrained Benchmark
     <td class="sv dep">59.49 ± 0.62 / 62.83 ± 0.63</td> <!-- SDT-DEP -->
     <td class="sv clf">41.48 ± 1.66</td> <!-- DaLaJ -->
     <td class="sv clf">26.97 ± 1.21</td> <!-- ABSAbank-Imm -->
-    <td class="is ner">82.91 ± 0.15</td> <!-- WikiANN-IS -->
+    <td class="is ner">70.39 ± 1.99 / 70.34 ± 1.91<!-- MIM-GOLD-NER -->
     <td class="is pos">98.54 ± 0.10</td> <!-- IDT-POS -->
     <td class="is dep">78.33 ± 0.30 / 80.55 ± 0.28</td> <!-- IDT-DEP -->
     <td class="is clf">39.58 ± 1.41</td> <!-- NoReC-IS -->
@@ -194,7 +194,7 @@ title: Pretrained Benchmark
    <tr>
     <td>flax-community/roberta-base-scandinavian</td> <!-- Model ID -->
     <td class="size">476</td> <!-- Model size -->
-    <td class="speed">2.57 ± 0.08</td> <!-- Inference speed -->
+    <td class="speed">2.84 ± 0.10</td> <!-- Inference speed -->
     <td class="score"></td> <!-- ScandEval score -->
     <td class="da-score"></td> <!-- Danish score -->
     <td class="no-score"></td> <!-- Norwegian score -->
@@ -226,7 +226,7 @@ title: Pretrained Benchmark
     <td class="sv dep">61.95 ± 0.50 / 64.64 ± 0.52</td> <!-- SDT-DEP -->
     <td class="sv clf">43.17 ± 1.45</td> <!-- DaLaJ -->
     <td class="sv clf">27.05 ± 1.37</td> <!-- ABSAbank-Imm -->
-    <td class="is ner">82.18 ± 0.36</td> <!-- WikiANN-IS -->
+    <td class="is ner">79.13 ± 0.24 / 78.76 ± 0.24<!-- MIM-GOLD-NER -->
     <td class="is pos">98.83 ± 0.03</td> <!-- IDT-POS -->
     <td class="is dep">70.12 ± 2.78 / 72.91 ± 2.67</td> <!-- IDT-DEP -->
     <td class="is clf">26.02 ± 0.48</td> <!-- NoReC-IS -->
@@ -238,7 +238,7 @@ title: Pretrained Benchmark
    <tr>
     <td>Maltehb/-l-ctra-danish-electra-small-uncased</td> <!-- Model ID -->
     <td class="size">55</td> <!-- Model size -->
-    <td class="speed">25.54 ± 1.53</td> <!-- Inference speed -->
+    <td class="speed">20.45 ± 1.31</td> <!-- Inference speed -->
     <td class="score"></td> <!-- ScandEval score -->
     <td class="da-score"></td> <!-- Danish score -->
     <td class="no-score"></td> <!-- Norwegian score -->
@@ -270,7 +270,7 @@ title: Pretrained Benchmark
     <td class="sv dep">56.85 ± 0.13 / 60.60 ± 0.13</td> <!-- SDT-DEP -->
     <td class="sv clf">49.63 ± 1.14</td> <!-- DaLaJ -->
     <td class="sv clf">38.84 ± 1.86</td> <!-- ABSAbank-Imm -->
-    <td class="is ner">79.04 ± 0.35</td> <!-- WikiANN-IS -->
+    <td class="is ner">73.72 ± 0.33 / 71.88 ± 0.44<!-- MIM-GOLD-NER -->
     <td class="is pos">98.22 ± 0.04</td> <!-- IDT-POS -->
     <td class="is dep">72.40 ± 0.45 / 75.73 ± 0.43</td> <!-- IDT-DEP -->
     <td class="is clf">37.48 ± 0.17</td> <!-- NoReC-IS -->
@@ -282,7 +282,7 @@ title: Pretrained Benchmark
    <tr>
     <td>alexanderfalk/danbert-small-cased</td> <!-- Model ID -->
     <td class="size">321</td> <!-- Model size -->
-    <td class="speed">8.73 ± 0.26</td> <!-- Inference speed -->
+    <td class="speed">5.46 ± 0.15</td> <!-- Inference speed -->
     <td class="score"></td> <!-- ScandEval score -->
     <td class="da-score"></td> <!-- Danish score -->
     <td class="no-score"></td> <!-- Norwegian score -->
@@ -314,7 +314,7 @@ title: Pretrained Benchmark
     <td class="sv dep">38.70 ± 0.12 / 42.98 ± 0.13</td> <!-- SDT-DEP -->
     <td class="sv clf">47.24 ± 0.27</td> <!-- DaLaJ -->
     <td class="sv clf">44.43 ± 0.35</td> <!-- ABSAbank-Imm -->
-    <td class="is ner">73.63 ± 0.13</td> <!-- WikiANN-IS -->
+    <td class="is ner">66.76 ± 0.13 / 64.11 ± 0.16<!-- MIM-GOLD-NER -->
     <td class="is pos">97.75 ± 0.05</td> <!-- IDT-POS -->
     <td class="is dep">80.15 ± 0.27 / 81.30 ± 0.25</td> <!-- IDT-DEP -->
     <td class="is clf">38.42 ± 0.20</td> <!-- NoReC-IS -->
@@ -326,7 +326,7 @@ title: Pretrained Benchmark
    <tr>
     <td>Geotrend/bert-base-da-cased</td> <!-- Model ID -->
     <td class="size">396</td> <!-- Model size -->
-    <td class="speed">4.26 ± 0.12</td> <!-- Inference speed -->
+    <td class="speed">2.62 ± 0.07</td> <!-- Inference speed -->
     <td class="score"></td> <!-- ScandEval score -->
     <td class="da-score"></td> <!-- Danish score -->
     <td class="no-score"></td> <!-- Norwegian score -->
@@ -358,7 +358,7 @@ title: Pretrained Benchmark
     <td class="sv dep">66.30 ± 0.35 / 68.89 ± 0.35</td> <!-- SDT-DEP -->
     <td class="sv clf">48.26 ± 0.41</td> <!-- DaLaJ -->
     <td class="sv clf">49.53 ± 0.43</td> <!-- ABSAbank-Imm -->
-    <td class="is ner">88.86 ± 0.15</td> <!-- WikiANN-IS -->
+    <td class="is ner">85.28 ± 0.15 / 84.89 ± 0.16<!-- MIM-GOLD-NER -->
     <td class="is pos">99.12 ± 0.03</td> <!-- IDT-POS -->
     <td class="is dep">80.51 ± 1.10 / 82.37 ± 0.99</td> <!-- IDT-DEP -->
     <td class="is clf">43.96 ± 0.29</td> <!-- NoReC-IS -->
@@ -370,7 +370,7 @@ title: Pretrained Benchmark
    <tr>
     <td>sarnikowski/electra-small-generator-da-256-cased</td> <!-- Model ID -->
     <td class="size">17</td> <!-- Model size -->
-    <td class="speed">90.79 ± 11.32</td> <!-- Inference speed -->
+    <td class="speed">85.12 ± 7.79</td> <!-- Inference speed -->
     <td class="score"></td> <!-- ScandEval score -->
     <td class="da-score"></td> <!-- Danish score -->
     <td class="no-score"></td> <!-- Norwegian score -->
@@ -402,7 +402,7 @@ title: Pretrained Benchmark
     <td class="sv dep">14.96 ± 0.08 / 20.08 ± 0.08</td> <!-- SDT-DEP -->
     <td class="sv clf">39.77 ± 0.30</td> <!-- DaLaJ -->
     <td class="sv clf">25.49 ± 0.25</td> <!-- ABSAbank-Imm -->
-    <td class="is ner">54.52 ± 0.20</td> <!-- WikiANN-IS -->
+    <td class="is ner">35.69 ± 0.22 / 27.03 ± 0.19<!-- MIM-GOLD-NER -->
     <td class="is pos">63.95 ± 0.28</td> <!-- IDT-POS -->
     <td class="is dep">26.32 ± 0.30 / 36.77 ± 0.37</td> <!-- IDT-DEP -->
     <td class="is clf">43.14 ± 0.39</td> <!-- NoReC-IS -->
@@ -414,7 +414,7 @@ title: Pretrained Benchmark
    <tr>
     <td>Geotrend/distilbert-base-da-cased</td> <!-- Model ID -->
     <td class="size">234</td> <!-- Model size -->
-    <td class="speed">8.36 ± 0.43</td> <!-- Inference speed -->
+    <td class="speed">5.53 ± 0.39</td> <!-- Inference speed -->
     <td class="score"></td> <!-- ScandEval score -->
     <td class="da-score"></td> <!-- Danish score -->
     <td class="no-score"></td> <!-- Norwegian score -->
@@ -446,7 +446,7 @@ title: Pretrained Benchmark
     <td class="sv dep">55.80 ± 0.33 / 59.04 ± 0.33</td> <!-- SDT-DEP -->
     <td class="sv clf">48.33 ± 0.28</td> <!-- DaLaJ -->
     <td class="sv clf">47.82 ± 0.57</td> <!-- ABSAbank-Imm -->
-    <td class="is ner">87.77 ± 0.17</td> <!-- WikiANN-IS -->
+    <td class="is ner">81.36 ± 0.11 / 80.96 ± 0.15<!-- MIM-GOLD-NER -->
     <td class="is pos">98.92 ± 0.02</td> <!-- IDT-POS -->
     <td class="is dep">81.92 ± 0.31 / 83.59 ± 0.29</td> <!-- IDT-DEP -->
     <td class="is clf">43.54 ± 0.41</td> <!-- NoReC-IS -->
@@ -458,7 +458,7 @@ title: Pretrained Benchmark
    <tr>
     <td>KB/bert-base-swedish-cased</td> <!-- Model ID -->
     <td class="size">478</td> <!-- Model size -->
-    <td class="speed">4.13 ± 0.14</td> <!-- Inference speed -->
+    <td class="speed">2.62 ± 0.08</td> <!-- Inference speed -->
     <td class="score"></td> <!-- ScandEval score -->
     <td class="da-score"></td> <!-- Danish score -->
     <td class="no-score"></td> <!-- Norwegian score -->
@@ -490,7 +490,7 @@ title: Pretrained Benchmark
     <td class="sv dep">76.34 ± 0.14 / 78.13 ± 0.14</td> <!-- SDT-DEP -->
     <td class="sv clf">62.80 ± 0.38</td> <!-- DaLaJ -->
     <td class="sv clf">59.50 ± 0.32</td> <!-- ABSAbank-Imm -->
-    <td class="is ner">84.91 ± 0.16</td> <!-- WikiANN-IS -->
+    <td class="is ner">80.65 ± 0.11 / 80.67 ± 0.12<!-- MIM-GOLD-NER -->
     <td class="is pos">97.28 ± 0.04</td> <!-- IDT-POS -->
     <td class="is dep">84.27 ± 0.28 / 86.63 ± 0.24</td> <!-- IDT-DEP -->
     <td class="is clf">48.28 ± 0.29</td> <!-- NoReC-IS -->
@@ -502,7 +502,7 @@ title: Pretrained Benchmark
    <tr>
     <td>flax-community/nordic-roberta-wiki</td> <!-- Model ID -->
     <td class="size">476</td> <!-- Model size -->
-    <td class="speed">4.09 ± 0.13</td> <!-- Inference speed -->
+    <td class="speed">2.62 ± 0.07</td> <!-- Inference speed -->
     <td class="score"></td> <!-- ScandEval score -->
     <td class="da-score"></td> <!-- Danish score -->
     <td class="no-score"></td> <!-- Norwegian score -->
@@ -534,7 +534,7 @@ title: Pretrained Benchmark
     <td class="sv dep">63.74 ± 0.12 / 66.19 ± 0.12</td> <!-- SDT-DEP -->
     <td class="sv clf">50.54 ± 0.36</td> <!-- DaLaJ -->
     <td class="sv clf">45.54 ± 0.30</td> <!-- ABSAbank-Imm -->
-    <td class="is ner">85.92 ± 0.10</td> <!-- WikiANN-IS -->
+    <td class="is ner">79.65 ± 0.15 / 78.97 ± 0.19<!-- MIM-GOLD-NER -->
     <td class="is pos">98.52 ± 0.04</td> <!-- IDT-POS -->
     <td class="is dep">81.21 ± 0.35 / 82.97 ± 0.29</td> <!-- IDT-DEP -->
     <td class="is clf">48.21 ± 0.34</td> <!-- NoReC-IS -->
@@ -546,7 +546,7 @@ title: Pretrained Benchmark
    <tr>
     <td>flax-community/swe-roberta-wiki-oscar</td> <!-- Model ID -->
     <td class="size">476</td> <!-- Model size -->
-    <td class="speed">3.80 ± 0.12</td> <!-- Inference speed -->
+    <td class="speed">2.63 ± 0.20</td> <!-- Inference speed -->
     <td class="score"></td> <!-- ScandEval score -->
     <td class="da-score"></td> <!-- Danish score -->
     <td class="no-score"></td> <!-- Norwegian score -->
@@ -578,7 +578,7 @@ title: Pretrained Benchmark
     <td class="sv dep">71.32 ± 0.10 / 73.19 ± 0.11</td> <!-- SDT-DEP -->
     <td class="sv clf">54.33 ± 1.37</td> <!-- DaLaJ -->
     <td class="sv clf">48.84 ± 0.61</td> <!-- ABSAbank-Imm -->
-    <td class="is ner">81.77 ± 0.17</td> <!-- WikiANN-IS -->
+    <td class="is ner">81.68 ± 0.32 / 81.51 ± 0.36<!-- MIM-GOLD-NER -->
     <td class="is pos">98.08 ± 0.08</td> <!-- IDT-POS -->
     <td class="is dep">80.92 ± 1.05 / 83.04 ± 0.93</td> <!-- IDT-DEP -->
     <td class="is clf">48.92 ± 0.51</td> <!-- NoReC-IS -->
@@ -590,7 +590,7 @@ title: Pretrained Benchmark
    <tr>
     <td>KB/albert-base-swedish-cased-alpha</td> <!-- Model ID -->
     <td class="size">54</td> <!-- Model size -->
-    <td class="speed">4.46 ± 0.17</td> <!-- Inference speed -->
+    <td class="speed">2.64 ± 0.09</td> <!-- Inference speed -->
     <td class="score"></td> <!-- ScandEval score -->
     <td class="da-score"></td> <!-- Danish score -->
     <td class="no-score"></td> <!-- Norwegian score -->
@@ -622,7 +622,7 @@ title: Pretrained Benchmark
     <td class="sv dep">56.42 ± 0.13 / 59.37 ± 0.14</td> <!-- SDT-DEP -->
     <td class="sv clf">44.57 ± 0.52</td> <!-- DaLaJ -->
     <td class="sv clf">30.21 ± 1.73</td> <!-- ABSAbank-Imm -->
-    <td class="is ner">77.50 ± 0.32</td> <!-- WikiANN-IS -->
+    <td class="is ner">66.88 ± 0.60 / 67.48 ± 0.49<!-- MIM-GOLD-NER -->
     <td class="is pos">95.91 ± 0.32</td> <!-- IDT-POS -->
     <td class="is dep">67.40 ± 1.31 / 70.61 ± 1.27</td> <!-- IDT-DEP -->
     <td class="is clf">28.16 ± 0.58</td> <!-- NoReC-IS -->
@@ -634,7 +634,7 @@ title: Pretrained Benchmark
    <tr>
     <td>ltgoslo/norbert</td> <!-- Model ID -->
     <td class="size">427</td> <!-- Model size -->
-    <td class="speed">4.15 ± 0.13</td> <!-- Inference speed -->
+    <td class="speed">2.51 ± 0.08</td> <!-- Inference speed -->
     <td class="score"></td> <!-- ScandEval score -->
     <td class="da-score"></td> <!-- Danish score -->
     <td class="no-score"></td> <!-- Norwegian score -->
@@ -666,7 +666,7 @@ title: Pretrained Benchmark
     <td class="sv dep">1.52 ± 0.05 / 7.63 ± 0.09</td> <!-- SDT-DEP -->
     <td class="sv clf">48.91 ± 1.08</td> <!-- DaLaJ -->
     <td class="sv clf">42.96 ± 0.42</td> <!-- ABSAbank-Imm -->
-    <td class="is ner">83.41 ± 0.15</td> <!-- WikiANN-IS -->
+    <td class="is ner">79.73 ± 0.11 / 80.09 ± 0.14<!-- MIM-GOLD-NER -->
     <td class="is pos">92.06 ± 0.06</td> <!-- IDT-POS -->
     <td class="is dep">31.77 ± 0.88 / 36.26 ± 0.81</td> <!-- IDT-DEP -->
     <td class="is clf">22.44 ± 0.10</td> <!-- NoReC-IS -->
@@ -678,7 +678,7 @@ title: Pretrained Benchmark
    <tr>
     <td>NbAiLab/nb-bert-base</td> <!-- Model ID -->
     <td class="size">681</td> <!-- Model size -->
-    <td class="speed">4.26 ± 0.15</td> <!-- Inference speed -->
+    <td class="speed">2.63 ± 0.09</td> <!-- Inference speed -->
     <td class="score"></td> <!-- ScandEval score -->
     <td class="da-score"></td> <!-- Danish score -->
     <td class="no-score"></td> <!-- Norwegian score -->
@@ -710,7 +710,7 @@ title: Pretrained Benchmark
     <td class="sv dep">73.91 ± 0.12 / 75.99 ± 0.13</td> <!-- SDT-DEP -->
     <td class="sv clf">57.56 ± 0.50</td> <!-- DaLaJ -->
     <td class="sv clf">51.83 ± 0.64</td> <!-- ABSAbank-Imm -->
-    <td class="is ner">87.52 ± 0.11</td> <!-- WikiANN-IS -->
+    <td class="is ner">84.52 ± 0.10 / 84.49 ± 0.13<!-- MIM-GOLD-NER -->
     <td class="is pos">99.18 ± 0.02</td> <!-- IDT-POS -->
     <td class="is dep">78.50 ± 0.28 / 81.14 ± 0.27</td> <!-- IDT-DEP -->
     <td class="is clf">53.21 ± 0.26</td> <!-- NoReC-IS -->
@@ -722,7 +722,7 @@ title: Pretrained Benchmark
    <tr>
     <td>NbAiLab/nb-bert-large</td> <!-- Model ID -->
     <td class="size">1330</td> <!-- Model size -->
-    <td class="speed">0.60 ± 0.01</td> <!-- Inference speed -->
+    <td class="speed">0.85 ± 0.04</td> <!-- Inference speed -->
     <td class="score"></td> <!-- ScandEval score -->
     <td class="da-score"></td> <!-- Danish score -->
     <td class="no-score"></td> <!-- Norwegian score -->
@@ -754,7 +754,7 @@ title: Pretrained Benchmark
     <td class="sv dep">72.14 ± 0.91 / 73.90 ± 0.90</td> <!-- SDT-DEP -->
     <td class="sv clf">54.93 ± 0.93</td> <!-- DaLaJ -->
     <td class="sv clf">46.03 ± 0.63</td> <!-- ABSAbank-Imm -->
-    <td class="is ner">85.98 ± 0.14</td> <!-- WikiANN-IS -->
+    <td class="is ner">80.27 ± 0.20 / 78.73 ± 0.27<!-- MIM-GOLD-NER -->
     <td class="is pos">98.36 ± 0.03</td> <!-- IDT-POS -->
     <td class="is dep">81.83 ± 1.31 / 84.07 ± 1.20</td> <!-- IDT-DEP -->
     <td class="is clf">30.10 ± 1.71</td> <!-- NoReC-IS -->
@@ -766,7 +766,7 @@ title: Pretrained Benchmark
    <tr>
     <td>Geotrend/bert-base-no-cased</td> <!-- Model ID -->
     <td class="size">397</td> <!-- Model size -->
-    <td class="speed">4.14 ± 0.16</td> <!-- Inference speed -->
+    <td class="speed">2.59 ± 0.07</td> <!-- Inference speed -->
     <td class="score"></td> <!-- ScandEval score -->
     <td class="da-score"></td> <!-- Danish score -->
     <td class="no-score"></td> <!-- Norwegian score -->
@@ -798,7 +798,7 @@ title: Pretrained Benchmark
     <td class="sv dep">64.25 ± 0.68 / 66.84 ± 0.65</td> <!-- SDT-DEP -->
     <td class="sv clf">47.80 ± 0.39</td> <!-- DaLaJ -->
     <td class="sv clf">47.25 ± 0.60</td> <!-- ABSAbank-Imm -->
-    <td class="is ner">88.99 ± 0.13</td> <!-- WikiANN-IS -->
+    <td class="is ner">84.64 ± 0.11 / 84.47 ± 0.12<!-- MIM-GOLD-NER -->
     <td class="is pos">99.11 ± 0.02</td> <!-- IDT-POS -->
     <td class="is dep">82.03 ± 0.82 / 83.72 ± 0.73</td> <!-- IDT-DEP -->
     <td class="is clf">51.78 ± 0.31</td> <!-- NoReC-IS -->
@@ -810,7 +810,7 @@ title: Pretrained Benchmark
    <tr>
     <td>Geotrend/distilbert-base-no-cased</td> <!-- Model ID -->
     <td class="size">235</td> <!-- Model size -->
-    <td class="speed">8.49 ± 0.36</td> <!-- Inference speed -->
+    <td class="speed">5.18 ± 0.23</td> <!-- Inference speed -->
     <td class="score"></td> <!-- ScandEval score -->
     <td class="da-score"></td> <!-- Danish score -->
     <td class="no-score"></td> <!-- Norwegian score -->
@@ -842,7 +842,7 @@ title: Pretrained Benchmark
     <td class="sv dep">54.59 ± 0.14 / 57.66 ± 0.14</td> <!-- SDT-DEP -->
     <td class="sv clf">46.44 ± 0.25</td> <!-- DaLaJ -->
     <td class="sv clf">45.09 ± 0.50</td> <!-- ABSAbank-Imm -->
-    <td class="is ner">87.08 ± 0.11</td> <!-- WikiANN-IS -->
+    <td class="is ner">82.35 ± 0.11 / 81.82 ± 0.13</td> <!-- MIM-GOLD-NER -->
     <td class="is pos">98.95 ± 0.02</td> <!-- IDT-POS -->
     <td class="is dep">83.81 ± 0.59 / 85.18 ± 0.51</td> <!-- IDT-DEP -->
     <td class="is clf">48.36 ± 0.28</td> <!-- NoReC-IS -->
@@ -854,7 +854,7 @@ title: Pretrained Benchmark
    <tr>
     <td>ViktorAlm/electra-base-norwegian-uncased-discriminator</td> <!-- Model ID -->
     <td class="size">416</td> <!-- Model size -->
-    <td class="speed">4.27 ± 0.15</td> <!-- Inference speed -->
+    <td class="speed">2.60 ± 0.09</td> <!-- Inference speed -->
     <td class="score"></td> <!-- ScandEval score -->
     <td class="da-score"></td> <!-- Danish score -->
     <td class="no-score"></td> <!-- Norwegian score -->
@@ -886,7 +886,7 @@ title: Pretrained Benchmark
     <td class="sv dep">60.04 ± 0.22 / 64.32 ± 0.23</td> <!-- SDT-DEP -->
     <td class="sv clf">47.67 ± 1.13</td> <!-- DaLaJ -->
     <td class="sv clf">48.93 ± 0.60</td> <!-- ABSAbank-Imm -->
-    <td class="is ner">66.68 ± 0.27</td> <!-- WikiANN-IS -->
+    <td class="is ner">46.65 ± 0.18 / 34.82 ± 0.18<!-- MIM-GOLD-NER -->
     <td class="is pos">93.90 ± 0.06</td> <!-- IDT-POS -->
     <td class="is dep">77.98 ± 0.61 / 81.32 ± 0.49</td> <!-- IDT-DEP -->
     <td class="is clf">41.08 ± 1.03</td> <!-- NoReC-IS -->
@@ -898,7 +898,7 @@ title: Pretrained Benchmark
    <tr>
     <td>sarnikowski/electra-small-discriminator-da-256-cased</td> <!-- Model ID -->
     <td class="size">51</td> <!-- Model size -->
-    <td class="speed">25.94 ± 3.47</td> <!-- Inference speed -->
+    <td class="speed">19.76 ± 1.28</td> <!-- Inference speed -->
     <td class="score"></td> <!-- ScandEval score -->
     <td class="da-score"></td> <!-- Danish score -->
     <td class="no-score"></td> <!-- Norwegian score -->
@@ -930,7 +930,7 @@ title: Pretrained Benchmark
     <td class="sv dep">43.75 ± 0.38 / 48.39 ± 0.40</td> <!-- SDT-DEP -->
     <td class="sv clf">39.00 ± 0.25</td> <!-- DaLaJ -->
     <td class="sv clf">30.21 ± 1.18</td> <!-- ABSAbank-Imm -->
-    <td class="is ner">70.97 ± 0.18</td> <!-- WikiANN-IS -->
+    <td class="is ner">54.67 ± 0.21 / 47.96 ± 0.28<!-- MIM-GOLD-NER -->
     <td class="is pos">90.78 ± 0.11</td> <!-- IDT-POS -->
     <td class="is dep">66.85 ± 0.41 / 73.86 ± 0.32</td> <!-- IDT-DEP -->
     <td class="is clf">38.78 ± 0.36</td> <!-- NoReC-IS -->
@@ -942,7 +942,7 @@ title: Pretrained Benchmark
    <tr>
     <td>setu4993/LaBSE</td> <!-- Model ID -->
     <td class="size">1750</td> <!-- Model size -->
-    <td class="speed">4.42 ± 0.11</td> <!-- Inference speed -->
+    <td class="speed">2.67 ± 0.07</td> <!-- Inference speed -->
     <td class="score"></td> <!-- ScandEval score -->
     <td class="da-score"></td> <!-- Danish score -->
     <td class="no-score"></td> <!-- Norwegian score -->
@@ -974,7 +974,7 @@ title: Pretrained Benchmark
     <td class="sv dep">71.91 ± 0.13 / 74.13 ± 0.13</td> <!-- SDT-DEP -->
     <td class="sv clf">51.08 ± 0.48</td> <!-- DaLaJ -->
     <td class="sv clf">55.04 ± 0.39</td> <!-- ABSAbank-Imm -->
-    <td class="is ner">90.31 ± 0.16</td> <!-- WikiANN-IS -->
+    <td class="is ner">88.51 ± 0.10 / 88.84 ± 0.15<!-- MIM-GOLD-NER -->
     <td class="is pos">99.33 ± 0.07</td> <!-- IDT-POS -->
     <td class="is dep">88.61 ± 0.17 / 89.73 ± 0.16</td> <!-- IDT-DEP -->
     <td class="is clf">57.00 ± 0.28</td> <!-- NoReC-IS -->
@@ -984,53 +984,9 @@ title: Pretrained Benchmark
     <td class="fo clf">60.54 ± 0.29</td> <!-- NoReC-FO -->
    </tr>
    <tr>
-    <td>mideind/IceBERT</td> <!-- Model ID -->
-    <td class="size">475</td> <!-- Model size -->
-    <td class="speed">3.65 ± 0.11</td> <!-- Inference speed -->
-    <td class="score"></td> <!-- ScandEval score -->
-    <td class="da-score"></td> <!-- Danish score -->
-    <td class="no-score"></td> <!-- Norwegian score -->
-    <td class="sv-score"></td> <!-- Swedish score -->
-    <td class="is-score"></td> <!-- Icelandic score -->
-    <td class="fo-score"></td> <!-- Faroese score -->
-    <td class="ner-score"></td> <!-- Mean NER score -->
-    <td class="pos-score"></td> <!-- Mean POS score -->
-    <td class="dep-score"></td> <!-- Mean dependency parsing score -->
-    <td class="clf-score"></td> <!-- Mean classification score -->
-    <td class="da ner">68.54 ± 0.47 / 71.60 ± 0.43</td> <!-- DaNE -->
-    <td class="da pos">95.00 ± 0.04</td> <!-- DDT-POS -->
-    <td class="da dep">79.43 ± 0.16 / 82.84 ± 0.13</td> <!-- DDT-DEP -->
-    <td class="da clf">51.79 ± 0.27</td> <!-- AngryTweets -->
-    <td class="da clf">38.61 ± 0.67</td> <!-- TwitterSent -->
-    <td class="da clf">21.96 ± 0.16</td> <!-- Europarl -->
-    <td class="da clf">40.56 ± 0.83</td> <!-- LCC -->
-    <td class="da clf">46.94 ± 0.05</td> <!-- DKHate -->
-    <td class="no ner">77.65 ± 0.29 / 79.23 ± 0.28</td> <!-- NorNE-NB -->
-    <td class="no ner">76.71 ± 0.26 / 80.14 ± 0.31</td> <!-- NorNE-NN -->
-    <td class="no pos">97.07 ± 0.02</td> <!-- NDT-NB-POS -->
-    <td class="no pos">96.72 ± 0.04</td> <!-- NDT-NN-POS -->
-    <td class="no dep">79.92 ± 0.10 / 83.27 ± 0.08</td> <!-- NDT-NB-DEP -->
-    <td class="no dep">78.64 ± 0.23 / 82.10 ± 0.21</td> <!-- NDT-NN-DEP -->
-    <td class="no clf">46.51 ± 0.50</td> <!-- NoReC -->
-    <td class="no clf">64.31 ± 0.62</td> <!-- NorDial -->
-    <td class="sv ner">77.24 ± 0.10 / 80.71 ± 0.10</td> <!-- SUC3 -->
-    <td class="sv pos">95.62 ± 0.05</td> <!-- SDT-POS -->
-    <td class="sv dep">59.87 ± 0.13 / 64.46 ± 0.13</td> <!-- SDT-DEP -->
-    <td class="sv clf">33.17 ± 0.12</td> <!-- DaLaJ -->
-    <td class="sv clf">47.84 ± 0.39</td> <!-- ABSAbank-Imm -->
-    <td class="is ner">89.94 ± 0.15</td> <!-- WikiANN-IS -->
-    <td class="is pos">99.46 ± 0.02</td> <!-- IDT-POS -->
-    <td class="is dep">90.16 ± 0.31 / 91.26 ± 0.28</td> <!-- IDT-DEP -->
-    <td class="is clf">53.98 ± 0.31</td> <!-- NoReC-IS -->
-    <td class="fo ner">86.78 ± 0.17</td> <!-- WikiANN-FO -->
-    <td class="fo pos">97.47 ± 0.04</td> <!-- FDT-POS -->
-    <td class="fo dep">46.20 ± 0.35 / 48.65 ± 0.35</td> <!-- FDT-DEP -->
-    <td class="fo clf">46.37 ± 1.36</td> <!-- NoReC-FO -->
-   </tr>
-   <tr>
     <td>neurocode/IsRoBERTa</td> <!-- Model ID -->
     <td class="size">319</td> <!-- Model size -->
-    <td class="speed">7.77 ± 0.33</td> <!-- Inference speed -->
+    <td class="speed">4.88 ± 0.14</td> <!-- Inference speed -->
     <td class="score"></td> <!-- ScandEval score -->
     <td class="da-score"></td> <!-- Danish score -->
     <td class="no-score"></td> <!-- Norwegian score -->
@@ -1062,7 +1018,7 @@ title: Pretrained Benchmark
     <td class="sv dep">39.58 ± 0.15 / 44.06 ± 0.17</td> <!-- SDT-DEP -->
     <td class="sv clf">33.17 ± 0.12</td> <!-- DaLaJ -->
     <td class="sv clf">42.12 ± 0.41</td> <!-- ABSAbank-Imm -->
-    <td class="is ner">83.41 ± 0.16</td> <!-- WikiANN-IS -->
+    <td class="is ner">80.10 ± 0.11 / 80.92 ± 0.13<!-- MIM-GOLD-NER -->
     <td class="is pos">99.27 ± 0.02</td> <!-- IDT-POS -->
     <td class="is dep">84.35 ± 0.23 / 85.39 ± 0.22</td> <!-- IDT-DEP -->
     <td class="is clf">50.53 ± 0.19</td> <!-- NoReC-IS -->
@@ -1074,7 +1030,7 @@ title: Pretrained Benchmark
    <tr>
     <td>xlm-roberta-base</td> <!-- Model ID -->
     <td class="size">1040</td> <!-- Model size -->
-    <td class="speed">4.10 ± 0.12</td> <!-- Inference speed -->
+    <td class="speed">2.55 ± 0.08</td> <!-- Inference speed -->
     <td class="score"></td> <!-- ScandEval score -->
     <td class="da-score"></td> <!-- Danish score -->
     <td class="no-score"></td> <!-- Norwegian score -->
@@ -1106,7 +1062,7 @@ title: Pretrained Benchmark
     <td class="sv dep">77.56 ± 0.30 / 79.50 ± 0.30</td> <!-- SDT-DEP -->
     <td class="sv clf">47.01 ± 0.91</td> <!-- DaLaJ -->
     <td class="sv clf">48.81 ± 0.72</td> <!-- ABSAbank-Imm -->
-    <td class="is ner">89.33 ± 0.13</td> <!-- WikiANN-IS -->
+    <td class="is ner">88.01 ± 0.13 / 87.84 ± 0.16<!-- MIM-GOLD-NER -->
     <td class="is pos">99.32 ± 0.02</td> <!-- IDT-POS -->
     <td class="is dep">84.59 ± 0.57 / 86.16 ± 0.53</td> <!-- IDT-DEP -->
     <td class="is clf">49.33 ± 0.80</td> <!-- NoReC-IS -->
@@ -1118,7 +1074,7 @@ title: Pretrained Benchmark
    <tr>
     <td>xlm-roberta-large</td> <!-- Model ID -->
     <td class="size">2090</td> <!-- Model size -->
-    <td class="speed">1.13 ± 0.03</td> <!-- Inference speed -->
+    <td class="speed">0.73 ± 0.03</td> <!-- Inference speed -->
     <td class="score"></td> <!-- ScandEval score -->
     <td class="da-score"></td> <!-- Danish score -->
     <td class="no-score"></td> <!-- Norwegian score -->
@@ -1150,7 +1106,7 @@ title: Pretrained Benchmark
     <td class="sv dep">74.41 ± 0.84 / 76.01 ± 0.86</td> <!-- SDT-DEP -->
     <td class="sv clf">34.03 ± 0.26</td> <!-- DaLaJ -->
     <td class="sv clf">54.05 ± 0.87</td> <!-- ABSAbank-Imm -->
-    <td class="is ner">90.64 ± 0.16</td> <!-- WikiANN-IS -->
+    <td class="is ner">89.77 ± 0.21 / 89.66 ± 0.26<!-- MIM-GOLD-NER -->
     <td class="is pos">99.45 ± 0.02</td> <!-- IDT-POS -->
     <td class="is dep">88.55 ± 0.42 / 89.64 ± 0.38</td> <!-- IDT-DEP -->
     <td class="is clf">56.63 ± 0.27</td> <!-- NoReC-IS -->
@@ -1162,7 +1118,7 @@ title: Pretrained Benchmark
    <tr>
     <td>bert-base-multilingual-cased</td> <!-- Model ID -->
     <td class="size">681</td> <!-- Model size -->
-    <td class="speed">4.11 ± 0.11</td> <!-- Inference speed -->
+    <td class="speed">2.42 ± 0.07</td> <!-- Inference speed -->
     <td class="score"></td> <!-- ScandEval score -->
     <td class="da-score"></td> <!-- Danish score -->
     <td class="no-score"></td> <!-- Norwegian score -->
@@ -1186,7 +1142,7 @@ title: Pretrained Benchmark
     <td class="no pos">98.25 ± 0.02</td> <!-- NDT-NB-POS -->
     <td class="no pos">98.03 ± 0.03</td> <!-- NDT-NN-POS -->
     <td class="no dep">84.30 ± 0.05 / 86.33 ± 0.05</td> <!-- NDT-NB-DEP -->
-    <td class="no dep">71.50 ± 0.25 / 74.49 ± 0.25</td> <!-- NDT-NN-DEP -->
+    <td class="no dep">77.38 ± 1.79 / 79.90 ± 1.82</td> <!-- NDT-NN-DEP -->
     <td class="no clf">62.48 ± 0.27</td> <!-- NoReC -->
     <td class="no clf">67.65 ± 0.96</td> <!-- NorDial -->
     <td class="sv ner">85.65 ± 0.09 / 88.63 ± 0.08</td> <!-- SUC3 -->
@@ -1194,7 +1150,7 @@ title: Pretrained Benchmark
     <td class="sv dep">67.09 ± 0.49 / 69.57 ± 0.48</td> <!-- SDT-DEP -->
     <td class="sv clf">48.27 ± 0.79</td> <!-- DaLaJ -->
     <td class="sv clf">47.01 ± 0.49</td> <!-- ABSAbank-Imm -->
-    <td class="is ner">90.04 ± 0.13</td> <!-- WikiANN-IS -->
+    <td class="is ner">85.94 ± 1.14 / 85.91 ± 1.21</td> <!-- MIM-GOLD-NER -->
     <td class="is pos">99.27 ± 0.02</td> <!-- IDT-POS -->
     <td class="is dep">78.05 ± 0.98 / 79.63 ± 0.91</td> <!-- IDT-DEP -->
     <td class="is clf">52.67 ± 0.65</td> <!-- NoReC-IS -->
@@ -1206,7 +1162,7 @@ title: Pretrained Benchmark
    <tr>
     <td>distilbert-base-multilingual-cased</td> <!-- Model ID -->
     <td class="size">517</td> <!-- Model size -->
-    <td class="speed">8.29 ± 0.28</td> <!-- Inference speed -->
+    <td class="speed">5.16 ± 0.17</td> <!-- Inference speed -->
     <td class="score"></td> <!-- ScandEval score -->
     <td class="da-score"></td> <!-- Danish score -->
     <td class="no-score"></td> <!-- Norwegian score -->
@@ -1238,7 +1194,7 @@ title: Pretrained Benchmark
     <td class="sv dep">60.97 ± 0.25 / 64.07 ± 0.26</td> <!-- SDT-DEP -->
     <td class="sv clf">47.59 ± 0.47</td> <!-- DaLaJ -->
     <td class="sv clf">46.56 ± 0.50</td> <!-- ABSAbank-Imm -->
-    <td class="is ner">87.94 ± 0.10</td> <!-- WikiANN-IS -->
+    <td class="is ner">83.81 ± 1.62 / 83.51 ± 2.01</td> <!-- MIM-GOLD-NER -->
     <td class="is pos">99.13 ± 0.02</td> <!-- IDT-POS -->
     <td class="is dep">80.07 ± 0.75 / 81.48 ± 0.70</td> <!-- IDT-DEP -->
     <td class="is clf">48.69 ± 1.06</td> <!-- NoReC-IS -->
@@ -1250,7 +1206,7 @@ title: Pretrained Benchmark
    <tr>
     <td>cardiffnlp/twitter-xlm-roberta-base</td> <!-- Model ID -->
     <td class="size">1040</td> <!-- Model size -->
-    <td class="speed">3.91 ± 0.12</td> <!-- Inference speed -->
+    <td class="speed">2.55 ± 0.08</td> <!-- Inference speed -->
     <td class="score"></td> <!-- ScandEval score -->
     <td class="da-score"></td> <!-- Danish score -->
     <td class="no-score"></td> <!-- Norwegian score -->
@@ -1282,7 +1238,7 @@ title: Pretrained Benchmark
     <td class="sv dep">72.91 ± 0.20 / 74.93 ± 0.20</td> <!-- SDT-DEP -->
     <td class="sv clf">46.19 ± 1.17</td> <!-- DaLaJ -->
     <td class="sv clf">34.64 ± 0.74</td> <!-- ABSAbank-Imm -->
-    <td class="is ner">88.55 ± 0.14</td> <!-- WikiANN-IS -->
+    <td class="is ner">85.71 ± 0.08 / 85.66 ± 0.10<!-- MIM-GOLD-NER -->
     <td class="is pos">99.38 ± 0.02</td> <!-- IDT-POS -->
     <td class="is dep">86.24 ± 0.23 / 87.72 ± 0.22</td> <!-- IDT-DEP -->
     <td class="is clf">49.10 ± 0.24</td> <!-- NoReC-IS -->
@@ -1294,7 +1250,7 @@ title: Pretrained Benchmark
    <tr>
     <td>Geotrend/bert-base-en-da-cased</td> <!-- Model ID -->
     <td class="size">424</td> <!-- Model size -->
-    <td class="speed">4.16 ± 0.14</td> <!-- Inference speed -->
+    <td class="speed">2.63 ± 0.09</td> <!-- Inference speed -->
     <td class="score"></td> <!-- ScandEval score -->
     <td class="da-score"></td> <!-- Danish score -->
     <td class="no-score"></td> <!-- Norwegian score -->
@@ -1326,7 +1282,7 @@ title: Pretrained Benchmark
     <td class="sv dep">65.76 ± 0.31 / 68.38 ± 0.30</td> <!-- SDT-DEP -->
     <td class="sv clf">46.87 ± 0.43</td> <!-- DaLaJ -->
     <td class="sv clf">47.93 ± 0.42</td> <!-- ABSAbank-Imm -->
-    <td class="is ner">89.19 ± 0.14</td> <!-- WikiANN-IS -->
+    <td class="is ner">85.11 ± 0.09 / 84.95 ± 0.12<!-- MIM-GOLD-NER -->
     <td class="is pos">99.21 ± 0.02</td> <!-- IDT-POS -->
     <td class="is dep">81.07 ± 0.75 / 82.84 ± 0.68</td> <!-- IDT-DEP -->
     <td class="is clf">49.54 ± 0.28</td> <!-- NoReC-IS -->
@@ -1338,7 +1294,7 @@ title: Pretrained Benchmark
    <tr>
     <td>Geotrend/bert-base-25lang-cased</td> <!-- Model ID -->
     <td class="size">578</td> <!-- Model size -->
-    <td class="speed">4.21 ± 0.13</td> <!-- Inference speed -->
+    <td class="speed">2.59 ± 0.07</td> <!-- Inference speed -->
     <td class="score"></td> <!-- ScandEval score -->
     <td class="da-score"></td> <!-- Danish score -->
     <td class="no-score"></td> <!-- Norwegian score -->
@@ -1370,7 +1326,7 @@ title: Pretrained Benchmark
     <td class="sv dep">64.69 ± 0.56 / 67.21 ± 0.56</td> <!-- SDT-DEP -->
     <td class="sv clf">45.02 ± 0.50</td> <!-- DaLaJ -->
     <td class="sv clf">47.82 ± 0.46</td> <!-- ABSAbank-Imm -->
-    <td class="is ner">89.55 ± 0.13</td> <!-- WikiANN-IS -->
+    <td class="is ner">81.13 ± 0.09 / 83.44 ± 0.07</td> <!-- MIM-GOLD-NER -->
     <td class="is pos">99.22 ± 0.02</td> <!-- IDT-POS -->
     <td class="is dep">77.49 ± 0.93 / 79.44 ± 0.86</td> <!-- IDT-DEP -->
     <td class="is clf">44.78 ± 1.11</td> <!-- NoReC-IS -->
@@ -1382,7 +1338,7 @@ title: Pretrained Benchmark
    <tr>
     <td>Geotrend/bert-base-en-fr-de-no-da-cased</td> <!-- Model ID -->
     <td class="size">451</td> <!-- Model size -->
-    <td class="speed">4.13 ± 0.17</td> <!-- Inference speed -->
+    <td class="speed">2.62 ± 0.09</td> <!-- Inference speed -->
     <td class="score"></td> <!-- ScandEval score -->
     <td class="da-score"></td> <!-- Danish score -->
     <td class="no-score"></td> <!-- Norwegian score -->
@@ -1414,7 +1370,7 @@ title: Pretrained Benchmark
     <td class="sv dep">63.44 ± 0.13 / 65.91 ± 0.13</td> <!-- SDT-DEP -->
     <td class="sv clf">46.55 ± 0.36</td> <!-- DaLaJ -->
     <td class="sv clf">45.34 ± 0.47</td> <!-- ABSAbank-Imm -->
-    <td class="is ner">89.12 ± 0.11</td> <!-- WikiANN-IS -->
+    <td class="is ner">85.15 ± 0.26 / 84.57 ± 0.34<!-- MIM-GOLD-NER -->
     <td class="is pos">99.20 ± 0.02</td> <!-- IDT-POS -->
     <td class="is dep">78.93 ± 0.89 / 80.93 ± 0.82</td> <!-- IDT-DEP -->
     <td class="is clf">40.66 ± 0.70</td> <!-- NoReC-IS -->
@@ -1426,7 +1382,7 @@ title: Pretrained Benchmark
    <tr>
     <td>Geotrend/distilbert-base-25lang-cased</td> <!-- Model ID -->
     <td class="size">415</td> <!-- Model size -->
-    <td class="speed">8.22 ± 0.42</td> <!-- Inference speed -->
+    <td class="speed">5.18 ± 0.14</td> <!-- Inference speed -->
     <td class="score"></td> <!-- ScandEval score -->
     <td class="da-score"></td> <!-- Danish score -->
     <td class="no-score"></td> <!-- Norwegian score -->
@@ -1458,7 +1414,7 @@ title: Pretrained Benchmark
     <td class="sv dep">57.13 ± 0.37 / 60.24 ± 0.37</td> <!-- SDT-DEP -->
     <td class="sv clf">47.74 ± 0.31</td> <!-- DaLaJ -->
     <td class="sv clf">49.64 ± 0.38</td> <!-- ABSAbank-Imm -->
-    <td class="is ner">87.76 ± 0.12</td> <!-- WikiANN-IS -->
+    <td class="is ner">82.86 ± 0.10 / 82.20 ± 0.11<!-- MIM-GOLD-NER -->
     <td class="is pos">99.09 ± 0.02</td> <!-- IDT-POS -->
     <td class="is dep">83.18 ± 0.26 / 84.80 ± 0.23</td> <!-- IDT-DEP -->
     <td class="is clf">49.50 ± 0.29</td> <!-- NoReC-IS -->
@@ -1470,7 +1426,7 @@ title: Pretrained Benchmark
    <tr>
     <td>Geotrend/distilbert-base-en-fr-de-no-da-cased</td> <!-- Model ID -->
     <td class="size">288</td> <!-- Model size -->
-    <td class="speed">8.40 ± 0.34</td> <!-- Inference speed -->
+    <td class="speed">5.18 ± 0.20</td> <!-- Inference speed -->
     <td class="score"></td> <!-- ScandEval score -->
     <td class="da-score"></td> <!-- Danish score -->
     <td class="no-score"></td> <!-- Norwegian score -->
@@ -1502,7 +1458,7 @@ title: Pretrained Benchmark
     <td class="sv dep">56.76 ± 0.16 / 59.79 ± 0.16</td> <!-- SDT-DEP -->
     <td class="sv clf">48.10 ± 0.38</td> <!-- DaLaJ -->
     <td class="sv clf">48.25 ± 0.57</td> <!-- ABSAbank-Imm -->
-    <td class="is ner">87.66 ± 0.13</td> <!-- WikiANN-IS -->
+    <td class="is ner">83.61 ± 0.12 / 83.52 ± 0.13<!-- MIM-GOLD-NER -->
     <td class="is pos">99.00 ± 0.02</td> <!-- IDT-POS -->
     <td class="is dep">86.00 ± 0.17 / 87.16 ± 0.16</td> <!-- IDT-DEP -->
     <td class="is clf">36.33 ± 0.89</td> <!-- NoReC-IS -->
@@ -1514,7 +1470,7 @@ title: Pretrained Benchmark
    <tr>
     <td>Geotrend/bert-base-en-no-cased</td> <!-- Model ID -->
     <td class="size">425</td> <!-- Model size -->
-    <td class="speed">4.11 ± 0.14</td> <!-- Inference speed -->
+    <td class="speed">2.58 ± 0.06</td> <!-- Inference speed -->
     <td class="score"></td> <!-- ScandEval score -->
     <td class="da-score"></td> <!-- Danish score -->
     <td class="no-score"></td> <!-- Norwegian score -->
@@ -1546,7 +1502,7 @@ title: Pretrained Benchmark
     <td class="sv dep">63.43 ± 0.36 / 65.98 ± 0.37</td> <!-- SDT-DEP -->
     <td class="sv clf">46.25 ± 0.79</td> <!-- DaLaJ -->
     <td class="sv clf">49.62 ± 0.38</td> <!-- ABSAbank-Imm -->
-    <td class="is ner">89.36 ± 0.15</td> <!-- WikiANN-IS -->
+    <td class="is ner">85.27 ± 0.09 / 84.81 ± 0.10<!-- MIM-GOLD-NER -->
     <td class="is pos">99.06 ± 0.02</td> <!-- IDT-POS -->
     <td class="is dep">80.02 ± 1.07 / 81.93 ± 0.97</td> <!-- IDT-DEP -->
     <td class="is clf">40.16 ± 0.62</td> <!-- NoReC-IS -->
@@ -1558,7 +1514,7 @@ title: Pretrained Benchmark
    <tr>
     <td>Geotrend/distilbert-base-en-no-cased</td> <!-- Model ID -->
     <td class="size">263</td> <!-- Model size -->
-    <td class="speed">8.25 ± 0.33</td> <!-- Inference speed -->
+    <td class="speed">5.19 ± 0.21</td> <!-- Inference speed -->
     <td class="score"></td> <!-- ScandEval score -->
     <td class="da-score"></td> <!-- Danish score -->
     <td class="no-score"></td> <!-- Norwegian score -->
@@ -1590,7 +1546,7 @@ title: Pretrained Benchmark
     <td class="sv dep">57.46 ± 0.33 / 60.64 ± 0.33</td> <!-- SDT-DEP -->
     <td class="sv clf">47.25 ± 0.38</td> <!-- DaLaJ -->
     <td class="sv clf">47.72 ± 0.37</td> <!-- ABSAbank-Imm -->
-    <td class="is ner">87.15 ± 0.11</td> <!-- WikiANN-IS -->
+    <td class="is ner">79.81 ± 0.12 / 82.84 ± 0.11</td> <!-- MIM-GOLD-NER -->
     <td class="is pos">98.90 ± 0.02</td> <!-- IDT-POS -->
     <td class="is dep">80.03 ± 0.63 / 81.79 ± 0.57</td> <!-- IDT-DEP -->
     <td class="is clf">40.85 ± 0.31</td> <!-- NoReC-IS -->
@@ -1602,7 +1558,7 @@ title: Pretrained Benchmark
    <tr>
     <td>Geotrend/distilbert-base-en-da-cased</td> <!-- Model ID -->
     <td class="size">262</td> <!-- Model size -->
-    <td class="speed">8.35 ± 0.39</td> <!-- Inference speed -->
+    <td class="speed">5.26 ± 0.13</td> <!-- Inference speed -->
     <td class="score"></td> <!-- ScandEval score -->
     <td class="da-score"></td> <!-- Danish score -->
     <td class="no-score"></td> <!-- Norwegian score -->
@@ -1634,7 +1590,7 @@ title: Pretrained Benchmark
     <td class="sv dep">56.60 ± 0.30 / 59.68 ± 0.31</td> <!-- SDT-DEP -->
     <td class="sv clf">34.30 ± 0.68</td> <!-- DaLaJ -->
     <td class="sv clf">46.37 ± 0.44</td> <!-- ABSAbank-Imm -->
-    <td class="is ner">86.94 ± 0.12</td> <!-- WikiANN-IS -->
+    <td class="is ner">82.84 ± 0.10 / 82.31 ± 0.10<!-- MIM-GOLD-NER -->
     <td class="is pos">99.08 ± 0.02</td> <!-- IDT-POS -->
     <td class="is dep">82.52 ± 0.93 / 84.03 ± 0.83</td> <!-- IDT-DEP -->
     <td class="is clf">46.88 ± 0.15</td> <!-- NoReC-IS -->
@@ -1646,7 +1602,7 @@ title: Pretrained Benchmark
    <tr>
     <td>sarnikowski/convbert-medium-small-da-cased</td> <!-- Model ID -->
     <td class="size">94</td> <!-- Model size -->
-    <td class="speed">11.52 ± 0.43</td> <!-- Inference speed -->
+    <td class="speed">8.78 ± 1.35</td> <!-- Inference speed -->
     <td class="score"></td> <!-- ScandEval score -->
     <td class="da-score"></td> <!-- Danish score -->
     <td class="no-score"></td> <!-- Norwegian score -->
@@ -1678,7 +1634,7 @@ title: Pretrained Benchmark
     <td class="sv dep">43.46 ± 0.10 / 47.95 ± 0.11</td> <!-- SDT-DEP -->
     <td class="sv clf">40.69 ± 0.53</td> <!-- DaLaJ -->
     <td class="sv clf">44.44 ± 0.54</td> <!-- ABSAbank-Imm -->
-    <td class="is ner">68.10 ± 0.15</td> <!-- WikiANN-IS -->
+    <td class="is ner">48.95 ± 0.13 / 51.79 ± 0.12</td> <!-- MIM-GOLD-NER -->
     <td class="is pos">91.15 ± 0.10</td> <!-- IDT-POS -->
     <td class="is dep">73.65 ± 0.38 / 78.31 ± 0.32</td> <!-- IDT-DEP -->
     <td class="is clf">43.75 ± 1.14</td> <!-- NoReC-IS -->
@@ -1690,7 +1646,7 @@ title: Pretrained Benchmark
    <tr>
     <td>sarnikowski/convbert-small-da-cased</td> <!-- Model ID -->
     <td class="size">50</td> <!-- Model size -->
-    <td class="speed">18.62 ± 1.20</td> <!-- Inference speed -->
+    <td class="speed">15.84 ± 0.77</td> <!-- Inference speed -->
     <td class="score"></td> <!-- ScandEval score -->
     <td class="da-score"></td> <!-- Danish score -->
     <td class="no-score"></td> <!-- Norwegian score -->
@@ -1722,7 +1678,7 @@ title: Pretrained Benchmark
     <td class="sv dep">42.09 ± 0.13 / 46.88 ± 0.12</td> <!-- SDT-DEP -->
     <td class="sv clf">40.00 ± 0.59</td> <!-- DaLaJ -->
     <td class="sv clf">43.73 ± 0.84</td> <!-- ABSAbank-Imm -->
-    <td class="is ner">69.03 ± 0.19</td> <!-- WikiANN-IS -->
+    <td class="is ner">55.88 ± 0.14 / 49.53 ± 0.20<!-- MIM-GOLD-NER -->
     <td class="is pos">90.69 ± 0.11</td> <!-- IDT-POS -->
     <td class="is dep">70.97 ± 0.48 / 76.04 ± 0.38</td> <!-- IDT-DEP -->
     <td class="is clf">41.29 ± 1.01</td> <!-- NoReC-IS -->
@@ -1734,7 +1690,7 @@ title: Pretrained Benchmark
    <tr>
     <td>birgermoell/roberta-swedish-scandi</td> <!-- Model ID -->
     <td class="size">476</td> <!-- Model size -->
-    <td class="speed">4.12 ± 0.13</td> <!-- Inference speed -->
+    <td class="speed">3.09 ± 0.12</td> <!-- Inference speed -->
     <td class="score"></td> <!-- ScandEval score -->
     <td class="da-score"></td> <!-- Danish score -->
     <td class="no-score"></td> <!-- Norwegian score -->
@@ -1766,7 +1722,7 @@ title: Pretrained Benchmark
     <td class="sv dep">68.61 ± 0.18 / 71.47 ± 0.16</td> <!-- SDT-DEP -->
     <td class="sv clf">49.41 ± 0.27</td> <!-- DaLaJ -->
     <td class="sv clf">49.26 ± 0.22</td> <!-- ABSAbank-Imm -->
-    <td class="is ner">82.53 ± 0.18</td> <!-- WikiANN-IS -->
+    <td class="is ner">76.38 ± 0.18 / 79.83 ± 0.18</td> <!-- MIM-GOLD-NER -->
     <td class="is pos">98.40 ± 0.05</td> <!-- IDT-POS -->
     <td class="is dep">77.74 ± 0.60 / 79.80 ± 0.54</td> <!-- IDT-DEP -->
     <td class="is clf">47.56 ± 0.25</td> <!-- NoReC-IS -->
@@ -1778,7 +1734,7 @@ title: Pretrained Benchmark
    <tr>
     <td>random-roberta</td> <!-- Model ID -->
     <td class="size">478</td> <!-- Model size -->
-    <td class="speed">3.83 ± 0.13</td> <!-- Inference speed -->
+    <td class="speed">2.43 ± 0.07</td> <!-- Inference speed -->
     <td class="score"></td> <!-- ScandEval score -->
     <td class="da-score"></td> <!-- Danish score -->
     <td class="no-score"></td> <!-- Norwegian score -->
@@ -1810,7 +1766,7 @@ title: Pretrained Benchmark
     <td class="sv dep">23.21 ± 0.17 / 28.43 ± 0.17</td> <!-- SDT-DEP -->
     <td class="sv clf">33.17 ± 0.12</td> <!-- DaLaJ -->
     <td class="sv clf">29.03 ± 0.69</td> <!-- ABSAbank-Imm -->
-    <td class="is ner">63.44 ± 0.13</td> <!-- WikiANN-IS -->
+    <td class="is ner">54.67 ± 0.16 / 58.38 ± 0.16</td> <!-- MIM-GOLD-NER -->
     <td class="is pos">95.71 ± 0.07</td> <!-- IDT-POS -->
     <td class="is dep">76.12 ± 0.27 / 77.50 ± 0.26</td> <!-- IDT-DEP -->
     <td class="is clf">38.68 ± 0.35</td> <!-- NoReC-IS -->

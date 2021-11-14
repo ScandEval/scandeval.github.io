@@ -24,7 +24,7 @@ title: Finetuned Benchmark
      <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Norwegian Bokmål NER tagging - Micro-F1 / Micro-F1 without MISC tags">NorNE-NB</span></th>
      <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Norwegian Nynorsk NER tagging - Micro-F1 / Micro-F1 without MISC tags">NorNE-NN</span></th>
      <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Swedish NER tagging - Micro-F1 / Micro-F1 without MISC tags">SUC3</span></th>
-     <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Icelandic NER tagging - Micro-F1">WikiANN-IS</span></th>
+     <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Icelandic NER tagging - Micro-F1">MIM-GOLD-NER</span></th>
      <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Faroese NER tagging - Micro-F1">WikiANN-FO</span></th>
 
      <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Danish POS tagging - Accuracy">DDT-POS</span></th>
@@ -54,7 +54,7 @@ title: Finetuned Benchmark
    <tr>
     <td>spacy/da_core_news_sm</td> <!-- Model ID -->
     <td class="size">18</td> <!-- Model size -->
-    <td class="speed">83.30 ± 18.90</td> <!-- Inference speed -->
+    <td class="speed">80.04 ± 11.12</td> <!-- Inference speed -->
     <td class="ner-score"></td> <!-- Mean NER score -->
     <td class="pos-score"></td> <!-- Mean POS score -->
     <td class="dep-score"></td> <!-- Mean dependency parsing score -->
@@ -67,7 +67,7 @@ title: Finetuned Benchmark
     <td class="no ner">45.91 ± 0.36 / 48.79 ± 0.39</td> <!-- NorNE-NB -->
     <td class="no ner">44.93 ± 0.54 / 49.60 ± 0.61</td> <!-- NorNE-NN -->
     <td class="sv ner">16.80 ± 0.11 / 21.72 ± 0.18</td> <!-- SUC3 -->
-    <td class="is ner">18.67 ± 0.24</td> <!-- WikiANN-IS -->
+    <td class="is ner">11.70 ± 0.19 / 15.27 ± 0.21</td> <!-- MIM-GOLD-NER -->
     <td class="fo ner">19.69 ± 0.64</td> <!-- WikiANN-FO -->
     <td class="da pos">94.70 ± 0.17</td> <!-- DDT-POS -->
     <td class="no pos">73.28 ± 0.13</td> <!-- NDT-NB-POS -->
@@ -92,7 +92,7 @@ title: Finetuned Benchmark
    <tr>
     <td>spacy/da_core_news_md</td> <!-- Model ID -->
     <td class="size">46</td> <!-- Model size -->
-    <td class="speed">78.40 ± 6.68</td> <!-- Inference speed -->
+    <td class="speed">74.01 ± 7.57</td> <!-- Inference speed -->
     <td class="ner-score"></td> <!-- Mean NER score -->
     <td class="pos-score"></td> <!-- Mean POS score -->
     <td class="dep-score"></td> <!-- Mean dependency parsing score -->
@@ -105,7 +105,7 @@ title: Finetuned Benchmark
     <td class="no ner">53.47 ± 0.33 / 56.96 ± 0.28</td> <!-- NorNE-NB -->
     <td class="no ner">37.44 ± 0.67 / 40.55 ± 0.77</td> <!-- NorNE-NN -->
     <td class="sv ner">19.34 ± 0.15 / 23.30 ± 0.17</td> <!-- SUC3 -->
-    <td class="is ner">18.55 ± 0.48</td> <!-- WikiANN-IS -->
+    <td class="is ner">5.94 ± 0.18 / 7.81 ± 0.24</td> <!-- MIM-GOLD-NER -->
     <td class="fo ner">16.58 ± 0.48</td> <!-- WikiANN-FO -->
     <td class="da pos">95.69 ± 0.19</td> <!-- DDT-POS -->
     <td class="no pos">76.24 ± 0.17</td> <!-- NDT-NB-POS -->
@@ -130,7 +130,7 @@ title: Finetuned Benchmark
    <tr>
     <td>spacy/da_core_news_lg</td> <!-- Model ID -->
     <td class="size">547</td> <!-- Model size -->
-    <td class="speed">75.67 ± 7.25</td> <!-- Inference speed -->
+    <td class="speed">74.22 ± 6.38</td> <!-- Inference speed -->
     <td class="ner-score"></td> <!-- Mean NER score -->
     <td class="pos-score"></td> <!-- Mean POS score -->
     <td class="dep-score"></td> <!-- Mean dependency parsing score -->
@@ -143,7 +143,7 @@ title: Finetuned Benchmark
     <td class="no ner">57.04 ± 0.34 / 62.39 ± 0.39</td> <!-- NorNE-NB -->
     <td class="no ner">37.68 ± 0.51 / 42.75 ± 0.64</td> <!-- NorNE-NN -->
     <td class="sv ner">20.95 ± 0.15 / 27.08 ± 0.17</td> <!-- SUC3 -->
-    <td class="is ner">18.35 ± 0.37</td> <!-- WikiANN-IS -->
+    <td class="is ner">8.40 ± 0.13 / 9.76 ± 0.19</td> <!-- MIM-GOLD-NER -->
     <td class="fo ner">15.39 ± 0.71</td> <!-- WikiANN-FO -->
     <td class="da pos">96.05 ± 0.14</td> <!-- DDT-POS -->
     <td class="no pos">76.55 ± 0.12</td> <!-- NDT-NB-POS -->
@@ -168,7 +168,7 @@ title: Finetuned Benchmark
    <tr>
     <td>spacy/da_core_news_trf</td> <!-- Model ID -->
     <td class="size">422</td> <!-- Model size -->
-    <td class="speed">4.13 ± 0.18</td> <!-- Inference speed -->
+    <td class="speed">2.80 ± 0.09</td> <!-- Inference speed -->
     <td class="ner-score"></td> <!-- Mean NER score -->
     <td class="pos-score"></td> <!-- Mean POS score -->
     <td class="dep-score"></td> <!-- Mean dependency parsing score -->
@@ -181,7 +181,7 @@ title: Finetuned Benchmark
     <td class="no ner">57.71 ± 0.47 / 64.05 ± 0.58</td> <!-- NorNE-NB -->
     <td class="no ner">30.04 ± 0.88 / 37.34 ± 0.99</td> <!-- NorNE-NN -->
     <td class="sv ner">21.93 ± 0.19 / 27.50 ± 0.23</td> <!-- SUC3 -->
-    <td class="is ner">22.92 ± 0.42</td> <!-- WikiANN-IS -->
+    <td class="is ner">5.86 ± 0.15 / 7.18 ± 0.16</td> <!-- MIM-GOLD-NER -->
     <td class="fo ner">26.67 ± 0.67</td> <!-- WikiANN-FO -->
     <td class="da pos">98.20 ± 0.11</td> <!-- DDT-POS -->
     <td class="no pos">84.85 ± 0.16</td> <!-- NDT-NB-POS -->
@@ -206,7 +206,7 @@ title: Finetuned Benchmark
    <tr>
     <td>chcaa/da_dacy_small_trf</td> <!-- Model ID -->
     <td class="size">52</td> <!-- Model size -->
-    <td class="speed">15.16 ± 0.80</td> <!-- Inference speed -->
+    <td class="speed">19.00 ± 0.85</td> <!-- Inference speed -->
     <td class="ner-score"></td> <!-- Mean NER score -->
     <td class="pos-score"></td> <!-- Mean POS score -->
     <td class="dep-score"></td> <!-- Mean dependency parsing score -->
@@ -219,7 +219,7 @@ title: Finetuned Benchmark
     <td class="no ner">47.81 ± 0.42 / 54.65 ± 0.51</td> <!-- NorNE-NB -->
     <td class="no ner">26.28 ± 0.50 / 32.65 ± 0.78</td> <!-- NorNE-NN -->
     <td class="sv ner">18.72 ± 0.10 / 24.07 ± 0.11</td> <!-- SUC3 -->
-    <td class="is ner">20.63 ± 0.46</td> <!-- WikiANN-IS -->
+    <td class="is ner">6.16 ± 0.19 / 7.43 ± 0.22</td> <!-- MIM-GOLD-NER -->
     <td class="fo ner">22.97 ± 0.38</td> <!-- WikiANN-FO -->
     <td class="da pos">97.95 ± 0.11</td> <!-- DDT-POS -->
     <td class="no pos">77.89 ± 0.16</td> <!-- NDT-NB-POS -->
@@ -244,7 +244,7 @@ title: Finetuned Benchmark
    <tr>
     <td>chcaa/da_dacy_medium_trf</td> <!-- Model ID -->
     <td class="size">422</td> <!-- Model size -->
-    <td class="speed">2.27 ± 0.07</td> <!-- Inference speed -->
+    <td class="speed">2.80 ± 0.08</td> <!-- Inference speed -->
     <td class="ner-score"></td> <!-- Mean NER score -->
     <td class="pos-score"></td> <!-- Mean POS score -->
     <td class="dep-score"></td> <!-- Mean dependency parsing score -->
@@ -257,7 +257,7 @@ title: Finetuned Benchmark
     <td class="no ner">56.99 ± 0.56 / 62.44 ± 0.63</td> <!-- NorNE-NB -->
     <td class="no ner">29.23 ± 0.68 / 35.00 ± 0.86</td> <!-- NorNE-NN -->
     <td class="sv ner">21.40 ± 0.13 / 25.44 ± 0.15</td> <!-- SUC3 -->
-    <td class="is ner">16.73 ± 0.44</td> <!-- WikiANN-IS -->
+    <td class="is ner">4.23 ± 0.16 / 4.89 ± 0.17</td> <!-- MIM-GOLD-NER -->
     <td class="fo ner">21.78 ± 0.64</td> <!-- WikiANN-FO -->
     <td class="da pos">97.90 ± 0.11</td> <!-- DDT-POS -->
     <td class="no pos">83.58 ± 0.14</td> <!-- NDT-NB-POS -->
@@ -282,7 +282,7 @@ title: Finetuned Benchmark
    <tr>
     <td>chcaa/da_dacy_large_trf</td> <!-- Model ID -->
     <td class="size">2090</td> <!-- Model size -->
-    <td class="speed">0.65 ± 0.01</td> <!-- Inference speed -->
+    <td class="speed">0.75 ± 0.02</td> <!-- Inference speed -->
     <td class="ner-score"></td> <!-- Mean NER score -->
     <td class="pos-score"></td> <!-- Mean POS score -->
     <td class="dep-score"></td> <!-- Mean dependency parsing score -->
@@ -295,7 +295,7 @@ title: Finetuned Benchmark
     <td class="no ner">78.90 ± 0.49 / 83.13 ± 0.39</td> <!-- NorNE-NB -->
     <td class="no ner">72.62 ± 0.58 / 81.73 ± 0.67</td> <!-- NorNE-NN -->
     <td class="sv ner">53.35 ± 0.17 / 63.05 ± 0.19</td> <!-- SUC3 -->
-    <td class="is ner">50.57 ± 0.46</td> <!-- WikiANN-IS -->
+    <td class="is ner">47.77 ± 0.42 / 58.03 ± 0.53</td> <!-- MIM-GOLD-NER -->
     <td class="fo ner">51.72 ± 0.52</td> <!-- WikiANN-FO -->
     <td class="da pos">98.50 ± 0.07</td> <!-- DDT-POS -->
     <td class="no pos">88.68 ± 0.09</td> <!-- NDT-NB-POS -->
@@ -320,7 +320,7 @@ title: Finetuned Benchmark
    <tr>
     <td>radbrt/nb_nocy_trf</td> <!-- Model ID -->
     <td class="size">425</td> <!-- Model size -->
-    <td class="speed">4.03 ± 0.26</td> <!-- Inference speed -->
+    <td class="speed">2.56 ± 0.10</td> <!-- Inference speed -->
     <td class="ner-score"></td> <!-- Mean NER score -->
     <td class="pos-score"></td> <!-- Mean POS score -->
     <td class="dep-score"></td> <!-- Mean dependency parsing score -->
@@ -329,12 +329,12 @@ title: Finetuned Benchmark
     <td class="no">-</td> <!-- NorDial -->
     <td class="sv">-</td> <!-- DaLaJ -->
     <td class="sv">-</td> <!-- ABSAbank-Imm -->
-    <td class="da ner">56.82 ± 1.63 / 66.82 ± 1.56</td> <!-- DaNE -->
-    <td class="no ner">68.20 ± 0.75 / 77.52 ± 0.56</td> <!-- NorNE-NB -->
-    <td class="no ner">69.22 ± 1.04 / 78.98 ± 0.87</td> <!-- NorNE-NN -->
-    <td class="sv ner">31.63 ± 0.29 / 37.88 ± 0.32</td> <!-- SUC3 -->
-    <td class="is ner">20.32 ± 0.45</td> <!-- WikiANN-IS -->
-    <td class="fo ner">12.91 ± 0.50</td> <!-- WikiANN-FO -->
+    <td class="da ner">66.53 ± 1.18 / 73.83 ± 1.10</td> <!-- DaNE -->
+    <td class="no ner">88.18 ± 0.37 / 90.20 ± 0.34</td> <!-- NorNE-NB -->
+    <td class="no ner">85.62 ± 0.71 / 88.87 ± 0.71</td> <!-- NorNE-NN -->
+    <td class="sv ner">42.62 ± 0.61 / 46.23 ± 0.80</td> <!-- SUC3 -->
+    <td class="is ner">16.85 ± 1.78 / 18.06 ± 2.14</td> <!-- MIM-GOLD-NER -->
+    <td class="fo ner">37.38 ± 1.90</td> <!-- WikiANN-FO -->
     <td class="da pos">82.45 ± 0.33</td> <!-- DDT-POS -->
     <td class="no pos">98.44 ± 0.09</td> <!-- NDT-NB-POS -->
     <td class="no pos">95.49 ± 0.15</td> <!-- NDT-NN-POS -->
@@ -358,7 +358,7 @@ title: Finetuned Benchmark
    <tr>
     <td>pin/senda</td> <!-- Model ID -->
     <td class="size">422</td> <!-- Model size -->
-    <td class="speed">2.61 ± 0.05</td> <!-- Inference speed -->
+    <td class="speed">2.75 ± 0.08</td> <!-- Inference speed -->
     <td class="ner-score">-</td> <!-- Mean NER score -->
     <td class="pos-score">-</td> <!-- Mean POS score -->
     <td class="dep-score">-</td> <!-- Mean dependency parsing score -->
@@ -371,7 +371,7 @@ title: Finetuned Benchmark
     <td class="no ner">-</td> <!-- NorNE-NB -->
     <td class="no ner">-</td> <!-- NorNE-NN -->
     <td class="sv ner">-</td> <!-- SUC3 -->
-    <td class="is ner">-</td> <!-- WikiANN-IS -->
+    <td class="is ner">-</td> <!-- MIM-GOLD-NER -->
     <td class="fo ner">-</td> <!-- WikiANN-FO -->
     <td class="da pos">-</td> <!-- DDT-POS -->
     <td class="no pos">-</td> <!-- NDT-NB-POS -->
@@ -396,7 +396,7 @@ title: Finetuned Benchmark
    <tr>
     <td>saattrupdan/nbailab-base-ner-scandi</td> <!-- Model ID -->
     <td class="size">676</td> <!-- Model size -->
-    <td class="speed">4.16 ± 0.18</td> <!-- Inference speed -->
+    <td class="speed">2.60 ± 0.07</td> <!-- Inference speed -->
     <td class="ner-score"></td> <!-- Mean NER score -->
     <td class="pos-score">-</td> <!-- Mean POS score -->
     <td class="dep-score">-</td> <!-- Mean dependency parsing score -->
@@ -409,7 +409,7 @@ title: Finetuned Benchmark
     <td class="no ner">91.06 ± 0.26 / 92.65 ± 0.35</td> <!-- NorNE-NB -->
     <td class="no ner">90.42 ± 0.61 / 93.90 ± 0.56</td> <!-- NorNE-NN -->
     <td class="sv ner">88.37 ± 0.17 / 91.00 ± 0.16</td> <!-- SUC3 -->
-    <td class="is ner">88.61 ± 0.41</td> <!-- WikiANN-IS -->
+    <td class="is ner">41.64 ± 0.79 / 51.72 ± 0.66</td> <!-- MIM-GOLD-NER -->
     <td class="fo ner">90.22 ± 0.46</td> <!-- WikiANN-FO -->
     <td class="da pos">-</td> <!-- DDT-POS -->
     <td class="no pos">-</td> <!-- NDT-NB-POS -->
@@ -434,7 +434,7 @@ title: Finetuned Benchmark
    <tr>
     <td>Maltehb/-l-ctra-danish-electra-small-cased-ner-dane</td> <!-- Model ID -->
     <td class="size">52</td> <!-- Model size -->
-    <td class="speed">25.43 ± 1.67</td> <!-- Inference speed -->
+    <td class="speed">20.88 ± 0.98</td> <!-- Inference speed -->
     <td class="ner-score"></td> <!-- Mean NER score -->
     <td class="pos-score">-</td> <!-- Mean POS score -->
     <td class="dep-score">-</td> <!-- Mean dependency parsing score -->
@@ -447,7 +447,7 @@ title: Finetuned Benchmark
     <td class="no ner">38.63 ± 0.54 / 39.89 ± 0.55</td> <!-- NorNE-NB -->
     <td class="no ner">18.47 ± 0.50 / 18.91 ± 0.52</td> <!-- NorNE-NN -->
     <td class="sv ner">23.07 ± 0.29 / 23.80 ± 0.29</td> <!-- SUC3 -->
-    <td class="is ner">23.35 ± 0.41</td> <!-- WikiANN-IS -->
+    <td class="is ner">5.92 ± 0.17 / 6.35 ± 0.18</td> <!-- MIM-GOLD-NER -->
     <td class="fo ner">21.96 ± 0.34</td> <!-- WikiANN-FO -->
     <td class="da pos">-</td> <!-- DDT-POS -->
     <td class="no pos">-</td> <!-- NDT-NB-POS -->
@@ -472,7 +472,7 @@ title: Finetuned Benchmark
    <tr>
     <td>Maltehb/-l-ctra-danish-electra-small-uncased-ner-dane</td> <!-- Model ID -->
     <td class="size">52</td> <!-- Model size -->
-    <td class="speed">25.38 ± 1.67</td> <!-- Inference speed -->
+    <td class="speed">20.19 ± 1.13</td> <!-- Inference speed -->
     <td class="ner-score"></td> <!-- Mean NER score -->
     <td class="pos-score">-</td> <!-- Mean POS score -->
     <td class="dep-score">-</td> <!-- Mean dependency parsing score -->
@@ -485,7 +485,7 @@ title: Finetuned Benchmark
     <td class="no ner">48.76 ± 0.70 / 50.95 ± 0.75</td> <!-- NorNE-NB -->
     <td class="no ner">27.58 ± 0.61 / 28.69 ± 0.64</td> <!-- NorNE-NN -->
     <td class="sv ner">35.39 ± 0.38 / 37.38 ± 0.38</td> <!-- SUC3 -->
-    <td class="is ner">26.22 ± 0.52</td> <!-- WikiANN-IS -->
+    <td class="is ner">6.01 ± 0.16 / 6.42 ± 0.18</td> <!-- MIM-GOLD-NER -->
     <td class="fo ner">28.30 ± 0.29</td> <!-- WikiANN-FO -->
     <td class="da pos">-</td> <!-- DDT-POS -->
     <td class="no pos">-</td> <!-- NDT-NB-POS -->
@@ -510,7 +510,7 @@ title: Finetuned Benchmark
    <tr>
     <td>Maltehb/danish-bert-botxo-ner-dane</td> <!-- Model ID -->
     <td class="size">420</td> <!-- Model size -->
-    <td class="speed">4.17 ± 0.13</td> <!-- Inference speed -->
+    <td class="speed">2.78 ± 0.08</td> <!-- Inference speed -->
     <td class="ner-score"></td> <!-- Mean NER score -->
     <td class="pos-score">-</td> <!-- Mean POS score -->
     <td class="dep-score">-</td> <!-- Mean dependency parsing score -->
@@ -523,8 +523,84 @@ title: Finetuned Benchmark
     <td class="no ner">60.57 ± 0.27 / 63.30 ± 0.31</td> <!-- NorNE-NB -->
     <td class="no ner">35.60 ± 1.19 / 37.21 ± 1.26</td> <!-- NorNE-NN -->
     <td class="sv ner">38.37 ± 0.26 / 40.43 ± 0.31</td> <!-- SUC3 -->
-    <td class="is ner">21.00 ± 0.57</td> <!-- WikiANN-IS -->
+    <td class="is ner">2.77 ± 0.74 / 3.66 ± 0.79</td> <!-- MIM-GOLD-NER -->
     <td class="fo ner">27.88 ± 0.48</td> <!-- WikiANN-FO -->
+    <td class="da pos">-</td> <!-- DDT-POS -->
+    <td class="no pos">-</td> <!-- NDT-NB-POS -->
+    <td class="no pos">-</td> <!-- NDT-NN-POS -->
+    <td class="sv pos">-</td> <!-- SDT-POS -->
+    <td class="is pos">-</td> <!-- IDT-POS -->
+    <td class="fo pos">-</td> <!-- FDT-POS -->
+    <td class="da dep">-</td> <!-- DDT-DEP -->
+    <td class="no dep">-</td> <!-- NDT-NB-DEP -->
+    <td class="no dep">-</td> <!-- NDT-NN-DEP -->
+    <td class="sv dep">-</td> <!-- SDT-DEP -->
+    <td class="is dep">-</td> <!-- IDT-DEP -->
+    <td class="fo dep">-</td> <!-- FDT-DEP -->
+    <td class="da sent">-</td> <!-- AngryTweets -->
+    <td class="da sent">-</td> <!-- TwitterSent -->
+    <td class="da sent">-</td> <!-- Europarl -->
+    <td class="da sent">-</td> <!-- LCC -->
+    <td class="no sent">-</td> <!-- NoReC -->
+    <td class="is sent">-</td> <!-- NoReC-IS -->
+    <td class="fo sent">-</td> <!-- NoReC-FO -->
+   </tr>
+   <tr>
+    <td>KBLab/swedish-spacy-pipeline</td> <!-- Model ID -->
+    <td class="size">476</td> <!-- Model size -->
+    <td class="speed">1.29 ± 0.03</td> <!-- Inference speed -->
+    <td class="ner-score"></td> <!-- Mean NER score -->
+    <td class="pos-score"></td> <!-- Mean POS score -->
+    <td class="dep-score"></td> <!-- Mean dependency parsing score -->
+    <td class="sent-score">-</td> <!-- Mean sentiment classification score -->
+    <td class="da">-</td> <!-- DKHate -->
+    <td class="no">-</td> <!-- NorDial -->
+    <td class="sv">-</td> <!-- DaLaJ -->
+    <td class="sv">-</td> <!-- ABSAbank-Imm -->
+    <td class="da ner">16.94 ± 0.59 / 28.44 ± 1.00</td> <!-- DaNE -->
+    <td class="no ner">18.93 ± 0.57 / 29.14 ± 0.85</td> <!-- NorNE-NB -->
+    <td class="no ner">17.40 ± 1.10 / 27.83 ± 1.57</td> <!-- NorNE-NN -->
+    <td class="sv ner">22.31 ± 0.10 / 36.34 ± 0.20</td> <!-- SUC3 -->
+    <td class="is ner">1.96 ± 0.11 / 5.19 ± 0.38</td> <!-- MIM-GOLD-NER -->
+    <td class="fo ner">28.43 ± 0.76 / 28.43 ± 0.76</td> <!-- WikiANN-FO -->
+    <td class="da pos">87.40 ± 0.29</td> <!-- DDT-POS -->
+    <td class="no pos">87.79 ± 0.18</td> <!-- NDT-NB-POS -->
+    <td class="no pos">82.45 ± 0.19</td> <!-- NDT-NN-POS -->
+    <td class="sv pos">98.76 ± 0.05</td> <!-- SDT-POS -->
+    <td class="is pos">35.62 ± 0.29</td> <!-- IDT-POS -->
+    <td class="fo pos">52.29 ± 0.24</td> <!-- FDT-POS -->
+    <td class="da dep">61.05 ± 0.47 / 68.79 ± 0.51</td> <!-- DDT-DEP -->
+    <td class="no dep">70.97 ± 0.25 / 77.01 ± 0.24</td> <!-- NDT-NB-DEP -->
+    <td class="no dep">63.04 ± 0.41 / 70.92 ± 0.39</td> <!-- NDT-NN-DEP -->
+    <td class="sv dep">92.04 ± 0.22 / 93.90 ± 0.18</td> <!-- SDT-DEP -->
+    <td class="is dep">8.80 ± 0.18 / 22.87 ± 0.32</td> <!-- IDT-DEP -->
+    <td class="fo dep">17.34 ± 0.25 / 30.98 ± 0.35</td> <!-- FDT-DEP -->
+    <td class="da sent">-</td> <!-- AngryTweets -->
+    <td class="da sent">-</td> <!-- TwitterSent -->
+    <td class="da sent">-</td> <!-- Europarl -->
+    <td class="da sent">-</td> <!-- LCC -->
+    <td class="no sent">-</td> <!-- NoReC -->
+    <td class="is sent">-</td> <!-- NoReC-IS -->
+    <td class="fo sent">-</td> <!-- NoReC-FO -->
+   </tr>
+   <tr>
+    <td>KB/bert-base-swedish-cased-neriob</td> <!-- Model ID -->
+    <td class="size">476</td> <!-- Model size -->
+    <td class="speed">2.59 ± 0.09</td> <!-- Inference speed -->
+    <td class="ner-score"></td> <!-- Mean NER score -->
+    <td class="pos-score">-</td> <!-- Mean POS score -->
+    <td class="dep-score">-</td> <!-- Mean dependency parsing score -->
+    <td class="sent-score">-</td> <!-- Mean sentiment classification score -->
+    <td class="da">-</td> <!-- DKHate -->
+    <td class="no">-</td> <!-- NorDial -->
+    <td class="sv">-</td> <!-- DaLaJ -->
+    <td class="sv">-</td> <!-- ABSAbank-Imm -->
+    <td class="da ner">51.74 ± 1.02 / 64.93 ± 1.24</td> <!-- DaNE -->
+    <td class="no ner">58.46 ± 0.54 / 65.70 ± 0.64</td> <!-- NorNE-NB -->
+    <td class="no ner">55.77 ± 1.08 / 65.12 ± 1.10</td> <!-- NorNE-NN -->
+    <td class="sv ner">59.17 ± 0.51 / 76.34 ± 0.50</td> <!-- SUC3 -->
+    <td class="is ner">15.98 ± 5.06 / 18.76 ± 5.83</td> <!-- MIM-GOLD-NER -->
+    <td class="fo ner">39.14 ± 2.37 / 39.14 ± 2.37</td> <!-- WikiANN-FO -->
     <td class="da pos">-</td> <!-- DDT-POS -->
     <td class="no pos">-</td> <!-- NDT-NB-POS -->
     <td class="no pos">-</td> <!-- NDT-NN-POS -->
@@ -548,7 +624,7 @@ title: Finetuned Benchmark
    <tr>
     <td>RecordedFuture/Swedish-NER</td> <!-- Model ID -->
     <td class="size">474</td> <!-- Model size -->
-    <td class="speed">4.23 ± 0.12</td> <!-- Inference speed -->
+    <td class="speed">2.60 ± 0.10</td> <!-- Inference speed -->
     <td class="ner-score"></td> <!-- Mean NER score -->
     <td class="pos-score">-</td> <!-- Mean POS score -->
     <td class="dep-score">-</td> <!-- Mean dependency parsing score -->
@@ -558,11 +634,125 @@ title: Finetuned Benchmark
     <td class="sv">-</td> <!-- DaLaJ -->
     <td class="sv">-</td> <!-- ABSAbank-Imm -->
     <td class="da ner">64.09 ± 0.97 / 72.37 ± 1.20</td> <!-- DaNE -->
-    <td class="no ner">61.74 ± 0.50 / 64.40 ± 0.45</td> <!-- NorNE-NB -->
-    <td class="no ner">56.67 ± 0.79 / 59.81 ± 0.84</td> <!-- NorNE-NN -->
-    <td class="sv ner">66.60 ± 0.27 / 77.36 ± 0.33</td> <!-- SUC3 -->
-    <td class="is ner">34.54 ± 0.73</td> <!-- WikiANN-IS -->
-    <td class="fo ner">42.16 ± 0.83</td> <!-- WikiANN-FO -->
+    <td class="no ner">56.15 ± 4.13 / 62.02 ± 4.59</td> <!-- NorNE-NB -->
+    <td class="no ner">49.21 ± 6.60 / 56.61 ± 7.32</td> <!-- NorNE-NN -->
+    <td class="sv ner">53.41 ± 9.02 / 62.77 ± 9.92</td> <!-- SUC3 -->
+    <td class="is ner">17.24 ± 8.95 / 19.07 ± 9.87</td> <!-- MIM-GOLD-NER -->
+    <td class="fo ner">42.07 ± 2.78</td> <!-- WikiANN-FO -->
+    <td class="da pos">-</td> <!-- DDT-POS -->
+    <td class="no pos">-</td> <!-- NDT-NB-POS -->
+    <td class="no pos">-</td> <!-- NDT-NN-POS -->
+    <td class="sv pos">-</td> <!-- SDT-POS -->
+    <td class="is pos">-</td> <!-- IDT-POS -->
+    <td class="fo pos">-</td> <!-- FDT-POS -->
+    <td class="da dep">-</td> <!-- DDT-DEP -->
+    <td class="no dep">-</td> <!-- NDT-NB-DEP -->
+    <td class="no dep">-</td> <!-- NDT-NN-DEP -->
+    <td class="sv dep">-</td> <!-- SDT-DEP -->
+    <td class="is dep">-</td> <!-- IDT-DEP -->
+    <td class="fo dep">-</td> <!-- FDT-DEP -->
+    <td class="da sent">-</td> <!-- AngryTweets -->
+    <td class="da sent">-</td> <!-- TwitterSent -->
+    <td class="da sent">-</td> <!-- Europarl -->
+    <td class="da sent">-</td> <!-- LCC -->
+    <td class="no sent">-</td> <!-- NoReC -->
+    <td class="is sent">-</td> <!-- NoReC-IS -->
+    <td class="fo sent">-</td> <!-- NoReC-FO -->
+   </tr>
+   <tr>
+    <td>elisno/is_ner_mim_trf</td> <!-- Model ID -->
+    <td class="size">475</td> <!-- Model size -->
+    <td class="speed">2.53 ± 0.10</td> <!-- Inference speed -->
+    <td class="ner-score"></td> <!-- Mean NER score -->
+    <td class="pos-score">-</td> <!-- Mean POS score -->
+    <td class="dep-score">-</td> <!-- Mean dependency parsing score -->
+    <td class="sent-score">-</td> <!-- Mean sentiment classification score -->
+    <td class="da">-</td> <!-- DKHate -->
+    <td class="no">-</td> <!-- NorDial -->
+    <td class="sv">-</td> <!-- DaLaJ -->
+    <td class="sv">-</td> <!-- ABSAbank-Imm -->
+    <td class="da ner">37.36 ± 0.75 / 45.04 ± 1.12</td> <!-- DaNE -->
+    <td class="no ner">36.50 ± 0.73 / 39.64 ± 0.72</td> <!-- NorNE-NB -->
+    <td class="no ner">34.95 ± 0.50 / 37.62 ± 0.67</td> <!-- NorNE-NN -->
+    <td class="sv ner">33.54 ± 0.28 / 38.64 ± 0.30</td> <!-- SUC3 -->
+    <td class="is ner">76.47 ± 0.44 / 76.34 ± 0.42</td> <!-- MIM-GOLD-NER -->
+    <td class="fo ner">50.86 ± 0.62</td> <!-- WikiANN-FO -->
+    <td class="da pos">-</td> <!-- DDT-POS -->
+    <td class="no pos">-</td> <!-- NDT-NB-POS -->
+    <td class="no pos">-</td> <!-- NDT-NN-POS -->
+    <td class="sv pos">-</td> <!-- SDT-POS -->
+    <td class="is pos">-</td> <!-- IDT-POS -->
+    <td class="fo pos">-</td> <!-- FDT-POS -->
+    <td class="da dep">-</td> <!-- DDT-DEP -->
+    <td class="no dep">-</td> <!-- NDT-NB-DEP -->
+    <td class="no dep">-</td> <!-- NDT-NN-DEP -->
+    <td class="sv dep">-</td> <!-- SDT-DEP -->
+    <td class="is dep">-</td> <!-- IDT-DEP -->
+    <td class="fo dep">-</td> <!-- FDT-DEP -->
+    <td class="da sent">-</td> <!-- AngryTweets -->
+    <td class="da sent">-</td> <!-- TwitterSent -->
+    <td class="da sent">-</td> <!-- Europarl -->
+    <td class="da sent">-</td> <!-- LCC -->
+    <td class="no sent">-</td> <!-- NoReC -->
+    <td class="is sent">-</td> <!-- NoReC-IS -->
+    <td class="fo sent">-</td> <!-- NoReC-FO -->
+   </tr>
+   <tr>
+    <td>m3hrdadfi/icelandic-ner-roberta</td> <!-- Model ID -->
+    <td class="size">473</td> <!-- Model size -->
+    <td class="speed">1.24 ± 0.02</td> <!-- Inference speed -->
+    <td class="ner-score"></td> <!-- Mean NER score -->
+    <td class="pos-score">-</td> <!-- Mean POS score -->
+    <td class="dep-score">-</td> <!-- Mean dependency parsing score -->
+    <td class="sent-score">-</td> <!-- Mean sentiment classification score -->
+    <td class="da">-</td> <!-- DKHate -->
+    <td class="no">-</td> <!-- NorDial -->
+    <td class="sv">-</td> <!-- DaLaJ -->
+    <td class="sv">-</td> <!-- ABSAbank-Imm -->
+    <td class="da ner">51.88 ± 1.32 / 61.59 ± 1.41</td> <!-- DaNE -->
+    <td class="no ner">36.98 ± 6.73 / 39.24 ± 7.39</td> <!-- NorNE-NB -->
+    <td class="no ner">38.26 ± 7.90 / 41.11 ± 8.51</td> <!-- NorNE-NN -->
+    <td class="sv ner">24.09 ± 16.84 / 26.80 ± 19.15</td> <!-- SUC3 -->
+    <td class="is ner">82.76 ± 8.32 / 84.27 ± 8.05</td> <!-- MIM-GOLD-NER -->
+    <td class="fo ner">60.78 ± 2.46</td> <!-- WikiANN-FO -->
+    <td class="da pos">-</td> <!-- DDT-POS -->
+    <td class="no pos">-</td> <!-- NDT-NB-POS -->
+    <td class="no pos">-</td> <!-- NDT-NN-POS -->
+    <td class="sv pos">-</td> <!-- SDT-POS -->
+    <td class="is pos">-</td> <!-- IDT-POS -->
+    <td class="fo pos">-</td> <!-- FDT-POS -->
+    <td class="da dep">-</td> <!-- DDT-DEP -->
+    <td class="no dep">-</td> <!-- NDT-NB-DEP -->
+    <td class="no dep">-</td> <!-- NDT-NN-DEP -->
+    <td class="sv dep">-</td> <!-- SDT-DEP -->
+    <td class="is dep">-</td> <!-- IDT-DEP -->
+    <td class="fo dep">-</td> <!-- FDT-DEP -->
+    <td class="da sent">-</td> <!-- AngryTweets -->
+    <td class="da sent">-</td> <!-- TwitterSent -->
+    <td class="da sent">-</td> <!-- Europarl -->
+    <td class="da sent">-</td> <!-- LCC -->
+    <td class="no sent">-</td> <!-- NoReC -->
+    <td class="is sent">-</td> <!-- NoReC-IS -->
+    <td class="fo sent">-</td> <!-- NoReC-FO -->
+   </tr>
+   <tr>
+    <td>vesteinn/XLMR-ENIS-finetuned-ner</td> <!-- Model ID -->
+    <td class="size">473</td> <!-- Model size -->
+    <td class="speed">2.16 ± 0.05</td> <!-- Inference speed -->
+    <td class="ner-score"></td> <!-- Mean NER score -->
+    <td class="pos-score">-</td> <!-- Mean POS score -->
+    <td class="dep-score">-</td> <!-- Mean dependency parsing score -->
+    <td class="sent-score">-</td> <!-- Mean sentiment classification score -->
+    <td class="da">-</td> <!-- DKHate -->
+    <td class="no">-</td> <!-- NorDial -->
+    <td class="sv">-</td> <!-- DaLaJ -->
+    <td class="sv">-</td> <!-- ABSAbank-Imm -->
+    <td class="da ner">71.78 ± 1.56 / 76.04 ± 1.41</td> <!-- DaNE -->
+    <td class="no ner">50.91 ± 3.30 / 52.43 ± 3.58</td> <!-- NorNE-NB -->
+    <td class="no ner">37.28 ± 5.15 / 39.63 ± 5.56</td> <!-- NorNE-NN -->
+    <td class="sv ner">23.78 ± 8.55 / 25.43 ± 9.63</td> <!-- SUC3 -->
+    <td class="is ner">52.77 ± 5.03 / 55.88 ± 5.05</td> <!-- MIM-GOLD-NER -->
+    <td class="fo ner">30.91 ± 6.77 / 30.91 ± 6.77</td> <!-- WikiANN-FO -->
     <td class="da pos">-</td> <!-- DDT-POS -->
     <td class="no pos">-</td> <!-- NDT-NB-POS -->
     <td class="no pos">-</td> <!-- NDT-NN-POS -->
@@ -586,7 +776,7 @@ title: Finetuned Benchmark
    <tr>
     <td>spacy/xx_ent_wiki_sm</td> <!-- Model ID -->
     <td class="size">11</td> <!-- Model size -->
-    <td class="speed">215.86 ± 26.94</td> <!-- Inference speed -->
+    <td class="speed">194.79 ± 34.18</td> <!-- Inference speed -->
     <td class="ner-score"></td> <!-- Mean NER score -->
     <td class="pos-score">-</td> <!-- Mean POS score -->
     <td class="dep-score">-</td> <!-- Mean dependency parsing score -->
@@ -599,7 +789,7 @@ title: Finetuned Benchmark
     <td class="no ner">34.15 ± 0.60 / 36.10 ± 0.61</td> <!-- NorNE-NB -->
     <td class="no ner">38.05 ± 0.32 / 39.99 ± 0.50</td> <!-- NorNE-NN -->
     <td class="sv ner">13.14 ± 0.09 / 15.46 ± 0.13</td> <!-- SUC3 -->
-    <td class="is ner">27.26 ± 0.42</td> <!-- WikiANN-IS -->
+    <td class="is ner">12.41 ± 0.22 / 15.06 ± 0.29</td> <!-- MIM-GOLD-NER -->
     <td class="fo ner">25.83 ± 0.87</td> <!-- WikiANN-FO -->
     <td class="da pos">-</td> <!-- DDT-POS -->
     <td class="no pos">-</td> <!-- NDT-NB-POS -->
@@ -624,7 +814,7 @@ title: Finetuned Benchmark
    <tr>
     <td>spacy/nb_core_news_sm</td> <!-- Model ID -->
     <td class="size">15</td> <!-- Model size -->
-    <td class="speed">81.49 ± 7.81</td> <!-- Inference speed -->
+    <td class="speed">75.47 ± 8.26</td> <!-- Inference speed -->
     <td class="ner-score"></td> <!-- Mean NER score -->
     <td class="pos-score"></td> <!-- Mean POS score -->
     <td class="dep-score"></td> <!-- Mean dependency parsing score -->
@@ -633,12 +823,12 @@ title: Finetuned Benchmark
     <td class="no">-</td> <!-- NorDial -->
     <td class="sv">-</td> <!-- DaLaJ -->
     <td class="sv">-</td> <!-- ABSAbank-Imm -->
-    <td class="da ner">51.41 ± 1.22 / 56.03 ± 1.42</td> <!-- DaNE -->
-    <td class="no ner">66.33 ± 0.79 / 68.30 ± 0.84</td> <!-- NorNE-NB -->
-    <td class="no ner">62.72 ± 0.68 / 63.70 ± 0.76</td> <!-- NorNE-NN -->
-    <td class="sv ner">19.68 ± 0.10 / 24.18 ± 0.11</td> <!-- SUC3 -->
-    <td class="is ner">20.70 ± 0.42</td> <!-- WikiANN-IS -->
-    <td class="fo ner">20.09 ± 0.71</td> <!-- WikiANN-FO -->
+    <td class="da ner">50.28 ± 3.65 / 55.06 ± 4.10</td> <!-- DaNE -->
+    <td class="no ner">68.25 ± 2.46 / 70.22 ± 2.83</td> <!-- NorNE-NB -->
+    <td class="no ner">59.11 ± 2.13 / 60.39 ± 2.45</td> <!-- NorNE-NN -->
+    <td class="sv ner">19.54 ± 0.31 / 22.20 ± 0.33</td> <!-- SUC3 -->
+    <td class="is ner">12.98 ± 0.77 / 14.13 ± 0.96</td> <!-- MIM-GOLD-NER -->
+    <td class="fo ner">18.24 ± 2.33</td> <!-- WikiANN-FO -->
     <td class="da pos">77.02 ± 0.35</td> <!-- DDT-POS -->
     <td class="no pos">96.34 ± 0.08</td> <!-- NDT-NB-POS -->
     <td class="no pos">80.33 ± 0.17</td> <!-- NDT-NN-POS -->
@@ -662,7 +852,7 @@ title: Finetuned Benchmark
    <tr>
     <td>spacy/nb_core_news_md</td> <!-- Model ID -->
     <td class="size">44</td> <!-- Model size -->
-    <td class="speed">76.67	 ± 05.56</td> <!-- Inference speed -->
+    <td class="speed">66.55 ± 45.88</td> <!-- Inference speed -->
     <td class="ner-score"></td> <!-- Mean NER score -->
     <td class="pos-score"></td> <!-- Mean POS score -->
     <td class="dep-score"></td> <!-- Mean dependency parsing score -->
@@ -671,12 +861,12 @@ title: Finetuned Benchmark
     <td class="no">-</td> <!-- NorDial -->
     <td class="sv">-</td> <!-- DaLaJ -->
     <td class="sv">-</td> <!-- ABSAbank-Imm -->
-    <td class="da ner">41.66 ± 0.68 / 45.24 ± 0.64</td> <!-- DaNE -->
-    <td class="no ner">77.75 ± 0.75 / 80.98 ± 0.76</td> <!-- NorNE-NB -->
-    <td class="no ner">71.40 ± 0.72 / 73.33 ± 0.78</td> <!-- NorNE-NN -->
-    <td class="sv ner">20.29 ± 0.16 / 27.52 ± 0.20</td> <!-- SUC3 -->
-    <td class="is ner">21.62 ± 0.57</td> <!-- WikiANN-IS -->
-    <td class="fo ner">21.05 ± 0.76</td> <!-- WikiANN-FO -->
+    <td class="da ner">45.33 ± 2.33 / 50.05 ± 2.96</td> <!-- DaNE -->
+    <td class="no ner">78.62 ± 2.75 / 81.90 ± 2.50</td> <!-- NorNE-NB -->
+    <td class="no ner">68.48 ± 1.96 / 71.47 ± 1.99</td> <!-- NorNE-NN -->
+    <td class="sv ner">19.50 ± 0.38 / 26.59 ± 0.53</td> <!-- SUC3 -->
+    <td class="is ner">10.92 ± 0.75 / 12.90 ± 0.88</td> <!-- MIM-GOLD-NER -->
+    <td class="fo ner">22.89 ± 2.60</td> <!-- WikiANN-FO -->
     <td class="da pos">75.38 ± 0.31</td> <!-- DDT-POS -->
     <td class="no pos">96.92 ± 0.06</td> <!-- NDT-NB-POS -->
     <td class="no pos">82.37 ± 0.15</td> <!-- NDT-NN-POS -->
@@ -700,7 +890,7 @@ title: Finetuned Benchmark
    <tr>
     <td>spacy/nb_core_news_lg</td> <!-- Model ID -->
     <td class="size">546</td> <!-- Model size -->
-    <td class="speed">73.61 ± 6.59</td> <!-- Inference speed -->
+    <td class="speed">47.48 ± 75.96</td> <!-- Inference speed -->
     <td class="ner-score"></td> <!-- Mean NER score -->
     <td class="pos-score"></td> <!-- Mean POS score -->
     <td class="dep-score"></td> <!-- Mean dependency parsing score -->
@@ -709,12 +899,12 @@ title: Finetuned Benchmark
     <td class="no">-</td> <!-- NorDial -->
     <td class="sv">-</td> <!-- DaLaJ -->
     <td class="sv">-</td> <!-- ABSAbank-Imm -->
-    <td class="da ner">52.38 ± 1.08 / 59.33 ± 1.28</td> <!-- DaNE -->
-    <td class="no ner">78.85 ± 0.62 / 81.52 ± 0.66</td> <!-- NorNE-NB -->
-    <td class="no ner">71.62 ± 0.57 / 73.90 ± 0.68</td> <!-- NorNE-NN -->
-    <td class="sv ner">21.06 ± 0.15 / 26.70 ± 0.15</td> <!-- SUC3 -->
-    <td class="is ner">20.83 ± 0.33</td> <!-- WikiANN-IS -->
-    <td class="fo ner">18.17 ± 0.77</td> <!-- WikiANN-FO -->
+    <td class="da ner">52.83 ± 2.41 / 60.07 ± 2.40</td> <!-- DaNE -->
+    <td class="no ner">81.49 ± 2.05 / 84.35 ± 2.09</td> <!-- NorNE-NB -->
+    <td class="no ner">70.06 ± 2.16 / 72.80 ± 2.19</td> <!-- NorNE-NN -->
+    <td class="sv ner">20.86 ± 0.48 / 25.28 ± 0.53</td> <!-- SUC3 -->
+    <td class="is ner">9.71 ± 0.56 / 10.43 ± 0.62</td> <!-- MIM-GOLD-NER -->
+    <td class="fo ner">18.04 ± 2.67</td> <!-- WikiANN-FO -->
     <td class="da pos">75.81 ± 0.34</td> <!-- DDT-POS -->
     <td class="no pos">97.05 ± 0.08</td> <!-- NDT-NB-POS -->
     <td class="no pos">81.65 ± 0.12</td> <!-- NDT-NN-POS -->
@@ -738,7 +928,7 @@ title: Finetuned Benchmark
    <tr>
     <td>DaNLP/da-bert-tone-sentiment-polarity</td> <!-- Model ID -->
     <td class="size">422</td> <!-- Model size -->
-    <td class="speed">2.87 ± 0.05</td> <!-- Inference speed -->
+    <td class="speed">2.77 ± 0.11</td> <!-- Inference speed -->
     <td class="ner-score">-</td> <!-- Mean NER score -->
     <td class="pos-score">-</td> <!-- Mean POS score -->
     <td class="dep-score">-</td> <!-- Mean dependency parsing score -->
@@ -751,8 +941,46 @@ title: Finetuned Benchmark
     <td class="no ner">-</td> <!-- NorNE-NB -->
     <td class="no ner">-</td> <!-- NorNE-NN -->
     <td class="sv ner">-</td> <!-- SUC3 -->
-    <td class="is ner">-</td> <!-- WikiANN-IS -->
+    <td class="is ner">-</td> <!-- MIM-GOLD-NER -->
     <td class="fo ner">-</td> <!-- WikiANN-FO -->
+    <td class="da pos">-</td> <!-- DDT-POS -->
+    <td class="no pos">-</td> <!-- NDT-NB-POS -->
+    <td class="no pos">-</td> <!-- NDT-NN-POS -->
+    <td class="sv pos">-</td> <!-- SDT-POS -->
+    <td class="is pos">-</td> <!-- IDT-POS -->
+    <td class="fo pos">-</td> <!-- FDT-POS -->
+    <td class="da dep">-</td> <!-- DDT-DEP -->
+    <td class="no dep">-</td> <!-- NDT-NB-DEP -->
+    <td class="no dep">-</td> <!-- NDT-NN-DEP -->
+    <td class="sv dep">-</td> <!-- SDT-DEP -->
+    <td class="is dep">-</td> <!-- IDT-DEP -->
+    <td class="fo dep">-</td> <!-- FDT-DEP -->
+    <td class="da sent">68.89 ± 1.05</td> <!-- AngryTweets -->
+    <td class="da sent">70.00 ± 0.79</td> <!-- TwitterSent -->
+    <td class="da sent">-</td> <!-- Europarl -->
+    <td class="da sent">67.11 ± 2.83</td> <!-- LCC -->
+    <td class="no sent">36.08 ± 3.05</td> <!-- NoReC -->
+    <td class="is sent">29.40 ± 0.55</td> <!-- NoReC-IS -->
+    <td class="fo sent">32.53 ± 1.04</td> <!-- NoReC-FO -->
+   </tr>
+   <tr>
+    <td>DaNLP/da-bert-ner</td> <!-- Model ID -->
+    <td class="size">420</td> <!-- Model size -->
+    <td class="speed">2.79 ± 0.10</td> <!-- Inference speed -->
+    <td class="ner-score"></td> <!-- Mean NER score -->
+    <td class="pos-score">-</td> <!-- Mean POS score -->
+    <td class="dep-score">-</td> <!-- Mean dependency parsing score -->
+    <td class="sent-score">-</td> <!-- Mean sentiment classification score -->
+    <td class="da">-</td> <!-- DKHate -->
+    <td class="no">-</td> <!-- NorDial -->
+    <td class="sv">-</td> <!-- DaLaJ -->
+    <td class="sv">-</td> <!-- ABSAbank-Imm -->
+    <td class="da ner">72.86 ± 0.90 / 83.69 ± 1.29</td> <!-- DaNE -->
+    <td class="no ner">49.72 ± 3.57 / 52.75 ± 3.66</td> <!-- NorNE-NB -->
+    <td class="no ner">23.03 ± 4.46 / 24.92 ± 4.58</td> <!-- NorNE-NN -->
+    <td class="sv ner">9.88 ± 7.43 / 10.81 ± 7.77</td> <!-- SUC3 -->
+    <td class="is ner">8.92 ± 2.33 / 10.07 ± 2.43</td> <!-- MIM-GOLD-NER -->
+    <td class="fo ner">41.41 ± 0.52</td> <!-- WikiANN-FO -->
     <td class="da pos">-</td> <!-- DDT-POS -->
     <td class="no pos">-</td> <!-- NDT-NB-POS -->
     <td class="no pos">-</td> <!-- NDT-NN-POS -->
@@ -776,7 +1004,7 @@ title: Finetuned Benchmark
    <tr>
     <td>Guscode/DKbert-hatespeech-detection</td> <!-- Model ID -->
     <td class="size">422</td> <!-- Model size -->
-    <td class="speed">2.21 ± 0.03</td> <!-- Inference speed -->
+    <td class="speed">2.79 ± 0.08</td> <!-- Inference speed -->
     <td class="ner-score">-</td> <!-- Mean NER score -->
     <td class="pos-score">-</td> <!-- Mean POS score -->
     <td class="dep-score">-</td> <!-- Mean dependency parsing score -->
@@ -789,7 +1017,7 @@ title: Finetuned Benchmark
     <td class="no ner">-</td> <!-- NorNE-NB -->
     <td class="no ner">-</td> <!-- NorNE-NN -->
     <td class="sv ner">-</td> <!-- SUC3 -->
-    <td class="is ner">-</td> <!-- WikiANN-IS -->
+    <td class="is ner">-</td> <!-- MIM-GOLD-NER -->
     <td class="fo ner">-</td> <!-- WikiANN-FO -->
     <td class="da pos">-</td> <!-- DDT-POS -->
     <td class="no pos">-</td> <!-- NDT-NB-POS -->
