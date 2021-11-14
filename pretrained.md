@@ -74,6 +74,21 @@ title: Pretrained Benchmark
     <td class="dep-score"></td> <!-- Mean dependency parsing score -->
     <td class="clf-score"></td> <!-- Mean classification score -->
     <td class="da ner">74.29 ± 0.34 / 77.94 ± 0.41</td> <!-- DaNE -->
+    <td class="da pos">97.72 ± 0.03</td> <!-- DDT-POS -->
+    <td class="da dep">61.06 ± 0.19 / 63.55 ± 0.19</td> <!-- DDT-DEP -->
+    <td class="da clf">61.03 ± 0.53</td> <!-- AngryTweets -->
+    <td class="da clf">61.61 ± 0.48</td> <!-- TwitterSent -->
+    <td class="da clf">64.02 ± 0.64</td> <!-- Europarl -->
+    <td class="da clf">59.19 ± 0.80</td> <!-- LCC -->
+    <td class="da clf">70.56 ± 0.57</td> <!-- DKHate -->
+    <td class="no ner">77.27 ± 0.22 / 79.72 ± 0.15</td> <!-- NorNE-NB -->
+    <td class="no ner">75.54 ± 0.27 / 78.42 ± 0.28</td> <!-- NorNE-NN -->
+    <td class="no pos">97.32 ± 0.04</td> <!-- NDT-NB-POS -->
+    <td class="no pos">96.47 ± 0.03</td> <!-- NDT-NN-POS -->
+    <td class="no dep">79.99 ± 0.36 / 82.25 ± 0.35</td> <!-- NDT-NB-DEP -->
+    <td class="no dep">71.15 ± 0.28 / 74.16 ± 0.28</td> <!-- NDT-NN-DEP -->
+    <td class="no clf">57.47 ± 2.35</td> <!-- NoReC -->
+    <td class="no clf">68.74 ± 1.16</td> <!-- NorDial -->
    </tr>
  </tbody>
 </table>
