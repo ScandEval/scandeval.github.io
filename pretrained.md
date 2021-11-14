@@ -89,6 +89,11 @@ title: Pretrained Benchmark
     <td class="no dep">71.15 ± 0.28 / 74.16 ± 0.28</td> <!-- NDT-NN-DEP -->
     <td class="no clf">57.47 ± 2.35</td> <!-- NoReC -->
     <td class="no clf">68.74 ± 1.16</td> <!-- NorDial -->
+    <td class="sv ner">71.37 ± 0.15 / 74.52 ± 0.17</td> <!-- SUC3 -->
+    <td class="sv pos">91.57 ± 0.05</td> <!-- SDT-POS -->
+    <td class="sv dep">44.38 ± 0.21 / 48.61 ± 0.19</td> <!-- SDT-DEP -->
+    <td class="sv clf">33.14 ± 0.12</td> <!-- DaLaJ -->
+    <td class="sv clf">30.75 ± 0.51</td> <!-- ABSAbank-Imm -->
    </tr>
  </tbody>
 </table>
