@@ -61,6 +61,10 @@ title: Pretrained Benchmark
  <tbody>
    <tr>
     <td>Maltehb/danish-bert-botxo</td> <!-- Model ID -->
+    <td class="size">424</td> <!-- Model size -->
+    <td class="speed">2.78 ± 0.07</td> <!-- Inference speed -->
+    <td class="score"></td> <!-- ScandEval score -->
+    <td class="da-score"></td> <!-- Danish score -->
    </tr>
  </tbody>
 </table>
