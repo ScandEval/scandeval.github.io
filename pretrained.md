@@ -1024,7 +1024,7 @@ title: Pretrained Benchmark
    <td class="is clf"></td> <!-- NoReC-IS -->
    <td class="fo ner"></td> <!-- WikiANN-FO -->
    <td class="fo pos"></td> <!-- FDT-POS -->
-   <td class="fo dep"></td> <!-- FDT-DEP -->
+   <td class="fo dep">47.45 ± 0.41 / 49.52 ± 0.41</td> <!-- FDT-DEP -->
    <td class="fo clf"></td> <!-- NoReC-FO -->
   </tr>
   <tr>
