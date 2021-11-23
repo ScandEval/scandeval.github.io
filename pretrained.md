@@ -997,7 +997,7 @@ title: Pretrained Benchmark
    <td class="pos-score"></td> <!-- Mean POS score -->
    <td class="dep-score"></td> <!-- Mean dependency parsing score -->
    <td class="clf-score"></td> <!-- Mean classification score -->
-   <td class="da ner"></td> <!-- DaNE -->
+   <td class="da ner">71.38 ± 0.49 / 74.11 ± 0.49</td> <!-- DaNE -->
    <td class="da pos"></td> <!-- DDT-POS -->
    <td class="da dep"></td> <!-- DDT-DEP -->
    <td class="da clf"></td> <!-- AngryTweets -->
@@ -1019,7 +1019,7 @@ title: Pretrained Benchmark
    <td class="sv clf"></td> <!-- DaLaJ -->
    <td class="sv clf"></td> <!-- ABSAbank-Imm -->
    <td class="is ner"></td> <!-- MIM-GOLD-NER -->
-   <td class="is pos"></td> <!-- IDT-POS -->
+   <td class="is pos">99.46 ± 0.02</td> <!-- IDT-POS -->
    <td class="is dep"></td> <!-- IDT-DEP -->
    <td class="is clf"></td> <!-- NoReC-IS -->
    <td class="fo ner"></td> <!-- WikiANN-FO -->
