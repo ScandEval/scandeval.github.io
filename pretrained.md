@@ -999,7 +999,7 @@ title: Pretrained Benchmark
    <td class="clf-score"></td> <!-- Mean classification score -->
    <td class="da ner">71.38 ± 0.49 / 74.11 ± 0.49</td> <!-- DaNE -->
    <td class="da pos">95.48 ± 0.07</td> <!-- DDT-POS -->
-   <td class="da dep"></td> <!-- DDT-DEP -->
+   <td class="da dep">61.19 ± 0.35 / 65.05 ± 0.37</td> <!-- DDT-DEP -->
    <td class="da clf">50.51 ± 0.43</td> <!-- AngryTweets -->
    <td class="da clf">39.32 ± 0.58</td> <!-- TwitterSent -->
    <td class="da clf">23.66 ± 0.78</td> <!-- Europarl -->
@@ -1007,8 +1007,8 @@ title: Pretrained Benchmark
    <td class="da clf">46.94 ± 0.05</td> <!-- DKHate -->
    <td class="no ner"></td> <!-- NorNE-NB -->
    <td class="no ner"></td> <!-- NorNE-NN -->
-   <td class="no pos"></td> <!-- NDT-NB-POS --> *
-   <td class="no pos"></td> <!-- NDT-NN-POS -->
+   <td class="no pos"></td> <!-- NDT-NB-POS -->
+   <td class="no pos"></td> <!-- NDT-NN-POS --> *
    <td class="no dep"></td> <!-- NDT-NB-DEP -->
    <td class="no dep"></td> <!-- NDT-NN-DEP -->
    <td class="no clf"></td> <!-- NoReC -->
