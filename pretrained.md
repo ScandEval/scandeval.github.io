@@ -1001,8 +1001,8 @@ title: Pretrained Benchmark
    <td class="da pos"></td> <!-- DDT-POS -->
    <td class="da dep"></td> <!-- DDT-DEP -->
    <td class="da clf"></td> <!-- AngryTweets -->
-   <td class="da clf"></td> <!-- TwitterSent --> *
-   <td class="da clf"></td> <!-- Europarl -->
+   <td class="da clf">39.32 ± 0.58</td> <!-- TwitterSent -->
+   <td class="da clf"></td> <!-- Europarl --> *
    <td class="da clf"></td> <!-- LCC -->
    <td class="da clf"></td> <!-- DKHate -->
    <td class="no ner"></td> <!-- NorNE-NB -->
