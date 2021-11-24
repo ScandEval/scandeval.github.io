@@ -1018,14 +1018,14 @@ title: Pretrained Benchmark
    <td class="sv dep"></td> <!-- SDT-DEP -->
    <td class="sv clf"></td> <!-- DaLaJ -->
    <td class="sv clf"></td> <!-- ABSAbank-Imm -->
-   <td class="is ner"></td> <!-- MIM-GOLD-NER -->
+   <td class="is ner">90.91 ± 0.09 / 92.76 ± 0.09</td> <!-- MIM-GOLD-NER -->
    <td class="is pos">99.46 ± 0.02</td> <!-- IDT-POS -->
-   <td class="is dep"></td> <!-- IDT-DEP -->
-   <td class="is clf"></td> <!-- NoReC-IS -->
+   <td class="is dep">90.32 ± 0.45 / 91.64 ± 0.41</td> <!-- IDT-DEP -->
+   <td class="is clf">53.50 ± 0.29</td> <!-- NoReC-IS -->
    <td class="fo ner"></td> <!-- WikiANN-FO -->
    <td class="fo pos"></td> <!-- FDT-POS -->
    <td class="fo dep">47.45 ± 0.41 / 49.52 ± 0.41</td> <!-- FDT-DEP -->
-   <td class="fo clf"></td> <!-- NoReC-FO -->
+   <td class="fo clf">51.14 ± 0.42</td> <!-- NoReC-FO -->
   </tr>
   <tr>
    <td>jonfd/convbert-small-igc-is</td> <!-- Model ID -->
