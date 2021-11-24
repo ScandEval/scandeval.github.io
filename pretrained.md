@@ -1001,7 +1001,7 @@ title: Pretrained Benchmark
    <td class="da pos"></td> <!-- DDT-POS -->
    <td class="da dep"></td> <!-- DDT-DEP -->
    <td class="da clf"></td> <!-- AngryTweets -->
-   <td class="da clf"></td> <!-- TwitterSent -->
+   <td class="da clf"></td> <!-- TwitterSent --> *
    <td class="da clf"></td> <!-- Europarl -->
    <td class="da clf"></td> <!-- LCC -->
    <td class="da clf"></td> <!-- DKHate -->
@@ -1022,8 +1022,8 @@ title: Pretrained Benchmark
    <td class="is pos">99.46 ± 0.02</td> <!-- IDT-POS -->
    <td class="is dep">90.32 ± 0.45 / 91.64 ± 0.41</td> <!-- IDT-DEP -->
    <td class="is clf">53.50 ± 0.29</td> <!-- NoReC-IS -->
-   <td class="fo ner"></td> <!-- WikiANN-FO -->
-   <td class="fo pos"></td> <!-- FDT-POS -->
+   <td class="fo ner">89.38 ± 0.14</td> <!-- WikiANN-FO -->
+   <td class="fo pos">97.94 ± 0.03</td> <!-- FDT-POS -->
    <td class="fo dep">47.45 ± 0.41 / 49.52 ± 0.41</td> <!-- FDT-DEP -->
    <td class="fo clf">51.14 ± 0.42</td> <!-- NoReC-FO -->
   </tr>
