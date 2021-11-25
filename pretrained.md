@@ -249,7 +249,7 @@ title: Pretrained Benchmark
    <td class="pos-score"></td> <!-- Mean POS score -->
    <td class="dep-score"></td> <!-- Mean dependency parsing score -->
    <td class="clf-score"></td> <!-- Mean classification score -->
-   <td class="da ner">76.63 ± 0.41 / 79.09 ± 0.46</td> <!-- DaNE -->
+   <td class="da ner">75.77 ± 0.38 / 78.51 ± 0.49</td> <!-- DaNE -->
    <td class="da pos">98.03 ± 0.02</td> <!-- DDT-POS -->
    <td class="da dep">63.82 ± 0.30 / 65.98 ± 0.30</td> <!-- DDT-DEP -->
    <td class="da clf">62.81 ± 0.35</td> <!-- AngryTweets -->
@@ -1012,8 +1012,8 @@ title: Pretrained Benchmark
    <td class="no dep"></td> <!-- NDT-NB-DEP -->  (running on omega)
    <td class="no dep"></td> <!-- NDT-NN-DEP -->  (running on omega)
    <td class="no clf"></td> <!-- NoReC -->  (running on omega)
-   <td class="no clf"></td> <!-- NorDial -->  (running on omega)
-   <td class="sv ner"></td> <!-- SUC3 -->
+   <td class="no clf">60.57 ± 0.39</td> <!-- NorDial -->
+   <td class="sv ner"></td> <!-- SUC3 -->  (running on omega)
    <td class="sv pos"></td> <!-- SDT-POS -->
    <td class="sv dep"></td> <!-- SDT-DEP -->
    <td class="sv clf"></td> <!-- DaLaJ -->
