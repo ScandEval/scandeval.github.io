@@ -1011,10 +1011,10 @@ title: Pretrained Benchmark
    <td class="no pos">97.21 ± 0.02</td> <!-- NDT-NN-POS -->
    <td class="no dep"></td> <!-- NDT-NB-DEP -->  (running on omega)
    <td class="no dep"></td> <!-- NDT-NN-DEP -->  (running on omega)
-   <td class="no clf"></td> <!-- NoReC -->  (running on omega)
+   <td class="no clf">41.94 ± 0.61</td> <!-- NoReC -->
    <td class="no clf">60.57 ± 0.39</td> <!-- NorDial -->
    <td class="sv ner"></td> <!-- SUC3 -->  (running on omega)
-   <td class="sv pos"></td> <!-- SDT-POS -->
+   <td class="sv pos"></td> <!-- SDT-POS -->  (running on omega)
    <td class="sv dep"></td> <!-- SDT-DEP -->
    <td class="sv clf"></td> <!-- DaLaJ -->
    <td class="sv clf"></td> <!-- ABSAbank-Imm -->
