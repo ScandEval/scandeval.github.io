@@ -969,7 +969,7 @@ title: Pretrained Benchmark
    <td class="no dep">80.86 ± 0.23 / 84.00 ± 0.22</td> <!-- NDT-NN-DEP -->
    <td class="no clf">41.94 ± 0.61</td> <!-- NoReC -->
    <td class="no clf">60.57 ± 0.39</td> <!-- NorDial -->
-   <td class="sv ner"></td> <!-- SUC3 -->  (running on omega)
+   <td class="sv ner">77.98 ± 0.10 / 81.44 ± 0.10</td> <!-- SUC3 -->
    <td class="sv pos">96.08 ± 0.05</td> <!-- SDT-POS -->
    <td class="sv dep"></td> <!-- SDT-DEP -->  (running on omega)
    <td class="sv clf">33.17 ± 0.12</td> <!-- DaLaJ -->
