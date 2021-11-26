@@ -1016,8 +1016,8 @@ title: Pretrained Benchmark
    <td class="sv ner"></td> <!-- SUC3 -->  (running on omega)
    <td class="sv pos">96.08 ± 0.05</td> <!-- SDT-POS -->
    <td class="sv dep"></td> <!-- SDT-DEP -->  (running on omega)
-   <td class="sv clf"></td> <!-- DaLaJ -->  (running on omega)
-   <td class="sv clf"></td> <!-- ABSAbank-Imm -->  (running on omega)
+   <td class="sv clf">33.17 ± 0.12</td> <!-- DaLaJ -->
+   <td class="sv clf">46.76 ± 0.37</td> <!-- ABSAbank-Imm -->
    <td class="is ner">90.91 ± 0.09 / 92.76 ± 0.09</td> <!-- MIM-GOLD-NER -->
    <td class="is pos">99.46 ± 0.02</td> <!-- IDT-POS -->
    <td class="is dep">90.32 ± 0.45 / 91.64 ± 0.41</td> <!-- IDT-DEP -->
