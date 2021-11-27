@@ -971,7 +971,7 @@ title: Pretrained Benchmark
    <td class="no clf">60.57 ± 0.39</td> <!-- NorDial -->
    <td class="sv ner">77.98 ± 0.10 / 81.44 ± 0.10</td> <!-- SUC3 -->
    <td class="sv pos">96.08 ± 0.05</td> <!-- SDT-POS -->
-   <td class="sv dep"></td> <!-- SDT-DEP -->  (running on omega)
+   <td class="sv dep">66.97 ± 0.10 / 71.06 ± 0.12</td> <!-- SDT-DEP -->
    <td class="sv clf">33.17 ± 0.12</td> <!-- DaLaJ -->
    <td class="sv clf">46.76 ± 0.37</td> <!-- ABSAbank-Imm -->
    <td class="is ner">90.91 ± 0.09 / 92.76 ± 0.09</td> <!-- MIM-GOLD-NER -->
