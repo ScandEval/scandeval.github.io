@@ -979,7 +979,7 @@ title: Finetuned Benchmark
    <td class="no ner">49.72 ± 3.57 / 52.75 ± 3.66</td> <!-- NorNE-NB -->
    <td class="no ner">23.03 ± 4.46 / 24.92 ± 4.58</td> <!-- NorNE-NN -->
    <td class="sv ner">9.88 ± 7.43 / 10.81 ± 7.77</td> <!-- SUC3 -->
-   <td class="is ner"></td> <!-- MIM-GOLD-NER -->
+   <td class="is ner">8.92 ± 2.33 / 10.07 ± 2.43</td> <!-- MIM-GOLD-NER -->
    <td class="fo ner">41.41 ± 0.52</td> <!-- WikiANN-FO -->
    <td class="da pos">-</td> <!-- DDT-POS -->
    <td class="no pos">-</td> <!-- NDT-NB-POS -->
