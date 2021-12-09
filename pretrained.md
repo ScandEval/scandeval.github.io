@@ -425,8 +425,8 @@ title: Pretrained Benchmark
    <td class="pos-score"></td> <!-- Mean POS score -->
    <td class="dep-score"></td> <!-- Mean dependency parsing score -->
    <td class="clf-score"></td> <!-- Mean classification score -->
-   <td class="da ner"></td> <!-- DaNE -->
-   <td class="da pos"></td> <!-- DDT-POS -->
+   <td class="da ner">80.09 ± 0.45 / 82.39 ± 0.48</td> <!-- DaNE -->
+   <td class="da pos">97.16 ± 0.04</td> <!-- DDT-POS -->
    <td class="da dep"></td> <!-- DDT-DEP -->
    <td class="da clf"></td> <!-- AngryTweets -->
    <td class="da clf"></td> <!-- TwitterSent -->
@@ -645,8 +645,8 @@ title: Pretrained Benchmark
    <td class="pos-score"></td> <!-- Mean POS score -->
    <td class="dep-score"></td> <!-- Mean dependency parsing score -->
    <td class="clf-score"></td> <!-- Mean classification score -->
-   <td class="da ner"></td> <!-- DaNE -->
-   <td class="da pos"></td> <!-- DDT-POS -->
+   <td class="da ner">84.66 ± 0.26 / 86.32 ± 0.28</td> <!-- DaNE -->
+   <td class="da pos">98.42 ± 0.03</td> <!-- DDT-POS -->
    <td class="da dep"></td> <!-- DDT-DEP -->
    <td class="da clf"></td> <!-- AngryTweets -->
    <td class="da clf"></td> <!-- TwitterSent -->
@@ -1129,8 +1129,8 @@ title: Pretrained Benchmark
    <td class="pos-score"></td> <!-- Mean POS score -->
    <td class="dep-score"></td> <!-- Mean dependency parsing score -->
    <td class="clf-score"></td> <!-- Mean classification score -->
-   <td class="da ner"></td> <!-- DaNE -->
-   <td class="da pos"></td> <!-- DDT-POS -->
+   <td class="da ner">81.92 ± 0.37 / 85.11 ± 0.32</td> <!-- DaNE -->
+   <td class="da pos">98.22 ± 0.04</td> <!-- DDT-POS -->
    <td class="da dep"></td> <!-- DDT-DEP -->
    <td class="da clf"></td> <!-- AngryTweets -->
    <td class="da clf"></td> <!-- TwitterSent -->
@@ -1305,8 +1305,8 @@ title: Pretrained Benchmark
    <td class="pos-score"></td> <!-- Mean POS score -->
    <td class="dep-score"></td> <!-- Mean dependency parsing score -->
    <td class="clf-score"></td> <!-- Mean classification score -->
-   <td class="da ner"></td> <!-- DaNE -->
-   <td class="da pos"></td> <!-- DDT-POS -->
+   <td class="da ner">81.49 ± 0.45 / 84.05 ± 0.44</td> <!-- DaNE -->
+   <td class="da pos">97.98 ± 0.03</td> <!-- DDT-POS -->
    <td class="da dep"></td> <!-- DDT-DEP -->
    <td class="da clf"></td> <!-- AngryTweets -->
    <td class="da clf"></td> <!-- TwitterSent -->
