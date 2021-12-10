@@ -993,13 +993,13 @@ title: Finetuned Benchmark
    <td class="sv dep">-</td> <!-- SDT-DEP -->
    <td class="is dep">-</td> <!-- IDT-DEP -->
    <td class="fo dep">-</td> <!-- FDT-DEP -->
-   <td class="da sent">68.89 ± 1.05</td> <!-- AngryTweets -->
-   <td class="da sent">70.00 ± 0.79</td> <!-- TwitterSent -->
+   <td class="da sent">-</td> <!-- AngryTweets -->
+   <td class="da sent">-</td> <!-- TwitterSent -->
    <td class="da sent">-</td> <!-- Europarl -->
-   <td class="da sent">67.11 ± 2.83</td> <!-- LCC -->
-   <td class="no sent">36.08 ± 3.05</td> <!-- NoReC -->
-   <td class="is sent">29.40 ± 0.55</td> <!-- NoReC-IS -->
-   <td class="fo sent">32.53 ± 1.04</td> <!-- NoReC-FO -->
+   <td class="da sent">-</td> <!-- LCC -->
+   <td class="no sent">-</td> <!-- NoReC -->
+   <td class="is sent">-</td> <!-- NoReC-IS -->
+   <td class="fo sent">-</td> <!-- NoReC-FO -->
   </tr>
   <tr>
    <td>Guscode/DKbert-hatespeech-detection</td> <!-- Model ID -->
