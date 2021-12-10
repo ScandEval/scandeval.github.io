@@ -1132,7 +1132,7 @@ title: Pretrained Benchmark
    <td class="da ner">81.92 ± 0.37 / 85.11 ± 0.32</td> <!-- DaNE -->
    <td class="da pos">98.22 ± 0.04</td> <!-- DDT-POS -->
    <td class="da dep"></td> <!-- DDT-DEP -->
-   <td class="da clf"></td> <!-- AngryTweets -->
+   <td class="da clf">66.61 ± 0.35</td> <!-- AngryTweets -->
    <td class="da clf"></td> <!-- TwitterSent -->
    <td class="da clf"></td> <!-- Europarl -->
    <td class="da clf"></td> <!-- LCC -->
