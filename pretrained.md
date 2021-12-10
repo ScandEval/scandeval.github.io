@@ -1204,7 +1204,7 @@ title: Pretrained Benchmark
    <td class="fo clf"></td> <!-- NoReC-FO -->
   </tr>
   <tr>
-   <td>microsoft/deberta-v3-base</td> <!-- Model ID -->
+   <td>microsoft/mdeberta-v3-base</td> <!-- Model ID -->
    <td class="size">354</td> <!-- Model size -->
    <td class="speed"></td> <!-- Inference speed -->
    <td class="score"></td> <!-- ScandEval score -->
