@@ -1205,7 +1205,7 @@ title: Pretrained Benchmark
   </tr>
   <tr>
    <td>microsoft/mdeberta-v3-base</td> <!-- Model ID -->
-   <td class="size">354</td> <!-- Model size -->
+   <td class="size">534</td> <!-- Model size -->
    <td class="speed"></td> <!-- Inference speed -->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
