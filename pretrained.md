@@ -449,11 +449,11 @@ title: Pretrained Benchmark
    <td class="is ner">76.61 ± 0.08 / 80.24 ± 0.08</td> <!-- MIM-GOLD-NER -->
    <td class="is pos">97.32 ± 0.04</td> <!-- IDT-POS -->
    <td class="is dep">80.00 ± 1.03 / 83.22 ± 0.82</td> <!-- IDT-DEP -->
-   <td class="is clf"></td> <!-- NoReC-IS -->
+   <td class="is clf">52.27 ± 0.32</td> <!-- NoReC-IS -->
    <td class="fo ner">86.92 ± 0.16</td> <!-- WikiANN-FO -->
    <td class="fo pos">95.52 ± 0.03</td> <!-- FDT-POS -->
    <td class="fo dep">45.56 ± 0.32 / 48.92 ± 0.33</td> <!-- FDT-DEP -->
-   <td class="fo clf"></td> <!-- NoReC-FO -->
+   <td class="fo clf">51.98 ± 0.39</td> <!-- NoReC-FO -->
   </tr>
   <tr>
    <td>flax-community/nordic-roberta-wiki</td> <!-- Model ID -->
