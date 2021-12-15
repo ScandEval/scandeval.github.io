@@ -534,7 +534,7 @@ title: Pretrained Benchmark
    <td class="sv dep">71.32 ± 0.10 / 73.19 ± 0.11</td> <!-- SDT-DEP -->
    <td class="sv clf">54.33 ± 1.37</td> <!-- DaLaJ -->
    <td class="sv clf">48.84 ± 0.61</td> <!-- ABSAbank-Imm -->
-   <td class="is ner"></td> <!-- MIM-GOLD-NER -->
+   <td class="is ner">79.93 ± 0.14 / 82.98 ± 0.14</td> <!-- MIM-GOLD-NER -->
    <td class="is pos">98.08 ± 0.08</td> <!-- IDT-POS -->
    <td class="is dep">80.92 ± 1.05 / 83.04 ± 0.93</td> <!-- IDT-DEP -->
    <td class="is clf">48.92 ± 0.51</td> <!-- NoReC-IS -->
