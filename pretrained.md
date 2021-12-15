@@ -668,7 +668,7 @@ title: Pretrained Benchmark
    <td class="sv clf">48.06 ± 0.77</td> <!-- ABSAbank-Imm -->
    <td class="is ner"></td> <!-- MIM-GOLD-NER -->
    <td class="is pos">99.22 ± 0.02</td> <!-- IDT-POS -->
-   <td class="is dep"></td> <!-- IDT-DEP -->
+   <td class="is dep">84.34 ± 0.75 / 86.15 ± 0.64</td> <!-- IDT-DEP -->
    <td class="is clf"></td> <!-- NoReC-IS -->
    <td class="fo ner"></td> <!-- WikiANN-FO -->
    <td class="fo pos"></td> <!-- FDT-POS -->
@@ -1139,7 +1139,7 @@ title: Pretrained Benchmark
    <td class="da clf">72.53 ± 0.82</td> <!-- DKHate -->
    <td class="no ner">90.72 ± 0.16 / 91.45 ± 0.16</td> <!-- NorNE-NB -->
    <td class="no ner">88.63 ± 0.15 / 91.74 ± 0.13</td> <!-- NorNE-NN -->
-   <td class="no pos"></td> <!-- NDT-NB-POS -->
+   <td class="no pos">98.57 ± 0.03</td> <!-- NDT-NB-POS -->
    <td class="no pos"></td> <!-- NDT-NN-POS -->
    <td class="no dep"></td> <!-- NDT-NB-DEP -->
    <td class="no dep"></td> <!-- NDT-NN-DEP -->
