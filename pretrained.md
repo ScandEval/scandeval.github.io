@@ -1218,12 +1218,12 @@ title: Pretrained Benchmark
    <td class="dep-score"></td> <!-- Mean dependency parsing score -->
    <td class="clf-score"></td> <!-- Mean classification score -->
    <td class="da ner">85.20 ± 0.34 / 86.82 ± 0.36</td> <!-- DaNE -->
-   <td class="da pos"></td> <!-- DDT-POS -->
+   <td class="da pos">98.31 ± 0.02</td> <!-- DDT-POS -->
    <td class="da dep"></td> <!-- DDT-DEP -->
-   <td class="da clf"></td> <!-- AngryTweets -->
-   <td class="da clf"></td> <!-- TwitterSent -->
-   <td class="da clf"></td> <!-- Europarl -->
-   <td class="da clf"></td> <!-- LCC -->
+   <td class="da clf">64.67 ± 0.41</td> <!-- AngryTweets -->
+   <td class="da clf">51.66 ± 1.16</td> <!-- TwitterSent -->
+   <td class="da clf">71.53 ± 1.68</td> <!-- Europarl -->
+   <td class="da clf">50.90 ± 1.83</td> <!-- LCC -->
    <td class="da clf"></td> <!-- DKHate -->
    <td class="no ner"></td> <!-- NorNE-NB -->
    <td class="no ner"></td> <!-- NorNE-NN -->
