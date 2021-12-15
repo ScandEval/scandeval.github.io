@@ -1231,8 +1231,8 @@ title: Pretrained Benchmark
    <td class="no pos"></td> <!-- NDT-NN-POS -->
    <td class="no dep"></td> <!-- NDT-NB-DEP -->
    <td class="no dep"></td> <!-- NDT-NN-DEP -->
-   <td class="no clf"></td> <!-- NoReC -->
-   <td class="no clf"></td> <!-- NorDial -->
+   <td class="no clf">74.74 ± 0.35</td> <!-- NoReC -->
+   <td class="no clf">69.23 ± 0.87</td> <!-- NorDial -->
    <td class="sv ner"></td> <!-- SUC3 -->
    <td class="sv pos"></td> <!-- SDT-POS -->
    <td class="sv dep"></td> <!-- SDT-DEP -->
