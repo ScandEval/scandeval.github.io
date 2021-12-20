@@ -647,7 +647,7 @@ title: Pretrained Benchmark
    <td class="clf-score"></td> <!-- Mean classification score -->
    <td class="da ner">84.66 ± 0.26 / 86.32 ± 0.28</td> <!-- DaNE -->
    <td class="da pos">98.42 ± 0.03</td> <!-- DDT-POS -->
-   <td class="da dep"></td> <!-- DDT-DEP -->
+   <td class="da dep">64.53 ± 0.28 / 66.99 ± 0.28</td> <!-- DDT-DEP -->
    <td class="da clf">64.64 ± 0.41</td> <!-- AngryTweets -->
    <td class="da clf">65.68 ± 0.65</td> <!-- TwitterSent -->
    <td class="da clf">71.70 ± 0.66</td> <!-- Europarl -->
@@ -657,8 +657,8 @@ title: Pretrained Benchmark
    <td class="no ner">89.75 ± 0.11 / 93.09 ± 0.09</td> <!-- NorNE-NN -->
    <td class="no pos">98.80 ± 0.02</td> <!-- NDT-NB-POS -->
    <td class="no pos">98.90 ± 0.01</td> <!-- NDT-NN-POS -->
-   <td class="no dep"></td> <!-- NDT-NB-DEP -->
-   <td class="no dep"></td> <!-- NDT-NN-DEP -->
+   <td class="no dep">85.83 ± 0.06 / 87.43 ± 0.06</td> <!-- NDT-NB-DEP -->
+   <td class="no dep">83.74 ± 0.04 / 85.51 ± 0.05</td> <!-- NDT-NN-DEP -->
    <td class="no clf">76.68 ± 0.41</td> <!-- NoReC -->
    <td class="no clf">76.51 ± 1.08</td> <!-- NorDial -->
    <td class="sv ner">87.23 ± 0.05 / 90.40 ± 0.06</td> <!-- SUC3 -->
