@@ -226,7 +226,7 @@ title: Pretrained Benchmark
    <td class="sv dep">61.95 ± 0.50 / 64.64 ± 0.52</td> <!-- SDT-DEP -->
    <td class="sv clf">43.17 ± 1.45</td> <!-- DaLaJ -->
    <td class="sv clf">27.05 ± 1.37</td> <!-- ABSAbank-Imm -->
-   <td class="is ner"></td> <!-- MIM-GOLD-NER -->
+   <td class="is ner">76.09 ± 0.11 / 79.84 ± 0.13</td> <!-- MIM-GOLD-NER -->
    <td class="is pos">98.83 ± 0.03</td> <!-- IDT-POS -->
    <td class="is dep">70.12 ± 2.78 / 72.91 ± 2.67</td> <!-- IDT-DEP -->
    <td class="is clf">26.02 ± 0.48</td> <!-- NoReC-IS -->
@@ -1153,11 +1153,11 @@ title: Pretrained Benchmark
    <td class="is ner">85.96 ± 0.14 / 88.23 ± 0.13</td> <!-- MIM-GOLD-NER -->
    <td class="is pos">99.38 ± 0.02</td> <!-- IDT-POS -->
    <td class="is dep">86.89 ± 0.70 / 88.23 ± 0.64</td> <!-- IDT-DEP -->
-   <td class="is clf"></td> <!-- NoReC-IS -->
+   <td class="is clf">55.45 ± 0.26</td> <!-- NoReC-IS -->
    <td class="fo ner">89.32 ± 0.17</td> <!-- WikiANN-FO -->
    <td class="fo pos">97.77 ± 0.06</td> <!-- FDT-POS -->
    <td class="fo dep">55.18 ± 0.56 / 57.49 ± 0.57</td> <!-- FDT-DEP -->
-   <td class="fo clf"></td> <!-- NoReC-FO -->
+   <td class="fo clf">54.12 ± 0.50</td> <!-- NoReC-FO -->
   </tr>
   <tr>
    <td>xlm-roberta-large</td> <!-- Model ID -->
@@ -1224,7 +1224,7 @@ title: Pretrained Benchmark
    <td class="da clf">51.66 ± 1.16</td> <!-- TwitterSent -->
    <td class="da clf">71.53 ± 1.68</td> <!-- Europarl -->
    <td class="da clf">50.90 ± 1.83</td> <!-- LCC -->
-   <td class="da clf"></td> <!-- DKHate -->
+   <td class="da clf">74.73 ± 0.87</td> <!-- DKHate -->
    <td class="no ner"></td> <!-- NorNE-NB -->
    <td class="no ner"></td> <!-- NorNE-NN -->
    <td class="no pos"></td> <!-- NDT-NB-POS -->
@@ -1236,14 +1236,14 @@ title: Pretrained Benchmark
    <td class="sv ner"></td> <!-- SUC3 -->
    <td class="sv pos"></td> <!-- SDT-POS -->
    <td class="sv dep"></td> <!-- SDT-DEP -->
-   <td class="sv clf"></td> <!-- DaLaJ -->
+   <td class="sv clf">69.61 ± 0.21</td> <!-- DaLaJ -->
    <td class="sv clf">52.41 ± 0.50</td> <!-- ABSAbank-Imm -->
    <td class="is ner"></td> <!-- MIM-GOLD-NER -->
    <td class="is pos">99.40 ± 0.02</td> <!-- IDT-POS -->
    <td class="is dep"></td> <!-- IDT-DEP -->
-   <td class="is clf"></td> <!-- NoReC-IS -->
-   <td class="fo ner"></td> <!-- WikiANN-FO -->
-   <td class="fo pos"></td> <!-- FDT-POS -->
+   <td class="is clf">58.60 ± 0.28</td> <!-- NoReC-IS -->
+   <td class="fo ner">92.01 ± 0.23</td> <!-- WikiANN-FO -->
+   <td class="fo pos">98.54 ± 0.04</td> <!-- FDT-POS -->
    <td class="fo dep"></td> <!-- FDT-DEP -->
    <td class="fo clf"></td> <!-- NoReC-FO -->
   </tr>
@@ -1766,7 +1766,7 @@ title: Pretrained Benchmark
    <td class="sv dep">43.46 ± 0.10 / 47.95 ± 0.11</td> <!-- SDT-DEP -->
    <td class="sv clf">40.69 ± 0.53</td> <!-- DaLaJ -->
    <td class="sv clf">44.44 ± 0.54</td> <!-- ABSAbank-Imm -->
-   <td class="is ner"></td> <!-- MIM-GOLD-NER -->
+   <td class="is ner">48.06 ± 0.13 / 51.23 ± 0.14</td> <!-- MIM-GOLD-NER -->
    <td class="is pos">91.15 ± 0.10</td> <!-- IDT-POS -->
    <td class="is dep">73.65 ± 0.38 / 78.31 ± 0.32</td> <!-- IDT-DEP -->
    <td class="is clf">43.75 ± 1.14</td> <!-- NoReC-IS -->
