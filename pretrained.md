@@ -713,11 +713,11 @@ title: Pretrained Benchmark
    <td class="is ner">78.04 ± 0.17 / 80.59 ± 0.18</td> <!-- MIM-GOLD-NER -->
    <td class="is pos">98.09 ± 0.04</td> <!-- IDT-POS -->
    <td class="is dep">82.53 ± 0.86 / 84.70 ± 0.77</td> <!-- IDT-DEP -->
-   <td class="is clf"></td> <!-- NoReC-IS -->
+   <td class="is clf">48.76 ± 0.44</td> <!-- NoReC-IS -->
    <td class="fo ner">88.82 ± 0.32</td> <!-- WikiANN-FO -->
-   <td class="fo pos"></td> <!-- FDT-POS -->
-   <td class="fo dep"></td> <!-- FDT-DEP -->
-   <td class="fo clf"></td> <!-- NoReC-FO -->
+   <td class="fo pos">97.65 ± 0.04</td> <!-- FDT-POS -->
+   <td class="fo dep">45.93 ± 0.52 / 48.05 ± 0.52</td> <!-- FDT-DEP -->
+   <td class="fo clf">54.30 ± 0.30</td> <!-- NoReC-FO -->
   </tr>
   <tr>
    <td>Geotrend/bert-base-no-cased</td> <!-- Model ID -->
