@@ -432,7 +432,7 @@ title: Finetuned Benchmark
    <td class="fo sent">-</td> <!-- NoReC-FO -->
   </tr>
   <tr>
-   <td>Maltehb/-l-ctra-danish-electra-small-cased-ner-dane</td> <!-- Model ID -->
+   <td>Maltehb/aelaectra-danish-electra-small-cased-ner-dane</td> <!-- Model ID -->
    <td class="size">52</td> <!-- Model size -->
    <td class="speed">20.88 ± 0.98</td> <!-- Inference speed -->
    <td class="ner-score"></td> <!-- Mean NER score -->
@@ -470,7 +470,7 @@ title: Finetuned Benchmark
    <td class="fo sent">-</td> <!-- NoReC-FO -->
   </tr>
   <tr>
-   <td>Maltehb/-l-ctra-danish-electra-small-uncased-ner-dane</td> <!-- Model ID -->
+   <td>Maltehb/aelaectra-danish-electra-small-uncased-ner-dane</td> <!-- Model ID -->
    <td class="size">52</td> <!-- Model size -->
    <td class="speed">20.19 ± 1.13</td> <!-- Inference speed -->
    <td class="ner-score"></td> <!-- Mean NER score -->
