@@ -104,7 +104,7 @@ title: Pretrained Benchmark
    <td class="fo clf">30.50 ± 0.55</td> <!-- NoReC-FO -->
   </tr>
   <tr>
-   <td>Maltehb/-l-ctra-danish-electra-small-cased</td> <!-- Model ID -->
+   <td>Maltehb/aelaectra-danish-electra-small-cased</td> <!-- Model ID -->
    <td class="size">55</td> <!-- Model size -->
    <td class="speed">20.40 ± 1.35</td> <!-- Inference speed -->
    <td class="score"></td> <!-- ScandEval score -->
@@ -236,7 +236,7 @@ title: Pretrained Benchmark
    <td class="fo clf">27.85 ± 1.05</td> <!-- NoReC-FO -->
   </tr>
   <tr>
-   <td>Maltehb/-l-ctra-danish-electra-small-uncased</td> <!-- Model ID -->
+   <td>Maltehb/aelaectra-danish-electra-small-uncased</td> <!-- Model ID -->
    <td class="size">55</td> <!-- Model size -->
    <td class="speed">20.45 ± 1.31</td> <!-- Inference speed -->
    <td class="score"></td> <!-- ScandEval score -->
