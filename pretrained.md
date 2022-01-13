@@ -909,7 +909,7 @@ title: Pretrained Benchmark
    <td class="pos-score"></td> <!-- Mean POS score -->
    <td class="dep-score"></td> <!-- Mean dependency parsing score -->
    <td class="clf-score"></td> <!-- Mean classification score -->
-   <td class="da ner"></td> <!-- DaNE -->
+   <td class="da ner">83.38 ± 0.33 / 85.41 ± 0.42</td> <!-- DaNE -->
    <td class="da pos"></td> <!-- DDT-POS -->
    <td class="da dep"></td> <!-- DDT-DEP -->
    <td class="da clf"></td> <!-- AngryTweets -->
