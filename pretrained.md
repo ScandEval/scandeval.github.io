@@ -916,28 +916,28 @@ title: Pretrained Benchmark
    <td class="da clf">71.12 ± 0.53</td> <!-- TwitterSent -->
    <td class="da clf">68.69 ± 0.59</td> <!-- Europarl -->
    <td class="da clf">67.68 ± 0.79</td> <!-- LCC -->
-   <td class="da clf"></td> <!-- DKHate -->
+   <td class="da clf">74.77 ± 0.62</td> <!-- DKHate -->
    <td class="no ner">88.88 ± 0.14 / 90.49 ± 0.15</td> <!-- NorNE-NB -->
    <td class="no ner">91.19 ± 0.18 / 93.62 ± 0.19</td> <!-- NorNE-NN -->
    <td class="no pos">98.67 ± 0.02</td> <!-- NDT-NB-POS -->
    <td class="no pos">98.19 ± 0.03</td> <!-- NDT-NN-POS -->
-   <td class="no dep"></td> <!-- NDT-NB-DEP --> *
+   <td class="no dep"></td> <!-- NDT-NB-DEP -->
    <td class="no dep"></td> <!-- NDT-NN-DEP -->
    <td class="no clf">71.02 ± 0.34</td> <!-- NoReC -->
    <td class="no clf">65.74 ± 0.38</td> <!-- NorDial -->
    <td class="sv ner"></td> <!-- SUC3 -->
    <td class="sv pos">98.66 ± 0.03</td> <!-- SDT-POS -->
-   <td class="sv dep"></td> <!-- SDT-DEP --> *
+   <td class="sv dep">70.23 ± 0.26 / 72.31 ± 0.26</td> <!-- SDT-DEP -->
    <td class="sv clf">56.56 ± 0.32</td> <!-- DaLaJ -->
-   <td class="sv clf"></td> <!-- ABSAbank-Imm --> *
+   <td class="sv clf">52.66 ± 0.33</td> <!-- ABSAbank-Imm -->
    <td class="is ner"></td> <!-- MIM-GOLD-NER -->
-   <td class="is pos"></td> <!-- IDT-POS -->
+   <td class="is pos">99.54 ± 0.01</td> <!-- IDT-POS -->
    <td class="is dep"></td> <!-- IDT-DEP -->
-   <td class="is clf"></td> <!-- NoReC-IS -->
+   <td class="is clf">59.71 ± 0.23</td> <!-- NoReC-IS -->
    <td class="fo ner">90.13 ± 0.18</td> <!-- WikiANN-FO -->
-   <td class="fo pos"></td> <!-- FDT-POS -->
+   <td class="fo pos">98.21 ± 0.03</td> <!-- FDT-POS -->
    <td class="fo dep"></td> <!-- FDT-DEP -->
-   <td class="fo clf"></td> <!-- NoReC-FO -->
+   <td class="fo clf">60.67 ± 0.35</td> <!-- NoReC-FO -->
   </tr>
   <tr>
    <td>vesteinn/IceBERT</td> <!-- Model ID -->
@@ -1179,7 +1179,7 @@ title: Pretrained Benchmark
    <td class="da clf"></td> <!-- AngryTweets -->
    <td class="da clf"></td> <!-- TwitterSent -->
    <td class="da clf"></td> <!-- Europarl -->
-   <td class="da clf"></td> <!-- LCC -->
+   <td class="da clf">70.43 ± 1.09</td> <!-- LCC -->
    <td class="da clf"></td> <!-- DKHate -->
    <td class="no ner"></td> <!-- NorNE-NB -->
    <td class="no ner"></td> <!-- NorNE-NN -->
