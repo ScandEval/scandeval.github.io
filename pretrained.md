@@ -62,7 +62,7 @@ title: Pretrained Benchmark
   <tr>
    <td>Maltehb/danish-bert-botxo</td> <!-- Model ID -->
    <td class="size">424</td> <!-- Model size -->
-   <td class="speed">2.78 ± 0.07</td> <!-- Inference speed -->
+   <td class="speed">4.62 ± 0.10</td> <!-- Inference speed -->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
    <td class="no-score"></td> <!-- Norwegian score -->
@@ -76,8 +76,8 @@ title: Pretrained Benchmark
    <td class="da ner">74.29 ± 0.34 / 77.94 ± 0.41</td> <!-- DaNE -->
    <td class="da pos">97.72 ± 0.03</td> <!-- DDT-POS -->
    <td class="da dep">61.06 ± 0.19 / 63.55 ± 0.19</td> <!-- DDT-DEP -->
-   <td class="da clf">61.03 ± 0.53</td> <!-- AngryTweets -->
-   <td class="da clf">61.61 ± 0.48</td> <!-- TwitterSent -->
+   <td class="da clf">65.93 ± 0.30</td> <!-- AngryTweets -->
+   <td class="da clf">60.18 ± 0.50</td> <!-- TwitterSent -->
    <td class="da clf">64.02 ± 0.64</td> <!-- Europarl -->
    <td class="da clf">59.19 ± 0.80</td> <!-- LCC -->
    <td class="da clf">70.56 ± 0.57</td> <!-- DKHate -->
@@ -106,7 +106,7 @@ title: Pretrained Benchmark
   <tr>
    <td>Maltehb/aelaectra-danish-electra-small-cased</td> <!-- Model ID -->
    <td class="size">55</td> <!-- Model size -->
-   <td class="speed">20.40 ± 1.35</td> <!-- Inference speed -->
+   <td class="speed">25.25 ± 1.26</td> <!-- Inference speed -->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
    <td class="no-score"></td> <!-- Norwegian score -->
@@ -120,8 +120,8 @@ title: Pretrained Benchmark
    <td class="da ner">75.62 ± 0.55 / 78.12 ± 0.59</td> <!-- DaNE -->
    <td class="da pos">98.04 ± 0.02</td> <!-- DDT-POS -->
    <td class="da dep">61.14 ± 0.36 / 63.24 ± 0.36</td> <!-- DDT-DEP -->
-   <td class="da clf">62.15 ± 0.38</td> <!-- AngryTweets -->
-   <td class="da clf">43.73 ± 0.35</td> <!-- TwitterSent -->
+   <td class="da clf">60.92 ± 0.56</td> <!-- AngryTweets -->
+   <td class="da clf">44.08 ± 0.36</td> <!-- TwitterSent -->
    <td class="da clf">59.35 ± 1.89</td> <!-- Europarl -->
    <td class="da clf">58.34 ± 1.57</td> <!-- LCC -->
    <td class="da clf">76.90 ± 0.91</td> <!-- DKHate -->
@@ -164,8 +164,8 @@ title: Pretrained Benchmark
    <td class="da ner">79.19 ± 0.54 / 81.66 ± 0.46</td> <!-- DaNE -->
    <td class="da pos">98.00 ± 0.03</td> <!-- DDT-POS -->
    <td class="da dep">60.49 ± 0.30 / 63.15 ± 0.29</td> <!-- DDT-DEP -->
-   <td class="da clf">48.21 ± 2.96</td> <!-- AngryTweets -->
-   <td class="da clf">58.71 ± 2.43</td> <!-- TwitterSent -->
+   <td class="da clf">62.07 ± 1.93</td> <!-- AngryTweets -->
+   <td class="da clf">44.87 ± 1.71</td> <!-- TwitterSent -->
    <td class="da clf">22.01 ± 0.25</td> <!-- Europarl -->
    <td class="da clf">29.55 ± 2.12</td> <!-- LCC -->
    <td class="da clf">56.94 ± 1.06</td> <!-- DKHate -->
@@ -208,8 +208,8 @@ title: Pretrained Benchmark
    <td class="da ner">81.94 ± 0.35 / 84.90 ± 0.30</td> <!-- DaNE -->
    <td class="da pos">97.93 ± 0.04</td> <!-- DDT-POS -->
    <td class="da dep">55.61 ± 0.25 / 58.31 ± 0.26</td> <!-- DDT-DEP -->
-   <td class="da clf">39.68 ± 1.28</td> <!-- AngryTweets -->
-   <td class="da clf">34.03 ± 1.67</td> <!-- TwitterSent -->
+   <td class="da clf">57.74 ± 0.58</td> <!-- AngryTweets -->
+   <td class="da clf">37.63 ± 0.55</td> <!-- TwitterSent -->
    <td class="da clf">23.78 ± 1.83</td> <!-- Europarl -->
    <td class="da clf">23.62 ± 0.25</td> <!-- LCC -->
    <td class="da clf">46.94 ± 0.05</td> <!-- DKHate -->
@@ -238,7 +238,7 @@ title: Pretrained Benchmark
   <tr>
    <td>Maltehb/aelaectra-danish-electra-small-uncased</td> <!-- Model ID -->
    <td class="size">55</td> <!-- Model size -->
-   <td class="speed">20.45 ± 1.31</td> <!-- Inference speed -->
+   <td class="speed">24.91 ± 1.46</td> <!-- Inference speed -->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
    <td class="no-score"></td> <!-- Norwegian score -->
@@ -252,11 +252,11 @@ title: Pretrained Benchmark
    <td class="da ner">75.77 ± 0.38 / 78.51 ± 0.49</td> <!-- DaNE -->
    <td class="da pos">98.03 ± 0.02</td> <!-- DDT-POS -->
    <td class="da dep">63.82 ± 0.30 / 65.98 ± 0.30</td> <!-- DDT-DEP -->
-   <td class="da clf">62.81 ± 0.35</td> <!-- AngryTweets -->
-   <td class="da clf">47.08 ± 0.47</td> <!-- TwitterSent -->
+   <td class="da clf">64.13 ± 0.25</td> <!-- AngryTweets -->
+   <td class="da clf">44.41 ± 0.99</td> <!-- TwitterSent -->
    <td class="da clf">57.42 ± 1.60</td> <!-- Europarl -->
    <td class="da clf">51.74 ± 1.21</td> <!-- LCC -->
-   <td class="da clf">82.33 ± 0.69</td> <!-- DKHate -->
+   <td class="da clf">81.53 ± 0.87</td> <!-- DKHate -->
    <td class="no ner">75.27 ± 0.19 / 77.71 ± 0.19</td> <!-- NorNE-NB -->
    <td class="no ner">70.40 ± 0.29 / 73.88 ± 0.30</td> <!-- NorNE-NN -->
    <td class="no pos">97.15 ± 0.03</td> <!-- NDT-NB-POS -->
@@ -296,8 +296,8 @@ title: Pretrained Benchmark
    <td class="da ner">57.20 ± 0.50 / 59.12 ± 0.55</td> <!-- DaNE -->
    <td class="da pos">95.48 ± 0.04</td> <!-- DDT-POS -->
    <td class="da dep">42.94 ± 0.13 / 46.20 ± 0.13</td> <!-- DDT-DEP -->
-   <td class="da clf">56.48 ± 0.38</td> <!-- AngryTweets -->
-   <td class="da clf">43.77 ± 0.68</td> <!-- TwitterSent -->
+   <td class="da clf">51.20 ± 0.30</td> <!-- AngryTweets -->
+   <td class="da clf">45.73 ± 0.69</td> <!-- TwitterSent -->
    <td class="da clf">22.73 ± 1.56</td> <!-- Europarl -->
    <td class="da clf">45.58 ± 0.89</td> <!-- LCC -->
    <td class="da clf">70.53 ± 0.85</td> <!-- DKHate -->
@@ -340,8 +340,8 @@ title: Pretrained Benchmark
    <td class="da ner">82.86 ± 0.50 / 85.01 ± 0.57</td> <!-- DaNE -->
    <td class="da pos">97.32 ± 0.03</td> <!-- DDT-POS -->
    <td class="da dep">59.99 ± 0.47 / 62.54 ± 0.47</td> <!-- DDT-DEP -->
-   <td class="da clf">56.75 ± 0.36</td> <!-- AngryTweets -->
-   <td class="da clf">48.40 ± 0.54</td> <!-- TwitterSent -->
+   <td class="da clf">58.83 ± 0.22</td> <!-- AngryTweets -->
+   <td class="da clf">47.76 ± 0.58</td> <!-- TwitterSent -->
    <td class="da clf">22.73 ± 2.14</td> <!-- Europarl -->
    <td class="da clf">54.11 ± 0.96</td> <!-- LCC -->
    <td class="da clf">64.71 ± 0.83</td> <!-- DKHate -->
@@ -384,8 +384,8 @@ title: Pretrained Benchmark
    <td class="da ner">80.79 ± 0.33 / 82.67 ± 0.33</td> <!-- DaNE -->
    <td class="da pos">96.79 ± 0.04</td> <!-- DDT-POS -->
    <td class="da dep">54.81 ± 0.21 / 57.76 ± 0.20</td> <!-- DDT-DEP -->
-   <td class="da clf">53.73 ± 0.40</td> <!-- AngryTweets -->
-   <td class="da clf">45.03 ± 0.38</td> <!-- TwitterSent -->
+   <td class="da clf">54.90 ± 0.26</td> <!-- AngryTweets -->
+   <td class="da clf">51.65 ± 0.44</td> <!-- TwitterSent -->
    <td class="da clf">51.71 ± 0.87</td> <!-- Europarl -->
    <td class="da clf">44.15 ± 1.25</td> <!-- LCC -->
    <td class="da clf">64.63 ± 0.60</td> <!-- DKHate -->
@@ -414,7 +414,7 @@ title: Pretrained Benchmark
   <tr>
    <td>KB/bert-base-swedish-cased</td> <!-- Model ID -->
    <td class="size">478</td> <!-- Model size -->
-   <td class="speed">2.62 ± 0.08</td> <!-- Inference speed -->
+   <td class="speed">4.38 ± 0.08</td> <!-- Inference speed -->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
    <td class="no-score"></td> <!-- Norwegian score -->
@@ -428,8 +428,8 @@ title: Pretrained Benchmark
    <td class="da ner">81.18 ± 0.45 / 82.93 ± 0.51</td> <!-- DaNE -->
    <td class="da pos">96.95 ± 0.03</td> <!-- DDT-POS -->
    <td class="da dep">58.08 ± 0.17 / 60.99 ± 0.16</td> <!-- DDT-DEP -->
-   <td class="da clf">59.57 ± 0.32</td> <!-- AngryTweets -->
-   <td class="da clf">59.14 ± 0.35</td> <!-- TwitterSent -->
+   <td class="da clf">62.27 ± 0.32</td> <!-- AngryTweets -->
+   <td class="da clf">57.52 ± 0.71</td> <!-- TwitterSent -->
    <td class="da clf">54.15 ± 1.34</td> <!-- Europarl -->
    <td class="da clf">46.08 ± 0.51</td> <!-- LCC -->
    <td class="da clf">71.45 ± 0.87</td> <!-- DKHate -->
@@ -472,8 +472,8 @@ title: Pretrained Benchmark
    <td class="da ner">77.32 ± 0.28 / 81.12 ± 0.32</td> <!-- DaNE -->
    <td class="da pos">97.38 ± 0.02</td> <!-- DDT-POS -->
    <td class="da dep">58.13 ± 0.24 / 60.85 ± 0.23</td> <!-- DDT-DEP -->
-   <td class="da clf">56.19 ± 0.27</td> <!-- AngryTweets -->
-   <td class="da clf">39.52 ± 0.75</td> <!-- TwitterSent -->
+   <td class="da clf">57.78 ± 0.82</td> <!-- AngryTweets -->
+   <td class="da clf">43.62 ± 0.33</td> <!-- TwitterSent -->
    <td class="da clf">24.70 ± 1.70</td> <!-- Europarl -->
    <td class="da clf">47.33 ± 0.83</td> <!-- LCC -->
    <td class="da clf">68.87 ± 0.78</td> <!-- DKHate -->
@@ -516,8 +516,8 @@ title: Pretrained Benchmark
    <td class="da ner">78.74 ± 0.36 / 81.28 ± 0.34</td> <!-- DaNE -->
    <td class="da pos">96.41 ± 0.04</td> <!-- DDT-POS -->
    <td class="da dep">60.27 ± 0.15 / 63.29 ± 0.15</td> <!-- DDT-DEP -->
-   <td class="da clf">56.60 ± 0.53</td> <!-- AngryTweets -->
-   <td class="da clf">50.75 ± 0.69</td> <!-- TwitterSent -->
+   <td class="da clf">59.30 ± 0.51</td> <!-- AngryTweets -->
+   <td class="da clf">40.30 ± 0.57</td> <!-- TwitterSent -->
    <td class="da clf">22.63 ± 1.55</td> <!-- Europarl -->
    <td class="da clf">40.51 ± 1.24</td> <!-- LCC -->
    <td class="da clf">62.45 ± 0.87</td> <!-- DKHate -->
@@ -590,7 +590,7 @@ title: Pretrained Benchmark
   <tr>
    <td>ltgoslo/norbert</td> <!-- Model ID -->
    <td class="size">427</td> <!-- Model size -->
-   <td class="speed">2.51 ± 0.08</td> <!-- Inference speed -->
+   <td class="speed">4.28 ± 0.08</td> <!-- Inference speed -->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
    <td class="no-score"></td> <!-- Norwegian score -->
@@ -634,7 +634,7 @@ title: Pretrained Benchmark
   <tr>
    <td>NbAiLab/nb-bert-base</td> <!-- Model ID -->
    <td class="size">681</td> <!-- Model size -->
-   <td class="speed">2.63 ± 0.09</td> <!-- Inference speed -->
+   <td class="speed">4.38 ± 0.10</td> <!-- Inference speed -->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
    <td class="no-score"></td> <!-- Norwegian score -->
@@ -678,7 +678,7 @@ title: Pretrained Benchmark
   <tr>
    <td>NbAiLab/nb-bert-large</td> <!-- Model ID -->
    <td class="size">1330</td> <!-- Model size -->
-   <td class="speed">0.85 ± 0.04</td> <!-- Inference speed -->
+   <td class="speed">1.41 ± 0.02</td> <!-- Inference speed -->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
    <td class="no-score"></td> <!-- Norwegian score -->
@@ -766,7 +766,7 @@ title: Pretrained Benchmark
   <tr>
    <td>Geotrend/distilbert-base-no-cased</td> <!-- Model ID -->
    <td class="size">235</td> <!-- Model size -->
-   <td class="speed">5.18 ± 0.23</td> <!-- Inference speed -->
+   <td class="speed">8.67 ± 0.26</td> <!-- Inference speed -->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
    <td class="no-score"></td> <!-- Norwegian score -->
@@ -780,8 +780,8 @@ title: Pretrained Benchmark
    <td class="da ner">79.62 ± 0.34 / 81.75 ± 0.34</td> <!-- DaNE -->
    <td class="da pos">96.70 ± 0.05</td> <!-- DDT-POS -->
    <td class="da dep">55.48 ± 0.25 / 58.52 ± 0.24</td> <!-- DDT-DEP -->
-   <td class="da clf">52.35 ± 0.29</td> <!-- AngryTweets -->
-   <td class="da clf">44.14 ± 0.67</td> <!-- TwitterSent -->
+   <td class="da clf">55.52 ± 0.31</td> <!-- AngryTweets -->
+   <td class="da clf">40.56 ± 0.46</td> <!-- TwitterSent -->
    <td class="da clf">23.67 ± 1.66</td> <!-- Europarl -->
    <td class="da clf">37.13 ± 0.49</td> <!-- LCC -->
    <td class="da clf">58.93 ± 0.81</td> <!-- DKHate -->
@@ -810,7 +810,7 @@ title: Pretrained Benchmark
   <tr>
    <td>ViktorAlm/electra-base-norwegian-uncased-discriminator</td> <!-- Model ID -->
    <td class="size">416</td> <!-- Model size -->
-   <td class="speed">2.60 ± 0.09</td> <!-- Inference speed -->
+   <td class="speed">4.38 ± 0.10</td> <!-- Inference speed -->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
    <td class="no-score"></td> <!-- Norwegian score -->
@@ -824,8 +824,8 @@ title: Pretrained Benchmark
    <td class="da ner">61.70 ± 0.40 / 59.20 ± 0.44</td> <!-- DaNE -->
    <td class="da pos">94.73 ± 0.05</td> <!-- DDT-POS -->
    <td class="da dep">58.10 ± 0.25 / 61.70 ± 0.24</td> <!-- DDT-DEP -->
-   <td class="da clf">59.22 ± 0.26</td> <!-- AngryTweets -->
-   <td class="da clf">44.50 ± 0.89</td> <!-- TwitterSent -->
+   <td class="da clf">60.46 ± 0.27</td> <!-- AngryTweets -->
+   <td class="da clf">44.62 ± 0.31</td> <!-- TwitterSent -->
    <td class="da clf">59.79 ± 0.74</td> <!-- Europarl -->
    <td class="da clf">60.94 ± 1.19</td> <!-- LCC -->
    <td class="da clf">69.12 ± 1.00</td> <!-- DKHate -->
@@ -898,7 +898,7 @@ title: Pretrained Benchmark
   <tr>
    <td>setu4993/LaBSE</td> <!-- Model ID -->
    <td class="size">1750</td> <!-- Model size -->
-   <td class="speed">2.67 ± 0.07</td> <!-- Inference speed -->
+   <td class="speed">5.07 ± 0.11</td> <!-- Inference speed -->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
    <td class="no-score"></td> <!-- Norwegian score -->
@@ -911,7 +911,7 @@ title: Pretrained Benchmark
    <td class="clf-score"></td> <!-- Mean classification score -->
    <td class="da ner">83.38 ± 0.33 / 85.41 ± 0.42</td> <!-- DaNE -->
    <td class="da pos">98.09 ± 0.02</td> <!-- DDT-POS -->
-   <td class="da dep"></td> <!-- DDT-DEP -->
+   <td class="da dep">66.08 ± 0.41 / 68.80 ± 0.39</td> <!-- DDT-DEP -->
    <td class="da clf">66.53 ± 0.33</td> <!-- AngryTweets -->
    <td class="da clf">71.12 ± 0.53</td> <!-- TwitterSent -->
    <td class="da clf">68.69 ± 0.59</td> <!-- Europarl -->
@@ -921,28 +921,28 @@ title: Pretrained Benchmark
    <td class="no ner">91.19 ± 0.18 / 93.62 ± 0.19</td> <!-- NorNE-NN -->
    <td class="no pos">98.67 ± 0.02</td> <!-- NDT-NB-POS -->
    <td class="no pos">98.19 ± 0.03</td> <!-- NDT-NN-POS -->
-   <td class="no dep"></td> <!-- NDT-NB-DEP -->
-   <td class="no dep"></td> <!-- NDT-NN-DEP -->
+   <td class="no dep">86.36 ± 0.07 / 88.23 ± 0.06</td> <!-- NDT-NB-DEP -->
+   <td class="no dep">82.11 ± 0.48 / 84.31 ± 0.47</td> <!-- NDT-NN-DEP -->
    <td class="no clf">71.02 ± 0.34</td> <!-- NoReC -->
    <td class="no clf">65.74 ± 0.38</td> <!-- NorDial -->
-   <td class="sv ner"></td> <!-- SUC3 -->
+   <td class="sv ner">85.33 ± 0.06 / 88.36 ± 0.06</td> <!-- SUC3 -->
    <td class="sv pos">98.66 ± 0.03</td> <!-- SDT-POS -->
    <td class="sv dep">70.23 ± 0.26 / 72.31 ± 0.26</td> <!-- SDT-DEP -->
    <td class="sv clf">56.56 ± 0.32</td> <!-- DaLaJ -->
    <td class="sv clf">52.66 ± 0.33</td> <!-- ABSAbank-Imm -->
-   <td class="is ner"></td> <!-- MIM-GOLD-NER -->
+   <td class="is ner">88.51 ± 0.10 / 88.84 ± 0.15</td> <!-- MIM-GOLD-NER -->
    <td class="is pos">99.54 ± 0.01</td> <!-- IDT-POS -->
-   <td class="is dep"></td> <!-- IDT-DEP -->
+   <td class="is dep">88.61 ± 0.17 / 89.73 ± 0.16</td> <!-- IDT-DEP -->
    <td class="is clf">59.71 ± 0.23</td> <!-- NoReC-IS -->
    <td class="fo ner">90.13 ± 0.18</td> <!-- WikiANN-FO -->
    <td class="fo pos">98.21 ± 0.03</td> <!-- FDT-POS -->
-   <td class="fo dep"></td> <!-- FDT-DEP -->
+   <td class="fo dep">51.99 ± 0.42 / 54.14 ± 0.43</td> <!-- FDT-DEP -->
    <td class="fo clf">60.67 ± 0.35</td> <!-- NoReC-FO -->
   </tr>
   <tr>
    <td>vesteinn/IceBERT</td> <!-- Model ID -->
    <td class="size">622</td> <!-- Model size -->
-   <td class="speed">2.23 ± 0.09</td> <!-- Inference speed -->
+   <td class="speed">3.32 ± 0.07</td> <!-- Inference speed -->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
    <td class="no-score"></td> <!-- Norwegian score -->
@@ -956,8 +956,8 @@ title: Pretrained Benchmark
    <td class="da ner">71.38 ± 0.49 / 74.11 ± 0.49</td> <!-- DaNE -->
    <td class="da pos">95.48 ± 0.07</td> <!-- DDT-POS -->
    <td class="da dep">61.19 ± 0.35 / 65.05 ± 0.37</td> <!-- DDT-DEP -->
-   <td class="da clf">50.51 ± 0.43</td> <!-- AngryTweets -->
-   <td class="da clf">39.32 ± 0.58</td> <!-- TwitterSent -->
+   <td class="da clf">53.47 ± 0.32</td> <!-- AngryTweets -->
+   <td class="da clf">38.99 ± 0.27</td> <!-- TwitterSent -->
    <td class="da clf">23.66 ± 0.78</td> <!-- Europarl -->
    <td class="da clf">36.69 ± 1.24</td> <!-- LCC -->
    <td class="da clf">46.94 ± 0.05</td> <!-- DKHate -->
@@ -1030,7 +1030,7 @@ title: Pretrained Benchmark
   <tr>
    <td>vesteinn/XLMR-ENIS</td> <!-- Model ID -->
    <td class="size">475</td> <!-- Model size -->
-   <td class="speed">2.13 ± 0.08</td> <!-- Inference speed -->
+   <td class="speed">3.61 ± 0.13</td> <!-- Inference speed -->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
    <td class="no-score"></td> <!-- Norwegian score -->
@@ -1074,7 +1074,7 @@ title: Pretrained Benchmark
   <tr>
    <td>neurocode/IsRoBERTa</td> <!-- Model ID -->
    <td class="size">319</td> <!-- Model size -->
-   <td class="speed">4.88 ± 0.14</td> <!-- Inference speed -->
+   <td class="speed">8.58 ± 0.26</td> <!-- Inference speed -->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
    <td class="no-score"></td> <!-- Norwegian score -->
@@ -1118,7 +1118,7 @@ title: Pretrained Benchmark
   <tr>
    <td>xlm-roberta-base</td> <!-- Model ID -->
    <td class="size">1040</td> <!-- Model size -->
-   <td class="speed">2.55 ± 0.08</td> <!-- Inference speed -->
+   <td class="speed">4.23 ± 0.07</td> <!-- Inference speed -->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
    <td class="no-score"></td> <!-- Norwegian score -->
@@ -1132,8 +1132,8 @@ title: Pretrained Benchmark
    <td class="da ner">84.45 ± 0.35 / 85.39 ± 0.28</td> <!-- DaNE -->
    <td class="da pos">98.29 ± 0.03</td> <!-- DDT-POS -->
    <td class="da dep">71.33 ± 0.31 / 73.87 ± 0.33</td> <!-- DDT-DEP -->
-   <td class="da clf">66.35 ± 0.34</td> <!-- AngryTweets -->
-   <td class="da clf">68.00 ± 1.12</td> <!-- TwitterSent -->
+   <td class="da clf">68.42 ± 0.29</td> <!-- AngryTweets -->
+   <td class="da clf">58.71 ± 1.25</td> <!-- TwitterSent -->
    <td class="da clf">44.91 ± 4.54</td> <!-- Europarl -->
    <td class="da clf">70.42 ± 0.98</td> <!-- LCC -->
    <td class="da clf">72.53 ± 0.82</td> <!-- DKHate -->
@@ -1162,7 +1162,7 @@ title: Pretrained Benchmark
   <tr>
    <td>xlm-roberta-large</td> <!-- Model ID -->
    <td class="size">2090</td> <!-- Model size -->
-   <td class="speed">0.73 ± 0.03</td> <!-- Inference speed -->
+   <td class="speed">1.16 ± 0.01</td> <!-- Inference speed -->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
    <td class="no-score"></td> <!-- Norwegian score -->
@@ -1173,34 +1173,34 @@ title: Pretrained Benchmark
    <td class="pos-score"></td> <!-- Mean POS score -->
    <td class="dep-score"></td> <!-- Mean dependency parsing score -->
    <td class="clf-score"></td> <!-- Mean classification score -->
-   <td class="da ner"></td> <!-- DaNE -->
-   <td class="da pos"></td> <!-- DDT-POS -->
-   <td class="da dep"></td> <!-- DDT-DEP -->
-   <td class="da clf"></td> <!-- AngryTweets -->
-   <td class="da clf"></td> <!-- TwitterSent -->
-   <td class="da clf"></td> <!-- Europarl -->
-   <td class="da clf">70.43 ± 1.09</td> <!-- LCC -->
-   <td class="da clf"></td> <!-- DKHate -->
-   <td class="no ner"></td> <!-- NorNE-NB -->
+   <td class="da ner">85.91 ± 0.41 / 87.89 ± 0.35</td> <!-- DaNE -->
+   <td class="da pos">98.66 ± 0.03</td> <!-- DDT-POS -->
+   <td class="da dep">71.42 ± 0.50 / 73.62 ± 0.50</td> <!-- DDT-DEP -->
+   <td class="da clf">54.22 ± 3.73</td> <!-- AngryTweets -->
+   <td class="da clf">55.75 ± 0.35</td> <!-- TwitterSent -->
+   <td class="da clf">73.56 ± 0.73</td> <!-- Europarl -->
+   <td class="da clf">59.85 ± 2.71</td> <!-- LCC -->
+   <td class="da clf">80.22 ± 0.76</td> <!-- DKHate -->
+   <td class="no ner">91.19 ± 0.10 / 92.08 ± 0.09</td> <!-- NorNE-NB -->
    <td class="no ner"></td> <!-- NorNE-NN -->
    <td class="no pos"></td> <!-- NDT-NB-POS -->
    <td class="no pos"></td> <!-- NDT-NN-POS -->
-   <td class="no dep"></td> <!-- NDT-NB-DEP -->
-   <td class="no dep"></td> <!-- NDT-NN-DEP -->
-   <td class="no clf"></td> <!-- NoReC -->
-   <td class="no clf"></td> <!-- NorDial -->
+   <td class="no dep">85.32 ± 0.27 / 86.86 ± 0.27</td> <!-- NDT-NB-DEP -->
+   <td class="no dep">86.22 ± 0.28 / 88.02 ± 0.28</td> <!-- NDT-NN-DEP -->
+   <td class="no clf">75.52 ± 0.33</td> <!-- NoReC -->
+   <td class="no clf">66.82 ± 0.41</td> <!-- NorDial -->
    <td class="sv ner"></td> <!-- SUC3 -->
    <td class="sv pos"></td> <!-- SDT-POS -->
-   <td class="sv dep"></td> <!-- SDT-DEP -->
+   <td class="sv dep">74.41 ± 0.84 / 76.01 ± 0.86</td> <!-- SDT-DEP -->
    <td class="sv clf"></td> <!-- DaLaJ -->
    <td class="sv clf"></td> <!-- ABSAbank-Imm -->
    <td class="is ner"></td> <!-- MIM-GOLD-NER -->
    <td class="is pos"></td> <!-- IDT-POS -->
-   <td class="is dep"></td> <!-- IDT-DEP -->
+   <td class="is dep">88.55 ± 0.42 / 89.64 ± 0.38</td> <!-- IDT-DEP -->
    <td class="is clf"></td> <!-- NoReC-IS -->
    <td class="fo ner"></td> <!-- WikiANN-FO -->
    <td class="fo pos"></td> <!-- FDT-POS -->
-   <td class="fo dep"></td> <!-- FDT-DEP -->
+   <td class="fo dep">47.89 ± 0.94 / 49.53 ± 0.93</td> <!-- FDT-DEP -->
    <td class="fo clf"></td> <!-- NoReC-FO -->
   </tr>
   <tr>
@@ -1250,7 +1250,7 @@ title: Pretrained Benchmark
   <tr>
    <td>bert-base-multilingual-cased</td> <!-- Model ID -->
    <td class="size">681</td> <!-- Model size -->
-   <td class="speed">2.42 ± 0.07</td> <!-- Inference speed -->
+   <td class="speed">4.28 ± 0.08</td> <!-- Inference speed -->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
    <td class="no-score"></td> <!-- Norwegian score -->
@@ -1294,7 +1294,7 @@ title: Pretrained Benchmark
   <tr>
    <td>distilbert-base-multilingual-cased</td> <!-- Model ID -->
    <td class="size">517</td> <!-- Model size -->
-   <td class="speed">5.16 ± 0.17</td> <!-- Inference speed -->
+   <td class="speed">8.76 ± 0.23</td> <!-- Inference speed -->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
    <td class="no-score"></td> <!-- Norwegian score -->
@@ -1338,7 +1338,7 @@ title: Pretrained Benchmark
   <tr>
    <td>cardiffnlp/twitter-xlm-roberta-base</td> <!-- Model ID -->
    <td class="size">1040</td> <!-- Model size -->
-   <td class="speed">2.55 ± 0.08</td> <!-- Inference speed -->
+   <td class="speed">4.04 ± 0.07</td> <!-- Inference speed -->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
    <td class="no-score"></td> <!-- Norwegian score -->
@@ -1382,7 +1382,7 @@ title: Pretrained Benchmark
   <tr>
    <td>Geotrend/bert-base-en-da-cased</td> <!-- Model ID -->
    <td class="size">424</td> <!-- Model size -->
-   <td class="speed">2.63 ± 0.09</td> <!-- Inference speed -->
+   <td class="speed">4.38 ± 0.09</td> <!-- Inference speed -->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
    <td class="no-score"></td> <!-- Norwegian score -->
@@ -1426,7 +1426,7 @@ title: Pretrained Benchmark
   <tr>
    <td>Geotrend/bert-base-25lang-cased</td> <!-- Model ID -->
    <td class="size">578</td> <!-- Model size -->
-   <td class="speed">2.59 ± 0.07</td> <!-- Inference speed -->
+   <td class="speed">4.41 ± 0.09</td> <!-- Inference speed -->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
    <td class="no-score"></td> <!-- Norwegian score -->
@@ -1470,7 +1470,7 @@ title: Pretrained Benchmark
   <tr>
    <td>Geotrend/bert-base-en-fr-de-no-da-cased</td> <!-- Model ID -->
    <td class="size">451</td> <!-- Model size -->
-   <td class="speed">2.62 ± 0.09</td> <!-- Inference speed -->
+   <td class="speed">4.31 ± 0.09</td> <!-- Inference speed -->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
    <td class="no-score"></td> <!-- Norwegian score -->
@@ -1514,7 +1514,7 @@ title: Pretrained Benchmark
   <tr>
    <td>Geotrend/distilbert-base-25lang-cased</td> <!-- Model ID -->
    <td class="size">415</td> <!-- Model size -->
-   <td class="speed">5.18 ± 0.14</td> <!-- Inference speed -->
+   <td class="speed">8.67 ± 0.30</td> <!-- Inference speed -->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
    <td class="no-score"></td> <!-- Norwegian score -->
@@ -1528,8 +1528,8 @@ title: Pretrained Benchmark
    <td class="da ner">81.23 ± 0.36 / 83.28 ± 0.35</td> <!-- DaNE -->
    <td class="da pos">96.68 ± 0.07</td> <!-- DDT-POS -->
    <td class="da dep">55.91 ± 0.31 / 58.84 ± 0.31</td> <!-- DDT-DEP -->
-   <td class="da clf">52.90 ± 0.31</td> <!-- AngryTweets -->
-   <td class="da clf">45.72 ± 0.57</td> <!-- TwitterSent -->
+   <td class="da clf">57.27 ± 0.25</td> <!-- AngryTweets -->
+   <td class="da clf">46.32 ± 1.02</td> <!-- TwitterSent -->
    <td class="da clf">56.26 ± 0.85</td> <!-- Europarl -->
    <td class="da clf">45.45 ± 0.89</td> <!-- LCC -->
    <td class="da clf">67.78 ± 1.37</td> <!-- DKHate -->
@@ -1558,7 +1558,7 @@ title: Pretrained Benchmark
   <tr>
    <td>Geotrend/distilbert-base-en-fr-de-no-da-cased</td> <!-- Model ID -->
    <td class="size">288</td> <!-- Model size -->
-   <td class="speed">5.18 ± 0.20</td> <!-- Inference speed -->
+   <td class="speed">8.66 ± 0.23</td> <!-- Inference speed -->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
    <td class="no-score"></td> <!-- Norwegian score -->
@@ -1602,7 +1602,7 @@ title: Pretrained Benchmark
   <tr>
    <td>Geotrend/bert-base-en-no-cased</td> <!-- Model ID -->
    <td class="size">425</td> <!-- Model size -->
-   <td class="speed">2.58 ± 0.06</td> <!-- Inference speed -->
+   <td class="speed">4.18 ± 0.11</td> <!-- Inference speed -->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
    <td class="no-score"></td> <!-- Norwegian score -->
@@ -1646,7 +1646,7 @@ title: Pretrained Benchmark
   <tr>
    <td>Geotrend/distilbert-base-en-no-cased</td> <!-- Model ID -->
    <td class="size">263</td> <!-- Model size -->
-   <td class="speed">5.19 ± 0.21</td> <!-- Inference speed -->
+   <td class="speed">8.71 ± 0.50</td> <!-- Inference speed -->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
    <td class="no-score"></td> <!-- Norwegian score -->
@@ -1690,7 +1690,7 @@ title: Pretrained Benchmark
   <tr>
    <td>Geotrend/distilbert-base-en-da-cased</td> <!-- Model ID -->
    <td class="size">262</td> <!-- Model size -->
-   <td class="speed">5.26 ± 0.13</td> <!-- Inference speed -->
+   <td class="speed">8.63 ± 0.24</td> <!-- Inference speed -->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
    <td class="no-score"></td> <!-- Norwegian score -->
@@ -1704,8 +1704,8 @@ title: Pretrained Benchmark
    <td class="da ner">80.18 ± 0.40 / 82.02 ± 0.42</td> <!-- DaNE -->
    <td class="da pos">96.72 ± 0.05</td> <!-- DDT-POS -->
    <td class="da dep">55.99 ± 0.27 / 58.92 ± 0.28</td> <!-- DDT-DEP -->
-   <td class="da clf">55.24 ± 0.48</td> <!-- AngryTweets -->
-   <td class="da clf">42.49 ± 0.53</td> <!-- TwitterSent -->
+   <td class="da clf">57.03 ± 0.28</td> <!-- AngryTweets -->
+   <td class="da clf">46.49 ± 0.89</td> <!-- TwitterSent -->
    <td class="da clf">41.29 ± 1.31</td> <!-- Europarl -->
    <td class="da clf">39.43 ± 1.62</td> <!-- LCC -->
    <td class="da clf">67.34 ± 0.91</td> <!-- DKHate -->
@@ -1822,7 +1822,7 @@ title: Pretrained Benchmark
   <tr>
    <td>birgermoell/roberta-swedish-scandi</td> <!-- Model ID -->
    <td class="size">476</td> <!-- Model size -->
-   <td class="speed">3.09 ± 0.12</td> <!-- Inference speed -->
+   <td class="speed">4.39 ± 0.08</td> <!-- Inference speed -->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
    <td class="no-score"></td> <!-- Norwegian score -->
@@ -1866,7 +1866,7 @@ title: Pretrained Benchmark
   <tr>
    <td>random-roberta</td> <!-- Model ID -->
    <td class="size">478</td> <!-- Model size -->
-   <td class="speed">2.43 ± 0.07</td> <!-- Inference speed -->
+   <td class="speed">3.22 ± 0.05</td> <!-- Inference speed -->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
    <td class="no-score"></td> <!-- Norwegian score -->
