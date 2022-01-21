@@ -49,8 +49,8 @@ title: Finetuned Benchmark
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Icelandic sentiment classification - Macro-F1">NoReC-IS</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Faroese sentiment classification - Macro-F1">NoReC-FO</span></th>
   </tr>
- <thead>
- <body>
+ </thead>
+ <tbody>
   <tr>
    <td>spacy/da_core_news_sm</td> <!-- Model ID -->
    <td class="size">18</td> <!-- Model size -->
