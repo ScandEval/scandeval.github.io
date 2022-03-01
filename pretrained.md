@@ -1376,7 +1376,7 @@ title: Pretrained Benchmark
    <td class="is pos">99.40 ± 0.02</td> <!-- IDT-POS -->
    <td class="is dep">85.40 ± 0.45 / 86.88 ± 0.43</td> <!-- IDT-DEP -->
    <td class="is clf">48.89 ± 0.71</td> <!-- NoReC-IS -->
-   <td class="fo ner">89.17 ± 0.19 / 89.17 ± 0.19</td> <!-- WikiANN-FO -->
+   <td class="fo ner">89.17 ± 0.19</td> <!-- WikiANN-FO -->
    <td class="fo pos">97.49 ± 0.06</td> <!-- FDT-POS -->
    <td class="fo dep">52.51 ± 0.40 / 54.86 ± 0.41</td> <!-- FDT-DEP -->
    <td class="fo clf">58.93 ± 0.24</td> <!-- NoReC-FO -->
