@@ -64,7 +64,7 @@ title: Pretrained Benchmark
   <tr>
    <td>vesteinn/ScandiBERT</td> <!-- Model ID -->
    <td class="size">475</td> <!-- Model size -->
-   <td class="speed">3.61 ± 0.13</td> <!-- Inference speed -->
+   <td class="speed">4.63 ± 0.19</td> <!-- Inference speed -->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
    <td class="no-score"></td> <!-- Norwegian score -->
