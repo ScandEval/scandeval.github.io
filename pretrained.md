@@ -301,7 +301,7 @@ title: Pretrained Benchmark
   <template>
   <tr>
    <td>KBLab/roberta-base-swedish-cased</td> <!-- Model ID -->
-   <td class="size"></td> <!-- Model size -->
+   <td class="size">481</td> <!-- Model size -->
    <td class="speed"></td> <!-- Inference speed -->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
@@ -348,7 +348,7 @@ title: Pretrained Benchmark
   <template>
   <tr>
    <td>KBLab/megatron-bert-large-swedish-cased-110k</td> <!-- Model ID -->
-   <td class="size"></td> <!-- Model size -->
+   <td class="size">707</td> <!-- Model size -->
    <td class="speed"></td> <!-- Inference speed -->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
@@ -395,7 +395,7 @@ title: Pretrained Benchmark
   <template>
   <tr>
    <td>KBLab/megatron-bert-base-swedish-cased-125k</td> <!-- Model ID -->
-   <td class="size"></td> <!-- Model size -->
+   <td class="size">516</td> <!-- Model size -->
    <td class="speed"></td> <!-- Inference speed -->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
@@ -442,7 +442,7 @@ title: Pretrained Benchmark
   <template>
   <tr>
    <td>KBLab/megatron-bert-base-swedish-cased-600k</td> <!-- Model ID -->
-   <td class="size"></td> <!-- Model size -->
+   <td class="size">516</td> <!-- Model size -->
    <td class="speed"></td> <!-- Inference speed -->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
@@ -489,7 +489,7 @@ title: Pretrained Benchmark
   <template>
   <tr>
    <td>KBLab/bert-base-swedish-cased-new</td> <!-- Model ID -->
-   <td class="size"></td> <!-- Model size -->
+   <td class="size">516</td> <!-- Model size -->
    <td class="speed"></td> <!-- Inference speed -->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
@@ -536,7 +536,7 @@ title: Pretrained Benchmark
   <template>
   <tr>
    <td>KBLab/sentence-bert-swedish-cased</td> <!-- Model ID -->
-   <td class="size"></td> <!-- Model size -->
+   <td class="size">476</td> <!-- Model size -->
    <td class="speed"></td> <!-- Inference speed -->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
