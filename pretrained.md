@@ -61,6 +61,8 @@ title: Pretrained Benchmark
   </tr>
  </thead>
  <tbody>
+
+  <!-- A template for a new entry. Copy this (without the template tag). -->
   <template>
   <tr>
    <td></td> <!-- Model ID -->
@@ -107,6 +109,52 @@ title: Pretrained Benchmark
    <td class="fo clf"></td> <!-- NoReC-FO -->
   </tr>
   </template>
+
+  <tr>
+   <td></td> <!-- Model ID -->
+   <td class="size"></td> <!-- Model size -->
+   <td class="speed"></td> <!-- Inference speed -->
+   <td class="score"></td> <!-- ScandEval score -->
+   <td class="da-score"></td> <!-- Danish score -->
+   <td class="no-score"></td> <!-- Norwegian score -->
+   <td class="sv-score"></td> <!-- Swedish score -->
+   <td class="is-score"></td> <!-- Icelandic score -->
+   <td class="fo-score"></td> <!-- Faroese score -->
+   <td class="ner-score"></td> <!-- Mean NER score -->
+   <td class="pos-score"></td> <!-- Mean POS score -->
+   <td class="dep-score"></td> <!-- Mean dependency parsing score -->
+   <td class="clf-score"></td> <!-- Mean classification score -->
+   <td class="da ner"></td> <!-- DaNE -->
+   <td class="da pos"></td> <!-- DDT-POS -->
+   <td class="da dep"></td> <!-- DDT-DEP -->
+   <td class="da clf"></td> <!-- AngryTweets -->
+   <td class="da clf"></td> <!-- TwitterSent -->
+   <td class="da clf"></td> <!-- Europarl -->
+   <td class="da clf"></td> <!-- LCC -->
+   <td class="da clf"></td> <!-- DKHate -->
+   <td class="no ner"></td> <!-- NorNE-NB -->
+   <td class="no ner"></td> <!-- NorNE-NN -->
+   <td class="no pos"></td> <!-- NDT-NB-POS -->
+   <td class="no pos"></td> <!-- NDT-NN-POS -->
+   <td class="no dep"></td> <!-- NDT-NB-DEP -->
+   <td class="no dep"></td> <!-- NDT-NN-DEP -->
+   <td class="no clf"></td> <!-- NoReC -->
+   <td class="no clf"></td> <!-- NorDial -->
+   <td class="sv ner"></td> <!-- SUC3 -->
+   <td class="sv pos"></td> <!-- SDT-POS -->
+   <td class="sv dep"></td> <!-- SDT-DEP -->
+   <td class="sv clf"></td> <!-- DaLaJ -->
+   <td class="sv clf"></td> <!-- ABSAbank-Imm -->
+   <td class="is ner"></td> <!-- MIM-GOLD-NER -->
+   <td class="is pos"></td> <!-- IDT-POS -->
+   <td class="is dep"></td> <!-- IDT-DEP -->
+   <td class="is clf"></td> <!-- NoReC-IS -->
+   <td class="fo ner"></td> <!-- WikiANN-FO -->
+   <td class="fo pos"></td> <!-- FDT-POS -->
+   <td class="fo dep"></td> <!-- FDT-DEP -->
+   <td class="fo clf"></td> <!-- NoReC-FO -->
+  </tr>
+
   <tr>
    <td>vesteinn/ScandiBERT</td> <!-- Model ID -->
    <td class="size">475</td> <!-- Model size -->
@@ -151,6 +199,7 @@ title: Pretrained Benchmark
    <td class="fo dep">50.61 ± 0.59 / 52.39 ± 0.58</td> <!-- FDT-DEP -->
    <td class="fo clf">59.14 ± 0.22</td> <!-- NoReC-FO -->
   </tr>
+
   <tr>
    <td>Maltehb/danish-bert-botxo</td> <!-- Model ID -->
    <td class="size">424</td> <!-- Model size -->
@@ -195,6 +244,7 @@ title: Pretrained Benchmark
    <td class="fo dep">29.60 ± 0.29 / 33.56 ± 0.29</td> <!-- FDT-DEP -->
    <td class="fo clf">30.50 ± 0.55</td> <!-- NoReC-FO -->
   </tr>
+
   <tr>
    <td>Maltehb/aelaectra-danish-electra-small-cased</td> <!-- Model ID -->
    <td class="size">55</td> <!-- Model size -->
@@ -239,6 +289,7 @@ title: Pretrained Benchmark
    <td class="fo dep">41.32 ± 0.64 / 44.23 ± 0.66</td> <!-- FDT-DEP -->
    <td class="fo clf">37.39 ± 0.23</td> <!-- NoReC-FO -->
   </tr>
+
   <tr>
    <td>flax-community/roberta-base-danish</td> <!-- Model ID -->
    <td class="size">476</td> <!-- Model size -->
@@ -283,6 +334,7 @@ title: Pretrained Benchmark
    <td class="fo dep">29.59 ± 0.29 / 32.39 ± 0.31</td> <!-- FDT-DEP -->
    <td class="fo clf">34.91 ± 0.81</td> <!-- NoReC-FO -->
   </tr>
+
   <tr>
    <td>flax-community/roberta-base-scandinavian</td> <!-- Model ID -->
    <td class="size">476</td> <!-- Model size -->
@@ -327,6 +379,7 @@ title: Pretrained Benchmark
    <td class="fo dep">30.09 ± 0.28 / 33.93 ± 0.30</td> <!-- FDT-DEP -->
    <td class="fo clf">27.85 ± 1.05</td> <!-- NoReC-FO -->
   </tr>
+
   <tr>
    <td>Maltehb/aelaectra-danish-electra-small-uncased</td> <!-- Model ID -->
    <td class="size">55</td> <!-- Model size -->
@@ -371,6 +424,7 @@ title: Pretrained Benchmark
    <td class="fo dep">42.53 ± 0.43 / 45.26 ± 0.44</td> <!-- FDT-DEP -->
    <td class="fo clf">38.70 ± 0.23</td> <!-- NoReC-FO -->
   </tr>
+
   <tr>
    <td>alexanderfalk/danbert-small-cased</td> <!-- Model ID -->
    <td class="size">321</td> <!-- Model size -->
@@ -415,6 +469,7 @@ title: Pretrained Benchmark
    <td class="fo dep">27.94 ± 0.27 / 30.67 ± 0.27</td> <!-- FDT-DEP -->
    <td class="fo clf">40.22 ± 0.31</td> <!-- NoReC-FO -->
   </tr>
+
   <tr>
    <td>Geotrend/bert-base-da-cased</td> <!-- Model ID -->
    <td class="size">396</td> <!-- Model size -->
@@ -459,6 +514,7 @@ title: Pretrained Benchmark
    <td class="fo dep">46.68 ± 0.39 / 48.90 ± 0.40</td> <!-- FDT-DEP -->
    <td class="fo clf">47.80 ± 0.52</td> <!-- NoReC-FO -->
   </tr>
+
   <tr>
    <td>Geotrend/distilbert-base-da-cased</td> <!-- Model ID -->
    <td class="size">234</td> <!-- Model size -->
@@ -503,6 +559,7 @@ title: Pretrained Benchmark
    <td class="fo dep">41.06 ± 0.34 / 43.38 ± 0.35</td> <!-- FDT-DEP -->
    <td class="fo clf">40.88 ± 0.23</td> <!-- NoReC-FO -->
   </tr>
+
   <tr>
    <td>KB/bert-base-swedish-cased</td> <!-- Model ID -->
    <td class="size">478</td> <!-- Model size -->
@@ -547,6 +604,7 @@ title: Pretrained Benchmark
    <td class="fo dep">45.56 ± 0.32 / 48.92 ± 0.33</td> <!-- FDT-DEP -->
    <td class="fo clf">51.98 ± 0.39</td> <!-- NoReC-FO -->
   </tr>
+
   <tr>
    <td>flax-community/nordic-roberta-wiki</td> <!-- Model ID -->
    <td class="size">476</td> <!-- Model size -->
@@ -591,6 +649,7 @@ title: Pretrained Benchmark
    <td class="fo dep">37.16 ± 0.39 / 39.87 ± 0.40</td> <!-- FDT-DEP -->
    <td class="fo clf">49.37 ± 0.28</td> <!-- NoReC-FO -->
   </tr>
+
   <tr>
    <td>flax-community/swe-roberta-wiki-oscar</td> <!-- Model ID -->
    <td class="size">476</td> <!-- Model size -->
@@ -635,6 +694,7 @@ title: Pretrained Benchmark
    <td class="fo dep">40.85 ± 0.50 / 43.49 ± 0.51</td> <!-- FDT-DEP -->
    <td class="fo clf">37.40 ± 1.46</td> <!-- NoReC-FO -->
   </tr>
+
   <tr>
    <td>KB/albert-base-swedish-cased-alpha</td> <!-- Model ID -->
    <td class="size">54</td> <!-- Model size -->
@@ -679,6 +739,7 @@ title: Pretrained Benchmark
    <td class="fo dep">29.67 ± 0.43 / 32.64 ± 0.45</td> <!-- FDT-DEP -->
    <td class="fo clf">37.61 ± 0.75</td> <!-- NoReC-FO -->
   </tr>
+
   <tr>
    <td>ltgoslo/norbert</td> <!-- Model ID -->
    <td class="size">427</td> <!-- Model size -->
@@ -723,6 +784,7 @@ title: Pretrained Benchmark
    <td class="fo dep">22.38 ± 0.56 / 25.15 ± 0.57</td> <!-- FDT-DEP -->
    <td class="fo clf">24.82 ± 0.46</td> <!-- NoReC-FO -->
   </tr>
+
   <tr>
    <td>NbAiLab/nb-bert-base</td> <!-- Model ID -->
    <td class="size">681</td> <!-- Model size -->
@@ -767,6 +829,7 @@ title: Pretrained Benchmark
    <td class="fo dep">52.45 ± 0.41 / 54.94 ± 0.40</td> <!-- FDT-DEP -->
    <td class="fo clf">56.40 ± 0.24</td> <!-- NoReC-FO -->
   </tr>
+
   <tr>
    <td>NbAiLab/nb-bert-large</td> <!-- Model ID -->
    <td class="size">1330</td> <!-- Model size -->
@@ -811,6 +874,7 @@ title: Pretrained Benchmark
    <td class="fo dep">45.93 ± 0.52 / 48.05 ± 0.52</td> <!-- FDT-DEP -->
    <td class="fo clf">54.30 ± 0.30</td> <!-- NoReC-FO -->
   </tr>
+
   <tr>
    <td>Geotrend/bert-base-no-cased</td> <!-- Model ID -->
    <td class="size">397</td> <!-- Model size -->
@@ -855,6 +919,7 @@ title: Pretrained Benchmark
    <td class="fo dep">43.74 ± 0.41 / 45.88 ± 0.40</td> <!-- FDT-DEP -->
    <td class="fo clf">46.55 ± 0.37</td> <!-- NoReC-FO -->
   </tr>
+
   <tr>
    <td>Geotrend/distilbert-base-no-cased</td> <!-- Model ID -->
    <td class="size">235</td> <!-- Model size -->
@@ -899,6 +964,7 @@ title: Pretrained Benchmark
    <td class="fo dep">42.58 ± 0.30 / 45.13 ± 0.30</td> <!-- FDT-DEP -->
    <td class="fo clf">40.91 ± 0.97</td> <!-- NoReC-FO -->
   </tr>
+
   <tr>
    <td>ViktorAlm/electra-base-norwegian-uncased-discriminator</td> <!-- Model ID -->
    <td class="size">416</td> <!-- Model size -->
@@ -943,6 +1009,7 @@ title: Pretrained Benchmark
    <td class="fo dep">38.55 ± 0.34 / 42.45 ± 0.36</td> <!-- FDT-DEP -->
    <td class="fo clf">41.46 ± 0.49</td> <!-- NoReC-FO -->
   </tr>
+
   <tr>
    <td>sarnikowski/electra-small-discriminator-da-256-cased</td> <!-- Model ID -->
    <td class="size">51</td> <!-- Model size -->
@@ -987,6 +1054,7 @@ title: Pretrained Benchmark
    <td class="fo dep">31.23 ± 0.31 / 35.34 ± 0.33</td> <!-- FDT-DEP -->
    <td class="fo clf">37.20 ± 0.41</td> <!-- NoReC-FO -->
   </tr>
+
   <tr>
    <td>setu4993/LaBSE</td> <!-- Model ID -->
    <td class="size">1750</td> <!-- Model size -->
@@ -1031,6 +1099,7 @@ title: Pretrained Benchmark
    <td class="fo dep">51.99 ± 0.42 / 54.14 ± 0.43</td> <!-- FDT-DEP -->
    <td class="fo clf">60.67 ± 0.35</td> <!-- NoReC-FO -->
   </tr>
+
   <tr>
    <td>vesteinn/IceBERT</td> <!-- Model ID -->
    <td class="size">622</td> <!-- Model size -->
@@ -1075,6 +1144,7 @@ title: Pretrained Benchmark
    <td class="fo dep">47.45 ± 0.41 / 49.52 ± 0.41</td> <!-- FDT-DEP -->
    <td class="fo clf">51.14 ± 0.42</td> <!-- NoReC-FO -->
   </tr>
+
   <tr>
    <td>jonfd/convbert-small-igc-is</td> <!-- Model ID -->
    <td class="size">82</td> <!-- Model size -->
@@ -1119,6 +1189,7 @@ title: Pretrained Benchmark
    <td class="fo dep">39.12 ± 3.58 / 41.44 ± 3.69</td> <!-- FDT-DEP -->
    <td class="fo clf">44.66 ± 8.07</td> <!-- NoReC-FO -->
   </tr>
+
   <tr>
    <td>vesteinn/XLMR-ENIS</td> <!-- Model ID -->
    <td class="size">475</td> <!-- Model size -->
@@ -1163,6 +1234,7 @@ title: Pretrained Benchmark
    <td class="fo dep">49.64 ± 5.20 / 51.71 ± 5.24</td> <!-- FDT-DEP -->
    <td class="fo clf">53.48 ± 17.57</td> <!-- NoReC-FO -->
   </tr>
+
   <tr>
    <td>neurocode/IsRoBERTa</td> <!-- Model ID -->
    <td class="size">319</td> <!-- Model size -->
@@ -1207,6 +1279,7 @@ title: Pretrained Benchmark
    <td class="fo dep">33.22 ± 0.27 / 35.32 ± 0.27</td> <!-- FDT-DEP -->
    <td class="fo clf">50.45 ± 0.15</td> <!-- NoReC-FO -->
   </tr>
+
   <tr>
    <td>jonfd/electra-small-nordic</td> <!-- Model ID -->
    <td class="size">84</td> <!-- Model size -->
@@ -1251,6 +1324,7 @@ title: Pretrained Benchmark
    <td class="fo dep">45.02 ± 0.41 / 47.05 ± 0.42</td> <!-- FDT-DEP -->
    <td class="fo clf">53.16 ± 1.12</td> <!-- NoReC-FO -->
   </tr>
+
   <tr>
    <td>xlm-roberta-base</td> <!-- Model ID -->
    <td class="size">1040</td> <!-- Model size -->
@@ -1295,6 +1369,7 @@ title: Pretrained Benchmark
    <td class="fo dep">55.18 ± 0.56 / 57.49 ± 0.57</td> <!-- FDT-DEP -->
    <td class="fo clf">54.12 ± 0.50</td> <!-- NoReC-FO -->
   </tr>
+
   <tr>
    <td>xlm-roberta-large</td> <!-- Model ID -->
    <td class="size">2090</td> <!-- Model size -->
@@ -1339,6 +1414,7 @@ title: Pretrained Benchmark
    <td class="fo dep">47.89 ± 0.94 / 49.53 ± 0.93</td> <!-- FDT-DEP * -->
    <td class="fo clf">59.50 ± 0.35</td> <!-- NoReC-FO -->
   </tr>
+
   <tr>
    <td>bert-base-multilingual-cased</td> <!-- Model ID -->
    <td class="size">681</td> <!-- Model size -->
@@ -1383,6 +1459,7 @@ title: Pretrained Benchmark
    <td class="fo dep">46.37 ± 0.44 / 48.64 ± 0.43</td> <!-- FDT-DEP -->
    <td class="fo clf">45.07 ± 0.36</td> <!-- NoReC-FO -->
   </tr>
+
   <tr>
    <td>distilbert-base-multilingual-cased</td> <!-- Model ID -->
    <td class="size">517</td> <!-- Model size -->
@@ -1427,6 +1504,7 @@ title: Pretrained Benchmark
    <td class="fo dep">41.22 ± 0.37 / 43.60 ± 0.38</td> <!-- FDT-DEP -->
    <td class="fo clf">41.14 ± 0.60</td> <!-- NoReC-FO -->
   </tr>
+
   <tr>
    <td>cardiffnlp/twitter-xlm-roberta-base</td> <!-- Model ID -->
    <td class="size">1040</td> <!-- Model size -->
@@ -1471,6 +1549,7 @@ title: Pretrained Benchmark
    <td class="fo dep">52.51 ± 0.40 / 54.86 ± 0.41</td> <!-- FDT-DEP -->
    <td class="fo clf">58.93 ± 0.24</td> <!-- NoReC-FO -->
   </tr>
+
   <tr>
    <td>Geotrend/bert-base-en-da-cased</td> <!-- Model ID -->
    <td class="size">424</td> <!-- Model size -->
@@ -1515,6 +1594,7 @@ title: Pretrained Benchmark
    <td class="fo dep">46.95 ± 0.47 / 49.25 ± 0.48</td> <!-- FDT-DEP -->
    <td class="fo clf">41.70 ± 0.39</td> <!-- NoReC-FO -->
   </tr>
+
   <tr>
    <td>Geotrend/bert-base-25lang-cased</td> <!-- Model ID -->
    <td class="size">578</td> <!-- Model size -->
@@ -1559,6 +1639,7 @@ title: Pretrained Benchmark
    <td class="fo dep">47.52 ± 0.33 / 49.57 ± 0.34</td> <!-- FDT-DEP -->
    <td class="fo clf">43.65 ± 0.20</td> <!-- NoReC-FO -->
   </tr>
+
   <tr>
    <td>Geotrend/bert-base-en-fr-de-no-da-cased</td> <!-- Model ID -->
    <td class="size">451</td> <!-- Model size -->
@@ -1603,6 +1684,7 @@ title: Pretrained Benchmark
    <td class="fo dep">47.75 ± 0.38 / 49.79 ± 0.38</td> <!-- FDT-DEP -->
    <td class="fo clf">46.52 ± 0.45</td> <!-- NoReC-FO -->
   </tr>
+
   <tr>
    <td>Geotrend/distilbert-base-25lang-cased</td> <!-- Model ID -->
    <td class="size">415</td> <!-- Model size -->
@@ -1647,6 +1729,7 @@ title: Pretrained Benchmark
    <td class="fo dep">40.24 ± 0.40 / 42.63 ± 0.42</td> <!-- FDT-DEP -->
    <td class="fo clf">30.02 ± 0.24</td> <!-- NoReC-FO -->
   </tr>
+
   <tr>
    <td>Geotrend/distilbert-base-en-fr-de-no-da-cased</td> <!-- Model ID -->
    <td class="size">288</td> <!-- Model size -->
@@ -1691,6 +1774,7 @@ title: Pretrained Benchmark
    <td class="fo dep">43.24 ± 0.32 / 45.72 ± 0.32</td> <!-- FDT-DEP -->
    <td class="fo clf">47.48 ± 0.79</td> <!-- NoReC-FO -->
   </tr>
+
   <tr>
    <td>Geotrend/bert-base-en-no-cased</td> <!-- Model ID -->
    <td class="size">425</td> <!-- Model size -->
@@ -1735,6 +1819,7 @@ title: Pretrained Benchmark
    <td class="fo dep">48.27 ± 0.53 / 50.55 ± 0.54</td> <!-- FDT-DEP -->
    <td class="fo clf">47.04 ± 0.34</td> <!-- NoReC-FO -->
   </tr>
+
   <tr>
    <td>Geotrend/distilbert-base-en-no-cased</td> <!-- Model ID -->
    <td class="size">263</td> <!-- Model size -->
@@ -1779,6 +1864,7 @@ title: Pretrained Benchmark
    <td class="fo dep">40.88 ± 0.43 / 43.26 ± 0.43</td> <!-- FDT-DEP -->
    <td class="fo clf">44.39 ± 0.59</td> <!-- NoReC-FO -->
   </tr>
+
   <tr>
    <td>Geotrend/distilbert-base-en-da-cased</td> <!-- Model ID -->
    <td class="size">262</td> <!-- Model size -->
@@ -1823,6 +1909,7 @@ title: Pretrained Benchmark
    <td class="fo dep">42.44 ± 0.36 / 44.96 ± 0.37</td> <!-- FDT-DEP -->
    <td class="fo clf">41.63 ± 0.46</td> <!-- NoReC-FO -->
   </tr>
+
   <tr>
    <td>sarnikowski/convbert-medium-small-da-cased</td> <!-- Model ID -->
    <td class="size">94</td> <!-- Model size -->
@@ -1867,6 +1954,7 @@ title: Pretrained Benchmark
    <td class="fo dep">31.00 ± 0.34 / 35.01 ± 0.35</td> <!-- FDT-DEP -->
    <td class="fo clf">40.56 ± 0.82</td> <!-- NoReC-FO -->
   </tr>
+
   <tr>
    <td>sarnikowski/convbert-small-da-cased</td> <!-- Model ID -->
    <td class="size">50</td> <!-- Model size -->
@@ -1911,6 +1999,7 @@ title: Pretrained Benchmark
    <td class="fo dep">27.97 ± 0.33 / 31.87 ± 0.37</td> <!-- FDT-DEP -->
    <td class="fo clf">35.59 ± 0.26</td> <!-- NoReC-FO -->
   </tr>
+
   <tr>
    <td>birgermoell/roberta-swedish-scandi</td> <!-- Model ID -->
    <td class="size">476</td> <!-- Model size -->
@@ -1955,6 +2044,7 @@ title: Pretrained Benchmark
    <td class="fo dep">32.99 ± 0.34 / 36.30 ± 0.35</td> <!-- FDT-DEP -->
    <td class="fo clf">39.25 ± 0.16</td> <!-- NoReC-FO -->
   </tr>
+
   <tr>
    <td>random-roberta</td> <!-- Model ID -->
    <td class="size">478</td> <!-- Model size -->
