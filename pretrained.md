@@ -110,9 +110,10 @@ title: Pretrained Benchmark
   </tr>
   </template>
 
+  <template>
   <tr>
-   <td></td> <!-- Model ID -->
-   <td class="size"></td> <!-- Model size -->
+   <td>KB/electra-small-swedish-cased-discriminator</td> <!-- Model ID -->
+   <td class="size">61</td> <!-- Model size -->
    <td class="speed"></td> <!-- Inference speed -->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
@@ -154,6 +155,101 @@ title: Pretrained Benchmark
    <td class="fo dep"></td> <!-- FDT-DEP -->
    <td class="fo clf"></td> <!-- NoReC-FO -->
   </tr>
+  </template>
+
+  <template>
+  <tr>
+   <td>KB/electra-base-swedish-cased-discriminator</td> <!-- Model ID -->
+   <td class="size"></td> <!-- Model size -->
+   <td class="speed">476</td> <!-- Inference speed -->
+   <td class="score"></td> <!-- ScandEval score -->
+   <td class="da-score"></td> <!-- Danish score -->
+   <td class="no-score"></td> <!-- Norwegian score -->
+   <td class="sv-score"></td> <!-- Swedish score -->
+   <td class="is-score"></td> <!-- Icelandic score -->
+   <td class="fo-score"></td> <!-- Faroese score -->
+   <td class="ner-score"></td> <!-- Mean NER score -->
+   <td class="pos-score"></td> <!-- Mean POS score -->
+   <td class="dep-score"></td> <!-- Mean dependency parsing score -->
+   <td class="clf-score"></td> <!-- Mean classification score -->
+   <td class="da ner"></td> <!-- DaNE -->
+   <td class="da pos"></td> <!-- DDT-POS -->
+   <td class="da dep"></td> <!-- DDT-DEP -->
+   <td class="da clf"></td> <!-- AngryTweets -->
+   <td class="da clf"></td> <!-- TwitterSent -->
+   <td class="da clf"></td> <!-- Europarl -->
+   <td class="da clf"></td> <!-- LCC -->
+   <td class="da clf"></td> <!-- DKHate -->
+   <td class="no ner"></td> <!-- NorNE-NB -->
+   <td class="no ner"></td> <!-- NorNE-NN -->
+   <td class="no pos"></td> <!-- NDT-NB-POS -->
+   <td class="no pos"></td> <!-- NDT-NN-POS -->
+   <td class="no dep"></td> <!-- NDT-NB-DEP -->
+   <td class="no dep"></td> <!-- NDT-NN-DEP -->
+   <td class="no clf"></td> <!-- NoReC -->
+   <td class="no clf"></td> <!-- NorDial -->
+   <td class="sv ner"></td> <!-- SUC3 -->
+   <td class="sv pos"></td> <!-- SDT-POS -->
+   <td class="sv dep"></td> <!-- SDT-DEP -->
+   <td class="sv clf"></td> <!-- DaLaJ -->
+   <td class="sv clf"></td> <!-- ABSAbank-Imm -->
+   <td class="is ner"></td> <!-- MIM-GOLD-NER -->
+   <td class="is pos"></td> <!-- IDT-POS -->
+   <td class="is dep"></td> <!-- IDT-DEP -->
+   <td class="is clf"></td> <!-- NoReC-IS -->
+   <td class="fo ner"></td> <!-- WikiANN-FO -->
+   <td class="fo pos"></td> <!-- FDT-POS -->
+   <td class="fo dep"></td> <!-- FDT-DEP -->
+   <td class="fo clf"></td> <!-- NoReC-FO -->
+  </tr>
+  </template>
+
+  <template>
+  <tr>
+   <td>KB/bert-base-swedish-cased-alpha</td> <!-- Model ID -->
+   <td class="size">475</td> <!-- Model size -->
+   <td class="speed"></td> <!-- Inference speed -->
+   <td class="score"></td> <!-- ScandEval score -->
+   <td class="da-score"></td> <!-- Danish score -->
+   <td class="no-score"></td> <!-- Norwegian score -->
+   <td class="sv-score"></td> <!-- Swedish score -->
+   <td class="is-score"></td> <!-- Icelandic score -->
+   <td class="fo-score"></td> <!-- Faroese score -->
+   <td class="ner-score"></td> <!-- Mean NER score -->
+   <td class="pos-score"></td> <!-- Mean POS score -->
+   <td class="dep-score"></td> <!-- Mean dependency parsing score -->
+   <td class="clf-score"></td> <!-- Mean classification score -->
+   <td class="da ner"></td> <!-- DaNE -->
+   <td class="da pos"></td> <!-- DDT-POS -->
+   <td class="da dep"></td> <!-- DDT-DEP -->
+   <td class="da clf"></td> <!-- AngryTweets -->
+   <td class="da clf"></td> <!-- TwitterSent -->
+   <td class="da clf"></td> <!-- Europarl -->
+   <td class="da clf"></td> <!-- LCC -->
+   <td class="da clf"></td> <!-- DKHate -->
+   <td class="no ner"></td> <!-- NorNE-NB -->
+   <td class="no ner"></td> <!-- NorNE-NN -->
+   <td class="no pos"></td> <!-- NDT-NB-POS -->
+   <td class="no pos"></td> <!-- NDT-NN-POS -->
+   <td class="no dep"></td> <!-- NDT-NB-DEP -->
+   <td class="no dep"></td> <!-- NDT-NN-DEP -->
+   <td class="no clf"></td> <!-- NoReC -->
+   <td class="no clf"></td> <!-- NorDial -->
+   <td class="sv ner"></td> <!-- SUC3 -->
+   <td class="sv pos"></td> <!-- SDT-POS -->
+   <td class="sv dep"></td> <!-- SDT-DEP -->
+   <td class="sv clf"></td> <!-- DaLaJ -->
+   <td class="sv clf"></td> <!-- ABSAbank-Imm -->
+   <td class="is ner"></td> <!-- MIM-GOLD-NER -->
+   <td class="is pos"></td> <!-- IDT-POS -->
+   <td class="is dep"></td> <!-- IDT-DEP -->
+   <td class="is clf"></td> <!-- NoReC-IS -->
+   <td class="fo ner"></td> <!-- WikiANN-FO -->
+   <td class="fo pos"></td> <!-- FDT-POS -->
+   <td class="fo dep"></td> <!-- FDT-DEP -->
+   <td class="fo clf"></td> <!-- NoReC-FO -->
+  </tr>
+  </template>
 
   <tr>
    <td>vesteinn/ScandiBERT</td> <!-- Model ID -->
