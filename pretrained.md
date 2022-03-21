@@ -125,8 +125,8 @@ title: Pretrained Benchmark
    <td class="pos-score"></td> <!-- Mean POS score -->
    <td class="dep-score"></td> <!-- Mean dependency parsing score -->
    <td class="clf-score"></td> <!-- Mean classification score -->
-   <td class="da ner"></td> <!-- DaNE -->
-   <td class="da pos"></td> <!-- DDT-POS -->
+   <td class="da ner">69.20 ± 0.48 / 71.57 ± 0.53</td> <!-- DaNE -->
+   <td class="da pos">95.74 ± 0.03</td> <!-- DDT-POS -->
    <td class="da dep"></td> <!-- DDT-DEP -->
    <td class="da clf"></td> <!-- AngryTweets -->
    <td class="da clf"></td> <!-- TwitterSent -->
