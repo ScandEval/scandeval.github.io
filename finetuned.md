@@ -53,6 +53,49 @@ title: Finetuned Benchmark
   </tr>
  </thead>
  <tbody>
+
+  <!-- A template for a new entry. Copy this (without the template tag). -->
+  <template>
+  <tr>
+   <td></td> <!-- Model ID -->
+   <td class="size"></td> <!-- Model size -->
+   <td class="speed"></td> <!-- Inference speed -->
+   <td class="ner-score"></td> <!-- Mean NER score -->
+   <td class="pos-score"></td> <!-- Mean POS score -->
+   <td class="dep-score"></td> <!-- Mean dependency parsing score -->
+   <td class="sent-score"></td> <!-- Mean sentiment classification score -->
+   <td class="da"></td> <!-- DKHate -->
+   <td class="no"></td> <!-- NorDial -->
+   <td class="sv"></td> <!-- DaLaJ -->
+   <td class="sv"></td> <!-- ABSAbank-Imm -->
+   <td class="da ner"></td> <!-- DaNE -->
+   <td class="no ner"></td> <!-- NorNE-NB -->
+   <td class="no ner"></td> <!-- NorNE-NN -->
+   <td class="sv ner"></td> <!-- SUC3 -->
+   <td class="is ner"></td> <!-- MIM-GOLD-NER -->
+   <td class="fo ner"></td> <!-- WikiANN-FO -->
+   <td class="da pos"></td> <!-- DDT-POS -->
+   <td class="no pos"></td> <!-- NDT-NB-POS -->
+   <td class="no pos"></td> <!-- NDT-NN-POS -->
+   <td class="sv pos"></td> <!-- SDT-POS -->
+   <td class="is pos"></td> <!-- IDT-POS -->
+   <td class="fo pos"></td> <!-- FDT-POS -->
+   <td class="da dep"></td> <!-- DDT-DEP -->
+   <td class="no dep"></td> <!-- NDT-NB-DEP -->
+   <td class="no dep"></td> <!-- NDT-NN-DEP -->
+   <td class="sv dep"></td> <!-- SDT-DEP -->
+   <td class="is dep"></td> <!-- IDT-DEP -->
+   <td class="fo dep"></td> <!-- FDT-DEP -->
+   <td class="da sent"></td> <!-- AngryTweets -->
+   <td class="da sent"></td> <!-- TwitterSent -->
+   <td class="da sent"></td> <!-- Europarl -->
+   <td class="da sent"></td> <!-- LCC -->
+   <td class="no sent"></td> <!-- NoReC -->
+   <td class="is sent"></td> <!-- NoReC-IS -->
+   <td class="fo sent"></td> <!-- NoReC-FO -->
+  </tr>
+  </template>
+
   <tr>
    <td>spacy/da_core_news_sm</td> <!-- Model ID -->
    <td class="size">18</td> <!-- Model size -->
@@ -91,6 +134,7 @@ title: Finetuned Benchmark
    <td class="is sent">-</td> <!-- NoReC-IS -->
    <td class="fo sent">-</td> <!-- NoReC-FO -->
   </tr>
+
   <tr>
    <td>spacy/da_core_news_md</td> <!-- Model ID -->
    <td class="size">46</td> <!-- Model size -->
@@ -129,6 +173,7 @@ title: Finetuned Benchmark
    <td class="is sent">-</td> <!-- NoReC-IS -->
    <td class="fo sent">-</td> <!-- NoReC-FO -->
   </tr>
+
   <tr>
    <td>spacy/da_core_news_lg</td> <!-- Model ID -->
    <td class="size">547</td> <!-- Model size -->
@@ -167,6 +212,7 @@ title: Finetuned Benchmark
    <td class="is sent">-</td> <!-- NoReC-IS -->
    <td class="fo sent">-</td> <!-- NoReC-FO -->
   </tr>
+
   <tr>
    <td>spacy/da_core_news_trf</td> <!-- Model ID -->
    <td class="size">422</td> <!-- Model size -->
@@ -205,6 +251,7 @@ title: Finetuned Benchmark
    <td class="is sent">-</td> <!-- NoReC-IS -->
    <td class="fo sent">-</td> <!-- NoReC-FO -->
   </tr>
+
   <tr>
    <td>chcaa/da_dacy_small_trf</td> <!-- Model ID -->
    <td class="size">52</td> <!-- Model size -->
@@ -243,6 +290,7 @@ title: Finetuned Benchmark
    <td class="is sent">-</td> <!-- NoReC-IS -->
    <td class="fo sent">-</td> <!-- NoReC-FO -->
   </tr>
+
   <tr>
    <td>chcaa/da_dacy_medium_trf</td> <!-- Model ID -->
    <td class="size">422</td> <!-- Model size -->
@@ -281,6 +329,7 @@ title: Finetuned Benchmark
    <td class="is sent">-</td> <!-- NoReC-IS -->
    <td class="fo sent">-</td> <!-- NoReC-FO -->
   </tr>
+
   <tr>
    <td>chcaa/da_dacy_large_trf</td> <!-- Model ID -->
    <td class="size">2090</td> <!-- Model size -->
@@ -319,6 +368,7 @@ title: Finetuned Benchmark
    <td class="is sent">-</td> <!-- NoReC-IS -->
    <td class="fo sent">-</td> <!-- NoReC-FO -->
   </tr>
+
   <tr>
    <td>radbrt/nb_nocy_trf</td> <!-- Model ID -->
    <td class="size">425</td> <!-- Model size -->
@@ -357,6 +407,7 @@ title: Finetuned Benchmark
    <td class="is sent">-</td> <!-- NoReC-IS -->
    <td class="fo sent">-</td> <!-- NoReC-FO -->
   </tr>
+
   <tr>
    <td>pin/senda</td> <!-- Model ID -->
    <td class="size">422</td> <!-- Model size -->
@@ -395,6 +446,7 @@ title: Finetuned Benchmark
    <td class="is sent">26.46 ± 0.93</td> <!-- NoReC-IS -->
    <td class="fo sent">27.18 ± 1.13</td> <!-- NoReC-FO -->
   </tr>
+
   <tr>
    <td>saattrupdan/nbailab-base-ner-scandi</td> <!-- Model ID -->
    <td class="size">676</td> <!-- Model size -->
@@ -433,6 +485,7 @@ title: Finetuned Benchmark
    <td class="is sent">-</td> <!-- NoReC-IS -->
    <td class="fo sent">-</td> <!-- NoReC-FO -->
   </tr>
+
   <tr>
    <td>Maltehb/aelaectra-danish-electra-small-cased-ner-dane</td> <!-- Model ID -->
    <td class="size">52</td> <!-- Model size -->
@@ -471,6 +524,7 @@ title: Finetuned Benchmark
    <td class="is sent">-</td> <!-- NoReC-IS -->
    <td class="fo sent">-</td> <!-- NoReC-FO -->
   </tr>
+
   <tr>
    <td>Maltehb/aelaectra-danish-electra-small-uncased-ner-dane</td> <!-- Model ID -->
    <td class="size">52</td> <!-- Model size -->
@@ -509,6 +563,7 @@ title: Finetuned Benchmark
    <td class="is sent">-</td> <!-- NoReC-IS -->
    <td class="fo sent">-</td> <!-- NoReC-FO -->
   </tr>
+
   <tr>
    <td>Maltehb/danish-bert-botxo-ner-dane</td> <!-- Model ID -->
    <td class="size">420</td> <!-- Model size -->
@@ -547,6 +602,7 @@ title: Finetuned Benchmark
    <td class="is sent">-</td> <!-- NoReC-IS -->
    <td class="fo sent">-</td> <!-- NoReC-FO -->
   </tr>
+
   <tr>
    <td>NbAiLab/nb-bert-base-ner</td> <!-- Model ID -->
    <td class="size">473</td> <!-- Model size -->
@@ -585,6 +641,7 @@ title: Finetuned Benchmark
    <td class="is sent">-</td> <!-- NoReC-IS -->
    <td class="fo sent">-</td> <!-- NoReC-FO -->
   </tr>
+
   <tr>
    <td>KBLab/swedish-spacy-pipeline</td> <!-- Model ID -->
    <td class="size">476</td> <!-- Model size -->
@@ -623,6 +680,7 @@ title: Finetuned Benchmark
    <td class="is sent">-</td> <!-- NoReC-IS -->
    <td class="fo sent">-</td> <!-- NoReC-FO -->
   </tr>
+
   <tr>
    <td>KB/bert-base-swedish-cased-neriob</td> <!-- Model ID -->
    <td class="size">476</td> <!-- Model size -->
@@ -661,6 +719,7 @@ title: Finetuned Benchmark
    <td class="is sent">-</td> <!-- NoReC-IS -->
    <td class="fo sent">-</td> <!-- NoReC-FO -->
   </tr>
+
   <tr>
    <td>RecordedFuture/Swedish-NER</td> <!-- Model ID -->
    <td class="size">474</td> <!-- Model size -->
@@ -699,6 +758,7 @@ title: Finetuned Benchmark
    <td class="is sent">-</td> <!-- NoReC-IS -->
    <td class="fo sent">-</td> <!-- NoReC-FO -->
   </tr>
+
   <tr>
    <td>elisno/is_ner_mim_trf</td> <!-- Model ID -->
    <td class="size">475</td> <!-- Model size -->
@@ -737,6 +797,7 @@ title: Finetuned Benchmark
    <td class="is sent">-</td> <!-- NoReC-IS -->
    <td class="fo sent">-</td> <!-- NoReC-FO -->
   </tr>
+
   <tr>
    <td>m3hrdadfi/icelandic-ner-roberta</td> <!-- Model ID -->
    <td class="size">473</td> <!-- Model size -->
@@ -775,6 +836,7 @@ title: Finetuned Benchmark
    <td class="is sent">-</td> <!-- NoReC-IS -->
    <td class="fo sent">-</td> <!-- NoReC-FO -->
   </tr>
+
   <tr>
    <td>vesteinn/IceBERT-ner</td> <!-- Model ID -->
    <td class="size">473</td> <!-- Model size -->
@@ -813,6 +875,7 @@ title: Finetuned Benchmark
    <td class="is sent">-</td> <!-- NoReC-IS -->
    <td class="fo sent">-</td> <!-- NoReC-FO -->
   </tr>
+
   <tr>
    <td>vesteinn/XLMR-ENIS-finetuned-ner</td> <!-- Model ID -->
    <td class="size">473</td> <!-- Model size -->
@@ -851,6 +914,7 @@ title: Finetuned Benchmark
    <td class="is sent">-</td> <!-- NoReC-IS -->
    <td class="fo sent">-</td> <!-- NoReC-FO -->
   </tr>
+
   <tr>
    <td>spacy/xx_ent_wiki_sm</td> <!-- Model ID -->
    <td class="size">11</td> <!-- Model size -->
@@ -889,6 +953,7 @@ title: Finetuned Benchmark
    <td class="is sent">-</td> <!-- NoReC-IS -->
    <td class="fo sent">-</td> <!-- NoReC-FO -->
   </tr>
+
   <tr>
    <td>spacy/nb_core_news_sm</td> <!-- Model ID -->
    <td class="size">15</td> <!-- Model size -->
@@ -927,6 +992,7 @@ title: Finetuned Benchmark
    <td class="is sent">-</td> <!-- NoReC-IS -->
    <td class="fo sent">-</td> <!-- NoReC-FO -->
   </tr>
+
   <tr>
    <td>spacy/nb_core_news_md</td> <!-- Model ID -->
    <td class="size">44</td> <!-- Model size -->
@@ -965,6 +1031,7 @@ title: Finetuned Benchmark
    <td class="is sent">-</td> <!-- NoReC-IS -->
    <td class="fo sent">-</td> <!-- NoReC-FO -->
   </tr>
+
   <tr>
    <td>spacy/nb_core_news_lg</td> <!-- Model ID -->
    <td class="size">546</td> <!-- Model size -->
@@ -1003,6 +1070,7 @@ title: Finetuned Benchmark
    <td class="is sent">-</td> <!-- NoReC-IS -->
    <td class="fo sent">-</td> <!-- NoReC-FO -->
   </tr>
+
   <tr>
    <td>DaNLP/da-bert-tone-sentiment-polarity</td> <!-- Model ID -->
    <td class="size">422</td> <!-- Model size -->
@@ -1041,6 +1109,7 @@ title: Finetuned Benchmark
    <td class="is sent">29.40 ± 0.55</td> <!-- NoReC-IS -->
    <td class="fo sent">32.53 ± 1.04</td> <!-- NoReC-FO -->
   </tr>
+
   <tr>
    <td>DaNLP/da-bert-ner</td> <!-- Model ID -->
    <td class="size">420</td> <!-- Model size -->
@@ -1079,6 +1148,7 @@ title: Finetuned Benchmark
    <td class="is sent">-</td> <!-- NoReC-IS -->
    <td class="fo sent">-</td> <!-- NoReC-FO -->
   </tr>
+
   <tr>
    <td>Guscode/DKbert-hatespeech-detection</td> <!-- Model ID -->
    <td class="size">422</td> <!-- Model size -->
@@ -1117,6 +1187,7 @@ title: Finetuned Benchmark
    <td class="is sent">-</td> <!-- NoReC-IS -->
    <td class="fo sent">-</td> <!-- NoReC-FO -->
   </tr>
+
   <tr>
    <td>DaNLP/da-bert-hatespeech-detection</td> <!-- Model ID -->
    <td class="size">422</td> <!-- Model size -->
