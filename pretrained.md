@@ -136,8 +136,8 @@ title: Pretrained Benchmark
    <td class="no ner">76.84 ± 0.19 / 78.87 ± 0.19</td> <!-- NorNE-NB -->
    <td class="no ner">76.00 ± 0.28 / 79.91 ± 0.26</td> <!-- NorNE-NN -->
    <td class="no pos">97.16 ± 0.02</td> <!-- NDT-NB-POS -->
-   <td class="no pos"></td> <!-- NDT-NN-POS -->
-   <td class="no dep"></td> <!-- NDT-NB-DEP -->
+   <td class="no pos">97.00 ± 0.03</td> <!-- NDT-NN-POS -->
+   <td class="no dep">69.85 ± 0.15 / 72.87 ± 0.16</td> <!-- NDT-NB-DEP -->
    <td class="no dep"></td> <!-- NDT-NN-DEP -->
    <td class="no clf">43.59 ± 0.23</td> <!-- NoReC -->
    <td class="no clf">62.36 ± 0.90</td> <!-- NorDial -->
