@@ -138,14 +138,14 @@ title: Pretrained Benchmark
    <td class="no pos">97.16 ± 0.02</td> <!-- NDT-NB-POS -->
    <td class="no pos">97.00 ± 0.03</td> <!-- NDT-NN-POS -->
    <td class="no dep">69.85 ± 0.15 / 72.87 ± 0.16</td> <!-- NDT-NB-DEP -->
-   <td class="no dep"></td> <!-- NDT-NN-DEP -->
+   <td class="no dep">67.77 ± 0.32 / 70.95 ± 0.33</td> <!-- NDT-NN-DEP -->
    <td class="no clf">43.59 ± 0.23</td> <!-- NoReC -->
    <td class="no clf">62.36 ± 0.90</td> <!-- NorDial -->
    <td class="sv ner"></td> <!-- SUC3 -->
    <td class="sv pos"></td> <!-- SDT-POS -->
    <td class="sv dep"></td> <!-- SDT-DEP -->
-   <td class="sv clf"></td> <!-- DaLaJ -->
-   <td class="sv clf"></td> <!-- ABSAbank-Imm -->
+   <td class="sv clf">68.19 ± 0.34</td> <!-- DaLaJ -->
+   <td class="sv clf">41.54 ± 0.55</td> <!-- ABSAbank-Imm -->
    <td class="is ner"></td> <!-- MIM-GOLD-NER -->
    <td class="is pos"></td> <!-- IDT-POS -->
    <td class="is dep"></td> <!-- IDT-DEP -->
