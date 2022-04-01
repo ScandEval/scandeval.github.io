@@ -1,3 +1,5 @@
-# [saattrupdan.github.io](https://saattrupdan.github.io/)
+# [scandeval.github.io](https://scandeval.github.io/)
 
-This is my website, which is based on [Beautiful Jekyll](https://github.com/daattali/beautiful-jekyll).
+This is the website containing the
+[ScandEval](https://github.com/saattrupdan/ScandEval) leaderboard. The website
+is based on [Beautiful Jekyll](https://github.com/daattali/beautiful-jekyll).
