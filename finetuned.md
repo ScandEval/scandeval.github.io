@@ -50,6 +50,8 @@ title: Finetuned Benchmark
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Norwegian sentiment classification - Macro-F1">NoReC</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Icelandic sentiment classification - Macro-F1">NoReC-IS</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Faroese sentiment classification - Macro-F1">NoReC-FO</span></th>
+
+   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="The version of the scandeval package used to benchmark">Version</span></th>
   </tr>
  </thead>
  <tbody>
@@ -93,6 +95,7 @@ title: Finetuned Benchmark
    <td class="no sent"></td> <!-- NoReC -->
    <td class="is sent"></td> <!-- NoReC-IS -->
    <td class="fo sent"></td> <!-- NoReC-FO -->
+   <td></td> <!-- Version, written as vX.X.X, e.g., v2.0.0 -->
   </tr>
   </template>
 
@@ -133,6 +136,7 @@ title: Finetuned Benchmark
    <td class="no sent">-</td> <!-- NoReC -->
    <td class="is sent">-</td> <!-- NoReC-IS -->
    <td class="fo sent">-</td> <!-- NoReC-FO -->
+   <td>v2.3.0</td> <!-- Version, written as vX.X.X, e.g., v2.0.0 -->
   </tr>
 
   <tr>
@@ -172,6 +176,7 @@ title: Finetuned Benchmark
    <td class="no sent">-</td> <!-- NoReC -->
    <td class="is sent">-</td> <!-- NoReC-IS -->
    <td class="fo sent">-</td> <!-- NoReC-FO -->
+   <td>v2.3.0</td> <!-- Version, written as vX.X.X, e.g., v2.0.0 -->
   </tr>
 
   <tr>
@@ -211,6 +216,7 @@ title: Finetuned Benchmark
    <td class="no sent">-</td> <!-- NoReC -->
    <td class="is sent">-</td> <!-- NoReC-IS -->
    <td class="fo sent">-</td> <!-- NoReC-FO -->
+   <td>v2.3.0</td> <!-- Version, written as vX.X.X, e.g., v2.0.0 -->
   </tr>
 
   <tr>
@@ -250,6 +256,7 @@ title: Finetuned Benchmark
    <td class="no sent">-</td> <!-- NoReC -->
    <td class="is sent">-</td> <!-- NoReC-IS -->
    <td class="fo sent">-</td> <!-- NoReC-FO -->
+   <td>v2.3.0</td> <!-- Version, written as vX.X.X, e.g., v2.0.0 -->
   </tr>
 
   <tr>
@@ -289,6 +296,7 @@ title: Finetuned Benchmark
    <td class="no sent">-</td> <!-- NoReC -->
    <td class="is sent">-</td> <!-- NoReC-IS -->
    <td class="fo sent">-</td> <!-- NoReC-FO -->
+   <td>v2.3.0</td> <!-- Version, written as vX.X.X, e.g., v2.0.0 -->
   </tr>
 
   <tr>
@@ -328,6 +336,7 @@ title: Finetuned Benchmark
    <td class="no sent">-</td> <!-- NoReC -->
    <td class="is sent">-</td> <!-- NoReC-IS -->
    <td class="fo sent">-</td> <!-- NoReC-FO -->
+   <td>v2.3.0</td> <!-- Version, written as vX.X.X, e.g., v2.0.0 -->
   </tr>
 
   <tr>
@@ -367,6 +376,7 @@ title: Finetuned Benchmark
    <td class="no sent">-</td> <!-- NoReC -->
    <td class="is sent">-</td> <!-- NoReC-IS -->
    <td class="fo sent">-</td> <!-- NoReC-FO -->
+   <td>v2.3.0</td> <!-- Version, written as vX.X.X, e.g., v2.0.0 -->
   </tr>
 
   <tr>
@@ -406,6 +416,7 @@ title: Finetuned Benchmark
    <td class="no sent">-</td> <!-- NoReC -->
    <td class="is sent">-</td> <!-- NoReC-IS -->
    <td class="fo sent">-</td> <!-- NoReC-FO -->
+   <td>v2.3.0</td> <!-- Version, written as vX.X.X, e.g., v2.0.0 -->
   </tr>
 
   <tr>
@@ -445,6 +456,7 @@ title: Finetuned Benchmark
    <td class="no sent">34.52 ± 2.15</td> <!-- NoReC -->
    <td class="is sent">26.46 ± 0.93</td> <!-- NoReC-IS -->
    <td class="fo sent">27.18 ± 1.13</td> <!-- NoReC-FO -->
+   <td>v2.3.0</td> <!-- Version, written as vX.X.X, e.g., v2.0.0 -->
   </tr>
 
   <tr>
@@ -484,6 +496,7 @@ title: Finetuned Benchmark
    <td class="no sent">-</td> <!-- NoReC -->
    <td class="is sent">-</td> <!-- NoReC-IS -->
    <td class="fo sent">-</td> <!-- NoReC-FO -->
+   <td>v2.3.0</td> <!-- Version, written as vX.X.X, e.g., v2.0.0 -->
   </tr>
 
   <tr>
@@ -523,6 +536,7 @@ title: Finetuned Benchmark
    <td class="no sent">-</td> <!-- NoReC -->
    <td class="is sent">-</td> <!-- NoReC-IS -->
    <td class="fo sent">-</td> <!-- NoReC-FO -->
+   <td>v2.3.0</td> <!-- Version, written as vX.X.X, e.g., v2.0.0 -->
   </tr>
 
   <tr>
@@ -562,6 +576,7 @@ title: Finetuned Benchmark
    <td class="no sent">-</td> <!-- NoReC -->
    <td class="is sent">-</td> <!-- NoReC-IS -->
    <td class="fo sent">-</td> <!-- NoReC-FO -->
+   <td>v2.3.0</td> <!-- Version, written as vX.X.X, e.g., v2.0.0 -->
   </tr>
 
   <tr>
@@ -601,6 +616,7 @@ title: Finetuned Benchmark
    <td class="no sent">-</td> <!-- NoReC -->
    <td class="is sent">-</td> <!-- NoReC-IS -->
    <td class="fo sent">-</td> <!-- NoReC-FO -->
+   <td>v2.3.0</td> <!-- Version, written as vX.X.X, e.g., v2.0.0 -->
   </tr>
 
   <tr>
@@ -640,6 +656,7 @@ title: Finetuned Benchmark
    <td class="no sent">-</td> <!-- NoReC -->
    <td class="is sent">-</td> <!-- NoReC-IS -->
    <td class="fo sent">-</td> <!-- NoReC-FO -->
+   <td>v2.3.0</td> <!-- Version, written as vX.X.X, e.g., v2.0.0 -->
   </tr>
 
   <tr>
@@ -679,6 +696,7 @@ title: Finetuned Benchmark
    <td class="no sent">-</td> <!-- NoReC -->
    <td class="is sent">-</td> <!-- NoReC-IS -->
    <td class="fo sent">-</td> <!-- NoReC-FO -->
+   <td>v2.3.0</td> <!-- Version, written as vX.X.X, e.g., v2.0.0 -->
   </tr>
 
   <tr>
@@ -718,6 +736,7 @@ title: Finetuned Benchmark
    <td class="no sent">-</td> <!-- NoReC -->
    <td class="is sent">-</td> <!-- NoReC-IS -->
    <td class="fo sent">-</td> <!-- NoReC-FO -->
+   <td>v2.3.0</td> <!-- Version, written as vX.X.X, e.g., v2.0.0 -->
   </tr>
 
   <tr>
@@ -757,6 +776,7 @@ title: Finetuned Benchmark
    <td class="no sent">-</td> <!-- NoReC -->
    <td class="is sent">-</td> <!-- NoReC-IS -->
    <td class="fo sent">-</td> <!-- NoReC-FO -->
+   <td>v2.3.0</td> <!-- Version, written as vX.X.X, e.g., v2.0.0 -->
   </tr>
 
   <tr>
@@ -796,6 +816,7 @@ title: Finetuned Benchmark
    <td class="no sent">-</td> <!-- NoReC -->
    <td class="is sent">-</td> <!-- NoReC-IS -->
    <td class="fo sent">-</td> <!-- NoReC-FO -->
+   <td>v2.3.0</td> <!-- Version, written as vX.X.X, e.g., v2.0.0 -->
   </tr>
 
   <tr>
@@ -835,6 +856,7 @@ title: Finetuned Benchmark
    <td class="no sent">-</td> <!-- NoReC -->
    <td class="is sent">-</td> <!-- NoReC-IS -->
    <td class="fo sent">-</td> <!-- NoReC-FO -->
+   <td>v2.3.0</td> <!-- Version, written as vX.X.X, e.g., v2.0.0 -->
   </tr>
 
   <tr>
@@ -874,6 +896,7 @@ title: Finetuned Benchmark
    <td class="no sent">-</td> <!-- NoReC -->
    <td class="is sent">-</td> <!-- NoReC-IS -->
    <td class="fo sent">-</td> <!-- NoReC-FO -->
+   <td>v2.3.0</td> <!-- Version, written as vX.X.X, e.g., v2.0.0 -->
   </tr>
 
   <tr>
@@ -913,6 +936,7 @@ title: Finetuned Benchmark
    <td class="no sent">-</td> <!-- NoReC -->
    <td class="is sent">-</td> <!-- NoReC-IS -->
    <td class="fo sent">-</td> <!-- NoReC-FO -->
+   <td>v2.3.0</td> <!-- Version, written as vX.X.X, e.g., v2.0.0 -->
   </tr>
 
   <tr>
@@ -952,6 +976,7 @@ title: Finetuned Benchmark
    <td class="no sent">-</td> <!-- NoReC -->
    <td class="is sent">-</td> <!-- NoReC-IS -->
    <td class="fo sent">-</td> <!-- NoReC-FO -->
+   <td>v2.3.0</td> <!-- Version, written as vX.X.X, e.g., v2.0.0 -->
   </tr>
 
   <tr>
@@ -991,6 +1016,7 @@ title: Finetuned Benchmark
    <td class="no sent">-</td> <!-- NoReC -->
    <td class="is sent">-</td> <!-- NoReC-IS -->
    <td class="fo sent">-</td> <!-- NoReC-FO -->
+   <td>v2.3.0</td> <!-- Version, written as vX.X.X, e.g., v2.0.0 -->
   </tr>
 
   <tr>
@@ -1030,6 +1056,7 @@ title: Finetuned Benchmark
    <td class="no sent">-</td> <!-- NoReC -->
    <td class="is sent">-</td> <!-- NoReC-IS -->
    <td class="fo sent">-</td> <!-- NoReC-FO -->
+   <td>v2.3.0</td> <!-- Version, written as vX.X.X, e.g., v2.0.0 -->
   </tr>
 
   <tr>
@@ -1069,6 +1096,7 @@ title: Finetuned Benchmark
    <td class="no sent">-</td> <!-- NoReC -->
    <td class="is sent">-</td> <!-- NoReC-IS -->
    <td class="fo sent">-</td> <!-- NoReC-FO -->
+   <td>v2.3.0</td> <!-- Version, written as vX.X.X, e.g., v2.0.0 -->
   </tr>
 
   <tr>
@@ -1108,6 +1136,7 @@ title: Finetuned Benchmark
    <td class="no sent">36.08 ± 3.05</td> <!-- NoReC -->
    <td class="is sent">29.40 ± 0.55</td> <!-- NoReC-IS -->
    <td class="fo sent">32.53 ± 1.04</td> <!-- NoReC-FO -->
+   <td>v2.3.0</td> <!-- Version, written as vX.X.X, e.g., v2.0.0 -->
   </tr>
 
   <tr>
@@ -1147,6 +1176,7 @@ title: Finetuned Benchmark
    <td class="no sent">-</td> <!-- NoReC -->
    <td class="is sent">-</td> <!-- NoReC-IS -->
    <td class="fo sent">-</td> <!-- NoReC-FO -->
+   <td>v2.3.0</td> <!-- Version, written as vX.X.X, e.g., v2.0.0 -->
   </tr>
 
   <tr>
@@ -1186,6 +1216,7 @@ title: Finetuned Benchmark
    <td class="no sent">-</td> <!-- NoReC -->
    <td class="is sent">-</td> <!-- NoReC-IS -->
    <td class="fo sent">-</td> <!-- NoReC-FO -->
+   <td>v2.3.0</td> <!-- Version, written as vX.X.X, e.g., v2.0.0 -->
   </tr>
 
   <tr>
@@ -1225,6 +1256,7 @@ title: Finetuned Benchmark
    <td class="no sent">-</td> <!-- NoReC -->
    <td class="is sent">-</td> <!-- NoReC-IS -->
    <td class="fo sent">-</td> <!-- NoReC-FO -->
+   <td>v2.3.0</td> <!-- Version, written as vX.X.X, e.g., v2.0.0 -->
   </tr>
  </tbody>
 </table>
