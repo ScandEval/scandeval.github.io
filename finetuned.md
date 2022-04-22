@@ -1216,7 +1216,7 @@ title: Finetuned Benchmark
    <td class="no sent">-</td> <!-- NoReC -->
    <td class="is sent">-</td> <!-- NoReC-IS -->
    <td class="fo sent">-</td> <!-- NoReC-FO -->
-   <td>2.3.0</td> <!-- Version, written as X.X.X, e.g., 2.0.0 -->
+   <td>3.0.0</td> <!-- Version, written as X.X.X, e.g., 2.0.0 -->
   </tr>
 
   <tr>
@@ -1256,7 +1256,47 @@ title: Finetuned Benchmark
    <td class="no sent">-</td> <!-- NoReC -->
    <td class="is sent">-</td> <!-- NoReC-IS -->
    <td class="fo sent">-</td> <!-- NoReC-FO -->
-   <td>2.3.0</td> <!-- Version, written as X.X.X, e.g., 2.0.0 -->
+   <td>3.0.0</td> <!-- Version, written as X.X.X, e.g., 2.0.0 -->
+  </tr>
+
+  <tr>
+   <td>DaNLP/da-electra-hatespeech-detection</td> <!-- Model ID -->
+   <td class="size">53</td> <!-- Model size -->
+   <td class="speed"></td> <!-- Inference speed -->
+   <td class="ner-score">-</td> <!-- Mean NER score -->
+   <td class="pos-score">-</td> <!-- Mean POS score -->
+   <td class="dep-score">-</td> <!-- Mean dependency parsing score -->
+   <td class="sent-score">-</td> <!-- Mean sentiment classification score -->
+   <td class="da">71.18 ± 1.76</td> <!-- DKHate -->
+   <td class="no">-</td> <!-- NorDial -->
+   <td class="sv">-</td> <!-- DaLaJ -->
+   <td class="sv">-</td> <!-- ABSAbank-Imm -->
+   <td class="da ner">-</td> <!-- DaNE -->
+   <td class="no ner">-</td> <!-- NorNE-NB -->
+   <td class="no ner">-</td> <!-- NorNE-NN -->
+   <td class="sv ner">-</td> <!-- SUC3 -->
+   <td class="is ner">-</td> <!-- MIM-GOLD-NER -->
+   <td class="fo ner">-</td> <!-- WikiANN-FO -->
+   <td class="da pos">-</td> <!-- DDT-POS -->
+   <td class="no pos">-</td> <!-- NDT-NB-POS -->
+   <td class="no pos">-</td> <!-- NDT-NN-POS -->
+   <td class="sv pos">-</td> <!-- SDT-POS -->
+   <td class="is pos">-</td> <!-- IDT-POS -->
+   <td class="fo pos">-</td> <!-- FDT-POS -->
+   <td class="da dep">-</td> <!-- DDT-DEP -->
+   <td class="no dep">-</td> <!-- NDT-NB-DEP -->
+   <td class="no dep">-</td> <!-- NDT-NN-DEP -->
+   <td class="sv dep">-</td> <!-- SDT-DEP -->
+   <td class="is dep">-</td> <!-- IDT-DEP -->
+   <td class="fo dep">-</td> <!-- FDT-DEP -->
+   <td class="da sent">-</td> <!-- AngryTweets -->
+   <td class="da sent">-</td> <!-- TwitterSent -->
+   <td class="da sent">-</td> <!-- Europarl -->
+   <td class="da sent">-</td> <!-- LCC -->
+   <td class="no sent">-</td> <!-- NoReC -->
+   <td class="is sent">-</td> <!-- NoReC-IS -->
+   <td class="fo sent">-</td> <!-- NoReC-FO -->
+   <td>3.0.0</td> <!-- Version, written as X.X.X, e.g., 2.0.0 -->
   </tr>
  </tbody>
 </table>
