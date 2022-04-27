@@ -115,6 +115,102 @@ title: Pretrained Benchmark
 
   <template>
   <tr>
+   <td>Maltehb/aelaectra-danish-electra-small-uncased</td> <!-- Model ID -->
+   <td class="size">55</td> <!-- Model size -->
+   <td class="speed">24.91 ± 1.46</td> <!-- Inference speed -->
+   <td class="score"></td> <!-- ScandEval score -->
+   <td class="da-score"></td> <!-- Danish score -->
+   <td class="no-score"></td> <!-- Norwegian score -->
+   <td class="sv-score"></td> <!-- Swedish score -->
+   <td class="is-score"></td> <!-- Icelandic score -->
+   <td class="fo-score"></td> <!-- Faroese score -->
+   <td class="ner-score"></td> <!-- Mean NER score -->
+   <td class="pos-score"></td> <!-- Mean POS score -->
+   <td class="dep-score"></td> <!-- Mean dependency parsing score -->
+   <td class="clf-score"></td> <!-- Mean classification score -->
+   <td class="da ner">75.72 ± 1.48 / 78.49 ± 1.86</td> <!-- DaNE -->
+   <td class="da pos">97.98 ± 0.10</td> <!-- DDT-POS -->
+   <td class="da dep">63.02 ± 0.90 / 65.16 ± 0.94</td> <!-- DDT-DEP -->
+   <td class="da clf">63.36 ± 0.66</td> <!-- AngryTweets -->
+   <td class="da clf">47.07 ± 3.83</td> <!-- TwitterSent -->
+   <td class="da clf">58.16 ± 5.89</td> <!-- Europarl -->
+   <td class="da clf">57.52 ± 3.73</td> <!-- LCC -->
+   <td class="da clf">78.08 ± 2.54</td> <!-- DKHate -->
+   <td class="no ner">75.36 ± 0.82 / 77.71 ± 0.73</td> <!-- NorNE-NB -->
+   <td class="no ner">69.76 ± 0.87 / 73.47 ± 0.88</td> <!-- NorNE-NN -->
+   <td class="no pos">97.16 ± 0.10</td> <!-- NDT-NB-POS -->
+   <td class="no pos">96.57 ± 0.15</td> <!-- NDT-NN-POS -->
+   <td class="no dep">80.76 ± 0.89 / 83.19 ± 0.88</td> <!-- NDT-NB-DEP -->
+   <td class="no dep">76.66 ± 0.74 / 79.81 ± 0.73</td> <!-- NDT-NN-DEP -->
+   <td class="no clf">55.74 ± 3.97</td> <!-- NoReC -->
+   <td class="no clf">65.05 ± 2.36</td> <!-- NorDial -->
+   <td class="sv ner">73.99 ± 1.20 / 78.20 ± 1.06</td> <!-- SUC3 -->
+   <td class="sv pos">96.12 ± 0.16</td> <!-- SDT-POS -->
+   <td class="sv dep">59.64 ± 0.63 / 63.31 ± 0.58</td> <!-- SDT-DEP -->
+   <td class="sv clf">37.71 ± 3.30</td> <!-- DaLaJ -->
+   <td class="sv clf">46.06 ± 1.98</td> <!-- ABSAbank-Imm -->
+   <td class="is ner"></td> <!-- MIM-GOLD-NER -->
+   <td class="is pos"></td> <!-- IDT-POS -->
+   <td class="is dep"></td> <!-- IDT-DEP -->
+   <td class="is clf"></td> <!-- NoReC-IS -->
+   <td class="fo ner"></td> <!-- WikiANN-FO -->
+   <td class="fo pos"></td> <!-- FDT-POS -->
+   <td class="fo dep"></td> <!-- FDT-DEP -->
+   <td class="fo clf"></td> <!-- NoReC-FO -->
+   <td>3.0.0</td> <!-- Version, written as X.X.X, e.g., 2.0.0 -->
+  </tr>
+  </template>
+
+  <template>
+  <tr>
+   <td>Maltehb/aelaectra-danish-electra-small-cased</td> <!-- Model ID -->
+   <td class="size">55</td> <!-- Model size -->
+   <td class="speed">25.25 ± 1.26</td> <!-- Inference speed -->
+   <td class="score"></td> <!-- ScandEval score -->
+   <td class="da-score"></td> <!-- Danish score -->
+   <td class="no-score"></td> <!-- Norwegian score -->
+   <td class="sv-score"></td> <!-- Swedish score -->
+   <td class="is-score"></td> <!-- Icelandic score -->
+   <td class="fo-score"></td> <!-- Faroese score -->
+   <td class="ner-score"></td> <!-- Mean NER score -->
+   <td class="pos-score"></td> <!-- Mean POS score -->
+   <td class="dep-score"></td> <!-- Mean dependency parsing score -->
+   <td class="clf-score"></td> <!-- Mean classification score -->
+   <td class="da ner"></td> <!-- DaNE -->
+   <td class="da pos"></td> <!-- DDT-POS -->
+   <td class="da dep"></td> <!-- DDT-DEP -->
+   <td class="da clf"></td> <!-- AngryTweets -->
+   <td class="da clf"></td> <!-- TwitterSent -->
+   <td class="da clf"></td> <!-- Europarl -->
+   <td class="da clf"></td> <!-- LCC -->
+   <td class="da clf"></td> <!-- DKHate -->
+   <td class="no ner"></td> <!-- NorNE-NB -->
+   <td class="no ner"></td> <!-- NorNE-NN -->
+   <td class="no pos"></td> <!-- NDT-NB-POS -->
+   <td class="no pos"></td> <!-- NDT-NN-POS -->
+   <td class="no dep"></td> <!-- NDT-NB-DEP -->
+   <td class="no dep"></td> <!-- NDT-NN-DEP -->
+   <td class="no clf"></td> <!-- NoReC -->
+   <td class="no clf"></td> <!-- NorDial -->
+   <td class="sv ner"></td> <!-- SUC3 -->
+   <td class="sv pos"></td> <!-- SDT-POS -->
+   <td class="sv dep"></td> <!-- SDT-DEP -->
+   <td class="sv clf"></td> <!-- DaLaJ -->
+   <td class="sv clf"></td> <!-- ABSAbank-Imm -->
+   <td class="is ner"></td> <!-- MIM-GOLD-NER -->
+   <td class="is pos"></td> <!-- IDT-POS -->
+   <td class="is dep"></td> <!-- IDT-DEP -->
+   <td class="is clf"></td> <!-- NoReC-IS -->
+   <td class="fo ner"></td> <!-- WikiANN-FO -->
+   <td class="fo pos"></td> <!-- FDT-POS -->
+   <td class="fo dep"></td> <!-- FDT-DEP -->
+   <td class="fo clf"></td> <!-- NoReC-FO -->
+   <td>3.0.0</td> <!-- Version, written as X.X.X, e.g., 2.0.0 -->
+  </tr>
+  </template>
+
+  <template>
+  <tr>
    <td>KB/electra-base-swedish-cased-discriminator</td> <!-- Model ID -->
    <td class="size">476</td> <!-- Model size -->
    <td class="speed"></td> <!-- Inference speed -->
@@ -144,10 +240,58 @@ title: Pretrained Benchmark
    <td class="no dep">76.32 ± 0.79 / 79.34 ± 0.81</td> <!-- NDT-NN-DEP -->
    <td class="no clf">58.56 ± 1.34</td> <!-- NoReC -->
    <td class="no clf">65.40 ± 1.73</td> <!-- NorDial -->
+   <td class="sv ner">85.65 ± 0.65 / 89.06 ± 0.56</td> <!-- SUC3 -->
+   <td class="sv pos">98.27 ± 0.11</td> <!-- SDT-POS -->
+   <td class="sv dep">66.90 ± 1.24 / 69.15 ± 1.21</td> <!-- SDT-DEP -->
+   <td class="sv clf">61.87 ± 3.20</td> <!-- DaLaJ -->
+   <td class="sv clf">53.75 ± 1.88</td> <!-- ABSAbank-Imm -->
+   <td class="is ner"></td> <!-- MIM-GOLD-NER -->
+   <td class="is pos">96.79 ± 0.18</td> <!-- IDT-POS -->
+   <td class="is dep">76.01 ± 3.48 / 79.04 ± 2.97</td> <!-- IDT-DEP -->
+   <td class="is clf"></td> <!-- NoReC-IS -->
+   <td class="fo ner"></td> <!-- WikiANN-FO -->
+   <td class="fo pos"></td> <!-- FDT-POS -->
+   <td class="fo dep"></td> <!-- FDT-DEP -->
+   <td class="fo clf"></td> <!-- NoReC-FO -->
+   <td>3.0.0</td> <!-- Version, written as X.X.X, e.g., 2.0.0 -->
+  </tr>
+  </template>
+
+  <template>
+  <tr>
+   <td>AI-Nordics/bert-large-swedish-cased</td> <!-- Model ID -->
+   <td class="size">1250</td> <!-- Model size -->
+   <td class="speed"></td> <!-- Inference speed -->
+   <td class="score"></td> <!-- ScandEval score -->
+   <td class="da-score"></td> <!-- Danish score -->
+   <td class="no-score"></td> <!-- Norwegian score -->
+   <td class="sv-score"></td> <!-- Swedish score -->
+   <td class="is-score"></td> <!-- Icelandic score -->
+   <td class="fo-score"></td> <!-- Faroese score -->
+   <td class="ner-score"></td> <!-- Mean NER score -->
+   <td class="pos-score"></td> <!-- Mean POS score -->
+   <td class="dep-score"></td> <!-- Mean dependency parsing score -->
+   <td class="clf-score"></td> <!-- Mean classification score -->
+   <td class="da ner">77.64 ± 1.87 / 78.94 ± 2.04</td> <!-- DaNE -->
+   <td class="da pos">96.72 ± 0.19</td> <!-- DDT-POS -->
+   <td class="da dep">57.24 ± 1.62 / 60.13 ± 1.64</td> <!-- DDT-DEP -->
+   <td class="da clf">60.30 ± 0.86</td> <!-- AngryTweets -->
+   <td class="da clf">52.92 ± 4.18</td> <!-- TwitterSent -->
+   <td class="da clf">41.52 ± 9.35</td> <!-- Europarl -->
+   <td class="da clf">45.49 ± 4.52</td> <!-- LCC -->
+   <td class="da clf">67.04 ± 2.04</td> <!-- DKHate -->
+   <td class="no ner">84.23 ± 0.58 / 85.80 ± 0.58</td> <!-- NorNE-NB -->
+   <td class="no ner">83.35 ± 0.63 / 86.75 ± 0.60</td> <!-- NorNE-NN -->
+   <td class="no pos">98.08 ± 0.05</td> <!-- NDT-NB-POS -->
+   <td class="no pos"></td> <!-- NDT-NN-POS -->
+   <td class="no dep"></td> <!-- NDT-NB-DEP -->
+   <td class="no dep"></td> <!-- NDT-NN-DEP -->
+   <td class="no clf">65.45 ± 1.17</td> <!-- NoReC -->
+   <td class="no clf">62.62 ± 3.97</td> <!-- NorDial -->
    <td class="sv ner"></td> <!-- SUC3 -->
    <td class="sv pos"></td> <!-- SDT-POS -->
    <td class="sv dep"></td> <!-- SDT-DEP -->
-   <td class="sv clf">61.87 ± 3.20</td> <!-- DaLaJ -->
+   <td class="sv clf"></td> <!-- DaLaJ -->
    <td class="sv clf"></td> <!-- ABSAbank-Imm -->
    <td class="is ner"></td> <!-- MIM-GOLD-NER -->
    <td class="is pos"></td> <!-- IDT-POS -->
@@ -162,9 +306,11 @@ title: Pretrained Benchmark
   </template>
 
   <template>
+  <!-- Benchmarking yields errors related to nondeterminism.
+       See https://github.com/pytorch/pytorch/issues/50469 for more info -->
   <tr>
-   <td>AI-Nordics/bert-large-swedish-cased</td> <!-- Model ID -->
-   <td class="size">1250</td> <!-- Model size -->
+   <td>microsoft/mdeberta-v3-base</td> <!-- Model ID -->
+   <td class="size">534</td> <!-- Model size -->
    <td class="speed"></td> <!-- Inference speed -->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
@@ -591,36 +737,36 @@ title: Pretrained Benchmark
    <td class="pos-score"></td> <!-- Mean POS score -->
    <td class="dep-score"></td> <!-- Mean dependency parsing score -->
    <td class="clf-score"></td> <!-- Mean classification score -->
-   <td class="da ner">83.59 ± 0.26 / 85.18 ± 0.29</td> <!-- DaNE -->
-   <td class="da pos">98.37 ± 0.02</td> <!-- DDT-POS -->
-   <td class="da dep">69.48 ± 0.30 / 71.84 ± 0.29</td> <!-- DDT-DEP -->
-   <td class="da clf">71.62 ± 0.27</td> <!-- AngryTweets -->
-   <td class="da clf">65.99 ± 0.47</td> <!-- TwitterSent -->
-   <td class="da clf">57.87 ± 0.75</td> <!-- Europarl -->
-   <td class="da clf">67.13 ± 1.18</td> <!-- LCC -->
-   <td class="da clf">80.04 ± 0.69</td> <!-- DKHate -->
-   <td class="no ner">90.25 ± 0.09 / 91.91 ± 0.09</td> <!-- NorNE-NB -->
-   <td class="no ner">88.05 ± 0.19 / 91.70 ± 0.14</td> <!-- NorNE-NN -->
-   <td class="no pos">98.61 ± 0.03</td> <!-- NDT-NB-POS -->
-   <td class="no pos">98.74 ± 0.02</td> <!-- NDT-NN-POS -->
-   <td class="no dep">88.23 ± 0.15 / 90.01 ± 0.15</td> <!-- NDT-NB-DEP -->
-   <td class="no dep">85.73 ± 0.16 / 87.71 ± 0.15</td> <!-- NDT-NN-DEP -->
-   <td class="no clf">73.60 ± 0.38</td> <!-- NoReC -->
-   <td class="no clf">70.98 ± 0.84</td> <!-- NorDial -->
-   <td class="sv ner">86.91 ± 0.08 / 89.84 ± 0.09</td> <!-- SUC3 -->
-   <td class="sv pos">98.74 ± 0.02</td> <!-- SDT-POS -->
-   <td class="sv dep">75.03 ± 0.31 / 76.95 ± 0.30</td> <!-- SDT-DEP -->
-   <td class="sv clf">66.80 ± 0.56</td> <!-- DaLaJ -->
-   <td class="sv clf">50.53 ± 0.45</td> <!-- ABSAbank-Imm -->
-   <td class="is ner">88.61 ± 0.14 / 91.18 ± 0.13</td> <!-- MIM-GOLD-NER -->
-   <td class="is pos">99.42 ± 0.02</td> <!-- IDT-POS -->
-   <td class="is dep">86.35 ± 0.16 / 87.74 ± 0.15</td> <!-- IDT-DEP -->
-   <td class="is clf">58.20 ± 0.19</td> <!-- NoReC-IS -->
-   <td class="fo ner">90.70 ± 0.12</td> <!-- WikiANN-FO -->
-   <td class="fo pos">98.47 ± 0.04</td> <!-- FDT-POS -->
-   <td class="fo dep">50.61 ± 0.59 / 52.39 ± 0.58</td> <!-- FDT-DEP -->
-   <td class="fo clf">59.14 ± 0.22</td> <!-- NoReC-FO -->
-   <td>2.3.0</td> <!-- Version, written as X.X.X, e.g., 2.0.0 -->
+   <td class="da ner">82.50 ± 1.39 / 84.57 ± 1.40</td> <!-- DaNE -->
+   <td class="da pos">98.47 ± 0.13</td> <!-- DDT-POS -->
+   <td class="da dep">67.24 ± 1.20 / 69.57 ± 1.17</td> <!-- DDT-DEP -->
+   <td class="da clf">67.88 ± 1.10</td> <!-- AngryTweets -->
+   <td class="da clf">61.78 ± 4.39</td> <!-- TwitterSent -->
+   <td class="da clf">71.64 ± 3.66</td> <!-- Europarl -->
+   <td class="da clf">68.92 ± 2.51</td> <!-- LCC -->
+   <td class="da clf">76.11 ± 3.38</td> <!-- DKHate -->
+   <td class="no ner">91.11 ± 0.50 / 92.53 ± 0.42</td> <!-- NorNE-NB -->
+   <td class="no ner">88.63 ± 0.74 / 92.27 ± 0.64</td> <!-- NorNE-NN -->
+   <td class="no pos">98.79 ± 0.08</td> <!-- NDT-NB-POS -->
+   <td class="no pos">98.65 ± 0.07</td> <!-- NDT-NN-POS -->
+   <td class="no dep">87.21 ± 0.64 / 88.92 ± 0.60</td> <!-- NDT-NB-DEP -->
+   <td class="no dep">85.82 ± 0.64 / 87.75 ± 0.64</td> <!-- NDT-NN-DEP -->
+   <td class="no clf">72.24 ± 1.24</td> <!-- NoReC -->
+   <td class="no clf">70.59 ± 4.96</td> <!-- NorDial -->
+   <td class="sv ner">86.69 ± 0.36 / 89.69 ± 0.32</td> <!-- SUC3 -->
+   <td class="sv pos">98.78 ± 0.07</td> <!-- SDT-POS -->
+   <td class="sv dep">73.97 ± 1.08 / 75.92 ± 1.07</td> <!-- SDT-DEP -->
+   <td class="sv clf">62.78 ± 2.99</td> <!-- DaLaJ -->
+   <td class="sv clf">52.37 ± 1.59</td> <!-- ABSAbank-Imm -->
+   <td class="is ner">88.91 ± 0.77 / 90.96 ± 0.68</td> <!-- MIM-GOLD-NER -->
+   <td class="is pos">99.44 ± 0.07</td> <!-- IDT-POS -->
+   <td class="is dep">87.21 ± 2.66 / 88.49 ± 2.42</td> <!-- IDT-DEP -->
+   <td class="is clf">57.38 ± 1.94</td> <!-- NoReC-IS -->
+   <td class="fo ner">89.76 ± 0.68</td> <!-- WikiANN-FO -->
+   <td class="fo pos">98.68 ± 0.08</td> <!-- FDT-POS -->
+   <td class="fo dep">49.55 ± 1.87 / 51.34 ± 1.86</td> <!-- FDT-DEP -->
+   <td class="fo clf">59.39 ± 1.48</td> <!-- NoReC-FO -->
+   <td>3.0.0</td> <!-- Version, written as X.X.X, e.g., 2.0.0 -->
   </tr>
 
   <tr>
