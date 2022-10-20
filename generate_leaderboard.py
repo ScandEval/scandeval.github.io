@@ -25,10 +25,10 @@ title: Leaderboard
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Total Norwegian score - Macro-average across tasks">NO</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Total Swedish score - Macro-average across tasks">SV</span></th>
 
-   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Total NER tagging score - Macro-average named entity recognition score across languages">NER</span></th>
-   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Total SENT tagging score - Macro-average sentiment classification score across languages">SENT</span></th>
-   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Total LA score - Macro-average linguistic acceptability score across languages">LA</span></th>
-   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Total QA score - Macro-average question answering score across languages">QA</span></th>
+   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Total named entity recognition score - Macro-average across languages">NER</span></th>
+   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Total sentiment classification tagging score - Macro-average across languages">SENT</span></th>
+   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Total linguistic acceptability score - Macro-average across languages">LA</span></th>
+   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Total question answering score - Macro-average across languages">QA</span></th>
 
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Danish named entity recognition - Micro-average F1-score / Micro-average F1-score without MISC tags">DaNE</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Danish sentiment classification - Matthews correlation coefficient / Macro-average F1-score">AngryTweets</span></th>
