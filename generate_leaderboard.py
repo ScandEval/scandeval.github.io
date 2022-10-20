@@ -33,18 +33,18 @@ title: Leaderboard
 
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Danish named entity recognition - Micro-average F1-score / Micro-average F1-score without MISC tags">DaNE</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Danish sentiment classification - Matthews correlation coefficient / Macro-average F1-score">AngryTweets</span></th>
-   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Danish linguistic acceptability - Matthews correlation coefficient / Macro-average F1-score">ScaLa-da</span></th>
+   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Danish linguistic acceptability - Matthews correlation coefficient / Macro-average F1-score">ScaLA-da</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Danish question answering - Exact match / F1-score">ScandiQA-da</span></th>
 
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Norwegian named entity recognition - Micro-average F1-score / Micro-average F1-score without MISC tags">NorNE</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Norwegian sentiment classification - Matthews correlation coefficient / Macro-average F1-score">NoReC</span></th>
-   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Norwegian Bokmål linguistic acceptability - Matthews correlation coefficient / Macro-average F1-score">ScaLa-nb</span></th>
-   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Norwegian Nynorsk linguistic acceptability - Matthews correlation coefficient / Macro-average F1-score">ScaLa-nn</span></th>
+   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Norwegian Bokmål linguistic acceptability - Matthews correlation coefficient / Macro-average F1-score">ScaLA-nb</span></th>
+   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Norwegian Nynorsk linguistic acceptability - Matthews correlation coefficient / Macro-average F1-score">ScaLA-nn</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Norwegian question answering - Exact match / F1-score">ScandiQA-no</span></th>
 
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Swedish named entity recognition - Micro-average F1-score / Micro-average F1-score without MISC tags">SUC3</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Swedish sentiment classification - Matthews correlation coefficient / Macro-average F1-score">ABSAbank-Imm</span></th>
-   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Swedish linguistic acceptability - Matthews correlation coefficient / Macro-average F1-score">ScaLa-sv</span></th>
+   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Swedish linguistic acceptability - Matthews correlation coefficient / Macro-average F1-score">ScaLA-sv</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Swedish question answering - Exact match / F1-score">ScandiQA-sv</span></th>
 
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="The version of the scandeval package used to benchmark">Version</span></th>
@@ -71,16 +71,16 @@ ENTRY = """
    <td class="qa-score"></td> <!-- Mean question answering score -->
    <td class="da ner">{}</td> <!-- DaNE -->
    <td class="da sent">{}</td> <!-- AngryTweets -->
-   <td class="da la">{}</td> <!-- ScaLa-da -->
+   <td class="da la">{}</td> <!-- ScaLA-da -->
    <td class="da qa">{}</td> <!-- ScandiQA-da -->
    <td class="no ner">{}</td> <!-- NorNE -->
    <td class="no sent">{}</td> <!-- NoReC -->
-   <td class="no la">{}</td> <!-- ScaLa-nb -->
-   <td class="no la">{}</td> <!-- ScaLa-nn -->
+   <td class="no la">{}</td> <!-- ScaLA-nb -->
+   <td class="no la">{}</td> <!-- ScaLA-nn -->
    <td class="no qa">{}</td> <!-- ScandiQA-no -->
    <td class="sv ner">{}</td> <!-- SUC3 -->
    <td class="sv sent">{}</td> <!-- ABSAbank-Imm -->
-   <td class="sv la">{}</td> <!-- ScaLa-sv -->
+   <td class="sv la">{}</td> <!-- ScaLA-sv -->
    <td class="sv qa">{}</td> <!-- ScandiQA-sv -->
   </tr>
 """
