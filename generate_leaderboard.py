@@ -6,8 +6,7 @@ import json
 from typing import Dict, List, Set
 
 
-HTML_START = """
----
+HTML_START = """---
 layout: leaderboard
 title: Leaderboard
 ---
@@ -50,15 +49,15 @@ title: Leaderboard
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="The version of the scandeval package used to benchmark">Version</span></th>
   </tr>
  </thead>
- <tbody>
- """
+ <tbody>"""
 
 
-HTML_END = "</tbody></table></div>"
+HTML_END = """ </tbody>
+</table>
+</div>"""
 
 
-ENTRY = """
-  <tr>
+ENTRY = """  <tr>
    <td>{}</td> <!-- Model ID -->
    <td class="num_parameters">{}</td> <!-- Number of trainable parameters -->
    <td class="score"></td> <!-- ScandEval score -->
@@ -82,8 +81,7 @@ ENTRY = """
    <td class="sv sent">{}</td> <!-- ABSAbank-Imm -->
    <td class="sv la">{}</td> <!-- ScaLA-sv -->
    <td class="sv qa">{}</td> <!-- ScandiQA-sv -->
-  </tr>
-"""
+  </tr>"""
 
 
 # Set up primary/secondary metrics
@@ -168,7 +166,7 @@ def main() -> None:
         # Add the number of model parameters to the model's score dict, if it hasn't
         # previously been entered
         if "num_parameters" not in model_scores[model_id]:
-            model_scores[model_id]["num_parameters"] = str(num_model_parameters)
+            model_scores[model_id]["num_parameters"] = f"{num_model_parameters:,}"
 
     # Generate leaderboard HTML
     html_lines = [HTML_START]
