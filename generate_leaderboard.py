@@ -4,6 +4,12 @@ from collections import defaultdict
 from pathlib import Path
 import json
 from typing import Dict, List, Set
+import logging
+
+# Set up logging, which should display logs as "HH:MM:SS [LEVEL] MESSAGE"
+logging.basicConfig(
+    level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s"
+)
 
 
 HTML_START = """---
@@ -198,6 +204,12 @@ def main() -> None:
     # Write table to the leaderboard file
     with leaderboard_path.open("w") as f:
         f.write(html)
+
+    # Log status
+    logging.info(
+        f"Generated leaderboard with results from {len(model_scores):,} models, "
+        f"stored at {str(leaderboard_path)!r}"
+    )
 
 
 if __name__ == "__main__":
