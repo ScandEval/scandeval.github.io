@@ -35,7 +35,8 @@ title: Leaderboard
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Danish linguistic acceptability - Matthews correlation coefficient / Macro-average F1-score">ScaLA-da</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Danish question answering - Exact match / F1-score">ScandiQA-da</span></th>
 
-   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Norwegian named entity recognition - Micro-average F1-score / Micro-average F1-score without MISC tags">NorNE</span></th>
+   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Norwegian Bokmål named entity recognition - Micro-average F1-score / Micro-average F1-score without MISC tags">NorNE-nb</span></th>
+   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Norwegian Nynorsk named entity recognition - Micro-average F1-score / Micro-average F1-score without MISC tags">NorNE-nn</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Norwegian sentiment classification - Matthews correlation coefficient / Macro-average F1-score">NoReC</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Norwegian Bokmål linguistic acceptability - Matthews correlation coefficient / Macro-average F1-score">ScaLA-nb</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Norwegian Nynorsk linguistic acceptability - Matthews correlation coefficient / Macro-average F1-score">ScaLA-nn</span></th>
@@ -72,7 +73,8 @@ ENTRY = """  <tr>
    <td class="da sent">{da_sent}</td> <!-- AngryTweets -->
    <td class="da la">{da_la}</td> <!-- ScaLA-da -->
    <td class="da qa">{da_qa}</td> <!-- ScandiQA-da -->
-   <td class="no ner">{no_ner}</td> <!-- NorNE -->
+   <td class="no ner">{nb_ner}</td> <!-- NorNE-nb -->
+   <td class="no ner">{nn_ner}</td> <!-- NorNE-nn -->
    <td class="no sent">{no_sent}</td> <!-- NoReC -->
    <td class="no la">{nb_la}</td> <!-- ScaLA-nb -->
    <td class="no la">{nn_la}</td> <!-- ScaLA-nn -->
@@ -178,7 +180,8 @@ def main() -> None:
             da_sent=model_dict.get("da sent", ""),
             da_la=model_dict.get("da la", ""),
             da_qa=model_dict.get("da qa", ""),
-            no_ner=model_dict.get("no ner", ""),
+            nb_ner=model_dict.get("nb ner", ""),
+            nn_ner=model_dict.get("nn ner", ""),
             no_sent=model_dict.get("no sent", ""),
             nb_la=model_dict.get("nb la", ""),
             nn_la=model_dict.get("nn la", ""),
