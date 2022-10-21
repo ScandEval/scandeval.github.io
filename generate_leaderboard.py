@@ -58,8 +58,8 @@ HTML_END = """ </tbody>
 
 
 ENTRY = """  <tr>
-   <td>{}</td> <!-- Model ID -->
-   <td class="num_parameters">{}</td> <!-- Number of trainable parameters -->
+   <td>{model_id}</td> <!-- Model ID -->
+   <td class="num_parameters">{num_parameters}</td> <!-- Number of trainable parameters -->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
    <td class="no-score"></td> <!-- Norwegian score -->
@@ -68,19 +68,19 @@ ENTRY = """  <tr>
    <td class="sent-score"></td> <!-- Mean sentiment classification score -->
    <td class="la-score"></td> <!-- Mean linguistic acceptability score -->
    <td class="qa-score"></td> <!-- Mean question answering score -->
-   <td class="da ner">{}</td> <!-- DaNE -->
-   <td class="da sent">{}</td> <!-- AngryTweets -->
-   <td class="da la">{}</td> <!-- ScaLA-da -->
-   <td class="da qa">{}</td> <!-- ScandiQA-da -->
-   <td class="no ner">{}</td> <!-- NorNE -->
-   <td class="no sent">{}</td> <!-- NoReC -->
-   <td class="no la">{}</td> <!-- ScaLA-nb -->
-   <td class="no la">{}</td> <!-- ScaLA-nn -->
-   <td class="no qa">{}</td> <!-- ScandiQA-no -->
-   <td class="sv ner">{}</td> <!-- SUC3 -->
-   <td class="sv sent">{}</td> <!-- ABSAbank-Imm -->
-   <td class="sv la">{}</td> <!-- ScaLA-sv -->
-   <td class="sv qa">{}</td> <!-- ScandiQA-sv -->
+   <td class="da ner">{da_ner}</td> <!-- DaNE -->
+   <td class="da sent">{da_sent}</td> <!-- AngryTweets -->
+   <td class="da la">{da_la}</td> <!-- ScaLA-da -->
+   <td class="da qa">{da_qa}</td> <!-- ScandiQA-da -->
+   <td class="no ner">{no_ner}</td> <!-- NorNE -->
+   <td class="no sent">{no_sent}</td> <!-- NoReC -->
+   <td class="no la">{nb_la}</td> <!-- ScaLA-nb -->
+   <td class="no la">{nn_la}</td> <!-- ScaLA-nn -->
+   <td class="no qa">{no_qa}</td> <!-- ScandiQA-no -->
+   <td class="sv ner">{sv_ner}</td> <!-- SUC3 -->
+   <td class="sv sent">{sv_sent}</td> <!-- ABSAbank-Imm -->
+   <td class="sv la">{sv_la}</td> <!-- ScaLA-sv -->
+   <td class="sv qa">{sv_qa}</td> <!-- ScandiQA-sv -->
   </tr>"""
 
 
@@ -100,7 +100,7 @@ def main() -> None:
     # Create path to the scores JSONL file, and raise error if it doesn't exist
     scores_path = Path("scandeval_benchmark_results.jsonl")
     if not scores_path.exists():
-        raise ValueError(f"Could not find {scores_path!r}")
+        raise FileNotFoundError(f"Could not find {scores_path!r}")
 
     # Load in scores
     with scores_path.open() as f:
@@ -144,8 +144,8 @@ def main() -> None:
             language = "no"
         else:
             raise ValueError(
-                f"Found a model ({model_id}) that is not defined for one language: "
-                f"{languages}"
+                f"Found a task ({task}) which has more than one language: {languages}. "
+                "This is currently not supported by the leaderboard."
             )
 
         # Extract shorthand notation for the task
@@ -171,24 +171,24 @@ def main() -> None:
     # Generate leaderboard HTML
     html_lines = [HTML_START]
     for model_id, model_dict in model_scores.items():
-        values = [
-            model_id,
-            model_dict["num_parameters"],
-            model_dict.get("da ner", ""),
-            model_dict.get("da sent", ""),
-            model_dict.get("da la", ""),
-            model_dict.get("da qa", ""),
-            model_dict.get("no ner", ""),
-            model_dict.get("no sent", ""),
-            model_dict.get("nb la", ""),
-            model_dict.get("nn la", ""),
-            model_dict.get("no qa", ""),
-            model_dict.get("sv ner", ""),
-            model_dict.get("sv sent", ""),
-            model_dict.get("sv la", ""),
-            model_dict.get("sv qa", ""),
-        ]
-        html_lines.append(ENTRY.format(*values))
+        values = dict(
+            model_id=model_id,
+            num_parameters=model_dict["num_parameters"],
+            da_ner=model_dict.get("da ner", ""),
+            da_sent=model_dict.get("da sent", ""),
+            da_la=model_dict.get("da la", ""),
+            da_qa=model_dict.get("da qa", ""),
+            no_ner=model_dict.get("no ner", ""),
+            no_sent=model_dict.get("no sent", ""),
+            nb_la=model_dict.get("nb la", ""),
+            nn_la=model_dict.get("nn la", ""),
+            no_qa=model_dict.get("no qa", ""),
+            sv_ner=model_dict.get("sv ner", ""),
+            sv_sent=model_dict.get("sv sent", ""),
+            sv_la=model_dict.get("sv la", ""),
+            sv_qa=model_dict.get("sv qa", ""),
+        )
+        html_lines.append(ENTRY.format(**values))
     html_lines.append(HTML_END)
     html = "\n".join(html_lines)
 
