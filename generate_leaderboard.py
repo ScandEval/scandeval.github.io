@@ -1,4 +1,4 @@
-"""Python script to generate the leaderboard."""
+"""Python script to generate the leaderboard(s)."""
 
 from collections import defaultdict
 from pathlib import Path
@@ -12,15 +12,15 @@ logging.basicConfig(
 )
 
 
-HTML_START = """---
+LANGAUGE_MODEL_BENCHMARK_HTML_START = """---
 layout: leaderboard
-title: Leaderboard
+title: Language Model Benchmark
 ---
 
 <center><i>Hover over the headings for more information</i></center>
 
 <div class="table-wrapper centered">
-<table id="leaderboard" class="sortable fixed centered small-font">
+<table id="language-model-benchmark" class="sortable fixed centered small-font">
  <thead>
   <tr>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="HuggingFace Hub Model ID">Model ID</span></th>
@@ -61,12 +61,12 @@ title: Leaderboard
  <tbody>"""
 
 
-HTML_END = """ </tbody>
+LANGAUGE_MODEL_BENCHMARK_HTML_END = """ </tbody>
 </table>
 </div>"""
 
 
-ENTRY = """  <tr>
+LANGAUGE_MODEL_BENCHMARK_ENTRY = """  <tr>
    <td>{model_id}</td> <!-- Model ID -->
    <td class="num_model_parameters">{num_model_parameters}</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">{vocabulary_size}</td> <!-- Size of the model's vocabulary -->
@@ -102,12 +102,12 @@ SECONDARY_METRICS = ["macro_f1", "f1", "micro_f1_no_misc"]
 
 
 def main() -> None:
-    """Generate the leaderboard."""
+    """Generate the leaderboard(s)."""
 
     # Create path to the leaderboard, and ensure that it exists
-    leaderboard_path = Path("leaderboard.md")
-    leaderboard_path.parent.mkdir(exist_ok=True, parents=True)
-    leaderboard_path.touch(exist_ok=True)
+    language_model_benchmark_path = Path("language-model-benchmark.md")
+    language_model_benchmark_path.parent.mkdir(exist_ok=True, parents=True)
+    language_model_benchmark_path.touch(exist_ok=True)
 
     # Create path to the scores JSONL file, and raise error if it doesn't exist
     scores_path = Path("scandeval_benchmark_results.jsonl")
@@ -156,7 +156,7 @@ def main() -> None:
         else:
             raise ValueError(
                 f"Found a task ({task}) which has more than one language: {languages}. "
-                "This is currently not supported by the leaderboard."
+                "This is currently not supported by the language model benchmark."
             )
 
         # Extract shorthand notation for the task
@@ -180,8 +180,8 @@ def main() -> None:
             if metadata not in model_scores[model_id] and metadata in record:
                 model_scores[model_id][metadata] = f"{record[metadata]:,}"
 
-    # Generate leaderboard HTML
-    html_lines = [HTML_START]
+    # Generate language model benchmark HTML
+    html_lines = [LANGAUGE_MODEL_BENCHMARK_HTML_START]
     for model_id, model_dict in model_scores.items():
         values = dict(
             model_id=model_id,
@@ -203,18 +203,18 @@ def main() -> None:
             sv_la=model_dict.get("sv la", ""),
             sv_qa=model_dict.get("sv qa", ""),
         )
-        html_lines.append(ENTRY.format(**values))
-    html_lines.append(HTML_END)
+        html_lines.append(LANGAUGE_MODEL_BENCHMARK_ENTRY.format(**values))
+    html_lines.append(LANGAUGE_MODEL_BENCHMARK_HTML_END)
     html = "\n".join(html_lines)
 
-    # Write table to the leaderboard file
-    with leaderboard_path.open("w") as f:
+    # Write table to the file
+    with language_model_benchmark_path.open("w") as f:
         f.write(html)
 
     # Log status
     logging.info(
-        f"Generated leaderboard with results from {len(model_scores):,} models, "
-        f"stored at {str(leaderboard_path)!r}"
+        f"Generated language model benchmark with results from {len(model_scores):,} "
+        f"models, stored at {str(language_model_benchmark_path)!r}"
     )
 
 
