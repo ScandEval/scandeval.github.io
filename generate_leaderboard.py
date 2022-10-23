@@ -69,7 +69,7 @@ HTML_END = """ </tbody>
 ENTRY = """  <tr>
    <td>{model_id}</td> <!-- Model ID -->
    <td class="num_model_parameters">{num_model_parameters}</td> <!-- Number of trainable parameters -->
-   <td class="vocab_size">{vocab_size}</td> <!-- Size of the model's vocabulary -->
+   <td class="vocabulary_size">{vocabulary_size}</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">{max_sequence_length}</td> <!-- Maximum sequence length of the model-->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
@@ -176,7 +176,7 @@ def main() -> None:
 
         # Add the model metadata to the model's dict, if it hasn't previously been
         # entered
-        for metadata in ["num_model_parameters", "vocab_size", "max_sequence_length"]:
+        for metadata in ["num_model_parameters", "vocabulary_size", "max_sequence_length"]:
             if metadata not in model_scores[model_id] and metadata in record:
                 model_scores[model_id][metadata] = f"{record[metadata]:,}"
 
@@ -186,7 +186,7 @@ def main() -> None:
         values = dict(
             model_id=model_id,
             num_model_parameters=model_dict.get("num_model_parameters", ""),
-            vocab_size=model_dict.get("vocab_size", ""),
+            vocabulary_size=model_dict.get("vocabulary_size", ""),
             max_sequence_length=model_dict.get("max_sequence_length", ""),
             da_ner=model_dict.get("da ner", ""),
             da_sent=model_dict.get("da sent", ""),
