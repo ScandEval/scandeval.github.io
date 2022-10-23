@@ -24,7 +24,9 @@ title: Leaderboard
  <thead>
   <tr>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="HuggingFace Hub Model ID">Model ID</span></th>
-   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Number of traininable model parametes">Parameters</span></th>
+   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Number of trainable parameters in the model">Parameters</span></th>
+   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Number of unique tokens that the model has been trained on">Vocabulary size</span></th>
+   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="The maximum amount of tokens the model can process">Sequence length</span></th>
    <th id="score-col"><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="ScandEval score - Mean of the language scores">Score</span></th>
 
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Total Danish score - Macro-average across tasks">DA</span></th>
@@ -66,7 +68,9 @@ HTML_END = """ </tbody>
 
 ENTRY = """  <tr>
    <td>{model_id}</td> <!-- Model ID -->
-   <td class="num_parameters">{num_parameters}</td> <!-- Number of trainable parameters -->
+   <td class="num_model_parameters">{num_model_parameters}</td> <!-- Number of trainable parameters -->
+   <td class="vocab_size">{vocab_size}</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">{max_sequence_length}</td> <!-- Maximum sequence length of the model-->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
    <td class="no-score"></td> <!-- Norwegian score -->
@@ -118,7 +122,6 @@ def main() -> None:
     model_scores: Dict[str, Dict[str, str]] = defaultdict(dict)
     for record in scores:
         model_id: str = record["model"]
-        num_model_parameters: int = record["num_model_parameters"]
         task: str = record["task"]
         languages: List[str] = record["dataset_languages"]
 
@@ -171,17 +174,20 @@ def main() -> None:
         # Add the metrics to the model's score dict
         model_scores[model_id][f"{language} {task_shorthand}"] = score_str
 
-        # Add the number of model parameters to the model's score dict, if it hasn't
-        # previously been entered
-        if "num_parameters" not in model_scores[model_id]:
-            model_scores[model_id]["num_parameters"] = f"{num_model_parameters:,}"
+        # Add the model metadata to the model's dict, if it hasn't previously been
+        # entered
+        for metadata in ["num_model_parameters", "vocab_size", "max_sequence_length"]:
+            if metadata not in model_scores[model_id] and metadata in record:
+                model_scores[model_id][metadata] = f"{record[metadata]:,}"
 
     # Generate leaderboard HTML
     html_lines = [HTML_START]
     for model_id, model_dict in model_scores.items():
         values = dict(
             model_id=model_id,
-            num_parameters=model_dict["num_parameters"],
+            num_model_parameters=model_dict.get("num_model_parameters", ""),
+            vocab_size=model_dict.get("vocab_size", ""),
+            max_sequence_length=model_dict.get("max_sequence_length", ""),
             da_ner=model_dict.get("da ner", ""),
             da_sent=model_dict.get("da sent", ""),
             da_la=model_dict.get("da la", ""),
