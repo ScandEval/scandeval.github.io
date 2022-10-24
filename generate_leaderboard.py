@@ -54,8 +54,6 @@ title: Language Model Benchmark
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Swedish sentiment classification - Matthews correlation coefficient / Macro-average F1-score">ABSAbank-Imm</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Swedish linguistic acceptability - Matthews correlation coefficient / Macro-average F1-score">ScaLA-sv</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Swedish question answering - Exact match / F1-score">ScandiQA-sv</span></th>
-
-   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="The version of the scandeval package used to benchmark">Version</span></th>
   </tr>
  </thead>
  <tbody>"""
