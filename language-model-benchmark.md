@@ -1066,18 +1066,18 @@ title: Language Model Benchmark
    <td class="qa-score"></td> <!-- Mean question answering score -->
    <td class="da ner">76.40 ± 0.74 / 79.03 ± 0.80</td> <!-- DaNE -->
    <td class="da sent">39.06 ± 0.95 / 58.93 ± 0.74</td> <!-- AngryTweets -->
-   <td class="da la"></td> <!-- ScaLA-da -->
-   <td class="da qa"></td> <!-- ScandiQA-da -->
-   <td class="no ner"></td> <!-- NorNE-nb -->
-   <td class="no ner"></td> <!-- NorNE-nn -->
+   <td class="da la">64.73 ± 0.69 / 81.68 ± 0.42</td> <!-- ScaLA-da -->
+   <td class="da qa">14.61 ± 0.37 / 15.58 ± 0.36</td> <!-- ScandiQA-da -->
+   <td class="no ner">82.13 ± 0.70 / 85.40 ± 0.55</td> <!-- NorNE-nb -->
+   <td class="no ner">77.41 ± 0.85 / 82.30 ± 0.64</td> <!-- NorNE-nn -->
    <td class="no sent">39.39 ± 0.90 / 46.03 ± 0.39</td> <!-- NoReC -->
-   <td class="no la"></td> <!-- ScaLA-nb -->
-   <td class="no la"></td> <!-- ScaLA-nn -->
-   <td class="no qa"></td> <!-- ScandiQA-no -->
+   <td class="no la">71.16 ± 0.73 / 84.60 ± 0.42</td> <!-- ScaLA-nb -->
+   <td class="no la">62.62 ± 0.97 / 80.87 ± 0.51</td> <!-- ScaLA-nn -->
+   <td class="no qa">10.43 ± 0.27 / 11.18 ± 0.29</td> <!-- ScandiQA-no -->
    <td class="sv ner">64.32 ± 0.60 / 73.85 ± 0.46</td> <!-- SUC3 -->
    <td class="sv sent">18.34 ± 1.06 / 36.67 ± 0.53</td> <!-- ABSAbank-Imm -->
-   <td class="sv la"></td> <!-- ScaLA-sv -->
-   <td class="sv qa"></td> <!-- ScandiQA-sv -->
+   <td class="sv la">69.19 ± 0.98 / 84.36 ± 0.50</td> <!-- ScaLA-sv -->
+   <td class="sv qa">25.51 ± 0.38 / 29.05 ± 0.38</td> <!-- ScandiQA-sv -->
   </tr>
  </tbody>
 </table>
