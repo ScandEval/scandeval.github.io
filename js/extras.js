@@ -42,15 +42,13 @@ if(language_model_benchmark){
                                         .innerHTML
                                         .replace(/ \/.*/g, '')
                                         .replace(/[0-9.]+ ± /g, ''))
-                    if (value > 0) {
-                        languageScoreMean += value
-                        languageSeMean += se
-                        numDatasets += 1
-                    }
+                    languageScoreMean += value
+                    languageSeMean += se
+                    numDatasets += 1
                 }
 
                 // Add the task score to the language score
-                if (languageScoreMean > 0 && numDatasets > 0) {
+                if (numDatasets > 0) {
                     taskScoreMean += languageScoreMean / numDatasets
                     taskSeMean += languageSeMean / numDatasets
                     numLanguages += 1
@@ -59,7 +57,7 @@ if(language_model_benchmark){
 
             // Set the task score in the row
             scoreElements = row.getElementsByClassName(`${task}-score`)
-            if (scoreElements.length > 0 && numLanguages > 0 && taskScoreMean > 0){
+            if (scoreElements.length > 0 && numLanguages > 0){
                 taskScoreMean = taskScoreMean / numLanguages
                 taskSeMean = taskSeMean / numLanguages
                 taskScoreMean = ('00' + taskScoreMean.toFixed(2)).slice(-5)
@@ -96,15 +94,13 @@ if(language_model_benchmark){
                                         .innerHTML
                                         .replace(/ \/.*/g, '')
                                         .replace(/[0-9.]+ ± /g, ''))
-                    if (value > 0) {
-                        taskScoreMean += value
-                        taskSeMean += se
-                        numDatasets += 1
-                    }
+                    taskScoreMean += value
+                    taskSeMean += se
+                    numDatasets += 1
                 }
 
                 // Add the task score to the language score
-                if (taskScoreMean > 0 && numDatasets > 0) {
+                if (numDatasets > 0) {
                     languageScoreMean += taskScoreMean / numDatasets
                     languageSeMean += taskSeMean / numDatasets
                     numTasks += 1
@@ -113,7 +109,7 @@ if(language_model_benchmark){
 
             // Set the language score in the row
             scoreElements = row.getElementsByClassName(`${language}-score`)
-            if (scoreElements.length > 0 && languageScoreMean > 0 && numTasks > 0){
+            if (scoreElements.length > 0 && numTasks > 0){
                 languageScoreMean = languageScoreMean / numTasks
                 languageSeMean = languageSeMean / numTasks
                 overallScore += languageScoreMean
