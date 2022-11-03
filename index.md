@@ -12,12 +12,12 @@ named entity recognition, sentiment classification, linguistic acceptability and
 question answering. By "Scandinavian" we here mean Danish, Swedish and Norwegian (both
 Bokmål and Nynorsk).
 
-The [Leaderboard](https://scandeval.github.io/language-model-benchmark/) contains
-the result of finetuning the language model 10 times, and evaluating each of
-these 10 finetuned models on the test set of the given dataset along with 9
-bootstrapped versions of the dataset. The mean of the resulting 100 scores for
-the given (model, dataset) pair are then presented in the leaderboard, with an
-associated 95% confidence interval.
+The [Leaderboard](https://scandeval.github.io/language-model-benchmark/) contains the
+result of finetuning the language model 10 times, and evaluating each of these 10
+finetuned models on a bootstrapped version of the test set of the given dataset
+(different bootstrap for each of the 10 runs). The mean of these 10 scores for the
+given (model, dataset) pair are then presented in the leaderboard, with an associated
+95% confidence interval.
 
 All benchmark results have been computed using the associated
 [ScandEval Python package](https://github.com/saattrupdan/ScandEval), which you
