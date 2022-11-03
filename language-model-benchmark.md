@@ -352,34 +352,6 @@ title: Language Model Benchmark
    <td class="sv qa">2.02 ± 0.20 / 5.42 ± 0.32</td> <!-- ScandiQA-sv -->
   </tr>
   <tr>
-   <td>google/canine-s</td> <!-- Model ID -->
-   <td class="num_model_parameters">132,085,251</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">1,114,112</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">2,048</td> <!-- Maximum sequence length of the model-->
-   <td class="score"></td> <!-- ScandEval score -->
-   <td class="da-score"></td> <!-- Danish score -->
-   <td class="no-score"></td> <!-- Norwegian score -->
-   <td class="sv-score"></td> <!-- Swedish score -->
-   <td class="ner-score"></td> <!-- Mean named entity recognition score -->
-   <td class="sent-score"></td> <!-- Mean sentiment classification score -->
-   <td class="la-score"></td> <!-- Mean linguistic acceptability score -->
-   <td class="qa-score"></td> <!-- Mean question answering score -->
-   <td class="da ner">51.98 ± 0.60 / 54.60 ± 0.76</td> <!-- DaNE -->
-   <td class="da sent">15.21 ± 0.81 / 34.71 ± 0.39</td> <!-- AngryTweets -->
-   <td class="da la">4.60 ± 1.11 / 51.62 ± 0.56</td> <!-- ScaLA-da -->
-   <td class="da qa"></td> <!-- ScandiQA-da -->
-   <td class="no ner">51.90 ± 0.98 / 55.80 ± 0.95</td> <!-- NorNE-nb -->
-   <td class="no ner">45.04 ± 0.80 / 47.84 ± 0.74</td> <!-- NorNE-nn -->
-   <td class="no sent">20.53 ± 0.88 / 37.50 ± 0.35</td> <!-- NoReC -->
-   <td class="no la">1.91 ± 1.54 / 50.92 ± 0.77</td> <!-- ScaLA-nb -->
-   <td class="no la">1.28 ± 1.52 / 47.34 ± 0.75</td> <!-- ScaLA-nn -->
-   <td class="no qa"></td> <!-- ScandiQA-no -->
-   <td class="sv ner">37.48 ± 0.63 / 41.69 ± 0.53</td> <!-- SUC3 -->
-   <td class="sv sent">11.24 ± 0.91 / 40.29 ± 0.57</td> <!-- ABSAbank-Imm -->
-   <td class="sv la">1.18 ± 1.38 / 33.48 ± 0.30</td> <!-- ScaLA-sv -->
-   <td class="sv qa"></td> <!-- ScandiQA-sv -->
-  </tr>
-  <tr>
    <td>Geotrend/bert-base-25lang-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">151,312,131</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">84,985</td> <!-- Size of the model's vocabulary -->

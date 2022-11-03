@@ -201,7 +201,8 @@ def main() -> None:
             sv_la=model_dict.get("sv la", ""),
             sv_qa=model_dict.get("sv qa", ""),
         )
-        html_lines.append(LANGAUGE_MODEL_BENCHMARK_ENTRY.format(**values))
+        if all([value != "" for value in values.values()]):
+            html_lines.append(LANGAUGE_MODEL_BENCHMARK_ENTRY.format(**values))
     html_lines.append(LANGAUGE_MODEL_BENCHMARK_HTML_END)
     html = "\n".join(html_lines)
 
