@@ -1,12 +1,12 @@
 ---
 layout: leaderboard
-title: Pretrained Benchmark
+title: Leaderboard
 ---
 
 <center><i>Hover over the headings for more information</i></center>
 
 <div class="table-wrapper centered">
-<table id="pretrained-leaderboard" class="sortable fixed centered small-font">
+<table id="leaderboard" class="sortable fixed centered small-font">
  <thead>
   <tr>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="HuggingFace Hub Model ID">Model ID</span></th>
