@@ -995,6 +995,34 @@ title: Language Model Benchmark
    <td class="sv la">44.22 ± 1.29 / 71.45 ± 0.64</td> <!-- ScaLA-sv -->
    <td class="sv qa">47.91 ± 0.42 / 52.62 ± 0.42</td> <!-- ScandiQA-sv -->
   </tr>
+  <tr>
+   <td>KBLab/megatron-bert-large-swedish-cased-110k</td> <!-- Model ID -->
+   <td class="num_model_parameters">369,557,507</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">64,128</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="score"></td> <!-- ScandEval score -->
+   <td class="da-score"></td> <!-- Danish score -->
+   <td class="no-score"></td> <!-- Norwegian score -->
+   <td class="sv-score"></td> <!-- Swedish score -->
+   <td class="ner-score"></td> <!-- Mean named entity recognition score -->
+   <td class="sent-score"></td> <!-- Mean sentiment classification score -->
+   <td class="la-score"></td> <!-- Mean linguistic acceptability score -->
+   <td class="qa-score"></td> <!-- Mean question answering score -->
+   <td class="da ner">78.42 ± 0.36 / 80.44 ± 0.40</td> <!-- DaNE -->
+   <td class="da sent">36.99 ± 0.84 / 57.62 ± 0.52</td> <!-- AngryTweets -->
+   <td class="da la">26.32 ± 1.24 / 59.45 ± 0.70</td> <!-- ScaLA-da -->
+   <td class="da qa">44.48 ± 0.40 / 49.63 ± 0.35</td> <!-- ScandiQA-da -->
+   <td class="no ner">82.74 ± 0.82 / 85.33 ± 0.75</td> <!-- NorNE-nb -->
+   <td class="no ner">76.16 ± 0.72 / 79.27 ± 0.71</td> <!-- NorNE-nn -->
+   <td class="no sent">37.40 ± 0.88 / 50.41 ± 0.59</td> <!-- NoReC -->
+   <td class="no la">26.17 ± 1.38 / 63.04 ± 0.69</td> <!-- ScaLA-nb -->
+   <td class="no la">23.16 ± 1.44 / 61.04 ± 0.74</td> <!-- ScaLA-nn -->
+   <td class="no qa">45.16 ± 0.50 / 50.68 ± 0.52</td> <!-- ScandiQA-no -->
+   <td class="sv ner">73.65 ± 1.14 / 80.03 ± 0.89</td> <!-- SUC3 -->
+   <td class="sv sent">31.78 ± 0.96 / 55.85 ± 0.63</td> <!-- ABSAbank-Imm -->
+   <td class="sv la">76.16 ± 0.64 / 87.37 ± 0.34</td> <!-- ScaLA-sv -->
+   <td class="sv qa">51.80 ± 0.76 / 57.84 ± 0.65</td> <!-- ScandiQA-sv -->
+  </tr>
  </tbody>
 </table>
 </div>
