@@ -25,7 +25,7 @@ title: Language Model Benchmark
   <tr>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="HuggingFace Hub Model ID">Model ID</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Number of trainable parameters in the model, in millions">Parameters</span></th>
-   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Number of unique tokens that the model has been trained on">Vocabulary size</span></th>
+   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Number of unique tokens that the model has been trained on, in thousands">Vocabulary size</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="The maximum amount of tokens the model can process">Sequence length</span></th>
    <th id="score-col"><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="ScandEval score - Mean of the language scores">Score</span></th>
 
@@ -174,7 +174,11 @@ def main() -> None:
 
         # Round the number of parameters to nearest million
         num_params = round(record["num_model_parameters"] / 1_000_000)
-        record["num_model_parameters"] = f"{num_params}M"
+        record["num_model_parameters"] = num_params
+
+        # Round the vocabulary size to nearest thousand
+        vocab_size = round(record["vocabulary_size"] / 1_000)
+        record["vocabulary_size"] = vocab_size
 
         # Add the model metadata to the model's dict, if it hasn't previously been
         # entered
