@@ -179,6 +179,7 @@ def main() -> None:
                 model_scores[model_id][metadata] = f"{record[metadata]:,}"
 
     # Generate language model benchmark HTML
+    models_to_remove = list()
     html_lines = [LANGAUGE_MODEL_BENCHMARK_HTML_START]
     for model_id, model_dict in model_scores.items():
         values = dict(
@@ -203,8 +204,14 @@ def main() -> None:
         )
         if all([value != "" for value in values.values()]):
             html_lines.append(LANGAUGE_MODEL_BENCHMARK_ENTRY.format(**values))
+        else:
+            models_to_remove.append(model_id)
     html_lines.append(LANGAUGE_MODEL_BENCHMARK_HTML_END)
     html = "\n".join(html_lines)
+
+    # Remove the models not added to the leaderboard
+    for model_id in models_to_remove:
+        del model_scores[model_id]
 
     # Write table to the file
     with language_model_benchmark_path.open("w") as f:
