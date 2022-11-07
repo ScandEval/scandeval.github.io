@@ -11,8 +11,8 @@ title: Language Model Benchmark
   <tr>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="HuggingFace Hub Model ID">Model ID</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Number of trainable parameters in the model, in millions">Parameters</span></th>
-   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Number of unique tokens that the model has been trained on">Vocabulary size</span></th>
-   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="The maximum amount of tokens the model can process">Sequence length</span></th>
+   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Number of unique tokens that the model has been trained on, in thousands">Vocabulary size</span></th>
+   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="The maximum amount of tokens the model can process">Context</span></th>
    <th id="score-col"><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="ScandEval score - Mean of the language scores">Score</span></th>
 
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Total Danish score - Macro-average across tasks">DA</span></th>
@@ -45,8 +45,8 @@ title: Language Model Benchmark
  <tbody>
   <tr>
    <td>KBLab/bert-base-swedish-cased-new</td> <!-- Model ID -->
-   <td class="num_model_parameters">135M</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">64K</td> <!-- Size of the model's vocabulary -->
+   <td class="num_model_parameters">135</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
@@ -73,8 +73,8 @@ title: Language Model Benchmark
   </tr>
   <tr>
    <td>3ebdola/Dialectal-Arabic-XLM-R-Base</td> <!-- Model ID -->
-   <td class="num_model_parameters">278M</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">250K</td> <!-- Size of the model's vocabulary -->
+   <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
@@ -101,8 +101,8 @@ title: Language Model Benchmark
   </tr>
   <tr>
    <td>sarnikowski/electra-small-generator-da-256-cased</td> <!-- Model ID -->
-   <td class="num_model_parameters">4M</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">29K</td> <!-- Size of the model's vocabulary -->
+   <td class="num_model_parameters">4</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">29</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
@@ -129,8 +129,8 @@ title: Language Model Benchmark
   </tr>
   <tr>
    <td>Geotrend/distilbert-base-no-cased</td> <!-- Model ID -->
-   <td class="num_model_parameters">61M</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">23K</td> <!-- Size of the model's vocabulary -->
+   <td class="num_model_parameters">61</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">23</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
@@ -157,8 +157,8 @@ title: Language Model Benchmark
   </tr>
   <tr>
    <td>ltgoslo/norbert2</td> <!-- Model ID -->
-   <td class="num_model_parameters">125M</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">50K</td> <!-- Size of the model's vocabulary -->
+   <td class="num_model_parameters">125</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
@@ -185,8 +185,8 @@ title: Language Model Benchmark
   </tr>
   <tr>
    <td>KBLab/megatron-bert-base-swedish-cased-125k</td> <!-- Model ID -->
-   <td class="num_model_parameters">135M</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">64K</td> <!-- Size of the model's vocabulary -->
+   <td class="num_model_parameters">135</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
@@ -213,8 +213,8 @@ title: Language Model Benchmark
   </tr>
   <tr>
    <td>Geotrend/distilbert-base-da-cased</td> <!-- Model ID -->
-   <td class="num_model_parameters">61M</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">23K</td> <!-- Size of the model's vocabulary -->
+   <td class="num_model_parameters">61</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">23</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
@@ -241,8 +241,8 @@ title: Language Model Benchmark
   </tr>
   <tr>
    <td>RabotaRu/HRBert-mini</td> <!-- Model ID -->
-   <td class="num_model_parameters">80M</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">200K</td> <!-- Size of the model's vocabulary -->
+   <td class="num_model_parameters">80</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">200</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
@@ -269,8 +269,8 @@ title: Language Model Benchmark
   </tr>
   <tr>
    <td>Geotrend/bert-base-25lang-cased</td> <!-- Model ID -->
-   <td class="num_model_parameters">151M</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">85K</td> <!-- Size of the model's vocabulary -->
+   <td class="num_model_parameters">151</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">85</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
@@ -297,8 +297,8 @@ title: Language Model Benchmark
   </tr>
   <tr>
    <td>Geotrend/bert-base-en-fr-de-no-da-cased</td> <!-- Model ID -->
-   <td class="num_model_parameters">118M</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">42K</td> <!-- Size of the model's vocabulary -->
+   <td class="num_model_parameters">118</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">42</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
@@ -325,8 +325,8 @@ title: Language Model Benchmark
   </tr>
   <tr>
    <td>KBLab/albert-base-swedish-cased-alpha</td> <!-- Model ID -->
-   <td class="num_model_parameters">14M</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">50K</td> <!-- Size of the model's vocabulary -->
+   <td class="num_model_parameters">14</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
@@ -353,8 +353,8 @@ title: Language Model Benchmark
   </tr>
   <tr>
    <td>Addedk/mbert-swedish-distilled-cased</td> <!-- Model ID -->
-   <td class="num_model_parameters">135M</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">120K</td> <!-- Size of the model's vocabulary -->
+   <td class="num_model_parameters">135</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">120</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
@@ -381,8 +381,8 @@ title: Language Model Benchmark
   </tr>
   <tr>
    <td>Geotrend/bert-base-en-da-cased</td> <!-- Model ID -->
-   <td class="num_model_parameters">111M</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">33K</td> <!-- Size of the model's vocabulary -->
+   <td class="num_model_parameters">111</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">33</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
@@ -409,8 +409,8 @@ title: Language Model Benchmark
   </tr>
   <tr>
    <td>Geotrend/distilbert-base-25lang-cased</td> <!-- Model ID -->
-   <td class="num_model_parameters">109M</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">85K</td> <!-- Size of the model's vocabulary -->
+   <td class="num_model_parameters">109</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">85</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
@@ -437,8 +437,8 @@ title: Language Model Benchmark
   </tr>
   <tr>
    <td>fresh-xlmr-base</td> <!-- Model ID -->
-   <td class="num_model_parameters">278M</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">250K</td> <!-- Size of the model's vocabulary -->
+   <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
@@ -465,8 +465,8 @@ title: Language Model Benchmark
   </tr>
   <tr>
    <td>distilbert-base-multilingual-cased</td> <!-- Model ID -->
-   <td class="num_model_parameters">135M</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">120K</td> <!-- Size of the model's vocabulary -->
+   <td class="num_model_parameters">135</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">120</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
@@ -493,8 +493,8 @@ title: Language Model Benchmark
   </tr>
   <tr>
    <td>Maltehb/danish-bert-botxo</td> <!-- Model ID -->
-   <td class="num_model_parameters">111M</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">32K</td> <!-- Size of the model's vocabulary -->
+   <td class="num_model_parameters">111</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
@@ -521,8 +521,8 @@ title: Language Model Benchmark
   </tr>
   <tr>
    <td>microsoft/xlm-align-base</td> <!-- Model ID -->
-   <td class="num_model_parameters">278M</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">250K</td> <!-- Size of the model's vocabulary -->
+   <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
@@ -549,8 +549,8 @@ title: Language Model Benchmark
   </tr>
   <tr>
    <td>Geotrend/distilbert-base-en-da-cased</td> <!-- Model ID -->
-   <td class="num_model_parameters">69M</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">33K</td> <!-- Size of the model's vocabulary -->
+   <td class="num_model_parameters">69</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">33</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
@@ -577,8 +577,8 @@ title: Language Model Benchmark
   </tr>
   <tr>
    <td>Geotrend/bert-base-da-cased</td> <!-- Model ID -->
-   <td class="num_model_parameters">104M</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">23K</td> <!-- Size of the model's vocabulary -->
+   <td class="num_model_parameters">104</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">23</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
@@ -605,8 +605,8 @@ title: Language Model Benchmark
   </tr>
   <tr>
    <td>NbAiLab/nb-bert-large</td> <!-- Model ID -->
-   <td class="num_model_parameters">354M</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">50K</td> <!-- Size of the model's vocabulary -->
+   <td class="num_model_parameters">354</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
@@ -633,8 +633,8 @@ title: Language Model Benchmark
   </tr>
   <tr>
    <td>NbAiLab/nb-bert-base</td> <!-- Model ID -->
-   <td class="num_model_parameters">178M</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">120K</td> <!-- Size of the model's vocabulary -->
+   <td class="num_model_parameters">178</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">120</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
@@ -661,8 +661,8 @@ title: Language Model Benchmark
   </tr>
   <tr>
    <td>xlm-roberta-base</td> <!-- Model ID -->
-   <td class="num_model_parameters">278M</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">250K</td> <!-- Size of the model's vocabulary -->
+   <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
@@ -689,8 +689,8 @@ title: Language Model Benchmark
   </tr>
   <tr>
    <td>xlm-roberta-large</td> <!-- Model ID -->
-   <td class="num_model_parameters">560M</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">250K</td> <!-- Size of the model's vocabulary -->
+   <td class="num_model_parameters">560</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
@@ -717,8 +717,8 @@ title: Language Model Benchmark
   </tr>
   <tr>
    <td>Maltehb/aelaectra-danish-electra-small-cased</td> <!-- Model ID -->
-   <td class="num_model_parameters">14M</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">32K</td> <!-- Size of the model's vocabulary -->
+   <td class="num_model_parameters">14</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">128</td> <!-- Maximum sequence length of the model-->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
@@ -745,8 +745,8 @@ title: Language Model Benchmark
   </tr>
   <tr>
    <td>Maltehb/aelaectra-danish-electra-small-uncased</td> <!-- Model ID -->
-   <td class="num_model_parameters">14M</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">32K</td> <!-- Size of the model's vocabulary -->
+   <td class="num_model_parameters">14</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">128</td> <!-- Maximum sequence length of the model-->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
@@ -773,8 +773,8 @@ title: Language Model Benchmark
   </tr>
   <tr>
    <td>flax-community/roberta-base-danish</td> <!-- Model ID -->
-   <td class="num_model_parameters">125M</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">50K</td> <!-- Size of the model's vocabulary -->
+   <td class="num_model_parameters">125</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
@@ -801,8 +801,8 @@ title: Language Model Benchmark
   </tr>
   <tr>
    <td>KB/bert-base-swedish-cased</td> <!-- Model ID -->
-   <td class="num_model_parameters">125M</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">50K</td> <!-- Size of the model's vocabulary -->
+   <td class="num_model_parameters">125</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
@@ -829,8 +829,8 @@ title: Language Model Benchmark
   </tr>
   <tr>
    <td>vesteinn/ScandiBERT</td> <!-- Model ID -->
-   <td class="num_model_parameters">124M</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">50K</td> <!-- Size of the model's vocabulary -->
+   <td class="num_model_parameters">124</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
@@ -857,8 +857,8 @@ title: Language Model Benchmark
   </tr>
   <tr>
    <td>setu4993/LaBSE</td> <!-- Model ID -->
-   <td class="num_model_parameters">471M</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">501K</td> <!-- Size of the model's vocabulary -->
+   <td class="num_model_parameters">471</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">501</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
@@ -885,8 +885,8 @@ title: Language Model Benchmark
   </tr>
   <tr>
    <td>cardiffnlp/twitter-xlm-roberta-base</td> <!-- Model ID -->
-   <td class="num_model_parameters">278M</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">250K</td> <!-- Size of the model's vocabulary -->
+   <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
@@ -913,8 +913,8 @@ title: Language Model Benchmark
   </tr>
   <tr>
    <td>jonfd/electra-small-nordic</td> <!-- Model ID -->
-   <td class="num_model_parameters">22M</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">96K</td> <!-- Size of the model's vocabulary -->
+   <td class="num_model_parameters">22</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">96</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">128</td> <!-- Maximum sequence length of the model-->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
@@ -941,8 +941,8 @@ title: Language Model Benchmark
   </tr>
   <tr>
    <td>bert-base-multilingual-cased</td> <!-- Model ID -->
-   <td class="num_model_parameters">178M</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">120K</td> <!-- Size of the model's vocabulary -->
+   <td class="num_model_parameters">178</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">120</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
@@ -969,8 +969,8 @@ title: Language Model Benchmark
   </tr>
   <tr>
    <td>Geotrend/bert-base-no-cased</td> <!-- Model ID -->
-   <td class="num_model_parameters">104M</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">23K</td> <!-- Size of the model's vocabulary -->
+   <td class="num_model_parameters">104</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">23</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
@@ -997,8 +997,8 @@ title: Language Model Benchmark
   </tr>
   <tr>
    <td>KBLab/megatron-bert-large-swedish-cased-110k</td> <!-- Model ID -->
-   <td class="num_model_parameters">370M</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">64K</td> <!-- Size of the model's vocabulary -->
+   <td class="num_model_parameters">370</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
