@@ -176,7 +176,7 @@ def main() -> None:
         # entered
         for metadata in ["num_model_parameters", "vocabulary_size", "max_sequence_length"]:
             if metadata not in model_scores[model_id] and metadata in record:
-                model_scores[model_id][metadata] = f"{record[metadata]:,}"
+                model_scores[model_id][metadata] = str(record[metadata])
 
     # Generate language model benchmark HTML
     models_to_remove = list()
