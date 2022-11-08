@@ -1024,6 +1024,34 @@ title: Language Model Benchmark
    <td class="sv qa">51.80 ± 0.76 / 57.84 ± 0.65</td> <!-- ScandiQA-sv -->
   </tr>
   <tr>
+   <td>sentence-transformers/stsb-xlm-r-multilingual</td> <!-- Model ID -->
+   <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="score"></td> <!-- ScandEval score -->
+   <td class="da-score"></td> <!-- Danish score -->
+   <td class="no-score"></td> <!-- Norwegian score -->
+   <td class="sv-score"></td> <!-- Swedish score -->
+   <td class="ner-score"></td> <!-- Mean named entity recognition score -->
+   <td class="sent-score"></td> <!-- Mean sentiment classification score -->
+   <td class="la-score"></td> <!-- Mean linguistic acceptability score -->
+   <td class="qa-score"></td> <!-- Mean question answering score -->
+   <td class="da ner">76.51 ± 0.61 / 79.12 ± 0.60</td> <!-- DaNE -->
+   <td class="da sent">44.39 ± 1.00 / 63.06 ± 0.64</td> <!-- AngryTweets -->
+   <td class="da la">39.57 ± 1.08 / 68.74 ± 0.55</td> <!-- ScaLA-da -->
+   <td class="da qa">23.02 ± 0.36 / 28.32 ± 0.32</td> <!-- ScandiQA-da -->
+   <td class="no ner">77.80 ± 0.85 / 81.90 ± 0.74</td> <!-- NorNE-nb -->
+   <td class="no ner">71.18 ± 0.88 / 74.98 ± 0.78</td> <!-- NorNE-nn -->
+   <td class="no sent">51.27 ± 0.74 / 66.39 ± 0.73</td> <!-- NoReC -->
+   <td class="no la">32.53 ± 0.89 / 62.72 ± 0.59</td> <!-- ScaLA-nb -->
+   <td class="no la">19.11 ± 1.80 / 51.88 ± 0.76</td> <!-- ScaLA-nn -->
+   <td class="no qa">28.01 ± 0.52 / 33.02 ± 0.30</td> <!-- ScandiQA-no -->
+   <td class="sv ner">64.00 ± 0.95 / 70.37 ± 0.57</td> <!-- SUC3 -->
+   <td class="sv sent">29.57 ± 0.71 / 53.84 ± 0.44</td> <!-- ABSAbank-Imm -->
+   <td class="sv la">43.24 ± 1.08 / 70.52 ± 0.54</td> <!-- ScaLA-sv -->
+   <td class="sv qa">26.20 ± 0.32 / 31.69 ± 0.27</td> <!-- ScandiQA-sv -->
+  </tr>
+  <tr>
    <td>microsoft/mdeberta-v3-base</td> <!-- Model ID -->
    <td class="num_model_parameters">279</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">251</td> <!-- Size of the model's vocabulary -->
