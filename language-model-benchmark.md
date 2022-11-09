@@ -1079,6 +1079,34 @@ title: Language Model Benchmark
    <td class="sv la">71.73 ± 0.76 / 85.86 ± 0.38</td> <!-- ScaLA-sv -->
    <td class="sv qa">53.26 ± 0.45 / 58.25 ± 0.39</td> <!-- ScandiQA-sv -->
   </tr>
+  <tr>
+   <td>flax-community/roberta-base-scandinavian</td> <!-- Model ID -->
+   <td class="num_model_parameters">125</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="score"></td> <!-- ScandEval score -->
+   <td class="da-score"></td> <!-- Danish score -->
+   <td class="no-score"></td> <!-- Norwegian score -->
+   <td class="sv-score"></td> <!-- Swedish score -->
+   <td class="ner-score"></td> <!-- Mean named entity recognition score -->
+   <td class="sent-score"></td> <!-- Mean sentiment classification score -->
+   <td class="la-score"></td> <!-- Mean linguistic acceptability score -->
+   <td class="qa-score"></td> <!-- Mean question answering score -->
+   <td class="da ner">77.40 ± 0.71 / 80.98 ± 0.66</td> <!-- DaNE -->
+   <td class="da sent">45.97 ± 0.65 / 63.96 ± 0.47</td> <!-- AngryTweets -->
+   <td class="da la">58.76 ± 0.83 / 78.38 ± 0.47</td> <!-- ScaLA-da -->
+   <td class="da qa">31.98 ± 0.41 / 36.56 ± 0.45</td> <!-- ScandiQA-da -->
+   <td class="no ner">76.17 ± 0.30 / 78.79 ± 0.33</td> <!-- NorNE-nb -->
+   <td class="no ner">72.88 ± 0.64 / 77.48 ± 0.49</td> <!-- NorNE-nn -->
+   <td class="no sent">4.19 ± 0.95 / 33.25 ± 0.41</td> <!-- NoReC -->
+   <td class="no la">3.85 ± 1.46 / 50.66 ± 0.75</td> <!-- ScaLA-nb -->
+   <td class="no la">0.47 ± 1.32 / 48.03 ± 0.69</td> <!-- ScaLA-nn -->
+   <td class="no qa">37.46 ± 0.40 / 42.14 ± 0.48</td> <!-- ScandiQA-no -->
+   <td class="sv ner">64.72 ± 0.48 / 70.09 ± 0.41</td> <!-- SUC3 -->
+   <td class="sv sent">27.98 ± 1.02 / 52.62 ± 0.59</td> <!-- ABSAbank-Imm -->
+   <td class="sv la">23.34 ± 1.21 / 61.63 ± 0.59</td> <!-- ScaLA-sv -->
+   <td class="sv qa">42.16 ± 0.62 / 46.75 ± 0.62</td> <!-- ScandiQA-sv -->
+  </tr>
  </tbody>
 </table>
 </div>
