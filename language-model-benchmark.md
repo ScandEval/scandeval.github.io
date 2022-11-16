@@ -1107,6 +1107,34 @@ title: Language Model Benchmark
    <td class="sv la">73.75 ± 0.80 / 86.66 ± 0.41</td> <!-- ScaLA-sv -->
    <td class="sv qa">44.71 ± 0.56 / 49.22 ± 0.61</td> <!-- ScandiQA-sv -->
   </tr>
+  <tr>
+   <td>Twitter/twhin-bert-base</td> <!-- Model ID -->
+   <td class="num_model_parameters">279</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="score"></td> <!-- ScandEval score -->
+   <td class="da-score"></td> <!-- Danish score -->
+   <td class="no-score"></td> <!-- Norwegian score -->
+   <td class="sv-score"></td> <!-- Swedish score -->
+   <td class="ner-score"></td> <!-- Mean named entity recognition score -->
+   <td class="sent-score"></td> <!-- Mean sentiment classification score -->
+   <td class="la-score"></td> <!-- Mean linguistic acceptability score -->
+   <td class="qa-score"></td> <!-- Mean question answering score -->
+   <td class="da ner">73.01 ± 0.60 / 73.93 ± 0.58</td> <!-- DaNE -->
+   <td class="da sent">41.17 ± 0.84 / 59.13 ± 0.51</td> <!-- AngryTweets -->
+   <td class="da la">26.56 ± 1.13 / 53.52 ± 0.66</td> <!-- ScaLA-da -->
+   <td class="da qa">41.82 ± 0.52 / 45.86 ± 0.47</td> <!-- ScandiQA-da -->
+   <td class="no ner">81.88 ± 0.41 / 84.21 ± 0.36</td> <!-- NorNE-nb -->
+   <td class="no ner">79.32 ± 0.72 / 81.92 ± 0.60</td> <!-- NorNE-nn -->
+   <td class="no sent">34.89 ± 1.11 / 44.25 ± 0.46</td> <!-- NoReC -->
+   <td class="no la">48.73 ± 1.39 / 73.27 ± 0.80</td> <!-- ScaLA-nb -->
+   <td class="no la">3.08 ± 2.01 / 46.78 ± 0.79</td> <!-- ScaLA-nn -->
+   <td class="no qa">40.84 ± 0.55 / 45.19 ± 0.53</td> <!-- ScandiQA-no -->
+   <td class="sv ner">62.89 ± 0.95 / 70.69 ± 1.13</td> <!-- SUC3 -->
+   <td class="sv sent">68.12 ± 0.86 / 63.27 ± 0.84</td> <!-- SweReC -->
+   <td class="sv la">53.06 ± 1.18 / 75.26 ± 0.59</td> <!-- ScaLA-sv -->
+   <td class="sv qa">41.88 ± 0.55 / 46.23 ± 0.55</td> <!-- ScandiQA-sv -->
+  </tr>
  </tbody>
 </table>
 </div>
