@@ -51,7 +51,7 @@ title: Language Model Benchmark
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Norwegian question answering - Exact match / F1-score">ScandiQA-no</span></th>
 
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Swedish named entity recognition - Micro-average F1-score / Micro-average F1-score without MISC tags">SUC3</span></th>
-   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Swedish sentiment classification - Matthews correlation coefficient / Macro-average F1-score">ABSAbank-Imm</span></th>
+   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Swedish sentiment classification - Matthews correlation coefficient / Macro-average F1-score">SweReC</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Swedish linguistic acceptability - Matthews correlation coefficient / Macro-average F1-score">ScaLA-sv</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Swedish question answering - Exact match / F1-score">ScandiQA-sv</span></th>
   </tr>
@@ -88,7 +88,7 @@ LANGAUGE_MODEL_BENCHMARK_ENTRY = """  <tr>
    <td class="no la">{nn_la}</td> <!-- ScaLA-nn -->
    <td class="no qa">{no_qa}</td> <!-- ScandiQA-no -->
    <td class="sv ner">{sv_ner}</td> <!-- SUC3 -->
-   <td class="sv sent">{sv_sent}</td> <!-- ABSAbank-Imm -->
+   <td class="sv sent">{sv_sent}</td> <!-- SweReC -->
    <td class="sv la">{sv_la}</td> <!-- ScaLA-sv -->
    <td class="sv qa">{sv_qa}</td> <!-- ScandiQA-sv -->
   </tr>"""
@@ -97,6 +97,10 @@ LANGAUGE_MODEL_BENCHMARK_ENTRY = """  <tr>
 # Set up primary/secondary metrics
 PRIMARY_METRICS = ["mcc", "em", "micro_f1"]
 SECONDARY_METRICS = ["macro_f1", "f1", "micro_f1_no_misc"]
+
+
+# Set up list of outdated datasets
+OUTDATED_DATASETS = ['absabank-imm']
 
 
 def main() -> None:
@@ -119,6 +123,12 @@ def main() -> None:
     # Reorganize the scores by each model
     model_scores: Dict[str, Dict[str, str]] = defaultdict(dict)
     for record in scores:
+
+        # Skip record if it's a benchmark of an outdated dataset
+        if record["dataset"] in OUTDATED_DATASETS:
+            continue
+
+        # Extract data from record
         model_id: str = record["model"]
         task: str = record["task"]
         languages: List[str] = record["dataset_languages"]
