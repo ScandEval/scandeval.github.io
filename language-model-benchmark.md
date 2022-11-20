@@ -1276,6 +1276,34 @@ title: Language Model Benchmark
    <td class="sv qa">33.41 ± 0.43 / 39.88 ± 0.45</td> <!-- ScandiQA-sv -->
   </tr>
   <tr>
+   <td>sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2</td> <!-- Model ID -->
+   <td class="num_model_parameters">118</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="score"></td> <!-- ScandEval score -->
+   <td class="da-score"></td> <!-- Danish score -->
+   <td class="no-score"></td> <!-- Norwegian score -->
+   <td class="sv-score"></td> <!-- Swedish score -->
+   <td class="ner-score"></td> <!-- Mean named entity recognition score -->
+   <td class="sent-score"></td> <!-- Mean sentiment classification score -->
+   <td class="la-score"></td> <!-- Mean linguistic acceptability score -->
+   <td class="qa-score"></td> <!-- Mean question answering score -->
+   <td class="da ner">72.65 ± 0.65 / 74.35 ± 0.65</td> <!-- DaNE -->
+   <td class="da sent">44.09 ± 1.23 / 62.76 ± 0.74</td> <!-- AngryTweets -->
+   <td class="da la">29.22 ± 1.18 / 63.28 ± 0.65</td> <!-- ScaLA-da -->
+   <td class="da qa">33.76 ± 0.18 / 40.17 ± 0.11</td> <!-- ScandiQA-da -->
+   <td class="no ner">73.25 ± 0.60 / 76.95 ± 0.63</td> <!-- NorNE-nb -->
+   <td class="no ner">64.01 ± 1.05 / 69.26 ± 0.93</td> <!-- NorNE-nn -->
+   <td class="no sent">46.96 ± 0.84 / 61.62 ± 0.86</td> <!-- NoReC -->
+   <td class="no la">32.56 ± 1.47 / 66.04 ± 0.76</td> <!-- ScaLA-nb -->
+   <td class="no la">17.14 ± 1.80 / 57.52 ± 0.88</td> <!-- ScaLA-nn -->
+   <td class="no qa">26.75 ± 0.40 / 34.26 ± 0.45</td> <!-- ScandiQA-no -->
+   <td class="sv ner">58.23 ± 0.84 / 64.68 ± 0.56</td> <!-- SUC3 -->
+   <td class="sv sent">72.08 ± 0.87 / 71.24 ± 0.93</td> <!-- SweReC -->
+   <td class="sv la">32.30 ± 0.79 / 65.88 ± 0.40</td> <!-- ScaLA-sv -->
+   <td class="sv qa">28.35 ± 0.51 / 35.58 ± 0.45</td> <!-- ScandiQA-sv -->
+  </tr>
+  <tr>
    <td>AI-Nordics/bert-large-swedish-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">335</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">31</td> <!-- Size of the model's vocabulary -->
