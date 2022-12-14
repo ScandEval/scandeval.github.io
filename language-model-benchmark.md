@@ -1247,6 +1247,34 @@ title: Language Model Benchmark
    <td class="sv la">0.86 ± 0.82 / 39.16 ± 3.63</td> <!-- ScaLA-sv -->
    <td class="sv qa">8.30 ± 2.28 / 14.74 ± 2.84</td> <!-- ScandiQA-sv -->
   </tr>
+  <tr>
+   <td>fresh-electra-small</td> <!-- Model ID -->
+   <td class="num_model_parameters">14</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">31</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="score"></td> <!-- ScandEval score -->
+   <td class="da-score"></td> <!-- Danish score -->
+   <td class="no-score"></td> <!-- Norwegian score -->
+   <td class="sv-score"></td> <!-- Swedish score -->
+   <td class="ner-score"></td> <!-- Mean named entity recognition score -->
+   <td class="sent-score"></td> <!-- Mean sentiment classification score -->
+   <td class="la-score"></td> <!-- Mean linguistic acceptability score -->
+   <td class="qa-score"></td> <!-- Mean question answering score -->
+   <td class="da ner">15.26 ± 0.99 / 10.05 ± 1.26</td> <!-- DaNE -->
+   <td class="da sent">18.61 ± 4.17 / 35.23 ± 3.90</td> <!-- AngryTweets -->
+   <td class="da la">0.30 ± 1.39 / 37.84 ± 3.88</td> <!-- ScaLA-da -->
+   <td class="da qa">0.01 ± 0.02 / 0.07 ± 0.09</td> <!-- ScandiQA-da -->
+   <td class="no ner">17.08 ± 1.97 / 18.38 ± 2.01</td> <!-- NorNE-nb -->
+   <td class="no ner">11.65 ± 1.21 / 12.76 ± 1.29</td> <!-- NorNE-nn -->
+   <td class="no sent">15.29 ± 5.37 / 34.15 ± 4.23</td> <!-- NoReC -->
+   <td class="no la">0.17 ± 0.84 / 36.29 ± 2.91</td> <!-- ScaLA-nb -->
+   <td class="no la">0.37 ± 0.69 / 35.08 ± 2.81</td> <!-- ScaLA-nn -->
+   <td class="no qa">0.09 ± 0.11 / 0.30 ± 0.30</td> <!-- ScandiQA-no -->
+   <td class="sv ner">9.71 ± 1.00 / 10.54 ± 1.12</td> <!-- SUC3 -->
+   <td class="sv sent">55.54 ± 2.75 / 52.75 ± 1.09</td> <!-- SweReC -->
+   <td class="sv la">-0.15 ± 0.52 / 35.33 ± 3.00</td> <!-- ScaLA-sv -->
+   <td class="sv qa">0.22 ± 0.22 / 1.06 ± 0.78</td> <!-- ScandiQA-sv -->
+  </tr>
  </tbody>
 </table>
 </div>
