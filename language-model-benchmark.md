@@ -1303,6 +1303,34 @@ title: Language Model Benchmark
    <td class="sv la">53.55 ± 16.68 / 75.79 ± 8.05</td> <!-- ScaLA-sv -->
    <td class="sv qa">41.80 ± 0.83 / 46.25 ± 0.83</td> <!-- ScandiQA-sv -->
   </tr>
+  <tr>
+   <td>pere/roberta-base-exp-32B</td> <!-- Model ID -->
+   <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="score"></td> <!-- ScandEval score -->
+   <td class="da-score"></td> <!-- Danish score -->
+   <td class="no-score"></td> <!-- Norwegian score -->
+   <td class="sv-score"></td> <!-- Swedish score -->
+   <td class="ner-score"></td> <!-- Mean named entity recognition score -->
+   <td class="sent-score"></td> <!-- Mean sentiment classification score -->
+   <td class="la-score"></td> <!-- Mean linguistic acceptability score -->
+   <td class="qa-score"></td> <!-- Mean question answering score -->
+   <td class="da ner">81.55 ± 0.91 / 84.37 ± 0.86</td> <!-- DaNE -->
+   <td class="da sent">47.83 ± 1.22 / 64.90 ± 0.81</td> <!-- AngryTweets -->
+   <td class="da la">54.99 ± 11.90 / 75.82 ± 5.70</td> <!-- ScaLA-da -->
+   <td class="da qa">38.76 ± 2.08 / 43.19 ± 1.97</td> <!-- ScandiQA-da -->
+   <td class="no ner">87.83 ± 1.34 / 90.60 ± 1.16</td> <!-- NorNE-nb -->
+   <td class="no ner">83.48 ± 0.98 / 86.76 ± 0.82</td> <!-- NorNE-nn -->
+   <td class="no sent">52.19 ± 2.87 / 65.60 ± 2.58</td> <!-- NoReC -->
+   <td class="no la">54.98 ± 14.19 / 75.67 ± 6.70</td> <!-- ScaLA-nb -->
+   <td class="no la">58.33 ± 10.94 / 77.88 ± 5.29</td> <!-- ScaLA-nn -->
+   <td class="no qa">37.17 ± 1.92 / 42.00 ± 1.85</td> <!-- ScandiQA-no -->
+   <td class="sv ner">72.10 ± 0.94 / 77.97 ± 0.82</td> <!-- SUC3 -->
+   <td class="sv sent">73.27 ± 0.75 / 71.87 ± 1.30</td> <!-- SweReC -->
+   <td class="sv la">47.19 ± 16.37 / 72.10 ± 8.03</td> <!-- ScaLA-sv -->
+   <td class="sv qa">39.39 ± 1.09 / 43.97 ± 1.12</td> <!-- ScandiQA-sv -->
+  </tr>
  </tbody>
 </table>
 </div>
