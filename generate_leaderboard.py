@@ -23,7 +23,8 @@ title: Language Model Benchmark
 <table id="language-model-benchmark" class="sortable fixed centered small-font">
  <thead>
   <tr>
-   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="HuggingFace Hub Model ID">Model ID</span></th>
+   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="ScandEval model rank">Rank</span></th>
+   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Hugging Face Hub Model ID">Model ID</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Number of trainable parameters in the model, in millions">Parameters</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Number of unique tokens that the model has been trained on, in thousands">Vocabulary size</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="The maximum amount of tokens the model can process">Context</span></th>
@@ -65,6 +66,7 @@ LANGAUGE_MODEL_BENCHMARK_HTML_END = """ </tbody>
 
 
 LANGAUGE_MODEL_BENCHMARK_ENTRY = """  <tr>
+   <td class="rank"></td> <!-- Rank -->
    <td>{model_id}</td> <!-- Model ID -->
    <td class="num_model_parameters">{num_model_parameters}</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">{vocabulary_size}</td> <!-- Size of the model's vocabulary -->

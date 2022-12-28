@@ -144,3 +144,13 @@ var click = new MouseEvent("click", {
 if(language_model_benchmark){
     document.getElementById('score-col').dispatchEvent(click);
 }
+
+// Fill in the rank column
+var rows = language_model_benchmark.getElementsByTagName('tr')
+for (var row_idx=0; row_idx < rows.length; row_idx++){
+    var row = rows[row_idx]
+    var rankElements = row.getElementsByClassName('rank')
+    if (rankElements.length > 0){
+        rankElements[0].innerHTML = row_idx + 1
+    }
+}
