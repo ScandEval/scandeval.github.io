@@ -20,7 +20,7 @@ title: Language Model Benchmark
 <center><i>Hover over the headings for more information</i></center>
 
 <div class="table-wrapper centered">
-<table id="language-model-benchmark" class="sortable fixed centered small-font">
+<table id="nlu-benchmark" class="sortable fixed centered small-font">
  <thead>
   <tr>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="ScandEval model rank">Rank</span></th>
@@ -109,7 +109,7 @@ def main() -> None:
     """Generate the leaderboard(s)."""
 
     # Create path to the leaderboard, and ensure that it exists
-    language_model_benchmark_path = Path("language-model-benchmark.md")
+    language_model_benchmark_path = Path("nlu-benchmark.md")
     language_model_benchmark_path.parent.mkdir(exist_ok=True, parents=True)
     language_model_benchmark_path.touch(exist_ok=True)
 

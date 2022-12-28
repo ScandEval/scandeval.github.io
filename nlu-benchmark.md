@@ -6,7 +6,7 @@ title: Language Model Benchmark
 <center><i>Hover over the headings for more information</i></center>
 
 <div class="table-wrapper centered">
-<table id="language-model-benchmark" class="sortable fixed centered small-font">
+<table id="nlu-benchmark" class="sortable fixed centered small-font">
  <thead>
   <tr>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="ScandEval model rank">Rank</span></th>

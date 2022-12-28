@@ -19,7 +19,9 @@ description: A Scandinavian Natural Language Understanding Benchmark
 # List of links in the navigation bar
 navbar-links:
   About: "index"
-  Language Model Benchmark: "language-model-benchmark"
+  NLU Benchmark: "nlu-benchmark"
+  # NLG Benchmark: "nlg-benchmark"
+  # SLU Benchmark: "slu-benchmark"
   # Paper: "paper"
 
 # Image to show in the navigation bar - image must be a square (width = height)
