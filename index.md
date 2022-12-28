@@ -12,7 +12,7 @@ named entity recognition, sentiment classification, linguistic acceptability and
 question answering. By "Scandinavian" we here mean Danish, Swedish and Norwegian (both
 Bokmål and Nynorsk).
 
-The [Leaderboard](https://scandeval.github.io/language-model-benchmark/) contains the
+The [Leaderboard](https://scandeval.github.io/nlu-benchmark/) contains the
 result of finetuning the language model 10 times, and evaluating each of these 10
 finetuned models on a bootstrapped version of the test set of the given dataset
 (different bootstrap for each of the 10 runs). The mean of these 10 scores for the

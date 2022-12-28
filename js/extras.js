@@ -5,9 +5,9 @@ $(function () {
 
 // Get the rows in the language model benchmark and the list of tasks, so that we can
 // fill in all the aggregated score columns
-language_model_benchmark = document.getElementById('language-model-benchmark')
-if(language_model_benchmark){
-    var rows = language_model_benchmark.getElementsByTagName('tr')
+nlu_benchmark = document.getElementById('nlu-benchmark')
+if(nlu_benchmark){
+    var rows = nlu_benchmark.getElementsByTagName('tr')
     var languages = ['da', 'no', 'sv']
     var tasks = ['ner', 'sent', 'la', 'qa']
 
@@ -141,12 +141,12 @@ var click = new MouseEvent("click", {
     cancelable: true,
     clientX: 20,
 });
-if(language_model_benchmark){
+if(nlu_benchmark){
     document.getElementById('score-col').dispatchEvent(click);
 }
 
 // Fill in the rank column
-var rows = language_model_benchmark.getElementsByTagName('tr')
+var rows = nlu_benchmark.getElementsByTagName('tr')
 for (var row_idx=0; row_idx < rows.length; row_idx++){
     var row = rows[row_idx]
     var rankElements = row.getElementsByClassName('rank')
