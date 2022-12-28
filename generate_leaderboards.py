@@ -14,7 +14,7 @@ logging.basicConfig(
 
 LANGAUGE_MODEL_BENCHMARK_HTML_START = """---
 layout: leaderboard
-title: Language Model Benchmark
+title: NLU Benchmark
 ---
 
 <center><i>Hover over the headings for more information</i></center>
