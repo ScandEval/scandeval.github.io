@@ -9,7 +9,8 @@ title: Language Model Benchmark
 <table id="language-model-benchmark" class="sortable fixed centered small-font">
  <thead>
   <tr>
-   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="HuggingFace Hub Model ID">Model ID</span></th>
+   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="ScandEval model rank">Rank</span></th>
+   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Hugging Face Hub Model ID">Model ID</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Number of trainable parameters in the model, in millions">Parameters</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Number of unique tokens that the model has been trained on, in thousands">Vocabulary size</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="The maximum amount of tokens the model can process">Context</span></th>
@@ -44,6 +45,7 @@ title: Language Model Benchmark
  </thead>
  <tbody>
   <tr>
+   <td class="rank"></td> <!-- Rank -->
    <td>NbAiLab/nb-bert-base</td> <!-- Model ID -->
    <td class="num_model_parameters">178</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">120</td> <!-- Size of the model's vocabulary -->
@@ -72,6 +74,7 @@ title: Language Model Benchmark
    <td class="sv qa">42.61 ± 2.04 / 46.73 ± 1.80</td> <!-- ScandiQA-sv -->
   </tr>
   <tr>
+   <td class="rank"></td> <!-- Rank -->
    <td>pere/roberta-base-exp-8</td> <!-- Model ID -->
    <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
@@ -100,6 +103,7 @@ title: Language Model Benchmark
    <td class="sv qa">41.58 ± 0.99 / 46.09 ± 0.99</td> <!-- ScandiQA-sv -->
   </tr>
   <tr>
+   <td class="rank"></td> <!-- Rank -->
    <td>xlm-roberta-base</td> <!-- Model ID -->
    <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
@@ -128,6 +132,7 @@ title: Language Model Benchmark
    <td class="sv qa">42.61 ± 2.73 / 47.66 ± 2.84</td> <!-- ScandiQA-sv -->
   </tr>
   <tr>
+   <td class="rank"></td> <!-- Rank -->
    <td>vesteinn/ScandiBERT</td> <!-- Model ID -->
    <td class="num_model_parameters">124</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
@@ -156,6 +161,7 @@ title: Language Model Benchmark
    <td class="sv qa">40.91 ± 2.41 / 45.52 ± 2.35</td> <!-- ScandiQA-sv -->
   </tr>
   <tr>
+   <td class="rank"></td> <!-- Rank -->
    <td>ltgoslo/norbert2</td> <!-- Model ID -->
    <td class="num_model_parameters">125</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
@@ -184,6 +190,7 @@ title: Language Model Benchmark
    <td class="sv qa">38.62 ± 1.02 / 43.24 ± 1.00</td> <!-- ScandiQA-sv -->
   </tr>
   <tr>
+   <td class="rank"></td> <!-- Rank -->
    <td>cardiffnlp/twitter-xlm-roberta-base</td> <!-- Model ID -->
    <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
@@ -212,6 +219,7 @@ title: Language Model Benchmark
    <td class="sv qa">40.22 ± 1.78 / 45.25 ± 1.68</td> <!-- ScandiQA-sv -->
   </tr>
   <tr>
+   <td class="rank"></td> <!-- Rank -->
    <td>Geotrend/bert-base-en-fr-de-no-da-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">118</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">42</td> <!-- Size of the model's vocabulary -->
@@ -240,6 +248,7 @@ title: Language Model Benchmark
    <td class="sv qa">46.37 ± 1.13 / 50.75 ± 1.44</td> <!-- ScandiQA-sv -->
   </tr>
   <tr>
+   <td class="rank"></td> <!-- Rank -->
    <td>bert-base-multilingual-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">178</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">120</td> <!-- Size of the model's vocabulary -->
@@ -268,6 +277,7 @@ title: Language Model Benchmark
    <td class="sv qa">46.94 ± 1.72 / 51.74 ± 1.72</td> <!-- ScandiQA-sv -->
   </tr>
   <tr>
+   <td class="rank"></td> <!-- Rank -->
    <td>Geotrend/bert-base-25lang-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">151</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">85</td> <!-- Size of the model's vocabulary -->
@@ -296,6 +306,7 @@ title: Language Model Benchmark
    <td class="sv qa">46.80 ± 1.96 / 51.53 ± 2.12</td> <!-- ScandiQA-sv -->
   </tr>
   <tr>
+   <td class="rank"></td> <!-- Rank -->
    <td>Geotrend/bert-base-en-da-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">111</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">33</td> <!-- Size of the model's vocabulary -->
@@ -324,6 +335,7 @@ title: Language Model Benchmark
    <td class="sv qa">47.03 ± 1.09 / 51.72 ± 1.06</td> <!-- ScandiQA-sv -->
   </tr>
   <tr>
+   <td class="rank"></td> <!-- Rank -->
    <td>jonfd/electra-small-nordic</td> <!-- Model ID -->
    <td class="num_model_parameters">22</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">96</td> <!-- Size of the model's vocabulary -->
@@ -352,6 +364,7 @@ title: Language Model Benchmark
    <td class="sv qa">13.64 ± 4.75 / 15.11 ± 5.29</td> <!-- ScandiQA-sv -->
   </tr>
   <tr>
+   <td class="rank"></td> <!-- Rank -->
    <td>KB/bert-base-swedish-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">125</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
@@ -380,6 +393,7 @@ title: Language Model Benchmark
    <td class="sv qa">46.05 ± 1.99 / 51.22 ± 2.02</td> <!-- ScandiQA-sv -->
   </tr>
   <tr>
+   <td class="rank"></td> <!-- Rank -->
    <td>Twitter/twhin-bert-base</td> <!-- Model ID -->
    <td class="num_model_parameters">279</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
@@ -408,6 +422,7 @@ title: Language Model Benchmark
    <td class="sv qa">40.62 ± 1.44 / 44.78 ± 1.50</td> <!-- ScandiQA-sv -->
   </tr>
   <tr>
+   <td class="rank"></td> <!-- Rank -->
    <td>NbAiLab/nb-bert-large</td> <!-- Model ID -->
    <td class="num_model_parameters">355</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
@@ -436,6 +451,7 @@ title: Language Model Benchmark
    <td class="sv qa">53.78 ± 1.16 / 59.32 ± 1.10</td> <!-- ScandiQA-sv -->
   </tr>
   <tr>
+   <td class="rank"></td> <!-- Rank -->
    <td>xlm-roberta-large</td> <!-- Model ID -->
    <td class="num_model_parameters">560</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
@@ -464,6 +480,7 @@ title: Language Model Benchmark
    <td class="sv qa">51.69 ± 1.27 / 57.28 ± 1.06</td> <!-- ScandiQA-sv -->
   </tr>
   <tr>
+   <td class="rank"></td> <!-- Rank -->
    <td>microsoft/mdeberta-v3-base</td> <!-- Model ID -->
    <td class="num_model_parameters">279</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">251</td> <!-- Size of the model's vocabulary -->
@@ -492,6 +509,7 @@ title: Language Model Benchmark
    <td class="sv qa">50.91 ± 1.27 / 56.23 ± 0.91</td> <!-- ScandiQA-sv -->
   </tr>
   <tr>
+   <td class="rank"></td> <!-- Rank -->
    <td>setu4993/LaBSE</td> <!-- Model ID -->
    <td class="num_model_parameters">471</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">501</td> <!-- Size of the model's vocabulary -->
@@ -520,6 +538,7 @@ title: Language Model Benchmark
    <td class="sv qa">50.05 ± 1.60 / 55.03 ± 1.55</td> <!-- ScandiQA-sv -->
   </tr>
   <tr>
+   <td class="rank"></td> <!-- Rank -->
    <td>KBLab/megatron-bert-large-swedish-cased-165k</td> <!-- Model ID -->
    <td class="num_model_parameters">370</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
@@ -548,6 +567,7 @@ title: Language Model Benchmark
    <td class="sv qa">53.58 ± 0.67 / 59.30 ± 0.50</td> <!-- ScandiQA-sv -->
   </tr>
   <tr>
+   <td class="rank"></td> <!-- Rank -->
    <td>AI-Nordics/bert-large-swedish-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">335</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">31</td> <!-- Size of the model's vocabulary -->
@@ -576,6 +596,7 @@ title: Language Model Benchmark
    <td class="sv qa">52.59 ± 1.41 / 58.04 ± 1.37</td> <!-- ScandiQA-sv -->
   </tr>
   <tr>
+   <td class="rank"></td> <!-- Rank -->
    <td>KBLab/megatron-bert-large-swedish-cased-110k</td> <!-- Model ID -->
    <td class="num_model_parameters">370</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
@@ -604,6 +625,7 @@ title: Language Model Benchmark
    <td class="sv qa">51.71 ± 1.26 / 57.70 ± 1.16</td> <!-- ScandiQA-sv -->
   </tr>
   <tr>
+   <td class="rank"></td> <!-- Rank -->
    <td>flax-community/nordic-roberta-wiki</td> <!-- Model ID -->
    <td class="num_model_parameters">125</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
@@ -632,6 +654,7 @@ title: Language Model Benchmark
    <td class="sv qa">36.93 ± 1.72 / 41.27 ± 1.62</td> <!-- ScandiQA-sv -->
   </tr>
   <tr>
+   <td class="rank"></td> <!-- Rank -->
    <td>flax-community/swe-roberta-wiki-oscar</td> <!-- Model ID -->
    <td class="num_model_parameters">125</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
@@ -660,6 +683,7 @@ title: Language Model Benchmark
    <td class="sv qa">37.74 ± 1.62 / 42.17 ± 1.55</td> <!-- ScandiQA-sv -->
   </tr>
   <tr>
+   <td class="rank"></td> <!-- Rank -->
    <td>KBLab/bert-base-swedish-cased-new</td> <!-- Model ID -->
    <td class="num_model_parameters">135</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
@@ -688,6 +712,7 @@ title: Language Model Benchmark
    <td class="sv qa">36.90 ± 2.39 / 42.11 ± 2.26</td> <!-- ScandiQA-sv -->
   </tr>
   <tr>
+   <td class="rank"></td> <!-- Rank -->
    <td>KBLab/megatron-bert-base-swedish-cased-125k</td> <!-- Model ID -->
    <td class="num_model_parameters">135</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
@@ -716,6 +741,7 @@ title: Language Model Benchmark
    <td class="sv qa">43.05 ± 1.29 / 49.81 ± 1.35</td> <!-- ScandiQA-sv -->
   </tr>
   <tr>
+   <td class="rank"></td> <!-- Rank -->
    <td>Maltehb/aelaectra-danish-electra-small-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">14</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -744,6 +770,7 @@ title: Language Model Benchmark
    <td class="sv qa">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- ScandiQA-sv -->
   </tr>
   <tr>
+   <td class="rank"></td> <!-- Rank -->
    <td>Maltehb/danish-bert-botxo</td> <!-- Model ID -->
    <td class="num_model_parameters">111</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -772,6 +799,7 @@ title: Language Model Benchmark
    <td class="sv qa">30.19 ± 5.11 / 36.10 ± 4.75</td> <!-- ScandiQA-sv -->
   </tr>
   <tr>
+   <td class="rank"></td> <!-- Rank -->
    <td>Maltehb/aelaectra-danish-electra-small-uncased</td> <!-- Model ID -->
    <td class="num_model_parameters">14</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -800,6 +828,7 @@ title: Language Model Benchmark
    <td class="sv qa">3.01 ± 3.03 / 3.34 ± 3.37</td> <!-- ScandiQA-sv -->
   </tr>
   <tr>
+   <td class="rank"></td> <!-- Rank -->
    <td>sentence-transformers/stsb-xlm-r-multilingual</td> <!-- Model ID -->
    <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
@@ -828,6 +857,7 @@ title: Language Model Benchmark
    <td class="sv qa">31.20 ± 2.47 / 36.79 ± 2.27</td> <!-- ScandiQA-sv -->
   </tr>
   <tr>
+   <td class="rank"></td> <!-- Rank -->
    <td>Geotrend/bert-base-da-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">104</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">23</td> <!-- Size of the model's vocabulary -->
@@ -856,6 +886,7 @@ title: Language Model Benchmark
    <td class="sv qa">48.04 ± 0.99 / 52.40 ± 0.84</td> <!-- ScandiQA-sv -->
   </tr>
   <tr>
+   <td class="rank"></td> <!-- Rank -->
    <td>distilbert-base-multilingual-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">135</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">120</td> <!-- Size of the model's vocabulary -->
@@ -884,6 +915,7 @@ title: Language Model Benchmark
    <td class="sv qa">39.33 ± 1.05 / 44.02 ± 1.09</td> <!-- ScandiQA-sv -->
   </tr>
   <tr>
+   <td class="rank"></td> <!-- Rank -->
    <td>Geotrend/distilbert-base-25lang-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">109</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">85</td> <!-- Size of the model's vocabulary -->
@@ -912,6 +944,7 @@ title: Language Model Benchmark
    <td class="sv qa">41.40 ± 1.34 / 46.03 ± 1.24</td> <!-- ScandiQA-sv -->
   </tr>
   <tr>
+   <td class="rank"></td> <!-- Rank -->
    <td>Geotrend/distilbert-base-da-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">61</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">23</td> <!-- Size of the model's vocabulary -->
@@ -940,6 +973,7 @@ title: Language Model Benchmark
    <td class="sv qa">40.16 ± 1.24 / 44.79 ± 1.14</td> <!-- ScandiQA-sv -->
   </tr>
   <tr>
+   <td class="rank"></td> <!-- Rank -->
    <td>Geotrend/distilbert-base-en-da-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">69</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">33</td> <!-- Size of the model's vocabulary -->
@@ -968,6 +1002,7 @@ title: Language Model Benchmark
    <td class="sv qa">41.43 ± 1.61 / 45.90 ± 1.54</td> <!-- ScandiQA-sv -->
   </tr>
   <tr>
+   <td class="rank"></td> <!-- Rank -->
    <td>microsoft/xlm-align-base</td> <!-- Model ID -->
    <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
@@ -996,6 +1031,7 @@ title: Language Model Benchmark
    <td class="sv qa">41.99 ± 4.18 / 47.01 ± 4.41</td> <!-- ScandiQA-sv -->
   </tr>
   <tr>
+   <td class="rank"></td> <!-- Rank -->
    <td>Geotrend/distilbert-base-en-fr-de-no-da-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">76</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">42</td> <!-- Size of the model's vocabulary -->
@@ -1024,6 +1060,7 @@ title: Language Model Benchmark
    <td class="sv qa">40.55 ± 1.55 / 45.40 ± 1.53</td> <!-- ScandiQA-sv -->
   </tr>
   <tr>
+   <td class="rank"></td> <!-- Rank -->
    <td>sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2</td> <!-- Model ID -->
    <td class="num_model_parameters">118</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
@@ -1052,6 +1089,7 @@ title: Language Model Benchmark
    <td class="sv qa">26.81 ± 1.67 / 33.84 ± 1.40</td> <!-- ScandiQA-sv -->
   </tr>
   <tr>
+   <td class="rank"></td> <!-- Rank -->
    <td>birgermoell/roberta-swedish-scandi</td> <!-- Model ID -->
    <td class="num_model_parameters">125</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
@@ -1080,6 +1118,7 @@ title: Language Model Benchmark
    <td class="sv qa">34.06 ± 1.37 / 38.38 ± 1.32</td> <!-- ScandiQA-sv -->
   </tr>
   <tr>
+   <td class="rank"></td> <!-- Rank -->
    <td>Addedk/mbert-swedish-distilled-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">135</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">120</td> <!-- Size of the model's vocabulary -->
@@ -1108,6 +1147,7 @@ title: Language Model Benchmark
    <td class="sv qa">24.21 ± 2.41 / 26.65 ± 2.88</td> <!-- ScandiQA-sv -->
   </tr>
   <tr>
+   <td class="rank"></td> <!-- Rank -->
    <td>sentence-transformers/distiluse-base-multilingual-cased-v1</td> <!-- Model ID -->
    <td class="num_model_parameters">135</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">120</td> <!-- Size of the model's vocabulary -->
@@ -1136,6 +1176,7 @@ title: Language Model Benchmark
    <td class="sv qa">32.50 ± 1.35 / 38.20 ± 1.10</td> <!-- ScandiQA-sv -->
   </tr>
   <tr>
+   <td class="rank"></td> <!-- Rank -->
    <td>DDSC/roberta-base-scandinavian</td> <!-- Model ID -->
    <td class="num_model_parameters">125</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
@@ -1164,6 +1205,7 @@ title: Language Model Benchmark
    <td class="sv qa">37.09 ± 1.36 / 41.86 ± 1.30</td> <!-- ScandiQA-sv -->
   </tr>
   <tr>
+   <td class="rank"></td> <!-- Rank -->
    <td>DDSC/roberta-base-danish</td> <!-- Model ID -->
    <td class="num_model_parameters">125</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
@@ -1192,6 +1234,7 @@ title: Language Model Benchmark
    <td class="sv qa">35.73 ± 1.38 / 40.00 ± 1.33</td> <!-- ScandiQA-sv -->
   </tr>
   <tr>
+   <td class="rank"></td> <!-- Rank -->
    <td>KBLab/albert-base-swedish-cased-alpha</td> <!-- Model ID -->
    <td class="num_model_parameters">14</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
@@ -1220,6 +1263,7 @@ title: Language Model Benchmark
    <td class="sv qa">28.64 ± 2.91 / 35.18 ± 2.97</td> <!-- ScandiQA-sv -->
   </tr>
   <tr>
+   <td class="rank"></td> <!-- Rank -->
    <td>fresh-xlmr-base</td> <!-- Model ID -->
    <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
@@ -1248,6 +1292,7 @@ title: Language Model Benchmark
    <td class="sv qa">8.30 ± 2.28 / 14.74 ± 2.84</td> <!-- ScandiQA-sv -->
   </tr>
   <tr>
+   <td class="rank"></td> <!-- Rank -->
    <td>fresh-electra-small</td> <!-- Model ID -->
    <td class="num_model_parameters">14</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">31</td> <!-- Size of the model's vocabulary -->
@@ -1276,6 +1321,7 @@ title: Language Model Benchmark
    <td class="sv qa">0.22 ± 0.22 / 1.06 ± 0.78</td> <!-- ScandiQA-sv -->
   </tr>
   <tr>
+   <td class="rank"></td> <!-- Rank -->
    <td>pere/roberta-base-exp-32</td> <!-- Model ID -->
    <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
@@ -1304,6 +1350,7 @@ title: Language Model Benchmark
    <td class="sv qa">41.80 ± 0.83 / 46.25 ± 0.83</td> <!-- ScandiQA-sv -->
   </tr>
   <tr>
+   <td class="rank"></td> <!-- Rank -->
    <td>pere/roberta-base-exp-32B</td> <!-- Model ID -->
    <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
@@ -1332,6 +1379,7 @@ title: Language Model Benchmark
    <td class="sv qa">39.39 ± 1.09 / 43.97 ± 1.12</td> <!-- ScandiQA-sv -->
   </tr>
   <tr>
+   <td class="rank"></td> <!-- Rank -->
    <td>sarnikowski/convbert-small-da-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">13</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">29</td> <!-- Size of the model's vocabulary -->
@@ -1360,6 +1408,7 @@ title: Language Model Benchmark
    <td class="sv qa">28.49 ± 1.91 / 33.66 ± 1.69</td> <!-- ScandiQA-sv -->
   </tr>
   <tr>
+   <td class="rank"></td> <!-- Rank -->
    <td>Addedk/kbbert-distilled-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">82</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
@@ -1388,6 +1437,7 @@ title: Language Model Benchmark
    <td class="sv qa">38.72 ± 1.71 / 43.73 ± 1.81</td> <!-- ScandiQA-sv -->
   </tr>
   <tr>
+   <td class="rank"></td> <!-- Rank -->
    <td>dbmdz/bert-base-historic-multilingual-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">111</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -1416,6 +1466,7 @@ title: Language Model Benchmark
    <td class="sv qa">37.53 ± 1.59 / 42.59 ± 1.64</td> <!-- ScandiQA-sv -->
   </tr>
   <tr>
+   <td class="rank"></td> <!-- Rank -->
    <td>vesteinn/ScandiBERT-no-faroese</td> <!-- Model ID -->
    <td class="num_model_parameters">124</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
@@ -1444,6 +1495,7 @@ title: Language Model Benchmark
    <td class="sv qa">43.94 ± 1.65 / 48.90 ± 1.62</td> <!-- ScandiQA-sv -->
   </tr>
   <tr>
+   <td class="rank"></td> <!-- Rank -->
    <td>microsoft/infoxlm-base</td> <!-- Model ID -->
    <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
@@ -1472,6 +1524,7 @@ title: Language Model Benchmark
    <td class="sv qa">37.63 ± 3.75 / 42.67 ± 3.52</td> <!-- ScandiQA-sv -->
   </tr>
   <tr>
+   <td class="rank"></td> <!-- Rank -->
    <td>sentence-transformers/paraphrase-xlm-r-multilingual-v1</td> <!-- Model ID -->
    <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
@@ -1500,6 +1553,7 @@ title: Language Model Benchmark
    <td class="sv qa">28.21 ± 1.82 / 33.58 ± 1.55</td> <!-- ScandiQA-sv -->
   </tr>
   <tr>
+   <td class="rank"></td> <!-- Rank -->
    <td>sentence-transformers/quora-distilbert-multilingual</td> <!-- Model ID -->
    <td class="num_model_parameters">135</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">120</td> <!-- Size of the model's vocabulary -->
@@ -1528,6 +1582,7 @@ title: Language Model Benchmark
    <td class="sv qa">26.38 ± 2.09 / 33.19 ± 1.97</td> <!-- ScandiQA-sv -->
   </tr>
   <tr>
+   <td class="rank"></td> <!-- Rank -->
    <td>KBLab/bert-base-swedish-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">125</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
@@ -1556,6 +1611,7 @@ title: Language Model Benchmark
    <td class="sv qa">46.06 ± 1.72 / 51.14 ± 1.65</td> <!-- ScandiQA-sv -->
   </tr>
   <tr>
+   <td class="rank"></td> <!-- Rank -->
    <td>sarnikowski/convbert-medium-small-da-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">24</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">29</td> <!-- Size of the model's vocabulary -->
@@ -1584,6 +1640,7 @@ title: Language Model Benchmark
    <td class="sv qa">32.63 ± 1.57 / 37.37 ± 1.40</td> <!-- ScandiQA-sv -->
   </tr>
   <tr>
+   <td class="rank"></td> <!-- Rank -->
    <td>sarnikowski/electra-small-generator-da-256-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">4</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">29</td> <!-- Size of the model's vocabulary -->
@@ -1612,6 +1669,7 @@ title: Language Model Benchmark
    <td class="sv qa">4.59 ± 0.50 / 11.77 ± 0.63</td> <!-- ScandiQA-sv -->
   </tr>
   <tr>
+   <td class="rank"></td> <!-- Rank -->
    <td>sentence-transformers/distilbert-multilingual-nli-stsb-quora-ranking</td> <!-- Model ID -->
    <td class="num_model_parameters">135</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">120</td> <!-- Size of the model's vocabulary -->
@@ -1640,6 +1698,7 @@ title: Language Model Benchmark
    <td class="sv qa">26.38 ± 2.09 / 33.19 ± 1.97</td> <!-- ScandiQA-sv -->
   </tr>
   <tr>
+   <td class="rank"></td> <!-- Rank -->
    <td>jannesg/bertsson</td> <!-- Model ID -->
    <td class="num_model_parameters">124</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
@@ -1668,6 +1727,7 @@ title: Language Model Benchmark
    <td class="sv qa">27.14 ± 1.99 / 34.45 ± 1.97</td> <!-- ScandiQA-sv -->
   </tr>
   <tr>
+   <td class="rank"></td> <!-- Rank -->
    <td>3ebdola/Dialectal-Arabic-XLM-R-Base</td> <!-- Model ID -->
    <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
@@ -1696,6 +1756,7 @@ title: Language Model Benchmark
    <td class="sv qa">14.14 ± 3.56 / 21.74 ± 3.20</td> <!-- ScandiQA-sv -->
   </tr>
   <tr>
+   <td class="rank"></td> <!-- Rank -->
    <td>dbmdz/bert-medium-historic-multilingual-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">42</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -1724,6 +1785,7 @@ title: Language Model Benchmark
    <td class="sv qa">31.62 ± 1.13 / 37.22 ± 1.04</td> <!-- ScandiQA-sv -->
   </tr>
   <tr>
+   <td class="rank"></td> <!-- Rank -->
    <td>dbmdz/bert-tiny-historic-multilingual-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">5</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -1752,6 +1814,7 @@ title: Language Model Benchmark
    <td class="sv qa">7.29 ± 2.82 / 12.63 ± 4.51</td> <!-- ScandiQA-sv -->
   </tr>
   <tr>
+   <td class="rank"></td> <!-- Rank -->
    <td>Geotrend/bert-base-en-no-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">111</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">33</td> <!-- Size of the model's vocabulary -->
@@ -1780,6 +1843,7 @@ title: Language Model Benchmark
    <td class="sv qa">47.09 ± 1.17 / 51.88 ± 1.11</td> <!-- ScandiQA-sv -->
   </tr>
   <tr>
+   <td class="rank"></td> <!-- Rank -->
    <td>alexanderfalk/danbert-small-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">83</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">52</td> <!-- Size of the model's vocabulary -->
@@ -1808,6 +1872,7 @@ title: Language Model Benchmark
    <td class="sv qa">0.06 ± 0.07 / 0.64 ± 0.31</td> <!-- ScandiQA-sv -->
   </tr>
   <tr>
+   <td class="rank"></td> <!-- Rank -->
    <td>jjzha/dajobbert-base-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">110</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
