@@ -147,10 +147,12 @@ if(nlu_benchmark){
 
 // Fill in the rank column
 var rows = nlu_benchmark.getElementsByTagName('tr')
+var rank_idx = 1
 for (var row_idx=0; row_idx < rows.length; row_idx++){
     var row = rows[row_idx]
     var rankElements = row.getElementsByClassName('rank')
     if (rankElements.length > 0){
-        rankElements[0].innerHTML = row_idx + 1
+        rankElements[0].innerHTML = rank_idx
+        rank_idx += 1
     }
 }
