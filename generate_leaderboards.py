@@ -12,7 +12,7 @@ logging.basicConfig(
 )
 
 
-LANGAUGE_MODEL_BENCHMARK_HTML_START = """---
+NLU_BENCHMARK_HTML_START = """---
 layout: leaderboard
 title: NLU Benchmark
 ---
@@ -28,6 +28,7 @@ title: NLU Benchmark
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Number of trainable parameters in the model, in millions">Parameters</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Number of unique tokens that the model has been trained on, in thousands">Vocabulary size</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="The maximum amount of tokens the model can process">Context</span></th>
+   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="The number of samples the model processes per second on a CPU">Speed</span></th>
    <th id="score-col"><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="ScandEval score - Mean of the language scores">Score</span></th>
 
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Total Danish score - Macro-average across tasks">DA</span></th>
@@ -60,17 +61,18 @@ title: NLU Benchmark
  <tbody>"""
 
 
-LANGAUGE_MODEL_BENCHMARK_HTML_END = """ </tbody>
+NLU_BENCHMARK_HTML_END = """ </tbody>
 </table>
 </div>"""
 
 
-LANGAUGE_MODEL_BENCHMARK_ENTRY = """  <tr>
+NLU_BENCHMARK_ENTRY = """  <tr>
    <td class="rank"></td> <!-- Rank -->
    <td>{model_id}</td> <!-- Model ID -->
    <td class="num_model_parameters">{num_model_parameters}</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">{vocabulary_size}</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">{max_sequence_length}</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">{speed}</td> <!-- Model inference speed -->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
    <td class="no-score"></td> <!-- Norwegian score -->
@@ -97,7 +99,7 @@ LANGAUGE_MODEL_BENCHMARK_ENTRY = """  <tr>
 
 
 # Set up primary/secondary metrics
-PRIMARY_METRICS = ["mcc", "em", "micro_f1"]
+PRIMARY_METRICS = ["mcc", "em", "micro_f1", "speed"]
 SECONDARY_METRICS = ["macro_f1", "f1", "micro_f1_no_misc"]
 
 
@@ -109,9 +111,9 @@ def main() -> None:
     """Generate the leaderboard(s)."""
 
     # Create path to the leaderboard, and ensure that it exists
-    language_model_benchmark_path = Path("nlu-benchmark.md")
-    language_model_benchmark_path.parent.mkdir(exist_ok=True, parents=True)
-    language_model_benchmark_path.touch(exist_ok=True)
+    nlu_benchmark_path = Path("nlu-benchmark.md")
+    nlu_benchmark_path.parent.mkdir(exist_ok=True, parents=True)
+    nlu_benchmark_path.touch(exist_ok=True)
 
     # Create path to the scores JSONL file, and raise error if it doesn't exist
     scores_path = Path("scandeval_benchmark_results.jsonl")
@@ -164,10 +166,7 @@ def main() -> None:
         elif set(languages) == {"nb", "nn"}:
             language = "no"
         else:
-            raise ValueError(
-                f"Found a task ({task}) which has more than one language: {languages}. "
-                "This is currently not supported by the language model benchmark."
-            )
+            language = None
 
         # Extract shorthand notation for the task
         if task == "sentiment-classification":
@@ -178,11 +177,16 @@ def main() -> None:
             task_shorthand = "la"
         elif task == "question-answering":
             task_shorthand = "qa"
+        elif task == "speed":
+            task_shorthand = "speed"
         else:
             raise ValueError(f"Found invalid task: {task!r}")
 
         # Add the metrics to the model's score dict
-        model_scores[model_id][f"{language} {task_shorthand}"] = score_str
+        if language:
+            model_scores[model_id][f"{language} {task_shorthand}"] = score_str
+        else:
+            model_scores[model_id][task_shorthand] = score_str
 
         # Round the number of parameters to nearest million
         num_params = round(record["num_model_parameters"] / 1_000_000)
@@ -200,13 +204,14 @@ def main() -> None:
 
     # Generate language model benchmark HTML
     models_to_remove = list()
-    html_lines = [LANGAUGE_MODEL_BENCHMARK_HTML_START]
+    html_lines = [NLU_BENCHMARK_HTML_START]
     for model_id, model_dict in model_scores.items():
         values = dict(
             model_id=model_id,
             num_model_parameters=model_dict.get("num_model_parameters", ""),
             vocabulary_size=model_dict.get("vocabulary_size", ""),
             max_sequence_length=model_dict.get("max_sequence_length", ""),
+            speed=model_dict.get("speed", ""),
             da_ner=model_dict.get("da ner", ""),
             da_sent=model_dict.get("da sent", ""),
             da_la=model_dict.get("da la", ""),
@@ -223,10 +228,10 @@ def main() -> None:
             sv_qa=model_dict.get("sv qa", ""),
         )
         if all([value != "" for value in values.values()]):
-            html_lines.append(LANGAUGE_MODEL_BENCHMARK_ENTRY.format(**values))
+            html_lines.append(NLU_BENCHMARK_ENTRY.format(**values))
         else:
             models_to_remove.append(model_id)
-    html_lines.append(LANGAUGE_MODEL_BENCHMARK_HTML_END)
+    html_lines.append(NLU_BENCHMARK_HTML_END)
     html = "\n".join(html_lines)
 
     # Remove the models not added to the leaderboard
@@ -234,13 +239,13 @@ def main() -> None:
         del model_scores[model_id]
 
     # Write table to the file
-    with language_model_benchmark_path.open("w") as f:
+    with nlu_benchmark_path.open("w") as f:
         f.write(html)
 
     # Log status
     logging.info(
-        f"Generated language model benchmark with results from {len(model_scores):,} "
-        f"models, stored at {str(language_model_benchmark_path)!r}"
+        f"Generated NLU benchmark with results from {len(model_scores):,} models, "
+        f"stored at {str(nlu_benchmark_path)!r}"
     )
 
 
