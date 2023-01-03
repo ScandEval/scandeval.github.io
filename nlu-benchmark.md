@@ -1967,6 +1967,36 @@ title: NLU Benchmark
   </tr>
   <tr>
    <td class="rank"></td> <!-- Rank -->
+   <td>sentence-transformers/use-cmlm-multilingual</td> <!-- Model ID -->
+   <td class="num_model_parameters">471</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">501</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">1.90 ± 0.02</td> <!-- Model inference speed -->
+   <td class="score"></td> <!-- ScandEval score -->
+   <td class="da-score"></td> <!-- Danish score -->
+   <td class="no-score"></td> <!-- Norwegian score -->
+   <td class="sv-score"></td> <!-- Swedish score -->
+   <td class="ner-score"></td> <!-- Mean named entity recognition score -->
+   <td class="sent-score"></td> <!-- Mean sentiment classification score -->
+   <td class="la-score"></td> <!-- Mean linguistic acceptability score -->
+   <td class="qa-score"></td> <!-- Mean question answering score -->
+   <td class="da ner">81.91 ± 0.87 / 84.06 ± 0.84</td> <!-- DaNE -->
+   <td class="da sent">48.03 ± 0.74 / 65.34 ± 0.40</td> <!-- AngryTweets -->
+   <td class="da la">55.31 ± 2.29 / 76.29 ± 1.57</td> <!-- ScaLA-da -->
+   <td class="da qa">49.16 ± 2.73 / 53.75 ± 2.68</td> <!-- ScandiQA-da -->
+   <td class="no ner">87.12 ± 1.08 / 90.08 ± 0.76</td> <!-- NorNE-nb -->
+   <td class="no ner">81.89 ± 0.98 / 86.04 ± 0.78</td> <!-- NorNE-nn -->
+   <td class="no sent">56.35 ± 1.25 / 69.31 ± 1.02</td> <!-- NoReC -->
+   <td class="no la">59.38 ± 2.52 / 78.02 ± 1.71</td> <!-- ScaLA-nb -->
+   <td class="no la">46.54 ± 3.21 / 71.78 ± 2.00</td> <!-- ScaLA-nn -->
+   <td class="no qa">51.46 ± 1.85 / 56.73 ± 1.74</td> <!-- ScandiQA-no -->
+   <td class="sv ner">74.21 ± 1.26 / 80.05 ± 1.13</td> <!-- SUC3 -->
+   <td class="sv sent">75.09 ± 1.30 / 72.93 ± 2.37</td> <!-- SweReC -->
+   <td class="sv la">61.83 ± 1.28 / 79.96 ± 0.82</td> <!-- ScaLA-sv -->
+   <td class="sv qa">51.77 ± 1.30 / 57.11 ± 1.22</td> <!-- ScandiQA-sv -->
+  </tr>
+  <tr>
+   <td class="rank"></td> <!-- Rank -->
    <td>clips/mfaq</td> <!-- Model ID -->
    <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
