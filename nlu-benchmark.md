@@ -1937,6 +1937,36 @@ title: NLU Benchmark
   </tr>
   <tr>
    <td class="rank"></td> <!-- Rank -->
+   <td>pere/roberta-debug-32</td> <!-- Model ID -->
+   <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">1.95 ± 0.02</td> <!-- Model inference speed -->
+   <td class="score"></td> <!-- ScandEval score -->
+   <td class="da-score"></td> <!-- Danish score -->
+   <td class="no-score"></td> <!-- Norwegian score -->
+   <td class="sv-score"></td> <!-- Swedish score -->
+   <td class="ner-score"></td> <!-- Mean named entity recognition score -->
+   <td class="sent-score"></td> <!-- Mean sentiment classification score -->
+   <td class="la-score"></td> <!-- Mean linguistic acceptability score -->
+   <td class="qa-score"></td> <!-- Mean question answering score -->
+   <td class="da ner">77.40 ± 1.74 / 80.25 ± 1.91</td> <!-- DaNE -->
+   <td class="da sent">50.48 ± 0.68 / 66.71 ± 0.40</td> <!-- AngryTweets -->
+   <td class="da la">64.34 ± 2.43 / 80.92 ± 1.67</td> <!-- ScaLA-da -->
+   <td class="da qa">39.50 ± 1.96 / 43.47 ± 1.92</td> <!-- ScandiQA-da -->
+   <td class="no ner">85.81 ± 1.57 / 89.07 ± 1.19</td> <!-- NorNE-nb -->
+   <td class="no ner">78.80 ± 2.22 / 83.27 ± 1.68</td> <!-- NorNE-nn -->
+   <td class="no sent">53.23 ± 1.67 / 65.23 ± 2.65</td> <!-- NoReC -->
+   <td class="no la">70.06 ± 2.33 / 83.61 ± 1.61</td> <!-- ScaLA-nb -->
+   <td class="no la">66.81 ± 1.83 / 82.19 ± 1.20</td> <!-- ScaLA-nn -->
+   <td class="no qa">36.74 ± 1.41 / 41.42 ± 1.29</td> <!-- ScandiQA-no -->
+   <td class="sv ner">65.94 ± 2.04 / 72.25 ± 2.16</td> <!-- SUC3 -->
+   <td class="sv sent">75.04 ± 1.08 / 72.35 ± 2.45</td> <!-- SweReC -->
+   <td class="sv la">70.16 ± 1.47 / 84.29 ± 0.90</td> <!-- ScaLA-sv -->
+   <td class="sv qa">39.90 ± 1.83 / 44.57 ± 1.70</td> <!-- ScandiQA-sv -->
+  </tr>
+  <tr>
+   <td class="rank"></td> <!-- Rank -->
    <td>sentence-transformers/paraphrase-multilingual-mpnet-base-v2</td> <!-- Model ID -->
    <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
