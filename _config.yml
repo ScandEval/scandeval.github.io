@@ -59,6 +59,7 @@ footer-link-col: "#404040"
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
   name: Dan Saattrup Nielsen
+  name-url: https://saattrupdan.github.io/
   affiliation: The Alexandra Institute
   affiliation-url: https://alexandra.dk/
 
