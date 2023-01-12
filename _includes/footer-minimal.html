@@ -2,7 +2,7 @@
   <div class="text-muted">
 	{{ site.author.name }}
 	&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-	{{ site.author.affiliation }}
+    <a href="{{ site.author.affiliation-url }}">{{ site.author.affiliation }}</a>
 	&nbsp;&nbsp;&bull;&nbsp;&nbsp;
 	{% if page.date %}
 	  {{ page.date }}

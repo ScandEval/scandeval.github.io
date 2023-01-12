@@ -60,6 +60,7 @@ footer-link-col: "#404040"
 author:
   name: Dan Saattrup Nielsen
   affiliation: The Alexandra Institute
+  affiliation-url: https://alexandra.dk/
 
 # Select your active Social Network Links.
 # Uncomment the links you want to show in the footer and add your information to each link.
