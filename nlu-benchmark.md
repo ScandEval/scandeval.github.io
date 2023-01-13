@@ -2445,6 +2445,36 @@ title: NLU Benchmark
    <td class="sv la">1.53 ± 1.85 / 42.55 ± 3.77</td> <!-- ScaLA-sv -->
    <td class="sv qa">31.13 ± 2.77 / 34.89 ± 2.76</td> <!-- ScandiQA-sv -->
   </tr>
+  <tr>
+   <td class="rank"></td> <!-- Rank -->
+   <td>patrickvonplaten/norwegian-roberta-base</td> <!-- Model ID -->
+   <td class="num_model_parameters">125</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">2.01 ± 0.03</td> <!-- Model inference speed -->
+   <td class="score"></td> <!-- ScandEval score -->
+   <td class="da-score"></td> <!-- Danish score -->
+   <td class="no-score"></td> <!-- Norwegian score -->
+   <td class="sv-score"></td> <!-- Swedish score -->
+   <td class="ner-score"></td> <!-- Mean named entity recognition score -->
+   <td class="sent-score"></td> <!-- Mean sentiment classification score -->
+   <td class="la-score"></td> <!-- Mean linguistic acceptability score -->
+   <td class="qa-score"></td> <!-- Mean question answering score -->
+   <td class="da ner">74.45 ± 0.71 / 77.37 ± 0.74</td> <!-- DaNE -->
+   <td class="da sent">40.66 ± 0.60 / 60.41 ± 0.40</td> <!-- AngryTweets -->
+   <td class="da la">36.60 ± 8.17 / 65.89 ± 4.40</td> <!-- ScaLA-da -->
+   <td class="da qa">33.51 ± 1.85 / 37.38 ± 1.97</td> <!-- ScandiQA-da -->
+   <td class="no ner">85.72 ± 0.68 / 88.58 ± 0.62</td> <!-- NorNE-nb -->
+   <td class="no ner">79.58 ± 1.00 / 83.60 ± 0.98</td> <!-- NorNE-nn -->
+   <td class="no sent">58.16 ± 1.17 / 70.61 ± 1.02</td> <!-- NoReC -->
+   <td class="no la">64.86 ± 2.58 / 80.24 ± 1.80</td> <!-- ScaLA-nb -->
+   <td class="no la">52.72 ± 2.04 / 74.23 ± 1.73</td> <!-- ScaLA-nn -->
+   <td class="no qa">35.53 ± 1.45 / 39.65 ± 1.46</td> <!-- ScandiQA-no -->
+   <td class="sv ner">63.56 ± 1.57 / 69.21 ± 1.36</td> <!-- SUC3 -->
+   <td class="sv sent">63.27 ± 2.13 / 62.27 ± 3.49</td> <!-- SweReC -->
+   <td class="sv la">26.27 ± 5.93 / 61.44 ± 3.01</td> <!-- ScaLA-sv -->
+   <td class="sv qa">34.51 ± 1.53 / 38.94 ± 1.40</td> <!-- ScandiQA-sv -->
+  </tr>
  </tbody>
 </table>
 </div>
