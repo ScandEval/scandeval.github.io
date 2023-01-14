@@ -2475,6 +2475,96 @@ title: NLU Benchmark
    <td class="sv la">26.27 ± 5.93 / 61.44 ± 3.01</td> <!-- ScaLA-sv -->
    <td class="sv qa">34.51 ± 1.53 / 38.94 ± 1.40</td> <!-- ScandiQA-sv -->
   </tr>
+  <tr>
+   <td class="rank"></td> <!-- Rank -->
+   <td>TurkuNLP/bert-base-finnish-cased-v1</td> <!-- Model ID -->
+   <td class="num_model_parameters">125</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">2.02 ± 0.04</td> <!-- Model inference speed -->
+   <td class="score"></td> <!-- ScandEval score -->
+   <td class="da-score"></td> <!-- Danish score -->
+   <td class="no-score"></td> <!-- Norwegian score -->
+   <td class="sv-score"></td> <!-- Swedish score -->
+   <td class="ner-score"></td> <!-- Mean named entity recognition score -->
+   <td class="sent-score"></td> <!-- Mean sentiment classification score -->
+   <td class="la-score"></td> <!-- Mean linguistic acceptability score -->
+   <td class="qa-score"></td> <!-- Mean question answering score -->
+   <td class="da ner">63.53 ± 1.11 / 67.45 ± 0.99</td> <!-- DaNE -->
+   <td class="da sent">27.71 ± 1.03 / 50.39 ± 0.86</td> <!-- AngryTweets -->
+   <td class="da la">3.07 ± 2.03 / 47.90 ± 2.80</td> <!-- ScaLA-da -->
+   <td class="da qa">35.91 ± 1.72 / 39.87 ± 1.92</td> <!-- ScandiQA-da -->
+   <td class="no ner">69.29 ± 1.52 / 72.21 ± 1.47</td> <!-- NorNE-nb -->
+   <td class="no ner">59.21 ± 1.85 / 63.35 ± 1.96</td> <!-- NorNE-nn -->
+   <td class="no sent">19.30 ± 2.52 / 37.75 ± 2.45</td> <!-- NoReC -->
+   <td class="no la">1.11 ± 2.51 / 44.42 ± 2.61</td> <!-- ScaLA-nb -->
+   <td class="no la">2.67 ± 1.70 / 44.34 ± 4.55</td> <!-- ScaLA-nn -->
+   <td class="no qa">37.41 ± 2.26 / 41.71 ± 2.28</td> <!-- ScandiQA-no -->
+   <td class="sv ner">58.37 ± 1.26 / 63.05 ± 1.21</td> <!-- SUC3 -->
+   <td class="sv sent">57.64 ± 2.01 / 55.06 ± 2.50</td> <!-- SweReC -->
+   <td class="sv la">2.89 ± 1.97 / 45.55 ± 3.92</td> <!-- ScaLA-sv -->
+   <td class="sv qa">36.84 ± 0.79 / 41.03 ± 0.83</td> <!-- ScandiQA-sv -->
+  </tr>
+  <tr>
+   <td class="rank"></td> <!-- Rank -->
+   <td>deepset/gbert-base</td> <!-- Model ID -->
+   <td class="num_model_parameters">110</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">31</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">1.99 ± 0.02</td> <!-- Model inference speed -->
+   <td class="score"></td> <!-- ScandEval score -->
+   <td class="da-score"></td> <!-- Danish score -->
+   <td class="no-score"></td> <!-- Norwegian score -->
+   <td class="sv-score"></td> <!-- Swedish score -->
+   <td class="ner-score"></td> <!-- Mean named entity recognition score -->
+   <td class="sent-score"></td> <!-- Mean sentiment classification score -->
+   <td class="la-score"></td> <!-- Mean linguistic acceptability score -->
+   <td class="qa-score"></td> <!-- Mean question answering score -->
+   <td class="da ner">70.08 ± 0.97 / 72.61 ± 1.16</td> <!-- DaNE -->
+   <td class="da sent">27.60 ± 1.70 / 50.58 ± 1.22</td> <!-- AngryTweets -->
+   <td class="da la">2.49 ± 2.08 / 50.07 ± 0.99</td> <!-- ScaLA-da -->
+   <td class="da qa">34.29 ± 2.52 / 38.13 ± 2.47</td> <!-- ScandiQA-da -->
+   <td class="no ner">69.37 ± 1.08 / 71.81 ± 1.01</td> <!-- NorNE-nb -->
+   <td class="no ner">65.09 ± 1.93 / 68.15 ± 1.94</td> <!-- NorNE-nn -->
+   <td class="no sent">18.74 ± 2.05 / 37.47 ± 1.58</td> <!-- NoReC -->
+   <td class="no la">1.67 ± 1.69 / 45.73 ± 3.55</td> <!-- ScaLA-nb -->
+   <td class="no la">0.84 ± 1.75 / 44.24 ± 3.91</td> <!-- ScaLA-nn -->
+   <td class="no qa">36.07 ± 1.27 / 40.14 ± 1.27</td> <!-- ScandiQA-no -->
+   <td class="sv ner">59.86 ± 1.23 / 64.27 ± 1.33</td> <!-- SUC3 -->
+   <td class="sv sent">53.82 ± 3.41 / 53.50 ± 2.77</td> <!-- SweReC -->
+   <td class="sv la">0.69 ± 1.21 / 47.36 ± 2.87</td> <!-- ScaLA-sv -->
+   <td class="sv qa">37.25 ± 1.16 / 41.29 ± 1.06</td> <!-- ScandiQA-sv -->
+  </tr>
+  <tr>
+   <td class="rank"></td> <!-- Rank -->
+   <td>roberta-base</td> <!-- Model ID -->
+   <td class="num_model_parameters">125</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">1.92 ± 0.03</td> <!-- Model inference speed -->
+   <td class="score"></td> <!-- ScandEval score -->
+   <td class="da-score"></td> <!-- Danish score -->
+   <td class="no-score"></td> <!-- Norwegian score -->
+   <td class="sv-score"></td> <!-- Swedish score -->
+   <td class="ner-score"></td> <!-- Mean named entity recognition score -->
+   <td class="sent-score"></td> <!-- Mean sentiment classification score -->
+   <td class="la-score"></td> <!-- Mean linguistic acceptability score -->
+   <td class="qa-score"></td> <!-- Mean question answering score -->
+   <td class="da ner">69.80 ± 1.73 / 72.68 ± 1.70</td> <!-- DaNE -->
+   <td class="da sent">29.27 ± 3.00 / 51.00 ± 3.94</td> <!-- AngryTweets -->
+   <td class="da la">1.18 ± 1.48 / 40.35 ± 4.04</td> <!-- ScaLA-da -->
+   <td class="da qa">36.17 ± 2.23 / 39.52 ± 2.16</td> <!-- ScandiQA-da -->
+   <td class="no ner">73.25 ± 2.35 / 75.97 ± 2.00</td> <!-- NorNE-nb -->
+   <td class="no ner">63.94 ± 2.11 / 67.89 ± 2.17</td> <!-- NorNE-nn -->
+   <td class="no sent">17.25 ± 4.57 / 34.91 ± 3.73</td> <!-- NoReC -->
+   <td class="no la">2.95 ± 1.93 / 44.03 ± 4.72</td> <!-- ScaLA-nb -->
+   <td class="no la">1.30 ± 1.85 / 41.87 ± 4.06</td> <!-- ScaLA-nn -->
+   <td class="no qa">35.72 ± 2.06 / 39.67 ± 2.05</td> <!-- ScandiQA-no -->
+   <td class="sv ner">60.30 ± 1.25 / 65.03 ± 1.31</td> <!-- SUC3 -->
+   <td class="sv sent">53.74 ± 3.02 / 52.22 ± 1.67</td> <!-- SweReC -->
+   <td class="sv la">2.67 ± 1.29 / 38.57 ± 3.00</td> <!-- ScaLA-sv -->
+   <td class="sv qa">40.26 ± 2.11 / 44.37 ± 2.12</td> <!-- ScandiQA-sv -->
+  </tr>
  </tbody>
 </table>
 </div>
