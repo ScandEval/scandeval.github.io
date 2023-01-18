@@ -5,6 +5,7 @@ from pathlib import Path
 import json
 from typing import Dict, List, Set
 import logging
+from datetime import datetime
 
 # Set up logging, which should display logs as "HH:MM:SS [LEVEL] MESSAGE"
 logging.basicConfig(
@@ -12,11 +13,12 @@ logging.basicConfig(
 )
 
 
-NLU_BENCHMARK_HTML_START = """---
+NLU_BENCHMARK_HTML_START = f"""---
 layout: leaderboard
 title: NLU Benchmark
 ---
 
+<center>Last updated: {datetime.now().strftime("%d/%m/%Y %H:%M:%S")}</center>
 <center><i>Hover over the headings for more information</i></center>
 
 <div class="table-wrapper centered">

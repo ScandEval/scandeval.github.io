@@ -3,6 +3,7 @@ layout: leaderboard
 title: NLU Benchmark
 ---
 
+<center>Last updated: 18/01/2023 11:44:59</center>
 <center><i>Hover over the headings for more information</i></center>
 
 <div class="table-wrapper centered">
