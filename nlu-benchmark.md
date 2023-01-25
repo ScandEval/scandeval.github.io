@@ -3,7 +3,7 @@ layout: leaderboard
 title: NLU Benchmark
 ---
 
-<center>Last updated: 24/01/2023 14:37:14</center>
+<center>Last updated: 25/01/2023 08:32:29</center>
 <center><i>Hover over the headings for more information</i></center>
 
 <div class="table-wrapper centered">
@@ -442,7 +442,7 @@ title: NLU Benchmark
    <td class="num_model_parameters">355</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">0.50 ± 0.00</td> <!-- Model inference speed -->
+   <td class="speed">0.47 ± 0.01</td> <!-- Model inference speed -->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
    <td class="no-score"></td> <!-- Norwegian score -->
@@ -2962,7 +2962,7 @@ title: NLU Benchmark
    <td class="num_model_parameters">355</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">0.37 ± 0.01</td> <!-- Model inference speed -->
+   <td class="speed">0.42 ± 0.02</td> <!-- Model inference speed -->
    <td class="score"></td> <!-- ScandEval score -->
    <td class="da-score"></td> <!-- Danish score -->
    <td class="no-score"></td> <!-- Norwegian score -->
