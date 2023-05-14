@@ -3,7 +3,7 @@ layout: leaderboard
 title: NLU Benchmark
 ---
 
-<center>Last updated: 14/05/2023 16:04:29</center>
+<center>Last updated: 14/05/2023 16:29:19</center>
 <center><i>Hover over the headings for more information</i></center>
 
 <div class="table-wrapper centered">
@@ -168,7 +168,7 @@ title: NLU Benchmark
   </tr>
   <tr>
    <td class="rank"></td> <!-- Rank -->
-   <td>ltgoslo/norbert2</td> <!-- Model ID -->
+   <td>ltg/norbert2</td> <!-- Model ID -->
    <td class="num_model_parameters">125</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
@@ -2388,7 +2388,7 @@ title: NLU Benchmark
   </tr>
   <tr>
    <td class="rank"></td> <!-- Rank -->
-   <td>ltgoslo/norbert</td> <!-- Model ID -->
+   <td>ltg/norbert</td> <!-- Model ID -->
    <td class="num_model_parameters">111</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">33</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
