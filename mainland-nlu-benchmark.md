@@ -1,9 +1,9 @@
 ---
 layout: leaderboard
-title: NLU Benchmark
+title: Mainland Scandinavian NLU Benchmark
 ---
 
-<center>Last updated: 18/05/2023 10:34:12</center>
+<center>Last updated: 11/07/2023 16:29:50</center>
 <center><i>Hover over the headings for more information</i></center>
 
 <div class="table-wrapper centered">

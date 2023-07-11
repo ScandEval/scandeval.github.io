@@ -19,7 +19,8 @@ description: A Scandinavian Natural Language Understanding Benchmark
 # List of links in the navigation bar
 navbar-links:
   About: "index"
-  NLU Benchmark: "nlu-benchmark"
+  Mainland NLU Benchmark: "mainland-nlu-benchmark"
+  # Insular NLU Benchmark: "insular-nlu-benchmark"
   # NLG Benchmark: "nlg-benchmark"
   # SLU Benchmark: "slu-benchmark"
   # Paper: "paper"
