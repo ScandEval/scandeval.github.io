@@ -134,6 +134,10 @@ def main() -> None:
         if record["dataset"] in OUTDATED_DATASETS:
             continue
 
+        # TEMP: Skip record if the model has not yet been released
+        if 'gpt-sw3' in record["model"]:
+            continue
+
         # Extract data from record
         model_id: str = record["model"]
         task: str = record["task"]
