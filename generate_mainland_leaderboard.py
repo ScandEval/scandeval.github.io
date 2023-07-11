@@ -1,4 +1,4 @@
-"""Python script to generate the leaderboard(s)."""
+"""Python script to generate the Mainland Scandinavian leaderboard."""
 
 from collections import defaultdict
 from pathlib import Path
@@ -15,7 +15,7 @@ logging.basicConfig(
 
 NLU_BENCHMARK_HTML_START = f"""---
 layout: leaderboard
-title: NLU Benchmark
+title: Mainland Scandinavian NLU Benchmark
 ---
 
 <center>Last updated: {datetime.now().strftime("%d/%m/%Y %H:%M:%S")}</center>
@@ -102,7 +102,7 @@ NLU_BENCHMARK_ENTRY = """  <tr>
 
 # Set up primary/secondary metrics
 PRIMARY_METRICS = ["mcc", "em", "micro_f1", "speed"]
-SECONDARY_METRICS = ["macro_f1", "f1", "micro_f1_no_misc"]
+SECONDARY_METRICS = ["macro_f1", "f1", "micro_f1_no_misc", "speed_short"]
 
 
 # Set up list of outdated datasets
@@ -113,7 +113,7 @@ def main() -> None:
     """Generate the leaderboard(s)."""
 
     # Create path to the leaderboard, and ensure that it exists
-    nlu_benchmark_path = Path("nlu-benchmark.md")
+    nlu_benchmark_path = Path("mainland-nlu-benchmark.md")
     nlu_benchmark_path.parent.mkdir(exist_ok=True, parents=True)
     nlu_benchmark_path.touch(exist_ok=True)
 
@@ -182,10 +182,10 @@ def main() -> None:
         elif task == "speed":
             task_shorthand = "speed"
         else:
-            raise ValueError(f"Found invalid task: {task!r}")
+            continue
 
         # Add the metrics to the model's score dict
-        if language:
+        if language in ["da", "no", "nb", "nn", "sv"]:
             model_scores[model_id][f"{language} {task_shorthand}"] = score_str
         else:
             model_scores[model_id][task_shorthand] = score_str
@@ -246,8 +246,8 @@ def main() -> None:
 
     # Log status
     logging.info(
-        f"Generated NLU benchmark with results from {len(model_scores):,} models, "
-        f"stored at {str(nlu_benchmark_path)!r}"
+        f"Generated Mainland NLU benchmark with results from {len(model_scores):,} "
+        f"models, stored at {str(nlu_benchmark_path)!r}"
     )
 
 
