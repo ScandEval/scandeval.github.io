@@ -30,7 +30,7 @@ title: Mainland Scandinavian NLU Benchmark
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Number of trainable parameters in the model, in millions">Parameters</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Number of unique tokens that the model has been trained on, in thousands">Vocabulary size</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="The maximum amount of tokens the model can process">Context</span></th>
-   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="The number of samples the model processes per second on a CPU">Speed</span></th>
+   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="The number of tokens the model processes per second on an RTX 3090 Ti GPU">Speed</span></th>
    <th id="score-col"><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="ScandEval score - Mean of the language scores">Score</span></th>
 
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Total Danish score - Macro-average across tasks">DA</span></th>
