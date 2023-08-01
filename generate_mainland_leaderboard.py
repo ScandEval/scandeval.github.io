@@ -134,10 +134,6 @@ def main() -> None:
         if record["dataset"] in OUTDATED_DATASETS:
             continue
 
-        # TEMP: Skip record if the model has not yet been released
-        if 'gpt-sw3' in record["model"]:
-            continue
-
         # Extract data from record
         model_id: str = record["model"]
         task: str = record["task"]
@@ -195,7 +191,11 @@ def main() -> None:
             model_scores[model_id][task_shorthand] = score_str
 
         # Round the number of parameters to nearest million
-        num_params = round(record["num_model_parameters"] / 1_000_000)
+        num_params = (
+            round(record["num_model_parameters"] / 1_000_000)
+            if record["num_model_parameters"] >= 0
+            else "unknown"
+        )
         record["num_model_parameters"] = num_params
 
         # Round the vocabulary size to nearest thousand
