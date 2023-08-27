@@ -154,7 +154,10 @@ def main() -> None:
 
             test_score = results[f"test_{metric}"]
             test_se = results[f"test_{metric}_se"]
-            score_dict[metric] = f"{test_score:.2f} ± {test_se:.2f}"
+            if metric.startswith("speed"):
+                score_dict[metric] = f"{test_score:,.0f} ± {test_se:,.0f}"
+            else:
+                score_dict[metric] = f"{test_score:.2f} ± {test_se:.2f}"
 
         # Order the metric scores and generate final score string
         primary_metrics = [m for m in PRIMARY_METRICS if m in metrics]
