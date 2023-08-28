@@ -3,7 +3,7 @@ layout: leaderboard
 title: Mainland Scandinavian NLU Benchmark
 ---
 
-<center>Last updated: 27/08/2023 17:36:12</center>
+<center>Last updated: 28/08/2023 08:25:12</center>
 <center><i>Hover over the headings for more information</i></center>
 
 <div class="table-wrapper centered">
@@ -3825,6 +3825,36 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="sv sent">77.43 ± 1.07 / 75.95 ± 2.00</td> <!-- SweReC -->
    <td class="sv la">76.56 ± 1.06 / 87.86 ± 0.70</td> <!-- ScaLA-sv -->
    <td class="sv qa">50.25 ± 1.41 / 55.38 ± 1.31</td> <!-- ScandiQA-sv -->
+  </tr>
+  <tr>
+   <td class="rank"></td> <!-- Rank -->
+   <td>KennethEnevoldsen/dfm-sentence-encoder-medium-3</td> <!-- Model ID -->
+   <td class="num_model_parameters">178</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">120</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">13,475 ± 3,129 / 2,584 ± 838</td> <!-- Model inference speed -->
+   <td class="score"></td> <!-- ScandEval score -->
+   <td class="da-score"></td> <!-- Danish score -->
+   <td class="no-score"></td> <!-- Norwegian score -->
+   <td class="sv-score"></td> <!-- Swedish score -->
+   <td class="ner-score"></td> <!-- Mean named entity recognition score -->
+   <td class="sent-score"></td> <!-- Mean sentiment classification score -->
+   <td class="la-score"></td> <!-- Mean linguistic acceptability score -->
+   <td class="qa-score"></td> <!-- Mean question answering score -->
+   <td class="da ner">84.75 ± 0.68 / 85.19 ± 0.81</td> <!-- DaNE -->
+   <td class="da sent">47.55 ± 1.25 / 64.66 ± 0.96</td> <!-- AngryTweets -->
+   <td class="da la">68.72 ± 1.40 / 83.85 ± 0.85</td> <!-- ScaLA-da -->
+   <td class="da qa">47.46 ± 0.85 / 52.01 ± 0.85</td> <!-- ScandiQA-da -->
+   <td class="no ner">91.04 ± 0.58 / 91.17 ± 0.52</td> <!-- NorNE-nb -->
+   <td class="no ner">88.83 ± 0.84 / 87.30 ± 1.07</td> <!-- NorNE-nn -->
+   <td class="no sent">59.10 ± 1.47 / 70.50 ± 2.06</td> <!-- NoReC -->
+   <td class="no la">74.32 ± 1.76 / 86.47 ± 1.18</td> <!-- ScaLA-nb -->
+   <td class="no la">72.94 ± 1.63 / 86.07 ± 0.99</td> <!-- ScaLA-nn -->
+   <td class="no qa">47.77 ± 0.86 / 53.09 ± 0.99</td> <!-- ScandiQA-no -->
+   <td class="sv ner">79.18 ± 1.23 / 81.35 ± 1.26</td> <!-- SUC3 -->
+   <td class="sv sent">71.16 ± 1.21 / 69.78 ± 3.24</td> <!-- SweReC -->
+   <td class="sv la">63.89 ± 1.18 / 81.45 ± 0.75</td> <!-- ScaLA-sv -->
+   <td class="sv qa">45.04 ± 1.42 / 50.20 ± 1.43</td> <!-- ScandiQA-sv -->
   </tr>
  </tbody>
 </table>
