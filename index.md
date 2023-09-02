@@ -23,8 +23,8 @@ When evaluating language models we also split "Natural Language Processing" (NLP
 two groups. "Natural Language Understanding" (NLU) is concerned with an analysis of
 input text, and being able to extract insights from it. "Natural Language Generation"
 (NLG) is about *generating* text in a coherent and human-like way. ScandEval currently
-supports [NLU evaluation](https://scandeval.github.io/nlu-benchmark/), with NLG
-evaluation being on the drawing board.
+supports [NLU evaluation](https://scandeval.github.io/mainland-nlu-benchmark/), with
+NLG evaluation being on the drawing board.
 
 The NLU benchmarks evaluate the models on a variety of tasks: named entity recognition,
 sentiment classification, linguistic acceptability and question answering. For encoder
