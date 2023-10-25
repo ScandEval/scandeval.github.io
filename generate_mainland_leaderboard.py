@@ -136,7 +136,7 @@ def main() -> None:
 
         # Extract data from record
         model_id: str = record["model"]
-        if record["few_shot"]:
+        if record.get("few_shot", True):
             model_id += " (few-shot)"
         task: str = record["task"]
         languages: List[str] = record["dataset_languages"]
