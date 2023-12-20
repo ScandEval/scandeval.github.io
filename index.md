@@ -2,22 +2,23 @@
 layout: page
 mathjax: true
 title: ScandEval
-subtitle: A Scandinavian Natural Language Understanding Benchmark
+subtitle: A Natural Language Processing Benchmark
 use-site-title: true
-meta-description: ScandEval Benchmark of language models on Scandinavian language tasks
+meta-description: ScandEval Benchmark of language models on language tasks
 ---
 The `ScandEval` benchmark can be used to compare pretrained language models on
-Scandinavian language tasks.
+tasks in Danish, Swedish, Norwegian Bokmål, Norwegian Nynorsk, Icelandic, Faroese,
+German, Dutch and English.
 
-By "Scandinavian" we here mean Danish, Swedish, Norwegian Bokmål, Norwegian Nynorsk,
-Icelandic and Faroese. [It has been
-shown](https://aclanthology.org/2023.nodalida-1.20/) that it is beneficial to separate
-the Scandinavian languages into two groups for the purpose of language model
-evaluation. The group of "Mainland Scandinavian languages" consists of Danish, Swedish,
-Norwegian Bokmål and Norwegian Nynorsk, and the group of "Insular Scandinavian
-languages" consists of Icelandic and Faroese. There is currently only a Mainland
-Scandinavian leaderboard, but we're working hard on building one for the Insular
-Scandinavian languages too!
+[It has been shown](https://aclanthology.org/2023.nodalida-1.20/) that it is beneficial
+to separate the Scandinavian languages into two groups for the purpose of language
+model evaluation. The group of "Mainland Scandinavian languages" consists of Danish,
+Swedish, Norwegian Bokmål and Norwegian Nynorsk, and the group of "Insular Scandinavian
+languages" consists of Icelandic and Faroese.
+
+There is currently only a Mainland Scandinavian leaderboard, but we're working hard on
+building leaderboards for the Insular Scandinavian languages, as well as German, Dutch
+and English!
 
 When evaluating language models we also split "Natural Language Processing" (NLP) into
 two groups. "Natural Language Understanding" (NLU) is concerned with an analysis of
