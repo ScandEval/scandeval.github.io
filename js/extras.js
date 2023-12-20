@@ -156,7 +156,7 @@ for (var benchmark_idx=0; benchmark_idx < benchmarks.length; benchmark_idx++){
 
   // Fill in the rank column
   if(benchmark){
-    var rows = nlu_benchmark.getElementsByTagName('tr')
+    var rows = benchmark.getElementsByTagName('tr')
     var rank_idx = 1
     for (var row_idx=0; row_idx < rows.length; row_idx++){
         var row = rows[row_idx]
