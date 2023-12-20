@@ -40,6 +40,6 @@ the models 10 times with bootstrapped test sets and different few-shot examples 
 iteration.
 
 All benchmark results have been computed using the associated
-[ScandEval Python package](https://github.com/saattrupdan/ScandEval), which you
+[ScandEval Python package](https://github.com/ScandEval/ScandEval), which you
 can use to replicate the results as well. The methodology of the benchmark can be
 [found in the associated research paper](https://aclanthology.org/2023.nodalida-1.20/).
