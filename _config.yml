@@ -19,11 +19,7 @@ description: A Scandinavian Natural Language Understanding Benchmark
 # List of links in the navigation bar
 navbar-links:
   About: "index"
-  Mainland Scandinavian NLU Benchmark: "mainland-nlu-benchmark"
-  # Insular Scandinavian NLU Benchmark: "insular-nlu-benchmark"
-  # NLG Benchmark: "nlg-benchmark"
-  # SLU Benchmark: "slu-benchmark"
-  # Paper: "paper"
+  Mainland Scandi NLU: "mainland-scandinavian-nlu-benchmark"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
