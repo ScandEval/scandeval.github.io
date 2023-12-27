@@ -183,10 +183,10 @@ title: {title}
     BENCHMARK_ENTRY += """
   </tr>"""
 
-    # Create path to the leaderboard, and ensure that it exists
+    # Create path to the leaderboard, and ensure that the parent directory exists
     benchmark_path = Path(f"{title_kebab}.md")
     benchmark_path.parent.mkdir(exist_ok=True, parents=True)
-    benchmark_path.touch(exist_ok=True)
+    benchmark_path.unlink(missing_ok=True)
 
     # Create path to the scores JSONL file, and raise error if it doesn't exist
     scores_path = Path("scandeval_benchmark_results.jsonl")
@@ -341,14 +341,14 @@ title: {title}
         del model_scores[model_id]
 
     # Write table to the file
-    with benchmark_path.open("w") as f:
-        f.write(html)
+    if model_scores:
+        with benchmark_path.open("w") as f:
+            f.write(html)
 
-    # Log status
-    logging.info(
-        f"Generated {title} with results from {len(model_scores):,} models, stored "
-        f"at {str(benchmark_path)!r}"
-    )
+        logging.info(
+            f"Generated {title} with results from {len(model_scores):,} models, stored "
+            f"at {str(benchmark_path)!r}"
+        )
 
 
 if __name__ == "__main__":
