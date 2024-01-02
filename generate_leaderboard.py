@@ -175,10 +175,10 @@ title: {title}
     # Add dataset score columns
     for dataset_name, language_code, task_code, _, _ in datasets:
         language_code_with_space = language_code.lower() + " " if language_code is not None else ""
-        language_code_with_underscore = language_code.lower() + "_" if language_code is not None else ""
         task_code_lower = task_code.lower()
+        dataset_name_lower = dataset_name.lower().replace(" ", "_").replace("-", "_")
         BENCHMARK_ENTRY += f"""
-   <td class="{language_code_with_space}{task_code_lower}">{{{language_code_with_underscore}{task_code_lower}}}</td> <!-- {dataset_name} -->"""
+   <td class="{language_code_with_space}{task_code_lower}">{{{dataset_name_lower}}}</td> <!-- {dataset_name} -->"""
 
     BENCHMARK_ENTRY += """
   </tr>"""
@@ -198,7 +198,7 @@ title: {title}
         scores = [json.loads(line) for line in f if line.strip()]
 
     # Reorganize the scores by each model
-    model_scores: dict[str, dict[str, str]] = defaultdict(dict)
+    model_scores: dict[str, dict[str, tuple[str, str, str]]] = defaultdict(dict)
     for record in scores:
 
         # Extract data from record
@@ -209,7 +209,7 @@ title: {title}
         languages: list[str] = record["dataset_languages"]
 
         # Special case if the record is a speed benchmark
-        if record["task"] == "speed":
+        if task == "speed":
             results: dict[str, float] = record["results"]["total"]
             metrics: set[str] = {
                 key.replace('test_', '').replace('_se', '')
@@ -228,7 +228,7 @@ title: {title}
 
             relevant_metrics = ["speed", "speed_short"]
             score_str = " / ".join(score_dict[metric] for metric in relevant_metrics)
-            model_scores[model_id]["speed"] = score_str
+            model_scores[model_id]["speed"] = (score_str, " ".join(languages), task)
 
         # Non-speed case
         else:
@@ -271,12 +271,6 @@ title: {title}
             ][0]
             score_str = " / ".join(score_dict[metric] for metric in relevant_metrics)
 
-            # Extract single language from the languages
-            if len(languages) == 1:
-                language = languages[0]
-            else:
-                language = None
-
             # Extract shorthand notation for the task
             for task_code, task_name in task_mapping.items():
                 task_name_kebab = task_name.lower().replace(" ", "-")
@@ -288,10 +282,9 @@ title: {title}
                 continue
 
             # Add the metrics to the model's score dict
-            if language in languages:
-                model_scores[model_id][f"{language} {task_shorthand}"] = score_str
-            else:
-                model_scores[model_id][task_shorthand] = score_str
+            model_scores[model_id][record['dataset']] = (
+                score_str, " ".join(languages), task_shorthand
+            )
 
         # Round the number of parameters to nearest million
         num_params = (
@@ -309,7 +302,7 @@ title: {title}
         # entered
         for metadata in ["num_model_parameters", "vocabulary_size", "max_sequence_length"]:
             if metadata not in model_scores[model_id] and metadata in record:
-                model_scores[model_id][metadata] = str(record[metadata])
+                model_scores[model_id][metadata] = (str(record[metadata]), "", "")
 
     # Generate language model benchmark HTML
     models_to_remove = list()
@@ -317,21 +310,22 @@ title: {title}
     for model_id, model_dict in model_scores.items():
         values = dict(
             model_id=model_id,
-            num_model_parameters=model_dict.get("num_model_parameters", ""),
-            vocabulary_size=model_dict.get("vocabulary_size", ""),
-            max_sequence_length=model_dict.get("max_sequence_length", ""),
-            speed=model_dict.get("speed", "")
+            num_model_parameters=model_dict.get("num_model_parameters", [""])[0],
+            vocabulary_size=model_dict.get("vocabulary_size", [""])[0],
+            max_sequence_length=model_dict.get("max_sequence_length", [""])[0],
+            speed=model_dict.get("speed", [""])[0],
         )
-        for language_code, language_name in language_mapping.items():
-            for task_code, task_name in task_mapping.items():
-                if language_code is None or task_code == "speed":
-                    continue
-                values[f"{language_code}_{task_code}"] = model_dict.get(
-                    f"{language_code} {task_code}", ""
-                )
+        for dataset, _, _, _, _ in datasets:
+            dataset_underscore = dataset.lower().replace(" ", "_").replace("-", "_")
+            dataset_hyphen = dataset.lower().replace(" ", "-")
+            values[dataset_underscore] = model_dict.get(dataset_hyphen, [""])[0]
         if all([value != "" for value in values.values()]):
             html_lines.append(BENCHMARK_ENTRY.format(**values))
         else:
+            # missing_datasets = [
+            #     dataset for dataset, score_str in values.items() if score_str == ""
+            # ]
+            # print(f"{model_id}: {missing_datasets}")
             models_to_remove.append(model_id)
     html_lines.append(BENCHMARK_HTML_END)
     html = "\n".join(html_lines)
