@@ -327,10 +327,13 @@ title: {title}
         if all([value != "" for value in values.values()]):
             html_lines.append(BENCHMARK_ENTRY.format(**values))
         else:
-            # missing_datasets = [
-            #     dataset for dataset, score_str in values.items() if score_str == ""
-            # ]
-            # print(f"{model_id}: {missing_datasets}")
+
+            # TEMP
+            # missing_datasets = [
+            #     dataset for dataset, score_str in values.items() if score_str == ""
+            # ]
+            # print(f"{model_id}: {missing_datasets}")
+
             models_to_remove.append(model_id)
     html_lines.append(BENCHMARK_HTML_END)
     html = "\n".join(html_lines)
