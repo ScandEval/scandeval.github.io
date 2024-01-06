@@ -3,7 +3,7 @@ layout: leaderboard
 title: Mainland Scandinavian NLU Benchmark
 ---
 
-<center>Last updated: 06/01/2024 11:22:06</center>
+<center>Last updated: 06/01/2024 11:31:37</center>
 <center><i>Hover over the headings for more information</i></center>
 
 <div class="table-wrapper centered">
@@ -38,7 +38,6 @@ title: Mainland Scandinavian NLU Benchmark
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Norwegian linguistic acceptability - Matthews Correlation Coefficient / Macro-average F1-score">ScaLA-nb</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Norwegian linguistic acceptability - Matthews Correlation Coefficient / Macro-average F1-score">ScaLA-nn</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Norwegian question answering - Exact Match / F1-score">NorQuAD</span></th>
-   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Norwegian question answering - Exact Match / F1-score">ScandiQA-no</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Swedish named entity recognition - Micro-average F1-score / Micro-average F1-score without MISC tags">SUC3</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Swedish sentiment classification - Matthews Correlation Coefficient / Macro-average F1-score">SweReC</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Swedish linguistic acceptability - Matthews Correlation Coefficient / Macro-average F1-score">ScaLA-sv</span></th>
@@ -71,7 +70,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">73.89 ± 1.31 / 86.19 ± 0.93</td> <!-- ScaLA-nb -->
    <td class="no la">72.10 ± 2.07 / 85.37 ± 1.33</td> <!-- ScaLA-nn -->
    <td class="no qa">33.01 ± 3.06 / 45.28 ± 3.64</td> <!-- NorQuAD -->
-   <td class="no qa">35.27 ± 3.01 / 39.54 ± 3.39</td> <!-- ScandiQA-no -->
    <td class="sv ner">75.35 ± 0.88 / 80.38 ± 0.99</td> <!-- SUC3 -->
    <td class="sv sent">71.21 ± 1.11 / 67.49 ± 2.90</td> <!-- SweReC -->
    <td class="sv la">64.03 ± 1.94 / 81.39 ± 1.29</td> <!-- ScaLA-sv -->
@@ -102,7 +100,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">69.92 ± 2.01 / 83.51 ± 1.33</td> <!-- ScaLA-nb -->
    <td class="no la">70.05 ± 1.76 / 84.13 ± 1.17</td> <!-- ScaLA-nn -->
    <td class="no qa">41.98 ± 3.70 / 55.88 ± 3.70</td> <!-- NorQuAD -->
-   <td class="no qa">30.43 ± 1.60 / 35.00 ± 1.43</td> <!-- ScandiQA-no -->
    <td class="sv ner">67.31 ± 3.11 / 73.44 ± 2.81</td> <!-- SUC3 -->
    <td class="sv sent">73.63 ± 1.53 / 68.42 ± 4.24</td> <!-- SweReC -->
    <td class="sv la">58.91 ± 17.49 / 77.13 ± 10.99</td> <!-- ScaLA-sv -->
@@ -133,7 +130,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">55.30 ± 2.89 / 75.77 ± 1.87</td> <!-- ScaLA-nb -->
    <td class="no la">37.46 ± 2.69 / 67.68 ± 1.66</td> <!-- ScaLA-nn -->
    <td class="no qa">24.49 ± 6.03 / 35.93 ± 8.56</td> <!-- NorQuAD -->
-   <td class="no qa">29.72 ± 3.40 / 34.87 ± 3.54</td> <!-- ScandiQA-no -->
    <td class="sv ner">67.03 ± 1.55 / 72.49 ± 1.68</td> <!-- SUC3 -->
    <td class="sv sent">70.69 ± 1.08 / 67.03 ± 3.40</td> <!-- SweReC -->
    <td class="sv la">56.60 ± 3.25 / 76.70 ± 2.48</td> <!-- ScaLA-sv -->
@@ -164,7 +160,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">31.45 ± 12.12 / 63.68 ± 6.21</td> <!-- ScaLA-nb -->
    <td class="no la">36.12 ± 8.59 / 66.98 ± 4.91</td> <!-- ScaLA-nn -->
    <td class="no qa">41.59 ± 2.45 / 54.67 ± 2.65</td> <!-- NorQuAD -->
-   <td class="no qa">39.40 ± 1.47 / 43.81 ± 1.55</td> <!-- ScandiQA-no -->
    <td class="sv ner">70.38 ± 1.01 / 76.55 ± 1.28</td> <!-- SUC3 -->
    <td class="sv sent">61.60 ± 1.38 / 62.28 ± 3.13</td> <!-- SweReC -->
    <td class="sv la">37.44 ± 6.65 / 66.67 ± 4.88</td> <!-- ScaLA-sv -->
@@ -195,7 +190,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">44.22 ± 3.29 / 70.31 ± 2.86</td> <!-- ScaLA-nb -->
    <td class="no la">39.55 ± 7.01 / 68.65 ± 3.36</td> <!-- ScaLA-nn -->
    <td class="no qa">40.55 ± 2.19 / 53.62 ± 2.68</td> <!-- NorQuAD -->
-   <td class="no qa">38.24 ± 2.08 / 42.62 ± 2.20</td> <!-- ScandiQA-no -->
    <td class="sv ner">70.33 ± 1.16 / 76.29 ± 1.28</td> <!-- SUC3 -->
    <td class="sv sent">61.78 ± 1.21 / 60.94 ± 3.28</td> <!-- SweReC -->
    <td class="sv la">47.74 ± 7.69 / 72.98 ± 4.74</td> <!-- ScaLA-sv -->
@@ -226,7 +220,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">46.43 ± 1.81 / 71.65 ± 1.39</td> <!-- ScaLA-nb -->
    <td class="no la">39.82 ± 2.81 / 68.68 ± 1.81</td> <!-- ScaLA-nn -->
    <td class="no qa">40.01 ± 1.58 / 53.12 ± 1.81</td> <!-- NorQuAD -->
-   <td class="no qa">38.04 ± 1.25 / 42.59 ± 1.47</td> <!-- ScandiQA-no -->
    <td class="sv ner">70.17 ± 1.46 / 75.62 ± 1.56</td> <!-- SUC3 -->
    <td class="sv sent">62.50 ± 1.10 / 60.57 ± 2.75</td> <!-- SweReC -->
    <td class="sv la">38.18 ± 7.03 / 66.99 ± 4.92</td> <!-- ScaLA-sv -->
@@ -257,7 +250,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">31.82 ± 8.92 / 62.98 ± 6.52</td> <!-- ScaLA-nb -->
    <td class="no la">32.94 ± 5.88 / 64.36 ± 4.59</td> <!-- ScaLA-nn -->
    <td class="no qa">39.46 ± 1.70 / 52.33 ± 1.94</td> <!-- NorQuAD -->
-   <td class="no qa">36.54 ± 2.03 / 40.65 ± 2.15</td> <!-- ScandiQA-no -->
    <td class="sv ner">69.57 ± 1.83 / 74.88 ± 1.45</td> <!-- SUC3 -->
    <td class="sv sent">61.89 ± 0.90 / 60.17 ± 3.06</td> <!-- SweReC -->
    <td class="sv la">40.22 ± 2.03 / 68.89 ± 2.06</td> <!-- ScaLA-sv -->
@@ -288,7 +280,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">72.87 ± 1.11 / 85.86 ± 0.63</td> <!-- ScaLA-nb -->
    <td class="no la">63.77 ± 1.27 / 81.62 ± 0.65</td> <!-- ScaLA-nn -->
    <td class="no qa">14.16 ± 4.55 / 19.70 ± 6.40</td> <!-- NorQuAD -->
-   <td class="no qa">5.81 ± 3.66 / 6.29 ± 4.04</td> <!-- ScandiQA-no -->
    <td class="sv ner">65.46 ± 1.28 / 71.07 ± 1.59</td> <!-- SUC3 -->
    <td class="sv sent">66.42 ± 0.72 / 57.57 ± 1.23</td> <!-- SweReC -->
    <td class="sv la">69.19 ± 0.66 / 84.26 ± 0.36</td> <!-- ScaLA-sv -->
@@ -319,7 +310,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">39.13 ± 2.97 / 67.97 ± 1.68</td> <!-- ScaLA-nb -->
    <td class="no la">24.13 ± 6.88 / 60.76 ± 3.29</td> <!-- ScaLA-nn -->
    <td class="no qa">19.04 ± 4.63 / 27.73 ± 6.70</td> <!-- NorQuAD -->
-   <td class="no qa">31.24 ± 1.57 / 35.41 ± 1.81</td> <!-- ScandiQA-no -->
    <td class="sv ner">76.66 ± 1.60 / 81.95 ± 1.55</td> <!-- SUC3 -->
    <td class="sv sent">75.58 ± 1.17 / 73.35 ± 2.22</td> <!-- SweReC -->
    <td class="sv la">78.86 ± 0.83 / 89.07 ± 0.50</td> <!-- ScaLA-sv -->
@@ -350,7 +340,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">55.51 ± 18.28 / 74.00 ± 13.38</td> <!-- ScaLA-nb -->
    <td class="no la">43.89 ± 14.81 / 68.88 ± 10.32</td> <!-- ScaLA-nn -->
    <td class="no qa">57.57 ± 2.43 / 72.69 ± 2.22</td> <!-- NorQuAD -->
-   <td class="no qa">44.63 ± 1.05 / 49.69 ± 0.89</td> <!-- ScandiQA-no -->
    <td class="sv ner">75.03 ± 3.79 / 80.33 ± 2.50</td> <!-- SUC3 -->
    <td class="sv sent">76.63 ± 0.98 / 74.25 ± 3.20</td> <!-- SweReC -->
    <td class="sv la">49.72 ± 19.88 / 69.94 ± 13.64</td> <!-- ScaLA-sv -->
@@ -381,7 +370,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">70.55 ± 1.64 / 84.79 ± 0.86</td> <!-- ScaLA-nb -->
    <td class="no la">61.21 ± 1.20 / 79.87 ± 0.76</td> <!-- ScaLA-nn -->
    <td class="no qa">48.82 ± 1.20 / 63.72 ± 1.06</td> <!-- NorQuAD -->
-   <td class="no qa">42.86 ± 1.22 / 48.99 ± 1.19</td> <!-- ScandiQA-no -->
    <td class="sv ner">72.86 ± 2.04 / 78.84 ± 2.19</td> <!-- SUC3 -->
    <td class="sv sent">75.24 ± 0.99 / 72.06 ± 2.67</td> <!-- SweReC -->
    <td class="sv la">72.30 ± 1.04 / 85.77 ± 0.65</td> <!-- ScaLA-sv -->
@@ -412,7 +400,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">59.44 ± 1.47 / 78.80 ± 1.00</td> <!-- ScaLA-nb -->
    <td class="no la">49.30 ± 1.39 / 74.02 ± 1.04</td> <!-- ScaLA-nn -->
    <td class="no qa">46.42 ± 1.44 / 61.82 ± 1.47</td> <!-- NorQuAD -->
-   <td class="no qa">40.50 ± 0.74 / 45.74 ± 0.81</td> <!-- ScandiQA-no -->
    <td class="sv ner">72.08 ± 1.81 / 77.78 ± 1.69</td> <!-- SUC3 -->
    <td class="sv sent">73.58 ± 1.37 / 70.43 ± 2.49</td> <!-- SweReC -->
    <td class="sv la">60.36 ± 2.98 / 79.72 ± 1.52</td> <!-- ScaLA-sv -->
@@ -443,7 +430,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">27.39 ± 2.48 / 61.03 ± 2.27</td> <!-- ScaLA-nb -->
    <td class="no la">23.56 ± 2.23 / 60.05 ± 1.05</td> <!-- ScaLA-nn -->
    <td class="no qa">39.01 ± 1.18 / 51.83 ± 1.58</td> <!-- NorQuAD -->
-   <td class="no qa">39.71 ± 0.96 / 45.25 ± 0.94</td> <!-- ScandiQA-no -->
    <td class="sv ner">76.08 ± 1.45 / 81.05 ± 1.34</td> <!-- SUC3 -->
    <td class="sv sent">78.00 ± 0.89 / 75.01 ± 2.18</td> <!-- SweReC -->
    <td class="sv la">76.79 ± 1.70 / 87.59 ± 1.06</td> <!-- ScaLA-sv -->
@@ -474,7 +460,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">37.54 ± 1.13 / 64.46 ± 1.44</td> <!-- ScaLA-nb -->
    <td class="no la">23.10 ± 3.66 / 58.14 ± 3.65</td> <!-- ScaLA-nn -->
    <td class="no qa">39.97 ± 0.84 / 51.67 ± 1.11</td> <!-- NorQuAD -->
-   <td class="no qa">38.13 ± 1.55 / 43.19 ± 1.74</td> <!-- ScandiQA-no -->
    <td class="sv ner">72.84 ± 1.51 / 78.61 ± 1.45</td> <!-- SUC3 -->
    <td class="sv sent">77.47 ± 0.80 / 75.77 ± 2.13</td> <!-- SweReC -->
    <td class="sv la">72.87 ± 2.36 / 85.57 ± 1.43</td> <!-- ScaLA-sv -->
@@ -505,7 +490,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">21.39 ± 2.73 / 58.08 ± 1.93</td> <!-- ScaLA-nb -->
    <td class="no la">17.10 ± 3.43 / 57.00 ± 1.86</td> <!-- ScaLA-nn -->
    <td class="no qa">35.32 ± 1.71 / 47.41 ± 2.25</td> <!-- NorQuAD -->
-   <td class="no qa">38.92 ± 0.96 / 44.25 ± 1.03</td> <!-- ScandiQA-no -->
    <td class="sv ner">74.83 ± 1.44 / 80.39 ± 1.34</td> <!-- SUC3 -->
    <td class="sv sent">78.45 ± 0.79 / 77.12 ± 0.86</td> <!-- SweReC -->
    <td class="sv la">76.28 ± 1.86 / 87.37 ± 1.15</td> <!-- ScaLA-sv -->
@@ -536,7 +520,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">48.07 ± 5.64 / 72.00 ± 4.07</td> <!-- ScaLA-nb -->
    <td class="no la">29.81 ± 3.52 / 64.03 ± 2.35</td> <!-- ScaLA-nn -->
    <td class="no qa">0.44 ± 0.41 / 1.08 ± 0.99</td> <!-- NorQuAD -->
-   <td class="no qa">27.54 ± 1.10 / 31.80 ± 1.13</td> <!-- ScandiQA-no -->
    <td class="sv ner">66.93 ± 1.30 / 72.90 ± 1.37</td> <!-- SUC3 -->
    <td class="sv sent">61.11 ± 1.28 / 58.97 ± 2.27</td> <!-- SweReC -->
    <td class="sv la">55.05 ± 1.64 / 76.76 ± 0.93</td> <!-- ScaLA-sv -->
@@ -567,7 +550,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">22.02 ± 5.34 / 57.45 ± 3.59</td> <!-- ScaLA-nb -->
    <td class="no la">19.72 ± 3.67 / 56.70 ± 2.89</td> <!-- ScaLA-nn -->
    <td class="no qa">0.78 ± 0.74 / 1.49 ± 1.32</td> <!-- NorQuAD -->
-   <td class="no qa">26.74 ± 0.91 / 30.79 ± 0.93</td> <!-- ScandiQA-no -->
    <td class="sv ner">70.45 ± 1.62 / 75.40 ± 1.45</td> <!-- SUC3 -->
    <td class="sv sent">76.22 ± 0.78 / 75.25 ± 1.16</td> <!-- SweReC -->
    <td class="sv la">65.73 ± 1.73 / 81.50 ± 1.14</td> <!-- ScaLA-sv -->
@@ -598,7 +580,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">9.56 ± 5.01 / 52.24 ± 2.78</td> <!-- ScaLA-nb -->
    <td class="no la">4.16 ± 2.97 / 50.07 ± 2.09</td> <!-- ScaLA-nn -->
    <td class="no qa">22.84 ± 2.52 / 33.72 ± 3.11</td> <!-- NorQuAD -->
-   <td class="no qa">24.84 ± 1.79 / 29.84 ± 1.59</td> <!-- ScandiQA-no -->
    <td class="sv ner">74.07 ± 1.54 / 79.99 ± 1.32</td> <!-- SUC3 -->
    <td class="sv sent">76.04 ± 0.97 / 72.61 ± 1.82</td> <!-- SweReC -->
    <td class="sv la">73.52 ± 2.31 / 85.57 ± 1.53</td> <!-- ScaLA-sv -->
@@ -629,7 +610,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">24.23 ± 1.83 / 58.89 ± 1.43</td> <!-- ScaLA-nb -->
    <td class="no la">18.18 ± 2.65 / 57.28 ± 1.84</td> <!-- ScaLA-nn -->
    <td class="no qa">20.56 ± 1.82 / 30.08 ± 2.54</td> <!-- NorQuAD -->
-   <td class="no qa">28.66 ± 1.73 / 33.95 ± 1.68</td> <!-- ScandiQA-no -->
    <td class="sv ner">73.18 ± 0.95 / 79.29 ± 0.94</td> <!-- SUC3 -->
    <td class="sv sent">75.85 ± 0.54 / 70.58 ± 1.96</td> <!-- SweReC -->
    <td class="sv la">70.43 ± 1.03 / 83.85 ± 0.65</td> <!-- ScaLA-sv -->
@@ -660,7 +640,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">33.57 ± 2.58 / 65.22 ± 1.59</td> <!-- ScaLA-nb -->
    <td class="no la">21.79 ± 1.60 / 60.32 ± 0.99</td> <!-- ScaLA-nn -->
    <td class="no qa">0.03 ± 0.07 / 0.05 ± 0.10</td> <!-- NorQuAD -->
-   <td class="no qa">0.58 ± 1.15 / 0.71 ± 1.39</td> <!-- ScandiQA-no -->
    <td class="sv ner">54.55 ± 1.33 / 57.82 ± 1.40</td> <!-- SUC3 -->
    <td class="sv sent">55.68 ± 1.09 / 52.81 ± 0.44</td> <!-- SweReC -->
    <td class="sv la">19.26 ± 1.80 / 58.62 ± 1.22</td> <!-- ScaLA-sv -->
@@ -691,7 +670,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">29.47 ± 2.30 / 62.25 ± 1.69</td> <!-- ScaLA-nb -->
    <td class="no la">12.95 ± 3.01 / 55.31 ± 1.87</td> <!-- ScaLA-nn -->
    <td class="no qa">0.91 ± 0.93 / 2.56 ± 2.15</td> <!-- NorQuAD -->
-   <td class="no qa">24.99 ± 3.12 / 31.27 ± 2.83</td> <!-- ScandiQA-no -->
    <td class="sv ner">47.15 ± 1.18 / 50.29 ± 1.22</td> <!-- SUC3 -->
    <td class="sv sent">57.42 ± 1.88 / 56.53 ± 1.66</td> <!-- SweReC -->
    <td class="sv la">4.94 ± 1.62 / 51.57 ± 1.19</td> <!-- ScaLA-sv -->
@@ -722,7 +700,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">32.87 ± 1.49 / 65.82 ± 0.78</td> <!-- ScaLA-nb -->
    <td class="no la">20.09 ± 1.88 / 59.27 ± 1.08</td> <!-- ScaLA-nn -->
    <td class="no qa">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- NorQuAD -->
-   <td class="no qa">1.29 ± 1.58 / 1.38 ± 1.70</td> <!-- ScandiQA-no -->
    <td class="sv ner">36.74 ± 3.78 / 39.17 ± 4.06</td> <!-- SUC3 -->
    <td class="sv sent">57.71 ± 1.40 / 53.54 ± 0.59</td> <!-- SweReC -->
    <td class="sv la">17.10 ± 2.57 / 57.41 ± 1.03</td> <!-- ScaLA-sv -->
@@ -753,7 +730,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">36.30 ± 6.44 / 65.52 ± 3.06</td> <!-- ScaLA-nb -->
    <td class="no la">14.21 ± 6.44 / 52.78 ± 5.69</td> <!-- ScaLA-nn -->
    <td class="no qa">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- NorQuAD -->
-   <td class="no qa">21.51 ± 1.72 / 26.97 ± 1.64</td> <!-- ScandiQA-no -->
    <td class="sv ner">62.54 ± 1.20 / 68.94 ± 1.53</td> <!-- SUC3 -->
    <td class="sv sent">72.77 ± 0.89 / 68.13 ± 1.56</td> <!-- SweReC -->
    <td class="sv la">40.21 ± 2.53 / 67.11 ± 1.86</td> <!-- ScaLA-sv -->
@@ -784,7 +760,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">36.41 ± 8.89 / 65.20 ± 6.41</td> <!-- ScaLA-nb -->
    <td class="no la">30.37 ± 5.50 / 62.12 ± 5.66</td> <!-- ScaLA-nn -->
    <td class="no qa">37.71 ± 1.11 / 49.90 ± 1.47</td> <!-- NorQuAD -->
-   <td class="no qa">35.77 ± 2.11 / 39.84 ± 2.30</td> <!-- ScandiQA-no -->
    <td class="sv ner">68.93 ± 1.36 / 74.13 ± 1.17</td> <!-- SUC3 -->
    <td class="sv sent">62.18 ± 1.26 / 59.44 ± 2.35</td> <!-- SweReC -->
    <td class="sv la">36.93 ± 6.47 / 65.97 ± 6.05</td> <!-- ScaLA-sv -->
@@ -815,7 +790,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">36.10 ± 2.45 / 66.11 ± 1.85</td> <!-- ScaLA-nb -->
    <td class="no la">30.10 ± 2.50 / 64.29 ± 1.69</td> <!-- ScaLA-nn -->
    <td class="no qa">19.26 ± 1.57 / 30.04 ± 2.13</td> <!-- NorQuAD -->
-   <td class="no qa">27.10 ± 1.49 / 31.24 ± 1.46</td> <!-- ScandiQA-no -->
    <td class="sv ner">64.46 ± 1.31 / 70.08 ± 1.38</td> <!-- SUC3 -->
    <td class="sv sent">59.66 ± 1.22 / 56.16 ± 2.13</td> <!-- SweReC -->
    <td class="sv la">33.71 ± 1.12 / 65.32 ± 0.86</td> <!-- ScaLA-sv -->
@@ -846,7 +820,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">32.60 ± 6.93 / 65.19 ± 3.31</td> <!-- ScaLA-nb -->
    <td class="no la">24.97 ± 6.47 / 61.39 ± 3.34</td> <!-- ScaLA-nn -->
    <td class="no qa">19.93 ± 1.76 / 30.69 ± 2.36</td> <!-- NorQuAD -->
-   <td class="no qa">29.09 ± 0.94 / 33.04 ± 0.85</td> <!-- ScandiQA-no -->
    <td class="sv ner">64.49 ± 1.43 / 70.56 ± 1.36</td> <!-- SUC3 -->
    <td class="sv sent">60.69 ± 0.46 / 56.69 ± 1.35</td> <!-- SweReC -->
    <td class="sv la">30.83 ± 1.47 / 63.39 ± 1.60</td> <!-- ScaLA-sv -->
@@ -877,7 +850,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">34.24 ± 2.30 / 65.60 ± 1.50</td> <!-- ScaLA-nb -->
    <td class="no la">27.20 ± 2.61 / 62.87 ± 1.41</td> <!-- ScaLA-nn -->
    <td class="no qa">16.44 ± 1.76 / 26.22 ± 2.65</td> <!-- NorQuAD -->
-   <td class="no qa">28.42 ± 0.77 / 32.35 ± 0.81</td> <!-- ScandiQA-no -->
    <td class="sv ner">63.90 ± 1.27 / 69.25 ± 1.37</td> <!-- SUC3 -->
    <td class="sv sent">58.47 ± 1.30 / 56.03 ± 2.36</td> <!-- SweReC -->
    <td class="sv la">29.80 ± 1.57 / 63.53 ± 0.90</td> <!-- ScaLA-sv -->
@@ -908,7 +880,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">31.50 ± 6.37 / 64.62 ± 3.29</td> <!-- ScaLA-nb -->
    <td class="no la">24.06 ± 7.24 / 61.01 ± 3.82</td> <!-- ScaLA-nn -->
    <td class="no qa">18.62 ± 0.81 / 29.69 ± 1.81</td> <!-- NorQuAD -->
-   <td class="no qa">27.00 ± 1.09 / 31.38 ± 0.80</td> <!-- ScandiQA-no -->
    <td class="sv ner">63.51 ± 1.33 / 69.62 ± 0.88</td> <!-- SUC3 -->
    <td class="sv sent">59.42 ± 1.21 / 55.74 ± 1.26</td> <!-- SweReC -->
    <td class="sv la">29.01 ± 2.06 / 62.65 ± 1.37</td> <!-- ScaLA-sv -->
@@ -939,7 +910,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">12.16 ± 5.91 / 50.55 ± 4.73</td> <!-- ScaLA-nb -->
    <td class="no la">8.99 ± 2.25 / 48.57 ± 3.67</td> <!-- ScaLA-nn -->
    <td class="no qa">49.24 ± 1.30 / 64.35 ± 1.24</td> <!-- NorQuAD -->
-   <td class="no qa">29.01 ± 2.06 / 33.58 ± 1.99</td> <!-- ScandiQA-no -->
    <td class="sv ner">73.04 ± 2.25 / 78.60 ± 1.91</td> <!-- SUC3 -->
    <td class="sv sent">73.67 ± 1.48 / 68.61 ± 3.14</td> <!-- SweReC -->
    <td class="sv la">15.41 ± 4.59 / 53.29 ± 3.93</td> <!-- ScaLA-sv -->
@@ -970,7 +940,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">33.65 ± 6.63 / 65.22 ± 4.03</td> <!-- ScaLA-nb -->
    <td class="no la">29.07 ± 2.20 / 63.35 ± 1.54</td> <!-- ScaLA-nn -->
    <td class="no qa">19.29 ± 1.27 / 29.94 ± 1.81</td> <!-- NorQuAD -->
-   <td class="no qa">27.59 ± 0.51 / 31.65 ± 0.54</td> <!-- ScandiQA-no -->
    <td class="sv ner">63.93 ± 1.47 / 69.94 ± 1.11</td> <!-- SUC3 -->
    <td class="sv sent">59.83 ± 1.11 / 55.15 ± 0.99</td> <!-- SweReC -->
    <td class="sv la">29.82 ± 1.23 / 63.32 ± 1.41</td> <!-- ScaLA-sv -->
@@ -1001,7 +970,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">26.92 ± 3.12 / 61.93 ± 2.04</td> <!-- ScaLA-nb -->
    <td class="no la">14.63 ± 4.00 / 56.24 ± 2.51</td> <!-- ScaLA-nn -->
    <td class="no qa">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- NorQuAD -->
-   <td class="no qa">17.10 ± 0.57 / 24.19 ± 0.79</td> <!-- ScandiQA-no -->
    <td class="sv ner">59.99 ± 1.40 / 66.50 ± 1.49</td> <!-- SUC3 -->
    <td class="sv sent">72.19 ± 0.71 / 67.88 ± 2.34</td> <!-- SweReC -->
    <td class="sv la">28.75 ± 5.58 / 63.30 ± 2.60</td> <!-- ScaLA-sv -->
@@ -1032,7 +1000,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">15.83 ± 10.06 / 55.51 ± 5.25</td> <!-- ScaLA-nb -->
    <td class="no la">8.70 ± 4.78 / 52.69 ± 2.75</td> <!-- ScaLA-nn -->
    <td class="no qa">1.04 ± 1.17 / 1.93 ± 2.12</td> <!-- NorQuAD -->
-   <td class="no qa">26.01 ± 0.83 / 30.43 ± 0.86</td> <!-- ScandiQA-no -->
    <td class="sv ner">62.00 ± 2.58 / 68.55 ± 3.16</td> <!-- SUC3 -->
    <td class="sv sent">69.96 ± 1.75 / 68.67 ± 3.21</td> <!-- SweReC -->
    <td class="sv la">52.88 ± 14.23 / 75.25 ± 7.45</td> <!-- ScaLA-sv -->
@@ -1063,7 +1030,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">21.99 ± 6.74 / 54.54 ± 7.12</td> <!-- ScaLA-nb -->
    <td class="no la">19.06 ± 4.26 / 56.45 ± 5.24</td> <!-- ScaLA-nn -->
    <td class="no qa">9.47 ± 5.36 / 15.24 ± 8.64</td> <!-- NorQuAD -->
-   <td class="no qa">19.54 ± 2.06 / 22.69 ± 2.28</td> <!-- ScandiQA-no -->
    <td class="sv ner">66.98 ± 1.68 / 73.41 ± 1.54</td> <!-- SUC3 -->
    <td class="sv sent">62.10 ± 1.18 / 60.27 ± 2.82</td> <!-- SweReC -->
    <td class="sv la">34.86 ± 1.29 / 66.98 ± 0.77</td> <!-- ScaLA-sv -->
@@ -1094,7 +1060,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">2.65 ± 2.08 / 48.09 ± 1.42</td> <!-- ScaLA-nb -->
    <td class="no la">3.47 ± 1.47 / 48.98 ± 1.75</td> <!-- ScaLA-nn -->
    <td class="no qa">0.20 ± 0.09 / 0.82 ± 0.39</td> <!-- NorQuAD -->
-   <td class="no qa">14.36 ± 2.52 / 21.71 ± 3.03</td> <!-- ScandiQA-no -->
    <td class="sv ner">44.53 ± 1.58 / 49.86 ± 1.85</td> <!-- SUC3 -->
    <td class="sv sent">60.06 ± 1.30 / 55.65 ± 1.34</td> <!-- SweReC -->
    <td class="sv la">3.18 ± 1.63 / 48.38 ± 1.42</td> <!-- ScaLA-sv -->
@@ -1125,7 +1090,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">8.02 ± 12.19 / 50.30 ± 7.19</td> <!-- ScaLA-nb -->
    <td class="no la">17.04 ± 13.78 / 56.87 ± 7.06</td> <!-- ScaLA-nn -->
    <td class="no qa">29.26 ± 1.27 / 42.50 ± 1.17</td> <!-- NorQuAD -->
-   <td class="no qa">27.92 ± 1.29 / 32.28 ± 1.15</td> <!-- ScandiQA-no -->
    <td class="sv ner">53.63 ± 12.63 / 58.84 ± 13.92</td> <!-- SUC3 -->
    <td class="sv sent">72.28 ± 0.79 / 71.62 ± 1.38</td> <!-- SweReC -->
    <td class="sv la">37.61 ± 17.89 / 66.93 ± 9.43</td> <!-- ScaLA-sv -->
@@ -1156,7 +1120,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">0.45 ± 1.61 / 49.14 ± 1.42</td> <!-- ScaLA-nb -->
    <td class="no la">-0.08 ± 1.79 / 45.89 ± 3.49</td> <!-- ScaLA-nn -->
    <td class="no qa">23.91 ± 2.24 / 36.47 ± 2.77</td> <!-- NorQuAD -->
-   <td class="no qa">27.08 ± 1.48 / 31.31 ± 1.37</td> <!-- ScandiQA-no -->
    <td class="sv ner">60.53 ± 1.38 / 65.95 ± 1.70</td> <!-- SUC3 -->
    <td class="sv sent">64.02 ± 2.78 / 62.27 ± 4.19</td> <!-- SweReC -->
    <td class="sv la">0.80 ± 0.78 / 47.24 ± 3.43</td> <!-- ScaLA-sv -->
@@ -1187,7 +1150,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">5.83 ± 2.36 / 51.59 ± 1.57</td> <!-- ScaLA-nb -->
    <td class="no la">4.02 ± 2.29 / 51.66 ± 1.21</td> <!-- ScaLA-nn -->
    <td class="no qa">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- NorQuAD -->
-   <td class="no qa">23.07 ± 2.29 / 28.36 ± 2.26</td> <!-- ScandiQA-no -->
    <td class="sv ner">44.34 ± 8.27 / 47.19 ± 9.01</td> <!-- SUC3 -->
    <td class="sv sent">56.57 ± 1.41 / 53.47 ± 0.84</td> <!-- SweReC -->
    <td class="sv la">20.92 ± 4.12 / 59.05 ± 1.86</td> <!-- ScaLA-sv -->
@@ -1218,7 +1180,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">0.50 ± 1.27 / 36.93 ± 4.00</td> <!-- ScaLA-nb -->
    <td class="no la">1.83 ± 1.64 / 37.67 ± 4.40</td> <!-- ScaLA-nn -->
    <td class="no qa">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- NorQuAD -->
-   <td class="no qa">1.55 ± 0.69 / 5.88 ± 2.00</td> <!-- ScandiQA-no -->
    <td class="sv ner">11.31 ± 2.90 / 11.91 ± 3.04</td> <!-- SUC3 -->
    <td class="sv sent">51.11 ± 5.32 / 50.09 ± 3.33</td> <!-- SweReC -->
    <td class="sv la">0.86 ± 0.82 / 39.16 ± 3.63</td> <!-- ScaLA-sv -->
@@ -1249,7 +1210,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">0.17 ± 0.84 / 36.29 ± 2.91</td> <!-- ScaLA-nb -->
    <td class="no la">0.37 ± 0.69 / 35.08 ± 2.81</td> <!-- ScaLA-nn -->
    <td class="no qa">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- NorQuAD -->
-   <td class="no qa">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- ScandiQA-no -->
    <td class="sv ner">9.71 ± 1.00 / 10.54 ± 1.12</td> <!-- SUC3 -->
    <td class="sv sent">55.54 ± 2.75 / 52.75 ± 1.09</td> <!-- SweReC -->
    <td class="sv la">-0.15 ± 0.52 / 35.33 ± 3.00</td> <!-- ScaLA-sv -->
@@ -1280,7 +1240,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">63.31 ± 11.58 / 80.18 ± 5.59</td> <!-- ScaLA-nb -->
    <td class="no la">62.79 ± 11.35 / 79.65 ± 6.48</td> <!-- ScaLA-nn -->
    <td class="no qa">41.05 ± 2.59 / 54.44 ± 3.33</td> <!-- NorQuAD -->
-   <td class="no qa">30.63 ± 1.77 / 34.98 ± 1.76</td> <!-- ScandiQA-no -->
    <td class="sv ner">73.45 ± 0.86 / 79.75 ± 0.94</td> <!-- SUC3 -->
    <td class="sv sent">74.73 ± 1.15 / 70.83 ± 3.72</td> <!-- SweReC -->
    <td class="sv la">53.55 ± 16.68 / 75.79 ± 8.05</td> <!-- ScaLA-sv -->
@@ -1311,7 +1270,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">54.98 ± 14.19 / 75.67 ± 6.70</td> <!-- ScaLA-nb -->
    <td class="no la">58.33 ± 10.94 / 77.88 ± 5.29</td> <!-- ScaLA-nn -->
    <td class="no qa">29.17 ± 1.36 / 41.75 ± 1.59</td> <!-- NorQuAD -->
-   <td class="no qa">27.83 ± 1.27 / 32.42 ± 1.29</td> <!-- ScandiQA-no -->
    <td class="sv ner">72.10 ± 0.94 / 77.97 ± 0.82</td> <!-- SUC3 -->
    <td class="sv sent">73.27 ± 0.75 / 71.87 ± 1.30</td> <!-- SweReC -->
    <td class="sv la">47.19 ± 16.37 / 72.10 ± 8.03</td> <!-- ScaLA-sv -->
@@ -1342,7 +1300,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">35.43 ± 2.39 / 66.84 ± 1.17</td> <!-- ScaLA-nb -->
    <td class="no la">21.11 ± 1.97 / 60.09 ± 0.93</td> <!-- ScaLA-nn -->
    <td class="no qa">1.84 ± 2.41 / 2.78 ± 3.65</td> <!-- NorQuAD -->
-   <td class="no qa">21.73 ± 0.91 / 26.66 ± 0.95</td> <!-- ScandiQA-no -->
    <td class="sv ner">51.37 ± 1.03 / 55.06 ± 0.96</td> <!-- SUC3 -->
    <td class="sv sent">53.70 ± 1.46 / 51.98 ± 0.58</td> <!-- SweReC -->
    <td class="sv la">12.38 ± 3.23 / 55.18 ± 1.91</td> <!-- ScaLA-sv -->
@@ -1373,7 +1330,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">14.99 ± 4.11 / 52.87 ± 4.48</td> <!-- ScaLA-nb -->
    <td class="no la">13.63 ± 4.52 / 53.34 ± 4.61</td> <!-- ScaLA-nn -->
    <td class="no qa">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- NorQuAD -->
-   <td class="no qa">25.23 ± 1.62 / 29.07 ± 1.54</td> <!-- ScandiQA-no -->
    <td class="sv ner">73.78 ± 1.37 / 80.12 ± 1.41</td> <!-- SUC3 -->
    <td class="sv sent">71.28 ± 1.09 / 69.73 ± 2.94</td> <!-- SweReC -->
    <td class="sv la">51.58 ± 2.89 / 73.82 ± 2.21</td> <!-- ScaLA-sv -->
@@ -1404,7 +1360,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">6.73 ± 5.40 / 48.20 ± 3.68</td> <!-- ScaLA-nb -->
    <td class="no la">3.35 ± 2.61 / 47.52 ± 3.20</td> <!-- ScaLA-nn -->
    <td class="no qa">22.57 ± 1.57 / 34.64 ± 1.94</td> <!-- NorQuAD -->
-   <td class="no qa">26.84 ± 1.19 / 31.38 ± 1.36</td> <!-- ScandiQA-no -->
    <td class="sv ner">63.29 ± 1.48 / 68.83 ± 1.00</td> <!-- SUC3 -->
    <td class="sv sent">64.25 ± 1.66 / 63.62 ± 2.92</td> <!-- SweReC -->
    <td class="sv la">28.62 ± 9.43 / 59.33 ± 5.91</td> <!-- ScaLA-sv -->
@@ -1435,7 +1390,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">69.34 ± 3.13 / 83.11 ± 2.17</td> <!-- ScaLA-nb -->
    <td class="no la">66.24 ± 2.41 / 82.36 ± 1.49</td> <!-- ScaLA-nn -->
    <td class="no qa">48.45 ± 0.63 / 62.96 ± 0.80</td> <!-- NorQuAD -->
-   <td class="no qa">32.38 ± 2.54 / 36.60 ± 2.64</td> <!-- ScandiQA-no -->
    <td class="sv ner">73.06 ± 2.01 / 79.08 ± 2.32</td> <!-- SUC3 -->
    <td class="sv sent">72.53 ± 0.98 / 67.74 ± 3.02</td> <!-- SweReC -->
    <td class="sv la">73.01 ± 1.43 / 85.98 ± 0.81</td> <!-- ScaLA-sv -->
@@ -1466,7 +1420,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">11.20 ± 2.99 / 48.77 ± 5.01</td> <!-- ScaLA-nb -->
    <td class="no la">7.12 ± 2.39 / 49.23 ± 4.14</td> <!-- ScaLA-nn -->
    <td class="no qa">47.69 ± 1.95 / 62.39 ± 1.74</td> <!-- NorQuAD -->
-   <td class="no qa">31.45 ± 1.86 / 35.85 ± 1.72</td> <!-- ScandiQA-no -->
    <td class="sv ner">74.17 ± 1.10 / 79.43 ± 1.07</td> <!-- SUC3 -->
    <td class="sv sent">71.48 ± 2.63 / 65.72 ± 4.78</td> <!-- SweReC -->
    <td class="sv la">7.26 ± 2.18 / 45.42 ± 4.53</td> <!-- ScaLA-sv -->
@@ -1497,7 +1450,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">38.26 ± 7.56 / 66.01 ± 3.69</td> <!-- ScaLA-nb -->
    <td class="no la">25.17 ± 5.32 / 61.27 ± 3.01</td> <!-- ScaLA-nn -->
    <td class="no qa">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- NorQuAD -->
-   <td class="no qa">20.52 ± 0.96 / 25.78 ± 0.93</td> <!-- ScandiQA-no -->
    <td class="sv ner">63.97 ± 1.48 / 70.22 ± 1.49</td> <!-- SUC3 -->
    <td class="sv sent">71.33 ± 1.20 / 65.44 ± 3.64</td> <!-- SweReC -->
    <td class="sv la">39.60 ± 5.87 / 66.60 ± 3.19</td> <!-- ScaLA-sv -->
@@ -1528,7 +1480,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">8.98 ± 3.55 / 52.49 ± 2.08</td> <!-- ScaLA-nb -->
    <td class="no la">5.72 ± 3.29 / 50.40 ± 3.21</td> <!-- ScaLA-nn -->
    <td class="no qa">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- NorQuAD -->
-   <td class="no qa">18.99 ± 0.92 / 25.41 ± 0.94</td> <!-- ScandiQA-no -->
    <td class="sv ner">59.72 ± 1.22 / 65.50 ± 1.20</td> <!-- SUC3 -->
    <td class="sv sent">68.36 ± 1.18 / 63.94 ± 2.47</td> <!-- SweReC -->
    <td class="sv la">14.81 ± 6.63 / 55.50 ± 4.28</td> <!-- ScaLA-sv -->
@@ -1559,7 +1510,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">39.49 ± 3.36 / 68.13 ± 2.13</td> <!-- ScaLA-nb -->
    <td class="no la">22.17 ± 7.22 / 60.16 ± 3.80</td> <!-- ScaLA-nn -->
    <td class="no qa">19.04 ± 4.63 / 27.73 ± 6.70</td> <!-- NorQuAD -->
-   <td class="no qa">31.24 ± 1.57 / 35.41 ± 1.81</td> <!-- ScandiQA-no -->
    <td class="sv ner">75.95 ± 1.72 / 81.23 ± 1.58</td> <!-- SUC3 -->
    <td class="sv sent">75.73 ± 0.72 / 73.61 ± 1.47</td> <!-- SweReC -->
    <td class="sv la">78.60 ± 0.98 / 88.95 ± 0.57</td> <!-- ScaLA-sv -->
@@ -1590,7 +1540,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">41.65 ± 1.95 / 70.35 ± 0.97</td> <!-- ScaLA-nb -->
    <td class="no la">25.53 ± 2.31 / 62.04 ± 1.19</td> <!-- ScaLA-nn -->
    <td class="no qa">5.41 ± 2.79 / 8.15 ± 4.18</td> <!-- NorQuAD -->
-   <td class="no qa">25.09 ± 0.59 / 30.02 ± 0.79</td> <!-- ScandiQA-no -->
    <td class="sv ner">53.87 ± 1.25 / 58.01 ± 1.23</td> <!-- SUC3 -->
    <td class="sv sent">57.67 ± 1.61 / 53.64 ± 0.68</td> <!-- SweReC -->
    <td class="sv la">13.40 ± 4.31 / 55.37 ± 2.61</td> <!-- ScaLA-sv -->
@@ -1621,7 +1570,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">8.98 ± 3.55 / 52.49 ± 2.08</td> <!-- ScaLA-nb -->
    <td class="no la">5.72 ± 3.29 / 50.40 ± 3.21</td> <!-- ScaLA-nn -->
    <td class="no qa">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- NorQuAD -->
-   <td class="no qa">19.65 ± 0.69 / 25.92 ± 0.69</td> <!-- ScandiQA-no -->
    <td class="sv ner">59.72 ± 1.22 / 65.50 ± 1.20</td> <!-- SUC3 -->
    <td class="sv sent">68.33 ± 1.03 / 64.03 ± 2.47</td> <!-- SweReC -->
    <td class="sv la">14.81 ± 6.63 / 55.50 ± 4.28</td> <!-- ScaLA-sv -->
@@ -1652,7 +1600,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">2.26 ± 1.47 / 45.07 ± 4.04</td> <!-- ScaLA-nb -->
    <td class="no la">-0.66 ± 1.81 / 44.50 ± 3.45</td> <!-- ScaLA-nn -->
    <td class="no qa">0.68 ± 0.32 / 1.50 ± 0.80</td> <!-- NorQuAD -->
-   <td class="no qa">14.08 ± 1.18 / 21.85 ± 1.31</td> <!-- ScandiQA-no -->
    <td class="sv ner">46.67 ± 1.98 / 51.13 ± 2.13</td> <!-- SUC3 -->
    <td class="sv sent">61.67 ± 1.40 / 59.12 ± 2.44</td> <!-- SweReC -->
    <td class="sv la">2.87 ± 1.53 / 48.92 ± 2.37</td> <!-- ScaLA-sv -->
@@ -1683,7 +1630,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">2.79 ± 1.16 / 47.71 ± 2.00</td> <!-- ScaLA-nb -->
    <td class="no la">1.66 ± 2.18 / 46.60 ± 2.87</td> <!-- ScaLA-nn -->
    <td class="no qa">0.00 ± 0.00 / 0.60 ± 0.72</td> <!-- NorQuAD -->
-   <td class="no qa">10.25 ± 2.57 / 17.71 ± 2.28</td> <!-- ScandiQA-no -->
    <td class="sv ner">40.46 ± 3.04 / 42.78 ± 3.26</td> <!-- SUC3 -->
    <td class="sv sent">44.95 ± 2.30 / 48.17 ± 1.06</td> <!-- SweReC -->
    <td class="sv la">1.43 ± 1.34 / 48.66 ± 2.45</td> <!-- ScaLA-sv -->
@@ -1714,7 +1660,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">6.62 ± 3.40 / 48.37 ± 4.02</td> <!-- ScaLA-nb -->
    <td class="no la">5.16 ± 3.07 / 45.99 ± 4.76</td> <!-- ScaLA-nn -->
    <td class="no qa">15.75 ± 1.30 / 27.15 ± 1.91</td> <!-- NorQuAD -->
-   <td class="no qa">23.02 ± 1.21 / 28.39 ± 1.10</td> <!-- ScandiQA-no -->
    <td class="sv ner">61.03 ± 1.08 / 66.11 ± 1.24</td> <!-- SUC3 -->
    <td class="sv sent">59.66 ± 1.84 / 55.24 ± 1.32</td> <!-- SweReC -->
    <td class="sv la">26.28 ± 8.44 / 59.64 ± 5.68</td> <!-- ScaLA-sv -->
@@ -1745,7 +1690,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">39.58 ± 5.70 / 67.91 ± 3.00</td> <!-- ScaLA-nb -->
    <td class="no la">31.27 ± 9.57 / 62.81 ± 7.17</td> <!-- ScaLA-nn -->
    <td class="no qa">41.89 ± 1.64 / 55.17 ± 2.07</td> <!-- NorQuAD -->
-   <td class="no qa">39.57 ± 1.25 / 44.13 ± 1.37</td> <!-- ScandiQA-no -->
    <td class="sv ner">69.89 ± 0.52 / 75.33 ± 0.99</td> <!-- SUC3 -->
    <td class="sv sent">61.80 ± 1.76 / 58.93 ± 3.28</td> <!-- SweReC -->
    <td class="sv la">36.62 ± 5.98 / 66.91 ± 3.69</td> <!-- ScaLA-sv -->
@@ -1776,7 +1720,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">7.29 ± 2.49 / 49.37 ± 3.58</td> <!-- ScaLA-nb -->
    <td class="no la">2.57 ± 1.78 / 46.00 ± 3.32</td> <!-- ScaLA-nn -->
    <td class="no qa">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- NorQuAD -->
-   <td class="no qa">0.32 ± 0.21 / 1.97 ± 0.91</td> <!-- ScandiQA-no -->
    <td class="sv ner">20.74 ± 1.42 / 22.47 ± 1.55</td> <!-- SUC3 -->
    <td class="sv sent">53.88 ± 1.97 / 52.30 ± 1.04</td> <!-- SweReC -->
    <td class="sv la">1.55 ± 1.62 / 44.06 ± 3.56</td> <!-- ScaLA-sv -->
@@ -1807,7 +1750,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">68.03 ± 2.37 / 82.12 ± 1.69</td> <!-- ScaLA-nb -->
    <td class="no la">66.90 ± 2.07 / 82.33 ± 1.34</td> <!-- ScaLA-nn -->
    <td class="no qa">41.65 ± 1.17 / 55.71 ± 1.73</td> <!-- NorQuAD -->
-   <td class="no qa">30.36 ± 1.29 / 34.88 ± 1.33</td> <!-- ScandiQA-no -->
    <td class="sv ner">67.89 ± 2.16 / 74.48 ± 2.35</td> <!-- SUC3 -->
    <td class="sv sent">74.58 ± 1.29 / 70.97 ± 2.41</td> <!-- SweReC -->
    <td class="sv la">69.07 ± 2.22 / 83.17 ± 1.50</td> <!-- ScaLA-sv -->
@@ -1838,7 +1780,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">70.06 ± 2.33 / 83.61 ± 1.61</td> <!-- ScaLA-nb -->
    <td class="no la">66.81 ± 1.83 / 82.19 ± 1.20</td> <!-- ScaLA-nn -->
    <td class="no qa">34.17 ± 2.16 / 47.61 ± 2.55</td> <!-- NorQuAD -->
-   <td class="no qa">30.11 ± 1.51 / 34.60 ± 1.33</td> <!-- ScandiQA-no -->
    <td class="sv ner">65.94 ± 2.04 / 72.25 ± 2.16</td> <!-- SUC3 -->
    <td class="sv sent">75.04 ± 1.08 / 72.35 ± 2.45</td> <!-- SweReC -->
    <td class="sv la">70.16 ± 1.47 / 84.29 ± 0.90</td> <!-- ScaLA-sv -->
@@ -1869,7 +1810,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">36.01 ± 2.02 / 64.39 ± 1.49</td> <!-- ScaLA-nb -->
    <td class="no la">14.99 ± 8.03 / 54.08 ± 5.71</td> <!-- ScaLA-nn -->
    <td class="no qa">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- NorQuAD -->
-   <td class="no qa">19.58 ± 1.78 / 25.70 ± 1.87</td> <!-- ScandiQA-no -->
    <td class="sv ner">59.82 ± 1.39 / 65.14 ± 1.57</td> <!-- SUC3 -->
    <td class="sv sent">73.47 ± 0.84 / 70.20 ± 2.49</td> <!-- SweReC -->
    <td class="sv la">36.62 ± 6.55 / 66.09 ± 5.35</td> <!-- ScaLA-sv -->
@@ -1900,7 +1840,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">27.55 ± 12.16 / 53.28 ± 8.27</td> <!-- ScaLA-nb -->
    <td class="no la">15.20 ± 9.06 / 51.91 ± 4.95</td> <!-- ScaLA-nn -->
    <td class="no qa">12.36 ± 8.54 / 17.38 ± 11.78</td> <!-- NorQuAD -->
-   <td class="no qa">7.98 ± 5.51 / 9.88 ± 6.71</td> <!-- ScandiQA-no -->
    <td class="sv ner">70.91 ± 1.27 / 76.31 ± 1.29</td> <!-- SUC3 -->
    <td class="sv sent">73.32 ± 1.13 / 70.21 ± 3.74</td> <!-- SweReC -->
    <td class="sv la">32.29 ± 10.98 / 62.21 ± 5.02</td> <!-- ScaLA-sv -->
@@ -1931,7 +1870,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">40.79 ± 2.06 / 69.48 ± 1.44</td> <!-- ScaLA-nb -->
    <td class="no la">25.08 ± 1.86 / 61.74 ± 0.81</td> <!-- ScaLA-nn -->
    <td class="no qa">1.93 ± 2.05 / 3.62 ± 3.99</td> <!-- NorQuAD -->
-   <td class="no qa">19.68 ± 0.53 / 25.51 ± 0.61</td> <!-- ScandiQA-no -->
    <td class="sv ner">48.47 ± 0.71 / 52.79 ± 1.21</td> <!-- SUC3 -->
    <td class="sv sent">57.93 ± 1.56 / 53.71 ± 0.61</td> <!-- SweReC -->
    <td class="sv la">14.72 ± 2.01 / 55.92 ± 1.11</td> <!-- ScaLA-sv -->
@@ -1962,7 +1900,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">59.38 ± 2.52 / 78.02 ± 1.71</td> <!-- ScaLA-nb -->
    <td class="no la">46.54 ± 3.21 / 71.78 ± 2.00</td> <!-- ScaLA-nn -->
    <td class="no qa">55.05 ± 1.24 / 70.46 ± 1.22</td> <!-- NorQuAD -->
-   <td class="no qa">42.03 ± 1.04 / 47.38 ± 0.99</td> <!-- ScandiQA-no -->
    <td class="sv ner">74.21 ± 1.26 / 80.05 ± 1.13</td> <!-- SUC3 -->
    <td class="sv sent">75.09 ± 1.30 / 72.93 ± 2.37</td> <!-- SweReC -->
    <td class="sv la">61.83 ± 1.28 / 79.96 ± 0.82</td> <!-- ScaLA-sv -->
@@ -1993,7 +1930,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">9.79 ± 5.13 / 46.75 ± 6.05</td> <!-- ScaLA-nb -->
    <td class="no la">6.36 ± 2.82 / 48.52 ± 4.11</td> <!-- ScaLA-nn -->
    <td class="no qa">60.47 ± 1.01 / 74.70 ± 0.92</td> <!-- NorQuAD -->
-   <td class="no qa">46.35 ± 0.85 / 51.65 ± 0.79</td> <!-- ScandiQA-no -->
    <td class="sv ner">74.53 ± 2.70 / 79.53 ± 2.77</td> <!-- SUC3 -->
    <td class="sv sent">75.42 ± 1.08 / 72.68 ± 3.19</td> <!-- SweReC -->
    <td class="sv la">18.44 ± 10.88 / 53.57 ± 7.20</td> <!-- ScaLA-sv -->
@@ -2024,7 +1960,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">12.11 ± 10.47 / 50.33 ± 7.16</td> <!-- ScaLA-nb -->
    <td class="no la">4.28 ± 4.18 / 45.75 ± 4.32</td> <!-- ScaLA-nn -->
    <td class="no qa">11.74 ± 10.45 / 16.38 ± 14.33</td> <!-- NorQuAD -->
-   <td class="no qa">36.15 ± 2.57 / 40.88 ± 2.63</td> <!-- ScandiQA-no -->
    <td class="sv ner">68.20 ± 1.70 / 74.26 ± 1.65</td> <!-- SUC3 -->
    <td class="sv sent">63.35 ± 5.43 / 60.33 ± 5.50</td> <!-- SweReC -->
    <td class="sv la">16.07 ± 10.73 / 52.48 ± 7.50</td> <!-- ScaLA-sv -->
@@ -2055,7 +1990,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">69.83 ± 2.01 / 84.72 ± 1.10</td> <!-- ScaLA-nb -->
    <td class="no la">54.84 ± 12.59 / 75.13 ± 9.44</td> <!-- ScaLA-nn -->
    <td class="no qa">58.18 ± 1.84 / 71.29 ± 1.51</td> <!-- NorQuAD -->
-   <td class="no qa">43.32 ± 2.00 / 48.35 ± 1.95</td> <!-- ScandiQA-no -->
    <td class="sv ner">72.58 ± 1.51 / 78.23 ± 1.53</td> <!-- SUC3 -->
    <td class="sv sent">75.99 ± 1.15 / 71.01 ± 4.17</td> <!-- SweReC -->
    <td class="sv la">72.17 ± 0.94 / 85.94 ± 0.54</td> <!-- ScaLA-sv -->
@@ -2086,7 +2020,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">49.41 ± 1.57 / 73.96 ± 0.87</td> <!-- ScaLA-nb -->
    <td class="no la">43.58 ± 2.23 / 71.20 ± 1.61</td> <!-- ScaLA-nn -->
    <td class="no qa">40.35 ± 2.26 / 54.01 ± 2.42</td> <!-- NorQuAD -->
-   <td class="no qa">36.91 ± 1.69 / 41.55 ± 1.74</td> <!-- ScandiQA-no -->
    <td class="sv ner">65.50 ± 1.71 / 70.85 ± 1.56</td> <!-- SUC3 -->
    <td class="sv sent">63.30 ± 0.93 / 59.96 ± 1.80</td> <!-- SweReC -->
    <td class="sv la">48.97 ± 1.14 / 73.78 ± 0.61</td> <!-- ScaLA-sv -->
@@ -2117,7 +2050,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">36.15 ± 1.99 / 66.57 ± 1.11</td> <!-- ScaLA-nb -->
    <td class="no la">30.17 ± 1.72 / 63.98 ± 1.36</td> <!-- ScaLA-nn -->
    <td class="no qa">19.71 ± 1.41 / 30.26 ± 1.56</td> <!-- NorQuAD -->
-   <td class="no qa">28.51 ± 1.04 / 32.56 ± 0.99</td> <!-- ScandiQA-no -->
    <td class="sv ner">63.61 ± 1.27 / 69.28 ± 1.15</td> <!-- SUC3 -->
    <td class="sv sent">59.53 ± 1.69 / 57.93 ± 2.20</td> <!-- SweReC -->
    <td class="sv la">29.36 ± 1.50 / 63.60 ± 0.89</td> <!-- ScaLA-sv -->
@@ -2148,7 +2080,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">3.45 ± 2.10 / 50.80 ± 1.16</td> <!-- ScaLA-nb -->
    <td class="no la">2.72 ± 1.56 / 48.79 ± 1.92</td> <!-- ScaLA-nn -->
    <td class="no qa">3.99 ± 2.02 / 7.49 ± 3.66</td> <!-- NorQuAD -->
-   <td class="no qa">16.06 ± 1.03 / 23.06 ± 1.10</td> <!-- ScandiQA-no -->
    <td class="sv ner">47.04 ± 3.83 / 50.07 ± 4.14</td> <!-- SUC3 -->
    <td class="sv sent">56.10 ± 1.85 / 52.92 ± 0.76</td> <!-- SweReC -->
    <td class="sv la">5.05 ± 2.27 / 51.08 ± 1.44</td> <!-- ScaLA-sv -->
@@ -2179,7 +2110,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">1.26 ± 1.26 / 48.42 ± 1.75</td> <!-- ScaLA-nb -->
    <td class="no la">0.49 ± 1.58 / 45.93 ± 3.88</td> <!-- ScaLA-nn -->
    <td class="no qa">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- NorQuAD -->
-   <td class="no qa">3.14 ± 0.53 / 9.05 ± 1.07</td> <!-- ScandiQA-no -->
    <td class="sv ner">23.05 ± 1.43 / 24.61 ± 1.58</td> <!-- SUC3 -->
    <td class="sv sent">52.31 ± 1.22 / 51.51 ± 0.49</td> <!-- SweReC -->
    <td class="sv la">1.32 ± 1.87 / 46.80 ± 4.29</td> <!-- ScaLA-sv -->
@@ -2210,7 +2140,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">24.45 ± 2.21 / 58.75 ± 1.80</td> <!-- ScaLA-nb -->
    <td class="no la">19.18 ± 3.55 / 57.93 ± 2.05</td> <!-- ScaLA-nn -->
    <td class="no qa">30.69 ± 1.64 / 42.59 ± 1.94</td> <!-- NorQuAD -->
-   <td class="no qa">31.43 ± 2.21 / 36.18 ± 2.42</td> <!-- ScandiQA-no -->
    <td class="sv ner">72.93 ± 1.08 / 78.91 ± 1.24</td> <!-- SUC3 -->
    <td class="sv sent">76.09 ± 0.81 / 72.74 ± 2.11</td> <!-- SweReC -->
    <td class="sv la">70.08 ± 2.11 / 83.40 ± 1.46</td> <!-- ScaLA-sv -->
@@ -2241,7 +2170,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">70.18 ± 1.41 / 83.83 ± 0.91</td> <!-- ScaLA-nb -->
    <td class="no la">70.81 ± 1.50 / 84.45 ± 0.95</td> <!-- ScaLA-nn -->
    <td class="no qa">44.27 ± 1.46 / 58.30 ± 1.82</td> <!-- NorQuAD -->
-   <td class="no qa">31.84 ± 2.38 / 36.34 ± 2.11</td> <!-- ScandiQA-no -->
    <td class="sv ner">74.04 ± 1.75 / 80.02 ± 1.62</td> <!-- SUC3 -->
    <td class="sv sent">76.21 ± 1.60 / 73.41 ± 2.08</td> <!-- SweReC -->
    <td class="sv la">71.92 ± 1.07 / 85.01 ± 0.74</td> <!-- ScaLA-sv -->
@@ -2272,7 +2200,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">73.33 ± 2.17 / 85.89 ± 1.29</td> <!-- ScaLA-nb -->
    <td class="no la">71.06 ± 1.62 / 84.78 ± 1.05</td> <!-- ScaLA-nn -->
    <td class="no qa">43.67 ± 1.71 / 57.42 ± 1.56</td> <!-- NorQuAD -->
-   <td class="no qa">29.83 ± 2.83 / 34.73 ± 2.38</td> <!-- ScandiQA-no -->
    <td class="sv ner">73.80 ± 1.53 / 79.90 ± 1.41</td> <!-- SUC3 -->
    <td class="sv sent">76.20 ± 1.16 / 74.01 ± 2.34</td> <!-- SweReC -->
    <td class="sv la">73.62 ± 1.17 / 86.19 ± 0.80</td> <!-- ScaLA-sv -->
@@ -2303,7 +2230,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">43.46 ± 17.47 / 66.52 ± 12.26</td> <!-- ScaLA-nb -->
    <td class="no la">10.97 ± 10.84 / 43.47 ± 9.81</td> <!-- ScaLA-nn -->
    <td class="no qa">43.74 ± 2.17 / 59.80 ± 1.86</td> <!-- NorQuAD -->
-   <td class="no qa">33.94 ± 3.50 / 39.96 ± 2.98</td> <!-- ScandiQA-no -->
    <td class="sv ner">63.66 ± 6.41 / 68.39 ± 7.26</td> <!-- SUC3 -->
    <td class="sv sent">73.43 ± 0.91 / 61.29 ± 1.81</td> <!-- SweReC -->
    <td class="sv la">45.09 ± 15.90 / 68.48 ± 11.31</td> <!-- ScaLA-sv -->
@@ -2334,7 +2260,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">45.75 ± 3.27 / 71.33 ± 1.67</td> <!-- ScaLA-nb -->
    <td class="no la">33.74 ± 2.91 / 63.89 ± 3.31</td> <!-- ScaLA-nn -->
    <td class="no qa">5.35 ± 3.79 / 7.65 ± 5.41</td> <!-- NorQuAD -->
-   <td class="no qa">14.05 ± 2.62 / 16.16 ± 2.75</td> <!-- ScandiQA-no -->
    <td class="sv ner">65.04 ± 1.33 / 71.34 ± 0.91</td> <!-- SUC3 -->
    <td class="sv sent">70.91 ± 1.23 / 67.12 ± 3.79</td> <!-- SweReC -->
    <td class="sv la">53.52 ± 1.22 / 76.15 ± 0.53</td> <!-- ScaLA-sv -->
@@ -2365,7 +2290,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">51.99 ± 11.45 / 72.87 ± 8.55</td> <!-- ScaLA-nb -->
    <td class="no la">30.57 ± 8.63 / 62.90 ± 7.32</td> <!-- ScaLA-nn -->
    <td class="no qa">36.75 ± 2.18 / 50.77 ± 2.11</td> <!-- NorQuAD -->
-   <td class="no qa">34.47 ± 1.47 / 39.18 ± 1.57</td> <!-- ScandiQA-no -->
    <td class="sv ner">67.15 ± 0.85 / 72.33 ± 0.82</td> <!-- SUC3 -->
    <td class="sv sent">67.77 ± 1.19 / 62.98 ± 2.57</td> <!-- SweReC -->
    <td class="sv la">33.79 ± 7.61 / 64.01 ± 6.84</td> <!-- ScaLA-sv -->
@@ -2396,7 +2320,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">20.34 ± 4.81 / 58.57 ± 2.56</td> <!-- ScaLA-nb -->
    <td class="no la">8.07 ± 2.44 / 53.43 ± 1.32</td> <!-- ScaLA-nn -->
    <td class="no qa">0.00 ± 0.00 / 0.14 ± 0.16</td> <!-- NorQuAD -->
-   <td class="no qa">19.65 ± 2.05 / 26.01 ± 2.02</td> <!-- ScandiQA-no -->
    <td class="sv ner">39.98 ± 1.42 / 42.99 ± 1.57</td> <!-- SUC3 -->
    <td class="sv sent">55.49 ± 1.28 / 55.99 ± 2.15</td> <!-- SweReC -->
    <td class="sv la">4.69 ± 2.28 / 51.01 ± 1.58</td> <!-- ScaLA-sv -->
@@ -2427,7 +2350,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">31.23 ± 6.86 / 63.55 ± 5.48</td> <!-- ScaLA-nb -->
    <td class="no la">5.40 ± 4.63 / 44.64 ± 6.37</td> <!-- ScaLA-nn -->
    <td class="no qa">22.56 ± 0.95 / 34.52 ± 1.15</td> <!-- NorQuAD -->
-   <td class="no qa">24.22 ± 2.60 / 29.92 ± 2.39</td> <!-- ScandiQA-no -->
    <td class="sv ner">46.05 ± 2.11 / 49.62 ± 2.01</td> <!-- SUC3 -->
    <td class="sv sent">58.70 ± 2.54 / 58.15 ± 3.35</td> <!-- SweReC -->
    <td class="sv la">2.23 ± 2.12 / 46.43 ± 4.85</td> <!-- ScaLA-sv -->
@@ -2458,7 +2380,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">71.43 ± 1.67 / 84.61 ± 1.15</td> <!-- ScaLA-nb -->
    <td class="no la">53.30 ± 13.11 / 74.52 ± 7.96</td> <!-- ScaLA-nn -->
    <td class="no qa">57.38 ± 1.41 / 72.48 ± 1.49</td> <!-- NorQuAD -->
-   <td class="no qa">45.40 ± 0.78 / 51.18 ± 0.73</td> <!-- ScandiQA-no -->
    <td class="sv ner">68.89 ± 2.46 / 74.18 ± 2.01</td> <!-- SUC3 -->
    <td class="sv sent">75.11 ± 1.19 / 74.74 ± 0.94</td> <!-- SweReC -->
    <td class="sv la">64.11 ± 3.27 / 81.63 ± 1.66</td> <!-- ScaLA-sv -->
@@ -2489,7 +2410,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">68.77 ± 2.01 / 83.10 ± 1.42</td> <!-- ScaLA-nb -->
    <td class="no la">65.40 ± 2.43 / 81.72 ± 1.68</td> <!-- ScaLA-nn -->
    <td class="no qa">43.13 ± 2.05 / 56.76 ± 2.21</td> <!-- NorQuAD -->
-   <td class="no qa">29.97 ± 2.32 / 34.41 ± 2.34</td> <!-- ScandiQA-no -->
    <td class="sv ner">72.45 ± 1.57 / 78.58 ± 1.52</td> <!-- SUC3 -->
    <td class="sv sent">73.41 ± 0.98 / 68.72 ± 3.80</td> <!-- SweReC -->
    <td class="sv la">71.14 ± 1.62 / 84.55 ± 0.97</td> <!-- ScaLA-sv -->
@@ -2520,7 +2440,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">30.32 ± 4.68 / 62.42 ± 3.11</td> <!-- ScaLA-nb -->
    <td class="no la">7.99 ± 3.34 / 53.24 ± 1.64</td> <!-- ScaLA-nn -->
    <td class="no qa">24.02 ± 1.35 / 37.28 ± 1.24</td> <!-- NorQuAD -->
-   <td class="no qa">23.76 ± 2.30 / 29.92 ± 2.08</td> <!-- ScandiQA-no -->
    <td class="sv ner">45.04 ± 1.50 / 48.32 ± 1.62</td> <!-- SUC3 -->
    <td class="sv sent">53.98 ± 2.05 / 52.94 ± 1.88</td> <!-- SweReC -->
    <td class="sv la">3.33 ± 2.12 / 51.06 ± 1.15</td> <!-- ScaLA-sv -->
@@ -2551,7 +2470,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">7.93 ± 4.24 / 50.87 ± 2.29</td> <!-- ScaLA-nb -->
    <td class="no la">5.06 ± 0.83 / 51.44 ± 1.05</td> <!-- ScaLA-nn -->
    <td class="no qa">22.46 ± 5.97 / 34.67 ± 8.87</td> <!-- NorQuAD -->
-   <td class="no qa">25.38 ± 1.20 / 28.94 ± 1.08</td> <!-- ScandiQA-no -->
    <td class="sv ner">62.96 ± 1.62 / 67.53 ± 1.66</td> <!-- SUC3 -->
    <td class="sv sent">59.27 ± 2.14 / 55.26 ± 1.73</td> <!-- SweReC -->
    <td class="sv la">2.83 ± 2.01 / 49.25 ± 1.48</td> <!-- ScaLA-sv -->
@@ -2582,7 +2500,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">67.29 ± 2.13 / 82.23 ± 1.36</td> <!-- ScaLA-nb -->
    <td class="no la">56.67 ± 2.29 / 76.74 ± 1.73</td> <!-- ScaLA-nn -->
    <td class="no qa">48.63 ± 1.31 / 63.28 ± 1.09</td> <!-- NorQuAD -->
-   <td class="no qa">35.72 ± 2.37 / 40.17 ± 2.42</td> <!-- ScandiQA-no -->
    <td class="sv ner">68.68 ± 1.40 / 74.22 ± 1.37</td> <!-- SUC3 -->
    <td class="sv sent">63.80 ± 1.56 / 57.65 ± 2.24</td> <!-- SweReC -->
    <td class="sv la">37.77 ± 5.16 / 65.87 ± 4.30</td> <!-- ScaLA-sv -->
@@ -2613,7 +2530,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">74.40 ± 2.03 / 86.34 ± 1.28</td> <!-- ScaLA-nb -->
    <td class="no la">68.85 ± 3.21 / 83.17 ± 2.09</td> <!-- ScaLA-nn -->
    <td class="no qa">57.67 ± 1.86 / 72.51 ± 1.52</td> <!-- NorQuAD -->
-   <td class="no qa">42.46 ± 1.33 / 47.28 ± 1.28</td> <!-- ScandiQA-no -->
    <td class="sv ner">72.63 ± 0.98 / 78.21 ± 0.92</td> <!-- SUC3 -->
    <td class="sv sent">71.05 ± 1.70 / 70.72 ± 2.74</td> <!-- SweReC -->
    <td class="sv la">56.02 ± 2.92 / 77.31 ± 1.61</td> <!-- ScaLA-sv -->
@@ -2644,7 +2560,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">77.97 ± 3.04 / 88.19 ± 1.89</td> <!-- ScaLA-nb -->
    <td class="no la">76.30 ± 1.56 / 87.68 ± 0.86</td> <!-- ScaLA-nn -->
    <td class="no qa">66.03 ± 1.19 / 79.64 ± 1.09</td> <!-- NorQuAD -->
-   <td class="no qa">49.70 ± 0.90 / 54.71 ± 0.95</td> <!-- ScandiQA-no -->
    <td class="sv ner">73.76 ± 1.48 / 79.01 ± 1.13</td> <!-- SUC3 -->
    <td class="sv sent">75.32 ± 1.55 / 69.39 ± 3.64</td> <!-- SweReC -->
    <td class="sv la">69.11 ± 1.50 / 84.32 ± 0.70</td> <!-- ScaLA-sv -->
@@ -2675,7 +2590,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">49.93 ± 1.78 / 69.26 ± 1.76</td> <!-- ScaLA-nb -->
    <td class="no la">34.22 ± 2.98 / 57.61 ± 3.23</td> <!-- ScaLA-nn -->
    <td class="no qa">44.39 ± 1.06 / 71.71 ± 0.83</td> <!-- NorQuAD -->
-   <td class="no qa">57.12 ± 0.47 / 65.39 ± 0.39</td> <!-- ScandiQA-no -->
    <td class="sv ner">58.93 ± 3.29 / 71.43 ± 1.58</td> <!-- SUC3 -->
    <td class="sv sent">77.50 ± 1.54 / 76.51 ± 1.63</td> <!-- SweReC -->
    <td class="sv la">55.99 ± 2.64 / 75.08 ± 2.22</td> <!-- ScaLA-sv -->
@@ -2706,7 +2620,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">77.30 ± 2.97 / 88.39 ± 1.60</td> <!-- ScaLA-nb -->
    <td class="no la">57.18 ± 3.91 / 76.40 ± 2.66</td> <!-- ScaLA-nn -->
    <td class="no qa">49.93 ± 3.13 / 77.72 ± 1.70</td> <!-- NorQuAD -->
-   <td class="no qa">54.79 ± 1.85 / 65.03 ± 1.52</td> <!-- ScandiQA-no -->
    <td class="sv ner">54.97 ± 4.44 / 76.86 ± 1.89</td> <!-- SUC3 -->
    <td class="sv sent">79.19 ± 1.87 / 80.56 ± 1.82</td> <!-- SweReC -->
    <td class="sv la">80.93 ± 1.67 / 89.90 ± 0.93</td> <!-- ScaLA-sv -->
@@ -2737,7 +2650,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">62.34 ± 2.48 / 79.94 ± 1.46</td> <!-- ScaLA-nb -->
    <td class="no la">34.88 ± 11.23 / 66.51 ± 5.72</td> <!-- ScaLA-nn -->
    <td class="no qa">53.01 ± 1.05 / 70.46 ± 0.86</td> <!-- NorQuAD -->
-   <td class="no qa">46.09 ± 2.65 / 52.41 ± 2.14</td> <!-- ScandiQA-no -->
    <td class="sv ner">78.57 ± 1.27 / 80.36 ± 1.12</td> <!-- SUC3 -->
    <td class="sv sent">79.65 ± 1.05 / 78.90 ± 1.32</td> <!-- SweReC -->
    <td class="sv la">63.15 ± 1.65 / 81.06 ± 0.95</td> <!-- ScaLA-sv -->
@@ -2768,7 +2680,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">74.32 ± 1.76 / 86.47 ± 1.18</td> <!-- ScaLA-nb -->
    <td class="no la">72.94 ± 1.63 / 86.07 ± 0.99</td> <!-- ScaLA-nn -->
    <td class="no qa">34.06 ± 2.05 / 45.46 ± 2.65</td> <!-- NorQuAD -->
-   <td class="no qa">39.53 ± 1.00 / 44.57 ± 0.93</td> <!-- ScandiQA-no -->
    <td class="sv ner">79.18 ± 1.23 / 81.35 ± 1.26</td> <!-- SUC3 -->
    <td class="sv sent">71.16 ± 1.21 / 69.78 ± 3.24</td> <!-- SweReC -->
    <td class="sv la">63.89 ± 1.18 / 81.45 ± 0.75</td> <!-- ScaLA-sv -->
@@ -2799,7 +2710,6 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">70.73 ± 3.19 / 84.71 ± 1.82</td> <!-- ScaLA-nb -->
    <td class="no la">59.58 ± 7.22 / 78.86 ± 3.51</td> <!-- ScaLA-nn -->
    <td class="no qa">56.04 ± 1.56 / 71.02 ± 1.42</td> <!-- NorQuAD -->
-   <td class="no qa">46.88 ± 1.86 / 52.73 ± 1.82</td> <!-- ScandiQA-no -->
    <td class="sv ner">69.05 ± 1.65 / 71.86 ± 1.73</td> <!-- SUC3 -->
    <td class="sv sent">74.67 ± 1.43 / 71.15 ± 3.57</td> <!-- SweReC -->
    <td class="sv la">62.77 ± 3.14 / 80.75 ± 1.67</td> <!-- ScaLA-sv -->
@@ -2830,11 +2740,40 @@ title: Mainland Scandinavian NLU Benchmark
    <td class="no la">67.88 ± 7.37 / 82.75 ± 4.57</td> <!-- ScaLA-nb -->
    <td class="no la">62.44 ± 4.39 / 80.43 ± 2.39</td> <!-- ScaLA-nn -->
    <td class="no qa">55.69 ± 1.60 / 70.77 ± 1.64</td> <!-- NorQuAD -->
-   <td class="no qa">46.49 ± 1.45 / 52.19 ± 1.43</td> <!-- ScandiQA-no -->
    <td class="sv ner">69.08 ± 1.45 / 71.65 ± 1.55</td> <!-- SUC3 -->
    <td class="sv sent">74.92 ± 0.98 / 72.01 ± 2.31</td> <!-- SweReC -->
    <td class="sv la">63.43 ± 2.30 / 81.00 ± 1.37</td> <!-- ScaLA-sv -->
    <td class="sv qa">46.20 ± 1.03 / 51.94 ± 0.92</td> <!-- ScandiQA-sv -->
+  </tr>
+  <tr>
+   <td class="rank"></td> <!-- Rank -->
+   <td>mhenrichsen/danskgpt-tiny (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">616</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">2,977 ± 893 / 445 ± 148</td> <!-- Model inference speed -->
+   <td class="score"></td> <!-- ScandEval score -->
+   <td class="da-score"></td> <!-- Danish score -->
+   <td class="no-score"></td> <!-- Norwegian score -->
+   <td class="sv-score"></td> <!-- Swedish score -->
+   <td class="ner-score"></td> <!-- Mean named entity recognition score -->
+   <td class="sent-score"></td> <!-- Mean sentiment classification score -->
+   <td class="la-score"></td> <!-- Mean linguistic acceptability score -->
+   <td class="qa-score"></td> <!-- Mean question answering score -->
+   <td class="da ner">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- DANSK -->
+   <td class="da sent">3.49 ± 3.80 / 29.92 ± 3.85</td> <!-- Angry Tweets -->
+   <td class="da la">0.50 ± 1.32 / 45.32 ± 2.98</td> <!-- ScaLA-da -->
+   <td class="da qa">3.11 ± 0.81 / 4.92 ± 1.17</td> <!-- ScandiQA-da -->
+   <td class="no ner">0.17 ± 0.11 / 0.18 ± 0.12</td> <!-- NorNE-nb -->
+   <td class="no ner">0.17 ± 0.13 / 0.19 ± 0.13</td> <!-- NorNE-nn -->
+   <td class="no sent">9.20 ± 3.55 / 28.60 ± 3.54</td> <!-- NoReC -->
+   <td class="no la">-0.21 ± 1.22 / 44.61 ± 3.01</td> <!-- ScaLA-nb -->
+   <td class="no la">-0.13 ± 2.04 / 45.26 ± 2.71</td> <!-- ScaLA-nn -->
+   <td class="no qa">1.32 ± 0.39 / 5.66 ± 0.70</td> <!-- NorQuAD -->
+   <td class="sv ner">0.15 ± 0.25 / 0.17 ± 0.28</td> <!-- SUC3 -->
+   <td class="sv sent">15.30 ± 6.25 / 34.17 ± 4.30</td> <!-- SweReC -->
+   <td class="sv la">-0.17 ± 1.45 / 46.09 ± 1.98</td> <!-- ScaLA-sv -->
+   <td class="sv qa">2.55 ± 0.78 / 4.16 ± 1.04</td> <!-- ScandiQA-sv -->
   </tr>
  </tbody>
 </table>
