@@ -200,7 +200,6 @@ title: {title}
     # Reorganize the scores by each model
     model_scores: dict[str, dict[str, tuple[str, str, str]]] = defaultdict(dict)
     for record in scores:
-
         # Extract data from record
         model_id: str = record["model"]
         model_notes: list[str] = list()
@@ -222,11 +221,6 @@ title: {title}
             }
             score_dict: dict[str, str] = dict()
             for metric in metrics:
-
-                # Raise error if the metric is unknown
-                if metric not in metric_mapping.keys():
-                    raise ValueError(f"Unknown metric: {metric!r}")
-
                 test_score = results[f"test_{metric}"]
                 test_se = results[f"test_{metric}_se"]
                 score_dict[metric] = f"{test_score:,.0f} ± {test_se:,.0f}"
@@ -257,13 +251,13 @@ title: {title}
                 key.replace('test_', '').replace('_se', '')
                 for key in results.keys() if key.startswith("test_")
             }
+
+            # Skip the record if any of the metrics is unknown
+            if any(metric not in metric_mapping.keys() for metric in metrics):
+                continue
+
             score_dict: dict[str, str] = dict()
             for metric in metrics:
-
-                # Raise error if the metric is unknown
-                if metric not in metric_mapping.keys():
-                    raise ValueError(f"Unknown metric: {metric!r}")
-
                 test_score = results[f"test_{metric}"]
                 test_se = results[f"test_{metric}_se"]
                 score_dict[metric] = f"{test_score:.2f} ± {test_se:.2f}"
