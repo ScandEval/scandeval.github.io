@@ -3,7 +3,7 @@ layout: leaderboard
 title: Mainland Scandinavian NLU Benchmark
 ---
 
-<center>Last updated: 11/01/2024 10:32:58</center>
+<center>Last updated: 11/01/2024 16:07:04</center>
 <center><i>Hover over the headings for more information</i></center>
 
 <div class="table-wrapper centered">
@@ -2837,7 +2837,7 @@ title: Mainland Scandinavian NLU Benchmark
   </tr>
   <tr>
    <td class="rank"></td> <!-- Rank -->
-   <td>alexandrainst/mistral-da-gigaword (few-shot)</td> <!-- Model ID -->
+   <td>danish-foundation-models/munin-7b-alpha (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">3752</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model-->
