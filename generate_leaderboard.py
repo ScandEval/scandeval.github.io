@@ -50,12 +50,18 @@ logging.basicConfig(
     "secondary_metric_code) tuples. These are the datasets that will be included in "
     "the leaderboard.",
 )
+@click.option(
+    "--include-all/--no-include-all",
+    default=False,
+    help="Whether to generate a leaderboard for all models, even incomplete ones.",
+)
 def generate_leaderboard(
     title: str,
     language_mapping: dict[str | None, str],
     task_mapping: dict[str, str],
     metric_mapping: dict[str, str],
     datasets: list[tuple[str, str | None, str, str, str]],
+    include_all: bool,
 ) -> None:
     """Generate a ScandEval leaderboard and store it to disk.
 
@@ -72,6 +78,8 @@ def generate_leaderboard(
             A list of (dataset_name, language_code, task_code, primary_metric_code,
             secondary_metric_code) tuples. These are the datasets that will be included
             in the leaderboard.
+        include_all:
+            Whether to generate a leaderboard for all models, even incomplete ones.
     """
     language_mapping = dict(language_mapping)
     task_mapping = dict(task_mapping)
@@ -318,7 +326,7 @@ title: {title}
             dataset_underscore = dataset.lower().replace(" ", "_").replace("-", "_")
             dataset_hyphen = dataset.lower().replace(" ", "-")
             values[dataset_underscore] = model_dict.get(dataset_hyphen, [""])[0]
-        if all([value != "" for value in values.values()]):
+        if all([value != "" for value in values.values()]) or include_all:
             html_lines.append(BENCHMARK_ENTRY.format(**values))
         else:
 
