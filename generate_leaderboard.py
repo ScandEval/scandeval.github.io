@@ -7,6 +7,7 @@ import logging
 from datetime import datetime
 import click
 import re
+import scipy.stats as stats
 
 logging.basicConfig(
     level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s"
@@ -128,14 +129,6 @@ title: {title}
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Total {language_name_title} score">{language_code_upper}</span></th>"""
         BENCHMARK_HTML_START += "\n"
 
-    # Add task score columns
-    for task_code, task_name in task_mapping.items():
-        task_code_upper = task_code.upper()
-        task_name_lower = task_name.lower()
-        BENCHMARK_HTML_START += f"""
-   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Total {task_name_lower} score">{task_code_upper}</span></th>"""
-    BENCHMARK_HTML_START += "\n"
-
     # Add dataset score columns
     for dataset_name, language_code, task_code, primary_metric_code, secondary_metric_code in datasets:
         if language_code is None:
@@ -158,13 +151,13 @@ title: {title}
 </div>"""
 
     BENCHMARK_ENTRY = """  <tr>
-   <td class="rank"></td> <!-- Rank -->
+   <td class="rank">{rank}</td> <!-- Rank -->
    <td>{model_id}</td> <!-- Model ID -->
    <td class="num_model_parameters">{num_model_parameters}</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">{vocabulary_size}</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">{max_sequence_length}</td> <!-- Maximum sequence length of the model-->
    <td class="speed">{speed}</td> <!-- Model inference speed -->
-   <td class="score"></td> <!-- ScandEval score -->"""
+   <td class="score">{score}</td> <!-- ScandEval score -->"""
 
     # Add language score columns, if there are multiple languages
     if len(language_mapping) > 1:
@@ -174,14 +167,7 @@ title: {title}
             language_code_lower = language_code.lower()
             language_name_title = language_name.title()
             BENCHMARK_ENTRY += f"""
-   <td class="{language_code_lower}-score"></td> <!-- {language_name_title} score -->"""
-
-    # Add task score columns
-    for task_code, task_name in task_mapping.items():
-        task_code_lower = task_code.lower()
-        task_name_lower = task_name.lower()
-        BENCHMARK_ENTRY += f"""
-   <td class="{task_code_lower}-score"></td> <!-- Mean {task_name_lower} score -->"""
+   <td class="{language_code_lower}-score">{{{language_code_lower}_score}}</td> <!-- {language_name_title} score -->"""
 
     # Add dataset score columns
     for dataset_name, language_code, task_code, _, _ in datasets:
@@ -317,9 +303,11 @@ title: {title}
                 model_scores[model_id][metadata] = (str(record[metadata]), "", "")
 
     # Generate language model benchmark HTML
-    models_to_remove = list()
     html_lines = [BENCHMARK_HTML_START]
+    all_values: list[dict[str, str]] = list()
     for model_id, model_dict in model_scores.items():
+
+        # Add the model metadata and speed score
         values = dict(
             model_id=model_id,
             num_model_parameters=model_dict.get("num_model_parameters", [""])[0],
@@ -327,33 +315,155 @@ title: {title}
             max_sequence_length=model_dict.get("max_sequence_length", [""])[0],
             speed=model_dict.get("speed", [""])[0],
         )
+
+        # Add the scores for each dataset
         for dataset, _, _, _, _ in datasets:
             dataset_underscore = dataset.lower().replace(" ", "_").replace("-", "_")
             dataset_hyphen = dataset.lower().replace(" ", "-")
             values[dataset_underscore] = model_dict.get(dataset_hyphen, [""])[0]
+
+        # Add aggregated scores for each language
+        total_score: float = 0.0
+        total_score_se: float = 0.0
+        for language_code in language_mapping.keys():
+
+            # Get all the task scores for the language
+            task_mean_score_lists: dict[str, list[float]] = defaultdict(list)
+            task_se_score_lists: dict[str, list[float]] = defaultdict(list)
+            for dataset, language, task, _, _ in datasets:
+                if language != language_code:
+                    continue
+                dataset_underscore = dataset.lower().replace(" ", "_").replace("-", "_")
+                dataset_score_str = values.get(dataset_underscore, "")
+                if dataset_score_str:
+                    task_mean_score_lists[task].append(float(dataset_score_str.split()[0]))
+                    task_se_score_lists[task].append(float(dataset_score_str.split()[2]))
+
+            task_mean_scores = {
+                task: sum(score_list) / len(score_list)
+                for task, score_list in task_mean_score_lists.items()
+            }
+            task_se_scores = {
+                task: sum(score_list) / len(score_list)
+                for task, score_list in task_se_score_lists.items()
+            }
+
+            if not task_mean_scores:
+                continue
+
+            # Compute the language score
+            language_mean_score = sum(task_mean_scores.values()) / len(task_mean_scores)
+            language_se_score = sum(task_se_scores.values()) / len(task_se_scores)
+            values[f"{language_code}_score"] = (
+                f"{language_mean_score:.2f} ± {language_se_score:.2f}"
+            )
+
+            # Add the language score to the total score
+            total_score += language_mean_score
+            total_score_se += language_se_score
+
+        # Compute the total score
+        total_score = total_score / len(language_mapping)
+        total_score_se = total_score_se / len(language_mapping)
+        values["score"] = f"{total_score:.2f} ± {total_score_se:.2f}"
+
+        # Add the value dictionary to the list of all values
         if all([value != "" for value in values.values()]) or INCLUDE_ALL:
-            html_lines.append(BENCHMARK_ENTRY.format(**values))
+            all_values.append(values)
         else:
             if LOG_MISSING:
                 missing_datasets = [
                     dataset for dataset, score_str in values.items() if score_str == ""
                 ]
-                logger.info(f"{model_id!r} is missing the datasets {missing_datasets}")
-            models_to_remove.append(model_id)
+                logger.info(
+                    f"{values['model_id']!r} is missing the datasets {missing_datasets}"
+                )
+
+    def extract_scores_for_model(model_id: str) -> dict[str, list[float]]:
+        rank_score_dict = {
+            score_dict["dataset"]: [
+                result_dict.get(f"test_{metric_name}", result_dict.get(metric_name, -1))
+                for result_dict in score_dict["results"]["raw"]["test"]
+                for dataset, _, _, metric_name, _ in datasets
+                if dataset.lower().replace(" ", "-").replace("-", "_") == score_dict["dataset"]
+            ]
+            for score_dict in scores
+            if score_dict["model"] == re.sub(r" *\(.+\) *", "", model_id)
+        }
+
+        # If any scores are -1
+        if any(-1 in scores for scores in rank_score_dict.values()):
+            raise ValueError(f"Found -1 in {rank_score_dict}")
+
+        rank_score_dict = {
+            dataset: scores
+            for dataset, scores in sorted(rank_score_dict.items(), key=lambda x: x[0])
+            if scores
+        }
+        return rank_score_dict
+
+    def score_dicts_statistically_different(
+        score_dict_1: dict[str, list[float]], score_dict_2: dict[str, list[float]]
+    ) -> bool:
+        if list(score_dict_1.keys()) != list(score_dict_2.keys()):
+            raise ValueError(
+                f"The two score dicts must have the same keys: "
+                f"{list(score_dict_1.keys())} != {list(score_dict_2.keys())}"
+            )
+
+        score_values_1 = [
+            score
+            for scores in score_dict_1.values()
+            for score in scores
+        ]
+        score_values_2 = [
+            score
+            for scores in score_dict_2.values()
+            for score in scores
+        ]
+        p_value = stats.ttest_rel(a=score_values_1, b=score_values_2).pvalue
+        return p_value < 0.05
+
+    # Add the rank to each model
+    all_values = sorted(
+        all_values, key=lambda x: float(x["score"].split()[0]), reverse=True
+    )
+    rank = 1
+    rank_scores: dict[str, list[float]] = dict()
+    for idx, values in enumerate(all_values):
+        if idx == 0:
+            values["rank"] = str(rank)
+            rank_scores = extract_scores_for_model(model_id=values["model_id"])
+            continue
+        current_scores = extract_scores_for_model(model_id=values["model_id"])
+        if score_dicts_statistically_different(rank_scores, current_scores):
+            rank_scores = current_scores
+            rank += 1
+        values["rank"] = str(rank)
+
+    # Add "=" suffixes to the rank if the models have the same rank
+    for idx, values in enumerate(all_values):
+        rank = values["rank"]
+        num_models_with_rank = len(
+            [value for value in all_values if value["rank"].rstrip("=") == rank]
+        )
+        if num_models_with_rank > 1:
+            values["rank"] += "="
+
+    # Add HTML entry for the model, if it has been evaluated on all datasets
+    for values in all_values:
+        html_lines.append(BENCHMARK_ENTRY.format(**values))
+
     html_lines.append(BENCHMARK_HTML_END)
     html = "\n".join(html_lines)
 
-    # Remove the models not added to the leaderboard
-    for model_id in models_to_remove:
-        del model_scores[model_id]
-
     # Write table to the file
-    if model_scores:
+    if all_values:
         with benchmark_path.open("w") as f:
             f.write(html)
 
         logging.info(
-            f"Generated {title} with results from {len(model_scores):,} models, stored "
+            f"Generated {title} with results from {len(all_values):,} models, stored "
             f"at {str(benchmark_path)!r}"
         )
 
