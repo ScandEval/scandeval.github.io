@@ -8,10 +8,21 @@ from datetime import datetime
 import click
 import re
 
-# Set up logging, which should display logs as "HH:MM:SS [LEVEL] MESSAGE"
 logging.basicConfig(
     level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s"
 )
+
+logger = logging.getLogger(__name__)
+
+
+# Variable determining whether all models should be included in the leaderboard, even
+# the ones that haven't been evaluated on all datasets
+INCLUDE_ALL = False
+
+
+# Variable determining whether all models that haven't been fully benchmarked should be
+# logged along with the datasets they are missing
+LOG_MISSING = False
 
 
 @click.command()
@@ -50,18 +61,12 @@ logging.basicConfig(
     "secondary_metric_code) tuples. These are the datasets that will be included in "
     "the leaderboard.",
 )
-@click.option(
-    "--include-all/--no-include-all",
-    default=False,
-    help="Whether to generate a leaderboard for all models, even incomplete ones.",
-)
 def generate_leaderboard(
     title: str,
     language_mapping: dict[str | None, str],
     task_mapping: dict[str, str],
     metric_mapping: dict[str, str],
     datasets: list[tuple[str, str | None, str, str, str]],
-    include_all: bool,
 ) -> None:
     """Generate a ScandEval leaderboard and store it to disk.
 
@@ -78,8 +83,6 @@ def generate_leaderboard(
             A list of (dataset_name, language_code, task_code, primary_metric_code,
             secondary_metric_code) tuples. These are the datasets that will be included
             in the leaderboard.
-        include_all:
-            Whether to generate a leaderboard for all models, even incomplete ones.
     """
     language_mapping = dict(language_mapping)
     task_mapping = dict(task_mapping)
@@ -285,7 +288,7 @@ title: {title}
                     task_shorthand = task_code
                     break
             else:
-                print(f"{task} not among {task_mapping.values()}")
+                logger.info(f"{task} not among {task_mapping.values()}")
                 continue
 
             # Add the metrics to the model's score dict
@@ -307,7 +310,9 @@ title: {title}
 
         # Add the model metadata to the model's dict, if it hasn't previously been
         # entered
-        for metadata in ["num_model_parameters", "vocabulary_size", "max_sequence_length"]:
+        for metadata in [
+            "num_model_parameters", "vocabulary_size", "max_sequence_length"
+        ]:
             if metadata not in model_scores[model_id] and metadata in record:
                 model_scores[model_id][metadata] = (str(record[metadata]), "", "")
 
@@ -326,16 +331,14 @@ title: {title}
             dataset_underscore = dataset.lower().replace(" ", "_").replace("-", "_")
             dataset_hyphen = dataset.lower().replace(" ", "-")
             values[dataset_underscore] = model_dict.get(dataset_hyphen, [""])[0]
-        if all([value != "" for value in values.values()]) or include_all:
+        if all([value != "" for value in values.values()]) or INCLUDE_ALL:
             html_lines.append(BENCHMARK_ENTRY.format(**values))
         else:
-
-            # TEMP
-            # missing_datasets = [
-            #     dataset for dataset, score_str in values.items() if score_str == ""
-            # ]
-            # print(f"{model_id}: {missing_datasets}")
-
+            if LOG_MISSING:
+                missing_datasets = [
+                    dataset for dataset, score_str in values.items() if score_str == ""
+                ]
+                logger.info(f"{model_id!r} is missing the datasets {missing_datasets}")
             models_to_remove.append(model_id)
     html_lines.append(BENCHMARK_HTML_END)
     html = "\n".join(html_lines)
