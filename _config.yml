@@ -4,8 +4,7 @@
 # baseurl is the website's URL without the hostname
 
 # If you are building a simple GitHub user page (https://username.github.io) then use these settings:
-#url: "https://scandeval.github.io"
-url: "https://scandeval.github.io"
+url: "https://scandeval.com"
 baseurl: ""
 
 # Name of website
@@ -56,7 +55,7 @@ footer-link-col: "#404040"
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
   name: Dan Saattrup Nielsen
-  name-url: https://saattrupdan.github.io/
+  name-url: https://saattrupdan.com/
   affiliation: The Alexandra Institute
   affiliation-url: https://alexandra.dk/
 
@@ -80,7 +79,7 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "scandeval.github.io"  # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: "scandeval.com"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Web Statistics Section --- #
 
