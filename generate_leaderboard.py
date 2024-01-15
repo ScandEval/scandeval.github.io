@@ -147,7 +147,9 @@ title: {title}
 </table>
 </div>
 
-<center><a href="https://scandeval.com/{title_kebab}.csv" target="_blank">Download as CSV</a></center>"""
+<div class="centered small-font">
+  <a href="https://scandeval.com/{title_kebab}.csv" target="_blank">Download as CSV</a>
+</div>"""
 
     BENCHMARK_ENTRY = """  <tr>
    <td class="rank">{rank}</td> <!-- Rank -->

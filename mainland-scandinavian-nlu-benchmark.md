@@ -3,7 +3,7 @@ layout: leaderboard
 title: Mainland Scandinavian NLU Benchmark
 ---
 
-<center>Last updated: 15/01/2024 15:15:53</center>
+<center>Last updated: 15/01/2024 15:21:22</center>
 <center><i>Hover over the headings for more information</i></center>
 
 <div class="table-wrapper centered">
@@ -18,7 +18,7 @@ title: Mainland Scandinavian NLU Benchmark
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Number of tokens processed per second / Number of tokens processed in small documents per second">Speed</span></th>
 
    <th id="score-col"><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="ScandEval score">Score</span></th>
-
+    
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Total Danish score">DA</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Total Norwegian score">NO</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Total Swedish score">SV</span></th>
@@ -2592,4 +2592,6 @@ title: Mainland Scandinavian NLU Benchmark
 </table>
 </div>
 
-<center><a href="https://scandeval.com/mainland-scandinavian-nlu-benchmark.csv" target="_blank">Download as CSV</a></center>
+<div class="centered small-font">
+  <a href="https://scandeval.com/mainland-scandinavian-nlu-benchmark.csv" target="_blank">Download as CSV</a>
+</div>
