@@ -512,7 +512,7 @@ def generate_csv(
         return value
 
     df = pd.DataFrame(all_values).map(clean_value).convert_dtypes()
-    df.columns = [
+    df = df[[
         "rank",
         "model_id",
         "num_model_parameters",
@@ -527,7 +527,7 @@ def generate_csv(
     ] + [
         dataset.lower().replace(" ", "_").replace("-", "_")
         for dataset, _, _, _, _ in datasets
-    ]
+    ]]
 
     df.to_csv(f"{file_name}.csv", index=False)
 
