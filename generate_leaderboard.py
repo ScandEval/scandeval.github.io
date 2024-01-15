@@ -8,6 +8,7 @@ from datetime import datetime
 import click
 import re
 import scipy.stats as stats
+import os
 
 logging.basicConfig(
     level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s"
@@ -16,14 +17,9 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 
-# Variable determining whether all models should be included in the leaderboard, even
-# the ones that haven't been evaluated on all datasets
-INCLUDE_ALL = False
-
-
 # Variable determining whether all models that haven't been fully benchmarked should be
 # logged along with the datasets they are missing
-LOG_MISSING = False
+LOG_MISSING = bool(os.getenv("LOG_MISSING", "0"))
 
 
 @click.command()
@@ -368,27 +364,35 @@ title: {title}
         values["score"] = f"{total_score:.2f} ± {total_score_se:.2f}"
 
         # Add the value dictionary to the list of all values
-        if all([value != "" for value in values.values()]) or INCLUDE_ALL:
+        if all([value != "" for value in values.values()]):
             all_values.append(values)
         else:
             if LOG_MISSING:
                 missing_datasets = [
                     dataset for dataset, score_str in values.items() if score_str == ""
                 ]
-                logger.info(
-                    f"{values['model_id']!r} is missing the datasets {missing_datasets}"
+                all_are_missing = all(
+                    dataset.lower().replace(" ", "_").replace("-", "_") in missing_datasets
+                    for dataset, _, _, _, _ in datasets
                 )
+                if not all_are_missing:
+                    logger.info(
+                        f"In the {title}, {values['model_id']!r} is missing the "
+                        f"datasets {missing_datasets}."
+                    )
 
     def extract_scores_for_model(model_id: str) -> dict[str, list[float]]:
+        validation_split = re.search(r"\(.*val.*\)", model_id) is not None
         rank_score_dict = {
             score_dict["dataset"]: [
                 result_dict.get(f"test_{metric_name}", result_dict.get(metric_name, -1))
                 for result_dict in score_dict["results"]["raw"]["test"]
                 for dataset, _, _, metric_name, _ in datasets
-                if dataset.lower().replace(" ", "-").replace("-", "_") == score_dict["dataset"]
+                if dataset.lower().replace(" ", "-") == score_dict["dataset"]
             ]
             for score_dict in scores
             if score_dict["model"] == re.sub(r" *\(.+\) *", "", model_id)
+            and score_dict.get("validation_split", False) == validation_split
         }
 
         # If any scores are -1
@@ -422,6 +426,13 @@ title: {title}
             for score in scores
         ]
         p_value = stats.ttest_rel(a=score_values_1, b=score_values_2).pvalue
+
+        if p_value != p_value:
+            raise ValueError(
+                f"P-value is NaN with score values {score_values_1} and "
+                f"{score_values_2}"
+            )
+
         return p_value < 0.05
 
     # Add the rank to each model
@@ -436,6 +447,7 @@ title: {title}
             rank_scores = extract_scores_for_model(model_id=values["model_id"])
             continue
         current_scores = extract_scores_for_model(model_id=values["model_id"])
+
         if score_dicts_statistically_different(rank_scores, current_scores):
             rank_scores = current_scores
             rank += 1
@@ -462,7 +474,7 @@ title: {title}
         with benchmark_path.open("w") as f:
             f.write(html)
 
-        logging.info(
+        logger.info(
             f"Generated {title} with results from {len(all_values):,} models, stored "
             f"at {str(benchmark_path)!r}"
         )
