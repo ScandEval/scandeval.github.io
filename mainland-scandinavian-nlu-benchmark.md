@@ -3,7 +3,7 @@ layout: leaderboard
 title: Mainland Scandinavian NLU Benchmark
 ---
 
-<center>Last updated: 15/01/2024 15:21:22</center>
+<center>Last updated: 15/01/2024 15:32:26</center>
 <center><i>Hover over the headings for more information</i></center>
 
 <div class="table-wrapper centered">
@@ -2592,6 +2592,6 @@ title: Mainland Scandinavian NLU Benchmark
 </table>
 </div>
 
-<div class="centered small-font">
+<div class="end-note">
   <a href="https://scandeval.com/mainland-scandinavian-nlu-benchmark.csv" target="_blank">Download as CSV</a>
 </div>

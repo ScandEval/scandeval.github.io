@@ -147,7 +147,7 @@ title: {title}
 </table>
 </div>
 
-<div class="centered small-font">
+<div class="end-note">
   <a href="https://scandeval.com/{title_kebab}.csv" target="_blank">Download as CSV</a>
 </div>"""
 
