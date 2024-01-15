@@ -145,8 +145,9 @@ title: {title}
 
     BENCHMARK_HTML_END = f""" </tbody>
 </table>
-<center><i><a href="https://scandeval.com/{title_kebab}.csv" target="_blank">Download as CSV</a></i></center>
-</div>"""
+</div>
+
+<center><a href="https://scandeval.com/{title_kebab}.csv" target="_blank">Download as CSV</a></center>"""
 
     BENCHMARK_ENTRY = """  <tr>
    <td class="rank">{rank}</td> <!-- Rank -->
