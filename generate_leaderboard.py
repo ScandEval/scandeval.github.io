@@ -9,6 +9,7 @@ import click
 import re
 import scipy.stats as stats
 import os
+import pandas as pd
 
 logging.basicConfig(
     level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s"
@@ -19,7 +20,7 @@ logger = logging.getLogger(__name__)
 
 # Variable determining whether all models that haven't been fully benchmarked should be
 # logged along with the datasets they are missing
-LOG_MISSING = bool(os.getenv("LOG_MISSING", "0"))
+LOG_MISSING = bool(os.getenv("LOG_MISSING", None))
 
 
 @click.command()
@@ -142,8 +143,9 @@ title: {title}
  </thead>
  <tbody>"""
 
-    BENCHMARK_HTML_END = """ </tbody>
+    BENCHMARK_HTML_END = f""" </tbody>
 </table>
+<center><i><a href="https://scandeval.com/{title_kebab}.csv" target="_blank">Download as CSV</a></i></center>
 </div>"""
 
     BENCHMARK_ENTRY = """  <tr>
@@ -196,7 +198,7 @@ title: {title}
         # Extract data from record
         model_id: str = record["model"]
         model_notes: list[str] = list()
-        if record.get("few_shot", True):
+        if record.get("generative", True) and record.get("few_shot", True):
             model_notes.append("few-shot")
         if record.get("validation_split", False):
             model_notes.append("val")
@@ -473,11 +475,58 @@ title: {title}
     if all_values:
         with benchmark_path.open("w") as f:
             f.write(html)
-
+        generate_csv(all_values=all_values, datasets=datasets, file_name=title_kebab)
         logger.info(
             f"Generated {title} with results from {len(all_values):,} models, stored "
             f"at {str(benchmark_path)!r}"
         )
+
+
+def generate_csv(
+    all_values: list[dict[str, str]],
+    datasets: list[tuple[str, str | None, str, str, str]],
+    file_name: str,
+) -> None:
+    """Generate a CSV file from the list of values.
+
+    Args:
+        all_values:
+            A list of dictionaries containing the values for each model.
+        datasets:
+            A list of (dataset_name, language_code, task_code, primary_metric_code,
+            secondary_metric_code) tuples. These are the datasets that will be included
+            in the leaderboard.
+        file_name:
+            The name of the CSV file to generate, without the .csv extension.
+    """
+    def clean_value(value: str) -> str | float | int:
+        if isinstance(value, str):
+            numeric_value = (
+                value.replace(",", "").replace("=","").split()[0]
+            )
+            if numeric_value.replace("-", "").replace(".", "").isdigit():
+                return float(numeric_value)
+        return value
+
+    df = pd.DataFrame(all_values).map(clean_value).convert_dtypes()
+    df.columns = [
+        "rank",
+        "model_id",
+        "num_model_parameters",
+        "vocabulary_size",
+        "max_sequence_length",
+        "speed",
+        "score",
+    ] + [
+        language_score_column
+        for language_score_column in df.columns
+        if "_score" in language_score_column
+    ] + [
+        dataset.lower().replace(" ", "_").replace("-", "_")
+        for dataset, _, _, _, _ in datasets
+    ]
+
+    df.to_csv(f"{file_name}.csv", index=False)
 
 
 if __name__ == "__main__":
