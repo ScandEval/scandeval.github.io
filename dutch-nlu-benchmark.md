@@ -3,7 +3,7 @@ layout: leaderboard
 title: Dutch NLU Benchmark
 ---
 
-<center>Last updated: 16/01/2024 16:04:24</center>
+<center>Last updated: 16/01/2024 17:23:02</center>
 <center><i>Hover over the headings for more information</i></center>
 
 <div class="table-wrapper centered">
@@ -131,7 +131,20 @@ title: Dutch NLU Benchmark
    <td class="nl qa">55.57 ± 2.33 / 68.26 ± 1.85</td> <!-- SQuAD-nl -->
   </tr>
   <tr>
-   <td class="rank">8</td> <!-- Rank -->
+   <td class="rank">8=</td> <!-- Rank -->
+   <td>DTAI-KULeuven/robbert-2023-dutch-large</td> <!-- Model ID -->
+   <td class="num_model_parameters">355</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">5,444 ± 911 / 1,413 ± 457</td> <!-- Model inference speed -->
+   <td class="score">44.54 ± 2.60</td> <!-- ScandEval score -->
+   <td class="nl ner">85.20 ± 1.69 / 81.05 ± 2.44</td> <!-- CoNLL-nl -->
+   <td class="nl sent">16.35 ± 6.39 / 36.89 ± 5.03</td> <!-- Dutch Social -->
+   <td class="nl la">65.18 ± 1.83 / 82.29 ± 0.90</td> <!-- ScaLA-nl -->
+   <td class="nl qa">11.44 ± 0.50 / 52.98 ± 1.31</td> <!-- SQuAD-nl -->
+  </tr>
+  <tr>
+   <td class="rank">8=</td> <!-- Rank -->
    <td>cardiffnlp/twitter-xlm-roberta-base</td> <!-- Model ID -->
    <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
