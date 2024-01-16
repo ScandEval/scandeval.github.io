@@ -1,0 +1,19 @@
+rank,model_id,num_model_parameters,vocabulary_size,max_sequence_length,speed,score,nl_score,conll_nl,dutch_social,scala_nl,squad_nl
+1,intfloat/multilingual-e5-large,560.0,250,512,4714,55.84,55.84,86.91,32.64,58.51,45.32
+2,setu4993/LaBSE,471.0,501,512,13386,55.25,55.25,84.71,33.99,60.77,41.55
+3,microsoft/mdeberta-v3-base,279.0,251,512,9237,52.7,52.7,87.98,5.16,71.23,46.43
+4,xlm-roberta-large,560.0,250,512,4744,52.62,52.62,86.12,8.82,64.8,50.72
+5,intfloat/multilingual-e5-base,278.0,250,512,14965,46.43,46.43,83.05,27.67,39.28,35.71
+6,"gpt-3.5-turbo-0613 (few-shot, val)",unknown,100,4095,1344,45.45,45.45,58.45,8.81,58.95,55.57
+7,cardiffnlp/twitter-xlm-roberta-base,278.0,250,512,10116,43.01,43.01,81.92,18.78,56.72,14.61
+8,jhu-clsp/bernice,278.0,250,128,5567,42.02,42.02,84.14,22.58,55.39,5.95
+9,Geotrend/distilbert-base-25lang-cased,109.0,85,512,26099,38.62,38.62,81.57,7.45,45.28,20.18
+10,microsoft/xlm-align-base,278.0,250,512,9943,37.95,37.95,83.35,11.8,14.56,42.08
+11,Twitter/twhin-bert-base,279.0,250,512,11514,34.24,34.24,80.59,9.53,39.12,7.71
+12,Twitter/twhin-bert-large,561.0,250,512,5299,33.92,33.92,82.5,6.55,18.25,28.37
+13,sentence-transformers/quora-distilbert-multilingual,135.0,120,512,16901,30.9,30.9,74.48,23.25,21.36,4.5
+14,mistralai/Mistral-7B-v0.1 (few-shot),7242.0,32,32768,2451,25.97,25.97,34.6,7.98,25.43,35.89
+15,sentence-transformers/distiluse-base-multilingual-cased-v1,135.0,120,512,26344,24.38,24.38,68.27,17.82,9.27,2.17
+16,3ebdola/Dialectal-Arabic-XLM-R-Base,278.0,250,512,15177,18.7,18.7,60.04,8.39,2.07,4.3
+16,dbmdz/bert-tiny-historic-multilingual-cased,5.0,32,512,78027,17.67,17.67,56.29,8.45,1.55,4.4
+17,fresh-xlm-roberta-base,278.0,250,512,1319,4.84,4.84,16.25,0.92,1.93,0.26
