@@ -3,7 +3,7 @@ layout: leaderboard
 title: Dutch NLU Benchmark
 ---
 
-<center>Last updated: 16/01/2024 17:23:02</center>
+<center>Last updated: 16/01/2024 17:51:03</center>
 <center><i>Hover over the headings for more information</i></center>
 
 <div class="table-wrapper centered">
@@ -196,7 +196,7 @@ title: Dutch NLU Benchmark
    <td class="nl qa">42.08 ± 7.94 / 51.94 ± 9.08</td> <!-- SQuAD-nl -->
   </tr>
   <tr>
-   <td class="rank">12</td> <!-- Rank -->
+   <td class="rank">12=</td> <!-- Rank -->
    <td>sentence-transformers/paraphrase-xlm-r-multilingual-v1</td> <!-- Model ID -->
    <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
@@ -207,6 +207,19 @@ title: Dutch NLU Benchmark
    <td class="nl sent">21.37 ± 8.79 / 40.62 ± 7.64</td> <!-- Dutch Social -->
    <td class="nl la">45.86 ± 2.06 / 71.32 ± 1.40</td> <!-- ScaLA-nl -->
    <td class="nl qa">5.20 ± 0.30 / 10.40 ± 0.38</td> <!-- SQuAD-nl -->
+  </tr>
+  <tr>
+   <td class="rank">12=</td> <!-- Rank -->
+   <td>DTAI-KULeuven/robbertje-1-gb-bort</td> <!-- Model ID -->
+   <td class="num_model_parameters">46</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">40</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">31,087 ± 5,833 / 7,147 ± 2,339</td> <!-- Model inference speed -->
+   <td class="score">35.60 ± 3.59</td> <!-- ScandEval score -->
+   <td class="nl ner">75.07 ± 0.86 / 66.74 ± 1.53</td> <!-- CoNLL-nl -->
+   <td class="nl sent">24.93 ± 6.85 / 41.47 ± 4.05</td> <!-- Dutch Social -->
+   <td class="nl la">37.19 ± 6.22 / 66.68 ± 3.26</td> <!-- ScaLA-nl -->
+   <td class="nl qa">5.23 ± 0.43 / 10.67 ± 0.44</td> <!-- SQuAD-nl -->
   </tr>
   <tr>
    <td class="rank">13</td> <!-- Rank -->

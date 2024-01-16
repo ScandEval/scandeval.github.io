@@ -13,6 +13,7 @@ rank,model_id,num_model_parameters,vocabulary_size,max_sequence_length,speed,sco
 10,Geotrend/distilbert-base-25lang-cased,109.0,85,512,26099,38.62,38.62,81.57,7.45,45.28,20.18
 11,microsoft/xlm-align-base,278.0,250,512,9943,37.95,37.95,83.35,11.8,14.56,42.08
 12,sentence-transformers/paraphrase-xlm-r-multilingual-v1,278.0,250,512,14994,37.67,37.67,78.25,21.37,45.86,5.2
+12,DTAI-KULeuven/robbertje-1-gb-bort,46.0,40,512,31087,35.6,35.6,75.07,24.93,37.19,5.23
 13,Twitter/twhin-bert-base,279.0,250,512,11514,34.24,34.24,80.59,9.53,39.12,7.71
 14,Twitter/twhin-bert-large,561.0,250,512,5299,33.92,33.92,82.5,6.55,18.25,28.37
 15,sentence-transformers/quora-distilbert-multilingual,135.0,120,512,16901,30.9,30.9,74.48,23.25,21.36,4.5
