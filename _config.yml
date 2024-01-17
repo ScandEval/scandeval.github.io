@@ -18,11 +18,11 @@ description: A Natural Language Understanding Benchmark
 # List of links in the navigation bar
 navbar-links:
   About: "index"
-  Mainland Scandi NLU: "mainland-scandinavian-nlu-benchmark"
-  Insular Scandi NLU: "insular-scandinavian-nlu-benchmark"
-  German NLU: "german-nlu-benchmark"
-  Dutch NLU: "dutch-nlu-benchmark"
-  English NLU: "english-nlu-benchmark"
+  Mainland Scandi NLU: "mainland-scandinavian-nlu"
+  Insular Scandi NLU: "insular-scandinavian-nlu"
+  German NLU: "german-nlu"
+  Dutch NLU: "dutch-nlu"
+  English NLU: "english-nlu"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
