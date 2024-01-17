@@ -28,11 +28,10 @@
 	  &nbsp;&nbsp;&bull;&nbsp;&nbsp;
       <a href="{{ site.author.affiliation-url }}">{{ site.author.affiliation }}</a>
       &nbsp;&bull;&nbsp;
-      {{ site.time | date: '%Y' }}
-
+      <a href="{{ site.author.github-url }}">{{ site.author.github }}</a>
       {% if site.url-pretty %}
-      &nbsp;&bull;&nbsp;
-      <a href="{{ site.url }}">{{ site.url-pretty }}</a>
+        &nbsp;&bull;&nbsp;
+        <a href="{{ site.url }}">{{ site.url-pretty }}</a>
       {% endif %}
 
       {% if site.matomo %}
@@ -42,7 +41,7 @@
         {% endif %}
       {% endif%}
       </p>
-          <!-- Please don't remove this, keep my open source work credited :) -->
+    <!-- Please don't remove this, keep my open source work credited :) -->
     <p class="theme-by text-muted">
       Theme by
       <a href="https://deanattali.com/beautiful-jekyll/">beautiful-jekyll</a>
