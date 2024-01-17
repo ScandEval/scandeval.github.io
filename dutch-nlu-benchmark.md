@@ -3,7 +3,7 @@ layout: leaderboard
 title: Dutch NLU Benchmark
 ---
 
-<center>Last updated: 16/01/2024 17:51:03</center>
+<center>Last updated: 17/01/2024 09:51:06</center>
 <center><i>Hover over the headings for more information</i></center>
 
 <div class="table-wrapper centered">
@@ -79,7 +79,20 @@ title: Dutch NLU Benchmark
    <td class="nl qa">50.72 ± 1.20 / 61.66 ± 1.16</td> <!-- SQuAD-nl -->
   </tr>
   <tr>
-   <td class="rank">5</td> <!-- Rank -->
+   <td class="rank">5=</td> <!-- Rank -->
+   <td>DTAI-KULeuven/robbert-2022-dutch-base</td> <!-- Model ID -->
+   <td class="num_model_parameters">119</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">43</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">11,307 ± 2,134 / 2,580 ± 834</td> <!-- Model inference speed -->
+   <td class="score">51.35 ± 2.29</td> <!-- ScandEval score -->
+   <td class="nl ner">84.42 ± 1.03 / 79.84 ± 1.41</td> <!-- CoNLL-nl -->
+   <td class="nl sent">24.58 ± 5.35 / 42.93 ± 4.78</td> <!-- Dutch Social -->
+   <td class="nl la">68.76 ± 1.47 / 83.77 ± 0.93</td> <!-- ScaLA-nl -->
+   <td class="nl qa">27.63 ± 1.32 / 36.98 ± 1.39</td> <!-- SQuAD-nl -->
+  </tr>
+  <tr>
+   <td class="rank">5=</td> <!-- Rank -->
    <td>pdelobelle/robbert-v2-dutch-base</td> <!-- Model ID -->
    <td class="num_model_parameters">117</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">40</td> <!-- Size of the model's vocabulary -->
@@ -131,7 +144,20 @@ title: Dutch NLU Benchmark
    <td class="nl qa">55.57 ± 2.33 / 68.26 ± 1.85</td> <!-- SQuAD-nl -->
   </tr>
   <tr>
-   <td class="rank">8=</td> <!-- Rank -->
+   <td class="rank">8</td> <!-- Rank -->
+   <td>DTAI-KULeuven/robbert-2023-dutch-base</td> <!-- Model ID -->
+   <td class="num_model_parameters">124</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">11,230 ± 1,939 / 2,750 ± 897</td> <!-- Model inference speed -->
+   <td class="score">44.84 ± 4.13</td> <!-- ScandEval score -->
+   <td class="nl ner">86.32 ± 0.75 / 82.22 ± 1.28</td> <!-- CoNLL-nl -->
+   <td class="nl sent">28.20 ± 3.75 / 44.38 ± 3.44</td> <!-- Dutch Social -->
+   <td class="nl la">55.12 ± 11.67 / 76.12 ± 7.45</td> <!-- ScaLA-nl -->
+   <td class="nl qa">9.74 ± 0.34 / 44.34 ± 0.99</td> <!-- SQuAD-nl -->
+  </tr>
+  <tr>
+   <td class="rank">9</td> <!-- Rank -->
    <td>DTAI-KULeuven/robbert-2023-dutch-large</td> <!-- Model ID -->
    <td class="num_model_parameters">355</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
@@ -144,7 +170,20 @@ title: Dutch NLU Benchmark
    <td class="nl qa">11.44 ± 0.50 / 52.98 ± 1.31</td> <!-- SQuAD-nl -->
   </tr>
   <tr>
-   <td class="rank">8=</td> <!-- Rank -->
+   <td class="rank">10</td> <!-- Rank -->
+   <td>DTAI-KULeuven/robbertje-1-gb-non-shuffled</td> <!-- Model ID -->
+   <td class="num_model_parameters">74</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">40</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">21,007 ± 3,892 / 4,922 ± 1,588</td> <!-- Model inference speed -->
+   <td class="score">43.62 ± 1.16</td> <!-- ScandEval score -->
+   <td class="nl ner">81.38 ± 0.87 / 74.50 ± 1.61</td> <!-- CoNLL-nl -->
+   <td class="nl sent">32.23 ± 1.76 / 50.11 ± 2.55</td> <!-- Dutch Social -->
+   <td class="nl la">54.57 ± 1.72 / 75.82 ± 1.07</td> <!-- ScaLA-nl -->
+   <td class="nl qa">6.31 ± 0.28 / 11.55 ± 0.22</td> <!-- SQuAD-nl -->
+  </tr>
+  <tr>
+   <td class="rank">11</td> <!-- Rank -->
    <td>cardiffnlp/twitter-xlm-roberta-base</td> <!-- Model ID -->
    <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
@@ -157,7 +196,33 @@ title: Dutch NLU Benchmark
    <td class="nl qa">14.61 ± 4.26 / 20.91 ± 5.21</td> <!-- SQuAD-nl -->
   </tr>
   <tr>
-   <td class="rank">9</td> <!-- Rank -->
+   <td class="rank">12</td> <!-- Rank -->
+   <td>DTAI-KULeuven/robbertje-1-gb-shuffled</td> <!-- Model ID -->
+   <td class="num_model_parameters">74</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">40</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">20,616 ± 3,755 / 4,819 ± 1,542</td> <!-- Model inference speed -->
+   <td class="score">42.59 ± 1.69</td> <!-- ScandEval score -->
+   <td class="nl ner">80.69 ± 1.31 / 73.55 ± 2.27</td> <!-- CoNLL-nl -->
+   <td class="nl sent">26.02 ± 3.29 / 42.90 ± 2.60</td> <!-- Dutch Social -->
+   <td class="nl la">57.03 ± 1.80 / 77.24 ± 1.09</td> <!-- ScaLA-nl -->
+   <td class="nl qa">6.64 ± 0.36 / 12.04 ± 0.28</td> <!-- SQuAD-nl -->
+  </tr>
+  <tr>
+   <td class="rank">13=</td> <!-- Rank -->
+   <td>DTAI-KULeuven/robbertje-1-gb-merged</td> <!-- Model ID -->
+   <td class="num_model_parameters">74</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">40</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">21,027 ± 3,902 / 4,932 ± 1,591</td> <!-- Model inference speed -->
+   <td class="score">42.09 ± 1.45</td> <!-- ScandEval score -->
+   <td class="nl ner">80.14 ± 0.74 / 72.51 ± 0.97</td> <!-- CoNLL-nl -->
+   <td class="nl sent">32.26 ± 2.51 / 47.44 ± 2.78</td> <!-- Dutch Social -->
+   <td class="nl la">50.00 ± 2.09 / 73.38 ± 1.43</td> <!-- ScaLA-nl -->
+   <td class="nl qa">5.97 ± 0.44 / 11.08 ± 0.47</td> <!-- SQuAD-nl -->
+  </tr>
+  <tr>
+   <td class="rank">13=</td> <!-- Rank -->
    <td>jhu-clsp/bernice</td> <!-- Model ID -->
    <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
@@ -170,7 +235,7 @@ title: Dutch NLU Benchmark
    <td class="nl qa">5.95 ± 3.06 / 7.23 ± 3.67</td> <!-- SQuAD-nl -->
   </tr>
   <tr>
-   <td class="rank">10</td> <!-- Rank -->
+   <td class="rank">14</td> <!-- Rank -->
    <td>Geotrend/distilbert-base-25lang-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">109</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">85</td> <!-- Size of the model's vocabulary -->
@@ -183,7 +248,7 @@ title: Dutch NLU Benchmark
    <td class="nl qa">20.18 ± 1.26 / 27.86 ± 1.48</td> <!-- SQuAD-nl -->
   </tr>
   <tr>
-   <td class="rank">11</td> <!-- Rank -->
+   <td class="rank">15</td> <!-- Rank -->
    <td>microsoft/xlm-align-base</td> <!-- Model ID -->
    <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
@@ -196,7 +261,7 @@ title: Dutch NLU Benchmark
    <td class="nl qa">42.08 ± 7.94 / 51.94 ± 9.08</td> <!-- SQuAD-nl -->
   </tr>
   <tr>
-   <td class="rank">12=</td> <!-- Rank -->
+   <td class="rank">16=</td> <!-- Rank -->
    <td>sentence-transformers/paraphrase-xlm-r-multilingual-v1</td> <!-- Model ID -->
    <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
@@ -209,7 +274,7 @@ title: Dutch NLU Benchmark
    <td class="nl qa">5.20 ± 0.30 / 10.40 ± 0.38</td> <!-- SQuAD-nl -->
   </tr>
   <tr>
-   <td class="rank">12=</td> <!-- Rank -->
+   <td class="rank">16=</td> <!-- Rank -->
    <td>DTAI-KULeuven/robbertje-1-gb-bort</td> <!-- Model ID -->
    <td class="num_model_parameters">46</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">40</td> <!-- Size of the model's vocabulary -->
@@ -222,7 +287,7 @@ title: Dutch NLU Benchmark
    <td class="nl qa">5.23 ± 0.43 / 10.67 ± 0.44</td> <!-- SQuAD-nl -->
   </tr>
   <tr>
-   <td class="rank">13</td> <!-- Rank -->
+   <td class="rank">17</td> <!-- Rank -->
    <td>Twitter/twhin-bert-base</td> <!-- Model ID -->
    <td class="num_model_parameters">279</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
@@ -235,7 +300,7 @@ title: Dutch NLU Benchmark
    <td class="nl qa">7.71 ± 0.42 / 12.90 ± 0.39</td> <!-- SQuAD-nl -->
   </tr>
   <tr>
-   <td class="rank">14</td> <!-- Rank -->
+   <td class="rank">18</td> <!-- Rank -->
    <td>Twitter/twhin-bert-large</td> <!-- Model ID -->
    <td class="num_model_parameters">561</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
@@ -248,7 +313,7 @@ title: Dutch NLU Benchmark
    <td class="nl qa">28.37 ± 4.84 / 36.84 ± 5.92</td> <!-- SQuAD-nl -->
   </tr>
   <tr>
-   <td class="rank">15</td> <!-- Rank -->
+   <td class="rank">19</td> <!-- Rank -->
    <td>sentence-transformers/quora-distilbert-multilingual</td> <!-- Model ID -->
    <td class="num_model_parameters">135</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">120</td> <!-- Size of the model's vocabulary -->
@@ -261,7 +326,7 @@ title: Dutch NLU Benchmark
    <td class="nl qa">4.50 ± 0.39 / 9.94 ± 0.33</td> <!-- SQuAD-nl -->
   </tr>
   <tr>
-   <td class="rank">16</td> <!-- Rank -->
+   <td class="rank">20</td> <!-- Rank -->
    <td>EuropeanParliament/EUBERT</td> <!-- Model ID -->
    <td class="num_model_parameters">94</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">66</td> <!-- Size of the model's vocabulary -->
@@ -274,7 +339,7 @@ title: Dutch NLU Benchmark
    <td class="nl qa">20.65 ± 1.02 / 29.40 ± 1.29</td> <!-- SQuAD-nl -->
   </tr>
   <tr>
-   <td class="rank">17</td> <!-- Rank -->
+   <td class="rank">21</td> <!-- Rank -->
    <td>mistralai/Mistral-7B-v0.1 (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -287,7 +352,7 @@ title: Dutch NLU Benchmark
    <td class="nl qa">35.89 ± 2.20 / 47.61 ± 2.76</td> <!-- SQuAD-nl -->
   </tr>
   <tr>
-   <td class="rank">18</td> <!-- Rank -->
+   <td class="rank">22</td> <!-- Rank -->
    <td>sentence-transformers/distiluse-base-multilingual-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">135</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">120</td> <!-- Size of the model's vocabulary -->
@@ -300,7 +365,7 @@ title: Dutch NLU Benchmark
    <td class="nl qa">3.11 ± 0.37 / 7.91 ± 0.25</td> <!-- SQuAD-nl -->
   </tr>
   <tr>
-   <td class="rank">19</td> <!-- Rank -->
+   <td class="rank">23</td> <!-- Rank -->
    <td>sentence-transformers/distiluse-base-multilingual-cased-v1</td> <!-- Model ID -->
    <td class="num_model_parameters">135</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">120</td> <!-- Size of the model's vocabulary -->
@@ -313,7 +378,20 @@ title: Dutch NLU Benchmark
    <td class="nl qa">2.17 ± 0.34 / 8.02 ± 0.41</td> <!-- SQuAD-nl -->
   </tr>
   <tr>
-   <td class="rank">20=</td> <!-- Rank -->
+   <td class="rank">24=</td> <!-- Rank -->
+   <td>jpostma/DagoBERT</td> <!-- Model ID -->
+   <td class="num_model_parameters">117</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">40</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">11,241 ± 2,115 / 2,565 ± 830</td> <!-- Model inference speed -->
+   <td class="score">22.64 ± 1.48</td> <!-- ScandEval score -->
+   <td class="nl ner">47.68 ± 1.08 / 42.28 ± 1.41</td> <!-- CoNLL-nl -->
+   <td class="nl sent">8.01 ± 2.88 / 31.60 ± 2.41</td> <!-- Dutch Social -->
+   <td class="nl la">31.21 ± 1.62 / 64.82 ± 0.69</td> <!-- ScaLA-nl -->
+   <td class="nl qa">3.65 ± 0.33 / 9.49 ± 0.31</td> <!-- SQuAD-nl -->
+  </tr>
+  <tr>
+   <td class="rank">24=</td> <!-- Rank -->
    <td>3ebdola/Dialectal-Arabic-XLM-R-Base</td> <!-- Model ID -->
    <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
@@ -326,7 +404,7 @@ title: Dutch NLU Benchmark
    <td class="nl qa">4.30 ± 1.26 / 9.24 ± 1.13</td> <!-- SQuAD-nl -->
   </tr>
   <tr>
-   <td class="rank">20=</td> <!-- Rank -->
+   <td class="rank">24=</td> <!-- Rank -->
    <td>dbmdz/bert-tiny-historic-multilingual-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">5</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -339,7 +417,7 @@ title: Dutch NLU Benchmark
    <td class="nl qa">4.40 ± 0.22 / 6.62 ± 0.38</td> <!-- SQuAD-nl -->
   </tr>
   <tr>
-   <td class="rank">21</td> <!-- Rank -->
+   <td class="rank">25</td> <!-- Rank -->
    <td>fresh-xlm-roberta-base</td> <!-- Model ID -->
    <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
