@@ -3,7 +3,7 @@ layout: leaderboard
 title: Mainland Scandinavian NLU
 ---
 
-<center>Last updated: 17/01/2024 12:56:37</center>
+<center>Last updated: 17/01/2024 16:32:52</center>
 <center><i>Hover over the headings for more information</i></center>
 
 <div class="table-wrapper centered">
@@ -2408,6 +2408,32 @@ title: Mainland Scandinavian NLU
   </tr>
   <tr>
    <td class="rank">64</td> <!-- Rank -->
+   <td>AI-Sweden-Models/gpt-sw3-6.7b-v2-instruct (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">7111</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">2,032 ± 555 / 554 ± 212</td> <!-- Model inference speed -->
+   <td class="score">21.22 ± 2.38</td> <!-- ScandEval score -->
+   <td class="da-score">15.03 ± 1.91</td> <!-- Danish score -->
+   <td class="no-score">19.67 ± 2.65</td> <!-- Norwegian score -->
+   <td class="sv-score">28.96 ± 2.58</td> <!-- Swedish score -->
+   <td class="da ner">11.19 ± 2.04 / 12.49 ± 2.42</td> <!-- DANSK -->
+   <td class="da sent">2.85 ± 1.54 / 18.05 ± 0.23</td> <!-- Angry Tweets -->
+   <td class="da la">10.96 ± 2.53 / 54.06 ± 1.93</td> <!-- ScaLA-da -->
+   <td class="da qa">35.11 ± 1.54 / 44.44 ± 1.66</td> <!-- ScandiQA-da -->
+   <td class="no ner">16.88 ± 1.63 / 17.93 ± 1.70</td> <!-- NorNE-nb -->
+   <td class="no ner">19.02 ± 1.86 / 19.97 ± 1.87</td> <!-- NorNE-nn -->
+   <td class="no sent">34.37 ± 5.33 / 50.44 ± 6.07</td> <!-- NoReC -->
+   <td class="no la">2.39 ± 1.80 / 35.48 ± 2.61</td> <!-- ScaLA-nb -->
+   <td class="no la">5.10 ± 2.69 / 38.37 ± 3.31</td> <!-- ScaLA-nn -->
+   <td class="no qa">22.63 ± 1.28 / 44.56 ± 1.86</td> <!-- NorQuAD -->
+   <td class="sv ner">13.93 ± 2.35 / 14.65 ± 2.60</td> <!-- SUC3 -->
+   <td class="sv sent">56.63 ± 3.35 / 62.75 ± 3.60</td> <!-- SweReC -->
+   <td class="sv la">10.79 ± 1.85 / 52.56 ± 3.03</td> <!-- ScaLA-sv -->
+   <td class="sv qa">34.51 ± 2.76 / 43.60 ± 3.15</td> <!-- ScandiQA-sv -->
+  </tr>
+  <tr>
+   <td class="rank">65</td> <!-- Rank -->
    <td>3ebdola/Dialectal-Arabic-XLM-R-Base</td> <!-- Model ID -->
    <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
@@ -2433,7 +2459,7 @@ title: Mainland Scandinavian NLU
    <td class="sv qa">8.71 ± 2.58 / 16.77 ± 2.50</td> <!-- ScandiQA-sv -->
   </tr>
   <tr>
-   <td class="rank">65</td> <!-- Rank -->
+   <td class="rank">66</td> <!-- Rank -->
    <td>alexanderfalk/danbert-small-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">83</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">52</td> <!-- Size of the model's vocabulary -->
@@ -2459,7 +2485,7 @@ title: Mainland Scandinavian NLU
    <td class="sv qa">1.12 ± 0.85 / 3.07 ± 1.91</td> <!-- ScandiQA-sv -->
   </tr>
   <tr>
-   <td class="rank">66</td> <!-- Rank -->
+   <td class="rank">67</td> <!-- Rank -->
    <td>mhenrichsen/danskgpt-tiny-chat (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">1100</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -2485,7 +2511,7 @@ title: Mainland Scandinavian NLU
    <td class="sv qa">11.87 ± 2.07 / 17.35 ± 2.24</td> <!-- ScandiQA-sv -->
   </tr>
   <tr>
-   <td class="rank">67</td> <!-- Rank -->
+   <td class="rank">68</td> <!-- Rank -->
    <td>RabotaRu/HRBert-mini</td> <!-- Model ID -->
    <td class="num_model_parameters">80</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">200</td> <!-- Size of the model's vocabulary -->
@@ -2511,7 +2537,7 @@ title: Mainland Scandinavian NLU
    <td class="sv qa">2.86 ± 0.73 / 8.44 ± 2.01</td> <!-- ScandiQA-sv -->
   </tr>
   <tr>
-   <td class="rank">68</td> <!-- Rank -->
+   <td class="rank">69</td> <!-- Rank -->
    <td>fresh-xlm-roberta-base</td> <!-- Model ID -->
    <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
@@ -2537,7 +2563,7 @@ title: Mainland Scandinavian NLU
    <td class="sv qa">2.00 ± 0.63 / 7.20 ± 1.68</td> <!-- ScandiQA-sv -->
   </tr>
   <tr>
-   <td class="rank">69</td> <!-- Rank -->
+   <td class="rank">70</td> <!-- Rank -->
    <td>fresh-electra-small</td> <!-- Model ID -->
    <td class="num_model_parameters">14</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">31</td> <!-- Size of the model's vocabulary -->
@@ -2563,7 +2589,7 @@ title: Mainland Scandinavian NLU
    <td class="sv qa">0.02 ± 0.03 / 0.04 ± 0.05</td> <!-- ScandiQA-sv -->
   </tr>
   <tr>
-   <td class="rank">70</td> <!-- Rank -->
+   <td class="rank">71</td> <!-- Rank -->
    <td>mhenrichsen/danskgpt-tiny (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">1100</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
