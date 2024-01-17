@@ -1,13 +1,13 @@
 ---
 layout: leaderboard
-title: Insular Scandinavian NLU Benchmark
+title: Insular Scandinavian NLU
 ---
 
-<center>Last updated: 16/01/2024 09:48:48</center>
+<center>Last updated: 17/01/2024 12:56:39</center>
 <center><i>Hover over the headings for more information</i></center>
 
 <div class="table-wrapper centered">
-<table id="insular-scandinavian-nlu-benchmark" class="sortable fixed centered small-font">
+<table id="insular-scandinavian-nlu" class="sortable fixed centered small-font">
  <thead>
   <tr>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="ScandEval statistically significant model rank">Rank</span></th>
@@ -691,5 +691,5 @@ title: Insular Scandinavian NLU Benchmark
 </div>
 
 <div class="end-note">
-  <a href="https://scandeval.com/insular-scandinavian-nlu-benchmark.csv" target="_blank">Download as CSV</a>
+  <a href="https://scandeval.com/insular-scandinavian-nlu.csv" target="_blank">Download as CSV</a>
 </div>

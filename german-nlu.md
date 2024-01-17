@@ -1,13 +1,13 @@
 ---
 layout: leaderboard
-title: German NLU Benchmark
+title: German NLU
 ---
 
-<center>Last updated: 16/01/2024 09:48:49</center>
+<center>Last updated: 17/01/2024 12:56:40</center>
 <center><i>Hover over the headings for more information</i></center>
 
 <div class="table-wrapper centered">
-<table id="german-nlu-benchmark" class="sortable fixed centered small-font">
+<table id="german-nlu" class="sortable fixed centered small-font">
  <thead>
   <tr>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="ScandEval statistically significant model rank">Rank</span></th>
@@ -395,5 +395,5 @@ title: German NLU Benchmark
 </div>
 
 <div class="end-note">
-  <a href="https://scandeval.com/german-nlu-benchmark.csv" target="_blank">Download as CSV</a>
+  <a href="https://scandeval.com/german-nlu.csv" target="_blank">Download as CSV</a>
 </div>

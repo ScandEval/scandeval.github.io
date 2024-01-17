@@ -1,13 +1,13 @@
 ---
 layout: leaderboard
-title: English NLU Benchmark
+title: English NLU
 ---
 
-<center>Last updated: 16/01/2024 09:48:51</center>
+<center>Last updated: 17/01/2024 12:56:42</center>
 <center><i>Hover over the headings for more information</i></center>
 
 <div class="table-wrapper centered">
-<table id="english-nlu-benchmark" class="sortable fixed centered small-font">
+<table id="english-nlu" class="sortable fixed centered small-font">
  <thead>
   <tr>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="ScandEval statistically significant model rank">Rank</span></th>
@@ -252,5 +252,5 @@ title: English NLU Benchmark
 </div>
 
 <div class="end-note">
-  <a href="https://scandeval.com/english-nlu-benchmark.csv" target="_blank">Download as CSV</a>
+  <a href="https://scandeval.com/english-nlu.csv" target="_blank">Download as CSV</a>
 </div>

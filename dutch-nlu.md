@@ -1,13 +1,13 @@
 ---
 layout: leaderboard
-title: Dutch NLU Benchmark
+title: Dutch NLU
 ---
 
-<center>Last updated: 17/01/2024 09:51:06</center>
+<center>Last updated: 17/01/2024 12:56:41</center>
 <center><i>Hover over the headings for more information</i></center>
 
 <div class="table-wrapper centered">
-<table id="dutch-nlu-benchmark" class="sortable fixed centered small-font">
+<table id="dutch-nlu" class="sortable fixed centered small-font">
  <thead>
   <tr>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="ScandEval statistically significant model rank">Rank</span></th>
@@ -434,5 +434,5 @@ title: Dutch NLU Benchmark
 </div>
 
 <div class="end-note">
-  <a href="https://scandeval.com/dutch-nlu-benchmark.csv" target="_blank">Download as CSV</a>
+  <a href="https://scandeval.com/dutch-nlu.csv" target="_blank">Download as CSV</a>
 </div>
