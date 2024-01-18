@@ -1,5 +1,4 @@
 .venv/
-makefile
 .ipynb_checkpoints/
 iframe_figures/
 __pycache__/
