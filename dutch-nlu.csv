@@ -1,6 +1,6 @@
 rank,model_id,num_model_parameters,vocabulary_size,max_sequence_length,speed,score,nl_score,conll_nl,dutch_social,scala_nl,squad_nl
 1,intfloat/multilingual-e5-large,560.0,250,512,4714,55.84,55.84,86.91,32.64,58.51,45.32
-2,setu4993/LaBSE,471.0,501,512,13386,55.25,55.25,84.71,33.99,60.77,41.55
+2,setu4993/LaBSE,471.0,501,512,13052,55.25,55.25,84.71,33.99,60.77,41.55
 3,microsoft/mdeberta-v3-base,279.0,251,512,9237,52.7,52.7,87.98,5.16,71.23,46.43
 4,xlm-roberta-large,560.0,250,512,4744,52.62,52.62,86.12,8.82,64.8,50.72
 5,DTAI-KULeuven/robbert-2022-dutch-base,119.0,43,512,11307,51.35,51.35,84.42,24.58,68.76,27.63
@@ -20,7 +20,7 @@ rank,model_id,num_model_parameters,vocabulary_size,max_sequence_length,speed,sco
 16,sentence-transformers/paraphrase-xlm-r-multilingual-v1,278.0,250,512,14994,37.67,37.67,78.25,21.37,45.86,5.2
 16,DTAI-KULeuven/robbertje-1-gb-bort,46.0,40,512,31087,35.6,35.6,75.07,24.93,37.19,5.23
 17,Twitter/twhin-bert-base,279.0,250,512,11514,34.24,34.24,80.59,9.53,39.12,7.71
-18,Twitter/twhin-bert-large,561.0,250,512,5299,33.92,33.92,82.5,6.55,18.25,28.37
+18,Twitter/twhin-bert-large,561.0,250,512,5028,33.92,33.92,82.5,6.55,18.25,28.37
 19,sentence-transformers/quora-distilbert-multilingual,135.0,120,512,16901,30.9,30.9,74.48,23.25,21.36,4.5
 20,EuropeanParliament/EUBERT,94.0,66,512,20070,28.46,28.46,50.44,14.86,27.9,20.65
 21,mistralai/Mistral-7B-v0.1 (few-shot),7242.0,32,32768,2451,25.97,25.97,34.6,7.98,25.43,35.89
@@ -29,4 +29,4 @@ rank,model_id,num_model_parameters,vocabulary_size,max_sequence_length,speed,sco
 24,jpostma/DagoBERT,117.0,40,512,11241,22.64,22.64,47.68,8.01,31.21,3.65
 24,3ebdola/Dialectal-Arabic-XLM-R-Base,278.0,250,512,15177,18.7,18.7,60.04,8.39,2.07,4.3
 24,dbmdz/bert-tiny-historic-multilingual-cased,5.0,32,512,78027,17.67,17.67,56.29,8.45,1.55,4.4
-25,fresh-xlm-roberta-base,278.0,250,512,1319,4.84,4.84,16.25,0.92,1.93,0.26
+25,fresh-xlm-roberta-base,278.0,250,512,1285,4.84,4.84,16.25,0.92,1.93,0.26

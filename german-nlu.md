@@ -3,7 +3,7 @@ layout: leaderboard
 title: German NLU
 ---
 
-<center>Last updated: 17/01/2024 12:56:40</center>
+<center>Last updated: 18/01/2024 09:17:47</center>
 <center><i>Hover over the headings for more information</i></center>
 
 <div class="table-wrapper centered">
@@ -45,7 +45,7 @@ title: German NLU
    <td class="num_model_parameters">576</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">256</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">3,355 ± 475 / 1,002 ± 312</td> <!-- Model inference speed -->
+   <td class="speed">3,270 ± 467 / 972 ± 303</td> <!-- Model inference speed -->
    <td class="score">61.07 ± 1.89</td> <!-- ScandEval score -->
    <td class="de ner">77.85 ± 1.92 / 79.32 ± 1.76</td> <!-- GermEval -->
    <td class="de sent">59.69 ± 2.32 / 72.69 ± 1.52</td> <!-- SB10k -->
@@ -84,7 +84,7 @@ title: German NLU
    <td class="num_model_parameters">471</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">501</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">13,305 ± 3,306 / 2,414 ± 780</td> <!-- Model inference speed -->
+   <td class="speed">13,196 ± 3,299 / 2,383 ± 768</td> <!-- Model inference speed -->
    <td class="score">57.40 ± 1.56</td> <!-- ScandEval score -->
    <td class="de ner">78.42 ± 0.82 / 78.99 ± 0.87</td> <!-- GermEval -->
    <td class="de sent">59.17 ± 1.96 / 72.66 ± 1.28</td> <!-- SB10k -->
@@ -136,7 +136,7 @@ title: German NLU
    <td class="num_model_parameters">471</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">501</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">13,386 ± 3,349 / 2,435 ± 787</td> <!-- Model inference speed -->
+   <td class="speed">13,052 ± 3,261 / 2,357 ± 761</td> <!-- Model inference speed -->
    <td class="score">53.30 ± 1.58</td> <!-- ScandEval score -->
    <td class="de ner">77.93 ± 0.97 / 78.94 ± 0.98</td> <!-- GermEval -->
    <td class="de sent">58.20 ± 2.20 / 71.95 ± 1.45</td> <!-- SB10k -->
@@ -214,7 +214,7 @@ title: German NLU
    <td class="num_model_parameters">561</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">5,299 ± 910 / 1,415 ± 451</td> <!-- Model inference speed -->
+   <td class="speed">5,028 ± 868 / 1,342 ± 432</td> <!-- Model inference speed -->
    <td class="score">42.53 ± 5.71</td> <!-- ScandEval score -->
    <td class="de ner">74.00 ± 1.42 / 74.80 ± 1.48</td> <!-- GermEval -->
    <td class="de sent">55.04 ± 3.06 / 69.65 ± 2.21</td> <!-- SB10k -->

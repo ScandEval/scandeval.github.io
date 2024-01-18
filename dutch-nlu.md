@@ -3,7 +3,7 @@ layout: leaderboard
 title: Dutch NLU
 ---
 
-<center>Last updated: 17/01/2024 12:56:41</center>
+<center>Last updated: 18/01/2024 09:17:48</center>
 <center><i>Hover over the headings for more information</i></center>
 
 <div class="table-wrapper centered">
@@ -45,7 +45,7 @@ title: Dutch NLU
    <td class="num_model_parameters">471</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">501</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">13,386 ± 3,349 / 2,435 ± 787</td> <!-- Model inference speed -->
+   <td class="speed">13,052 ± 3,261 / 2,357 ± 761</td> <!-- Model inference speed -->
    <td class="score">55.25 ± 1.81</td> <!-- ScandEval score -->
    <td class="nl ner">84.71 ± 0.59 / 82.02 ± 1.04</td> <!-- CoNLL-nl -->
    <td class="nl sent">33.99 ± 4.05 / 50.69 ± 4.23</td> <!-- Dutch Social -->
@@ -305,7 +305,7 @@ title: Dutch NLU
    <td class="num_model_parameters">561</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">5,299 ± 910 / 1,415 ± 451</td> <!-- Model inference speed -->
+   <td class="speed">5,028 ± 868 / 1,342 ± 432</td> <!-- Model inference speed -->
    <td class="score">33.92 ± 5.11</td> <!-- ScandEval score -->
    <td class="nl ner">82.50 ± 1.87 / 77.35 ± 2.80</td> <!-- CoNLL-nl -->
    <td class="nl sent">6.55 ± 5.33 / 28.68 ± 3.64</td> <!-- Dutch Social -->
@@ -422,7 +422,7 @@ title: Dutch NLU
    <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">1,319 ± 94 / 656 ± 172</td> <!-- Model inference speed -->
+   <td class="speed">1,285 ± 87 / 610 ± 164</td> <!-- Model inference speed -->
    <td class="score">4.84 ± 1.60</td> <!-- ScandEval score -->
    <td class="nl ner">16.25 ± 2.85 / 13.09 ± 1.68</td> <!-- CoNLL-nl -->
    <td class="nl sent">0.92 ± 2.11 / 25.39 ± 1.86</td> <!-- Dutch Social -->
