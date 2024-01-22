@@ -65,20 +65,20 @@ mainland-scandi-nlg:
 			-m em "Exact Match" \
 			-m f1 "F1-score" \
 			-m bertscore "BERTScore" \
-			-m rouge-l "ROUGE-L" \
+			-m rouge_l "ROUGE-L" \
 			-m accuracy "Accuracy" \
 			-d DANSK da ner micro_f1_no_misc micro_f1 \
 			-d "Angry Tweets" da sent mcc macro_f1 \
 			-d ScaLA-da da la mcc macro_f1 \
 			-d ScandiQA-da da qa em f1 \
-			-d Nordjylland-News da summ bertscore rouge-l \
+			-d Nordjylland-News da summ bertscore rouge_l \
 			-d MMLU-da da know accuracy mcc \
 			-d ARC-da da know accuracy mcc \
 			-d HellaSwag-da da reason accuracy mcc \
 			-d NorNE-nb no ner micro_f1_no_misc micro_f1 \
 			-d NorNE-nn no ner micro_f1_no_misc micro_f1 \
 			-d NoReC no sent mcc macro_f1 \
-			-d "No Sammendrag" no summ bertscore rouge-l \
+			-d "No Sammendrag" no summ bertscore rouge_l \
 			-d ScaLA-nb no la mcc macro_f1 \
 			-d ScaLA-nn no la mcc macro_f1 \
 			-d NorQuAD no qa em f1 \
@@ -89,7 +89,7 @@ mainland-scandi-nlg:
 			-d SweReC sv sent mcc macro_f1 \
 			-d ScaLA-sv sv la mcc macro_f1 \
 			-d ScandiQA-sv sv qa em f1 \
-			-d SweDN sv summ bertscore rouge-l \
+			-d SweDN sv summ bertscore rouge_l \
 			-d MMLU-sv sv know accuracy mcc \
 			-d ARC-sv sv know accuracy mcc \
 			-d HellaSwag-sv sv reason accuracy mcc
@@ -132,14 +132,14 @@ insular-scandi-nlg:
 			-m em "Exact Match" \
 			-m f1 "F1-score" \
 			-m bertscore "BERTScore" \
-			-m rouge-l "ROUGE-L" \
+			-m rouge_l "ROUGE-L" \
 			-m accuracy "Accuracy" \
 			-d MIM-GOLD-NER is ner micro_f1_no_misc micro_f1 \
 			-d ScaLA-is is la mcc macro_f1 \
 			-d NQiI is qa em f1 \
 			-d FoNE fo ner micro_f1_no_misc micro_f1 \
 			-d ScaLA-fo fo la mcc macro_f1 \
-			-d RRN is summ bertscore rouge-l \
+			-d RRN is summ bertscore rouge_l \
 			-d MMLU-is is know accuracy mcc \
 			-d ARC-is is know accuracy mcc \
 			-d HellaSwag-is is reason accuracy mcc
@@ -181,13 +181,13 @@ german-nlg:
 			-m em "Exact Match" \
 			-m f1 "F1-score" \
 			-m bertscore "BERTScore" \
-			-m rouge-l "ROUGE-L" \
+			-m rouge_l "ROUGE-L" \
 			-m accuracy "Accuracy" \
 			-d GermEval de ner micro_f1_no_misc micro_f1 \
 			-d SB10k de sent mcc macro_f1 \
 			-d ScaLA-de de la mcc macro_f1 \
 			-d GermanQuAD de qa em f1 \
-			-d MLSum de summ bertscore rouge-l \
+			-d MLSum de summ bertscore rouge_l \
 			-d MMLU-de de know accuracy mcc \
 			-d ARC-de de know accuracy mcc \
 			-d HellaSwag-de de reason accuracy mcc
@@ -229,13 +229,13 @@ dutch-nlg:
 			-m em "Exact Match" \
 			-m f1 "F1-score" \
 			-m bertscore "BERTScore" \
-			-m rouge-l "ROUGE-L" \
+			-m rouge_l "ROUGE-L" \
 			-m accuracy "Accuracy" \
 			-d CoNLL-nl nl ner micro_f1_no_misc micro_f1 \
 			-d "Dutch Social" nl sent mcc macro_f1 \
 			-d ScaLA-nl nl la mcc macro_f1 \
 			-d SQuAD-nl nl qa em f1 \
-			-d Wiki-Lingua-NL nl summ bertscore rouge-l \
+			-d Wiki-Lingua-NL nl summ bertscore rouge_l \
 			-d MMLU-nl nl know accuracy mcc \
 			-d ARC-nl nl know accuracy mcc \
 			-d HellaSwag-nl nl reason accuracy mcc
@@ -277,13 +277,13 @@ english-nlg:
 			-m em "Exact Match" \
 			-m f1 "F1-score" \
 			-m bertscore "BERTScore" \
-			-m rouge-l "ROUGE-L" \
+			-m rouge_l "ROUGE-L" \
 			-m accuracy "Accuracy" \
 			-d CoNLL-en en ner micro_f1_no_misc micro_f1 \
 			-d SST5 en sent mcc macro_f1 \
 			-d ScaLA-en en la mcc macro_f1 \
 			-d SQuAD en qa em f1 \
-			-d CNN-DailyMail en summ bertscore rouge-l \
+			-d CNN-DailyMail en summ bertscore rouge_l \
 			-d MMLU en know accuracy mcc \
 			-d ARC en know accuracy mcc \
 			-d HellaSwag en reason accuracy mcc
