@@ -3,7 +3,7 @@ layout: leaderboard
 title: Insular Scandinavian NLU
 ---
 
-<center>Last updated: 22/01/2024 08:21:45</center>
+<center>Last updated: 22/01/2024 10:30:19</center>
 <center><i>Hover over the headings for more information</i></center>
 
 <div class="table-wrapper centered">
@@ -784,7 +784,7 @@ title: Insular Scandinavian NLU
   </tr>
   <tr>
    <td class="rank">36</td> <!-- Rank -->
-   <td>chcaa/dfm-encoder-large-v1</td> <!-- Model ID -->
+   <td>danish-foundation-models/encoder-large-v1</td> <!-- Model ID -->
    <td class="num_model_parameters">355</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
@@ -832,7 +832,7 @@ title: Insular Scandinavian NLU
   </tr>
   <tr>
    <td class="rank">39</td> <!-- Rank -->
-   <td>chcaa/dfm-encoder-small-v1</td> <!-- Model ID -->
+   <td>danish-foundation-models/encoder-small-v1</td> <!-- Model ID -->
    <td class="num_model_parameters">22</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">96</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">128</td> <!-- Maximum sequence length of the model-->

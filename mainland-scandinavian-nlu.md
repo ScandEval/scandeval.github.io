@@ -3,7 +3,7 @@ layout: leaderboard
 title: Mainland Scandinavian NLU
 ---
 
-<center>Last updated: 22/01/2024 08:21:43</center>
+<center>Last updated: 22/01/2024 10:30:17</center>
 <center><i>Hover over the headings for more information</i></center>
 
 <div class="table-wrapper centered">
@@ -94,7 +94,7 @@ title: Mainland Scandinavian NLU
   </tr>
   <tr>
    <td class="rank">2</td> <!-- Rank -->
-   <td>chcaa/dfm-encoder-large-v1</td> <!-- Model ID -->
+   <td>danish-foundation-models/encoder-large-v1</td> <!-- Model ID -->
    <td class="num_model_parameters">355</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
@@ -1784,7 +1784,7 @@ title: Mainland Scandinavian NLU
   </tr>
   <tr>
    <td class="rank">49</td> <!-- Rank -->
-   <td>chcaa/dfm-encoder-medium-v1</td> <!-- Model ID -->
+   <td>danish-foundation-models/encoder-medium-v1</td> <!-- Model ID -->
    <td class="num_model_parameters">111</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->

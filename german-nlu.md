@@ -3,7 +3,7 @@ layout: leaderboard
 title: German NLU
 ---
 
-<center>Last updated: 22/01/2024 08:21:46</center>
+<center>Last updated: 22/01/2024 10:30:20</center>
 <center><i>Hover over the headings for more information</i></center>
 
 <div class="table-wrapper centered">

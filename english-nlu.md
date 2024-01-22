@@ -3,7 +3,7 @@ layout: leaderboard
 title: English NLU
 ---
 
-<center>Last updated: 22/01/2024 08:21:48</center>
+<center>Last updated: 22/01/2024 10:30:23</center>
 <center><i>Hover over the headings for more information</i></center>
 
 <div class="table-wrapper centered">
