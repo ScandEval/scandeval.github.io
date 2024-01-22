@@ -186,6 +186,9 @@ title: {title}
     benchmark_path.parent.mkdir(exist_ok=True, parents=True)
     benchmark_path.unlink(missing_ok=True)
 
+    # Remove the CSV file, if it exists
+    Path(f"{title_kebab}.csv").unlink(missing_ok=True)
+
     # Create path to the scores JSONL file, and raise error if it doesn't exist
     scores_path = Path("scandeval_benchmark_results.jsonl")
     if not scores_path.exists():
@@ -198,6 +201,7 @@ title: {title}
     # Reorganize the scores by each model
     model_scores: dict[str, dict[str, tuple[str, str, str]]] = defaultdict(dict)
     for record in scores:
+
         # Extract data from record
         model_id: str = record["model"]
         model_notes: list[str] = list()
@@ -430,7 +434,11 @@ title: {title}
             for scores in score_dict_2.values()
             for score in scores
         ]
-        p_value = stats.ttest_rel(a=score_values_1, b=score_values_2).pvalue
+        p_value = stats.ttest_rel(
+            a=score_values_1,
+            b=score_values_2,
+            alternative="two-sided",
+        ).pvalue
 
         if p_value != p_value:
             raise ValueError(
