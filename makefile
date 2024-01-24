@@ -72,9 +72,9 @@ mainland-scandi-nlg:
 			-d ScaLA-da da la mcc macro_f1 \
 			-d ScandiQA-da da qa em f1 \
 			-d Nordjylland-News da summ bertscore rouge_l \
-			-d MMLU-da da know accuracy mcc \
-			-d ARC-da da know accuracy mcc \
-			-d HellaSwag-da da reason accuracy mcc \
+			-d MMLU-da da know mcc accuracy \
+			-d ARC-da da know mcc accuracy \
+			-d HellaSwag-da da reason mcc accuracy \
 			-d NorNE-nb no ner micro_f1_no_misc micro_f1 \
 			-d NorNE-nn no ner micro_f1_no_misc micro_f1 \
 			-d NoReC no sent mcc macro_f1 \
@@ -82,17 +82,17 @@ mainland-scandi-nlg:
 			-d ScaLA-nb no la mcc macro_f1 \
 			-d ScaLA-nn no la mcc macro_f1 \
 			-d NorQuAD no qa em f1 \
-			-d MMLU-no no know accuracy mcc \
-			-d ARC-no no know accuracy mcc \
-			-d HellaSwag-no no reason accuracy mcc \
+			-d MMLU-no no know mcc accuracy \
+			-d ARC-no no know mcc accuracy \
+			-d HellaSwag-no no reason mcc accuracy \
 			-d SUC3 sv ner micro_f1_no_misc micro_f1 \
 			-d SweReC sv sent mcc macro_f1 \
 			-d ScaLA-sv sv la mcc macro_f1 \
 			-d ScandiQA-sv sv qa em f1 \
 			-d SweDN sv summ bertscore rouge_l \
-			-d MMLU-sv sv know accuracy mcc \
-			-d ARC-sv sv know accuracy mcc \
-			-d HellaSwag-sv sv reason accuracy mcc
+			-d MMLU-sv sv know mcc accuracy \
+			-d ARC-sv sv know mcc accuracy \
+			-d HellaSwag-sv sv reason mcc accuracy
 
 insular-scandi-nlu:
 	@source .venv/bin/activate && \
@@ -140,9 +140,9 @@ insular-scandi-nlg:
 			-d FoNE fo ner micro_f1_no_misc micro_f1 \
 			-d ScaLA-fo fo la mcc macro_f1 \
 			-d RRN is summ bertscore rouge_l \
-			-d MMLU-is is know accuracy mcc \
-			-d ARC-is is know accuracy mcc \
-			-d HellaSwag-is is reason accuracy mcc
+			-d MMLU-is is know mcc accuracy \
+			-d ARC-is is know mcc accuracy \
+			-d HellaSwag-is is reason mcc accuracy
 
 german-nlu:
 	@source .venv/bin/activate && \
@@ -188,9 +188,9 @@ german-nlg:
 			-d ScaLA-de de la mcc macro_f1 \
 			-d GermanQuAD de qa em f1 \
 			-d MLSum de summ bertscore rouge_l \
-			-d MMLU-de de know accuracy mcc \
-			-d ARC-de de know accuracy mcc \
-			-d HellaSwag-de de reason accuracy mcc
+			-d MMLU-de de know mcc accuracy \
+			-d ARC-de de know mcc accuracy \
+			-d HellaSwag-de de reason mcc accuracy
 
 dutch-nlu:
 	@source .venv/bin/activate && \
@@ -236,9 +236,9 @@ dutch-nlg:
 			-d ScaLA-nl nl la mcc macro_f1 \
 			-d SQuAD-nl nl qa em f1 \
 			-d Wiki-Lingua-NL nl summ bertscore rouge_l \
-			-d MMLU-nl nl know accuracy mcc \
-			-d ARC-nl nl know accuracy mcc \
-			-d HellaSwag-nl nl reason accuracy mcc
+			-d MMLU-nl nl know mcc accuracy \
+			-d ARC-nl nl know mcc accuracy \
+			-d HellaSwag-nl nl reason mcc accuracy
 
 english-nlu:
 	@source .venv/bin/activate && \
@@ -284,15 +284,16 @@ english-nlg:
 			-d ScaLA-en en la mcc macro_f1 \
 			-d SQuAD en qa em f1 \
 			-d CNN-DailyMail en summ bertscore rouge_l \
-			-d MMLU en know accuracy mcc \
-			-d ARC en know accuracy mcc \
-			-d HellaSwag en reason accuracy mcc
+			-d MMLU en know mcc accuracy \
+			-d ARC en know mcc accuracy \
+			-d HellaSwag en reason mcc accuracy
 
 radial_plot:
 	@source .venv/bin/activate && \
 		python python/radial_plot.py \
 			-l da \
 			-m mhenrichsen/danskgpt-tiny \
+			-m mhenrichsen/danskgpt-tiny-chat \
 			-m danish-foundation-models/munin-7b-alpha \
 			-m mistralai/Mistral-7B-v0.1 \
 			-m gpt-3.5-turbo-0613
