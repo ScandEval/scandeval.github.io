@@ -98,7 +98,7 @@ layout: leaderboard
 title: {title}
 ---
 
-<center>Last updated: {datetime.now().strftime("%d/%m/%Y %H:%M:%S")}</center>
+<center>Last updated: {datetime.now().strftime("%d/%m/%Y %H:%M:%S")} CET</center>
 <center><i>Hover over the headings for more information</i></center>
 
 <div class="table-wrapper centered">
