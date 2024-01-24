@@ -21,8 +21,8 @@ languages have been grouped into two separate leaderboards in this way.
 When evaluating language models we also split "Natural Language Processing" (NLP) into
 two groups. "Natural Language Understanding" (NLU) is concerned with an analysis of
 input text, and being able to extract insights from it. "Natural Language Generation"
-(NLG) is about *generating* text in a coherent and human-like way. ScandEval currently
-has NLU leaderboards, with the NLG leaderboards coming very soon.
+(NLG) is about *generating* text in a coherent and human-like way. ScandEval has both
+NLU and NLG leaderboards, which you can access in the top menu.
 
 The NLU benchmarks evaluate the models on a variety of tasks: named entity recognition,
 sentiment classification, linguistic acceptability and question answering. For encoder
