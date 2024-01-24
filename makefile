@@ -11,8 +11,9 @@ leaderboards: download \
 	english-nlg
 
 download:
-	#@scp rabbit:/home/ubuntu/scandeval_benchmark_results.jsonl . || echo "Could not download results from rabbit."
-	@scp bk:/home/saattrupdan/scandeval/scandeval_benchmark_results.jsonl . || echo "Could not download results from blackknight."
+	@scp rabbit:/home/ubuntu/scandeval_benchmark_results.jsonl rabbit_results.jsonl || (touch rabbit_results.jsonl && echo "Could not download results from rabbit.")
+	@scp bk:/home/saattrupdan/scandeval/scandeval_benchmark_results.jsonl blackknight_results.jsonl || (touch blackknight_results.jsonl && echo "Could not download results from blackknight.")
+	@cat rabbit_results.jsonl blackknight_results.jsonl > scandeval_benchmark_results.jsonl
 
 mainland-scandi-nlu:
 	@source .venv/bin/activate && \
