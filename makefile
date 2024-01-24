@@ -287,3 +287,12 @@ english-nlg:
 			-d MMLU en know accuracy mcc \
 			-d ARC en know accuracy mcc \
 			-d HellaSwag en reason accuracy mcc
+
+radial_plot:
+	@source .venv/bin/activate && \
+		python python/radial_plot.py \
+			-l da \
+			-m mhenrichsen/danskgpt-tiny \
+			-m danish-foundation-models/munin-7b-alpha \
+			-m mistralai/Mistral-7B-v0.1 \
+			-m gpt-3.5-turbo-0613
