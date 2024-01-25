@@ -3,7 +3,7 @@ layout: leaderboard
 title: Insular Scandinavian NLU
 ---
 
-<center>Last updated: 24/01/2024 12:35:10 CET</center>
+<center>Last updated: 25/01/2024 10:08:04 CET</center>
 <center><i>Hover over the headings for more information</i></center>
 
 <div class="table-wrapper centered">
@@ -784,6 +784,22 @@ title: Insular Scandinavian NLU
   </tr>
   <tr>
    <td class="rank">36</td> <!-- Rank -->
+   <td>mistralai/Mistral-7B-v0.1 (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">2,657 ± 524 / 880 ± 278</td> <!-- Model inference speed -->
+   <td class="score">28.84 ± 2.84</td> <!-- ScandEval score -->
+   <td class="is-score">24.95 ± 3.04</td> <!-- Icelandic score -->
+   <td class="fo-score">32.73 ± 2.64</td> <!-- Faroese score -->
+   <td class="is ner">47.24 ± 2.54 / 37.77 ± 3.87</td> <!-- MIM-GOLD-NER -->
+   <td class="is la">1.35 ± 1.70 / 39.37 ± 3.87</td> <!-- ScaLA-is -->
+   <td class="is qa">26.26 ± 4.88 / 49.53 ± 5.23</td> <!-- NQiI -->
+   <td class="fo ner">62.63 ± 3.44 / 57.85 ± 3.72</td> <!-- FoNE -->
+   <td class="fo la">2.84 ± 1.84 / 42.62 ± 4.53</td> <!-- ScaLA-fo -->
+  </tr>
+  <tr>
+   <td class="rank">37</td> <!-- Rank -->
    <td>danish-foundation-models/encoder-large-v1</td> <!-- Model ID -->
    <td class="num_model_parameters">355</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
@@ -799,7 +815,7 @@ title: Insular Scandinavian NLU
    <td class="fo la">2.93 ± 3.27 / 48.20 ± 1.50</td> <!-- ScaLA-fo -->
   </tr>
   <tr>
-   <td class="rank">37</td> <!-- Rank -->
+   <td class="rank">38</td> <!-- Rank -->
    <td>KBLab/albert-base-swedish-cased-alpha</td> <!-- Model ID -->
    <td class="num_model_parameters">14</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
@@ -815,7 +831,7 @@ title: Insular Scandinavian NLU
    <td class="fo la">0.81 ± 2.90 / 48.11 ± 2.18</td> <!-- ScaLA-fo -->
   </tr>
   <tr>
-   <td class="rank">38</td> <!-- Rank -->
+   <td class="rank">39</td> <!-- Rank -->
    <td>DDSC/roberta-base-scandinavian</td> <!-- Model ID -->
    <td class="num_model_parameters">125</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
@@ -831,7 +847,7 @@ title: Insular Scandinavian NLU
    <td class="fo la">0.73 ± 2.11 / 49.36 ± 1.78</td> <!-- ScaLA-fo -->
   </tr>
   <tr>
-   <td class="rank">39</td> <!-- Rank -->
+   <td class="rank">40</td> <!-- Rank -->
    <td>danish-foundation-models/encoder-small-v1</td> <!-- Model ID -->
    <td class="num_model_parameters">22</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">96</td> <!-- Size of the model's vocabulary -->
@@ -847,7 +863,7 @@ title: Insular Scandinavian NLU
    <td class="fo la">0.93 ± 2.91 / 45.79 ± 3.78</td> <!-- ScaLA-fo -->
   </tr>
   <tr>
-   <td class="rank">40</td> <!-- Rank -->
+   <td class="rank">41</td> <!-- Rank -->
    <td>Maltehb/aelaectra-danish-electra-small-uncased</td> <!-- Model ID -->
    <td class="num_model_parameters">14</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -863,7 +879,7 @@ title: Insular Scandinavian NLU
    <td class="fo la">5.11 ± 3.80 / 47.64 ± 4.52</td> <!-- ScaLA-fo -->
   </tr>
   <tr>
-   <td class="rank">41</td> <!-- Rank -->
+   <td class="rank">42</td> <!-- Rank -->
    <td>sarnikowski/convbert-medium-small-da-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">24</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">29</td> <!-- Size of the model's vocabulary -->
@@ -879,7 +895,7 @@ title: Insular Scandinavian NLU
    <td class="fo la">8.28 ± 2.63 / 51.70 ± 3.23</td> <!-- ScaLA-fo -->
   </tr>
   <tr>
-   <td class="rank">42</td> <!-- Rank -->
+   <td class="rank">43</td> <!-- Rank -->
    <td>ltg/norbert2</td> <!-- Model ID -->
    <td class="num_model_parameters">125</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
@@ -895,7 +911,7 @@ title: Insular Scandinavian NLU
    <td class="fo la">4.16 ± 2.63 / 47.13 ± 3.43</td> <!-- ScaLA-fo -->
   </tr>
   <tr>
-   <td class="rank">43=</td> <!-- Rank -->
+   <td class="rank">44=</td> <!-- Rank -->
    <td>sarnikowski/convbert-small-da-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">13</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">29</td> <!-- Size of the model's vocabulary -->
@@ -911,7 +927,7 @@ title: Insular Scandinavian NLU
    <td class="fo la">5.96 ± 2.04 / 51.99 ± 1.53</td> <!-- ScaLA-fo -->
   </tr>
   <tr>
-   <td class="rank">43=</td> <!-- Rank -->
+   <td class="rank">44=</td> <!-- Rank -->
    <td>TurkuNLP/bert-base-finnish-cased-v1</td> <!-- Model ID -->
    <td class="num_model_parameters">124</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
@@ -927,7 +943,7 @@ title: Insular Scandinavian NLU
    <td class="fo la">-0.79 ± 2.51 / 47.29 ± 2.29</td> <!-- ScaLA-fo -->
   </tr>
   <tr>
-   <td class="rank">43=</td> <!-- Rank -->
+   <td class="rank">44=</td> <!-- Rank -->
    <td>asafaya/bert-base-arabic</td> <!-- Model ID -->
    <td class="num_model_parameters">110</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -943,7 +959,7 @@ title: Insular Scandinavian NLU
    <td class="fo la">1.73 ± 1.50 / 41.87 ± 3.79</td> <!-- ScaLA-fo -->
   </tr>
   <tr>
-   <td class="rank">44</td> <!-- Rank -->
+   <td class="rank">45</td> <!-- Rank -->
    <td>fresh-xlm-roberta-base</td> <!-- Model ID -->
    <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
@@ -959,7 +975,7 @@ title: Insular Scandinavian NLU
    <td class="fo la">-0.28 ± 1.43 / 36.05 ± 3.05</td> <!-- ScaLA-fo -->
   </tr>
   <tr>
-   <td class="rank">45</td> <!-- Rank -->
+   <td class="rank">46</td> <!-- Rank -->
    <td>Maltehb/danish-bert-botxo</td> <!-- Model ID -->
    <td class="num_model_parameters">110</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -975,7 +991,7 @@ title: Insular Scandinavian NLU
    <td class="fo la">3.58 ± 3.02 / 49.80 ± 2.36</td> <!-- ScaLA-fo -->
   </tr>
   <tr>
-   <td class="rank">46</td> <!-- Rank -->
+   <td class="rank">47</td> <!-- Rank -->
    <td>alexanderfalk/danbert-small-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">83</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">52</td> <!-- Size of the model's vocabulary -->
@@ -991,7 +1007,7 @@ title: Insular Scandinavian NLU
    <td class="fo la">2.24 ± 1.83 / 43.57 ± 4.41</td> <!-- ScaLA-fo -->
   </tr>
   <tr>
-   <td class="rank">47</td> <!-- Rank -->
+   <td class="rank">48</td> <!-- Rank -->
    <td>fresh-electra-small</td> <!-- Model ID -->
    <td class="num_model_parameters">14</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">31</td> <!-- Size of the model's vocabulary -->
@@ -1007,7 +1023,7 @@ title: Insular Scandinavian NLU
    <td class="fo la">0.64 ± 1.57 / 38.69 ± 3.19</td> <!-- ScaLA-fo -->
   </tr>
   <tr>
-   <td class="rank">48</td> <!-- Rank -->
+   <td class="rank">49</td> <!-- Rank -->
    <td>ltg/norbert</td> <!-- Model ID -->
    <td class="num_model_parameters">111</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">33</td> <!-- Size of the model's vocabulary -->

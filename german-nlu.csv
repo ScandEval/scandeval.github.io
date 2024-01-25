@@ -20,9 +20,10 @@ rank,model_id,num_model_parameters,vocabulary_size,max_sequence_length,speed,sco
 15,sentence-transformers/paraphrase-xlm-r-multilingual-v1,278.0,250,512,14994,42.14,42.14,71.8,57.71,38.75,0.3
 16,dbmdz/bert-base-historic-multilingual-cased,111.0,32,512,15165,41.14,41.14,67.24,41.36,48.21,7.75
 17,sentence-transformers/stsb-xlm-r-multilingual,278.0,250,512,15040,39.31,39.31,69.4,52.68,34.44,0.73
-17,sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,118.0,250,512,17428,38.52,38.52,65.62,55.6,32.22,0.64
-18,sentence-transformers/distilbert-multilingual-nli-stsb-quora-ranking,135.0,120,512,26151,33.58,33.58,66.75,49.61,17.6,0.36
-18,sentence-transformers/distiluse-base-multilingual-cased-v1,135.0,120,512,26344,32.01,32.01,53.77,53.53,20.15,0.58
-19,sentence-transformers/distiluse-base-multilingual-cased-v2,135.0,120,512,17807,30.72,30.72,53.13,51.94,17.74,0.06
-19,3ebdola/Dialectal-Arabic-XLM-R-Base,278.0,250,512,15177,17.68,17.68,34.18,34.81,1.25,0.46
-20,fresh-electra-small,14.0,31,512,2237,4.75,4.75,9.42,9.76,-0.18,0.0
+18,mistralai/Mistral-7B-v0.1 (few-shot),7242.0,32,32768,2657,38.92,38.92,55.37,54.27,23.12,22.94
+19,sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,118.0,250,512,17428,38.52,38.52,65.62,55.6,32.22,0.64
+20,sentence-transformers/distilbert-multilingual-nli-stsb-quora-ranking,135.0,120,512,26151,33.58,33.58,66.75,49.61,17.6,0.36
+20,sentence-transformers/distiluse-base-multilingual-cased-v1,135.0,120,512,26344,32.01,32.01,53.77,53.53,20.15,0.58
+21,sentence-transformers/distiluse-base-multilingual-cased-v2,135.0,120,512,17807,30.72,30.72,53.13,51.94,17.74,0.06
+21,3ebdola/Dialectal-Arabic-XLM-R-Base,278.0,250,512,15177,17.68,17.68,34.18,34.81,1.25,0.46
+22,fresh-electra-small,14.0,31,512,2237,4.75,4.75,9.42,9.76,-0.18,0.0

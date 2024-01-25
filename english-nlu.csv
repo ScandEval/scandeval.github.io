@@ -13,5 +13,6 @@ rank,model_id,num_model_parameters,vocabulary_size,max_sequence_length,speed,sco
 11,bert-base-uncased,109.0,31,512,10296,60.24,60.24,87.62,54.01,56.97,42.37
 12,xlm-roberta-large,560.0,250,512,4744,59.05,59.05,89.81,41.97,35.55,68.88
 13,bert-base-multilingual-cased,178.0,120,512,14083,56.18,56.18,89.32,41.89,38.34,55.19
-14,distilbert-base-cased,66.0,29,512,19667,53.52,53.52,84.75,50.94,53.47,24.93
-15,distilbert-base-multilingual-cased,135.0,120,512,26355,48.49,48.49,87.7,36.48,40.79,29.0
+14,mistralai/Mistral-7B-v0.1 (few-shot),7242.0,32,32768,2657,55.32,55.32,63.4,68.17,30.92,58.79
+15,distilbert-base-cased,66.0,29,512,19667,53.52,53.52,84.75,50.94,53.47,24.93
+16,distilbert-base-multilingual-cased,135.0,120,512,26355,48.49,48.49,87.7,36.48,40.79,29.0

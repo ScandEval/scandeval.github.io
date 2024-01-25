@@ -18,14 +18,15 @@ rank,model_id,num_model_parameters,vocabulary_size,max_sequence_length,speed,sco
 14,Geotrend/distilbert-base-25lang-cased,109.0,85,512,26099,36.98,36.98,75.02,7.45,45.28,20.18
 15,microsoft/xlm-align-base,278.0,250,512,9943,36.82,36.82,78.85,11.8,14.56,42.08
 16,sentence-transformers/paraphrase-xlm-r-multilingual-v1,278.0,250,512,14994,35.75,35.75,70.59,21.37,45.86,5.2
-16,DTAI-KULeuven/robbertje-1-gb-bort,46.0,40,512,31087,33.52,33.52,66.74,24.93,37.19,5.23
-17,Twitter/twhin-bert-large,561.0,250,512,5028,32.63,32.63,77.35,6.55,18.25,28.37
-18,Twitter/twhin-bert-base,279.0,250,512,11514,32.6,32.6,74.03,9.53,39.12,7.71
-19,sentence-transformers/quora-distilbert-multilingual,135.0,120,512,16901,29.25,29.25,67.89,23.25,21.36,4.5
-20,EuropeanParliament/EUBERT,94.0,66,512,20070,28.24,28.24,49.54,14.86,27.9,20.65
-21,sentence-transformers/distiluse-base-multilingual-cased,135.0,120,512,19206,22.28,22.28,56.98,9.66,19.37,3.11
-22,sentence-transformers/distiluse-base-multilingual-cased-v1,135.0,120,512,26344,21.98,21.98,58.67,17.82,9.27,2.17
-23,jpostma/DagoBERT,117.0,40,512,11241,21.29,21.29,42.28,8.01,31.21,3.65
-23,3ebdola/Dialectal-Arabic-XLM-R-Base,278.0,250,512,15177,14.8,14.8,44.46,8.39,2.07,4.3
-23,dbmdz/bert-tiny-historic-multilingual-cased,5.0,32,512,78027,13.94,13.94,41.38,8.45,1.55,4.4
-24,fresh-xlm-roberta-base,278.0,250,512,1285,4.05,4.05,13.09,0.92,1.93,0.26
+17,mistralai/Mistral-7B-v0.1 (few-shot),7242.0,32,32768,2657,35.41,35.41,58.15,7.94,25.41,50.14
+18,DTAI-KULeuven/robbertje-1-gb-bort,46.0,40,512,31087,33.52,33.52,66.74,24.93,37.19,5.23
+19,Twitter/twhin-bert-large,561.0,250,512,5028,32.63,32.63,77.35,6.55,18.25,28.37
+20,Twitter/twhin-bert-base,279.0,250,512,11514,32.6,32.6,74.03,9.53,39.12,7.71
+21,sentence-transformers/quora-distilbert-multilingual,135.0,120,512,16901,29.25,29.25,67.89,23.25,21.36,4.5
+22,EuropeanParliament/EUBERT,94.0,66,512,20070,28.24,28.24,49.54,14.86,27.9,20.65
+23,sentence-transformers/distiluse-base-multilingual-cased,135.0,120,512,19206,22.28,22.28,56.98,9.66,19.37,3.11
+24,sentence-transformers/distiluse-base-multilingual-cased-v1,135.0,120,512,26344,21.98,21.98,58.67,17.82,9.27,2.17
+25,jpostma/DagoBERT,117.0,40,512,11241,21.29,21.29,42.28,8.01,31.21,3.65
+25,3ebdola/Dialectal-Arabic-XLM-R-Base,278.0,250,512,15177,14.8,14.8,44.46,8.39,2.07,4.3
+25,dbmdz/bert-tiny-historic-multilingual-cased,5.0,32,512,78027,13.94,13.94,41.38,8.45,1.55,4.4
+26,fresh-xlm-roberta-base,278.0,250,512,1285,4.05,4.05,13.09,0.92,1.93,0.26
