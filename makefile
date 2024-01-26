@@ -1,4 +1,5 @@
 leaderboards: download \
+	remove_duplicates \
 	mainland-scandi-nlu \
 	mainland-scandi-nlg \
 	insular-scandi-nlu \
@@ -11,13 +12,26 @@ leaderboards: download \
 	english-nlg
 
 download:
-	@scp -o ConnectTimeout=5 bk:/home/saattrupdan/scandeval/scandeval_benchmark_results.jsonl blackknight_results.jsonl || (touch blackknight_results.jsonl && echo "Could not download results from blackknight.")
-	@scp -o ConnectTimeout=5 rabbit:/home/ubuntu/scandeval_benchmark_results.jsonl rabbit_results.jsonl || (touch rabbit_results.jsonl && echo "Could not download results from rabbit.")
-	@scp -o ConnectTimeout=5 maninpink:/home/ubuntu/scandeval_benchmark_results.jsonl maininpink_results.jsonl || (touch maininpink_results.jsonl && echo "Could not download results from maninpink.")
-	@cat blackknight_results.jsonl > scandeval_benchmark_results.jsonl
-	@cat rabbit_results.jsonl >> scandeval_benchmark_results.jsonl
-	@cat maininpink_results.jsonl >> scandeval_benchmark_results.jsonl
-	@rm maininpink_results.jsonl rabbit_results.jsonl blackknight_results.jsonl
+	@scp -o ConnectTimeout=5 bk:/home/saattrupdan/scandeval/scandeval_benchmark_results.jsonl blackknight_results.jsonl || true
+	@scp -o ConnectTimeout=5 rabbit:/home/ubuntu/scandeval_benchmark_results.jsonl rabbit_results.jsonl || true
+	@scp -o ConnectTimeout=5 maninpink:/home/ubuntu/scandeval_benchmark_results.jsonl maininpink_results.jsonl || true
+	@touch scandeval_benchmark_results.jsonl
+	@if [ -f blackknight_results.jsonl ]; then \
+		cat blackknight_results.jsonl >> scandeval_benchmark_results.jsonl; \
+		rm blackknight_results.jsonl; \
+	fi
+	@if [ -f rabbit_results.jsonl ]; then \
+		cat rabbit_results.jsonl >> scandeval_benchmark_results.jsonl; \
+		rm rabbit_results.jsonl; \
+	fi
+	@if [ -f maininpink_results.jsonl ]; then \
+		cat maininpink_results.jsonl >> scandeval_benchmark_results.jsonl; \
+		rm maininpink_results.jsonl; \
+	fi
+
+remove_duplicates:
+	@source .venv/bin/activate && \
+		python python/remove_duplicates.py scandeval_benchmark_results.jsonl
 
 mainland-scandi-nlu:
 	@source .venv/bin/activate && \
