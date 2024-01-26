@@ -21,9 +21,13 @@ navbar-links:
   Mainland Scandi NLU: "mainland-scandinavian-nlu"
   Mainland Scandi NLG: "mainland-scandinavian-nlg"
   Insular Scandi NLU: "insular-scandinavian-nlu"
+  Insular Scandi NLG: "insular-scandinavian-nlg"
   German NLU: "german-nlu"
+  German NLG: "german-nlg"
   Dutch NLU: "dutch-nlu"
+  Dutch NLG: "dutch-nlg"
   English NLU: "english-nlu"
+  English NLG: "english-nlg"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
