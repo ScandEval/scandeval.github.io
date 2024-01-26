@@ -18,8 +18,9 @@ description: A Natural Language Understanding Benchmark
 # List of links in the navigation bar
 navbar-links:
   About: "index"
-  Mainland Scandi NLU: "mainland-scandinavian-nlu"
-  Mainland Scandi NLG: "mainland-scandinavian-nlg"
+  Mainland Scandi:
+    - NLU: "mainland-scandinavian-nlu"
+    - NLG: "mainland-scandinavian-nlg"
   Insular Scandi NLU: "insular-scandinavian-nlu"
   Insular Scandi NLG: "insular-scandinavian-nlg"
   German NLU: "german-nlu"
