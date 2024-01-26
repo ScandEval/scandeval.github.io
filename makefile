@@ -15,6 +15,8 @@ download:
 	@scp -o ConnectTimeout=5 bk:/home/saattrupdan/scandeval/scandeval_benchmark_results.jsonl blackknight_results.jsonl || true
 	@scp -o ConnectTimeout=5 rabbit:/home/ubuntu/scandeval_benchmark_results.jsonl rabbit_results.jsonl || true
 	@scp -o ConnectTimeout=5 maninpink:/home/ubuntu/scandeval_benchmark_results.jsonl maininpink_results.jsonl || true
+	@scp -o ConnectTimeout=5 hamster:/home/ubuntu/scandeval_benchmark_results.jsonl hamster_results.jsonl || true
+	@scp -o ConnectTimeout=5 creosote:/home/ubuntu/scandeval_benchmark_results.jsonl creosote_results.jsonl || true
 	@touch scandeval_benchmark_results.jsonl
 	@if [ -f blackknight_results.jsonl ]; then \
 		cat blackknight_results.jsonl >> scandeval_benchmark_results.jsonl; \
@@ -27,6 +29,14 @@ download:
 	@if [ -f maininpink_results.jsonl ]; then \
 		cat maininpink_results.jsonl >> scandeval_benchmark_results.jsonl; \
 		rm maininpink_results.jsonl; \
+	fi
+	@if [ -f hamster_results.jsonl ]; then \
+		cat hamster_results.jsonl >> scandeval_benchmark_results.jsonl; \
+		rm hamster_results.jsonl; \
+	fi
+	@if [ -f creosote_results.jsonl ]; then \
+		cat creosote_results.jsonl >> scandeval_benchmark_results.jsonl; \
+		rm creosote_results.jsonl; \
 	fi
 
 remove_duplicates:
