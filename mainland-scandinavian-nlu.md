@@ -3,7 +3,7 @@ layout: leaderboard
 title: Mainland Scandinavian NLU
 ---
 
-<center>Last updated: 24/01/2024 16:11:18 CET</center>
+<center>Last updated: 26/01/2024 17:51:31 CET</center>
 <center><i>Hover over the headings for more information</i></center>
 
 <div class="table-wrapper centered">
@@ -46,7 +46,7 @@ title: Mainland Scandinavian NLU
    <td class="num_model_parameters">354</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">508</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">3,563 ± 618 / 896 ± 290</td> <!-- Model inference speed -->
+   <td class="speed">5,048 ± 824 / 1,354 ± 429</td> <!-- Model inference speed -->
    <td class="score">67.78 ± 1.45</td> <!-- ScandEval score -->
    <td class="da-score">60.51 ± 1.71</td> <!-- Danish score -->
    <td class="no-score">74.76 ± 1.38</td> <!-- Norwegian score -->
@@ -98,7 +98,7 @@ title: Mainland Scandinavian NLU
    <td class="num_model_parameters">355</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">4,531 ± 962 / 945 ± 308</td> <!-- Model inference speed -->
+   <td class="speed">6,671 ± 1,380 / 1,497 ± 482</td> <!-- Model inference speed -->
    <td class="score">64.31 ± 3.02</td> <!-- ScandEval score -->
    <td class="da-score">62.39 ± 1.82</td> <!-- Danish score -->
    <td class="no-score">65.49 ± 5.21</td> <!-- Norwegian score -->
@@ -117,6 +117,32 @@ title: Mainland Scandinavian NLU
    <td class="sv sent">75.11 ± 1.19 / 74.74 ± 0.94</td> <!-- SweReC -->
    <td class="sv la">64.11 ± 3.27 / 81.63 ± 1.66</td> <!-- ScaLA-sv -->
    <td class="sv qa">46.79 ± 1.61 / 52.40 ± 1.77</td> <!-- ScandiQA-sv -->
+  </tr>
+  <tr>
+   <td class="rank">3=</td> <!-- Rank -->
+   <td>KennethEnevoldsen/dfm-sentence-encoder-large-1</td> <!-- Model ID -->
+   <td class="num_model_parameters">355</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">6,245 ± 1,260 / 1,416 ± 453</td> <!-- Model inference speed -->
+   <td class="score">64.24 ± 2.08</td> <!-- ScandEval score -->
+   <td class="da-score">62.35 ± 2.28</td> <!-- Danish score -->
+   <td class="no-score">66.32 ± 2.50</td> <!-- Norwegian score -->
+   <td class="sv-score">64.05 ± 1.47</td> <!-- Swedish score -->
+   <td class="da ner">74.99 ± 1.65 / 70.34 ± 1.50</td> <!-- DANSK -->
+   <td class="da sent">53.85 ± 1.39 / 68.94 ± 1.19</td> <!-- Angry Tweets -->
+   <td class="da la">75.71 ± 1.95 / 87.29 ± 1.14</td> <!-- ScaLA-da -->
+   <td class="da qa">44.85 ± 4.12 / 50.40 ± 4.01</td> <!-- ScandiQA-da -->
+   <td class="no ner">86.39 ± 1.06 / 85.20 ± 0.97</td> <!-- NorNE-nb -->
+   <td class="no ner">83.22 ± 1.44 / 82.50 ± 1.19</td> <!-- NorNE-nn -->
+   <td class="no sent">59.61 ± 1.28 / 71.40 ± 1.68</td> <!-- NoReC -->
+   <td class="no la">67.88 ± 7.37 / 82.75 ± 4.57</td> <!-- ScaLA-nb -->
+   <td class="no la">62.44 ± 4.39 / 80.43 ± 2.39</td> <!-- ScaLA-nn -->
+   <td class="no qa">55.69 ± 1.60 / 70.77 ± 1.64</td> <!-- NorQuAD -->
+   <td class="sv ner">71.65 ± 1.55 / 69.08 ± 1.45</td> <!-- SUC3 -->
+   <td class="sv sent">74.92 ± 0.98 / 72.01 ± 2.31</td> <!-- SweReC -->
+   <td class="sv la">63.43 ± 2.30 / 81.00 ± 1.37</td> <!-- ScaLA-sv -->
+   <td class="sv qa">46.20 ± 1.03 / 51.94 ± 0.92</td> <!-- ScandiQA-sv -->
   </tr>
   <tr>
    <td class="rank">3=</td> <!-- Rank -->
@@ -146,37 +172,11 @@ title: Mainland Scandinavian NLU
   </tr>
   <tr>
    <td class="rank">3=</td> <!-- Rank -->
-   <td>KennethEnevoldsen/dfm-sentence-encoder-large-1</td> <!-- Model ID -->
-   <td class="num_model_parameters">355</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">6,486 ± 1,313 / 1,468 ± 469</td> <!-- Model inference speed -->
-   <td class="score">64.24 ± 2.08</td> <!-- ScandEval score -->
-   <td class="da-score">62.35 ± 2.28</td> <!-- Danish score -->
-   <td class="no-score">66.32 ± 2.50</td> <!-- Norwegian score -->
-   <td class="sv-score">64.05 ± 1.47</td> <!-- Swedish score -->
-   <td class="da ner">74.99 ± 1.65 / 70.34 ± 1.50</td> <!-- DANSK -->
-   <td class="da sent">53.85 ± 1.39 / 68.94 ± 1.19</td> <!-- Angry Tweets -->
-   <td class="da la">75.71 ± 1.95 / 87.29 ± 1.14</td> <!-- ScaLA-da -->
-   <td class="da qa">44.85 ± 4.12 / 50.40 ± 4.01</td> <!-- ScandiQA-da -->
-   <td class="no ner">86.39 ± 1.06 / 85.20 ± 0.97</td> <!-- NorNE-nb -->
-   <td class="no ner">83.22 ± 1.44 / 82.50 ± 1.19</td> <!-- NorNE-nn -->
-   <td class="no sent">59.61 ± 1.28 / 71.40 ± 1.68</td> <!-- NoReC -->
-   <td class="no la">67.88 ± 7.37 / 82.75 ± 4.57</td> <!-- ScaLA-nb -->
-   <td class="no la">62.44 ± 4.39 / 80.43 ± 2.39</td> <!-- ScaLA-nn -->
-   <td class="no qa">55.69 ± 1.60 / 70.77 ± 1.64</td> <!-- NorQuAD -->
-   <td class="sv ner">71.65 ± 1.55 / 69.08 ± 1.45</td> <!-- SUC3 -->
-   <td class="sv sent">74.92 ± 0.98 / 72.01 ± 2.31</td> <!-- SweReC -->
-   <td class="sv la">63.43 ± 2.30 / 81.00 ± 1.37</td> <!-- ScaLA-sv -->
-   <td class="sv qa">46.20 ± 1.03 / 51.94 ± 0.92</td> <!-- ScandiQA-sv -->
-  </tr>
-  <tr>
-   <td class="rank">3=</td> <!-- Rank -->
    <td>google/rembert</td> <!-- Model ID -->
    <td class="num_model_parameters">576</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">256</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">3,270 ± 467 / 972 ± 303</td> <!-- Model inference speed -->
+   <td class="speed">3,355 ± 475 / 1,002 ± 312</td> <!-- Model inference speed -->
    <td class="score">63.70 ± 3.02</td> <!-- ScandEval score -->
    <td class="da-score">57.49 ± 4.10</td> <!-- Danish score -->
    <td class="no-score">65.53 ± 3.54</td> <!-- Norwegian score -->
@@ -254,7 +254,7 @@ title: Mainland Scandinavian NLU
    <td class="num_model_parameters">560</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">4,714 ± 932 / 1,032 ± 335</td> <!-- Model inference speed -->
+   <td class="speed">6,732 ± 1,273 / 1,633 ± 523</td> <!-- Model inference speed -->
    <td class="score">62.44 ± 1.91</td> <!-- ScandEval score -->
    <td class="da-score">57.24 ± 1.78</td> <!-- Danish score -->
    <td class="no-score">62.56 ± 2.70</td> <!-- Norwegian score -->
@@ -280,7 +280,7 @@ title: Mainland Scandinavian NLU
    <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">14,446 ± 2,845 / 3,199 ± 1,038</td> <!-- Model inference speed -->
+   <td class="speed">15,074 ± 2,990 / 3,347 ± 1,080</td> <!-- Model inference speed -->
    <td class="score">61.93 ± 2.43</td> <!-- ScandEval score -->
    <td class="da-score">53.96 ± 4.50</td> <!-- Danish score -->
    <td class="no-score">66.29 ± 1.56</td> <!-- Norwegian score -->
@@ -306,7 +306,7 @@ title: Mainland Scandinavian NLU
    <td class="num_model_parameters">124</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">508</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">7,454 ± 1,406 / 1,772 ± 575</td> <!-- Model inference speed -->
+   <td class="speed">11,405 ± 1,970 / 2,856 ± 917</td> <!-- Model inference speed -->
    <td class="score">61.40 ± 2.78</td> <!-- ScandEval score -->
    <td class="da-score">52.38 ± 4.78</td> <!-- Danish score -->
    <td class="no-score">69.86 ± 1.93</td> <!-- Norwegian score -->
@@ -358,7 +358,7 @@ title: Mainland Scandinavian NLU
    <td class="num_model_parameters">124</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">10,126 ± 1,911 / 2,280 ± 740</td> <!-- Model inference speed -->
+   <td class="speed">15,436 ± 2,820 / 3,704 ± 1,187</td> <!-- Model inference speed -->
    <td class="score">61.23 ± 1.87</td> <!-- ScandEval score -->
    <td class="da-score">54.43 ± 1.94</td> <!-- Danish score -->
    <td class="no-score">63.89 ± 1.92</td> <!-- Norwegian score -->
@@ -384,7 +384,7 @@ title: Mainland Scandinavian NLU
    <td class="num_model_parameters">471</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">501</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">13,196 ± 3,299 / 2,383 ± 768</td> <!-- Model inference speed -->
+   <td class="speed">13,305 ± 3,306 / 2,414 ± 780</td> <!-- Model inference speed -->
    <td class="score">60.83 ± 1.59</td> <!-- ScandEval score -->
    <td class="da-score">53.71 ± 2.04</td> <!-- Danish score -->
    <td class="no-score">63.11 ± 1.53</td> <!-- Norwegian score -->
@@ -436,7 +436,7 @@ title: Mainland Scandinavian NLU
    <td class="num_model_parameters">124</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">10,152 ± 2,029 / 2,282 ± 736</td> <!-- Model inference speed -->
+   <td class="speed">15,623 ± 2,828 / 3,737 ± 1,191</td> <!-- Model inference speed -->
    <td class="score">60.15 ± 1.81</td> <!-- ScandEval score -->
    <td class="da-score">54.17 ± 1.99</td> <!-- Danish score -->
    <td class="no-score">62.60 ± 2.07</td> <!-- Norwegian score -->
@@ -462,7 +462,7 @@ title: Mainland Scandinavian NLU
    <td class="num_model_parameters">560</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">4,744 ± 947 / 1,059 ± 347</td> <!-- Model inference speed -->
+   <td class="speed">6,663 ± 1,248 / 1,619 ± 516</td> <!-- Model inference speed -->
    <td class="score">60.14 ± 7.12</td> <!-- ScandEval score -->
    <td class="da-score">55.48 ± 6.30</td> <!-- Danish score -->
    <td class="no-score">61.61 ± 8.86</td> <!-- Norwegian score -->
@@ -488,7 +488,7 @@ title: Mainland Scandinavian NLU
    <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">14,805 ± 2,928 / 3,269 ± 1,064</td> <!-- Model inference speed -->
+   <td class="speed">15,103 ± 2,954 / 3,356 ± 1,090</td> <!-- Model inference speed -->
    <td class="score">59.95 ± 1.70</td> <!-- ScandEval score -->
    <td class="da-score">54.32 ± 1.65</td> <!-- Danish score -->
    <td class="no-score">63.08 ± 1.68</td> <!-- Norwegian score -->
@@ -514,7 +514,7 @@ title: Mainland Scandinavian NLU
    <td class="num_model_parameters">471</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">501</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">13,052 ± 3,261 / 2,357 ± 761</td> <!-- Model inference speed -->
+   <td class="speed">13,386 ± 3,349 / 2,435 ± 787</td> <!-- Model inference speed -->
    <td class="score">58.93 ± 1.80</td> <!-- ScandEval score -->
    <td class="da-score">52.69 ± 2.21</td> <!-- Danish score -->
    <td class="no-score">60.74 ± 1.40</td> <!-- Norwegian score -->
@@ -592,7 +592,7 @@ title: Mainland Scandinavian NLU
    <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">14,585 ± 2,878 / 3,221 ± 1,048</td> <!-- Model inference speed -->
+   <td class="speed">14,958 ± 2,903 / 3,331 ± 1,077</td> <!-- Model inference speed -->
    <td class="score">58.74 ± 1.66</td> <!-- ScandEval score -->
    <td class="da-score">53.40 ± 1.71</td> <!-- Danish score -->
    <td class="no-score">60.50 ± 1.84</td> <!-- Norwegian score -->
@@ -644,7 +644,7 @@ title: Mainland Scandinavian NLU
    <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">10,105 ± 2,072 / 2,126 ± 699</td> <!-- Model inference speed -->
+   <td class="speed">15,081 ± 2,950 / 3,365 ± 1,092</td> <!-- Model inference speed -->
    <td class="score">57.64 ± 4.86</td> <!-- ScandEval score -->
    <td class="da-score">50.05 ± 5.57</td> <!-- Danish score -->
    <td class="no-score">62.81 ± 4.09</td> <!-- Norwegian score -->
@@ -671,24 +671,24 @@ title: Mainland Scandinavian NLU
    <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
    <td class="speed">6,571 ± 1,331 / 1,493 ± 479</td> <!-- Model inference speed -->
-   <td class="score">56.81 ± 2.27</td> <!-- ScandEval score -->
-   <td class="da-score">48.64 ± 3.54</td> <!-- Danish score -->
-   <td class="no-score">52.89 ± 2.22</td> <!-- Norwegian score -->
-   <td class="sv-score">68.92 ± 1.03</td> <!-- Swedish score -->
+   <td class="score">56.03 ± 2.67</td> <!-- ScandEval score -->
+   <td class="da-score">46.96 ± 3.82</td> <!-- Danish score -->
+   <td class="no-score">52.10 ± 2.76</td> <!-- Norwegian score -->
+   <td class="sv-score">69.05 ± 1.44</td> <!-- Swedish score -->
    <td class="da ner">67.40 ± 1.01 / 62.44 ± 1.32</td> <!-- DANSK -->
-   <td class="da sent">43.22 ± 1.22 / 61.63 ± 1.05</td> <!-- Angry Tweets -->
-   <td class="da la">45.65 ± 10.41 / 69.81 ± 8.32</td> <!-- ScaLA-da -->
-   <td class="da qa">38.28 ± 1.54 / 42.98 ± 1.60</td> <!-- ScandiQA-da -->
-   <td class="no ner">86.63 ± 0.62 / 87.14 ± 0.49</td> <!-- NorNE-nb -->
-   <td class="no ner">80.25 ± 0.82 / 82.34 ± 0.73</td> <!-- NorNE-nn -->
-   <td class="no sent">44.63 ± 2.83 / 58.42 ± 3.12</td> <!-- NoReC -->
-   <td class="no la">56.27 ± 3.13 / 76.55 ± 2.08</td> <!-- ScaLA-nb -->
-   <td class="no la">33.88 ± 2.39 / 65.69 ± 1.42</td> <!-- ScaLA-nn -->
+   <td class="da sent">41.53 ± 1.91 / 59.82 ± 1.67</td> <!-- Angry Tweets -->
+   <td class="da la">41.62 ± 10.78 / 68.99 ± 5.73</td> <!-- ScaLA-da -->
+   <td class="da qa">37.30 ± 1.59 / 42.46 ± 1.75</td> <!-- ScandiQA-da -->
+   <td class="no ner">87.50 ± 0.53 / 87.45 ± 0.54</td> <!-- NorNE-nb -->
+   <td class="no ner">80.57 ± 1.41 / 82.71 ± 1.13</td> <!-- NorNE-nn -->
+   <td class="no sent">47.11 ± 2.05 / 60.70 ± 3.19</td> <!-- NoReC -->
+   <td class="no la">52.62 ± 3.99 / 75.01 ± 2.43</td> <!-- ScaLA-nb -->
+   <td class="no la">25.06 ± 6.94 / 60.75 ± 4.12</td> <!-- ScaLA-nn -->
    <td class="no qa">38.40 ± 2.57 / 50.51 ± 3.52</td> <!-- NorQuAD -->
-   <td class="sv ner">82.55 ± 1.02 / 80.27 ± 0.86</td> <!-- SUC3 -->
-   <td class="sv sent">77.51 ± 1.25 / 75.32 ± 2.37</td> <!-- SweReC -->
-   <td class="sv la">77.14 ± 0.85 / 88.19 ± 0.50</td> <!-- ScaLA-sv -->
-   <td class="sv qa">38.48 ± 1.01 / 43.63 ± 1.07</td> <!-- ScandiQA-sv -->
+   <td class="sv ner">80.65 ± 2.12 / 78.69 ± 1.68</td> <!-- SUC3 -->
+   <td class="sv sent">77.43 ± 1.07 / 75.95 ± 2.00</td> <!-- SweReC -->
+   <td class="sv la">76.56 ± 1.06 / 87.86 ± 0.70</td> <!-- ScaLA-sv -->
+   <td class="sv qa">41.54 ± 1.50 / 46.79 ± 1.60</td> <!-- ScandiQA-sv -->
   </tr>
   <tr>
    <td class="rank">21</td> <!-- Rank -->
@@ -696,7 +696,7 @@ title: Mainland Scandinavian NLU
    <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">10,106 ± 2,088 / 2,114 ± 691</td> <!-- Model inference speed -->
+   <td class="speed">15,103 ± 2,982 / 3,357 ± 1,081</td> <!-- Model inference speed -->
    <td class="score">55.06 ± 4.37</td> <!-- ScandEval score -->
    <td class="da-score">51.14 ± 3.96</td> <!-- Danish score -->
    <td class="no-score">56.67 ± 4.45</td> <!-- Norwegian score -->
@@ -722,7 +722,7 @@ title: Mainland Scandinavian NLU
    <td class="num_model_parameters">124</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">10,705 ± 1,913 / 2,554 ± 829</td> <!-- Model inference speed -->
+   <td class="speed">15,749 ± 2,665 / 4,014 ± 1,281</td> <!-- Model inference speed -->
    <td class="score">54.51 ± 2.65</td> <!-- ScandEval score -->
    <td class="da-score">59.57 ± 1.46</td> <!-- Danish score -->
    <td class="no-score">52.31 ± 3.88</td> <!-- Norwegian score -->
@@ -774,7 +774,7 @@ title: Mainland Scandinavian NLU
    <td class="num_model_parameters">370</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">5,093 ± 825 / 1,358 ± 442</td> <!-- Model inference speed -->
+   <td class="speed">7,138 ± 1,111 / 2,067 ± 660</td> <!-- Model inference speed -->
    <td class="score">52.91 ± 1.77</td> <!-- ScandEval score -->
    <td class="da-score">41.65 ± 2.67</td> <!-- Danish score -->
    <td class="no-score">46.69 ± 1.38</td> <!-- Norwegian score -->
@@ -826,7 +826,7 @@ title: Mainland Scandinavian NLU
    <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">10,116 ± 2,084 / 2,119 ± 696</td> <!-- Model inference speed -->
+   <td class="speed">14,837 ± 2,928 / 3,264 ± 1,046</td> <!-- Model inference speed -->
    <td class="score">52.05 ± 2.34</td> <!-- ScandEval score -->
    <td class="da-score">47.29 ± 2.05</td> <!-- Danish score -->
    <td class="no-score">50.94 ± 3.00</td> <!-- Norwegian score -->
@@ -852,7 +852,7 @@ title: Mainland Scandinavian NLU
    <td class="num_model_parameters">370</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">5,040 ± 833 / 1,346 ± 439</td> <!-- Model inference speed -->
+   <td class="speed">7,075 ± 1,093 / 2,057 ± 661</td> <!-- Model inference speed -->
    <td class="score">51.65 ± 1.86</td> <!-- ScandEval score -->
    <td class="da-score">41.35 ± 2.16</td> <!-- Danish score -->
    <td class="no-score">43.68 ± 2.29</td> <!-- Norwegian score -->
@@ -878,7 +878,7 @@ title: Mainland Scandinavian NLU
    <td class="num_model_parameters">167</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">106</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">9,363 ± 2,211 / 1,733 ± 565</td> <!-- Model inference speed -->
+   <td class="speed">13,993 ± 3,217 / 2,752 ± 893</td> <!-- Model inference speed -->
    <td class="score">50.63 ± 1.95</td> <!-- ScandEval score -->
    <td class="da-score">45.57 ± 2.56</td> <!-- Danish score -->
    <td class="no-score">51.06 ± 2.00</td> <!-- Norwegian score -->
@@ -904,7 +904,7 @@ title: Mainland Scandinavian NLU
    <td class="num_model_parameters">125</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">10,778 ± 1,694 / 2,895 ± 952</td> <!-- Model inference speed -->
+   <td class="speed">16,181 ± 2,451 / 4,620 ± 1,507</td> <!-- Model inference speed -->
    <td class="score">50.33 ± 2.46</td> <!-- ScandEval score -->
    <td class="da-score">39.21 ± 2.76</td> <!-- Danish score -->
    <td class="no-score">43.04 ± 3.35</td> <!-- Norwegian score -->
@@ -956,7 +956,7 @@ title: Mainland Scandinavian NLU
    <td class="num_model_parameters">22</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">96</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">128</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">3,695 ± 77 / 2,369 ± 772</td> <!-- Model inference speed -->
+   <td class="speed">5,989 ± 120 / 3,809 ± 1,230</td> <!-- Model inference speed -->
    <td class="score">49.76 ± 2.17</td> <!-- ScandEval score -->
    <td class="da-score">43.43 ± 2.54</td> <!-- Danish score -->
    <td class="no-score">51.22 ± 1.98</td> <!-- Norwegian score -->
@@ -1112,7 +1112,7 @@ title: Mainland Scandinavian NLU
    <td class="num_model_parameters">151</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">85</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">9,359 ± 2,224 / 1,712 ± 558</td> <!-- Model inference speed -->
+   <td class="speed">13,908 ± 3,201 / 2,700 ± 872</td> <!-- Model inference speed -->
    <td class="score">48.84 ± 2.86</td> <!-- ScandEval score -->
    <td class="da-score">40.98 ± 4.16</td> <!-- Danish score -->
    <td class="no-score">51.22 ± 1.72</td> <!-- Norwegian score -->
@@ -1190,7 +1190,7 @@ title: Mainland Scandinavian NLU
    <td class="num_model_parameters">104</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">23</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">14,880 ± 2,705 / 3,529 ± 1,145</td> <!-- Model inference speed -->
+   <td class="speed">15,432 ± 2,838 / 3,642 ± 1,189</td> <!-- Model inference speed -->
    <td class="score">46.94 ± 3.28</td> <!-- ScandEval score -->
    <td class="da-score">40.89 ± 4.42</td> <!-- Danish score -->
    <td class="no-score">47.23 ± 2.70</td> <!-- Norwegian score -->
@@ -1216,7 +1216,7 @@ title: Mainland Scandinavian NLU
    <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">9,943 ± 2,072 / 2,074 ± 707</td> <!-- Model inference speed -->
+   <td class="speed">14,744 ± 2,870 / 3,265 ± 1,053</td> <!-- Model inference speed -->
    <td class="score">46.85 ± 2.58</td> <!-- ScandEval score -->
    <td class="da-score">39.98 ± 3.06</td> <!-- Danish score -->
    <td class="no-score">50.53 ± 1.89</td> <!-- Norwegian score -->
@@ -1294,7 +1294,7 @@ title: Mainland Scandinavian NLU
    <td class="num_model_parameters">125</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">10,703 ± 1,837 / 2,637 ± 873</td> <!-- Model inference speed -->
+   <td class="speed">16,227 ± 2,650 / 4,252 ± 1,393</td> <!-- Model inference speed -->
    <td class="score">44.99 ± 2.24</td> <!-- ScandEval score -->
    <td class="da-score">41.00 ± 3.47</td> <!-- Danish score -->
    <td class="no-score">39.45 ± 1.89</td> <!-- Norwegian score -->
@@ -1320,7 +1320,7 @@ title: Mainland Scandinavian NLU
    <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">9,814 ± 2,015 / 2,093 ± 695</td> <!-- Model inference speed -->
+   <td class="speed">14,918 ± 2,938 / 3,330 ± 1,088</td> <!-- Model inference speed -->
    <td class="score">44.70 ± 3.06</td> <!-- ScandEval score -->
    <td class="da-score">39.03 ± 2.50</td> <!-- Danish score -->
    <td class="no-score">47.10 ± 4.79</td> <!-- Norwegian score -->
@@ -1424,7 +1424,7 @@ title: Mainland Scandinavian NLU
    <td class="num_model_parameters">125</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">10,400 ± 1,857 / 2,405 ± 803</td> <!-- Model inference speed -->
+   <td class="speed">15,437 ± 2,628 / 3,834 ± 1,252</td> <!-- Model inference speed -->
    <td class="score">43.53 ± 2.13</td> <!-- ScandEval score -->
    <td class="da-score">35.03 ± 2.68</td> <!-- Danish score -->
    <td class="no-score">33.88 ± 2.36</td> <!-- Norwegian score -->
@@ -1528,7 +1528,7 @@ title: Mainland Scandinavian NLU
    <td class="num_model_parameters">125</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">9,786 ± 2,060 / 2,012 ± 673</td> <!-- Model inference speed -->
+   <td class="speed">14,491 ± 2,800 / 3,182 ± 1,026</td> <!-- Model inference speed -->
    <td class="score">42.60 ± 8.52</td> <!-- ScandEval score -->
    <td class="da-score">36.91 ± 10.14</td> <!-- Danish score -->
    <td class="no-score">41.07 ± 7.10</td> <!-- Norwegian score -->
@@ -1684,7 +1684,7 @@ title: Mainland Scandinavian NLU
    <td class="num_model_parameters">24</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">29</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">8,299 ± 1,329 / 2,110 ± 704</td> <!-- Model inference speed -->
+   <td class="speed">13,821 ± 2,209 / 3,547 ± 1,184</td> <!-- Model inference speed -->
    <td class="score">40.91 ± 1.89</td> <!-- ScandEval score -->
    <td class="da-score">47.30 ± 1.83</td> <!-- Danish score -->
    <td class="no-score">36.92 ± 1.85</td> <!-- Norwegian score -->
@@ -1736,7 +1736,7 @@ title: Mainland Scandinavian NLU
    <td class="num_model_parameters">561</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">5,028 ± 868 / 1,342 ± 432</td> <!-- Model inference speed -->
+   <td class="speed">5,299 ± 910 / 1,415 ± 451</td> <!-- Model inference speed -->
    <td class="score">39.54 ± 4.86</td> <!-- ScandEval score -->
    <td class="da-score">36.67 ± 3.73</td> <!-- Danish score -->
    <td class="no-score">34.32 ± 5.44</td> <!-- Norwegian score -->
@@ -1944,7 +1944,7 @@ title: Mainland Scandinavian NLU
    <td class="num_model_parameters">111</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">10,866 ± 1,697 / 2,906 ± 954</td> <!-- Model inference speed -->
+   <td class="speed">16,091 ± 2,427 / 4,575 ± 1,485</td> <!-- Model inference speed -->
    <td class="score">37.33 ± 1.78</td> <!-- ScandEval score -->
    <td class="da-score">45.69 ± 2.20</td> <!-- Danish score -->
    <td class="no-score">32.11 ± 1.63</td> <!-- Norwegian score -->
@@ -1970,7 +1970,7 @@ title: Mainland Scandinavian NLU
    <td class="num_model_parameters">13</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">29</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">8,468 ± 1,421 / 2,067 ± 684</td> <!-- Model inference speed -->
+   <td class="speed">14,273 ± 2,312 / 3,555 ± 1,187</td> <!-- Model inference speed -->
    <td class="score">37.26 ± 1.78</td> <!-- ScandEval score -->
    <td class="da-score">41.84 ± 1.87</td> <!-- Danish score -->
    <td class="no-score">34.03 ± 1.83</td> <!-- Norwegian score -->
@@ -1996,7 +1996,7 @@ title: Mainland Scandinavian NLU
    <td class="num_model_parameters">15</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">508</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">13,578 ± 2,596 / 2,920 ± 962</td> <!-- Model inference speed -->
+   <td class="speed">14,208 ± 2,713 / 3,059 ± 1,002</td> <!-- Model inference speed -->
    <td class="score">36.87 ± 2.24</td> <!-- ScandEval score -->
    <td class="da-score">31.49 ± 1.75</td> <!-- Danish score -->
    <td class="no-score">40.70 ± 2.82</td> <!-- Norwegian score -->
@@ -2022,7 +2022,7 @@ title: Mainland Scandinavian NLU
    <td class="num_model_parameters">125</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">14,665 ± 2,882 / 3,196 ± 1,041</td> <!-- Model inference speed -->
+   <td class="speed">15,004 ± 2,964 / 3,290 ± 1,092</td> <!-- Model inference speed -->
    <td class="score">36.83 ± 3.31</td> <!-- ScandEval score -->
    <td class="da-score">37.96 ± 4.58</td> <!-- Danish score -->
    <td class="no-score">32.72 ± 3.80</td> <!-- Norwegian score -->
@@ -2152,7 +2152,7 @@ title: Mainland Scandinavian NLU
    <td class="num_model_parameters">135</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">120</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">16,901 ± 3,973 / 3,150 ± 1,061</td> <!-- Model inference speed -->
+   <td class="speed">26,458 ± 5,992 / 5,274 ± 1,731</td> <!-- Model inference speed -->
    <td class="score">33.80 ± 2.27</td> <!-- ScandEval score -->
    <td class="da-score">28.47 ± 2.71</td> <!-- Danish score -->
    <td class="no-score">31.74 ± 1.54</td> <!-- Norwegian score -->
@@ -2204,7 +2204,7 @@ title: Mainland Scandinavian NLU
    <td class="num_model_parameters">14</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">128</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">3,538 ± 137 / 2,293 ± 734</td> <!-- Model inference speed -->
+   <td class="speed">5,995 ± 135 / 3,839 ± 1,247</td> <!-- Model inference speed -->
    <td class="score">32.85 ± 1.77</td> <!-- ScandEval score -->
    <td class="da-score">41.16 ± 1.84</td> <!-- Danish score -->
    <td class="no-score">28.87 ± 1.43</td> <!-- Norwegian score -->
@@ -2282,7 +2282,7 @@ title: Mainland Scandinavian NLU
    <td class="num_model_parameters">14</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">10,936 ± 1,593 / 3,120 ± 1,015</td> <!-- Model inference speed -->
+   <td class="speed">15,925 ± 2,281 / 4,780 ± 1,554</td> <!-- Model inference speed -->
    <td class="score">25.80 ± 3.06</td> <!-- ScandEval score -->
    <td class="da-score">17.95 ± 3.16</td> <!-- Danish score -->
    <td class="no-score">22.30 ± 2.06</td> <!-- Norwegian score -->
@@ -2386,7 +2386,7 @@ title: Mainland Scandinavian NLU
    <td class="num_model_parameters">83</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">52</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">19,371 ± 2,916 / 5,362 ± 1,766</td> <!-- Model inference speed -->
+   <td class="speed">30,013 ± 4,309 / 8,840 ± 2,859</td> <!-- Model inference speed -->
    <td class="score">18.87 ± 1.65</td> <!-- ScandEval score -->
    <td class="da-score">19.57 ± 2.17</td> <!-- Danish score -->
    <td class="no-score">17.28 ± 1.29</td> <!-- Norwegian score -->
@@ -2490,7 +2490,7 @@ title: Mainland Scandinavian NLU
    <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">1,285 ± 87 / 610 ± 164</td> <!-- Model inference speed -->
+   <td class="speed">1,319 ± 94 / 656 ± 172</td> <!-- Model inference speed -->
    <td class="score">11.81 ± 2.05</td> <!-- ScandEval score -->
    <td class="da-score">9.08 ± 1.94</td> <!-- Danish score -->
    <td class="no-score">9.87 ± 1.74</td> <!-- Norwegian score -->
@@ -2516,7 +2516,7 @@ title: Mainland Scandinavian NLU
    <td class="num_model_parameters">14</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">31</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">2,237 ± 120 / 1,441 ± 325</td> <!-- Model inference speed -->
+   <td class="speed">7,219 ± 712 / 3,276 ± 803</td> <!-- Model inference speed -->
    <td class="score">10.74 ± 1.62</td> <!-- ScandEval score -->
    <td class="da-score">7.94 ± 1.80</td> <!-- Danish score -->
    <td class="no-score">7.78 ± 1.95</td> <!-- Norwegian score -->

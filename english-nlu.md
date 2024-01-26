@@ -3,7 +3,7 @@ layout: leaderboard
 title: English NLU
 ---
 
-<center>Last updated: 25/01/2024 10:08:07 CET</center>
+<center>Last updated: 26/01/2024 17:51:36 CET</center>
 <center><i>Hover over the headings for more information</i></center>
 
 <div class="table-wrapper centered">
@@ -29,7 +29,7 @@ title: English NLU
   <tr>
    <td class="rank">1</td> <!-- Rank -->
    <td>microsoft/deberta-v3-large</td> <!-- Model ID -->
-   <td class="num_model_parameters">435</td> <!-- Number of trainable parameters -->
+   <td class="num_model_parameters">434</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">128</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
    <td class="speed">2,521 ± 639 / 440 ± 143</td> <!-- Model inference speed -->
@@ -68,7 +68,7 @@ title: English NLU
   <tr>
    <td class="rank">4</td> <!-- Rank -->
    <td>roberta-large</td> <!-- Model ID -->
-   <td class="num_model_parameters">355</td> <!-- Number of trainable parameters -->
+   <td class="num_model_parameters">354</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
    <td class="speed">4,542 ± 1,120 / 845 ± 267</td> <!-- Model inference speed -->
@@ -81,10 +81,10 @@ title: English NLU
   <tr>
    <td class="rank">5=</td> <!-- Rank -->
    <td>roberta-base</td> <!-- Model ID -->
-   <td class="num_model_parameters">125</td> <!-- Number of trainable parameters -->
+   <td class="num_model_parameters">124</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">8,946 ± 2,319 / 1,547 ± 493</td> <!-- Model inference speed -->
+   <td class="speed">13,354 ± 3,334 / 2,451 ± 777</td> <!-- Model inference speed -->
    <td class="score">67.64 ± 1.51</td> <!-- ScandEval score -->
    <td class="en ner">91.00 ± 0.40 / 90.70 ± 0.31</td> <!-- CoNLL-en -->
    <td class="en sent">59.54 ± 1.98 / 59.76 ± 3.06</td> <!-- SST5 -->
@@ -94,7 +94,7 @@ title: English NLU
   <tr>
    <td class="rank">5=</td> <!-- Rank -->
    <td>microsoft/mdeberta-v3-base</td> <!-- Model ID -->
-   <td class="num_model_parameters">279</td> <!-- Number of trainable parameters -->
+   <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">251</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
    <td class="speed">9,237 ± 1,562 / 2,258 ± 742</td> <!-- Model inference speed -->
@@ -107,7 +107,7 @@ title: English NLU
   <tr>
    <td class="rank">6</td> <!-- Rank -->
    <td>bert-large-cased</td> <!-- Model ID -->
-   <td class="num_model_parameters">334</td> <!-- Number of trainable parameters -->
+   <td class="num_model_parameters">333</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">29</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
    <td class="speed">5,051 ± 981 / 1,147 ± 372</td> <!-- Model inference speed -->
@@ -120,7 +120,7 @@ title: English NLU
   <tr>
    <td class="rank">7</td> <!-- Rank -->
    <td>bert-large-uncased</td> <!-- Model ID -->
-   <td class="num_model_parameters">335</td> <!-- Number of trainable parameters -->
+   <td class="num_model_parameters">334</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">31</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
    <td class="speed">4,711 ± 1,074 / 933 ± 302</td> <!-- Model inference speed -->
@@ -159,7 +159,7 @@ title: English NLU
   <tr>
    <td class="rank">10</td> <!-- Rank -->
    <td>google/electra-large-discriminator</td> <!-- Model ID -->
-   <td class="num_model_parameters">335</td> <!-- Number of trainable parameters -->
+   <td class="num_model_parameters">334</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">31</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
    <td class="speed">4,700 ± 1,068 / 930 ± 301</td> <!-- Model inference speed -->
@@ -185,10 +185,10 @@ title: English NLU
   <tr>
    <td class="rank">12</td> <!-- Rank -->
    <td>xlm-roberta-large</td> <!-- Model ID -->
-   <td class="num_model_parameters">560</td> <!-- Number of trainable parameters -->
+   <td class="num_model_parameters">559</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">4,744 ± 947 / 1,059 ± 347</td> <!-- Model inference speed -->
+   <td class="speed">6,663 ± 1,248 / 1,619 ± 516</td> <!-- Model inference speed -->
    <td class="score">59.05 ± 9.52</td> <!-- ScandEval score -->
    <td class="en ner">89.81 ± 0.60 / 89.25 ± 0.72</td> <!-- CoNLL-en -->
    <td class="en sent">41.97 ± 17.48 / 50.33 ± 9.16</td> <!-- SST5 -->
@@ -198,7 +198,7 @@ title: English NLU
   <tr>
    <td class="rank">13</td> <!-- Rank -->
    <td>bert-base-multilingual-cased</td> <!-- Model ID -->
-   <td class="num_model_parameters">178</td> <!-- Number of trainable parameters -->
+   <td class="num_model_parameters">177</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">120</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
    <td class="speed">14,083 ± 3,264 / 2,738 ± 889</td> <!-- Model inference speed -->
@@ -224,7 +224,7 @@ title: English NLU
   <tr>
    <td class="rank">15</td> <!-- Rank -->
    <td>distilbert-base-cased</td> <!-- Model ID -->
-   <td class="num_model_parameters">66</td> <!-- Number of trainable parameters -->
+   <td class="num_model_parameters">65</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">29</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
    <td class="speed">19,667 ± 3,904 / 4,323 ± 1,422</td> <!-- Model inference speed -->

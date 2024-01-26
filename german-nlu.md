@@ -3,7 +3,7 @@ layout: leaderboard
 title: German NLU
 ---
 
-<center>Last updated: 25/01/2024 10:08:05 CET</center>
+<center>Last updated: 26/01/2024 17:51:33 CET</center>
 <center><i>Hover over the headings for more information</i></center>
 
 <div class="table-wrapper centered">
@@ -29,7 +29,7 @@ title: German NLU
   <tr>
    <td class="rank">1=</td> <!-- Rank -->
    <td>deepset/gbert-large</td> <!-- Model ID -->
-   <td class="num_model_parameters">336</td> <!-- Number of trainable parameters -->
+   <td class="num_model_parameters">335</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">31</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
    <td class="speed">5,463 ± 874 / 1,491 ± 486</td> <!-- Model inference speed -->
@@ -42,10 +42,10 @@ title: German NLU
   <tr>
    <td class="rank">1=</td> <!-- Rank -->
    <td>google/rembert</td> <!-- Model ID -->
-   <td class="num_model_parameters">576</td> <!-- Number of trainable parameters -->
+   <td class="num_model_parameters">575</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">256</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">3,270 ± 467 / 972 ± 303</td> <!-- Model inference speed -->
+   <td class="speed">3,355 ± 475 / 1,002 ± 312</td> <!-- Model inference speed -->
    <td class="score">61.43 ± 1.85</td> <!-- ScandEval score -->
    <td class="de ner">79.32 ± 1.76 / 77.85 ± 1.92</td> <!-- GermEval -->
    <td class="de sent">59.69 ± 2.32 / 72.69 ± 1.52</td> <!-- SB10k -->
@@ -55,7 +55,7 @@ title: German NLU
   <tr>
    <td class="rank">2</td> <!-- Rank -->
    <td>microsoft/mdeberta-v3-base</td> <!-- Model ID -->
-   <td class="num_model_parameters">279</td> <!-- Number of trainable parameters -->
+   <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">251</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
    <td class="speed">9,237 ± 1,562 / 2,258 ± 742</td> <!-- Model inference speed -->
@@ -68,10 +68,10 @@ title: German NLU
   <tr>
    <td class="rank">3=</td> <!-- Rank -->
    <td>xlm-roberta-large</td> <!-- Model ID -->
-   <td class="num_model_parameters">560</td> <!-- Number of trainable parameters -->
+   <td class="num_model_parameters">559</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">4,744 ± 947 / 1,059 ± 347</td> <!-- Model inference speed -->
+   <td class="speed">6,663 ± 1,248 / 1,619 ± 516</td> <!-- Model inference speed -->
    <td class="score">58.26 ± 4.78</td> <!-- ScandEval score -->
    <td class="de ner">80.27 ± 1.34 / 79.20 ± 1.29</td> <!-- GermEval -->
    <td class="de sent">58.44 ± 7.27 / 71.84 ± 5.22</td> <!-- SB10k -->
@@ -81,10 +81,10 @@ title: German NLU
   <tr>
    <td class="rank">3=</td> <!-- Rank -->
    <td>sentence-transformers/use-cmlm-multilingual</td> <!-- Model ID -->
-   <td class="num_model_parameters">471</td> <!-- Number of trainable parameters -->
+   <td class="num_model_parameters">470</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">501</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">13,196 ± 3,299 / 2,383 ± 768</td> <!-- Model inference speed -->
+   <td class="speed">13,305 ± 3,306 / 2,414 ± 780</td> <!-- Model inference speed -->
    <td class="score">57.54 ± 1.57</td> <!-- ScandEval score -->
    <td class="de ner">78.99 ± 0.87 / 78.42 ± 0.82</td> <!-- GermEval -->
    <td class="de sent">59.17 ± 1.96 / 72.66 ± 1.28</td> <!-- SB10k -->
@@ -94,10 +94,10 @@ title: German NLU
   <tr>
    <td class="rank">4</td> <!-- Rank -->
    <td>deepset/gbert-base</td> <!-- Model ID -->
-   <td class="num_model_parameters">110</td> <!-- Number of trainable parameters -->
+   <td class="num_model_parameters">109</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">31</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">10,570 ± 1,759 / 2,635 ± 894</td> <!-- Model inference speed -->
+   <td class="speed">16,043 ± 2,590 / 4,268 ± 1,377</td> <!-- Model inference speed -->
    <td class="score">55.48 ± 1.67</td> <!-- ScandEval score -->
    <td class="de ner">81.33 ± 0.53 / 80.25 ± 0.48</td> <!-- GermEval -->
    <td class="de sent">57.77 ± 3.03 / 71.70 ± 1.94</td> <!-- SB10k -->
@@ -107,7 +107,7 @@ title: German NLU
   <tr>
    <td class="rank">5=</td> <!-- Rank -->
    <td>dbmdz/bert-base-german-uncased</td> <!-- Model ID -->
-   <td class="num_model_parameters">110</td> <!-- Number of trainable parameters -->
+   <td class="num_model_parameters">109</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">31</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
    <td class="speed">11,438 ± 1,997 / 2,779 ± 908</td> <!-- Model inference speed -->
@@ -120,7 +120,7 @@ title: German NLU
   <tr>
    <td class="rank">5=</td> <!-- Rank -->
    <td>dbmdz/bert-base-german-cased</td> <!-- Model ID -->
-   <td class="num_model_parameters">110</td> <!-- Number of trainable parameters -->
+   <td class="num_model_parameters">109</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">31</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
    <td class="speed">11,844 ± 1,972 / 3,014 ± 986</td> <!-- Model inference speed -->
@@ -133,10 +133,10 @@ title: German NLU
   <tr>
    <td class="rank">6</td> <!-- Rank -->
    <td>setu4993/LaBSE</td> <!-- Model ID -->
-   <td class="num_model_parameters">471</td> <!-- Number of trainable parameters -->
+   <td class="num_model_parameters">470</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">501</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">13,052 ± 3,261 / 2,357 ± 761</td> <!-- Model inference speed -->
+   <td class="speed">13,386 ± 3,349 / 2,435 ± 787</td> <!-- Model inference speed -->
    <td class="score">53.55 ± 1.58</td> <!-- ScandEval score -->
    <td class="de ner">78.94 ± 0.98 / 77.93 ± 0.97</td> <!-- GermEval -->
    <td class="de sent">58.20 ± 2.20 / 71.95 ± 1.45</td> <!-- SB10k -->
@@ -146,7 +146,7 @@ title: German NLU
   <tr>
    <td class="rank">7</td> <!-- Rank -->
    <td>ZurichNLP/unsup-simcse-xlm-roberta-base</td> <!-- Model ID -->
-   <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
+   <td class="num_model_parameters">277</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
    <td class="speed">10,471 ± 2,152 / 2,194 ± 723</td> <!-- Model inference speed -->
@@ -159,10 +159,10 @@ title: German NLU
   <tr>
    <td class="rank">8</td> <!-- Rank -->
    <td>cardiffnlp/twitter-xlm-roberta-base</td> <!-- Model ID -->
-   <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
+   <td class="num_model_parameters">277</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">10,116 ± 2,084 / 2,119 ± 696</td> <!-- Model inference speed -->
+   <td class="speed">14,837 ± 2,928 / 3,264 ± 1,046</td> <!-- Model inference speed -->
    <td class="score">47.42 ± 1.64</td> <!-- ScandEval score -->
    <td class="de ner">75.55 ± 0.87 / 74.67 ± 1.09</td> <!-- GermEval -->
    <td class="de sent">63.32 ± 2.32 / 75.28 ± 1.65</td> <!-- SB10k -->
@@ -198,7 +198,7 @@ title: German NLU
   <tr>
    <td class="rank">11</td> <!-- Rank -->
    <td>jhu-clsp/bernice</td> <!-- Model ID -->
-   <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
+   <td class="num_model_parameters">277</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">128</td> <!-- Maximum sequence length of the model-->
    <td class="speed">5,567 ± 450 / 2,483 ± 798</td> <!-- Model inference speed -->
@@ -211,10 +211,10 @@ title: German NLU
   <tr>
    <td class="rank">12</td> <!-- Rank -->
    <td>Twitter/twhin-bert-large</td> <!-- Model ID -->
-   <td class="num_model_parameters">561</td> <!-- Number of trainable parameters -->
+   <td class="num_model_parameters">560</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">5,028 ± 868 / 1,342 ± 432</td> <!-- Model inference speed -->
+   <td class="speed">5,299 ± 910 / 1,415 ± 451</td> <!-- Model inference speed -->
    <td class="score">42.73 ± 5.73</td> <!-- ScandEval score -->
    <td class="de ner">74.80 ± 1.48 / 74.00 ± 1.42</td> <!-- GermEval -->
    <td class="de sent">55.04 ± 3.06 / 69.65 ± 2.21</td> <!-- SB10k -->
@@ -224,7 +224,7 @@ title: German NLU
   <tr>
    <td class="rank">13</td> <!-- Rank -->
    <td>clips/mfaq</td> <!-- Model ID -->
-   <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
+   <td class="num_model_parameters">277</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">128</td> <!-- Maximum sequence length of the model-->
    <td class="speed">5,591 ± 187 / 3,349 ± 1,105</td> <!-- Model inference speed -->
@@ -237,10 +237,10 @@ title: German NLU
   <tr>
    <td class="rank">14=</td> <!-- Rank -->
    <td>microsoft/xlm-align-base</td> <!-- Model ID -->
-   <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
+   <td class="num_model_parameters">277</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">9,943 ± 2,072 / 2,074 ± 707</td> <!-- Model inference speed -->
+   <td class="speed">14,744 ± 2,870 / 3,265 ± 1,053</td> <!-- Model inference speed -->
    <td class="score">42.47 ± 3.71</td> <!-- ScandEval score -->
    <td class="de ner">79.38 ± 0.80 / 79.33 ± 0.74</td> <!-- GermEval -->
    <td class="de sent">58.58 ± 2.31 / 72.09 ± 1.64</td> <!-- SB10k -->
@@ -250,10 +250,10 @@ title: German NLU
   <tr>
    <td class="rank">14=</td> <!-- Rank -->
    <td>microsoft/infoxlm-base</td> <!-- Model ID -->
-   <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
+   <td class="num_model_parameters">277</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">9,814 ± 2,015 / 2,093 ± 695</td> <!-- Model inference speed -->
+   <td class="speed">14,918 ± 2,938 / 3,330 ± 1,088</td> <!-- Model inference speed -->
    <td class="score">42.44 ± 4.25</td> <!-- ScandEval score -->
    <td class="de ner">79.97 ± 0.60 / 79.61 ± 0.72</td> <!-- GermEval -->
    <td class="de sent">58.30 ± 3.04 / 72.07 ± 2.02</td> <!-- SB10k -->
@@ -263,7 +263,7 @@ title: German NLU
   <tr>
    <td class="rank">15</td> <!-- Rank -->
    <td>sentence-transformers/paraphrase-xlm-r-multilingual-v1</td> <!-- Model ID -->
-   <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
+   <td class="num_model_parameters">277</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
    <td class="speed">14,994 ± 2,975 / 3,374 ± 1,080</td> <!-- Model inference speed -->
@@ -276,7 +276,7 @@ title: German NLU
   <tr>
    <td class="rank">16</td> <!-- Rank -->
    <td>dbmdz/bert-base-historic-multilingual-cased</td> <!-- Model ID -->
-   <td class="num_model_parameters">111</td> <!-- Number of trainable parameters -->
+   <td class="num_model_parameters">110</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
    <td class="speed">15,165 ± 3,028 / 3,385 ± 1,115</td> <!-- Model inference speed -->
@@ -289,7 +289,7 @@ title: German NLU
   <tr>
    <td class="rank">17</td> <!-- Rank -->
    <td>sentence-transformers/stsb-xlm-r-multilingual</td> <!-- Model ID -->
-   <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
+   <td class="num_model_parameters">277</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
    <td class="speed">15,040 ± 2,953 / 3,417 ± 1,100</td> <!-- Model inference speed -->
@@ -367,7 +367,7 @@ title: German NLU
   <tr>
    <td class="rank">21=</td> <!-- Rank -->
    <td>3ebdola/Dialectal-Arabic-XLM-R-Base</td> <!-- Model ID -->
-   <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
+   <td class="num_model_parameters">277</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
    <td class="speed">15,177 ± 2,980 / 3,410 ± 1,076</td> <!-- Model inference speed -->
@@ -380,10 +380,10 @@ title: German NLU
   <tr>
    <td class="rank">22</td> <!-- Rank -->
    <td>fresh-electra-small</td> <!-- Model ID -->
-   <td class="num_model_parameters">14</td> <!-- Number of trainable parameters -->
+   <td class="num_model_parameters">13</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">31</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">2,237 ± 120 / 1,441 ± 325</td> <!-- Model inference speed -->
+   <td class="speed">7,219 ± 712 / 3,276 ± 803</td> <!-- Model inference speed -->
    <td class="score">4.75 ± 2.50</td> <!-- ScandEval score -->
    <td class="de ner">9.42 ± 0.82 / 9.75 ± 0.87</td> <!-- GermEval -->
    <td class="de sent">9.76 ± 8.55 / 28.33 ± 9.75</td> <!-- SB10k -->
