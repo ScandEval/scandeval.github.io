@@ -11,9 +11,9 @@ leaderboards: download \
 	english-nlg
 
 download:
-	@scp bk:/home/saattrupdan/scandeval/scandeval_benchmark_results.jsonl blackknight_results.jsonl || (touch blackknight_results.jsonl && echo "Could not download results from blackknight.")
-	@scp rabbit:/home/ubuntu/scandeval_benchmark_results.jsonl rabbit_results.jsonl || (touch rabbit_results.jsonl && echo "Could not download results from rabbit.")
-	@scp maninpink:/home/ubuntu/scandeval_benchmark_results.jsonl maininpink_results.jsonl || (touch maininpink_results.jsonl && echo "Could not download results from maninpink.")
+	@scp -o ConnectTimeout=5 bk:/home/saattrupdan/scandeval/scandeval_benchmark_results.jsonl blackknight_results.jsonl || (touch blackknight_results.jsonl && echo "Could not download results from blackknight.")
+	@scp -o ConnectTimeout=5 rabbit:/home/ubuntu/scandeval_benchmark_results.jsonl rabbit_results.jsonl || (touch rabbit_results.jsonl && echo "Could not download results from rabbit.")
+	@scp -o ConnectTimeout=5 maninpink:/home/ubuntu/scandeval_benchmark_results.jsonl maininpink_results.jsonl || (touch maininpink_results.jsonl && echo "Could not download results from maninpink.")
 	@cat blackknight_results.jsonl > scandeval_benchmark_results.jsonl
 	@cat rabbit_results.jsonl >> scandeval_benchmark_results.jsonl
 	@cat maininpink_results.jsonl >> scandeval_benchmark_results.jsonl
