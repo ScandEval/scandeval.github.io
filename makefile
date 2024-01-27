@@ -9,7 +9,8 @@ leaderboards: download \
 	dutch-nlu \
 	dutch-nlg \
 	english-nlu \
-	english-nlg
+	english-nlg \
+	show-changed-leaderboards
 
 download:
 	@scp -o ConnectTimeout=5 bk:/home/saattrupdan/scandeval/scandeval_benchmark_results.jsonl blackknight_results.jsonl || true
@@ -317,12 +318,9 @@ english-nlg:
 			-d ARC en know mcc accuracy \
 			-d HellaSwag en reason mcc accuracy
 
-radial_plot:
-	@source .venv/bin/activate && \
-		python python/radial_plot.py \
-			-l da \
-			-m mhenrichsen/danskgpt-tiny \
-			-m mhenrichsen/danskgpt-tiny-chat \
-			-m danish-foundation-models/munin-7b-alpha \
-			-m mistralai/Mistral-7B-v0.1 \
-			-m gpt-3.5-turbo-0613
+show-changed-leaderboards:
+	@git status --short \
+		| grep "csv" \
+		| sed "s/ M //" \
+		| sed "s/.csv//" \
+		| xargs echo "New results in:$1"
