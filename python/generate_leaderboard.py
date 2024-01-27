@@ -415,7 +415,7 @@ title: {title}
         }
         return rank_score_dict
 
-    def score_dicts_statistically_different(
+    def score_dicts_statistically_better(
         score_dict_1: dict[str, list[float]], score_dict_2: dict[str, list[float]]
     ) -> bool:
         if list(score_dict_1.keys()) != list(score_dict_2.keys()):
@@ -437,7 +437,7 @@ title: {title}
         p_value = stats.ttest_rel(
             a=score_values_1,
             b=score_values_2,
-            alternative="two-sided",
+            alternative="greater",
         ).pvalue
 
         if p_value != p_value:
@@ -461,7 +461,7 @@ title: {title}
             continue
         current_scores = extract_scores_for_model(model_id=values["model_id"])
 
-        if score_dicts_statistically_different(rank_scores, current_scores):
+        if score_dicts_statistically_better(rank_scores, current_scores):
             rank_scores = current_scores
             rank += 1
         values["rank"] = str(rank)
