@@ -3,7 +3,7 @@ layout: leaderboard
 title: Mainland Scandinavian NLG
 ---
 
-<center>Last updated: 29/01/2024 13:26:00 CET</center>
+<center>Last updated: 29/01/2024 16:58:52 CET</center>
 <center><i>Hover over the headings for more information</i></center>
 
 <div class="table-wrapper centered">
@@ -244,6 +244,44 @@ title: Mainland Scandinavian NLG
   </tr>
   <tr>
    <td class="rank">5</td> <!-- Rank -->
+   <td>AI-Sweden-Models/gpt-sw3-6.7b-v2 (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">7111</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">2,351 ± 448 / 707 ± 216</td> <!-- Model inference speed -->
+   <td class="score">26.67 ± 2.30</td> <!-- ScandEval score -->
+   <td class="da-score">23.65 ± 2.02</td> <!-- Danish score -->
+   <td class="no-score">24.28 ± 2.74</td> <!-- Norwegian score -->
+   <td class="sv-score">32.08 ± 2.13</td> <!-- Swedish score -->
+   <td class="da ner">20.84 ± 2.40 / 16.93 ± 1.98</td> <!-- DANSK -->
+   <td class="da sent">18.07 ± 3.41 / 27.21 ± 2.91</td> <!-- Angry Tweets -->
+   <td class="da la">10.54 ± 2.38 / 48.37 ± 3.58</td> <!-- ScaLA-da -->
+   <td class="da qa">39.18 ± 3.52 / 44.53 ± 3.79</td> <!-- ScandiQA-da -->
+   <td class="da summ">66.28 ± 0.55 / 20.87 ± 1.03</td> <!-- Nordjylland-News -->
+   <td class="da know">4.93 ± 0.91 / 28.06 ± 0.72</td> <!-- MMLU-da -->
+   <td class="da know">5.23 ± 0.98 / 29.21 ± 0.88</td> <!-- ARC-da -->
+   <td class="da reason">5.57 ± 0.93 / 28.66 ± 0.66</td> <!-- HellaSwag-da -->
+   <td class="no ner">29.62 ± 4.17 / 24.40 ± 2.42</td> <!-- NorNE-nb -->
+   <td class="no ner">32.30 ± 5.27 / 29.23 ± 3.22</td> <!-- NorNE-nn -->
+   <td class="no sent">34.67 ± 5.23 / 54.62 ± 5.71</td> <!-- NoReC -->
+   <td class="no summ">63.58 ± 1.06 / 16.52 ± 1.39</td> <!-- No Sammendrag -->
+   <td class="no la">8.37 ± 1.71 / 48.94 ± 2.72</td> <!-- ScaLA-nb -->
+   <td class="no la">7.76 ± 2.86 / 46.16 ± 4.77</td> <!-- ScaLA-nn -->
+   <td class="no qa">24.67 ± 2.82 / 43.02 ± 4.03</td> <!-- NorQuAD -->
+   <td class="no know">3.03 ± 1.30 / 25.60 ± 0.86</td> <!-- MMLU-no -->
+   <td class="no know">1.92 ± 2.47 / 27.75 ± 1.43</td> <!-- ARC-no -->
+   <td class="no reason">5.57 ± 1.19 / 27.61 ± 0.93</td> <!-- HellaSwag-no -->
+   <td class="sv ner">28.73 ± 3.63 / 20.43 ± 3.72</td> <!-- SUC3 -->
+   <td class="sv sent">77.47 ± 1.36 / 78.60 ± 1.25</td> <!-- SweReC -->
+   <td class="sv la">8.78 ± 2.01 / 42.28 ± 3.17</td> <!-- ScaLA-sv -->
+   <td class="sv qa">35.78 ± 4.94 / 41.08 ± 5.23</td> <!-- ScandiQA-sv -->
+   <td class="sv summ">63.08 ± 0.64 / 17.89 ± 0.48</td> <!-- SweDN -->
+   <td class="sv know">5.23 ± 1.02 / 28.63 ± 0.82</td> <!-- MMLU-sv -->
+   <td class="sv know">5.49 ± 2.01 / 29.43 ± 1.25</td> <!-- ARC-sv -->
+   <td class="sv reason">5.39 ± 0.81 / 28.86 ± 0.60</td> <!-- HellaSwag-sv -->
+  </tr>
+  <tr>
+   <td class="rank">6</td> <!-- Rank -->
    <td>mhenrichsen/danskgpt-tiny-chat (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">1100</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -281,7 +319,7 @@ title: Mainland Scandinavian NLG
    <td class="sv reason">0.52 ± 0.83 / 25.53 ± 0.62</td> <!-- HellaSwag-sv -->
   </tr>
   <tr>
-   <td class="rank">6</td> <!-- Rank -->
+   <td class="rank">7</td> <!-- Rank -->
    <td>mhenrichsen/danskgpt-tiny (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">1100</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -319,7 +357,7 @@ title: Mainland Scandinavian NLG
    <td class="sv reason">-1.24 ± 0.90 / 24.30 ± 0.63</td> <!-- HellaSwag-sv -->
   </tr>
   <tr>
-   <td class="rank">7</td> <!-- Rank -->
+   <td class="rank">8</td> <!-- Rank -->
    <td>AI-Sweden-Models/gpt-sw3-126m (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">186</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
