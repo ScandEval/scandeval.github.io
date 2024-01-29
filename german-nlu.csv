@@ -1,29 +1,29 @@
 rank,model_id,num_model_parameters,vocabulary_size,max_sequence_length,speed,score,de_score,germeval,sb10k,scala_de,germanquad
 1,deepset/gbert-large,335.0,31,512,5463,64.61,64.61,82.15,66.16,77.48,32.63
-1,google/rembert,575.0,250,256,3355,61.43,61.43,79.32,59.69,72.25,34.48
+2,google/rembert,575.0,250,256,3355,61.43,61.43,79.32,59.69,72.25,34.48
 2,microsoft/mdeberta-v3-base,278.0,251,512,9237,59.66,59.66,81.05,59.5,71.84,26.25
 2,xlm-roberta-large,559.0,250,512,6663,58.26,58.26,80.27,58.44,62.12,32.23
-2,sentence-transformers/use-cmlm-multilingual,470.0,501,512,13305,57.54,57.54,78.99,59.17,61.58,30.42
-3,deepset/gbert-base,109.0,31,512,16043,55.48,55.48,81.33,57.77,66.13,16.68
+3,sentence-transformers/use-cmlm-multilingual,470.0,501,512,13305,57.54,57.54,78.99,59.17,61.58,30.42
+4,deepset/gbert-base,109.0,31,512,16043,55.48,55.48,81.33,57.77,66.13,16.68
 4,dbmdz/bert-base-german-uncased,109.0,31,512,11438,54.57,54.57,79.93,56.26,68.22,13.87
 4,dbmdz/bert-base-german-cased,109.0,31,512,11844,53.98,53.98,80.9,53.44,67.08,14.49
 4,setu4993/LaBSE,470.0,501,512,13386,53.55,53.55,78.94,58.2,53.53,23.55
-4,ZurichNLP/unsup-simcse-xlm-roberta-base,277.0,250,512,10471,51.17,51.17,76.7,57.27,52.46,18.24
-5,cardiffnlp/twitter-xlm-roberta-base,277.0,250,512,14837,47.42,47.42,75.55,63.32,49.39,1.43
-5,facebook/xlm-v-base,778.0,902,512,13135,46.8,46.8,73.96,57.43,35.0,20.81
-5,"gpt-3.5-turbo-0613 (few-shot, val)",unknown,100,4095,1344,46.54,46.54,61.5,55.5,38.96,30.2
-6,jhu-clsp/bernice,277.0,250,128,5567,45.59,45.59,72.25,62.0,48.1,0.0
-6,Twitter/twhin-bert-large,560.0,250,512,5299,42.73,42.73,74.8,55.04,29.15,11.93
-6,clips/mfaq,277.0,250,128,5591,42.56,42.56,76.68,59.51,32.54,1.53
-6,microsoft/xlm-align-base,277.0,250,512,14744,42.47,42.47,79.38,58.58,15.34,16.58
-6,microsoft/infoxlm-base,277.0,250,512,14918,42.44,42.44,79.97,58.3,11.85,19.63
-6,sentence-transformers/paraphrase-xlm-r-multilingual-v1,277.0,250,512,14994,42.14,42.14,71.8,57.71,38.75,0.3
-6,dbmdz/bert-base-historic-multilingual-cased,110.0,32,512,15165,41.14,41.14,67.24,41.36,48.21,7.75
-6,sentence-transformers/stsb-xlm-r-multilingual,277.0,250,512,15040,39.31,39.31,69.4,52.68,34.44,0.73
-6,mistralai/Mistral-7B-v0.1 (few-shot),7242.0,32,32768,2657,38.92,38.92,55.37,54.27,23.12,22.94
-6,sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,118.0,250,512,17428,38.52,38.52,65.62,55.6,32.22,0.64
-6,sentence-transformers/distilbert-multilingual-nli-stsb-quora-ranking,135.0,120,512,26151,33.58,33.58,66.75,49.61,17.6,0.36
-6,sentence-transformers/distiluse-base-multilingual-cased-v1,135.0,120,512,26344,32.01,32.01,53.77,53.53,20.15,0.58
-7,sentence-transformers/distiluse-base-multilingual-cased-v2,135.0,120,512,17807,30.72,30.72,53.13,51.94,17.74,0.06
-7,3ebdola/Dialectal-Arabic-XLM-R-Base,277.0,250,512,15177,17.68,17.68,34.18,34.81,1.25,0.46
-8,fresh-electra-small,13.0,31,512,7219,4.75,4.75,9.42,9.76,-0.18,0.0
+5,ZurichNLP/unsup-simcse-xlm-roberta-base,277.0,250,512,10471,51.17,51.17,76.7,57.27,52.46,18.24
+6,cardiffnlp/twitter-xlm-roberta-base,277.0,250,512,14837,47.42,47.42,75.55,63.32,49.39,1.43
+7,facebook/xlm-v-base,778.0,902,512,13135,46.8,46.8,73.96,57.43,35.0,20.81
+7,"gpt-3.5-turbo-0613 (few-shot, val)",unknown,100,4095,1344,46.54,46.54,61.5,55.5,38.96,30.2
+8,jhu-clsp/bernice,277.0,250,128,5567,45.59,45.59,72.25,62.0,48.1,0.0
+8,Twitter/twhin-bert-large,560.0,250,512,5299,42.73,42.73,74.8,55.04,29.15,11.93
+8,clips/mfaq,277.0,250,128,5591,42.56,42.56,76.68,59.51,32.54,1.53
+8,microsoft/xlm-align-base,277.0,250,512,14744,42.47,42.47,79.38,58.58,15.34,16.58
+9,microsoft/infoxlm-base,277.0,250,512,14918,42.44,42.44,79.97,58.3,11.85,19.63
+10,sentence-transformers/paraphrase-xlm-r-multilingual-v1,277.0,250,512,14994,42.14,42.14,71.8,57.71,38.75,0.3
+10,dbmdz/bert-base-historic-multilingual-cased,110.0,32,512,15165,41.14,41.14,67.24,41.36,48.21,7.75
+10,sentence-transformers/stsb-xlm-r-multilingual,277.0,250,512,15040,39.31,39.31,69.4,52.68,34.44,0.73
+11,mistralai/Mistral-7B-v0.1 (few-shot),7242.0,32,32768,2657,38.92,38.92,55.37,54.27,23.12,22.94
+11,sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,118.0,250,512,17428,38.52,38.52,65.62,55.6,32.22,0.64
+12,sentence-transformers/distilbert-multilingual-nli-stsb-quora-ranking,135.0,120,512,26151,33.58,33.58,66.75,49.61,17.6,0.36
+13,sentence-transformers/distiluse-base-multilingual-cased-v1,135.0,120,512,26344,32.01,32.01,53.77,53.53,20.15,0.58
+13,sentence-transformers/distiluse-base-multilingual-cased-v2,135.0,120,512,17807,30.72,30.72,53.13,51.94,17.74,0.06
+14,3ebdola/Dialectal-Arabic-XLM-R-Base,277.0,250,512,15177,17.68,17.68,34.18,34.81,1.25,0.46
+15,fresh-electra-small,13.0,31,512,7219,4.75,4.75,9.42,9.76,-0.18,0.0

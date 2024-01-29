@@ -3,7 +3,7 @@ layout: leaderboard
 title: German NLU
 ---
 
-<center>Last updated: 27/01/2024 20:33:23 CET</center>
+<center>Last updated: 29/01/2024 13:26:02 CET</center>
 <center><i>Hover over the headings for more information</i></center>
 
 <div class="table-wrapper centered">
@@ -27,7 +27,7 @@ title: German NLU
  </thead>
  <tbody>
   <tr>
-   <td class="rank">1=</td> <!-- Rank -->
+   <td class="rank">1</td> <!-- Rank -->
    <td>deepset/gbert-large</td> <!-- Model ID -->
    <td class="num_model_parameters">335</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">31</td> <!-- Size of the model's vocabulary -->
@@ -40,7 +40,7 @@ title: German NLU
    <td class="de qa">32.63 ± 0.86 / 59.31 ± 0.92</td> <!-- GermanQuAD -->
   </tr>
   <tr>
-   <td class="rank">1=</td> <!-- Rank -->
+   <td class="rank">2=</td> <!-- Rank -->
    <td>google/rembert</td> <!-- Model ID -->
    <td class="num_model_parameters">575</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
@@ -79,7 +79,7 @@ title: German NLU
    <td class="de qa">32.23 ± 1.48 / 56.36 ± 1.54</td> <!-- GermanQuAD -->
   </tr>
   <tr>
-   <td class="rank">2=</td> <!-- Rank -->
+   <td class="rank">3</td> <!-- Rank -->
    <td>sentence-transformers/use-cmlm-multilingual</td> <!-- Model ID -->
    <td class="num_model_parameters">470</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">501</td> <!-- Size of the model's vocabulary -->
@@ -92,7 +92,7 @@ title: German NLU
    <td class="de qa">30.42 ± 1.43 / 55.28 ± 1.63</td> <!-- GermanQuAD -->
   </tr>
   <tr>
-   <td class="rank">3</td> <!-- Rank -->
+   <td class="rank">4=</td> <!-- Rank -->
    <td>deepset/gbert-base</td> <!-- Model ID -->
    <td class="num_model_parameters">109</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">31</td> <!-- Size of the model's vocabulary -->
@@ -144,7 +144,7 @@ title: German NLU
    <td class="de qa">23.55 ± 0.57 / 45.91 ± 0.73</td> <!-- GermanQuAD -->
   </tr>
   <tr>
-   <td class="rank">4=</td> <!-- Rank -->
+   <td class="rank">5</td> <!-- Rank -->
    <td>ZurichNLP/unsup-simcse-xlm-roberta-base</td> <!-- Model ID -->
    <td class="num_model_parameters">277</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
@@ -157,7 +157,7 @@ title: German NLU
    <td class="de qa">18.24 ± 2.41 / 38.20 ± 2.88</td> <!-- GermanQuAD -->
   </tr>
   <tr>
-   <td class="rank">5=</td> <!-- Rank -->
+   <td class="rank">6</td> <!-- Rank -->
    <td>cardiffnlp/twitter-xlm-roberta-base</td> <!-- Model ID -->
    <td class="num_model_parameters">277</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
@@ -170,7 +170,7 @@ title: German NLU
    <td class="de qa">1.43 ± 0.24 / 6.26 ± 1.14</td> <!-- GermanQuAD -->
   </tr>
   <tr>
-   <td class="rank">5=</td> <!-- Rank -->
+   <td class="rank">7=</td> <!-- Rank -->
    <td>facebook/xlm-v-base</td> <!-- Model ID -->
    <td class="num_model_parameters">778</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">902</td> <!-- Size of the model's vocabulary -->
@@ -183,7 +183,7 @@ title: German NLU
    <td class="de qa">20.81 ± 1.19 / 41.69 ± 1.19</td> <!-- GermanQuAD -->
   </tr>
   <tr>
-   <td class="rank">5=</td> <!-- Rank -->
+   <td class="rank">7=</td> <!-- Rank -->
    <td>gpt-3.5-turbo-0613 (few-shot, val)</td> <!-- Model ID -->
    <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">100</td> <!-- Size of the model's vocabulary -->
@@ -196,7 +196,7 @@ title: German NLU
    <td class="de qa">30.20 ± 1.59 / 56.58 ± 1.78</td> <!-- GermanQuAD -->
   </tr>
   <tr>
-   <td class="rank">6=</td> <!-- Rank -->
+   <td class="rank">8=</td> <!-- Rank -->
    <td>jhu-clsp/bernice</td> <!-- Model ID -->
    <td class="num_model_parameters">277</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
@@ -209,7 +209,7 @@ title: German NLU
    <td class="de qa">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- GermanQuAD -->
   </tr>
   <tr>
-   <td class="rank">6=</td> <!-- Rank -->
+   <td class="rank">8=</td> <!-- Rank -->
    <td>Twitter/twhin-bert-large</td> <!-- Model ID -->
    <td class="num_model_parameters">560</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
@@ -222,7 +222,7 @@ title: German NLU
    <td class="de qa">11.93 ± 3.95 / 22.32 ± 7.19</td> <!-- GermanQuAD -->
   </tr>
   <tr>
-   <td class="rank">6=</td> <!-- Rank -->
+   <td class="rank">8=</td> <!-- Rank -->
    <td>clips/mfaq</td> <!-- Model ID -->
    <td class="num_model_parameters">277</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
@@ -235,7 +235,7 @@ title: German NLU
    <td class="de qa">1.53 ± 0.96 / 2.39 ± 1.52</td> <!-- GermanQuAD -->
   </tr>
   <tr>
-   <td class="rank">6=</td> <!-- Rank -->
+   <td class="rank">8=</td> <!-- Rank -->
    <td>microsoft/xlm-align-base</td> <!-- Model ID -->
    <td class="num_model_parameters">277</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
@@ -248,7 +248,7 @@ title: German NLU
    <td class="de qa">16.58 ± 6.50 / 32.33 ± 11.35</td> <!-- GermanQuAD -->
   </tr>
   <tr>
-   <td class="rank">6=</td> <!-- Rank -->
+   <td class="rank">9</td> <!-- Rank -->
    <td>microsoft/infoxlm-base</td> <!-- Model ID -->
    <td class="num_model_parameters">277</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
@@ -261,7 +261,7 @@ title: German NLU
    <td class="de qa">19.63 ± 5.99 / 37.77 ± 9.50</td> <!-- GermanQuAD -->
   </tr>
   <tr>
-   <td class="rank">6=</td> <!-- Rank -->
+   <td class="rank">10=</td> <!-- Rank -->
    <td>sentence-transformers/paraphrase-xlm-r-multilingual-v1</td> <!-- Model ID -->
    <td class="num_model_parameters">277</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
@@ -274,7 +274,7 @@ title: German NLU
    <td class="de qa">0.30 ± 0.24 / 2.03 ± 1.51</td> <!-- GermanQuAD -->
   </tr>
   <tr>
-   <td class="rank">6=</td> <!-- Rank -->
+   <td class="rank">10=</td> <!-- Rank -->
    <td>dbmdz/bert-base-historic-multilingual-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">110</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -287,7 +287,7 @@ title: German NLU
    <td class="de qa">7.75 ± 0.77 / 20.77 ± 1.40</td> <!-- GermanQuAD -->
   </tr>
   <tr>
-   <td class="rank">6=</td> <!-- Rank -->
+   <td class="rank">10=</td> <!-- Rank -->
    <td>sentence-transformers/stsb-xlm-r-multilingual</td> <!-- Model ID -->
    <td class="num_model_parameters">277</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
@@ -300,7 +300,7 @@ title: German NLU
    <td class="de qa">0.73 ± 0.17 / 4.35 ± 1.32</td> <!-- GermanQuAD -->
   </tr>
   <tr>
-   <td class="rank">6=</td> <!-- Rank -->
+   <td class="rank">11=</td> <!-- Rank -->
    <td>mistralai/Mistral-7B-v0.1 (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -313,7 +313,7 @@ title: German NLU
    <td class="de qa">22.94 ± 3.05 / 47.19 ± 4.45</td> <!-- GermanQuAD -->
   </tr>
   <tr>
-   <td class="rank">6=</td> <!-- Rank -->
+   <td class="rank">11=</td> <!-- Rank -->
    <td>sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2</td> <!-- Model ID -->
    <td class="num_model_parameters">118</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
@@ -326,7 +326,7 @@ title: German NLU
    <td class="de qa">0.64 ± 0.22 / 3.98 ± 1.45</td> <!-- GermanQuAD -->
   </tr>
   <tr>
-   <td class="rank">6=</td> <!-- Rank -->
+   <td class="rank">12</td> <!-- Rank -->
    <td>sentence-transformers/distilbert-multilingual-nli-stsb-quora-ranking</td> <!-- Model ID -->
    <td class="num_model_parameters">135</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">120</td> <!-- Size of the model's vocabulary -->
@@ -339,7 +339,7 @@ title: German NLU
    <td class="de qa">0.36 ± 0.20 / 3.58 ± 1.30</td> <!-- GermanQuAD -->
   </tr>
   <tr>
-   <td class="rank">6=</td> <!-- Rank -->
+   <td class="rank">13=</td> <!-- Rank -->
    <td>sentence-transformers/distiluse-base-multilingual-cased-v1</td> <!-- Model ID -->
    <td class="num_model_parameters">135</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">120</td> <!-- Size of the model's vocabulary -->
@@ -352,7 +352,7 @@ title: German NLU
    <td class="de qa">0.58 ± 0.14 / 6.68 ± 1.42</td> <!-- GermanQuAD -->
   </tr>
   <tr>
-   <td class="rank">7=</td> <!-- Rank -->
+   <td class="rank">13=</td> <!-- Rank -->
    <td>sentence-transformers/distiluse-base-multilingual-cased-v2</td> <!-- Model ID -->
    <td class="num_model_parameters">135</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">120</td> <!-- Size of the model's vocabulary -->
@@ -365,7 +365,7 @@ title: German NLU
    <td class="de qa">0.06 ± 0.06 / 0.82 ± 0.70</td> <!-- GermanQuAD -->
   </tr>
   <tr>
-   <td class="rank">7=</td> <!-- Rank -->
+   <td class="rank">14</td> <!-- Rank -->
    <td>3ebdola/Dialectal-Arabic-XLM-R-Base</td> <!-- Model ID -->
    <td class="num_model_parameters">277</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
@@ -378,7 +378,7 @@ title: German NLU
    <td class="de qa">0.46 ± 0.37 / 3.29 ± 2.33</td> <!-- GermanQuAD -->
   </tr>
   <tr>
-   <td class="rank">8</td> <!-- Rank -->
+   <td class="rank">15</td> <!-- Rank -->
    <td>fresh-electra-small</td> <!-- Model ID -->
    <td class="num_model_parameters">13</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">31</td> <!-- Size of the model's vocabulary -->

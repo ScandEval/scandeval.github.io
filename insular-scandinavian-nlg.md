@@ -3,7 +3,7 @@ layout: leaderboard
 title: Insular Scandinavian NLG
 ---
 
-<center>Last updated: 27/01/2024 20:33:23 CET</center>
+<center>Last updated: 29/01/2024 13:26:01 CET</center>
 <center><i>Hover over the headings for more information</i></center>
 
 <div class="table-wrapper centered">
@@ -35,7 +35,7 @@ title: Insular Scandinavian NLG
  </thead>
  <tbody>
   <tr>
-   <td class="rank">1=</td> <!-- Rank -->
+   <td class="rank">1</td> <!-- Rank -->
    <td>gpt-3.5-turbo-0613 (few-shot, val)</td> <!-- Model ID -->
    <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">100</td> <!-- Size of the model's vocabulary -->
@@ -55,7 +55,7 @@ title: Insular Scandinavian NLG
    <td class="is reason">24.78 ± 2.63 / 42.97 ± 1.94</td> <!-- HellaSwag-is -->
   </tr>
   <tr>
-   <td class="rank">1=</td> <!-- Rank -->
+   <td class="rank">2</td> <!-- Rank -->
    <td>mistralai/Mistral-7B-v0.1 (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->

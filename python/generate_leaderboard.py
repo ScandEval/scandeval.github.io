@@ -10,6 +10,7 @@ import re
 import scipy.stats as stats
 import os
 import pandas as pd
+import numpy as np
 
 logging.basicConfig(
     level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s"
@@ -404,7 +405,6 @@ title: {title}
             and score_dict.get("validation_split", False) == validation_split
         }
 
-        # If any scores are -1
         if any(-1 in scores for scores in rank_score_dict.values()):
             raise ValueError(f"Found -1 in {rank_score_dict}")
 
@@ -413,6 +413,12 @@ title: {title}
             for dataset, scores in sorted(rank_score_dict.items(), key=lambda x: x[0])
             if scores
         }
+
+        # Ensure that the scores are on the same scale
+        for dataset, score_list in rank_score_dict.items():
+            if max(score_list) < 1:
+                rank_score_dict[dataset] = [score * 100 for score in score_list]
+
         return rank_score_dict
 
     def score_dicts_statistically_better(
@@ -434,17 +440,29 @@ title: {title}
             for scores in score_dict_2.values()
             for score in scores
         ]
-        p_value = stats.ttest_rel(
-            a=score_values_1,
-            b=score_values_2,
-            alternative="greater",
-        ).pvalue
+        assert len(score_values_1) == len(score_values_2)
 
-        if p_value != p_value:
-            raise ValueError(
-                f"P-value is NaN with score values {score_values_1} and "
-                f"{score_values_2}"
-            )
+        # Separate the scores into groups of 10, consisting of the scores for each
+        # dataset
+        group_scores_1 = [
+            score_values_1[idx:idx+10] for idx in range(0, len(score_values_1), 10)
+        ]
+        group_scores_2 = [
+            score_values_2[idx:idx+10] for idx in range(0, len(score_values_2), 10)
+        ]
+
+        # Compute t-statistics for each group separately, and compute the mean
+        # t-statistic
+        t_statistics = [
+            stats.ttest_ind(a=group_1, b=group_2, alternative="greater").statistic
+            for group_1, group_2 in zip(group_scores_1, group_scores_2)
+        ]
+        mean_t_statistic = np.mean(t_statistics)
+
+        # Compute the p-value for the mean t-statistic, where the null hypothesis is
+        # that the first group does not have a larger mean score than the second group
+        degrees_of_freedom = len(score_values_1) - 1
+        p_value = 1 - stats.t.cdf(abs(mean_t_statistic), degrees_of_freedom)
 
         return p_value < 0.05
 
