@@ -55,6 +55,7 @@ rank,model_id,num_model_parameters,vocabulary_size,max_sequence_length,speed,sco
 25,Maltehb/aelaectra-danish-electra-small-uncased,14.0,32,128,5995,22.49,11.38,33.59,30.5,3.59,0.06,62.07,5.11
 25,ltg/norbert2,125.0,50,512,15523,22.05,11.74,32.37,28.74,3.0,3.47,60.57,4.16
 25,sarnikowski/convbert-medium-small-da-cased,24.0,29,512,13821,21.99,11.86,32.12,28.16,2.05,5.37,59.66,4.58
+25,meta-llama/Llama-2-7b-hf (few-shot),6738.0,32,4096,2648,21.73,17.23,26.23,32.71,0.66,18.31,52.34,0.11
 26,sarnikowski/convbert-small-da-cased,13.0,29,512,14273,21.51,10.8,32.23,25.49,1.63,5.28,58.5,5.96
 27,TurkuNLP/bert-base-finnish-cased-v1,124.0,50,512,16701,19.96,13.4,26.52,34.58,0.55,5.07,51.26,1.77
 27,asafaya/bert-base-arabic,110.0,32,512,16347,17.23,9.26,25.19,22.51,0.23,5.05,50.44,-0.06

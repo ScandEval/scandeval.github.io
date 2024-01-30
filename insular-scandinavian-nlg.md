@@ -3,7 +3,7 @@ layout: leaderboard
 title: Insular Scandinavian NLG
 ---
 
-<center>Last updated: 29/01/2024 13:26:01 CET</center>
+<center>Last updated: 30/01/2024 14:38:19 CET</center>
 <center><i>Hover over the headings for more information</i></center>
 
 <div class="table-wrapper centered">
@@ -73,6 +73,26 @@ title: Insular Scandinavian NLG
    <td class="is know">10.31 ± 1.06 / 32.74 ± 0.64</td> <!-- MMLU-is -->
    <td class="is know">7.36 ± 1.18 / 30.77 ± 0.78</td> <!-- ARC-is -->
    <td class="is reason">6.55 ± 1.30 / 29.83 ± 1.01</td> <!-- HellaSwag-is -->
+  </tr>
+  <tr>
+   <td class="rank">3</td> <!-- Rank -->
+   <td>meta-llama/Llama-2-7b-hf (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">6738</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">2,648 ± 467 / 799 ± 250</td> <!-- Model inference speed -->
+   <td class="score">23.21 ± 2.63</td> <!-- ScandEval score -->
+   <td class="is-score">20.20 ± 1.98</td> <!-- Icelandic score -->
+   <td class="fo-score">26.23 ± 3.28</td> <!-- Faroese score -->
+   <td class="is ner">32.71 ± 2.77 / 32.17 ± 2.13</td> <!-- MIM-GOLD-NER -->
+   <td class="is la">0.66 ± 1.75 / 40.36 ± 4.19</td> <!-- ScaLA-is -->
+   <td class="is qa">18.31 ± 3.62 / 40.78 ± 4.26</td> <!-- NQiI -->
+   <td class="fo ner">52.34 ± 5.11 / 52.53 ± 4.79</td> <!-- FoNE -->
+   <td class="fo la">0.11 ± 1.45 / 33.49 ± 0.47</td> <!-- ScaLA-fo -->
+   <td class="is summ">64.30 ± 1.22 / 19.07 ± 1.13</td> <!-- RRN -->
+   <td class="is know">5.05 ± 1.56 / 28.95 ± 1.00</td> <!-- MMLU-is -->
+   <td class="is know">3.84 ± 1.07 / 25.73 ± 1.14</td> <!-- ARC-is -->
+   <td class="is reason">0.80 ± 1.18 / 25.46 ± 0.72</td> <!-- HellaSwag-is -->
   </tr>
  </tbody>
 </table>

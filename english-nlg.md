@@ -3,7 +3,7 @@ layout: leaderboard
 title: English NLG
 ---
 
-<center>Last updated: 29/01/2024 13:26:05 CET</center>
+<center>Last updated: 30/01/2024 14:38:23 CET</center>
 <center><i>Hover over the headings for more information</i></center>
 
 <div class="table-wrapper centered">
@@ -63,6 +63,23 @@ title: English NLG
    <td class="en know">47.74 ± 1.26 / 60.63 ± 0.97</td> <!-- MMLU -->
    <td class="en know">73.33 ± 1.03 / 79.99 ± 0.76</td> <!-- ARC -->
    <td class="en reason">34.96 ± 4.19 / 49.62 ± 3.28</td> <!-- HellaSwag -->
+  </tr>
+  <tr>
+   <td class="rank">3</td> <!-- Rank -->
+   <td>meta-llama/Llama-2-7b-hf (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">6738</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">2,648 ± 467 / 799 ± 250</td> <!-- Model inference speed -->
+   <td class="score">42.77 ± 2.03</td> <!-- ScandEval score -->
+   <td class="en ner">55.27 ± 2.79 / 50.25 ± 2.12</td> <!-- CoNLL-en -->
+   <td class="en sent">65.16 ± 1.21 / 66.86 ± 1.32</td> <!-- SST5 -->
+   <td class="en la">20.43 ± 3.69 / 55.98 ± 4.88</td> <!-- ScaLA-en -->
+   <td class="en qa">44.64 ± 3.00 / 53.75 ± 3.18</td> <!-- SQuAD -->
+   <td class="en summ">68.99 ± 0.60 / 24.81 ± 0.67</td> <!-- CNN-DailyMail -->
+   <td class="en know">25.98 ± 0.90 / 42.52 ± 0.62</td> <!-- MMLU -->
+   <td class="en know">40.30 ± 1.30 / 54.64 ± 1.09</td> <!-- ARC -->
+   <td class="en reason">11.77 ± 1.81 / 31.25 ± 1.99</td> <!-- HellaSwag -->
   </tr>
  </tbody>
 </table>

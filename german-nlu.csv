@@ -25,6 +25,7 @@ rank,model_id,num_model_parameters,vocabulary_size,max_sequence_length,speed,sco
 11,sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,118.0,250,512,17428,38.52,38.52,65.62,55.6,32.22,0.64
 12,sentence-transformers/distilbert-multilingual-nli-stsb-quora-ranking,135.0,120,512,26151,33.58,33.58,66.75,49.61,17.6,0.36
 13,sentence-transformers/distiluse-base-multilingual-cased-v1,135.0,120,512,26344,32.01,32.01,53.77,53.53,20.15,0.58
+13,meta-llama/Llama-2-7b-hf (few-shot),6738.0,32,4096,2648,31.55,31.55,41.88,50.17,15.82,18.35
 13,sentence-transformers/distiluse-base-multilingual-cased-v2,135.0,120,512,17807,30.72,30.72,53.13,51.94,17.74,0.06
 14,3ebdola/Dialectal-Arabic-XLM-R-Base,277.0,250,512,15177,17.68,17.68,34.18,34.81,1.25,0.46
 15,fresh-electra-small,13.0,31,512,7219,4.75,4.75,9.42,9.76,-0.18,0.0

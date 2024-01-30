@@ -25,6 +25,7 @@ rank,model_id,num_model_parameters,vocabulary_size,max_sequence_length,speed,sco
 9,Twitter/twhin-bert-base,278.0,250,512,11514,32.6,32.6,74.03,9.53,39.12,7.71
 10,sentence-transformers/quora-distilbert-multilingual,135.0,120,512,26458,29.25,29.25,67.89,23.25,21.36,4.5
 11,EuropeanParliament/EUBERT,93.0,66,512,20070,28.24,28.24,49.54,14.86,27.9,20.65
+11,meta-llama/Llama-2-7b-hf (few-shot),6738.0,32,4096,2648,25.94,25.94,40.49,7.1,18.66,37.51
 12,sentence-transformers/distiluse-base-multilingual-cased,135.0,120,512,19206,22.28,22.28,56.98,9.66,19.37,3.11
 12,sentence-transformers/distiluse-base-multilingual-cased-v1,135.0,120,512,26344,21.98,21.98,58.67,17.82,9.27,2.17
 13,jpostma/DagoBERT,116.0,40,512,11241,21.29,21.29,42.28,8.01,31.21,3.65

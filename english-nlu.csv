@@ -17,3 +17,4 @@ rank,model_id,num_model_parameters,vocabulary_size,max_sequence_length,speed,sco
 12,mlabonne/NeuralBeagle14-7B (few-shot),7242.0,32,32768,3065,54.64,54.64,69.47,67.17,35.5,46.42
 13,distilbert-base-cased,65.0,29,512,19667,53.52,53.52,84.75,50.94,53.47,24.93
 13,distilbert-base-multilingual-cased,135.0,120,512,26355,48.49,48.49,87.7,36.48,40.79,29.0
+14,meta-llama/Llama-2-7b-hf (few-shot),6738.0,32,4096,2648,46.38,46.38,55.27,65.16,20.43,44.64
