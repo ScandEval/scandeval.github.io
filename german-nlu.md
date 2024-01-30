@@ -3,7 +3,7 @@ layout: leaderboard
 title: German NLU
 ---
 
-<center>Last updated: 29/01/2024 13:26:02 CET</center>
+<center>Last updated: 30/01/2024 09:22:19 CET</center>
 <center><i>Hover over the headings for more information</i></center>
 
 <div class="table-wrapper centered">
@@ -285,6 +285,19 @@ title: German NLU
    <td class="de sent">41.36 ± 2.28 / 60.16 ± 2.09</td> <!-- SB10k -->
    <td class="de la">48.21 ± 2.81 / 71.63 ± 1.82</td> <!-- ScaLA-de -->
    <td class="de qa">7.75 ± 0.77 / 20.77 ± 1.40</td> <!-- GermanQuAD -->
+  </tr>
+  <tr>
+   <td class="rank">10=</td> <!-- Rank -->
+   <td>mlabonne/NeuralBeagle14-7B (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">3,065 ± 472 / 1,055 ± 321</td> <!-- Model inference speed -->
+   <td class="score">40.99 ± 1.66</td> <!-- ScandEval score -->
+   <td class="de ner">62.22 ± 1.13 / 51.16 ± 2.01</td> <!-- GermEval -->
+   <td class="de sent">54.44 ± 1.35 / 68.95 ± 1.08</td> <!-- SB10k -->
+   <td class="de la">27.88 ± 1.38 / 63.49 ± 0.77</td> <!-- ScaLA-de -->
+   <td class="de qa">19.43 ± 2.78 / 57.12 ± 2.32</td> <!-- GermanQuAD -->
   </tr>
   <tr>
    <td class="rank">10=</td> <!-- Rank -->

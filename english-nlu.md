@@ -3,7 +3,7 @@ layout: leaderboard
 title: English NLU
 ---
 
-<center>Last updated: 29/01/2024 13:26:04 CET</center>
+<center>Last updated: 30/01/2024 09:22:21 CET</center>
 <center><i>Hover over the headings for more information</i></center>
 
 <div class="table-wrapper centered">
@@ -209,7 +209,7 @@ title: English NLU
    <td class="en qa">55.19 ± 1.66 / 66.42 ± 1.46</td> <!-- SQuAD -->
   </tr>
   <tr>
-   <td class="rank">12</td> <!-- Rank -->
+   <td class="rank">12=</td> <!-- Rank -->
    <td>mistralai/Mistral-7B-v0.1 (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -220,6 +220,19 @@ title: English NLU
    <td class="en sent">68.17 ± 1.33 / 70.74 ± 0.93</td> <!-- SST5 -->
    <td class="en la">30.92 ± 4.81 / 63.79 ± 4.42</td> <!-- ScaLA-en -->
    <td class="en qa">58.79 ± 1.97 / 69.65 ± 2.00</td> <!-- SQuAD -->
+  </tr>
+  <tr>
+   <td class="rank">12=</td> <!-- Rank -->
+   <td>mlabonne/NeuralBeagle14-7B (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">3,065 ± 472 / 1,055 ± 321</td> <!-- Model inference speed -->
+   <td class="score">54.64 ± 2.31</td> <!-- ScandEval score -->
+   <td class="en ner">69.47 ± 1.17 / 60.75 ± 1.72</td> <!-- CoNLL-en -->
+   <td class="en sent">67.17 ± 1.42 / 72.56 ± 0.60</td> <!-- SST5 -->
+   <td class="en la">35.50 ± 3.23 / 66.71 ± 1.90</td> <!-- ScaLA-en -->
+   <td class="en qa">46.42 ± 3.41 / 73.71 ± 1.24</td> <!-- SQuAD -->
   </tr>
   <tr>
    <td class="rank">13=</td> <!-- Rank -->

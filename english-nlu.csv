@@ -14,5 +14,6 @@ rank,model_id,num_model_parameters,vocabulary_size,max_sequence_length,speed,sco
 10,xlm-roberta-large,559.0,250,512,6663,59.05,59.05,89.81,41.97,35.55,68.88
 11,bert-base-multilingual-cased,177.0,120,512,14083,56.18,56.18,89.32,41.89,38.34,55.19
 12,mistralai/Mistral-7B-v0.1 (few-shot),7242.0,32,32768,2657,55.32,55.32,63.4,68.17,30.92,58.79
+12,mlabonne/NeuralBeagle14-7B (few-shot),7242.0,32,32768,3065,54.64,54.64,69.47,67.17,35.5,46.42
 13,distilbert-base-cased,65.0,29,512,19667,53.52,53.52,84.75,50.94,53.47,24.93
 13,distilbert-base-multilingual-cased,135.0,120,512,26355,48.49,48.49,87.7,36.48,40.79,29.0
