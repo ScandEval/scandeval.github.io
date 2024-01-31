@@ -3,7 +3,7 @@ layout: leaderboard
 title: Mainland Scandinavian NLG
 ---
 
-<center>Last updated: 31/01/2024 14:36:50 CET</center>
+<center>Last updated: 31/01/2024 15:02:13 CET</center>
 <center><i>Hover over the headings for more information</i></center>
 
 <div class="table-wrapper centered">
@@ -129,7 +129,45 @@ title: Mainland Scandinavian NLG
    <td class="sv reason">39.48 ± 2.52 / 54.20 ± 2.14</td> <!-- HellaSwag-sv -->
   </tr>
   <tr>
-   <td class="rank">3=</td> <!-- Rank -->
+   <td class="rank">3</td> <!-- Rank -->
+   <td>birgermoell/NeuralBeagle-Flashback-dare-ties (few-shot, val)</td> <!-- Model ID -->
+   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">2,910 ± 413 / 1,148 ± 347</td> <!-- Model inference speed -->
+   <td class="score">44.72 ± 3.27</td> <!-- ScandEval score -->
+   <td class="da-score">44.67 ± 3.27</td> <!-- Danish score -->
+   <td class="no-score">42.52 ± 3.15</td> <!-- Norwegian score -->
+   <td class="sv-score">46.97 ± 3.40</td> <!-- Swedish score -->
+   <td class="da ner">46.44 ± 3.21 / 34.44 ± 2.79</td> <!-- DANSK -->
+   <td class="da sent">45.16 ± 3.24 / 54.44 ± 4.21</td> <!-- Angry Tweets -->
+   <td class="da la">19.43 ± 7.34 / 49.91 ± 6.48</td> <!-- ScaLA-da -->
+   <td class="da qa">58.11 ± 1.95 / 63.66 ± 1.64</td> <!-- ScandiQA-da -->
+   <td class="da summ">66.16 ± 0.74 / 18.53 ± 0.93</td> <!-- Nordjylland-News -->
+   <td class="da know">36.00 ± 2.22 / 51.48 ± 1.71</td> <!-- MMLU-da -->
+   <td class="da know">56.25 ± 3.82 / 67.19 ± 2.87</td> <!-- ARC-da -->
+   <td class="da reason">31.30 ± 3.38 / 47.89 ± 2.62</td> <!-- HellaSwag-da -->
+   <td class="no ner">52.25 ± 3.21 / 46.46 ± 3.91</td> <!-- NorNE-nb -->
+   <td class="no ner">63.39 ± 3.82 / 50.92 ± 3.97</td> <!-- NorNE-nn -->
+   <td class="no sent">58.77 ± 3.95 / 71.71 ± 3.35</td> <!-- NoReC -->
+   <td class="no summ">65.31 ± 0.48 / 18.19 ± 0.58</td> <!-- No Sammendrag -->
+   <td class="no la">-2.15 ± 7.59 / 36.87 ± 1.67</td> <!-- ScaLA-nb -->
+   <td class="no la">-0.04 ± 3.26 / 35.46 ± 1.38</td> <!-- ScaLA-nn -->
+   <td class="no qa">42.89 ± 2.80 / 68.70 ± 2.22</td> <!-- NorQuAD -->
+   <td class="no know">27.85 ± 2.14 / 45.90 ± 1.57</td> <!-- MMLU-no -->
+   <td class="no know">51.55 ± 3.87 / 63.75 ± 2.78</td> <!-- ARC-no -->
+   <td class="no reason">34.26 ± 2.90 / 49.92 ± 2.55</td> <!-- HellaSwag-no -->
+   <td class="sv ner">54.02 ± 4.44 / 38.95 ± 5.80</td> <!-- SUC3 -->
+   <td class="sv sent">39.03 ± 5.07 / 55.76 ± 2.47</td> <!-- SweReC -->
+   <td class="sv la">21.18 ± 5.71 / 48.56 ± 5.00</td> <!-- ScaLA-sv -->
+   <td class="sv qa">60.61 ± 1.46 / 65.64 ± 1.38</td> <!-- ScandiQA-sv -->
+   <td class="sv summ">67.68 ± 0.55 / 24.01 ± 1.02</td> <!-- SweDN -->
+   <td class="sv know">31.58 ± 3.86 / 48.79 ± 2.87</td> <!-- MMLU-sv -->
+   <td class="sv know">60.34 ± 2.53 / 70.27 ± 1.85</td> <!-- ARC-sv -->
+   <td class="sv reason">40.32 ± 3.39 / 54.96 ± 2.45</td> <!-- HellaSwag-sv -->
+  </tr>
+  <tr>
+   <td class="rank">4=</td> <!-- Rank -->
    <td>timpal0l/Mistral-7B-v0.1-flashback-v2 (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -167,7 +205,7 @@ title: Mainland Scandinavian NLG
    <td class="sv reason">25.20 ± 2.35 / 43.09 ± 2.17</td> <!-- HellaSwag-sv -->
   </tr>
   <tr>
-   <td class="rank">3=</td> <!-- Rank -->
+   <td class="rank">4=</td> <!-- Rank -->
    <td>mistralai/Mistral-7B-v0.1 (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -205,7 +243,7 @@ title: Mainland Scandinavian NLG
    <td class="sv reason">19.67 ± 2.31 / 38.98 ± 1.98</td> <!-- HellaSwag-sv -->
   </tr>
   <tr>
-   <td class="rank">4=</td> <!-- Rank -->
+   <td class="rank">5=</td> <!-- Rank -->
    <td>neph1/bellman-7b-mistral-instruct-v0.2 (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -243,7 +281,7 @@ title: Mainland Scandinavian NLG
    <td class="sv reason">12.52 ± 1.41 / 33.90 ± 1.11</td> <!-- HellaSwag-sv -->
   </tr>
   <tr>
-   <td class="rank">4=</td> <!-- Rank -->
+   <td class="rank">5=</td> <!-- Rank -->
    <td>danish-foundation-models/munin-7b-alpha (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -281,7 +319,7 @@ title: Mainland Scandinavian NLG
    <td class="sv reason">18.79 ± 2.75 / 38.32 ± 2.26</td> <!-- HellaSwag-sv -->
   </tr>
   <tr>
-   <td class="rank">5</td> <!-- Rank -->
+   <td class="rank">6</td> <!-- Rank -->
    <td>meta-llama/Llama-2-7b-hf (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">6738</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -319,7 +357,7 @@ title: Mainland Scandinavian NLG
    <td class="sv reason">8.74 ± 1.34 / 29.87 ± 1.40</td> <!-- HellaSwag-sv -->
   </tr>
   <tr>
-   <td class="rank">6=</td> <!-- Rank -->
+   <td class="rank">7=</td> <!-- Rank -->
    <td>AI-Sweden-Models/gpt-sw3-6.7b-v2 (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7111</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
@@ -357,7 +395,7 @@ title: Mainland Scandinavian NLG
    <td class="sv reason">5.39 ± 0.81 / 28.86 ± 0.60</td> <!-- HellaSwag-sv -->
   </tr>
   <tr>
-   <td class="rank">6=</td> <!-- Rank -->
+   <td class="rank">7=</td> <!-- Rank -->
    <td>AI-Sweden-Models/gpt-sw3-6.7b-v2-instruct (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7111</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
@@ -395,7 +433,7 @@ title: Mainland Scandinavian NLG
    <td class="sv reason">10.90 ± 0.86 / 32.01 ± 0.54</td> <!-- HellaSwag-sv -->
   </tr>
   <tr>
-   <td class="rank">7</td> <!-- Rank -->
+   <td class="rank">8</td> <!-- Rank -->
    <td>mhenrichsen/danskgpt-tiny-chat (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">1100</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -433,7 +471,7 @@ title: Mainland Scandinavian NLG
    <td class="sv reason">0.52 ± 0.83 / 25.53 ± 0.62</td> <!-- HellaSwag-sv -->
   </tr>
   <tr>
-   <td class="rank">8</td> <!-- Rank -->
+   <td class="rank">9</td> <!-- Rank -->
    <td>mhenrichsen/danskgpt-tiny (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">1100</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -471,7 +509,7 @@ title: Mainland Scandinavian NLG
    <td class="sv reason">-1.24 ± 0.90 / 24.30 ± 0.63</td> <!-- HellaSwag-sv -->
   </tr>
   <tr>
-   <td class="rank">9</td> <!-- Rank -->
+   <td class="rank">10</td> <!-- Rank -->
    <td>AI-Sweden-Models/gpt-sw3-126m (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">186</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
