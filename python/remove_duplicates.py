@@ -11,6 +11,11 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 
+BANNED_VERSIONS: list[str] = [
+    "9.3.0",
+]
+
+
 @click.command()
 @click.argument('filename')
 def main(filename: str) -> None:
@@ -24,6 +29,13 @@ def main(filename: str) -> None:
         records = [json.loads(line) for line in f if line.strip()]
     num_raw_records = len(records)
 
+    records = [
+        record for record in records if record.get("version") not in BANNED_VERSIONS
+    ]
+    num_banned_records = num_raw_records - len(records)
+    if num_banned_records > 0:
+        logger.info(f"Removed {num_banned_records:,} banned records from {filename}.")
+
     all_hash_values = [get_hash(dct) for dct in records]
     unique_hash_values = sorted(set(all_hash_values))
 
@@ -33,6 +45,7 @@ def main(filename: str) -> None:
             record
             for record, hash_value in zip(records, all_hash_values)
             if hash_value == unique_hash_value
+            and record.get("version") not in BANNED_VERSIONS
         ]
         versions = [
             match.get("scandeval_version", "0.0.0").split(".") for match in matches
@@ -46,7 +59,7 @@ def main(filename: str) -> None:
             f.write(json.dumps(record) + "\n")
 
     num_new_records = len(new_records)
-    num_duplicates = num_raw_records - num_new_records
+    num_duplicates = num_raw_records - num_new_records - num_banned_records
     logger.info(f"Removed {num_duplicates:,} duplicates from {filename}.")
 
 
