@@ -26,7 +26,12 @@ def main(filename: str) -> None:
             The path to the JSONL file.
     """
     with Path(filename).open(mode="r") as f:
-        records = [json.loads(line) for line in f if line.strip()]
+        records = [
+            json.loads(record)
+            for line in f
+            for record in line.replace("}{", "}\n{").split("\n")
+            if line.strip() and record.strip()
+        ]
     num_raw_records = len(records)
 
     records = [
