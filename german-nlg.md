@@ -3,7 +3,7 @@ layout: leaderboard
 title: German NLG
 ---
 
-<center>Last updated: 30/01/2024 14:38:20 CET</center>
+<center>Last updated: 02/02/2024 07:43:07 CET</center>
 <center><i>Hover over the headings for more information</i></center>
 
 <div class="table-wrapper centered">
@@ -49,6 +49,23 @@ title: German NLG
   </tr>
   <tr>
    <td class="rank">2</td> <!-- Rank -->
+   <td>mlabonne/NeuralBeagle14-7B (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">3,065 ± 472 / 1,055 ± 321</td> <!-- Model inference speed -->
+   <td class="score">47.61 ± 1.42</td> <!-- ScandEval score -->
+   <td class="de ner">62.22 ± 1.13 / 51.16 ± 2.01</td> <!-- GermEval -->
+   <td class="de sent">54.44 ± 1.35 / 68.95 ± 1.08</td> <!-- SB10k -->
+   <td class="de la">27.88 ± 1.38 / 63.49 ± 0.77</td> <!-- ScaLA-de -->
+   <td class="de qa">19.43 ± 2.78 / 57.12 ± 2.32</td> <!-- GermanQuAD -->
+   <td class="de summ">68.18 ± 0.98 / 26.38 ± 2.97</td> <!-- MLSum -->
+   <td class="de know">34.58 ± 0.67 / 50.63 ± 0.54</td> <!-- MMLU-de -->
+   <td class="de know">63.00 ± 1.09 / 72.26 ± 0.82</td> <!-- ARC-de -->
+   <td class="de reason">52.33 ± 1.44 / 63.96 ± 1.15</td> <!-- HellaSwag-de -->
+  </tr>
+  <tr>
+   <td class="rank">3</td> <!-- Rank -->
    <td>mistralai/Mistral-7B-v0.1 (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -65,7 +82,7 @@ title: German NLG
    <td class="de reason">26.40 ± 1.86 / 43.98 ± 1.58</td> <!-- HellaSwag-de -->
   </tr>
   <tr>
-   <td class="rank">3</td> <!-- Rank -->
+   <td class="rank">4</td> <!-- Rank -->
    <td>meta-llama/Llama-2-7b-hf (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">6738</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->

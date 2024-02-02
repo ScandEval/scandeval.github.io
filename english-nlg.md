@@ -3,7 +3,7 @@ layout: leaderboard
 title: English NLG
 ---
 
-<center>Last updated: 30/01/2024 14:38:23 CET</center>
+<center>Last updated: 02/02/2024 07:43:09 CET</center>
 <center><i>Hover over the headings for more information</i></center>
 
 <div class="table-wrapper centered">
@@ -31,7 +31,7 @@ title: English NLG
  </thead>
  <tbody>
   <tr>
-   <td class="rank">1</td> <!-- Rank -->
+   <td class="rank">1=</td> <!-- Rank -->
    <td>gpt-3.5-turbo-0613 (few-shot, val)</td> <!-- Model ID -->
    <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">100</td> <!-- Size of the model's vocabulary -->
@@ -46,6 +46,23 @@ title: English NLG
    <td class="en know">43.69 ± 3.59 / 57.38 ± 3.06</td> <!-- MMLU -->
    <td class="en know">70.03 ± 2.09 / 77.38 ± 1.61</td> <!-- ARC -->
    <td class="en reason">75.60 ± 3.04 / 81.48 ± 2.31</td> <!-- HellaSwag -->
+  </tr>
+  <tr>
+   <td class="rank">1=</td> <!-- Rank -->
+   <td>mlabonne/NeuralBeagle14-7B (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">3,065 ± 472 / 1,055 ± 321</td> <!-- Model inference speed -->
+   <td class="score">60.58 ± 1.89</td> <!-- ScandEval score -->
+   <td class="en ner">69.47 ± 1.17 / 60.75 ± 1.72</td> <!-- CoNLL-en -->
+   <td class="en sent">67.17 ± 1.42 / 72.56 ± 0.60</td> <!-- SST5 -->
+   <td class="en la">35.50 ± 3.23 / 66.71 ± 1.90</td> <!-- ScaLA-en -->
+   <td class="en qa">46.42 ± 3.41 / 73.71 ± 1.24</td> <!-- SQuAD -->
+   <td class="en summ">70.19 ± 0.66 / 26.11 ± 0.80</td> <!-- CNN-DailyMail -->
+   <td class="en know">48.84 ± 1.28 / 61.33 ± 0.97</td> <!-- MMLU -->
+   <td class="en know">76.25 ± 0.93 / 82.21 ± 0.69</td> <!-- ARC -->
+   <td class="en reason">72.79 ± 2.23 / 79.47 ± 1.68</td> <!-- HellaSwag -->
   </tr>
   <tr>
    <td class="rank">2</td> <!-- Rank -->

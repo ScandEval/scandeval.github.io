@@ -1,4 +1,5 @@
 rank,model_id,num_model_parameters,vocabulary_size,max_sequence_length,speed,score,de_score,germeval,sb10k,scala_de,germanquad,mlsum,mmlu_de,arc_de,hellaswag_de
 1,"gpt-3.5-turbo-0613 (few-shot, val)",unknown,100,4095,1344,51.56,51.56,61.5,55.5,38.96,30.2,64.9,35.39,70.58,56.88
-2,mistralai/Mistral-7B-v0.1 (few-shot),7242.0,32,32768,2657,42.69,42.69,55.37,54.27,23.12,22.94,68.72,35.63,60.46,26.4
-3,meta-llama/Llama-2-7b-hf (few-shot),6738.0,32,4096,2648,32.23,32.23,41.88,50.17,15.82,18.35,68.99,18.43,25.68,8.37
+2,mlabonne/NeuralBeagle14-7B (few-shot),7242.0,32,8192,3065,47.61,47.61,62.22,54.44,27.88,19.43,68.18,34.58,63.0,52.33
+3,mistralai/Mistral-7B-v0.1 (few-shot),7242.0,32,32768,2657,42.69,42.69,55.37,54.27,23.12,22.94,68.72,35.63,60.46,26.4
+4,meta-llama/Llama-2-7b-hf (few-shot),6738.0,32,4096,2648,32.23,32.23,41.88,50.17,15.82,18.35,68.99,18.43,25.68,8.37

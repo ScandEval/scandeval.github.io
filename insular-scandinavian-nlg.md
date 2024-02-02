@@ -3,7 +3,7 @@ layout: leaderboard
 title: Insular Scandinavian NLG
 ---
 
-<center>Last updated: 30/01/2024 14:38:19 CET</center>
+<center>Last updated: 02/02/2024 07:43:06 CET</center>
 <center><i>Hover over the headings for more information</i></center>
 
 <div class="table-wrapper centered">
@@ -55,7 +55,27 @@ title: Insular Scandinavian NLG
    <td class="is reason">24.78 ± 2.63 / 42.97 ± 1.94</td> <!-- HellaSwag-is -->
   </tr>
   <tr>
-   <td class="rank">2</td> <!-- Rank -->
+   <td class="rank">2=</td> <!-- Rank -->
+   <td>mlabonne/NeuralBeagle14-7B (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">3,065 ± 472 / 1,055 ± 321</td> <!-- Model inference speed -->
+   <td class="score">30.46 ± 1.82</td> <!-- ScandEval score -->
+   <td class="is-score">26.68 ± 1.51</td> <!-- Icelandic score -->
+   <td class="fo-score">34.23 ± 2.12</td> <!-- Faroese score -->
+   <td class="is ner">50.02 ± 1.71 / 41.97 ± 3.98</td> <!-- MIM-GOLD-NER -->
+   <td class="is la">4.18 ± 1.24 / 50.43 ± 1.44</td> <!-- ScaLA-is -->
+   <td class="is qa">22.23 ± 3.29 / 53.90 ± 3.08</td> <!-- NQiI -->
+   <td class="fo ner">64.44 ± 2.40 / 60.87 ± 2.59</td> <!-- FoNE -->
+   <td class="fo la">4.03 ± 1.85 / 48.93 ± 3.63</td> <!-- ScaLA-fo -->
+   <td class="is summ">65.66 ± 0.53 / 19.57 ± 0.74</td> <!-- RRN -->
+   <td class="is know">9.65 ± 1.00 / 32.00 ± 0.89</td> <!-- MMLU-is -->
+   <td class="is know">7.39 ± 1.65 / 30.33 ± 1.19</td> <!-- ARC-is -->
+   <td class="is reason">9.45 ± 0.95 / 31.81 ± 0.74</td> <!-- HellaSwag-is -->
+  </tr>
+  <tr>
+   <td class="rank">2=</td> <!-- Rank -->
    <td>mistralai/Mistral-7B-v0.1 (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
