@@ -25,13 +25,19 @@ def main(filename: str) -> None:
         filename:
             The path to the JSONL file.
     """
+    records = list()
     with Path(filename).open(mode="r") as f:
-        records = [
-            json.loads(record)
-            for line in f
-            for record in line.replace("}{", "}\n{").split("\n")
-            if line.strip() and record.strip()
-        ]
+        for line_idx, line in enumerate(f):
+            if not line.strip():
+                continue
+            for record in line.replace("}{", "}\n{").split("\n"):
+                if not record.strip():
+                    continue
+                try:
+                    records.append(json.loads(record))
+                except json.JSONDecodeError:
+                    logger.error(f"Invalid JSON on line {line_idx:,}: {record}.")
+                    return
     num_raw_records = len(records)
 
     records = [
