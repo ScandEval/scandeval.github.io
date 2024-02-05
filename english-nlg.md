@@ -3,7 +3,7 @@ layout: leaderboard
 title: English NLG
 ---
 
-<center>Last updated: 05/02/2024 20:28:50 CET</center>
+<center>Last updated: 05/02/2024 20:30:56 CET</center>
 
 <div class="table-wrapper centered">
 
@@ -137,6 +137,23 @@ title: English NLG
   </tr>
   <tr class="not-merged-model">
    <td class="rank">7</td> <!-- Rank -->
+   <td>AI-Sweden-Models/gpt-sw3-20b (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">20918</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">4,880 ± 1,052 / 1,181 ± 380</td> <!-- Model inference speed -->
+   <td class="score">34.46 ± 2.89</td> <!-- ScandEval score -->
+   <td class="en ner">45.86 ± 3.18 / 40.23 ± 2.41</td> <!-- CoNLL-en -->
+   <td class="en sent">62.08 ± 3.29 / 55.11 ± 1.68</td> <!-- SST5 -->
+   <td class="en la">6.62 ± 2.43 / 48.79 ± 3.77</td> <!-- ScaLA-en -->
+   <td class="en qa">65.29 ± 1.81 / 77.71 ± 0.98</td> <!-- SQuAD -->
+   <td class="en summ">43.45 ± 7.12 / 15.14 ± 2.47</td> <!-- CNN-DailyMail -->
+   <td class="en know">9.10 ± 1.33 / 30.31 ± 0.94</td> <!-- MMLU -->
+   <td class="en know">10.00 ± 1.90 / 32.36 ± 1.15</td> <!-- ARC -->
+   <td class="en reason">8.35 ± 0.79 / 29.79 ± 0.76</td> <!-- HellaSwag -->
+  </tr>
+  <tr class="not-merged-model">
+   <td class="rank">8</td> <!-- Rank -->
    <td>RuterNorway/Llama-2-7b-chat-norwegian (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -153,7 +170,7 @@ title: English NLG
    <td class="en reason">0.62 ± 0.99 / 24.68 ± 0.55</td> <!-- HellaSwag -->
   </tr>
   <tr class="not-merged-model">
-   <td class="rank">8</td> <!-- Rank -->
+   <td class="rank">9</td> <!-- Rank -->
    <td>ai-forever/mGPT (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">100</td> <!-- Size of the model's vocabulary -->

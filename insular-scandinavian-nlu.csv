@@ -53,6 +53,7 @@ rank,model_id,num_model_parameters,vocabulary_size,max_sequence_length,speed,sco
 24,danish-foundation-models/encoder-small-v1,22.0,96,128,6002,25.1,9.75,40.45,28.99,-0.17,0.42,79.97,0.93
 24,meta-llama/Llama-2-7b-chat-hf (few-shot),6738.0,32,4096,2643,24.17,18.72,29.62,41.1,-1.07,16.12,59.77,-0.54
 24,mistralai/Mistral-7B-Instruct-v0.1 (few-shot),7242.0,32,32768,5443,23.07,17.87,28.27,36.04,-0.36,17.92,55.42,1.11
+24,AI-Sweden-Models/gpt-sw3-20b (few-shot),20918.0,64,2048,4880,22.66,20.09,25.23,27.54,4.61,28.12,46.5,3.95
 25,Maltehb/aelaectra-danish-electra-small-uncased,14.0,32,128,5995,22.49,11.38,33.59,30.5,3.59,0.06,62.07,5.11
 25,ltg/norbert2,125.0,50,512,15523,22.05,11.74,32.37,28.74,3.0,3.47,60.57,4.16
 25,sarnikowski/convbert-medium-small-da-cased,24.0,29,512,13821,21.99,11.86,32.12,28.16,2.05,5.37,59.66,4.58

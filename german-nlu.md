@@ -3,7 +3,7 @@ layout: leaderboard
 title: German NLU
 ---
 
-<center>Last updated: 05/02/2024 20:28:46 CET</center>
+<center>Last updated: 05/02/2024 20:30:52 CET</center>
 
 <div class="table-wrapper centered">
 
@@ -421,6 +421,19 @@ title: German NLU
   </tr>
   <tr class="not-merged-model">
    <td class="rank">16</td> <!-- Rank -->
+   <td>AI-Sweden-Models/gpt-sw3-20b (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">20918</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">4,880 ± 1,052 / 1,181 ± 380</td> <!-- Model inference speed -->
+   <td class="score">22.52 ± 3.75</td> <!-- ScandEval score -->
+   <td class="de ner">35.78 ± 2.37 / 26.98 ± 1.75</td> <!-- GermEval -->
+   <td class="de sent">34.13 ± 7.00 / 46.96 ± 8.23</td> <!-- SB10k -->
+   <td class="de la">2.18 ± 1.60 / 38.27 ± 3.59</td> <!-- ScaLA-de -->
+   <td class="de qa">17.99 ± 4.02 / 38.26 ± 5.37</td> <!-- GermanQuAD -->
+  </tr>
+  <tr class="not-merged-model">
+   <td class="rank">17</td> <!-- Rank -->
    <td>RuterNorway/Llama-2-7b-chat-norwegian (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -433,7 +446,7 @@ title: German NLU
    <td class="de qa">20.40 ± 3.28 / 45.47 ± 3.32</td> <!-- GermanQuAD -->
   </tr>
   <tr class="not-merged-model">
-   <td class="rank">17</td> <!-- Rank -->
+   <td class="rank">18</td> <!-- Rank -->
    <td>3ebdola/Dialectal-Arabic-XLM-R-Base</td> <!-- Model ID -->
    <td class="num_model_parameters">277</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
@@ -446,7 +459,7 @@ title: German NLU
    <td class="de qa">0.46 ± 0.37 / 3.29 ± 2.33</td> <!-- GermanQuAD -->
   </tr>
   <tr class="not-merged-model">
-   <td class="rank">18=</td> <!-- Rank -->
+   <td class="rank">19=</td> <!-- Rank -->
    <td>fresh-electra-small</td> <!-- Model ID -->
    <td class="num_model_parameters">13</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">31</td> <!-- Size of the model's vocabulary -->
@@ -459,7 +472,7 @@ title: German NLU
    <td class="de qa">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- GermanQuAD -->
   </tr>
   <tr class="not-merged-model">
-   <td class="rank">18=</td> <!-- Rank -->
+   <td class="rank">19=</td> <!-- Rank -->
    <td>ai-forever/mGPT (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">100</td> <!-- Size of the model's vocabulary -->
