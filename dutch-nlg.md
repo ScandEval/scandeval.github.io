@@ -5,22 +5,23 @@ title: Dutch NLG
 
 <center>Last updated: 05/02/2024 16:42:41 CET</center>
 
+<div class="table-wrapper small-font">
+  <input type="checkbox" id="merged-models-checkbox">
+  <label for="merged-models-checkbox">Include merged models</label>
+  <script>
+  var input = document.querySelector('#merged-models-checkbox')
+  var filterMergedModels = function() {
+      var mergedModels = document.getElementsByClassName('merged-model');
+      for (var i = 0; i < mergedModels.length; i++) {
+          mergedModels[i].style.display = input.checked ? 'table-row' : 'none';
+      }
+  }
+  input.addEventListener('change', filterMergedModels)
+  filterMergedModels()
+  </script>
+</div>
+
 <div class="table-wrapper centered">
-
-<input type="checkbox" id="merged-models-checkbox">
-<label for="merged-models-checkbox">Include merged models</label>
-<script>
-var input = document.querySelector('#merged-models-checkbox')
-var filterMergedModels = function() {
-    var mergedModels = document.getElementsByClassName('merged-model');
-    for (var i = 0; i < mergedModels.length; i++) {
-        mergedModels[i].style.display = input.checked ? 'table-row' : 'none';
-    }
-}
-input.addEventListener('change', filterMergedModels)
-filterMergedModels()
-</script>
-
 <table id="dutch-nlg" class="sortable fixed centered small-font">
  <thead>
   <tr>
