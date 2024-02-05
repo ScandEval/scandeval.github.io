@@ -21,6 +21,7 @@ if (input) {
         } else {
           rows[i].style.display = 'table-row';
           rows[i].style.backgroundColor = bgColour;
+        }
       }
       bgColour = bgColours[bgColours.indexOf(bgColour) ^ 1];
     }
