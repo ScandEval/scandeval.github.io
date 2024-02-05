@@ -3,8 +3,17 @@ layout: leaderboard
 title: Dutch NLG
 ---
 
-<center>Last updated: 05/02/2024 11:09:19 CET</center>
-<center><i>Hover over the headings for more information</i></center>
+<center>Last updated: 05/02/2024 16:36:49 CET</center>
+
+<input type="checkbox" onchange="toggleMergedModels(this)" checked>
+<script>
+function toggleMergedModels(checkbox) {
+    var mergedModels = document.getElementsByClassName('merged-model');
+    for (var i = 0; i < mergedModels.length; i++) {
+        mergedModels[i].style.display = checkbox.checked ? 'table-row' : 'none';
+    }
+}
+</script>
 
 <div class="table-wrapper centered">
 <table id="dutch-nlg" class="sortable fixed centered small-font">
@@ -30,7 +39,7 @@ title: Dutch NLG
   </tr>
  </thead>
  <tbody>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">1</td> <!-- Rank -->
    <td>gpt-3.5-turbo-0613 (few-shot, val)</td> <!-- Model ID -->
    <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
@@ -47,25 +56,8 @@ title: Dutch NLG
    <td class="nl know">70.26 ± 3.35 / 77.66 ± 2.55</td> <!-- ARC-nl -->
    <td class="nl reason">61.52 ± 2.69 / 70.62 ± 2.20</td> <!-- HellaSwag-nl -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">2</td> <!-- Rank -->
-   <td>mlabonne/NeuralBeagle14-7B (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">3,065 ± 472 / 1,055 ± 321</td> <!-- Model inference speed -->
-   <td class="score">45.52 ± 1.41</td> <!-- ScandEval score -->
-   <td class="nl ner">64.63 ± 1.54 / 49.98 ± 1.68</td> <!-- CoNLL-nl -->
-   <td class="nl sent">13.29 ± 2.22 / 40.71 ± 1.44</td> <!-- Dutch Social -->
-   <td class="nl la">29.04 ± 1.85 / 63.14 ± 0.90</td> <!-- ScaLA-nl -->
-   <td class="nl qa">45.20 ± 1.23 / 63.77 ± 0.82</td> <!-- SQuAD-nl -->
-   <td class="nl summ">71.07 ± 0.42 / 23.72 ± 0.61</td> <!-- Wiki-Lingua-NL -->
-   <td class="nl know">36.81 ± 0.74 / 52.47 ± 0.60</td> <!-- MMLU-nl -->
-   <td class="nl know">60.18 ± 1.30 / 70.16 ± 0.98</td> <!-- ARC-nl -->
-   <td class="nl reason">46.93 ± 1.61 / 59.65 ± 1.28</td> <!-- HellaSwag-nl -->
-  </tr>
-  <tr>
-   <td class="rank">3</td> <!-- Rank -->
    <td>mistralai/Mistral-7B-v0.1 (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -81,8 +73,8 @@ title: Dutch NLG
    <td class="nl know">57.52 ± 1.13 / 68.17 ± 0.86</td> <!-- ARC-nl -->
    <td class="nl reason">19.88 ± 1.80 / 39.13 ± 1.56</td> <!-- HellaSwag-nl -->
   </tr>
-  <tr>
-   <td class="rank">4</td> <!-- Rank -->
+  <tr class="not-merged-model">
+   <td class="rank">3</td> <!-- Rank -->
    <td>Rijgersberg/GEITje-7B (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -98,8 +90,8 @@ title: Dutch NLG
    <td class="nl know">46.22 ± 0.75 / 59.41 ± 0.62</td> <!-- ARC-nl -->
    <td class="nl reason">11.70 ± 2.42 / 32.05 ± 1.90</td> <!-- HellaSwag-nl -->
   </tr>
-  <tr>
-   <td class="rank">5</td> <!-- Rank -->
+  <tr class="not-merged-model">
+   <td class="rank">4</td> <!-- Rank -->
    <td>mistralai/Mistral-7B-Instruct-v0.1 (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -115,8 +107,8 @@ title: Dutch NLG
    <td class="nl know">37.94 ± 1.16 / 53.23 ± 0.93</td> <!-- ARC-nl -->
    <td class="nl reason">14.26 ± 1.48 / 35.14 ± 1.18</td> <!-- HellaSwag-nl -->
   </tr>
-  <tr>
-   <td class="rank">6</td> <!-- Rank -->
+  <tr class="not-merged-model">
+   <td class="rank">5</td> <!-- Rank -->
    <td>meta-llama/Llama-2-7b-chat-hf (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">6738</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -132,8 +124,8 @@ title: Dutch NLG
    <td class="nl know">26.26 ± 1.73 / 44.67 ± 1.29</td> <!-- ARC-nl -->
    <td class="nl reason">11.42 ± 1.29 / 32.50 ± 1.10</td> <!-- HellaSwag-nl -->
   </tr>
-  <tr>
-   <td class="rank">7</td> <!-- Rank -->
+  <tr class="not-merged-model">
+   <td class="rank">6</td> <!-- Rank -->
    <td>meta-llama/Llama-2-7b-hf (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">6738</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -149,8 +141,8 @@ title: Dutch NLG
    <td class="nl know">23.70 ± 1.11 / 41.80 ± 1.08</td> <!-- ARC-nl -->
    <td class="nl reason">6.68 ± 1.82 / 29.30 ± 1.02</td> <!-- HellaSwag-nl -->
   </tr>
-  <tr>
-   <td class="rank">8</td> <!-- Rank -->
+  <tr class="not-merged-model">
+   <td class="rank">7</td> <!-- Rank -->
    <td>RuterNorway/Llama-2-7b-chat-norwegian (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -166,8 +158,8 @@ title: Dutch NLG
    <td class="nl know">3.88 ± 1.25 / 28.13 ± 0.79</td> <!-- ARC-nl -->
    <td class="nl reason">0.15 ± 0.98 / 25.59 ± 0.57</td> <!-- HellaSwag-nl -->
   </tr>
-  <tr>
-   <td class="rank">9</td> <!-- Rank -->
+  <tr class="not-merged-model">
+   <td class="rank">8</td> <!-- Rank -->
    <td>ai-forever/mGPT (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">100</td> <!-- Size of the model's vocabulary -->
