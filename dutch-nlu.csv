@@ -23,6 +23,7 @@ rank,model_id,num_model_parameters,vocabulary_size,max_sequence_length,speed,sco
 8,DTAI-KULeuven/robbertje-1-gb-bort,45.0,40,512,31087,33.52,33.52,66.74,24.93,37.19,5.23
 9,Twitter/twhin-bert-large,560.0,250,512,5299,32.63,32.63,77.35,6.55,18.25,28.37
 9,Twitter/twhin-bert-base,278.0,250,512,11514,32.6,32.6,74.03,9.53,39.12,7.71
+9,meta-llama/Llama-2-7b-chat-hf (few-shot),6738.0,32,4096,2643,32.11,32.11,50.23,10.07,14.73,53.41
 10,sentence-transformers/quora-distilbert-multilingual,135.0,120,512,26458,29.25,29.25,67.89,23.25,21.36,4.5
 11,EuropeanParliament/EUBERT,93.0,66,512,20070,28.24,28.24,49.54,14.86,27.9,20.65
 11,meta-llama/Llama-2-7b-hf (few-shot),6738.0,32,4096,2648,25.94,25.94,40.49,7.1,18.66,37.51

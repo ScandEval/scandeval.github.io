@@ -52,6 +52,7 @@ rank,model_id,num_model_parameters,vocabulary_size,max_sequence_length,speed,sco
 22,KBLab/albert-base-swedish-cased-alpha,14.0,50,512,15925,26.93,16.56,37.3,42.07,0.27,7.35,73.8,0.81
 23,DDSC/roberta-base-scandinavian,124.0,50,512,14491,25.75,19.2,32.3,51.53,0.89,5.19,63.86,0.73
 24,danish-foundation-models/encoder-small-v1,22.0,96,128,6002,25.1,9.75,40.45,28.99,-0.17,0.42,79.97,0.93
+24,meta-llama/Llama-2-7b-chat-hf (few-shot),6738.0,32,4096,2643,24.17,18.72,29.62,41.1,-1.07,16.12,59.77,-0.54
 25,Maltehb/aelaectra-danish-electra-small-uncased,14.0,32,128,5995,22.49,11.38,33.59,30.5,3.59,0.06,62.07,5.11
 25,ltg/norbert2,125.0,50,512,15523,22.05,11.74,32.37,28.74,3.0,3.47,60.57,4.16
 25,sarnikowski/convbert-medium-small-da-cased,24.0,29,512,13821,21.99,11.86,32.12,28.16,2.05,5.37,59.66,4.58
