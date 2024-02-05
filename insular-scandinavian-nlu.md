@@ -3,8 +3,12 @@ layout: leaderboard
 title: Insular Scandinavian NLU
 ---
 
-<center>Last updated: 05/02/2024 11:09:16 CET</center>
-<center><i>Hover over the headings for more information</i></center>
+<center>Last updated: 05/02/2024 17:05:49 CET</center>
+
+<div class="small-font">
+  <input type="checkbox" id="merged-models-checkbox">
+  <label for="merged-models-checkbox">Include merged models</label>
+</div>
 
 <div class="table-wrapper centered">
 <table id="insular-scandinavian-nlu" class="sortable fixed centered small-font">
@@ -30,7 +34,7 @@ title: Insular Scandinavian NLU
   </tr>
  </thead>
  <tbody>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">1</td> <!-- Rank -->
    <td>vesteinn/FoBERT</td> <!-- Model ID -->
    <td class="num_model_parameters">124</td> <!-- Number of trainable parameters -->
@@ -46,7 +50,7 @@ title: Insular Scandinavian NLU
    <td class="fo ner">91.31 ± 0.69 / 91.79 ± 0.47</td> <!-- FoNE -->
    <td class="fo la">64.39 ± 1.55 / 81.38 ± 1.04</td> <!-- ScaLA-fo -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">2</td> <!-- Rank -->
    <td>microsoft/mdeberta-v3-base</td> <!-- Model ID -->
    <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
@@ -62,7 +66,7 @@ title: Insular Scandinavian NLU
    <td class="fo ner">88.60 ± 0.60 / 89.37 ± 0.54</td> <!-- FoNE -->
    <td class="fo la">46.81 ± 2.12 / 72.76 ± 1.40</td> <!-- ScaLA-fo -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">3</td> <!-- Rank -->
    <td>NbAiLab/nb-roberta-base-scandi-1e4</td> <!-- Model ID -->
    <td class="num_model_parameters">277</td> <!-- Number of trainable parameters -->
@@ -78,7 +82,7 @@ title: Insular Scandinavian NLU
    <td class="fo ner">90.52 ± 0.47 / 90.83 ± 0.40</td> <!-- FoNE -->
    <td class="fo la">44.99 ± 11.76 / 71.54 ± 5.83</td> <!-- ScaLA-fo -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">4</td> <!-- Rank -->
    <td>vesteinn/ScandiBERT-no-faroese</td> <!-- Model ID -->
    <td class="num_model_parameters">124</td> <!-- Number of trainable parameters -->
@@ -94,7 +98,7 @@ title: Insular Scandinavian NLU
    <td class="fo ner">88.14 ± 0.58 / 88.89 ± 0.52</td> <!-- FoNE -->
    <td class="fo la">27.71 ± 9.67 / 61.60 ± 5.69</td> <!-- ScaLA-fo -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">5</td> <!-- Rank -->
    <td>mideind/IceBERT-xlmr-ic3</td> <!-- Model ID -->
    <td class="num_model_parameters">277</td> <!-- Number of trainable parameters -->
@@ -110,7 +114,7 @@ title: Insular Scandinavian NLU
    <td class="fo ner">87.79 ± 0.40 / 88.46 ± 0.31</td> <!-- FoNE -->
    <td class="fo la">22.51 ± 10.65 / 55.58 ± 8.05</td> <!-- ScaLA-fo -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">6</td> <!-- Rank -->
    <td>jonfd/electra-small-nordic</td> <!-- Model ID -->
    <td class="num_model_parameters">22</td> <!-- Number of trainable parameters -->
@@ -126,7 +130,7 @@ title: Insular Scandinavian NLU
    <td class="fo ner">85.80 ± 0.25 / 86.58 ± 0.26</td> <!-- FoNE -->
    <td class="fo la">30.88 ± 2.36 / 63.79 ± 1.33</td> <!-- ScaLA-fo -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">7</td> <!-- Rank -->
    <td>sentence-transformers/use-cmlm-multilingual</td> <!-- Model ID -->
    <td class="num_model_parameters">470</td> <!-- Number of trainable parameters -->
@@ -142,7 +146,7 @@ title: Insular Scandinavian NLU
    <td class="fo ner">88.81 ± 0.65 / 89.12 ± 0.56</td> <!-- FoNE -->
    <td class="fo la">30.92 ± 8.65 / 63.05 ± 4.66</td> <!-- ScaLA-fo -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">8=</td> <!-- Rank -->
    <td>google/rembert</td> <!-- Model ID -->
    <td class="num_model_parameters">575</td> <!-- Number of trainable parameters -->
@@ -158,7 +162,7 @@ title: Insular Scandinavian NLU
    <td class="fo ner">87.35 ± 0.94 / 87.65 ± 0.94</td> <!-- FoNE -->
    <td class="fo la">14.65 ± 11.12 / 46.36 ± 10.23</td> <!-- ScaLA-fo -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">8=</td> <!-- Rank -->
    <td>mideind/IceBERT</td> <!-- Model ID -->
    <td class="num_model_parameters">124</td> <!-- Number of trainable parameters -->
@@ -174,7 +178,7 @@ title: Insular Scandinavian NLU
    <td class="fo ner">86.50 ± 0.96 / 87.11 ± 0.90</td> <!-- FoNE -->
    <td class="fo la">10.13 ± 8.55 / 47.31 ± 7.04</td> <!-- ScaLA-fo -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">8=</td> <!-- Rank -->
    <td>mideind/IceBERT-large</td> <!-- Model ID -->
    <td class="num_model_parameters">406</td> <!-- Number of trainable parameters -->
@@ -190,7 +194,7 @@ title: Insular Scandinavian NLU
    <td class="fo ner">86.84 ± 0.77 / 87.51 ± 0.72</td> <!-- FoNE -->
    <td class="fo la">9.82 ± 3.95 / 50.49 ± 3.45</td> <!-- ScaLA-fo -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">9</td> <!-- Rank -->
    <td>setu4993/LaBSE</td> <!-- Model ID -->
    <td class="num_model_parameters">470</td> <!-- Number of trainable parameters -->
@@ -206,7 +210,7 @@ title: Insular Scandinavian NLU
    <td class="fo ner">89.16 ± 0.66 / 89.62 ± 0.62</td> <!-- FoNE -->
    <td class="fo la">22.76 ± 10.57 / 60.04 ± 5.76</td> <!-- ScaLA-fo -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">10</td> <!-- Rank -->
    <td>vesteinn/XLMR-ENIS</td> <!-- Model ID -->
    <td class="num_model_parameters">125</td> <!-- Number of trainable parameters -->
@@ -222,7 +226,7 @@ title: Insular Scandinavian NLU
    <td class="fo ner">87.09 ± 0.76 / 87.71 ± 0.73</td> <!-- FoNE -->
    <td class="fo la">3.09 ± 1.98 / 39.41 ± 4.45</td> <!-- ScaLA-fo -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">11=</td> <!-- Rank -->
    <td>vesteinn/IceBERT</td> <!-- Model ID -->
    <td class="num_model_parameters">163</td> <!-- Number of trainable parameters -->
@@ -238,7 +242,7 @@ title: Insular Scandinavian NLU
    <td class="fo ner">87.13 ± 0.58 / 87.70 ± 0.45</td> <!-- FoNE -->
    <td class="fo la">3.66 ± 3.33 / 40.81 ± 4.34</td> <!-- ScaLA-fo -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">11=</td> <!-- Rank -->
    <td>pere/roberta-base-exp-32</td> <!-- Model ID -->
    <td class="num_model_parameters">277</td> <!-- Number of trainable parameters -->
@@ -254,7 +258,7 @@ title: Insular Scandinavian NLU
    <td class="fo ner">90.60 ± 0.45 / 90.78 ± 0.45</td> <!-- FoNE -->
    <td class="fo la">22.86 ± 13.14 / 59.92 ± 6.74</td> <!-- ScaLA-fo -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">11=</td> <!-- Rank -->
    <td>mideind/IceBERT-ic3</td> <!-- Model ID -->
    <td class="num_model_parameters">124</td> <!-- Number of trainable parameters -->
@@ -270,7 +274,7 @@ title: Insular Scandinavian NLU
    <td class="fo ner">87.22 ± 0.68 / 87.92 ± 0.59</td> <!-- FoNE -->
    <td class="fo la">6.23 ± 6.96 / 48.55 ± 4.87</td> <!-- ScaLA-fo -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">12</td> <!-- Rank -->
    <td>mideind/IceBERT-igc</td> <!-- Model ID -->
    <td class="num_model_parameters">124</td> <!-- Number of trainable parameters -->
@@ -286,7 +290,7 @@ title: Insular Scandinavian NLU
    <td class="fo ner">83.82 ± 0.98 / 84.34 ± 0.88</td> <!-- FoNE -->
    <td class="fo la">4.93 ± 3.16 / 45.85 ± 3.66</td> <!-- ScaLA-fo -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">13</td> <!-- Rank -->
    <td>xlm-roberta-large</td> <!-- Model ID -->
    <td class="num_model_parameters">559</td> <!-- Number of trainable parameters -->
@@ -302,7 +306,7 @@ title: Insular Scandinavian NLU
    <td class="fo ner">87.85 ± 0.95 / 88.21 ± 0.87</td> <!-- FoNE -->
    <td class="fo la">1.17 ± 2.11 / 40.94 ± 5.07</td> <!-- ScaLA-fo -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">14</td> <!-- Rank -->
    <td>mideind/IceBERT-mC4-is</td> <!-- Model ID -->
    <td class="num_model_parameters">163</td> <!-- Number of trainable parameters -->
@@ -318,7 +322,7 @@ title: Insular Scandinavian NLU
    <td class="fo ner">88.44 ± 0.35 / 89.11 ± 0.38</td> <!-- FoNE -->
    <td class="fo la">11.83 ± 4.90 / 48.95 ± 6.81</td> <!-- ScaLA-fo -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">15</td> <!-- Rank -->
    <td>intfloat/multilingual-e5-large</td> <!-- Model ID -->
    <td class="num_model_parameters">559</td> <!-- Number of trainable parameters -->
@@ -334,7 +338,7 @@ title: Insular Scandinavian NLU
    <td class="fo ner">88.39 ± 0.86 / 88.75 ± 0.75</td> <!-- FoNE -->
    <td class="fo la">2.85 ± 1.32 / 48.43 ± 2.29</td> <!-- ScaLA-fo -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">16=</td> <!-- Rank -->
    <td>Geotrend/bert-base-25lang-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">151</td> <!-- Number of trainable parameters -->
@@ -350,7 +354,7 @@ title: Insular Scandinavian NLU
    <td class="fo ner">86.09 ± 1.03 / 86.85 ± 1.02</td> <!-- FoNE -->
    <td class="fo la">15.24 ± 6.84 / 50.54 ± 4.85</td> <!-- ScaLA-fo -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">16=</td> <!-- Rank -->
    <td>cardiffnlp/twitter-xlm-roberta-base</td> <!-- Model ID -->
    <td class="num_model_parameters">277</td> <!-- Number of trainable parameters -->
@@ -366,7 +370,7 @@ title: Insular Scandinavian NLU
    <td class="fo ner">83.96 ± 0.80 / 84.63 ± 0.76</td> <!-- FoNE -->
    <td class="fo la">1.05 ± 1.66 / 41.31 ± 4.91</td> <!-- ScaLA-fo -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">16=</td> <!-- Rank -->
    <td>gpt-3.5-turbo-0613 (few-shot, val)</td> <!-- Model ID -->
    <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
@@ -382,7 +386,7 @@ title: Insular Scandinavian NLU
    <td class="fo ner">72.48 ± 2.39 / 67.50 ± 2.38</td> <!-- FoNE -->
    <td class="fo la">8.29 ± 5.92 / 42.34 ± 3.49</td> <!-- ScaLA-fo -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">16=</td> <!-- Rank -->
    <td>Geotrend/bert-base-da-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">103</td> <!-- Number of trainable parameters -->
@@ -398,7 +402,7 @@ title: Insular Scandinavian NLU
    <td class="fo ner">86.62 ± 0.43 / 87.31 ± 0.44</td> <!-- FoNE -->
    <td class="fo la">3.64 ± 3.82 / 49.77 ± 2.26</td> <!-- ScaLA-fo -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">16=</td> <!-- Rank -->
    <td>microsoft/xlm-align-base</td> <!-- Model ID -->
    <td class="num_model_parameters">277</td> <!-- Number of trainable parameters -->
@@ -414,7 +418,7 @@ title: Insular Scandinavian NLU
    <td class="fo ner">85.97 ± 1.12 / 86.52 ± 1.08</td> <!-- FoNE -->
    <td class="fo la">0.02 ± 1.38 / 44.65 ± 2.65</td> <!-- ScaLA-fo -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">17=</td> <!-- Rank -->
    <td>NbAiLab/nb-roberta-base-scandinavian</td> <!-- Model ID -->
    <td class="num_model_parameters">125</td> <!-- Number of trainable parameters -->
@@ -430,7 +434,7 @@ title: Insular Scandinavian NLU
    <td class="fo ner">86.10 ± 0.64 / 86.75 ± 0.57</td> <!-- FoNE -->
    <td class="fo la">6.28 ± 2.41 / 49.62 ± 2.08</td> <!-- ScaLA-fo -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">17=</td> <!-- Rank -->
    <td>microsoft/infoxlm-base</td> <!-- Model ID -->
    <td class="num_model_parameters">277</td> <!-- Number of trainable parameters -->
@@ -446,7 +450,7 @@ title: Insular Scandinavian NLU
    <td class="fo ner">85.58 ± 1.04 / 86.23 ± 1.03</td> <!-- FoNE -->
    <td class="fo la">0.35 ± 2.36 / 43.55 ± 4.58</td> <!-- ScaLA-fo -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">17=</td> <!-- Rank -->
    <td>Twitter/twhin-bert-large</td> <!-- Model ID -->
    <td class="num_model_parameters">560</td> <!-- Number of trainable parameters -->
@@ -462,7 +466,7 @@ title: Insular Scandinavian NLU
    <td class="fo ner">84.73 ± 1.49 / 85.19 ± 1.59</td> <!-- FoNE -->
    <td class="fo la">1.37 ± 2.46 / 39.78 ± 3.24</td> <!-- ScaLA-fo -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">18=</td> <!-- Rank -->
    <td>KBLab/megatron-bert-large-swedish-cased-165k</td> <!-- Model ID -->
    <td class="num_model_parameters">369</td> <!-- Number of trainable parameters -->
@@ -478,7 +482,7 @@ title: Insular Scandinavian NLU
    <td class="fo ner">82.76 ± 0.95 / 83.43 ± 0.88</td> <!-- FoNE -->
    <td class="fo la">7.58 ± 3.56 / 52.05 ± 1.14</td> <!-- ScaLA-fo -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">18=</td> <!-- Rank -->
    <td>vesteinn/DanskBERT</td> <!-- Model ID -->
    <td class="num_model_parameters">124</td> <!-- Number of trainable parameters -->
@@ -494,7 +498,7 @@ title: Insular Scandinavian NLU
    <td class="fo ner">85.04 ± 0.57 / 85.72 ± 0.50</td> <!-- FoNE -->
    <td class="fo la">4.48 ± 1.63 / 44.45 ± 4.77</td> <!-- ScaLA-fo -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">18=</td> <!-- Rank -->
    <td>KennethEnevoldsen/dfm-sentence-encoder-medium-2</td> <!-- Model ID -->
    <td class="num_model_parameters">124</td> <!-- Number of trainable parameters -->
@@ -510,7 +514,7 @@ title: Insular Scandinavian NLU
    <td class="fo ner">84.72 ± 0.84 / 85.44 ± 0.81</td> <!-- FoNE -->
    <td class="fo la">3.79 ± 1.83 / 49.66 ± 2.54</td> <!-- ScaLA-fo -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">18=</td> <!-- Rank -->
    <td>KennethEnevoldsen/dfm-sentence-encoder-medium</td> <!-- Model ID -->
    <td class="num_model_parameters">124</td> <!-- Number of trainable parameters -->
@@ -526,7 +530,7 @@ title: Insular Scandinavian NLU
    <td class="fo ner">84.92 ± 0.70 / 85.65 ± 0.67</td> <!-- FoNE -->
    <td class="fo la">2.96 ± 2.66 / 45.42 ± 4.03</td> <!-- ScaLA-fo -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">18=</td> <!-- Rank -->
    <td>flax-community/nordic-roberta-wiki</td> <!-- Model ID -->
    <td class="num_model_parameters">124</td> <!-- Number of trainable parameters -->
@@ -542,7 +546,7 @@ title: Insular Scandinavian NLU
    <td class="fo ner">82.64 ± 0.63 / 83.27 ± 0.65</td> <!-- FoNE -->
    <td class="fo la">8.03 ± 2.01 / 51.96 ± 1.87</td> <!-- ScaLA-fo -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">18=</td> <!-- Rank -->
    <td>KBLab/megatron-bert-large-swedish-cased-110k</td> <!-- Model ID -->
    <td class="num_model_parameters">369</td> <!-- Number of trainable parameters -->
@@ -558,7 +562,7 @@ title: Insular Scandinavian NLU
    <td class="fo ner">82.36 ± 0.91 / 82.94 ± 0.90</td> <!-- FoNE -->
    <td class="fo la">5.20 ± 2.67 / 50.88 ± 1.55</td> <!-- ScaLA-fo -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">18=</td> <!-- Rank -->
    <td>sentence-transformers/stsb-xlm-r-multilingual</td> <!-- Model ID -->
    <td class="num_model_parameters">277</td> <!-- Number of trainable parameters -->
@@ -574,7 +578,7 @@ title: Insular Scandinavian NLU
    <td class="fo ner">82.97 ± 0.83 / 83.62 ± 0.81</td> <!-- FoNE -->
    <td class="fo la">2.93 ± 1.96 / 46.51 ± 4.19</td> <!-- ScaLA-fo -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">18=</td> <!-- Rank -->
    <td>bert-base-multilingual-uncased</td> <!-- Model ID -->
    <td class="num_model_parameters">167</td> <!-- Number of trainable parameters -->
@@ -590,7 +594,7 @@ title: Insular Scandinavian NLU
    <td class="fo ner">73.06 ± 1.51 / 72.61 ± 1.40</td> <!-- FoNE -->
    <td class="fo la">5.48 ± 2.42 / 49.18 ± 3.63</td> <!-- ScaLA-fo -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">18=</td> <!-- Rank -->
    <td>patrickvonplaten/norwegian-roberta-base</td> <!-- Model ID -->
    <td class="num_model_parameters">124</td> <!-- Number of trainable parameters -->
@@ -606,7 +610,7 @@ title: Insular Scandinavian NLU
    <td class="fo ner">82.57 ± 0.93 / 83.35 ± 0.91</td> <!-- FoNE -->
    <td class="fo la">5.74 ± 3.53 / 48.75 ± 3.22</td> <!-- ScaLA-fo -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">18=</td> <!-- Rank -->
    <td>DeepPavlov/rubert-base-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">177</td> <!-- Number of trainable parameters -->
@@ -622,7 +626,7 @@ title: Insular Scandinavian NLU
    <td class="fo ner">83.15 ± 0.73 / 83.90 ± 0.74</td> <!-- FoNE -->
    <td class="fo la">3.21 ± 2.89 / 47.97 ± 3.56</td> <!-- ScaLA-fo -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">19=</td> <!-- Rank -->
    <td>flax-community/swe-roberta-wiki-oscar</td> <!-- Model ID -->
    <td class="num_model_parameters">124</td> <!-- Number of trainable parameters -->
@@ -638,7 +642,7 @@ title: Insular Scandinavian NLU
    <td class="fo ner">80.52 ± 0.76 / 81.35 ± 0.69</td> <!-- FoNE -->
    <td class="fo la">6.51 ± 3.60 / 51.81 ± 1.95</td> <!-- ScaLA-fo -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">19=</td> <!-- Rank -->
    <td>sentence-transformers/quora-distilbert-multilingual</td> <!-- Model ID -->
    <td class="num_model_parameters">135</td> <!-- Number of trainable parameters -->
@@ -654,7 +658,7 @@ title: Insular Scandinavian NLU
    <td class="fo ner">82.91 ± 0.89 / 83.43 ± 0.87</td> <!-- FoNE -->
    <td class="fo la">1.67 ± 2.22 / 46.20 ± 3.31</td> <!-- ScaLA-fo -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">19=</td> <!-- Rank -->
    <td>KB/bert-base-swedish-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">124</td> <!-- Number of trainable parameters -->
@@ -670,7 +674,7 @@ title: Insular Scandinavian NLU
    <td class="fo ner">82.76 ± 1.26 / 83.50 ± 1.20</td> <!-- FoNE -->
    <td class="fo la">3.98 ± 2.70 / 47.46 ± 2.35</td> <!-- ScaLA-fo -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">19=</td> <!-- Rank -->
    <td>sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2</td> <!-- Model ID -->
    <td class="num_model_parameters">118</td> <!-- Number of trainable parameters -->
@@ -686,7 +690,7 @@ title: Insular Scandinavian NLU
    <td class="fo ner">82.24 ± 0.85 / 82.84 ± 0.78</td> <!-- FoNE -->
    <td class="fo la">2.84 ± 1.41 / 50.47 ± 1.13</td> <!-- ScaLA-fo -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">20</td> <!-- Rank -->
    <td>KennethEnevoldsen/dfm-sentence-encoder-large-1</td> <!-- Model ID -->
    <td class="num_model_parameters">354</td> <!-- Number of trainable parameters -->
@@ -702,7 +706,7 @@ title: Insular Scandinavian NLU
    <td class="fo ner">72.99 ± 1.55 / 72.45 ± 1.56</td> <!-- FoNE -->
    <td class="fo la">13.40 ± 7.79 / 54.18 ± 5.13</td> <!-- ScaLA-fo -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">21=</td> <!-- Rank -->
    <td>DDSC/roberta-base-danish</td> <!-- Model ID -->
    <td class="num_model_parameters">125</td> <!-- Number of trainable parameters -->
@@ -718,7 +722,7 @@ title: Insular Scandinavian NLU
    <td class="fo ner">80.21 ± 0.95 / 80.80 ± 0.97</td> <!-- FoNE -->
    <td class="fo la">1.10 ± 2.44 / 48.16 ± 1.47</td> <!-- ScaLA-fo -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">21=</td> <!-- Rank -->
    <td>roberta-base</td> <!-- Model ID -->
    <td class="num_model_parameters">124</td> <!-- Number of trainable parameters -->
@@ -734,7 +738,7 @@ title: Insular Scandinavian NLU
    <td class="fo ner">81.78 ± 0.95 / 82.55 ± 0.90</td> <!-- FoNE -->
    <td class="fo la">-1.18 ± 2.36 / 37.68 ± 3.64</td> <!-- ScaLA-fo -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">21=</td> <!-- Rank -->
    <td>dbmdz/bert-medium-historic-multilingual-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">42</td> <!-- Number of trainable parameters -->
@@ -750,7 +754,7 @@ title: Insular Scandinavian NLU
    <td class="fo ner">80.58 ± 0.45 / 81.29 ± 0.46</td> <!-- FoNE -->
    <td class="fo la">1.58 ± 2.34 / 49.16 ± 2.33</td> <!-- ScaLA-fo -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">21=</td> <!-- Rank -->
    <td>deepset/gbert-base</td> <!-- Model ID -->
    <td class="num_model_parameters">109</td> <!-- Number of trainable parameters -->
@@ -766,7 +770,7 @@ title: Insular Scandinavian NLU
    <td class="fo ner">80.48 ± 0.91 / 81.17 ± 0.85</td> <!-- FoNE -->
    <td class="fo la">0.60 ± 2.08 / 45.78 ± 2.54</td> <!-- ScaLA-fo -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">21=</td> <!-- Rank -->
    <td>pdelobelle/robbert-v2-dutch-base</td> <!-- Model ID -->
    <td class="num_model_parameters">116</td> <!-- Number of trainable parameters -->
@@ -782,23 +786,7 @@ title: Insular Scandinavian NLU
    <td class="fo ner">78.59 ± 1.16 / 79.35 ± 1.08</td> <!-- FoNE -->
    <td class="fo la">0.65 ± 2.63 / 47.40 ± 3.23</td> <!-- ScaLA-fo -->
   </tr>
-  <tr>
-   <td class="rank">21=</td> <!-- Rank -->
-   <td>mlabonne/NeuralBeagle14-7B (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">3,065 ± 472 / 1,055 ± 321</td> <!-- Model inference speed -->
-   <td class="score">29.86 ± 2.10</td> <!-- ScandEval score -->
-   <td class="is-score">25.48 ± 2.08</td> <!-- Icelandic score -->
-   <td class="fo-score">34.23 ± 2.12</td> <!-- Faroese score -->
-   <td class="is ner">50.02 ± 1.71 / 41.97 ± 3.98</td> <!-- MIM-GOLD-NER -->
-   <td class="is la">4.18 ± 1.24 / 50.43 ± 1.44</td> <!-- ScaLA-is -->
-   <td class="is qa">22.23 ± 3.29 / 53.90 ± 3.08</td> <!-- NQiI -->
-   <td class="fo ner">64.44 ± 2.40 / 60.87 ± 2.59</td> <!-- FoNE -->
-   <td class="fo la">4.03 ± 1.85 / 48.93 ± 3.63</td> <!-- ScaLA-fo -->
-  </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">22=</td> <!-- Rank -->
    <td>mistralai/Mistral-7B-v0.1 (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
@@ -814,7 +802,7 @@ title: Insular Scandinavian NLU
    <td class="fo ner">62.63 ± 3.44 / 57.85 ± 3.72</td> <!-- FoNE -->
    <td class="fo la">2.84 ± 1.84 / 42.62 ± 4.53</td> <!-- ScaLA-fo -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">22=</td> <!-- Rank -->
    <td>danish-foundation-models/encoder-large-v1</td> <!-- Model ID -->
    <td class="num_model_parameters">354</td> <!-- Number of trainable parameters -->
@@ -830,7 +818,7 @@ title: Insular Scandinavian NLU
    <td class="fo ner">72.46 ± 0.87 / 71.83 ± 0.83</td> <!-- FoNE -->
    <td class="fo la">2.93 ± 3.27 / 48.20 ± 1.50</td> <!-- ScaLA-fo -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">22=</td> <!-- Rank -->
    <td>KBLab/albert-base-swedish-cased-alpha</td> <!-- Model ID -->
    <td class="num_model_parameters">14</td> <!-- Number of trainable parameters -->
@@ -846,7 +834,7 @@ title: Insular Scandinavian NLU
    <td class="fo ner">73.80 ± 0.98 / 74.58 ± 0.92</td> <!-- FoNE -->
    <td class="fo la">0.81 ± 2.90 / 48.11 ± 2.18</td> <!-- ScaLA-fo -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">23</td> <!-- Rank -->
    <td>DDSC/roberta-base-scandinavian</td> <!-- Model ID -->
    <td class="num_model_parameters">124</td> <!-- Number of trainable parameters -->
@@ -862,7 +850,7 @@ title: Insular Scandinavian NLU
    <td class="fo ner">63.86 ± 20.89 / 64.42 ± 21.07</td> <!-- FoNE -->
    <td class="fo la">0.73 ± 2.11 / 49.36 ± 1.78</td> <!-- ScaLA-fo -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">24=</td> <!-- Rank -->
    <td>danish-foundation-models/encoder-small-v1</td> <!-- Model ID -->
    <td class="num_model_parameters">22</td> <!-- Number of trainable parameters -->
@@ -878,7 +866,7 @@ title: Insular Scandinavian NLU
    <td class="fo ner">79.97 ± 1.24 / 80.28 ± 1.24</td> <!-- FoNE -->
    <td class="fo la">0.93 ± 2.91 / 45.79 ± 3.78</td> <!-- ScaLA-fo -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">24=</td> <!-- Rank -->
    <td>meta-llama/Llama-2-7b-chat-hf (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">6738</td> <!-- Number of trainable parameters -->
@@ -894,7 +882,7 @@ title: Insular Scandinavian NLU
    <td class="fo ner">59.77 ± 3.38 / 56.97 ± 4.30</td> <!-- FoNE -->
    <td class="fo la">-0.54 ± 1.61 / 36.94 ± 2.79</td> <!-- ScaLA-fo -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">24=</td> <!-- Rank -->
    <td>mistralai/Mistral-7B-Instruct-v0.1 (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
@@ -910,7 +898,7 @@ title: Insular Scandinavian NLU
    <td class="fo ner">55.42 ± 2.12 / 46.41 ± 2.50</td> <!-- FoNE -->
    <td class="fo la">1.11 ± 2.41 / 36.79 ± 4.00</td> <!-- ScaLA-fo -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">25=</td> <!-- Rank -->
    <td>Maltehb/aelaectra-danish-electra-small-uncased</td> <!-- Model ID -->
    <td class="num_model_parameters">14</td> <!-- Number of trainable parameters -->
@@ -926,7 +914,7 @@ title: Insular Scandinavian NLU
    <td class="fo ner">62.07 ± 1.18 / 61.72 ± 1.18</td> <!-- FoNE -->
    <td class="fo la">5.11 ± 3.80 / 47.64 ± 4.52</td> <!-- ScaLA-fo -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">25=</td> <!-- Rank -->
    <td>ltg/norbert2</td> <!-- Model ID -->
    <td class="num_model_parameters">125</td> <!-- Number of trainable parameters -->
@@ -942,7 +930,7 @@ title: Insular Scandinavian NLU
    <td class="fo ner">60.57 ± 0.86 / 60.42 ± 0.90</td> <!-- FoNE -->
    <td class="fo la">4.16 ± 2.63 / 47.13 ± 3.43</td> <!-- ScaLA-fo -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">25=</td> <!-- Rank -->
    <td>sarnikowski/convbert-medium-small-da-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">24</td> <!-- Number of trainable parameters -->
@@ -958,7 +946,7 @@ title: Insular Scandinavian NLU
    <td class="fo ner">59.66 ± 0.63 / 59.39 ± 0.60</td> <!-- FoNE -->
    <td class="fo la">4.58 ± 3.90 / 50.83 ± 2.59</td> <!-- ScaLA-fo -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">25=</td> <!-- Rank -->
    <td>meta-llama/Llama-2-7b-hf (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">6738</td> <!-- Number of trainable parameters -->
@@ -974,7 +962,7 @@ title: Insular Scandinavian NLU
    <td class="fo ner">52.34 ± 5.11 / 52.53 ± 4.79</td> <!-- FoNE -->
    <td class="fo la">0.11 ± 1.45 / 33.49 ± 0.47</td> <!-- ScaLA-fo -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">26</td> <!-- Rank -->
    <td>sarnikowski/convbert-small-da-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">13</td> <!-- Number of trainable parameters -->
@@ -990,7 +978,7 @@ title: Insular Scandinavian NLU
    <td class="fo ner">58.50 ± 0.63 / 58.33 ± 0.70</td> <!-- FoNE -->
    <td class="fo la">5.96 ± 2.04 / 51.99 ± 1.53</td> <!-- ScaLA-fo -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">27=</td> <!-- Rank -->
    <td>TurkuNLP/bert-base-finnish-cased-v1</td> <!-- Model ID -->
    <td class="num_model_parameters">124</td> <!-- Number of trainable parameters -->
@@ -1006,7 +994,7 @@ title: Insular Scandinavian NLU
    <td class="fo ner">51.26 ± 1.05 / 51.07 ± 1.06</td> <!-- FoNE -->
    <td class="fo la">1.77 ± 1.36 / 46.91 ± 2.77</td> <!-- ScaLA-fo -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">27=</td> <!-- Rank -->
    <td>Rijgersberg/GEITje-7B (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
@@ -1022,7 +1010,7 @@ title: Insular Scandinavian NLU
    <td class="fo ner">54.17 ± 4.15 / 54.25 ± 4.13</td> <!-- FoNE -->
    <td class="fo la">0.00 ± 0.00 / 33.26 ± 0.34</td> <!-- ScaLA-fo -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">27=</td> <!-- Rank -->
    <td>asafaya/bert-base-arabic</td> <!-- Model ID -->
    <td class="num_model_parameters">110</td> <!-- Number of trainable parameters -->
@@ -1038,7 +1026,7 @@ title: Insular Scandinavian NLU
    <td class="fo ner">50.44 ± 1.82 / 49.80 ± 1.76</td> <!-- FoNE -->
    <td class="fo la">-0.06 ± 2.46 / 45.46 ± 4.05</td> <!-- ScaLA-fo -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">28=</td> <!-- Rank -->
    <td>fresh-xlm-roberta-base</td> <!-- Model ID -->
    <td class="num_model_parameters">277</td> <!-- Number of trainable parameters -->
@@ -1054,7 +1042,7 @@ title: Insular Scandinavian NLU
    <td class="fo ner">48.70 ± 1.57 / 48.51 ± 1.57</td> <!-- FoNE -->
    <td class="fo la">2.37 ± 2.06 / 37.68 ± 3.25</td> <!-- ScaLA-fo -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">28=</td> <!-- Rank -->
    <td>Maltehb/danish-bert-botxo</td> <!-- Model ID -->
    <td class="num_model_parameters">110</td> <!-- Number of trainable parameters -->
@@ -1070,7 +1058,7 @@ title: Insular Scandinavian NLU
    <td class="fo ner">43.59 ± 0.80 / 42.84 ± 0.86</td> <!-- FoNE -->
    <td class="fo la">3.13 ± 1.29 / 49.29 ± 1.28</td> <!-- ScaLA-fo -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">28=</td> <!-- Rank -->
    <td>alexanderfalk/danbert-small-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">83</td> <!-- Number of trainable parameters -->
@@ -1086,7 +1074,7 @@ title: Insular Scandinavian NLU
    <td class="fo ner">45.16 ± 2.00 / 44.76 ± 2.01</td> <!-- FoNE -->
    <td class="fo la">2.24 ± 1.83 / 43.57 ± 4.41</td> <!-- ScaLA-fo -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">29=</td> <!-- Rank -->
    <td>RuterNorway/Llama-2-7b-chat-norwegian (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
@@ -1102,7 +1090,7 @@ title: Insular Scandinavian NLU
    <td class="fo ner">18.86 ± 4.67 / 19.80 ± 5.33</td> <!-- FoNE -->
    <td class="fo la">-0.43 ± 1.33 / 39.75 ± 4.08</td> <!-- ScaLA-fo -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">29=</td> <!-- Rank -->
    <td>fresh-electra-small</td> <!-- Model ID -->
    <td class="num_model_parameters">13</td> <!-- Number of trainable parameters -->
@@ -1118,7 +1106,7 @@ title: Insular Scandinavian NLU
    <td class="fo ner">12.10 ± 1.51 / 11.83 ± 1.50</td> <!-- FoNE -->
    <td class="fo la">0.64 ± 1.57 / 38.69 ± 3.19</td> <!-- ScaLA-fo -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">30=</td> <!-- Rank -->
    <td>ai-forever/mGPT (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
@@ -1134,7 +1122,7 @@ title: Insular Scandinavian NLU
    <td class="fo ner">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- FoNE -->
    <td class="fo la">0.00 ± 0.00 / 33.40 ± 0.34</td> <!-- ScaLA-fo -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">30=</td> <!-- Rank -->
    <td>ltg/norbert</td> <!-- Model ID -->
    <td class="num_model_parameters">112</td> <!-- Number of trainable parameters -->

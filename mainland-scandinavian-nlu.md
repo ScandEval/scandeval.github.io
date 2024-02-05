@@ -3,8 +3,12 @@ layout: leaderboard
 title: Mainland Scandinavian NLU
 ---
 
-<center>Last updated: 05/02/2024 11:09:14 CET</center>
-<center><i>Hover over the headings for more information</i></center>
+<center>Last updated: 05/02/2024 17:05:47 CET</center>
+
+<div class="small-font">
+  <input type="checkbox" id="merged-models-checkbox">
+  <label for="merged-models-checkbox">Include merged models</label>
+</div>
 
 <div class="table-wrapper centered">
 <table id="mainland-scandinavian-nlu" class="sortable fixed centered small-font">
@@ -40,7 +44,7 @@ title: Mainland Scandinavian NLU
   </tr>
  </thead>
  <tbody>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">1=</td> <!-- Rank -->
    <td>ltg/norbert3-large</td> <!-- Model ID -->
    <td class="num_model_parameters">354</td> <!-- Number of trainable parameters -->
@@ -66,7 +70,7 @@ title: Mainland Scandinavian NLU
    <td class="sv la">69.11 ± 1.50 / 84.32 ± 0.70</td> <!-- ScaLA-sv -->
    <td class="sv qa">48.88 ± 0.87 / 54.15 ± 0.83</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">1=</td> <!-- Rank -->
    <td>gpt-4-0613 (few-shot, val)</td> <!-- Model ID -->
    <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
@@ -92,7 +96,7 @@ title: Mainland Scandinavian NLU
    <td class="sv la">80.93 ± 1.67 / 89.90 ± 0.93</td> <!-- ScaLA-sv -->
    <td class="sv qa">56.50 ± 1.74 / 67.22 ± 1.24</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">2=</td> <!-- Rank -->
    <td>danish-foundation-models/encoder-large-v1</td> <!-- Model ID -->
    <td class="num_model_parameters">355</td> <!-- Number of trainable parameters -->
@@ -118,7 +122,7 @@ title: Mainland Scandinavian NLU
    <td class="sv la">64.11 ± 3.27 / 81.63 ± 1.66</td> <!-- ScaLA-sv -->
    <td class="sv qa">46.79 ± 1.61 / 52.40 ± 1.77</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">2=</td> <!-- Rank -->
    <td>KennethEnevoldsen/dfm-sentence-encoder-large-1</td> <!-- Model ID -->
    <td class="num_model_parameters">355</td> <!-- Number of trainable parameters -->
@@ -144,7 +148,7 @@ title: Mainland Scandinavian NLU
    <td class="sv la">63.43 ± 2.30 / 81.00 ± 1.37</td> <!-- ScaLA-sv -->
    <td class="sv qa">46.20 ± 1.03 / 51.94 ± 0.92</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">2=</td> <!-- Rank -->
    <td>KennethEnevoldsen/dfm-sentence-encoder-large-2</td> <!-- Model ID -->
    <td class="num_model_parameters">355</td> <!-- Number of trainable parameters -->
@@ -170,7 +174,7 @@ title: Mainland Scandinavian NLU
    <td class="sv la">62.77 ± 3.14 / 80.75 ± 1.67</td> <!-- ScaLA-sv -->
    <td class="sv qa">44.77 ± 3.06 / 50.58 ± 2.94</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">2=</td> <!-- Rank -->
    <td>google/rembert</td> <!-- Model ID -->
    <td class="num_model_parameters">576</td> <!-- Number of trainable parameters -->
@@ -196,7 +200,7 @@ title: Mainland Scandinavian NLU
    <td class="sv la">72.17 ± 0.94 / 85.94 ± 0.54</td> <!-- ScaLA-sv -->
    <td class="sv qa">46.00 ± 2.13 / 51.05 ± 2.40</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">2=</td> <!-- Rank -->
    <td>microsoft/mdeberta-v3-base</td> <!-- Model ID -->
    <td class="num_model_parameters">279</td> <!-- Number of trainable parameters -->
@@ -222,7 +226,7 @@ title: Mainland Scandinavian NLU
    <td class="sv la">72.30 ± 1.04 / 85.77 ± 0.65</td> <!-- ScaLA-sv -->
    <td class="sv qa">44.74 ± 1.04 / 50.62 ± 0.85</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">3=</td> <!-- Rank -->
    <td>NbAiLab/nb-roberta-base-scandi</td> <!-- Model ID -->
    <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
@@ -248,7 +252,7 @@ title: Mainland Scandinavian NLU
    <td class="sv la">71.92 ± 1.07 / 85.01 ± 0.74</td> <!-- ScaLA-sv -->
    <td class="sv qa">33.80 ± 0.78 / 38.58 ± 0.70</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">3=</td> <!-- Rank -->
    <td>intfloat/multilingual-e5-large</td> <!-- Model ID -->
    <td class="num_model_parameters">560</td> <!-- Number of trainable parameters -->
@@ -274,7 +278,7 @@ title: Mainland Scandinavian NLU
    <td class="sv la">63.15 ± 1.65 / 81.06 ± 0.95</td> <!-- ScaLA-sv -->
    <td class="sv qa">46.99 ± 1.18 / 53.49 ± 0.89</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">3=</td> <!-- Rank -->
    <td>NbAiLab/nb-roberta-base-scandi-1e4</td> <!-- Model ID -->
    <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
@@ -300,7 +304,7 @@ title: Mainland Scandinavian NLU
    <td class="sv la">73.62 ± 1.17 / 86.19 ± 0.80</td> <!-- ScaLA-sv -->
    <td class="sv qa">32.38 ± 1.23 / 37.12 ± 1.20</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">3=</td> <!-- Rank -->
    <td>ltg/norbert3-base</td> <!-- Model ID -->
    <td class="num_model_parameters">124</td> <!-- Number of trainable parameters -->
@@ -326,7 +330,7 @@ title: Mainland Scandinavian NLU
    <td class="sv la">56.02 ± 2.92 / 77.31 ± 1.61</td> <!-- ScaLA-sv -->
    <td class="sv qa">42.52 ± 1.02 / 47.31 ± 0.99</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">3=</td> <!-- Rank -->
    <td>KennethEnevoldsen/dfm-sentence-encoder-medium-3</td> <!-- Model ID -->
    <td class="num_model_parameters">178</td> <!-- Number of trainable parameters -->
@@ -352,7 +356,7 @@ title: Mainland Scandinavian NLU
    <td class="sv la">63.89 ± 1.18 / 81.45 ± 0.75</td> <!-- ScaLA-sv -->
    <td class="sv qa">37.18 ± 2.04 / 42.09 ± 2.23</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">3=</td> <!-- Rank -->
    <td>vesteinn/ScandiBERT-no-faroese</td> <!-- Model ID -->
    <td class="num_model_parameters">124</td> <!-- Number of trainable parameters -->
@@ -378,7 +382,7 @@ title: Mainland Scandinavian NLU
    <td class="sv la">73.01 ± 1.43 / 85.98 ± 0.81</td> <!-- ScaLA-sv -->
    <td class="sv qa">36.92 ± 2.25 / 41.99 ± 2.38</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">4=</td> <!-- Rank -->
    <td>sentence-transformers/use-cmlm-multilingual</td> <!-- Model ID -->
    <td class="num_model_parameters">471</td> <!-- Number of trainable parameters -->
@@ -404,7 +408,7 @@ title: Mainland Scandinavian NLU
    <td class="sv la">61.83 ± 1.28 / 79.96 ± 0.82</td> <!-- ScaLA-sv -->
    <td class="sv qa">45.69 ± 1.11 / 51.07 ± 1.04</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">4=</td> <!-- Rank -->
    <td>NbAiLab/nb-bert-base</td> <!-- Model ID -->
    <td class="num_model_parameters">178</td> <!-- Number of trainable parameters -->
@@ -430,7 +434,7 @@ title: Mainland Scandinavian NLU
    <td class="sv la">64.03 ± 1.94 / 81.39 ± 1.29</td> <!-- ScaLA-sv -->
    <td class="sv qa">35.33 ± 2.25 / 39.61 ± 2.31</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">4=</td> <!-- Rank -->
    <td>vesteinn/FoBERT</td> <!-- Model ID -->
    <td class="num_model_parameters">124</td> <!-- Number of trainable parameters -->
@@ -456,7 +460,7 @@ title: Mainland Scandinavian NLU
    <td class="sv la">71.14 ± 1.62 / 84.55 ± 0.97</td> <!-- ScaLA-sv -->
    <td class="sv qa">31.62 ± 1.35 / 36.20 ± 1.16</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">4=</td> <!-- Rank -->
    <td>xlm-roberta-large</td> <!-- Model ID -->
    <td class="num_model_parameters">560</td> <!-- Number of trainable parameters -->
@@ -482,7 +486,7 @@ title: Mainland Scandinavian NLU
    <td class="sv la">49.72 ± 19.88 / 69.94 ± 13.64</td> <!-- ScaLA-sv -->
    <td class="sv qa">46.64 ± 1.42 / 52.21 ± 1.45</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">4=</td> <!-- Rank -->
    <td>pere/roberta-debug-8</td> <!-- Model ID -->
    <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
@@ -508,7 +512,7 @@ title: Mainland Scandinavian NLU
    <td class="sv la">69.07 ± 2.22 / 83.17 ± 1.50</td> <!-- ScaLA-sv -->
    <td class="sv qa">31.66 ± 1.18 / 37.05 ± 1.10</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">4=</td> <!-- Rank -->
    <td>setu4993/LaBSE</td> <!-- Model ID -->
    <td class="num_model_parameters">471</td> <!-- Number of trainable parameters -->
@@ -534,7 +538,7 @@ title: Mainland Scandinavian NLU
    <td class="sv la">60.36 ± 2.98 / 79.72 ± 1.52</td> <!-- ScaLA-sv -->
    <td class="sv qa">41.71 ± 1.08 / 47.07 ± 0.98</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">5=</td> <!-- Rank -->
    <td>gpt-3.5-turbo-0613 (few-shot, val)</td> <!-- Model ID -->
    <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
@@ -560,7 +564,7 @@ title: Mainland Scandinavian NLU
    <td class="sv la">58.06 ± 3.84 / 76.06 ± 2.51</td> <!-- ScaLA-sv -->
    <td class="sv qa">57.59 ± 2.08 / 65.53 ± 1.76</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">5=</td> <!-- Rank -->
    <td>pere/roberta-base-exp-8</td> <!-- Model ID -->
    <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
@@ -586,7 +590,7 @@ title: Mainland Scandinavian NLU
    <td class="sv la">58.91 ± 17.49 / 77.13 ± 10.99</td> <!-- ScaLA-sv -->
    <td class="sv qa">32.39 ± 1.02 / 37.33 ± 0.86</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">5=</td> <!-- Rank -->
    <td>pere/roberta-debug-32</td> <!-- Model ID -->
    <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
@@ -612,7 +616,7 @@ title: Mainland Scandinavian NLU
    <td class="sv la">70.16 ± 1.47 / 84.29 ± 0.90</td> <!-- ScaLA-sv -->
    <td class="sv qa">31.89 ± 0.99 / 36.93 ± 0.90</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">5=</td> <!-- Rank -->
    <td>gpt-3.5-turbo-0613 (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
@@ -638,7 +642,7 @@ title: Mainland Scandinavian NLU
    <td class="sv la">55.99 ± 2.64 / 75.08 ± 2.22</td> <!-- ScaLA-sv -->
    <td class="sv qa">55.46 ± 0.90 / 64.95 ± 0.64</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">5=</td> <!-- Rank -->
    <td>pere/roberta-base-exp-32</td> <!-- Model ID -->
    <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
@@ -664,7 +668,7 @@ title: Mainland Scandinavian NLU
    <td class="sv la">53.55 ± 16.68 / 75.79 ± 8.05</td> <!-- ScaLA-sv -->
    <td class="sv qa">32.20 ± 0.86 / 36.88 ± 0.81</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">5=</td> <!-- Rank -->
    <td>AI-Sweden-Models/bert-large-nordic-pile-1M-steps</td> <!-- Model ID -->
    <td class="num_model_parameters">369</td> <!-- Number of trainable parameters -->
@@ -690,7 +694,7 @@ title: Mainland Scandinavian NLU
    <td class="sv la">76.56 ± 1.06 / 87.86 ± 0.70</td> <!-- ScaLA-sv -->
    <td class="sv qa">41.54 ± 1.50 / 46.79 ± 1.60</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">6=</td> <!-- Rank -->
    <td>pere/roberta-base-exp-32B</td> <!-- Model ID -->
    <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
@@ -716,7 +720,7 @@ title: Mainland Scandinavian NLU
    <td class="sv la">47.19 ± 16.37 / 72.10 ± 8.03</td> <!-- ScaLA-sv -->
    <td class="sv qa">31.07 ± 0.93 / 36.17 ± 0.73</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">6=</td> <!-- Rank -->
    <td>vesteinn/DanskBERT</td> <!-- Model ID -->
    <td class="num_model_parameters">124</td> <!-- Number of trainable parameters -->
@@ -742,7 +746,7 @@ title: Mainland Scandinavian NLU
    <td class="sv la">33.79 ± 7.61 / 64.01 ± 6.84</td> <!-- ScaLA-sv -->
    <td class="sv qa">32.71 ± 0.77 / 37.46 ± 0.64</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">6=</td> <!-- Rank -->
    <td>ltg/norbert3-small</td> <!-- Model ID -->
    <td class="num_model_parameters">41</td> <!-- Number of trainable parameters -->
@@ -768,7 +772,7 @@ title: Mainland Scandinavian NLU
    <td class="sv la">37.77 ± 5.16 / 65.87 ± 4.30</td> <!-- ScaLA-sv -->
    <td class="sv qa">31.45 ± 0.94 / 35.81 ± 0.94</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">6=</td> <!-- Rank -->
    <td>KBLab/megatron-bert-large-swedish-cased-165k</td> <!-- Model ID -->
    <td class="num_model_parameters">370</td> <!-- Number of trainable parameters -->
@@ -794,7 +798,7 @@ title: Mainland Scandinavian NLU
    <td class="sv la">76.79 ± 1.70 / 87.59 ± 1.06</td> <!-- ScaLA-sv -->
    <td class="sv qa">45.71 ± 1.09 / 51.70 ± 0.89</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">6=</td> <!-- Rank -->
    <td>AI-Nordics/bert-large-swedish-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">335</td> <!-- Number of trainable parameters -->
@@ -820,7 +824,7 @@ title: Mainland Scandinavian NLU
    <td class="sv la">72.87 ± 2.36 / 85.57 ± 1.43</td> <!-- ScaLA-sv -->
    <td class="sv qa">43.11 ± 0.99 / 49.29 ± 1.05</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">7=</td> <!-- Rank -->
    <td>cardiffnlp/twitter-xlm-roberta-base</td> <!-- Model ID -->
    <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
@@ -846,7 +850,7 @@ title: Mainland Scandinavian NLU
    <td class="sv la">56.60 ± 3.25 / 76.70 ± 2.48</td> <!-- ScaLA-sv -->
    <td class="sv qa">31.89 ± 1.88 / 37.63 ± 1.86</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">7=</td> <!-- Rank -->
    <td>KBLab/megatron-bert-large-swedish-cased-110k</td> <!-- Model ID -->
    <td class="num_model_parameters">370</td> <!-- Number of trainable parameters -->
@@ -872,7 +876,7 @@ title: Mainland Scandinavian NLU
    <td class="sv la">76.28 ± 1.86 / 87.37 ± 1.15</td> <!-- ScaLA-sv -->
    <td class="sv qa">44.56 ± 0.52 / 50.85 ± 0.56</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">8</td> <!-- Rank -->
    <td>bert-base-multilingual-uncased</td> <!-- Model ID -->
    <td class="num_model_parameters">167</td> <!-- Number of trainable parameters -->
@@ -898,7 +902,7 @@ title: Mainland Scandinavian NLU
    <td class="sv la">48.97 ± 1.14 / 73.78 ± 0.61</td> <!-- ScaLA-sv -->
    <td class="sv qa">38.00 ± 1.52 / 42.69 ± 1.62</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">9=</td> <!-- Rank -->
    <td>KB/bert-base-swedish-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">125</td> <!-- Number of trainable parameters -->
@@ -924,7 +928,7 @@ title: Mainland Scandinavian NLU
    <td class="sv la">78.86 ± 0.83 / 89.07 ± 0.50</td> <!-- ScaLA-sv -->
    <td class="sv qa">38.56 ± 1.53 / 43.79 ± 1.43</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">9=</td> <!-- Rank -->
    <td>KBLab/bert-base-swedish-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">125</td> <!-- Number of trainable parameters -->
@@ -950,7 +954,7 @@ title: Mainland Scandinavian NLU
    <td class="sv la">78.60 ± 0.98 / 88.95 ± 0.57</td> <!-- ScaLA-sv -->
    <td class="sv qa">38.56 ± 1.53 / 43.79 ± 1.43</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">9=</td> <!-- Rank -->
    <td>jonfd/electra-small-nordic</td> <!-- Model ID -->
    <td class="num_model_parameters">22</td> <!-- Number of trainable parameters -->
@@ -976,7 +980,7 @@ title: Mainland Scandinavian NLU
    <td class="sv la">69.19 ± 0.66 / 84.26 ± 0.36</td> <!-- ScaLA-sv -->
    <td class="sv qa">11.85 ± 4.94 / 13.02 ± 5.55</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">9=</td> <!-- Rank -->
    <td>bert-base-multilingual-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">178</td> <!-- Number of trainable parameters -->
@@ -1002,7 +1006,7 @@ title: Mainland Scandinavian NLU
    <td class="sv la">47.74 ± 7.69 / 72.98 ± 4.74</td> <!-- ScaLA-sv -->
    <td class="sv qa">41.17 ± 1.01 / 46.07 ± 1.12</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">9=</td> <!-- Rank -->
    <td>KBLab/megatron-bert-base-swedish-cased-600k</td> <!-- Model ID -->
    <td class="num_model_parameters">135</td> <!-- Number of trainable parameters -->
@@ -1028,7 +1032,7 @@ title: Mainland Scandinavian NLU
    <td class="sv la">70.08 ± 2.11 / 83.40 ± 1.46</td> <!-- ScaLA-sv -->
    <td class="sv qa">41.14 ± 1.18 / 47.18 ± 0.98</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">9=</td> <!-- Rank -->
    <td>Geotrend/bert-base-en-fr-de-no-da-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">118</td> <!-- Number of trainable parameters -->
@@ -1054,7 +1058,7 @@ title: Mainland Scandinavian NLU
    <td class="sv la">37.44 ± 6.65 / 66.67 ± 4.88</td> <!-- ScaLA-sv -->
    <td class="sv qa">39.32 ± 1.25 / 43.87 ± 1.29</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">9=</td> <!-- Rank -->
    <td>Geotrend/bert-base-en-no-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">111</td> <!-- Number of trainable parameters -->
@@ -1080,7 +1084,7 @@ title: Mainland Scandinavian NLU
    <td class="sv la">36.62 ± 5.98 / 66.91 ± 3.69</td> <!-- ScaLA-sv -->
    <td class="sv qa">39.95 ± 1.95 / 44.71 ± 1.99</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">9=</td> <!-- Rank -->
    <td>facebook/xlm-v-base</td> <!-- Model ID -->
    <td class="num_model_parameters">778</td> <!-- Number of trainable parameters -->
@@ -1106,7 +1110,7 @@ title: Mainland Scandinavian NLU
    <td class="sv la">45.09 ± 15.90 / 68.48 ± 11.31</td> <!-- ScaLA-sv -->
    <td class="sv qa">38.04 ± 2.09 / 43.73 ± 1.83</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">9=</td> <!-- Rank -->
    <td>Geotrend/bert-base-25lang-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">151</td> <!-- Number of trainable parameters -->
@@ -1132,7 +1136,7 @@ title: Mainland Scandinavian NLU
    <td class="sv la">38.18 ± 7.03 / 66.99 ± 4.92</td> <!-- ScaLA-sv -->
    <td class="sv qa">40.96 ± 1.11 / 45.91 ± 1.20</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">10</td> <!-- Rank -->
    <td>microsoft/infoxlm-large</td> <!-- Model ID -->
    <td class="num_model_parameters">560</td> <!-- Number of trainable parameters -->
@@ -1158,7 +1162,7 @@ title: Mainland Scandinavian NLU
    <td class="sv la">18.44 ± 10.88 / 53.57 ± 7.20</td> <!-- ScaLA-sv -->
    <td class="sv qa">48.19 ± 1.10 / 53.67 ± 0.81</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">11=</td> <!-- Rank -->
    <td>Geotrend/bert-base-en-da-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">111</td> <!-- Number of trainable parameters -->
@@ -1184,33 +1188,7 @@ title: Mainland Scandinavian NLU
    <td class="sv la">40.22 ± 2.03 / 68.89 ± 2.06</td> <!-- ScaLA-sv -->
    <td class="sv qa">39.95 ± 0.82 / 44.78 ± 0.99</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
-   <td class="rank">11=</td> <!-- Rank -->
-   <td>timpal0l/BeagleCatMunin (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">5,450 ± 1,274 / 1,138 ± 360</td> <!-- Model inference speed -->
-   <td class="score">47.01 ± 2.00</td> <!-- ScandEval score -->
-   <td class="da-score">45.64 ± 2.08</td> <!-- Danish score -->
-   <td class="no-score">41.59 ± 2.28</td> <!-- Norwegian score -->
-   <td class="sv-score">53.81 ± 1.64</td> <!-- Swedish score -->
-   <td class="da ner">48.35 ± 2.25 / 34.01 ± 2.00</td> <!-- DANSK -->
-   <td class="da sent">51.39 ± 1.20 / 67.12 ± 1.13</td> <!-- Angry Tweets -->
-   <td class="da la">24.33 ± 4.10 / 49.78 ± 3.94</td> <!-- ScaLA-da -->
-   <td class="da qa">58.47 ± 0.79 / 64.49 ± 0.56</td> <!-- ScandiQA-da -->
-   <td class="no ner">57.72 ± 1.71 / 48.96 ± 2.88</td> <!-- NorNE-nb -->
-   <td class="no ner">58.02 ± 1.77 / 47.49 ± 3.01</td> <!-- NorNE-nn -->
-   <td class="no sent">54.24 ± 2.07 / 68.77 ± 1.77</td> <!-- NoReC -->
-   <td class="no la">13.02 ± 2.31 / 38.70 ± 1.43</td> <!-- ScaLA-nb -->
-   <td class="no la">6.65 ± 2.00 / 38.43 ± 2.05</td> <!-- ScaLA-nn -->
-   <td class="no qa">44.40 ± 3.16 / 71.75 ± 3.08</td> <!-- NorQuAD -->
-   <td class="sv ner">50.72 ± 2.14 / 37.15 ± 3.81</td> <!-- SUC3 -->
-   <td class="sv sent">80.72 ± 0.73 / 80.40 ± 0.82</td> <!-- SweReC -->
-   <td class="sv la">25.63 ± 2.86 / 48.40 ± 2.95</td> <!-- ScaLA-sv -->
-   <td class="sv qa">58.16 ± 0.81 / 64.55 ± 0.70</td> <!-- ScandiQA-sv -->
-  </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">11=</td> <!-- Rank -->
    <td>Geotrend/bert-base-da-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">104</td> <!-- Number of trainable parameters -->
@@ -1236,7 +1214,7 @@ title: Mainland Scandinavian NLU
    <td class="sv la">36.93 ± 6.47 / 65.97 ± 6.05</td> <!-- ScaLA-sv -->
    <td class="sv qa">37.59 ± 1.99 / 41.94 ± 2.23</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">12</td> <!-- Rank -->
    <td>microsoft/xlm-align-base</td> <!-- Model ID -->
    <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
@@ -1262,7 +1240,7 @@ title: Mainland Scandinavian NLU
    <td class="sv la">15.41 ± 4.59 / 53.29 ± 3.93</td> <!-- ScaLA-sv -->
    <td class="sv qa">32.41 ± 3.14 / 37.13 ± 3.07</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">13=</td> <!-- Rank -->
    <td>KBLab/megatron-bert-base-swedish-cased-125k</td> <!-- Model ID -->
    <td class="num_model_parameters">135</td> <!-- Number of trainable parameters -->
@@ -1288,60 +1266,8 @@ title: Mainland Scandinavian NLU
    <td class="sv la">70.43 ± 1.03 / 83.85 ± 0.65</td> <!-- ScaLA-sv -->
    <td class="sv qa">37.56 ± 0.64 / 44.01 ± 0.43</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">13=</td> <!-- Rank -->
-   <td>RJuro/munin-neuralbeagle-7b (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">2,499 ± 461 / 783 ± 246</td> <!-- Model inference speed -->
-   <td class="score">45.88 ± 2.24</td> <!-- ScandEval score -->
-   <td class="da-score">44.21 ± 2.05</td> <!-- Danish score -->
-   <td class="no-score">41.37 ± 2.10</td> <!-- Norwegian score -->
-   <td class="sv-score">52.06 ± 2.58</td> <!-- Swedish score -->
-   <td class="da ner">49.85 ± 1.80 / 35.27 ± 2.14</td> <!-- DANSK -->
-   <td class="da sent">50.81 ± 1.92 / 65.66 ± 1.89</td> <!-- Angry Tweets -->
-   <td class="da la">24.76 ± 2.82 / 52.04 ± 3.56</td> <!-- ScaLA-da -->
-   <td class="da qa">51.43 ± 1.67 / 58.69 ± 1.67</td> <!-- ScandiQA-da -->
-   <td class="no ner">61.90 ± 1.87 / 52.45 ± 3.21</td> <!-- NorNE-nb -->
-   <td class="no ner">62.27 ± 1.13 / 51.67 ± 2.50</td> <!-- NorNE-nn -->
-   <td class="no sent">54.72 ± 2.28 / 69.86 ± 1.96</td> <!-- NoReC -->
-   <td class="no la">18.90 ± 3.47 / 46.97 ± 4.19</td> <!-- ScaLA-nb -->
-   <td class="no la">8.64 ± 2.17 / 43.63 ± 3.75</td> <!-- ScaLA-nn -->
-   <td class="no qa">34.91 ± 1.81 / 62.20 ± 2.27</td> <!-- NorQuAD -->
-   <td class="sv ner">58.18 ± 1.84 / 44.22 ± 4.04</td> <!-- SUC3 -->
-   <td class="sv sent">79.42 ± 0.95 / 79.12 ± 1.07</td> <!-- SweReC -->
-   <td class="sv la">19.92 ± 4.12 / 47.58 ± 4.18</td> <!-- ScaLA-sv -->
-   <td class="sv qa">50.72 ± 3.41 / 58.38 ± 3.43</td> <!-- ScandiQA-sv -->
-  </tr>
-  <tr>
-   <td class="rank">14</td> <!-- Rank -->
-   <td>timpal0l/BeagleCatMunin2 (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">8,751 ± 1,704 / 1,708 ± 451</td> <!-- Model inference speed -->
-   <td class="score">45.37 ± 1.89</td> <!-- ScandEval score -->
-   <td class="da-score">41.40 ± 1.96</td> <!-- Danish score -->
-   <td class="no-score">44.34 ± 2.33</td> <!-- Norwegian score -->
-   <td class="sv-score">50.38 ± 1.37</td> <!-- Swedish score -->
-   <td class="da ner">51.59 ± 1.65 / 36.33 ± 1.66</td> <!-- DANSK -->
-   <td class="da sent">43.33 ± 2.08 / 51.63 ± 3.23</td> <!-- Angry Tweets -->
-   <td class="da la">12.46 ± 3.56 / 38.97 ± 2.23</td> <!-- ScaLA-da -->
-   <td class="da qa">58.23 ± 0.54 / 64.61 ± 0.34</td> <!-- ScandiQA-da -->
-   <td class="no ner">64.32 ± 1.60 / 54.76 ± 2.93</td> <!-- NorNE-nb -->
-   <td class="no ner">63.53 ± 0.90 / 52.84 ± 3.11</td> <!-- NorNE-nn -->
-   <td class="no sent">57.63 ± 2.09 / 71.78 ± 1.61</td> <!-- NoReC -->
-   <td class="no la">12.49 ± 2.70 / 38.46 ± 1.77</td> <!-- ScaLA-nb -->
-   <td class="no la">7.85 ± 2.36 / 40.51 ± 2.64</td> <!-- ScaLA-nn -->
-   <td class="no qa">45.63 ± 3.45 / 73.06 ± 3.34</td> <!-- NorQuAD -->
-   <td class="sv ner">58.51 ± 2.04 / 44.24 ± 4.18</td> <!-- SUC3 -->
-   <td class="sv sent">77.86 ± 0.75 / 70.78 ± 2.17</td> <!-- SweReC -->
-   <td class="sv la">6.76 ± 1.59 / 35.12 ± 0.79</td> <!-- ScaLA-sv -->
-   <td class="sv qa">58.38 ± 1.11 / 65.30 ± 0.77</td> <!-- ScandiQA-sv -->
-  </tr>
-  <tr>
-   <td class="rank">15=</td> <!-- Rank -->
    <td>jhu-clsp/bernice</td> <!-- Model ID -->
    <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
@@ -1366,8 +1292,8 @@ title: Mainland Scandinavian NLU
    <td class="sv la">53.52 ± 1.22 / 76.15 ± 0.53</td> <!-- ScaLA-sv -->
    <td class="sv qa">16.41 ± 4.10 / 18.47 ± 4.44</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
-   <td class="rank">15=</td> <!-- Rank -->
+  <tr class="not-merged-model">
+   <td class="rank">14</td> <!-- Rank -->
    <td>flax-community/nordic-roberta-wiki</td> <!-- Model ID -->
    <td class="num_model_parameters">125</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
@@ -1392,7 +1318,7 @@ title: Mainland Scandinavian NLU
    <td class="sv la">55.05 ± 1.64 / 76.76 ± 0.93</td> <!-- ScaLA-sv -->
    <td class="sv qa">29.04 ± 1.16 / 33.60 ± 1.06</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">15=</td> <!-- Rank -->
    <td>microsoft/infoxlm-base</td> <!-- Model ID -->
    <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
@@ -1418,34 +1344,8 @@ title: Mainland Scandinavian NLU
    <td class="sv la">7.26 ± 2.18 / 45.42 ± 4.53</td> <!-- ScaLA-sv -->
    <td class="sv qa">33.72 ± 1.71 / 38.23 ± 1.57</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
-   <td class="rank">16=</td> <!-- Rank -->
-   <td>birgermoell/Munin-NeuralBeagle-NorskGPT (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">2,367 ± 442 / 734 ± 229</td> <!-- Model inference speed -->
-   <td class="score">44.60 ± 1.75</td> <!-- ScandEval score -->
-   <td class="da-score">38.93 ± 1.44</td> <!-- Danish score -->
-   <td class="no-score">45.61 ± 2.35</td> <!-- Norwegian score -->
-   <td class="sv-score">49.26 ± 1.47</td> <!-- Swedish score -->
-   <td class="da ner">52.36 ± 1.61 / 35.49 ± 1.72</td> <!-- DANSK -->
-   <td class="da sent">40.15 ± 1.06 / 44.53 ± 1.14</td> <!-- Angry Tweets -->
-   <td class="da la">5.18 ± 2.38 / 35.00 ± 1.16</td> <!-- ScaLA-da -->
-   <td class="da qa">58.04 ± 0.73 / 64.67 ± 0.48</td> <!-- ScandiQA-da -->
-   <td class="no ner">65.80 ± 1.97 / 52.81 ± 3.24</td> <!-- NorNE-nb -->
-   <td class="no ner">63.92 ± 0.90 / 50.28 ± 3.66</td> <!-- NorNE-nn -->
-   <td class="no sent">57.24 ± 2.03 / 71.11 ± 1.58</td> <!-- NoReC -->
-   <td class="no la">15.72 ± 2.41 / 43.12 ± 1.77</td> <!-- ScaLA-nb -->
-   <td class="no la">10.40 ± 1.95 / 44.84 ± 3.03</td> <!-- ScaLA-nn -->
-   <td class="no qa">47.29 ± 3.75 / 73.82 ± 3.54</td> <!-- NorQuAD -->
-   <td class="sv ner">59.84 ± 2.43 / 43.38 ± 4.12</td> <!-- SUC3 -->
-   <td class="sv sent">76.20 ± 0.99 / 64.16 ± 1.55</td> <!-- SweReC -->
-   <td class="sv la">2.49 ± 1.31 / 33.74 ± 0.35</td> <!-- ScaLA-sv -->
-   <td class="sv qa">58.50 ± 1.13 / 65.60 ± 0.83</td> <!-- ScandiQA-sv -->
-  </tr>
-  <tr>
-   <td class="rank">16=</td> <!-- Rank -->
+  <tr class="not-merged-model">
+   <td class="rank">15=</td> <!-- Rank -->
    <td>KBLab/bert-base-swedish-cased-new</td> <!-- Model ID -->
    <td class="num_model_parameters">135</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
@@ -1470,34 +1370,8 @@ title: Mainland Scandinavian NLU
    <td class="sv la">73.52 ± 2.31 / 85.57 ± 1.53</td> <!-- ScaLA-sv -->
    <td class="sv qa">30.60 ± 1.30 / 35.83 ± 1.02</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
-   <td class="rank">16=</td> <!-- Rank -->
-   <td>mlabonne/NeuralBeagle14-7B (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">3,065 ± 472 / 1,055 ± 321</td> <!-- Model inference speed -->
-   <td class="score">44.19 ± 1.87</td> <!-- ScandEval score -->
-   <td class="da-score">42.50 ± 1.71</td> <!-- Danish score -->
-   <td class="no-score">39.66 ± 1.96</td> <!-- Norwegian score -->
-   <td class="sv-score">50.41 ± 1.93</td> <!-- Swedish score -->
-   <td class="da ner">51.47 ± 1.90 / 34.70 ± 2.73</td> <!-- DANSK -->
-   <td class="da sent">50.02 ± 1.28 / 66.53 ± 1.04</td> <!-- Angry Tweets -->
-   <td class="da la">21.10 ± 2.04 / 56.07 ± 2.28</td> <!-- ScaLA-da -->
-   <td class="da qa">47.41 ± 1.64 / 57.80 ± 0.82</td> <!-- ScandiQA-da -->
-   <td class="no ner">62.31 ± 2.15 / 54.43 ± 2.27</td> <!-- NorNE-nb -->
-   <td class="no ner">62.81 ± 1.13 / 53.57 ± 2.55</td> <!-- NorNE-nn -->
-   <td class="no sent">53.12 ± 2.72 / 67.77 ± 2.14</td> <!-- NoReC -->
-   <td class="no la">14.66 ± 2.60 / 48.02 ± 3.36</td> <!-- ScaLA-nb -->
-   <td class="no la">10.88 ± 1.17 / 48.34 ± 2.45</td> <!-- ScaLA-nn -->
-   <td class="no qa">30.20 ± 1.60 / 62.49 ± 1.70</td> <!-- NorQuAD -->
-   <td class="sv ner">58.85 ± 1.71 / 44.79 ± 4.55</td> <!-- SUC3 -->
-   <td class="sv sent">76.52 ± 0.71 / 77.39 ± 0.70</td> <!-- SweReC -->
-   <td class="sv la">18.63 ± 3.14 / 49.89 ± 3.46</td> <!-- ScaLA-sv -->
-   <td class="sv qa">47.63 ± 2.16 / 58.70 ± 0.80</td> <!-- ScandiQA-sv -->
-  </tr>
-  <tr>
-   <td class="rank">17=</td> <!-- Rank -->
+  <tr class="not-merged-model">
+   <td class="rank">15=</td> <!-- Rank -->
    <td>clips/mfaq</td> <!-- Model ID -->
    <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
@@ -1522,8 +1396,8 @@ title: Mainland Scandinavian NLU
    <td class="sv la">32.29 ± 10.98 / 62.21 ± 5.02</td> <!-- ScaLA-sv -->
    <td class="sv qa">16.12 ± 5.80 / 19.52 ± 6.73</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
-   <td class="rank">17=</td> <!-- Rank -->
+  <tr class="not-merged-model">
+   <td class="rank">16=</td> <!-- Rank -->
    <td>sentence-transformers/paraphrase-xlm-r-multilingual-v1</td> <!-- Model ID -->
    <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
@@ -1548,8 +1422,8 @@ title: Mainland Scandinavian NLU
    <td class="sv la">39.60 ± 5.87 / 66.60 ± 3.19</td> <!-- ScaLA-sv -->
    <td class="sv qa">18.65 ± 1.15 / 24.75 ± 0.98</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
-   <td class="rank">18</td> <!-- Rank -->
+  <tr class="not-merged-model">
+   <td class="rank">16=</td> <!-- Rank -->
    <td>flax-community/swe-roberta-wiki-oscar</td> <!-- Model ID -->
    <td class="num_model_parameters">125</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
@@ -1574,8 +1448,8 @@ title: Mainland Scandinavian NLU
    <td class="sv la">65.73 ± 1.73 / 81.50 ± 1.14</td> <!-- ScaLA-sv -->
    <td class="sv qa">29.34 ± 1.44 / 34.01 ± 1.50</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
-   <td class="rank">19</td> <!-- Rank -->
+  <tr class="not-merged-model">
+   <td class="rank">16=</td> <!-- Rank -->
    <td>bineric/NorskGPT-Mistral-7b (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -1600,8 +1474,8 @@ title: Mainland Scandinavian NLU
    <td class="sv la">0.00 ± 0.00 / 33.37 ± 0.27</td> <!-- ScaLA-sv -->
    <td class="sv qa">59.13 ± 1.18 / 65.74 ± 0.69</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
-   <td class="rank">20=</td> <!-- Rank -->
+  <tr class="not-merged-model">
+   <td class="rank">16=</td> <!-- Rank -->
    <td>distilbert-base-multilingual-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">135</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">120</td> <!-- Size of the model's vocabulary -->
@@ -1626,8 +1500,8 @@ title: Mainland Scandinavian NLU
    <td class="sv la">33.71 ± 1.12 / 65.32 ± 0.86</td> <!-- ScaLA-sv -->
    <td class="sv qa">31.48 ± 1.85 / 36.44 ± 1.87</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
-   <td class="rank">20=</td> <!-- Rank -->
+  <tr class="not-merged-model">
+   <td class="rank">16=</td> <!-- Rank -->
    <td>sentence-transformers/paraphrase-multilingual-mpnet-base-v2</td> <!-- Model ID -->
    <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
@@ -1652,8 +1526,8 @@ title: Mainland Scandinavian NLU
    <td class="sv la">36.62 ± 6.55 / 66.09 ± 5.35</td> <!-- ScaLA-sv -->
    <td class="sv qa">18.65 ± 0.91 / 25.00 ± 0.87</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
-   <td class="rank">20=</td> <!-- Rank -->
+  <tr class="not-merged-model">
+   <td class="rank">16=</td> <!-- Rank -->
    <td>sentence-transformers/stsb-xlm-r-multilingual</td> <!-- Model ID -->
    <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
@@ -1678,8 +1552,8 @@ title: Mainland Scandinavian NLU
    <td class="sv la">40.21 ± 2.53 / 67.11 ± 1.86</td> <!-- ScaLA-sv -->
    <td class="sv qa">20.09 ± 1.31 / 25.99 ± 1.19</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
-   <td class="rank">20=</td> <!-- Rank -->
+  <tr class="not-merged-model">
+   <td class="rank">16=</td> <!-- Rank -->
    <td>timpal0l/Mistral-7B-v0.1-flashback-v2 (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -1704,8 +1578,8 @@ title: Mainland Scandinavian NLU
    <td class="sv la">34.80 ± 2.22 / 65.44 ± 2.16</td> <!-- ScaLA-sv -->
    <td class="sv qa">51.82 ± 3.03 / 57.01 ± 2.99</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
-   <td class="rank">20=</td> <!-- Rank -->
+  <tr class="not-merged-model">
+   <td class="rank">17</td> <!-- Rank -->
    <td>DDSC/roberta-base-scandinavian</td> <!-- Model ID -->
    <td class="num_model_parameters">125</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
@@ -1730,8 +1604,8 @@ title: Mainland Scandinavian NLU
    <td class="sv la">37.61 ± 17.89 / 66.93 ± 9.43</td> <!-- ScaLA-sv -->
    <td class="sv qa">30.59 ± 0.68 / 35.43 ± 0.61</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
-   <td class="rank">20=</td> <!-- Rank -->
+  <tr class="not-merged-model">
+   <td class="rank">18=</td> <!-- Rank -->
    <td>Geotrend/distilbert-base-25lang-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">109</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">85</td> <!-- Size of the model's vocabulary -->
@@ -1756,8 +1630,8 @@ title: Mainland Scandinavian NLU
    <td class="sv la">30.83 ± 1.47 / 63.39 ± 1.60</td> <!-- ScaLA-sv -->
    <td class="sv qa">31.41 ± 1.05 / 36.45 ± 1.05</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
-   <td class="rank">20=</td> <!-- Rank -->
+  <tr class="not-merged-model">
+   <td class="rank">18=</td> <!-- Rank -->
    <td>Geotrend/distilbert-base-en-fr-de-no-da-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">76</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">42</td> <!-- Size of the model's vocabulary -->
@@ -1782,8 +1656,8 @@ title: Mainland Scandinavian NLU
    <td class="sv la">29.82 ± 1.23 / 63.32 ± 1.41</td> <!-- ScaLA-sv -->
    <td class="sv qa">31.13 ± 1.15 / 36.20 ± 1.22</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
-   <td class="rank">20=</td> <!-- Rank -->
+  <tr class="not-merged-model">
+   <td class="rank">18=</td> <!-- Rank -->
    <td>Geotrend/distilbert-base-en-no-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">69</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">33</td> <!-- Size of the model's vocabulary -->
@@ -1808,8 +1682,8 @@ title: Mainland Scandinavian NLU
    <td class="sv la">29.36 ± 1.50 / 63.60 ± 0.89</td> <!-- ScaLA-sv -->
    <td class="sv qa">30.42 ± 1.54 / 35.34 ± 1.63</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
-   <td class="rank">20=</td> <!-- Rank -->
+  <tr class="not-merged-model">
+   <td class="rank">18=</td> <!-- Rank -->
    <td>Geotrend/distilbert-base-en-da-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">69</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">33</td> <!-- Size of the model's vocabulary -->
@@ -1834,8 +1708,8 @@ title: Mainland Scandinavian NLU
    <td class="sv la">29.01 ± 2.06 / 62.65 ± 1.37</td> <!-- ScaLA-sv -->
    <td class="sv qa">31.82 ± 1.07 / 36.82 ± 1.14</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
-   <td class="rank">20=</td> <!-- Rank -->
+  <tr class="not-merged-model">
+   <td class="rank">18=</td> <!-- Rank -->
    <td>Geotrend/distilbert-base-da-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">61</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">23</td> <!-- Size of the model's vocabulary -->
@@ -1860,8 +1734,8 @@ title: Mainland Scandinavian NLU
    <td class="sv la">29.80 ± 1.57 / 63.53 ± 0.90</td> <!-- ScaLA-sv -->
    <td class="sv qa">30.61 ± 1.31 / 35.37 ± 1.52</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
-   <td class="rank">21=</td> <!-- Rank -->
+  <tr class="not-merged-model">
+   <td class="rank">19=</td> <!-- Rank -->
    <td>sarnikowski/convbert-medium-small-da-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">24</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">29</td> <!-- Size of the model's vocabulary -->
@@ -1886,8 +1760,8 @@ title: Mainland Scandinavian NLU
    <td class="sv la">13.40 ± 4.31 / 55.37 ± 2.61</td> <!-- ScaLA-sv -->
    <td class="sv qa">24.92 ± 0.80 / 30.11 ± 0.83</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
-   <td class="rank">21=</td> <!-- Rank -->
+  <tr class="not-merged-model">
+   <td class="rank">19=</td> <!-- Rank -->
    <td>Addedk/kbbert-distilled-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">82</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
@@ -1912,8 +1786,8 @@ title: Mainland Scandinavian NLU
    <td class="sv la">51.58 ± 2.89 / 73.82 ± 2.21</td> <!-- ScaLA-sv -->
    <td class="sv qa">28.16 ± 0.76 / 33.47 ± 0.62</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
-   <td class="rank">21=</td> <!-- Rank -->
+  <tr class="not-merged-model">
+   <td class="rank">19=</td> <!-- Rank -->
    <td>Twitter/twhin-bert-large</td> <!-- Model ID -->
    <td class="num_model_parameters">561</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
@@ -1938,8 +1812,8 @@ title: Mainland Scandinavian NLU
    <td class="sv la">16.07 ± 10.73 / 52.48 ± 7.50</td> <!-- ScaLA-sv -->
    <td class="sv qa">36.77 ± 3.78 / 41.72 ± 3.83</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
-   <td class="rank">22=</td> <!-- Rank -->
+  <tr class="not-merged-model">
+   <td class="rank">20=</td> <!-- Rank -->
    <td>mistralai/Mistral-7B-Instruct-v0.1 (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -1964,8 +1838,8 @@ title: Mainland Scandinavian NLU
    <td class="sv la">11.59 ± 3.45 / 40.89 ± 4.15</td> <!-- ScaLA-sv -->
    <td class="sv qa">52.05 ± 1.44 / 59.27 ± 1.12</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
-   <td class="rank">22=</td> <!-- Rank -->
+  <tr class="not-merged-model">
+   <td class="rank">20=</td> <!-- Rank -->
    <td>sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2</td> <!-- Model ID -->
    <td class="num_model_parameters">118</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
@@ -1990,8 +1864,8 @@ title: Mainland Scandinavian NLU
    <td class="sv la">28.75 ± 5.58 / 63.30 ± 2.60</td> <!-- ScaLA-sv -->
    <td class="sv qa">15.91 ± 0.87 / 23.08 ± 0.95</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
-   <td class="rank">22=</td> <!-- Rank -->
+  <tr class="not-merged-model">
+   <td class="rank">20=</td> <!-- Rank -->
    <td>mistralai/Mistral-7B-v0.1 (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -2016,8 +1890,8 @@ title: Mainland Scandinavian NLU
    <td class="sv la">4.61 ± 2.18 / 34.51 ± 0.86</td> <!-- ScaLA-sv -->
    <td class="sv qa">48.43 ± 4.69 / 54.33 ± 4.56</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
-   <td class="rank">22=</td> <!-- Rank -->
+  <tr class="not-merged-model">
+   <td class="rank">20=</td> <!-- Rank -->
    <td>neph1/bellman-7b-mistral-instruct-v0.2 (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -2042,8 +1916,8 @@ title: Mainland Scandinavian NLU
    <td class="sv la">16.05 ± 2.15 / 54.22 ± 2.86</td> <!-- ScaLA-sv -->
    <td class="sv qa">48.44 ± 1.45 / 57.11 ± 1.41</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
-   <td class="rank">22=</td> <!-- Rank -->
+  <tr class="not-merged-model">
+   <td class="rank">20=</td> <!-- Rank -->
    <td>danish-foundation-models/encoder-medium-v1</td> <!-- Model ID -->
    <td class="num_model_parameters">111</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -2068,8 +1942,8 @@ title: Mainland Scandinavian NLU
    <td class="sv la">2.23 ± 2.12 / 46.43 ± 4.85</td> <!-- ScaLA-sv -->
    <td class="sv qa">25.45 ± 0.75 / 30.80 ± 0.81</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
-   <td class="rank">23</td> <!-- Rank -->
+  <tr class="not-merged-model">
+   <td class="rank">21</td> <!-- Rank -->
    <td>Addedk/mbert-swedish-distilled-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">135</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">120</td> <!-- Size of the model's vocabulary -->
@@ -2094,8 +1968,8 @@ title: Mainland Scandinavian NLU
    <td class="sv la">34.86 ± 1.29 / 66.98 ± 0.77</td> <!-- ScaLA-sv -->
    <td class="sv qa">18.10 ± 2.67 / 21.09 ± 3.18</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
-   <td class="rank">24=</td> <!-- Rank -->
+  <tr class="not-merged-model">
+   <td class="rank">22=</td> <!-- Rank -->
    <td>jannikskytt/MeDa-Bert</td> <!-- Model ID -->
    <td class="num_model_parameters">111</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -2120,8 +1994,8 @@ title: Mainland Scandinavian NLU
    <td class="sv la">3.33 ± 2.12 / 51.06 ± 1.15</td> <!-- ScaLA-sv -->
    <td class="sv qa">23.15 ± 2.61 / 29.17 ± 2.19</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
-   <td class="rank">24=</td> <!-- Rank -->
+  <tr class="not-merged-model">
+   <td class="rank">22=</td> <!-- Rank -->
    <td>sarnikowski/electra-small-discriminator-da-256-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">13</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">29</td> <!-- Size of the model's vocabulary -->
@@ -2146,8 +2020,8 @@ title: Mainland Scandinavian NLU
    <td class="sv la">14.72 ± 2.01 / 55.92 ± 1.11</td> <!-- ScaLA-sv -->
    <td class="sv qa">20.54 ± 0.97 / 26.37 ± 0.75</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
-   <td class="rank">24=</td> <!-- Rank -->
+  <tr class="not-merged-model">
+   <td class="rank">22=</td> <!-- Rank -->
    <td>birgermoell/roberta-swedish-scandi</td> <!-- Model ID -->
    <td class="num_model_parameters">125</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
@@ -2172,8 +2046,8 @@ title: Mainland Scandinavian NLU
    <td class="sv la">52.88 ± 14.23 / 75.25 ± 7.45</td> <!-- ScaLA-sv -->
    <td class="sv qa">27.99 ± 1.23 / 32.49 ± 1.27</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
-   <td class="rank">24=</td> <!-- Rank -->
+  <tr class="not-merged-model">
+   <td class="rank">22=</td> <!-- Rank -->
    <td>Maltehb/danish-bert-botxo</td> <!-- Model ID -->
    <td class="num_model_parameters">111</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -2198,8 +2072,8 @@ title: Mainland Scandinavian NLU
    <td class="sv la">4.94 ± 1.62 / 51.57 ± 1.19</td> <!-- ScaLA-sv -->
    <td class="sv qa">24.16 ± 1.28 / 30.28 ± 1.18</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
-   <td class="rank">24=</td> <!-- Rank -->
+  <tr class="not-merged-model">
+   <td class="rank">22=</td> <!-- Rank -->
    <td>sarnikowski/convbert-small-da-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">13</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">29</td> <!-- Size of the model's vocabulary -->
@@ -2224,8 +2098,8 @@ title: Mainland Scandinavian NLU
    <td class="sv la">12.38 ± 3.23 / 55.18 ± 1.91</td> <!-- ScaLA-sv -->
    <td class="sv qa">22.53 ± 0.86 / 27.59 ± 0.94</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
-   <td class="rank">25=</td> <!-- Rank -->
+  <tr class="not-merged-model">
+   <td class="rank">23=</td> <!-- Rank -->
    <td>ltg/norbert3-xs</td> <!-- Model ID -->
    <td class="num_model_parameters">15</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
@@ -2250,8 +2124,8 @@ title: Mainland Scandinavian NLU
    <td class="sv la">2.83 ± 2.01 / 49.25 ± 1.48</td> <!-- ScaLA-sv -->
    <td class="sv qa">24.11 ± 2.76 / 27.79 ± 2.63</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
-   <td class="rank">25=</td> <!-- Rank -->
+  <tr class="not-merged-model">
+   <td class="rank">23=</td> <!-- Rank -->
    <td>DDSC/roberta-base-danish</td> <!-- Model ID -->
    <td class="num_model_parameters">125</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
@@ -2276,8 +2150,8 @@ title: Mainland Scandinavian NLU
    <td class="sv la">0.80 ± 0.78 / 47.24 ± 3.43</td> <!-- ScaLA-sv -->
    <td class="sv qa">28.46 ± 0.90 / 33.13 ± 0.88</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
-   <td class="rank">25=</td> <!-- Rank -->
+  <tr class="not-merged-model">
+   <td class="rank">23=</td> <!-- Rank -->
    <td>meta-llama/Llama-2-7b-chat-hf (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">6738</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -2302,8 +2176,8 @@ title: Mainland Scandinavian NLU
    <td class="sv la">6.74 ± 1.66 / 45.55 ± 4.31</td> <!-- ScaLA-sv -->
    <td class="sv qa">54.07 ± 0.84 / 60.93 ± 0.80</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
-   <td class="rank">25=</td> <!-- Rank -->
+  <tr class="not-merged-model">
+   <td class="rank">23=</td> <!-- Rank -->
    <td>Maltehb/aelaectra-danish-electra-small-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">14</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -2328,8 +2202,8 @@ title: Mainland Scandinavian NLU
    <td class="sv la">19.26 ± 1.80 / 58.62 ± 1.22</td> <!-- ScaLA-sv -->
    <td class="sv qa">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
-   <td class="rank">26=</td> <!-- Rank -->
+  <tr class="not-merged-model">
+   <td class="rank">24=</td> <!-- Rank -->
    <td>danish-foundation-models/munin-7b-alpha (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -2354,8 +2228,8 @@ title: Mainland Scandinavian NLU
    <td class="sv la">15.77 ± 1.64 / 54.44 ± 3.29</td> <!-- ScaLA-sv -->
    <td class="sv qa">39.62 ± 4.78 / 45.18 ± 4.72</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
-   <td class="rank">26=</td> <!-- Rank -->
+  <tr class="not-merged-model">
+   <td class="rank">24=</td> <!-- Rank -->
    <td>dbmdz/bert-base-historic-multilingual-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">111</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -2380,8 +2254,8 @@ title: Mainland Scandinavian NLU
    <td class="sv la">28.62 ± 9.43 / 59.33 ± 5.91</td> <!-- ScaLA-sv -->
    <td class="sv qa">28.78 ± 2.01 / 34.26 ± 2.03</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
-   <td class="rank">26=</td> <!-- Rank -->
+  <tr class="not-merged-model">
+   <td class="rank">24=</td> <!-- Rank -->
    <td>sentence-transformers/distilbert-multilingual-nli-stsb-quora-ranking</td> <!-- Model ID -->
    <td class="num_model_parameters">135</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">120</td> <!-- Size of the model's vocabulary -->
@@ -2406,8 +2280,8 @@ title: Mainland Scandinavian NLU
    <td class="sv la">14.81 ± 6.63 / 55.50 ± 4.28</td> <!-- ScaLA-sv -->
    <td class="sv qa">16.11 ± 1.18 / 22.88 ± 1.34</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
-   <td class="rank">26=</td> <!-- Rank -->
+  <tr class="not-merged-model">
+   <td class="rank">24=</td> <!-- Rank -->
    <td>sentence-transformers/quora-distilbert-multilingual</td> <!-- Model ID -->
    <td class="num_model_parameters">135</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">120</td> <!-- Size of the model's vocabulary -->
@@ -2432,8 +2306,8 @@ title: Mainland Scandinavian NLU
    <td class="sv la">14.81 ± 6.63 / 55.50 ± 4.28</td> <!-- ScaLA-sv -->
    <td class="sv qa">16.11 ± 1.18 / 22.88 ± 1.34</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
-   <td class="rank">26=</td> <!-- Rank -->
+  <tr class="not-merged-model">
+   <td class="rank">24=</td> <!-- Rank -->
    <td>dbmdz/bert-medium-historic-multilingual-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">42</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -2458,8 +2332,8 @@ title: Mainland Scandinavian NLU
    <td class="sv la">26.28 ± 8.44 / 59.64 ± 5.68</td> <!-- ScaLA-sv -->
    <td class="sv qa">24.36 ± 0.92 / 30.54 ± 0.96</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
-   <td class="rank">26=</td> <!-- Rank -->
+  <tr class="not-merged-model">
+   <td class="rank">24=</td> <!-- Rank -->
    <td>meta-llama/Llama-2-7b-hf (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">6738</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -2484,8 +2358,8 @@ title: Mainland Scandinavian NLU
    <td class="sv la">7.34 ± 3.19 / 43.83 ± 5.31</td> <!-- ScaLA-sv -->
    <td class="sv qa">43.42 ± 4.19 / 49.62 ± 4.21</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
-   <td class="rank">26=</td> <!-- Rank -->
+  <tr class="not-merged-model">
+   <td class="rank">24=</td> <!-- Rank -->
    <td>Maltehb/aelaectra-danish-electra-small-uncased</td> <!-- Model ID -->
    <td class="num_model_parameters">14</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -2510,8 +2384,8 @@ title: Mainland Scandinavian NLU
    <td class="sv la">17.10 ± 2.57 / 57.41 ± 1.03</td> <!-- ScaLA-sv -->
    <td class="sv qa">0.11 ± 0.11 / 0.13 ± 0.12</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
-   <td class="rank">27</td> <!-- Rank -->
+  <tr class="not-merged-model">
+   <td class="rank">25</td> <!-- Rank -->
    <td>Rijgersberg/GEITje-7B (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -2536,8 +2410,8 @@ title: Mainland Scandinavian NLU
    <td class="sv la">-0.21 ± 0.42 / 33.36 ± 0.26</td> <!-- ScaLA-sv -->
    <td class="sv qa">52.58 ± 1.46 / 57.71 ± 1.17</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
-   <td class="rank">28</td> <!-- Rank -->
+  <tr class="not-merged-model">
+   <td class="rank">26</td> <!-- Rank -->
    <td>jjzha/dajobbert-base-uncased</td> <!-- Model ID -->
    <td class="num_model_parameters">110</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -2562,8 +2436,8 @@ title: Mainland Scandinavian NLU
    <td class="sv la">4.69 ± 2.28 / 51.01 ± 1.58</td> <!-- ScaLA-sv -->
    <td class="sv qa">14.22 ± 1.90 / 20.83 ± 1.46</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
-   <td class="rank">29=</td> <!-- Rank -->
+  <tr class="not-merged-model">
+   <td class="rank">27=</td> <!-- Rank -->
    <td>AI-Sweden-Models/gpt-sw3-6.7b-v2 (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7111</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
@@ -2588,8 +2462,8 @@ title: Mainland Scandinavian NLU
    <td class="sv la">8.78 ± 2.01 / 42.28 ± 3.17</td> <!-- ScaLA-sv -->
    <td class="sv qa">35.78 ± 4.94 / 41.08 ± 5.23</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
-   <td class="rank">29=</td> <!-- Rank -->
+  <tr class="not-merged-model">
+   <td class="rank">27=</td> <!-- Rank -->
    <td>sentence-transformers/distiluse-base-multilingual-cased-v1</td> <!-- Model ID -->
    <td class="num_model_parameters">135</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">120</td> <!-- Size of the model's vocabulary -->
@@ -2614,8 +2488,8 @@ title: Mainland Scandinavian NLU
    <td class="sv la">3.18 ± 1.63 / 48.38 ± 1.42</td> <!-- ScaLA-sv -->
    <td class="sv qa">16.08 ± 2.60 / 23.46 ± 3.10</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
-   <td class="rank">30=</td> <!-- Rank -->
+  <tr class="not-merged-model">
+   <td class="rank">28=</td> <!-- Rank -->
    <td>KBLab/albert-base-swedish-cased-alpha</td> <!-- Model ID -->
    <td class="num_model_parameters">14</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
@@ -2640,8 +2514,8 @@ title: Mainland Scandinavian NLU
    <td class="sv la">20.92 ± 4.12 / 59.05 ± 1.86</td> <!-- ScaLA-sv -->
    <td class="sv qa">23.86 ± 1.25 / 30.47 ± 1.51</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
-   <td class="rank">30=</td> <!-- Rank -->
+  <tr class="not-merged-model">
+   <td class="rank">28=</td> <!-- Rank -->
    <td>dbmdz/bert-mini-historic-multilingual-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">12</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -2666,8 +2540,8 @@ title: Mainland Scandinavian NLU
    <td class="sv la">5.05 ± 2.27 / 51.08 ± 1.44</td> <!-- ScaLA-sv -->
    <td class="sv qa">14.49 ± 1.13 / 22.34 ± 1.16</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
-   <td class="rank">31=</td> <!-- Rank -->
+  <tr class="not-merged-model">
+   <td class="rank">29=</td> <!-- Rank -->
    <td>AI-Sweden-Models/gpt-sw3-6.7b-v2-instruct (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7111</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
@@ -2692,8 +2566,8 @@ title: Mainland Scandinavian NLU
    <td class="sv la">10.92 ± 1.83 / 52.63 ± 2.98</td> <!-- ScaLA-sv -->
    <td class="sv qa">42.72 ± 2.66 / 50.17 ± 3.10</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
-   <td class="rank">31=</td> <!-- Rank -->
+  <tr class="not-merged-model">
+   <td class="rank">29=</td> <!-- Rank -->
    <td>AI-Sweden-Models/gpt-sw3-1.3b (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">1445</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
@@ -2718,8 +2592,8 @@ title: Mainland Scandinavian NLU
    <td class="sv la">1.17 ± 1.07 / 49.78 ± 0.86</td> <!-- ScaLA-sv -->
    <td class="sv qa">45.53 ± 0.83 / 51.66 ± 0.78</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
-   <td class="rank">31=</td> <!-- Rank -->
+  <tr class="not-merged-model">
+   <td class="rank">29=</td> <!-- Rank -->
    <td>jannesg/bertsson</td> <!-- Model ID -->
    <td class="num_model_parameters">124</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
@@ -2744,8 +2618,8 @@ title: Mainland Scandinavian NLU
    <td class="sv la">2.87 ± 1.53 / 48.92 ± 2.37</td> <!-- ScaLA-sv -->
    <td class="sv qa">17.24 ± 1.13 / 25.10 ± 1.06</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
-   <td class="rank">32=</td> <!-- Rank -->
+  <tr class="not-merged-model">
+   <td class="rank">30=</td> <!-- Rank -->
    <td>3ebdola/Dialectal-Arabic-XLM-R-Base</td> <!-- Model ID -->
    <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
@@ -2770,8 +2644,8 @@ title: Mainland Scandinavian NLU
    <td class="sv la">1.43 ± 1.34 / 48.66 ± 2.45</td> <!-- ScaLA-sv -->
    <td class="sv qa">8.71 ± 2.58 / 16.77 ± 2.50</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
-   <td class="rank">32=</td> <!-- Rank -->
+  <tr class="not-merged-model">
+   <td class="rank">30=</td> <!-- Rank -->
    <td>alexanderfalk/danbert-small-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">83</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">52</td> <!-- Size of the model's vocabulary -->
@@ -2796,8 +2670,8 @@ title: Mainland Scandinavian NLU
    <td class="sv la">1.55 ± 1.62 / 44.06 ± 3.56</td> <!-- ScaLA-sv -->
    <td class="sv qa">1.12 ± 0.85 / 3.07 ± 1.91</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
-   <td class="rank">32=</td> <!-- Rank -->
+  <tr class="not-merged-model">
+   <td class="rank">30=</td> <!-- Rank -->
    <td>mhenrichsen/danskgpt-tiny-chat (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">1100</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -2822,8 +2696,8 @@ title: Mainland Scandinavian NLU
    <td class="sv la">-0.97 ± 1.64 / 36.69 ± 2.34</td> <!-- ScaLA-sv -->
    <td class="sv qa">15.08 ± 3.85 / 19.72 ± 4.11</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
-   <td class="rank">32=</td> <!-- Rank -->
+  <tr class="not-merged-model">
+   <td class="rank">30=</td> <!-- Rank -->
    <td>RuterNorway/Llama-2-7b-chat-norwegian (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -2848,8 +2722,8 @@ title: Mainland Scandinavian NLU
    <td class="sv la">0.09 ± 0.67 / 33.42 ± 0.30</td> <!-- ScaLA-sv -->
    <td class="sv qa">44.37 ± 1.37 / 50.18 ± 1.18</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
-   <td class="rank">32=</td> <!-- Rank -->
+  <tr class="not-merged-model">
+   <td class="rank">30=</td> <!-- Rank -->
    <td>mhenrichsen/danskgpt-tiny (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">1100</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -2874,8 +2748,8 @@ title: Mainland Scandinavian NLU
    <td class="sv la">0.46 ± 1.91 / 43.45 ± 3.64</td> <!-- ScaLA-sv -->
    <td class="sv qa">21.56 ± 3.80 / 26.32 ± 4.10</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
-   <td class="rank">32=</td> <!-- Rank -->
+  <tr class="not-merged-model">
+   <td class="rank">30=</td> <!-- Rank -->
    <td>RabotaRu/HRBert-mini</td> <!-- Model ID -->
    <td class="num_model_parameters">80</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">200</td> <!-- Size of the model's vocabulary -->
@@ -2900,8 +2774,8 @@ title: Mainland Scandinavian NLU
    <td class="sv la">1.32 ± 1.87 / 46.80 ± 4.29</td> <!-- ScaLA-sv -->
    <td class="sv qa">2.86 ± 0.73 / 8.44 ± 2.01</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
-   <td class="rank">32=</td> <!-- Rank -->
+  <tr class="not-merged-model">
+   <td class="rank">30=</td> <!-- Rank -->
    <td>fresh-xlm-roberta-base</td> <!-- Model ID -->
    <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
@@ -2926,8 +2800,8 @@ title: Mainland Scandinavian NLU
    <td class="sv la">0.86 ± 0.82 / 39.16 ± 3.63</td> <!-- ScaLA-sv -->
    <td class="sv qa">2.00 ± 0.63 / 7.20 ± 1.68</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
-   <td class="rank">32=</td> <!-- Rank -->
+  <tr class="not-merged-model">
+   <td class="rank">30=</td> <!-- Rank -->
    <td>fresh-electra-small</td> <!-- Model ID -->
    <td class="num_model_parameters">14</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">31</td> <!-- Size of the model's vocabulary -->
@@ -2952,8 +2826,8 @@ title: Mainland Scandinavian NLU
    <td class="sv la">-0.15 ± 0.52 / 35.33 ± 3.00</td> <!-- ScaLA-sv -->
    <td class="sv qa">0.02 ± 0.03 / 0.04 ± 0.05</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
-   <td class="rank">33=</td> <!-- Rank -->
+  <tr class="not-merged-model">
+   <td class="rank">31=</td> <!-- Rank -->
    <td>AI-Sweden-Models/gpt-sw3-126m (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">186</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
@@ -2978,8 +2852,8 @@ title: Mainland Scandinavian NLU
    <td class="sv la">-0.81 ± 1.16 / 36.81 ± 2.47</td> <!-- ScaLA-sv -->
    <td class="sv qa">7.64 ± 2.58 / 9.62 ± 3.10</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
-   <td class="rank">33=</td> <!-- Rank -->
+  <tr class="not-merged-model">
+   <td class="rank">31=</td> <!-- Rank -->
    <td>NbAiLab/nb-gpt-j-6B-v2 (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">6051</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
@@ -3004,8 +2878,8 @@ title: Mainland Scandinavian NLU
    <td class="sv la">0.41 ± 0.81 / 33.36 ± 0.28</td> <!-- ScaLA-sv -->
    <td class="sv qa">17.79 ± 11.20 / 31.10 ± 8.39</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
-   <td class="rank">33=</td> <!-- Rank -->
+  <tr class="not-merged-model">
+   <td class="rank">31=</td> <!-- Rank -->
    <td>NbAiLab/nb-gpt-j-6B@sharded (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
@@ -3030,8 +2904,8 @@ title: Mainland Scandinavian NLU
    <td class="sv la">0.00 ± 0.00 / 33.30 ± 0.27</td> <!-- ScaLA-sv -->
    <td class="sv qa">4.82 ± 3.58 / 18.08 ± 2.83</td> <!-- ScandiQA-sv -->
   </tr>
-  <tr>
-   <td class="rank">34</td> <!-- Rank -->
+  <tr class="not-merged-model">
+   <td class="rank">32</td> <!-- Rank -->
    <td>ai-forever/mGPT (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">100</td> <!-- Size of the model's vocabulary -->

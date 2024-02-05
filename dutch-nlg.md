@@ -3,15 +3,14 @@ layout: leaderboard
 title: Dutch NLG
 ---
 
-<center>Last updated: 05/02/2024 16:42:41 CET</center>
-
-<div class="table-wrapper centered">
+<center>Last updated: 05/02/2024 17:05:53 CET</center>
 
 <div class="small-font">
   <input type="checkbox" id="merged-models-checkbox">
   <label for="merged-models-checkbox">Include merged models</label>
 </div>
 
+<div class="table-wrapper centered">
 <table id="dutch-nlg" class="sortable fixed centered small-font">
  <thead>
   <tr>
@@ -23,7 +22,7 @@ title: Dutch NLG
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Number of tokens processed per second / Number of tokens processed in small documents per second">Speed</span></th>
 
    <th id="score-col"><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="ScandEval score">Score</span></th>
-
+    
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Dutch named entity recognition - Micro-average F1-score without MISC tags / Micro-average F1-score with MISC tags">CoNLL-nl</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Dutch sentiment classification - Matthews Correlation Coefficient / Macro-average F1-score">Dutch Social</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Dutch linguistic acceptability - Matthews Correlation Coefficient / Macro-average F1-score">ScaLA-nl</span></th>
@@ -35,7 +34,7 @@ title: Dutch NLG
   </tr>
  </thead>
  <tbody>
-  <tr class="merged-model">
+  <tr class="not-merged-model">
    <td class="rank">1</td> <!-- Rank -->
    <td>gpt-3.5-turbo-0613 (few-shot, val)</td> <!-- Model ID -->
    <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->

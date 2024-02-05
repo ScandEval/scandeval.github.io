@@ -101,17 +101,10 @@ title: {title}
 
 <center>Last updated: {datetime.now().strftime("%d/%m/%Y %H:%M:%S")} CET</center>
 
-<input type="checkbox" id="merged-models-checkbox" onchange="toggleMergedModels(this)">
-<label for="merged-models-checkbox">Include merged models</label>
-<script>
-function toggleMergedModels(checkbox) {{
-    var mergedModels = document.getElementsByClassName('merged-model');
-    for (var i = 0; i < mergedModels.length; i++) {{
-        mergedModels[i].style.display = checkbox.checked ? 'table-row' : 'none';
-        console.log(mergedModels[i].style.display);
-    }}
-}}
-</script>
+<div class="small-font">
+  <input type="checkbox" id="merged-models-checkbox">
+  <label for="merged-models-checkbox">Include merged models</label>
+</div>
 
 <div class="table-wrapper centered">
 <table id="{title_kebab}" class="sortable fixed centered small-font">

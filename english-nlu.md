@@ -3,8 +3,12 @@ layout: leaderboard
 title: English NLU
 ---
 
-<center>Last updated: 05/02/2024 11:09:20 CET</center>
-<center><i>Hover over the headings for more information</i></center>
+<center>Last updated: 05/02/2024 17:05:53 CET</center>
+
+<div class="small-font">
+  <input type="checkbox" id="merged-models-checkbox">
+  <label for="merged-models-checkbox">Include merged models</label>
+</div>
 
 <div class="table-wrapper centered">
 <table id="english-nlu" class="sortable fixed centered small-font">
@@ -26,7 +30,7 @@ title: English NLU
   </tr>
  </thead>
  <tbody>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">1</td> <!-- Rank -->
    <td>microsoft/deberta-v3-large</td> <!-- Model ID -->
    <td class="num_model_parameters">434</td> <!-- Number of trainable parameters -->
@@ -39,7 +43,7 @@ title: English NLU
    <td class="en la">75.10 ± 1.18 / 87.34 ± 0.67</td> <!-- ScaLA-en -->
    <td class="en qa">74.47 ± 1.03 / 85.54 ± 0.79</td> <!-- SQuAD -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">2</td> <!-- Rank -->
    <td>microsoft/deberta-v3-base</td> <!-- Model ID -->
    <td class="num_model_parameters">184</td> <!-- Number of trainable parameters -->
@@ -52,7 +56,7 @@ title: English NLU
    <td class="en la">68.74 ± 1.72 / 83.85 ± 1.05</td> <!-- ScaLA-en -->
    <td class="en qa">68.69 ± 0.56 / 80.29 ± 0.36</td> <!-- SQuAD -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">3</td> <!-- Rank -->
    <td>google/electra-base-discriminator</td> <!-- Model ID -->
    <td class="num_model_parameters">109</td> <!-- Number of trainable parameters -->
@@ -65,7 +69,7 @@ title: English NLU
    <td class="en la">67.87 ± 1.58 / 83.57 ± 0.86</td> <!-- ScaLA-en -->
    <td class="en qa">58.27 ± 1.71 / 69.68 ± 1.34</td> <!-- SQuAD -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">4</td> <!-- Rank -->
    <td>roberta-large</td> <!-- Model ID -->
    <td class="num_model_parameters">354</td> <!-- Number of trainable parameters -->
@@ -78,7 +82,7 @@ title: English NLU
    <td class="en la">48.77 ± 15.71 / 71.46 ± 10.95</td> <!-- ScaLA-en -->
    <td class="en qa">71.23 ± 0.84 / 81.98 ± 0.65</td> <!-- SQuAD -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">5=</td> <!-- Rank -->
    <td>roberta-base</td> <!-- Model ID -->
    <td class="num_model_parameters">124</td> <!-- Number of trainable parameters -->
@@ -91,7 +95,7 @@ title: English NLU
    <td class="en la">57.29 ± 2.88 / 77.93 ± 1.57</td> <!-- ScaLA-en -->
    <td class="en qa">62.75 ± 0.77 / 73.75 ± 0.74</td> <!-- SQuAD -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">5=</td> <!-- Rank -->
    <td>microsoft/mdeberta-v3-base</td> <!-- Model ID -->
    <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
@@ -104,7 +108,7 @@ title: English NLU
    <td class="en la">62.11 ± 1.53 / 80.67 ± 0.77</td> <!-- ScaLA-en -->
    <td class="en qa">62.10 ± 1.03 / 73.26 ± 0.85</td> <!-- SQuAD -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">6</td> <!-- Rank -->
    <td>bert-large-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">333</td> <!-- Number of trainable parameters -->
@@ -117,7 +121,7 @@ title: English NLU
    <td class="en la">63.62 ± 1.90 / 80.92 ± 1.03</td> <!-- ScaLA-en -->
    <td class="en qa">55.17 ± 0.92 / 67.33 ± 0.89</td> <!-- SQuAD -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">7=</td> <!-- Rank -->
    <td>bert-large-uncased</td> <!-- Model ID -->
    <td class="num_model_parameters">334</td> <!-- Number of trainable parameters -->
@@ -130,7 +134,7 @@ title: English NLU
    <td class="en la">59.27 ± 2.55 / 79.17 ± 1.35</td> <!-- ScaLA-en -->
    <td class="en qa">52.38 ± 0.93 / 63.79 ± 1.19</td> <!-- SQuAD -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">7=</td> <!-- Rank -->
    <td>distilroberta-base</td> <!-- Model ID -->
    <td class="num_model_parameters">82</td> <!-- Number of trainable parameters -->
@@ -143,7 +147,7 @@ title: English NLU
    <td class="en la">54.90 ± 2.47 / 76.59 ± 1.47</td> <!-- ScaLA-en -->
    <td class="en qa">49.36 ± 1.22 / 59.73 ± 1.02</td> <!-- SQuAD -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">7=</td> <!-- Rank -->
    <td>gpt-3.5-turbo-0613 (few-shot, val)</td> <!-- Model ID -->
    <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
@@ -156,7 +160,7 @@ title: English NLU
    <td class="en la">41.43 ± 2.57 / 70.34 ± 1.35</td> <!-- ScaLA-en -->
    <td class="en qa">67.90 ± 1.61 / 85.57 ± 0.84</td> <!-- SQuAD -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">8</td> <!-- Rank -->
    <td>google/electra-large-discriminator</td> <!-- Model ID -->
    <td class="num_model_parameters">334</td> <!-- Number of trainable parameters -->
@@ -169,7 +173,7 @@ title: English NLU
    <td class="en la">55.46 ± 13.66 / 75.80 ± 8.43</td> <!-- ScaLA-en -->
    <td class="en qa">70.66 ± 0.80 / 81.84 ± 0.57</td> <!-- SQuAD -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">9</td> <!-- Rank -->
    <td>bert-base-uncased</td> <!-- Model ID -->
    <td class="num_model_parameters">109</td> <!-- Number of trainable parameters -->
@@ -182,7 +186,7 @@ title: English NLU
    <td class="en la">56.97 ± 2.20 / 77.43 ± 1.23</td> <!-- ScaLA-en -->
    <td class="en qa">42.37 ± 2.12 / 53.78 ± 2.04</td> <!-- SQuAD -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">10</td> <!-- Rank -->
    <td>xlm-roberta-large</td> <!-- Model ID -->
    <td class="num_model_parameters">559</td> <!-- Number of trainable parameters -->
@@ -195,7 +199,7 @@ title: English NLU
    <td class="en la">35.55 ± 18.61 / 63.79 ± 12.17</td> <!-- ScaLA-en -->
    <td class="en qa">68.88 ± 1.40 / 79.18 ± 1.17</td> <!-- SQuAD -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">11</td> <!-- Rank -->
    <td>bert-base-multilingual-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">177</td> <!-- Number of trainable parameters -->
@@ -208,7 +212,7 @@ title: English NLU
    <td class="en la">38.34 ± 12.84 / 67.51 ± 6.66</td> <!-- ScaLA-en -->
    <td class="en qa">55.19 ± 1.66 / 66.42 ± 1.46</td> <!-- SQuAD -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">12=</td> <!-- Rank -->
    <td>mistralai/Mistral-7B-v0.1 (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
@@ -221,7 +225,7 @@ title: English NLU
    <td class="en la">30.92 ± 4.81 / 63.79 ± 4.42</td> <!-- ScaLA-en -->
    <td class="en qa">58.79 ± 1.97 / 69.65 ± 2.00</td> <!-- SQuAD -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">12=</td> <!-- Rank -->
    <td>mistralai/Mistral-7B-Instruct-v0.1 (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
@@ -234,20 +238,7 @@ title: English NLU
    <td class="en la">34.92 ± 2.40 / 66.67 ± 1.41</td> <!-- ScaLA-en -->
    <td class="en qa">65.46 ± 1.74 / 81.96 ± 0.56</td> <!-- SQuAD -->
   </tr>
-  <tr>
-   <td class="rank">12=</td> <!-- Rank -->
-   <td>mlabonne/NeuralBeagle14-7B (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">3,065 ± 472 / 1,055 ± 321</td> <!-- Model inference speed -->
-   <td class="score">54.64 ± 2.31</td> <!-- ScandEval score -->
-   <td class="en ner">69.47 ± 1.17 / 60.75 ± 1.72</td> <!-- CoNLL-en -->
-   <td class="en sent">67.17 ± 1.42 / 72.56 ± 0.60</td> <!-- SST5 -->
-   <td class="en la">35.50 ± 3.23 / 66.71 ± 1.90</td> <!-- ScaLA-en -->
-   <td class="en qa">46.42 ± 3.41 / 73.71 ± 1.24</td> <!-- SQuAD -->
-  </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">13</td> <!-- Rank -->
    <td>distilbert-base-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">65</td> <!-- Number of trainable parameters -->
@@ -260,7 +251,7 @@ title: English NLU
    <td class="en la">53.47 ± 1.86 / 75.70 ± 1.27</td> <!-- ScaLA-en -->
    <td class="en qa">24.93 ± 1.75 / 35.60 ± 2.05</td> <!-- SQuAD -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">14</td> <!-- Rank -->
    <td>meta-llama/Llama-2-7b-chat-hf (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">6738</td> <!-- Number of trainable parameters -->
@@ -273,7 +264,7 @@ title: English NLU
    <td class="en la">22.71 ± 1.81 / 60.79 ± 1.08</td> <!-- ScaLA-en -->
    <td class="en qa">64.54 ± 1.41 / 80.82 ± 0.81</td> <!-- SQuAD -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">15</td> <!-- Rank -->
    <td>Rijgersberg/GEITje-7B (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
@@ -286,7 +277,7 @@ title: English NLU
    <td class="en la">12.63 ± 2.60 / 50.10 ± 3.87</td> <!-- ScaLA-en -->
    <td class="en qa">65.74 ± 2.31 / 77.95 ± 1.84</td> <!-- SQuAD -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">16=</td> <!-- Rank -->
    <td>distilbert-base-multilingual-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">135</td> <!-- Number of trainable parameters -->
@@ -299,7 +290,7 @@ title: English NLU
    <td class="en la">40.79 ± 2.42 / 68.71 ± 2.04</td> <!-- ScaLA-en -->
    <td class="en qa">29.00 ± 0.89 / 40.37 ± 0.77</td> <!-- SQuAD -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">16=</td> <!-- Rank -->
    <td>meta-llama/Llama-2-7b-hf (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">6738</td> <!-- Number of trainable parameters -->
@@ -312,7 +303,7 @@ title: English NLU
    <td class="en la">20.43 ± 3.69 / 55.98 ± 4.88</td> <!-- ScaLA-en -->
    <td class="en qa">44.64 ± 3.00 / 53.75 ± 3.18</td> <!-- SQuAD -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">17</td> <!-- Rank -->
    <td>RuterNorway/Llama-2-7b-chat-norwegian (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
@@ -325,7 +316,7 @@ title: English NLU
    <td class="en la">0.01 ± 1.91 / 39.40 ± 3.94</td> <!-- ScaLA-en -->
    <td class="en qa">36.70 ± 2.02 / 50.85 ± 1.85</td> <!-- SQuAD -->
   </tr>
-  <tr>
+  <tr class="not-merged-model">
    <td class="rank">18</td> <!-- Rank -->
    <td>ai-forever/mGPT (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
