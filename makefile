@@ -1,5 +1,5 @@
 leaderboards: download \
-	remove_duplicates \
+	filter_records \
 	mainland-scandi-nlu \
 	mainland-scandi-nlg \
 	insular-scandi-nlu \
@@ -40,9 +40,9 @@ download:
 		rm creosote_results.jsonl; \
 	fi
 
-remove_duplicates:
+filter_records:
 	@source .venv/bin/activate && \
-		python python/remove_duplicates.py scandeval_benchmark_results.jsonl
+		python python/filter_records.py scandeval_benchmark_results.jsonl
 
 mainland-scandi-nlu:
 	@source .venv/bin/activate && \

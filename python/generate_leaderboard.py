@@ -100,7 +100,18 @@ title: {title}
 ---
 
 <center>Last updated: {datetime.now().strftime("%d/%m/%Y %H:%M:%S")} CET</center>
-<center><i>Hover over the headings for more information</i></center>
+
+<input type="checkbox" id="merged-models-checkbox" onchange="toggleMergedModels(this)">
+<label for="merged-models-checkbox">Include merged models</label>
+<script>
+function toggleMergedModels(checkbox) {{
+    var mergedModels = document.getElementsByClassName('merged-model');
+    for (var i = 0; i < mergedModels.length; i++) {{
+        mergedModels[i].style.display = checkbox.checked ? 'table-row' : 'none';
+        console.log(mergedModels[i].style.display);
+    }}
+}}
+</script>
 
 <div class="table-wrapper centered">
 <table id="{title_kebab}" class="sortable fixed centered small-font">
@@ -152,7 +163,7 @@ title: {title}
   <a href="https://scandeval.com/{title_kebab}.csv" target="_blank">Download as CSV</a>
 </div>"""
 
-    BENCHMARK_ENTRY = """  <tr>
+    BENCHMARK_ENTRY = """  <tr class="{merge}">
    <td class="rank">{rank}</td> <!-- Rank -->
    <td>{model_id}</td> <!-- Model ID -->
    <td class="num_model_parameters">{num_model_parameters}</td> <!-- Number of trainable parameters -->
@@ -303,19 +314,28 @@ title: {title}
         # Add the model metadata to the model's dict, if it hasn't previously been
         # entered
         for metadata in [
-            "num_model_parameters", "vocabulary_size", "max_sequence_length"
+            "num_model_parameters", "vocabulary_size", "max_sequence_length",
         ]:
             if metadata not in model_scores[model_id] and metadata in record:
-                model_scores[model_id][metadata] = (str(record[metadata]), "", "")
+                record_metadata = str(record[metadata])
+                model_scores[model_id][metadata] = (record_metadata, "", "")
+
+        # Add information on whether the model is a merge of other models
+        if "merge" in record:
+            model_scores[model_id]["merge"] = (str(int(record["merge"])), "", "")
 
     # Generate language model benchmark HTML
     html_lines = [BENCHMARK_HTML_START]
     all_values: list[dict[str, str]] = list()
     for model_id, model_dict in model_scores.items():
 
+        merge = bool(int(model_dict.get("merge", ["0"])[0]))
+        merge_tag = "merged-model" if merge else "not-merged-model"
+
         # Add the model metadata and speed score
         values = dict(
             model_id=model_id,
+            merge=merge_tag,
             num_model_parameters=model_dict.get("num_model_parameters", [""])[0],
             vocabulary_size=model_dict.get("vocabulary_size", [""])[0],
             max_sequence_length=model_dict.get("max_sequence_length", [""])[0],

@@ -4,6 +4,9 @@ import click
 import json
 from pathlib import Path
 import logging
+from huggingface_hub import HfApi
+from huggingface_hub.hf_api import RepositoryNotFoundError
+from tqdm.auto import tqdm
 
 logging.basicConfig(
     level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s"
@@ -14,6 +17,9 @@ logger = logging.getLogger(__name__)
 BANNED_VERSIONS: list[str] = [
     "9.3.0",
 ]
+
+
+MERGE_CACHE: dict[str, bool] = dict()
 
 
 @click.command()
@@ -40,6 +46,7 @@ def main(filename: str) -> None:
                     return
     num_raw_records = len(records)
 
+    # Remove models trained with banned versions of ScandEval
     records = [
         record for record in records if record.get("version") not in BANNED_VERSIONS
     ]
@@ -47,11 +54,11 @@ def main(filename: str) -> None:
     if num_banned_records > 0:
         logger.info(f"Removed {num_banned_records:,} banned records from {filename}.")
 
+    # Filter records
     all_hash_values = [get_hash(dct) for dct in records]
     unique_hash_values = sorted(set(all_hash_values))
-
     new_records = list()
-    for unique_hash_value in unique_hash_values:
+    for unique_hash_value in tqdm(unique_hash_values, desc="Processing records"):
         matches = [
             record
             for record, hash_value in zip(records, all_hash_values)
@@ -64,14 +71,28 @@ def main(filename: str) -> None:
         newest_match = matches[versions.index(max(versions))]
         newest_match = add_missing_entries(record=newest_match)
         new_records.append(newest_match)
+    records = new_records
+    num_duplicates = num_raw_records - num_banned_records - len(records)
+    if num_duplicates:
+        logger.info(f"Removed {num_duplicates:,} duplicates from {filename}.")
 
+    # Remove merged models which are not trained on a validation split
+    records = [
+        record for record in records if not record["merge"] or record["validation_split"]
+    ]
+    num_merged_records = (
+        num_raw_records - num_banned_records - num_duplicates - len(records)
+    )
+    if num_merged_records:
+        logger.info(
+            f"Removed {num_merged_records:,} merged records which weren't trained "
+            "on a validation split."
+        )
+
+    # Write new records to file
     with Path(filename).open(mode="w") as f:
-        for record in new_records:
+        for record in records:
             f.write(json.dumps(record) + "\n")
-
-    num_new_records = len(new_records)
-    num_duplicates = num_raw_records - num_new_records - num_banned_records
-    logger.info(f"Removed {num_duplicates:,} duplicates from {filename}.")
 
 
 def add_missing_entries(record: dict) -> dict:
@@ -90,6 +111,8 @@ def add_missing_entries(record: dict) -> dict:
         record["few_shot"] = True
     if "generative" not in record:
         record["generative"] = False
+    if "merge" not in record:
+        record["merge"] = is_merge(model_id=record["model"])
     return record
 
 
@@ -109,6 +132,46 @@ def get_hash(record: dict) -> str:
     few_shot = int(record.get("few_shot", True))
     generative = int(record.get("generative", False))
     return f"{model}{dataset}{validation_split}{few_shot * generative}"
+
+
+def is_merge(model_id: str) -> bool:
+    """Returns True if the model is a merge model, False otherwise.
+
+    Args:
+        model_id:
+            The model ID.
+
+    Returns:
+        True if the model is a merge model, False otherwise.
+    """
+    # Remove revisions from model ID
+    model_id = model_id.split("@")[0]
+
+    # Return cached value if available
+    global MERGE_CACHE
+    if model_id in MERGE_CACHE:
+        return MERGE_CACHE[model_id]
+
+    # Fresh models do not appear on the model hub, so we assume they are not merge
+    # models
+    if model_id.startswith("fresh"):
+        MERGE_CACHE[model_id] = False
+        return False
+
+    # Fetch model info from the model hub, and assume that it is not a merged model if
+    # the model is not found
+    api = HfApi()
+    try:
+        model_info = api.model_info(repo_id=model_id)
+    except RepositoryNotFoundError:
+        MERGE_CACHE[model_id] = False
+        return False
+
+    # A model is a merge model if it has merge-related tags
+    merge_tags = ["merge", "mergekit"]
+    has_merge_tag = any(tag in model_info.tags for tag in merge_tags)
+    MERGE_CACHE[model_id] = has_merge_tag
+    return has_merge_tag
 
 
 if __name__ == "__main__":
