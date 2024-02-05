@@ -3,14 +3,16 @@ layout: leaderboard
 title: Dutch NLG
 ---
 
-<center>Last updated: 05/02/2024 16:36:49 CET</center>
+<center>Last updated: 05/02/2024 16:42:41 CET</center>
 
-<input type="checkbox" onchange="toggleMergedModels(this)" checked>
+<input type="checkbox" id="merged-models-checkbox" onchange="toggleMergedModels(this)">
+<label for="merged-models-checkbox">Include merged models</label>
 <script>
 function toggleMergedModels(checkbox) {
     var mergedModels = document.getElementsByClassName('merged-model');
     for (var i = 0; i < mergedModels.length; i++) {
         mergedModels[i].style.display = checkbox.checked ? 'table-row' : 'none';
+        console.log(mergedModels[i].style.display);
     }
 }
 </script>
@@ -27,7 +29,7 @@ function toggleMergedModels(checkbox) {
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Number of tokens processed per second / Number of tokens processed in small documents per second">Speed</span></th>
 
    <th id="score-col"><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="ScandEval score">Score</span></th>
-    
+
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Dutch named entity recognition - Micro-average F1-score without MISC tags / Micro-average F1-score with MISC tags">CoNLL-nl</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Dutch sentiment classification - Matthews Correlation Coefficient / Macro-average F1-score">Dutch Social</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Dutch linguistic acceptability - Matthews Correlation Coefficient / Macro-average F1-score">ScaLA-nl</span></th>
@@ -39,7 +41,7 @@ function toggleMergedModels(checkbox) {
   </tr>
  </thead>
  <tbody>
-  <tr class="not-merged-model">
+  <tr class="merged-model">
    <td class="rank">1</td> <!-- Rank -->
    <td>gpt-3.5-turbo-0613 (few-shot, val)</td> <!-- Model ID -->
    <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
