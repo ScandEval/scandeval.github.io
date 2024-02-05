@@ -3,7 +3,7 @@ layout: leaderboard
 title: German NLG
 ---
 
-<center>Last updated: 05/02/2024 10:58:25 CET</center>
+<center>Last updated: 05/02/2024 11:05:02 CET</center>
 <center><i>Hover over the headings for more information</i></center>
 
 <div class="table-wrapper centered">
@@ -83,6 +83,23 @@ title: German NLG
   </tr>
   <tr>
    <td class="rank">4</td> <!-- Rank -->
+   <td>mistralai/Mistral-7B-Instruct-v0.1 (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">5,443 ± 1,273 / 1,144 ± 364</td> <!-- Model inference speed -->
+   <td class="score">38.53 ± 1.91</td> <!-- ScandEval score -->
+   <td class="de ner">51.79 ± 0.92 / 36.09 ± 1.73</td> <!-- GermEval -->
+   <td class="de sent">47.27 ± 3.06 / 63.50 ± 2.88</td> <!-- SB10k -->
+   <td class="de la">22.15 ± 1.83 / 56.64 ± 4.04</td> <!-- ScaLA-de -->
+   <td class="de qa">24.30 ± 3.79 / 54.51 ± 4.48</td> <!-- GermanQuAD -->
+   <td class="de summ">67.96 ± 1.05 / 26.56 ± 2.90</td> <!-- MLSum -->
+   <td class="de know">26.88 ± 0.94 / 44.64 ± 0.79</td> <!-- MMLU-de -->
+   <td class="de know">44.97 ± 1.73 / 58.53 ± 1.31</td> <!-- ARC-de -->
+   <td class="de reason">20.34 ± 1.39 / 39.65 ± 0.94</td> <!-- HellaSwag-de -->
+  </tr>
+  <tr>
+   <td class="rank">5=</td> <!-- Rank -->
    <td>meta-llama/Llama-2-7b-chat-hf (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">6738</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -99,7 +116,24 @@ title: German NLG
    <td class="de reason">13.92 ± 1.52 / 34.03 ± 1.27</td> <!-- HellaSwag-de -->
   </tr>
   <tr>
-   <td class="rank">5</td> <!-- Rank -->
+   <td class="rank">5=</td> <!-- Rank -->
+   <td>Rijgersberg/GEITje-7B (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">10,401 ± 2,529 / 2,123 ± 690</td> <!-- Model inference speed -->
+   <td class="score">32.26 ± 2.33</td> <!-- ScandEval score -->
+   <td class="de ner">39.09 ± 2.92 / 31.71 ± 2.34</td> <!-- GermEval -->
+   <td class="de sent">47.83 ± 2.81 / 60.24 ± 3.30</td> <!-- SB10k -->
+   <td class="de la">10.31 ± 2.60 / 46.65 ± 4.50</td> <!-- ScaLA-de -->
+   <td class="de qa">26.13 ± 3.79 / 53.13 ± 4.50</td> <!-- GermanQuAD -->
+   <td class="de summ">66.72 ± 1.03 / 23.80 ± 2.02</td> <!-- MLSum -->
+   <td class="de know">19.03 ± 1.31 / 36.85 ± 1.79</td> <!-- MMLU-de -->
+   <td class="de know">32.26 ± 1.36 / 47.72 ± 1.23</td> <!-- ARC-de -->
+   <td class="de reason">10.10 ± 1.81 / 30.36 ± 1.81</td> <!-- HellaSwag-de -->
+  </tr>
+  <tr>
+   <td class="rank">6</td> <!-- Rank -->
    <td>meta-llama/Llama-2-7b-hf (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">6738</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -114,6 +148,23 @@ title: German NLG
    <td class="de know">18.43 ± 1.34 / 38.16 ± 1.18</td> <!-- MMLU-de -->
    <td class="de know">25.68 ± 1.63 / 43.75 ± 1.33</td> <!-- ARC-de -->
    <td class="de reason">8.37 ± 1.83 / 30.00 ± 1.48</td> <!-- HellaSwag-de -->
+  </tr>
+  <tr>
+   <td class="rank">7</td> <!-- Rank -->
+   <td>ai-forever/mGPT (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">100</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">1024</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">13,551 ± 4,259 / 2,563 ± 838</td> <!-- Model inference speed -->
+   <td class="score">4.68 ± 0.67</td> <!-- ScandEval score -->
+   <td class="de ner">0.30 ± 0.60 / 0.26 ± 0.50</td> <!-- GermEval -->
+   <td class="de sent">0.03 ± 0.44 / 17.26 ± 0.45</td> <!-- SB10k -->
+   <td class="de la">0.72 ± 1.40 / 42.53 ± 3.84</td> <!-- ScaLA-de -->
+   <td class="de qa">0.00 ± 0.00 / 1.54 ± 0.12</td> <!-- GermanQuAD -->
+   <td class="de summ">30.97 ± 0.49 / 1.94 ± 0.26</td> <!-- MLSum -->
+   <td class="de know">-0.35 ± 0.95 / 22.36 ± 0.43</td> <!-- MMLU-de -->
+   <td class="de know">0.57 ± 0.90 / 23.42 ± 0.90</td> <!-- ARC-de -->
+   <td class="de reason">0.64 ± 0.82 / 24.19 ± 0.54</td> <!-- HellaSwag-de -->
   </tr>
  </tbody>
 </table>
