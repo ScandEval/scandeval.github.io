@@ -103,7 +103,7 @@ title: {title}
 
 <div class="table-wrapper centered">
 
-<div class="small-font">
+<div class="checkbox">
   <input type="checkbox" id="merged-models-checkbox">
   <label for="merged-models-checkbox">Include merged models</label>
 </div>
