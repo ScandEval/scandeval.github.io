@@ -14,13 +14,13 @@ if (input) {
     for (var i = 0; i < rows.length; i++) {
       if (input.checked) {
         rows[i].style.display = 'table-row';
-        rows[i].style.backgroundColor = bgColour;
+        // rows[i].style.backgroundColor = bgColour;
       } else {
         if (rows[i].classList.contains('merged-model')) {
-          rows[i].style.display = input.checked ? 'table-row' : 'none';
+          rows[i].style.display = 'none';
         } else {
           rows[i].style.display = 'table-row';
-          rows[i].style.backgroundColor = bgColour;
+          // rows[i].style.backgroundColor = bgColour;
         }
       }
       bgColour = bgColours[bgColours.indexOf(bgColour) ^ 1];
