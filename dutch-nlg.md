@@ -10,7 +10,7 @@ title: Dutch NLG
 <input type="checkbox" id="merged-models-checkbox">
 <label for="merged-models-checkbox">Include merged models</label>
 <script>
-var input = document.querySelect('#merged-models-checkbox')
+var input = document.querySelector('#merged-models-checkbox')
 input.addEventListener('change', function() {
     var mergedModels = document.getElementsByClassName('merged-model');
     for (var i = 0; i < mergedModels.length; i++) {
