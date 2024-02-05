@@ -6,4 +6,5 @@ rank,model_id,num_model_parameters,vocabulary_size,max_sequence_length,speed,sco
 5,meta-llama/Llama-2-7b-chat-hf (few-shot),6738.0,32,4096,2643,34.81,34.81,50.0,46.54,15.3,25.57,67.66,20.13,29.29,13.92
 5,Rijgersberg/GEITje-7B (few-shot),7242.0,32,32768,10401,32.26,32.26,39.09,47.83,10.31,26.13,66.72,19.03,32.26,10.1
 6,meta-llama/Llama-2-7b-hf (few-shot),6738.0,32,4096,2648,32.23,32.23,41.88,50.17,15.82,18.35,68.99,18.43,25.68,8.37
-7,ai-forever/mGPT (few-shot),unknown,100,1024,13551,4.68,4.68,0.3,0.03,0.72,0.0,30.97,-0.35,0.57,0.64
+7,RuterNorway/Llama-2-7b-chat-norwegian (few-shot),unknown,32,4096,10890,20.36,20.36,27.22,33.54,0.45,20.4,62.18,-0.1,-0.37,-1.0
+8,ai-forever/mGPT (few-shot),unknown,100,1024,13551,4.68,4.68,0.3,0.03,0.72,0.0,30.97,-0.35,0.57,0.64

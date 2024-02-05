@@ -30,6 +30,7 @@ rank,model_id,num_model_parameters,vocabulary_size,max_sequence_length,speed,sco
 15,meta-llama/Llama-2-7b-hf (few-shot),6738.0,32,4096,2648,31.55,31.55,41.88,50.17,15.82,18.35
 15,Rijgersberg/GEITje-7B (few-shot),7242.0,32,32768,10401,30.84,30.84,39.09,47.83,10.31,26.13
 15,sentence-transformers/distiluse-base-multilingual-cased-v2,135.0,120,512,17807,30.72,30.72,53.13,51.94,17.74,0.06
-16,3ebdola/Dialectal-Arabic-XLM-R-Base,277.0,250,512,15177,17.68,17.68,34.18,34.81,1.25,0.46
-17,fresh-electra-small,13.0,31,512,7219,4.75,4.75,9.42,9.76,-0.18,0.0
-17,ai-forever/mGPT (few-shot),unknown,100,1024,13551,0.26,0.26,0.3,0.03,0.72,0.0
+16,RuterNorway/Llama-2-7b-chat-norwegian (few-shot),unknown,32,4096,10890,20.4,20.4,27.22,33.54,0.45,20.4
+17,3ebdola/Dialectal-Arabic-XLM-R-Base,277.0,250,512,15177,17.68,17.68,34.18,34.81,1.25,0.46
+18,fresh-electra-small,13.0,31,512,7219,4.75,4.75,9.42,9.76,-0.18,0.0
+18,ai-forever/mGPT (few-shot),unknown,100,1024,13551,0.26,0.26,0.3,0.03,0.72,0.0
