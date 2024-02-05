@@ -103,10 +103,8 @@ title: {title}
 
 <div class="table-wrapper centered">
 
-<div class="checkbox">
-  <input type="checkbox" id="merged-models-checkbox">
-  <label for="merged-models-checkbox">Include merged models</label>
-</div>
+<input type="checkbox" id="merged-models-checkbox">
+<label for="merged-models-checkbox">Include merged models</label>
 
 <table id="{title_kebab}" class="sortable fixed centered small-font">
  <thead>

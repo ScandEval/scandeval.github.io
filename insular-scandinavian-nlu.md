@@ -3,14 +3,12 @@ layout: leaderboard
 title: Insular Scandinavian NLU
 ---
 
-<center>Last updated: 05/02/2024 18:00:36 CET</center>
+<center>Last updated: 05/02/2024 20:28:45 CET</center>
 
 <div class="table-wrapper centered">
 
-<div class="checkbox">
-  <input type="checkbox" id="merged-models-checkbox">
-  <label for="merged-models-checkbox">Include merged models</label>
-</div>
+<input type="checkbox" id="merged-models-checkbox">
+<label for="merged-models-checkbox">Include merged models</label>
 
 <table id="insular-scandinavian-nlu" class="sortable fixed centered small-font">
  <thead>

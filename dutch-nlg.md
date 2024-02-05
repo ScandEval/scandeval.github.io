@@ -3,14 +3,12 @@ layout: leaderboard
 title: Dutch NLG
 ---
 
-<center>Last updated: 05/02/2024 18:00:39 CET</center>
+<center>Last updated: 05/02/2024 20:28:48 CET</center>
 
 <div class="table-wrapper centered">
 
-<div class="checkbox">
-  <input type="checkbox" id="merged-models-checkbox">
-  <label for="merged-models-checkbox">Include merged models</label>
-</div>
+<input type="checkbox" id="merged-models-checkbox">
+<label for="merged-models-checkbox">Include merged models</label>
 
 <table id="dutch-nlg" class="sortable fixed centered small-font">
  <thead>
