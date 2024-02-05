@@ -16,7 +16,7 @@ input.addEventListener('change', function() {
     for (var i = 0; i < mergedModels.length; i++) {
         mergedModels[i].style.display = input.checked ? 'table-row' : 'none';
     }
-}
+})
 </script>
 
 <table id="dutch-nlg" class="sortable fixed centered small-font">
