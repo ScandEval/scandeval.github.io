@@ -3,14 +3,15 @@ layout: leaderboard
 title: English NLU
 ---
 
-<center>Last updated: 05/02/2024 17:05:53 CET</center>
+<center>Last updated: 05/02/2024 17:09:10 CET</center>
+
+<div class="table-wrapper centered">
 
 <div class="small-font">
   <input type="checkbox" id="merged-models-checkbox">
   <label for="merged-models-checkbox">Include merged models</label>
 </div>
 
-<div class="table-wrapper centered">
 <table id="english-nlu" class="sortable fixed centered small-font">
  <thead>
   <tr>

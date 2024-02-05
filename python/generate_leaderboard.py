@@ -101,12 +101,13 @@ title: {title}
 
 <center>Last updated: {datetime.now().strftime("%d/%m/%Y %H:%M:%S")} CET</center>
 
+<div class="table-wrapper centered">
+
 <div class="small-font">
   <input type="checkbox" id="merged-models-checkbox">
   <label for="merged-models-checkbox">Include merged models</label>
 </div>
 
-<div class="table-wrapper centered">
 <table id="{title_kebab}" class="sortable fixed centered small-font">
  <thead>
   <tr>
