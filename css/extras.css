@@ -20,6 +20,9 @@ div.table-wrapper {display: block; overflow-x: auto; white-space: nowrap;
    fixed while scrolling */
 div.table-wrapper thead th {position: sticky; top: 0; z-index: 1;}
 
+/* Ensure that the checkbox also stays fixed while scrolling */
+div.table-wrapper div.checkbox {position: sticky; top: 0; z-index: 1;}
+
 div.end-note {font-size: 14px; text-align: center; margin-top: 10px;}
 
 /* Bootstrap makes labels bold, this makes them normal */
