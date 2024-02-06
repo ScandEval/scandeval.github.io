@@ -3,7 +3,7 @@ layout: leaderboard
 title: Dutch NLG
 ---
 
-<center>Last updated: 06/02/2024 12:33:39 CET</center>
+<center>Last updated: 06/02/2024 12:41:10 CET</center>
 
 <div class="table-wrapper centered">
 
@@ -14,7 +14,7 @@ title: Dutch NLG
  <thead>
   <tr>
    <th class="sticky-col"><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="ScandEval statistically significant model rank">Rank</span></th>
-   <th class="sticky-col"><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Hugging Face Hub Model ID">Model ID</span></th>
+   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Hugging Face Hub Model ID">Model ID</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Number of parameters in the model, in millions">Parameters</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Number of unique tokens that the model has been trained on, in thousands">Vocabulary size</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="The maximum amount of tokens the model can process">Context</span></th>
@@ -35,7 +35,7 @@ title: Dutch NLG
  <tbody>
   <tr class="not-merged-model">
    <td class="rank sticky-col">1</td> <!-- Rank -->
-   <td class="sticky-col">gpt-3.5-turbo-0613 (few-shot, val)</td> <!-- Model ID -->
+   <td>gpt-3.5-turbo-0613 (few-shot, val)</td> <!-- Model ID -->
    <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">100</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">4095</td> <!-- Maximum sequence length of the model-->
@@ -52,7 +52,7 @@ title: Dutch NLG
   </tr>
   <tr class="not-merged-model">
    <td class="rank sticky-col">2</td> <!-- Rank -->
-   <td class="sticky-col">mistralai/Mistral-7B-v0.1 (few-shot)</td> <!-- Model ID -->
+   <td>mistralai/Mistral-7B-v0.1 (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
@@ -69,7 +69,7 @@ title: Dutch NLG
   </tr>
   <tr class="not-merged-model">
    <td class="rank sticky-col">3</td> <!-- Rank -->
-   <td class="sticky-col">Rijgersberg/GEITje-7B (few-shot)</td> <!-- Model ID -->
+   <td>Rijgersberg/GEITje-7B (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
@@ -86,7 +86,7 @@ title: Dutch NLG
   </tr>
   <tr class="not-merged-model">
    <td class="rank sticky-col">4</td> <!-- Rank -->
-   <td class="sticky-col">mistralai/Mistral-7B-Instruct-v0.1 (few-shot)</td> <!-- Model ID -->
+   <td>mistralai/Mistral-7B-Instruct-v0.1 (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
@@ -103,7 +103,7 @@ title: Dutch NLG
   </tr>
   <tr class="not-merged-model">
    <td class="rank sticky-col">5</td> <!-- Rank -->
-   <td class="sticky-col">meta-llama/Llama-2-7b-chat-hf (few-shot)</td> <!-- Model ID -->
+   <td>meta-llama/Llama-2-7b-chat-hf (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">6738</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model-->
@@ -120,7 +120,7 @@ title: Dutch NLG
   </tr>
   <tr class="not-merged-model">
    <td class="rank sticky-col">6</td> <!-- Rank -->
-   <td class="sticky-col">meta-llama/Llama-2-7b-hf (few-shot)</td> <!-- Model ID -->
+   <td>meta-llama/Llama-2-7b-hf (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">6738</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model-->
@@ -137,7 +137,7 @@ title: Dutch NLG
   </tr>
   <tr class="not-merged-model">
    <td class="rank sticky-col">7=</td> <!-- Rank -->
-   <td class="sticky-col">AI-Sweden-Models/gpt-sw3-20b (few-shot)</td> <!-- Model ID -->
+   <td>AI-Sweden-Models/gpt-sw3-20b (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">20918</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model-->
@@ -154,7 +154,7 @@ title: Dutch NLG
   </tr>
   <tr class="not-merged-model">
    <td class="rank sticky-col">7=</td> <!-- Rank -->
-   <td class="sticky-col">RuterNorway/Llama-2-7b-chat-norwegian (few-shot)</td> <!-- Model ID -->
+   <td>RuterNorway/Llama-2-7b-chat-norwegian (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model-->
@@ -171,7 +171,7 @@ title: Dutch NLG
   </tr>
   <tr class="not-merged-model">
    <td class="rank sticky-col">8</td> <!-- Rank -->
-   <td class="sticky-col">RJuro/kanelsnegl-v0.1 (few-shot)</td> <!-- Model ID -->
+   <td>RJuro/kanelsnegl-v0.1 (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
@@ -188,7 +188,7 @@ title: Dutch NLG
   </tr>
   <tr class="not-merged-model">
    <td class="rank sticky-col">9</td> <!-- Rank -->
-   <td class="sticky-col">ai-forever/mGPT (few-shot)</td> <!-- Model ID -->
+   <td>ai-forever/mGPT (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">100</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">1024</td> <!-- Maximum sequence length of the model-->
