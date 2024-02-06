@@ -25,8 +25,6 @@ div.table-wrapper {
 /* Ensure that the top row of the table being inside the table wrapper stays
    fixed while scrolling */
 div.table-wrapper thead th {position: sticky; top: 0; z-index: 1;}
-div.table-wrapper input {position: sticky; top: 0; z-index: 1;}
-div.table-wrapper label {position: sticky; top: 0; z-index: 1;}
 
 div.end-note {font-size: 14px; text-align: center; margin-top: 10px;}
 
