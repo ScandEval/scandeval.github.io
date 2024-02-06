@@ -14,9 +14,10 @@ function updateBackgroundColors() {
       // if (rows[i].classList.contains('merged-model')) {
       //   rows[i].style.backgroundColor = mergedColor;
       // } else {
-      rows[i].style.backgroundColor = bgColour;
-      bgColour = bgColours[bgColours.indexOf(bgColour) ^ 1];
-      // }
+      if (rows[i].style.display !== 'none') {
+        rows[i].style.backgroundColor = bgColour;
+        bgColour = bgColours[bgColours.indexOf(bgColour) ^ 1];
+      }
     }
   }
 }
@@ -29,7 +30,7 @@ if (input) {
     for (var i = 0; i < mergedModels.length; i++) {
       mergedModels[i].style.display = input.checked ? 'table-row' : 'none';
     }
-    // updateBackgroundColors()
+    updateBackgroundColors()
   }
   input.addEventListener('change', filterMergedModels)
   filterMergedModels()

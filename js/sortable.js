@@ -68,9 +68,10 @@ document.addEventListener('click', function (e) {
         // if (rows[i].classList.contains('merged-model')) {
         //   rows[i].style.backgroundColor = mergedColor;
         // } else {
-        rows[i].style.backgroundColor = bgColour;
-        bgColour = bgColours[bgColours.indexOf(bgColour) ^ 1];
-        // }
+        if (rows[i].style.display !== 'none') {
+          rows[i].style.backgroundColor = bgColour;
+          bgColour = bgColours[bgColours.indexOf(bgColour) ^ 1];
+        }
       }
     }
   }
