@@ -3,7 +3,7 @@ layout: leaderboard
 title: Insular Scandinavian NLU
 ---
 
-<center>Last updated: 06/02/2024 12:04:24 CET</center>
+<center>Last updated: 06/02/2024 12:15:00 CET</center>
 
 <div class="table-wrapper centered">
 
@@ -784,6 +784,22 @@ title: Insular Scandinavian NLU
    <td class="is qa">5.42 ± 0.52 / 26.08 ± 0.59</td> <!-- NQiI -->
    <td class="fo ner">78.59 ± 1.16 / 79.35 ± 1.08</td> <!-- FoNE -->
    <td class="fo la">0.65 ± 2.63 / 47.40 ± 3.23</td> <!-- ScaLA-fo -->
+  </tr>
+  <tr class="merged-model">
+   <td class="rank">21=</td> <!-- Rank -->
+   <td>mlabonne/NeuralBeagle14-7B (few-shot, val)</td> <!-- Model ID -->
+   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">2,549 ± 472 / 784 ± 245</td> <!-- Model inference speed -->
+   <td class="score">28.87 ± 4.23</td> <!-- ScandEval score -->
+   <td class="is-score">24.51 ± 4.16</td> <!-- Icelandic score -->
+   <td class="fo-score">33.23 ± 4.30</td> <!-- Faroese score -->
+   <td class="is ner">49.86 ± 4.28 / 42.54 ± 5.03</td> <!-- MIM-GOLD-NER -->
+   <td class="is la">1.26 ± 3.83 / 48.46 ± 2.37</td> <!-- ScaLA-is -->
+   <td class="is qa">22.42 ± 4.37 / 55.49 ± 2.89</td> <!-- NQiI -->
+   <td class="fo ner">62.78 ± 3.13 / 59.73 ± 3.23</td> <!-- FoNE -->
+   <td class="fo la">3.69 ± 5.47 / 48.72 ± 3.41</td> <!-- ScaLA-fo -->
   </tr>
   <tr class="not-merged-model">
    <td class="rank">22=</td> <!-- Rank -->

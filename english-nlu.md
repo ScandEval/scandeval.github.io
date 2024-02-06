@@ -3,7 +3,7 @@ layout: leaderboard
 title: English NLU
 ---
 
-<center>Last updated: 06/02/2024 12:04:28 CET</center>
+<center>Last updated: 06/02/2024 12:15:04 CET</center>
 
 <div class="table-wrapper centered">
 
@@ -238,7 +238,7 @@ title: English NLU
    <td class="en qa">65.46 ± 1.74 / 81.96 ± 0.56</td> <!-- SQuAD -->
   </tr>
   <tr class="not-merged-model">
-   <td class="rank">13</td> <!-- Rank -->
+   <td class="rank">13=</td> <!-- Rank -->
    <td>distilbert-base-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">65</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">29</td> <!-- Size of the model's vocabulary -->
@@ -249,6 +249,19 @@ title: English NLU
    <td class="en sent">50.94 ± 1.56 / 53.60 ± 2.13</td> <!-- SST5 -->
    <td class="en la">53.47 ± 1.86 / 75.70 ± 1.27</td> <!-- ScaLA-en -->
    <td class="en qa">24.93 ± 1.75 / 35.60 ± 2.05</td> <!-- SQuAD -->
+  </tr>
+  <tr class="merged-model">
+   <td class="rank">13=</td> <!-- Rank -->
+   <td>mlabonne/NeuralBeagle14-7B (few-shot, val)</td> <!-- Model ID -->
+   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">2,549 ± 472 / 784 ± 245</td> <!-- Model inference speed -->
+   <td class="score">53.52 ± 2.69</td> <!-- ScandEval score -->
+   <td class="en ner">69.16 ± 2.80 / 57.28 ± 2.82</td> <!-- CoNLL-en -->
+   <td class="en sent">63.85 ± 2.16 / 72.40 ± 1.71</td> <!-- SST5 -->
+   <td class="en la">28.40 ± 3.60 / 62.70 ± 1.51</td> <!-- ScaLA-en -->
+   <td class="en qa">52.69 ± 2.21 / 76.35 ± 1.25</td> <!-- SQuAD -->
   </tr>
   <tr class="not-merged-model">
    <td class="rank">14</td> <!-- Rank -->

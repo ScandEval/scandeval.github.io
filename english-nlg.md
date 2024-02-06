@@ -3,7 +3,7 @@ layout: leaderboard
 title: English NLG
 ---
 
-<center>Last updated: 06/02/2024 12:04:28 CET</center>
+<center>Last updated: 06/02/2024 12:15:05 CET</center>
 
 <div class="table-wrapper centered">
 

@@ -1,6 +1,7 @@
 rank,model_id,num_model_parameters,vocabulary_size,max_sequence_length,speed,score,is_score,fo_score,mim_gold_ner,scala_is,nqii,fone,scala_fo,rrn,mmlu_is,arc_is,hellaswag_is
 1,"gpt-3.5-turbo-0613 (few-shot, val)",unknown,100,4095,1344,39.2,38.01,40.39,69.59,7.28,28.5,72.48,8.29,67.1,23.78,37.79,24.78
 2,mistralai/Mistral-7B-v0.1 (few-shot),7242.0,32,32768,2657,29.29,25.84,32.73,47.24,1.35,26.26,62.63,2.84,64.81,10.31,7.36,6.55
+2,"mlabonne/NeuralBeagle14-7B (few-shot, val)",7242.0,32,8192,2549,29.02,24.81,33.23,49.86,1.26,22.42,62.78,3.69,65.6,10.13,5.19,2.06
 3,meta-llama/Llama-2-7b-chat-hf (few-shot),6738.0,32,4096,2643,25.19,20.76,29.62,41.1,-1.07,16.12,59.77,-0.54,64.14,3.27,2.13,1.54
 3,mistralai/Mistral-7B-Instruct-v0.1 (few-shot),7242.0,32,32768,5443,24.66,21.06,28.27,36.04,-0.36,17.92,55.42,1.11,63.83,7.22,4.34,3.12
 3,AI-Sweden-Models/gpt-sw3-20b (few-shot),20918.0,64,2048,4880,23.75,22.27,25.23,27.54,4.61,28.12,46.5,3.95,68.35,3.32,1.83,2.41

@@ -3,7 +3,7 @@ layout: leaderboard
 title: German NLG
 ---
 
-<center>Last updated: 06/02/2024 12:04:26 CET</center>
+<center>Last updated: 06/02/2024 12:15:02 CET</center>
 
 <div class="table-wrapper centered">
 

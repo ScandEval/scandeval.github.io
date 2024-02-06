@@ -13,6 +13,7 @@ rank,model_id,num_model_parameters,vocabulary_size,max_sequence_length,speed,sco
 7,facebook/xlm-v-base,778.0,902,512,13135,46.8,46.8,73.96,57.43,35.0,20.81
 7,"gpt-3.5-turbo-0613 (few-shot, val)",unknown,100,4095,1344,46.54,46.54,61.5,55.5,38.96,30.2
 8,jhu-clsp/bernice,277.0,250,128,5567,45.59,45.59,72.25,62.0,48.1,0.0
+8,"mlabonne/NeuralBeagle14-7B (few-shot, val)",7242.0,32,8192,2549,44.17,44.17,64.81,59.6,27.06,25.22
 8,Twitter/twhin-bert-large,560.0,250,512,5299,42.73,42.73,74.8,55.04,29.15,11.93
 8,clips/mfaq,277.0,250,128,5591,42.56,42.56,76.68,59.51,32.54,1.53
 8,microsoft/xlm-align-base,277.0,250,512,14744,42.47,42.47,79.38,58.58,15.34,16.58

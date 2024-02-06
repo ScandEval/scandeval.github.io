@@ -3,7 +3,7 @@ layout: leaderboard
 title: Dutch NLG
 ---
 
-<center>Last updated: 06/02/2024 12:04:27 CET</center>
+<center>Last updated: 06/02/2024 12:15:03 CET</center>
 
 <div class="table-wrapper centered">
 
