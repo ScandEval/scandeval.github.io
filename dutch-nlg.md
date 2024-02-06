@@ -3,11 +3,11 @@ layout: leaderboard
 title: Dutch NLG
 ---
 
-<center>Last updated: 06/02/2024 13:08:45 CET</center>
+<center>Last updated: 06/02/2024 19:03:18 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
-  <label for="merged-models-checkbox">Include merged models</label>
+  <label for="merged-models-checkbox">Include <span style="color: rgb(255,194,194,0.4)">merged</span> models</label>
 </div>
 
 <div class="blocked table-wrapper centered">
@@ -22,7 +22,7 @@ title: Dutch NLG
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Number of tokens processed per second / Number of tokens processed in small documents per second">Speed</span></th>
 
    <th id="score-col"><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="ScandEval score">Score</span></th>
-    
+
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Dutch named entity recognition - Micro-average F1-score without MISC tags / Micro-average F1-score with MISC tags">CoNLL-nl</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Dutch sentiment classification - Matthews Correlation Coefficient / Macro-average F1-score">Dutch Social</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Dutch linguistic acceptability - Matthews Correlation Coefficient / Macro-average F1-score">ScaLA-nl</span></th>
