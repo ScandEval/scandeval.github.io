@@ -3,7 +3,7 @@ layout: leaderboard
 title: German NLU
 ---
 
-<center>Last updated: 05/02/2024 20:30:52 CET</center>
+<center>Last updated: 06/02/2024 12:04:25 CET</center>
 
 <div class="table-wrapper centered">
 
@@ -483,6 +483,19 @@ title: German NLU
    <td class="de sent">0.03 ± 0.44 / 17.26 ± 0.45</td> <!-- SB10k -->
    <td class="de la">0.72 ± 1.40 / 42.53 ± 3.84</td> <!-- ScaLA-de -->
    <td class="de qa">0.00 ± 0.00 / 1.54 ± 0.12</td> <!-- GermanQuAD -->
+  </tr>
+  <tr class="not-merged-model">
+   <td class="rank">19=</td> <!-- Rank -->
+   <td>RJuro/kanelsnegl-v0.1 (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">9,757 ± 2,047 / 2,200 ± 705</td> <!-- Model inference speed -->
+   <td class="score">0.00 ± 0.00</td> <!-- ScandEval score -->
+   <td class="de ner">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- GermEval -->
+   <td class="de sent">0.00 ± 0.00 / 17.05 ± 0.35</td> <!-- SB10k -->
+   <td class="de la">0.00 ± 0.00 / 33.34 ± 0.31</td> <!-- ScaLA-de -->
+   <td class="de qa">0.00 ± 0.00 / 14.60 ± 0.67</td> <!-- GermanQuAD -->
   </tr>
  </tbody>
 </table>

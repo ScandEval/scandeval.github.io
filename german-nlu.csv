@@ -34,3 +34,4 @@ rank,model_id,num_model_parameters,vocabulary_size,max_sequence_length,speed,sco
 18,3ebdola/Dialectal-Arabic-XLM-R-Base,277.0,250,512,15177,17.68,17.68,34.18,34.81,1.25,0.46
 19,fresh-electra-small,13.0,31,512,7219,4.75,4.75,9.42,9.76,-0.18,0.0
 19,ai-forever/mGPT (few-shot),unknown,100,1024,13551,0.26,0.26,0.3,0.03,0.72,0.0
+19,RJuro/kanelsnegl-v0.1 (few-shot),7242.0,32,512,9757,0.0,0.0,0.0,0.0,0.0,0.0

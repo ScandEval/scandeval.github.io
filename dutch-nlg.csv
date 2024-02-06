@@ -7,4 +7,5 @@ rank,model_id,num_model_parameters,vocabulary_size,max_sequence_length,speed,sco
 6,meta-llama/Llama-2-7b-hf (few-shot),6738.0,32,4096,2648,27.88,27.88,40.49,7.1,18.66,37.51,64.2,17.36,23.7,6.68
 7,AI-Sweden-Models/gpt-sw3-20b (few-shot),20918.0,64,2048,4880,23.0,23.0,35.3,15.67,1.76,45.05,59.15,6.24,1.0,0.47
 7,RuterNorway/Llama-2-7b-chat-norwegian (few-shot),unknown,32,4096,10890,22.0,22.0,35.49,11.36,2.52,37.61,62.24,5.41,3.88,0.15
-8,ai-forever/mGPT (few-shot),unknown,100,1024,13551,5.18,5.18,0.11,0.0,0.15,0.29,34.13,1.33,0.83,0.52
+8,RJuro/kanelsnegl-v0.1 (few-shot),7242.0,32,512,9757,8.72,8.72,0.0,0.95,0.0,0.0,60.14,0.11,0.0,-0.13
+9,ai-forever/mGPT (few-shot),unknown,100,1024,13551,5.18,5.18,0.11,0.0,0.15,0.29,34.13,1.33,0.83,0.52

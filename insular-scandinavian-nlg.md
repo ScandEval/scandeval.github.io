@@ -3,7 +3,7 @@ layout: leaderboard
 title: Insular Scandinavian NLG
 ---
 
-<center>Last updated: 05/02/2024 20:30:52 CET</center>
+<center>Last updated: 06/02/2024 12:04:25 CET</center>
 
 <div class="table-wrapper centered">
 
@@ -198,7 +198,27 @@ title: Insular Scandinavian NLG
    <td class="is reason">-0.01 ± 0.72 / 24.46 ± 0.37</td> <!-- HellaSwag-is -->
   </tr>
   <tr class="not-merged-model">
-   <td class="rank">5</td> <!-- Rank -->
+   <td class="rank">5=</td> <!-- Rank -->
+   <td>RJuro/kanelsnegl-v0.1 (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">9,757 ± 2,047 / 2,200 ± 705</td> <!-- Model inference speed -->
+   <td class="score">4.61 ± 0.01</td> <!-- ScandEval score -->
+   <td class="is-score">9.22 ± 0.03</td> <!-- Icelandic score -->
+   <td class="fo-score">0.00 ± 0.00</td> <!-- Faroese score -->
+   <td class="is ner">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- MIM-GOLD-NER -->
+   <td class="is la">0.00 ± 0.00 / 33.69 ± 0.28</td> <!-- ScaLA-is -->
+   <td class="is qa">0.00 ± 0.00 / 11.90 ± 2.74</td> <!-- NQiI -->
+   <td class="fo ner">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- FoNE -->
+   <td class="fo la">0.00 ± 0.00 / 33.40 ± 0.34</td> <!-- ScaLA-fo -->
+   <td class="is summ">55.33 ± 0.17 / 6.93 ± 0.19</td> <!-- RRN -->
+   <td class="is know">0.00 ± 0.00 / 21.57 ± 0.58</td> <!-- MMLU-is -->
+   <td class="is know">0.00 ± 0.00 / 21.46 ± 0.73</td> <!-- ARC-is -->
+   <td class="is reason">0.00 ± 0.00 / 24.86 ± 0.79</td> <!-- HellaSwag-is -->
+  </tr>
+  <tr class="not-merged-model">
+   <td class="rank">5=</td> <!-- Rank -->
    <td>ai-forever/mGPT (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">100</td> <!-- Size of the model's vocabulary -->

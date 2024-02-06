@@ -67,5 +67,6 @@ rank,model_id,num_model_parameters,vocabulary_size,max_sequence_length,speed,sco
 28,alexanderfalk/danbert-small-cased,83.0,52,512,30013,14.47,5.24,23.7,12.39,1.63,1.7,45.16,2.24
 29,RuterNorway/Llama-2-7b-chat-norwegian (few-shot),unknown,32,4096,10890,6.37,3.53,9.21,9.48,0.07,1.04,18.86,-0.43
 29,fresh-electra-small,13.0,31,512,7219,4.85,3.33,6.37,9.96,-0.1,0.12,12.1,0.64
+30,RJuro/kanelsnegl-v0.1 (few-shot),7242.0,32,512,9757,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 30,ai-forever/mGPT (few-shot),unknown,100,1024,13551,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 30,ltg/norbert,112.0,33,512,16280,-0.03,0.55,-0.6,0.0,-0.03,1.68,0.0,-1.21
