@@ -137,7 +137,7 @@ document.addEventListener('click', function (e) {
         // And finally insert the end result
         table.replaceChild(clone_tbody, org_tbody)
 
-        updateBackgroundColors()
+        // updateBackgroundColors()
       }
     } catch (error) {
       // console.log(error)
