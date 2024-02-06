@@ -3,7 +3,7 @@ layout: leaderboard
 title: Mainland Scandinavian NLU
 ---
 
-<center>Last updated: 06/02/2024 13:08:40 CET</center>
+<center>Last updated: 06/02/2024 19:03:12 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -1239,6 +1239,32 @@ title: Mainland Scandinavian NLU
    <td class="sv sent">62.18 ± 1.26 / 59.44 ± 2.35</td> <!-- SweReC -->
    <td class="sv la">36.93 ± 6.47 / 65.97 ± 6.05</td> <!-- ScaLA-sv -->
    <td class="sv qa">37.59 ± 1.99 / 41.94 ± 2.23</td> <!-- ScandiQA-sv -->
+  </tr>
+  <tr class="merged-model">
+   <td class="rank">11=</td> <!-- Rank -->
+   <td>timpal0l/BeagleCatMunin (few-shot, val)</td> <!-- Model ID -->
+   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">2,495 ± 458 / 775 ± 244</td> <!-- Model inference speed -->
+   <td class="score">46.89 ± 3.14</td> <!-- ScandEval score -->
+   <td class="da-score">45.38 ± 3.12</td> <!-- Danish score -->
+   <td class="no-score">41.38 ± 3.33</td> <!-- Norwegian score -->
+   <td class="sv-score">53.92 ± 2.97</td> <!-- Swedish score -->
+   <td class="da ner">47.62 ± 3.01 / 36.77 ± 2.96</td> <!-- DANSK -->
+   <td class="da sent">54.73 ± 3.20 / 68.74 ± 2.21</td> <!-- Angry Tweets -->
+   <td class="da la">21.80 ± 4.54 / 51.07 ± 4.11</td> <!-- ScaLA-da -->
+   <td class="da qa">57.39 ± 1.73 / 63.66 ± 1.39</td> <!-- ScandiQA-da -->
+   <td class="no ner">54.04 ± 2.86 / 48.50 ± 2.85</td> <!-- NorNE-nb -->
+   <td class="no ner">62.21 ± 3.31 / 50.38 ± 4.32</td> <!-- NorNE-nn -->
+   <td class="no sent">54.74 ± 3.71 / 67.81 ± 2.80</td> <!-- NoReC -->
+   <td class="no la">14.51 ± 1.97 / 40.94 ± 1.63</td> <!-- ScaLA-nb -->
+   <td class="no la">5.38 ± 4.69 / 37.62 ± 2.92</td> <!-- ScaLA-nn -->
+   <td class="no qa">42.71 ± 3.21 / 69.11 ± 2.46</td> <!-- NorQuAD -->
+   <td class="sv ner">50.53 ± 3.30 / 37.77 ± 4.38</td> <!-- SUC3 -->
+   <td class="sv sent">77.37 ± 2.25 / 78.66 ± 2.43</td> <!-- SweReC -->
+   <td class="sv la">27.84 ± 4.72 / 49.46 ± 4.52</td> <!-- ScaLA-sv -->
+   <td class="sv qa">59.92 ± 1.60 / 65.40 ± 1.37</td> <!-- ScandiQA-sv -->
   </tr>
   <tr class="not-merged-model">
    <td class="rank">12</td> <!-- Rank -->
