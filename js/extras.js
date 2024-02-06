@@ -3,7 +3,7 @@ $(function () {
   $('[data-toggle="tooltip"]').tooltip()
 })
 
-export function updateBackgroundColors() {
+function updateBackgroundColors() {
   var table = document.getElementsByTagName('tbody')[0];
   if (table) {
     var rows = table.getElementsByTagName('tr');
