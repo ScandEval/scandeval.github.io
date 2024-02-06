@@ -3,7 +3,7 @@ layout: leaderboard
 title: Mainland Scandinavian NLG
 ---
 
-<center>Last updated: 05/02/2024 20:30:50 CET</center>
+<center>Last updated: 06/02/2024 11:55:17 CET</center>
 
 <div class="table-wrapper centered">
 
@@ -92,6 +92,44 @@ title: Mainland Scandinavian NLG
    <td class="sv know">40.73 ± 3.36 / 55.16 ± 2.75</td> <!-- MMLU-sv -->
    <td class="sv know">63.58 ± 3.48 / 72.58 ± 2.64</td> <!-- ARC-sv -->
    <td class="sv reason">50.51 ± 2.33 / 62.07 ± 1.95</td> <!-- HellaSwag-sv -->
+  </tr>
+  <tr class="merged-model">
+   <td class="rank">2=</td> <!-- Rank -->
+   <td>RJuro/munin-neuralbeagle-7b (few-shot, val)</td> <!-- Model ID -->
+   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">2,493 ± 466 / 773 ± 243</td> <!-- Model inference speed -->
+   <td class="score">49.23 ± 2.85</td> <!-- ScandEval score -->
+   <td class="da-score">49.48 ± 2.46</td> <!-- Danish score -->
+   <td class="no-score">46.22 ± 3.21</td> <!-- Norwegian score -->
+   <td class="sv-score">52.00 ± 2.89</td> <!-- Swedish score -->
+   <td class="da ner">51.44 ± 3.28 / 41.38 ± 2.79</td> <!-- DANSK -->
+   <td class="da sent">54.91 ± 2.59 / 67.84 ± 2.53</td> <!-- Angry Tweets -->
+   <td class="da la">22.77 ± 3.96 / 52.29 ± 3.81</td> <!-- ScaLA-da -->
+   <td class="da qa">56.70 ± 1.80 / 64.12 ± 1.15</td> <!-- ScandiQA-da -->
+   <td class="da summ">68.75 ± 0.47 / 24.84 ± 0.71</td> <!-- Nordjylland-News -->
+   <td class="da know">37.02 ± 2.11 / 52.42 ± 1.61</td> <!-- MMLU-da -->
+   <td class="da know">63.51 ± 2.42 / 72.62 ± 1.78</td> <!-- ARC-da -->
+   <td class="da reason">41.49 ± 2.88 / 55.86 ± 2.17</td> <!-- HellaSwag-da -->
+   <td class="no ner">61.18 ± 2.76 / 56.36 ± 3.30</td> <!-- NorNE-nb -->
+   <td class="no ner">65.16 ± 3.97 / 55.74 ± 4.71</td> <!-- NorNE-nn -->
+   <td class="no sent">55.61 ± 4.02 / 68.27 ± 3.49</td> <!-- NoReC -->
+   <td class="no summ">65.99 ± 0.31 / 19.46 ± 0.47</td> <!-- No Sammendrag -->
+   <td class="no la">20.84 ± 5.41 / 49.36 ± 4.98</td> <!-- ScaLA-nb -->
+   <td class="no la">9.12 ± 3.51 / 43.06 ± 3.74</td> <!-- ScaLA-nn -->
+   <td class="no qa">42.98 ± 3.04 / 69.12 ± 2.82</td> <!-- NorQuAD -->
+   <td class="no know">27.77 ± 2.86 / 45.43 ± 2.04</td> <!-- MMLU-no -->
+   <td class="no know">54.47 ± 2.93 / 65.82 ± 2.12</td> <!-- ARC-no -->
+   <td class="no reason">39.67 ± 4.37 / 54.26 ± 3.37</td> <!-- HellaSwag-no -->
+   <td class="sv ner">62.96 ± 2.62 / 51.99 ± 5.66</td> <!-- SUC3 -->
+   <td class="sv sent">77.13 ± 2.43 / 78.36 ± 1.88</td> <!-- SweReC -->
+   <td class="sv la">15.73 ± 7.07 / 47.41 ± 5.31</td> <!-- ScaLA-sv -->
+   <td class="sv qa">58.43 ± 1.62 / 65.06 ± 1.24</td> <!-- ScandiQA-sv -->
+   <td class="sv summ">67.58 ± 0.22 / 22.52 ± 0.52</td> <!-- SweDN -->
+   <td class="sv know">32.54 ± 2.61 / 49.30 ± 1.93</td> <!-- MMLU-sv -->
+   <td class="sv know">61.97 ± 2.38 / 71.37 ± 1.82</td> <!-- ARC-sv -->
+   <td class="sv reason">34.94 ± 3.79 / 50.39 ± 3.23</td> <!-- HellaSwag-sv -->
   </tr>
   <tr class="merged-model">
    <td class="rank">2=</td> <!-- Rank -->
