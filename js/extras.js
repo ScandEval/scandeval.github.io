@@ -29,7 +29,7 @@ if (input) {
     for (var i = 0; i < mergedModels.length; i++) {
       mergedModels[i].style.display = input.checked ? 'table-row' : 'none';
     }
-    // updateBackgroundColors()
+    updateBackgroundColors()
   }
   input.addEventListener('change', filterMergedModels)
   filterMergedModels()
