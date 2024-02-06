@@ -17,7 +17,7 @@ if (input) {
 }
 
 // Sort the language model benchmark by the Score column
-scoreColumn = document.getElementById('score-col-benchmark')
+scoreColumn = document.getElementById('score-col')
 if(scoreColumn){
   var click = new MouseEvent("click", {
       view: window,
