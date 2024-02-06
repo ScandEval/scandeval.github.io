@@ -39,8 +39,6 @@
 // My guess is that it is simply too much to hold in memory, since
 // it freezes even before sortable is called if the table is too big in index.html
 
-import { updateBackgroundColors } from './extras.js'
-
 document.addEventListener('click', function (e) {
   var down_class = ' dir-d '
   var up_class = ' dir-u '
@@ -57,6 +55,24 @@ document.addEventListener('click', function (e) {
     // comment this line and uncomment the next one
     // return element.getAttribute('data-sort') || element.innerText
     return element.innerText
+  }
+
+  function updateBackgroundColors() {
+    var table = document.getElementsByTagName('tbody')[0];
+    if (table) {
+      var rows = table.getElementsByTagName('tr');
+      var bgColours = ['rgb(255,255,255)', 'rgb(228,228,228)'];
+      var bgColour = bgColours[0];
+      var mergedColor = 'rgba(255,194,194,0.4)';
+      for (var i = 0; i < rows.length; i++) {
+        if (rows[i].classList.contains('merged-model')) {
+          rows[i].style.backgroundColor = mergedColor;
+        } else {
+          rows[i].style.backgroundColor = bgColour;
+          bgColour = bgColours[bgColours.indexOf(bgColour) ^ 1];
+        }
+      }
+    }
   }
 
   if (element.nodeName === 'SPAN') {
