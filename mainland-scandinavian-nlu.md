@@ -3,13 +3,14 @@ layout: leaderboard
 title: Mainland Scandinavian NLU
 ---
 
-<center>Last updated: 06/02/2024 12:14:58 CET</center>
+<center>Last updated: 06/02/2024 13:08:40 CET</center>
 
-<div class="table-wrapper centered">
+<div class="blocked centered">
+  <input type="checkbox" id="merged-models-checkbox">
+  <label for="merged-models-checkbox">Include merged models</label>
+</div>
 
-<input type="checkbox" id="merged-models-checkbox">
-<label for="merged-models-checkbox">Include merged models</label>
-
+<div class="blocked table-wrapper centered">
 <table id="mainland-scandinavian-nlu" class="sortable fixed centered small-font">
  <thead>
   <tr>

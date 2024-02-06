@@ -3,13 +3,14 @@ layout: leaderboard
 title: Dutch NLU
 ---
 
-<center>Last updated: 06/02/2024 12:15:03 CET</center>
+<center>Last updated: 06/02/2024 13:08:44 CET</center>
 
-<div class="table-wrapper centered">
+<div class="blocked centered">
+  <input type="checkbox" id="merged-models-checkbox">
+  <label for="merged-models-checkbox">Include merged models</label>
+</div>
 
-<input type="checkbox" id="merged-models-checkbox">
-<label for="merged-models-checkbox">Include merged models</label>
-
+<div class="blocked table-wrapper centered">
 <table id="dutch-nlu" class="sortable fixed centered small-font">
  <thead>
   <tr>
