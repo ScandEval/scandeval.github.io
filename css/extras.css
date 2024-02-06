@@ -18,9 +18,11 @@ div.table-wrapper {display: block; overflow-x: auto; white-space: nowrap;
 
 /* Ensure that the top row of the table being inside the table wrapper stays
    fixed while scrolling */
-div.table-wrapper thead th input label {position: sticky; top: 0; z-index: 1;}
+div.table-wrapper thead th {position: sticky; top: 0; z-index: 1;}
 
 div.end-note {font-size: 14px; text-align: center; margin-top: 10px;}
 
 /* Bootstrap makes labels bold, this makes them normal */
 label {font-weight: normal;}
+
+.sticky-col {position: -webkit-sticky; position: sticky;}
