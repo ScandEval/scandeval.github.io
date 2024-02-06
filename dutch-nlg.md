@@ -7,7 +7,7 @@ title: Dutch NLG
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
-  <label for="merged-models-checkbox">Include <span style="color: rgb(255,194,194,0.4)">merged</span> models</label>
+  <label for="merged-models-checkbox">Include merged models</label>
 </div>
 
 <div class="blocked table-wrapper centered">
