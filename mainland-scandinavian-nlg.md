@@ -5,12 +5,12 @@ title: Mainland Scandinavian NLG
 
 <center>Last updated: 06/02/2024 12:55:16 CET</center>
 
-<div class="table-wrapper centered">
+<div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
   <label for="merged-models-checkbox">Include merged models</label>
 </div>
 
-<div class="table-wrapper centered">
+<div class="blocked table-wrapper centered">
 <table id="mainland-scandinavian-nlg" class="sortable fixed centered small-font">
  <thead>
   <tr>

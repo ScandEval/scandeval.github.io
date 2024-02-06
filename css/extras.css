@@ -13,12 +13,14 @@ table.small-font td {font-size: 14px;}
 
 /* Format the table inside the table wrapper, in particular ensures that the
    table can be scrolled in both the x- and y-direction */
-div.table-wrapper {
+.blocked {
   display: block;
+  width: 90%;
+}
+div.table-wrapper {
   overflow-x: auto;
   overflow-y: auto;
   white-space: nowrap;
-  width: 90%;
   height: 500px;
 }
 
