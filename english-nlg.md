@@ -3,7 +3,7 @@ layout: leaderboard
 title: English NLG
 ---
 
-<center>Last updated: 06/02/2024 13:08:46 CET</center>
+<center>Last updated: 07/02/2024 10:05:34 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -35,7 +35,7 @@ title: English NLG
  </thead>
  <tbody>
   <tr class="not-merged-model">
-   <td class="rank">1</td> <!-- Rank -->
+   <td class="rank">1=</td> <!-- Rank -->
    <td>gpt-3.5-turbo-0613 (few-shot, val)</td> <!-- Model ID -->
    <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">100</td> <!-- Size of the model's vocabulary -->
@@ -50,6 +50,23 @@ title: English NLG
    <td class="en know">43.69 ± 3.59 / 57.38 ± 3.06</td> <!-- MMLU -->
    <td class="en know">70.03 ± 2.09 / 77.38 ± 1.61</td> <!-- ARC -->
    <td class="en reason">75.60 ± 3.04 / 81.48 ± 2.31</td> <!-- HellaSwag -->
+  </tr>
+  <tr class="merged-model">
+   <td class="rank">1=</td> <!-- Rank -->
+   <td>mlabonne/NeuralBeagle14-7B (few-shot, val)</td> <!-- Model ID -->
+   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">2,549 ± 472 / 784 ± 245</td> <!-- Model inference speed -->
+   <td class="score">60.19 ± 2.27</td> <!-- ScandEval score -->
+   <td class="en ner">69.16 ± 2.80 / 57.28 ± 2.82</td> <!-- CoNLL-en -->
+   <td class="en sent">63.85 ± 2.16 / 72.40 ± 1.71</td> <!-- SST5 -->
+   <td class="en la">28.40 ± 3.60 / 62.70 ± 1.51</td> <!-- ScaLA-en -->
+   <td class="en qa">52.69 ± 2.21 / 76.35 ± 1.25</td> <!-- SQuAD -->
+   <td class="en summ">70.55 ± 0.73 / 26.32 ± 0.97</td> <!-- CNN-DailyMail -->
+   <td class="en know">51.74 ± 1.82 / 63.44 ± 1.40</td> <!-- MMLU -->
+   <td class="en know">77.71 ± 2.27 / 83.28 ± 1.75</td> <!-- ARC -->
+   <td class="en reason">71.96 ± 2.38 / 78.87 ± 1.66</td> <!-- HellaSwag -->
   </tr>
   <tr class="not-merged-model">
    <td class="rank">2</td> <!-- Rank -->
