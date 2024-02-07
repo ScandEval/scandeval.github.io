@@ -3,7 +3,7 @@ layout: leaderboard
 title: Insular Scandinavian NLG
 ---
 
-<center>Last updated: 07/02/2024 10:05:29 CET</center>
+<center>Last updated: 07/02/2024 11:08:08 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -100,6 +100,26 @@ title: Insular Scandinavian NLG
   </tr>
   <tr class="not-merged-model">
    <td class="rank">3=</td> <!-- Rank -->
+   <td>RuterNorway/Llama-2-13b-chat-norwegian (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">7,778 ± 1,755 / 1,703 ± 552</td> <!-- Model inference speed -->
+   <td class="score">25.48 ± 1.72</td> <!-- ScandEval score -->
+   <td class="is-score">20.85 ± 1.74</td> <!-- Icelandic score -->
+   <td class="fo-score">30.11 ± 1.70</td> <!-- Faroese score -->
+   <td class="is ner">28.35 ± 2.89 / 26.44 ± 2.75</td> <!-- MIM-GOLD-NER -->
+   <td class="is la">3.14 ± 1.74 / 44.57 ± 3.85</td> <!-- ScaLA-is -->
+   <td class="is qa">19.80 ± 2.66 / 43.44 ± 1.74</td> <!-- NQiI -->
+   <td class="fo ner">60.54 ± 2.28 / 58.62 ± 1.89</td> <!-- FoNE -->
+   <td class="fo la">-0.33 ± 1.12 / 37.78 ± 3.09</td> <!-- ScaLA-fo -->
+   <td class="is summ">65.49 ± 0.40 / 19.56 ± 0.64</td> <!-- RRN -->
+   <td class="is know">7.74 ± 1.21 / 30.25 ± 1.07</td> <!-- MMLU-is -->
+   <td class="is know">3.49 ± 2.00 / 26.88 ± 1.41</td> <!-- ARC-is -->
+   <td class="is reason">2.72 ± 1.12 / 26.48 ± 0.75</td> <!-- HellaSwag-is -->
+  </tr>
+  <tr class="not-merged-model">
+   <td class="rank">3=</td> <!-- Rank -->
    <td>meta-llama/Llama-2-7b-chat-hf (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">6738</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -179,7 +199,7 @@ title: Insular Scandinavian NLG
    <td class="is reason">0.80 ± 1.18 / 25.46 ± 0.72</td> <!-- HellaSwag-is -->
   </tr>
   <tr class="not-merged-model">
-   <td class="rank">3=</td> <!-- Rank -->
+   <td class="rank">4</td> <!-- Rank -->
    <td>Rijgersberg/GEITje-7B (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -199,7 +219,7 @@ title: Insular Scandinavian NLG
    <td class="is reason">0.34 ± 1.06 / 25.83 ± 0.66</td> <!-- HellaSwag-is -->
   </tr>
   <tr class="not-merged-model">
-   <td class="rank">4</td> <!-- Rank -->
+   <td class="rank">5</td> <!-- Rank -->
    <td>RuterNorway/Llama-2-7b-chat-norwegian (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -219,7 +239,7 @@ title: Insular Scandinavian NLG
    <td class="is reason">-0.01 ± 0.72 / 24.46 ± 0.37</td> <!-- HellaSwag-is -->
   </tr>
   <tr class="not-merged-model">
-   <td class="rank">5=</td> <!-- Rank -->
+   <td class="rank">6=</td> <!-- Rank -->
    <td>RJuro/kanelsnegl-v0.1 (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -239,7 +259,7 @@ title: Insular Scandinavian NLG
    <td class="is reason">0.00 ± 0.00 / 24.86 ± 0.79</td> <!-- HellaSwag-is -->
   </tr>
   <tr class="not-merged-model">
-   <td class="rank">5=</td> <!-- Rank -->
+   <td class="rank">6=</td> <!-- Rank -->
    <td>ai-forever/mGPT (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">100</td> <!-- Size of the model's vocabulary -->

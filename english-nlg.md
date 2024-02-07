@@ -3,7 +3,7 @@ layout: leaderboard
 title: English NLG
 ---
 
-<center>Last updated: 07/02/2024 10:05:34 CET</center>
+<center>Last updated: 07/02/2024 11:08:12 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -86,7 +86,7 @@ title: English NLG
    <td class="en reason">34.96 ± 4.19 / 49.62 ± 3.28</td> <!-- HellaSwag -->
   </tr>
   <tr class="not-merged-model">
-   <td class="rank">3</td> <!-- Rank -->
+   <td class="rank">3=</td> <!-- Rank -->
    <td>mistralai/Mistral-7B-Instruct-v0.1 (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -101,6 +101,23 @@ title: English NLG
    <td class="en know">38.40 ± 0.98 / 53.43 ± 0.76</td> <!-- MMLU -->
    <td class="en know">61.26 ± 1.16 / 70.87 ± 0.87</td> <!-- ARC -->
    <td class="en reason">35.72 ± 1.56 / 49.69 ± 1.42</td> <!-- HellaSwag -->
+  </tr>
+  <tr class="not-merged-model">
+   <td class="rank">3=</td> <!-- Rank -->
+   <td>RuterNorway/Llama-2-13b-chat-norwegian (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">7,778 ± 1,755 / 1,703 ± 552</td> <!-- Model inference speed -->
+   <td class="score">53.25 ± 1.93</td> <!-- ScandEval score -->
+   <td class="en ner">64.93 ± 2.24 / 57.95 ± 1.24</td> <!-- CoNLL-en -->
+   <td class="en sent">64.14 ± 1.61 / 68.00 ± 1.67</td> <!-- SST5 -->
+   <td class="en la">28.08 ± 3.86 / 62.71 ± 2.98</td> <!-- ScaLA-en -->
+   <td class="en qa">62.09 ± 1.68 / 79.57 ± 0.96</td> <!-- SQuAD -->
+   <td class="en summ">68.84 ± 0.52 / 24.99 ± 0.80</td> <!-- CNN-DailyMail -->
+   <td class="en know">36.49 ± 0.82 / 52.02 ± 0.62</td> <!-- MMLU -->
+   <td class="en know">56.68 ± 1.19 / 67.54 ± 0.89</td> <!-- ARC -->
+   <td class="en reason">38.09 ± 2.61 / 52.60 ± 2.19</td> <!-- HellaSwag -->
   </tr>
   <tr class="not-merged-model">
    <td class="rank">4</td> <!-- Rank -->
