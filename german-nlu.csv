@@ -24,6 +24,7 @@ rank,model_id,num_model_parameters,vocabulary_size,max_sequence_length,speed,sco
 11,mistralai/Mistral-7B-v0.1 (few-shot),7242.0,32,32768,2657,38.92,38.92,55.37,54.27,23.12,22.94
 11,RuterNorway/Llama-2-13b-chat-norwegian (few-shot),unknown,32,4096,7778,38.57,38.57,56.71,49.77,19.92,27.87
 11,sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,118.0,250,512,17428,38.52,38.52,65.62,55.6,32.22,0.64
+11,mistralai/Mistral-7B-Instruct-v0.2 (few-shot),7242.0,32,32768,2538,37.82,37.82,55.15,47.85,24.29,23.98
 12,mistralai/Mistral-7B-Instruct-v0.1 (few-shot),7242.0,32,32768,5443,36.38,36.38,51.79,47.27,22.15,24.3
 13,meta-llama/Llama-2-7b-chat-hf (few-shot),6738.0,32,4096,2643,34.35,34.35,50.0,46.54,15.3,25.57
 14,sentence-transformers/distilbert-multilingual-nli-stsb-quora-ranking,135.0,120,512,26151,33.58,33.58,66.75,49.61,17.6,0.36
