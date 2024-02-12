@@ -14,9 +14,22 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 
-BANNED_VERSIONS: list[str] = [
-    "9.3.0",
-]
+
+def record_is_valid(record: dict) -> bool:
+    """Determine if a record is valid.
+
+    Args:
+        record:
+            The record to validate.
+
+    Returns:
+        True if the record is valid, False otherwise.
+    """
+    BANNED_VERSIONS: list[str] = ["9.3.0", "10.0.0"]
+    if record.get("version") in BANNED_VERSIONS:
+        return False
+
+    return True
 
 
 MERGE_CACHE: dict[str, bool] = dict()
@@ -48,7 +61,7 @@ def main(filename: str) -> None:
 
     # Remove models trained with banned versions of ScandEval
     records = [
-        record for record in records if record.get("version") not in BANNED_VERSIONS
+        record for record in records if record_is_valid(record=record)
     ]
     num_banned_records = num_raw_records - len(records)
     if num_banned_records > 0:
@@ -62,8 +75,7 @@ def main(filename: str) -> None:
         matches = [
             record
             for record, hash_value in zip(records, all_hash_values)
-            if hash_value == unique_hash_value
-            and record.get("version") not in BANNED_VERSIONS
+            if hash_value == unique_hash_value and record_is_valid(record=record)
         ]
         versions = [
             match.get("scandeval_version", "0.0.0").split(".") for match in matches
