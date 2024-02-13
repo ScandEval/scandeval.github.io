@@ -3,7 +3,7 @@ layout: leaderboard
 title: Dutch NLG
 ---
 
-<center>Last updated: 08/02/2024 10:34:30 CET</center>
+<center>Last updated: 13/02/2024 10:44:23 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -237,23 +237,6 @@ title: Dutch NLG
    <td class="nl know">0.11 ± 0.64 / 24.32 ± 0.78</td> <!-- MMLU-nl -->
    <td class="nl know">0.00 ± 0.00 / 22.85 ± 0.60</td> <!-- ARC-nl -->
    <td class="nl reason">-0.13 ± 0.82 / 23.60 ± 0.33</td> <!-- HellaSwag-nl -->
-  </tr>
-  <tr class="not-merged-model">
-   <td class="rank">10</td> <!-- Rank -->
-   <td>ai-forever/mGPT (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">100</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">1024</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">13,551 ± 4,259 / 2,563 ± 838</td> <!-- Model inference speed -->
-   <td class="score">5.18 ± 0.51</td> <!-- ScandEval score -->
-   <td class="nl ner">0.11 ± 0.21 / 0.27 ± 0.53</td> <!-- CoNLL-nl -->
-   <td class="nl sent">0.00 ± 0.00 / 8.62 ± 0.30</td> <!-- Dutch Social -->
-   <td class="nl la">0.15 ± 1.46 / 44.90 ± 4.37</td> <!-- ScaLA-nl -->
-   <td class="nl qa">0.29 ± 0.21 / 1.56 ± 0.19</td> <!-- SQuAD-nl -->
-   <td class="nl summ">34.13 ± 0.14 / 3.38 ± 0.14</td> <!-- Wiki-Lingua-NL -->
-   <td class="nl know">1.33 ± 1.18 / 24.67 ± 0.67</td> <!-- MMLU-nl -->
-   <td class="nl know">0.83 ± 0.79 / 22.95 ± 0.63</td> <!-- ARC-nl -->
-   <td class="nl reason">0.52 ± 0.55 / 23.64 ± 0.34</td> <!-- HellaSwag-nl -->
   </tr>
  </tbody>
 </table>

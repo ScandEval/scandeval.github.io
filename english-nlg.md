@@ -3,7 +3,7 @@ layout: leaderboard
 title: English NLG
 ---
 
-<center>Last updated: 08/02/2024 10:34:31 CET</center>
+<center>Last updated: 13/02/2024 10:44:25 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -237,23 +237,6 @@ title: English NLG
    <td class="en know">0.00 ± 0.00 / 22.69 ± 0.63</td> <!-- MMLU -->
    <td class="en know">0.00 ± 0.00 / 22.26 ± 0.61</td> <!-- ARC -->
    <td class="en reason">0.36 ± 0.47 / 24.60 ± 0.43</td> <!-- HellaSwag -->
-  </tr>
-  <tr class="not-merged-model">
-   <td class="rank">10</td> <!-- Rank -->
-   <td>ai-forever/mGPT (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">100</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">1024</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">13,551 ± 4,259 / 2,563 ± 838</td> <!-- Model inference speed -->
-   <td class="score">5.96 ± 1.33</td> <!-- ScandEval score -->
-   <td class="en ner">1.55 ± 1.98 / 1.45 ± 1.82</td> <!-- CoNLL-en -->
-   <td class="en sent">-0.28 ± 0.83 / 20.27 ± 0.75</td> <!-- SST5 -->
-   <td class="en la">0.25 ± 1.90 / 37.98 ± 2.75</td> <!-- ScaLA-en -->
-   <td class="en qa">5.57 ± 3.10 / 11.14 ± 4.67</td> <!-- SQuAD -->
-   <td class="en summ">34.87 ± 0.08 / 3.34 ± 0.07</td> <!-- CNN-DailyMail -->
-   <td class="en know">0.16 ± 1.00 / 22.81 ± 0.61</td> <!-- MMLU -->
-   <td class="en know">0.26 ± 0.38 / 22.28 ± 0.60</td> <!-- ARC -->
-   <td class="en reason">-0.45 ± 0.72 / 24.56 ± 0.45</td> <!-- HellaSwag -->
   </tr>
  </tbody>
 </table>

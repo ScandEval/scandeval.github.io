@@ -3,7 +3,7 @@ layout: leaderboard
 title: German NLG
 ---
 
-<center>Last updated: 08/02/2024 10:34:28 CET</center>
+<center>Last updated: 13/02/2024 10:44:22 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -222,7 +222,7 @@ title: German NLG
    <td class="de reason">-1.00 ± 1.03 / 24.94 ± 1.00</td> <!-- HellaSwag-de -->
   </tr>
   <tr class="not-merged-model">
-   <td class="rank">9=</td> <!-- Rank -->
+   <td class="rank">9</td> <!-- Rank -->
    <td>RJuro/kanelsnegl-v0.1 (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -237,23 +237,6 @@ title: German NLG
    <td class="de know">1.16 ± 0.57 / 22.46 ± 0.56</td> <!-- MMLU-de -->
    <td class="de know">0.00 ± 0.00 / 23.37 ± 0.91</td> <!-- ARC-de -->
    <td class="de reason">0.31 ± 0.50 / 24.18 ± 0.53</td> <!-- HellaSwag-de -->
-  </tr>
-  <tr class="not-merged-model">
-   <td class="rank">9=</td> <!-- Rank -->
-   <td>ai-forever/mGPT (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">100</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">1024</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">13,551 ± 4,259 / 2,563 ± 838</td> <!-- Model inference speed -->
-   <td class="score">4.68 ± 0.67</td> <!-- ScandEval score -->
-   <td class="de ner">0.30 ± 0.60 / 0.26 ± 0.50</td> <!-- GermEval -->
-   <td class="de sent">0.03 ± 0.44 / 17.26 ± 0.45</td> <!-- SB10k -->
-   <td class="de la">0.72 ± 1.40 / 42.53 ± 3.84</td> <!-- ScaLA-de -->
-   <td class="de qa">0.00 ± 0.00 / 1.54 ± 0.12</td> <!-- GermanQuAD -->
-   <td class="de summ">30.97 ± 0.49 / 1.94 ± 0.26</td> <!-- MLSum -->
-   <td class="de know">-0.35 ± 0.95 / 22.36 ± 0.43</td> <!-- MMLU-de -->
-   <td class="de know">0.57 ± 0.90 / 23.42 ± 0.90</td> <!-- ARC-de -->
-   <td class="de reason">0.64 ± 0.82 / 24.19 ± 0.54</td> <!-- HellaSwag-de -->
   </tr>
  </tbody>
 </table>
