@@ -3,7 +3,7 @@ layout: leaderboard
 title: Dutch NLU
 ---
 
-<center>Last updated: 15/02/2024 08:02:25 CET</center>
+<center>Last updated: 15/02/2024 17:54:13 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -395,7 +395,7 @@ title: Dutch NLU
    <td class="nl qa">7.71 ± 0.42 / 12.90 ± 0.39</td> <!-- SQuAD-nl -->
   </tr>
   <tr class="not-merged-model">
-   <td class="rank">12</td> <!-- Rank -->
+   <td class="rank">12=</td> <!-- Rank -->
    <td>meta-llama/Llama-2-7b-chat-hf (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">6738</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -406,6 +406,19 @@ title: Dutch NLU
    <td class="nl sent">10.07 ± 1.84 / 35.66 ± 2.24</td> <!-- Dutch Social -->
    <td class="nl la">14.73 ± 1.62 / 54.59 ± 2.24</td> <!-- ScaLA-nl -->
    <td class="nl qa">53.41 ± 0.79 / 66.24 ± 0.81</td> <!-- SQuAD-nl -->
+  </tr>
+  <tr class="not-merged-model">
+   <td class="rank">12=</td> <!-- Rank -->
+   <td>BramVanroy/GEITje-7B-ultra (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">2,475 ± 460 / 765 ± 238</td> <!-- Model inference speed -->
+   <td class="score">31.68 ± 1.91</td> <!-- ScandEval score -->
+   <td class="nl ner">42.25 ± 2.12 / 27.85 ± 1.09</td> <!-- CoNLL-nl -->
+   <td class="nl sent">12.78 ± 2.52 / 42.17 ± 1.91</td> <!-- Dutch Social -->
+   <td class="nl la">18.23 ± 1.91 / 50.04 ± 2.54</td> <!-- ScaLA-nl -->
+   <td class="nl qa">53.44 ± 1.08 / 66.46 ± 0.45</td> <!-- SQuAD-nl -->
   </tr>
   <tr class="not-merged-model">
    <td class="rank">13</td> <!-- Rank -->
