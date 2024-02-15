@@ -3,7 +3,7 @@ layout: leaderboard
 title: Mainland Scandinavian NLU
 ---
 
-<center>Last updated: 15/02/2024 08:02:19 CET</center>
+<center>Last updated: 15/02/2024 08:23:20 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -3477,7 +3477,33 @@ title: Mainland Scandinavian NLU
    <td class="sv qa">0.02 ± 0.03 / 0.04 ± 0.05</td> <!-- ScandiQA-sv -->
   </tr>
   <tr class="not-merged-model">
-   <td class="rank">33</td> <!-- Rank -->
+   <td class="rank">33=</td> <!-- Rank -->
+   <td>NbAiLab/nb-gpt-j-6B@sharded (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">1024</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">2,630 ± 605 / 684 ± 217</td> <!-- Model inference speed -->
+   <td class="score">6.30 ± 3.30</td> <!-- ScandEval score -->
+   <td class="da-score">4.10 ± 3.81</td> <!-- Danish score -->
+   <td class="no-score">5.21 ± 1.76</td> <!-- Norwegian score -->
+   <td class="sv-score">9.58 ± 4.33</td> <!-- Swedish score -->
+   <td class="da ner">0.36 ± 0.40 / 1.82 ± 1.16</td> <!-- DANSK -->
+   <td class="da sent">11.00 ± 7.09 / 26.09 ± 6.96</td> <!-- Angry Tweets -->
+   <td class="da la">-0.11 ± 1.16 / 33.76 ± 0.86</td> <!-- ScaLA-da -->
+   <td class="da qa">5.16 ± 6.60 / 17.34 ± 5.84</td> <!-- ScandiQA-da -->
+   <td class="no ner">0.22 ± 0.21 / 1.66 ± 1.38</td> <!-- NorNE-nb -->
+   <td class="no ner">0.24 ± 0.40 / 1.43 ± 1.97</td> <!-- NorNE-nn -->
+   <td class="no sent">20.64 ± 5.63 / 36.75 ± 3.29</td> <!-- NoReC -->
+   <td class="no la">-0.99 ± 0.88 / 33.37 ± 0.27</td> <!-- ScaLA-nb -->
+   <td class="no la">-0.15 ± 0.72 / 32.83 ± 0.34</td> <!-- ScaLA-nn -->
+   <td class="no qa">0.55 ± 0.32 / 22.10 ± 2.28</td> <!-- NorQuAD -->
+   <td class="sv ner">0.01 ± 0.02 / 0.11 ± 0.12</td> <!-- SUC3 -->
+   <td class="sv sent">33.50 ± 13.13 / 39.30 ± 11.93</td> <!-- SweReC -->
+   <td class="sv la">-0.02 ± 0.60 / 34.92 ± 2.99</td> <!-- ScaLA-sv -->
+   <td class="sv qa">4.82 ± 3.58 / 18.08 ± 2.83</td> <!-- ScandiQA-sv -->
+  </tr>
+  <tr class="not-merged-model">
+   <td class="rank">33=</td> <!-- Rank -->
    <td>AI-Sweden-Models/gpt-sw3-126m (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">186</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
@@ -3503,7 +3529,7 @@ title: Mainland Scandinavian NLU
    <td class="sv qa">7.64 ± 2.58 / 9.62 ± 3.10</td> <!-- ScandiQA-sv -->
   </tr>
   <tr class="not-merged-model">
-   <td class="rank">34=</td> <!-- Rank -->
+   <td class="rank">33=</td> <!-- Rank -->
    <td>RJuro/kanelsnegl-v0.1 (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -3529,7 +3555,7 @@ title: Mainland Scandinavian NLU
    <td class="sv qa">0.00 ± 0.00 / 8.95 ± 2.92</td> <!-- ScandiQA-sv -->
   </tr>
   <tr class="not-merged-model">
-   <td class="rank">34=</td> <!-- Rank -->
+   <td class="rank">33=</td> <!-- Rank -->
    <td>RJuro/kanelsnegl-v0.2 (few-shot, val)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -3555,7 +3581,7 @@ title: Mainland Scandinavian NLU
    <td class="sv qa">0.00 ± 0.00 / 20.71 ± 7.37</td> <!-- ScandiQA-sv -->
   </tr>
   <tr class="not-merged-model">
-   <td class="rank">34=</td> <!-- Rank -->
+   <td class="rank">33=</td> <!-- Rank -->
    <td>peter-sk/gpt-neox-da (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">1515</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->

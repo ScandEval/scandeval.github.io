@@ -3,7 +3,7 @@ layout: leaderboard
 title: Mainland Scandinavian NLG
 ---
 
-<center>Last updated: 15/02/2024 08:02:21 CET</center>
+<center>Last updated: 15/02/2024 08:23:22 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -1464,6 +1464,44 @@ title: Mainland Scandinavian NLG
   </tr>
   <tr class="not-merged-model">
    <td class="rank">12=</td> <!-- Rank -->
+   <td>NbAiLab/nb-gpt-j-6B-alpaca (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">6055</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">1024</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">2,607 ± 592 / 680 ± 208</td> <!-- Model inference speed -->
+   <td class="score">21.33 ± 2.14</td> <!-- ScandEval score -->
+   <td class="da-score">20.82 ± 1.84</td> <!-- Danish score -->
+   <td class="no-score">20.40 ± 1.92</td> <!-- Norwegian score -->
+   <td class="sv-score">22.79 ± 2.66</td> <!-- Swedish score -->
+   <td class="da ner">12.95 ± 3.80 / 11.68 ± 2.31</td> <!-- DANSK -->
+   <td class="da sent">27.68 ± 3.64 / 46.61 ± 4.11</td> <!-- Angry Tweets -->
+   <td class="da la">1.65 ± 1.96 / 47.94 ± 2.55</td> <!-- ScaLA-da -->
+   <td class="da qa">38.57 ± 0.65 / 47.40 ± 0.63</td> <!-- ScandiQA-da -->
+   <td class="da summ">64.15 ± 0.49 / 17.81 ± 0.80</td> <!-- Nordjylland-News -->
+   <td class="da know">1.84 ± 0.58 / 26.05 ± 0.48</td> <!-- MMLU-da -->
+   <td class="da know">1.01 ± 1.44 / 25.42 ± 1.54</td> <!-- ARC-da -->
+   <td class="da reason">-0.68 ± 1.31 / 25.00 ± 0.79</td> <!-- HellaSwag-da -->
+   <td class="no ner">23.82 ± 4.25 / 22.08 ± 2.50</td> <!-- NorNE-nb -->
+   <td class="no ner">26.04 ± 6.38 / 24.47 ± 3.69</td> <!-- NorNE-nn -->
+   <td class="no sent">32.60 ± 1.84 / 47.47 ± 3.33</td> <!-- NoReC -->
+   <td class="no summ">58.76 ± 0.62 / 12.29 ± 0.77</td> <!-- No Sammendrag -->
+   <td class="no la">0.34 ± 1.43 / 44.47 ± 2.44</td> <!-- ScaLA-nb -->
+   <td class="no la">2.26 ± 2.27 / 45.41 ± 3.25</td> <!-- ScaLA-nn -->
+   <td class="no qa">21.34 ± 0.98 / 42.76 ± 1.06</td> <!-- NorQuAD -->
+   <td class="no know">2.13 ± 1.32 / 26.30 ± 1.12</td> <!-- MMLU-no -->
+   <td class="no know">1.81 ± 1.73 / 26.49 ± 1.58</td> <!-- ARC-no -->
+   <td class="no reason">1.87 ± 1.34 / 25.87 ± 0.75</td> <!-- HellaSwag-no -->
+   <td class="sv ner">13.28 ± 4.32 / 13.40 ± 2.95</td> <!-- SUC3 -->
+   <td class="sv sent">60.17 ± 8.39 / 65.99 ± 4.66</td> <!-- SweReC -->
+   <td class="sv la">1.52 ± 1.94 / 45.19 ± 3.80</td> <!-- ScaLA-sv -->
+   <td class="sv qa">37.22 ± 1.08 / 46.81 ± 0.82</td> <!-- ScandiQA-sv -->
+   <td class="sv summ">47.50 ± 0.37 / 13.19 ± 0.22</td> <!-- SweDN -->
+   <td class="sv know">-0.03 ± 1.31 / 23.73 ± 1.11</td> <!-- MMLU-sv -->
+   <td class="sv know">-0.35 ± 1.91 / 23.95 ± 1.38</td> <!-- ARC-sv -->
+   <td class="sv reason">0.02 ± 0.88 / 25.04 ± 0.61</td> <!-- HellaSwag-sv -->
+  </tr>
+  <tr class="not-merged-model">
+   <td class="rank">12=</td> <!-- Rank -->
    <td>AI-Sweden-Models/gpt-sw3-356m (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">471</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
@@ -1729,7 +1767,45 @@ title: Mainland Scandinavian NLG
    <td class="sv reason">-1.43 ± 1.64 / 21.64 ± 1.80</td> <!-- HellaSwag-sv -->
   </tr>
   <tr class="not-merged-model">
-   <td class="rank">14=</td> <!-- Rank -->
+   <td class="rank">15</td> <!-- Rank -->
+   <td>NbAiLab/nb-gpt-j-6B@sharded (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">1024</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">2,630 ± 605 / 684 ± 217</td> <!-- Model inference speed -->
+   <td class="score">9.91 ± 2.36</td> <!-- ScandEval score -->
+   <td class="da-score">10.53 ± 2.66</td> <!-- Danish score -->
+   <td class="no-score">9.34 ± 1.56</td> <!-- Norwegian score -->
+   <td class="sv-score">9.85 ± 2.86</td> <!-- Swedish score -->
+   <td class="da ner">0.36 ± 0.40 / 1.82 ± 1.16</td> <!-- DANSK -->
+   <td class="da sent">11.00 ± 7.09 / 26.09 ± 6.96</td> <!-- Angry Tweets -->
+   <td class="da la">-0.11 ± 1.16 / 33.76 ± 0.86</td> <!-- ScaLA-da -->
+   <td class="da qa">5.16 ± 6.60 / 17.34 ± 5.84</td> <!-- ScandiQA-da -->
+   <td class="da summ">57.26 ± 0.88 / 14.33 ± 0.65</td> <!-- Nordjylland-News -->
+   <td class="da know">-0.01 ± 0.80 / 24.29 ± 0.52</td> <!-- MMLU-da -->
+   <td class="da know">-1.35 ± 1.38 / 23.93 ± 1.06</td> <!-- ARC-da -->
+   <td class="da reason">0.73 ± 1.39 / 25.54 ± 1.00</td> <!-- HellaSwag-da -->
+   <td class="no ner">0.22 ± 0.21 / 1.66 ± 1.38</td> <!-- NorNE-nb -->
+   <td class="no ner">0.24 ± 0.40 / 1.43 ± 1.97</td> <!-- NorNE-nn -->
+   <td class="no sent">20.64 ± 5.63 / 36.75 ± 3.29</td> <!-- NoReC -->
+   <td class="no summ">44.80 ± 1.54 / 8.15 ± 0.74</td> <!-- No Sammendrag -->
+   <td class="no la">-0.99 ± 0.88 / 33.37 ± 0.27</td> <!-- ScaLA-nb -->
+   <td class="no la">-0.15 ± 0.72 / 32.83 ± 0.34</td> <!-- ScaLA-nn -->
+   <td class="no qa">0.55 ± 0.32 / 22.10 ± 2.28</td> <!-- NorQuAD -->
+   <td class="no know">0.63 ± 1.48 / 24.41 ± 1.24</td> <!-- MMLU-no -->
+   <td class="no know">-0.97 ± 1.54 / 25.30 ± 1.37</td> <!-- ARC-no -->
+   <td class="no reason">-0.09 ± 0.80 / 24.42 ± 0.74</td> <!-- HellaSwag-no -->
+   <td class="sv ner">0.01 ± 0.02 / 0.11 ± 0.12</td> <!-- SUC3 -->
+   <td class="sv sent">33.50 ± 13.13 / 39.30 ± 11.93</td> <!-- SweReC -->
+   <td class="sv la">-0.02 ± 0.60 / 34.92 ± 2.99</td> <!-- ScaLA-sv -->
+   <td class="sv qa">4.82 ± 3.58 / 18.08 ± 2.83</td> <!-- ScandiQA-sv -->
+   <td class="sv summ">30.78 ± 0.33 / 8.47 ± 0.28</td> <!-- SweDN -->
+   <td class="sv know">-0.11 ± 1.16 / 23.32 ± 0.92</td> <!-- MMLU-sv -->
+   <td class="sv know">-1.26 ± 1.07 / 24.53 ± 1.17</td> <!-- ARC-sv -->
+   <td class="sv reason">0.56 ± 1.22 / 24.79 ± 0.91</td> <!-- HellaSwag-sv -->
+  </tr>
+  <tr class="not-merged-model">
+   <td class="rank">16</td> <!-- Rank -->
    <td>peter-sk/gpt-neox-da (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">1515</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
