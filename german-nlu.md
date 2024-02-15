@@ -3,7 +3,7 @@ layout: leaderboard
 title: German NLU
 ---
 
-<center>Last updated: 13/02/2024 10:44:21 CET</center>
+<center>Last updated: 15/02/2024 08:02:23 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -382,7 +382,7 @@ title: German NLU
    <td class="de qa">24.30 ± 3.79 / 54.51 ± 4.48</td> <!-- GermanQuAD -->
   </tr>
   <tr class="not-merged-model">
-   <td class="rank">13</td> <!-- Rank -->
+   <td class="rank">13=</td> <!-- Rank -->
    <td>meta-llama/Llama-2-7b-chat-hf (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">6738</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -393,6 +393,19 @@ title: German NLU
    <td class="de sent">46.54 ± 2.92 / 63.66 ± 2.14</td> <!-- SB10k -->
    <td class="de la">15.30 ± 1.79 / 55.12 ± 1.92</td> <!-- ScaLA-de -->
    <td class="de qa">25.57 ± 3.57 / 56.05 ± 3.74</td> <!-- GermanQuAD -->
+  </tr>
+  <tr class="not-merged-model">
+   <td class="rank">13=</td> <!-- Rank -->
+   <td>01-ai/Yi-6B (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">6061</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">2,786 ± 532 / 784 ± 250</td> <!-- Model inference speed -->
+   <td class="score">33.97 ± 2.11</td> <!-- ScandEval score -->
+   <td class="de ner">44.97 ± 1.75 / 35.79 ± 1.66</td> <!-- GermEval -->
+   <td class="de sent">53.14 ± 2.67 / 67.89 ± 2.15</td> <!-- SB10k -->
+   <td class="de la">7.64 ± 2.47 / 37.95 ± 2.67</td> <!-- ScaLA-de -->
+   <td class="de qa">30.12 ± 1.55 / 57.17 ± 2.38</td> <!-- GermanQuAD -->
   </tr>
   <tr class="not-merged-model">
    <td class="rank">14</td> <!-- Rank -->

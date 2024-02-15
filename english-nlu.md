@@ -3,7 +3,7 @@ layout: leaderboard
 title: English NLU
 ---
 
-<center>Last updated: 13/02/2024 10:44:24 CET</center>
+<center>Last updated: 15/02/2024 08:02:26 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -214,6 +214,19 @@ title: English NLU
   </tr>
   <tr class="not-merged-model">
    <td class="rank">12=</td> <!-- Rank -->
+   <td>01-ai/Yi-6B (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">6061</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">2,786 ± 532 / 784 ± 250</td> <!-- Model inference speed -->
+   <td class="score">55.62 ± 2.33</td> <!-- ScandEval score -->
+   <td class="en ner">52.70 ± 2.29 / 48.83 ± 2.24</td> <!-- CoNLL-en -->
+   <td class="en sent">68.66 ± 0.92 / 58.34 ± 0.37</td> <!-- SST5 -->
+   <td class="en la">25.29 ± 4.29 / 54.31 ± 5.45</td> <!-- ScaLA-en -->
+   <td class="en qa">75.83 ± 1.81 / 85.86 ± 1.01</td> <!-- SQuAD -->
+  </tr>
+  <tr class="not-merged-model">
+   <td class="rank">12=</td> <!-- Rank -->
    <td>mistralai/Mistral-7B-v0.1 (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -226,7 +239,7 @@ title: English NLU
    <td class="en qa">58.79 ± 1.97 / 69.65 ± 2.00</td> <!-- SQuAD -->
   </tr>
   <tr class="not-merged-model">
-   <td class="rank">12=</td> <!-- Rank -->
+   <td class="rank">13=</td> <!-- Rank -->
    <td>mistralai/Mistral-7B-Instruct-v0.1 (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -239,7 +252,7 @@ title: English NLU
    <td class="en qa">65.46 ± 1.74 / 81.96 ± 0.56</td> <!-- SQuAD -->
   </tr>
   <tr class="not-merged-model">
-   <td class="rank">12=</td> <!-- Rank -->
+   <td class="rank">13=</td> <!-- Rank -->
    <td>RuterNorway/Llama-2-13b-chat-norwegian (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -278,7 +291,7 @@ title: English NLU
    <td class="en qa">52.69 ± 2.21 / 76.35 ± 1.25</td> <!-- SQuAD -->
   </tr>
   <tr class="not-merged-model">
-   <td class="rank">14=</td> <!-- Rank -->
+   <td class="rank">13=</td> <!-- Rank -->
    <td>meta-llama/Llama-2-7b-chat-hf (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">6738</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -291,7 +304,7 @@ title: English NLU
    <td class="en qa">64.54 ± 1.41 / 80.82 ± 0.81</td> <!-- SQuAD -->
   </tr>
   <tr class="not-merged-model">
-   <td class="rank">14=</td> <!-- Rank -->
+   <td class="rank">13=</td> <!-- Rank -->
    <td>mistralai/Mistral-7B-Instruct-v0.2 (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -304,7 +317,7 @@ title: English NLU
    <td class="en qa">58.30 ± 2.09 / 77.85 ± 0.72</td> <!-- SQuAD -->
   </tr>
   <tr class="not-merged-model">
-   <td class="rank">15</td> <!-- Rank -->
+   <td class="rank">14</td> <!-- Rank -->
    <td>Rijgersberg/GEITje-7B (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -317,7 +330,7 @@ title: English NLU
    <td class="en qa">65.74 ± 2.31 / 77.95 ± 1.84</td> <!-- SQuAD -->
   </tr>
   <tr class="not-merged-model">
-   <td class="rank">16=</td> <!-- Rank -->
+   <td class="rank">15=</td> <!-- Rank -->
    <td>distilbert-base-multilingual-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">135</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">120</td> <!-- Size of the model's vocabulary -->
@@ -330,7 +343,7 @@ title: English NLU
    <td class="en qa">29.00 ± 0.89 / 40.37 ± 0.77</td> <!-- SQuAD -->
   </tr>
   <tr class="not-merged-model">
-   <td class="rank">16=</td> <!-- Rank -->
+   <td class="rank">15=</td> <!-- Rank -->
    <td>meta-llama/Llama-2-7b-hf (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">6738</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -343,7 +356,7 @@ title: English NLU
    <td class="en qa">44.64 ± 3.00 / 53.75 ± 3.18</td> <!-- SQuAD -->
   </tr>
   <tr class="not-merged-model">
-   <td class="rank">16=</td> <!-- Rank -->
+   <td class="rank">15=</td> <!-- Rank -->
    <td>AI-Sweden-Models/gpt-sw3-20b (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">20918</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
@@ -356,7 +369,7 @@ title: English NLU
    <td class="en qa">65.29 ± 1.81 / 77.71 ± 0.98</td> <!-- SQuAD -->
   </tr>
   <tr class="not-merged-model">
-   <td class="rank">17</td> <!-- Rank -->
+   <td class="rank">16</td> <!-- Rank -->
    <td>RuterNorway/Llama-2-7b-chat-norwegian (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -369,7 +382,7 @@ title: English NLU
    <td class="en qa">36.70 ± 2.02 / 50.85 ± 1.85</td> <!-- SQuAD -->
   </tr>
   <tr class="not-merged-model">
-   <td class="rank">18</td> <!-- Rank -->
+   <td class="rank">17</td> <!-- Rank -->
    <td>RJuro/kanelsnegl-v0.1 (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->

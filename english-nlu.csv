@@ -13,16 +13,17 @@ rank,model_id,num_model_parameters,vocabulary_size,max_sequence_length,speed,sco
 9,bert-base-uncased,109.0,31,512,10296,60.24,60.24,87.62,54.01,56.97,42.37
 10,xlm-roberta-large,559.0,250,512,6663,59.05,59.05,89.81,41.97,35.55,68.88
 11,bert-base-multilingual-cased,177.0,120,512,14083,56.18,56.18,89.32,41.89,38.34,55.19
+12,01-ai/Yi-6B (few-shot),6061.0,64,4096,2786,55.62,55.62,52.7,68.66,25.29,75.83
 12,mistralai/Mistral-7B-v0.1 (few-shot),7242.0,32,32768,2657,55.32,55.32,63.4,68.17,30.92,58.79
-12,mistralai/Mistral-7B-Instruct-v0.1 (few-shot),7242.0,32,32768,5443,54.85,54.85,57.58,61.44,34.92,65.46
-12,RuterNorway/Llama-2-13b-chat-norwegian (few-shot),unknown,32,4096,7778,54.81,54.81,64.93,64.14,28.08,62.09
+13,mistralai/Mistral-7B-Instruct-v0.1 (few-shot),7242.0,32,32768,5443,54.85,54.85,57.58,61.44,34.92,65.46
+13,RuterNorway/Llama-2-13b-chat-norwegian (few-shot),unknown,32,4096,7778,54.81,54.81,64.93,64.14,28.08,62.09
 13,distilbert-base-cased,65.0,29,512,19667,53.52,53.52,84.75,50.94,53.47,24.93
 13,"mlabonne/NeuralBeagle14-7B (few-shot, val)",7242.0,32,8192,2549,53.52,53.52,69.16,63.85,28.4,52.69
-14,meta-llama/Llama-2-7b-chat-hf (few-shot),6738.0,32,4096,2643,53.0,53.0,62.53,62.23,22.71,64.54
-14,mistralai/Mistral-7B-Instruct-v0.2 (few-shot),7242.0,32,32768,2538,52.75,52.75,62.11,59.91,30.66,58.3
-15,Rijgersberg/GEITje-7B (few-shot),7242.0,32,32768,10401,49.24,49.24,53.39,65.21,12.63,65.74
-16,distilbert-base-multilingual-cased,135.0,120,512,26355,48.49,48.49,87.7,36.48,40.79,29.0
-16,meta-llama/Llama-2-7b-hf (few-shot),6738.0,32,4096,2648,46.38,46.38,55.27,65.16,20.43,44.64
-16,AI-Sweden-Models/gpt-sw3-20b (few-shot),20918.0,64,2048,4880,44.96,44.96,45.86,62.08,6.62,65.29
-17,RuterNorway/Llama-2-7b-chat-norwegian (few-shot),unknown,32,4096,10890,19.34,19.34,18.69,21.95,0.01,36.7
-18,RJuro/kanelsnegl-v0.1 (few-shot),7242.0,32,512,9757,0.1,0.1,0.0,0.0,0.41,0.0
+13,meta-llama/Llama-2-7b-chat-hf (few-shot),6738.0,32,4096,2643,53.0,53.0,62.53,62.23,22.71,64.54
+13,mistralai/Mistral-7B-Instruct-v0.2 (few-shot),7242.0,32,32768,2538,52.75,52.75,62.11,59.91,30.66,58.3
+14,Rijgersberg/GEITje-7B (few-shot),7242.0,32,32768,10401,49.24,49.24,53.39,65.21,12.63,65.74
+15,distilbert-base-multilingual-cased,135.0,120,512,26355,48.49,48.49,87.7,36.48,40.79,29.0
+15,meta-llama/Llama-2-7b-hf (few-shot),6738.0,32,4096,2648,46.38,46.38,55.27,65.16,20.43,44.64
+15,AI-Sweden-Models/gpt-sw3-20b (few-shot),20918.0,64,2048,4880,44.96,44.96,45.86,62.08,6.62,65.29
+16,RuterNorway/Llama-2-7b-chat-norwegian (few-shot),unknown,32,4096,10890,19.34,19.34,18.69,21.95,0.01,36.7
+17,RJuro/kanelsnegl-v0.1 (few-shot),7242.0,32,512,9757,0.1,0.1,0.0,0.0,0.41,0.0

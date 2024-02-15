@@ -3,7 +3,7 @@ layout: leaderboard
 title: Dutch NLG
 ---
 
-<center>Last updated: 13/02/2024 10:44:23 CET</center>
+<center>Last updated: 15/02/2024 08:02:25 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -154,7 +154,7 @@ title: Dutch NLG
    <td class="nl reason">14.26 ± 1.48 / 35.14 ± 1.18</td> <!-- HellaSwag-nl -->
   </tr>
   <tr class="not-merged-model">
-   <td class="rank">6</td> <!-- Rank -->
+   <td class="rank">6=</td> <!-- Rank -->
    <td>meta-llama/Llama-2-7b-chat-hf (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">6738</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -169,6 +169,23 @@ title: Dutch NLG
    <td class="nl know">20.19 ± 1.26 / 39.24 ± 1.03</td> <!-- MMLU-nl -->
    <td class="nl know">26.26 ± 1.73 / 44.67 ± 1.29</td> <!-- ARC-nl -->
    <td class="nl reason">11.42 ± 1.29 / 32.50 ± 1.10</td> <!-- HellaSwag-nl -->
+  </tr>
+  <tr class="not-merged-model">
+   <td class="rank">6=</td> <!-- Rank -->
+   <td>01-ai/Yi-6B (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">6061</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">2,786 ± 532 / 784 ± 250</td> <!-- Model inference speed -->
+   <td class="score">32.17 ± 1.43</td> <!-- ScandEval score -->
+   <td class="nl ner">46.34 ± 2.00 / 33.30 ± 1.78</td> <!-- CoNLL-nl -->
+   <td class="nl sent">8.96 ± 1.44 / 18.10 ± 2.39</td> <!-- Dutch Social -->
+   <td class="nl la">0.88 ± 1.23 / 33.53 ± 0.48</td> <!-- ScaLA-nl -->
+   <td class="nl qa">55.24 ± 1.32 / 66.42 ± 0.97</td> <!-- SQuAD-nl -->
+   <td class="nl summ">61.07 ± 1.38 / 16.55 ± 1.07</td> <!-- Wiki-Lingua-NL -->
+   <td class="nl know">29.33 ± 0.91 / 46.94 ± 0.68</td> <!-- MMLU-nl -->
+   <td class="nl know">35.53 ± 1.68 / 51.46 ± 1.28</td> <!-- ARC-nl -->
+   <td class="nl reason">20.27 ± 1.38 / 39.32 ± 1.12</td> <!-- HellaSwag-nl -->
   </tr>
   <tr class="not-merged-model">
    <td class="rank">7</td> <!-- Rank -->

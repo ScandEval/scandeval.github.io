@@ -30,13 +30,14 @@ rank,model_id,num_model_parameters,vocabulary_size,max_sequence_length,speed,sco
 12,meta-llama/Llama-2-7b-chat-hf (few-shot),6738.0,32,4096,2643,32.11,32.11,50.23,10.07,14.73,53.41
 13,sentence-transformers/quora-distilbert-multilingual,135.0,120,512,26458,29.25,29.25,67.89,23.25,21.36,4.5
 14,EuropeanParliament/EUBERT,93.0,66,512,20070,28.24,28.24,49.54,14.86,27.9,20.65
-14,meta-llama/Llama-2-7b-hf (few-shot),6738.0,32,4096,2648,25.94,25.94,40.49,7.1,18.66,37.51
-15,AI-Sweden-Models/gpt-sw3-20b (few-shot),20918.0,64,2048,4880,24.45,24.45,35.3,15.67,1.76,45.05
-16,sentence-transformers/distiluse-base-multilingual-cased,135.0,120,512,19206,22.28,22.28,56.98,9.66,19.37,3.11
-16,sentence-transformers/distiluse-base-multilingual-cased-v1,135.0,120,512,26344,21.98,21.98,58.67,17.82,9.27,2.17
-17,RuterNorway/Llama-2-7b-chat-norwegian (few-shot),unknown,32,4096,10890,21.75,21.75,35.49,11.36,2.52,37.61
-18,jpostma/DagoBERT,116.0,40,512,11241,21.29,21.29,42.28,8.01,31.21,3.65
-19,3ebdola/Dialectal-Arabic-XLM-R-Base,277.0,250,512,15177,14.8,14.8,44.46,8.39,2.07,4.3
-19,dbmdz/bert-tiny-historic-multilingual-cased,5.0,32,512,78027,13.94,13.94,41.38,8.45,1.55,4.4
-20,fresh-xlm-roberta-base,277.0,250,512,1319,4.05,4.05,13.09,0.92,1.93,0.26
-21,RJuro/kanelsnegl-v0.1 (few-shot),7242.0,32,512,9757,0.24,0.24,0.0,0.95,0.0,0.0
+15,01-ai/Yi-6B (few-shot),6061.0,64,4096,2786,27.86,27.86,46.34,8.96,0.88,55.24
+15,meta-llama/Llama-2-7b-hf (few-shot),6738.0,32,4096,2648,25.94,25.94,40.49,7.1,18.66,37.51
+16,AI-Sweden-Models/gpt-sw3-20b (few-shot),20918.0,64,2048,4880,24.45,24.45,35.3,15.67,1.76,45.05
+17,sentence-transformers/distiluse-base-multilingual-cased,135.0,120,512,19206,22.28,22.28,56.98,9.66,19.37,3.11
+17,sentence-transformers/distiluse-base-multilingual-cased-v1,135.0,120,512,26344,21.98,21.98,58.67,17.82,9.27,2.17
+18,RuterNorway/Llama-2-7b-chat-norwegian (few-shot),unknown,32,4096,10890,21.75,21.75,35.49,11.36,2.52,37.61
+19,jpostma/DagoBERT,116.0,40,512,11241,21.29,21.29,42.28,8.01,31.21,3.65
+20,3ebdola/Dialectal-Arabic-XLM-R-Base,277.0,250,512,15177,14.8,14.8,44.46,8.39,2.07,4.3
+20,dbmdz/bert-tiny-historic-multilingual-cased,5.0,32,512,78027,13.94,13.94,41.38,8.45,1.55,4.4
+21,fresh-xlm-roberta-base,277.0,250,512,1319,4.05,4.05,13.09,0.92,1.93,0.26
+22,RJuro/kanelsnegl-v0.1 (few-shot),7242.0,32,512,9757,0.24,0.24,0.0,0.95,0.0,0.0

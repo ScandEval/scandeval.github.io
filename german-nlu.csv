@@ -27,6 +27,7 @@ rank,model_id,num_model_parameters,vocabulary_size,max_sequence_length,speed,sco
 11,mistralai/Mistral-7B-Instruct-v0.2 (few-shot),7242.0,32,32768,2538,37.82,37.82,55.15,47.85,24.29,23.98
 12,mistralai/Mistral-7B-Instruct-v0.1 (few-shot),7242.0,32,32768,5443,36.38,36.38,51.79,47.27,22.15,24.3
 13,meta-llama/Llama-2-7b-chat-hf (few-shot),6738.0,32,4096,2643,34.35,34.35,50.0,46.54,15.3,25.57
+13,01-ai/Yi-6B (few-shot),6061.0,64,4096,2786,33.97,33.97,44.97,53.14,7.64,30.12
 14,sentence-transformers/distilbert-multilingual-nli-stsb-quora-ranking,135.0,120,512,26151,33.58,33.58,66.75,49.61,17.6,0.36
 15,sentence-transformers/distiluse-base-multilingual-cased-v1,135.0,120,512,26344,32.01,32.01,53.77,53.53,20.15,0.58
 15,meta-llama/Llama-2-7b-hf (few-shot),6738.0,32,4096,2648,31.55,31.55,41.88,50.17,15.82,18.35

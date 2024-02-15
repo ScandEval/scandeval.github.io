@@ -3,7 +3,7 @@ layout: leaderboard
 title: Insular Scandinavian NLG
 ---
 
-<center>Last updated: 13/02/2024 10:44:21 CET</center>
+<center>Last updated: 15/02/2024 08:02:23 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -259,7 +259,27 @@ title: Insular Scandinavian NLG
    <td class="is reason">-0.01 ± 0.72 / 24.46 ± 0.37</td> <!-- HellaSwag-is -->
   </tr>
   <tr class="not-merged-model">
-   <td class="rank">6</td> <!-- Rank -->
+   <td class="rank">6=</td> <!-- Rank -->
+   <td>01-ai/Yi-6B (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">6061</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">2,786 ± 532 / 784 ± 250</td> <!-- Model inference speed -->
+   <td class="score">7.34 ± 0.96</td> <!-- ScandEval score -->
+   <td class="is-score">14.82 ± 1.52</td> <!-- Icelandic score -->
+   <td class="fo-score">-0.14 ± 0.40</td> <!-- Faroese score -->
+   <td class="is ner">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- MIM-GOLD-NER -->
+   <td class="is la">2.12 ± 1.40 / 38.45 ± 2.47</td> <!-- ScaLA-is -->
+   <td class="is qa">16.85 ± 2.51 / 40.63 ± 2.83</td> <!-- NQiI -->
+   <td class="fo ner">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- FoNE -->
+   <td class="fo la">-0.28 ± 0.79 / 33.70 ± 0.64</td> <!-- ScaLA-fo -->
+   <td class="is summ">60.86 ± 3.13 / 16.33 ± 1.79</td> <!-- RRN -->
+   <td class="is know">8.44 ± 0.73 / 31.23 ± 0.59</td> <!-- MMLU-is -->
+   <td class="is know">6.23 ± 1.27 / 30.19 ± 1.04</td> <!-- ARC-is -->
+   <td class="is reason">1.76 ± 1.09 / 25.68 ± 0.87</td> <!-- HellaSwag-is -->
+  </tr>
+  <tr class="not-merged-model">
+   <td class="rank">6=</td> <!-- Rank -->
    <td>RJuro/kanelsnegl-v0.1 (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->

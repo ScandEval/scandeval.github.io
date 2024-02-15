@@ -3,7 +3,7 @@ layout: leaderboard
 title: English NLG
 ---
 
-<center>Last updated: 13/02/2024 10:44:25 CET</center>
+<center>Last updated: 15/02/2024 08:02:27 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -70,6 +70,23 @@ title: English NLG
   </tr>
   <tr class="not-merged-model">
    <td class="rank">2</td> <!-- Rank -->
+   <td>01-ai/Yi-6B (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">6061</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">2,786 ± 532 / 784 ± 250</td> <!-- Model inference speed -->
+   <td class="score">60.07 ± 1.59</td> <!-- ScandEval score -->
+   <td class="en ner">52.70 ± 2.29 / 48.83 ± 2.24</td> <!-- CoNLL-en -->
+   <td class="en sent">68.66 ± 0.92 / 58.34 ± 0.37</td> <!-- SST5 -->
+   <td class="en la">25.29 ± 4.29 / 54.31 ± 5.45</td> <!-- ScaLA-en -->
+   <td class="en qa">75.83 ± 1.81 / 85.86 ± 1.01</td> <!-- SQuAD -->
+   <td class="en summ">67.65 ± 0.23 / 23.26 ± 0.29</td> <!-- CNN-DailyMail -->
+   <td class="en know">50.89 ± 0.77 / 63.01 ± 0.60</td> <!-- MMLU -->
+   <td class="en know">73.19 ± 0.98 / 79.92 ± 0.74</td> <!-- ARC -->
+   <td class="en reason">68.29 ± 0.74 / 75.90 ± 0.62</td> <!-- HellaSwag -->
+  </tr>
+  <tr class="not-merged-model">
+   <td class="rank">3</td> <!-- Rank -->
    <td>mistralai/Mistral-7B-v0.1 (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -86,7 +103,7 @@ title: English NLG
    <td class="en reason">34.96 ± 4.19 / 49.62 ± 3.28</td> <!-- HellaSwag -->
   </tr>
   <tr class="not-merged-model">
-   <td class="rank">3=</td> <!-- Rank -->
+   <td class="rank">4=</td> <!-- Rank -->
    <td>mistralai/Mistral-7B-Instruct-v0.2 (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -103,7 +120,7 @@ title: English NLG
    <td class="en reason">44.91 ± 2.44 / 58.07 ± 1.93</td> <!-- HellaSwag -->
   </tr>
   <tr class="not-merged-model">
-   <td class="rank">3=</td> <!-- Rank -->
+   <td class="rank">4=</td> <!-- Rank -->
    <td>mistralai/Mistral-7B-Instruct-v0.1 (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -120,7 +137,7 @@ title: English NLG
    <td class="en reason">35.72 ± 1.56 / 49.69 ± 1.42</td> <!-- HellaSwag -->
   </tr>
   <tr class="not-merged-model">
-   <td class="rank">3=</td> <!-- Rank -->
+   <td class="rank">4=</td> <!-- Rank -->
    <td>RuterNorway/Llama-2-13b-chat-norwegian (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -137,7 +154,7 @@ title: English NLG
    <td class="en reason">38.09 ± 2.61 / 52.60 ± 2.19</td> <!-- HellaSwag -->
   </tr>
   <tr class="not-merged-model">
-   <td class="rank">4</td> <!-- Rank -->
+   <td class="rank">5</td> <!-- Rank -->
    <td>meta-llama/Llama-2-7b-chat-hf (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">6738</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -154,7 +171,7 @@ title: English NLG
    <td class="en reason">30.18 ± 1.87 / 45.85 ± 1.98</td> <!-- HellaSwag -->
   </tr>
   <tr class="not-merged-model">
-   <td class="rank">5</td> <!-- Rank -->
+   <td class="rank">6</td> <!-- Rank -->
    <td>Rijgersberg/GEITje-7B (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -171,7 +188,7 @@ title: English NLG
    <td class="en reason">17.69 ± 2.71 / 35.94 ± 2.08</td> <!-- HellaSwag -->
   </tr>
   <tr class="not-merged-model">
-   <td class="rank">6</td> <!-- Rank -->
+   <td class="rank">7</td> <!-- Rank -->
    <td>meta-llama/Llama-2-7b-hf (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">6738</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -188,7 +205,7 @@ title: English NLG
    <td class="en reason">11.77 ± 1.81 / 31.25 ± 1.99</td> <!-- HellaSwag -->
   </tr>
   <tr class="not-merged-model">
-   <td class="rank">7</td> <!-- Rank -->
+   <td class="rank">8</td> <!-- Rank -->
    <td>AI-Sweden-Models/gpt-sw3-20b (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">20918</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
@@ -205,7 +222,7 @@ title: English NLG
    <td class="en reason">8.35 ± 0.79 / 29.79 ± 0.76</td> <!-- HellaSwag -->
   </tr>
   <tr class="not-merged-model">
-   <td class="rank">8</td> <!-- Rank -->
+   <td class="rank">9</td> <!-- Rank -->
    <td>RuterNorway/Llama-2-7b-chat-norwegian (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -222,7 +239,7 @@ title: English NLG
    <td class="en reason">0.62 ± 0.99 / 24.68 ± 0.55</td> <!-- HellaSwag -->
   </tr>
   <tr class="not-merged-model">
-   <td class="rank">9</td> <!-- Rank -->
+   <td class="rank">10</td> <!-- Rank -->
    <td>RJuro/kanelsnegl-v0.1 (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->

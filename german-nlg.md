@@ -3,7 +3,7 @@ layout: leaderboard
 title: German NLG
 ---
 
-<center>Last updated: 13/02/2024 10:44:22 CET</center>
+<center>Last updated: 15/02/2024 08:02:24 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -135,6 +135,23 @@ title: German NLG
    <td class="de know">26.88 ± 0.94 / 44.64 ± 0.79</td> <!-- MMLU-de -->
    <td class="de know">44.97 ± 1.73 / 58.53 ± 1.31</td> <!-- ARC-de -->
    <td class="de reason">20.34 ± 1.39 / 39.65 ± 0.94</td> <!-- HellaSwag-de -->
+  </tr>
+  <tr class="not-merged-model">
+   <td class="rank">4=</td> <!-- Rank -->
+   <td>01-ai/Yi-6B (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">6061</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">2,786 ± 532 / 784 ± 250</td> <!-- Model inference speed -->
+   <td class="score">37.23 ± 1.68</td> <!-- ScandEval score -->
+   <td class="de ner">44.97 ± 1.75 / 35.79 ± 1.66</td> <!-- GermEval -->
+   <td class="de sent">53.14 ± 2.67 / 67.89 ± 2.15</td> <!-- SB10k -->
+   <td class="de la">7.64 ± 2.47 / 37.95 ± 2.67</td> <!-- ScaLA-de -->
+   <td class="de qa">30.12 ± 1.55 / 57.17 ± 2.38</td> <!-- GermanQuAD -->
+   <td class="de summ">66.73 ± 1.31 / 24.69 ± 3.17</td> <!-- MLSum -->
+   <td class="de know">29.80 ± 0.81 / 47.29 ± 0.57</td> <!-- MMLU-de -->
+   <td class="de know">40.33 ± 0.91 / 55.16 ± 0.71</td> <!-- ARC-de -->
+   <td class="de reason">22.91 ± 1.13 / 41.18 ± 1.10</td> <!-- HellaSwag-de -->
   </tr>
   <tr class="not-merged-model">
    <td class="rank">5=</td> <!-- Rank -->
