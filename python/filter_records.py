@@ -106,6 +106,14 @@ def main(filename: str) -> None:
         for record in records:
             f.write(json.dumps(record) + "\n")
 
+    records_without_merge = list()
+    for record in records:
+        record.pop("merge")
+        records_without_merge.append(record)
+    with Path(filename).with_suffix(".no_merge.jsonl").open(mode="w") as f:
+        for record in records_without_merge:
+            f.write(json.dumps(record) + "\n")
+
 
 def add_missing_entries(record: dict) -> dict:
     """Adds missing entries to a record.
