@@ -21,7 +21,7 @@ logger = logging.getLogger(__name__)
 
 # Variable determining whether all models that haven't been fully benchmarked should be
 # logged along with the datasets they are missing
-LOG_MISSING = bool(os.getenv("LOG_MISSING", "0"))
+LOG_MISSING = bool(os.getenv("LOG_MISSING", None))
 
 
 @click.command()
@@ -200,8 +200,19 @@ title: {title}
         raise FileNotFoundError(f"Could not find {scores_path!r}")
 
     # Load in scores
+    scores = list()
     with scores_path.open() as f:
-        scores = [json.loads(line) for line in f if line.strip()]
+        for line_idx, line in enumerate(f):
+            if not line.strip():
+                continue
+            for record in line.replace("}{", "}\n{").split("\n"):
+                if not record.strip():
+                    continue
+                try:
+                    scores.append(json.loads(record))
+                except json.JSONDecodeError:
+                    logger.error(f"Invalid JSON on line {line_idx:,}: {record}.")
+                    return
 
     # Reorganize the scores by each model
     model_scores: dict[str, dict[str, tuple[str, str, str]]] = defaultdict(dict)
