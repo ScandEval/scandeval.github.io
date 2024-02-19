@@ -21,7 +21,7 @@ logger = logging.getLogger(__name__)
 
 # Variable determining whether all models that haven't been fully benchmarked should be
 # logged along with the datasets they are missing
-LOG_MISSING = bool(os.getenv("LOG_MISSING", None))
+LOG_MISSING = bool(os.getenv("LOG_MISSING", "0"))
 
 
 @click.command()
@@ -390,15 +390,18 @@ title: {title}
         if all([value != "" for value in values.values()]):
             all_values.append(values)
         else:
+            missing_datasets = [
+                dataset for dataset, score_str in values.items() if score_str == ""
+            ]
             if LOG_MISSING:
-                missing_datasets = [
-                    dataset for dataset, score_str in values.items() if score_str == ""
-                ]
-                all_are_missing = all(
-                    dataset.lower().replace(" ", "_").replace("-", "_") in missing_datasets
+                pct_missing = sum(
+                    int(
+                        dataset.lower().replace(" ", "_").replace("-", "_")
+                        in missing_datasets
+                    )
                     for dataset, _, _, _, _ in datasets
-                )
-                if not all_are_missing:
+                ) / len(datasets)
+                if pct_missing < 0.3:
                     logger.info(
                         f"In the {title}, {values['model_id']!r} is missing the "
                         f"datasets {missing_datasets}."
