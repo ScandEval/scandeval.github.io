@@ -3,7 +3,7 @@ layout: leaderboard
 title: Insular Scandinavian NLG
 ---
 
-<center>Last updated: 16/02/2024 17:45:59 CET</center>
+<center>Last updated: 19/02/2024 10:14:40 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -266,7 +266,7 @@ title: Insular Scandinavian NLG
    <td class="is reason">1.76 ± 1.09 / 25.68 ± 0.87</td> <!-- HellaSwag-is -->
   </tr>
   <tr class="not-merged-model">
-   <td class="rank">6</td> <!-- Rank -->
+   <td class="rank">6=</td> <!-- Rank -->
    <td>RJuro/kanelsnegl-v0.1 (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -283,6 +283,25 @@ title: Insular Scandinavian NLG
    <td class="is summ">55.33 ± 0.17 / 6.93 ± 0.19</td> <!-- RRN -->
    <td class="is know">0.00 ± 0.00 / 21.57 ± 0.58</td> <!-- MMLU-is -->
    <td class="is reason">0.00 ± 0.00 / 24.86 ± 0.79</td> <!-- HellaSwag-is -->
+  </tr>
+  <tr class="not-merged-model">
+   <td class="rank">6=</td> <!-- Rank -->
+   <td>ai-forever/mGPT (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">100</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">1024</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">13,551 ± 4,259 / 2,563 ± 838</td> <!-- Model inference speed -->
+   <td class="score">2.48 ± 0.42</td> <!-- ScandEval score -->
+   <td class="is-score">5.09 ± 0.38</td> <!-- Icelandic score -->
+   <td class="fo-score">-0.12 ± 0.47</td> <!-- Faroese score -->
+   <td class="is ner">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- MIM-GOLD-NER -->
+   <td class="is la">0.00 ± 0.00 / 33.69 ± 0.28</td> <!-- ScaLA-is -->
+   <td class="is qa">0.00 ± 0.00 / 0.05 ± 0.03</td> <!-- NQiI -->
+   <td class="fo ner">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- FoNE -->
+   <td class="fo la">-0.24 ± 0.93 / 43.16 ± 3.72</td> <!-- ScaLA-fo -->
+   <td class="is summ">30.20 ± 0.17 / 2.36 ± 0.06</td> <!-- RRN -->
+   <td class="is know">0.69 ± 0.98 / 23.34 ± 0.72</td> <!-- MMLU-is -->
+   <td class="is reason">-0.36 ± 1.12 / 24.96 ± 0.63</td> <!-- HellaSwag-is -->
   </tr>
  </tbody>
 </table>
