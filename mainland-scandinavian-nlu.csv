@@ -1,6 +1,7 @@
 rank,model_id,num_model_parameters,vocabulary_size,max_sequence_length,speed,score,da_score,no_score,sv_score,dansk,angry_tweets,scala_da,scandiqa_da,norne_nb,norne_nn,norec,scala_nb,scala_nn,norquad,suc3,swerec,scala_sv,scandiqa_sv
 1,ltg/norbert3-large,354.0,50,508,5048,67.78,60.51,74.76,68.08,73.62,48.29,71.55,48.59,93.12,89.39,64.62,77.97,76.3,66.03,79.01,75.32,69.11,48.88
 1,"gpt-4-0613 (few-shot, val)",unknown,100,8192,1244,67.34,61.57,67.09,73.37,64.94,59.97,71.56,49.82,81.16,75.75,72.72,77.3,57.18,49.93,76.86,79.19,80.93,56.5
+1,AI-Sweden-Models/roberta-large-550k,355.0,50,512,5841,66.19,61.39,67.77,69.42,75.42,51.02,70.43,48.69,91.72,87.57,53.96,75.09,64.77,57.55,80.09,77.45,71.86,48.27
 2,danish-foundation-models/encoder-large-v1,355.0,50,512,6671,64.31,62.39,65.49,65.05,74.6,51.42,76.11,47.42,88.66,84.59,55.59,71.43,53.3,57.38,74.18,75.11,64.11,46.79
 2,KennethEnevoldsen/dfm-sentence-encoder-large-1,355.0,50,512,6245,64.24,62.35,66.32,64.05,74.99,53.85,75.71,44.85,86.39,83.22,59.61,67.88,62.44,55.69,71.65,74.92,63.43,46.2
 2,KennethEnevoldsen/dfm-sentence-encoder-large-2,355.0,50,512,6569,64.24,62.98,66.24,63.52,75.3,55.12,76.34,45.15,86.78,83.28,58.73,70.73,59.58,56.04,71.86,74.67,62.77,44.77
