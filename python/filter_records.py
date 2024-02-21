@@ -75,10 +75,11 @@ def main(filename: str) -> None:
         matches = [
             record
             for record, hash_value in zip(records, all_hash_values)
-            if hash_value == unique_hash_value and record_is_valid(record=record)
+            if hash_value == unique_hash_value
         ]
         versions = [
-            match.get("scandeval_version", "0.0.0").split(".") for match in matches
+            list(map(int, match.get("scandeval_version", "0.0.0").split(".")))
+            for match in matches
         ]
         newest_match = matches[versions.index(max(versions))]
         newest_match = add_missing_entries(record=newest_match)
