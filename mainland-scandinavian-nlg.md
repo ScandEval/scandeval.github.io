@@ -3,7 +3,7 @@ layout: leaderboard
 title: Mainland Scandinavian NLG
 ---
 
-<center>Last updated: 21/02/2024 09:46:37 CET</center>
+<center>Last updated: 21/02/2024 16:25:12 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -604,7 +604,7 @@ title: Mainland Scandinavian NLG
    <td class="score">45.51 ± 1.61</td> <!-- ScandEval score -->
    <td class="da-score">48.44 ± 1.69</td> <!-- Danish score -->
    <td class="no-score">41.31 ± 1.76</td> <!-- Norwegian score -->
-   <td class="sv-score">46.78 ± 1.37</td> <!-- Swedish score -->
+   <td class="sv-score">46.78 ± 1.38</td> <!-- Swedish score -->
    <td class="da ner">50.80 ± 2.33 / 34.04 ± 1.76</td> <!-- DANSK -->
    <td class="da sent">42.79 ± 2.38 / 54.47 ± 3.04</td> <!-- Angry Tweets -->
    <td class="da la">23.25 ± 3.17 / 56.31 ± 4.02</td> <!-- ScaLA-da -->
@@ -626,7 +626,7 @@ title: Mainland Scandinavian NLG
    <td class="sv sent">77.50 ± 0.90 / 73.87 ± 1.21</td> <!-- SweReC -->
    <td class="sv la">17.47 ± 2.33 / 47.73 ± 3.35</td> <!-- ScaLA-sv -->
    <td class="sv qa">58.60 ± 1.00 / 64.53 ± 0.78</td> <!-- ScandiQA-sv -->
-   <td class="sv summ">64.20 ± 0.21 / 18.38 ± 0.34</td> <!-- SweDN -->
+   <td class="sv summ">64.20 ± 0.26 / 18.16 ± 0.33</td> <!-- SweDN -->
    <td class="sv know">31.04 ± 1.08 / 48.29 ± 0.82</td> <!-- MMLU-sv -->
    <td class="sv reason">23.57 ± 1.68 / 42.37 ± 1.34</td> <!-- HellaSwag-sv -->
   </tr>
