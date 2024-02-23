@@ -3,7 +3,7 @@ layout: leaderboard
 title: Insular Scandinavian NLG
 ---
 
-<center>Last updated: 23/02/2024 19:49:00 CET</center>
+<center>Last updated: 23/02/2024 19:58:55 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -23,8 +23,8 @@ title: Insular Scandinavian NLG
 
    <th id="score-col"><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="ScandEval score, mean of language scores">Score</span></th>
     
-   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Mean Icelandic statistically significant win ratio">IS</span></th>
-   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Mean Faroese statistically significant win ratio">FO</span></th>
+   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Mean Icelandic statistically significant win ratio">Icelandic</span></th>
+   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Mean Faroese statistically significant win ratio">Faroese</span></th>
 
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Icelandic named entity recognition - Micro-average F1-score without MISC tags / Micro-average F1-score with MISC tags">MIM-GOLD-NER</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Icelandic linguistic acceptability - Matthews Correlation Coefficient / Macro-average F1-score">ScaLA-is</span></th>

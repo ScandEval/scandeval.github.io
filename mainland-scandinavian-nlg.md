@@ -3,7 +3,7 @@ layout: leaderboard
 title: Mainland Scandinavian NLG
 ---
 
-<center>Last updated: 23/02/2024 19:48:51 CET</center>
+<center>Last updated: 23/02/2024 19:58:46 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -23,9 +23,9 @@ title: Mainland Scandinavian NLG
 
    <th id="score-col"><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="ScandEval score, mean of language scores">Score</span></th>
     
-   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Mean Danish statistically significant win ratio">DA</span></th>
-   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Mean Norwegian statistically significant win ratio">NO</span></th>
-   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Mean Swedish statistically significant win ratio">SV</span></th>
+   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Mean Danish statistically significant win ratio">Danish</span></th>
+   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Mean Norwegian statistically significant win ratio">Norwegian</span></th>
+   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Mean Swedish statistically significant win ratio">Swedish</span></th>
 
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Danish named entity recognition - Micro-average F1-score without MISC tags / Micro-average F1-score with MISC tags">DANSK</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Danish sentiment classification - Matthews Correlation Coefficient / Macro-average F1-score">Angry Tweets</span></th>
