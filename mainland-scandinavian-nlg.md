@@ -3,7 +3,7 @@ layout: leaderboard
 title: Mainland Scandinavian NLG
 ---
 
-<center>Last updated: 23/02/2024 09:49:40 CET</center>
+<center>Last updated: 23/02/2024 15:31:21 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -925,15 +925,15 @@ title: Mainland Scandinavian NLG
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
    <td class="speed">2,657 ± 524 / 880 ± 278</td> <!-- Model inference speed -->
-   <td class="score">39.80 ± 2.19</td> <!-- ScandEval score -->
-   <td class="da-score">41.10 ± 2.07</td> <!-- Danish score -->
+   <td class="score">39.75 ± 2.22</td> <!-- ScandEval score -->
+   <td class="da-score">40.96 ± 2.17</td> <!-- Danish score -->
    <td class="no-score">34.53 ± 2.53</td> <!-- Norwegian score -->
    <td class="sv-score">43.77 ± 1.96</td> <!-- Swedish score -->
    <td class="da ner">45.42 ± 2.88 / 32.66 ± 2.49</td> <!-- DANSK -->
    <td class="da sent">43.16 ± 1.69 / 54.53 ± 2.83</td> <!-- Angry Tweets -->
    <td class="da la">8.79 ± 3.23 / 38.38 ± 4.22</td> <!-- ScaLA-da -->
    <td class="da qa">48.51 ± 2.11 / 53.66 ± 2.06</td> <!-- ScandiQA-da -->
-   <td class="da summ">67.52 ± 0.29 / 23.53 ± 0.51</td> <!-- Nordjylland-News -->
+   <td class="da summ">66.54 ± 0.98 / 22.44 ± 0.98</td> <!-- Nordjylland-News -->
    <td class="da know">53.26 ± 1.94 / 64.50 ± 1.68</td> <!-- Danske Talemaader -->
    <td class="da know">58.26 ± 2.62 / 71.56 ± 1.79</td> <!-- Danish Citizen Tests -->
    <td class="da reason">18.53 ± 2.03 / 37.79 ± 1.68</td> <!-- HellaSwag-da -->
@@ -1537,15 +1537,15 @@ title: Mainland Scandinavian NLG
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model-->
    <td class="speed">1,745 ± 978 / 686 ± 159</td> <!-- Model inference speed -->
-   <td class="score">20.10 ± 2.43</td> <!-- ScandEval score -->
-   <td class="da-score">21.42 ± 2.00</td> <!-- Danish score -->
+   <td class="score">20.09 ± 2.43</td> <!-- ScandEval score -->
+   <td class="da-score">21.37 ± 2.00</td> <!-- Danish score -->
    <td class="no-score">17.93 ± 1.76</td> <!-- Norwegian score -->
    <td class="sv-score">20.95 ± 3.52</td> <!-- Swedish score -->
    <td class="da ner">22.31 ± 2.55 / 19.30 ± 2.14</td> <!-- DANSK -->
    <td class="da sent">34.05 ± 2.37 / 52.43 ± 2.46</td> <!-- Angry Tweets -->
    <td class="da la">0.70 ± 1.11 / 40.47 ± 3.04</td> <!-- ScaLA-da -->
    <td class="da qa">18.78 ± 3.89 / 24.10 ± 4.26</td> <!-- ScandiQA-da -->
-   <td class="da summ">65.74 ± 0.29 / 19.05 ± 0.64</td> <!-- Nordjylland-News -->
+   <td class="da summ">65.39 ± 0.23 / 18.34 ± 0.28</td> <!-- Nordjylland-News -->
    <td class="da know">6.27 ± 1.52 / 27.63 ± 1.15</td> <!-- Danske Talemaader -->
    <td class="da know">6.25 ± 3.25 / 37.75 ± 2.53</td> <!-- Danish Citizen Tests -->
    <td class="da reason">2.11 ± 1.44 / 26.00 ± 0.86</td> <!-- HellaSwag-da -->
