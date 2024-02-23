@@ -3,7 +3,7 @@ layout: leaderboard
 title: Mainland Scandinavian NLG
 ---
 
-<center>Last updated: 23/02/2024 19:58:46 CET</center>
+<center>Last updated: 23/02/2024 20:33:07 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -1454,7 +1454,7 @@ title: Mainland Scandinavian NLG
    <td class="sv sent">60.17 ± 8.39 / 65.99 ± 4.66</td> <!-- SweReC -->
    <td class="sv la">1.52 ± 1.94 / 45.19 ± 3.80</td> <!-- ScaLA-sv -->
    <td class="sv qa">37.22 ± 1.08 / 46.81 ± 0.82</td> <!-- ScandiQA-sv -->
-   <td class="sv summ">47.50 ± 0.37 / 13.19 ± 0.22</td> <!-- SweDN -->
+   <td class="sv summ">46.72 ± 0.36 / 12.43 ± 0.17</td> <!-- SweDN -->
    <td class="sv know">-0.03 ± 1.31 / 23.73 ± 1.11</td> <!-- MMLU-sv -->
    <td class="sv reason">0.02 ± 0.88 / 25.04 ± 0.61</td> <!-- HellaSwag-sv -->
   </tr>
