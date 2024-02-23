@@ -127,9 +127,8 @@ title: {title}
             if language_code is None:
                 continue
             language_name_title = language_name.title()
-            language_code_upper = language_code.upper()
             BENCHMARK_HTML_START += f"""
-   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Mean {language_name_title} statistically significant win ratio">{language_code_upper}</span></th>"""
+   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Mean {language_name_title} statistically significant win ratio">{language_name_title}</span></th>"""
         BENCHMARK_HTML_START += "\n"
 
     # Add dataset score columns
