@@ -495,20 +495,23 @@ title: {title}
 
     # Compute average win ratios for each language
     for language_code in language_mapping.keys():
-        datasets_for_language = [
-            dataset.lower().replace(" ", "_").replace("-", "_")
-            for dataset, lang_code, _, _, _ in datasets
-            if lang_code == language_code
-        ]
-        if not datasets_for_language:
-            continue
         for values in all_values:
-            rank_values = [
-                float(values[f"{dataset}_win_ratio"])
-                for dataset in datasets_for_language
-            ]
+            mean_win_ratios = list()
+            for task_code in task_mapping.keys():
+                datasets_for_language_and_task = [
+                    dataset.lower().replace(" ", "_").replace("-", "_")
+                    for dataset, lang_code, task_code, _, _ in datasets
+                    if lang_code == language_code and task_code == task_code
+                ]
+                if not datasets_for_language_and_task:
+                    continue
+                mean_win_ratio = np.mean([
+                    float(values[f"{dataset}_win_ratio"])
+                    for dataset in datasets_for_language_and_task
+                ]).item()
+                mean_win_ratios.append(mean_win_ratio)
             values[f"{language_code}_win_ratio"] = (
-                f"{100 * np.mean(rank_values).item():.2f}"
+                f"{100 * np.mean(mean_win_ratios).item():.2f}"
             )
 
     # Compute the final score for each model
