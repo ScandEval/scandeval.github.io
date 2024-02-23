@@ -11,6 +11,7 @@ import scipy.stats as stats
 import os
 import pandas as pd
 import numpy as np
+from tqdm.auto import tqdm
 
 logging.basicConfig(
     level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s"
@@ -117,7 +118,7 @@ title: {title}
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="The maximum amount of tokens the model can process">Context</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Number of tokens processed per second / Number of tokens processed in small documents per second">Speed</span></th>
 
-   <th id="score-col"><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="ScandEval score">Score</span></th>
+   <th id="score-col"><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="ScandEval score, mean of language scores">Score</span></th>
     """
 
     # Add language score columns, if there are multiple languages
@@ -125,10 +126,9 @@ title: {title}
         for language_code, language_name in language_mapping.items():
             if language_code is None:
                 continue
-            language_code_upper = language_code.upper()
             language_name_title = language_name.title()
             BENCHMARK_HTML_START += f"""
-   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Total {language_name_title} score">{language_code_upper}</span></th>"""
+   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Mean {language_name_title} statistically significant win ratio">{language_name_title} Win Ratio</span></th>"""
         BENCHMARK_HTML_START += "\n"
 
     # Add dataset score columns
@@ -173,7 +173,7 @@ title: {title}
             language_code_lower = language_code.lower()
             language_name_title = language_name.title()
             BENCHMARK_ENTRY += f"""
-   <td class="{language_code_lower}-score">{{{language_code_lower}_score}}</td> <!-- {language_name_title} score -->"""
+   <td class="{language_code_lower}-win-ratio">{{{language_code_lower}_win_ratio}}</td> <!-- {language_name_title} win ratio -->"""
 
     # Add dataset score columns
     for dataset_name, language_code, task_code, _, _ in datasets:
@@ -352,51 +352,6 @@ title: {title}
             dataset_hyphen = dataset.lower().replace(" ", "-")
             values[dataset_underscore] = model_dict.get(dataset_hyphen, [""])[0]
 
-        # Add aggregated scores for each language
-        total_score: float = 0.0
-        total_score_se: float = 0.0
-        for language_code in language_mapping.keys():
-
-            # Get all the task scores for the language
-            task_mean_score_lists: dict[str, list[float]] = defaultdict(list)
-            task_se_score_lists: dict[str, list[float]] = defaultdict(list)
-            for dataset, language, task, _, _ in datasets:
-                if language != language_code:
-                    continue
-                dataset_underscore = dataset.lower().replace(" ", "_").replace("-", "_")
-                dataset_score_str = values.get(dataset_underscore, "")
-                if dataset_score_str:
-                    task_mean_score_lists[task].append(float(dataset_score_str.split()[0]))
-                    task_se_score_lists[task].append(float(dataset_score_str.split()[2]))
-
-            task_mean_scores = {
-                task: sum(score_list) / len(score_list)
-                for task, score_list in task_mean_score_lists.items()
-            }
-            task_se_scores = {
-                task: sum(score_list) / len(score_list)
-                for task, score_list in task_se_score_lists.items()
-            }
-
-            if not task_mean_scores:
-                continue
-
-            # Compute the language score
-            language_mean_score = sum(task_mean_scores.values()) / len(task_mean_scores)
-            language_se_score = sum(task_se_scores.values()) / len(task_se_scores)
-            values[f"{language_code}_score"] = (
-                f"{language_mean_score:.2f} ± {language_se_score:.2f}"
-            )
-
-            # Add the language score to the total score
-            total_score += language_mean_score
-            total_score_se += language_se_score
-
-        # Compute the total score
-        total_score = total_score / len(language_mapping)
-        total_score_se = total_score_se / len(language_mapping)
-        values["score"] = f"{total_score:.2f} ± {total_score_se:.2f}"
-
         # Add the value dictionary to the list of all values
         if all([value != "" for value in values.values()]):
             all_values.append(values)
@@ -449,9 +404,11 @@ title: {title}
         return rank_score_dict
 
     def score_dicts_statistically_better(
-        score_dict_1: dict[str, list[float]], score_dict_2: dict[str, list[float]]
+        score_dict_1: dict[str, list[float]],
+        score_dict_2: dict[str, list[float]],
+        dataset: str | None,
     ) -> bool:
-        if list(score_dict_1.keys()) != list(score_dict_2.keys()):
+        if dataset is None and list(score_dict_1.keys()) != list(score_dict_2.keys()):
             raise ValueError(
                 f"The two score dicts must have the same keys: "
                 f"{list(score_dict_1.keys())} != {list(score_dict_2.keys())}"
@@ -459,13 +416,17 @@ title: {title}
 
         score_values_1 = [
             score
-            for scores in score_dict_1.values()
+            for dataset_key, scores in score_dict_1.items()
             for score in scores
+            if dataset is None
+            or dataset_key.lower().replace(" ", "_").replace("-", "_") == dataset
         ]
         score_values_2 = [
             score
-            for scores in score_dict_2.values()
+            for dataset_key, scores in score_dict_2.items()
             for score in scores
+            if dataset is None
+            or dataset_key.lower().replace(" ", "_").replace("-", "_") == dataset
         ]
         assert len(score_values_1) == len(score_values_2)
 
@@ -493,31 +454,89 @@ title: {title}
 
         return p_value < 0.05
 
-    # Add the rank to each model
-    all_values = sorted(
-        all_values, key=lambda x: float(x["score"].split()[0]), reverse=True
-    )
-    rank = 1
-    rank_scores: dict[str, list[float]] = dict()
-    for idx, values in enumerate(all_values):
-        if idx == 0:
-            values["rank"] = str(rank)
-            rank_scores = extract_scores_for_model(model_id=values["model_id"])
-            continue
-        current_scores = extract_scores_for_model(model_id=values["model_id"])
+    # Compute ranks for all datasets
+    for dataset, _, _, _, _ in tqdm(datasets, desc="Computing ranks"):
+        dataset_underscore = dataset.lower().replace(" ", "_").replace("-", "_")
+        dataset_values_sorted = sorted(
+            all_values,
+            key=lambda x: float(x[dataset_underscore].split()[0]),
+            reverse=True,
+        )
+        rank = 1
+        rank_scores: dict[str, list[float]] = dict()
+        for idx, values in enumerate(dataset_values_sorted):
+            if idx == 0:
+                values[f"{dataset_underscore}_rank"] = str(rank)
+                rank_scores = extract_scores_for_model(model_id=values["model_id"])
+                continue
+            current_scores = extract_scores_for_model(model_id=values["model_id"])
 
-        if score_dicts_statistically_better(rank_scores, current_scores):
-            rank_scores = current_scores
+            if score_dicts_statistically_better(
+                score_dict_1=rank_scores,
+                score_dict_2=current_scores,
+                dataset=dataset_underscore,
+            ):
+                rank_scores = current_scores
+                rank += 1
+            values[f"{dataset_underscore}_rank"] = str(rank)
+
+    # Compute win ratios for all datasets
+    for dataset, _, _, _, _ in datasets:
+        dataset_underscore = dataset.lower().replace(" ", "_").replace("-", "_")
+        for values in all_values:
+            rank = int(values[f"{dataset_underscore}_rank"])
+            num_models_with_worse_performance = sum(
+                int(other_values[f"{dataset_underscore}_rank"]) > rank
+                for other_values in all_values
+            )
+            values[f"{dataset_underscore}_win_ratio"] = str(
+                num_models_with_worse_performance / len(all_values)
+            )
+
+    # Compute average win ratios for each language
+    for language_code in language_mapping.keys():
+        datasets_for_language = [
+            dataset.lower().replace(" ", "_").replace("-", "_")
+            for dataset, lang_code, _, _, _ in datasets
+            if lang_code == language_code
+        ]
+        if not datasets_for_language:
+            continue
+        for values in all_values:
+            rank_values = [
+                float(values[f"{dataset}_win_ratio"])
+                for dataset in datasets_for_language
+            ]
+            values[f"{language_code}_win_ratio"] = (
+                f"{100 * np.mean(rank_values).item():.2f}"
+            )
+
+    # Compute the final score for each model
+    for values in all_values:
+        all_language_win_ratios = [
+            float(values[f"{language_code}_win_ratio"])
+            for language_code in language_mapping.keys()
+        ]
+        score = np.mean(all_language_win_ratios).item()
+        values["score"] = f"{score:.2f}"
+
+    # Compute the rank for each model
+    rank = 0
+    all_values = sorted(all_values, key=lambda x: float(x["score"]), reverse=True)
+    previous_score = None
+    for values in all_values:
+        if previous_score is None or float(values["score"]) < previous_score:
             rank += 1
+            previous_score = float(values["score"])
         values["rank"] = str(rank)
 
-    # Add "=" suffixes to the rank if the models have the same rank
-    for idx, values in enumerate(all_values):
-        rank = values["rank"]
-        num_models_with_rank = len(
-            [value for value in all_values if value["rank"].rstrip("=") == rank]
+    # Add a "=" suffix to the rank if it's not unique
+    for values in all_values:
+        num_models_with_same_rank = sum(
+            int(other_values["rank"].rstrip('=')) == int(values["rank"].rstrip('='))
+            for other_values in all_values
         )
-        if num_models_with_rank > 1:
+        if num_models_with_same_rank > 1:
             values["rank"] += "="
 
     # Add HTML entry for the model, if it has been evaluated on all datasets
