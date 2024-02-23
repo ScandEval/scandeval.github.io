@@ -3,7 +3,7 @@ layout: leaderboard
 title: Mainland Scandinavian NLG
 ---
 
-<center>Last updated: 21/02/2024 16:25:12 CET</center>
+<center>Last updated: 23/02/2024 08:54:06 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -385,22 +385,22 @@ title: Mainland Scandinavian NLG
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
    <td class="speed">2,443 ± 451 / 761 ± 237</td> <!-- Model inference speed -->
-   <td class="score">46.69 ± 1.22</td> <!-- ScandEval score -->
-   <td class="da-score">45.46 ± 0.94</td> <!-- Danish score -->
-   <td class="no-score">46.63 ± 1.75</td> <!-- Norwegian score -->
-   <td class="sv-score">47.98 ± 0.99</td> <!-- Swedish score -->
+   <td class="score">46.64 ± 1.25</td> <!-- ScandEval score -->
+   <td class="da-score">45.36 ± 1.01</td> <!-- Danish score -->
+   <td class="no-score">46.56 ± 1.77</td> <!-- Norwegian score -->
+   <td class="sv-score">47.99 ± 0.98</td> <!-- Swedish score -->
    <td class="da ner">50.76 ± 1.60 / 32.89 ± 2.11</td> <!-- DANSK -->
    <td class="da sent">40.41 ± 0.79 / 44.17 ± 0.56</td> <!-- Angry Tweets -->
    <td class="da la">0.00 ± 0.00 / 33.41 ± 0.23</td> <!-- ScaLA-da -->
    <td class="da qa">57.24 ± 0.74 / 63.79 ± 0.47</td> <!-- ScandiQA-da -->
-   <td class="da summ">67.61 ± 0.21 / 22.14 ± 0.48</td> <!-- Nordjylland-News -->
+   <td class="da summ">66.93 ± 0.71 / 21.50 ± 0.55</td> <!-- Nordjylland-News -->
    <td class="da know">64.32 ± 1.99 / 73.00 ± 1.51</td> <!-- Danske Talemaader -->
    <td class="da know">53.18 ± 2.37 / 67.48 ± 1.70</td> <!-- Danish Citizen Tests -->
    <td class="da reason">43.42 ± 1.05 / 57.50 ± 0.80</td> <!-- HellaSwag-da -->
    <td class="no ner">63.28 ± 1.99 / 47.72 ± 3.74</td> <!-- NorNE-nb -->
    <td class="no ner">61.25 ± 1.05 / 45.04 ± 2.92</td> <!-- NorNE-nn -->
    <td class="no sent">56.90 ± 1.49 / 70.81 ± 1.30</td> <!-- NoReC -->
-   <td class="no summ">66.20 ± 0.24 / 20.14 ± 0.31</td> <!-- No Sammendrag -->
+   <td class="no summ">65.72 ± 0.39 / 19.24 ± 0.78</td> <!-- No Sammendrag -->
    <td class="no la">13.86 ± 1.95 / 44.84 ± 2.31</td> <!-- ScaLA-nb -->
    <td class="no la">10.17 ± 1.89 / 46.48 ± 2.46</td> <!-- ScaLA-nn -->
    <td class="no qa">49.06 ± 4.30 / 74.35 ± 3.96</td> <!-- NorQuAD -->
@@ -410,7 +410,7 @@ title: Mainland Scandinavian NLG
    <td class="sv sent">74.30 ± 1.26 / 60.35 ± 0.41</td> <!-- SweReC -->
    <td class="sv la">0.00 ± 0.00 / 33.37 ± 0.27</td> <!-- ScaLA-sv -->
    <td class="sv qa">59.13 ± 1.18 / 65.74 ± 0.69</td> <!-- ScandiQA-sv -->
-   <td class="sv summ">65.33 ± 0.16 / 18.83 ± 0.21</td> <!-- SweDN -->
+   <td class="sv summ">65.36 ± 0.14 / 18.81 ± 0.17</td> <!-- SweDN -->
    <td class="sv know">35.01 ± 0.99 / 51.07 ± 0.70</td> <!-- MMLU-sv -->
    <td class="sv reason">43.72 ± 0.69 / 57.66 ± 0.50</td> <!-- HellaSwag-sv -->
   </tr>
@@ -817,22 +817,22 @@ title: Mainland Scandinavian NLG
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
    <td class="speed">2,505 ± 465 / 774 ± 242</td> <!-- Model inference speed -->
-   <td class="score">41.53 ± 1.89</td> <!-- ScandEval score -->
-   <td class="da-score">41.35 ± 1.88</td> <!-- Danish score -->
-   <td class="no-score">35.44 ± 2.04</td> <!-- Norwegian score -->
-   <td class="sv-score">47.81 ± 1.75</td> <!-- Swedish score -->
+   <td class="score">41.44 ± 1.95</td> <!-- ScandEval score -->
+   <td class="da-score">41.22 ± 1.96</td> <!-- Danish score -->
+   <td class="no-score">35.27 ± 2.15</td> <!-- Norwegian score -->
+   <td class="sv-score">47.83 ± 1.75</td> <!-- Swedish score -->
    <td class="da ner">41.66 ± 3.23 / 28.72 ± 2.20</td> <!-- DANSK -->
    <td class="da sent">47.52 ± 2.03 / 62.67 ± 2.20</td> <!-- Angry Tweets -->
    <td class="da la">17.36 ± 2.43 / 53.55 ± 3.81</td> <!-- ScaLA-da -->
    <td class="da qa">51.28 ± 1.14 / 56.19 ± 0.93</td> <!-- ScandiQA-da -->
-   <td class="da summ">66.48 ± 0.60 / 21.83 ± 0.82</td> <!-- Nordjylland-News -->
+   <td class="da summ">65.58 ± 1.14 / 20.95 ± 0.99</td> <!-- Nordjylland-News -->
    <td class="da know">50.80 ± 1.80 / 62.70 ± 1.46</td> <!-- Danske Talemaader -->
    <td class="da know">51.07 ± 0.83 / 66.84 ± 0.61</td> <!-- Danish Citizen Tests -->
    <td class="da reason">14.21 ± 2.42 / 34.62 ± 2.04</td> <!-- HellaSwag-da -->
    <td class="no ner">48.28 ± 2.45 / 37.94 ± 2.62</td> <!-- NorNE-nb -->
    <td class="no ner">50.51 ± 2.81 / 38.77 ± 3.26</td> <!-- NorNE-nn -->
    <td class="no sent">49.76 ± 2.62 / 64.69 ± 2.26</td> <!-- NoReC -->
-   <td class="no summ">64.48 ± 0.81 / 17.66 ± 1.07</td> <!-- No Sammendrag -->
+   <td class="no summ">63.29 ± 1.59 / 16.26 ± 1.62</td> <!-- No Sammendrag -->
    <td class="no la">14.54 ± 2.23 / 47.43 ± 4.29</td> <!-- ScaLA-nb -->
    <td class="no la">9.16 ± 1.52 / 48.30 ± 3.84</td> <!-- ScaLA-nn -->
    <td class="no qa">32.04 ± 1.57 / 53.75 ± 1.86</td> <!-- NorQuAD -->
@@ -842,7 +842,7 @@ title: Mainland Scandinavian NLG
    <td class="sv sent">80.29 ± 1.06 / 80.37 ± 0.72</td> <!-- SweReC -->
    <td class="sv la">34.80 ± 2.22 / 65.44 ± 2.16</td> <!-- ScaLA-sv -->
    <td class="sv qa">51.82 ± 3.03 / 57.01 ± 2.99</td> <!-- ScandiQA-sv -->
-   <td class="sv summ">64.96 ± 0.31 / 19.25 ± 0.59</td> <!-- SweDN -->
+   <td class="sv summ">65.13 ± 0.31 / 18.71 ± 0.56</td> <!-- SweDN -->
    <td class="sv know">33.42 ± 0.70 / 49.88 ± 0.57</td> <!-- MMLU-sv -->
    <td class="sv reason">25.20 ± 2.35 / 43.09 ± 2.17</td> <!-- HellaSwag-sv -->
   </tr>
@@ -961,22 +961,22 @@ title: Mainland Scandinavian NLG
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
    <td class="speed">5,161 ± 1,201 / 1,151 ± 376</td> <!-- Model inference speed -->
-   <td class="score">39.52 ± 1.94</td> <!-- ScandEval score -->
-   <td class="da-score">42.83 ± 1.96</td> <!-- Danish score -->
-   <td class="no-score">32.60 ± 2.58</td> <!-- Norwegian score -->
-   <td class="sv-score">43.12 ± 1.29</td> <!-- Swedish score -->
+   <td class="score">39.42 ± 1.99</td> <!-- ScandEval score -->
+   <td class="da-score">42.72 ± 2.00</td> <!-- Danish score -->
+   <td class="no-score">32.40 ± 2.66</td> <!-- Norwegian score -->
+   <td class="sv-score">43.13 ± 1.29</td> <!-- Swedish score -->
    <td class="da ner">46.30 ± 2.54 / 30.32 ± 1.56</td> <!-- DANSK -->
    <td class="da sent">45.44 ± 1.76 / 59.21 ± 2.03</td> <!-- Angry Tweets -->
    <td class="da la">8.46 ± 4.07 / 37.89 ± 2.91</td> <!-- ScaLA-da -->
    <td class="da qa">58.33 ± 0.82 / 63.88 ± 0.43</td> <!-- ScandiQA-da -->
-   <td class="da summ">67.34 ± 0.39 / 23.12 ± 0.42</td> <!-- Nordjylland-News -->
+   <td class="da summ">66.62 ± 0.66 / 22.10 ± 0.46</td> <!-- Nordjylland-News -->
    <td class="da know">60.78 ± 1.64 / 69.96 ± 1.28</td> <!-- Danske Talemaader -->
    <td class="da know">61.29 ± 2.78 / 73.50 ± 1.95</td> <!-- Danish Citizen Tests -->
    <td class="da reason">12.88 ± 1.95 / 32.12 ± 2.40</td> <!-- HellaSwag-da -->
    <td class="no ner">54.34 ± 2.57 / 43.19 ± 2.92</td> <!-- NorNE-nb -->
    <td class="no ner">55.98 ± 2.46 / 43.36 ± 2.98</td> <!-- NorNE-nn -->
    <td class="no sent">45.04 ± 3.29 / 62.68 ± 2.97</td> <!-- NoReC -->
-   <td class="no summ">63.69 ± 0.78 / 16.38 ± 1.00</td> <!-- No Sammendrag -->
+   <td class="no summ">62.29 ± 1.37 / 14.65 ± 1.36</td> <!-- No Sammendrag -->
    <td class="no la">2.22 ± 1.46 / 34.78 ± 0.95</td> <!-- ScaLA-nb -->
    <td class="no la">2.52 ± 2.47 / 35.88 ± 1.79</td> <!-- ScaLA-nn -->
    <td class="no qa">30.90 ± 4.69 / 59.06 ± 4.25</td> <!-- NorQuAD -->
@@ -986,7 +986,7 @@ title: Mainland Scandinavian NLG
    <td class="sv sent">80.20 ± 0.57 / 80.03 ± 0.59</td> <!-- SweReC -->
    <td class="sv la">3.78 ± 1.59 / 34.07 ± 0.58</td> <!-- ScaLA-sv -->
    <td class="sv qa">58.21 ± 0.90 / 64.03 ± 0.67</td> <!-- ScandiQA-sv -->
-   <td class="sv summ">63.73 ± 0.31 / 18.27 ± 0.28</td> <!-- SweDN -->
+   <td class="sv summ">63.81 ± 0.34 / 18.13 ± 0.31</td> <!-- SweDN -->
    <td class="sv know">30.93 ± 0.91 / 47.69 ± 0.88</td> <!-- MMLU-sv -->
    <td class="sv reason">10.56 ± 1.77 / 30.48 ± 1.46</td> <!-- HellaSwag-sv -->
   </tr>
@@ -1069,22 +1069,22 @@ title: Mainland Scandinavian NLG
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
    <td class="speed">2,518 ± 463 / 779 ± 243</td> <!-- Model inference speed -->
-   <td class="score">36.93 ± 1.69</td> <!-- ScandEval score -->
-   <td class="da-score">39.44 ± 1.71</td> <!-- Danish score -->
-   <td class="no-score">32.11 ± 1.69</td> <!-- Norwegian score -->
-   <td class="sv-score">39.23 ± 1.67</td> <!-- Swedish score -->
+   <td class="score">36.80 ± 1.71</td> <!-- ScandEval score -->
+   <td class="da-score">39.33 ± 1.77</td> <!-- Danish score -->
+   <td class="no-score">31.85 ± 1.69</td> <!-- Norwegian score -->
+   <td class="sv-score">39.21 ± 1.68</td> <!-- Swedish score -->
    <td class="da ner">46.11 ± 3.27 / 28.75 ± 2.13</td> <!-- DANSK -->
    <td class="da sent">47.58 ± 1.41 / 63.81 ± 1.28</td> <!-- Angry Tweets -->
    <td class="da la">18.41 ± 2.11 / 57.44 ± 2.11</td> <!-- ScaLA-da -->
    <td class="da qa">46.93 ± 1.12 / 55.22 ± 1.34</td> <!-- ScandiQA-da -->
-   <td class="da summ">66.66 ± 0.32 / 20.59 ± 0.78</td> <!-- Nordjylland-News -->
+   <td class="da summ">65.87 ± 0.75 / 19.15 ± 0.82</td> <!-- Nordjylland-News -->
    <td class="da know">41.77 ± 1.71 / 55.65 ± 1.27</td> <!-- Danske Talemaader -->
    <td class="da know">35.86 ± 2.28 / 52.48 ± 1.70</td> <!-- Danish Citizen Tests -->
    <td class="da reason">11.59 ± 1.75 / 32.81 ± 1.55</td> <!-- HellaSwag-da -->
    <td class="no ner">57.01 ± 1.93 / 44.65 ± 2.87</td> <!-- NorNE-nb -->
    <td class="no ner">56.77 ± 0.98 / 41.67 ± 3.53</td> <!-- NorNE-nn -->
    <td class="no sent">38.81 ± 2.67 / 56.39 ± 3.13</td> <!-- NoReC -->
-   <td class="no summ">63.93 ± 0.31 / 15.55 ± 0.57</td> <!-- No Sammendrag -->
+   <td class="no summ">62.12 ± 0.29 / 12.18 ± 0.45</td> <!-- No Sammendrag -->
    <td class="no la">14.16 ± 2.24 / 54.43 ± 2.61</td> <!-- ScaLA-nb -->
    <td class="no la">9.29 ± 2.65 / 50.59 ± 3.99</td> <!-- ScaLA-nn -->
    <td class="no qa">25.79 ± 1.43 / 50.84 ± 1.80</td> <!-- NorQuAD -->
@@ -1094,7 +1094,7 @@ title: Mainland Scandinavian NLG
    <td class="sv sent">55.84 ± 2.51 / 66.96 ± 1.37</td> <!-- SweReC -->
    <td class="sv la">16.05 ± 2.15 / 54.22 ± 2.86</td> <!-- ScaLA-sv -->
    <td class="sv qa">48.44 ± 1.45 / 57.11 ± 1.41</td> <!-- ScandiQA-sv -->
-   <td class="sv summ">65.03 ± 0.09 / 18.17 ± 0.13</td> <!-- SweDN -->
+   <td class="sv summ">64.90 ± 0.14 / 17.01 ± 0.20</td> <!-- SweDN -->
    <td class="sv know">22.36 ± 1.17 / 41.14 ± 0.78</td> <!-- MMLU-sv -->
    <td class="sv reason">12.52 ± 1.41 / 33.90 ± 1.11</td> <!-- HellaSwag-sv -->
   </tr>
@@ -1285,22 +1285,22 @@ title: Mainland Scandinavian NLG
    <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model-->
    <td class="speed">2,351 ± 448 / 707 ± 216</td> <!-- Model inference speed -->
-   <td class="score">27.03 ± 2.34</td> <!-- ScandEval score -->
-   <td class="da-score">24.66 ± 2.29</td> <!-- Danish score -->
-   <td class="no-score">24.36 ± 2.66</td> <!-- Norwegian score -->
+   <td class="score">26.90 ± 2.41</td> <!-- ScandEval score -->
+   <td class="da-score">24.54 ± 2.38</td> <!-- Danish score -->
+   <td class="no-score">24.08 ± 2.80</td> <!-- Norwegian score -->
    <td class="sv-score">32.07 ± 2.06</td> <!-- Swedish score -->
    <td class="da ner">20.84 ± 2.40 / 16.93 ± 1.98</td> <!-- DANSK -->
    <td class="da sent">18.07 ± 3.41 / 27.21 ± 2.91</td> <!-- Angry Tweets -->
    <td class="da la">10.54 ± 2.38 / 48.37 ± 3.58</td> <!-- ScaLA-da -->
    <td class="da qa">39.18 ± 3.52 / 44.53 ± 3.79</td> <!-- ScandiQA-da -->
-   <td class="da summ">66.28 ± 0.55 / 20.87 ± 1.03</td> <!-- Nordjylland-News -->
+   <td class="da summ">65.43 ± 1.18 / 19.77 ± 1.17</td> <!-- Nordjylland-News -->
    <td class="da know">6.34 ± 2.61 / 28.14 ± 1.77</td> <!-- Danske Talemaader -->
    <td class="da know">18.00 ± 3.09 / 45.08 ± 1.79</td> <!-- Danish Citizen Tests -->
    <td class="da reason">5.57 ± 0.93 / 28.66 ± 0.66</td> <!-- HellaSwag-da -->
    <td class="no ner">29.62 ± 4.17 / 24.40 ± 2.42</td> <!-- NorNE-nb -->
    <td class="no ner">32.30 ± 5.27 / 29.23 ± 3.22</td> <!-- NorNE-nn -->
    <td class="no sent">34.67 ± 5.23 / 54.62 ± 5.71</td> <!-- NoReC -->
-   <td class="no summ">63.58 ± 1.06 / 16.52 ± 1.39</td> <!-- No Sammendrag -->
+   <td class="no summ">61.61 ± 2.04 / 14.34 ± 1.84</td> <!-- No Sammendrag -->
    <td class="no la">8.37 ± 1.71 / 48.94 ± 2.72</td> <!-- ScaLA-nb -->
    <td class="no la">7.76 ± 2.86 / 46.16 ± 4.77</td> <!-- ScaLA-nn -->
    <td class="no qa">24.67 ± 2.82 / 43.02 ± 4.03</td> <!-- NorQuAD -->
@@ -1349,6 +1349,42 @@ title: Mainland Scandinavian NLG
    <td class="sv summ">64.91 ± 0.16 / 18.82 ± 0.23</td> <!-- SweDN -->
    <td class="sv know">6.16 ± 0.81 / 28.35 ± 0.97</td> <!-- MMLU-sv -->
    <td class="sv reason">10.90 ± 0.86 / 32.01 ± 0.54</td> <!-- HellaSwag-sv -->
+  </tr>
+  <tr class="not-merged-model">
+   <td class="rank">10=</td> <!-- Rank -->
+   <td>AI-Sweden-Models/gpt-sw3-6.7b (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">7111</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">2,285 ± 443 / 671 ± 205</td> <!-- Model inference speed -->
+   <td class="score">23.96 ± 3.23</td> <!-- ScandEval score -->
+   <td class="da-score">23.81 ± 2.76</td> <!-- Danish score -->
+   <td class="no-score">21.11 ± 3.66</td> <!-- Norwegian score -->
+   <td class="sv-score">26.95 ± 3.29</td> <!-- Swedish score -->
+   <td class="da ner">18.23 ± 5.87 / 14.77 ± 3.36</td> <!-- DANSK -->
+   <td class="da sent">22.71 ± 5.21 / 35.11 ± 6.59</td> <!-- Angry Tweets -->
+   <td class="da la">5.03 ± 2.51 / 49.00 ± 2.64</td> <!-- ScaLA-da -->
+   <td class="da qa">49.11 ± 1.16 / 55.56 ± 1.21</td> <!-- ScandiQA-da -->
+   <td class="da summ">64.93 ± 1.06 / 19.15 ± 1.02</td> <!-- Nordjylland-News -->
+   <td class="da know">1.11 ± 2.19 / 24.85 ± 1.14</td> <!-- Danske Talemaader -->
+   <td class="da know">8.76 ± 3.09 / 37.32 ± 1.76</td> <!-- Danish Citizen Tests -->
+   <td class="da reason">1.70 ± 0.84 / 26.17 ± 0.62</td> <!-- HellaSwag-da -->
+   <td class="no ner">22.35 ± 7.84 / 23.89 ± 4.74</td> <!-- NorNE-nb -->
+   <td class="no ner">21.98 ± 7.52 / 27.22 ± 4.97</td> <!-- NorNE-nn -->
+   <td class="no sent">18.23 ± 9.28 / 38.93 ± 6.44</td> <!-- NoReC -->
+   <td class="no summ">60.38 ± 1.78 / 12.50 ± 1.62</td> <!-- No Sammendrag -->
+   <td class="no la">1.68 ± 1.35 / 39.93 ± 2.78</td> <!-- ScaLA-nb -->
+   <td class="no la">2.49 ± 1.88 / 40.26 ± 3.23</td> <!-- ScaLA-nn -->
+   <td class="no qa">41.80 ± 3.14 / 64.25 ± 3.13</td> <!-- NorQuAD -->
+   <td class="no know">2.13 ± 0.65 / 26.47 ± 0.86</td> <!-- MMLU-no -->
+   <td class="no reason">0.98 ± 1.48 / 25.66 ± 1.09</td> <!-- HellaSwag-no -->
+   <td class="sv ner">18.83 ± 6.41 / 17.59 ± 4.55</td> <!-- SUC3 -->
+   <td class="sv sent">53.68 ± 10.39 / 58.92 ± 10.87</td> <!-- SweReC -->
+   <td class="sv la">3.49 ± 2.20 / 46.13 ± 4.13</td> <!-- ScaLA-sv -->
+   <td class="sv qa">49.81 ± 0.70 / 55.99 ± 0.69</td> <!-- ScandiQA-sv -->
+   <td class="sv summ">61.05 ± 1.33 / 15.89 ± 0.85</td> <!-- SweDN -->
+   <td class="sv know">1.22 ± 0.65 / 26.19 ± 0.64</td> <!-- MMLU-sv -->
+   <td class="sv reason">0.60 ± 1.34 / 25.62 ± 0.72</td> <!-- HellaSwag-sv -->
   </tr>
   <tr class="not-merged-model">
    <td class="rank">11=</td> <!-- Rank -->
@@ -1567,7 +1603,7 @@ title: Mainland Scandinavian NLG
    <td class="sv reason">-0.91 ± 0.96 / 24.26 ± 0.64</td> <!-- HellaSwag-sv -->
   </tr>
   <tr class="not-merged-model">
-   <td class="rank">13</td> <!-- Rank -->
+   <td class="rank">13=</td> <!-- Rank -->
    <td>mhenrichsen/danskgpt-tiny (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">1100</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -1601,6 +1637,42 @@ title: Mainland Scandinavian NLG
    <td class="sv summ">55.33 ± 0.73 / 13.25 ± 0.39</td> <!-- SweDN -->
    <td class="sv know">-0.85 ± 1.05 / 24.38 ± 0.51</td> <!-- MMLU-sv -->
    <td class="sv reason">-1.24 ± 0.90 / 24.30 ± 0.63</td> <!-- HellaSwag-sv -->
+  </tr>
+  <tr class="not-merged-model">
+   <td class="rank">13=</td> <!-- Rank -->
+   <td>AI-Sweden-Models/gpt-sw3-126m-instruct (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">186</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">7,717 ± 1,553 / 2,013 ± 625</td> <!-- Model inference speed -->
+   <td class="score">15.34 ± 1.76</td> <!-- ScandEval score -->
+   <td class="da-score">15.00 ± 1.82</td> <!-- Danish score -->
+   <td class="no-score">14.36 ± 1.34</td> <!-- Norwegian score -->
+   <td class="sv-score">16.67 ± 2.12</td> <!-- Swedish score -->
+   <td class="da ner">13.98 ± 1.54 / 13.46 ± 1.42</td> <!-- DANSK -->
+   <td class="da sent">6.37 ± 3.38 / 25.43 ± 4.09</td> <!-- Angry Tweets -->
+   <td class="da la">0.41 ± 0.80 / 33.31 ± 0.24</td> <!-- ScaLA-da -->
+   <td class="da qa">20.48 ± 2.90 / 24.30 ± 3.23</td> <!-- ScandiQA-da -->
+   <td class="da summ">61.18 ± 0.89 / 13.42 ± 1.22</td> <!-- Nordjylland-News -->
+   <td class="da know">0.53 ± 1.10 / 24.39 ± 0.85</td> <!-- Danske Talemaader -->
+   <td class="da know">4.72 ± 3.89 / 35.76 ± 1.86</td> <!-- Danish Citizen Tests -->
+   <td class="da reason">-0.07 ± 0.75 / 24.90 ± 0.90</td> <!-- HellaSwag-da -->
+   <td class="no ner">27.66 ± 2.00 / 28.61 ± 2.15</td> <!-- NorNE-nb -->
+   <td class="no ner">30.88 ± 2.13 / 31.97 ± 2.10</td> <!-- NorNE-nn -->
+   <td class="no sent">5.13 ± 3.33 / 20.41 ± 3.12</td> <!-- NoReC -->
+   <td class="no summ">58.91 ± 0.95 / 9.74 ± 0.45</td> <!-- No Sammendrag -->
+   <td class="no la">0.00 ± 0.00 / 33.25 ± 0.30</td> <!-- ScaLA-nb -->
+   <td class="no la">0.00 ± 0.00 / 32.79 ± 0.34</td> <!-- ScaLA-nn -->
+   <td class="no qa">7.54 ± 1.19 / 15.63 ± 2.65</td> <!-- NorQuAD -->
+   <td class="no know">-0.68 ± 1.27 / 22.92 ± 0.65</td> <!-- MMLU-no -->
+   <td class="no reason">0.32 ± 0.59 / 25.12 ± 0.69</td> <!-- HellaSwag-no -->
+   <td class="sv ner">23.05 ± 2.31 / 24.35 ± 1.99</td> <!-- SUC3 -->
+   <td class="sv sent">12.47 ± 7.10 / 23.03 ± 8.78</td> <!-- SweReC -->
+   <td class="sv la">0.08 ± 0.16 / 33.34 ± 0.30</td> <!-- ScaLA-sv -->
+   <td class="sv qa">20.46 ± 2.67 / 24.29 ± 2.63</td> <!-- ScandiQA-sv -->
+   <td class="sv summ">59.78 ± 0.95 / 14.57 ± 0.35</td> <!-- SweDN -->
+   <td class="sv know">0.72 ± 0.72 / 23.30 ± 0.96</td> <!-- MMLU-sv -->
+   <td class="sv reason">0.11 ± 0.91 / 25.15 ± 0.81</td> <!-- HellaSwag-sv -->
   </tr>
   <tr class="not-merged-model">
    <td class="rank">14</td> <!-- Rank -->
