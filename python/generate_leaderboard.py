@@ -490,13 +490,6 @@ title: {title}
         for values, rank in zip(all_values, dataset_ranks):
             dataset_score = 100 * (max_rank - (rank - 1)) / max_rank
             values[f"{dataset_underscore}_score"] = f"{dataset_score:.2f}"
-            # num_models_with_worse_performance = sum(
-            #     int(other_values[f"{dataset_underscore}_rank"]) > rank
-            #     for other_values in all_values
-            # )
-            # values[f"{dataset_underscore}_win_ratio"] = str(
-            #     num_models_with_worse_performance / len(all_values)
-            # )
 
     # Compute average scores for each language
     for language_code in language_mapping.keys():
