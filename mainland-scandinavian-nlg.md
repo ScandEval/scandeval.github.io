@@ -3,7 +3,7 @@ layout: leaderboard
 title: Mainland Scandinavian NLG
 ---
 
-<center>Last updated: 23/02/2024 22:52:44 CET</center>
+<center>Last updated: 26/02/2024 08:45:39 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -61,8 +61,8 @@ title: Mainland Scandinavian NLG
    <td class="vocabulary_size">100</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model-->
    <td class="speed">1,244 ± 510 / 3,515 ± 848</td> <!-- Model inference speed -->
-   <td class="score">89.51</td> <!-- ScandEval score -->
-   <td class="da-win-ratio">85.71</td> <!-- Danish win ratio -->
+   <td class="score">89.33</td> <!-- ScandEval score -->
+   <td class="da-win-ratio">85.16</td> <!-- Danish win ratio -->
    <td class="no-win-ratio">94.37</td> <!-- Norwegian win ratio -->
    <td class="sv-win-ratio">88.46</td> <!-- Swedish win ratio -->
    <td class="da ner">64.94 ± 1.96 / 45.76 ± 3.31</td> <!-- DANSK -->
@@ -97,9 +97,9 @@ title: Mainland Scandinavian NLG
    <td class="vocabulary_size">100</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">4095</td> <!-- Maximum sequence length of the model-->
    <td class="speed">1,344 ± 455 / 4,023 ± 590</td> <!-- Model inference speed -->
-   <td class="score">80.13</td> <!-- ScandEval score -->
-   <td class="da-win-ratio">77.75</td> <!-- Danish win ratio -->
-   <td class="no-win-ratio">83.79</td> <!-- Norwegian win ratio -->
+   <td class="score">80.41</td> <!-- ScandEval score -->
+   <td class="da-win-ratio">78.30</td> <!-- Danish win ratio -->
+   <td class="no-win-ratio">84.07</td> <!-- Norwegian win ratio -->
    <td class="sv-win-ratio">78.85</td> <!-- Swedish win ratio -->
    <td class="da ner">59.61 ± 2.65 / 47.73 ± 2.14</td> <!-- DANSK -->
    <td class="da sent">50.54 ± 3.00 / 66.79 ± 1.87</td> <!-- Angry Tweets -->
@@ -241,8 +241,8 @@ title: Mainland Scandinavian NLG
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
    <td class="speed">2,495 ± 458 / 775 ± 244</td> <!-- Model inference speed -->
-   <td class="score">71.43</td> <!-- ScandEval score -->
-   <td class="da-win-ratio">70.74</td> <!-- Danish win ratio -->
+   <td class="score">71.52</td> <!-- ScandEval score -->
+   <td class="da-win-ratio">71.02</td> <!-- Danish win ratio -->
    <td class="no-win-ratio">68.54</td> <!-- Norwegian win ratio -->
    <td class="sv-win-ratio">75.00</td> <!-- Swedish win ratio -->
    <td class="da ner">47.62 ± 3.01 / 36.77 ± 2.96</td> <!-- DANSK -->
@@ -272,50 +272,14 @@ title: Mainland Scandinavian NLG
   </tr>
   <tr class="merged-model">
    <td class="rank">7</td> <!-- Rank -->
-   <td>birgermoell/BeagleCatMunin-Flashback-Bellman (few-shot, val)</td> <!-- Model ID -->
-   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">2,890 ± 401 / 1,155 ± 348</td> <!-- Model inference speed -->
-   <td class="score">68.04</td> <!-- ScandEval score -->
-   <td class="da-win-ratio">72.39</td> <!-- Danish win ratio -->
-   <td class="no-win-ratio">66.07</td> <!-- Norwegian win ratio -->
-   <td class="sv-win-ratio">65.66</td> <!-- Swedish win ratio -->
-   <td class="da ner">50.40 ± 2.92 / 38.57 ± 2.82</td> <!-- DANSK -->
-   <td class="da sent">52.30 ± 2.65 / 64.19 ± 2.60</td> <!-- Angry Tweets -->
-   <td class="da la">21.30 ± 3.52 / 47.78 ± 4.14</td> <!-- ScaLA-da -->
-   <td class="da qa">58.23 ± 1.78 / 63.89 ± 1.51</td> <!-- ScandiQA-da -->
-   <td class="da summ">66.78 ± 0.60 / 20.69 ± 0.86</td> <!-- Nordjylland-News -->
-   <td class="da know">65.32 ± 3.33 / 73.95 ± 2.50</td> <!-- Danske Talemaader -->
-   <td class="da know">64.76 ± 3.24 / 75.94 ± 2.37</td> <!-- Danish Citizen Tests -->
-   <td class="da reason">33.70 ± 2.78 / 50.16 ± 2.01</td> <!-- HellaSwag-da -->
-   <td class="no ner">53.96 ± 3.37 / 49.84 ± 3.30</td> <!-- NorNE-nb -->
-   <td class="no ner">63.45 ± 2.27 / 53.13 ± 3.43</td> <!-- NorNE-nn -->
-   <td class="no sent">52.70 ± 4.58 / 66.82 ± 3.41</td> <!-- NoReC -->
-   <td class="no summ">65.23 ± 0.55 / 18.64 ± 0.86</td> <!-- No Sammendrag -->
-   <td class="no la">14.87 ± 3.37 / 40.83 ± 1.91</td> <!-- ScaLA-nb -->
-   <td class="no la">2.48 ± 3.31 / 35.61 ± 1.83</td> <!-- ScaLA-nn -->
-   <td class="no qa">41.56 ± 3.29 / 67.34 ± 2.82</td> <!-- NorQuAD -->
-   <td class="no know">27.42 ± 2.13 / 45.20 ± 1.58</td> <!-- MMLU-no -->
-   <td class="no reason">36.05 ± 3.95 / 51.68 ± 2.96</td> <!-- HellaSwag-no -->
-   <td class="sv ner">52.96 ± 3.45 / 41.51 ± 4.30</td> <!-- SUC3 -->
-   <td class="sv sent">76.99 ± 2.37 / 76.84 ± 2.99</td> <!-- SweReC -->
-   <td class="sv la">14.27 ± 4.36 / 40.60 ± 3.04</td> <!-- ScaLA-sv -->
-   <td class="sv qa">60.10 ± 1.61 / 65.00 ± 1.34</td> <!-- ScandiQA-sv -->
-   <td class="sv summ">67.62 ± 0.42 / 23.90 ± 0.77</td> <!-- SweDN -->
-   <td class="sv know">27.95 ± 2.57 / 45.86 ± 1.85</td> <!-- MMLU-sv -->
-   <td class="sv reason">36.11 ± 3.54 / 51.60 ± 2.44</td> <!-- HellaSwag-sv -->
-  </tr>
-  <tr class="merged-model">
-   <td class="rank">8=</td> <!-- Rank -->
    <td>RJuro/munin-neuralbeagle-SkoleGPTOpenOrca-7b (few-shot, val)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
    <td class="speed">3,008 ± 429 / 991 ± 323</td> <!-- Model inference speed -->
-   <td class="score">67.58</td> <!-- ScandEval score -->
-   <td class="da-win-ratio">74.59</td> <!-- Danish win ratio -->
-   <td class="no-win-ratio">63.05</td> <!-- Norwegian win ratio -->
+   <td class="score">67.76</td> <!-- ScandEval score -->
+   <td class="da-win-ratio">74.86</td> <!-- Danish win ratio -->
+   <td class="no-win-ratio">63.32</td> <!-- Norwegian win ratio -->
    <td class="sv-win-ratio">65.11</td> <!-- Swedish win ratio -->
    <td class="da ner">50.83 ± 2.28 / 36.96 ± 2.58</td> <!-- DANSK -->
    <td class="da sent">43.41 ± 2.56 / 48.74 ± 2.83</td> <!-- Angry Tweets -->
@@ -343,14 +307,50 @@ title: Mainland Scandinavian NLG
    <td class="sv reason">35.59 ± 3.75 / 51.76 ± 2.63</td> <!-- HellaSwag-sv -->
   </tr>
   <tr class="merged-model">
-   <td class="rank">8=</td> <!-- Rank -->
+   <td class="rank">8</td> <!-- Rank -->
+   <td>birgermoell/BeagleCatMunin-Flashback-Bellman (few-shot, val)</td> <!-- Model ID -->
+   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">2,890 ± 401 / 1,155 ± 348</td> <!-- Model inference speed -->
+   <td class="score">67.68</td> <!-- ScandEval score -->
+   <td class="da-win-ratio">71.02</td> <!-- Danish win ratio -->
+   <td class="no-win-ratio">66.35</td> <!-- Norwegian win ratio -->
+   <td class="sv-win-ratio">65.66</td> <!-- Swedish win ratio -->
+   <td class="da ner">50.40 ± 2.92 / 38.57 ± 2.82</td> <!-- DANSK -->
+   <td class="da sent">52.30 ± 2.65 / 64.19 ± 2.60</td> <!-- Angry Tweets -->
+   <td class="da la">21.30 ± 3.52 / 47.78 ± 4.14</td> <!-- ScaLA-da -->
+   <td class="da qa">58.23 ± 1.78 / 63.89 ± 1.51</td> <!-- ScandiQA-da -->
+   <td class="da summ">66.78 ± 0.60 / 20.69 ± 0.86</td> <!-- Nordjylland-News -->
+   <td class="da know">65.32 ± 3.33 / 73.95 ± 2.50</td> <!-- Danske Talemaader -->
+   <td class="da know">64.76 ± 3.24 / 75.94 ± 2.37</td> <!-- Danish Citizen Tests -->
+   <td class="da reason">33.70 ± 2.78 / 50.16 ± 2.01</td> <!-- HellaSwag-da -->
+   <td class="no ner">53.96 ± 3.37 / 49.84 ± 3.30</td> <!-- NorNE-nb -->
+   <td class="no ner">63.45 ± 2.27 / 53.13 ± 3.43</td> <!-- NorNE-nn -->
+   <td class="no sent">52.70 ± 4.58 / 66.82 ± 3.41</td> <!-- NoReC -->
+   <td class="no summ">65.23 ± 0.55 / 18.64 ± 0.86</td> <!-- No Sammendrag -->
+   <td class="no la">14.87 ± 3.37 / 40.83 ± 1.91</td> <!-- ScaLA-nb -->
+   <td class="no la">2.48 ± 3.31 / 35.61 ± 1.83</td> <!-- ScaLA-nn -->
+   <td class="no qa">41.56 ± 3.29 / 67.34 ± 2.82</td> <!-- NorQuAD -->
+   <td class="no know">27.42 ± 2.13 / 45.20 ± 1.58</td> <!-- MMLU-no -->
+   <td class="no reason">36.05 ± 3.95 / 51.68 ± 2.96</td> <!-- HellaSwag-no -->
+   <td class="sv ner">52.96 ± 3.45 / 41.51 ± 4.30</td> <!-- SUC3 -->
+   <td class="sv sent">76.99 ± 2.37 / 76.84 ± 2.99</td> <!-- SweReC -->
+   <td class="sv la">14.27 ± 4.36 / 40.60 ± 3.04</td> <!-- ScaLA-sv -->
+   <td class="sv qa">60.10 ± 1.61 / 65.00 ± 1.34</td> <!-- ScandiQA-sv -->
+   <td class="sv summ">67.62 ± 0.42 / 23.90 ± 0.77</td> <!-- SweDN -->
+   <td class="sv know">27.95 ± 2.57 / 45.86 ± 1.85</td> <!-- MMLU-sv -->
+   <td class="sv reason">36.11 ± 3.54 / 51.60 ± 2.44</td> <!-- HellaSwag-sv -->
+  </tr>
+  <tr class="merged-model">
+   <td class="rank">9=</td> <!-- Rank -->
    <td>birgermoell/Munin-NeuralBeagle-NorskGPT (few-shot, val)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
    <td class="speed">2,903 ± 407 / 1,157 ± 350</td> <!-- Model inference speed -->
-   <td class="score">67.58</td> <!-- ScandEval score -->
-   <td class="da-win-ratio">62.50</td> <!-- Danish win ratio -->
+   <td class="score">67.67</td> <!-- ScandEval score -->
+   <td class="da-win-ratio">62.77</td> <!-- Danish win ratio -->
    <td class="no-win-ratio">77.88</td> <!-- Norwegian win ratio -->
    <td class="sv-win-ratio">62.36</td> <!-- Swedish win ratio -->
    <td class="da ner">51.85 ± 3.08 / 40.02 ± 2.48</td> <!-- DANSK -->
@@ -379,14 +379,14 @@ title: Mainland Scandinavian NLG
    <td class="sv reason">42.43 ± 2.76 / 56.52 ± 2.13</td> <!-- HellaSwag-sv -->
   </tr>
   <tr class="merged-model">
-   <td class="rank">8=</td> <!-- Rank -->
+   <td class="rank">9=</td> <!-- Rank -->
    <td>birgermoell/WestLake-Munin-Cat-NorskGPT (few-shot, val)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
    <td class="speed">2,856 ± 391 / 1,142 ± 342</td> <!-- Model inference speed -->
-   <td class="score">67.58</td> <!-- ScandEval score -->
-   <td class="da-win-ratio">62.50</td> <!-- Danish win ratio -->
+   <td class="score">67.67</td> <!-- ScandEval score -->
+   <td class="da-win-ratio">62.77</td> <!-- Danish win ratio -->
    <td class="no-win-ratio">77.88</td> <!-- Norwegian win ratio -->
    <td class="sv-win-ratio">62.36</td> <!-- Swedish win ratio -->
    <td class="da ner">51.85 ± 3.08 / 40.02 ± 2.48</td> <!-- DANSK -->
@@ -415,16 +415,16 @@ title: Mainland Scandinavian NLG
    <td class="sv reason">42.43 ± 2.76 / 56.52 ± 2.13</td> <!-- HellaSwag-sv -->
   </tr>
   <tr class="not-merged-model">
-   <td class="rank">9</td> <!-- Rank -->
+   <td class="rank">10</td> <!-- Rank -->
    <td>Mabeck/Heidrun-Mistral-7B-chat (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
    <td class="speed">5,822 ± 1,283 / 1,336 ± 430</td> <!-- Model inference speed -->
-   <td class="score">67.17</td> <!-- ScandEval score -->
-   <td class="da-win-ratio">72.94</td> <!-- Danish win ratio -->
-   <td class="no-win-ratio">68.41</td> <!-- Norwegian win ratio -->
-   <td class="sv-win-ratio">60.16</td> <!-- Swedish win ratio -->
+   <td class="score">67.44</td> <!-- ScandEval score -->
+   <td class="da-win-ratio">73.21</td> <!-- Danish win ratio -->
+   <td class="no-win-ratio">68.68</td> <!-- Norwegian win ratio -->
+   <td class="sv-win-ratio">60.44</td> <!-- Swedish win ratio -->
    <td class="da ner">50.80 ± 2.33 / 34.04 ± 1.76</td> <!-- DANSK -->
    <td class="da sent">42.79 ± 2.38 / 54.47 ± 3.04</td> <!-- Angry Tweets -->
    <td class="da la">23.25 ± 3.17 / 56.31 ± 4.02</td> <!-- ScaLA-da -->
@@ -451,87 +451,15 @@ title: Mainland Scandinavian NLG
    <td class="sv reason">23.57 ± 1.68 / 42.37 ± 1.34</td> <!-- HellaSwag-sv -->
   </tr>
   <tr class="merged-model">
-   <td class="rank">10</td> <!-- Rank -->
-   <td>merge-crew/da-sv-task-arithmetic (few-shot, val)</td> <!-- Model ID -->
-   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">2,500 ± 469 / 762 ± 238</td> <!-- Model inference speed -->
-   <td class="score">67.03</td> <!-- ScandEval score -->
-   <td class="da-win-ratio">72.94</td> <!-- Danish win ratio -->
-   <td class="no-win-ratio">60.58</td> <!-- Norwegian win ratio -->
-   <td class="sv-win-ratio">67.58</td> <!-- Swedish win ratio -->
-   <td class="da ner">46.06 ± 3.28 / 35.43 ± 3.06</td> <!-- DANSK -->
-   <td class="da sent">51.51 ± 4.23 / 61.68 ± 4.43</td> <!-- Angry Tweets -->
-   <td class="da la">27.68 ± 4.25 / 57.59 ± 5.15</td> <!-- ScaLA-da -->
-   <td class="da qa">57.78 ± 1.43 / 62.26 ± 1.36</td> <!-- ScandiQA-da -->
-   <td class="da summ">67.22 ± 0.84 / 22.14 ± 1.03</td> <!-- Nordjylland-News -->
-   <td class="da know">68.64 ± 3.34 / 76.45 ± 2.52</td> <!-- Danske Talemaader -->
-   <td class="da know">66.17 ± 3.73 / 76.72 ± 2.55</td> <!-- Danish Citizen Tests -->
-   <td class="da reason">23.95 ± 2.64 / 42.19 ± 2.42</td> <!-- HellaSwag-da -->
-   <td class="no ner">49.69 ± 2.90 / 43.57 ± 2.90</td> <!-- NorNE-nb -->
-   <td class="no ner">61.78 ± 2.03 / 49.91 ± 4.24</td> <!-- NorNE-nn -->
-   <td class="no sent">55.87 ± 5.21 / 68.97 ± 3.95</td> <!-- NoReC -->
-   <td class="no summ">64.94 ± 0.66 / 18.09 ± 1.08</td> <!-- No Sammendrag -->
-   <td class="no la">2.99 ± 3.04 / 34.16 ± 1.10</td> <!-- ScaLA-nb -->
-   <td class="no la">-1.29 ± 2.53 / 33.32 ± 0.91</td> <!-- ScaLA-nn -->
-   <td class="no qa">44.62 ± 4.06 / 68.17 ± 3.48</td> <!-- NorQuAD -->
-   <td class="no know">28.26 ± 2.85 / 45.78 ± 2.14</td> <!-- MMLU-no -->
-   <td class="no reason">25.83 ± 5.55 / 43.63 ± 4.29</td> <!-- HellaSwag-no -->
-   <td class="sv ner">47.28 ± 3.05 / 34.01 ± 3.73</td> <!-- SUC3 -->
-   <td class="sv sent">76.62 ± 2.52 / 78.04 ± 2.98</td> <!-- SweReC -->
-   <td class="sv la">33.23 ± 4.72 / 61.29 ± 4.67</td> <!-- ScaLA-sv -->
-   <td class="sv qa">60.00 ± 1.69 / 64.62 ± 1.44</td> <!-- ScandiQA-sv -->
-   <td class="sv summ">66.68 ± 0.43 / 21.83 ± 0.75</td> <!-- SweDN -->
-   <td class="sv know">29.95 ± 1.74 / 47.23 ± 1.24</td> <!-- MMLU-sv -->
-   <td class="sv reason">31.12 ± 3.68 / 47.85 ± 2.80</td> <!-- HellaSwag-sv -->
-  </tr>
-  <tr class="not-merged-model">
-   <td class="rank">11=</td> <!-- Rank -->
-   <td>bineric/NorskGPT-Mistral-7b (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">2,443 ± 451 / 761 ± 237</td> <!-- Model inference speed -->
-   <td class="score">66.85</td> <!-- ScandEval score -->
-   <td class="da-win-ratio">56.46</td> <!-- Danish win ratio -->
-   <td class="no-win-ratio">82.55</td> <!-- Norwegian win ratio -->
-   <td class="sv-win-ratio">61.54</td> <!-- Swedish win ratio -->
-   <td class="da ner">50.76 ± 1.60 / 32.89 ± 2.11</td> <!-- DANSK -->
-   <td class="da sent">40.41 ± 0.79 / 44.17 ± 0.56</td> <!-- Angry Tweets -->
-   <td class="da la">0.00 ± 0.00 / 33.41 ± 0.23</td> <!-- ScaLA-da -->
-   <td class="da qa">57.24 ± 0.74 / 63.79 ± 0.47</td> <!-- ScandiQA-da -->
-   <td class="da summ">66.93 ± 0.71 / 21.50 ± 0.55</td> <!-- Nordjylland-News -->
-   <td class="da know">64.32 ± 1.99 / 73.00 ± 1.51</td> <!-- Danske Talemaader -->
-   <td class="da know">53.18 ± 2.37 / 67.48 ± 1.70</td> <!-- Danish Citizen Tests -->
-   <td class="da reason">43.42 ± 1.05 / 57.50 ± 0.80</td> <!-- HellaSwag-da -->
-   <td class="no ner">63.28 ± 1.99 / 47.72 ± 3.74</td> <!-- NorNE-nb -->
-   <td class="no ner">61.25 ± 1.05 / 45.04 ± 2.92</td> <!-- NorNE-nn -->
-   <td class="no sent">56.90 ± 1.49 / 70.81 ± 1.30</td> <!-- NoReC -->
-   <td class="no summ">65.72 ± 0.39 / 19.24 ± 0.78</td> <!-- No Sammendrag -->
-   <td class="no la">13.86 ± 1.95 / 44.84 ± 2.31</td> <!-- ScaLA-nb -->
-   <td class="no la">10.17 ± 1.89 / 46.48 ± 2.46</td> <!-- ScaLA-nn -->
-   <td class="no qa">49.06 ± 4.30 / 74.35 ± 3.96</td> <!-- NorQuAD -->
-   <td class="no know">32.37 ± 1.15 / 49.00 ± 0.91</td> <!-- MMLU-no -->
-   <td class="no reason">47.62 ± 1.62 / 60.59 ± 1.18</td> <!-- HellaSwag-no -->
-   <td class="sv ner">58.40 ± 2.62 / 40.55 ± 3.65</td> <!-- SUC3 -->
-   <td class="sv sent">74.30 ± 1.26 / 60.35 ± 0.41</td> <!-- SweReC -->
-   <td class="sv la">0.00 ± 0.00 / 33.37 ± 0.27</td> <!-- ScaLA-sv -->
-   <td class="sv qa">59.13 ± 1.18 / 65.74 ± 0.69</td> <!-- ScandiQA-sv -->
-   <td class="sv summ">65.36 ± 0.14 / 18.81 ± 0.17</td> <!-- SweDN -->
-   <td class="sv know">35.01 ± 0.99 / 51.07 ± 0.70</td> <!-- MMLU-sv -->
-   <td class="sv reason">43.72 ± 0.69 / 57.66 ± 0.50</td> <!-- HellaSwag-sv -->
-  </tr>
-  <tr class="merged-model">
-   <td class="rank">11=</td> <!-- Rank -->
+   <td class="rank">11</td> <!-- Rank -->
    <td>birgermoell/Rapid-Cycling (few-shot, val)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
    <td class="speed">2,346 ± 450 / 666 ± 249</td> <!-- Model inference speed -->
-   <td class="score">66.85</td> <!-- ScandEval score -->
-   <td class="da-win-ratio">67.45</td> <!-- Danish win ratio -->
-   <td class="no-win-ratio">64.42</td> <!-- Norwegian win ratio -->
+   <td class="score">67.12</td> <!-- ScandEval score -->
+   <td class="da-win-ratio">67.99</td> <!-- Danish win ratio -->
+   <td class="no-win-ratio">64.70</td> <!-- Norwegian win ratio -->
    <td class="sv-win-ratio">68.68</td> <!-- Swedish win ratio -->
    <td class="da ner">49.99 ± 2.62 / 38.37 ± 3.04</td> <!-- DANSK -->
    <td class="da sent">51.25 ± 2.70 / 62.67 ± 2.82</td> <!-- Angry Tweets -->
@@ -560,14 +488,50 @@ title: Mainland Scandinavian NLG
   </tr>
   <tr class="merged-model">
    <td class="rank">12</td> <!-- Rank -->
+   <td>merge-crew/da-sv-task-arithmetic (few-shot, val)</td> <!-- Model ID -->
+   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">2,500 ± 469 / 762 ± 238</td> <!-- Model inference speed -->
+   <td class="score">66.94</td> <!-- ScandEval score -->
+   <td class="da-win-ratio">72.39</td> <!-- Danish win ratio -->
+   <td class="no-win-ratio">60.85</td> <!-- Norwegian win ratio -->
+   <td class="sv-win-ratio">67.58</td> <!-- Swedish win ratio -->
+   <td class="da ner">46.06 ± 3.28 / 35.43 ± 3.06</td> <!-- DANSK -->
+   <td class="da sent">51.51 ± 4.23 / 61.68 ± 4.43</td> <!-- Angry Tweets -->
+   <td class="da la">27.68 ± 4.25 / 57.59 ± 5.15</td> <!-- ScaLA-da -->
+   <td class="da qa">57.78 ± 1.43 / 62.26 ± 1.36</td> <!-- ScandiQA-da -->
+   <td class="da summ">67.22 ± 0.84 / 22.14 ± 1.03</td> <!-- Nordjylland-News -->
+   <td class="da know">68.64 ± 3.34 / 76.45 ± 2.52</td> <!-- Danske Talemaader -->
+   <td class="da know">66.17 ± 3.73 / 76.72 ± 2.55</td> <!-- Danish Citizen Tests -->
+   <td class="da reason">23.95 ± 2.64 / 42.19 ± 2.42</td> <!-- HellaSwag-da -->
+   <td class="no ner">49.69 ± 2.90 / 43.57 ± 2.90</td> <!-- NorNE-nb -->
+   <td class="no ner">61.78 ± 2.03 / 49.91 ± 4.24</td> <!-- NorNE-nn -->
+   <td class="no sent">55.87 ± 5.21 / 68.97 ± 3.95</td> <!-- NoReC -->
+   <td class="no summ">64.94 ± 0.66 / 18.09 ± 1.08</td> <!-- No Sammendrag -->
+   <td class="no la">2.99 ± 3.04 / 34.16 ± 1.10</td> <!-- ScaLA-nb -->
+   <td class="no la">-1.29 ± 2.53 / 33.32 ± 0.91</td> <!-- ScaLA-nn -->
+   <td class="no qa">44.62 ± 4.06 / 68.17 ± 3.48</td> <!-- NorQuAD -->
+   <td class="no know">28.26 ± 2.85 / 45.78 ± 2.14</td> <!-- MMLU-no -->
+   <td class="no reason">25.83 ± 5.55 / 43.63 ± 4.29</td> <!-- HellaSwag-no -->
+   <td class="sv ner">47.28 ± 3.05 / 34.01 ± 3.73</td> <!-- SUC3 -->
+   <td class="sv sent">76.62 ± 2.52 / 78.04 ± 2.98</td> <!-- SweReC -->
+   <td class="sv la">33.23 ± 4.72 / 61.29 ± 4.67</td> <!-- ScaLA-sv -->
+   <td class="sv qa">60.00 ± 1.69 / 64.62 ± 1.44</td> <!-- ScandiQA-sv -->
+   <td class="sv summ">66.68 ± 0.43 / 21.83 ± 0.75</td> <!-- SweDN -->
+   <td class="sv know">29.95 ± 1.74 / 47.23 ± 1.24</td> <!-- MMLU-sv -->
+   <td class="sv reason">31.12 ± 3.68 / 47.85 ± 2.80</td> <!-- HellaSwag-sv -->
+  </tr>
+  <tr class="merged-model">
+   <td class="rank">13</td> <!-- Rank -->
    <td>birgermoell/Flashback-Bellman (few-shot, val)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
    <td class="speed">2,887 ± 403 / 1,144 ± 345</td> <!-- Model inference speed -->
-   <td class="score">66.53</td> <!-- ScandEval score -->
-   <td class="da-win-ratio">62.77</td> <!-- Danish win ratio -->
-   <td class="no-win-ratio">63.74</td> <!-- Norwegian win ratio -->
+   <td class="score">66.80</td> <!-- ScandEval score -->
+   <td class="da-win-ratio">63.32</td> <!-- Danish win ratio -->
+   <td class="no-win-ratio">64.01</td> <!-- Norwegian win ratio -->
    <td class="sv-win-ratio">73.08</td> <!-- Swedish win ratio -->
    <td class="da ner">47.71 ± 3.50 / 35.65 ± 3.07</td> <!-- DANSK -->
    <td class="da sent">48.21 ± 3.58 / 60.08 ± 3.41</td> <!-- Angry Tweets -->
@@ -594,16 +558,52 @@ title: Mainland Scandinavian NLG
    <td class="sv know">29.44 ± 2.34 / 46.95 ± 1.75</td> <!-- MMLU-sv -->
    <td class="sv reason">37.45 ± 3.61 / 52.85 ± 2.76</td> <!-- HellaSwag-sv -->
   </tr>
+  <tr class="not-merged-model">
+   <td class="rank">14</td> <!-- Rank -->
+   <td>bineric/NorskGPT-Mistral-7b (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">2,443 ± 451 / 761 ± 237</td> <!-- Model inference speed -->
+   <td class="score">66.67</td> <!-- ScandEval score -->
+   <td class="da-win-ratio">55.91</td> <!-- Danish win ratio -->
+   <td class="no-win-ratio">82.55</td> <!-- Norwegian win ratio -->
+   <td class="sv-win-ratio">61.54</td> <!-- Swedish win ratio -->
+   <td class="da ner">50.76 ± 1.60 / 32.89 ± 2.11</td> <!-- DANSK -->
+   <td class="da sent">40.41 ± 0.79 / 44.17 ± 0.56</td> <!-- Angry Tweets -->
+   <td class="da la">0.00 ± 0.00 / 33.41 ± 0.23</td> <!-- ScaLA-da -->
+   <td class="da qa">57.24 ± 0.74 / 63.79 ± 0.47</td> <!-- ScandiQA-da -->
+   <td class="da summ">66.93 ± 0.71 / 21.50 ± 0.55</td> <!-- Nordjylland-News -->
+   <td class="da know">64.32 ± 1.99 / 73.00 ± 1.51</td> <!-- Danske Talemaader -->
+   <td class="da know">53.18 ± 2.37 / 67.48 ± 1.70</td> <!-- Danish Citizen Tests -->
+   <td class="da reason">43.42 ± 1.05 / 57.50 ± 0.80</td> <!-- HellaSwag-da -->
+   <td class="no ner">63.28 ± 1.99 / 47.72 ± 3.74</td> <!-- NorNE-nb -->
+   <td class="no ner">61.25 ± 1.05 / 45.04 ± 2.92</td> <!-- NorNE-nn -->
+   <td class="no sent">56.90 ± 1.49 / 70.81 ± 1.30</td> <!-- NoReC -->
+   <td class="no summ">65.72 ± 0.39 / 19.24 ± 0.78</td> <!-- No Sammendrag -->
+   <td class="no la">13.86 ± 1.95 / 44.84 ± 2.31</td> <!-- ScaLA-nb -->
+   <td class="no la">10.17 ± 1.89 / 46.48 ± 2.46</td> <!-- ScaLA-nn -->
+   <td class="no qa">49.06 ± 4.30 / 74.35 ± 3.96</td> <!-- NorQuAD -->
+   <td class="no know">32.37 ± 1.15 / 49.00 ± 0.91</td> <!-- MMLU-no -->
+   <td class="no reason">47.62 ± 1.62 / 60.59 ± 1.18</td> <!-- HellaSwag-no -->
+   <td class="sv ner">58.40 ± 2.62 / 40.55 ± 3.65</td> <!-- SUC3 -->
+   <td class="sv sent">74.30 ± 1.26 / 60.35 ± 0.41</td> <!-- SweReC -->
+   <td class="sv la">0.00 ± 0.00 / 33.37 ± 0.27</td> <!-- ScaLA-sv -->
+   <td class="sv qa">59.13 ± 1.18 / 65.74 ± 0.69</td> <!-- ScandiQA-sv -->
+   <td class="sv summ">65.36 ± 0.14 / 18.81 ± 0.17</td> <!-- SweDN -->
+   <td class="sv know">35.01 ± 0.99 / 51.07 ± 0.70</td> <!-- MMLU-sv -->
+   <td class="sv reason">43.72 ± 0.69 / 57.66 ± 0.50</td> <!-- HellaSwag-sv -->
+  </tr>
   <tr class="merged-model">
-   <td class="rank">13</td> <!-- Rank -->
+   <td class="rank">15</td> <!-- Rank -->
    <td>merge-crew/da-sv-slerp (few-shot, val)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
    <td class="speed">2,467 ± 469 / 762 ± 244</td> <!-- Model inference speed -->
-   <td class="score">65.93</td> <!-- ScandEval score -->
-   <td class="da-win-ratio">71.84</td> <!-- Danish win ratio -->
-   <td class="no-win-ratio">60.58</td> <!-- Norwegian win ratio -->
+   <td class="score">65.84</td> <!-- ScandEval score -->
+   <td class="da-win-ratio">71.29</td> <!-- Danish win ratio -->
+   <td class="no-win-ratio">60.85</td> <!-- Norwegian win ratio -->
    <td class="sv-win-ratio">65.38</td> <!-- Swedish win ratio -->
    <td class="da ner">45.94 ± 3.62 / 35.68 ± 3.35</td> <!-- DANSK -->
    <td class="da sent">51.75 ± 4.52 / 62.28 ± 4.29</td> <!-- Angry Tweets -->
@@ -631,15 +631,15 @@ title: Mainland Scandinavian NLG
    <td class="sv reason">30.36 ± 2.80 / 47.15 ± 2.26</td> <!-- HellaSwag-sv -->
   </tr>
   <tr class="merged-model">
-   <td class="rank">14</td> <!-- Rank -->
+   <td class="rank">16</td> <!-- Rank -->
    <td>merge-crew/da-sv-ties (few-shot, val)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
    <td class="speed">2,457 ± 451 / 757 ± 237</td> <!-- Model inference speed -->
-   <td class="score">63.23</td> <!-- ScandEval score -->
-   <td class="da-win-ratio">62.36</td> <!-- Danish win ratio -->
-   <td class="no-win-ratio">65.25</td> <!-- Norwegian win ratio -->
+   <td class="score">63.97</td> <!-- ScandEval score -->
+   <td class="da-win-ratio">64.29</td> <!-- Danish win ratio -->
+   <td class="no-win-ratio">65.52</td> <!-- Norwegian win ratio -->
    <td class="sv-win-ratio">62.09</td> <!-- Swedish win ratio -->
    <td class="da ner">45.39 ± 2.46 / 34.45 ± 2.56</td> <!-- DANSK -->
    <td class="da sent">51.95 ± 2.65 / 65.69 ± 2.11</td> <!-- Angry Tweets -->
@@ -667,15 +667,15 @@ title: Mainland Scandinavian NLG
    <td class="sv reason">26.04 ± 3.42 / 38.83 ± 4.24</td> <!-- HellaSwag-sv -->
   </tr>
   <tr class="merged-model">
-   <td class="rank">15</td> <!-- Rank -->
+   <td class="rank">17</td> <!-- Rank -->
    <td>merge-crew/da-sv-dare-ties-density-0.9 (few-shot, val)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
    <td class="speed">2,443 ± 458 / 750 ± 240</td> <!-- Model inference speed -->
-   <td class="score">62.82</td> <!-- ScandEval score -->
-   <td class="da-win-ratio">60.58</td> <!-- Danish win ratio -->
-   <td class="no-win-ratio">64.15</td> <!-- Norwegian win ratio -->
+   <td class="score">62.45</td> <!-- ScandEval score -->
+   <td class="da-win-ratio">59.20</td> <!-- Danish win ratio -->
+   <td class="no-win-ratio">64.42</td> <!-- Norwegian win ratio -->
    <td class="sv-win-ratio">63.74</td> <!-- Swedish win ratio -->
    <td class="da ner">45.61 ± 3.06 / 35.04 ± 2.94</td> <!-- DANSK -->
    <td class="da sent">53.73 ± 3.06 / 67.51 ± 2.16</td> <!-- Angry Tweets -->
@@ -703,15 +703,15 @@ title: Mainland Scandinavian NLG
    <td class="sv reason">25.38 ± 3.56 / 39.34 ± 3.89</td> <!-- HellaSwag-sv -->
   </tr>
   <tr class="merged-model">
-   <td class="rank">16</td> <!-- Rank -->
+   <td class="rank">18</td> <!-- Rank -->
    <td>birgermoell/NeuralBeagle-Flashback (few-shot, val)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
    <td class="speed">2,904 ± 405 / 1,155 ± 349</td> <!-- Model inference speed -->
-   <td class="score">59.39</td> <!-- ScandEval score -->
-   <td class="da-win-ratio">58.65</td> <!-- Danish win ratio -->
-   <td class="no-win-ratio">62.64</td> <!-- Norwegian win ratio -->
+   <td class="score">59.66</td> <!-- ScandEval score -->
+   <td class="da-win-ratio">59.20</td> <!-- Danish win ratio -->
+   <td class="no-win-ratio">62.91</td> <!-- Norwegian win ratio -->
    <td class="sv-win-ratio">56.87</td> <!-- Swedish win ratio -->
    <td class="da ner">48.28 ± 2.73 / 36.42 ± 3.04</td> <!-- DANSK -->
    <td class="da sent">44.20 ± 2.63 / 53.54 ± 3.36</td> <!-- Angry Tweets -->
@@ -739,16 +739,16 @@ title: Mainland Scandinavian NLG
    <td class="sv reason">29.31 ± 5.03 / 47.11 ± 3.62</td> <!-- HellaSwag-sv -->
   </tr>
   <tr class="not-merged-model">
-   <td class="rank">17</td> <!-- Rank -->
+   <td class="rank">19</td> <!-- Rank -->
    <td>ThatsGroes/munin-SkoleGPTOpenOrca-7b-16bit (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
    <td class="speed">3,006 ± 479 / 1,053 ± 319</td> <!-- Model inference speed -->
-   <td class="score">59.25</td> <!-- ScandEval score -->
-   <td class="da-win-ratio">66.90</td> <!-- Danish win ratio -->
-   <td class="no-win-ratio">55.63</td> <!-- Norwegian win ratio -->
-   <td class="sv-win-ratio">55.22</td> <!-- Swedish win ratio -->
+   <td class="score">59.34</td> <!-- ScandEval score -->
+   <td class="da-win-ratio">67.17</td> <!-- Danish win ratio -->
+   <td class="no-win-ratio">55.91</td> <!-- Norwegian win ratio -->
+   <td class="sv-win-ratio">54.95</td> <!-- Swedish win ratio -->
    <td class="da ner">45.37 ± 2.53 / 28.99 ± 2.18</td> <!-- DANSK -->
    <td class="da sent">39.63 ± 1.90 / 46.93 ± 2.68</td> <!-- Angry Tweets -->
    <td class="da la">21.77 ± 3.54 / 47.96 ± 4.57</td> <!-- ScaLA-da -->
@@ -775,15 +775,15 @@ title: Mainland Scandinavian NLG
    <td class="sv reason">23.58 ± 1.41 / 42.30 ± 1.04</td> <!-- HellaSwag-sv -->
   </tr>
   <tr class="merged-model">
-   <td class="rank">18</td> <!-- Rank -->
+   <td class="rank">20</td> <!-- Rank -->
    <td>merge-crew/da-sv-dare-ties-density-0.6 (few-shot, val)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
    <td class="speed">2,515 ± 465 / 785 ± 247</td> <!-- Model inference speed -->
-   <td class="score">58.29</td> <!-- ScandEval score -->
-   <td class="da-win-ratio">55.63</td> <!-- Danish win ratio -->
-   <td class="no-win-ratio">56.32</td> <!-- Norwegian win ratio -->
+   <td class="score">58.56</td> <!-- ScandEval score -->
+   <td class="da-win-ratio">56.18</td> <!-- Danish win ratio -->
+   <td class="no-win-ratio">56.59</td> <!-- Norwegian win ratio -->
    <td class="sv-win-ratio">62.91</td> <!-- Swedish win ratio -->
    <td class="da ner">46.03 ± 3.93 / 34.23 ± 2.86</td> <!-- DANSK -->
    <td class="da sent">49.59 ± 3.26 / 63.45 ± 2.61</td> <!-- Angry Tweets -->
@@ -811,51 +811,15 @@ title: Mainland Scandinavian NLG
    <td class="sv reason">22.30 ± 3.50 / 39.45 ± 2.60</td> <!-- HellaSwag-sv -->
   </tr>
   <tr class="not-merged-model">
-   <td class="rank">19=</td> <!-- Rank -->
-   <td>mistralai/Mistral-7B-Instruct-v0.2 (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">2,538 ± 415 / 821 ± 253</td> <!-- Model inference speed -->
-   <td class="score">54.72</td> <!-- ScandEval score -->
-   <td class="da-win-ratio">58.79</td> <!-- Danish win ratio -->
-   <td class="no-win-ratio">53.71</td> <!-- Norwegian win ratio -->
-   <td class="sv-win-ratio">51.65</td> <!-- Swedish win ratio -->
-   <td class="da ner">44.89 ± 2.46 / 29.13 ± 1.92</td> <!-- DANSK -->
-   <td class="da sent">48.09 ± 1.00 / 65.40 ± 0.75</td> <!-- Angry Tweets -->
-   <td class="da la">19.06 ± 2.34 / 58.77 ± 1.37</td> <!-- ScaLA-da -->
-   <td class="da qa">51.49 ± 1.17 / 60.76 ± 0.76</td> <!-- ScandiQA-da -->
-   <td class="da summ">67.67 ± 0.34 / 22.71 ± 0.71</td> <!-- Nordjylland-News -->
-   <td class="da know">51.60 ± 1.33 / 63.50 ± 1.03</td> <!-- Danske Talemaader -->
-   <td class="da know">35.85 ± 2.68 / 52.62 ± 2.08</td> <!-- Danish Citizen Tests -->
-   <td class="da reason">22.21 ± 1.60 / 40.78 ± 1.32</td> <!-- HellaSwag-da -->
-   <td class="no ner">53.42 ± 2.48 / 42.63 ± 1.66</td> <!-- NorNE-nb -->
-   <td class="no ner">54.34 ± 1.93 / 41.06 ± 2.40</td> <!-- NorNE-nn -->
-   <td class="no sent">38.79 ± 2.56 / 53.72 ± 3.01</td> <!-- NoReC -->
-   <td class="no summ">65.14 ± 0.32 / 17.79 ± 0.57</td> <!-- No Sammendrag -->
-   <td class="no la">17.06 ± 1.53 / 56.51 ± 2.06</td> <!-- ScaLA-nb -->
-   <td class="no la">11.00 ± 1.00 / 53.26 ± 2.32</td> <!-- ScaLA-nn -->
-   <td class="no qa">35.68 ± 2.46 / 64.20 ± 2.43</td> <!-- NorQuAD -->
-   <td class="no know">20.37 ± 1.34 / 39.32 ± 1.03</td> <!-- MMLU-no -->
-   <td class="no reason">21.16 ± 2.07 / 39.85 ± 1.73</td> <!-- HellaSwag-no -->
-   <td class="sv ner">47.92 ± 2.66 / 33.00 ± 3.24</td> <!-- SUC3 -->
-   <td class="sv sent">62.90 ± 2.44 / 70.61 ± 1.19</td> <!-- SweReC -->
-   <td class="sv la">19.95 ± 2.24 / 56.49 ± 2.10</td> <!-- ScaLA-sv -->
-   <td class="sv qa">52.50 ± 0.34 / 61.43 ± 0.56</td> <!-- ScandiQA-sv -->
-   <td class="sv summ">65.94 ± 0.15 / 19.70 ± 0.28</td> <!-- SweDN -->
-   <td class="sv know">25.60 ± 1.10 / 43.53 ± 0.90</td> <!-- MMLU-sv -->
-   <td class="sv reason">21.75 ± 1.61 / 40.57 ± 1.45</td> <!-- HellaSwag-sv -->
-  </tr>
-  <tr class="not-merged-model">
-   <td class="rank">19=</td> <!-- Rank -->
+   <td class="rank">21</td> <!-- Rank -->
    <td>timpal0l/Mistral-7B-v0.1-flashback-v2 (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
    <td class="speed">2,505 ± 465 / 774 ± 242</td> <!-- Model inference speed -->
    <td class="score">54.72</td> <!-- ScandEval score -->
-   <td class="da-win-ratio">49.45</td> <!-- Danish win ratio -->
-   <td class="no-win-ratio">49.04</td> <!-- Norwegian win ratio -->
+   <td class="da-win-ratio">49.18</td> <!-- Danish win ratio -->
+   <td class="no-win-ratio">49.31</td> <!-- Norwegian win ratio -->
    <td class="sv-win-ratio">65.66</td> <!-- Swedish win ratio -->
    <td class="da ner">41.66 ± 3.23 / 28.72 ± 2.20</td> <!-- DANSK -->
    <td class="da sent">47.52 ± 2.03 / 62.67 ± 2.20</td> <!-- Angry Tweets -->
@@ -883,51 +847,51 @@ title: Mainland Scandinavian NLG
    <td class="sv reason">25.20 ± 2.35 / 43.09 ± 2.17</td> <!-- HellaSwag-sv -->
   </tr>
   <tr class="not-merged-model">
-   <td class="rank">20</td> <!-- Rank -->
-   <td>mistralai/Mistral-7B-v0.1 (few-shot)</td> <!-- Model ID -->
+   <td class="rank">22</td> <!-- Rank -->
+   <td>mistralai/Mistral-7B-Instruct-v0.2 (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">2,657 ± 524 / 880 ± 278</td> <!-- Model inference speed -->
-   <td class="score">53.48</td> <!-- ScandEval score -->
-   <td class="da-win-ratio">48.08</td> <!-- Danish win ratio -->
-   <td class="no-win-ratio">52.47</td> <!-- Norwegian win ratio -->
-   <td class="sv-win-ratio">59.89</td> <!-- Swedish win ratio -->
-   <td class="da ner">45.42 ± 2.88 / 32.66 ± 2.49</td> <!-- DANSK -->
-   <td class="da sent">43.16 ± 1.69 / 54.53 ± 2.83</td> <!-- Angry Tweets -->
-   <td class="da la">8.79 ± 3.23 / 38.38 ± 4.22</td> <!-- ScaLA-da -->
-   <td class="da qa">48.51 ± 2.11 / 53.66 ± 2.06</td> <!-- ScandiQA-da -->
-   <td class="da summ">66.54 ± 0.98 / 22.44 ± 0.98</td> <!-- Nordjylland-News -->
-   <td class="da know">53.26 ± 1.94 / 64.50 ± 1.68</td> <!-- Danske Talemaader -->
-   <td class="da know">58.26 ± 2.62 / 71.56 ± 1.79</td> <!-- Danish Citizen Tests -->
-   <td class="da reason">18.53 ± 2.03 / 37.79 ± 1.68</td> <!-- HellaSwag-da -->
-   <td class="no ner">52.00 ± 1.91 / 43.55 ± 2.21</td> <!-- NorNE-nb -->
-   <td class="no ner">55.12 ± 3.14 / 45.34 ± 4.15</td> <!-- NorNE-nn -->
-   <td class="no sent">47.25 ± 4.11 / 64.53 ± 3.71</td> <!-- NoReC -->
-   <td class="no summ">63.49 ± 1.49 / 16.48 ± 1.62</td> <!-- No Sammendrag -->
-   <td class="no la">8.66 ± 4.12 / 38.87 ± 3.40</td> <!-- ScaLA-nb -->
-   <td class="no la">6.80 ± 1.59 / 39.72 ± 2.50</td> <!-- ScaLA-nn -->
-   <td class="no qa">29.44 ± 2.86 / 50.68 ± 3.91</td> <!-- NorQuAD -->
-   <td class="no know">27.78 ± 1.08 / 45.76 ± 0.79</td> <!-- MMLU-no -->
-   <td class="no reason">10.88 ± 3.63 / 32.43 ± 2.67</td> <!-- HellaSwag-no -->
-   <td class="sv ner">53.34 ± 2.55 / 40.48 ± 3.66</td> <!-- SUC3 -->
-   <td class="sv sent">80.00 ± 0.70 / 79.80 ± 0.66</td> <!-- SweReC -->
-   <td class="sv la">4.61 ± 2.18 / 34.51 ± 0.86</td> <!-- ScaLA-sv -->
-   <td class="sv qa">48.43 ± 4.69 / 54.33 ± 4.56</td> <!-- ScandiQA-sv -->
-   <td class="sv summ">64.82 ± 0.29 / 19.41 ± 0.40</td> <!-- SweDN -->
-   <td class="sv know">35.52 ± 1.01 / 51.52 ± 0.73</td> <!-- MMLU-sv -->
-   <td class="sv reason">19.67 ± 2.31 / 38.98 ± 1.98</td> <!-- HellaSwag-sv -->
+   <td class="speed">2,538 ± 415 / 821 ± 253</td> <!-- Model inference speed -->
+   <td class="score">53.34</td> <!-- ScandEval score -->
+   <td class="da-win-ratio">56.87</td> <!-- Danish win ratio -->
+   <td class="no-win-ratio">51.79</td> <!-- Norwegian win ratio -->
+   <td class="sv-win-ratio">51.37</td> <!-- Swedish win ratio -->
+   <td class="da ner">44.89 ± 2.46 / 29.13 ± 1.92</td> <!-- DANSK -->
+   <td class="da sent">48.09 ± 1.00 / 65.40 ± 0.75</td> <!-- Angry Tweets -->
+   <td class="da la">19.06 ± 2.34 / 58.77 ± 1.37</td> <!-- ScaLA-da -->
+   <td class="da qa">51.49 ± 1.17 / 60.76 ± 0.76</td> <!-- ScandiQA-da -->
+   <td class="da summ">66.86 ± 0.75 / 21.35 ± 0.96</td> <!-- Nordjylland-News -->
+   <td class="da know">51.60 ± 1.33 / 63.50 ± 1.03</td> <!-- Danske Talemaader -->
+   <td class="da know">35.85 ± 2.68 / 52.62 ± 2.08</td> <!-- Danish Citizen Tests -->
+   <td class="da reason">22.21 ± 1.60 / 40.78 ± 1.32</td> <!-- HellaSwag-da -->
+   <td class="no ner">53.42 ± 2.48 / 42.63 ± 1.66</td> <!-- NorNE-nb -->
+   <td class="no ner">54.34 ± 1.93 / 41.06 ± 2.40</td> <!-- NorNE-nn -->
+   <td class="no sent">38.79 ± 2.56 / 53.72 ± 3.01</td> <!-- NoReC -->
+   <td class="no summ">64.46 ± 0.46 / 16.15 ± 0.99</td> <!-- No Sammendrag -->
+   <td class="no la">17.06 ± 1.53 / 56.51 ± 2.06</td> <!-- ScaLA-nb -->
+   <td class="no la">11.00 ± 1.00 / 53.26 ± 2.32</td> <!-- ScaLA-nn -->
+   <td class="no qa">35.68 ± 2.46 / 64.20 ± 2.43</td> <!-- NorQuAD -->
+   <td class="no know">20.37 ± 1.34 / 39.32 ± 1.03</td> <!-- MMLU-no -->
+   <td class="no reason">21.16 ± 2.07 / 39.85 ± 1.73</td> <!-- HellaSwag-no -->
+   <td class="sv ner">47.92 ± 2.66 / 33.00 ± 3.24</td> <!-- SUC3 -->
+   <td class="sv sent">62.90 ± 2.44 / 70.61 ± 1.19</td> <!-- SweReC -->
+   <td class="sv la">19.95 ± 2.24 / 56.49 ± 2.10</td> <!-- ScaLA-sv -->
+   <td class="sv qa">52.50 ± 0.34 / 61.43 ± 0.56</td> <!-- ScandiQA-sv -->
+   <td class="sv summ">65.94 ± 0.15 / 19.70 ± 0.28</td> <!-- SweDN -->
+   <td class="sv know">25.60 ± 1.10 / 43.53 ± 0.90</td> <!-- MMLU-sv -->
+   <td class="sv reason">21.75 ± 1.61 / 40.57 ± 1.45</td> <!-- HellaSwag-sv -->
   </tr>
   <tr class="not-merged-model">
-   <td class="rank">21</td> <!-- Rank -->
+   <td class="rank">23</td> <!-- Rank -->
    <td>RuterNorway/Llama-2-13b-chat-norwegian (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model-->
    <td class="speed">7,778 ± 1,755 / 1,703 ± 552</td> <!-- Model inference speed -->
-   <td class="score">52.98</td> <!-- ScandEval score -->
-   <td class="da-win-ratio">54.53</td> <!-- Danish win ratio -->
-   <td class="no-win-ratio">54.67</td> <!-- Norwegian win ratio -->
+   <td class="score">52.89</td> <!-- ScandEval score -->
+   <td class="da-win-ratio">53.98</td> <!-- Danish win ratio -->
+   <td class="no-win-ratio">54.95</td> <!-- Norwegian win ratio -->
    <td class="sv-win-ratio">49.73</td> <!-- Swedish win ratio -->
    <td class="da ner">43.17 ± 2.78 / 31.37 ± 2.95</td> <!-- DANSK -->
    <td class="da sent">43.40 ± 2.20 / 57.24 ± 3.52</td> <!-- Angry Tweets -->
@@ -955,16 +919,88 @@ title: Mainland Scandinavian NLG
    <td class="sv reason">17.67 ± 1.53 / 37.32 ± 1.20</td> <!-- HellaSwag-sv -->
   </tr>
   <tr class="not-merged-model">
-   <td class="rank">22</td> <!-- Rank -->
+   <td class="rank">24</td> <!-- Rank -->
+   <td>mistralai/Mistral-7B-v0.1 (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">2,657 ± 524 / 880 ± 278</td> <!-- Model inference speed -->
+   <td class="score">52.65</td> <!-- ScandEval score -->
+   <td class="da-win-ratio">46.70</td> <!-- Danish win ratio -->
+   <td class="no-win-ratio">51.37</td> <!-- Norwegian win ratio -->
+   <td class="sv-win-ratio">59.89</td> <!-- Swedish win ratio -->
+   <td class="da ner">45.42 ± 2.88 / 32.66 ± 2.49</td> <!-- DANSK -->
+   <td class="da sent">43.16 ± 1.69 / 54.53 ± 2.83</td> <!-- Angry Tweets -->
+   <td class="da la">8.79 ± 3.23 / 38.38 ± 4.22</td> <!-- ScaLA-da -->
+   <td class="da qa">48.51 ± 2.11 / 53.66 ± 2.06</td> <!-- ScandiQA-da -->
+   <td class="da summ">66.54 ± 0.98 / 22.44 ± 0.98</td> <!-- Nordjylland-News -->
+   <td class="da know">53.26 ± 1.94 / 64.50 ± 1.68</td> <!-- Danske Talemaader -->
+   <td class="da know">58.26 ± 2.62 / 71.56 ± 1.79</td> <!-- Danish Citizen Tests -->
+   <td class="da reason">18.53 ± 2.03 / 37.79 ± 1.68</td> <!-- HellaSwag-da -->
+   <td class="no ner">52.00 ± 1.91 / 43.55 ± 2.21</td> <!-- NorNE-nb -->
+   <td class="no ner">55.12 ± 3.14 / 45.34 ± 4.15</td> <!-- NorNE-nn -->
+   <td class="no sent">47.25 ± 4.11 / 64.53 ± 3.71</td> <!-- NoReC -->
+   <td class="no summ">63.49 ± 1.49 / 16.48 ± 1.62</td> <!-- No Sammendrag -->
+   <td class="no la">8.66 ± 4.12 / 38.87 ± 3.40</td> <!-- ScaLA-nb -->
+   <td class="no la">6.80 ± 1.59 / 39.72 ± 2.50</td> <!-- ScaLA-nn -->
+   <td class="no qa">29.44 ± 2.86 / 50.68 ± 3.91</td> <!-- NorQuAD -->
+   <td class="no know">27.78 ± 1.08 / 45.76 ± 0.79</td> <!-- MMLU-no -->
+   <td class="no reason">10.88 ± 3.63 / 32.43 ± 2.67</td> <!-- HellaSwag-no -->
+   <td class="sv ner">53.34 ± 2.55 / 40.48 ± 3.66</td> <!-- SUC3 -->
+   <td class="sv sent">80.00 ± 0.70 / 79.80 ± 0.66</td> <!-- SweReC -->
+   <td class="sv la">4.61 ± 2.18 / 34.51 ± 0.86</td> <!-- ScaLA-sv -->
+   <td class="sv qa">48.43 ± 4.69 / 54.33 ± 4.56</td> <!-- ScandiQA-sv -->
+   <td class="sv summ">64.87 ± 0.31 / 19.30 ± 0.43</td> <!-- SweDN -->
+   <td class="sv know">35.52 ± 1.01 / 51.52 ± 0.73</td> <!-- MMLU-sv -->
+   <td class="sv reason">19.67 ± 2.31 / 38.98 ± 1.98</td> <!-- HellaSwag-sv -->
+  </tr>
+  <tr class="not-merged-model">
+   <td class="rank">25</td> <!-- Rank -->
+   <td>danish-foundation-models/munin-7b-alpha (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">3,019 ± 480 / 1,048 ± 317</td> <!-- Model inference speed -->
+   <td class="score">50.14</td> <!-- ScandEval score -->
+   <td class="da-win-ratio">58.65</td> <!-- Danish win ratio -->
+   <td class="no-win-ratio">41.76</td> <!-- Norwegian win ratio -->
+   <td class="sv-win-ratio">50.00</td> <!-- Swedish win ratio -->
+   <td class="da ner">38.31 ± 2.59 / 27.23 ± 1.65</td> <!-- DANSK -->
+   <td class="da sent">37.13 ± 2.26 / 44.00 ± 2.68</td> <!-- Angry Tweets -->
+   <td class="da la">26.46 ± 5.28 / 53.12 ± 6.51</td> <!-- ScaLA-da -->
+   <td class="da qa">39.77 ± 4.66 / 44.54 ± 5.00</td> <!-- ScandiQA-da -->
+   <td class="da summ">67.31 ± 1.14 / 23.97 ± 0.96</td> <!-- Nordjylland-News -->
+   <td class="da know">77.60 ± 1.36 / 82.98 ± 1.03</td> <!-- Danske Talemaader -->
+   <td class="da know">67.85 ± 1.25 / 77.93 ± 0.90</td> <!-- Danish Citizen Tests -->
+   <td class="da reason">25.06 ± 2.56 / 42.93 ± 2.25</td> <!-- HellaSwag-da -->
+   <td class="no ner">46.32 ± 3.74 / 34.02 ± 2.70</td> <!-- NorNE-nb -->
+   <td class="no ner">48.20 ± 1.59 / 35.05 ± 2.05</td> <!-- NorNE-nn -->
+   <td class="no sent">20.46 ± 5.98 / 36.24 ± 6.77</td> <!-- NoReC -->
+   <td class="no summ">63.67 ± 1.14 / 15.98 ± 1.26</td> <!-- No Sammendrag -->
+   <td class="no la">4.50 ± 4.17 / 35.29 ± 2.89</td> <!-- ScaLA-nb -->
+   <td class="no la">1.10 ± 1.47 / 34.51 ± 1.24</td> <!-- ScaLA-nn -->
+   <td class="no qa">31.16 ± 1.83 / 52.35 ± 2.34</td> <!-- NorQuAD -->
+   <td class="no know">28.98 ± 1.16 / 46.10 ± 0.95</td> <!-- MMLU-no -->
+   <td class="no reason">15.62 ± 3.56 / 35.78 ± 2.81</td> <!-- HellaSwag-no -->
+   <td class="sv ner">39.55 ± 2.39 / 27.89 ± 3.85</td> <!-- SUC3 -->
+   <td class="sv sent">78.79 ± 0.91 / 75.25 ± 1.75</td> <!-- SweReC -->
+   <td class="sv la">15.77 ± 1.64 / 54.44 ± 3.29</td> <!-- ScaLA-sv -->
+   <td class="sv qa">39.62 ± 4.78 / 45.18 ± 4.72</td> <!-- ScandiQA-sv -->
+   <td class="sv summ">62.74 ± 0.81 / 16.70 ± 0.46</td> <!-- SweDN -->
+   <td class="sv know">30.96 ± 1.12 / 47.90 ± 0.94</td> <!-- MMLU-sv -->
+   <td class="sv reason">18.79 ± 2.75 / 38.32 ± 2.26</td> <!-- HellaSwag-sv -->
+  </tr>
+  <tr class="not-merged-model">
+   <td class="rank">26</td> <!-- Rank -->
    <td>Mabeck/Heidrun-Mistral-7B-base (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
    <td class="speed">5,161 ± 1,201 / 1,151 ± 376</td> <!-- Model inference speed -->
-   <td class="score">50.37</td> <!-- ScandEval score -->
-   <td class="da-win-ratio">53.16</td> <!-- Danish win ratio -->
-   <td class="no-win-ratio">42.17</td> <!-- Norwegian win ratio -->
-   <td class="sv-win-ratio">55.77</td> <!-- Swedish win ratio -->
+   <td class="score">49.63</td> <!-- ScandEval score -->
+   <td class="da-win-ratio">51.79</td> <!-- Danish win ratio -->
+   <td class="no-win-ratio">41.07</td> <!-- Norwegian win ratio -->
+   <td class="sv-win-ratio">56.04</td> <!-- Swedish win ratio -->
    <td class="da ner">46.30 ± 2.54 / 30.32 ± 1.56</td> <!-- DANSK -->
    <td class="da sent">45.44 ± 1.76 / 59.21 ± 2.03</td> <!-- Angry Tweets -->
    <td class="da la">8.46 ± 4.07 / 37.89 ± 2.91</td> <!-- ScaLA-da -->
@@ -991,28 +1027,28 @@ title: Mainland Scandinavian NLG
    <td class="sv reason">10.56 ± 1.77 / 30.48 ± 1.46</td> <!-- HellaSwag-sv -->
   </tr>
   <tr class="not-merged-model">
-   <td class="rank">23</td> <!-- Rank -->
+   <td class="rank">27</td> <!-- Rank -->
    <td>mistralai/Mistral-7B-Instruct-v0.1 (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
    <td class="speed">5,443 ± 1,273 / 1,144 ± 364</td> <!-- Model inference speed -->
-   <td class="score">46.15</td> <!-- ScandEval score -->
-   <td class="da-win-ratio">46.15</td> <!-- Danish win ratio -->
-   <td class="no-win-ratio">47.53</td> <!-- Norwegian win ratio -->
-   <td class="sv-win-ratio">44.78</td> <!-- Swedish win ratio -->
+   <td class="score">44.87</td> <!-- ScandEval score -->
+   <td class="da-win-ratio">44.78</td> <!-- Danish win ratio -->
+   <td class="no-win-ratio">46.43</td> <!-- Norwegian win ratio -->
+   <td class="sv-win-ratio">43.41</td> <!-- Swedish win ratio -->
    <td class="da ner">37.93 ± 2.71 / 23.54 ± 1.99</td> <!-- DANSK -->
    <td class="da sent">44.49 ± 2.56 / 60.64 ± 3.00</td> <!-- Angry Tweets -->
    <td class="da la">14.09 ± 2.94 / 42.43 ± 3.30</td> <!-- ScaLA-da -->
    <td class="da qa">51.42 ± 2.35 / 58.76 ± 1.33</td> <!-- ScandiQA-da -->
-   <td class="da summ">66.59 ± 0.34 / 21.45 ± 0.79</td> <!-- Nordjylland-News -->
+   <td class="da summ">65.97 ± 0.88 / 20.39 ± 1.15</td> <!-- Nordjylland-News -->
    <td class="da know">45.07 ± 1.34 / 58.18 ± 1.03</td> <!-- Danske Talemaader -->
    <td class="da know">35.36 ± 2.19 / 55.82 ± 1.48</td> <!-- Danish Citizen Tests -->
    <td class="da reason">14.85 ± 1.19 / 35.26 ± 1.24</td> <!-- HellaSwag-da -->
    <td class="no ner">50.08 ± 1.54 / 34.52 ± 1.17</td> <!-- NorNE-nb -->
    <td class="no ner">51.27 ± 1.52 / 33.37 ± 2.37</td> <!-- NorNE-nn -->
    <td class="no sent">43.65 ± 1.98 / 60.88 ± 1.36</td> <!-- NoReC -->
-   <td class="no summ">63.31 ± 0.56 / 15.33 ± 0.67</td> <!-- No Sammendrag -->
+   <td class="no summ">62.42 ± 0.75 / 14.24 ± 0.83</td> <!-- No Sammendrag -->
    <td class="no la">14.09 ± 2.85 / 44.91 ± 3.95</td> <!-- ScaLA-nb -->
    <td class="no la">8.28 ± 1.82 / 47.22 ± 3.72</td> <!-- ScaLA-nn -->
    <td class="no qa">37.31 ± 3.13 / 63.71 ± 2.98</td> <!-- NorQuAD -->
@@ -1022,56 +1058,20 @@ title: Mainland Scandinavian NLG
    <td class="sv sent">73.33 ± 1.98 / 76.19 ± 1.59</td> <!-- SweReC -->
    <td class="sv la">11.59 ± 3.45 / 40.89 ± 4.15</td> <!-- ScaLA-sv -->
    <td class="sv qa">52.05 ± 1.44 / 59.27 ± 1.12</td> <!-- ScandiQA-sv -->
-   <td class="sv summ">63.91 ± 0.43 / 18.85 ± 0.26</td> <!-- SweDN -->
+   <td class="sv summ">63.09 ± 0.58 / 18.04 ± 0.35</td> <!-- SweDN -->
    <td class="sv know">24.03 ± 1.09 / 42.32 ± 0.70</td> <!-- MMLU-sv -->
    <td class="sv reason">15.37 ± 0.71 / 35.78 ± 0.69</td> <!-- HellaSwag-sv -->
   </tr>
   <tr class="not-merged-model">
-   <td class="rank">24</td> <!-- Rank -->
-   <td>danish-foundation-models/munin-7b-alpha (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">3,019 ± 480 / 1,048 ± 317</td> <!-- Model inference speed -->
-   <td class="score">45.93</td> <!-- ScandEval score -->
-   <td class="da-win-ratio">51.79</td> <!-- Danish win ratio -->
-   <td class="no-win-ratio">36.54</td> <!-- Norwegian win ratio -->
-   <td class="sv-win-ratio">49.45</td> <!-- Swedish win ratio -->
-   <td class="da ner">38.31 ± 2.59 / 27.23 ± 1.65</td> <!-- DANSK -->
-   <td class="da sent">37.13 ± 2.26 / 44.00 ± 2.68</td> <!-- Angry Tweets -->
-   <td class="da la">26.46 ± 5.28 / 53.12 ± 6.51</td> <!-- ScaLA-da -->
-   <td class="da qa">39.77 ± 4.66 / 44.54 ± 5.00</td> <!-- ScandiQA-da -->
-   <td class="da summ">62.96 ± 0.57 / 16.35 ± 0.33</td> <!-- Nordjylland-News -->
-   <td class="da know">77.60 ± 1.36 / 82.98 ± 1.03</td> <!-- Danske Talemaader -->
-   <td class="da know">67.85 ± 1.25 / 77.93 ± 0.90</td> <!-- Danish Citizen Tests -->
-   <td class="da reason">25.06 ± 2.56 / 42.93 ± 2.25</td> <!-- HellaSwag-da -->
-   <td class="no ner">46.32 ± 3.74 / 34.02 ± 2.70</td> <!-- NorNE-nb -->
-   <td class="no ner">48.20 ± 1.59 / 35.05 ± 2.05</td> <!-- NorNE-nn -->
-   <td class="no sent">20.46 ± 5.98 / 36.24 ± 6.77</td> <!-- NoReC -->
-   <td class="no summ">58.74 ± 0.83 / 11.67 ± 0.51</td> <!-- No Sammendrag -->
-   <td class="no la">4.50 ± 4.17 / 35.29 ± 2.89</td> <!-- ScaLA-nb -->
-   <td class="no la">1.10 ± 1.47 / 34.51 ± 1.24</td> <!-- ScaLA-nn -->
-   <td class="no qa">31.16 ± 1.83 / 52.35 ± 2.34</td> <!-- NorQuAD -->
-   <td class="no know">28.98 ± 1.16 / 46.10 ± 0.95</td> <!-- MMLU-no -->
-   <td class="no reason">15.62 ± 3.56 / 35.78 ± 2.81</td> <!-- HellaSwag-no -->
-   <td class="sv ner">39.55 ± 2.39 / 27.89 ± 3.85</td> <!-- SUC3 -->
-   <td class="sv sent">78.79 ± 0.91 / 75.25 ± 1.75</td> <!-- SweReC -->
-   <td class="sv la">15.77 ± 1.64 / 54.44 ± 3.29</td> <!-- ScaLA-sv -->
-   <td class="sv qa">39.62 ± 4.78 / 45.18 ± 4.72</td> <!-- ScandiQA-sv -->
-   <td class="sv summ">61.17 ± 0.81 / 16.98 ± 0.31</td> <!-- SweDN -->
-   <td class="sv know">30.96 ± 1.12 / 47.90 ± 0.94</td> <!-- MMLU-sv -->
-   <td class="sv reason">18.79 ± 2.75 / 38.32 ± 2.26</td> <!-- HellaSwag-sv -->
-  </tr>
-  <tr class="not-merged-model">
-   <td class="rank">25</td> <!-- Rank -->
+   <td class="rank">28</td> <!-- Rank -->
    <td>neph1/bellman-7b-mistral-instruct-v0.2 (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
    <td class="speed">2,518 ± 463 / 779 ± 243</td> <!-- Model inference speed -->
-   <td class="score">45.33</td> <!-- ScandEval score -->
-   <td class="da-win-ratio">47.66</td> <!-- Danish win ratio -->
-   <td class="no-win-ratio">42.45</td> <!-- Norwegian win ratio -->
+   <td class="score">44.78</td> <!-- ScandEval score -->
+   <td class="da-win-ratio">45.74</td> <!-- Danish win ratio -->
+   <td class="no-win-ratio">42.72</td> <!-- Norwegian win ratio -->
    <td class="sv-win-ratio">45.88</td> <!-- Swedish win ratio -->
    <td class="da ner">46.11 ± 3.27 / 28.75 ± 2.13</td> <!-- DANSK -->
    <td class="da sent">47.58 ± 1.41 / 63.81 ± 1.28</td> <!-- Angry Tweets -->
@@ -1099,28 +1099,28 @@ title: Mainland Scandinavian NLG
    <td class="sv reason">12.52 ± 1.41 / 33.90 ± 1.11</td> <!-- HellaSwag-sv -->
   </tr>
   <tr class="not-merged-model">
-   <td class="rank">26</td> <!-- Rank -->
+   <td class="rank">29</td> <!-- Rank -->
    <td>meta-llama/Llama-2-7b-chat-hf (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">6738</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model-->
    <td class="speed">2,643 ± 455 / 800 ± 247</td> <!-- Model inference speed -->
-   <td class="score">43.77</td> <!-- ScandEval score -->
-   <td class="da-win-ratio">45.33</td> <!-- Danish win ratio -->
-   <td class="no-win-ratio">41.48</td> <!-- Norwegian win ratio -->
+   <td class="score">42.95</td> <!-- ScandEval score -->
+   <td class="da-win-ratio">43.96</td> <!-- Danish win ratio -->
+   <td class="no-win-ratio">40.38</td> <!-- Norwegian win ratio -->
    <td class="sv-win-ratio">44.51</td> <!-- Swedish win ratio -->
    <td class="da ner">35.44 ± 3.00 / 24.63 ± 1.65</td> <!-- DANSK -->
    <td class="da sent">44.88 ± 1.45 / 62.35 ± 1.33</td> <!-- Angry Tweets -->
    <td class="da la">9.74 ± 1.96 / 47.42 ± 4.19</td> <!-- ScaLA-da -->
    <td class="da qa">55.00 ± 0.79 / 61.31 ± 0.81</td> <!-- ScandiQA-da -->
-   <td class="da summ">66.86 ± 0.31 / 20.92 ± 0.79</td> <!-- Nordjylland-News -->
+   <td class="da summ">66.25 ± 0.59 / 20.06 ± 0.74</td> <!-- Nordjylland-News -->
    <td class="da know">32.17 ± 2.28 / 46.67 ± 1.92</td> <!-- Danske Talemaader -->
    <td class="da know">35.74 ± 2.46 / 55.18 ± 1.81</td> <!-- Danish Citizen Tests -->
    <td class="da reason">11.32 ± 0.41 / 32.24 ± 0.79</td> <!-- HellaSwag-da -->
    <td class="no ner">44.99 ± 2.49 / 38.59 ± 2.84</td> <!-- NorNE-nb -->
    <td class="no ner">49.09 ± 1.90 / 39.09 ± 4.02</td> <!-- NorNE-nn -->
    <td class="no sent">41.56 ± 3.37 / 57.09 ± 3.80</td> <!-- NoReC -->
-   <td class="no summ">64.39 ± 0.40 / 16.25 ± 0.69</td> <!-- No Sammendrag -->
+   <td class="no summ">63.60 ± 0.40 / 14.16 ± 0.69</td> <!-- No Sammendrag -->
    <td class="no la">3.04 ± 2.84 / 36.81 ± 2.42</td> <!-- ScaLA-nb -->
    <td class="no la">4.03 ± 2.49 / 40.55 ± 4.14</td> <!-- ScaLA-nn -->
    <td class="no qa">33.76 ± 2.07 / 61.97 ± 2.31</td> <!-- NorQuAD -->
@@ -1130,20 +1130,20 @@ title: Mainland Scandinavian NLG
    <td class="sv sent">66.18 ± 3.25 / 72.00 ± 1.75</td> <!-- SweReC -->
    <td class="sv la">6.74 ± 1.66 / 45.55 ± 4.31</td> <!-- ScaLA-sv -->
    <td class="sv qa">54.07 ± 0.84 / 60.93 ± 0.80</td> <!-- ScandiQA-sv -->
-   <td class="sv summ">65.64 ± 0.07 / 18.92 ± 0.15</td> <!-- SweDN -->
+   <td class="sv summ">65.91 ± 0.06 / 18.48 ± 0.18</td> <!-- SweDN -->
    <td class="sv know">17.73 ± 0.98 / 37.55 ± 0.69</td> <!-- MMLU-sv -->
    <td class="sv reason">12.85 ± 0.93 / 33.37 ± 0.90</td> <!-- HellaSwag-sv -->
   </tr>
   <tr class="merged-model">
-   <td class="rank">27</td> <!-- Rank -->
+   <td class="rank">30</td> <!-- Rank -->
    <td>merge-crew/da-sv-dare-ties-density-0.3 (few-shot, val)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
    <td class="speed">2,461 ± 476 / 773 ± 248</td> <!-- Model inference speed -->
    <td class="score">40.75</td> <!-- ScandEval score -->
-   <td class="da-win-ratio">42.86</td> <!-- Danish win ratio -->
-   <td class="no-win-ratio">37.36</td> <!-- Norwegian win ratio -->
+   <td class="da-win-ratio">42.58</td> <!-- Danish win ratio -->
+   <td class="no-win-ratio">37.64</td> <!-- Norwegian win ratio -->
    <td class="sv-win-ratio">42.03</td> <!-- Swedish win ratio -->
    <td class="da ner">30.16 ± 4.47 / 25.03 ± 3.01</td> <!-- DANSK -->
    <td class="da sent">48.49 ± 2.41 / 63.06 ± 1.91</td> <!-- Angry Tweets -->
@@ -1171,16 +1171,16 @@ title: Mainland Scandinavian NLG
    <td class="sv reason">9.81 ± 2.55 / 28.12 ± 2.70</td> <!-- HellaSwag-sv -->
   </tr>
   <tr class="not-merged-model">
-   <td class="rank">28</td> <!-- Rank -->
+   <td class="rank">31</td> <!-- Rank -->
    <td>01-ai/Yi-6B (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">6061</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model-->
    <td class="speed">2,786 ± 532 / 784 ± 250</td> <!-- Model inference speed -->
-   <td class="score">39.01</td> <!-- ScandEval score -->
-   <td class="da-win-ratio">34.62</td> <!-- Danish win ratio -->
-   <td class="no-win-ratio">39.01</td> <!-- Norwegian win ratio -->
-   <td class="sv-win-ratio">43.41</td> <!-- Swedish win ratio -->
+   <td class="score">38.92</td> <!-- ScandEval score -->
+   <td class="da-win-ratio">34.34</td> <!-- Danish win ratio -->
+   <td class="no-win-ratio">39.29</td> <!-- Norwegian win ratio -->
+   <td class="sv-win-ratio">43.13</td> <!-- Swedish win ratio -->
    <td class="da ner">35.08 ± 2.24 / 25.02 ± 2.03</td> <!-- DANSK -->
    <td class="da sent">4.00 ± 2.43 / 18.67 ± 0.94</td> <!-- Angry Tweets -->
    <td class="da la">3.68 ± 2.25 / 35.69 ± 1.87</td> <!-- ScaLA-da -->
@@ -1207,21 +1207,21 @@ title: Mainland Scandinavian NLG
    <td class="sv reason">19.20 ± 1.18 / 38.76 ± 0.96</td> <!-- HellaSwag-sv -->
   </tr>
   <tr class="not-merged-model">
-   <td class="rank">29</td> <!-- Rank -->
+   <td class="rank">32</td> <!-- Rank -->
    <td>meta-llama/Llama-2-7b-hf (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">6738</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model-->
    <td class="speed">2,648 ± 467 / 799 ± 250</td> <!-- Model inference speed -->
-   <td class="score">38.51</td> <!-- ScandEval score -->
-   <td class="da-win-ratio">35.30</td> <!-- Danish win ratio -->
-   <td class="no-win-ratio">34.62</td> <!-- Norwegian win ratio -->
-   <td class="sv-win-ratio">45.60</td> <!-- Swedish win ratio -->
+   <td class="score">37.41</td> <!-- ScandEval score -->
+   <td class="da-win-ratio">31.46</td> <!-- Danish win ratio -->
+   <td class="no-win-ratio">34.89</td> <!-- Norwegian win ratio -->
+   <td class="sv-win-ratio">45.88</td> <!-- Swedish win ratio -->
    <td class="da ner">31.77 ± 3.29 / 22.31 ± 2.29</td> <!-- DANSK -->
    <td class="da sent">43.91 ± 1.94 / 61.54 ± 2.33</td> <!-- Angry Tweets -->
    <td class="da la">0.31 ± 0.61 / 33.43 ± 0.23</td> <!-- ScaLA-da -->
    <td class="da qa">45.42 ± 1.92 / 51.05 ± 2.05</td> <!-- ScandiQA-da -->
-   <td class="da summ">66.53 ± 0.26 / 21.74 ± 0.32</td> <!-- Nordjylland-News -->
+   <td class="da summ">65.66 ± 0.80 / 20.73 ± 0.73</td> <!-- Nordjylland-News -->
    <td class="da know">20.18 ± 1.80 / 38.69 ± 1.57</td> <!-- Danske Talemaader -->
    <td class="da know">35.69 ± 2.31 / 57.05 ± 1.60</td> <!-- Danish Citizen Tests -->
    <td class="da reason">7.93 ± 1.49 / 29.76 ± 0.92</td> <!-- HellaSwag-da -->
@@ -1243,15 +1243,51 @@ title: Mainland Scandinavian NLG
    <td class="sv reason">8.74 ± 1.34 / 29.87 ± 1.40</td> <!-- HellaSwag-sv -->
   </tr>
   <tr class="not-merged-model">
-   <td class="rank">30=</td> <!-- Rank -->
+   <td class="rank">33</td> <!-- Rank -->
+   <td>AI-Sweden-Models/gpt-sw3-6.7b-v2 (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">7111</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">2,351 ± 448 / 707 ± 216</td> <!-- Model inference speed -->
+   <td class="score">33.56</td> <!-- ScandEval score -->
+   <td class="da-win-ratio">30.49</td> <!-- Danish win ratio -->
+   <td class="no-win-ratio">33.65</td> <!-- Norwegian win ratio -->
+   <td class="sv-win-ratio">36.54</td> <!-- Swedish win ratio -->
+   <td class="da ner">20.84 ± 2.40 / 16.93 ± 1.98</td> <!-- DANSK -->
+   <td class="da sent">18.07 ± 3.41 / 27.21 ± 2.91</td> <!-- Angry Tweets -->
+   <td class="da la">10.54 ± 2.38 / 48.37 ± 3.58</td> <!-- ScaLA-da -->
+   <td class="da qa">39.18 ± 3.52 / 44.53 ± 3.79</td> <!-- ScandiQA-da -->
+   <td class="da summ">65.43 ± 1.18 / 19.77 ± 1.17</td> <!-- Nordjylland-News -->
+   <td class="da know">6.34 ± 2.61 / 28.14 ± 1.77</td> <!-- Danske Talemaader -->
+   <td class="da know">18.00 ± 3.09 / 45.08 ± 1.79</td> <!-- Danish Citizen Tests -->
+   <td class="da reason">5.57 ± 0.93 / 28.66 ± 0.66</td> <!-- HellaSwag-da -->
+   <td class="no ner">29.62 ± 4.17 / 24.40 ± 2.42</td> <!-- NorNE-nb -->
+   <td class="no ner">32.30 ± 5.27 / 29.23 ± 3.22</td> <!-- NorNE-nn -->
+   <td class="no sent">34.67 ± 5.23 / 54.62 ± 5.71</td> <!-- NoReC -->
+   <td class="no summ">61.61 ± 2.04 / 14.34 ± 1.84</td> <!-- No Sammendrag -->
+   <td class="no la">8.37 ± 1.71 / 48.94 ± 2.72</td> <!-- ScaLA-nb -->
+   <td class="no la">7.76 ± 2.86 / 46.16 ± 4.77</td> <!-- ScaLA-nn -->
+   <td class="no qa">24.67 ± 2.82 / 43.02 ± 4.03</td> <!-- NorQuAD -->
+   <td class="no know">3.03 ± 1.30 / 25.60 ± 0.86</td> <!-- MMLU-no -->
+   <td class="no reason">5.57 ± 1.19 / 27.61 ± 0.93</td> <!-- HellaSwag-no -->
+   <td class="sv ner">28.73 ± 3.63 / 20.43 ± 3.72</td> <!-- SUC3 -->
+   <td class="sv sent">77.47 ± 1.36 / 78.60 ± 1.25</td> <!-- SweReC -->
+   <td class="sv la">8.78 ± 2.01 / 42.28 ± 3.17</td> <!-- ScaLA-sv -->
+   <td class="sv qa">35.78 ± 4.94 / 41.08 ± 5.23</td> <!-- ScandiQA-sv -->
+   <td class="sv summ">62.41 ± 0.85 / 16.45 ± 0.64</td> <!-- SweDN -->
+   <td class="sv know">5.23 ± 1.02 / 28.63 ± 0.82</td> <!-- MMLU-sv -->
+   <td class="sv reason">5.39 ± 0.81 / 28.86 ± 0.60</td> <!-- HellaSwag-sv -->
+  </tr>
+  <tr class="not-merged-model">
+   <td class="rank">34</td> <!-- Rank -->
    <td>AI-Sweden-Models/gpt-sw3-6.7b-v2-instruct (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7111</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model-->
    <td class="speed">2,383 ± 451 / 718 ± 221</td> <!-- Model inference speed -->
-   <td class="score">33.65</td> <!-- ScandEval score -->
-   <td class="da-win-ratio">32.42</td> <!-- Danish win ratio -->
-   <td class="no-win-ratio">34.75</td> <!-- Norwegian win ratio -->
+   <td class="score">33.29</td> <!-- ScandEval score -->
+   <td class="da-win-ratio">31.04</td> <!-- Danish win ratio -->
+   <td class="no-win-ratio">35.03</td> <!-- Norwegian win ratio -->
    <td class="sv-win-ratio">33.79</td> <!-- Swedish win ratio -->
    <td class="da ner">15.35 ± 1.38 / 14.74 ± 1.30</td> <!-- DANSK -->
    <td class="da sent">2.85 ± 1.54 / 18.05 ± 0.23</td> <!-- Angry Tweets -->
@@ -1279,52 +1315,16 @@ title: Mainland Scandinavian NLG
    <td class="sv reason">10.90 ± 0.86 / 32.01 ± 0.54</td> <!-- HellaSwag-sv -->
   </tr>
   <tr class="not-merged-model">
-   <td class="rank">30=</td> <!-- Rank -->
-   <td>AI-Sweden-Models/gpt-sw3-6.7b-v2 (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">7111</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">2,351 ± 448 / 707 ± 216</td> <!-- Model inference speed -->
-   <td class="score">33.65</td> <!-- ScandEval score -->
-   <td class="da-win-ratio">30.77</td> <!-- Danish win ratio -->
-   <td class="no-win-ratio">33.38</td> <!-- Norwegian win ratio -->
-   <td class="sv-win-ratio">36.81</td> <!-- Swedish win ratio -->
-   <td class="da ner">20.84 ± 2.40 / 16.93 ± 1.98</td> <!-- DANSK -->
-   <td class="da sent">18.07 ± 3.41 / 27.21 ± 2.91</td> <!-- Angry Tweets -->
-   <td class="da la">10.54 ± 2.38 / 48.37 ± 3.58</td> <!-- ScaLA-da -->
-   <td class="da qa">39.18 ± 3.52 / 44.53 ± 3.79</td> <!-- ScandiQA-da -->
-   <td class="da summ">65.43 ± 1.18 / 19.77 ± 1.17</td> <!-- Nordjylland-News -->
-   <td class="da know">6.34 ± 2.61 / 28.14 ± 1.77</td> <!-- Danske Talemaader -->
-   <td class="da know">18.00 ± 3.09 / 45.08 ± 1.79</td> <!-- Danish Citizen Tests -->
-   <td class="da reason">5.57 ± 0.93 / 28.66 ± 0.66</td> <!-- HellaSwag-da -->
-   <td class="no ner">29.62 ± 4.17 / 24.40 ± 2.42</td> <!-- NorNE-nb -->
-   <td class="no ner">32.30 ± 5.27 / 29.23 ± 3.22</td> <!-- NorNE-nn -->
-   <td class="no sent">34.67 ± 5.23 / 54.62 ± 5.71</td> <!-- NoReC -->
-   <td class="no summ">61.61 ± 2.04 / 14.34 ± 1.84</td> <!-- No Sammendrag -->
-   <td class="no la">8.37 ± 1.71 / 48.94 ± 2.72</td> <!-- ScaLA-nb -->
-   <td class="no la">7.76 ± 2.86 / 46.16 ± 4.77</td> <!-- ScaLA-nn -->
-   <td class="no qa">24.67 ± 2.82 / 43.02 ± 4.03</td> <!-- NorQuAD -->
-   <td class="no know">3.03 ± 1.30 / 25.60 ± 0.86</td> <!-- MMLU-no -->
-   <td class="no reason">5.57 ± 1.19 / 27.61 ± 0.93</td> <!-- HellaSwag-no -->
-   <td class="sv ner">28.73 ± 3.63 / 20.43 ± 3.72</td> <!-- SUC3 -->
-   <td class="sv sent">77.47 ± 1.36 / 78.60 ± 1.25</td> <!-- SweReC -->
-   <td class="sv la">8.78 ± 2.01 / 42.28 ± 3.17</td> <!-- ScaLA-sv -->
-   <td class="sv qa">35.78 ± 4.94 / 41.08 ± 5.23</td> <!-- ScandiQA-sv -->
-   <td class="sv summ">62.41 ± 0.85 / 16.45 ± 0.64</td> <!-- SweDN -->
-   <td class="sv know">5.23 ± 1.02 / 28.63 ± 0.82</td> <!-- MMLU-sv -->
-   <td class="sv reason">5.39 ± 0.81 / 28.86 ± 0.60</td> <!-- HellaSwag-sv -->
-  </tr>
-  <tr class="not-merged-model">
-   <td class="rank">31</td> <!-- Rank -->
+   <td class="rank">35</td> <!-- Rank -->
    <td>norallm/normistral-7b-warm (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7248</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">33</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model-->
    <td class="speed">3,175 ± 456 / 1,186 ± 354</td> <!-- Model inference speed -->
-   <td class="score">32.42</td> <!-- ScandEval score -->
-   <td class="da-win-ratio">31.59</td> <!-- Danish win ratio -->
-   <td class="no-win-ratio">30.77</td> <!-- Norwegian win ratio -->
-   <td class="sv-win-ratio">34.89</td> <!-- Swedish win ratio -->
+   <td class="score">32.05</td> <!-- ScandEval score -->
+   <td class="da-win-ratio">29.67</td> <!-- Danish win ratio -->
+   <td class="no-win-ratio">31.04</td> <!-- Norwegian win ratio -->
+   <td class="sv-win-ratio">35.44</td> <!-- Swedish win ratio -->
    <td class="da ner">37.80 ± 2.75 / 24.74 ± 2.30</td> <!-- DANSK -->
    <td class="da sent">40.51 ± 1.75 / 55.84 ± 2.46</td> <!-- Angry Tweets -->
    <td class="da la">3.35 ± 1.84 / 44.60 ± 4.67</td> <!-- ScaLA-da -->
@@ -1351,16 +1351,16 @@ title: Mainland Scandinavian NLG
    <td class="sv reason">1.27 ± 0.61 / 25.74 ± 0.70</td> <!-- HellaSwag-sv -->
   </tr>
   <tr class="not-merged-model">
-   <td class="rank">32</td> <!-- Rank -->
+   <td class="rank">36</td> <!-- Rank -->
    <td>AI-Sweden-Models/gpt-sw3-6.7b (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7111</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model-->
    <td class="speed">2,285 ± 443 / 671 ± 205</td> <!-- Model inference speed -->
    <td class="score">26.69</td> <!-- ScandEval score -->
-   <td class="da-win-ratio">27.20</td> <!-- Danish win ratio -->
-   <td class="no-win-ratio">26.51</td> <!-- Norwegian win ratio -->
-   <td class="sv-win-ratio">26.37</td> <!-- Swedish win ratio -->
+   <td class="da-win-ratio">26.92</td> <!-- Danish win ratio -->
+   <td class="no-win-ratio">27.06</td> <!-- Norwegian win ratio -->
+   <td class="sv-win-ratio">26.10</td> <!-- Swedish win ratio -->
    <td class="da ner">18.23 ± 5.87 / 14.77 ± 3.36</td> <!-- DANSK -->
    <td class="da sent">22.71 ± 5.21 / 35.11 ± 6.59</td> <!-- Angry Tweets -->
    <td class="da la">5.03 ± 2.51 / 49.00 ± 2.64</td> <!-- ScaLA-da -->
@@ -1387,28 +1387,28 @@ title: Mainland Scandinavian NLG
    <td class="sv reason">0.60 ± 1.34 / 25.62 ± 0.72</td> <!-- HellaSwag-sv -->
   </tr>
   <tr class="not-merged-model">
-   <td class="rank">33</td> <!-- Rank -->
+   <td class="rank">37</td> <!-- Rank -->
    <td>AI-Sweden-Models/gpt-sw3-1.3b (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">1445</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model-->
    <td class="speed">4,608 ± 988 / 1,115 ± 354</td> <!-- Model inference speed -->
-   <td class="score">20.51</td> <!-- ScandEval score -->
-   <td class="da-win-ratio">18.82</td> <!-- Danish win ratio -->
-   <td class="no-win-ratio">20.47</td> <!-- Norwegian win ratio -->
-   <td class="sv-win-ratio">22.25</td> <!-- Swedish win ratio -->
+   <td class="score">19.78</td> <!-- ScandEval score -->
+   <td class="da-win-ratio">18.54</td> <!-- Danish win ratio -->
+   <td class="no-win-ratio">18.82</td> <!-- Norwegian win ratio -->
+   <td class="sv-win-ratio">21.98</td> <!-- Swedish win ratio -->
    <td class="da ner">8.80 ± 5.54 / 8.63 ± 4.48</td> <!-- DANSK -->
    <td class="da sent">28.65 ± 2.81 / 47.83 ± 3.55</td> <!-- Angry Tweets -->
    <td class="da la">2.84 ± 1.81 / 49.21 ± 1.95</td> <!-- ScaLA-da -->
    <td class="da qa">45.31 ± 0.88 / 51.56 ± 0.80</td> <!-- ScandiQA-da -->
-   <td class="da summ">63.77 ± 1.09 / 17.31 ± 1.38</td> <!-- Nordjylland-News -->
+   <td class="da summ">63.45 ± 0.87 / 16.66 ± 0.97</td> <!-- Nordjylland-News -->
    <td class="da know">-1.31 ± 1.31 / 24.58 ± 0.99</td> <!-- Danske Talemaader -->
    <td class="da know">3.02 ± 3.77 / 36.58 ± 2.16</td> <!-- Danish Citizen Tests -->
    <td class="da reason">-0.33 ± 1.17 / 24.65 ± 0.48</td> <!-- HellaSwag-da -->
    <td class="no ner">13.49 ± 7.98 / 14.80 ± 7.68</td> <!-- NorNE-nb -->
    <td class="no ner">14.74 ± 8.45 / 15.09 ± 7.85</td> <!-- NorNE-nn -->
    <td class="no sent">27.28 ± 4.39 / 49.18 ± 4.23</td> <!-- NoReC -->
-   <td class="no summ">61.24 ± 0.98 / 13.30 ± 0.99</td> <!-- No Sammendrag -->
+   <td class="no summ">58.46 ± 2.59 / 11.38 ± 1.45</td> <!-- No Sammendrag -->
    <td class="no la">3.09 ± 0.79 / 42.87 ± 3.49</td> <!-- ScaLA-nb -->
    <td class="no la">1.86 ± 1.90 / 38.18 ± 1.44</td> <!-- ScaLA-nn -->
    <td class="no qa">34.90 ± 2.66 / 54.29 ± 2.94</td> <!-- NorQuAD -->
@@ -1418,20 +1418,20 @@ title: Mainland Scandinavian NLG
    <td class="sv sent">71.38 ± 1.76 / 73.21 ± 1.18</td> <!-- SweReC -->
    <td class="sv la">1.17 ± 1.07 / 49.78 ± 0.86</td> <!-- ScaLA-sv -->
    <td class="sv qa">45.53 ± 0.83 / 51.66 ± 0.78</td> <!-- ScandiQA-sv -->
-   <td class="sv summ">60.90 ± 1.33 / 16.54 ± 0.71</td> <!-- SweDN -->
+   <td class="sv summ">60.11 ± 1.59 / 15.02 ± 0.84</td> <!-- SweDN -->
    <td class="sv know">2.20 ± 0.88 / 25.62 ± 0.86</td> <!-- MMLU-sv -->
    <td class="sv reason">0.67 ± 1.39 / 25.25 ± 0.51</td> <!-- HellaSwag-sv -->
   </tr>
   <tr class="not-merged-model">
-   <td class="rank">34</td> <!-- Rank -->
+   <td class="rank">38</td> <!-- Rank -->
    <td>NbAiLab/nb-gpt-j-6B-alpaca (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">6055</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">1024</td> <!-- Maximum sequence length of the model-->
    <td class="speed">2,607 ± 592 / 680 ± 208</td> <!-- Model inference speed -->
-   <td class="score">18.45</td> <!-- ScandEval score -->
-   <td class="da-win-ratio">17.86</td> <!-- Danish win ratio -->
-   <td class="no-win-ratio">22.66</td> <!-- Norwegian win ratio -->
+   <td class="score">18.54</td> <!-- ScandEval score -->
+   <td class="da-win-ratio">17.58</td> <!-- Danish win ratio -->
+   <td class="no-win-ratio">23.21</td> <!-- Norwegian win ratio -->
    <td class="sv-win-ratio">14.84</td> <!-- Swedish win ratio -->
    <td class="da ner">12.95 ± 3.80 / 11.68 ± 2.31</td> <!-- DANSK -->
    <td class="da sent">27.68 ± 3.64 / 46.61 ± 4.11</td> <!-- Angry Tweets -->
@@ -1459,16 +1459,16 @@ title: Mainland Scandinavian NLG
    <td class="sv reason">0.02 ± 0.88 / 25.04 ± 0.61</td> <!-- HellaSwag-sv -->
   </tr>
   <tr class="not-merged-model">
-   <td class="rank">35</td> <!-- Rank -->
+   <td class="rank">39</td> <!-- Rank -->
    <td>mhenrichsen/danskgpt-tiny-chat (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">1100</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model-->
    <td class="speed">1,745 ± 978 / 686 ± 159</td> <!-- Model inference speed -->
-   <td class="score">17.76</td> <!-- ScandEval score -->
-   <td class="da-win-ratio">21.70</td> <!-- Danish win ratio -->
-   <td class="no-win-ratio">17.03</td> <!-- Norwegian win ratio -->
-   <td class="sv-win-ratio">14.56</td> <!-- Swedish win ratio -->
+   <td class="score">18.04</td> <!-- ScandEval score -->
+   <td class="da-win-ratio">21.43</td> <!-- Danish win ratio -->
+   <td class="no-win-ratio">17.58</td> <!-- Norwegian win ratio -->
+   <td class="sv-win-ratio">15.11</td> <!-- Swedish win ratio -->
    <td class="da ner">22.31 ± 2.55 / 19.30 ± 2.14</td> <!-- DANSK -->
    <td class="da sent">34.05 ± 2.37 / 52.43 ± 2.46</td> <!-- Angry Tweets -->
    <td class="da la">0.70 ± 1.11 / 40.47 ± 3.04</td> <!-- ScaLA-da -->
@@ -1495,16 +1495,16 @@ title: Mainland Scandinavian NLG
    <td class="sv reason">0.52 ± 0.83 / 25.53 ± 0.62</td> <!-- HellaSwag-sv -->
   </tr>
   <tr class="not-merged-model">
-   <td class="rank">36</td> <!-- Rank -->
+   <td class="rank">40</td> <!-- Rank -->
    <td>norallm/normistral-7b-scratch (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7248</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">33</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model-->
    <td class="speed">3,192 ± 454 / 1,198 ± 357</td> <!-- Model inference speed -->
-   <td class="score">16.16</td> <!-- ScandEval score -->
-   <td class="da-win-ratio">16.48</td> <!-- Danish win ratio -->
-   <td class="no-win-ratio">18.54</td> <!-- Norwegian win ratio -->
-   <td class="sv-win-ratio">13.46</td> <!-- Swedish win ratio -->
+   <td class="score">15.43</td> <!-- ScandEval score -->
+   <td class="da-win-ratio">16.21</td> <!-- Danish win ratio -->
+   <td class="no-win-ratio">16.90</td> <!-- Norwegian win ratio -->
+   <td class="sv-win-ratio">13.19</td> <!-- Swedish win ratio -->
    <td class="da ner">14.88 ± 3.92 / 14.02 ± 2.63</td> <!-- DANSK -->
    <td class="da sent">34.66 ± 1.82 / 46.40 ± 1.53</td> <!-- Angry Tweets -->
    <td class="da la">0.29 ± 1.86 / 41.01 ± 2.54</td> <!-- ScaLA-da -->
@@ -1516,7 +1516,7 @@ title: Mainland Scandinavian NLG
    <td class="no ner">14.58 ± 6.07 / 15.44 ± 5.52</td> <!-- NorNE-nb -->
    <td class="no ner">21.06 ± 7.77 / 21.99 ± 7.14</td> <!-- NorNE-nn -->
    <td class="no sent">32.02 ± 1.59 / 36.85 ± 2.01</td> <!-- NoReC -->
-   <td class="no summ">61.58 ± 1.46 / 13.96 ± 1.66</td> <!-- No Sammendrag -->
+   <td class="no summ">60.36 ± 1.93 / 12.69 ± 1.69</td> <!-- No Sammendrag -->
    <td class="no la">1.49 ± 1.40 / 35.35 ± 1.51</td> <!-- ScaLA-nb -->
    <td class="no la">0.98 ± 1.85 / 35.28 ± 2.43</td> <!-- ScaLA-nn -->
    <td class="no qa">22.87 ± 1.85 / 38.93 ± 2.59</td> <!-- NorQuAD -->
@@ -1526,33 +1526,33 @@ title: Mainland Scandinavian NLG
    <td class="sv sent">71.59 ± 2.78 / 59.82 ± 1.71</td> <!-- SweReC -->
    <td class="sv la">-0.89 ± 1.22 / 43.82 ± 3.45</td> <!-- ScaLA-sv -->
    <td class="sv qa">38.33 ± 1.79 / 44.00 ± 1.70</td> <!-- ScandiQA-sv -->
-   <td class="sv summ">58.54 ± 0.58 / 15.68 ± 0.49</td> <!-- SweDN -->
+   <td class="sv summ">55.77 ± 0.83 / 14.15 ± 0.51</td> <!-- SweDN -->
    <td class="sv know">-0.39 ± 1.21 / 22.30 ± 0.78</td> <!-- MMLU-sv -->
    <td class="sv reason">-0.52 ± 1.01 / 25.20 ± 0.85</td> <!-- HellaSwag-sv -->
   </tr>
   <tr class="not-merged-model">
-   <td class="rank">37</td> <!-- Rank -->
+   <td class="rank">41</td> <!-- Rank -->
    <td>AI-Sweden-Models/gpt-sw3-356m (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">471</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model-->
    <td class="speed">5,758 ± 1,348 / 1,215 ± 391</td> <!-- Model inference speed -->
-   <td class="score">15.02</td> <!-- ScandEval score -->
+   <td class="score">14.83</td> <!-- ScandEval score -->
    <td class="da-win-ratio">17.03</td> <!-- Danish win ratio -->
-   <td class="no-win-ratio">17.31</td> <!-- Norwegian win ratio -->
-   <td class="sv-win-ratio">10.71</td> <!-- Swedish win ratio -->
+   <td class="no-win-ratio">17.03</td> <!-- Norwegian win ratio -->
+   <td class="sv-win-ratio">10.44</td> <!-- Swedish win ratio -->
    <td class="da ner">16.13 ± 4.02 / 14.90 ± 3.13</td> <!-- DANSK -->
    <td class="da sent">27.61 ± 2.14 / 39.77 ± 1.85</td> <!-- Angry Tweets -->
    <td class="da la">1.96 ± 2.25 / 38.40 ± 2.99</td> <!-- ScaLA-da -->
    <td class="da qa">34.81 ± 1.50 / 39.69 ± 1.68</td> <!-- ScandiQA-da -->
-   <td class="da summ">60.53 ± 1.84 / 14.21 ± 1.66</td> <!-- Nordjylland-News -->
+   <td class="da summ">60.36 ± 1.07 / 13.61 ± 1.06</td> <!-- Nordjylland-News -->
    <td class="da know">1.00 ± 1.72 / 23.91 ± 0.88</td> <!-- Danske Talemaader -->
    <td class="da know">4.85 ± 3.16 / 36.78 ± 1.41</td> <!-- Danish Citizen Tests -->
    <td class="da reason">0.28 ± 0.38 / 25.19 ± 0.78</td> <!-- HellaSwag-da -->
    <td class="no ner">27.37 ± 4.07 / 27.94 ± 4.04</td> <!-- NorNE-nb -->
    <td class="no ner">31.22 ± 3.87 / 31.39 ± 3.99</td> <!-- NorNE-nn -->
    <td class="no sent">34.21 ± 1.63 / 47.17 ± 2.76</td> <!-- NoReC -->
-   <td class="no summ">57.57 ± 0.95 / 10.19 ± 0.81</td> <!-- No Sammendrag -->
+   <td class="no summ">54.28 ± 2.37 / 8.28 ± 0.99</td> <!-- No Sammendrag -->
    <td class="no la">0.92 ± 1.55 / 40.71 ± 2.58</td> <!-- ScaLA-nb -->
    <td class="no la">1.25 ± 2.30 / 43.49 ± 3.20</td> <!-- ScaLA-nn -->
    <td class="no qa">18.54 ± 2.77 / 32.10 ± 4.22</td> <!-- NorQuAD -->
@@ -1562,33 +1562,33 @@ title: Mainland Scandinavian NLG
    <td class="sv sent">34.29 ± 11.64 / 36.76 ± 7.46</td> <!-- SweReC -->
    <td class="sv la">1.57 ± 1.70 / 40.84 ± 1.99</td> <!-- ScaLA-sv -->
    <td class="sv qa">33.71 ± 1.47 / 38.82 ± 1.55</td> <!-- ScandiQA-sv -->
-   <td class="sv summ">54.46 ± 1.68 / 13.65 ± 0.53</td> <!-- SweDN -->
+   <td class="sv summ">51.36 ± 2.01 / 10.76 ± 0.54</td> <!-- SweDN -->
    <td class="sv know">-0.96 ± 1.08 / 21.85 ± 0.45</td> <!-- MMLU-sv -->
    <td class="sv reason">0.30 ± 0.48 / 25.10 ± 0.69</td> <!-- HellaSwag-sv -->
   </tr>
   <tr class="not-merged-model">
-   <td class="rank">38</td> <!-- Rank -->
+   <td class="rank">42</td> <!-- Rank -->
    <td>RuterNorway/Llama-2-7b-chat-norwegian (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model-->
    <td class="speed">10,890 ± 2,686 / 2,186 ± 750</td> <!-- Model inference speed -->
-   <td class="score">12.00</td> <!-- ScandEval score -->
-   <td class="da-win-ratio">8.52</td> <!-- Danish win ratio -->
-   <td class="no-win-ratio">12.91</td> <!-- Norwegian win ratio -->
-   <td class="sv-win-ratio">14.56</td> <!-- Swedish win ratio -->
+   <td class="score">11.54</td> <!-- ScandEval score -->
+   <td class="da-win-ratio">8.24</td> <!-- Danish win ratio -->
+   <td class="no-win-ratio">12.09</td> <!-- Norwegian win ratio -->
+   <td class="sv-win-ratio">14.29</td> <!-- Swedish win ratio -->
    <td class="da ner">10.12 ± 1.24 / 9.84 ± 1.12</td> <!-- DANSK -->
    <td class="da sent">10.65 ± 3.65 / 28.33 ± 5.27</td> <!-- Angry Tweets -->
    <td class="da la">-0.66 ± 1.24 / 33.61 ± 0.26</td> <!-- ScaLA-da -->
    <td class="da qa">26.21 ± 3.93 / 29.03 ± 4.17</td> <!-- ScandiQA-da -->
-   <td class="da summ">60.03 ± 0.65 / 12.94 ± 0.80</td> <!-- Nordjylland-News -->
+   <td class="da summ">57.83 ± 0.95 / 9.84 ± 1.00</td> <!-- Nordjylland-News -->
    <td class="da know">0.10 ± 1.50 / 26.50 ± 1.00</td> <!-- Danske Talemaader -->
    <td class="da know">4.29 ± 5.87 / 35.00 ± 1.75</td> <!-- Danish Citizen Tests -->
    <td class="da reason">-0.88 ± 1.17 / 24.43 ± 0.74</td> <!-- HellaSwag-da -->
    <td class="no ner">21.04 ± 2.63 / 20.44 ± 2.47</td> <!-- NorNE-nb -->
    <td class="no ner">18.71 ± 2.67 / 19.91 ± 2.89</td> <!-- NorNE-nn -->
    <td class="no sent">12.22 ± 1.17 / 23.50 ± 3.03</td> <!-- NoReC -->
-   <td class="no summ">60.08 ± 1.33 / 12.33 ± 0.95</td> <!-- No Sammendrag -->
+   <td class="no summ">53.49 ± 5.64 / 9.38 ± 1.34</td> <!-- No Sammendrag -->
    <td class="no la">-1.18 ± 1.40 / 35.70 ± 2.67</td> <!-- ScaLA-nb -->
    <td class="no la">0.36 ± 1.28 / 37.66 ± 4.07</td> <!-- ScaLA-nn -->
    <td class="no qa">26.79 ± 1.65 / 50.19 ± 1.83</td> <!-- NorQuAD -->
@@ -1598,21 +1598,21 @@ title: Mainland Scandinavian NLG
    <td class="sv sent">31.11 ± 12.17 / 36.84 ± 11.52</td> <!-- SweReC -->
    <td class="sv la">0.09 ± 0.67 / 33.42 ± 0.30</td> <!-- ScaLA-sv -->
    <td class="sv qa">44.37 ± 1.37 / 50.18 ± 1.18</td> <!-- ScandiQA-sv -->
-   <td class="sv summ">58.49 ± 0.54 / 14.60 ± 0.39</td> <!-- SweDN -->
+   <td class="sv summ">55.44 ± 0.79 / 12.95 ± 0.51</td> <!-- SweDN -->
    <td class="sv know">1.12 ± 0.42 / 25.27 ± 0.68</td> <!-- MMLU-sv -->
    <td class="sv reason">-0.91 ± 0.96 / 24.26 ± 0.64</td> <!-- HellaSwag-sv -->
   </tr>
   <tr class="not-merged-model">
-   <td class="rank">39</td> <!-- Rank -->
+   <td class="rank">43</td> <!-- Rank -->
    <td>AI-Sweden-Models/gpt-sw3-126m-instruct (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">186</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model-->
    <td class="speed">7,717 ± 1,553 / 2,013 ± 625</td> <!-- Model inference speed -->
-   <td class="score">11.04</td> <!-- ScandEval score -->
-   <td class="da-win-ratio">9.62</td> <!-- Danish win ratio -->
-   <td class="no-win-ratio">9.75</td> <!-- Norwegian win ratio -->
-   <td class="sv-win-ratio">13.74</td> <!-- Swedish win ratio -->
+   <td class="score">11.40</td> <!-- ScandEval score -->
+   <td class="da-win-ratio">9.89</td> <!-- Danish win ratio -->
+   <td class="no-win-ratio">10.30</td> <!-- Norwegian win ratio -->
+   <td class="sv-win-ratio">14.01</td> <!-- Swedish win ratio -->
    <td class="da ner">13.98 ± 1.54 / 13.46 ± 1.42</td> <!-- DANSK -->
    <td class="da sent">6.37 ± 3.38 / 25.43 ± 4.09</td> <!-- Angry Tweets -->
    <td class="da la">0.41 ± 0.80 / 33.31 ± 0.24</td> <!-- ScaLA-da -->
@@ -1639,28 +1639,28 @@ title: Mainland Scandinavian NLG
    <td class="sv reason">0.11 ± 0.91 / 25.15 ± 0.81</td> <!-- HellaSwag-sv -->
   </tr>
   <tr class="not-merged-model">
-   <td class="rank">40</td> <!-- Rank -->
+   <td class="rank">44</td> <!-- Rank -->
    <td>mhenrichsen/danskgpt-tiny (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">1100</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model-->
    <td class="speed">8,597 ± 1,983 / 1,926 ± 600</td> <!-- Model inference speed -->
-   <td class="score">10.35</td> <!-- ScandEval score -->
-   <td class="da-win-ratio">11.68</td> <!-- Danish win ratio -->
+   <td class="score">10.17</td> <!-- ScandEval score -->
+   <td class="da-win-ratio">11.40</td> <!-- Danish win ratio -->
    <td class="no-win-ratio">10.03</td> <!-- Norwegian win ratio -->
-   <td class="sv-win-ratio">9.34</td> <!-- Swedish win ratio -->
+   <td class="sv-win-ratio">9.07</td> <!-- Swedish win ratio -->
    <td class="da ner">14.13 ± 3.50 / 12.15 ± 3.14</td> <!-- DANSK -->
    <td class="da sent">26.31 ± 5.33 / 44.07 ± 6.36</td> <!-- Angry Tweets -->
    <td class="da la">-0.54 ± 1.46 / 44.56 ± 3.34</td> <!-- ScaLA-da -->
    <td class="da qa">14.16 ± 1.82 / 19.24 ± 1.85</td> <!-- ScandiQA-da -->
-   <td class="da summ">63.76 ± 0.90 / 17.20 ± 1.22</td> <!-- Nordjylland-News -->
+   <td class="da summ">63.54 ± 0.94 / 16.99 ± 0.80</td> <!-- Nordjylland-News -->
    <td class="da know">-2.76 ± 1.71 / 22.41 ± 1.17</td> <!-- Danske Talemaader -->
    <td class="da know">5.08 ± 2.61 / 35.14 ± 1.72</td> <!-- Danish Citizen Tests -->
    <td class="da reason">-0.70 ± 0.94 / 24.83 ± 0.59</td> <!-- HellaSwag-da -->
    <td class="no ner">27.37 ± 6.89 / 27.19 ± 7.19</td> <!-- NorNE-nb -->
    <td class="no ner">27.59 ± 6.34 / 28.03 ± 6.94</td> <!-- NorNE-nn -->
    <td class="no sent">18.09 ± 6.14 / 31.83 ± 6.77</td> <!-- NoReC -->
-   <td class="no summ">58.73 ± 1.67 / 10.49 ± 1.17</td> <!-- No Sammendrag -->
+   <td class="no summ">56.77 ± 2.04 / 9.18 ± 1.21</td> <!-- No Sammendrag -->
    <td class="no la">-0.19 ± 1.93 / 41.38 ± 3.18</td> <!-- ScaLA-nb -->
    <td class="no la">-0.80 ± 0.89 / 40.66 ± 3.78</td> <!-- ScaLA-nn -->
    <td class="no qa">2.15 ± 0.46 / 10.01 ± 1.47</td> <!-- NorQuAD -->
@@ -1670,12 +1670,12 @@ title: Mainland Scandinavian NLG
    <td class="sv sent">31.93 ± 14.68 / 43.80 ± 8.79</td> <!-- SweReC -->
    <td class="sv la">0.46 ± 1.91 / 43.45 ± 3.64</td> <!-- ScaLA-sv -->
    <td class="sv qa">21.56 ± 3.80 / 26.32 ± 4.10</td> <!-- ScandiQA-sv -->
-   <td class="sv summ">55.33 ± 0.73 / 13.25 ± 0.39</td> <!-- SweDN -->
+   <td class="sv summ">52.68 ± 0.76 / 11.19 ± 0.36</td> <!-- SweDN -->
    <td class="sv know">-0.85 ± 1.05 / 24.38 ± 0.51</td> <!-- MMLU-sv -->
    <td class="sv reason">-1.24 ± 0.90 / 24.30 ± 0.63</td> <!-- HellaSwag-sv -->
   </tr>
   <tr class="not-merged-model">
-   <td class="rank">41</td> <!-- Rank -->
+   <td class="rank">45</td> <!-- Rank -->
    <td>NbAiLab/nb-gpt-j-6B-v2 (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">6051</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
@@ -1689,14 +1689,14 @@ title: Mainland Scandinavian NLG
    <td class="da sent">27.80 ± 6.39 / 43.80 ± 5.16</td> <!-- Angry Tweets -->
    <td class="da la">0.56 ± 0.51 / 34.04 ± 1.28</td> <!-- ScaLA-da -->
    <td class="da qa">6.82 ± 6.80 / 21.29 ± 6.25</td> <!-- ScandiQA-da -->
-   <td class="da summ">58.94 ± 0.40 / 15.76 ± 0.66</td> <!-- Nordjylland-News -->
+   <td class="da summ">58.62 ± 0.27 / 15.19 ± 0.45</td> <!-- Nordjylland-News -->
    <td class="da know">-1.83 ± 1.68 / 23.94 ± 1.25</td> <!-- Danske Talemaader -->
    <td class="da know">0.99 ± 3.76 / 34.10 ± 2.62</td> <!-- Danish Citizen Tests -->
    <td class="da reason">-0.48 ± 0.94 / 24.73 ± 0.61</td> <!-- HellaSwag-da -->
    <td class="no ner">5.29 ± 4.68 / 4.93 ± 4.38</td> <!-- NorNE-nb -->
    <td class="no ner">6.77 ± 6.18 / 6.78 ± 5.66</td> <!-- NorNE-nn -->
    <td class="no sent">20.84 ± 6.06 / 35.78 ± 5.94</td> <!-- NoReC -->
-   <td class="no summ">49.57 ± 0.81 / 9.47 ± 0.48</td> <!-- No Sammendrag -->
+   <td class="no summ">44.23 ± 0.84 / 6.81 ± 0.16</td> <!-- No Sammendrag -->
    <td class="no la">0.45 ± 1.09 / 34.65 ± 1.93</td> <!-- ScaLA-nb -->
    <td class="no la">0.48 ± 0.66 / 32.86 ± 0.34</td> <!-- ScaLA-nn -->
    <td class="no qa">2.45 ± 0.61 / 22.80 ± 2.27</td> <!-- NorQuAD -->
@@ -1706,69 +1706,33 @@ title: Mainland Scandinavian NLG
    <td class="sv sent">27.42 ± 12.16 / 38.74 ± 10.05</td> <!-- SweReC -->
    <td class="sv la">0.07 ± 1.06 / 35.80 ± 1.73</td> <!-- ScaLA-sv -->
    <td class="sv qa">17.79 ± 11.20 / 31.10 ± 8.39</td> <!-- ScandiQA-sv -->
-   <td class="sv summ">29.95 ± 0.23 / 8.33 ± 0.17</td> <!-- SweDN -->
+   <td class="sv summ">27.09 ± 0.29 / 6.80 ± 0.12</td> <!-- SweDN -->
    <td class="sv know">-0.67 ± 0.81 / 22.55 ± 0.71</td> <!-- MMLU-sv -->
    <td class="sv reason">0.86 ± 0.82 / 25.38 ± 0.51</td> <!-- HellaSwag-sv -->
   </tr>
   <tr class="not-merged-model">
-   <td class="rank">42</td> <!-- Rank -->
-   <td>NbAiLab/nb-gpt-j-6B@sharded (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">1024</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">2,630 ± 605 / 684 ± 217</td> <!-- Model inference speed -->
-   <td class="score">6.59</td> <!-- ScandEval score -->
-   <td class="da-win-ratio">8.79</td> <!-- Danish win ratio -->
-   <td class="no-win-ratio">6.04</td> <!-- Norwegian win ratio -->
-   <td class="sv-win-ratio">4.95</td> <!-- Swedish win ratio -->
-   <td class="da ner">0.36 ± 0.40 / 1.82 ± 1.16</td> <!-- DANSK -->
-   <td class="da sent">11.00 ± 7.09 / 26.09 ± 6.96</td> <!-- Angry Tweets -->
-   <td class="da la">-0.11 ± 1.16 / 33.76 ± 0.86</td> <!-- ScaLA-da -->
-   <td class="da qa">5.16 ± 6.60 / 17.34 ± 5.84</td> <!-- ScandiQA-da -->
-   <td class="da summ">57.26 ± 0.88 / 14.33 ± 0.65</td> <!-- Nordjylland-News -->
-   <td class="da know">-0.96 ± 1.47 / 23.86 ± 1.33</td> <!-- Danske Talemaader -->
-   <td class="da know">3.51 ± 3.46 / 35.41 ± 2.22</td> <!-- Danish Citizen Tests -->
-   <td class="da reason">0.73 ± 1.39 / 25.54 ± 1.00</td> <!-- HellaSwag-da -->
-   <td class="no ner">0.22 ± 0.21 / 1.66 ± 1.38</td> <!-- NorNE-nb -->
-   <td class="no ner">0.24 ± 0.40 / 1.43 ± 1.97</td> <!-- NorNE-nn -->
-   <td class="no sent">20.64 ± 5.63 / 36.75 ± 3.29</td> <!-- NoReC -->
-   <td class="no summ">44.80 ± 1.54 / 8.15 ± 0.74</td> <!-- No Sammendrag -->
-   <td class="no la">-0.99 ± 0.88 / 33.37 ± 0.27</td> <!-- ScaLA-nb -->
-   <td class="no la">-0.15 ± 0.72 / 32.83 ± 0.34</td> <!-- ScaLA-nn -->
-   <td class="no qa">0.55 ± 0.32 / 22.10 ± 2.28</td> <!-- NorQuAD -->
-   <td class="no know">0.63 ± 1.48 / 24.41 ± 1.24</td> <!-- MMLU-no -->
-   <td class="no reason">-0.09 ± 0.80 / 24.42 ± 0.74</td> <!-- HellaSwag-no -->
-   <td class="sv ner">0.01 ± 0.02 / 0.11 ± 0.12</td> <!-- SUC3 -->
-   <td class="sv sent">33.50 ± 13.13 / 39.30 ± 11.93</td> <!-- SweReC -->
-   <td class="sv la">-0.02 ± 0.60 / 34.92 ± 2.99</td> <!-- ScaLA-sv -->
-   <td class="sv qa">4.82 ± 3.58 / 18.08 ± 2.83</td> <!-- ScandiQA-sv -->
-   <td class="sv summ">30.78 ± 0.33 / 8.47 ± 0.28</td> <!-- SweDN -->
-   <td class="sv know">-0.11 ± 1.16 / 23.32 ± 0.92</td> <!-- MMLU-sv -->
-   <td class="sv reason">0.56 ± 1.22 / 24.79 ± 0.91</td> <!-- HellaSwag-sv -->
-  </tr>
-  <tr class="not-merged-model">
-   <td class="rank">43</td> <!-- Rank -->
+   <td class="rank">46</td> <!-- Rank -->
    <td>RJuro/kanelsnegl-v0.2 (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
    <td class="speed">1,373 ± 120 / 709 ± 172</td> <!-- Model inference speed -->
-   <td class="score">6.14</td> <!-- ScandEval score -->
-   <td class="da-win-ratio">4.53</td> <!-- Danish win ratio -->
-   <td class="no-win-ratio">4.81</td> <!-- Norwegian win ratio -->
-   <td class="sv-win-ratio">9.07</td> <!-- Swedish win ratio -->
+   <td class="score">6.60</td> <!-- ScandEval score -->
+   <td class="da-win-ratio">4.81</td> <!-- Danish win ratio -->
+   <td class="no-win-ratio">5.36</td> <!-- Norwegian win ratio -->
+   <td class="sv-win-ratio">9.62</td> <!-- Swedish win ratio -->
    <td class="da ner">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- DANSK -->
    <td class="da sent">4.81 ± 2.69 / 19.31 ± 1.01</td> <!-- Angry Tweets -->
    <td class="da la">0.00 ± 0.00 / 33.25 ± 0.23</td> <!-- ScaLA-da -->
    <td class="da qa">0.00 ± 0.00 / 30.05 ± 4.99</td> <!-- ScandiQA-da -->
-   <td class="da summ">61.75 ± 0.28 / 13.92 ± 0.40</td> <!-- Nordjylland-News -->
+   <td class="da summ">61.76 ± 0.28 / 13.92 ± 0.39</td> <!-- Nordjylland-News -->
    <td class="da know">0.00 ± 0.00 / 24.00 ± 0.73</td> <!-- Danske Talemaader -->
    <td class="da know">0.00 ± 0.00 / 35.86 ± 1.26</td> <!-- Danish Citizen Tests -->
    <td class="da reason">0.15 ± 0.64 / 25.21 ± 0.79</td> <!-- HellaSwag-da -->
    <td class="no ner">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- NorNE-nb -->
    <td class="no ner">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- NorNE-nn -->
    <td class="no sent">1.27 ± 1.21 / 9.77 ± 0.51</td> <!-- NoReC -->
-   <td class="no summ">59.10 ± 0.13 / 9.14 ± 0.12</td> <!-- No Sammendrag -->
+   <td class="no summ">59.10 ± 0.12 / 9.14 ± 0.11</td> <!-- No Sammendrag -->
    <td class="no la">0.00 ± 0.00 / 33.25 ± 0.30</td> <!-- ScaLA-nb -->
    <td class="no la">0.00 ± 0.00 / 32.79 ± 0.34</td> <!-- ScaLA-nn -->
    <td class="no qa">0.00 ± 0.00 / 32.25 ± 0.29</td> <!-- NorQuAD -->
@@ -1778,12 +1742,48 @@ title: Mainland Scandinavian NLG
    <td class="sv sent">28.62 ± 12.67 / 35.36 ± 8.35</td> <!-- SweReC -->
    <td class="sv la">0.00 ± 0.00 / 33.30 ± 0.27</td> <!-- ScaLA-sv -->
    <td class="sv qa">0.00 ± 0.00 / 19.59 ± 6.84</td> <!-- ScandiQA-sv -->
-   <td class="sv summ">58.16 ± 0.06 / 8.83 ± 0.07</td> <!-- SweDN -->
+   <td class="sv summ">58.16 ± 0.07 / 8.81 ± 0.07</td> <!-- SweDN -->
    <td class="sv know">0.47 ± 0.86 / 22.03 ± 0.59</td> <!-- MMLU-sv -->
    <td class="sv reason">0.71 ± 0.64 / 25.02 ± 0.72</td> <!-- HellaSwag-sv -->
   </tr>
   <tr class="not-merged-model">
-   <td class="rank">44</td> <!-- Rank -->
+   <td class="rank">47</td> <!-- Rank -->
+   <td>NbAiLab/nb-gpt-j-6B@sharded (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">1024</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">2,630 ± 605 / 684 ± 217</td> <!-- Model inference speed -->
+   <td class="score">6.50</td> <!-- ScandEval score -->
+   <td class="da-win-ratio">8.79</td> <!-- Danish win ratio -->
+   <td class="no-win-ratio">6.04</td> <!-- Norwegian win ratio -->
+   <td class="sv-win-ratio">4.67</td> <!-- Swedish win ratio -->
+   <td class="da ner">0.36 ± 0.40 / 1.82 ± 1.16</td> <!-- DANSK -->
+   <td class="da sent">11.00 ± 7.09 / 26.09 ± 6.96</td> <!-- Angry Tweets -->
+   <td class="da la">-0.11 ± 1.16 / 33.76 ± 0.86</td> <!-- ScaLA-da -->
+   <td class="da qa">5.16 ± 6.60 / 17.34 ± 5.84</td> <!-- ScandiQA-da -->
+   <td class="da summ">57.64 ± 0.58 / 14.23 ± 0.71</td> <!-- Nordjylland-News -->
+   <td class="da know">-0.96 ± 1.47 / 23.86 ± 1.33</td> <!-- Danske Talemaader -->
+   <td class="da know">3.51 ± 3.46 / 35.41 ± 2.22</td> <!-- Danish Citizen Tests -->
+   <td class="da reason">0.73 ± 1.39 / 25.54 ± 1.00</td> <!-- HellaSwag-da -->
+   <td class="no ner">0.22 ± 0.21 / 1.66 ± 1.38</td> <!-- NorNE-nb -->
+   <td class="no ner">0.24 ± 0.40 / 1.43 ± 1.97</td> <!-- NorNE-nn -->
+   <td class="no sent">20.64 ± 5.63 / 36.75 ± 3.29</td> <!-- NoReC -->
+   <td class="no summ">38.55 ± 0.48 / 5.75 ± 0.20</td> <!-- No Sammendrag -->
+   <td class="no la">-0.99 ± 0.88 / 33.37 ± 0.27</td> <!-- ScaLA-nb -->
+   <td class="no la">-0.15 ± 0.72 / 32.83 ± 0.34</td> <!-- ScaLA-nn -->
+   <td class="no qa">0.55 ± 0.32 / 22.10 ± 2.28</td> <!-- NorQuAD -->
+   <td class="no know">0.63 ± 1.48 / 24.41 ± 1.24</td> <!-- MMLU-no -->
+   <td class="no reason">-0.09 ± 0.80 / 24.42 ± 0.74</td> <!-- HellaSwag-no -->
+   <td class="sv ner">0.01 ± 0.02 / 0.11 ± 0.12</td> <!-- SUC3 -->
+   <td class="sv sent">33.50 ± 13.13 / 39.30 ± 11.93</td> <!-- SweReC -->
+   <td class="sv la">-0.02 ± 0.60 / 34.92 ± 2.99</td> <!-- ScaLA-sv -->
+   <td class="sv qa">4.82 ± 3.58 / 18.08 ± 2.83</td> <!-- ScandiQA-sv -->
+   <td class="sv summ">26.97 ± 0.41 / 6.56 ± 0.18</td> <!-- SweDN -->
+   <td class="sv know">-0.11 ± 1.16 / 23.32 ± 0.92</td> <!-- MMLU-sv -->
+   <td class="sv reason">0.56 ± 1.22 / 24.79 ± 0.91</td> <!-- HellaSwag-sv -->
+  </tr>
+  <tr class="not-merged-model">
+   <td class="rank">48</td> <!-- Rank -->
    <td>AI-Sweden-Models/gpt-sw3-126m (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">186</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
@@ -1797,14 +1797,14 @@ title: Mainland Scandinavian NLG
    <td class="da sent">9.18 ± 4.25 / 26.36 ± 3.94</td> <!-- Angry Tweets -->
    <td class="da la">-0.22 ± 1.53 / 34.20 ± 0.84</td> <!-- ScaLA-da -->
    <td class="da qa">7.70 ± 0.67 / 10.40 ± 0.91</td> <!-- ScandiQA-da -->
-   <td class="da summ">57.45 ± 1.32 / 12.05 ± 0.87</td> <!-- Nordjylland-News -->
+   <td class="da summ">56.80 ± 1.01 / 11.40 ± 0.71</td> <!-- Nordjylland-News -->
    <td class="da know">-0.58 ± 0.97 / 24.00 ± 0.77</td> <!-- Danske Talemaader -->
    <td class="da know">5.18 ± 4.75 / 36.68 ± 2.20</td> <!-- Danish Citizen Tests -->
    <td class="da reason">-1.28 ± 0.99 / 24.75 ± 0.93</td> <!-- HellaSwag-da -->
    <td class="no ner">13.55 ± 6.73 / 15.90 ± 5.66</td> <!-- NorNE-nb -->
    <td class="no ner">9.38 ± 4.88 / 11.18 ± 4.52</td> <!-- NorNE-nn -->
    <td class="no sent">7.78 ± 3.76 / 21.70 ± 5.02</td> <!-- NoReC -->
-   <td class="no summ">55.00 ± 1.43 / 9.00 ± 0.65</td> <!-- No Sammendrag -->
+   <td class="no summ">51.68 ± 2.20 / 7.39 ± 0.89</td> <!-- No Sammendrag -->
    <td class="no la">-1.46 ± 1.07 / 43.30 ± 2.30</td> <!-- ScaLA-nb -->
    <td class="no la">-2.97 ± 1.29 / 44.41 ± 3.18</td> <!-- ScaLA-nn -->
    <td class="no qa">0.90 ± 0.23 / 4.99 ± 1.08</td> <!-- NorQuAD -->
@@ -1814,33 +1814,33 @@ title: Mainland Scandinavian NLG
    <td class="sv sent">8.15 ± 8.87 / 24.31 ± 7.12</td> <!-- SweReC -->
    <td class="sv la">-0.81 ± 1.16 / 36.81 ± 2.47</td> <!-- ScaLA-sv -->
    <td class="sv qa">7.64 ± 2.58 / 9.62 ± 3.10</td> <!-- ScandiQA-sv -->
-   <td class="sv summ">54.07 ± 1.04 / 13.34 ± 0.31</td> <!-- SweDN -->
+   <td class="sv summ">51.48 ± 1.14 / 10.63 ± 0.31</td> <!-- SweDN -->
    <td class="sv know">-0.49 ± 0.60 / 22.53 ± 0.75</td> <!-- MMLU-sv -->
    <td class="sv reason">1.17 ± 0.86 / 25.54 ± 0.87</td> <!-- HellaSwag-sv -->
   </tr>
   <tr class="not-merged-model">
-   <td class="rank">45</td> <!-- Rank -->
+   <td class="rank">49</td> <!-- Rank -->
    <td>RJuro/kanelsnegl-v0.1 (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
    <td class="speed">9,757 ± 2,047 / 2,200 ± 705</td> <!-- Model inference speed -->
    <td class="score">5.31</td> <!-- ScandEval score -->
-   <td class="da-win-ratio">6.18</td> <!-- Danish win ratio -->
-   <td class="no-win-ratio">3.43</td> <!-- Norwegian win ratio -->
+   <td class="da-win-ratio">5.63</td> <!-- Danish win ratio -->
+   <td class="no-win-ratio">3.98</td> <!-- Norwegian win ratio -->
    <td class="sv-win-ratio">6.32</td> <!-- Swedish win ratio -->
    <td class="da ner">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- DANSK -->
    <td class="da sent">13.00 ± 4.17 / 24.41 ± 3.12</td> <!-- Angry Tweets -->
    <td class="da la">0.00 ± 0.00 / 33.25 ± 0.23</td> <!-- ScaLA-da -->
    <td class="da qa">0.00 ± 0.00 / 12.40 ± 1.50</td> <!-- ScandiQA-da -->
-   <td class="da summ">62.29 ± 0.25 / 14.50 ± 0.42</td> <!-- Nordjylland-News -->
+   <td class="da summ">61.88 ± 0.28 / 14.06 ± 0.38</td> <!-- Nordjylland-News -->
    <td class="da know">0.00 ± 0.00 / 24.00 ± 0.73</td> <!-- Danske Talemaader -->
    <td class="da know">0.00 ± 0.00 / 35.86 ± 1.26</td> <!-- Danish Citizen Tests -->
    <td class="da reason">0.04 ± 0.14 / 25.18 ± 0.77</td> <!-- HellaSwag-da -->
    <td class="no ner">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- NorNE-nb -->
    <td class="no ner">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- NorNE-nn -->
    <td class="no sent">0.95 ± 0.80 / 9.68 ± 0.28</td> <!-- NoReC -->
-   <td class="no summ">60.13 ± 0.23 / 11.12 ± 0.20</td> <!-- No Sammendrag -->
+   <td class="no summ">59.32 ± 0.11 / 9.47 ± 0.12</td> <!-- No Sammendrag -->
    <td class="no la">0.00 ± 0.00 / 33.25 ± 0.30</td> <!-- ScaLA-nb -->
    <td class="no la">0.00 ± 0.00 / 32.79 ± 0.34</td> <!-- ScaLA-nn -->
    <td class="no qa">0.00 ± 0.00 / 33.55 ± 0.25</td> <!-- NorQuAD -->
@@ -1850,12 +1850,12 @@ title: Mainland Scandinavian NLG
    <td class="sv sent">34.63 ± 9.69 / 40.92 ± 6.88</td> <!-- SweReC -->
    <td class="sv la">0.00 ± 0.00 / 33.30 ± 0.27</td> <!-- ScaLA-sv -->
    <td class="sv qa">0.00 ± 0.00 / 8.95 ± 2.92</td> <!-- ScandiQA-sv -->
-   <td class="sv summ">60.30 ± 0.04 / 12.23 ± 0.07</td> <!-- SweDN -->
+   <td class="sv summ">59.04 ± 0.07 / 10.84 ± 0.09</td> <!-- SweDN -->
    <td class="sv know">-0.25 ± 0.97 / 21.96 ± 0.57</td> <!-- MMLU-sv -->
    <td class="sv reason">0.08 ± 0.78 / 24.93 ± 0.77</td> <!-- HellaSwag-sv -->
   </tr>
   <tr class="not-merged-model">
-   <td class="rank">46</td> <!-- Rank -->
+   <td class="rank">50</td> <!-- Rank -->
    <td>peter-sk/gpt-neox-da (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">1515</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
@@ -1869,14 +1869,14 @@ title: Mainland Scandinavian NLG
    <td class="da sent">-0.52 ± 1.72 / 28.55 ± 1.60</td> <!-- Angry Tweets -->
    <td class="da la">-0.02 ± 1.55 / 36.82 ± 2.52</td> <!-- ScaLA-da -->
    <td class="da qa">0.48 ± 0.27 / 2.89 ± 0.53</td> <!-- ScandiQA-da -->
-   <td class="da summ">53.42 ± 0.61 / 8.22 ± 0.19</td> <!-- Nordjylland-News -->
+   <td class="da summ">53.73 ± 0.58 / 8.17 ± 0.22</td> <!-- Nordjylland-News -->
    <td class="da know">0.90 ± 0.92 / 26.20 ± 1.02</td> <!-- Danske Talemaader -->
    <td class="da know">4.10 ± 2.68 / 33.71 ± 1.88</td> <!-- Danish Citizen Tests -->
    <td class="da reason">0.04 ± 1.16 / 25.21 ± 0.48</td> <!-- HellaSwag-da -->
    <td class="no ner">0.29 ± 0.29 / 0.29 ± 0.27</td> <!-- NorNE-nb -->
    <td class="no ner">0.25 ± 0.17 / 0.27 ± 0.21</td> <!-- NorNE-nn -->
    <td class="no sent">-1.43 ± 1.45 / 20.90 ± 4.96</td> <!-- NoReC -->
-   <td class="no summ">47.11 ± 1.65 / 5.29 ± 0.39</td> <!-- No Sammendrag -->
+   <td class="no summ">41.89 ± 1.40 / 3.46 ± 0.33</td> <!-- No Sammendrag -->
    <td class="no la">-0.42 ± 1.10 / 35.77 ± 3.09</td> <!-- ScaLA-nb -->
    <td class="no la">1.11 ± 2.21 / 39.28 ± 4.12</td> <!-- ScaLA-nn -->
    <td class="no qa">0.00 ± 0.00 / 3.15 ± 0.55</td> <!-- NorQuAD -->
@@ -1886,12 +1886,12 @@ title: Mainland Scandinavian NLG
    <td class="sv sent">4.75 ± 2.54 / 27.85 ± 1.59</td> <!-- SweReC -->
    <td class="sv la">-0.60 ± 1.56 / 40.53 ± 2.93</td> <!-- ScaLA-sv -->
    <td class="sv qa">0.06 ± 0.09 / 1.07 ± 0.35</td> <!-- ScandiQA-sv -->
-   <td class="sv summ">45.76 ± 0.36 / 8.16 ± 0.13</td> <!-- SweDN -->
+   <td class="sv summ">41.84 ± 0.24 / 5.74 ± 0.09</td> <!-- SweDN -->
    <td class="sv know">-0.41 ± 1.39 / 24.48 ± 0.97</td> <!-- MMLU-sv -->
    <td class="sv reason">0.52 ± 0.81 / 25.32 ± 0.65</td> <!-- HellaSwag-sv -->
   </tr>
   <tr class="not-merged-model">
-   <td class="rank">47</td> <!-- Rank -->
+   <td class="rank">51</td> <!-- Rank -->
    <td>ai-forever/mGPT (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">100</td> <!-- Size of the model's vocabulary -->

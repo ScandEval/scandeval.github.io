@@ -3,7 +3,7 @@ layout: leaderboard
 title: Insular Scandinavian NLG
 ---
 
-<center>Last updated: 23/02/2024 19:58:55 CET</center>
+<center>Last updated: 26/02/2024 08:45:47 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -63,8 +63,8 @@ title: Insular Scandinavian NLG
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
    <td class="speed">2,657 ± 524 / 880 ± 278</td> <!-- Model inference speed -->
-   <td class="score">64.29</td> <!-- ScandEval score -->
-   <td class="is-win-ratio">64.29</td> <!-- Icelandic win ratio -->
+   <td class="score">63.70</td> <!-- ScandEval score -->
+   <td class="is-win-ratio">63.10</td> <!-- Icelandic win ratio -->
    <td class="fo-win-ratio">64.29</td> <!-- Faroese win ratio -->
    <td class="is ner">47.24 ± 2.54 / 37.77 ± 3.87</td> <!-- MIM-GOLD-NER -->
    <td class="is la">1.35 ± 1.70 / 39.37 ± 3.87</td> <!-- ScaLA-is -->
@@ -109,7 +109,7 @@ title: Insular Scandinavian NLG
    <td class="is qa">19.03 ± 3.72 / 49.63 ± 2.61</td> <!-- NQiI -->
    <td class="fo ner">61.28 ± 2.98 / 54.02 ± 3.55</td> <!-- FoNE -->
    <td class="fo la">1.68 ± 1.41 / 50.06 ± 1.22</td> <!-- ScaLA-fo -->
-   <td class="is summ">65.77 ± 0.58 / 19.79 ± 0.81</td> <!-- RRN -->
+   <td class="is summ">64.97 ± 1.57 / 18.31 ± 1.39</td> <!-- RRN -->
    <td class="is know">7.55 ± 0.67 / 29.89 ± 0.47</td> <!-- MMLU-is -->
    <td class="is reason">5.31 ± 1.03 / 29.05 ± 0.67</td> <!-- HellaSwag-is -->
   </tr>
@@ -133,26 +133,7 @@ title: Insular Scandinavian NLG
    <td class="is reason">2.41 ± 1.03 / 25.89 ± 0.88</td> <!-- HellaSwag-is -->
   </tr>
   <tr class="not-merged-model">
-   <td class="rank">6</td> <!-- Rank -->
-   <td>meta-llama/Llama-2-7b-hf (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">6738</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">2,648 ± 467 / 799 ± 250</td> <!-- Model inference speed -->
-   <td class="score">39.88</td> <!-- ScandEval score -->
-   <td class="is-win-ratio">36.90</td> <!-- Icelandic win ratio -->
-   <td class="fo-win-ratio">42.86</td> <!-- Faroese win ratio -->
-   <td class="is ner">32.71 ± 2.77 / 32.17 ± 2.13</td> <!-- MIM-GOLD-NER -->
-   <td class="is la">0.66 ± 1.75 / 40.36 ± 4.19</td> <!-- ScaLA-is -->
-   <td class="is qa">18.31 ± 3.62 / 40.78 ± 4.26</td> <!-- NQiI -->
-   <td class="fo ner">52.34 ± 5.11 / 52.53 ± 4.79</td> <!-- FoNE -->
-   <td class="fo la">0.11 ± 1.45 / 33.49 ± 0.47</td> <!-- ScaLA-fo -->
-   <td class="is summ">64.30 ± 1.22 / 19.07 ± 1.13</td> <!-- RRN -->
-   <td class="is know">5.05 ± 1.56 / 28.95 ± 1.00</td> <!-- MMLU-is -->
-   <td class="is reason">0.80 ± 1.18 / 25.46 ± 0.72</td> <!-- HellaSwag-is -->
-  </tr>
-  <tr class="not-merged-model">
-   <td class="rank">7=</td> <!-- Rank -->
+   <td class="rank">6=</td> <!-- Rank -->
    <td>RuterNorway/Llama-2-13b-chat-norwegian (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -171,21 +152,40 @@ title: Insular Scandinavian NLG
    <td class="is reason">2.72 ± 1.12 / 26.48 ± 0.75</td> <!-- HellaSwag-is -->
   </tr>
   <tr class="not-merged-model">
-   <td class="rank">7=</td> <!-- Rank -->
+   <td class="rank">6=</td> <!-- Rank -->
+   <td>meta-llama/Llama-2-7b-hf (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">6738</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">2,648 ± 467 / 799 ± 250</td> <!-- Model inference speed -->
+   <td class="score">39.28</td> <!-- ScandEval score -->
+   <td class="is-win-ratio">35.71</td> <!-- Icelandic win ratio -->
+   <td class="fo-win-ratio">42.86</td> <!-- Faroese win ratio -->
+   <td class="is ner">32.71 ± 2.77 / 32.17 ± 2.13</td> <!-- MIM-GOLD-NER -->
+   <td class="is la">0.66 ± 1.75 / 40.36 ± 4.19</td> <!-- ScaLA-is -->
+   <td class="is qa">18.31 ± 3.62 / 40.78 ± 4.26</td> <!-- NQiI -->
+   <td class="fo ner">52.34 ± 5.11 / 52.53 ± 4.79</td> <!-- FoNE -->
+   <td class="fo la">0.11 ± 1.45 / 33.49 ± 0.47</td> <!-- ScaLA-fo -->
+   <td class="is summ">60.73 ± 3.02 / 14.02 ± 1.57</td> <!-- RRN -->
+   <td class="is know">5.05 ± 1.56 / 28.95 ± 1.00</td> <!-- MMLU-is -->
+   <td class="is reason">0.80 ± 1.18 / 25.46 ± 0.72</td> <!-- HellaSwag-is -->
+  </tr>
+  <tr class="not-merged-model">
+   <td class="rank">7</td> <!-- Rank -->
    <td>mistralai/Mistral-7B-Instruct-v0.1 (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
    <td class="speed">5,443 ± 1,273 / 1,144 ± 364</td> <!-- Model inference speed -->
-   <td class="score">39.28</td> <!-- ScandEval score -->
-   <td class="is-win-ratio">35.71</td> <!-- Icelandic win ratio -->
+   <td class="score">38.69</td> <!-- ScandEval score -->
+   <td class="is-win-ratio">34.52</td> <!-- Icelandic win ratio -->
    <td class="fo-win-ratio">42.86</td> <!-- Faroese win ratio -->
    <td class="is ner">36.04 ± 2.59 / 24.74 ± 2.79</td> <!-- MIM-GOLD-NER -->
    <td class="is la">-0.36 ± 1.36 / 33.94 ± 0.32</td> <!-- ScaLA-is -->
    <td class="is qa">17.92 ± 3.21 / 42.41 ± 2.86</td> <!-- NQiI -->
    <td class="fo ner">55.42 ± 2.12 / 46.41 ± 2.50</td> <!-- FoNE -->
    <td class="fo la">1.11 ± 2.41 / 36.79 ± 4.00</td> <!-- ScaLA-fo -->
-   <td class="is summ">63.83 ± 1.29 / 17.92 ± 1.27</td> <!-- RRN -->
+   <td class="is summ">62.82 ± 1.66 / 15.30 ± 1.00</td> <!-- RRN -->
    <td class="is know">7.22 ± 1.33 / 29.40 ± 1.04</td> <!-- MMLU-is -->
    <td class="is reason">3.12 ± 1.36 / 27.42 ± 0.86</td> <!-- HellaSwag-is -->
   </tr>
@@ -196,15 +196,15 @@ title: Insular Scandinavian NLG
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model-->
    <td class="speed">2,643 ± 455 / 800 ± 247</td> <!-- Model inference speed -->
-   <td class="score">27.98</td> <!-- ScandEval score -->
-   <td class="is-win-ratio">27.38</td> <!-- Icelandic win ratio -->
+   <td class="score">27.38</td> <!-- ScandEval score -->
+   <td class="is-win-ratio">26.19</td> <!-- Icelandic win ratio -->
    <td class="fo-win-ratio">28.57</td> <!-- Faroese win ratio -->
    <td class="is ner">41.10 ± 3.35 / 40.54 ± 3.19</td> <!-- MIM-GOLD-NER -->
    <td class="is la">-1.07 ± 2.09 / 44.83 ± 2.20</td> <!-- ScaLA-is -->
    <td class="is qa">16.12 ± 2.50 / 39.44 ± 1.99</td> <!-- NQiI -->
    <td class="fo ner">59.77 ± 3.38 / 56.97 ± 4.30</td> <!-- FoNE -->
    <td class="fo la">-0.54 ± 1.61 / 36.94 ± 2.79</td> <!-- ScaLA-fo -->
-   <td class="is summ">64.14 ± 0.87 / 16.89 ± 1.86</td> <!-- RRN -->
+   <td class="is summ">62.28 ± 0.90 / 13.27 ± 1.36</td> <!-- RRN -->
    <td class="is know">3.27 ± 0.84 / 26.91 ± 0.86</td> <!-- MMLU-is -->
    <td class="is reason">1.54 ± 0.83 / 26.63 ± 0.65</td> <!-- HellaSwag-is -->
   </tr>

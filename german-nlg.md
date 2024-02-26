@@ -3,7 +3,7 @@ layout: leaderboard
 title: German NLG
 ---
 
-<center>Last updated: 23/02/2024 19:40:02 CET</center>
+<center>Last updated: 26/02/2024 08:45:49 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -72,7 +72,7 @@ title: German NLG
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
    <td class="speed">2,657 ± 524 / 880 ± 278</td> <!-- Model inference speed -->
-   <td class="score">66.33</td> <!-- ScandEval score -->
+   <td class="score">65.31</td> <!-- ScandEval score -->
    <td class="de ner">55.37 ± 1.32 / 44.65 ± 2.48</td> <!-- GermEval -->
    <td class="de sent">54.27 ± 1.71 / 68.13 ± 1.16</td> <!-- SB10k -->
    <td class="de la">23.12 ± 4.07 / 57.81 ± 3.70</td> <!-- ScaLA-de -->
@@ -125,7 +125,7 @@ title: German NLG
    <td class="de sent">47.85 ± 2.29 / 65.02 ± 1.69</td> <!-- SB10k -->
    <td class="de la">24.29 ± 2.18 / 60.90 ± 1.65</td> <!-- ScaLA-de -->
    <td class="de qa">23.98 ± 2.16 / 57.70 ± 1.94</td> <!-- GermanQuAD -->
-   <td class="de summ">67.67 ± 0.75 / 23.67 ± 2.01</td> <!-- MLSum -->
+   <td class="de summ">67.53 ± 0.69 / 22.65 ± 1.71</td> <!-- MLSum -->
    <td class="de know">25.96 ± 1.60 / 44.05 ± 1.25</td> <!-- MMLU-de -->
    <td class="de reason">31.06 ± 1.24 / 47.46 ± 0.90</td> <!-- HellaSwag-de -->
   </tr>
@@ -136,12 +136,12 @@ title: German NLG
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
    <td class="speed">5,443 ± 1,273 / 1,144 ± 364</td> <!-- Model inference speed -->
-   <td class="score">52.04</td> <!-- ScandEval score -->
+   <td class="score">51.02</td> <!-- ScandEval score -->
    <td class="de ner">51.79 ± 0.92 / 36.09 ± 1.73</td> <!-- GermEval -->
    <td class="de sent">47.27 ± 3.06 / 63.50 ± 2.88</td> <!-- SB10k -->
    <td class="de la">22.15 ± 1.83 / 56.64 ± 4.04</td> <!-- ScaLA-de -->
    <td class="de qa">24.30 ± 3.79 / 54.51 ± 4.48</td> <!-- GermanQuAD -->
-   <td class="de summ">67.96 ± 1.05 / 26.56 ± 2.90</td> <!-- MLSum -->
+   <td class="de summ">67.78 ± 1.09 / 25.93 ± 2.95</td> <!-- MLSum -->
    <td class="de know">26.88 ± 0.94 / 44.64 ± 0.79</td> <!-- MMLU-de -->
    <td class="de reason">20.34 ± 1.39 / 39.65 ± 0.94</td> <!-- HellaSwag-de -->
   </tr>
@@ -152,12 +152,12 @@ title: German NLG
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model-->
    <td class="speed">2,643 ± 455 / 800 ± 247</td> <!-- Model inference speed -->
-   <td class="score">38.78</td> <!-- ScandEval score -->
+   <td class="score">43.88</td> <!-- ScandEval score -->
    <td class="de ner">50.00 ± 1.33 / 38.45 ± 1.68</td> <!-- GermEval -->
    <td class="de sent">46.54 ± 2.92 / 63.66 ± 2.14</td> <!-- SB10k -->
    <td class="de la">15.30 ± 1.79 / 55.12 ± 1.92</td> <!-- ScaLA-de -->
    <td class="de qa">25.57 ± 3.57 / 56.05 ± 3.74</td> <!-- GermanQuAD -->
-   <td class="de summ">67.66 ± 0.90 / 23.98 ± 2.48</td> <!-- MLSum -->
+   <td class="de summ">67.62 ± 0.90 / 23.53 ± 2.44</td> <!-- MLSum -->
    <td class="de know">20.13 ± 1.16 / 39.49 ± 1.04</td> <!-- MMLU-de -->
    <td class="de reason">13.92 ± 1.52 / 34.03 ± 1.27</td> <!-- HellaSwag-de -->
   </tr>
@@ -168,12 +168,12 @@ title: German NLG
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model-->
    <td class="speed">2,648 ± 467 / 799 ± 250</td> <!-- Model inference speed -->
-   <td class="score">36.73</td> <!-- ScandEval score -->
+   <td class="score">35.71</td> <!-- ScandEval score -->
    <td class="de ner">41.88 ± 1.87 / 31.88 ± 1.77</td> <!-- GermEval -->
    <td class="de sent">50.17 ± 2.52 / 65.78 ± 1.89</td> <!-- SB10k -->
    <td class="de la">15.82 ± 2.45 / 53.27 ± 4.50</td> <!-- ScaLA-de -->
    <td class="de qa">18.35 ± 2.70 / 39.71 ± 4.79</td> <!-- GermanQuAD -->
-   <td class="de summ">68.99 ± 1.06 / 28.97 ± 2.45</td> <!-- MLSum -->
+   <td class="de summ">68.67 ± 0.97 / 26.95 ± 1.81</td> <!-- MLSum -->
    <td class="de know">18.43 ± 1.34 / 38.16 ± 1.18</td> <!-- MMLU-de -->
    <td class="de reason">8.37 ± 1.83 / 30.00 ± 1.48</td> <!-- HellaSwag-de -->
   </tr>
