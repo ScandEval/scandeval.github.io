@@ -3,7 +3,7 @@ layout: leaderboard
 title: English NLG
 ---
 
-<center>Last updated: 26/02/2024 11:01:06 CET</center>
+<center>Last updated: 26/02/2024 17:55:02 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -141,7 +141,7 @@ title: English NLG
    <td class="en sent">59.91 ± 2.10 / 68.92 ± 1.21</td> <!-- SST5 -->
    <td class="en la">30.66 ± 3.60 / 64.32 ± 2.03</td> <!-- ScaLA-en -->
    <td class="en qa">58.30 ± 2.09 / 77.85 ± 0.72</td> <!-- SQuAD -->
-   <td class="en summ">69.80 ± 0.65 / 25.01 ± 0.78</td> <!-- CNN-DailyMail -->
+   <td class="en summ">69.77 ± 0.64 / 24.75 ± 0.73</td> <!-- CNN-DailyMail -->
    <td class="en know">34.93 ± 1.35 / 50.71 ± 1.00</td> <!-- MMLU -->
    <td class="en reason">44.91 ± 2.44 / 58.07 ± 1.93</td> <!-- HellaSwag -->
   </tr>
