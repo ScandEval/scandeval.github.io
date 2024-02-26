@@ -7,6 +7,7 @@ import logging
 from huggingface_hub import HfApi
 from huggingface_hub.hf_api import RepositoryNotFoundError
 from tqdm.auto import tqdm
+import re
 
 logging.basicConfig(
     level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s"
@@ -27,6 +28,17 @@ def record_is_valid(record: dict) -> bool:
     """
     BANNED_VERSIONS: list[str] = ["9.3.0", "10.0.0"]
     if record.get("version") in BANNED_VERSIONS:
+        return False
+
+    merged_model = record.get("merge", False)
+    evaluated_on_validation_split = record.get("validation_split", False)
+    openai_model = re.search(r"gpt-[34][-.0-9a-z]+", record.get("model", ""))
+    if record["model"] == "gpt-3.5-turbo-0613":
+        pass
+    if (
+        (merged_model and not evaluated_on_validation_split)
+        or (not merged_model and evaluated_on_validation_split and not openai_model)
+    ):
         return False
 
     return True
@@ -59,13 +71,13 @@ def main(filename: str) -> None:
                     return
     num_raw_records = len(records)
 
-    # Remove models trained with banned versions of ScandEval
+    # Remove invalid evaluation records
     records = [
         record for record in records if record_is_valid(record=record)
     ]
-    num_banned_records = num_raw_records - len(records)
-    if num_banned_records > 0:
-        logger.info(f"Removed {num_banned_records:,} banned records from {filename}.")
+    num_invalid_records = num_raw_records - len(records)
+    if num_invalid_records > 0:
+        logger.info(f"Removed {num_invalid_records:,} invalid records from {filename}.")
 
     # Filter records
     all_hash_values = [get_hash(dct) for dct in records]
@@ -85,22 +97,9 @@ def main(filename: str) -> None:
         newest_match = add_missing_entries(record=newest_match)
         new_records.append(newest_match)
     records = new_records
-    num_duplicates = num_raw_records - num_banned_records - len(records)
+    num_duplicates = num_raw_records - num_invalid_records - len(records)
     if num_duplicates:
         logger.info(f"Removed {num_duplicates:,} duplicates from {filename}.")
-
-    # Remove merged models which are not trained on a validation split
-    records = [
-        record for record in records if not record["merge"] or record["validation_split"]
-    ]
-    num_merged_records = (
-        num_raw_records - num_banned_records - num_duplicates - len(records)
-    )
-    if num_merged_records:
-        logger.info(
-            f"Removed {num_merged_records:,} merged records which weren't trained "
-            "on a validation split."
-        )
 
     # Write new records to file
     with Path(filename).open(mode="w") as f:
