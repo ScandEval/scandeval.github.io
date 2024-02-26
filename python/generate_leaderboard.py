@@ -488,7 +488,7 @@ title: {title}
         ]
         max_rank = max(dataset_ranks)
         for values, rank in zip(all_values, dataset_ranks):
-            dataset_score = 100 * (max_rank - rank - 1) / max_rank
+            dataset_score = 100 * (max_rank - (rank - 1)) / max_rank
             values[f"{dataset_underscore}_score"] = f"{dataset_score:.2f}"
             # num_models_with_worse_performance = sum(
             #     int(other_values[f"{dataset_underscore}_rank"]) > rank
