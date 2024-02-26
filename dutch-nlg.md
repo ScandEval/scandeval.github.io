@@ -3,7 +3,7 @@ layout: leaderboard
 title: Dutch NLG
 ---
 
-<center>Last updated: 26/02/2024 11:01:04 CET</center>
+<center>Last updated: 26/02/2024 13:34:42 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -72,12 +72,12 @@ title: Dutch NLG
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
    <td class="speed">2,538 ± 415 / 821 ± 253</td> <!-- Model inference speed -->
-   <td class="score">74.73</td> <!-- ScandEval score -->
+   <td class="score">73.14</td> <!-- ScandEval score -->
    <td class="nl ner">55.56 ± 2.66 / 39.56 ± 2.13</td> <!-- CoNLL-nl -->
    <td class="nl sent">12.37 ± 1.64 / 37.37 ± 1.35</td> <!-- Dutch Social -->
    <td class="nl la">21.50 ± 1.70 / 59.10 ± 1.32</td> <!-- ScaLA-nl -->
    <td class="nl qa">50.80 ± 0.91 / 66.54 ± 0.78</td> <!-- SQuAD-nl -->
-   <td class="nl summ">68.77 ± 0.66 / 20.67 ± 0.90</td> <!-- Wiki-Lingua-NL -->
+   <td class="nl summ">67.98 ± 0.50 / 19.54 ± 0.56</td> <!-- Wiki-Lingua-NL -->
    <td class="nl know">22.86 ± 1.89 / 41.71 ± 1.45</td> <!-- MMLU-nl -->
    <td class="nl reason">24.80 ± 1.77 / 42.93 ± 1.38</td> <!-- HellaSwag-nl -->
   </tr>

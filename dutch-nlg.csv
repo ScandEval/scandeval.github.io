@@ -1,7 +1,7 @@
 rank,model_id,num_model_parameters,vocabulary_size,max_sequence_length,speed,score,conll_nl_score,dutch_social_score,scala_nl_score,squad_nl_score,wiki_lingua_nl_score,mmlu_nl_score,hellaswag_nl_score,nl_score,conll_nl,dutch_social,scala_nl,squad_nl,wiki_lingua_nl,mmlu_nl,hellaswag_nl
 1,"gpt-3.5-turbo-0613 (few-shot, val)",unknown,100,4095,1344,93.65,100.0,66.67,100.0,100.0,88.89,100,100.0,93.65,68.96,8.81,58.95,55.57,69.13,42.28,61.52
 2,"mlabonne/NeuralBeagle14-7B (few-shot, val)",7242.0,32,8192,2549,87.44,87.5,83.33,85.71,66.67,100.0,100,88.89,87.44,63.53,11.25,27.76,50.88,71.2,40.23,47.87
-3,mistralai/Mistral-7B-Instruct-v0.2 (few-shot),7242.0,32,32768,2538,74.73,75.0,83.33,71.43,66.67,88.89,60,77.78,74.73,55.56,12.37,21.5,50.8,68.77,22.86,24.8
+3,mistralai/Mistral-7B-Instruct-v0.2 (few-shot),7242.0,32,32768,2538,73.14,75.0,83.33,71.43,66.67,77.78,60,77.78,73.14,55.56,12.37,21.5,50.8,67.98,22.86,24.8
 4,BramVanroy/GEITje-7B-ultra (few-shot),7242.0,32,8192,2475,71.93,37.5,100.0,57.14,83.33,77.78,70,77.78,71.93,42.25,12.78,18.23,53.44,68.3,26.92,25.72
 5,RuterNorway/Llama-2-13b-chat-norwegian (few-shot),unknown,32,4096,7778,68.56,75.0,66.67,57.14,100.0,55.56,70,55.56,68.56,57.66,8.41,16.93,56.29,66.22,25.7,17.92
 6,mistralai/Mistral-7B-v0.1 (few-shot),7242.0,32,32768,2657,68.36,75.0,50.0,85.71,66.67,44.44,90,66.67,68.36,58.15,7.94,25.41,50.14,64.24,35.49,19.88

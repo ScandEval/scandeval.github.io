@@ -3,7 +3,7 @@ layout: leaderboard
 title: Dutch NLU
 ---
 
-<center>Last updated: 26/02/2024 11:01:03 CET</center>
+<center>Last updated: 26/02/2024 13:34:41 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">

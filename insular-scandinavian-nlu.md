@@ -3,7 +3,7 @@ layout: leaderboard
 title: Insular Scandinavian NLU
 ---
 
-<center>Last updated: 26/02/2024 11:00:58 CET</center>
+<center>Last updated: 26/02/2024 13:34:36 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
