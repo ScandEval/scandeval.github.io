@@ -128,7 +128,7 @@ title: {title}
                 continue
             language_name_title = language_name.title()
             BENCHMARK_HTML_START += f"""
-   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Mean {language_name_title} statistically significant win ratio">{language_name_title}</span></th>"""
+   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Mean {language_name_title} score">{language_name_title}</span></th>"""
         BENCHMARK_HTML_START += "\n"
 
     # Add dataset score columns
@@ -173,7 +173,7 @@ title: {title}
             language_code_lower = language_code.lower()
             language_name_title = language_name.title()
             BENCHMARK_ENTRY += f"""
-   <td class="{language_code_lower}-win-ratio">{{{language_code_lower}_win_ratio}}</td> <!-- {language_name_title} win ratio -->"""
+   <td class="{language_code_lower}-score">{{{language_code_lower}_score}}</td> <!-- {language_name_title} score -->"""
 
     # Add dataset score columns
     for dataset_name, language_code, task_code, _, _ in datasets:
@@ -480,23 +480,28 @@ title: {title}
                 rank += 1
             values[f"{dataset_underscore}_rank"] = str(rank)
 
-    # Compute win ratios for all datasets
+    # Compute scores for all datasets
     for dataset, _, _, _, _ in datasets:
         dataset_underscore = dataset.lower().replace(" ", "_").replace("-", "_")
-        for values in all_values:
-            rank = int(values[f"{dataset_underscore}_rank"])
-            num_models_with_worse_performance = sum(
-                int(other_values[f"{dataset_underscore}_rank"]) > rank
-                for other_values in all_values
-            )
-            values[f"{dataset_underscore}_win_ratio"] = str(
-                num_models_with_worse_performance / len(all_values)
-            )
+        dataset_ranks = [
+            int(values[f"{dataset_underscore}_rank"]) for values in all_values
+        ]
+        max_rank = max(dataset_ranks)
+        for values, rank in zip(all_values, dataset_ranks):
+            dataset_score = 100 * (max_rank - rank - 1) / max_rank
+            values[f"{dataset_underscore}_score"] = f"{dataset_score:.2f}"
+            # num_models_with_worse_performance = sum(
+            #     int(other_values[f"{dataset_underscore}_rank"]) > rank
+            #     for other_values in all_values
+            # )
+            # values[f"{dataset_underscore}_win_ratio"] = str(
+            #     num_models_with_worse_performance / len(all_values)
+            # )
 
-    # Compute average win ratios for each language
+    # Compute average scores for each language
     for language_code in language_mapping.keys():
         for values in all_values:
-            mean_win_ratios = list()
+            mean_scores = list()
             for task_code in task_mapping.keys():
                 datasets_for_language_and_task = [
                     dataset.lower().replace(" ", "_").replace("-", "_")
@@ -505,21 +510,21 @@ title: {title}
                 ]
                 if not datasets_for_language_and_task:
                     continue
-                mean_win_ratio = np.mean([
-                    float(values[f"{dataset}_win_ratio"])
+                mean_score = np.mean([
+                    float(values[f"{dataset}_score"])
                     for dataset in datasets_for_language_and_task
                 ]).item()
-                mean_win_ratios.append(mean_win_ratio)
-            mean_win_ratio = 100 * np.mean(mean_win_ratios).item()
-            values[f"{language_code}_win_ratio"] = f"{mean_win_ratio:.2f}"
+                mean_scores.append(mean_score)
+            mean_score = np.mean(mean_scores).item()
+            values[f"{language_code}_score"] = f"{mean_score:.2f}"
 
     # Compute the final score for each model
     for values in all_values:
-        all_language_win_ratios = [
-            float(values[f"{language_code}_win_ratio"])
+        all_language_scores = [
+            float(values[f"{language_code}_score"])
             for language_code in language_mapping.keys()
         ]
-        score = np.mean(all_language_win_ratios).item()
+        score = np.mean(all_language_scores).item()
         values["score"] = f"{score:.2f}"
 
     # Compute the rank for each model

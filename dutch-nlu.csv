@@ -1,45 +1,45 @@
-rank,model_id,num_model_parameters,vocabulary_size,max_sequence_length,speed,score,conll_nl,dutch_social,scala_nl,squad_nl
-1,intfloat/multilingual-e5-large,559.0,250,512,6732,82.95,82.31,32.64,58.51,45.32
-2,setu4993/LaBSE,470.0,501,512,13386,80.68,82.02,33.99,60.77,41.55
-3,DTAI-KULeuven/robbert-2022-dutch-base,118.0,43,512,11307,70.45,79.84,24.58,68.76,27.63
-4,pdelobelle/robbert-v2-dutch-base,116.0,40,512,15481,68.75,78.3,26.68,63.83,28.34
-5,microsoft/mdeberta-v3-base,278.0,251,512,9237,66.48,84.47,5.16,71.23,46.43
-5,xlm-roberta-large,559.0,250,512,6663,66.48,83.49,8.82,64.8,50.72
-6,DTAI-KULeuven/robbert-2023-dutch-large,354.0,50,512,5444,65.91,81.05,16.35,65.18,11.44
-7,DTAI-KULeuven/robbert-2023-dutch-base,124.0,50,512,11230,65.34,82.22,28.2,55.12,9.74
-7,ZurichNLP/unsup-simcse-xlm-roberta-base,277.0,250,512,10471,65.34,78.45,22.67,54.92,31.82
-8,intfloat/multilingual-e5-base,277.0,250,512,14965,63.07,79.12,27.67,39.28,35.71
-9,DTAI-KULeuven/robbertje-1-gb-non-shuffled,74.0,40,512,21007,61.93,74.5,32.23,54.57,6.31
-10,DTAI-KULeuven/robbertje-1-gb-merged,74.0,40,512,21027,59.66,72.51,32.26,50.0,5.97
-11,"gpt-3.5-turbo-0613 (few-shot, val)",unknown,100,4095,1344,58.52,68.96,8.81,58.95,55.57
-11,jhu-clsp/bernice,277.0,250,128,5567,58.52,78.74,22.58,55.39,5.95
-12,DTAI-KULeuven/robbertje-1-gb-shuffled,74.0,40,512,20616,56.82,73.55,26.02,57.03,6.64
-12,cardiffnlp/twitter-xlm-roberta-base,277.0,250,512,14837,56.82,77.15,18.78,56.72,14.61
-13,microsoft/xlm-align-base,277.0,250,512,14744,51.7,78.85,11.8,14.56,42.08
-14,"mlabonne/NeuralBeagle14-7B (few-shot, val)",7242.0,32,8192,2549,50.57,63.53,11.25,27.76,50.88
-15,sentence-transformers/paraphrase-xlm-r-multilingual-v1,277.0,250,512,14994,49.43,70.59,21.37,45.86,5.2
-16,mistralai/Mistral-7B-Instruct-v0.2 (few-shot),7242.0,32,32768,2538,48.86,55.56,12.37,21.5,50.8
-17,Twitter/twhin-bert-base,278.0,250,512,11514,47.16,74.03,9.53,39.12,7.71
-18,DTAI-KULeuven/robbertje-1-gb-bort,45.0,40,512,31087,46.59,66.74,24.93,37.19,5.23
-19,Rijgersberg/GEITje-7B (few-shot),7242.0,32,32768,10401,43.18,47.53,4.36,30.67,56.55
-19,meta-llama/Llama-2-7b-chat-hf (few-shot),6738.0,32,4096,2643,43.18,50.23,10.07,14.73,53.41
-20,BramVanroy/GEITje-7B-ultra (few-shot),7242.0,32,8192,2475,42.61,42.25,12.78,18.23,53.44
-21,Geotrend/distilbert-base-25lang-cased,108.0,85,512,26099,42.05,75.02,7.45,45.28,20.18
-22,mistralai/Mistral-7B-v0.1 (few-shot),7242.0,32,32768,2657,41.48,58.15,7.94,25.41,50.14
-22,sentence-transformers/quora-distilbert-multilingual,135.0,120,512,26458,41.48,67.89,23.25,21.36,4.5
-23,RuterNorway/Llama-2-13b-chat-norwegian (few-shot),unknown,32,4096,7778,40.91,57.66,8.41,16.93,56.29
-24,EuropeanParliament/EUBERT,93.0,66,512,20070,40.34,49.54,14.86,27.9,20.65
-25,Twitter/twhin-bert-large,560.0,250,512,5299,39.2,77.35,6.55,18.25,28.37
-26,mistralai/Mistral-7B-Instruct-v0.1 (few-shot),7242.0,32,32768,5443,36.93,52.72,7.91,18.14,52.74
-27,AI-Sweden-Models/gpt-sw3-20b (few-shot),20918.0,64,2048,4880,31.82,35.3,15.67,1.76,45.05
-28,01-ai/Yi-6B (few-shot),6061.0,64,4096,2786,31.25,46.34,8.96,0.88,55.24
-29,sentence-transformers/distiluse-base-multilingual-cased,135.0,120,512,19206,29.55,56.98,9.66,19.37,3.11
-30,sentence-transformers/distiluse-base-multilingual-cased-v1,135.0,120,512,26344,28.41,58.67,17.82,9.27,2.17
-31,RuterNorway/Llama-2-7b-chat-norwegian (few-shot),unknown,32,4096,10890,26.7,35.49,11.36,2.52,37.61
-32,meta-llama/Llama-2-7b-hf (few-shot),6738.0,32,4096,2648,25.57,40.49,7.1,18.66,37.51
-33,jpostma/DagoBERT,116.0,40,512,11241,20.45,42.28,8.01,31.21,3.65
-34,3ebdola/Dialectal-Arabic-XLM-R-Base,277.0,250,512,15177,11.93,44.46,8.39,2.07,4.3
-35,dbmdz/bert-tiny-historic-multilingual-cased,5.0,32,512,78027,9.66,41.38,8.45,1.55,4.4
-36,fresh-xlm-roberta-base,277.0,250,512,1319,2.84,13.09,0.92,1.93,0.26
-37,ai-forever/mGPT (few-shot),unknown,100,1024,13551,0.57,0.11,-0.67,-0.97,0.29
-38,RJuro/kanelsnegl-v0.1 (few-shot),7242.0,32,512,9757,0.0,0.0,0.95,0.0,0.0
+rank,model_id,num_model_parameters,vocabulary_size,max_sequence_length,speed,score,conll_nl_score,dutch_social_score,scala_nl_score,squad_nl_score,nl_score,conll_nl,dutch_social,scala_nl,squad_nl
+1,intfloat/multilingual-e5-large,559.0,250,512,6732,76.31,88.89,71.43,68.75,76.19,76.31,82.31,32.64,58.51,45.32
+2,setu4993/LaBSE,470.0,501,512,13386,73.73,83.33,71.43,68.75,71.43,73.73,82.02,33.99,60.77,41.55
+3,DTAI-KULeuven/robbert-2022-dutch-base,118.0,43,512,11307,68.33,77.78,57.14,81.25,57.14,68.33,79.84,24.58,68.76,27.63
+4,pdelobelle/robbert-v2-dutch-base,116.0,40,512,15481,66.77,77.78,57.14,75.0,57.14,66.77,78.3,26.68,63.83,28.34
+5,microsoft/mdeberta-v3-base,278.0,251,512,9237,66.72,88.89,14.29,87.5,76.19,66.72,84.47,5.16,71.23,46.43
+6,ZurichNLP/unsup-simcse-xlm-roberta-base,277.0,250,512,10471,64.83,77.78,57.14,62.5,61.9,64.83,78.45,22.67,54.92,31.82
+7,xlm-roberta-large,559.0,250,512,6663,64.78,88.89,14.29,75.0,80.95,64.78,83.49,8.82,64.8,50.72
+8,DTAI-KULeuven/robbert-2023-dutch-large,354.0,50,512,5444,62.2,83.33,42.86,75.0,47.62,62.2,81.05,16.35,65.18,11.44
+9,DTAI-KULeuven/robbert-2023-dutch-base,124.0,50,512,11230,61.46,83.33,57.14,62.5,42.86,61.46,82.22,28.2,55.12,9.74
+10,intfloat/multilingual-e5-base,277.0,250,512,14965,61.34,77.78,57.14,43.75,66.67,61.34,79.12,27.67,39.28,35.71
+11,"gpt-3.5-turbo-0613 (few-shot, val)",unknown,100,4095,1344,57.27,55.56,14.29,68.75,90.48,57.27,68.96,8.81,58.95,55.57
+12,DTAI-KULeuven/robbertje-1-gb-non-shuffled,74.0,40,512,21007,56.92,66.67,71.43,56.25,33.33,56.92,74.5,32.23,54.57,6.31
+13,jhu-clsp/bernice,277.0,250,128,5567,56.5,77.78,57.14,62.5,28.57,56.5,78.74,22.58,55.39,5.95
+14,cardiffnlp/twitter-xlm-roberta-base,277.0,250,512,14837,56.3,72.22,42.86,62.5,47.62,56.3,77.15,18.78,56.72,14.61
+15,DTAI-KULeuven/robbertje-1-gb-shuffled,74.0,40,512,20616,54.91,66.67,57.14,62.5,33.33,54.91,73.55,26.02,57.03,6.64
+16,DTAI-KULeuven/robbertje-1-gb-merged,74.0,40,512,21027,52.78,61.11,71.43,50.0,28.57,52.78,72.51,32.26,50.0,5.97
+17,microsoft/xlm-align-base,277.0,250,512,14744,52.33,77.78,42.86,12.5,76.19,52.33,78.85,11.8,14.56,42.08
+18,"mlabonne/NeuralBeagle14-7B (few-shot, val)",7242.0,32,8192,2549,46.3,44.44,28.57,31.25,80.95,46.3,63.53,11.25,27.76,50.88
+19,mistralai/Mistral-7B-Instruct-v0.2 (few-shot),7242.0,32,32768,2538,45.53,33.33,42.86,25.0,80.95,45.53,55.56,12.37,21.5,50.8
+20,sentence-transformers/paraphrase-xlm-r-multilingual-v1,277.0,250,512,14994,45.06,55.56,57.14,43.75,23.81,45.06,70.59,21.37,45.86,5.2
+21,Geotrend/distilbert-base-25lang-cased,108.0,85,512,26099,44.27,66.67,14.29,43.75,52.38,44.27,75.02,7.45,45.28,20.18
+21,Twitter/twhin-bert-base,278.0,250,512,11514,44.27,66.67,28.57,43.75,38.1,44.27,74.03,9.53,39.12,7.71
+22,Twitter/twhin-bert-large,560.0,250,512,5299,43.18,77.78,14.29,18.75,61.9,43.18,77.35,6.55,18.25,28.37
+23,DTAI-KULeuven/robbertje-1-gb-bort,45.0,40,512,31087,42.11,50.0,57.14,37.5,23.81,42.11,66.74,24.93,37.19,5.23
+24,mistralai/Mistral-7B-v0.1 (few-shot),7242.0,32,32768,2657,41.34,38.89,14.29,31.25,80.95,41.34,58.15,7.94,25.41,50.14
+25,RuterNorway/Llama-2-13b-chat-norwegian (few-shot),unknown,32,4096,7778,40.6,38.89,14.29,18.75,90.48,40.6,57.66,8.41,16.93,56.29
+26,BramVanroy/GEITje-7B-ultra (few-shot),7242.0,32,8192,2475,39.61,11.11,42.86,18.75,85.71,39.61,42.25,12.78,18.23,53.44
+27,meta-llama/Llama-2-7b-chat-hf (few-shot),6738.0,32,4096,2643,38.64,27.78,28.57,12.5,85.71,38.64,50.23,10.07,14.73,53.41
+28,sentence-transformers/quora-distilbert-multilingual,135.0,120,512,26458,37.8,50.0,57.14,25.0,19.05,37.8,67.89,23.25,21.36,4.5
+29,Rijgersberg/GEITje-7B (few-shot),7242.0,32,32768,10401,37.55,22.22,0.0,37.5,90.48,37.55,47.53,4.36,30.67,56.55
+30,EuropeanParliament/EUBERT,93.0,66,512,20070,37.18,22.22,42.86,31.25,52.38,37.18,49.54,14.86,27.9,20.65
+31,mistralai/Mistral-7B-Instruct-v0.1 (few-shot),7242.0,32,32768,5443,36.63,27.78,14.29,18.75,85.71,36.63,52.72,7.91,18.14,52.74
+32,AI-Sweden-Models/gpt-sw3-20b (few-shot),20918.0,64,2048,4880,31.15,5.56,42.86,0.0,76.19,31.15,35.3,15.67,1.76,45.05
+33,01-ai/Yi-6B (few-shot),6061.0,64,4096,2786,30.36,16.67,14.29,0.0,90.48,30.36,46.34,8.96,0.88,55.24
+34,meta-llama/Llama-2-7b-hf (few-shot),6738.0,32,4096,2648,27.7,11.11,14.29,18.75,66.67,27.7,40.49,7.1,18.66,37.51
+35,RuterNorway/Llama-2-7b-chat-norwegian (few-shot),unknown,32,4096,10890,25.2,5.56,28.57,0.0,66.67,25.2,35.49,11.36,2.52,37.61
+36,sentence-transformers/distiluse-base-multilingual-cased,135.0,120,512,19206,24.11,33.33,28.57,25.0,9.52,24.11,56.98,9.66,19.37,3.11
+37,sentence-transformers/distiluse-base-multilingual-cased-v1,135.0,120,512,26344,23.19,38.89,42.86,6.25,4.76,23.19,58.67,17.82,9.27,2.17
+38,jpostma/DagoBERT,116.0,40,512,11241,19.3,11.11,14.29,37.5,14.29,19.3,42.28,8.01,31.21,3.65
+39,3ebdola/Dialectal-Arabic-XLM-R-Base,277.0,250,512,15177,12.5,16.67,14.29,0.0,19.05,12.5,44.46,8.39,2.07,4.3
+40,dbmdz/bert-tiny-historic-multilingual-cased,5.0,32,512,78027,11.11,11.11,14.29,0.0,19.05,11.11,41.38,8.45,1.55,4.4
+41,fresh-xlm-roberta-base,277.0,250,512,1319,-3.57,0.0,-14.29,0.0,0.0,-3.57,13.09,0.92,1.93,0.26
+42,ai-forever/mGPT (few-shot),unknown,100,1024,13551,-6.52,-5.56,-14.29,-6.25,0.0,-6.52,0.11,-0.67,-0.97,0.29
+43,RJuro/kanelsnegl-v0.1 (few-shot),7242.0,32,512,9757,-7.71,-5.56,-14.29,-6.25,-4.76,-7.71,0.0,0.95,0.0,0.0
