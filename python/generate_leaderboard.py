@@ -128,7 +128,7 @@ title: {title}
                 continue
             language_name_title = language_name.title()
             BENCHMARK_HTML_START += f"""
-   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Mean {language_name_title} score">{language_name_title}</span></th>"""
+   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Mean {language_name_title} score, 100% negatively correlated with mean datasets ranks">{language_name_title}</span></th>"""
         BENCHMARK_HTML_START += "\n"
 
     # Add dataset score columns
