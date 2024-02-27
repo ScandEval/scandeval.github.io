@@ -3,7 +3,7 @@ layout: leaderboard
 title: English NLG
 ---
 
-<center>Last updated: 26/02/2024 17:55:02 CET</center>
+<center>Last updated: 27/02/2024 09:37:16 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -189,7 +189,7 @@ title: English NLG
    <td class="en sent">65.16 ± 1.21 / 66.86 ± 1.32</td> <!-- SST5 -->
    <td class="en la">20.43 ± 3.69 / 55.98 ± 4.88</td> <!-- ScaLA-en -->
    <td class="en qa">44.64 ± 3.00 / 53.75 ± 3.18</td> <!-- SQuAD -->
-   <td class="en summ">68.99 ± 0.60 / 24.81 ± 0.67</td> <!-- CNN-DailyMail -->
+   <td class="en summ">68.82 ± 0.54 / 23.58 ± 0.59</td> <!-- CNN-DailyMail -->
    <td class="en know">25.98 ± 0.90 / 42.52 ± 0.62</td> <!-- MMLU -->
    <td class="en reason">11.77 ± 1.81 / 31.25 ± 1.99</td> <!-- HellaSwag -->
   </tr>
@@ -253,7 +253,7 @@ title: English NLG
    <td class="en sent">3.71 ± 3.16 / 22.09 ± 2.08</td> <!-- SST5 -->
    <td class="en la">-0.42 ± 1.56 / 40.58 ± 3.74</td> <!-- ScaLA-en -->
    <td class="en qa">5.57 ± 3.10 / 11.14 ± 4.67</td> <!-- SQuAD -->
-   <td class="en summ">34.87 ± 0.08 / 3.34 ± 0.07</td> <!-- CNN-DailyMail -->
+   <td class="en summ">34.62 ± 0.17 / 2.18 ± 0.04</td> <!-- CNN-DailyMail -->
    <td class="en know">0.37 ± 0.93 / 24.18 ± 0.90</td> <!-- MMLU -->
    <td class="en reason">-0.17 ± 0.50 / 24.82 ± 0.41</td> <!-- HellaSwag -->
   </tr>

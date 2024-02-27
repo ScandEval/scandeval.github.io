@@ -3,7 +3,7 @@ layout: leaderboard
 title: Insular Scandinavian NLG
 ---
 
-<center>Last updated: 26/02/2024 13:34:38 CET</center>
+<center>Last updated: 27/02/2024 09:37:09 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -242,7 +242,7 @@ title: Insular Scandinavian NLG
    <td class="is qa">16.85 ± 2.51 / 40.63 ± 2.83</td> <!-- NQiI -->
    <td class="fo ner">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- FoNE -->
    <td class="fo la">-0.28 ± 0.79 / 33.70 ± 0.64</td> <!-- ScaLA-fo -->
-   <td class="is summ">60.86 ± 3.13 / 16.33 ± 1.79</td> <!-- RRN -->
+   <td class="is summ">60.02 ± 3.15 / 14.22 ± 1.52</td> <!-- RRN -->
    <td class="is know">8.44 ± 0.73 / 31.23 ± 0.59</td> <!-- MMLU-is -->
    <td class="is reason">1.76 ± 1.09 / 25.68 ± 0.87</td> <!-- HellaSwag-is -->
   </tr>
@@ -299,7 +299,7 @@ title: Insular Scandinavian NLG
    <td class="is qa">0.00 ± 0.00 / 0.05 ± 0.03</td> <!-- NQiI -->
    <td class="fo ner">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- FoNE -->
    <td class="fo la">-0.24 ± 0.93 / 43.16 ± 3.72</td> <!-- ScaLA-fo -->
-   <td class="is summ">30.20 ± 0.17 / 2.36 ± 0.06</td> <!-- RRN -->
+   <td class="is summ">17.11 ± 1.37 / 0.96 ± 0.09</td> <!-- RRN -->
    <td class="is know">0.69 ± 0.98 / 23.34 ± 0.72</td> <!-- MMLU-is -->
    <td class="is reason">-0.36 ± 1.12 / 24.96 ± 0.63</td> <!-- HellaSwag-is -->
   </tr>

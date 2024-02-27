@@ -3,7 +3,7 @@ layout: leaderboard
 title: German NLG
 ---
 
-<center>Last updated: 26/02/2024 11:01:02 CET</center>
+<center>Last updated: 27/02/2024 09:37:11 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -141,7 +141,7 @@ title: German NLG
    <td class="de sent">53.14 ± 2.67 / 67.89 ± 2.15</td> <!-- SB10k -->
    <td class="de la">7.64 ± 2.47 / 37.95 ± 2.67</td> <!-- ScaLA-de -->
    <td class="de qa">30.12 ± 1.55 / 57.17 ± 2.38</td> <!-- GermanQuAD -->
-   <td class="de summ">66.73 ± 1.31 / 24.69 ± 3.17</td> <!-- MLSum -->
+   <td class="de summ">66.27 ± 1.20 / 22.97 ± 2.48</td> <!-- MLSum -->
    <td class="de know">29.80 ± 0.81 / 47.29 ± 0.57</td> <!-- MMLU-de -->
    <td class="de reason">22.91 ± 1.13 / 41.18 ± 1.10</td> <!-- HellaSwag-de -->
   </tr>
@@ -253,7 +253,7 @@ title: German NLG
    <td class="de sent">0.29 ± 1.28 / 17.22 ± 1.25</td> <!-- SB10k -->
    <td class="de la">-0.11 ± 1.16 / 36.65 ± 3.98</td> <!-- ScaLA-de -->
    <td class="de qa">0.00 ± 0.00 / 1.54 ± 0.12</td> <!-- GermanQuAD -->
-   <td class="de summ">30.97 ± 0.49 / 1.94 ± 0.26</td> <!-- MLSum -->
+   <td class="de summ">29.53 ± 0.57 / 1.46 ± 0.22</td> <!-- MLSum -->
    <td class="de know">-0.60 ± 1.00 / 22.86 ± 0.47</td> <!-- MMLU-de -->
    <td class="de reason">0.61 ± 1.22 / 24.32 ± 0.63</td> <!-- HellaSwag-de -->
   </tr>
