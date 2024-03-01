@@ -82,6 +82,18 @@ document.addEventListener('click', function (e) {
   }
 
   if (element.nodeName === 'TH') {
+
+    // Get the value of the underlying span, to check if we're working with a rank
+    // column, in which case we need to sort in ascending order
+    var sortAscending = false
+    var span = element.getElementsByTagName('span')[0]
+    if (span) {
+      column_name = getValue(span)
+      if (column_name.match(/rank/i)) {
+        sortAscending = true
+      }
+    }
+
     try {
       var tr = element.parentNode
       // var table = element.offsetParent; // Fails with positioned table elements
@@ -125,7 +137,11 @@ document.addEventListener('click', function (e) {
           y = y.replace(/ \/.*/g, '').replace(/ ± [0-9.]+/g, '').replace(/,/g, '').replace(/=/g, '')
           // var y = (reverse ? b : a).cells[column_index].innerText
           // var x = (reverse ? a : b).cells[column_index].innerText
-          return isNaN(x - y) ? x.localeCompare(y) : x - y
+          if (sortAscending) {
+            return isNaN(y - x) ? y.localeCompare(x) : y - x
+          } else {
+            return isNaN(x - y) ? x.localeCompare(y) : x - y
+          }
         })
 
         // Make a clone without content
