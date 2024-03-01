@@ -111,24 +111,23 @@ title: {title}
 <table id="{title_kebab}" class="sortable fixed centered small-font">
  <thead>
   <tr>
-   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="ScandEval statistically significant model rank">Rank</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Hugging Face Hub Model ID">Model ID</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Number of parameters in the model, in millions">Parameters</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Number of unique tokens that the model has been trained on, in thousands">Vocabulary size</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="The maximum amount of tokens the model can process">Context</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Number of tokens processed per second / Number of tokens processed in small documents per second">Speed</span></th>
 
-   <th id="score-col"><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="ScandEval score, mean of language scores">Score</span></th>
+   <th id="rank-col"><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="ScandEval rank, mean of language ranks">Rank</span></th>
     """
 
-    # Add language score columns, if there are multiple languages
+    # Add language rank columns, if there are multiple languages
     if len(language_mapping) > 1:
         for language_code, language_name in language_mapping.items():
             if language_code is None:
                 continue
             language_name_title = language_name.title()
             BENCHMARK_HTML_START += f"""
-   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Mean {language_name_title} score, 100% negatively correlated with mean datasets ranks">{language_name_title}</span></th>"""
+   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Mean {language_name_title} rank">{language_name_title} Rank</span></th>"""
         BENCHMARK_HTML_START += "\n"
 
     # Add dataset score columns
@@ -157,15 +156,14 @@ title: {title}
 </div>"""
 
     BENCHMARK_ENTRY = """  <tr class="{merge}">
-   <td class="rank">{rank}</td> <!-- Rank -->
    <td>{model_id}</td> <!-- Model ID -->
    <td class="num_model_parameters">{num_model_parameters}</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">{vocabulary_size}</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">{max_sequence_length}</td> <!-- Maximum sequence length of the model-->
    <td class="speed">{speed}</td> <!-- Model inference speed -->
-   <td class="score">{score}</td> <!-- ScandEval score -->"""
+   <td class="rank">{rank}</td> <!-- ScandEval rank -->"""
 
-    # Add language score columns, if there are multiple languages
+    # Add language rank columns, if there are multiple languages
     if len(language_mapping) > 1:
         for language_code, language_name in language_mapping.items():
             if language_code is None:
@@ -173,7 +171,7 @@ title: {title}
             language_code_lower = language_code.lower()
             language_name_title = language_name.title()
             BENCHMARK_ENTRY += f"""
-   <td class="{language_code_lower}-score">{{{language_code_lower}_score}}</td> <!-- {language_name_title} score -->"""
+   <td class="{language_code_lower}-rank">{{{language_code_lower}_rank}}</td> <!-- {language_name_title} rank -->"""
 
     # Add dataset score columns
     for dataset_name, language_code, task_code, _, _ in datasets:
@@ -398,7 +396,7 @@ title: {title}
 
         # Ensure that the scores are on the same scale
         for dataset, score_list in rank_score_dict.items():
-            if max(score_list) < 1:
+            if max(score_list) <= 1:
                 rank_score_dict[dataset] = [score * 100 for score in score_list]
 
         return rank_score_dict
@@ -480,17 +478,6 @@ title: {title}
                 rank += 1
             values[f"{dataset_underscore}_rank"] = str(rank)
 
-    # Compute scores for all datasets
-    for dataset, _, _, _, _ in datasets:
-        dataset_underscore = dataset.lower().replace(" ", "_").replace("-", "_")
-        dataset_ranks = [
-            int(values[f"{dataset_underscore}_rank"]) for values in all_values
-        ]
-        max_rank = max(dataset_ranks)
-        for values, rank in zip(all_values, dataset_ranks):
-            dataset_score = 100 * (max_rank - (rank - 1)) / max_rank
-            values[f"{dataset_underscore}_score"] = f"{dataset_score:.2f}"
-
     # Compute average scores for each language
     for language_code in language_mapping.keys():
         for values in all_values:
@@ -504,40 +491,23 @@ title: {title}
                 if not datasets_for_language_and_task:
                     continue
                 mean_score = np.mean([
-                    float(values[f"{dataset}_score"])
+                    float(values[f"{dataset}_rank"])
                     for dataset in datasets_for_language_and_task
                 ]).item()
                 mean_scores.append(mean_score)
             mean_score = np.mean(mean_scores).item()
-            values[f"{language_code}_score"] = f"{mean_score:.2f}"
+            values[f"{language_code}_rank"] = f"{mean_score:.2f}"
 
     # Compute the final score for each model
     for values in all_values:
         all_language_scores = [
-            float(values[f"{language_code}_score"])
+            float(values[f"{language_code}_rank"])
             for language_code in language_mapping.keys()
         ]
-        score = np.mean(all_language_scores).item()
-        values["score"] = f"{score:.2f}"
+        mean_rank = np.mean(all_language_scores).item()
+        values["rank"] = f"{mean_rank:.2f}"
 
-    # Compute the rank for each model
-    rank = 0
-    all_values = sorted(all_values, key=lambda x: float(x["score"]), reverse=True)
-    previous_score = None
-    for values in all_values:
-        if previous_score is None or float(values["score"]) < previous_score:
-            rank += 1
-            previous_score = float(values["score"])
-        values["rank"] = str(rank)
-
-    # Add a "=" suffix to the rank if it's not unique
-    for values in all_values:
-        num_models_with_same_rank = sum(
-            int(other_values["rank"].rstrip('=')) == int(values["rank"].rstrip('='))
-            for other_values in all_values
-        )
-        if num_models_with_same_rank > 1:
-            values["rank"] += "="
+    all_values = sorted(all_values, key=lambda x: float(x["rank"]))
 
     # Add HTML entry for the model, if it has been evaluated on all datasets
     for values in all_values:
@@ -585,13 +555,12 @@ def generate_csv(
 
     df = pd.DataFrame(all_values).map(clean_value).convert_dtypes()
     df = df[[
-        "rank",
         "model_id",
         "num_model_parameters",
         "vocabulary_size",
         "max_sequence_length",
         "speed",
-        "score",
+        "rank",
     ] + [
         language_score_column
         for language_score_column in df.columns
