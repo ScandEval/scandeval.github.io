@@ -17,6 +17,7 @@ publish:
 	@ls | grep -e "-test.csv" | sed "s/-test.*//" | xargs -I{} mv {}-test.csv {}.csv
 	@git add .
 	@git commit -m "feat: Update leaderboards"
+	@git push
 	@echo "Published leaderboards!"
 
 download:
