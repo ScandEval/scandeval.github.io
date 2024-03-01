@@ -3,7 +3,7 @@ layout: leaderboard
 title: Mainland Scandinavian NLG
 ---
 
-<center>Last updated: 01/03/2024 16:18:11 CET</center>
+<center>Last updated: 01/03/2024 16:24:54 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -20,7 +20,7 @@ title: Mainland Scandinavian NLG
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="The maximum amount of tokens the model can process">Context</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Number of tokens processed per second / Number of tokens processed in small documents per second">Speed</span></th>
 
-   <th id="score-col"><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="ScandEval rank, mean of language ranks">Rank</span></th>
+   <th id="rank-col"><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="ScandEval rank, mean of language ranks">Rank</span></th>
     
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Mean Danish rank">Danish Rank</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Mean Norwegian rank">Norwegian Rank</span></th>

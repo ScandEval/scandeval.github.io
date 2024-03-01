@@ -3,7 +3,7 @@ layout: leaderboard
 title: Insular Scandinavian NLU
 ---
 
-<center>Last updated: 01/03/2024 16:18:18 CET</center>
+<center>Last updated: 01/03/2024 16:25:00 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -20,7 +20,7 @@ title: Insular Scandinavian NLU
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="The maximum amount of tokens the model can process">Context</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Number of tokens processed per second / Number of tokens processed in small documents per second">Speed</span></th>
 
-   <th id="score-col"><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="ScandEval rank, mean of language ranks">Rank</span></th>
+   <th id="rank-col"><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="ScandEval rank, mean of language ranks">Rank</span></th>
     
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Mean Icelandic rank">Icelandic Rank</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Mean Faroese rank">Faroese Rank</span></th>
