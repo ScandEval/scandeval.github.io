@@ -14,7 +14,7 @@ leaderboards: download \
 
 publish:
 	@ls | grep -e "-test.md" | sed "s/-test.*//" | xargs -I{} mv {}-test.md {}.md
-	@ls | grep -e "-test.csv" | sed "s/-test.*//" | xargs -I{} mv {}-test.csv {}.md
+	@ls | grep -e "-test.csv" | sed "s/-test.*//" | xargs -I{} mv {}-test.csv {}.csv
 	@git add .
 	@git commit -m "feat: Update leaderboards"
 	@echo "Published leaderboards!"
