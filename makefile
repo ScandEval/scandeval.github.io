@@ -10,7 +10,7 @@ leaderboards: download \
 	dutch-nlg \
 	english-nlu \
 	english-nlg \
-	show-changed-leaderboards
+	publish-test-leaderboards
 
 publish:
 	@ls | grep -e "-test.md" | sed "s/-test.*//" | xargs -I{} mv {}-test.md {}.md
@@ -19,6 +19,13 @@ publish:
 	@git commit -m "feat: Update leaderboards"
 	@git push
 	@echo "Published leaderboards!"
+
+publish-test-leaderboards:
+	@ls | grep -e "-test.md" | xargs git add
+	@ls | grep -e "-test.csv" | xargs git add
+	@git commit -m "feat: Update test leaderboards"
+	@git push
+	@echo "Published test leaderboards!"
 
 download:
 	@scp -o ConnectTimeout=5 bk:/home/saattrupdan/scandeval/scandeval_benchmark_results.jsonl blackknight_results.jsonl || true
@@ -173,11 +180,11 @@ insular-scandi-nlg:
 			-d MIM-GOLD-NER is ner micro_f1_no_misc micro_f1 \
 			-d ScaLA-is is la mcc macro_f1 \
 			-d NQiI is qa em f1 \
-			-d FoNE fo ner micro_f1_no_misc micro_f1 \
-			-d ScaLA-fo fo la mcc macro_f1 \
 			-d RRN is summ bertscore rouge_l \
 			-d MMLU-is is know mcc accuracy \
 			-d HellaSwag-is is reason mcc accuracy
+			-d FoNE fo ner micro_f1_no_misc micro_f1 \
+			-d ScaLA-fo fo la mcc macro_f1
 
 german-nlu:
 	@source .venv/bin/activate && \
@@ -319,10 +326,3 @@ english-nlg:
 			-d CNN-DailyMail en summ bertscore rouge_l \
 			-d MMLU en know mcc accuracy \
 			-d HellaSwag en reason mcc accuracy
-
-show-changed-leaderboards:
-	@git status --short \
-		| grep "csv" \
-		| sed "s/ M //" \
-		| sed "s/.csv//" \
-		| xargs echo "New results in:$1"
