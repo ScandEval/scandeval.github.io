@@ -15,7 +15,9 @@ leaderboards: download \
 publish:
 	@ls | grep -e "-test.md" | sed "s/-test.*//" | xargs -I{} mv {}-test.md {}.md
 	@ls | grep -e "-test.csv" | sed "s/-test.*//" | xargs -I{} mv {}-test.csv {}.csv
-	@git add .
+	@ls | grep -e ".md" | xargs git add
+	@ls | grep -e ".csv" | xargs git add
+	@git add scandeval_benchmark_results.jsonl
 	@git commit -m "feat: Update leaderboards"
 	@git push
 	@echo "Published leaderboards!"
