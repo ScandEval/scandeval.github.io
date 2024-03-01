@@ -1,17 +1,298 @@
-rank,model_id,num_model_parameters,vocabulary_size,max_sequence_length,speed,score,conll_nl_score,dutch_social_score,scala_nl_score,squad_nl_score,wiki_lingua_nl_score,mmlu_nl_score,hellaswag_nl_score,nl_score,conll_nl,dutch_social,scala_nl,squad_nl,wiki_lingua_nl,mmlu_nl,hellaswag_nl
-1,"gpt-3.5-turbo-0613 (few-shot, val)",unknown,100,4095,1344,93.81,100.0,66.67,100.0,100.0,90,100.0,100,93.81,68.96,8.81,58.95,55.57,69.13,42.28,61.52
-2,"mlabonne/NeuralBeagle14-7B (few-shot, val)",7242.0,32,8192,2549,88.48,88.89,83.33,85.71,71.43,100,100.0,90,88.48,63.53,11.25,27.76,50.88,71.2,40.23,47.87
-3,mistralai/Mistral-7B-Instruct-v0.2 (few-shot),7242.0,32,32768,2538,75.37,77.78,83.33,71.43,71.43,80,63.64,80,75.37,55.56,12.37,21.5,50.8,67.98,22.86,24.8
-4,BramVanroy/GEITje-7B-ultra (few-shot),7242.0,32,8192,2475,74.29,44.44,100.0,57.14,85.71,80,72.73,80,74.29,42.25,12.78,18.23,53.44,68.3,26.92,25.72
-5,mistralai/Mistral-7B-v0.1 (few-shot),7242.0,32,32768,2657,70.83,77.78,50.0,85.71,71.43,50,90.91,70,70.83,58.15,7.94,25.41,50.14,64.24,35.49,19.88
-6,RuterNorway/Llama-2-13b-chat-norwegian (few-shot),unknown,32,4096,7778,70.62,77.78,66.67,57.14,100.0,60,72.73,60,70.62,57.66,8.41,16.93,56.29,66.22,25.7,17.92
-7,Rijgersberg/GEITje-7B (few-shot),7242.0,32,32768,10401,68.06,55.56,33.33,85.71,100.0,70,81.82,50,68.06,47.53,4.36,30.67,56.55,67.58,28.12,11.7
-8,mistralai/Mistral-7B-Instruct-v0.1 (few-shot),7242.0,32,32768,5443,61.75,66.67,50.0,57.14,85.71,50,72.73,50,61.75,52.72,7.91,18.14,52.74,64.8,26.06,14.26
-9,meta-llama/Llama-2-7b-chat-hf (few-shot),6738.0,32,4096,2643,60.92,66.67,66.67,42.86,85.71,70,54.55,40,60.92,50.23,10.07,14.73,53.41,67.59,20.19,11.42
-10,01-ai/Yi-6B (few-shot),6061.0,64,4096,2786,60.37,55.56,66.67,28.57,100.0,20,81.82,70,60.37,46.34,8.96,0.88,55.24,58.35,29.33,20.27
-11,meta-llama/Llama-2-7b-hf (few-shot),6738.0,32,4096,2648,44.27,44.44,50.0,57.14,42.86,40,45.45,30,44.27,40.49,7.1,18.66,37.51,62.58,17.36,6.68
-12,AI-Sweden-Models/gpt-sw3-20b (few-shot),20918.0,64,2048,4880,43.63,33.33,100.0,28.57,57.14,30,36.36,20,43.63,35.3,15.67,1.76,45.05,59.15,6.24,0.47
-13,RuterNorway/Llama-2-7b-chat-norwegian (few-shot),unknown,32,4096,10890,39.34,33.33,83.33,28.57,42.86,40,27.27,20,39.34,35.49,11.36,2.52,37.61,62.24,5.41,0.15
-14,Qwen/Qwen1.5-0.5B (few-shot),620.0,152,32768,11371,26.4,22.22,33.33,14.29,28.57,30,36.36,20,26.4,7.57,4.54,-0.42,20.81,58.4,7.44,1.7
-15,ai-forever/mGPT (few-shot),unknown,100,1024,13551,15.55,11.11,16.67,14.29,28.57,10,18.18,10,15.55,0.11,-0.67,-0.97,0.29,30.2,1.45,-0.56
-16,RJuro/kanelsnegl-v0.1 (few-shot),7242.0,32,512,9757,15.06,11.11,16.67,14.29,14.29,30,9.09,10,15.06,0.0,0.95,0.0,0.0,60.14,0.11,-0.13
+---
+layout: leaderboard
+title: Dutch NLG
+---
+
+<center>Last updated: 01/03/2024 14:46:48 CET</center>
+
+<div class="blocked centered">
+  <input type="checkbox" id="merged-models-checkbox">
+  <label for="merged-models-checkbox">Include merged models</label>
+</div>
+
+<div class="blocked table-wrapper centered">
+<table id="dutch-nlg-test" class="sortable fixed centered small-font">
+ <thead>
+  <tr>
+   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="ScandEval statistically significant model rank">Rank</span></th>
+   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Hugging Face Hub Model ID">Model ID</span></th>
+   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Number of parameters in the model, in millions">Parameters</span></th>
+   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Number of unique tokens that the model has been trained on, in thousands">Vocabulary size</span></th>
+   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="The maximum amount of tokens the model can process">Context</span></th>
+   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Number of tokens processed per second / Number of tokens processed in small documents per second">Speed</span></th>
+
+   <th id="score-col"><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="ScandEval score, mean of language scores">Score</span></th>
+    
+   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Dutch named entity recognition - Micro-average F1-score without MISC tags / Micro-average F1-score with MISC tags">CoNLL-nl</span></th>
+   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Dutch sentiment classification - Matthews Correlation Coefficient / Macro-average F1-score">Dutch Social</span></th>
+   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Dutch linguistic acceptability - Matthews Correlation Coefficient / Macro-average F1-score">ScaLA-nl</span></th>
+   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Dutch question answering - Exact Match / F1-score">SQuAD-nl</span></th>
+   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Dutch summarization - BERTScore / ROUGE-L">Wiki-Lingua-NL</span></th>
+   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Dutch knowledge - Matthews Correlation Coefficient / Accuracy">MMLU-nl</span></th>
+   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Dutch common sense reasoning - Matthews Correlation Coefficient / Accuracy">HellaSwag-nl</span></th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr class="not-merged-model">
+   <td class="rank">1</td> <!-- Rank -->
+   <td>gpt-3.5-turbo-0613 (few-shot, val)</td> <!-- Model ID -->
+   <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">100</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">4095</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">1,344 ± 455 / 4,023 ± 590</td> <!-- Model inference speed -->
+   <td class="score">93.81</td> <!-- ScandEval score -->
+   <td class="nl ner">68.96 ± 3.80 / 58.45 ± 3.71</td> <!-- CoNLL-nl -->
+   <td class="nl sent">8.81 ± 3.30 / 30.88 ± 2.25</td> <!-- Dutch Social -->
+   <td class="nl la">58.95 ± 4.48 / 78.64 ± 2.32</td> <!-- ScaLA-nl -->
+   <td class="nl qa">55.57 ± 2.33 / 68.26 ± 1.85</td> <!-- SQuAD-nl -->
+   <td class="nl summ">69.13 ± 0.41 / 21.32 ± 0.75</td> <!-- Wiki-Lingua-NL -->
+   <td class="nl know">42.28 ± 2.88 / 56.45 ± 2.26</td> <!-- MMLU-nl -->
+   <td class="nl reason">61.52 ± 2.69 / 70.62 ± 2.20</td> <!-- HellaSwag-nl -->
+  </tr>
+  <tr class="merged-model">
+   <td class="rank">2</td> <!-- Rank -->
+   <td>mlabonne/NeuralBeagle14-7B (few-shot, val)</td> <!-- Model ID -->
+   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">2,549 ± 472 / 784 ± 245</td> <!-- Model inference speed -->
+   <td class="score">88.48</td> <!-- ScandEval score -->
+   <td class="nl ner">63.53 ± 3.80 / 50.43 ± 2.90</td> <!-- CoNLL-nl -->
+   <td class="nl sent">11.25 ± 4.22 / 39.00 ± 3.14</td> <!-- Dutch Social -->
+   <td class="nl la">27.76 ± 4.44 / 62.44 ± 2.43</td> <!-- ScaLA-nl -->
+   <td class="nl qa">50.88 ± 1.15 / 70.09 ± 0.97</td> <!-- SQuAD-nl -->
+   <td class="nl summ">71.20 ± 0.46 / 23.47 ± 0.80</td> <!-- Wiki-Lingua-NL -->
+   <td class="nl know">40.23 ± 2.86 / 54.77 ± 2.16</td> <!-- MMLU-nl -->
+   <td class="nl reason">47.87 ± 2.49 / 60.78 ± 1.85</td> <!-- HellaSwag-nl -->
+  </tr>
+  <tr class="not-merged-model">
+   <td class="rank">3</td> <!-- Rank -->
+   <td>mistralai/Mistral-7B-Instruct-v0.2 (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">2,538 ± 415 / 821 ± 253</td> <!-- Model inference speed -->
+   <td class="score">75.37</td> <!-- ScandEval score -->
+   <td class="nl ner">55.56 ± 2.66 / 39.56 ± 2.13</td> <!-- CoNLL-nl -->
+   <td class="nl sent">12.37 ± 1.64 / 37.37 ± 1.35</td> <!-- Dutch Social -->
+   <td class="nl la">21.50 ± 1.70 / 59.10 ± 1.32</td> <!-- ScaLA-nl -->
+   <td class="nl qa">50.80 ± 0.91 / 66.54 ± 0.78</td> <!-- SQuAD-nl -->
+   <td class="nl summ">67.98 ± 0.50 / 19.54 ± 0.56</td> <!-- Wiki-Lingua-NL -->
+   <td class="nl know">22.86 ± 1.89 / 41.71 ± 1.45</td> <!-- MMLU-nl -->
+   <td class="nl reason">24.80 ± 1.77 / 42.93 ± 1.38</td> <!-- HellaSwag-nl -->
+  </tr>
+  <tr class="not-merged-model">
+   <td class="rank">4</td> <!-- Rank -->
+   <td>BramVanroy/GEITje-7B-ultra (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">2,475 ± 460 / 765 ± 238</td> <!-- Model inference speed -->
+   <td class="score">74.29</td> <!-- ScandEval score -->
+   <td class="nl ner">42.25 ± 2.12 / 27.85 ± 1.09</td> <!-- CoNLL-nl -->
+   <td class="nl sent">12.78 ± 2.52 / 42.17 ± 1.91</td> <!-- Dutch Social -->
+   <td class="nl la">18.23 ± 1.91 / 50.04 ± 2.54</td> <!-- ScaLA-nl -->
+   <td class="nl qa">53.44 ± 1.08 / 66.46 ± 0.45</td> <!-- SQuAD-nl -->
+   <td class="nl summ">68.30 ± 0.41 / 20.78 ± 0.62</td> <!-- Wiki-Lingua-NL -->
+   <td class="nl know">26.92 ± 1.09 / 44.44 ± 0.85</td> <!-- MMLU-nl -->
+   <td class="nl reason">25.72 ± 1.01 / 43.74 ± 0.69</td> <!-- HellaSwag-nl -->
+  </tr>
+  <tr class="not-merged-model">
+   <td class="rank">5</td> <!-- Rank -->
+   <td>mistralai/Mistral-7B-v0.1 (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">2,657 ± 524 / 880 ± 278</td> <!-- Model inference speed -->
+   <td class="score">70.83</td> <!-- ScandEval score -->
+   <td class="nl ner">58.15 ± 1.14 / 40.78 ± 1.91</td> <!-- CoNLL-nl -->
+   <td class="nl sent">7.94 ± 1.25 / 31.02 ± 3.45</td> <!-- Dutch Social -->
+   <td class="nl la">25.41 ± 3.46 / 61.11 ± 2.36</td> <!-- ScaLA-nl -->
+   <td class="nl qa">50.14 ± 2.64 / 59.42 ± 3.10</td> <!-- SQuAD-nl -->
+   <td class="nl summ">64.24 ± 0.91 / 17.54 ± 1.10</td> <!-- Wiki-Lingua-NL -->
+   <td class="nl know">35.49 ± 0.57 / 51.51 ± 0.42</td> <!-- MMLU-nl -->
+   <td class="nl reason">19.88 ± 1.80 / 39.13 ± 1.56</td> <!-- HellaSwag-nl -->
+  </tr>
+  <tr class="not-merged-model">
+   <td class="rank">6</td> <!-- Rank -->
+   <td>RuterNorway/Llama-2-13b-chat-norwegian (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">7,778 ± 1,755 / 1,703 ± 552</td> <!-- Model inference speed -->
+   <td class="score">70.62</td> <!-- ScandEval score -->
+   <td class="nl ner">57.66 ± 1.29 / 43.77 ± 2.78</td> <!-- CoNLL-nl -->
+   <td class="nl sent">8.41 ± 1.47 / 25.59 ± 1.30</td> <!-- Dutch Social -->
+   <td class="nl la">16.93 ± 2.60 / 55.72 ± 3.35</td> <!-- ScaLA-nl -->
+   <td class="nl qa">56.29 ± 1.11 / 68.94 ± 0.81</td> <!-- SQuAD-nl -->
+   <td class="nl summ">66.22 ± 0.50 / 19.03 ± 0.51</td> <!-- Wiki-Lingua-NL -->
+   <td class="nl know">25.70 ± 1.05 / 44.15 ± 0.82</td> <!-- MMLU-nl -->
+   <td class="nl reason">17.92 ± 1.69 / 37.64 ± 1.43</td> <!-- HellaSwag-nl -->
+  </tr>
+  <tr class="not-merged-model">
+   <td class="rank">7</td> <!-- Rank -->
+   <td>Rijgersberg/GEITje-7B (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">10,401 ± 2,529 / 2,123 ± 690</td> <!-- Model inference speed -->
+   <td class="score">68.06</td> <!-- ScandEval score -->
+   <td class="nl ner">47.53 ± 1.90 / 32.42 ± 1.99</td> <!-- CoNLL-nl -->
+   <td class="nl sent">4.36 ± 2.96 / 28.11 ± 4.71</td> <!-- Dutch Social -->
+   <td class="nl la">30.67 ± 4.45 / 63.78 ± 2.80</td> <!-- ScaLA-nl -->
+   <td class="nl qa">56.55 ± 0.70 / 67.56 ± 0.60</td> <!-- SQuAD-nl -->
+   <td class="nl summ">67.58 ± 0.85 / 22.14 ± 1.21</td> <!-- Wiki-Lingua-NL -->
+   <td class="nl know">28.12 ± 0.98 / 44.50 ± 0.93</td> <!-- MMLU-nl -->
+   <td class="nl reason">11.70 ± 2.42 / 32.05 ± 1.90</td> <!-- HellaSwag-nl -->
+  </tr>
+  <tr class="not-merged-model">
+   <td class="rank">8</td> <!-- Rank -->
+   <td>mistralai/Mistral-7B-Instruct-v0.1 (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">5,443 ± 1,273 / 1,144 ± 364</td> <!-- Model inference speed -->
+   <td class="score">61.75</td> <!-- ScandEval score -->
+   <td class="nl ner">52.72 ± 2.58 / 33.51 ± 1.22</td> <!-- CoNLL-nl -->
+   <td class="nl sent">7.91 ± 2.16 / 27.82 ± 1.97</td> <!-- Dutch Social -->
+   <td class="nl la">18.14 ± 2.10 / 55.42 ± 3.05</td> <!-- ScaLA-nl -->
+   <td class="nl qa">52.74 ± 0.82 / 67.11 ± 1.04</td> <!-- SQuAD-nl -->
+   <td class="nl summ">64.80 ± 0.94 / 16.55 ± 0.82</td> <!-- Wiki-Lingua-NL -->
+   <td class="nl know">26.06 ± 0.77 / 44.08 ± 0.51</td> <!-- MMLU-nl -->
+   <td class="nl reason">14.26 ± 1.48 / 35.14 ± 1.18</td> <!-- HellaSwag-nl -->
+  </tr>
+  <tr class="not-merged-model">
+   <td class="rank">9</td> <!-- Rank -->
+   <td>meta-llama/Llama-2-7b-chat-hf (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">6738</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">2,643 ± 455 / 800 ± 247</td> <!-- Model inference speed -->
+   <td class="score">60.92</td> <!-- ScandEval score -->
+   <td class="nl ner">50.23 ± 2.34 / 37.12 ± 3.30</td> <!-- CoNLL-nl -->
+   <td class="nl sent">10.07 ± 1.84 / 35.66 ± 2.24</td> <!-- Dutch Social -->
+   <td class="nl la">14.73 ± 1.62 / 54.59 ± 2.24</td> <!-- ScaLA-nl -->
+   <td class="nl qa">53.41 ± 0.79 / 66.24 ± 0.81</td> <!-- SQuAD-nl -->
+   <td class="nl summ">67.59 ± 0.55 / 18.43 ± 0.64</td> <!-- Wiki-Lingua-NL -->
+   <td class="nl know">20.19 ± 1.26 / 39.24 ± 1.03</td> <!-- MMLU-nl -->
+   <td class="nl reason">11.42 ± 1.29 / 32.50 ± 1.10</td> <!-- HellaSwag-nl -->
+  </tr>
+  <tr class="not-merged-model">
+   <td class="rank">10</td> <!-- Rank -->
+   <td>01-ai/Yi-6B (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">6061</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">2,786 ± 532 / 784 ± 250</td> <!-- Model inference speed -->
+   <td class="score">60.37</td> <!-- ScandEval score -->
+   <td class="nl ner">46.34 ± 2.00 / 33.30 ± 1.78</td> <!-- CoNLL-nl -->
+   <td class="nl sent">8.96 ± 1.44 / 18.10 ± 2.39</td> <!-- Dutch Social -->
+   <td class="nl la">0.88 ± 1.23 / 33.53 ± 0.48</td> <!-- ScaLA-nl -->
+   <td class="nl qa">55.24 ± 1.32 / 66.42 ± 0.97</td> <!-- SQuAD-nl -->
+   <td class="nl summ">58.35 ± 1.57 / 14.29 ± 0.85</td> <!-- Wiki-Lingua-NL -->
+   <td class="nl know">29.33 ± 0.91 / 46.94 ± 0.68</td> <!-- MMLU-nl -->
+   <td class="nl reason">20.27 ± 1.38 / 39.32 ± 1.12</td> <!-- HellaSwag-nl -->
+  </tr>
+  <tr class="not-merged-model">
+   <td class="rank">11</td> <!-- Rank -->
+   <td>meta-llama/Llama-2-7b-hf (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">6738</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">2,648 ± 467 / 799 ± 250</td> <!-- Model inference speed -->
+   <td class="score">44.27</td> <!-- ScandEval score -->
+   <td class="nl ner">40.49 ± 4.32 / 30.86 ± 2.27</td> <!-- CoNLL-nl -->
+   <td class="nl sent">7.10 ± 1.85 / 27.42 ± 1.76</td> <!-- Dutch Social -->
+   <td class="nl la">18.66 ± 2.39 / 55.25 ± 3.77</td> <!-- ScaLA-nl -->
+   <td class="nl qa">37.51 ± 2.13 / 44.59 ± 2.68</td> <!-- SQuAD-nl -->
+   <td class="nl summ">62.58 ± 1.13 / 16.33 ± 0.81</td> <!-- Wiki-Lingua-NL -->
+   <td class="nl know">17.36 ± 1.12 / 37.44 ± 0.99</td> <!-- MMLU-nl -->
+   <td class="nl reason">6.68 ± 1.82 / 29.30 ± 1.02</td> <!-- HellaSwag-nl -->
+  </tr>
+  <tr class="not-merged-model">
+   <td class="rank">12</td> <!-- Rank -->
+   <td>AI-Sweden-Models/gpt-sw3-20b (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">20918</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">4,880 ± 1,052 / 1,181 ± 380</td> <!-- Model inference speed -->
+   <td class="score">43.63</td> <!-- ScandEval score -->
+   <td class="nl ner">35.30 ± 3.76 / 33.68 ± 1.80</td> <!-- CoNLL-nl -->
+   <td class="nl sent">15.67 ± 2.21 / 31.30 ± 4.51</td> <!-- Dutch Social -->
+   <td class="nl la">1.76 ± 2.37 / 47.60 ± 1.68</td> <!-- ScaLA-nl -->
+   <td class="nl qa">45.05 ± 1.68 / 55.38 ± 1.66</td> <!-- SQuAD-nl -->
+   <td class="nl summ">59.15 ± 1.54 / 14.60 ± 0.72</td> <!-- Wiki-Lingua-NL -->
+   <td class="nl know">6.24 ± 1.54 / 29.02 ± 1.30</td> <!-- MMLU-nl -->
+   <td class="nl reason">0.47 ± 1.20 / 24.89 ± 0.59</td> <!-- HellaSwag-nl -->
+  </tr>
+  <tr class="not-merged-model">
+   <td class="rank">13</td> <!-- Rank -->
+   <td>RuterNorway/Llama-2-7b-chat-norwegian (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">10,890 ± 2,686 / 2,186 ± 750</td> <!-- Model inference speed -->
+   <td class="score">39.34</td> <!-- ScandEval score -->
+   <td class="nl ner">35.49 ± 3.10 / 29.35 ± 2.75</td> <!-- CoNLL-nl -->
+   <td class="nl sent">11.36 ± 1.56 / 30.66 ± 3.68</td> <!-- Dutch Social -->
+   <td class="nl la">2.52 ± 2.14 / 42.60 ± 4.80</td> <!-- ScaLA-nl -->
+   <td class="nl qa">37.61 ± 1.36 / 47.48 ± 1.51</td> <!-- SQuAD-nl -->
+   <td class="nl summ">62.24 ± 0.86 / 15.62 ± 0.60</td> <!-- Wiki-Lingua-NL -->
+   <td class="nl know">5.41 ± 1.15 / 27.75 ± 0.75</td> <!-- MMLU-nl -->
+   <td class="nl reason">0.15 ± 0.98 / 25.59 ± 0.57</td> <!-- HellaSwag-nl -->
+  </tr>
+  <tr class="not-merged-model">
+   <td class="rank">14</td> <!-- Rank -->
+   <td>Qwen/Qwen1.5-0.5B (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">620</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">152</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">11,371 ± 2,924 / 2,122 ± 692</td> <!-- Model inference speed -->
+   <td class="score">26.40</td> <!-- ScandEval score -->
+   <td class="nl ner">7.57 ± 2.87 / 7.52 ± 2.90</td> <!-- CoNLL-nl -->
+   <td class="nl sent">4.54 ± 2.76 / 26.53 ± 3.74</td> <!-- Dutch Social -->
+   <td class="nl la">-0.42 ± 2.41 / 37.60 ± 3.89</td> <!-- ScaLA-nl -->
+   <td class="nl qa">20.81 ± 2.21 / 29.05 ± 2.31</td> <!-- SQuAD-nl -->
+   <td class="nl summ">58.40 ± 2.03 / 10.34 ± 0.54</td> <!-- Wiki-Lingua-NL -->
+   <td class="nl know">7.44 ± 0.51 / 29.86 ± 0.35</td> <!-- MMLU-nl -->
+   <td class="nl reason">1.70 ± 1.42 / 26.04 ± 0.91</td> <!-- HellaSwag-nl -->
+  </tr>
+  <tr class="not-merged-model">
+   <td class="rank">15</td> <!-- Rank -->
+   <td>ai-forever/mGPT (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">100</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">1024</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">13,551 ± 4,259 / 2,563 ± 838</td> <!-- Model inference speed -->
+   <td class="score">15.55</td> <!-- ScandEval score -->
+   <td class="nl ner">0.11 ± 0.21 / 0.27 ± 0.53</td> <!-- CoNLL-nl -->
+   <td class="nl sent">-0.67 ± 1.33 / 8.96 ± 0.37</td> <!-- Dutch Social -->
+   <td class="nl la">-0.97 ± 1.56 / 34.83 ± 1.94</td> <!-- ScaLA-nl -->
+   <td class="nl qa">0.29 ± 0.21 / 1.56 ± 0.19</td> <!-- SQuAD-nl -->
+   <td class="nl summ">30.20 ± 0.68 / 2.14 ± 0.04</td> <!-- Wiki-Lingua-NL -->
+   <td class="nl know">1.45 ± 0.84 / 24.91 ± 0.60</td> <!-- MMLU-nl -->
+   <td class="nl reason">-0.56 ± 0.80 / 23.53 ± 0.49</td> <!-- HellaSwag-nl -->
+  </tr>
+  <tr class="not-merged-model">
+   <td class="rank">16</td> <!-- Rank -->
+   <td>RJuro/kanelsnegl-v0.1 (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">9,757 ± 2,047 / 2,200 ± 705</td> <!-- Model inference speed -->
+   <td class="score">15.06</td> <!-- ScandEval score -->
+   <td class="nl ner">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- CoNLL-nl -->
+   <td class="nl sent">0.95 ± 1.17 / 9.87 ± 0.86</td> <!-- Dutch Social -->
+   <td class="nl la">0.00 ± 0.00 / 33.34 ± 0.31</td> <!-- ScaLA-nl -->
+   <td class="nl qa">0.00 ± 0.00 / 5.46 ± 0.58</td> <!-- SQuAD-nl -->
+   <td class="nl summ">60.14 ± 0.15 / 10.07 ± 0.16</td> <!-- Wiki-Lingua-NL -->
+   <td class="nl know">0.11 ± 0.64 / 24.32 ± 0.78</td> <!-- MMLU-nl -->
+   <td class="nl reason">-0.13 ± 0.82 / 23.60 ± 0.33</td> <!-- HellaSwag-nl -->
+  </tr>
+ </tbody>
+</table>
+</div>
+
+<div class="end-note">
+  <a href="https://scandeval.com/dutch-nlg-test.csv" target="_blank">Download as CSV</a>
+</div>
