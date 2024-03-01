@@ -93,7 +93,7 @@ def generate_leaderboard(
     metric_mapping["speed"] = "Number of tokens processed per second"
     metric_mapping["speed_short"] = "Number of tokens processed in small documents per second"
 
-    title_kebab = title.lower().replace(" ", "-")
+    title_kebab = title.lower().replace(" ", "-") + "-test"
 
     BENCHMARK_HTML_START = f"""---
 layout: leaderboard

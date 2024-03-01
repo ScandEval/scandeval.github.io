@@ -12,6 +12,13 @@ leaderboards: download \
 	english-nlg \
 	show-changed-leaderboards
 
+publish:
+	@ls | grep -e "-test.md" | sed "s/-test.*//" | xargs -I{} mv {}-test.md {}.md
+	@ls | grep -e "-test.csv" | sed "s/-test.*//" | xargs -I{} mv {}-test.csv {}.md
+	@git add .
+	@git commit -m "feat: Update leaderboards"
+	@echo "Published leaderboards!"
+
 download:
 	@scp -o ConnectTimeout=5 bk:/home/saattrupdan/scandeval/scandeval_benchmark_results.jsonl blackknight_results.jsonl || true
 	@scp -o ConnectTimeout=5 rabbit:/home/ubuntu/scandeval_benchmark_results.jsonl rabbit_results.jsonl || true
