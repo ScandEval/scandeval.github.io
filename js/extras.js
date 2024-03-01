@@ -48,3 +48,16 @@ if(scoreColumn){
   });
   scoreColumn.dispatchEvent(click);
 }
+
+// Sort the language model benchmark by the Rank column
+rankColumn = document.getElementById('rank-col')
+if(rankColumn){
+  var click = new MouseEvent("click", {
+      view: window,
+      bubbles: true,
+      cancelable: true,
+      clientX: 20,
+  });
+  rankColumn.dispatchEvent(click);
+  rankColumn.dispatchEvent(click);
+}
