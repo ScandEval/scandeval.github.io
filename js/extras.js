@@ -59,5 +59,4 @@ if(rankColumn){
       clientX: 20,
   });
   rankColumn.dispatchEvent(click);
-  rankColumn.dispatchEvent(click);
 }
