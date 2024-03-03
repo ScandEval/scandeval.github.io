@@ -1,7 +1,9 @@
 model_id,num_model_parameters,vocabulary_size,max_sequence_length,speed,rank,mim_gold_ner,scala_is,nqii,rrn,mmlu_is,hellaswag_is
 01-ai/Yi-6B (few-shot),6061.0,64,4096,2786,nan,0.0,2.12,16.85,60.02,8.44,1.76
 AI-Sweden-Models/gpt-sw3-20b (few-shot),20918.0,64,2048,4880,nan,27.54,4.61,28.12,68.35,3.32,2.41
+Qwen/Qwen1.5-0.5B-Chat (few-shot),620.0,152,32768,11740,nan,0.32,1.76,3.1,58.94,2.82,1.31
 Qwen/Qwen1.5-0.5B (few-shot),620.0,152,32768,11371,nan,1.14,-0.57,3.31,56.0,2.71,0.95
+Qwen/Qwen1.5-1.8B (few-shot),1837.0,152,32768,5666,nan,0.03,0.94,6.31,55.32,3.79,-0.53
 RJuro/kanelsnegl-v0.1 (few-shot),7242.0,32,512,9757,nan,0.0,0.0,0.0,55.33,0.0,0.0
 Rijgersberg/GEITje-7B (few-shot),7242.0,32,32768,10401,nan,22.55,-0.44,11.98,65.35,2.15,0.34
 RuterNorway/Llama-2-13b-chat-norwegian (few-shot),unknown,32,4096,7778,nan,28.35,3.14,19.8,65.49,7.74,2.72
