@@ -3,7 +3,7 @@ layout: leaderboard
 title: German NLU
 ---
 
-<center>Last updated: 04/03/2024 18:28:58 CET</center>
+<center>Last updated: 04/03/2024 18:44:31 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -244,6 +244,18 @@ title: German NLU
    <td class="de sent">59.51 ± 1.54 / 72.84 ± 1.06</td> <!-- SB10k -->
    <td class="de la">32.54 ± 11.48 / 60.57 ± 7.28</td> <!-- ScaLA-de -->
    <td class="de qa">1.53 ± 0.96 / 2.39 ± 1.52</td> <!-- GermanQuAD -->
+  </tr>
+  <tr class="not-merged-model">
+   <td>jhu-clsp/bernice</td> <!-- Model ID -->
+   <td class="num_model_parameters">277</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">128</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">5,567 ± 450 / 2,483 ± 798</td> <!-- Model inference speed -->
+   <td class="rank">16.87</td> <!-- ScandEval rank -->
+   <td class="de ner">72.25 ± 1.06 / 71.08 ± 1.17</td> <!-- GermEval -->
+   <td class="de sent">62.00 ± 2.11 / 74.40 ± 1.38</td> <!-- SB10k -->
+   <td class="de la">48.10 ± 4.34 / 71.95 ± 3.29</td> <!-- ScaLA-de -->
+   <td class="de qa">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- GermanQuAD -->
   </tr>
   <tr class="not-merged-model">
    <td>mistralai/Mistral-7B-v0.1 (few-shot)</td> <!-- Model ID -->
@@ -534,6 +546,30 @@ title: German NLU
    <td class="de qa">13.61 ± 1.64 / 29.08 ± 1.96</td> <!-- GermanQuAD -->
   </tr>
   <tr class="not-merged-model">
+   <td>fresh-electra-small</td> <!-- Model ID -->
+   <td class="num_model_parameters">13</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">31</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">7,219 ± 712 / 3,276 ± 803</td> <!-- Model inference speed -->
+   <td class="rank">41.84</td> <!-- ScandEval rank -->
+   <td class="de ner">9.42 ± 0.82 / 9.75 ± 0.87</td> <!-- GermEval -->
+   <td class="de sent">9.76 ± 8.55 / 28.33 ± 9.75</td> <!-- SB10k -->
+   <td class="de la">-0.18 ± 0.64 / 33.67 ± 0.62</td> <!-- ScaLA-de -->
+   <td class="de qa">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- GermanQuAD -->
+  </tr>
+  <tr class="not-merged-model">
+   <td>ai-forever/mGPT (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">100</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">1024</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">13,551 ± 4,259 / 2,563 ± 838</td> <!-- Model inference speed -->
+   <td class="rank">46.61</td> <!-- ScandEval rank -->
+   <td class="de ner">0.30 ± 0.60 / 0.26 ± 0.50</td> <!-- GermEval -->
+   <td class="de sent">0.29 ± 1.28 / 17.22 ± 1.25</td> <!-- SB10k -->
+   <td class="de la">-0.11 ± 1.16 / 36.65 ± 3.98</td> <!-- ScaLA-de -->
+   <td class="de qa">0.00 ± 0.00 / 1.54 ± 0.12</td> <!-- GermanQuAD -->
+  </tr>
+  <tr class="not-merged-model">
    <td>RJuro/kanelsnegl-v0.1 (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -544,42 +580,6 @@ title: German NLU
    <td class="de sent">0.00 ± 0.00 / 17.05 ± 0.35</td> <!-- SB10k -->
    <td class="de la">0.00 ± 0.00 / 33.34 ± 0.31</td> <!-- ScaLA-de -->
    <td class="de qa">0.00 ± 0.00 / 14.60 ± 0.67</td> <!-- GermanQuAD -->
-  </tr>
-  <tr class="not-merged-model">
-   <td>ai-forever/mGPT (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">100</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">1024</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">13,551 ± 4,259 / 2,563 ± 838</td> <!-- Model inference speed -->
-   <td class="rank">nan</td> <!-- ScandEval rank -->
-   <td class="de ner">0.30 ± 0.60 / 0.26 ± 0.50</td> <!-- GermEval -->
-   <td class="de sent">0.29 ± 1.28 / 17.22 ± 1.25</td> <!-- SB10k -->
-   <td class="de la">-0.11 ± 1.16 / 36.65 ± 3.98</td> <!-- ScaLA-de -->
-   <td class="de qa">0.00 ± 0.00 / 1.54 ± 0.12</td> <!-- GermanQuAD -->
-  </tr>
-  <tr class="not-merged-model">
-   <td>fresh-electra-small</td> <!-- Model ID -->
-   <td class="num_model_parameters">13</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">31</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">7,219 ± 712 / 3,276 ± 803</td> <!-- Model inference speed -->
-   <td class="rank">nan</td> <!-- ScandEval rank -->
-   <td class="de ner">9.42 ± 0.82 / 9.75 ± 0.87</td> <!-- GermEval -->
-   <td class="de sent">9.76 ± 8.55 / 28.33 ± 9.75</td> <!-- SB10k -->
-   <td class="de la">-0.18 ± 0.64 / 33.67 ± 0.62</td> <!-- ScaLA-de -->
-   <td class="de qa">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- GermanQuAD -->
-  </tr>
-  <tr class="not-merged-model">
-   <td>jhu-clsp/bernice</td> <!-- Model ID -->
-   <td class="num_model_parameters">277</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">128</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">5,567 ± 450 / 2,483 ± 798</td> <!-- Model inference speed -->
-   <td class="rank">nan</td> <!-- ScandEval rank -->
-   <td class="de ner">72.25 ± 1.06 / 71.08 ± 1.17</td> <!-- GermEval -->
-   <td class="de sent">62.00 ± 2.11 / 74.40 ± 1.38</td> <!-- SB10k -->
-   <td class="de la">48.10 ± 4.34 / 71.95 ± 3.29</td> <!-- ScaLA-de -->
-   <td class="de qa">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- GermanQuAD -->
   </tr>
  </tbody>
 </table>
