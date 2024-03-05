@@ -117,7 +117,7 @@ title: {title}
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="The maximum amount of tokens the model can process">Context</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Number of tokens processed per second / Number of tokens processed in small documents per second">Speed</span></th>
 
-   <th id="rank-col"><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="ScandEval rank, mean of language ranks">Rank</span></th>
+   <th id="rank-col"><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="ScandEval rank, computed as 1 + the average number of standard deviations away from the best model">Rank</span></th>
     """
 
     # Add language rank columns, if there are multiple languages
@@ -127,7 +127,7 @@ title: {title}
                 continue
             language_name_title = language_name.title()
             BENCHMARK_HTML_START += f"""
-   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Mean {language_name_title} rank">{language_name_title} Rank</span></th>"""
+   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="{language_name_title} rank, computed as 1 + the average number of standard deviations away from the best model">{language_name_title} Rank</span></th>"""
         BENCHMARK_HTML_START += "\n"
 
     # Add dataset score columns
@@ -371,112 +371,109 @@ title: {title}
                         f"datasets {missing_datasets}."
                     )
 
-    def extract_scores_for_model(model_id: str) -> dict[str, list[float]]:
+    def extract_scores_for_model(model_id: str, dataset: str) -> list[float]:
+        """Extract the scores for a model on a specific dataset.
+
+        Args:
+            model_id:
+                The model ID to extract the scores for.
+            dataset:
+                The dataset to extract the scores for.
+
+        Returns:
+            The scores for the model on the dataset.
+
+        Raises:
+            ValueError:
+                If the scores for the model on the dataset could not be found, or if
+                there are multiple scores for the model on the dataset.
+        """
         validation_split = re.search(r"\(.*val.*\)", model_id) is not None
-        rank_score_dict = {
-            score_dict["dataset"]: [
-                result_dict.get(f"test_{metric_name}", result_dict.get(metric_name, -1))
-                for result_dict in score_dict["results"]["raw"]["test"]
-                for dataset, _, _, metric_name, _ in datasets
-                if dataset.lower().replace(" ", "-") == score_dict["dataset"]
-            ]
-            for score_dict in scores
-            if score_dict["model"] == re.sub(r" *\(.+\) *", "", model_id)
-            and score_dict.get("validation_split", False) == validation_split
-        }
+        model_id = re.sub(r" *\(.+\) *", "", model_id.lower())
 
-        if any(-1 in scores for scores in rank_score_dict.values()):
-            raise ValueError(f"Found -1 in {rank_score_dict}")
+        possible_score_dicts = [
+            dct for dct in scores
+            if dct["model"].lower() == model_id
+            and dct["dataset"].lower().replace(" ", "_").replace("-", "_") == dataset
+            and dct.get("validation_split", False) == validation_split
+        ]
+        if not possible_score_dicts:
+            raise ValueError(f"Could not find scores for {model_id} on {dataset}")
+        if len(possible_score_dicts) > 1:
+            raise ValueError(f"Found multiple scores for {model_id} on {dataset}")
 
-        rank_score_dict = {
-            dataset: scores
-            for dataset, scores in sorted(rank_score_dict.items(), key=lambda x: x[0])
-            if scores
-        }
+        raw_scores = [
+            result_dict.get(f"test_{metric_name}", result_dict.get(metric_name, -1))
+            for score_dict in possible_score_dicts
+            for result_dict in score_dict["results"]["raw"]["test"]
+            for dataset, _, _, metric_name, _ in datasets
+            if dataset.lower().replace(" ", "-") == score_dict["dataset"]
+        ]
+
+        if any(score == -1 for score in raw_scores):
+            raise ValueError(f"Found -1 in {raw_scores}")
 
         # Ensure that the scores are on the same scale
-        for dataset, score_list in rank_score_dict.items():
-            if max(score_list) <= 1:
-                rank_score_dict[dataset] = [score * 100 for score in score_list]
+        if max(raw_scores) <= 1:
+            raw_scores = [score * 100 for score in raw_scores]
 
-        return rank_score_dict
+        return raw_scores
 
-    def score_dicts_statistically_better(
-        score_dict_1: dict[str, list[float]],
-        score_dict_2: dict[str, list[float]],
-        dataset: str | None,
-    ) -> bool:
-        if dataset is None and list(score_dict_1.keys()) != list(score_dict_2.keys()):
-            raise ValueError(
-                f"The two score dicts must have the same keys: "
-                f"{list(score_dict_1.keys())} != {list(score_dict_2.keys())}"
-            )
+    def significantly_better(
+        score_values_1: list[float], score_values_2: list[float]
+    ) -> float:
+        """Compute one-tailed t-statistic for the difference between two sets of scores.
 
-        score_values_1 = [
-            score
-            for dataset_key, scores in score_dict_1.items()
-            for score in scores
-            if dataset is None
-            or dataset_key.lower().replace(" ", "_").replace("-", "_") == dataset
-        ]
-        score_values_2 = [
-            score
-            for dataset_key, scores in score_dict_2.items()
-            for score in scores
-            if dataset is None
-            or dataset_key.lower().replace(" ", "_").replace("-", "_") == dataset
-        ]
+        Args:
+            score_values_1:
+                The first set of scores.
+            score_values_2:
+                The second set of scores.
+
+        Returns:
+            The t-statistic of the difference between the two sets of scores, where
+            a positive t-statistic indicates that the first set of scores is
+            statistically better than the second set of scores.
+        """
         assert len(score_values_1) == len(score_values_2)
+        if score_values_1 == score_values_2:
+            return 0
+        test_result = stats.ttest_ind(
+            a=score_values_1, b=score_values_2, alternative="greater", equal_var=False
+        )
+        return test_result.pvalue < 0.05
 
-        # Separate the scores into groups of 10, consisting of the scores for each
-        # dataset
-        group_scores_1 = [
-            score_values_1[idx:idx+10] for idx in range(0, len(score_values_1), 10)
-        ]
-        group_scores_2 = [
-            score_values_2[idx:idx+10] for idx in range(0, len(score_values_2), 10)
-        ]
-
-        # Compute t-statistics for each group separately, and compute the mean
-        # t-statistic
-        t_statistics = [
-            stats.ttest_ind(a=group_1, b=group_2, alternative="greater").statistic
-            for group_1, group_2 in zip(group_scores_1, group_scores_2)
-        ]
-        mean_t_statistic = np.mean(t_statistics)
-
-        # Compute the p-value for the mean t-statistic, where the null hypothesis is
-        # that the first group does not have a larger mean score than the second group
-        degrees_of_freedom = len(score_values_1) - 1
-        p_value = 1 - stats.t.cdf(abs(mean_t_statistic), degrees_of_freedom)
-
-        return p_value < 0.05
-
-    # Compute ranks for all datasets
-    for dataset, _, _, _, _ in tqdm(datasets, desc="Computing ranks"):
+    # Compute rank scores for all datasets
+    for dataset, _, _, _, _ in tqdm(datasets, desc="Computing rank scores"):
         dataset_underscore = dataset.lower().replace(" ", "_").replace("-", "_")
         dataset_values_sorted = sorted(
             all_values,
             key=lambda x: float(x[dataset_underscore].split()[0]),
             reverse=True,
         )
-        rank = 1
-        rank_scores: dict[str, list[float]] = dict()
+        stddev = np.std([
+            float(values[dataset_underscore].split()[0])
+            for values in dataset_values_sorted
+        ])
+        rank_score = 1
+        previous_scores: list[float] = list()
         for idx, values in enumerate(dataset_values_sorted):
             if idx == 0:
-                values[f"{dataset_underscore}_rank"] = str(rank)
-                rank_scores = extract_scores_for_model(model_id=values["model_id"])
+                values[f"{dataset_underscore}_rank"] = str(rank_score)
+                previous_scores = extract_scores_for_model(
+                    model_id=values["model_id"], dataset=dataset_underscore
+                )
                 continue
-            current_scores = extract_scores_for_model(model_id=values["model_id"])
+            current_scores = extract_scores_for_model(
+                model_id=values["model_id"], dataset=dataset_underscore
+            )
 
-            if score_dicts_statistically_better(
-                score_dict_1=rank_scores,
-                score_dict_2=current_scores,
-                dataset=dataset_underscore,
-            ):
-                rank_scores = current_scores
-                rank += 1
-            values[f"{dataset_underscore}_rank"] = str(rank)
+            if significantly_better(previous_scores, current_scores):
+                difference = np.mean(previous_scores) - np.mean(current_scores)
+                normalised_difference = difference / stddev
+                previous_scores = current_scores
+                rank_score += normalised_difference
+            values[f"{dataset_underscore}_rank"] = str(rank_score)
 
     # Compute average scores for each language
     for language_code in language_mapping.keys():
