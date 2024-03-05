@@ -13,8 +13,8 @@ leaderboards: download \
 	publish-test-leaderboards
 
 publish:
-	@ls | grep -e "-test.md" | sed "s/-test.*//" | xargs -I{} mv {}-test.md {}.md
-	@ls | grep -e "-test.csv" | sed "s/-test.*//" | xargs -I{} mv {}-test.csv {}.csv
+	@ls | grep -e "-test.md" | sed "s/-test.*//" | xargs -I{} cp {}-test.md {}.md
+	@ls | grep -e "-test.csv" | sed "s/-test.*//" | xargs -I{} cp {}-test.csv {}.csv
 	@ls | grep -e ".md" | xargs git add
 	@ls | grep -e ".csv" | xargs git add
 	@git add scandeval_benchmark_results.jsonl
