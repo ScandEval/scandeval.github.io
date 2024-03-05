@@ -3,7 +3,7 @@ layout: leaderboard
 title: Mainland Scandinavian NLG
 ---
 
-<center>Last updated: 05/03/2024 10:11:20 CET</center>
+<center>Last updated: 05/03/2024 11:02:10 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -22,9 +22,9 @@ title: Mainland Scandinavian NLG
 
    <th id="rank-col"><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="ScandEval rank, mean of language ranks">Rank</span></th>
     
-   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Mean Danish rank">Danish Rank</span></th>
-   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Mean Norwegian rank">Norwegian Rank</span></th>
-   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Mean Swedish rank">Swedish Rank</span></th>
+   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Danish rank, computed as 1 + the average number of standard deviations away from the best model">Danish Rank</span></th>
+   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Norwegian rank, computed as 1 + the average number of standard deviations away from the best model">Norwegian Rank</span></th>
+   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Swedish rank, computed as 1 + the average number of standard deviations away from the best model">Swedish Rank</span></th>
 
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Danish named entity recognition - Micro-average F1-score without MISC tags / Micro-average F1-score with MISC tags">DANSK</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Danish sentiment classification - Matthews Correlation Coefficient / Macro-average F1-score">Angry Tweets</span></th>
