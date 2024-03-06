@@ -1,13 +1,14 @@
 """Removes duplicate entries from a JSONL file."""
 
+import warnings
 import click
 import json
 from pathlib import Path
 import logging
 from huggingface_hub import HfApi
 from huggingface_hub.hf_api import RepositoryNotFoundError
-from tqdm.auto import tqdm
 import re
+from tqdm.auto import tqdm
 
 logging.basicConfig(
     level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s"
@@ -33,8 +34,6 @@ def record_is_valid(record: dict) -> bool:
     merged_model = record.get("merge", False)
     evaluated_on_validation_split = record.get("validation_split", False)
     openai_model = re.search(r"gpt-[34][-.0-9a-z]+", record.get("model", ""))
-    if record["model"] == "gpt-3.5-turbo-0613":
-        pass
     if (
         (merged_model and not evaluated_on_validation_split)
         or (not merged_model and evaluated_on_validation_split and not openai_model)
@@ -71,10 +70,14 @@ def main(filename: str) -> None:
                     return
     num_raw_records = len(records)
 
-    # Remove invalid evaluation records
+    # Add missing entries
     records = [
-        record for record in records if record_is_valid(record=record)
+        add_missing_entries(record=record)
+        for record in tqdm(records, desc="Adding missing entries")
     ]
+
+    # Remove invalid evaluation records
+    records = [record for record in records if record_is_valid(record=record)]
     num_invalid_records = num_raw_records - len(records)
     if num_invalid_records > 0:
         logger.info(f"Removed {num_invalid_records:,} invalid records from {filename}.")
@@ -94,7 +97,6 @@ def main(filename: str) -> None:
             for match in matches
         ]
         newest_match = matches[versions.index(max(versions))]
-        newest_match = add_missing_entries(record=newest_match)
         new_records.append(newest_match)
     records = new_records
     num_duplicates = num_raw_records - num_invalid_records - len(records)
@@ -182,7 +184,9 @@ def is_merge(model_id: str) -> bool:
     # the model is not found
     api = HfApi()
     try:
-        model_info = api.model_info(repo_id=model_id)
+        with warnings.catch_warnings():
+            warnings.simplefilter("ignore", category=UserWarning)
+            model_info = api.model_info(repo_id=model_id)
     except RepositoryNotFoundError:
         MERGE_CACHE[model_id] = False
         return False

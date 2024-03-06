@@ -11,7 +11,6 @@ import scipy.stats as stats
 import os
 import pandas as pd
 import numpy as np
-from tqdm.auto import tqdm
 
 logging.basicConfig(
     level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s"
@@ -444,7 +443,7 @@ title: {title}
         return test_result.pvalue < 0.05
 
     # Compute rank scores for all datasets
-    for dataset, _, _, _, _ in tqdm(datasets, desc="Computing rank scores"):
+    for dataset, _, _, _, _ in datasets:
         dataset_underscore = dataset.lower().replace(" ", "_").replace("-", "_")
         dataset_values_sorted = sorted(
             all_values,

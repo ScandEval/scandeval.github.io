@@ -184,7 +184,7 @@ insular-scandi-nlg:
 			-d NQiI is qa em f1 \
 			-d RRN is summ bertscore rouge_l \
 			-d MMLU-is is know mcc accuracy \
-			-d HellaSwag-is is reason mcc accuracy \
+			-d Winogrande-is is reason mcc accuracy \
 			-d FoNE fo ner micro_f1_no_misc micro_f1 \
 			-d ScaLA-fo fo la mcc macro_f1
 
