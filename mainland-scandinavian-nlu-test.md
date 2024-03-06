@@ -3,7 +3,7 @@ layout: leaderboard
 title: Mainland Scandinavian NLU
 ---
 
-<center>Last updated: 06/03/2024 14:52:50 CET</center>
+<center>Last updated: 06/03/2024 16:19:58 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
