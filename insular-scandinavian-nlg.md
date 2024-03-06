@@ -3,7 +3,7 @@ layout: leaderboard
 title: Insular Scandinavian NLG
 ---
 
-<center>Last updated: 06/03/2024 14:08:13 CET</center>
+<center>Last updated: 06/03/2024 14:25:32 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -60,9 +60,9 @@ title: Insular Scandinavian NLG
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model-->
    <td class="speed">2,549 ± 472 / 784 ± 245</td> <!-- Model inference speed -->
-   <td class="rank">1.69</td> <!-- ScandEval rank -->
+   <td class="rank">1.68</td> <!-- ScandEval rank -->
    <td class="is-rank">2.18</td> <!-- Icelandic rank -->
-   <td class="fo-rank">1.19</td> <!-- Faroese rank -->
+   <td class="fo-rank">1.17</td> <!-- Faroese rank -->
    <td class="is ner">49.86 ± 4.28 / 42.54 ± 5.03</td> <!-- MIM-GOLD-NER -->
    <td class="is la">1.26 ± 3.83 / 48.46 ± 2.37</td> <!-- ScaLA-is -->
    <td class="is qa">22.42 ± 4.37 / 55.49 ± 2.89</td> <!-- NQiI -->
@@ -78,9 +78,9 @@ title: Insular Scandinavian NLG
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
    <td class="speed">2,657 ± 524 / 880 ± 278</td> <!-- Model inference speed -->
-   <td class="rank">1.90</td> <!-- ScandEval rank -->
-   <td class="is-rank">2.61</td> <!-- Icelandic rank -->
-   <td class="fo-rank">1.19</td> <!-- Faroese rank -->
+   <td class="rank">1.89</td> <!-- ScandEval rank -->
+   <td class="is-rank">2.60</td> <!-- Icelandic rank -->
+   <td class="fo-rank">1.17</td> <!-- Faroese rank -->
    <td class="is ner">47.24 ± 2.54 / 37.77 ± 3.87</td> <!-- MIM-GOLD-NER -->
    <td class="is la">1.35 ± 1.70 / 39.37 ± 3.87</td> <!-- ScaLA-is -->
    <td class="is qa">26.26 ± 4.88 / 49.53 ± 5.23</td> <!-- NQiI -->
@@ -98,7 +98,7 @@ title: Insular Scandinavian NLG
    <td class="speed">2,538 ± 415 / 821 ± 253</td> <!-- Model inference speed -->
    <td class="rank">2.42</td> <!-- ScandEval rank -->
    <td class="is-rank">2.39</td> <!-- Icelandic rank -->
-   <td class="fo-rank">2.44</td> <!-- Faroese rank -->
+   <td class="fo-rank">2.45</td> <!-- Faroese rank -->
    <td class="is ner">43.11 ± 2.23 / 29.34 ± 3.27</td> <!-- MIM-GOLD-NER -->
    <td class="is la">3.40 ± 1.87 / 48.75 ± 1.47</td> <!-- ScaLA-is -->
    <td class="is qa">19.03 ± 3.72 / 49.63 ± 2.61</td> <!-- NQiI -->
@@ -114,8 +114,8 @@ title: Insular Scandinavian NLG
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model-->
    <td class="speed">2,648 ± 467 / 799 ± 250</td> <!-- Model inference speed -->
-   <td class="rank">2.81</td> <!-- ScandEval rank -->
-   <td class="is-rank">3.05</td> <!-- Icelandic rank -->
+   <td class="rank">2.79</td> <!-- ScandEval rank -->
+   <td class="is-rank">3.00</td> <!-- Icelandic rank -->
    <td class="fo-rank">2.58</td> <!-- Faroese rank -->
    <td class="is ner">32.71 ± 2.77 / 32.17 ± 2.13</td> <!-- MIM-GOLD-NER -->
    <td class="is la">0.66 ± 1.75 / 40.36 ± 4.19</td> <!-- ScaLA-is -->
@@ -132,8 +132,8 @@ title: Insular Scandinavian NLG
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
    <td class="speed">5,443 ± 1,273 / 1,144 ± 364</td> <!-- Model inference speed -->
-   <td class="rank">2.81</td> <!-- ScandEval rank -->
-   <td class="is-rank">3.04</td> <!-- Icelandic rank -->
+   <td class="rank">2.80</td> <!-- ScandEval rank -->
+   <td class="is-rank">3.02</td> <!-- Icelandic rank -->
    <td class="fo-rank">2.58</td> <!-- Faroese rank -->
    <td class="is ner">36.04 ± 2.59 / 24.74 ± 2.79</td> <!-- MIM-GOLD-NER -->
    <td class="is la">-0.36 ± 1.36 / 33.94 ± 0.32</td> <!-- ScaLA-is -->
@@ -150,9 +150,9 @@ title: Insular Scandinavian NLG
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model-->
    <td class="speed">2,643 ± 455 / 800 ± 247</td> <!-- Model inference speed -->
-   <td class="rank">3.10</td> <!-- ScandEval rank -->
-   <td class="is-rank">3.39</td> <!-- Icelandic rank -->
-   <td class="fo-rank">2.81</td> <!-- Faroese rank -->
+   <td class="rank">3.09</td> <!-- ScandEval rank -->
+   <td class="is-rank">3.36</td> <!-- Icelandic rank -->
+   <td class="fo-rank">2.83</td> <!-- Faroese rank -->
    <td class="is ner">41.10 ± 3.35 / 40.54 ± 3.19</td> <!-- MIM-GOLD-NER -->
    <td class="is la">-1.07 ± 2.09 / 44.83 ± 2.20</td> <!-- ScaLA-is -->
    <td class="is qa">16.12 ± 2.50 / 39.44 ± 1.99</td> <!-- NQiI -->
@@ -168,9 +168,9 @@ title: Insular Scandinavian NLG
    <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model-->
    <td class="speed">2,786 ± 532 / 784 ± 250</td> <!-- Model inference speed -->
-   <td class="rank">3.71</td> <!-- ScandEval rank -->
-   <td class="is-rank">3.40</td> <!-- Icelandic rank -->
-   <td class="fo-rank">4.03</td> <!-- Faroese rank -->
+   <td class="rank">3.65</td> <!-- ScandEval rank -->
+   <td class="is-rank">3.36</td> <!-- Icelandic rank -->
+   <td class="fo-rank">3.94</td> <!-- Faroese rank -->
    <td class="is ner">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- MIM-GOLD-NER -->
    <td class="is la">2.12 ± 1.40 / 38.45 ± 2.47</td> <!-- ScaLA-is -->
    <td class="is qa">16.85 ± 2.51 / 40.63 ± 2.83</td> <!-- NQiI -->
@@ -186,9 +186,9 @@ title: Insular Scandinavian NLG
    <td class="vocabulary_size">152</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
    <td class="speed">8,304 ± 1,846 / 1,933 ± 617</td> <!-- Model inference speed -->
-   <td class="rank">3.86</td> <!-- ScandEval rank -->
-   <td class="is-rank">4.07</td> <!-- Icelandic rank -->
-   <td class="fo-rank">3.65</td> <!-- Faroese rank -->
+   <td class="rank">3.80</td> <!-- ScandEval rank -->
+   <td class="is-rank">4.05</td> <!-- Icelandic rank -->
+   <td class="fo-rank">3.55</td> <!-- Faroese rank -->
    <td class="is ner">0.25 ± 0.15 / 0.24 ± 0.15</td> <!-- MIM-GOLD-NER -->
    <td class="is la">0.78 ± 1.70 / 44.74 ± 3.57</td> <!-- ScaLA-is -->
    <td class="is qa">7.92 ± 1.32 / 23.57 ± 1.69</td> <!-- NQiI -->
@@ -197,6 +197,24 @@ title: Insular Scandinavian NLG
    <td class="is reason">1.92 ± 2.32 / 50.07 ± 2.68</td> <!-- Winogrande-is -->
    <td class="fo ner">0.38 ± 0.20 / 0.42 ± 0.18</td> <!-- FoNE -->
    <td class="fo la">0.15 ± 2.21 / 34.34 ± 0.53</td> <!-- ScaLA-fo -->
+  </tr>
+  <tr class="not-merged-model">
+   <td>Qwen/Qwen1.5-4B (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">3950</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">152</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">3,248 ± 739 / 761 ± 252</td> <!-- Model inference speed -->
+   <td class="rank">3.92</td> <!-- ScandEval rank -->
+   <td class="is-rank">3.90</td> <!-- Icelandic rank -->
+   <td class="fo-rank">3.93</td> <!-- Faroese rank -->
+   <td class="is ner">0.00 ± 0.00 / 0.02 ± 0.03</td> <!-- MIM-GOLD-NER -->
+   <td class="is la">-0.55 ± 1.06 / 39.57 ± 3.61</td> <!-- ScaLA-is -->
+   <td class="is qa">14.11 ± 3.08 / 34.56 ± 2.38</td> <!-- NQiI -->
+   <td class="is summ">57.17 ± 3.07 / 11.73 ± 1.00</td> <!-- RRN -->
+   <td class="is know">6.15 ± 0.90 / 29.29 ± 0.65</td> <!-- MMLU-is -->
+   <td class="is reason">-1.71 ± 3.79 / 50.88 ± 1.29</td> <!-- Winogrande-is -->
+   <td class="fo ner">0.06 ± 0.04 / 0.06 ± 0.04</td> <!-- FoNE -->
+   <td class="fo la">-0.36 ± 1.07 / 35.09 ± 1.96</td> <!-- ScaLA-fo -->
   </tr>
  </tbody>
 </table>
