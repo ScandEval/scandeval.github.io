@@ -560,7 +560,7 @@ def generate_csv(
     ] + [
         language_score_column
         for language_score_column in df.columns
-        if "_score" in language_score_column
+        if re.match(r"[a-z]{2}_rank", language_score_column) is not None
     ] + [
         dataset.lower().replace(" ", "_").replace("-", "_")
         for dataset, _, _, _, _ in datasets
