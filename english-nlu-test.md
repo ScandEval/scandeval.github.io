@@ -3,7 +3,7 @@ layout: leaderboard
 title: English NLU
 ---
 
-<center>Last updated: 07/03/2024 16:41:40 CET</center>
+<center>Last updated: 08/03/2024 07:58:46 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -191,7 +191,7 @@ title: English NLU
    <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model-->
    <td class="speed">2,786 ± 532 / 784 ± 250</td> <!-- Model inference speed -->
-   <td class="rank">1.82</td> <!-- ScandEval rank -->
+   <td class="rank">1.81</td> <!-- ScandEval rank -->
    <td class="en ner">52.70 ± 2.29 / 48.83 ± 2.24</td> <!-- CoNLL-en -->
    <td class="en sent">68.66 ± 0.92 / 58.34 ± 0.37</td> <!-- SST5 -->
    <td class="en la">25.29 ± 4.29 / 54.31 ± 5.45</td> <!-- ScaLA-en -->
@@ -215,7 +215,7 @@ title: English NLU
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
    <td class="speed">2,657 ± 524 / 880 ± 278</td> <!-- Model inference speed -->
-   <td class="rank">1.86</td> <!-- ScandEval rank -->
+   <td class="rank">1.85</td> <!-- ScandEval rank -->
    <td class="en ner">63.40 ± 2.72 / 56.92 ± 2.17</td> <!-- CoNLL-en -->
    <td class="en sent">68.17 ± 1.33 / 70.74 ± 0.93</td> <!-- SST5 -->
    <td class="en la">30.92 ± 4.81 / 63.79 ± 4.42</td> <!-- ScaLA-en -->
@@ -311,7 +311,7 @@ title: English NLU
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
    <td class="speed">10,401 ± 2,529 / 2,123 ± 690</td> <!-- Model inference speed -->
-   <td class="rank">2.16</td> <!-- ScandEval rank -->
+   <td class="rank">2.15</td> <!-- ScandEval rank -->
    <td class="en ner">53.39 ± 2.97 / 47.76 ± 2.67</td> <!-- CoNLL-en -->
    <td class="en sent">65.21 ± 1.35 / 65.73 ± 1.61</td> <!-- SST5 -->
    <td class="en la">12.63 ± 2.60 / 50.10 ± 3.87</td> <!-- ScaLA-en -->
@@ -323,23 +323,11 @@ title: English NLU
    <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model-->
    <td class="speed">4,880 ± 1,052 / 1,181 ± 380</td> <!-- Model inference speed -->
-   <td class="rank">2.29</td> <!-- ScandEval rank -->
+   <td class="rank">2.28</td> <!-- ScandEval rank -->
    <td class="en ner">45.86 ± 3.18 / 40.23 ± 2.41</td> <!-- CoNLL-en -->
    <td class="en sent">62.08 ± 3.29 / 55.11 ± 1.68</td> <!-- SST5 -->
    <td class="en la">6.62 ± 2.43 / 48.79 ± 3.77</td> <!-- ScaLA-en -->
    <td class="en qa">65.29 ± 1.81 / 77.71 ± 0.98</td> <!-- SQuAD -->
-  </tr>
-  <tr class="not-merged-model">
-   <td>distilbert-base-cased</td> <!-- Model ID -->
-   <td class="num_model_parameters">65</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">29</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">19,667 ± 3,904 / 4,323 ± 1,422</td> <!-- Model inference speed -->
-   <td class="rank">2.30</td> <!-- ScandEval rank -->
-   <td class="en ner">84.75 ± 0.61 / 84.65 ± 0.45</td> <!-- CoNLL-en -->
-   <td class="en sent">50.94 ± 1.56 / 53.60 ± 2.13</td> <!-- SST5 -->
-   <td class="en la">53.47 ± 1.86 / 75.70 ± 1.27</td> <!-- ScaLA-en -->
-   <td class="en qa">24.93 ± 1.75 / 35.60 ± 2.05</td> <!-- SQuAD -->
   </tr>
   <tr class="not-merged-model">
    <td>Qwen/Qwen1.5-4B (few-shot)</td> <!-- Model ID -->
@@ -347,7 +335,7 @@ title: English NLU
    <td class="vocabulary_size">152</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
    <td class="speed">3,248 ± 739 / 761 ± 252</td> <!-- Model inference speed -->
-   <td class="rank">2.31</td> <!-- ScandEval rank -->
+   <td class="rank">2.30</td> <!-- ScandEval rank -->
    <td class="en ner">0.76 ± 0.29 / 0.70 ± 0.27</td> <!-- CoNLL-en -->
    <td class="en sent">60.55 ± 1.54 / 68.53 ± 0.71</td> <!-- SST5 -->
    <td class="en la">28.60 ± 3.36 / 60.31 ± 4.06</td> <!-- ScaLA-en -->
@@ -359,11 +347,23 @@ title: English NLU
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model-->
    <td class="speed">2,648 ± 467 / 799 ± 250</td> <!-- Model inference speed -->
-   <td class="rank">2.31</td> <!-- ScandEval rank -->
+   <td class="rank">2.30</td> <!-- ScandEval rank -->
    <td class="en ner">55.27 ± 2.79 / 50.25 ± 2.12</td> <!-- CoNLL-en -->
    <td class="en sent">65.16 ± 1.21 / 66.86 ± 1.32</td> <!-- SST5 -->
    <td class="en la">20.43 ± 3.69 / 55.98 ± 4.88</td> <!-- ScaLA-en -->
    <td class="en qa">44.64 ± 3.00 / 53.75 ± 3.18</td> <!-- SQuAD -->
+  </tr>
+  <tr class="not-merged-model">
+   <td>distilbert-base-cased</td> <!-- Model ID -->
+   <td class="num_model_parameters">65</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">29</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">19,667 ± 3,904 / 4,323 ± 1,422</td> <!-- Model inference speed -->
+   <td class="rank">2.31</td> <!-- ScandEval rank -->
+   <td class="en ner">84.75 ± 0.61 / 84.65 ± 0.45</td> <!-- CoNLL-en -->
+   <td class="en sent">50.94 ± 1.56 / 53.60 ± 2.13</td> <!-- SST5 -->
+   <td class="en la">53.47 ± 1.86 / 75.70 ± 1.27</td> <!-- ScaLA-en -->
+   <td class="en qa">24.93 ± 1.75 / 35.60 ± 2.05</td> <!-- SQuAD -->
   </tr>
   <tr class="not-merged-model">
    <td>Qwen/Qwen1.5-4B-Chat (few-shot)</td> <!-- Model ID -->
@@ -371,7 +371,7 @@ title: English NLU
    <td class="vocabulary_size">152</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
    <td class="speed">4,347 ± 893 / 1,135 ± 365</td> <!-- Model inference speed -->
-   <td class="rank">2.36</td> <!-- ScandEval rank -->
+   <td class="rank">2.35</td> <!-- ScandEval rank -->
    <td class="en ner">0.73 ± 0.23 / 0.65 ± 0.20</td> <!-- CoNLL-en -->
    <td class="en sent">59.62 ± 1.29 / 68.55 ± 0.56</td> <!-- SST5 -->
    <td class="en la">28.55 ± 3.97 / 60.49 ± 4.25</td> <!-- ScaLA-en -->
@@ -383,7 +383,7 @@ title: English NLU
    <td class="vocabulary_size">51</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model-->
    <td class="speed">3,472 ± 885 / 728 ± 239</td> <!-- Model inference speed -->
-   <td class="rank">2.40</td> <!-- ScandEval rank -->
+   <td class="rank">2.39</td> <!-- ScandEval rank -->
    <td class="en ner">1.42 ± 0.66 / 1.44 ± 0.58</td> <!-- CoNLL-en -->
    <td class="en sent">62.40 ± 1.49 / 67.22 ± 1.18</td> <!-- SST5 -->
    <td class="en la">12.31 ± 2.96 / 48.73 ± 5.08</td> <!-- ScaLA-en -->
@@ -395,7 +395,7 @@ title: English NLU
    <td class="vocabulary_size">152</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
    <td class="speed">5,666 ± 1,328 / 1,256 ± 408</td> <!-- Model inference speed -->
-   <td class="rank">2.51</td> <!-- ScandEval rank -->
+   <td class="rank">2.50</td> <!-- ScandEval rank -->
    <td class="en ner">1.44 ± 0.73 / 1.29 ± 0.64</td> <!-- CoNLL-en -->
    <td class="en sent">64.34 ± 1.18 / 62.90 ± 1.36</td> <!-- SST5 -->
    <td class="en la">15.30 ± 1.17 / 55.67 ± 1.16</td> <!-- ScaLA-en -->
@@ -407,7 +407,7 @@ title: English NLU
    <td class="vocabulary_size">256</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model-->
    <td class="speed">6,087 ± 1,046 / 1,902 ± 563</td> <!-- Model inference speed -->
-   <td class="rank">2.59</td> <!-- ScandEval rank -->
+   <td class="rank">2.58</td> <!-- ScandEval rank -->
    <td class="en ner">1.86 ± 0.96 / 1.64 ± 0.85</td> <!-- CoNLL-en -->
    <td class="en sent">62.14 ± 1.16 / 67.81 ± 0.65</td> <!-- SST5 -->
    <td class="en la">8.30 ± 1.63 / 45.01 ± 3.82</td> <!-- ScaLA-en -->
@@ -431,7 +431,7 @@ title: English NLU
    <td class="vocabulary_size">152</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
    <td class="speed">8,304 ± 1,846 / 1,933 ± 617</td> <!-- Model inference speed -->
-   <td class="rank">2.75</td> <!-- ScandEval rank -->
+   <td class="rank">2.74</td> <!-- ScandEval rank -->
    <td class="en ner">1.07 ± 0.51 / 1.00 ± 0.43</td> <!-- CoNLL-en -->
    <td class="en sent">55.33 ± 1.77 / 64.53 ± 0.70</td> <!-- SST5 -->
    <td class="en la">11.23 ± 1.81 / 52.85 ± 2.65</td> <!-- ScaLA-en -->
@@ -443,7 +443,7 @@ title: English NLU
    <td class="vocabulary_size">256</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model-->
    <td class="speed">6,471 ± 1,142 / 1,961 ± 584</td> <!-- Model inference speed -->
-   <td class="rank">2.88</td> <!-- ScandEval rank -->
+   <td class="rank">2.87</td> <!-- ScandEval rank -->
    <td class="en ner">3.37 ± 0.58 / 2.96 ± 0.51</td> <!-- CoNLL-en -->
    <td class="en sent">48.83 ± 1.00 / 60.88 ± 0.70</td> <!-- SST5 -->
    <td class="en la">5.83 ± 1.52 / 50.74 ± 1.73</td> <!-- ScaLA-en -->
@@ -455,11 +455,23 @@ title: English NLU
    <td class="vocabulary_size">152</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
    <td class="speed">11,740 ± 3,000 / 2,209 ± 721</td> <!-- Model inference speed -->
-   <td class="rank">2.96</td> <!-- ScandEval rank -->
+   <td class="rank">2.95</td> <!-- ScandEval rank -->
    <td class="en ner">2.16 ± 1.05 / 1.94 ± 0.90</td> <!-- CoNLL-en -->
    <td class="en sent">55.41 ± 2.17 / 54.48 ± 1.65</td> <!-- SST5 -->
    <td class="en la">1.15 ± 1.81 / 34.47 ± 1.12</td> <!-- ScaLA-en -->
    <td class="en qa">53.27 ± 1.28 / 63.97 ± 1.30</td> <!-- SQuAD -->
+  </tr>
+  <tr class="not-merged-model">
+   <td>allenai/OLMo-1B (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">1177</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">2176</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">8,536 ± 1,926 / 1,940 ± 619</td> <!-- Model inference speed -->
+   <td class="rank">2.95</td> <!-- ScandEval rank -->
+   <td class="en ner">6.69 ± 2.64 / 6.63 ± 2.59</td> <!-- CoNLL-en -->
+   <td class="en sent">60.05 ± 3.94 / 56.18 ± 1.90</td> <!-- SST5 -->
+   <td class="en la">0.72 ± 1.90 / 42.84 ± 3.50</td> <!-- ScaLA-en -->
+   <td class="en qa">43.87 ± 2.49 / 55.59 ± 2.44</td> <!-- SQuAD -->
   </tr>
   <tr class="not-merged-model">
    <td>Qwen/Qwen1.5-0.5B (few-shot)</td> <!-- Model ID -->
@@ -467,7 +479,7 @@ title: English NLU
    <td class="vocabulary_size">152</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
    <td class="speed">11,371 ± 2,924 / 2,122 ± 692</td> <!-- Model inference speed -->
-   <td class="rank">3.05</td> <!-- ScandEval rank -->
+   <td class="rank">3.04</td> <!-- ScandEval rank -->
    <td class="en ner">3.67 ± 0.80 / 3.27 ± 0.74</td> <!-- CoNLL-en -->
    <td class="en sent">57.15 ± 2.35 / 52.82 ± 1.40</td> <!-- SST5 -->
    <td class="en la">2.94 ± 2.00 / 44.53 ± 3.65</td> <!-- ScaLA-en -->
