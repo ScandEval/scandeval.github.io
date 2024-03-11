@@ -3,7 +3,7 @@ layout: leaderboard
 title: Mainland Scandinavian NLG
 ---
 
-<center>Last updated: 11/03/2024 08:17:39 CET</center>
+<center>Last updated: 11/03/2024 08:23:59 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">

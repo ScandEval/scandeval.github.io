@@ -3,7 +3,7 @@ layout: leaderboard
 title: German NLG
 ---
 
-<center>Last updated: 11/03/2024 08:17:43 CET</center>
+<center>Last updated: 11/03/2024 08:24:04 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
