@@ -5,12 +5,19 @@ from pathlib import Path
 import json
 import logging
 from datetime import datetime
+from typing import Any
 import click
 import re
 import scipy.stats as stats
 import os
 import pandas as pd
 import numpy as np
+from datawrapper import Datawrapper
+from dotenv import load_dotenv
+
+
+load_dotenv()
+
 
 logging.basicConfig(
     level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s"
@@ -146,13 +153,16 @@ title: {title}
  </thead>
  <tbody>"""
 
-    BENCHMARK_HTML_END = f""" </tbody>
+    BENCHMARK_HTML_END = """ </tbody>
 </table>
 </div>
 
 <div class="end-note">
   <a href="https://scandeval.com/{title_kebab}.csv" target="_blank">Download as CSV</a>
-</div>"""
+  &nbsp;&nbsp;&bull;&nbsp;&nbsp;
+  <a href="javascript:void(0);" id="embed-link" data-embed="{embed_code}">Copy embed HTML</a>
+</div>
+""".format(title_kebab=title_kebab, embed_code="{embed_code}")
 
     BENCHMARK_ENTRY = """  <tr class="{merge}">
    <td>{model_id}</td> <!-- Model ID -->
@@ -326,7 +336,6 @@ title: {title}
             model_scores[model_id]["merge"] = (str(int(record["merge"])), "", "")
 
     # Generate language model benchmark HTML
-    html_lines = [BENCHMARK_HTML_START]
     all_values: list[dict[str, str]] = list()
     for model_id, model_dict in model_scores.items():
 
@@ -505,29 +514,33 @@ title: {title}
 
     all_values = sorted(all_values, key=lambda x: float(x["rank"]))
 
-    # Add HTML entry for the model, if it has been evaluated on all datasets
-    for values in all_values:
-        html_lines.append(BENCHMARK_ENTRY.format(**values))
-
-    html_lines.append(BENCHMARK_HTML_END)
-    html = "\n".join(html_lines)
-
-    # Write table to the file
     if all_values:
+        df = generate_csv_df(all_values=all_values, datasets=datasets)
+        df.to_csv(f"{title_kebab}.csv", index=False)
+
+        embed_code = get_embed_code(
+            title=title, csv_url=f"https://scandeval.com/{title_kebab}.csv", csv_df=df,
+        )
+
+        # Build the HTML for the leaderboard
+        html_lines = [BENCHMARK_HTML_START]
+        for values in all_values:
+            html_lines.append(BENCHMARK_ENTRY.format(**values))
+        html_lines.append(BENCHMARK_HTML_END.format(embed_code=embed_code))
+        html = "\n".join(html_lines)
+
         with benchmark_path.open("w") as f:
             f.write(html)
-        generate_csv(all_values=all_values, datasets=datasets, file_name=title_kebab)
         logger.info(
             f"Generated {title} with results from {len(all_values):,} models, stored "
             f"at {str(benchmark_path)!r}"
         )
 
 
-def generate_csv(
+def generate_csv_df(
     all_values: list[dict[str, str]],
     datasets: list[tuple[str, str | None, str, str, str]],
-    file_name: str,
-) -> None:
+) -> pd.DataFrame:
     """Generate a CSV file from the list of values.
 
     Args:
@@ -537,11 +550,14 @@ def generate_csv(
             A list of (dataset_name, language_code, task_code, primary_metric_code,
             secondary_metric_code) tuples. These are the datasets that will be included
             in the leaderboard.
-        file_name:
-            The name of the CSV file to generate, without the .csv extension.
+
+    Returns:
+        The DataFrame containing the values.
     """
     def clean_value(value: str) -> str | float | int:
-        if isinstance(value, str):
+        if value == "unknown":
+            return -1
+        elif isinstance(value, str):
             numeric_value = (
                 value.replace(",", "").replace("=","").split()[0]
             )
@@ -571,8 +587,90 @@ def generate_csv(
         for dataset, _, _, _, _ in datasets
     ])
     df = df[columns_to_include]
+    assert isinstance(df, pd.DataFrame)
+    return df
 
-    df.to_csv(f"{file_name}.csv", index=False)
+
+def get_embed_code(title: str, csv_url: str, csv_df: pd.DataFrame) -> str:
+    """Get the HTML embed code for the leaderboard.
+
+    Args:
+        title:
+            The title of the leaderboard.
+        csv_url:
+            The URL to the CSV file.
+        csv_df:
+            The DataFrame containing the values.
+
+    Returns:
+        The HTML embed code for the leaderboard.
+
+    Raises:
+        ValueError:
+            If the Datawrapper API key is not found.
+    """
+    api_key = os.getenv("DATAWRAPPER_API_KEY")
+    if api_key is None:
+        raise ValueError("No Datawrapper API key found.")
+
+    dw = Datawrapper(access_token=api_key)
+
+    # Never generate embed code for test leaderboards
+    csv_url = csv_url.replace("-test", "")
+
+    # Create the metadata for the datawrapper table, being all the relevant formatting
+    metadata: dict[str, Any] = dict(
+        visualize=dict(
+            perPage=10,
+            showRank=True,
+            firstColumnIsSticky=True,
+            searchable=True,
+        ),
+    )
+    number_columns = [
+        col
+        for col in csv_df.columns
+        if col not in [
+            "model_id",
+            "num_model_parameters",
+            "vocabulary_size",
+            "max_sequence_length",
+            "speed",
+        ]
+    ]
+    metadata['visualize']["columns"] = {
+        number_column: dict(format="0.00") for number_column in number_columns
+    }
+
+    dw_kwargs = dict(
+        title=title,
+        chart_type="tables",
+        external_data_url=csv_url,
+        metadata=metadata,
+    )
+
+    # Load the chart if it already exists, otherwise create a new one
+    all_charts = dw.get_charts()["list"]
+    matching_charts = [chart for chart in all_charts if chart["title"] == title]
+    if matching_charts:
+        dw_table = matching_charts[0]
+        dw.update_chart(chart_id=dw_table["id"], **dw_kwargs)
+    else:
+        dw_table = dw.create_chart(**dw_kwargs)
+
+    dw.update_description(
+        chart_id=dw_table["id"],
+        source_name="ScandEval",
+        source_url=csv_url.replace(".csv", ""),
+        byline="Dan Saattrup Nielsen",
+    )
+
+    dw.update_chart(chart_id=dw_table["id"], metadata=metadata)
+
+    dw.publish_chart(chart_id=dw_table["id"], display=False)
+    embed_code = dw.get_iframe_code(chart_id=dw_table["id"], responsive=True)
+    embed_code = embed_code.replace('"', "&quot;")
+    return embed_code
 
 
 if __name__ == "__main__":
