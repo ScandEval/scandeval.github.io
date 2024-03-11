@@ -3,7 +3,7 @@ layout: leaderboard
 title: Mainland Scandinavian NLU
 ---
 
-<center>Last updated: 11/03/2024 08:17:37 CET</center>
+<center>Last updated: 11/03/2024 08:23:57 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -11,7 +11,7 @@ title: Mainland Scandinavian NLU
 </div>
 
 <div class="blocked table-wrapper centered">
-<table id="mainland-scandinavian-nlu-test" class="sortable fixed centered small-font">
+<table id="mainland-scandinavian-nlu" class="sortable fixed centered small-font">
  <thead>
   <tr>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Hugging Face Hub Model ID">Model ID</span></th>
@@ -3998,5 +3998,5 @@ title: Mainland Scandinavian NLU
 </div>
 
 <div class="end-note">
-  <a href="https://scandeval.com/mainland-scandinavian-nlu-test.csv" target="_blank">Download as CSV</a>
+  <a href="https://scandeval.com/mainland-scandinavian-nlu.csv" target="_blank">Download as CSV</a>
 </div>

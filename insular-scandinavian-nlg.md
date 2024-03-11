@@ -3,7 +3,7 @@ layout: leaderboard
 title: Insular Scandinavian NLG
 ---
 
-<center>Last updated: 11/03/2024 08:17:42 CET</center>
+<center>Last updated: 11/03/2024 08:30:24 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -11,7 +11,7 @@ title: Insular Scandinavian NLG
 </div>
 
 <div class="blocked table-wrapper centered">
-<table id="insular-scandinavian-nlg-test" class="sortable fixed centered small-font">
+<table id="insular-scandinavian-nlg" class="sortable fixed centered small-font">
  <thead>
   <tr>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Hugging Face Hub Model ID">Model ID</span></th>
@@ -383,5 +383,5 @@ title: Insular Scandinavian NLG
 </div>
 
 <div class="end-note">
-  <a href="https://scandeval.com/insular-scandinavian-nlg-test.csv" target="_blank">Download as CSV</a>
+  <a href="https://scandeval.com/insular-scandinavian-nlg.csv" target="_blank">Download as CSV</a>
 </div>

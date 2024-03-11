@@ -3,7 +3,7 @@ layout: leaderboard
 title: English NLG
 ---
 
-<center>Last updated: 11/03/2024 08:24:07 CET</center>
+<center>Last updated: 11/03/2024 08:30:41 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">

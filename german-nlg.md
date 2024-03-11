@@ -3,7 +3,7 @@ layout: leaderboard
 title: German NLG
 ---
 
-<center>Last updated: 11/03/2024 08:17:43 CET</center>
+<center>Last updated: 11/03/2024 08:30:57 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -11,7 +11,7 @@ title: German NLG
 </div>
 
 <div class="blocked table-wrapper centered">
-<table id="german-nlg-test" class="sortable fixed centered small-font">
+<table id="german-nlg" class="sortable fixed centered small-font">
  <thead>
   <tr>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Hugging Face Hub Model ID">Model ID</span></th>
@@ -412,5 +412,5 @@ title: German NLG
 </div>
 
 <div class="end-note">
-  <a href="https://scandeval.com/german-nlg-test.csv" target="_blank">Download as CSV</a>
+  <a href="https://scandeval.com/german-nlg.csv" target="_blank">Download as CSV</a>
 </div>
