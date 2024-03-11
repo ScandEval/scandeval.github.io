@@ -3,3 +3,4 @@
 iframe_figures/
 __pycache__/
 *.no_merge.jsonl
+.env
