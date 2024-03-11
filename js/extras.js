@@ -67,3 +67,10 @@ function addToClipboard(value: string) {
   navigator.clipboard.writeText(value);
   alert("Copied the text: " + copyText.value);
 }
+var embedLink = document.getElementById('embed-link')
+if(embedLink){
+  embedLink.addEventListener('click', function() {
+    addToClipboard(embedLink.embed);
+    alert("Embed link copied to clipboard");
+  });
+}
