@@ -550,21 +550,27 @@ def generate_csv(
         return value
 
     df = pd.DataFrame(all_values).map(clean_value).convert_dtypes()
-    df = df[[
+
+    columns_to_include = [
         "model_id",
         "num_model_parameters",
         "vocabulary_size",
         "max_sequence_length",
         "speed",
         "rank",
-    ] + [
+    ]
+    language_score_columns = [
         language_score_column
         for language_score_column in df.columns
-        if re.match(r"[a-z]{2}_rank", language_score_column) is not None
-    ] + [
+        if re.match(r"^[a-z]{2}_rank$", language_score_column) is not None
+    ]
+    if len(language_score_columns) > 1:
+        columns_to_include.extend(language_score_columns)
+    columns_to_include.extend([
         dataset.lower().replace(" ", "_").replace("-", "_")
         for dataset, _, _, _, _ in datasets
-    ]]
+    ])
+    df = df[columns_to_include]
 
     df.to_csv(f"{file_name}.csv", index=False)
 
