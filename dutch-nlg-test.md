@@ -3,7 +3,7 @@ layout: leaderboard
 title: Dutch NLG
 ---
 
-<center>Last updated: 11/03/2024 08:30:49 CET</center>
+<center>Last updated: 11/03/2024 14:02:21 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -398,4 +398,7 @@ title: Dutch NLG
 
 <div class="end-note">
   <a href="https://scandeval.com/dutch-nlg-test.csv" target="_blank">Download as CSV</a>
+  &nbsp;&nbsp;&bull;&nbsp;&nbsp;
+  <p onclick="addToClipboard(<iframe title="Dutch NLG" aria-label="Table" id="datawrapper-chart-b4c89" src="https://datawrapper.dwcdn.net/b4c89/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+</script>)>Embed</p>
 </div>
