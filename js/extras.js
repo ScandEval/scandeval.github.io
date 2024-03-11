@@ -66,7 +66,7 @@ if(rankColumn){
 var embedLink = document.getElementById('embed-link')
 if(embedLink){
   embedLink.addEventListener('click', function() {
-    navigator.clipboard.writeText(embedLink.embed);
-    alert("Copied the text: " + embedLink.embed);
+    navigator.clipboard.writeText(embedLink.dataset.embed);
+    alert("Copied the text: " + embedLink.dataset.embed);
   });
 }
