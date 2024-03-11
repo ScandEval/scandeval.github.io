@@ -60,3 +60,10 @@ if(rankColumn){
   });
   rankColumn.dispatchEvent(click);
 }
+
+
+// Function used for iframe embed of the language model benchmark
+function addToClipboard(value: string) {
+  navigator.clipboard.writeText(value);
+  alert("Copied the text: " + copyText.value);
+}
