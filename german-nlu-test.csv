@@ -1,7 +1,7 @@
 model_id,num_model_parameters,vocabulary_size,max_sequence_length,speed,rank,germeval,sb10k,scala_de,germanquad
 deepset/gbert-large,335,31,512,5463,1.04,82.15,66.16,77.48,32.63
 google/rembert,575,250,256,3355,1.17,79.32,59.69,72.25,34.48
-xlm-roberta-large,559,250,512,6663,1.25,80.27,58.44,62.12,32.23
+FacebookAI/xlm-roberta-large,559,250,512,6663,1.25,80.27,58.44,62.12,32.23
 microsoft/mdeberta-v3-base,278,251,512,9237,1.31,81.05,59.5,71.84,26.25
 sentence-transformers/use-cmlm-multilingual,470,501,512,13305,1.39,78.99,59.17,61.58,30.42
 deepset/gbert-base,109,31,512,16043,1.6,81.33,57.77,66.13,16.68
