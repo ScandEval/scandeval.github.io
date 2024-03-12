@@ -3,7 +3,7 @@ layout: leaderboard
 title: English NLU
 ---
 
-<center>Last updated: 12/03/2024 09:51:30 CET</center>
+<center>Last updated: 12/03/2024 12:39:15 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -54,6 +54,18 @@ title: English NLU
    <td class="en qa">68.69 ± 0.56 / 80.29 ± 0.36</td> <!-- SQuAD -->
   </tr>
   <tr class="not-merged-model">
+   <td>FacebookAI/roberta-large</td> <!-- Model ID -->
+   <td class="num_model_parameters">354</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">4,542 ± 1,120 / 845 ± 267</td> <!-- Model inference speed -->
+   <td class="rank">1.38</td> <!-- ScandEval rank -->
+   <td class="en ner">91.53 ± 0.85 / 91.21 ± 0.76</td> <!-- CoNLL-en -->
+   <td class="en sent">62.92 ± 1.84 / 62.60 ± 3.18</td> <!-- SST5 -->
+   <td class="en la">48.77 ± 15.71 / 71.46 ± 10.95</td> <!-- ScaLA-en -->
+   <td class="en qa">71.23 ± 0.84 / 81.98 ± 0.65</td> <!-- SQuAD -->
+  </tr>
+  <tr class="not-merged-model">
    <td>gpt-4-0613 (few-shot, val)</td> <!-- Model ID -->
    <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">100</td> <!-- Size of the model's vocabulary -->
@@ -64,18 +76,6 @@ title: English NLU
    <td class="en sent">69.06 ± 2.20 / 76.04 ± 1.60</td> <!-- SST5 -->
    <td class="en la">55.76 ± 3.84 / 76.34 ± 1.44</td> <!-- ScaLA-en -->
    <td class="en qa">67.35 ± 1.98 / 85.76 ± 0.77</td> <!-- SQuAD -->
-  </tr>
-  <tr class="not-merged-model">
-   <td>roberta-large</td> <!-- Model ID -->
-   <td class="num_model_parameters">354</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">4,542 ± 1,120 / 845 ± 267</td> <!-- Model inference speed -->
-   <td class="rank">1.38</td> <!-- ScandEval rank -->
-   <td class="en ner">91.53 ± 0.85 / 91.21 ± 0.76</td> <!-- CoNLL-en -->
-   <td class="en sent">62.92 ± 1.84 / 62.60 ± 3.18</td> <!-- SST5 -->
-   <td class="en la">48.77 ± 15.71 / 71.46 ± 10.95</td> <!-- ScaLA-en -->
-   <td class="en qa">71.23 ± 0.84 / 81.98 ± 0.65</td> <!-- SQuAD -->
   </tr>
   <tr class="not-merged-model">
    <td>google/electra-base-discriminator</td> <!-- Model ID -->
@@ -90,7 +90,7 @@ title: English NLU
    <td class="en qa">58.27 ± 1.71 / 69.68 ± 1.34</td> <!-- SQuAD -->
   </tr>
   <tr class="not-merged-model">
-   <td>roberta-base</td> <!-- Model ID -->
+   <td>FacebookAI/roberta-base</td> <!-- Model ID -->
    <td class="num_model_parameters">124</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
@@ -138,7 +138,7 @@ title: English NLU
    <td class="en qa">62.10 ± 1.03 / 73.26 ± 0.85</td> <!-- SQuAD -->
   </tr>
   <tr class="not-merged-model">
-   <td>bert-large-cased</td> <!-- Model ID -->
+   <td>google-bert/bert-large-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">333</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">29</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
@@ -162,7 +162,7 @@ title: English NLU
    <td class="en qa">67.90 ± 1.61 / 85.57 ± 0.84</td> <!-- SQuAD -->
   </tr>
   <tr class="not-merged-model">
-   <td>bert-large-uncased</td> <!-- Model ID -->
+   <td>google-bert/bert-large-uncased</td> <!-- Model ID -->
    <td class="num_model_parameters">334</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">31</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
@@ -186,7 +186,7 @@ title: English NLU
    <td class="en qa">70.66 ± 0.80 / 81.84 ± 0.57</td> <!-- SQuAD -->
   </tr>
   <tr class="not-merged-model">
-   <td>xlm-roberta-large</td> <!-- Model ID -->
+   <td>FacebookAI/xlm-roberta-large</td> <!-- Model ID -->
    <td class="num_model_parameters">559</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
@@ -210,7 +210,7 @@ title: English NLU
    <td class="en qa">75.83 ± 1.81 / 85.86 ± 1.01</td> <!-- SQuAD -->
   </tr>
   <tr class="not-merged-model">
-   <td>distilroberta-base</td> <!-- Model ID -->
+   <td>distilbert/distilroberta-base</td> <!-- Model ID -->
    <td class="num_model_parameters">82</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
@@ -234,7 +234,7 @@ title: English NLU
    <td class="en qa">58.79 ± 1.97 / 69.65 ± 2.00</td> <!-- SQuAD -->
   </tr>
   <tr class="not-merged-model">
-   <td>bert-base-uncased</td> <!-- Model ID -->
+   <td>google-bert/bert-base-uncased</td> <!-- Model ID -->
    <td class="num_model_parameters">109</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">31</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
@@ -306,7 +306,7 @@ title: English NLU
    <td class="en qa">58.30 ± 2.09 / 77.85 ± 0.72</td> <!-- SQuAD -->
   </tr>
   <tr class="not-merged-model">
-   <td>bert-base-multilingual-cased</td> <!-- Model ID -->
+   <td>google-bert/bert-base-multilingual-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">177</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">120</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
@@ -366,7 +366,7 @@ title: English NLU
    <td class="en qa">44.64 ± 3.00 / 53.75 ± 3.18</td> <!-- SQuAD -->
   </tr>
   <tr class="not-merged-model">
-   <td>distilbert-base-cased</td> <!-- Model ID -->
+   <td>distilbert/distilbert-base-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">65</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">29</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
@@ -426,7 +426,7 @@ title: English NLU
    <td class="en qa">66.30 ± 1.42 / 77.75 ± 0.63</td> <!-- SQuAD -->
   </tr>
   <tr class="not-merged-model">
-   <td>distilbert-base-multilingual-cased</td> <!-- Model ID -->
+   <td>distilbert/distilbert-base-multilingual-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">135</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">120</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
@@ -540,6 +540,6 @@ title: English NLU
 <div class="end-note">
   <a href="https://scandeval.com/english-nlu.csv" target="_blank">Download as CSV</a>
   &nbsp;&nbsp;&bull;&nbsp;&nbsp;
-  <a href="javascript:void(0);" id="embed-link" data-embed="<iframe title=&quot;English NLU&quot; aria-label=&quot;Table&quot; id=&quot;datawrapper-chart-w5LaE&quot; src=&quot;https://datawrapper.dwcdn.net/w5LaE/4/&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width: 0; min-width: 100% !important; border: none;&quot; height=&quot;400&quot; data-external=&quot;1&quot;></iframe><script type=&quot;text/javascript&quot;>!function(){&quot;use strict&quot;;window.addEventListener(&quot;message&quot;,(function(a){if(void 0!==a.data[&quot;datawrapper-height&quot;]){var e=document.querySelectorAll(&quot;iframe&quot;);for(var t in a.data[&quot;datawrapper-height&quot;])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data[&quot;datawrapper-height&quot;][t]+&quot;px&quot;;e[r].style.height=i}}}))}();
+  <a href="javascript:void(0);" id="embed-link" data-embed="<iframe title=&quot;English NLU&quot; aria-label=&quot;Table&quot; id=&quot;datawrapper-chart-w5LaE&quot; src=&quot;https://datawrapper.dwcdn.net/w5LaE/5/&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width: 0; min-width: 100% !important; border: none;&quot; height=&quot;400&quot; data-external=&quot;1&quot;></iframe><script type=&quot;text/javascript&quot;>!function(){&quot;use strict&quot;;window.addEventListener(&quot;message&quot;,(function(a){if(void 0!==a.data[&quot;datawrapper-height&quot;]){var e=document.querySelectorAll(&quot;iframe&quot;);for(var t in a.data[&quot;datawrapper-height&quot;])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data[&quot;datawrapper-height&quot;][t]+&quot;px&quot;;e[r].style.height=i}}}))}();
 </script>">Copy embed HTML</a>
 </div>

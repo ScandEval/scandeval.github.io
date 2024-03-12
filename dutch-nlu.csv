@@ -5,7 +5,7 @@ DTAI-KULeuven/robbert-2022-dutch-base,118,43,512,11307,1.58,79.84,24.58,68.76,27
 pdelobelle/robbert-v2-dutch-base,116,40,512,15481,1.62,78.3,26.68,63.83,28.34
 ZurichNLP/unsup-simcse-xlm-roberta-base,277,250,512,10471,1.63,78.45,22.67,54.92,31.82
 intfloat/multilingual-e5-base,277,250,512,14965,1.7,79.12,27.67,39.28,35.71
-xlm-roberta-large,559,250,512,6663,1.82,83.49,8.82,64.8,50.72
+FacebookAI/xlm-roberta-large,559,250,512,6663,1.82,83.49,8.82,64.8,50.72
 DTAI-KULeuven/robbertje-1-gb-non-shuffled,74,40,512,21007,1.88,74.5,32.23,54.57,6.31
 microsoft/mdeberta-v3-base,278,251,512,9237,1.88,84.47,5.16,71.23,46.43
 DTAI-KULeuven/robbert-2023-dutch-base,124,50,512,11230,1.92,82.22,28.2,55.12,9.74
