@@ -4,7 +4,7 @@ mathjax: true
 title: ScandEval
 subtitle: A Natural Language Processing Benchmark
 use-site-title: true
-meta-description: ScandEval Benchmark of language models on language tasks
+meta-description: A Multilingual Robust Natural Language Processing Benchmark
 ---
 The `ScandEval` benchmark can be used to compare pretrained language models on tasks in
 Danish, Swedish, Norwegian Bokmål, Norwegian Nynorsk, Icelandic, Faroese, German, Dutch
