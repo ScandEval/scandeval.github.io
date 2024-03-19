@@ -36,6 +36,7 @@ download:
 	@scp -o ConnectTimeout=5 maninpink:/home/ubuntu/scandeval_benchmark_results.jsonl maininpink_results.jsonl || true
 	@scp -o ConnectTimeout=5 hamster:/home/ubuntu/scandeval_benchmark_results.jsonl hamster_results.jsonl || true
 	@scp -o ConnectTimeout=5 creosote:/home/ubuntu/scandeval_benchmark_results.jsonl creosote_results.jsonl || true
+	@scp -o ConnectTimeout=5 perceval:/home/alex-admin/scandeval_benchmark_results.jsonl perceval_results.jsonl || true
 	@touch scandeval_benchmark_results.jsonl
 	@if [ -f blackknight_results.jsonl ]; then \
 		cat blackknight_results.jsonl >> scandeval_benchmark_results.jsonl; \
@@ -56,6 +57,10 @@ download:
 	@if [ -f creosote_results.jsonl ]; then \
 		cat creosote_results.jsonl >> scandeval_benchmark_results.jsonl; \
 		rm creosote_results.jsonl; \
+	fi
+	@if [ -f perceval_results.jsonl ]; then \
+		cat perceval_results.jsonl >> scandeval_benchmark_results.jsonl; \
+		rm perceval_results.jsonl; \
 	fi
 
 filter_records:
