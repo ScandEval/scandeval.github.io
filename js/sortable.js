@@ -133,8 +133,8 @@ document.addEventListener('click', function (e) {
         rows.sort(function (a, b) {
           var x = getValue((reverse ? a : b).cells[column_index])
           var y = getValue((reverse ? b : a).cells[column_index])
-          x = x.replace(/ \/.*/g, '').replace(/ ± [0-9.]+/g, '').replace(/,/g, '').replace(/=/g, '')
-          y = y.replace(/ \/.*/g, '').replace(/ ± [0-9.]+/g, '').replace(/,/g, '').replace(/=/g, '')
+          x = x.replace(/ \/.*/g, '').replace(/ ± [0-9.]+/g, '').replace(/,/g, '').replace(/=/g, '').replace(/\./g, '')
+          y = y.replace(/ \/.*/g, '').replace(/ ± [0-9.]+/g, '').replace(/,/g, '').replace(/=/g, '').replace(/\./g, '')
           // var y = (reverse ? b : a).cells[column_index].innerText
           // var x = (reverse ? a : b).cells[column_index].innerText
           if (sortAscending) {
