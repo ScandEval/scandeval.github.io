@@ -148,6 +148,11 @@ title: {title}
         BENCHMARK_HTML_START += f"""
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="{language_name_title}{task_name_lower} - {primary_metric_name} / {secondary_metric_name}">{dataset_name}</span></th>"""
 
+    # Add ScandEval version at the end of the header
+    for dataset_name, language_code, task_code, primary_metric_code, secondary_metric_code in datasets:
+        BENCHMARK_HTML_START += f"""
+   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="ScandEval version used to benchmark the model on {dataset_name}">{dataset_name} version</span></th>"""
+
     BENCHMARK_HTML_START += """
   </tr>
  </thead>
@@ -190,8 +195,14 @@ title: {title}
         BENCHMARK_ENTRY += f"""
    <td class="{language_code_with_space}{task_code_lower}">{{{dataset_name_lower}}}</td> <!-- {dataset_name} -->"""
 
+    # Add ScandEval version at the end of the entry
+    for dataset_name, _, _, _, _ in datasets:
+        dataset_name_lower = dataset_name.lower().replace(" ", "_").replace("-", "_")
+        BENCHMARK_ENTRY += f"""
+   <td>{{{dataset_name_lower}-version}}</td> <!-- {dataset_name} version -->"""
+
     BENCHMARK_ENTRY += """
-  </tr>"""
+   </tr>"""
 
     # Create path to the leaderboard, and ensure that the parent directory exists
     benchmark_path = Path(f"{title_kebab}.md")
@@ -310,6 +321,11 @@ title: {title}
                 score_str, " ".join(languages), task_shorthand
             )
 
+            # Add the ScandEval version to the model's score dict
+            model_scores[model_id][f"{record['dataset']}-version"] = (
+                record.get("scandeval_version", "0.0.0"), "", ""
+            )
+
         # Round the number of parameters to nearest million
         num_params = (
             round(record["num_model_parameters"] / 1_000_000)
@@ -325,7 +341,9 @@ title: {title}
         # Add the model metadata to the model's dict, if it hasn't previously been
         # entered
         for metadata in [
-            "num_model_parameters", "vocabulary_size", "max_sequence_length",
+            "num_model_parameters",
+            "vocabulary_size",
+            "max_sequence_length",
         ]:
             if metadata not in model_scores[model_id] and metadata in record:
                 record_metadata = str(record[metadata])
@@ -357,6 +375,9 @@ title: {title}
             dataset_underscore = dataset.lower().replace(" ", "_").replace("-", "_")
             dataset_hyphen = dataset.lower().replace(" ", "-")
             values[dataset_underscore] = model_dict.get(dataset_hyphen, [""])[0]
+            values[f"{dataset_underscore}-version"] = model_dict.get(
+                f"{dataset_hyphen}-version", [""]
+            )[0]
 
         # Add the value dictionary to the list of all values
         if all([value != "" for value in values.values()]):
@@ -561,7 +582,7 @@ def generate_csv_df(
             numeric_value = (
                 value.replace(",", "").replace("=","").split()[0]
             )
-            if numeric_value.replace("-", "").replace(".", "").isdigit():
+            if numeric_value.replace("-", "").replace(".", "", 1).isdigit():
                 return float(numeric_value)
         return value
 
