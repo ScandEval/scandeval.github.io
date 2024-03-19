@@ -3,7 +3,7 @@ layout: leaderboard
 title: Insular Scandinavian NLG
 ---
 
-<center>Last updated: 19/03/2024 10:57:17 CET</center>
+<center>Last updated: 19/03/2024 11:21:25 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -33,7 +33,14 @@ title: Insular Scandinavian NLG
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Icelandic common sense reasoning - Matthews Correlation Coefficient / Accuracy">Winogrande-is</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Faroese named entity recognition - Micro-average F1-score without MISC tags / Micro-average F1-score with MISC tags">FoNE</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Faroese linguistic acceptability - Matthews Correlation Coefficient / Macro-average F1-score">ScaLA-fo</span></th>
-   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="ScandEval version">Version</span></th>
+   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="ScandEval version used to benchmark the model on MIM-GOLD-NER>MIM-GOLD-NER-version</span></th>
+   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="ScandEval version used to benchmark the model on ScaLA-is>ScaLA-is-version</span></th>
+   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="ScandEval version used to benchmark the model on NQiI>NQiI-version</span></th>
+   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="ScandEval version used to benchmark the model on RRN>RRN-version</span></th>
+   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="ScandEval version used to benchmark the model on MMLU-is>MMLU-is-version</span></th>
+   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="ScandEval version used to benchmark the model on Winogrande-is>Winogrande-is-version</span></th>
+   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="ScandEval version used to benchmark the model on FoNE>FoNE-version</span></th>
+   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="ScandEval version used to benchmark the model on ScaLA-fo>ScaLA-fo-version</span></th>
   </tr>
  </thead>
  <tbody>
@@ -54,7 +61,14 @@ title: Insular Scandinavian NLG
    <td class="is reason">18.61 ± 6.00 / 61.33 ± 2.93</td> <!-- Winogrande-is -->
    <td class="fo ner">72.48 ± 2.39 / 67.50 ± 2.38</td> <!-- FoNE -->
    <td class="fo la">8.29 ± 5.92 / 42.34 ± 3.49</td> <!-- ScaLA-fo -->
-   <td>12.1.0</td> <!-- ScandEval version -->
+   <td>0.0.0</td> <!-- MIM-GOLD-NER version -->
+   <td>0.0.0</td> <!-- ScaLA-is version -->
+   <td>0.0.0</td> <!-- NQiI version -->
+   <td>0.0.0</td> <!-- RRN version -->
+   <td>0.0.0</td> <!-- MMLU-is version -->
+   <td>12.1.0</td> <!-- Winogrande-is version -->
+   <td>0.0.0</td> <!-- FoNE version -->
+   <td>0.0.0</td> <!-- ScaLA-fo version -->
    </tr>
   <tr class="merged-model">
    <td>mlabonne/NeuralBeagle14-7B (few-shot, val)</td> <!-- Model ID -->
@@ -73,7 +87,14 @@ title: Insular Scandinavian NLG
    <td class="is reason">12.90 ± 6.92 / 56.88 ± 3.57</td> <!-- Winogrande-is -->
    <td class="fo ner">62.78 ± 3.13 / 59.73 ± 3.23</td> <!-- FoNE -->
    <td class="fo la">3.69 ± 5.47 / 48.72 ± 3.41</td> <!-- ScaLA-fo -->
-   <td>9.3.2</td> <!-- ScandEval version -->
+   <td>9.3.2</td> <!-- MIM-GOLD-NER version -->
+   <td>9.3.2</td> <!-- ScaLA-is version -->
+   <td>9.3.2</td> <!-- NQiI version -->
+   <td>9.3.2</td> <!-- RRN version -->
+   <td>9.3.2</td> <!-- MMLU-is version -->
+   <td>12.1.0</td> <!-- Winogrande-is version -->
+   <td>9.3.2</td> <!-- FoNE version -->
+   <td>9.3.2</td> <!-- ScaLA-fo version -->
    </tr>
   <tr class="not-merged-model">
    <td>mistralai/Mistral-7B-v0.1 (few-shot)</td> <!-- Model ID -->
@@ -92,7 +113,14 @@ title: Insular Scandinavian NLG
    <td class="is reason">1.99 ± 2.95 / 54.48 ± 1.27</td> <!-- Winogrande-is -->
    <td class="fo ner">62.63 ± 3.44 / 57.85 ± 3.72</td> <!-- FoNE -->
    <td class="fo la">2.84 ± 1.84 / 42.62 ± 4.53</td> <!-- ScaLA-fo -->
-   <td>9.1.2</td> <!-- ScandEval version -->
+   <td>9.1.2</td> <!-- MIM-GOLD-NER version -->
+   <td>9.1.2</td> <!-- ScaLA-is version -->
+   <td>9.1.2</td> <!-- NQiI version -->
+   <td>11.0.0</td> <!-- RRN version -->
+   <td>9.1.2</td> <!-- MMLU-is version -->
+   <td>12.1.0</td> <!-- Winogrande-is version -->
+   <td>9.1.2</td> <!-- FoNE version -->
+   <td>9.1.2</td> <!-- ScaLA-fo version -->
    </tr>
   <tr class="not-merged-model">
    <td>mistralai/Mistral-7B-Instruct-v0.2 (few-shot)</td> <!-- Model ID -->
@@ -111,7 +139,14 @@ title: Insular Scandinavian NLG
    <td class="is reason">0.24 ± 0.71 / 38.95 ± 0.84</td> <!-- Winogrande-is -->
    <td class="fo ner">61.28 ± 2.98 / 54.02 ± 3.55</td> <!-- FoNE -->
    <td class="fo la">1.68 ± 1.41 / 50.06 ± 1.22</td> <!-- ScaLA-fo -->
-   <td>9.2.0</td> <!-- ScandEval version -->
+   <td>9.2.0</td> <!-- MIM-GOLD-NER version -->
+   <td>9.3.1</td> <!-- ScaLA-is version -->
+   <td>9.3.1</td> <!-- NQiI version -->
+   <td>11.0.0</td> <!-- RRN version -->
+   <td>9.3.2</td> <!-- MMLU-is version -->
+   <td>12.1.0</td> <!-- Winogrande-is version -->
+   <td>9.2.0</td> <!-- FoNE version -->
+   <td>9.3.1</td> <!-- ScaLA-fo version -->
    </tr>
   <tr class="not-merged-model">
    <td>mistralai/Mistral-7B-Instruct-v0.1 (few-shot)</td> <!-- Model ID -->
@@ -130,7 +165,14 @@ title: Insular Scandinavian NLG
    <td class="is reason">6.35 ± 2.71 / 50.49 ± 1.57</td> <!-- Winogrande-is -->
    <td class="fo ner">55.42 ± 2.12 / 46.41 ± 2.50</td> <!-- FoNE -->
    <td class="fo la">1.11 ± 2.41 / 36.79 ± 4.00</td> <!-- ScaLA-fo -->
-   <td>9.3.1</td> <!-- ScandEval version -->
+   <td>9.3.1</td> <!-- MIM-GOLD-NER version -->
+   <td>9.3.1</td> <!-- ScaLA-is version -->
+   <td>9.3.1</td> <!-- NQiI version -->
+   <td>11.0.0</td> <!-- RRN version -->
+   <td>9.3.1</td> <!-- MMLU-is version -->
+   <td>12.1.0</td> <!-- Winogrande-is version -->
+   <td>9.3.1</td> <!-- FoNE version -->
+   <td>9.3.1</td> <!-- ScaLA-fo version -->
    </tr>
   <tr class="not-merged-model">
    <td>meta-llama/Llama-2-7b-hf (few-shot)</td> <!-- Model ID -->
@@ -149,7 +191,14 @@ title: Insular Scandinavian NLG
    <td class="is reason">-0.00 ± 2.41 / 44.93 ± 0.92</td> <!-- Winogrande-is -->
    <td class="fo ner">52.34 ± 5.11 / 52.53 ± 4.79</td> <!-- FoNE -->
    <td class="fo la">0.11 ± 1.45 / 33.49 ± 0.47</td> <!-- ScaLA-fo -->
-   <td>9.2.0</td> <!-- ScandEval version -->
+   <td>9.2.0</td> <!-- MIM-GOLD-NER version -->
+   <td>9.2.0</td> <!-- ScaLA-is version -->
+   <td>9.2.0</td> <!-- NQiI version -->
+   <td>11.0.0</td> <!-- RRN version -->
+   <td>9.2.0</td> <!-- MMLU-is version -->
+   <td>12.1.0</td> <!-- Winogrande-is version -->
+   <td>9.2.0</td> <!-- FoNE version -->
+   <td>9.2.0</td> <!-- ScaLA-fo version -->
    </tr>
   <tr class="not-merged-model">
    <td>meta-llama/Llama-2-7b-chat-hf (few-shot)</td> <!-- Model ID -->
@@ -168,7 +217,14 @@ title: Insular Scandinavian NLG
    <td class="is reason">1.84 ± 2.19 / 43.79 ± 0.73</td> <!-- Winogrande-is -->
    <td class="fo ner">59.77 ± 3.38 / 56.97 ± 4.30</td> <!-- FoNE -->
    <td class="fo la">-0.54 ± 1.61 / 36.94 ± 2.79</td> <!-- ScaLA-fo -->
-   <td>9.3.1</td> <!-- ScandEval version -->
+   <td>9.3.1</td> <!-- MIM-GOLD-NER version -->
+   <td>9.3.1</td> <!-- ScaLA-is version -->
+   <td>9.3.1</td> <!-- NQiI version -->
+   <td>11.0.0</td> <!-- RRN version -->
+   <td>9.3.1</td> <!-- MMLU-is version -->
+   <td>12.1.0</td> <!-- Winogrande-is version -->
+   <td>9.3.1</td> <!-- FoNE version -->
+   <td>9.3.1</td> <!-- ScaLA-fo version -->
    </tr>
   <tr class="not-merged-model">
    <td>google/gemma-2b (few-shot)</td> <!-- Model ID -->
@@ -187,7 +243,14 @@ title: Insular Scandinavian NLG
    <td class="is reason">0.00 ± 2.53 / 56.42 ± 0.98</td> <!-- Winogrande-is -->
    <td class="fo ner">0.11 ± 0.09 / 0.10 ± 0.09</td> <!-- FoNE -->
    <td class="fo la">1.28 ± 1.43 / 39.41 ± 3.29</td> <!-- ScaLA-fo -->
-   <td>12.1.0</td> <!-- ScandEval version -->
+   <td>12.1.0</td> <!-- MIM-GOLD-NER version -->
+   <td>12.1.0</td> <!-- ScaLA-is version -->
+   <td>12.1.0</td> <!-- NQiI version -->
+   <td>12.1.0</td> <!-- RRN version -->
+   <td>12.1.0</td> <!-- MMLU-is version -->
+   <td>12.1.0</td> <!-- Winogrande-is version -->
+   <td>12.1.0</td> <!-- FoNE version -->
+   <td>12.1.0</td> <!-- ScaLA-fo version -->
    </tr>
   <tr class="not-merged-model">
    <td>Qwen/Qwen1.5-1.8B-Chat (few-shot)</td> <!-- Model ID -->
@@ -206,7 +269,14 @@ title: Insular Scandinavian NLG
    <td class="is reason">1.92 ± 2.32 / 50.07 ± 2.68</td> <!-- Winogrande-is -->
    <td class="fo ner">0.38 ± 0.20 / 0.42 ± 0.18</td> <!-- FoNE -->
    <td class="fo la">0.15 ± 2.21 / 34.34 ± 0.53</td> <!-- ScaLA-fo -->
-   <td>12.1.0</td> <!-- ScandEval version -->
+   <td>12.1.0</td> <!-- MIM-GOLD-NER version -->
+   <td>12.1.0</td> <!-- ScaLA-is version -->
+   <td>12.1.0</td> <!-- NQiI version -->
+   <td>12.1.0</td> <!-- RRN version -->
+   <td>12.1.0</td> <!-- MMLU-is version -->
+   <td>12.1.0</td> <!-- Winogrande-is version -->
+   <td>12.1.0</td> <!-- FoNE version -->
+   <td>12.1.0</td> <!-- ScaLA-fo version -->
    </tr>
   <tr class="not-merged-model">
    <td>occiglot/occiglot-7b-eu5 (few-shot)</td> <!-- Model ID -->
@@ -225,7 +295,14 @@ title: Insular Scandinavian NLG
    <td class="is reason">-0.51 ± 1.95 / 47.23 ± 2.39</td> <!-- Winogrande-is -->
    <td class="fo ner">0.31 ± 0.14 / 0.31 ± 0.14</td> <!-- FoNE -->
    <td class="fo la">0.00 ± 0.00 / 33.26 ± 0.34</td> <!-- ScaLA-fo -->
-   <td>12.1.0</td> <!-- ScandEval version -->
+   <td>12.1.0</td> <!-- MIM-GOLD-NER version -->
+   <td>12.1.0</td> <!-- ScaLA-is version -->
+   <td>12.1.0</td> <!-- NQiI version -->
+   <td>12.1.0</td> <!-- RRN version -->
+   <td>12.1.0</td> <!-- MMLU-is version -->
+   <td>12.2.0</td> <!-- Winogrande-is version -->
+   <td>12.1.0</td> <!-- FoNE version -->
+   <td>12.1.0</td> <!-- ScaLA-fo version -->
    </tr>
   <tr class="not-merged-model">
    <td>01-ai/Yi-6B (few-shot)</td> <!-- Model ID -->
@@ -244,7 +321,14 @@ title: Insular Scandinavian NLG
    <td class="is reason">0.72 ± 2.33 / 52.54 ± 2.18</td> <!-- Winogrande-is -->
    <td class="fo ner">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- FoNE -->
    <td class="fo la">-0.28 ± 0.79 / 33.70 ± 0.64</td> <!-- ScaLA-fo -->
-   <td>9.3.2</td> <!-- ScandEval version -->
+   <td>9.3.2</td> <!-- MIM-GOLD-NER version -->
+   <td>10.0.0</td> <!-- ScaLA-is version -->
+   <td>9.3.2</td> <!-- NQiI version -->
+   <td>12.0.0</td> <!-- RRN version -->
+   <td>10.0.1</td> <!-- MMLU-is version -->
+   <td>12.1.0</td> <!-- Winogrande-is version -->
+   <td>9.3.2</td> <!-- FoNE version -->
+   <td>10.0.0</td> <!-- ScaLA-fo version -->
    </tr>
   <tr class="not-merged-model">
    <td>Qwen/Qwen1.5-1.8B (few-shot)</td> <!-- Model ID -->
@@ -263,7 +347,14 @@ title: Insular Scandinavian NLG
    <td class="is reason">1.13 ± 3.74 / 52.30 ± 2.26</td> <!-- Winogrande-is -->
    <td class="fo ner">0.09 ± 0.09 / 0.10 ± 0.08</td> <!-- FoNE -->
    <td class="fo la">1.14 ± 1.66 / 37.04 ± 3.83</td> <!-- ScaLA-fo -->
-   <td>12.1.0</td> <!-- ScandEval version -->
+   <td>12.1.0</td> <!-- MIM-GOLD-NER version -->
+   <td>12.1.0</td> <!-- ScaLA-is version -->
+   <td>12.1.0</td> <!-- NQiI version -->
+   <td>12.1.0</td> <!-- RRN version -->
+   <td>12.1.0</td> <!-- MMLU-is version -->
+   <td>12.1.0</td> <!-- Winogrande-is version -->
+   <td>12.1.0</td> <!-- FoNE version -->
+   <td>12.1.0</td> <!-- ScaLA-fo version -->
    </tr>
   <tr class="not-merged-model">
    <td>occiglot/occiglot-7b-eu5-instruct (few-shot)</td> <!-- Model ID -->
@@ -282,7 +373,14 @@ title: Insular Scandinavian NLG
    <td class="is reason">0.35 ± 2.49 / 51.16 ± 2.74</td> <!-- Winogrande-is -->
    <td class="fo ner">0.40 ± 0.18 / 0.38 ± 0.16</td> <!-- FoNE -->
    <td class="fo la">0.00 ± 0.00 / 33.26 ± 0.34</td> <!-- ScaLA-fo -->
-   <td>12.2.0</td> <!-- ScandEval version -->
+   <td>12.2.0</td> <!-- MIM-GOLD-NER version -->
+   <td>12.3.1</td> <!-- ScaLA-is version -->
+   <td>12.3.1</td> <!-- NQiI version -->
+   <td>12.3.1</td> <!-- RRN version -->
+   <td>12.3.1</td> <!-- MMLU-is version -->
+   <td>12.3.1</td> <!-- Winogrande-is version -->
+   <td>12.2.0</td> <!-- FoNE version -->
+   <td>12.3.1</td> <!-- ScaLA-fo version -->
    </tr>
   <tr class="not-merged-model">
    <td>Qwen/Qwen1.5-4B-Chat (few-shot)</td> <!-- Model ID -->
@@ -301,7 +399,14 @@ title: Insular Scandinavian NLG
    <td class="is reason">-1.89 ± 2.66 / 43.72 ± 0.92</td> <!-- Winogrande-is -->
    <td class="fo ner">0.13 ± 0.09 / 0.13 ± 0.09</td> <!-- FoNE -->
    <td class="fo la">-0.42 ± 2.18 / 34.33 ± 1.47</td> <!-- ScaLA-fo -->
-   <td>12.1.0</td> <!-- ScandEval version -->
+   <td>12.1.0</td> <!-- MIM-GOLD-NER version -->
+   <td>12.1.0</td> <!-- ScaLA-is version -->
+   <td>12.1.0</td> <!-- NQiI version -->
+   <td>12.1.0</td> <!-- RRN version -->
+   <td>12.1.0</td> <!-- MMLU-is version -->
+   <td>12.1.0</td> <!-- Winogrande-is version -->
+   <td>12.1.0</td> <!-- FoNE version -->
+   <td>12.1.0</td> <!-- ScaLA-fo version -->
    </tr>
   <tr class="not-merged-model">
    <td>Qwen/Qwen1.5-4B (few-shot)</td> <!-- Model ID -->
@@ -320,7 +425,14 @@ title: Insular Scandinavian NLG
    <td class="is reason">-1.71 ± 3.79 / 50.88 ± 1.29</td> <!-- Winogrande-is -->
    <td class="fo ner">0.06 ± 0.04 / 0.06 ± 0.04</td> <!-- FoNE -->
    <td class="fo la">-0.36 ± 1.07 / 35.09 ± 1.96</td> <!-- ScaLA-fo -->
-   <td>12.1.0</td> <!-- ScandEval version -->
+   <td>12.1.0</td> <!-- MIM-GOLD-NER version -->
+   <td>12.1.0</td> <!-- ScaLA-is version -->
+   <td>12.1.0</td> <!-- NQiI version -->
+   <td>12.1.0</td> <!-- RRN version -->
+   <td>12.1.0</td> <!-- MMLU-is version -->
+   <td>12.1.0</td> <!-- Winogrande-is version -->
+   <td>12.1.0</td> <!-- FoNE version -->
+   <td>12.1.0</td> <!-- ScaLA-fo version -->
    </tr>
   <tr class="not-merged-model">
    <td>RuterNorway/Llama-2-7b-chat-norwegian (few-shot)</td> <!-- Model ID -->
@@ -339,7 +451,14 @@ title: Insular Scandinavian NLG
    <td class="is reason">-0.16 ± 0.86 / 32.02 ± 2.77</td> <!-- Winogrande-is -->
    <td class="fo ner">18.86 ± 4.67 / 19.80 ± 5.33</td> <!-- FoNE -->
    <td class="fo la">-0.43 ± 1.33 / 39.75 ± 4.08</td> <!-- ScaLA-fo -->
-   <td>9.3.1</td> <!-- ScandEval version -->
+   <td>9.3.1</td> <!-- MIM-GOLD-NER version -->
+   <td>9.3.1</td> <!-- ScaLA-is version -->
+   <td>9.3.1</td> <!-- NQiI version -->
+   <td>9.3.1</td> <!-- RRN version -->
+   <td>9.3.1</td> <!-- MMLU-is version -->
+   <td>12.1.0</td> <!-- Winogrande-is version -->
+   <td>9.3.1</td> <!-- FoNE version -->
+   <td>9.3.1</td> <!-- ScaLA-fo version -->
    </tr>
   <tr class="not-merged-model">
    <td>Qwen/Qwen1.5-0.5B-Chat (few-shot)</td> <!-- Model ID -->
@@ -358,7 +477,14 @@ title: Insular Scandinavian NLG
    <td class="is reason">1.48 ± 3.56 / 53.95 ± 2.45</td> <!-- Winogrande-is -->
    <td class="fo ner">1.30 ± 0.69 / 1.29 ± 0.68</td> <!-- FoNE -->
    <td class="fo la">-0.54 ± 1.72 / 36.22 ± 2.35</td> <!-- ScaLA-fo -->
-   <td>12.1.0</td> <!-- ScandEval version -->
+   <td>12.1.0</td> <!-- MIM-GOLD-NER version -->
+   <td>12.1.0</td> <!-- ScaLA-is version -->
+   <td>12.1.0</td> <!-- NQiI version -->
+   <td>12.1.0</td> <!-- RRN version -->
+   <td>12.1.0</td> <!-- MMLU-is version -->
+   <td>12.1.0</td> <!-- Winogrande-is version -->
+   <td>12.1.0</td> <!-- FoNE version -->
+   <td>12.1.0</td> <!-- ScaLA-fo version -->
    </tr>
   <tr class="not-merged-model">
    <td>allenai/OLMo-1B (few-shot)</td> <!-- Model ID -->
@@ -377,7 +503,14 @@ title: Insular Scandinavian NLG
    <td class="is reason">-1.03 ± 1.32 / 56.25 ± 0.87</td> <!-- Winogrande-is -->
    <td class="fo ner">1.26 ± 1.64 / 1.50 ± 2.05</td> <!-- FoNE -->
    <td class="fo la">1.01 ± 2.39 / 39.75 ± 4.10</td> <!-- ScaLA-fo -->
-   <td>12.1.0</td> <!-- ScandEval version -->
+   <td>12.1.0</td> <!-- MIM-GOLD-NER version -->
+   <td>12.1.0</td> <!-- ScaLA-is version -->
+   <td>12.1.0</td> <!-- NQiI version -->
+   <td>12.1.0</td> <!-- RRN version -->
+   <td>12.1.0</td> <!-- MMLU-is version -->
+   <td>12.1.0</td> <!-- Winogrande-is version -->
+   <td>12.1.0</td> <!-- FoNE version -->
+   <td>12.1.0</td> <!-- ScaLA-fo version -->
    </tr>
   <tr class="not-merged-model">
    <td>google/gemma-2b-it (few-shot)</td> <!-- Model ID -->
@@ -396,7 +529,14 @@ title: Insular Scandinavian NLG
    <td class="is reason">0.62 ± 1.42 / 56.02 ± 0.95</td> <!-- Winogrande-is -->
    <td class="fo ner">0.67 ± 1.13 / 0.67 ± 1.10</td> <!-- FoNE -->
    <td class="fo la">-1.62 ± 2.08 / 43.25 ± 3.61</td> <!-- ScaLA-fo -->
-   <td>12.1.0</td> <!-- ScandEval version -->
+   <td>12.1.0</td> <!-- MIM-GOLD-NER version -->
+   <td>12.1.0</td> <!-- ScaLA-is version -->
+   <td>12.1.0</td> <!-- NQiI version -->
+   <td>12.1.0</td> <!-- RRN version -->
+   <td>12.1.0</td> <!-- MMLU-is version -->
+   <td>12.1.0</td> <!-- Winogrande-is version -->
+   <td>12.1.0</td> <!-- FoNE version -->
+   <td>12.1.0</td> <!-- ScaLA-fo version -->
    </tr>
   <tr class="not-merged-model">
    <td>Qwen/Qwen1.5-0.5B (few-shot)</td> <!-- Model ID -->
@@ -415,7 +555,14 @@ title: Insular Scandinavian NLG
    <td class="is reason">0.85 ± 1.91 / 52.12 ± 2.92</td> <!-- Winogrande-is -->
    <td class="fo ner">1.18 ± 0.35 / 1.28 ± 0.36</td> <!-- FoNE -->
    <td class="fo la">-1.47 ± 1.54 / 35.84 ± 1.76</td> <!-- ScaLA-fo -->
-   <td>12.1.0</td> <!-- ScandEval version -->
+   <td>12.1.0</td> <!-- MIM-GOLD-NER version -->
+   <td>12.1.0</td> <!-- ScaLA-is version -->
+   <td>12.1.0</td> <!-- NQiI version -->
+   <td>12.1.0</td> <!-- RRN version -->
+   <td>12.1.0</td> <!-- MMLU-is version -->
+   <td>12.1.0</td> <!-- Winogrande-is version -->
+   <td>12.1.0</td> <!-- FoNE version -->
+   <td>12.1.0</td> <!-- ScaLA-fo version -->
    </tr>
   <tr class="not-merged-model">
    <td>ai-forever/mGPT (few-shot)</td> <!-- Model ID -->
@@ -434,7 +581,14 @@ title: Insular Scandinavian NLG
    <td class="is reason">0.47 ± 4.14 / 46.93 ± 3.13</td> <!-- Winogrande-is -->
    <td class="fo ner">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- FoNE -->
    <td class="fo la">-0.24 ± 0.93 / 43.16 ± 3.72</td> <!-- ScaLA-fo -->
-   <td>9.3.1</td> <!-- ScandEval version -->
+   <td>9.3.1</td> <!-- MIM-GOLD-NER version -->
+   <td>11.0.0</td> <!-- ScaLA-is version -->
+   <td>9.3.1</td> <!-- NQiI version -->
+   <td>12.0.0</td> <!-- RRN version -->
+   <td>11.0.0</td> <!-- MMLU-is version -->
+   <td>12.1.0</td> <!-- Winogrande-is version -->
+   <td>9.3.1</td> <!-- FoNE version -->
+   <td>11.0.0</td> <!-- ScaLA-fo version -->
    </tr>
  </tbody>
 </table>
@@ -443,6 +597,6 @@ title: Insular Scandinavian NLG
 <div class="end-note">
   <a href="https://scandeval.com/insular-scandinavian-nlg-test.csv" target="_blank">Download as CSV</a>
   &nbsp;&nbsp;&bull;&nbsp;&nbsp;
-  <a href="javascript:void(0);" id="embed-link" data-embed="<iframe title=&quot;Insular Scandinavian NLG&quot; aria-label=&quot;Table&quot; id=&quot;datawrapper-chart-FKbXo&quot; src=&quot;https://datawrapper.dwcdn.net/FKbXo/11/&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width: 0; min-width: 100% !important; border: none;&quot; height=&quot;400&quot; data-external=&quot;1&quot;></iframe><script type=&quot;text/javascript&quot;>!function(){&quot;use strict&quot;;window.addEventListener(&quot;message&quot;,(function(a){if(void 0!==a.data[&quot;datawrapper-height&quot;]){var e=document.querySelectorAll(&quot;iframe&quot;);for(var t in a.data[&quot;datawrapper-height&quot;])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data[&quot;datawrapper-height&quot;][t]+&quot;px&quot;;e[r].style.height=i}}}))}();
+  <a href="javascript:void(0);" id="embed-link" data-embed="<iframe title=&quot;Insular Scandinavian NLG&quot; aria-label=&quot;Table&quot; id=&quot;datawrapper-chart-FKbXo&quot; src=&quot;https://datawrapper.dwcdn.net/FKbXo/12/&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width: 0; min-width: 100% !important; border: none;&quot; height=&quot;400&quot; data-external=&quot;1&quot;></iframe><script type=&quot;text/javascript&quot;>!function(){&quot;use strict&quot;;window.addEventListener(&quot;message&quot;,(function(a){if(void 0!==a.data[&quot;datawrapper-height&quot;]){var e=document.querySelectorAll(&quot;iframe&quot;);for(var t in a.data[&quot;datawrapper-height&quot;])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data[&quot;datawrapper-height&quot;][t]+&quot;px&quot;;e[r].style.height=i}}}))}();
 </script>">Copy embed HTML</a>
 </div>
