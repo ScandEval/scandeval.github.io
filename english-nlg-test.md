@@ -3,7 +3,7 @@ layout: leaderboard
 title: English NLG
 ---
 
-<center>Last updated: 21/03/2024 13:27:50 CET</center>
+<center>Last updated: 21/03/2024 13:50:44 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -89,7 +89,7 @@ title: English NLG
    <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model-->
    <td class="speed">2,786 ± 532 / 784 ± 250</td> <!-- Model inference speed -->
-   <td class="rank">1.43</td> <!-- ScandEval rank -->
+   <td class="rank">1.44</td> <!-- ScandEval rank -->
    <td class="en ner">52.70 ± 2.29 / 48.83 ± 2.24</td> <!-- CoNLL-en -->
    <td class="en sent">68.66 ± 0.92 / 58.34 ± 0.37</td> <!-- SST5 -->
    <td class="en la">25.29 ± 4.29 / 54.31 ± 5.45</td> <!-- ScaLA-en -->
@@ -194,28 +194,6 @@ title: English NLG
    <td>9.3.2</td> <!-- HellaSwag version -->
    </tr>
   <tr class="not-merged-model">
-   <td>Qwen/Qwen1.5-4B (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">3950</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">152</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">3,248 ± 739 / 761 ± 252</td> <!-- Model inference speed -->
-   <td class="rank">1.88</td> <!-- ScandEval rank -->
-   <td class="en ner">0.76 ± 0.29 / 0.70 ± 0.27</td> <!-- CoNLL-en -->
-   <td class="en sent">60.55 ± 1.54 / 68.53 ± 0.71</td> <!-- SST5 -->
-   <td class="en la">28.60 ± 3.36 / 60.31 ± 4.06</td> <!-- ScaLA-en -->
-   <td class="en qa">70.49 ± 0.74 / 82.68 ± 0.52</td> <!-- SQuAD -->
-   <td class="en summ">68.67 ± 0.11 / 21.65 ± 0.21</td> <!-- CNN-DailyMail -->
-   <td class="en know">39.82 ± 0.76 / 54.62 ± 0.57</td> <!-- MMLU -->
-   <td class="en reason">51.82 ± 1.03 / 63.79 ± 0.79</td> <!-- HellaSwag -->
-   <td>12.1.0</td> <!-- CoNLL-en version -->
-   <td>10.0.1</td> <!-- SST5 version -->
-   <td>12.1.0</td> <!-- ScaLA-en version -->
-   <td>12.1.0</td> <!-- SQuAD version -->
-   <td>12.1.0</td> <!-- CNN-DailyMail version -->
-   <td>12.1.0</td> <!-- MMLU version -->
-   <td>12.1.0</td> <!-- HellaSwag version -->
-   </tr>
-  <tr class="not-merged-model">
    <td>meta-llama/Llama-2-7b-chat-hf (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">6738</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -236,6 +214,28 @@ title: English NLG
    <td>11.0.0</td> <!-- CNN-DailyMail version -->
    <td>9.3.1</td> <!-- MMLU version -->
    <td>9.3.1</td> <!-- HellaSwag version -->
+   </tr>
+  <tr class="not-merged-model">
+   <td>Qwen/Qwen1.5-4B (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">3950</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">152</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">3,248 ± 739 / 761 ± 252</td> <!-- Model inference speed -->
+   <td class="rank">1.89</td> <!-- ScandEval rank -->
+   <td class="en ner">0.76 ± 0.29 / 0.70 ± 0.27</td> <!-- CoNLL-en -->
+   <td class="en sent">60.55 ± 1.54 / 68.53 ± 0.71</td> <!-- SST5 -->
+   <td class="en la">28.60 ± 3.36 / 60.31 ± 4.06</td> <!-- ScaLA-en -->
+   <td class="en qa">70.49 ± 0.74 / 82.68 ± 0.52</td> <!-- SQuAD -->
+   <td class="en summ">68.67 ± 0.11 / 21.65 ± 0.21</td> <!-- CNN-DailyMail -->
+   <td class="en know">39.82 ± 0.76 / 54.62 ± 0.57</td> <!-- MMLU -->
+   <td class="en reason">51.82 ± 1.03 / 63.79 ± 0.79</td> <!-- HellaSwag -->
+   <td>12.1.0</td> <!-- CoNLL-en version -->
+   <td>10.0.1</td> <!-- SST5 version -->
+   <td>12.1.0</td> <!-- ScaLA-en version -->
+   <td>12.1.0</td> <!-- SQuAD version -->
+   <td>12.1.0</td> <!-- CNN-DailyMail version -->
+   <td>12.1.0</td> <!-- MMLU version -->
+   <td>12.1.0</td> <!-- HellaSwag version -->
    </tr>
   <tr class="not-merged-model">
    <td>Qwen/Qwen1.5-4B-Chat (few-shot)</td> <!-- Model ID -->
@@ -348,28 +348,6 @@ title: English NLG
    <td>12.3.1</td> <!-- HellaSwag version -->
    </tr>
   <tr class="not-merged-model">
-   <td>occiglot/occiglot-7b-eu5 (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">2,219 ± 427 / 717 ± 224</td> <!-- Model inference speed -->
-   <td class="rank">2.22</td> <!-- ScandEval rank -->
-   <td class="en ner">0.86 ± 0.22 / 0.77 ± 0.19</td> <!-- CoNLL-en -->
-   <td class="en sent">63.32 ± 1.29 / 68.50 ± 0.53</td> <!-- SST5 -->
-   <td class="en la">18.92 ± 2.39 / 57.96 ± 1.89</td> <!-- ScaLA-en -->
-   <td class="en qa">72.38 ± 2.57 / 83.46 ± 1.49</td> <!-- SQuAD -->
-   <td class="en summ">68.61 ± 0.55 / 23.48 ± 0.74</td> <!-- CNN-DailyMail -->
-   <td class="en know">37.04 ± 1.33 / 52.33 ± 1.02</td> <!-- MMLU -->
-   <td class="en reason">23.54 ± 2.08 / 40.78 ± 1.59</td> <!-- HellaSwag -->
-   <td>12.1.0</td> <!-- CoNLL-en version -->
-   <td>12.1.0</td> <!-- SST5 version -->
-   <td>12.1.0</td> <!-- ScaLA-en version -->
-   <td>12.1.0</td> <!-- SQuAD version -->
-   <td>12.1.0</td> <!-- CNN-DailyMail version -->
-   <td>12.2.0</td> <!-- MMLU version -->
-   <td>12.2.0</td> <!-- HellaSwag version -->
-   </tr>
-  <tr class="not-merged-model">
    <td>meta-llama/Llama-2-7b-hf (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">6738</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -392,12 +370,34 @@ title: English NLG
    <td>9.2.0</td> <!-- HellaSwag version -->
    </tr>
   <tr class="not-merged-model">
+   <td>occiglot/occiglot-7b-eu5 (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">2,219 ± 427 / 717 ± 224</td> <!-- Model inference speed -->
+   <td class="rank">2.23</td> <!-- ScandEval rank -->
+   <td class="en ner">0.86 ± 0.22 / 0.77 ± 0.19</td> <!-- CoNLL-en -->
+   <td class="en sent">63.32 ± 1.29 / 68.50 ± 0.53</td> <!-- SST5 -->
+   <td class="en la">18.92 ± 2.39 / 57.96 ± 1.89</td> <!-- ScaLA-en -->
+   <td class="en qa">72.38 ± 2.57 / 83.46 ± 1.49</td> <!-- SQuAD -->
+   <td class="en summ">68.61 ± 0.55 / 23.48 ± 0.74</td> <!-- CNN-DailyMail -->
+   <td class="en know">37.04 ± 1.33 / 52.33 ± 1.02</td> <!-- MMLU -->
+   <td class="en reason">23.54 ± 2.08 / 40.78 ± 1.59</td> <!-- HellaSwag -->
+   <td>12.1.0</td> <!-- CoNLL-en version -->
+   <td>12.1.0</td> <!-- SST5 version -->
+   <td>12.1.0</td> <!-- ScaLA-en version -->
+   <td>12.1.0</td> <!-- SQuAD version -->
+   <td>12.1.0</td> <!-- CNN-DailyMail version -->
+   <td>12.2.0</td> <!-- MMLU version -->
+   <td>12.2.0</td> <!-- HellaSwag version -->
+   </tr>
+  <tr class="not-merged-model">
    <td>Qwen/Qwen1.5-1.8B-Chat (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">1837</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">152</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
    <td class="speed">8,304 ± 1,846 / 1,933 ± 617</td> <!-- Model inference speed -->
-   <td class="rank">2.35</td> <!-- ScandEval rank -->
+   <td class="rank">2.36</td> <!-- ScandEval rank -->
    <td class="en ner">37.80 ± 3.14 / 37.17 ± 2.80</td> <!-- CoNLL-en -->
    <td class="en sent">55.33 ± 1.77 / 64.53 ± 0.70</td> <!-- SST5 -->
    <td class="en la">11.23 ± 1.81 / 52.85 ± 2.65</td> <!-- ScaLA-en -->
@@ -419,7 +419,7 @@ title: English NLG
    <td class="vocabulary_size">152</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
    <td class="speed">5,666 ± 1,328 / 1,256 ± 408</td> <!-- Model inference speed -->
-   <td class="rank">2.41</td> <!-- ScandEval rank -->
+   <td class="rank">2.42</td> <!-- ScandEval rank -->
    <td class="en ner">1.44 ± 0.73 / 1.29 ± 0.64</td> <!-- CoNLL-en -->
    <td class="en sent">64.34 ± 1.18 / 62.90 ± 1.36</td> <!-- SST5 -->
    <td class="en la">15.30 ± 1.17 / 55.67 ± 1.16</td> <!-- ScaLA-en -->
@@ -441,7 +441,7 @@ title: English NLG
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
    <td class="speed">2,088 ± 352 / 706 ± 214</td> <!-- Model inference speed -->
-   <td class="rank">2.41</td> <!-- ScandEval rank -->
+   <td class="rank">2.42</td> <!-- ScandEval rank -->
    <td class="en ner">0.89 ± 0.56 / 0.80 ± 0.50</td> <!-- CoNLL-en -->
    <td class="en sent">62.10 ± 1.65 / 68.81 ± 0.76</td> <!-- SST5 -->
    <td class="en la">20.17 ± 3.68 / 54.76 ± 4.24</td> <!-- ScaLA-en -->
@@ -456,6 +456,28 @@ title: English NLG
    <td>12.3.1</td> <!-- CNN-DailyMail version -->
    <td>12.3.1</td> <!-- MMLU version -->
    <td>12.3.1</td> <!-- HellaSwag version -->
+   </tr>
+  <tr class="not-merged-model">
+   <td>google/gemma-2b (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">2506</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">256</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">6,087 ± 1,046 / 1,902 ± 563</td> <!-- Model inference speed -->
+   <td class="rank">2.57</td> <!-- ScandEval rank -->
+   <td class="en ner">19.00 ± 5.82 / 17.02 ± 5.30</td> <!-- CoNLL-en -->
+   <td class="en sent">62.14 ± 1.16 / 67.81 ± 0.65</td> <!-- SST5 -->
+   <td class="en la">8.30 ± 1.63 / 45.01 ± 3.82</td> <!-- ScaLA-en -->
+   <td class="en qa">66.30 ± 1.42 / 77.75 ± 0.63</td> <!-- SQuAD -->
+   <td class="en summ">66.51 ± 0.85 / 21.76 ± 0.84</td> <!-- CNN-DailyMail -->
+   <td class="en know">20.38 ± 0.82 / 38.44 ± 0.70</td> <!-- MMLU -->
+   <td class="en reason">7.41 ± 1.01 / 29.08 ± 0.61</td> <!-- HellaSwag -->
+   <td>12.3.2</td> <!-- CoNLL-en version -->
+   <td>12.1.0</td> <!-- SST5 version -->
+   <td>12.1.0</td> <!-- ScaLA-en version -->
+   <td>12.1.0</td> <!-- SQuAD version -->
+   <td>12.1.0</td> <!-- CNN-DailyMail version -->
+   <td>12.1.0</td> <!-- MMLU version -->
+   <td>12.1.0</td> <!-- HellaSwag version -->
    </tr>
   <tr class="not-merged-model">
    <td>google/gemma-2b-it (few-shot)</td> <!-- Model ID -->
@@ -480,34 +502,12 @@ title: English NLG
    <td>12.1.0</td> <!-- HellaSwag version -->
    </tr>
   <tr class="not-merged-model">
-   <td>google/gemma-2b (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">2506</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">256</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">6,087 ± 1,046 / 1,902 ± 563</td> <!-- Model inference speed -->
-   <td class="rank">2.67</td> <!-- ScandEval rank -->
-   <td class="en ner">1.86 ± 0.96 / 1.64 ± 0.85</td> <!-- CoNLL-en -->
-   <td class="en sent">62.14 ± 1.16 / 67.81 ± 0.65</td> <!-- SST5 -->
-   <td class="en la">8.30 ± 1.63 / 45.01 ± 3.82</td> <!-- ScaLA-en -->
-   <td class="en qa">66.30 ± 1.42 / 77.75 ± 0.63</td> <!-- SQuAD -->
-   <td class="en summ">66.51 ± 0.85 / 21.76 ± 0.84</td> <!-- CNN-DailyMail -->
-   <td class="en know">20.38 ± 0.82 / 38.44 ± 0.70</td> <!-- MMLU -->
-   <td class="en reason">7.41 ± 1.01 / 29.08 ± 0.61</td> <!-- HellaSwag -->
-   <td>12.1.0</td> <!-- CoNLL-en version -->
-   <td>12.1.0</td> <!-- SST5 version -->
-   <td>12.1.0</td> <!-- ScaLA-en version -->
-   <td>12.1.0</td> <!-- SQuAD version -->
-   <td>12.1.0</td> <!-- CNN-DailyMail version -->
-   <td>12.1.0</td> <!-- MMLU version -->
-   <td>12.1.0</td> <!-- HellaSwag version -->
-   </tr>
-  <tr class="not-merged-model">
    <td>Qwen/Qwen1.5-0.5B (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">620</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">152</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
    <td class="speed">11,371 ± 2,924 / 2,122 ± 692</td> <!-- Model inference speed -->
-   <td class="rank">2.79</td> <!-- ScandEval rank -->
+   <td class="rank">2.80</td> <!-- ScandEval rank -->
    <td class="en ner">33.96 ± 2.28 / 32.51 ± 2.31</td> <!-- CoNLL-en -->
    <td class="en sent">57.15 ± 2.35 / 52.82 ± 1.40</td> <!-- SST5 -->
    <td class="en la">2.94 ± 2.00 / 44.53 ± 3.65</td> <!-- ScaLA-en -->
@@ -517,28 +517,6 @@ title: English NLG
    <td class="en reason">10.89 ± 1.01 / 32.65 ± 0.85</td> <!-- HellaSwag -->
    <td>12.3.2</td> <!-- CoNLL-en version -->
    <td>10.0.1</td> <!-- SST5 version -->
-   <td>12.1.0</td> <!-- ScaLA-en version -->
-   <td>12.1.0</td> <!-- SQuAD version -->
-   <td>12.1.0</td> <!-- CNN-DailyMail version -->
-   <td>12.1.0</td> <!-- MMLU version -->
-   <td>12.1.0</td> <!-- HellaSwag version -->
-   </tr>
-  <tr class="not-merged-model">
-   <td>Qwen/Qwen1.5-0.5B-Chat (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">620</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">152</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">11,740 ± 3,000 / 2,209 ± 721</td> <!-- Model inference speed -->
-   <td class="rank">2.90</td> <!-- ScandEval rank -->
-   <td class="en ner">21.19 ± 5.86 / 20.81 ± 5.67</td> <!-- CoNLL-en -->
-   <td class="en sent">55.41 ± 2.17 / 54.48 ± 1.65</td> <!-- SST5 -->
-   <td class="en la">1.15 ± 1.81 / 34.47 ± 1.12</td> <!-- ScaLA-en -->
-   <td class="en qa">53.27 ± 1.28 / 63.97 ± 1.30</td> <!-- SQuAD -->
-   <td class="en summ">65.82 ± 1.89 / 20.88 ± 0.66</td> <!-- CNN-DailyMail -->
-   <td class="en know">11.66 ± 1.13 / 32.84 ± 0.97</td> <!-- MMLU -->
-   <td class="en reason">5.22 ± 1.17 / 27.95 ± 1.10</td> <!-- HellaSwag -->
-   <td>12.3.2</td> <!-- CoNLL-en version -->
-   <td>11.0.0</td> <!-- SST5 version -->
    <td>12.1.0</td> <!-- ScaLA-en version -->
    <td>12.1.0</td> <!-- SQuAD version -->
    <td>12.1.0</td> <!-- CNN-DailyMail version -->
@@ -568,6 +546,28 @@ title: English NLG
    <td>9.3.1</td> <!-- HellaSwag version -->
    </tr>
   <tr class="not-merged-model">
+   <td>Qwen/Qwen1.5-0.5B-Chat (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">620</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">152</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">11,740 ± 3,000 / 2,209 ± 721</td> <!-- Model inference speed -->
+   <td class="rank">2.91</td> <!-- ScandEval rank -->
+   <td class="en ner">21.19 ± 5.86 / 20.81 ± 5.67</td> <!-- CoNLL-en -->
+   <td class="en sent">55.41 ± 2.17 / 54.48 ± 1.65</td> <!-- SST5 -->
+   <td class="en la">1.15 ± 1.81 / 34.47 ± 1.12</td> <!-- ScaLA-en -->
+   <td class="en qa">53.27 ± 1.28 / 63.97 ± 1.30</td> <!-- SQuAD -->
+   <td class="en summ">65.82 ± 1.89 / 20.88 ± 0.66</td> <!-- CNN-DailyMail -->
+   <td class="en know">11.66 ± 1.13 / 32.84 ± 0.97</td> <!-- MMLU -->
+   <td class="en reason">5.22 ± 1.17 / 27.95 ± 1.10</td> <!-- HellaSwag -->
+   <td>12.3.2</td> <!-- CoNLL-en version -->
+   <td>11.0.0</td> <!-- SST5 version -->
+   <td>12.1.0</td> <!-- ScaLA-en version -->
+   <td>12.1.0</td> <!-- SQuAD version -->
+   <td>12.1.0</td> <!-- CNN-DailyMail version -->
+   <td>12.1.0</td> <!-- MMLU version -->
+   <td>12.1.0</td> <!-- HellaSwag version -->
+   </tr>
+  <tr class="not-merged-model">
    <td>allenai/OLMo-1B (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">1177</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
@@ -595,7 +595,7 @@ title: English NLG
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model-->
    <td class="speed">10,890 ± 2,686 / 2,186 ± 750</td> <!-- Model inference speed -->
-   <td class="rank">3.53</td> <!-- ScandEval rank -->
+   <td class="rank">3.54</td> <!-- ScandEval rank -->
    <td class="en ner">18.69 ± 7.23 / 18.50 ± 6.51</td> <!-- CoNLL-en -->
    <td class="en sent">21.95 ± 6.30 / 33.38 ± 4.79</td> <!-- SST5 -->
    <td class="en la">0.01 ± 1.91 / 39.40 ± 3.94</td> <!-- ScaLA-en -->
@@ -639,7 +639,7 @@ title: English NLG
    <td class="vocabulary_size">100</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">1024</td> <!-- Maximum sequence length of the model-->
    <td class="speed">13,551 ± 4,259 / 2,563 ± 838</td> <!-- Model inference speed -->
-   <td class="rank">4.51</td> <!-- ScandEval rank -->
+   <td class="rank">4.52</td> <!-- ScandEval rank -->
    <td class="en ner">1.55 ± 1.98 / 1.45 ± 1.82</td> <!-- CoNLL-en -->
    <td class="en sent">3.71 ± 3.16 / 22.09 ± 2.08</td> <!-- SST5 -->
    <td class="en la">-0.42 ± 1.56 / 40.58 ± 3.74</td> <!-- ScaLA-en -->
@@ -662,6 +662,6 @@ title: English NLG
 <div class="end-note">
   <a href="https://scandeval.com/english-nlg-test.csv" target="_blank">Download as CSV</a>
   &nbsp;&nbsp;&bull;&nbsp;&nbsp;
-  <a href="javascript:void(0);" id="embed-link" data-embed="<iframe title=&quot;English NLG&quot; aria-label=&quot;Table&quot; id=&quot;datawrapper-chart-TSn2m&quot; src=&quot;https://datawrapper.dwcdn.net/TSn2m/27/&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width: 0; min-width: 100% !important; border: none;&quot; height=&quot;400&quot; data-external=&quot;1&quot;></iframe><script type=&quot;text/javascript&quot;>!function(){&quot;use strict&quot;;window.addEventListener(&quot;message&quot;,(function(a){if(void 0!==a.data[&quot;datawrapper-height&quot;]){var e=document.querySelectorAll(&quot;iframe&quot;);for(var t in a.data[&quot;datawrapper-height&quot;])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data[&quot;datawrapper-height&quot;][t]+&quot;px&quot;;e[r].style.height=i}}}))}();
+  <a href="javascript:void(0);" id="embed-link" data-embed="<iframe title=&quot;English NLG&quot; aria-label=&quot;Table&quot; id=&quot;datawrapper-chart-TSn2m&quot; src=&quot;https://datawrapper.dwcdn.net/TSn2m/28/&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width: 0; min-width: 100% !important; border: none;&quot; height=&quot;400&quot; data-external=&quot;1&quot;></iframe><script type=&quot;text/javascript&quot;>!function(){&quot;use strict&quot;;window.addEventListener(&quot;message&quot;,(function(a){if(void 0!==a.data[&quot;datawrapper-height&quot;]){var e=document.querySelectorAll(&quot;iframe&quot;);for(var t in a.data[&quot;datawrapper-height&quot;])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data[&quot;datawrapper-height&quot;][t]+&quot;px&quot;;e[r].style.height=i}}}))}();
 </script>">Copy embed HTML</a>
 </div>
