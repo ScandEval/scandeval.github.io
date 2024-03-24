@@ -207,10 +207,6 @@ title: {title}
     # Create path to the leaderboard, and ensure that the parent directory exists
     benchmark_path = Path(f"{title_kebab}.md")
     benchmark_path.parent.mkdir(exist_ok=True, parents=True)
-    benchmark_path.unlink(missing_ok=True)
-
-    # Remove the CSV file, if it exists
-    Path(f"{title_kebab}.csv").unlink(missing_ok=True)
 
     # Create path to the scores JSONL file, and raise error if it doesn't exist
     scores_path = Path("scandeval_benchmark_results.jsonl")
@@ -536,26 +532,52 @@ title: {title}
     all_values = sorted(all_values, key=lambda x: float(x["rank"]))
 
     if all_values:
-        df = generate_csv_df(all_values=all_values, datasets=datasets)
-        df.to_csv(f"{title_kebab}.csv", index=False)
+        df = generate_csv_df(
+            all_values=all_values, datasets=datasets
+        ).set_index("model_id")
+
+        # Get the new model IDs in the leaderboard
+        csv_path = Path(f"{title_kebab}.csv")
+        if csv_path.exists():
+            old_df = pd.read_csv(csv_path).set_index("model_id")
+            changed_model_ids = [
+                str(model_id)
+                for model_id, row in df.iterrows()
+                if model_id not in old_df.index.values
+                or {key: val for key, val in row.to_dict().items() if "rank" not in key}
+                != {key: val for key, val in old_df.loc[model_id].to_dict().items() if "rank" not in key}
+            ]
+        else:
+            changed_model_ids = df.index.tolist()
+
+        df.to_csv(csv_path)
 
         embed_code = get_embed_code(
             title=title, csv_url=f"https://scandeval.com/{title_kebab}.csv", csv_df=df,
         )
 
         # Build the HTML for the leaderboard
-        html_lines = [BENCHMARK_HTML_START]
-        for values in all_values:
-            html_lines.append(BENCHMARK_ENTRY.format(**values))
-        html_lines.append(BENCHMARK_HTML_END.format(embed_code=embed_code))
-        html = "\n".join(html_lines)
+        if changed_model_ids:
+            html_lines = [BENCHMARK_HTML_START]
+            for values in all_values:
+                html_lines.append(BENCHMARK_ENTRY.format(**values))
+            html_lines.append(BENCHMARK_HTML_END.format(embed_code=embed_code))
+            html = "\n".join(html_lines)
 
-        with benchmark_path.open("w") as f:
-            f.write(html)
-        logger.info(
-            f"Generated {title} with results from {len(all_values):,} models, stored "
-            f"at {str(benchmark_path)!r}"
-        )
+            with benchmark_path.open("w") as f:
+                f.write(html)
+
+            logger.info(
+                f"Generated {title} with results from {len(all_values):,} models, out "
+                f"of which the following {len(changed_model_ids):,} were changed or "
+                f"new: {', '.join(changed_model_ids)}."
+            )
+
+        else:
+            logger.info(
+                f"No changes to {title} were detected, so the leaderboard was not "
+                f"updated."
+            )
 
 
 def generate_csv_df(
