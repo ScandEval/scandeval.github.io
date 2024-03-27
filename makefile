@@ -64,10 +64,12 @@ download:
 		rm perceval_results.jsonl; \
 	fi
 
+.ONESHELL:
 filter_records:
 	@source .venv/bin/activate && \
 		python python/filter_records.py scandeval_benchmark_results.jsonl
 
+.ONESHELL:
 mainland-scandi-nlu:
 	@source .venv/bin/activate && \
 		python python/generate_leaderboard.py "Mainland Scandinavian NLU" \
@@ -99,6 +101,7 @@ mainland-scandi-nlu:
 			-d ScaLA-sv sv la mcc macro_f1 \
 			-d ScandiQA-sv sv qa em f1
 
+.ONESHELL:
 mainland-scandi-nlg:
 	@source .venv/bin/activate && \
 		python python/generate_leaderboard.py "Mainland Scandinavian NLG" \
@@ -146,6 +149,7 @@ mainland-scandi-nlg:
 			-d MMLU-sv sv know mcc accuracy \
 			-d HellaSwag-sv sv reason mcc accuracy
 
+.ONESHELL:
 insular-scandi-nlu:
 	@source .venv/bin/activate && \
 		python python/generate_leaderboard.py "Insular Scandinavian NLU" \
@@ -166,6 +170,7 @@ insular-scandi-nlu:
 			-d FoNE fo ner micro_f1_no_misc micro_f1 \
 			-d ScaLA-fo fo la mcc macro_f1
 
+.ONESHELL:
 insular-scandi-nlg:
 	@source .venv/bin/activate && \
 		python python/generate_leaderboard.py "Insular Scandinavian NLG" \
@@ -195,6 +200,7 @@ insular-scandi-nlg:
 			-d FoNE fo ner micro_f1_no_misc micro_f1 \
 			-d ScaLA-fo fo la mcc macro_f1
 
+.ONESHELL:
 german-nlu:
 	@source .venv/bin/activate && \
 		python python/generate_leaderboard.py "German NLU" \
@@ -214,6 +220,7 @@ german-nlu:
 			-d ScaLA-de de la mcc macro_f1 \
 			-d GermanQuAD de qa em f1
 
+.ONESHELL:
 german-nlg:
 	@source .venv/bin/activate && \
 		python python/generate_leaderboard.py "German NLG" \
@@ -242,6 +249,7 @@ german-nlg:
 			-d MMLU-de de know mcc accuracy \
 			-d HellaSwag-de de reason mcc accuracy
 
+.ONESHELL:
 dutch-nlu:
 	@source .venv/bin/activate && \
 		python python/generate_leaderboard.py "Dutch NLU" \
@@ -261,6 +269,7 @@ dutch-nlu:
 			-d ScaLA-nl nl la mcc macro_f1 \
 			-d SQuAD-nl nl qa em f1
 
+.ONESHELL:
 dutch-nlg:
 	@source .venv/bin/activate && \
 		python python/generate_leaderboard.py "Dutch NLG" \
@@ -289,6 +298,7 @@ dutch-nlg:
 			-d MMLU-nl nl know mcc accuracy \
 			-d HellaSwag-nl nl reason mcc accuracy
 
+.ONESHELL:
 english-nlu:
 	@source .venv/bin/activate && \
 		python python/generate_leaderboard.py "English NLU" \
@@ -308,6 +318,7 @@ english-nlu:
 			-d ScaLA-en en la mcc macro_f1 \
 			-d SQuAD en qa em f1
 
+.ONESHELL:
 english-nlg:
 	@source .venv/bin/activate && \
 		python python/generate_leaderboard.py "English NLG" \
