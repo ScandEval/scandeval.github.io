@@ -16,6 +16,7 @@ publish:
 	@ls | grep -e "-test.md" | sed "s/-test.*//" | xargs -I{} cp {}-test.md {}.md
 	@ls | grep -e "-test.csv" | sed "s/-test.*//" | xargs -I{} cp {}-test.csv {}.csv
 	@ls | grep -e "-test.md" | sed "s/-test//" | xargs sed -i "" "s/-test//g"
+	@ls | grep -e "-test.md" | sed "s/-test//" | xargs sed -i "s/-test//g"
 	@ls | grep -e ".md" | xargs git add
 	@ls | grep -e ".csv" | xargs git add
 	@git commit -m "feat: Update leaderboards"
