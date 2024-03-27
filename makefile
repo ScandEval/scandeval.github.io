@@ -18,7 +18,6 @@ publish:
 	@ls | grep -e "-test.md" | sed "s/-test//" | xargs sed -i "" "s/-test//g"
 	@ls | grep -e ".md" | xargs git add
 	@ls | grep -e ".csv" | xargs git add
-	@git add scandeval_benchmark_results.jsonl
 	@git commit -m "feat: Update leaderboards"
 	@git push
 	@echo "Published leaderboards!"
@@ -29,6 +28,12 @@ publish-test-leaderboards:
 	@git commit -m "feat: Update test leaderboards"
 	@git push
 	@echo "Published test leaderboards!"
+
+commit-results:
+	@git add scandeval_benchmark_results.jsonl
+	@git commit -m "feat: Update benchmark results"
+	@git push
+	@echo "Committed benchmark results!"
 
 download:
 	@scp -o ConnectTimeout=5 bk:/home/saattrupdan/scandeval/scandeval_benchmark_results.jsonl blackknight_results.jsonl || true
