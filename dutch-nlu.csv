@@ -41,7 +41,7 @@ Qwen/Qwen1.5-4B (few-shot),3950,152,32768,3248,2.87,24.85,12.55,0.23,51.3
 AI-Sweden-Models/roberta-large-1160k,354,50,512,5741,2.95,70.92,3.5,2.06,41.4
 meta-llama/Llama-2-7b-hf (few-shot),6738,32,4096,2648,2.99,40.49,7.1,18.66,37.51
 sentence-transformers/distiluse-base-multilingual-cased-v1,135,120,512,26344,3.08,58.67,17.82,9.27,2.17
-occiglot/occiglot-7b-eu5-instruct (few-shot),7242,32,32768,2088,3.1,48.14,7.78,16.23,22.49
+occiglot/occiglot-7b-eu5-instruct (few-shot),7242,32,32768,2088,3.1,48.14,7.25,16.23,22.49
 RuterNorway/Llama-2-7b-chat-norwegian (few-shot),-1,32,4096,10890,3.14,35.49,11.36,2.52,37.61
 google/gemma-2b-it (few-shot),2506,256,8192,6471,3.16,29.22,11.25,-2.27,45.88
 sentence-transformers/distiluse-base-multilingual-cased,135,120,512,19206,3.17,56.98,9.66,19.37,3.11
