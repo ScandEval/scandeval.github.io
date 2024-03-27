@@ -70,11 +70,11 @@ download:
 	fi
 
 filter_records:
-	@source .venv/bin/activate && \
+	@. .venv/bin/activate && \
 		python python/filter_records.py scandeval_benchmark_results.jsonl
 
 mainland-scandi-nlu:
-	@source .venv/bin/activate && \
+	@. .venv/bin/activate && \
 		python python/generate_leaderboard.py "Mainland Scandinavian NLU" \
 			-l da Danish \
 			-l no Norwegian \
@@ -105,7 +105,7 @@ mainland-scandi-nlu:
 			-d ScandiQA-sv sv qa em f1
 
 mainland-scandi-nlg:
-	@source .venv/bin/activate && \
+	@. .venv/bin/activate && \
 		python python/generate_leaderboard.py "Mainland Scandinavian NLG" \
 			-l da Danish \
 			-l no Norwegian \
@@ -152,7 +152,7 @@ mainland-scandi-nlg:
 			-d HellaSwag-sv sv reason mcc accuracy
 
 insular-scandi-nlu:
-	@source .venv/bin/activate && \
+	@. .venv/bin/activate && \
 		python python/generate_leaderboard.py "Insular Scandinavian NLU" \
 			-l is Icelandic \
 			-l fo Faroese \
@@ -172,7 +172,7 @@ insular-scandi-nlu:
 			-d ScaLA-fo fo la mcc macro_f1
 
 insular-scandi-nlg:
-	@source .venv/bin/activate && \
+	@. .venv/bin/activate && \
 		python python/generate_leaderboard.py "Insular Scandinavian NLG" \
 			-l is Icelandic \
 			-l fo Faroese \
@@ -201,7 +201,7 @@ insular-scandi-nlg:
 			-d ScaLA-fo fo la mcc macro_f1
 
 german-nlu:
-	@source .venv/bin/activate && \
+	@. .venv/bin/activate && \
 		python python/generate_leaderboard.py "German NLU" \
 			-l de German \
 			-t ner "Named Entity Recognition" \
@@ -220,7 +220,7 @@ german-nlu:
 			-d GermanQuAD de qa em f1
 
 german-nlg:
-	@source .venv/bin/activate && \
+	@. .venv/bin/activate && \
 		python python/generate_leaderboard.py "German NLG" \
 			-l de German \
 			-t ner "Named Entity Recognition" \
@@ -248,7 +248,7 @@ german-nlg:
 			-d HellaSwag-de de reason mcc accuracy
 
 dutch-nlu:
-	@source .venv/bin/activate && \
+	@. .venv/bin/activate && \
 		python python/generate_leaderboard.py "Dutch NLU" \
 			-l nl Dutch \
 			-t ner "Named Entity Recognition" \
@@ -267,7 +267,7 @@ dutch-nlu:
 			-d SQuAD-nl nl qa em f1
 
 dutch-nlg:
-	@source .venv/bin/activate && \
+	@. .venv/bin/activate && \
 		python python/generate_leaderboard.py "Dutch NLG" \
 			-l nl Dutch \
 			-t ner "Named Entity Recognition" \
@@ -295,7 +295,7 @@ dutch-nlg:
 			-d HellaSwag-nl nl reason mcc accuracy
 
 english-nlu:
-	@source .venv/bin/activate && \
+	@. .venv/bin/activate && \
 		python python/generate_leaderboard.py "English NLU" \
 			-l en English \
 			-t ner "Named Entity Recognition" \
@@ -314,7 +314,7 @@ english-nlu:
 			-d SQuAD en qa em f1
 
 english-nlg:
-	@source .venv/bin/activate && \
+	@. .venv/bin/activate && \
 		python python/generate_leaderboard.py "English NLG" \
 			-l en English \
 			-t ner "Named Entity Recognition" \
