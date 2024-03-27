@@ -96,7 +96,13 @@ def main(filename: str) -> None:
             list(map(int, match.get("scandeval_version", "0.0.0").split(".")))
             for match in matches
         ]
-        newest_match = matches[versions.index(max(versions))]
+        newest_version = max(versions)
+        matches_with_newest_version = [
+            match
+            for match, version in zip(matches, versions)
+            if version == newest_version
+        ]
+        newest_match = matches_with_newest_version[-1]
         new_records.append(newest_match)
     records = new_records
     num_duplicates = num_raw_records - num_invalid_records - len(records)
