@@ -352,5 +352,16 @@ automatically-publish:
 	@while true; do \
 		make leaderboards; \
 		make publish; \
-		sleep 600; \
+		echo "Sleeping for 10 minutes..."; \
+		sleep 300; \
+		echo "5 more minutes to go..."; \
+		sleep 60; \
+		echo "4 more minutes to go..."; \
+		sleep 60; \
+		echo "3 more minutes to go..."; \
+		sleep 60; \
+		echo "2 more minutes to go..."; \
+		sleep 60; \
+		echo "1 more minute to go..."; \
+		sleep 60; \
 	done
