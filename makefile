@@ -334,3 +334,11 @@ english-nlg:
 			-d CNN-DailyMail en summ bertscore rouge_l \
 			-d MMLU en know mcc accuracy \
 			-d HellaSwag en reason mcc accuracy
+
+
+automatically-publish:
+	@while true; do \
+		make leaderboards; \
+		make publish; \
+		sleep 600; \
+	done
