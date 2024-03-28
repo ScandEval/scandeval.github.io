@@ -5,15 +5,16 @@ FacebookAI/roberta-large,354,50,512,4542,1.36,91.53,62.92,48.77,71.23
 google/electra-base-discriminator,109,31,512,9977,1.43,89.83,63.55,67.87,58.27
 "gpt-4-0613 (few-shot, val)",-1,100,8191,1244,1.44,78.06,69.06,55.76,67.35
 FacebookAI/roberta-base,124,50,512,13354,1.54,91.0,59.54,57.29,62.75
-AI-Sweden-Models/roberta-large-1160k,354,50,512,5741,1.55,89.53,53.9,55.31,69.89
+AI-Sweden-Models/roberta-large-1160k,354,50,512,5741,1.56,89.53,53.9,55.31,69.89
 microsoft/mdeberta-v3-base,278,251,512,9237,1.58,91.83,53.75,62.11,62.1
 AI-Sweden-Models/roberta-large-1350k,354,50,512,5744,1.6,89.48,51.88,50.69,69.46
 google-bert/bert-large-cased,333,29,512,5051,1.61,89.84,58.19,63.62,55.17
-google-bert/bert-large-uncased,334,31,512,4711,1.69,88.8,57.94,59.27,52.38
+google-bert/bert-large-uncased,334,31,512,4711,1.7,88.8,57.94,59.27,52.38
 "gpt-3.5-turbo-0613 (few-shot, val)",-1,100,4095,1344,1.72,71.48,66.41,41.43,67.9
 google/electra-large-discriminator,334,31,512,4700,1.78,67.87,48.08,55.46,70.66
 FacebookAI/xlm-roberta-large,559,250,512,6663,1.85,89.81,41.97,35.55,68.88
 distilbert/distilroberta-base,82,50,512,17448,1.86,90.04,56.08,54.9,49.36
+occiglot/occiglot-7b-de-en-instruct (few-shot),7242,32,32768,1584,1.9,60.61,66.54,23.6,75.14
 01-ai/Yi-6B (few-shot),6061,64,4096,2786,1.94,52.7,68.66,25.29,75.83
 google-bert/bert-base-uncased,109,31,512,10296,1.94,87.62,54.01,56.97,42.37
 mistralai/Mistral-7B-v0.1 (few-shot),7242,32,32768,2657,1.95,63.4,68.17,30.92,58.79
@@ -29,14 +30,13 @@ google-bert/bert-base-multilingual-cased,177,120,512,14083,2.18,89.32,41.89,38.3
 mistralai/Mistral-7B-Instruct-v0.2 (few-shot),7242,32,32768,2538,2.21,62.11,59.91,30.66,58.3
 microsoft/phi-2 (few-shot),2780,51,2048,3472,2.24,49.84,62.41,12.31,75.79
 Rijgersberg/GEITje-7B (few-shot),7242,32,32768,10401,2.26,53.39,65.21,12.63,65.74
-distilbert/distilbert-base-cased,65,29,512,19667,2.35,84.75,50.94,53.47,24.93
+distilbert/distilbert-base-cased,65,29,512,19667,2.36,84.75,50.94,53.47,24.93
 meta-llama/Llama-2-7b-hf (few-shot),6738,32,4096,2648,2.44,55.27,65.16,20.43,44.64
 Qwen/Qwen1.5-1.8B (few-shot),1837,152,32768,5666,2.45,38.17,64.34,15.3,64.41
-occiglot/occiglot-7b-de-en-instruct (few-shot),7242,32,32768,1584,2.45,60.61,66.54,23.6,34.46
 AI-Sweden-Models/gpt-sw3-20b (few-shot),20918,64,2048,4880,2.46,45.86,62.08,6.62,65.29
 occiglot/occiglot-7b-eu5-instruct (few-shot),7242,32,32768,2088,2.56,60.58,62.1,20.17,37.83
-distilbert/distilbert-base-multilingual-cased,135,120,512,26355,2.67,87.7,36.48,40.79,29.0
 Qwen/Qwen1.5-1.8B-Chat (few-shot),1837,152,32768,8304,2.68,37.8,55.33,11.23,60.71
+distilbert/distilbert-base-multilingual-cased,135,120,512,26355,2.68,87.7,36.48,40.79,29.0
 google/gemma-2b (few-shot),2506,256,8192,6087,2.7,19.0,62.14,8.3,66.3
 google/gemma-2b-it (few-shot),2506,256,8192,6471,2.82,39.52,48.83,5.83,63.67
 allenai/OLMo-1B (few-shot),1177,50,2176,8536,2.97,31.94,60.05,0.72,43.87
@@ -44,4 +44,4 @@ Qwen/Qwen1.5-0.5B (few-shot),620,152,32768,11371,3.01,33.96,57.15,2.94,42.57
 Qwen/Qwen1.5-0.5B-Chat (few-shot),620,152,32768,11740,3.08,21.19,55.41,1.15,53.27
 RuterNorway/Llama-2-7b-chat-norwegian (few-shot),-1,32,4096,10890,3.92,18.69,21.95,0.01,36.7
 ai-forever/mGPT (few-shot),-1,100,1024,13551,4.9,1.55,3.71,-0.42,5.57
-RJuro/kanelsnegl-v0.1 (few-shot),7242,32,512,9757,5.04,0.0,0.0,0.41,0.0
+RJuro/kanelsnegl-v0.1 (few-shot),7242,32,512,9757,5.05,0.0,0.0,0.41,0.0
