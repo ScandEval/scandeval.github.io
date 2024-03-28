@@ -3,7 +3,7 @@ layout: leaderboard
 title: Mainland Scandinavian NLG
 ---
 
-<center>Last updated: 28/03/2024 01:45:42 CET</center>
+<center>Last updated: 28/03/2024 02:07:29 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -1912,9 +1912,9 @@ title: Mainland Scandinavian NLG
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
    <td class="speed">3,019 ± 480 / 1,048 ± 317</td> <!-- Model inference speed -->
-   <td class="rank">3.17</td> <!-- ScandEval rank -->
+   <td class="rank">3.18</td> <!-- ScandEval rank -->
    <td class="da-rank">2.71</td> <!-- Danish rank -->
-   <td class="no-rank">3.74</td> <!-- Norwegian rank -->
+   <td class="no-rank">3.77</td> <!-- Norwegian rank -->
    <td class="sv-rank">3.07</td> <!-- Swedish rank -->
    <td class="da ner">31.60 ± 2.96 / 22.74 ± 2.90</td> <!-- DANSK -->
    <td class="da sent">36.89 ± 2.27 / 43.77 ± 2.64</td> <!-- Angry Tweets -->
@@ -1924,7 +1924,7 @@ title: Mainland Scandinavian NLG
    <td class="da know">77.60 ± 1.36 / 82.98 ± 1.03</td> <!-- Danske Talemaader -->
    <td class="da know">67.85 ± 1.25 / 77.93 ± 0.90</td> <!-- Danish Citizen Tests -->
    <td class="da reason">25.06 ± 2.56 / 42.93 ± 2.25</td> <!-- HellaSwag-da -->
-   <td class="no ner">46.32 ± 3.74 / 34.02 ± 2.70</td> <!-- NorNE-nb -->
+   <td class="no ner">37.10 ± 3.30 / 31.97 ± 2.99</td> <!-- NorNE-nb -->
    <td class="no ner">48.20 ± 1.59 / 35.05 ± 2.05</td> <!-- NorNE-nn -->
    <td class="no sent">20.54 ± 6.01 / 36.30 ± 6.77</td> <!-- NoReC -->
    <td class="no summ">63.67 ± 1.14 / 15.98 ± 1.26</td> <!-- No Sammendrag -->
@@ -1948,7 +1948,7 @@ title: Mainland Scandinavian NLG
    <td>10.0.1</td> <!-- Danske Talemaader version -->
    <td>10.0.1</td> <!-- Danish Citizen Tests version -->
    <td>0.0.0</td> <!-- HellaSwag-da version -->
-   <td>0.0.0</td> <!-- NorNE-nb version -->
+   <td>12.4.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>12.4.0</td> <!-- NoReC version -->
    <td>11.0.0</td> <!-- No Sammendrag version -->
@@ -4215,7 +4215,7 @@ title: Mainland Scandinavian NLG
    <td class="speed">2,556 ± 580 / 681 ± 214</td> <!-- Model inference speed -->
    <td class="rank">4.90</td> <!-- ScandEval rank -->
    <td class="da-rank">4.50</td> <!-- Danish rank -->
-   <td class="no-rank">5.11</td> <!-- Norwegian rank -->
+   <td class="no-rank">5.12</td> <!-- Norwegian rank -->
    <td class="sv-rank">5.08</td> <!-- Swedish rank -->
    <td class="da ner">0.24 ± 0.25 / 0.25 ± 0.21</td> <!-- DANSK -->
    <td class="da sent">27.80 ± 6.39 / 43.80 ± 5.16</td> <!-- Angry Tweets -->
@@ -4509,6 +4509,6 @@ title: Mainland Scandinavian NLG
 <div class="end-note">
   <a href="https://scandeval.com/mainland-scandinavian-nlg.csv" target="_blank">Download as CSV</a>
   &nbsp;&nbsp;&bull;&nbsp;&nbsp;
-  <a href="javascript:void(0);" id="embed-link" data-embed="<iframe title=&quot;Mainland Scandinavian NLG&quot; aria-label=&quot;Table&quot; id=&quot;datawrapper-chart-6BQ5T&quot; src=&quot;https://datawrapper.dwcdn.net/6BQ5T/123/&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width: 0; min-width: 100% !important; border: none;&quot; height=&quot;400&quot; data-external=&quot;1&quot;></iframe><script type=&quot;text/javascript&quot;>!function(){&quot;use strict&quot;;window.addEventListener(&quot;message&quot;,(function(a){if(void 0!==a.data[&quot;datawrapper-height&quot;]){var e=document.querySelectorAll(&quot;iframe&quot;);for(var t in a.data[&quot;datawrapper-height&quot;])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data[&quot;datawrapper-height&quot;][t]+&quot;px&quot;;e[r].style.height=i}}}))}();
+  <a href="javascript:void(0);" id="embed-link" data-embed="<iframe title=&quot;Mainland Scandinavian NLG&quot; aria-label=&quot;Table&quot; id=&quot;datawrapper-chart-6BQ5T&quot; src=&quot;https://datawrapper.dwcdn.net/6BQ5T/125/&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width: 0; min-width: 100% !important; border: none;&quot; height=&quot;400&quot; data-external=&quot;1&quot;></iframe><script type=&quot;text/javascript&quot;>!function(){&quot;use strict&quot;;window.addEventListener(&quot;message&quot;,(function(a){if(void 0!==a.data[&quot;datawrapper-height&quot;]){var e=document.querySelectorAll(&quot;iframe&quot;);for(var t in a.data[&quot;datawrapper-height&quot;])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data[&quot;datawrapper-height&quot;][t]+&quot;px&quot;;e[r].style.height=i}}}))}();
 </script>">Copy embed HTML</a>
 </div>
