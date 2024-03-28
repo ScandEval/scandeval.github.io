@@ -3,7 +3,7 @@ layout: leaderboard
 title: Mainland Scandinavian NLG
 ---
 
-<center>Last updated: 28/03/2024 00:51:09 CET</center>
+<center>Last updated: 28/03/2024 01:02:03 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -1926,7 +1926,7 @@ title: Mainland Scandinavian NLG
    <td class="da reason">25.06 ± 2.56 / 42.93 ± 2.25</td> <!-- HellaSwag-da -->
    <td class="no ner">46.32 ± 3.74 / 34.02 ± 2.70</td> <!-- NorNE-nb -->
    <td class="no ner">48.20 ± 1.59 / 35.05 ± 2.05</td> <!-- NorNE-nn -->
-   <td class="no sent">20.46 ± 5.98 / 36.24 ± 6.77</td> <!-- NoReC -->
+   <td class="no sent">20.54 ± 6.01 / 36.30 ± 6.77</td> <!-- NoReC -->
    <td class="no summ">63.67 ± 1.14 / 15.98 ± 1.26</td> <!-- No Sammendrag -->
    <td class="no la">4.50 ± 4.17 / 35.29 ± 2.89</td> <!-- ScaLA-nb -->
    <td class="no la">1.10 ± 1.47 / 34.51 ± 1.24</td> <!-- ScaLA-nn -->
@@ -1950,7 +1950,7 @@ title: Mainland Scandinavian NLG
    <td>0.0.0</td> <!-- HellaSwag-da version -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
-   <td>0.0.0</td> <!-- NoReC version -->
+   <td>12.4.0</td> <!-- NoReC version -->
    <td>11.0.0</td> <!-- No Sammendrag version -->
    <td>0.0.0</td> <!-- ScaLA-nb version -->
    <td>0.0.0</td> <!-- ScaLA-nn version -->
@@ -4036,9 +4036,9 @@ title: Mainland Scandinavian NLG
    <td class="vocabulary_size">152</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
    <td class="speed">11,740 ± 3,000 / 2,209 ± 721</td> <!-- Model inference speed -->
-   <td class="rank">4.76</td> <!-- ScandEval rank -->
+   <td class="rank">4.77</td> <!-- ScandEval rank -->
    <td class="da-rank">4.29</td> <!-- Danish rank -->
-   <td class="no-rank">5.58</td> <!-- Norwegian rank -->
+   <td class="no-rank">5.59</td> <!-- Norwegian rank -->
    <td class="sv-rank">4.42</td> <!-- Swedish rank -->
    <td class="da ner">10.09 ± 2.59 / 10.00 ± 2.09</td> <!-- DANSK -->
    <td class="da sent">10.72 ± 3.35 / 25.21 ± 3.80</td> <!-- Angry Tweets -->
@@ -4509,6 +4509,6 @@ title: Mainland Scandinavian NLG
 <div class="end-note">
   <a href="https://scandeval.com/mainland-scandinavian-nlg.csv" target="_blank">Download as CSV</a>
   &nbsp;&nbsp;&bull;&nbsp;&nbsp;
-  <a href="javascript:void(0);" id="embed-link" data-embed="<iframe title=&quot;Mainland Scandinavian NLG&quot; aria-label=&quot;Table&quot; id=&quot;datawrapper-chart-6BQ5T&quot; src=&quot;https://datawrapper.dwcdn.net/6BQ5T/118/&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width: 0; min-width: 100% !important; border: none;&quot; height=&quot;400&quot; data-external=&quot;1&quot;></iframe><script type=&quot;text/javascript&quot;>!function(){&quot;use strict&quot;;window.addEventListener(&quot;message&quot;,(function(a){if(void 0!==a.data[&quot;datawrapper-height&quot;]){var e=document.querySelectorAll(&quot;iframe&quot;);for(var t in a.data[&quot;datawrapper-height&quot;])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data[&quot;datawrapper-height&quot;][t]+&quot;px&quot;;e[r].style.height=i}}}))}();
+  <a href="javascript:void(0);" id="embed-link" data-embed="<iframe title=&quot;Mainland Scandinavian NLG&quot; aria-label=&quot;Table&quot; id=&quot;datawrapper-chart-6BQ5T&quot; src=&quot;https://datawrapper.dwcdn.net/6BQ5T/119/&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width: 0; min-width: 100% !important; border: none;&quot; height=&quot;400&quot; data-external=&quot;1&quot;></iframe><script type=&quot;text/javascript&quot;>!function(){&quot;use strict&quot;;window.addEventListener(&quot;message&quot;,(function(a){if(void 0!==a.data[&quot;datawrapper-height&quot;]){var e=document.querySelectorAll(&quot;iframe&quot;);for(var t in a.data[&quot;datawrapper-height&quot;])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data[&quot;datawrapper-height&quot;][t]+&quot;px&quot;;e[r].style.height=i}}}))}();
 </script>">Copy embed HTML</a>
 </div>
