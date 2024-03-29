@@ -3,7 +3,7 @@ layout: leaderboard
 title: Mainland Scandinavian NLG
 ---
 
-<center>Last updated: 29/03/2024 05:50:31 CET</center>
+<center>Last updated: 29/03/2024 06:01:26 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -3736,6 +3736,65 @@ title: Mainland Scandinavian NLG
    <td>12.3.2</td> <!-- HellaSwag-sv version -->
    </tr>
   <tr class="not-merged-model">
+   <td>mhenrichsen/danskgpt-tiny (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">1100</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">8,597 ± 1,983 / 1,926 ± 600</td> <!-- Model inference speed -->
+   <td class="rank">4.46</td> <!-- ScandEval rank -->
+   <td class="da-rank">4.16</td> <!-- Danish rank -->
+   <td class="no-rank">4.75</td> <!-- Norwegian rank -->
+   <td class="sv-rank">4.48</td> <!-- Swedish rank -->
+   <td class="da ner">14.13 ± 3.50 / 12.15 ± 3.14</td> <!-- DANSK -->
+   <td class="da sent">26.31 ± 5.33 / 44.07 ± 6.36</td> <!-- Angry Tweets -->
+   <td class="da la">-0.54 ± 1.46 / 44.56 ± 3.34</td> <!-- ScaLA-da -->
+   <td class="da qa">14.16 ± 1.82 / 19.24 ± 1.85</td> <!-- ScandiQA-da -->
+   <td class="da summ">63.54 ± 0.94 / 16.99 ± 0.80</td> <!-- Nordjylland-News -->
+   <td class="da know">-2.76 ± 1.71 / 22.41 ± 1.17</td> <!-- Danske Talemaader -->
+   <td class="da know">5.08 ± 2.61 / 35.14 ± 1.72</td> <!-- Danish Citizen Tests -->
+   <td class="da reason">-0.70 ± 0.94 / 24.83 ± 0.59</td> <!-- HellaSwag-da -->
+   <td class="no ner">27.37 ± 6.89 / 27.19 ± 7.19</td> <!-- NorNE-nb -->
+   <td class="no ner">27.59 ± 6.34 / 28.03 ± 6.94</td> <!-- NorNE-nn -->
+   <td class="no sent">18.09 ± 6.14 / 31.83 ± 6.77</td> <!-- NoReC -->
+   <td class="no summ">56.77 ± 2.04 / 9.18 ± 1.21</td> <!-- No Sammendrag -->
+   <td class="no la">-0.19 ± 1.93 / 41.38 ± 3.18</td> <!-- ScaLA-nb -->
+   <td class="no la">-0.80 ± 0.89 / 40.66 ± 3.78</td> <!-- ScaLA-nn -->
+   <td class="no qa">2.15 ± 0.46 / 10.01 ± 1.47</td> <!-- NorQuAD -->
+   <td class="no know">-0.50 ± 1.10 / 23.75 ± 0.96</td> <!-- MMLU-no -->
+   <td class="no reason">0.07 ± 1.21 / 25.26 ± 0.95</td> <!-- HellaSwag-no -->
+   <td class="sv ner">23.92 ± 6.88 / 22.42 ± 6.73</td> <!-- SUC3 -->
+   <td class="sv sent">31.93 ± 14.68 / 43.80 ± 8.79</td> <!-- SweReC -->
+   <td class="sv la">0.46 ± 1.91 / 43.45 ± 3.64</td> <!-- ScaLA-sv -->
+   <td class="sv qa">21.56 ± 3.80 / 26.32 ± 4.10</td> <!-- ScandiQA-sv -->
+   <td class="sv summ">52.68 ± 0.76 / 11.19 ± 0.36</td> <!-- SweDN -->
+   <td class="sv know">-0.85 ± 1.05 / 24.38 ± 0.51</td> <!-- MMLU-sv -->
+   <td class="sv reason">-1.24 ± 0.90 / 24.30 ± 0.63</td> <!-- HellaSwag-sv -->
+   <td>0.0.0</td> <!-- DANSK version -->
+   <td>0.0.0</td> <!-- Angry Tweets version -->
+   <td>0.0.0</td> <!-- ScaLA-da version -->
+   <td>0.0.0</td> <!-- ScandiQA-da version -->
+   <td>11.0.0</td> <!-- Nordjylland-News version -->
+   <td>10.0.1</td> <!-- Danske Talemaader version -->
+   <td>10.0.1</td> <!-- Danish Citizen Tests version -->
+   <td>0.0.0</td> <!-- HellaSwag-da version -->
+   <td>0.0.0</td> <!-- NorNE-nb version -->
+   <td>0.0.0</td> <!-- NorNE-nn version -->
+   <td>0.0.0</td> <!-- NoReC version -->
+   <td>11.0.0</td> <!-- No Sammendrag version -->
+   <td>0.0.0</td> <!-- ScaLA-nb version -->
+   <td>0.0.0</td> <!-- ScaLA-nn version -->
+   <td>0.0.0</td> <!-- NorQuAD version -->
+   <td>0.0.0</td> <!-- MMLU-no version -->
+   <td>0.0.0</td> <!-- HellaSwag-no version -->
+   <td>0.0.0</td> <!-- SUC3 version -->
+   <td>0.0.0</td> <!-- SweReC version -->
+   <td>0.0.0</td> <!-- ScaLA-sv version -->
+   <td>0.0.0</td> <!-- ScandiQA-sv version -->
+   <td>11.0.0</td> <!-- SweDN version -->
+   <td>0.0.0</td> <!-- MMLU-sv version -->
+   <td>0.0.0</td> <!-- HellaSwag-sv version -->
+   </tr>
+  <tr class="not-merged-model">
    <td>RuterNorway/Llama-2-7b-chat-norwegian (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -3793,65 +3852,6 @@ title: Mainland Scandinavian NLG
    <td>11.0.0</td> <!-- SweDN version -->
    <td>9.3.1</td> <!-- MMLU-sv version -->
    <td>9.3.1</td> <!-- HellaSwag-sv version -->
-   </tr>
-  <tr class="not-merged-model">
-   <td>mhenrichsen/danskgpt-tiny (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">1100</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">8,597 ± 1,983 / 1,926 ± 600</td> <!-- Model inference speed -->
-   <td class="rank">4.47</td> <!-- ScandEval rank -->
-   <td class="da-rank">4.16</td> <!-- Danish rank -->
-   <td class="no-rank">4.75</td> <!-- Norwegian rank -->
-   <td class="sv-rank">4.49</td> <!-- Swedish rank -->
-   <td class="da ner">14.13 ± 3.50 / 12.15 ± 3.14</td> <!-- DANSK -->
-   <td class="da sent">26.31 ± 5.33 / 44.07 ± 6.36</td> <!-- Angry Tweets -->
-   <td class="da la">-0.54 ± 1.46 / 44.56 ± 3.34</td> <!-- ScaLA-da -->
-   <td class="da qa">14.16 ± 1.82 / 19.24 ± 1.85</td> <!-- ScandiQA-da -->
-   <td class="da summ">63.54 ± 0.94 / 16.99 ± 0.80</td> <!-- Nordjylland-News -->
-   <td class="da know">-2.76 ± 1.71 / 22.41 ± 1.17</td> <!-- Danske Talemaader -->
-   <td class="da know">5.08 ± 2.61 / 35.14 ± 1.72</td> <!-- Danish Citizen Tests -->
-   <td class="da reason">-0.70 ± 0.94 / 24.83 ± 0.59</td> <!-- HellaSwag-da -->
-   <td class="no ner">27.37 ± 6.89 / 27.19 ± 7.19</td> <!-- NorNE-nb -->
-   <td class="no ner">27.59 ± 6.34 / 28.03 ± 6.94</td> <!-- NorNE-nn -->
-   <td class="no sent">18.09 ± 6.14 / 31.83 ± 6.77</td> <!-- NoReC -->
-   <td class="no summ">56.77 ± 2.04 / 9.18 ± 1.21</td> <!-- No Sammendrag -->
-   <td class="no la">-0.19 ± 1.93 / 41.38 ± 3.18</td> <!-- ScaLA-nb -->
-   <td class="no la">-0.80 ± 0.89 / 40.66 ± 3.78</td> <!-- ScaLA-nn -->
-   <td class="no qa">2.15 ± 0.46 / 10.01 ± 1.47</td> <!-- NorQuAD -->
-   <td class="no know">-0.50 ± 1.10 / 23.75 ± 0.96</td> <!-- MMLU-no -->
-   <td class="no reason">0.07 ± 1.21 / 25.26 ± 0.95</td> <!-- HellaSwag-no -->
-   <td class="sv ner">23.92 ± 6.88 / 22.42 ± 6.73</td> <!-- SUC3 -->
-   <td class="sv sent">31.93 ± 14.68 / 43.80 ± 8.79</td> <!-- SweReC -->
-   <td class="sv la">0.46 ± 1.91 / 43.45 ± 3.64</td> <!-- ScaLA-sv -->
-   <td class="sv qa">21.56 ± 3.80 / 26.32 ± 4.10</td> <!-- ScandiQA-sv -->
-   <td class="sv summ">52.68 ± 0.76 / 11.19 ± 0.36</td> <!-- SweDN -->
-   <td class="sv know">-0.85 ± 1.05 / 24.38 ± 0.51</td> <!-- MMLU-sv -->
-   <td class="sv reason">-1.24 ± 0.90 / 24.30 ± 0.63</td> <!-- HellaSwag-sv -->
-   <td>0.0.0</td> <!-- DANSK version -->
-   <td>0.0.0</td> <!-- Angry Tweets version -->
-   <td>0.0.0</td> <!-- ScaLA-da version -->
-   <td>0.0.0</td> <!-- ScandiQA-da version -->
-   <td>11.0.0</td> <!-- Nordjylland-News version -->
-   <td>10.0.1</td> <!-- Danske Talemaader version -->
-   <td>10.0.1</td> <!-- Danish Citizen Tests version -->
-   <td>0.0.0</td> <!-- HellaSwag-da version -->
-   <td>0.0.0</td> <!-- NorNE-nb version -->
-   <td>0.0.0</td> <!-- NorNE-nn version -->
-   <td>0.0.0</td> <!-- NoReC version -->
-   <td>11.0.0</td> <!-- No Sammendrag version -->
-   <td>0.0.0</td> <!-- ScaLA-nb version -->
-   <td>0.0.0</td> <!-- ScaLA-nn version -->
-   <td>0.0.0</td> <!-- NorQuAD version -->
-   <td>0.0.0</td> <!-- MMLU-no version -->
-   <td>0.0.0</td> <!-- HellaSwag-no version -->
-   <td>0.0.0</td> <!-- SUC3 version -->
-   <td>0.0.0</td> <!-- SweReC version -->
-   <td>0.0.0</td> <!-- ScaLA-sv version -->
-   <td>0.0.0</td> <!-- ScandiQA-sv version -->
-   <td>11.0.0</td> <!-- SweDN version -->
-   <td>0.0.0</td> <!-- MMLU-sv version -->
-   <td>0.0.0</td> <!-- HellaSwag-sv version -->
    </tr>
   <tr class="not-merged-model">
    <td>Qwen/Qwen1.5-0.5B (few-shot)</td> <!-- Model ID -->
@@ -3942,7 +3942,7 @@ title: Mainland Scandinavian NLG
    <td class="sv ner">23.05 ± 2.31 / 24.35 ± 1.99</td> <!-- SUC3 -->
    <td class="sv sent">12.47 ± 7.10 / 23.03 ± 8.78</td> <!-- SweReC -->
    <td class="sv la">0.08 ± 0.16 / 33.34 ± 0.30</td> <!-- ScaLA-sv -->
-   <td class="sv qa">20.46 ± 2.67 / 24.29 ± 2.63</td> <!-- ScandiQA-sv -->
+   <td class="sv qa">20.43 ± 2.69 / 24.25 ± 2.67</td> <!-- ScandiQA-sv -->
    <td class="sv summ">59.78 ± 0.95 / 14.57 ± 0.35</td> <!-- SweDN -->
    <td class="sv know">0.72 ± 0.72 / 23.30 ± 0.96</td> <!-- MMLU-sv -->
    <td class="sv reason">0.11 ± 0.91 / 25.15 ± 0.81</td> <!-- HellaSwag-sv -->
@@ -3966,7 +3966,7 @@ title: Mainland Scandinavian NLG
    <td>9.3.2</td> <!-- SUC3 version -->
    <td>9.3.2</td> <!-- SweReC version -->
    <td>11.0.0</td> <!-- ScaLA-sv version -->
-   <td>11.0.0</td> <!-- ScandiQA-sv version -->
+   <td>12.4.0</td> <!-- ScandiQA-sv version -->
    <td>11.0.0</td> <!-- SweDN version -->
    <td>11.0.0</td> <!-- MMLU-sv version -->
    <td>11.0.0</td> <!-- HellaSwag-sv version -->
@@ -4509,6 +4509,6 @@ title: Mainland Scandinavian NLG
 <div class="end-note">
   <a href="https://scandeval.com/mainland-scandinavian-nlg.csv" target="_blank">Download as CSV</a>
   &nbsp;&nbsp;&bull;&nbsp;&nbsp;
-  <a href="javascript:void(0);" id="embed-link" data-embed="<iframe title=&quot;Mainland Scandinavian NLG&quot; aria-label=&quot;Table&quot; id=&quot;datawrapper-chart-6BQ5T&quot; src=&quot;https://datawrapper.dwcdn.net/6BQ5T/278/&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width: 0; min-width: 100% !important; border: none;&quot; height=&quot;400&quot; data-external=&quot;1&quot;></iframe><script type=&quot;text/javascript&quot;>!function(){&quot;use strict&quot;;window.addEventListener(&quot;message&quot;,(function(a){if(void 0!==a.data[&quot;datawrapper-height&quot;]){var e=document.querySelectorAll(&quot;iframe&quot;);for(var t in a.data[&quot;datawrapper-height&quot;])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data[&quot;datawrapper-height&quot;][t]+&quot;px&quot;;e[r].style.height=i}}}))}();
+  <a href="javascript:void(0);" id="embed-link" data-embed="<iframe title=&quot;Mainland Scandinavian NLG&quot; aria-label=&quot;Table&quot; id=&quot;datawrapper-chart-6BQ5T&quot; src=&quot;https://datawrapper.dwcdn.net/6BQ5T/279/&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width: 0; min-width: 100% !important; border: none;&quot; height=&quot;400&quot; data-external=&quot;1&quot;></iframe><script type=&quot;text/javascript&quot;>!function(){&quot;use strict&quot;;window.addEventListener(&quot;message&quot;,(function(a){if(void 0!==a.data[&quot;datawrapper-height&quot;]){var e=document.querySelectorAll(&quot;iframe&quot;);for(var t in a.data[&quot;datawrapper-height&quot;])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data[&quot;datawrapper-height&quot;][t]+&quot;px&quot;;e[r].style.height=i}}}))}();
 </script>">Copy embed HTML</a>
 </div>
