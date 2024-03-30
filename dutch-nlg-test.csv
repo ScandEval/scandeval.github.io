@@ -2,7 +2,7 @@ model_id,num_model_parameters,vocabulary_size,max_sequence_length,speed,rank,con
 gpt-4-1106-preview (few-shot),-1,100,8192,4,1.09,66.44,15.05,74.01,57.81,67.13,65.88,84.97
 "gpt-3.5-turbo-0613 (few-shot, val)",-1,100,4095,1344,1.81,68.96,8.81,58.95,55.57,69.13,42.28,61.52
 "mlabonne/NeuralBeagle14-7B (few-shot, val)",7242,32,8192,2549,2.09,63.53,11.25,27.76,50.88,71.2,40.23,47.87
-BramVanroy/GEITje-7B-ultra (few-shot),7242,32,8192,2475,2.56,42.25,12.78,18.23,53.44,68.3,26.92,25.72
+BramVanroy/GEITje-7B-ultra (few-shot),7242,32,8192,2475,2.56,42.25,12.78,18.23,53.41,68.3,26.92,25.72
 mistralai/Mistral-7B-Instruct-v0.2 (few-shot),7242,32,32768,2538,2.58,55.56,12.37,21.5,50.8,67.98,22.86,24.8
 mistralai/Mistral-7B-v0.1 (few-shot),7242,32,32768,2657,2.71,58.15,7.94,25.41,50.14,64.24,35.49,19.88
 RuterNorway/Llama-2-13b-chat-norwegian (few-shot),-1,32,4096,7778,2.72,57.66,8.41,16.93,56.29,66.22,25.7,17.92
