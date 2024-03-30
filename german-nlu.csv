@@ -20,7 +20,7 @@ occiglot/occiglot-7b-eu5-instruct (few-shot),7242,32,32768,2088,2.21,50.46,43.16
 Twitter/twhin-bert-large,560,250,512,5299,2.22,74.8,55.04,29.15,11.93
 jhu-clsp/bernice,277,250,128,5567,2.23,72.25,62.0,48.1,0.0
 microsoft/xlm-align-base,277,250,512,14744,2.23,79.38,58.58,15.34,16.58
-seedboxai/KafkaLM-7B-German-V0.1-DPO (few-shot),7242,32,4096,6070,2.25,48.92,52.57,20.74,32.88
+seedboxai/KafkaLM-7B-German-V0.1-DPO (few-shot),7242,32,4096,6070,2.25,48.92,52.57,20.74,32.87
 seedboxai/KafkaLM-7B-German-V0.1 (few-shot),7242,32,32768,6065,2.25,48.5,52.51,20.36,32.88
 mistralai/Mistral-7B-v0.1 (few-shot),7242,32,32768,2657,2.29,55.37,54.27,23.12,22.94
 occiglot/occiglot-7b-eu5 (few-shot),7242,32,32768,2219,2.29,47.74,47.3,21.83,31.55

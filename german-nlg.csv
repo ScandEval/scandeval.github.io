@@ -4,7 +4,7 @@ model_id,num_model_parameters,vocabulary_size,max_sequence_length,speed,rank,ger
 occiglot/occiglot-7b-de-en-instruct (few-shot),7242,32,32768,1584,1.55,55.47,55.91,22.47,35.95,68.08,33.77,33.15
 occiglot/occiglot-7b-de-en (few-shot),7242,32,32768,1992,1.7,48.11,54.96,21.57,31.49,68.88,32.39,29.84
 occiglot/occiglot-7b-eu5-instruct (few-shot),7242,32,32768,2088,1.72,50.46,43.16,27.09,34.01,69.43,32.56,23.61
-seedboxai/KafkaLM-7B-German-V0.1-DPO (few-shot),7242,32,4096,6070,1.73,48.92,52.57,20.74,32.88,68.88,31.38,29.83
+seedboxai/KafkaLM-7B-German-V0.1-DPO (few-shot),7242,32,4096,6070,1.73,48.92,52.57,20.74,32.87,68.88,31.38,29.83
 seedboxai/KafkaLM-7B-German-V0.1 (few-shot),7242,32,32768,6065,1.73,48.5,52.51,20.36,32.88,68.82,31.36,29.98
 mistralai/Mistral-7B-v0.1 (few-shot),7242,32,32768,2657,1.8,55.37,54.27,23.12,22.94,68.24,35.63,26.4
 mistralai/Mistral-7B-Instruct-v0.2 (few-shot),7242,32,32768,2538,1.84,55.15,47.85,24.29,23.98,67.53,25.96,31.06
