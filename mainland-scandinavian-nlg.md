@@ -3,7 +3,7 @@ layout: leaderboard
 title: Mainland Scandinavian NLG
 ---
 
-<center>Last updated: 30/03/2024 10:48:44 CET</center>
+<center>Last updated: 30/03/2024 13:53:37 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -2871,7 +2871,7 @@ title: Mainland Scandinavian NLG
    <td class="no ner">24.67 ± 1.69 / 24.58 ± 1.95</td> <!-- NorNE-nb -->
    <td class="no ner">29.03 ± 2.12 / 29.83 ± 2.15</td> <!-- NorNE-nn -->
    <td class="no sent">34.39 ± 5.34 / 50.45 ± 6.08</td> <!-- NoReC -->
-   <td class="no summ">64.07 ± 0.86 / 17.41 ± 0.88</td> <!-- No Sammendrag -->
+   <td class="no summ">64.07 ± 0.86 / 17.41 ± 0.90</td> <!-- No Sammendrag -->
    <td class="no la">2.42 ± 1.83 / 35.49 ± 2.63</td> <!-- ScaLA-nb -->
    <td class="no la">5.11 ± 2.68 / 38.37 ± 3.31</td> <!-- ScaLA-nn -->
    <td class="no qa">42.52 ± 2.05 / 68.98 ± 2.23</td> <!-- NorQuAD -->
@@ -2881,7 +2881,7 @@ title: Mainland Scandinavian NLG
    <td class="sv sent">56.60 ± 3.37 / 62.73 ± 3.61</td> <!-- SweReC -->
    <td class="sv la">10.92 ± 1.83 / 52.63 ± 2.98</td> <!-- ScaLA-sv -->
    <td class="sv qa">50.18 ± 0.54 / 57.90 ± 0.53</td> <!-- ScandiQA-sv -->
-   <td class="sv summ">64.91 ± 0.16 / 18.82 ± 0.23</td> <!-- SweDN -->
+   <td class="sv summ">64.89 ± 0.15 / 18.79 ± 0.22</td> <!-- SweDN -->
    <td class="sv know">6.16 ± 0.81 / 28.35 ± 0.97</td> <!-- MMLU-sv -->
    <td class="sv reason">10.90 ± 0.86 / 32.01 ± 0.54</td> <!-- HellaSwag-sv -->
    <td>9.2.0</td> <!-- DANSK version -->
@@ -2895,7 +2895,7 @@ title: Mainland Scandinavian NLG
    <td>9.2.0</td> <!-- NorNE-nb version -->
    <td>9.2.0</td> <!-- NorNE-nn version -->
    <td>9.2.0</td> <!-- NoReC version -->
-   <td>11.0.0</td> <!-- No Sammendrag version -->
+   <td>12.4.0</td> <!-- No Sammendrag version -->
    <td>9.2.0</td> <!-- ScaLA-nb version -->
    <td>9.2.0</td> <!-- ScaLA-nn version -->
    <td>12.4.0</td> <!-- NorQuAD version -->
@@ -2905,7 +2905,7 @@ title: Mainland Scandinavian NLG
    <td>9.2.0</td> <!-- SweReC version -->
    <td>9.2.0</td> <!-- ScaLA-sv version -->
    <td>12.4.0</td> <!-- ScandiQA-sv version -->
-   <td>11.0.0</td> <!-- SweDN version -->
+   <td>12.4.0</td> <!-- SweDN version -->
    <td>9.2.0</td> <!-- MMLU-sv version -->
    <td>9.3.1</td> <!-- HellaSwag-sv version -->
    </tr>
@@ -4509,6 +4509,6 @@ title: Mainland Scandinavian NLG
 <div class="end-note">
   <a href="https://scandeval.com/mainland-scandinavian-nlg.csv" target="_blank">Download as CSV</a>
   &nbsp;&nbsp;&bull;&nbsp;&nbsp;
-  <a href="javascript:void(0);" id="embed-link" data-embed="<iframe title=&quot;Mainland Scandinavian NLG&quot; aria-label=&quot;Table&quot; id=&quot;datawrapper-chart-6BQ5T&quot; src=&quot;https://datawrapper.dwcdn.net/6BQ5T/428/&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width: 0; min-width: 100% !important; border: none;&quot; height=&quot;400&quot; data-external=&quot;1&quot;></iframe><script type=&quot;text/javascript&quot;>!function(){&quot;use strict&quot;;window.addEventListener(&quot;message&quot;,(function(a){if(void 0!==a.data[&quot;datawrapper-height&quot;]){var e=document.querySelectorAll(&quot;iframe&quot;);for(var t in a.data[&quot;datawrapper-height&quot;])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data[&quot;datawrapper-height&quot;][t]+&quot;px&quot;;e[r].style.height=i}}}))}();
+  <a href="javascript:void(0);" id="embed-link" data-embed="<iframe title=&quot;Mainland Scandinavian NLG&quot; aria-label=&quot;Table&quot; id=&quot;datawrapper-chart-6BQ5T&quot; src=&quot;https://datawrapper.dwcdn.net/6BQ5T/440/&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width: 0; min-width: 100% !important; border: none;&quot; height=&quot;400&quot; data-external=&quot;1&quot;></iframe><script type=&quot;text/javascript&quot;>!function(){&quot;use strict&quot;;window.addEventListener(&quot;message&quot;,(function(a){if(void 0!==a.data[&quot;datawrapper-height&quot;]){var e=document.querySelectorAll(&quot;iframe&quot;);for(var t in a.data[&quot;datawrapper-height&quot;])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data[&quot;datawrapper-height&quot;][t]+&quot;px&quot;;e[r].style.height=i}}}))}();
 </script>">Copy embed HTML</a>
 </div>
