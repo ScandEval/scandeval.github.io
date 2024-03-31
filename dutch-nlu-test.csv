@@ -18,7 +18,7 @@ DTAI-KULeuven/robbert-2023-dutch-large,354,50,512,5444,2.13,81.05,16.35,65.18,11
 cardiffnlp/twitter-xlm-roberta-base,277,250,512,14837,2.27,77.15,18.78,56.72,14.61
 sentence-transformers/paraphrase-xlm-r-multilingual-v1,277,250,512,14994,2.3,70.59,21.37,45.86,5.2
 microsoft/xlm-align-base,277,250,512,14744,2.34,78.85,11.8,14.56,42.08
-mistralai/Mistral-7B-Instruct-v0.2 (few-shot),7242,32,32768,2538,2.4,55.56,12.37,21.5,50.8
+mistralai/Mistral-7B-Instruct-v0.2 (few-shot),7242,32,32768,2538,2.4,55.56,12.37,21.5,50.77
 DTAI-KULeuven/robbertje-1-gb-bort,45,40,512,31087,2.42,66.74,24.93,37.19,5.23
 "mlabonne/NeuralBeagle14-7B (few-shot, val)",7242,32,8192,2549,2.44,63.53,11.25,27.76,50.88
 BramVanroy/GEITje-7B-ultra (few-shot),7242,32,8192,2475,2.56,42.25,12.78,18.23,53.41
