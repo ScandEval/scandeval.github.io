@@ -46,7 +46,7 @@ DeepPavlov/rubert-base-cased,177,120,512,15785,3.6,3.33,3.87,61.95,2.4,6.04,83.1
 "timpal0l/tyr (few-shot, val)",7242,32,32768,6079,3.63,2.73,4.53,50.64,-0.06,23.36,60.21,0.0
 AI-Sweden-Models/gpt-sw3-20b (few-shot),20918,64,2048,4880,3.65,2.77,4.53,27.54,4.61,28.12,46.5,3.95
 KB/bert-base-swedish-cased,124,50,512,16181,3.65,3.43,3.87,60.09,1.76,5.57,82.76,3.98
-mistralai/Mistral-7B-Instruct-v0.2 (few-shot),7242,32,32768,2538,3.67,2.97,4.37,43.11,3.4,19.03,61.28,1.68
+mistralai/Mistral-7B-Instruct-v0.2 (few-shot),7242,32,32768,2538,3.67,2.97,4.37,43.11,3.4,19.18,61.28,1.68
 sentence-transformers/quora-distilbert-multilingual,135,120,512,26458,3.67,3.36,3.99,63.36,1.02,6.48,82.91,1.67
 sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,118,250,512,17428,3.68,3.47,3.89,62.44,1.91,3.69,82.24,2.84
 danish-foundation-models/encoder-large-v1,354,50,512,6671,3.73,3.38,4.08,49.68,0.33,9.3,72.46,2.93
