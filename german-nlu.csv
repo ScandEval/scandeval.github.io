@@ -27,7 +27,7 @@ occiglot/occiglot-7b-eu5 (few-shot),7242,32,32768,2219,2.3,47.74,47.3,21.83,31.5
 clips/mfaq,277,250,128,5591,2.33,76.68,59.51,32.54,1.53
 RuterNorway/Llama-2-13b-chat-norwegian (few-shot),-1,32,4096,7778,2.34,56.71,49.77,19.92,27.87
 mistralai/Mistral-7B-Instruct-v0.1 (few-shot),7242,32,32768,5443,2.36,51.79,47.27,22.15,24.35
-mistralai/Mistral-7B-Instruct-v0.2 (few-shot),7242,32,32768,2538,2.39,55.15,47.85,24.29,23.98
+mistralai/Mistral-7B-Instruct-v0.2 (few-shot),7242,32,32768,2538,2.39,55.15,47.85,24.29,24.0
 sentence-transformers/paraphrase-xlm-r-multilingual-v1,277,250,512,14994,2.4,71.8,57.71,38.75,0.3
 DiscoResearch/DiscoLM_German_7b_v1 (few-shot),7242,32,32768,1972,2.41,42.48,48.67,8.72,36.12
 "mayflowergmbh/Wiedervereinigung-7b-dpo (few-shot, val)",7242,32,32768,2374,2.43,53.57,51.92,29.06,15.01
