@@ -44,7 +44,7 @@ meta-llama/Llama-2-7b-hf (few-shot),6738,32,4096,2648,3.03,40.49,7.1,18.66,37.51
 sentence-transformers/distiluse-base-multilingual-cased-v1,135,120,512,26344,3.11,58.67,17.82,9.27,2.17
 RuterNorway/Llama-2-7b-chat-norwegian (few-shot),-1,32,4096,10890,3.18,35.49,11.36,2.52,37.61
 sentence-transformers/distiluse-base-multilingual-cased,135,120,512,19206,3.2,56.98,9.66,19.37,3.11
-google/gemma-2b-it (few-shot),2506,256,8192,6471,3.21,29.22,11.25,-2.27,45.88
+google/gemma-2b-it (few-shot),2506,256,8192,6471,3.21,29.22,11.25,-2.27,45.95
 google/gemma-2b (few-shot),2506,256,8192,6087,3.25,17.12,9.95,0.41,49.15
 jpostma/DagoBERT,116,40,512,11241,3.31,42.28,8.01,31.21,3.65
 Qwen/Qwen1.5-1.8B-Chat (few-shot),1837,152,32768,8304,3.47,23.79,6.82,4.11,33.1
