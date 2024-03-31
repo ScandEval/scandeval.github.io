@@ -3,7 +3,7 @@ layout: leaderboard
 title: Insular Scandinavian NLU
 ---
 
-<center>Last updated: 31/03/2024 01:56:34 CET</center>
+<center>Last updated: 31/03/2024 06:41:54 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -625,7 +625,7 @@ title: Insular Scandinavian NLU
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
    <td class="speed">14,998 ± 2,549 / 3,833 ± 1,223</td> <!-- Model inference speed -->
    <td class="rank">3.46</td> <!-- ScandEval rank -->
-   <td class="is-rank">3.07</td> <!-- Icelandic rank -->
+   <td class="is-rank">3.06</td> <!-- Icelandic rank -->
    <td class="fo-rank">3.85</td> <!-- Faroese rank -->
    <td class="is ner">64.88 ± 1.32 / 67.55 ± 1.07</td> <!-- MIM-GOLD-NER -->
    <td class="is la">-0.60 ± 0.90 / 40.52 ± 3.55</td> <!-- ScaLA-is -->
@@ -745,7 +745,7 @@ title: Insular Scandinavian NLU
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
    <td class="speed">6,245 ± 1,260 / 1,416 ± 453</td> <!-- Model inference speed -->
    <td class="rank">3.50</td> <!-- ScandEval rank -->
-   <td class="is-rank">3.42</td> <!-- Icelandic rank -->
+   <td class="is-rank">3.41</td> <!-- Icelandic rank -->
    <td class="fo-rank">3.59</td> <!-- Faroese rank -->
    <td class="is ner">48.31 ± 1.22 / 47.65 ± 1.19</td> <!-- MIM-GOLD-NER -->
    <td class="is la">3.18 ± 1.21 / 46.35 ± 3.68</td> <!-- ScaLA-is -->
@@ -1229,12 +1229,12 @@ title: Insular Scandinavian NLU
    <td class="fo-rank">4.53</td> <!-- Faroese rank -->
    <td class="is ner">36.04 ± 2.59 / 24.74 ± 2.79</td> <!-- MIM-GOLD-NER -->
    <td class="is la">-0.36 ± 1.36 / 33.94 ± 0.32</td> <!-- ScaLA-is -->
-   <td class="is qa">17.92 ± 3.21 / 42.41 ± 2.86</td> <!-- NQiI -->
+   <td class="is qa">18.06 ± 3.16 / 42.57 ± 2.89</td> <!-- NQiI -->
    <td class="fo ner">55.42 ± 2.12 / 46.41 ± 2.50</td> <!-- FoNE -->
    <td class="fo la">1.11 ± 2.41 / 36.79 ± 4.00</td> <!-- ScaLA-fo -->
    <td>9.3.1</td> <!-- MIM-GOLD-NER version -->
    <td>9.3.1</td> <!-- ScaLA-is version -->
-   <td>9.3.1</td> <!-- NQiI version -->
+   <td>12.4.0</td> <!-- NQiI version -->
    <td>9.3.1</td> <!-- FoNE version -->
    <td>9.3.1</td> <!-- ScaLA-fo version -->
    </tr>
@@ -1905,6 +1905,6 @@ title: Insular Scandinavian NLU
 <div class="end-note">
   <a href="https://scandeval.com/insular-scandinavian-nlu.csv" target="_blank">Download as CSV</a>
   &nbsp;&nbsp;&bull;&nbsp;&nbsp;
-  <a href="javascript:void(0);" id="embed-link" data-embed="<iframe title=&quot;Insular Scandinavian NLU&quot; aria-label=&quot;Table&quot; id=&quot;datawrapper-chart-UgWP5&quot; src=&quot;https://datawrapper.dwcdn.net/UgWP5/484/&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width: 0; min-width: 100% !important; border: none;&quot; height=&quot;400&quot; data-external=&quot;1&quot;></iframe><script type=&quot;text/javascript&quot;>!function(){&quot;use strict&quot;;window.addEventListener(&quot;message&quot;,(function(a){if(void 0!==a.data[&quot;datawrapper-height&quot;]){var e=document.querySelectorAll(&quot;iframe&quot;);for(var t in a.data[&quot;datawrapper-height&quot;])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data[&quot;datawrapper-height&quot;][t]+&quot;px&quot;;e[r].style.height=i}}}))}();
+  <a href="javascript:void(0);" id="embed-link" data-embed="<iframe title=&quot;Insular Scandinavian NLU&quot; aria-label=&quot;Table&quot; id=&quot;datawrapper-chart-UgWP5&quot; src=&quot;https://datawrapper.dwcdn.net/UgWP5/505/&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width: 0; min-width: 100% !important; border: none;&quot; height=&quot;400&quot; data-external=&quot;1&quot;></iframe><script type=&quot;text/javascript&quot;>!function(){&quot;use strict&quot;;window.addEventListener(&quot;message&quot;,(function(a){if(void 0!==a.data[&quot;datawrapper-height&quot;]){var e=document.querySelectorAll(&quot;iframe&quot;);for(var t in a.data[&quot;datawrapper-height&quot;])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data[&quot;datawrapper-height&quot;][t]+&quot;px&quot;;e[r].style.height=i}}}))}();
 </script>">Copy embed HTML</a>
 </div>
