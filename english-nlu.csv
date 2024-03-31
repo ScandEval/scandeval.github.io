@@ -28,7 +28,7 @@ occiglot/occiglot-7b-eu5 (few-shot),7242,32,32768,2219,2.11,56.78,63.32,18.92,72
 "mlabonne/NeuralBeagle14-7B (few-shot, val)",7242,32,8192,2549,2.12,69.16,63.85,28.4,52.69
 meta-llama/Llama-2-7b-chat-hf (few-shot),6738,32,4096,2643,2.17,62.53,62.23,22.71,64.54
 google-bert/bert-base-multilingual-cased,177,120,512,14083,2.18,89.32,41.89,38.34,55.19
-mistralai/Mistral-7B-Instruct-v0.2 (few-shot),7242,32,32768,2538,2.21,62.11,59.91,30.66,58.3
+mistralai/Mistral-7B-Instruct-v0.2 (few-shot),7242,32,32768,2538,2.22,62.11,59.91,30.66,58.27
 microsoft/phi-2 (few-shot),2780,51,2048,3472,2.24,49.84,62.41,12.31,75.79
 Rijgersberg/GEITje-7B (few-shot),7242,32,32768,10401,2.26,53.39,65.21,12.63,65.74
 distilbert/distilbert-base-cased,65,29,512,19667,2.36,84.75,50.94,53.47,24.93
