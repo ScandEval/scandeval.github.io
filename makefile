@@ -346,6 +346,7 @@ automatically-publish:
 	@while true; do \
 		make leaderboards; \
 		make publish; \
+		make commit-results; \
 		echo "Sleeping for 10 minutes..."; \
 		sleep 300; \
 		echo "5 more minutes to go..."; \
