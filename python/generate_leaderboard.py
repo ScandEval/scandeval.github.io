@@ -5,6 +5,7 @@ from pathlib import Path
 import json
 import logging
 from datetime import datetime
+import time
 from typing import Any
 import click
 import re
@@ -29,6 +30,10 @@ logger = logging.getLogger(__name__)
 # Variable determining whether all models that haven't been fully benchmarked should be
 # logged along with the datasets they are missing
 LOG_MISSING = bool(os.getenv("LOG_MISSING", None))
+
+
+# Number of attempts to publish the chart to Datawrapper
+NUM_EMBED_ATTEMPTS = 3
 
 
 @click.command()
@@ -710,10 +715,20 @@ def get_embed_code(title: str, csv_url: str, csv_df: pd.DataFrame) -> str:
 
     dw.update_chart(chart_id=dw_table["id"], metadata=metadata)
 
-    dw.publish_chart(chart_id=dw_table["id"], display=False)
-    embed_code = dw.get_iframe_code(chart_id=dw_table["id"], responsive=True)
-    embed_code = embed_code.replace('"', "&quot;")
-    return embed_code
+    for attempt in range(NUM_EMBED_ATTEMPTS):
+        try:
+            dw.publish_chart(chart_id=dw_table["id"], display=False)
+            embed_code = dw.get_iframe_code(chart_id=dw_table["id"], responsive=True)
+            embed_code = embed_code.replace('"', "&quot;")
+            return embed_code
+        except TimeoutError:
+            logger.warning(f"Attempt {attempt + 1} to publish the chart timed out.")
+            time.sleep(5)
+    else:
+        logger.error(
+            f"Failed to publish the chart after {NUM_EMBED_ATTEMPTS} attempts."
+        )
+        return "Embed code could not be generated."
 
 
 if __name__ == "__main__":
