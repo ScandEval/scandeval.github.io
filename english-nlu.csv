@@ -40,8 +40,8 @@ distilbert/distilbert-base-multilingual-cased,135,120,512,26355,2.68,87.7,36.48,
 google/gemma-2b (few-shot),2506,256,8192,6087,2.7,19.0,62.14,8.3,66.3
 google/gemma-2b-it (few-shot),2506,256,8192,6471,2.83,39.52,48.83,5.83,63.77
 allenai/OLMo-1B (few-shot),1177,50,2176,8536,2.97,31.94,60.05,0.72,43.87
-Qwen/Qwen1.5-0.5B (few-shot),620,152,32768,11371,3.02,33.96,57.15,2.94,42.57
+Qwen/Qwen1.5-0.5B (few-shot),620,152,32768,11371,3.01,33.96,57.15,2.94,42.57
 Qwen/Qwen1.5-0.5B-Chat (few-shot),620,152,32768,11740,3.08,21.19,55.41,1.15,53.27
-RuterNorway/Llama-2-7b-chat-norwegian (few-shot),-1,32,4096,10890,3.94,18.69,21.95,0.01,36.7
+RuterNorway/Llama-2-7b-chat-norwegian (few-shot),-1,32,4096,10890,3.94,18.69,21.95,0.01,36.49
 ai-forever/mGPT (few-shot),-1,100,1024,13551,4.91,1.55,3.71,-0.42,5.57
 RJuro/kanelsnegl-v0.1 (few-shot),7242,32,512,9757,5.05,0.0,0.0,0.41,0.0
