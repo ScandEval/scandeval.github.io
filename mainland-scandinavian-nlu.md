@@ -3,7 +3,7 @@ layout: leaderboard
 title: Mainland Scandinavian NLU
 ---
 
-<center>Last updated: 02/04/2024 10:56:13 CET</center>
+<center>Last updated: 02/04/2024 11:07:11 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -6082,7 +6082,7 @@ title: Mainland Scandinavian NLU
    <td class="no sent">11.49 ± 1.38 / 27.12 ± 1.98</td> <!-- NoReC -->
    <td class="no la">0.29 ± 1.58 / 40.21 ± 4.22</td> <!-- ScaLA-nb -->
    <td class="no la">-0.12 ± 1.48 / 39.92 ± 3.90</td> <!-- ScaLA-nn -->
-   <td class="no qa">7.73 ± 1.17 / 17.00 ± 2.71</td> <!-- NorQuAD -->
+   <td class="no qa">7.80 ± 1.19 / 17.09 ± 2.72</td> <!-- NorQuAD -->
    <td class="sv ner">13.38 ± 5.36 / 13.80 ± 4.31</td> <!-- SUC3 -->
    <td class="sv sent">40.23 ± 5.86 / 49.01 ± 4.77</td> <!-- SweReC -->
    <td class="sv la">0.21 ± 1.06 / 39.60 ± 3.61</td> <!-- ScaLA-sv -->
@@ -6096,7 +6096,7 @@ title: Mainland Scandinavian NLU
    <td>11.0.0</td> <!-- NoReC version -->
    <td>12.1.0</td> <!-- ScaLA-nb version -->
    <td>12.1.0</td> <!-- ScaLA-nn version -->
-   <td>12.1.0</td> <!-- NorQuAD version -->
+   <td>12.4.0</td> <!-- NorQuAD version -->
    <td>12.3.2</td> <!-- SUC3 version -->
    <td>11.0.0</td> <!-- SweReC version -->
    <td>12.1.0</td> <!-- ScaLA-sv version -->
@@ -6420,9 +6420,9 @@ title: Mainland Scandinavian NLU
    <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model-->
    <td class="speed">8,958 ± 1,815 / 2,240 ± 696</td> <!-- Model inference speed -->
-   <td class="rank">4.45</td> <!-- ScandEval rank -->
+   <td class="rank">4.46</td> <!-- ScandEval rank -->
    <td class="da-rank">4.36</td> <!-- Danish rank -->
-   <td class="no-rank">4.56</td> <!-- Norwegian rank -->
+   <td class="no-rank">4.57</td> <!-- Norwegian rank -->
    <td class="sv-rank">4.44</td> <!-- Swedish rank -->
    <td class="da ner">3.43 ± 2.66 / 5.56 ± 1.90</td> <!-- DANSK -->
    <td class="da sent">9.18 ± 4.25 / 26.36 ± 3.94</td> <!-- Angry Tweets -->
@@ -6616,6 +6616,6 @@ title: Mainland Scandinavian NLU
 <div class="end-note">
   <a href="https://scandeval.com/mainland-scandinavian-nlu.csv" target="_blank">Download as CSV</a>
   &nbsp;&nbsp;&bull;&nbsp;&nbsp;
-  <a href="javascript:void(0);" id="embed-link" data-embed="<iframe title=&quot;Mainland Scandinavian NLU&quot; aria-label=&quot;Table&quot; id=&quot;datawrapper-chart-eFFRi&quot; src=&quot;https://datawrapper.dwcdn.net/eFFRi/811/&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width: 0; min-width: 100% !important; border: none;&quot; height=&quot;400&quot; data-external=&quot;1&quot;></iframe><script type=&quot;text/javascript&quot;>!function(){&quot;use strict&quot;;window.addEventListener(&quot;message&quot;,(function(a){if(void 0!==a.data[&quot;datawrapper-height&quot;]){var e=document.querySelectorAll(&quot;iframe&quot;);for(var t in a.data[&quot;datawrapper-height&quot;])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data[&quot;datawrapper-height&quot;][t]+&quot;px&quot;;e[r].style.height=i}}}))}();
+  <a href="javascript:void(0);" id="embed-link" data-embed="<iframe title=&quot;Mainland Scandinavian NLU&quot; aria-label=&quot;Table&quot; id=&quot;datawrapper-chart-eFFRi&quot; src=&quot;https://datawrapper.dwcdn.net/eFFRi/812/&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width: 0; min-width: 100% !important; border: none;&quot; height=&quot;400&quot; data-external=&quot;1&quot;></iframe><script type=&quot;text/javascript&quot;>!function(){&quot;use strict&quot;;window.addEventListener(&quot;message&quot;,(function(a){if(void 0!==a.data[&quot;datawrapper-height&quot;]){var e=document.querySelectorAll(&quot;iframe&quot;);for(var t in a.data[&quot;datawrapper-height&quot;])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data[&quot;datawrapper-height&quot;][t]+&quot;px&quot;;e[r].style.height=i}}}))}();
 </script>">Copy embed HTML</a>
 </div>
