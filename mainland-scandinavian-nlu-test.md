@@ -3,7 +3,7 @@ layout: leaderboard
 title: Mainland Scandinavian NLU
 ---
 
-<center>Last updated: 02/04/2024 13:21:03 CET</center>
+<center>Last updated: 02/04/2024 14:26:27 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -1753,7 +1753,7 @@ title: Mainland Scandinavian NLU
    <td class="no sent">49.19 ± 1.64 / 63.36 ± 1.52</td> <!-- NoReC -->
    <td class="no la">15.17 ± 2.64 / 50.25 ± 4.51</td> <!-- ScaLA-nb -->
    <td class="no la">10.78 ± 1.99 / 50.08 ± 4.20</td> <!-- ScaLA-nn -->
-   <td class="no qa">48.98 ± 3.05 / 73.08 ± 2.30</td> <!-- NorQuAD -->
+   <td class="no qa">48.99 ± 2.91 / 73.08 ± 2.26</td> <!-- NorQuAD -->
    <td class="sv ner">55.06 ± 2.38 / 41.39 ± 4.31</td> <!-- SUC3 -->
    <td class="sv sent">77.50 ± 0.90 / 73.87 ± 1.21</td> <!-- SweReC -->
    <td class="sv la">17.47 ± 2.33 / 47.73 ± 3.35</td> <!-- ScaLA-sv -->
@@ -1761,13 +1761,13 @@ title: Mainland Scandinavian NLU
    <td>10.0.1</td> <!-- DANSK version -->
    <td>10.0.1</td> <!-- Angry Tweets version -->
    <td>10.0.1</td> <!-- ScaLA-da version -->
-   <td>12.4.0</td> <!-- ScandiQA-da version -->
+   <td>12.5.0</td> <!-- ScandiQA-da version -->
    <td>10.0.1</td> <!-- NorNE-nb version -->
    <td>10.0.1</td> <!-- NorNE-nn version -->
    <td>10.0.1</td> <!-- NoReC version -->
    <td>10.0.1</td> <!-- ScaLA-nb version -->
    <td>10.0.1</td> <!-- ScaLA-nn version -->
-   <td>10.0.1</td> <!-- NorQuAD version -->
+   <td>12.5.0</td> <!-- NorQuAD version -->
    <td>10.0.1</td> <!-- SUC3 version -->
    <td>10.0.1</td> <!-- SweReC version -->
    <td>10.0.1</td> <!-- ScaLA-sv version -->
@@ -6616,6 +6616,6 @@ title: Mainland Scandinavian NLU
 <div class="end-note">
   <a href="https://scandeval.com/mainland-scandinavian-nlu-test.csv" target="_blank">Download as CSV</a>
   &nbsp;&nbsp;&bull;&nbsp;&nbsp;
-  <a href="javascript:void(0);" id="embed-link" data-embed="<iframe title=&quot;Mainland Scandinavian NLU&quot; aria-label=&quot;Table&quot; id=&quot;datawrapper-chart-eFFRi&quot; src=&quot;https://datawrapper.dwcdn.net/eFFRi/827/&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width: 0; min-width: 100% !important; border: none;&quot; height=&quot;400&quot; data-external=&quot;1&quot;></iframe><script type=&quot;text/javascript&quot;>!function(){&quot;use strict&quot;;window.addEventListener(&quot;message&quot;,(function(a){if(void 0!==a.data[&quot;datawrapper-height&quot;]){var e=document.querySelectorAll(&quot;iframe&quot;);for(var t in a.data[&quot;datawrapper-height&quot;])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data[&quot;datawrapper-height&quot;][t]+&quot;px&quot;;e[r].style.height=i}}}))}();
+  <a href="javascript:void(0);" id="embed-link" data-embed="<iframe title=&quot;Mainland Scandinavian NLU&quot; aria-label=&quot;Table&quot; id=&quot;datawrapper-chart-eFFRi&quot; src=&quot;https://datawrapper.dwcdn.net/eFFRi/833/&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width: 0; min-width: 100% !important; border: none;&quot; height=&quot;400&quot; data-external=&quot;1&quot;></iframe><script type=&quot;text/javascript&quot;>!function(){&quot;use strict&quot;;window.addEventListener(&quot;message&quot;,(function(a){if(void 0!==a.data[&quot;datawrapper-height&quot;]){var e=document.querySelectorAll(&quot;iframe&quot;);for(var t in a.data[&quot;datawrapper-height&quot;])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data[&quot;datawrapper-height&quot;][t]+&quot;px&quot;;e[r].style.height=i}}}))}();
 </script>">Copy embed HTML</a>
 </div>
