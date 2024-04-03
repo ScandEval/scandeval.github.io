@@ -3,7 +3,7 @@ layout: leaderboard
 title: Insular Scandinavian NLG
 ---
 
-<center>Last updated: 02/04/2024 09:02:57 CET</center>
+<center>Last updated: 03/04/2024 08:04:10 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -445,16 +445,16 @@ title: Insular Scandinavian NLG
    <td class="fo-rank">3.60</td> <!-- Faroese rank -->
    <td class="is ner">14.13 ± 2.19 / 14.92 ± 2.31</td> <!-- MIM-GOLD-NER -->
    <td class="is la">0.78 ± 1.70 / 44.74 ± 3.57</td> <!-- ScaLA-is -->
-   <td class="is qa">7.92 ± 1.32 / 23.57 ± 1.69</td> <!-- NQiI -->
-   <td class="is summ">57.36 ± 1.38 / 10.41 ± 0.99</td> <!-- RRN -->
+   <td class="is qa">7.80 ± 1.32 / 23.47 ± 1.64</td> <!-- NQiI -->
+   <td class="is summ">57.27 ± 1.42 / 10.43 ± 0.97</td> <!-- RRN -->
    <td class="is know">3.87 ± 0.97 / 26.29 ± 0.94</td> <!-- MMLU-is -->
    <td class="is reason">1.92 ± 2.32 / 50.07 ± 2.68</td> <!-- Winogrande-is -->
    <td class="fo ner">25.82 ± 3.98 / 27.68 ± 3.11</td> <!-- FoNE -->
    <td class="fo la">0.15 ± 2.21 / 34.34 ± 0.53</td> <!-- ScaLA-fo -->
    <td>12.3.2</td> <!-- MIM-GOLD-NER version -->
    <td>12.1.0</td> <!-- ScaLA-is version -->
-   <td>12.1.0</td> <!-- NQiI version -->
-   <td>12.1.0</td> <!-- RRN version -->
+   <td>12.5.0</td> <!-- NQiI version -->
+   <td>12.5.0</td> <!-- RRN version -->
    <td>12.1.0</td> <!-- MMLU-is version -->
    <td>12.1.0</td> <!-- Winogrande-is version -->
    <td>12.3.2</td> <!-- FoNE version -->
@@ -523,16 +523,16 @@ title: Insular Scandinavian NLG
    <td class="fo-rank">4.10</td> <!-- Faroese rank -->
    <td class="is ner">9.48 ± 3.08 / 9.33 ± 3.28</td> <!-- MIM-GOLD-NER -->
    <td class="is la">1.76 ± 1.62 / 38.51 ± 3.72</td> <!-- ScaLA-is -->
-   <td class="is qa">3.10 ± 0.76 / 17.78 ± 2.28</td> <!-- NQiI -->
-   <td class="is summ">58.94 ± 1.53 / 10.09 ± 1.39</td> <!-- RRN -->
+   <td class="is qa">3.14 ± 0.71 / 17.84 ± 2.26</td> <!-- NQiI -->
+   <td class="is summ">58.92 ± 1.57 / 10.09 ± 1.41</td> <!-- RRN -->
    <td class="is know">2.82 ± 0.73 / 26.56 ± 0.56</td> <!-- MMLU-is -->
    <td class="is reason">1.48 ± 3.56 / 53.95 ± 2.45</td> <!-- Winogrande-is -->
    <td class="fo ner">24.00 ± 1.89 / 24.07 ± 1.93</td> <!-- FoNE -->
    <td class="fo la">-0.54 ± 1.72 / 36.22 ± 2.35</td> <!-- ScaLA-fo -->
    <td>12.3.2</td> <!-- MIM-GOLD-NER version -->
    <td>12.1.0</td> <!-- ScaLA-is version -->
-   <td>12.1.0</td> <!-- NQiI version -->
-   <td>12.1.0</td> <!-- RRN version -->
+   <td>12.5.0</td> <!-- NQiI version -->
+   <td>12.5.0</td> <!-- RRN version -->
    <td>12.1.0</td> <!-- MMLU-is version -->
    <td>12.1.0</td> <!-- Winogrande-is version -->
    <td>12.3.2</td> <!-- FoNE version -->
@@ -627,7 +627,7 @@ title: Insular Scandinavian NLG
    <td class="fo-rank">4.42</td> <!-- Faroese rank -->
    <td class="is ner">7.94 ± 3.03 / 7.63 ± 2.42</td> <!-- MIM-GOLD-NER -->
    <td class="is la">-0.35 ± 2.01 / 44.36 ± 4.13</td> <!-- ScaLA-is -->
-   <td class="is qa">14.46 ± 2.66 / 32.31 ± 1.66</td> <!-- NQiI -->
+   <td class="is qa">14.55 ± 2.68 / 32.34 ± 1.64</td> <!-- NQiI -->
    <td class="is summ">62.11 ± 2.22 / 14.98 ± 1.53</td> <!-- RRN -->
    <td class="is know">6.32 ± 1.09 / 29.87 ± 0.80</td> <!-- MMLU-is -->
    <td class="is reason">-1.89 ± 2.66 / 43.72 ± 0.92</td> <!-- Winogrande-is -->
@@ -635,7 +635,7 @@ title: Insular Scandinavian NLG
    <td class="fo la">-0.42 ± 2.18 / 34.33 ± 1.47</td> <!-- ScaLA-fo -->
    <td>12.3.2</td> <!-- MIM-GOLD-NER version -->
    <td>12.1.0</td> <!-- ScaLA-is version -->
-   <td>12.1.0</td> <!-- NQiI version -->
+   <td>12.5.1</td> <!-- NQiI version -->
    <td>12.1.0</td> <!-- RRN version -->
    <td>12.1.0</td> <!-- MMLU-is version -->
    <td>12.1.0</td> <!-- Winogrande-is version -->
@@ -701,7 +701,7 @@ title: Insular Scandinavian NLG
    <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model-->
    <td class="speed">5,404 ± 931 / 1,638 ± 542</td> <!-- Model inference speed -->
    <td class="rank">4.33</td> <!-- ScandEval rank -->
-   <td class="is-rank">4.07</td> <!-- Icelandic rank -->
+   <td class="is-rank">4.08</td> <!-- Icelandic rank -->
    <td class="fo-rank">4.59</td> <!-- Faroese rank -->
    <td class="is ner">3.90 ± 1.14 / 3.52 ± 0.94</td> <!-- MIM-GOLD-NER -->
    <td class="is la">-0.00 ± 1.28 / 35.53 ± 1.87</td> <!-- ScaLA-is -->
@@ -753,6 +753,6 @@ title: Insular Scandinavian NLG
 <div class="end-note">
   <a href="https://scandeval.com/insular-scandinavian-nlg-test.csv" target="_blank">Download as CSV</a>
   &nbsp;&nbsp;&bull;&nbsp;&nbsp;
-  <a href="javascript:void(0);" id="embed-link" data-embed="<iframe title=&quot;Insular Scandinavian NLG&quot; aria-label=&quot;Table&quot; id=&quot;datawrapper-chart-FKbXo&quot; src=&quot;https://datawrapper.dwcdn.net/FKbXo/729/&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width: 0; min-width: 100% !important; border: none;&quot; height=&quot;400&quot; data-external=&quot;1&quot;></iframe><script type=&quot;text/javascript&quot;>!function(){&quot;use strict&quot;;window.addEventListener(&quot;message&quot;,(function(a){if(void 0!==a.data[&quot;datawrapper-height&quot;]){var e=document.querySelectorAll(&quot;iframe&quot;);for(var t in a.data[&quot;datawrapper-height&quot;])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data[&quot;datawrapper-height&quot;][t]+&quot;px&quot;;e[r].style.height=i}}}))}();
+  <a href="javascript:void(0);" id="embed-link" data-embed="<iframe title=&quot;Insular Scandinavian NLG&quot; aria-label=&quot;Table&quot; id=&quot;datawrapper-chart-FKbXo&quot; src=&quot;https://datawrapper.dwcdn.net/FKbXo/859/&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width: 0; min-width: 100% !important; border: none;&quot; height=&quot;400&quot; data-external=&quot;1&quot;></iframe><script type=&quot;text/javascript&quot;>!function(){&quot;use strict&quot;;window.addEventListener(&quot;message&quot;,(function(a){if(void 0!==a.data[&quot;datawrapper-height&quot;]){var e=document.querySelectorAll(&quot;iframe&quot;);for(var t in a.data[&quot;datawrapper-height&quot;])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data[&quot;datawrapper-height&quot;][t]+&quot;px&quot;;e[r].style.height=i}}}))}();
 </script>">Copy embed HTML</a>
 </div>
