@@ -27,14 +27,10 @@ publish-test-leaderboards:
 	@ls | grep -e "-test.md" | xargs git add
 	@ls | grep -e "-test.csv" | xargs git add
 	@git commit -m "feat: Update test leaderboards"
-	@git push
-	@echo "Published test leaderboards!"
-
-commit-results:
 	@git add scandeval_benchmark_results.jsonl
 	@git commit -m "feat: Update benchmark results"
 	@git push
-	@echo "Committed benchmark results!"
+	@echo "Published test leaderboards!"
 
 download:
 	@scp -o ConnectTimeout=5 bk:/home/saattrupdan/scandeval/scandeval_benchmark_results.jsonl blackknight_results.jsonl || true
@@ -345,8 +341,6 @@ english-nlg:
 automatically-publish:
 	@while true; do \
 		make leaderboards; \
-		make publish; \
-		make commit-results; \
 		echo "Sleeping for an hour..."; \
 		sleep 1800; \
 		echo "Half an hour to go..."; \
