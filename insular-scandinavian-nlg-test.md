@@ -3,7 +3,7 @@ layout: leaderboard
 title: Insular Scandinavian NLG
 ---
 
-<center>Last updated: 03/04/2024 03:09:37 CET</center>
+<center>Last updated: 03/04/2024 08:04:10 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -627,7 +627,7 @@ title: Insular Scandinavian NLG
    <td class="fo-rank">4.42</td> <!-- Faroese rank -->
    <td class="is ner">7.94 ± 3.03 / 7.63 ± 2.42</td> <!-- MIM-GOLD-NER -->
    <td class="is la">-0.35 ± 2.01 / 44.36 ± 4.13</td> <!-- ScaLA-is -->
-   <td class="is qa">14.46 ± 2.66 / 32.31 ± 1.66</td> <!-- NQiI -->
+   <td class="is qa">14.55 ± 2.68 / 32.34 ± 1.64</td> <!-- NQiI -->
    <td class="is summ">62.11 ± 2.22 / 14.98 ± 1.53</td> <!-- RRN -->
    <td class="is know">6.32 ± 1.09 / 29.87 ± 0.80</td> <!-- MMLU-is -->
    <td class="is reason">-1.89 ± 2.66 / 43.72 ± 0.92</td> <!-- Winogrande-is -->
@@ -635,7 +635,7 @@ title: Insular Scandinavian NLG
    <td class="fo la">-0.42 ± 2.18 / 34.33 ± 1.47</td> <!-- ScaLA-fo -->
    <td>12.3.2</td> <!-- MIM-GOLD-NER version -->
    <td>12.1.0</td> <!-- ScaLA-is version -->
-   <td>12.1.0</td> <!-- NQiI version -->
+   <td>12.5.1</td> <!-- NQiI version -->
    <td>12.1.0</td> <!-- RRN version -->
    <td>12.1.0</td> <!-- MMLU-is version -->
    <td>12.1.0</td> <!-- Winogrande-is version -->
@@ -753,6 +753,6 @@ title: Insular Scandinavian NLG
 <div class="end-note">
   <a href="https://scandeval.com/insular-scandinavian-nlg-test.csv" target="_blank">Download as CSV</a>
   &nbsp;&nbsp;&bull;&nbsp;&nbsp;
-  <a href="javascript:void(0);" id="embed-link" data-embed="<iframe title=&quot;Insular Scandinavian NLG&quot; aria-label=&quot;Table&quot; id=&quot;datawrapper-chart-FKbXo&quot; src=&quot;https://datawrapper.dwcdn.net/FKbXo/832/&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width: 0; min-width: 100% !important; border: none;&quot; height=&quot;400&quot; data-external=&quot;1&quot;></iframe><script type=&quot;text/javascript&quot;>!function(){&quot;use strict&quot;;window.addEventListener(&quot;message&quot;,(function(a){if(void 0!==a.data[&quot;datawrapper-height&quot;]){var e=document.querySelectorAll(&quot;iframe&quot;);for(var t in a.data[&quot;datawrapper-height&quot;])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data[&quot;datawrapper-height&quot;][t]+&quot;px&quot;;e[r].style.height=i}}}))}();
+  <a href="javascript:void(0);" id="embed-link" data-embed="<iframe title=&quot;Insular Scandinavian NLG&quot; aria-label=&quot;Table&quot; id=&quot;datawrapper-chart-FKbXo&quot; src=&quot;https://datawrapper.dwcdn.net/FKbXo/859/&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width: 0; min-width: 100% !important; border: none;&quot; height=&quot;400&quot; data-external=&quot;1&quot;></iframe><script type=&quot;text/javascript&quot;>!function(){&quot;use strict&quot;;window.addEventListener(&quot;message&quot;,(function(a){if(void 0!==a.data[&quot;datawrapper-height&quot;]){var e=document.querySelectorAll(&quot;iframe&quot;);for(var t in a.data[&quot;datawrapper-height&quot;])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data[&quot;datawrapper-height&quot;][t]+&quot;px&quot;;e[r].style.height=i}}}))}();
 </script>">Copy embed HTML</a>
 </div>
