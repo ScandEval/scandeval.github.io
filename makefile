@@ -347,7 +347,13 @@ automatically-publish:
 		make leaderboards; \
 		make publish; \
 		make commit-results; \
-		echo "Sleeping for 10 minutes..."; \
+		echo "Sleeping for an hour..."; \
+		sleep 1800; \
+		echo "Half an hour to go..."; \
+		sleep 600; \
+		echo "20 more minutes to go..."; \
+		sleep 600; \
+		echo "10 more minutes to go..."; \
 		sleep 300; \
 		echo "5 more minutes to go..."; \
 		sleep 60; \
