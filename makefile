@@ -27,6 +27,7 @@ publish:
 publish-test-leaderboards:
 	@ls | grep -e "-test.md" | xargs git add
 	@ls | grep -e "-test.csv" | xargs git add
+	@git pull --commit
 	@git commit -m "feat: Update test leaderboards"
 	@git add scandeval_benchmark_results.jsonl
 	@git commit -m "feat: Update benchmark results"
