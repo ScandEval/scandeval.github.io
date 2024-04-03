@@ -19,6 +19,7 @@ publish:
 	@ls | grep -e "-test.md" | sed "s/-test//" | xargs sed -i "s/-test//g" || true
 	@ls | grep -e ".md" | xargs git add
 	@ls | grep -e ".csv" | xargs git add
+	@git pull --commit
 	@git commit -m "feat: Update leaderboards"
 	@git push
 	@echo "Published leaderboards!"
@@ -26,6 +27,7 @@ publish:
 publish-test-leaderboards:
 	@ls | grep -e "-test.md" | xargs git add
 	@ls | grep -e "-test.csv" | xargs git add
+	@git pull --commit
 	@git commit -m "feat: Update test leaderboards"
 	@git add scandeval_benchmark_results.jsonl
 	@git commit -m "feat: Update benchmark results"
