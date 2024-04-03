@@ -47,7 +47,7 @@ sentence-transformers/distiluse-base-multilingual-cased,135,120,512,19206,3.2,56
 google/gemma-2b-it (few-shot),2506,256,8192,6471,3.21,29.22,11.25,-2.27,45.95
 google/gemma-2b (few-shot),2506,256,8192,6087,3.25,17.12,9.95,0.41,49.15
 jpostma/DagoBERT,116,40,512,11241,3.31,42.28,8.01,31.21,3.65
-Qwen/Qwen1.5-1.8B-Chat (few-shot),1837,152,32768,8304,3.47,23.79,6.82,4.11,33.1
+Qwen/Qwen1.5-1.8B-Chat (few-shot),1837,152,32768,8304,3.47,23.79,6.82,4.11,33.16
 Qwen/Qwen1.5-1.8B (few-shot),1837,152,32768,5666,3.52,17.85,5.2,2.89,34.6
 3ebdola/Dialectal-Arabic-XLM-R-Base,277,250,512,15177,3.56,44.46,8.39,2.07,4.3
 dbmdz/bert-tiny-historic-multilingual-cased,5,32,512,78027,3.6,41.38,8.45,1.55,4.4
