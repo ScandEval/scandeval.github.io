@@ -31,7 +31,7 @@ mistralai/Mistral-7B-Instruct-v0.2 (few-shot),7242,32,32768,2538,2.39,55.15,47.8
 sentence-transformers/paraphrase-xlm-r-multilingual-v1,277,250,512,14994,2.4,71.8,57.71,38.75,0.3
 DiscoResearch/DiscoLM_German_7b_v1 (few-shot),7242,32,32768,1972,2.41,42.48,48.67,8.72,36.12
 "mayflowergmbh/Wiedervereinigung-7b-dpo (few-shot, val)",7242,32,32768,2374,2.43,53.57,51.92,29.06,14.59
-01-ai/Yi-6B (few-shot),6061,64,4096,2786,2.48,44.97,53.14,7.64,30.12
+01-ai/Yi-6B (few-shot),6061,64,4096,2786,2.48,44.97,53.14,7.64,30.19
 dbmdz/bert-base-historic-multilingual-cased,110,32,512,15165,2.48,67.24,41.36,48.21,7.75
 sentence-transformers/stsb-xlm-r-multilingual,277,250,512,15040,2.51,69.4,52.68,34.44,0.73
 meta-llama/Llama-2-7b-chat-hf (few-shot),6738,32,4096,2643,2.53,50.0,46.54,15.3,25.57
