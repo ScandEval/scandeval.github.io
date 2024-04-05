@@ -63,7 +63,7 @@ RuterNorway/Llama-2-13b-chat-norwegian (few-shot),-1,32,4096,7778,3.88,3.35,4.41
 KBLab/albert-base-swedish-cased-alpha,14,50,512,15925,3.9,3.75,4.06,42.07,0.27,7.35,73.8,0.81
 meta-llama/Llama-2-7b-hf (few-shot),6738,32,4096,2648,3.91,3.31,4.51,32.71,0.66,18.04,52.34,0.11
 occiglot/occiglot-7b-eu5 (few-shot),7242,32,32768,2219,3.91,3.41,4.41,36.1,1.59,15.98,58.74,0.0
-bineric/NorskGPT-Llama-7B-v0.1 (few-shot),6738,32,4096,5384,3.92,3.34,4.51,34.62,-0.24,18.1,52.57,0.46
+bineric/NorskGPT-Llama-7B-v0.1 (few-shot),6738,32,4096,5384,3.92,3.34,4.51,34.62,-0.24,18.1,53.38,0.46
 meta-llama/Llama-2-7b-chat-hf (few-shot),6738,32,4096,2643,3.92,3.44,4.41,41.1,-1.07,16.13,59.77,-0.54
 sarnikowski/convbert-medium-small-da-cased,24,29,512,13821,4.07,3.98,4.16,28.16,2.05,5.37,59.66,4.58
 danish-foundation-models/encoder-small-v1,22,96,128,6002,4.08,4.24,3.93,28.99,-0.17,0.42,79.97,0.93
