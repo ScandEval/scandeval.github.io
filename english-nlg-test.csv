@@ -11,7 +11,7 @@ RuterNorway/Llama-2-13b-chat-norwegian (few-shot),-1,32,4096,7778,1.73,64.93,64.
 occiglot/occiglot-7b-de-en (few-shot),7242,32,32768,1992,1.73,56.07,65.29,25.78,73.13,68.76,41.47,32.75
 mistralai/Mistral-7B-Instruct-v0.2 (few-shot),7242,32,32768,2538,1.77,62.11,59.91,30.66,58.27,69.75,34.93,44.91
 occiglot/occiglot-7b-eu5-instruct (few-shot),7242,32,32768,2088,1.8,60.58,62.1,20.17,75.29,69.63,38.48,27.67
-danish-foundation-models/munin-7b-v0.1dev0 (few-shot),7242,32,8192,6113,1.85,54.76,66.04,22.15,71.32,68.13,35.47,29.25
+danish-foundation-models/munin-7b-v0.1dev0 (few-shot),7242,32,8192,6113,1.85,56.38,66.04,22.15,71.32,68.13,35.47,29.25
 meta-llama/Llama-2-7b-chat-hf (few-shot),6738,32,4096,2643,1.91,62.53,62.23,22.71,64.45,69.95,30.47,30.18
 alpindale/Mistral-7B-v0.2-hf (few-shot),7242,32,32768,3467,1.94,7.03,67.1,29.86,73.5,68.99,47.47,35.77
 occiglot/occiglot-7b-eu5 (few-shot),7242,32,32768,2219,1.96,56.78,63.32,18.92,72.38,68.61,37.04,23.54
