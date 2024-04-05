@@ -1,7 +1,7 @@
 model_id,num_model_parameters,vocabulary_size,max_sequence_length,speed,rank,is_rank,fo_rank,mim_gold_ner,scala_is,nqii,fone,scala_fo
 vesteinn/FoBERT,124,50,512,15623,1.43,1.85,1.0,85.04,50.78,17.76,91.31,64.39
 microsoft/mdeberta-v3-base,278,251,512,9237,1.61,1.4,1.82,81.12,54.11,30.93,88.6,46.81
-"gpt-4-1106-preview (few-shot, val)",-1,100,-1,1,1.74,1.08,2.39,86.37,52.13,37.26,86.51,35.09
+"gpt-4-1106-preview (few-shot, val)",-1,100,128000,1,1.74,1.08,2.39,86.37,52.13,37.26,86.51,35.09
 vesteinn/ScandiBERT-no-faroese,124,50,512,15436,1.95,1.54,2.36,83.94,58.64,25.35,88.14,27.71
 NbAiLab/nb-roberta-base-scandi-1e4,277,250,512,15074,2.14,2.48,1.8,81.83,51.09,6.66,90.52,44.99
 google/rembert,575,250,256,3355,2.23,1.53,2.92,78.05,48.29,29.38,87.35,14.65
