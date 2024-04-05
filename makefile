@@ -20,7 +20,7 @@ publish:
 	@ls | grep -e ".md" | xargs git add
 	@ls | grep -e ".csv" | xargs git add
 	@git pull --commit
-	@git commit -m "feat: Update leaderboards"
+	@git commit -m "feat: Update leaderboards" || true
 	@git push
 	@echo "Published leaderboards!"
 
@@ -30,9 +30,9 @@ publish-test-leaderboards:
 	@git add scandeval_benchmark_results.jsonl
 	@git pull --commit
 	@git reset scandeval_benchmark_results.jsonl
-	@git commit -m "feat: Update test leaderboards"
+	@git commit -m "feat: Update test leaderboards" || true
 	@git add scandeval_benchmark_results.jsonl
-	@git commit -m "feat: Update benchmark results"
+	@git commit -m "feat: Update benchmark results" || true
 	@git push
 	@echo "Published test leaderboards!"
 
