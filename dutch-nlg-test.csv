@@ -1,5 +1,5 @@
 model_id,num_model_parameters,vocabulary_size,max_sequence_length,speed,rank,conll_nl,dutch_social,scala_nl,squad_nl,wiki_lingua_nl,mmlu_nl,hellaswag_nl
-gpt-4-1106-preview (few-shot),-1,100,8192,4,1.1,66.44,15.05,74.01,57.81,67.13,65.88,84.97
+gpt-4-1106-preview (few-shot),-1,100,128000,4,1.1,66.44,15.05,74.01,57.81,67.13,65.88,84.97
 "gpt-3.5-turbo-0613 (few-shot, val)",-1,100,4095,1344,1.82,68.96,8.81,58.95,55.57,69.13,42.28,61.52
 "mlabonne/NeuralBeagle14-7B (few-shot, val)",7242,32,8192,2549,2.1,63.53,11.25,27.76,50.88,71.2,40.23,47.87
 BramVanroy/GEITje-7B-ultra (few-shot),7242,32,8192,2475,2.56,42.25,12.78,18.23,53.41,68.3,26.92,25.72
