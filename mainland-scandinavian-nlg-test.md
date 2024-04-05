@@ -3,7 +3,7 @@ layout: leaderboard
 title: Mainland Scandinavian NLG
 ---
 
-<center>Last updated: 05/04/2024 10:56:46 CET</center>
+<center>Last updated: 05/04/2024 12:58:30 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -3035,7 +3035,7 @@ title: Mainland Scandinavian NLG
    <td class="speed">6,087 ± 1,046 / 1,902 ± 563</td> <!-- Model inference speed -->
    <td class="rank">3.85</td> <!-- ScandEval rank -->
    <td class="da-rank">3.56</td> <!-- Danish rank -->
-   <td class="no-rank">4.27</td> <!-- Norwegian rank -->
+   <td class="no-rank">4.28</td> <!-- Norwegian rank -->
    <td class="sv-rank">3.71</td> <!-- Swedish rank -->
    <td class="da ner">15.78 ± 4.04 / 13.17 ± 3.43</td> <!-- DANSK -->
    <td class="da sent">40.21 ± 1.00 / 46.73 ± 1.82</td> <!-- Angry Tweets -->
@@ -3092,9 +3092,9 @@ title: Mainland Scandinavian NLG
    <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model-->
    <td class="speed">4,544 ± 1,000 / 1,106 ± 359</td> <!-- Model inference speed -->
-   <td class="rank">3.95</td> <!-- ScandEval rank -->
+   <td class="rank">3.96</td> <!-- ScandEval rank -->
    <td class="da-rank">3.80</td> <!-- Danish rank -->
-   <td class="no-rank">4.19</td> <!-- Norwegian rank -->
+   <td class="no-rank">4.20</td> <!-- Norwegian rank -->
    <td class="sv-rank">3.87</td> <!-- Swedish rank -->
    <td class="da ner">14.33 ± 1.27 / 11.97 ± 1.04</td> <!-- DANSK -->
    <td class="da sent">27.14 ± 1.93 / 42.34 ± 2.51</td> <!-- Angry Tweets -->
@@ -3448,7 +3448,7 @@ title: Mainland Scandinavian NLG
    <td class="speed">4,608 ± 988 / 1,115 ± 354</td> <!-- Model inference speed -->
    <td class="rank">4.14</td> <!-- ScandEval rank -->
    <td class="da-rank">3.94</td> <!-- Danish rank -->
-   <td class="no-rank">4.45</td> <!-- Norwegian rank -->
+   <td class="no-rank">4.44</td> <!-- Norwegian rank -->
    <td class="sv-rank">4.04</td> <!-- Swedish rank -->
    <td class="da ner">8.80 ± 5.54 / 8.63 ± 4.48</td> <!-- DANSK -->
    <td class="da sent">28.65 ± 2.81 / 47.83 ± 3.55</td> <!-- Angry Tweets -->
@@ -4036,9 +4036,9 @@ title: Mainland Scandinavian NLG
    <td class="vocabulary_size">152</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
    <td class="speed">11,740 ± 3,000 / 2,209 ± 721</td> <!-- Model inference speed -->
-   <td class="rank">4.73</td> <!-- ScandEval rank -->
+   <td class="rank">4.72</td> <!-- ScandEval rank -->
    <td class="da-rank">4.24</td> <!-- Danish rank -->
-   <td class="no-rank">5.57</td> <!-- Norwegian rank -->
+   <td class="no-rank">5.52</td> <!-- Norwegian rank -->
    <td class="sv-rank">4.39</td> <!-- Swedish rank -->
    <td class="da ner">17.38 ± 2.04 / 15.74 ± 1.99</td> <!-- DANSK -->
    <td class="da sent">10.72 ± 3.35 / 25.21 ± 3.80</td> <!-- Angry Tweets -->
@@ -4049,7 +4049,7 @@ title: Mainland Scandinavian NLG
    <td class="da know">22.41 ± 3.16 / 42.73 ± 0.96</td> <!-- Danish Citizen Tests -->
    <td class="da reason">1.71 ± 0.99 / 25.84 ± 0.79</td> <!-- HellaSwag-da -->
    <td class="no ner">29.52 ± 1.48 / 29.79 ± 1.62</td> <!-- NorNE-nb -->
-   <td class="no ner">18.41 ± 1.49 / 21.99 ± 1.44</td> <!-- NorNE-nn -->
+   <td class="no ner">31.27 ± 1.30 / 31.91 ± 1.31</td> <!-- NorNE-nn -->
    <td class="no sent">11.49 ± 1.38 / 27.12 ± 1.98</td> <!-- NoReC -->
    <td class="no summ">9.92 ± 8.37 / 1.42 ± 1.14</td> <!-- No Sammendrag -->
    <td class="no la">0.29 ± 1.58 / 40.21 ± 4.22</td> <!-- ScaLA-nb -->
@@ -4073,7 +4073,7 @@ title: Mainland Scandinavian NLG
    <td>12.1.0</td> <!-- Danish Citizen Tests version -->
    <td>12.1.0</td> <!-- HellaSwag-da version -->
    <td>12.5.2</td> <!-- NorNE-nb version -->
-   <td>12.3.2</td> <!-- NorNE-nn version -->
+   <td>12.5.2</td> <!-- NorNE-nn version -->
    <td>11.0.0</td> <!-- NoReC version -->
    <td>12.5.0</td> <!-- No Sammendrag version -->
    <td>12.1.0</td> <!-- ScaLA-nb version -->
@@ -4568,6 +4568,6 @@ title: Mainland Scandinavian NLG
 <div class="end-note">
   <a href="https://scandeval.com/mainland-scandinavian-nlg-test.csv" target="_blank">Download as CSV</a>
   &nbsp;&nbsp;&bull;&nbsp;&nbsp;
-  <a href="javascript:void(0);" id="embed-link" data-embed="<iframe title=&quot;Mainland Scandinavian NLG&quot; aria-label=&quot;Table&quot; id=&quot;datawrapper-chart-6BQ5T&quot; src=&quot;https://datawrapper.dwcdn.net/6BQ5T/954/&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width: 0; min-width: 100% !important; border: none;&quot; height=&quot;400&quot; data-external=&quot;1&quot;></iframe><script type=&quot;text/javascript&quot;>!function(){&quot;use strict&quot;;window.addEventListener(&quot;message&quot;,(function(a){if(void 0!==a.data[&quot;datawrapper-height&quot;]){var e=document.querySelectorAll(&quot;iframe&quot;);for(var t in a.data[&quot;datawrapper-height&quot;])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data[&quot;datawrapper-height&quot;][t]+&quot;px&quot;;e[r].style.height=i}}}))}();
+  <a href="javascript:void(0);" id="embed-link" data-embed="<iframe title=&quot;Mainland Scandinavian NLG&quot; aria-label=&quot;Table&quot; id=&quot;datawrapper-chart-6BQ5T&quot; src=&quot;https://datawrapper.dwcdn.net/6BQ5T/956/&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width: 0; min-width: 100% !important; border: none;&quot; height=&quot;400&quot; data-external=&quot;1&quot;></iframe><script type=&quot;text/javascript&quot;>!function(){&quot;use strict&quot;;window.addEventListener(&quot;message&quot;,(function(a){if(void 0!==a.data[&quot;datawrapper-height&quot;]){var e=document.querySelectorAll(&quot;iframe&quot;);for(var t in a.data[&quot;datawrapper-height&quot;])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data[&quot;datawrapper-height&quot;][t]+&quot;px&quot;;e[r].style.height=i}}}))}();
 </script>">Copy embed HTML</a>
 </div>
