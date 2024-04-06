@@ -15,7 +15,7 @@ mistralai/Mistral-7B-v0.1 (few-shot),7242,32,32768,2657,1.77,63.4,68.17,30.92,73
 google/electra-large-discriminator,334,31,512,4700,1.8,67.87,48.08,55.46,70.66
 FacebookAI/xlm-roberta-large,559,250,512,6663,1.86,89.81,41.97,35.55,68.88
 distilbert/distilroberta-base,82,50,512,17448,1.87,90.04,56.08,54.9,49.36
-occiglot/occiglot-7b-de-en-instruct (few-shot),7242,32,32768,1584,1.9,60.61,66.54,23.6,75.14
+occiglot/occiglot-7b-de-en-instruct (few-shot),7242,32,32768,1584,1.9,60.9,66.54,23.6,75.14
 01-ai/Yi-6B (few-shot),6061,64,4096,2786,1.95,52.7,68.66,25.29,75.89
 google-bert/bert-base-uncased,109,31,512,10296,1.96,87.62,54.01,56.97,42.37
 occiglot/occiglot-7b-de-en (few-shot),7242,32,32768,1992,1.99,56.07,65.29,25.78,73.13
