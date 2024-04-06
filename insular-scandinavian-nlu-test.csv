@@ -25,7 +25,7 @@ cardiffnlp/twitter-xlm-roberta-base,277,250,512,14837,3.38,2.9,3.87,72.69,28.72,
 Geotrend/bert-base-da-cased,103,23,512,15432,3.4,3.13,3.67,73.81,6.23,10.57,86.62,3.64
 KennethEnevoldsen/dfm-sentence-encoder-large-1,354,50,512,6245,3.4,3.61,3.19,48.31,3.18,7.94,72.99,13.4
 AI-Sweden-Models/roberta-large-1350k,354,50,512,5744,3.41,3.03,3.79,73.92,11.77,11.84,88.21,3.16
-mhenrichsen/hestenettetLM (few-shot),7242,32,32768,5160,3.46,2.81,4.12,49.85,0.99,25.74,63.66,4.96
+mhenrichsen/hestenettetLM (few-shot),7242,32,32768,5160,3.46,2.81,4.12,50.82,0.99,25.74,63.66,4.96
 KBLab/megatron-bert-large-swedish-cased-165k,369,64,512,7138,3.47,3.43,3.51,63.35,4.94,7.02,82.76,7.58
 AI-Sweden-Models/roberta-large-1160k,354,50,512,5741,3.48,3.17,3.79,74.3,2.06,11.47,88.24,1.73
 KennethEnevoldsen/dfm-sentence-encoder-medium-2,124,50,512,14965,3.51,3.31,3.71,64.57,0.86,10.76,84.72,3.79
@@ -34,9 +34,9 @@ microsoft/xlm-align-base,277,250,512,14744,3.52,3.08,3.95,78.01,5.92,10.47,85.97
 vesteinn/DanskBERT,124,50,512,15749,3.52,3.33,3.71,65.29,-0.03,10.49,85.04,4.48
 google-bert/bert-base-multilingual-uncased,167,106,512,13993,3.53,3.12,3.93,60.88,13.5,9.65,73.06,5.48
 "mlabonne/NeuralBeagle14-7B (few-shot, val)",7242,32,8192,2549,3.53,2.94,4.12,49.86,1.26,22.42,62.78,3.69
-mistralai/Mistral-7B-v0.1 (few-shot),7242,32,32768,2657,3.54,2.81,4.26,47.24,1.35,25.7,62.63,2.84
 NbAiLab/nb-roberta-base-scandinavian,125,50,512,14051,3.55,3.41,3.69,69.04,3.34,7.17,86.1,6.28
 KennethEnevoldsen/dfm-sentence-encoder-medium,124,50,512,14998,3.56,3.27,3.85,64.88,-0.6,12.39,84.92,2.96
+mistralai/Mistral-7B-v0.1 (few-shot),7242,32,32768,2657,3.56,2.86,4.26,47.24,1.35,25.7,62.63,2.84
 flax-community/swe-roberta-wiki-oscar,124,50,512,15437,3.57,3.59,3.55,62.23,1.45,5.52,80.52,6.51
 Twitter/twhin-bert-large,560,250,512,5299,3.59,3.34,3.85,71.48,2.2,8.19,84.73,1.37
 microsoft/infoxlm-base,277,250,512,14918,3.59,3.23,3.95,77.09,1.71,8.56,85.58,0.35
