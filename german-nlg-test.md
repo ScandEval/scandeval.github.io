@@ -3,7 +3,7 @@ layout: leaderboard
 title: German NLG
 ---
 
-<center>Last updated: 06/04/2024 12:18:23 CET</center>
+<center>Last updated: 06/04/2024 13:19:15 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -90,14 +90,14 @@ title: German NLG
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
    <td class="speed">1,584 ± 217 / 635 ± 178</td> <!-- Model inference speed -->
    <td class="rank">1.55</td> <!-- ScandEval rank -->
-   <td class="de ner">55.47 ± 0.33 / 41.46 ± 3.01</td> <!-- GermEval -->
+   <td class="de ner">55.76 ± 1.16 / 40.04 ± 3.21</td> <!-- GermEval -->
    <td class="de sent">55.91 ± 2.49 / 70.31 ± 1.76</td> <!-- SB10k -->
    <td class="de la">22.47 ± 3.37 / 56.77 ± 3.69</td> <!-- ScaLA-de -->
    <td class="de qa">35.95 ± 1.89 / 66.86 ± 2.33</td> <!-- GermanQuAD -->
    <td class="de summ">68.08 ± 0.49 / 25.46 ± 1.45</td> <!-- MLSum -->
    <td class="de know">33.77 ± 0.86 / 49.44 ± 0.57</td> <!-- MMLU-de -->
    <td class="de reason">33.15 ± 1.86 / 48.23 ± 1.64</td> <!-- HellaSwag-de -->
-   <td>12.3.2</td> <!-- GermEval version -->
+   <td>12.5.2</td> <!-- GermEval version -->
    <td>12.3.1</td> <!-- SB10k version -->
    <td>12.3.1</td> <!-- ScaLA-de version -->
    <td>12.4.0</td> <!-- GermanQuAD version -->
@@ -309,7 +309,7 @@ title: German NLG
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
    <td class="speed">3,467 ± 656 / 986 ± 297</td> <!-- Model inference speed -->
-   <td class="rank">1.98</td> <!-- ScandEval rank -->
+   <td class="rank">1.97</td> <!-- ScandEval rank -->
    <td class="de ner">4.73 ± 2.55 / 4.53 ± 2.26</td> <!-- GermEval -->
    <td class="de sent">52.36 ± 2.24 / 67.42 ± 1.67</td> <!-- SB10k -->
    <td class="de la">24.27 ± 2.29 / 59.60 ± 3.10</td> <!-- ScaLA-de -->
@@ -727,7 +727,7 @@ title: German NLG
    <td class="vocabulary_size">100</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">1024</td> <!-- Maximum sequence length of the model-->
    <td class="speed">13,551 ± 4,259 / 2,563 ± 838</td> <!-- Model inference speed -->
-   <td class="rank">4.72</td> <!-- ScandEval rank -->
+   <td class="rank">4.71</td> <!-- ScandEval rank -->
    <td class="de ner">0.30 ± 0.60 / 0.26 ± 0.50</td> <!-- GermEval -->
    <td class="de sent">0.29 ± 1.28 / 17.22 ± 1.25</td> <!-- SB10k -->
    <td class="de la">-0.11 ± 1.16 / 36.65 ± 3.98</td> <!-- ScaLA-de -->
@@ -750,6 +750,6 @@ title: German NLG
 <div class="end-note">
   <a href="https://scandeval.com/german-nlg-test.csv" target="_blank">Download as CSV</a>
   &nbsp;&nbsp;&bull;&nbsp;&nbsp;
-  <a href="javascript:void(0);" id="embed-link" data-embed="<iframe title=&quot;German NLG&quot; aria-label=&quot;Table&quot; id=&quot;datawrapper-chart-1EiJY&quot; src=&quot;https://datawrapper.dwcdn.net/1EiJY/942/&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width: 0; min-width: 100% !important; border: none;&quot; height=&quot;400&quot; data-external=&quot;1&quot;></iframe><script type=&quot;text/javascript&quot;>!function(){&quot;use strict&quot;;window.addEventListener(&quot;message&quot;,(function(a){if(void 0!==a.data[&quot;datawrapper-height&quot;]){var e=document.querySelectorAll(&quot;iframe&quot;);for(var t in a.data[&quot;datawrapper-height&quot;])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data[&quot;datawrapper-height&quot;][t]+&quot;px&quot;;e[r].style.height=i}}}))}();
+  <a href="javascript:void(0);" id="embed-link" data-embed="<iframe title=&quot;German NLG&quot; aria-label=&quot;Table&quot; id=&quot;datawrapper-chart-1EiJY&quot; src=&quot;https://datawrapper.dwcdn.net/1EiJY/943/&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width: 0; min-width: 100% !important; border: none;&quot; height=&quot;400&quot; data-external=&quot;1&quot;></iframe><script type=&quot;text/javascript&quot;>!function(){&quot;use strict&quot;;window.addEventListener(&quot;message&quot;,(function(a){if(void 0!==a.data[&quot;datawrapper-height&quot;]){var e=document.querySelectorAll(&quot;iframe&quot;);for(var t in a.data[&quot;datawrapper-height&quot;])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data[&quot;datawrapper-height&quot;][t]+&quot;px&quot;;e[r].style.height=i}}}))}();
 </script>">Copy embed HTML</a>
 </div>
