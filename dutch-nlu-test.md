@@ -3,7 +3,7 @@ layout: leaderboard
 title: Dutch NLU
 ---
 
-<center>Last updated: 05/04/2024 18:57:23 CET</center>
+<center>Last updated: 06/04/2024 00:07:37 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -66,22 +66,6 @@ title: Dutch NLU
    <td>0.0.0</td> <!-- SQuAD-nl version -->
    </tr>
   <tr class="not-merged-model">
-   <td>gpt-4-1106-preview (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">100</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">128000</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">573 ± 185 / 87 ± 32</td> <!-- Model inference speed -->
-   <td class="rank">1.66</td> <!-- ScandEval rank -->
-   <td class="nl ner">66.44 ± 2.18 / 56.97 ± 2.87</td> <!-- CoNLL-nl -->
-   <td class="nl sent">15.05 ± 1.85 / 35.62 ± 1.91</td> <!-- Dutch Social -->
-   <td class="nl la">74.01 ± 1.29 / 86.71 ± 0.78</td> <!-- ScaLA-nl -->
-   <td class="nl qa">57.81 ± 1.23 / 74.51 ± 0.62</td> <!-- SQuAD-nl -->
-   <td>12.3.2</td> <!-- CoNLL-nl version -->
-   <td>12.3.2</td> <!-- Dutch Social version -->
-   <td>12.3.2</td> <!-- ScaLA-nl version -->
-   <td>12.3.2</td> <!-- SQuAD-nl version -->
-   </tr>
-  <tr class="not-merged-model">
    <td>DTAI-KULeuven/robbert-2022-dutch-base</td> <!-- Model ID -->
    <td class="num_model_parameters">118</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">43</td> <!-- Size of the model's vocabulary -->
@@ -96,6 +80,22 @@ title: Dutch NLU
    <td>0.0.0</td> <!-- Dutch Social version -->
    <td>0.0.0</td> <!-- ScaLA-nl version -->
    <td>0.0.0</td> <!-- SQuAD-nl version -->
+   </tr>
+  <tr class="not-merged-model">
+   <td>gpt-4-1106-preview (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">100</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">128000</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">573 ± 185 / 87 ± 32</td> <!-- Model inference speed -->
+   <td class="rank">1.67</td> <!-- ScandEval rank -->
+   <td class="nl ner">66.44 ± 2.18 / 56.97 ± 2.87</td> <!-- CoNLL-nl -->
+   <td class="nl sent">15.05 ± 1.85 / 35.62 ± 1.91</td> <!-- Dutch Social -->
+   <td class="nl la">74.01 ± 1.29 / 86.71 ± 0.78</td> <!-- ScaLA-nl -->
+   <td class="nl qa">57.81 ± 1.23 / 74.51 ± 0.62</td> <!-- SQuAD-nl -->
+   <td>12.3.2</td> <!-- CoNLL-nl version -->
+   <td>12.3.2</td> <!-- Dutch Social version -->
+   <td>12.3.2</td> <!-- ScaLA-nl version -->
+   <td>12.3.2</td> <!-- SQuAD-nl version -->
    </tr>
   <tr class="not-merged-model">
    <td>pdelobelle/robbert-v2-dutch-base</td> <!-- Model ID -->
@@ -711,7 +711,7 @@ title: Dutch NLU
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
    <td class="speed">3,467 ± 656 / 986 ± 297</td> <!-- Model inference speed -->
-   <td class="rank">3.08</td> <!-- ScandEval rank -->
+   <td class="rank">3.09</td> <!-- ScandEval rank -->
    <td class="nl ner">5.83 ± 3.35 / 5.42 ± 2.48</td> <!-- CoNLL-nl -->
    <td class="nl sent">7.04 ± 1.46 / 26.30 ± 2.92</td> <!-- Dutch Social -->
    <td class="nl la">23.83 ± 2.72 / 59.19 ± 3.10</td> <!-- ScaLA-nl -->
@@ -727,7 +727,7 @@ title: Dutch NLU
    <td class="vocabulary_size">120</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
    <td class="speed">26,344 ± 5,907 / 5,202 ± 1,679</td> <!-- Model inference speed -->
-   <td class="rank">3.08</td> <!-- ScandEval rank -->
+   <td class="rank">3.09</td> <!-- ScandEval rank -->
    <td class="nl ner">58.67 ± 1.07 / 68.27 ± 0.94</td> <!-- CoNLL-nl -->
    <td class="nl sent">17.82 ± 4.47 / 37.11 ± 2.75</td> <!-- Dutch Social -->
    <td class="nl la">9.27 ± 4.66 / 52.04 ± 4.01</td> <!-- ScaLA-nl -->
@@ -743,7 +743,7 @@ title: Dutch NLU
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model-->
    <td class="speed">10,890 ± 2,686 / 2,186 ± 750</td> <!-- Model inference speed -->
-   <td class="rank">3.17</td> <!-- ScandEval rank -->
+   <td class="rank">3.18</td> <!-- ScandEval rank -->
    <td class="nl ner">35.49 ± 3.10 / 29.35 ± 2.75</td> <!-- CoNLL-nl -->
    <td class="nl sent">11.36 ± 1.56 / 30.66 ± 3.68</td> <!-- Dutch Social -->
    <td class="nl la">2.52 ± 2.14 / 42.60 ± 4.80</td> <!-- ScaLA-nl -->
@@ -759,7 +759,7 @@ title: Dutch NLU
    <td class="vocabulary_size">120</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
    <td class="speed">19,206 ± 4,451 / 3,658 ± 1,187</td> <!-- Model inference speed -->
-   <td class="rank">3.17</td> <!-- ScandEval rank -->
+   <td class="rank">3.18</td> <!-- ScandEval rank -->
    <td class="nl ner">56.98 ± 1.37 / 66.91 ± 1.60</td> <!-- CoNLL-nl -->
    <td class="nl sent">9.66 ± 4.65 / 31.17 ± 3.34</td> <!-- Dutch Social -->
    <td class="nl la">19.37 ± 4.34 / 56.74 ± 3.13</td> <!-- ScaLA-nl -->
@@ -839,7 +839,7 @@ title: Dutch NLU
    <td class="vocabulary_size">152</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
    <td class="speed">5,666 ± 1,328 / 1,256 ± 408</td> <!-- Model inference speed -->
-   <td class="rank">3.50</td> <!-- ScandEval rank -->
+   <td class="rank">3.51</td> <!-- ScandEval rank -->
    <td class="nl ner">17.85 ± 4.84 / 16.04 ± 3.86</td> <!-- CoNLL-nl -->
    <td class="nl sent">5.20 ± 1.78 / 35.43 ± 2.14</td> <!-- Dutch Social -->
    <td class="nl la">2.89 ± 1.91 / 41.36 ± 4.63</td> <!-- ScaLA-nl -->
@@ -919,12 +919,12 @@ title: Dutch NLU
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">2176</td> <!-- Maximum sequence length of the model-->
    <td class="speed">8,536 ± 1,926 / 1,940 ± 619</td> <!-- Model inference speed -->
-   <td class="rank">3.87</td> <!-- ScandEval rank -->
-   <td class="nl ner">19.25 ± 3.64 / 23.18 ± 2.23</td> <!-- CoNLL-nl -->
+   <td class="rank">3.82</td> <!-- ScandEval rank -->
+   <td class="nl ner">22.58 ± 5.05 / 26.82 ± 3.69</td> <!-- CoNLL-nl -->
    <td class="nl sent">4.92 ± 2.71 / 19.51 ± 4.22</td> <!-- Dutch Social -->
    <td class="nl la">-1.27 ± 1.85 / 41.38 ± 3.59</td> <!-- ScaLA-nl -->
    <td class="nl qa">6.64 ± 1.96 / 11.74 ± 1.62</td> <!-- SQuAD-nl -->
-   <td>12.3.2</td> <!-- CoNLL-nl version -->
+   <td>12.5.2</td> <!-- CoNLL-nl version -->
    <td>12.1.0</td> <!-- Dutch Social version -->
    <td>12.1.0</td> <!-- ScaLA-nl version -->
    <td>12.1.0</td> <!-- SQuAD-nl version -->
@@ -935,7 +935,7 @@ title: Dutch NLU
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
    <td class="speed">1,319 ± 94 / 656 ± 172</td> <!-- Model inference speed -->
-   <td class="rank">4.06</td> <!-- ScandEval rank -->
+   <td class="rank">4.07</td> <!-- ScandEval rank -->
    <td class="nl ner">13.09 ± 1.68 / 16.25 ± 2.85</td> <!-- CoNLL-nl -->
    <td class="nl sent">0.92 ± 2.11 / 25.39 ± 1.86</td> <!-- Dutch Social -->
    <td class="nl la">1.93 ± 1.37 / 40.76 ± 4.83</td> <!-- ScaLA-nl -->
@@ -967,7 +967,7 @@ title: Dutch NLU
    <td class="vocabulary_size">100</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">1024</td> <!-- Maximum sequence length of the model-->
    <td class="speed">13,551 ± 4,259 / 2,563 ± 838</td> <!-- Model inference speed -->
-   <td class="rank">4.33</td> <!-- ScandEval rank -->
+   <td class="rank">4.34</td> <!-- ScandEval rank -->
    <td class="nl ner">0.11 ± 0.21 / 0.27 ± 0.53</td> <!-- CoNLL-nl -->
    <td class="nl sent">-0.67 ± 1.33 / 8.96 ± 0.37</td> <!-- Dutch Social -->
    <td class="nl la">-0.97 ± 1.56 / 34.83 ± 1.94</td> <!-- ScaLA-nl -->
@@ -984,6 +984,6 @@ title: Dutch NLU
 <div class="end-note">
   <a href="https://scandeval.com/dutch-nlu-test.csv" target="_blank">Download as CSV</a>
   &nbsp;&nbsp;&bull;&nbsp;&nbsp;
-  <a href="javascript:void(0);" id="embed-link" data-embed="<iframe title=&quot;Dutch NLU&quot; aria-label=&quot;Table&quot; id=&quot;datawrapper-chart-rkwMq&quot; src=&quot;https://datawrapper.dwcdn.net/rkwMq/919/&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width: 0; min-width: 100% !important; border: none;&quot; height=&quot;400&quot; data-external=&quot;1&quot;></iframe><script type=&quot;text/javascript&quot;>!function(){&quot;use strict&quot;;window.addEventListener(&quot;message&quot;,(function(a){if(void 0!==a.data[&quot;datawrapper-height&quot;]){var e=document.querySelectorAll(&quot;iframe&quot;);for(var t in a.data[&quot;datawrapper-height&quot;])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data[&quot;datawrapper-height&quot;][t]+&quot;px&quot;;e[r].style.height=i}}}))}();
+  <a href="javascript:void(0);" id="embed-link" data-embed="<iframe title=&quot;Dutch NLU&quot; aria-label=&quot;Table&quot; id=&quot;datawrapper-chart-rkwMq&quot; src=&quot;https://datawrapper.dwcdn.net/rkwMq/927/&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width: 0; min-width: 100% !important; border: none;&quot; height=&quot;400&quot; data-external=&quot;1&quot;></iframe><script type=&quot;text/javascript&quot;>!function(){&quot;use strict&quot;;window.addEventListener(&quot;message&quot;,(function(a){if(void 0!==a.data[&quot;datawrapper-height&quot;]){var e=document.querySelectorAll(&quot;iframe&quot;);for(var t in a.data[&quot;datawrapper-height&quot;])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data[&quot;datawrapper-height&quot;][t]+&quot;px&quot;;e[r].style.height=i}}}))}();
 </script>">Copy embed HTML</a>
 </div>
