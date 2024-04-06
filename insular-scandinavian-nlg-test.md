@@ -3,7 +3,7 @@ layout: leaderboard
 title: Insular Scandinavian NLG
 ---
 
-<center>Last updated: 06/04/2024 18:23:43 CET</center>
+<center>Last updated: 06/04/2024 19:24:36 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -104,7 +104,7 @@ title: Insular Scandinavian NLG
    <td class="speed">2,549 ± 472 / 784 ± 245</td> <!-- Model inference speed -->
    <td class="rank">3.74</td> <!-- ScandEval rank -->
    <td class="is-rank">3.93</td> <!-- Icelandic rank -->
-   <td class="fo-rank">3.55</td> <!-- Faroese rank -->
+   <td class="fo-rank">3.54</td> <!-- Faroese rank -->
    <td class="is ner">49.86 ± 4.28 / 42.54 ± 5.03</td> <!-- MIM-GOLD-NER -->
    <td class="is la">1.26 ± 3.83 / 48.46 ± 2.37</td> <!-- ScaLA-is -->
    <td class="is qa">22.42 ± 4.37 / 55.49 ± 2.89</td> <!-- NQiI -->
@@ -130,7 +130,7 @@ title: Insular Scandinavian NLG
    <td class="speed">5,160 ± 804 / 1,654 ± 516</td> <!-- Model inference speed -->
    <td class="rank">3.79</td> <!-- ScandEval rank -->
    <td class="is-rank">4.03</td> <!-- Icelandic rank -->
-   <td class="fo-rank">3.55</td> <!-- Faroese rank -->
+   <td class="fo-rank">3.54</td> <!-- Faroese rank -->
    <td class="is ner">50.82 ± 2.72 / 40.35 ± 4.51</td> <!-- MIM-GOLD-NER -->
    <td class="is la">0.99 ± 1.54 / 39.38 ± 3.81</td> <!-- ScaLA-is -->
    <td class="is qa">25.74 ± 5.44 / 49.45 ± 5.29</td> <!-- NQiI -->
@@ -156,7 +156,7 @@ title: Insular Scandinavian NLG
    <td class="speed">2,657 ± 524 / 880 ± 278</td> <!-- Model inference speed -->
    <td class="rank">3.83</td> <!-- ScandEval rank -->
    <td class="is-rank">4.11</td> <!-- Icelandic rank -->
-   <td class="fo-rank">3.55</td> <!-- Faroese rank -->
+   <td class="fo-rank">3.54</td> <!-- Faroese rank -->
    <td class="is ner">47.24 ± 2.54 / 37.77 ± 3.87</td> <!-- MIM-GOLD-NER -->
    <td class="is la">1.35 ± 1.70 / 39.37 ± 3.87</td> <!-- ScaLA-is -->
    <td class="is qa">25.70 ± 5.36 / 49.31 ± 5.21</td> <!-- NQiI -->
@@ -312,7 +312,7 @@ title: Insular Scandinavian NLG
    <td class="speed">2,643 ± 455 / 800 ± 247</td> <!-- Model inference speed -->
    <td class="rank">4.33</td> <!-- ScandEval rank -->
    <td class="is-rank">4.47</td> <!-- Icelandic rank -->
-   <td class="fo-rank">4.20</td> <!-- Faroese rank -->
+   <td class="fo-rank">4.19</td> <!-- Faroese rank -->
    <td class="is ner">41.10 ± 3.35 / 40.54 ± 3.19</td> <!-- MIM-GOLD-NER -->
    <td class="is la">-1.07 ± 2.09 / 44.83 ± 2.20</td> <!-- ScaLA-is -->
    <td class="is qa">16.13 ± 2.52 / 39.51 ± 1.98</td> <!-- NQiI -->
@@ -579,7 +579,7 @@ title: Insular Scandinavian NLG
    <td class="is summ">55.32 ± 3.49 / 8.91 ± 1.05</td> <!-- RRN -->
    <td class="is know">3.79 ± 1.12 / 25.76 ± 0.91</td> <!-- MMLU-is -->
    <td class="is reason">1.13 ± 3.74 / 52.30 ± 2.26</td> <!-- Winogrande-is -->
-   <td class="fo ner">19.56 ± 5.86 / 21.11 ± 5.19</td> <!-- FoNE -->
+   <td class="fo ner">18.65 ± 5.84 / 20.64 ± 4.75</td> <!-- FoNE -->
    <td class="fo la">1.14 ± 1.66 / 37.04 ± 3.83</td> <!-- ScaLA-fo -->
    <td>12.5.2</td> <!-- MIM-GOLD-NER version -->
    <td>12.1.0</td> <!-- ScaLA-is version -->
@@ -587,7 +587,7 @@ title: Insular Scandinavian NLG
    <td>12.1.0</td> <!-- RRN version -->
    <td>12.1.0</td> <!-- MMLU-is version -->
    <td>12.1.0</td> <!-- Winogrande-is version -->
-   <td>12.3.2</td> <!-- FoNE version -->
+   <td>12.5.2</td> <!-- FoNE version -->
    <td>12.1.0</td> <!-- ScaLA-fo version -->
    </tr>
   <tr class="not-merged-model">
@@ -650,7 +650,7 @@ title: Insular Scandinavian NLG
    <td class="speed">4,347 ± 893 / 1,135 ± 365</td> <!-- Model inference speed -->
    <td class="rank">5.04</td> <!-- ScandEval rank -->
    <td class="is-rank">4.79</td> <!-- Icelandic rank -->
-   <td class="fo-rank">5.29</td> <!-- Faroese rank -->
+   <td class="fo-rank">5.28</td> <!-- Faroese rank -->
    <td class="is ner">7.94 ± 3.03 / 7.63 ± 2.42</td> <!-- MIM-GOLD-NER -->
    <td class="is la">-0.35 ± 2.01 / 44.36 ± 4.13</td> <!-- ScaLA-is -->
    <td class="is qa">14.55 ± 2.68 / 32.34 ± 1.64</td> <!-- NQiI -->
@@ -805,6 +805,6 @@ title: Insular Scandinavian NLG
 <div class="end-note">
   <a href="https://scandeval.com/insular-scandinavian-nlg-test.csv" target="_blank">Download as CSV</a>
   &nbsp;&nbsp;&bull;&nbsp;&nbsp;
-  <a href="javascript:void(0);" id="embed-link" data-embed="<iframe title=&quot;Insular Scandinavian NLG&quot; aria-label=&quot;Table&quot; id=&quot;datawrapper-chart-FKbXo&quot; src=&quot;https://datawrapper.dwcdn.net/FKbXo/953/&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width: 0; min-width: 100% !important; border: none;&quot; height=&quot;400&quot; data-external=&quot;1&quot;></iframe><script type=&quot;text/javascript&quot;>!function(){&quot;use strict&quot;;window.addEventListener(&quot;message&quot;,(function(a){if(void 0!==a.data[&quot;datawrapper-height&quot;]){var e=document.querySelectorAll(&quot;iframe&quot;);for(var t in a.data[&quot;datawrapper-height&quot;])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data[&quot;datawrapper-height&quot;][t]+&quot;px&quot;;e[r].style.height=i}}}))}();
+  <a href="javascript:void(0);" id="embed-link" data-embed="<iframe title=&quot;Insular Scandinavian NLG&quot; aria-label=&quot;Table&quot; id=&quot;datawrapper-chart-FKbXo&quot; src=&quot;https://datawrapper.dwcdn.net/FKbXo/954/&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width: 0; min-width: 100% !important; border: none;&quot; height=&quot;400&quot; data-external=&quot;1&quot;></iframe><script type=&quot;text/javascript&quot;>!function(){&quot;use strict&quot;;window.addEventListener(&quot;message&quot;,(function(a){if(void 0!==a.data[&quot;datawrapper-height&quot;]){var e=document.querySelectorAll(&quot;iframe&quot;);for(var t in a.data[&quot;datawrapper-height&quot;])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data[&quot;datawrapper-height&quot;][t]+&quot;px&quot;;e[r].style.height=i}}}))}();
 </script>">Copy embed HTML</a>
 </div>
