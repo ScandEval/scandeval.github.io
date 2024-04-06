@@ -25,18 +25,18 @@ cardiffnlp/twitter-xlm-roberta-base,277,250,512,14837,3.38,2.9,3.87,72.69,28.72,
 Geotrend/bert-base-da-cased,103,23,512,15432,3.4,3.13,3.67,73.81,6.23,10.57,86.62,3.64
 KennethEnevoldsen/dfm-sentence-encoder-large-1,354,50,512,6245,3.4,3.61,3.19,48.31,3.18,7.94,72.99,13.4
 AI-Sweden-Models/roberta-large-1350k,354,50,512,5744,3.41,3.03,3.79,73.92,11.77,11.84,88.21,3.16
-mhenrichsen/hestenettetLM (few-shot),7242,32,32768,5160,3.46,2.81,4.12,50.82,0.99,25.74,63.66,4.96
 KBLab/megatron-bert-large-swedish-cased-165k,369,64,512,7138,3.47,3.43,3.51,63.35,4.94,7.02,82.76,7.58
+mhenrichsen/hestenettetLM (few-shot),7242,32,32768,5160,3.47,2.81,4.13,50.82,0.99,25.74,62.82,4.96
 AI-Sweden-Models/roberta-large-1160k,354,50,512,5741,3.48,3.17,3.79,74.3,2.06,11.47,88.24,1.73
 KennethEnevoldsen/dfm-sentence-encoder-medium-2,124,50,512,14965,3.51,3.31,3.71,64.57,0.86,10.76,84.72,3.79
 flax-community/nordic-roberta-wiki,124,50,512,16227,3.51,3.52,3.51,63.31,2.47,5.99,82.64,8.03
 microsoft/xlm-align-base,277,250,512,14744,3.52,3.08,3.95,78.01,5.92,10.47,85.97,0.02
 vesteinn/DanskBERT,124,50,512,15749,3.52,3.33,3.71,65.29,-0.03,10.49,85.04,4.48
 google-bert/bert-base-multilingual-uncased,167,106,512,13993,3.53,3.12,3.93,60.88,13.5,9.65,73.06,5.48
-"mlabonne/NeuralBeagle14-7B (few-shot, val)",7242,32,8192,2549,3.53,2.94,4.12,49.86,1.26,22.42,62.78,3.69
+"mlabonne/NeuralBeagle14-7B (few-shot, val)",7242,32,8192,2549,3.54,2.94,4.13,49.86,1.26,22.42,62.78,3.69
 NbAiLab/nb-roberta-base-scandinavian,125,50,512,14051,3.55,3.41,3.69,69.04,3.34,7.17,86.1,6.28
 KennethEnevoldsen/dfm-sentence-encoder-medium,124,50,512,14998,3.56,3.27,3.85,64.88,-0.6,12.39,84.92,2.96
-mistralai/Mistral-7B-v0.1 (few-shot),7242,32,32768,2657,3.56,2.86,4.26,47.24,1.35,25.7,62.63,2.84
+mistralai/Mistral-7B-v0.1 (few-shot),7242,32,32768,2657,3.56,2.86,4.27,47.24,1.35,25.7,62.63,2.84
 flax-community/swe-roberta-wiki-oscar,124,50,512,15437,3.57,3.59,3.55,62.23,1.45,5.52,80.52,6.51
 Twitter/twhin-bert-large,560,250,512,5299,3.59,3.34,3.85,71.48,2.2,8.19,84.73,1.37
 microsoft/infoxlm-base,277,250,512,14918,3.59,3.23,3.95,77.09,1.71,8.56,85.58,0.35
@@ -45,32 +45,32 @@ KBLab/megatron-bert-large-swedish-cased-110k,369,64,512,7075,3.62,3.48,3.76,63.1
 sentence-transformers/stsb-xlm-r-multilingual,277,250,512,15040,3.64,3.41,3.87,66.23,0.04,10.04,82.97,2.93
 KB/bert-base-swedish-cased,124,50,512,16181,3.67,3.62,3.73,60.09,1.76,5.57,82.76,3.98
 patrickvonplaten/norwegian-roberta-base,124,50,512,15698,3.67,3.58,3.76,60.79,1.29,6.64,82.57,5.74
-"timpal0l/tyr (few-shot, val)",7242,32,32768,6079,3.7,2.97,4.43,50.64,-0.06,23.36,60.21,0.0
+"timpal0l/tyr (few-shot, val)",7242,32,32768,6079,3.67,2.97,4.38,50.64,-0.06,23.36,60.21,0.0
 AI-Sweden-Models/gpt-sw3-20b (few-shot),20918,64,2048,4880,3.71,3.01,4.4,27.54,4.61,28.12,46.5,3.95
 sentence-transformers/quora-distilbert-multilingual,135,120,512,26458,3.71,3.55,3.87,63.36,1.02,6.48,82.91,1.67
-mistralai/Mistral-7B-Instruct-v0.2 (few-shot),7242,32,32768,2538,3.73,3.2,4.26,43.11,3.4,19.18,61.28,1.68
+mistralai/Mistral-7B-Instruct-v0.2 (few-shot),7242,32,32768,2538,3.73,3.2,4.27,43.11,3.4,19.18,61.28,1.68
 sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,118,250,512,17428,3.77,3.65,3.9,62.44,1.91,3.69,82.24,2.84
 DDSC/roberta-base-danish,125,50,512,15004,3.78,3.62,3.94,59.63,1.76,5.55,80.21,1.1
 FacebookAI/roberta-base,124,50,512,13354,3.79,3.58,4.01,60.18,1.07,6.66,81.78,-1.18
 dbmdz/bert-medium-historic-multilingual-cased,42,32,512,24291,3.79,3.64,3.94,58.9,0.27,5.9,80.58,1.58
-occiglot/occiglot-7b-eu5-instruct (few-shot),7242,32,32768,2088,3.8,3.23,4.37,36.79,0.71,20.66,61.9,0.0
+occiglot/occiglot-7b-eu5-instruct (few-shot),7242,32,32768,2088,3.8,3.23,4.38,36.79,0.71,20.66,61.9,0.0
 pdelobelle/robbert-v2-dutch-base,116,40,512,15481,3.82,3.67,3.97,55.54,1.06,5.42,78.59,0.65
 danish-foundation-models/encoder-large-v1,354,50,512,6671,3.83,3.57,4.09,49.68,0.33,9.3,72.46,2.93
 deepset/gbert-base,109,31,512,16043,3.85,3.66,4.05,56.89,-0.13,6.69,80.48,0.6
+RuterNorway/Llama-2-13b-chat-norwegian (few-shot),-1,32,4096,7778,3.87,3.36,4.38,28.35,3.14,19.8,60.54,-0.33
 mistralai/Mistral-7B-Instruct-v0.1 (few-shot),7242,32,32768,5443,3.88,3.34,4.41,36.04,-0.36,18.06,55.42,1.11
-RuterNorway/Llama-2-13b-chat-norwegian (few-shot),-1,32,4096,7778,3.89,3.36,4.43,28.35,3.14,19.8,60.54,-0.33
 DDSC/roberta-base-scandinavian,124,50,512,14491,3.9,3.7,4.09,51.53,0.89,5.19,63.86,0.73
+occiglot/occiglot-7b-eu5 (few-shot),7242,32,32768,2219,3.9,3.42,4.38,36.1,1.59,15.98,58.74,0.0
 KBLab/albert-base-swedish-cased-alpha,14,50,512,15925,3.91,3.76,4.06,42.07,0.27,7.35,73.8,0.81
+meta-llama/Llama-2-7b-chat-hf (few-shot),6738,32,4096,2643,3.91,3.44,4.38,41.1,-1.07,16.13,59.77,-0.54
 meta-llama/Llama-2-7b-hf (few-shot),6738,32,4096,2648,3.92,3.32,4.52,32.71,0.66,18.04,52.34,0.11
-occiglot/occiglot-7b-eu5 (few-shot),7242,32,32768,2219,3.92,3.42,4.43,36.1,1.59,15.98,58.74,0.0
 bineric/NorskGPT-Llama-7B-v0.1 (few-shot),6738,32,4096,5384,3.93,3.34,4.52,34.62,-0.24,18.1,53.38,0.46
-meta-llama/Llama-2-7b-chat-hf (few-shot),6738,32,4096,2643,3.93,3.44,4.43,41.1,-1.07,16.13,59.77,-0.54
+sarnikowski/convbert-medium-small-da-cased,24,29,512,13821,4.06,3.99,4.13,28.16,2.05,5.37,59.66,4.58
 tollefj/nordavind-7b-instruct-warm (few-shot),7248,33,2048,6450,4.07,3.62,4.52,34.76,0.77,12.8,53.24,-0.52
 HPLT/gpt-7b-nordic-prerelease (few-shot),7550,131,4096,5404,4.08,3.25,4.92,27.96,-0.0,23.17,32.16,-0.48
-sarnikowski/convbert-medium-small-da-cased,24,29,512,13821,4.08,3.99,4.17,28.16,2.05,5.37,59.66,4.58
 danish-foundation-models/encoder-small-v1,22,96,128,6002,4.09,4.24,3.94,28.99,-0.17,0.42,79.97,0.93
-ltg/norbert2,125,50,512,15523,4.11,4.05,4.17,28.74,3.0,3.47,60.57,4.16
-Maltehb/aelaectra-danish-electra-small-uncased,14,32,128,5995,4.13,4.14,4.12,30.5,3.59,0.06,62.07,5.11
+ltg/norbert2,125,50,512,15523,4.09,4.05,4.13,28.74,3.0,3.47,60.57,4.16
+Maltehb/aelaectra-danish-electra-small-uncased,14,32,128,5995,4.13,4.14,4.13,30.5,3.59,0.06,62.07,5.11
 sarnikowski/convbert-small-da-cased,13,29,512,14273,4.13,4.05,4.21,25.49,1.63,5.28,58.5,5.96
 TurkuNLP/bert-base-finnish-cased-v1,124,50,512,16701,4.22,3.95,4.49,34.58,0.55,5.07,51.26,1.77
 timpal0l/Mistral-7B-v0.1-flashback-v2-instruct (few-shot),7242,32,32768,5172,4.24,3.88,4.6,24.98,1.18,8.52,43.52,1.82
