@@ -33,10 +33,10 @@ google-bert/bert-base-multilingual-cased,177,120,512,14083,2.2,89.32,41.89,38.34
 mistralai/Mistral-7B-Instruct-v0.2 (few-shot),7242,32,32768,2538,2.22,62.11,59.91,30.66,58.27
 microsoft/phi-2 (few-shot),2780,51,2048,3472,2.26,49.16,62.41,12.31,75.79
 Rijgersberg/GEITje-7B (few-shot),7242,32,32768,10401,2.27,53.39,65.21,12.63,65.74
+alpindale/Mistral-7B-v0.2-hf (few-shot),7242,32,32768,3467,2.37,7.03,67.1,29.86,73.5
 distilbert/distilbert-base-cased,65,29,512,19667,2.37,84.75,50.94,53.47,24.93
-alpindale/Mistral-7B-v0.2-hf (few-shot),7242,32,32768,3467,2.38,7.03,67.1,29.86,73.5
 AI-Sweden-Models/gpt-sw3-20b (few-shot),20918,64,2048,4880,2.44,45.86,62.08,6.62,65.29
-Qwen/Qwen1.5-1.8B (few-shot),1837,152,32768,5666,2.46,38.17,64.34,15.3,64.41
+Qwen/Qwen1.5-1.8B (few-shot),1837,152,32768,5666,2.46,37.22,64.34,15.3,64.41
 google/gemma-2b (few-shot),2506,256,8192,6087,2.66,19.0,62.14,8.3,66.3
 Qwen/Qwen1.5-1.8B-Chat (few-shot),1837,152,32768,8304,2.69,37.8,55.33,11.23,60.69
 distilbert/distilbert-base-multilingual-cased,135,120,512,26355,2.69,87.7,36.48,40.79,29.0
