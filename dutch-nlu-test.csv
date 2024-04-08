@@ -47,7 +47,7 @@ sentence-transformers/distiluse-base-multilingual-cased-v1,135,120,512,26344,3.1
 RuterNorway/Llama-2-7b-chat-norwegian (few-shot),-1,32,4096,10890,3.16,35.49,11.36,2.52,37.56
 sentence-transformers/distiluse-base-multilingual-cased,135,120,512,19206,3.19,56.98,9.66,19.37,3.11
 allenai/OLMo-7B (few-shot),6888,50,2176,5403,3.22,37.37,9.55,0.05,34.81
-google/gemma-2b (few-shot),2506,256,8192,6087,3.27,17.12,9.95,0.41,49.15
+google/gemma-2b (few-shot),2506,256,8192,6087,3.22,16.9,9.95,0.41,49.15
 jpostma/DagoBERT,116,40,512,11241,3.3,42.28,8.01,31.21,3.65
 Qwen/Qwen1.5-1.8B-Chat (few-shot),1837,152,32768,8304,3.43,23.44,6.82,4.11,33.16
 Qwen/Qwen1.5-0.5B-Chat (few-shot),620,152,32768,11740,3.53,18.66,8.59,0.34,26.74
