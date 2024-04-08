@@ -562,7 +562,7 @@ title: {title}
         )
 
         # Build the HTML for the leaderboard
-        if changed_model_ids:
+        if changed_model_ids or True:
             html_lines = [BENCHMARK_HTML_START]
             for values in all_values:
                 html_lines.append(BENCHMARK_ENTRY.format(**values))
