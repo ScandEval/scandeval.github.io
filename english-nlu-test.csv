@@ -26,7 +26,7 @@ Qwen/Qwen1.5-4B (few-shot),3950,152,32768,not-merged-model,3248,2.06,55.45,60.55
 RuterNorway/Llama-2-13b-chat-norwegian (few-shot),-1,32,4096,not-merged-model,7778,2.06,64.93,64.14,28.08,62.09
 Qwen/Qwen1.5-4B-Chat (few-shot),3950,152,32768,not-merged-model,4347,2.07,58.56,59.62,28.55,70.04
 meta-llama/Llama-2-7b-hf (few-shot),6738,32,4096,not-merged-model,2648,2.08,55.27,65.16,20.43,69.82
-occiglot/occiglot-7b-eu5 (few-shot),7242,32,32768,not-merged-model,2219,2.1,56.78,63.32,18.92,72.38
+occiglot/occiglot-7b-eu5 (few-shot),7242,32,32768,not-merged-model,2219,2.13,55.37,63.32,18.92,72.38
 "mlabonne/NeuralBeagle14-7B (few-shot, val)",7242,32,8192,merged-model,2549,2.14,69.16,63.85,28.4,52.69
 meta-llama/Llama-2-7b-chat-hf (few-shot),6738,32,4096,not-merged-model,2643,2.19,62.53,62.23,22.71,64.45
 google-bert/bert-base-multilingual-cased,177,120,512,not-merged-model,14083,2.22,89.32,41.89,38.34,55.19
