@@ -3,7 +3,7 @@ layout: leaderboard
 title: Mainland Scandinavian NLG
 ---
 
-<center>Last updated: 08/04/2024 14:54:42 CET</center>
+<center>Last updated: 08/04/2024 14:55:54 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -1266,8 +1266,8 @@ title: Mainland Scandinavian NLG
    <td class="rank">2.83</td> <!-- ScandEval rank -->
    <td class="da-rank">2.59</td> <!-- Danish rank -->
    <td class="no-rank">3.10</td> <!-- Norwegian rank -->
-   <td class="sv-rank">2.79</td> <!-- Swedish rank -->
-   <td class="da ner">34.48 ± 3.13 / 25.97 ± 1.67</td> <!-- DANSK -->
+   <td class="sv-rank">2.80</td> <!-- Swedish rank -->
+   <td class="da ner">34.79 ± 3.04 / 26.18 ± 1.58</td> <!-- DANSK -->
    <td class="da sent">48.15 ± 1.73 / 63.31 ± 2.08</td> <!-- Angry Tweets -->
    <td class="da la">20.75 ± 5.25 / 47.57 ± 6.14</td> <!-- ScaLA-da -->
    <td class="da qa">57.11 ± 1.16 / 62.80 ± 0.91</td> <!-- ScandiQA-da -->
@@ -1275,8 +1275,8 @@ title: Mainland Scandinavian NLG
    <td class="da know">79.18 ± 1.25 / 84.16 ± 0.96</td> <!-- Danske Talemaader -->
    <td class="da know">61.04 ± 2.86 / 72.95 ± 2.04</td> <!-- Danish Citizen Tests -->
    <td class="da reason">16.89 ± 1.22 / 35.58 ± 1.13</td> <!-- HellaSwag-da -->
-   <td class="no ner">45.11 ± 3.68 / 37.99 ± 3.06</td> <!-- NorNE-nb -->
-   <td class="no ner">44.03 ± 4.20 / 37.75 ± 3.15</td> <!-- NorNE-nn -->
+   <td class="no ner">45.12 ± 3.58 / 37.92 ± 2.96</td> <!-- NorNE-nb -->
+   <td class="no ner">44.13 ± 4.19 / 37.81 ± 3.19</td> <!-- NorNE-nn -->
    <td class="no sent">48.14 ± 1.97 / 62.19 ± 2.15</td> <!-- NoReC -->
    <td class="no summ">65.52 ± 0.84 / 19.32 ± 1.10</td> <!-- No Sammendrag -->
    <td class="no la">26.57 ± 1.43 / 55.77 ± 2.95</td> <!-- ScaLA-nb -->
@@ -1284,7 +1284,7 @@ title: Mainland Scandinavian NLG
    <td class="no qa">48.06 ± 4.76 / 70.87 ± 4.17</td> <!-- NorQuAD -->
    <td class="no know">27.01 ± 1.15 / 43.63 ± 1.09</td> <!-- MMLU-no -->
    <td class="no reason">20.49 ± 2.62 / 38.04 ± 2.47</td> <!-- HellaSwag-no -->
-   <td class="sv ner">42.79 ± 3.16 / 31.92 ± 3.15</td> <!-- SUC3 -->
+   <td class="sv ner">42.76 ± 3.12 / 31.84 ± 3.17</td> <!-- SUC3 -->
    <td class="sv sent">79.56 ± 0.57 / 80.38 ± 0.93</td> <!-- SweReC -->
    <td class="sv la">33.90 ± 3.08 / 61.03 ± 4.20</td> <!-- ScaLA-sv -->
    <td class="sv qa">57.59 ± 1.05 / 63.56 ± 0.85</td> <!-- ScandiQA-sv -->
@@ -4922,6 +4922,6 @@ title: Mainland Scandinavian NLG
 <div class="end-note">
   <a href="https://scandeval.com/mainland-scandinavian-nlg-test.csv" target="_blank">Download as CSV</a>
   &nbsp;&nbsp;&bull;&nbsp;&nbsp;
-  <a href="javascript:void(0);" id="embed-link" data-embed="<iframe title=&quot;Mainland Scandinavian NLG&quot; aria-label=&quot;Table&quot; id=&quot;datawrapper-chart-6BQ5T&quot; src=&quot;https://datawrapper.dwcdn.net/6BQ5T/1049/&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width: 0; min-width: 100% !important; border: none;&quot; height=&quot;400&quot; data-external=&quot;1&quot;></iframe><script type=&quot;text/javascript&quot;>!function(){&quot;use strict&quot;;window.addEventListener(&quot;message&quot;,(function(a){if(void 0!==a.data[&quot;datawrapper-height&quot;]){var e=document.querySelectorAll(&quot;iframe&quot;);for(var t in a.data[&quot;datawrapper-height&quot;])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data[&quot;datawrapper-height&quot;][t]+&quot;px&quot;;e[r].style.height=i}}}))}();
+  <a href="javascript:void(0);" id="embed-link" data-embed="<iframe title=&quot;Mainland Scandinavian NLG&quot; aria-label=&quot;Table&quot; id=&quot;datawrapper-chart-6BQ5T&quot; src=&quot;https://datawrapper.dwcdn.net/6BQ5T/1050/&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width: 0; min-width: 100% !important; border: none;&quot; height=&quot;400&quot; data-external=&quot;1&quot;></iframe><script type=&quot;text/javascript&quot;>!function(){&quot;use strict&quot;;window.addEventListener(&quot;message&quot;,(function(a){if(void 0!==a.data[&quot;datawrapper-height&quot;]){var e=document.querySelectorAll(&quot;iframe&quot;);for(var t in a.data[&quot;datawrapper-height&quot;])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data[&quot;datawrapper-height&quot;][t]+&quot;px&quot;;e[r].style.height=i}}}))}();
 </script>">Copy embed HTML</a>
 </div>
