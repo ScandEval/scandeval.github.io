@@ -3,7 +3,7 @@ layout: leaderboard
 title: German NLU
 ---
 
-<center>Last updated: 08/04/2024 15:14:28 CET</center>
+<center>Last updated: 08/04/2024 16:00:19 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -194,22 +194,6 @@ title: German NLU
    <td>0.0.0</td> <!-- GermanQuAD version -->
    </tr>
   <tr class="not-merged-model">
-   <td>gpt-3.5-turbo-0613 (few-shot, val)</td> <!-- Model ID -->
-   <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">100</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">4095</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">921 ± 293 / 113 ± 37</td> <!-- Model inference speed -->
-   <td class="rank">1.94</td> <!-- ScandEval rank -->
-   <td class="de ner">61.50 ± 2.96 / 46.22 ± 3.41</td> <!-- GermEval -->
-   <td class="de sent">55.50 ± 2.58 / 68.96 ± 2.00</td> <!-- SB10k -->
-   <td class="de la">38.96 ± 4.39 / 68.89 ± 2.54</td> <!-- ScaLA-de -->
-   <td class="de qa">30.20 ± 1.59 / 56.58 ± 1.78</td> <!-- GermanQuAD -->
-   <td>0.0.0</td> <!-- GermEval version -->
-   <td>0.0.0</td> <!-- SB10k version -->
-   <td>0.0.0</td> <!-- ScaLA-de version -->
-   <td>0.0.0</td> <!-- GermanQuAD version -->
-   </tr>
-  <tr class="not-merged-model">
    <td>facebook/xlm-v-base</td> <!-- Model ID -->
    <td class="num_model_parameters">778</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">902</td> <!-- Size of the model's vocabulary -->
@@ -220,6 +204,22 @@ title: German NLU
    <td class="de sent">57.43 ± 1.86 / 71.30 ± 1.43</td> <!-- SB10k -->
    <td class="de la">35.00 ± 18.42 / 61.88 ± 13.13</td> <!-- ScaLA-de -->
    <td class="de qa">20.81 ± 1.19 / 41.69 ± 1.19</td> <!-- GermanQuAD -->
+   <td>0.0.0</td> <!-- GermEval version -->
+   <td>0.0.0</td> <!-- SB10k version -->
+   <td>0.0.0</td> <!-- ScaLA-de version -->
+   <td>0.0.0</td> <!-- GermanQuAD version -->
+   </tr>
+  <tr class="not-merged-model">
+   <td>gpt-3.5-turbo-0613 (few-shot, val)</td> <!-- Model ID -->
+   <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">100</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">4095</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">921 ± 293 / 113 ± 37</td> <!-- Model inference speed -->
+   <td class="rank">1.95</td> <!-- ScandEval rank -->
+   <td class="de ner">61.50 ± 2.96 / 46.22 ± 3.41</td> <!-- GermEval -->
+   <td class="de sent">55.50 ± 2.58 / 68.96 ± 2.00</td> <!-- SB10k -->
+   <td class="de la">38.96 ± 4.39 / 68.89 ± 2.54</td> <!-- ScaLA-de -->
+   <td class="de qa">30.20 ± 1.59 / 56.58 ± 1.78</td> <!-- GermanQuAD -->
    <td>0.0.0</td> <!-- GermEval version -->
    <td>0.0.0</td> <!-- SB10k version -->
    <td>0.0.0</td> <!-- ScaLA-de version -->
@@ -658,6 +658,22 @@ title: German NLU
    <td>0.0.0</td> <!-- GermanQuAD version -->
    </tr>
   <tr class="not-merged-model">
+   <td>Qwen/Qwen1.5-4B-Chat (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">3950</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">152</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
+   <td class="speed">4,347 ± 893 / 1,135 ± 365</td> <!-- Model inference speed -->
+   <td class="rank">2.64</td> <!-- ScandEval rank -->
+   <td class="de ner">42.08 ± 1.65 / 36.90 ± 2.00</td> <!-- GermEval -->
+   <td class="de sent">41.52 ± 3.53 / 57.69 ± 3.35</td> <!-- SB10k -->
+   <td class="de la">12.78 ± 3.75 / 46.43 ± 5.48</td> <!-- ScaLA-de -->
+   <td class="de qa">29.35 ± 2.51 / 59.90 ± 2.80</td> <!-- GermanQuAD -->
+   <td>12.5.2</td> <!-- GermEval version -->
+   <td>10.0.1</td> <!-- SB10k version -->
+   <td>12.1.0</td> <!-- ScaLA-de version -->
+   <td>12.1.0</td> <!-- GermanQuAD version -->
+   </tr>
+  <tr class="not-merged-model">
    <td>Rijgersberg/GEITje-7B (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -711,7 +727,7 @@ title: German NLU
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
    <td class="speed">3,467 ± 656 / 986 ± 297</td> <!-- Model inference speed -->
-   <td class="rank">2.71</td> <!-- ScandEval rank -->
+   <td class="rank">2.72</td> <!-- ScandEval rank -->
    <td class="de ner">4.73 ± 2.55 / 4.53 ± 2.26</td> <!-- GermEval -->
    <td class="de sent">52.36 ± 2.24 / 67.42 ± 1.67</td> <!-- SB10k -->
    <td class="de la">24.27 ± 2.29 / 59.60 ± 3.10</td> <!-- ScaLA-de -->
@@ -720,22 +736,6 @@ title: German NLU
    <td>12.5.1</td> <!-- SB10k version -->
    <td>12.5.1</td> <!-- ScaLA-de version -->
    <td>12.5.1</td> <!-- GermanQuAD version -->
-   </tr>
-  <tr class="not-merged-model">
-   <td>Qwen/Qwen1.5-4B-Chat (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">3950</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">152</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
-   <td class="speed">4,347 ± 893 / 1,135 ± 365</td> <!-- Model inference speed -->
-   <td class="rank">2.75</td> <!-- ScandEval rank -->
-   <td class="de ner">31.51 ± 8.45 / 28.51 ± 7.54</td> <!-- GermEval -->
-   <td class="de sent">41.52 ± 3.53 / 57.69 ± 3.35</td> <!-- SB10k -->
-   <td class="de la">12.78 ± 3.75 / 46.43 ± 5.48</td> <!-- ScaLA-de -->
-   <td class="de qa">29.35 ± 2.51 / 59.90 ± 2.80</td> <!-- GermanQuAD -->
-   <td>12.3.2</td> <!-- GermEval version -->
-   <td>10.0.1</td> <!-- SB10k version -->
-   <td>12.1.0</td> <!-- ScaLA-de version -->
-   <td>12.1.0</td> <!-- GermanQuAD version -->
    </tr>
   <tr class="not-merged-model">
    <td>sentence-transformers/distilbert-multilingual-nli-stsb-quora-ranking</td> <!-- Model ID -->
@@ -807,7 +807,7 @@ title: German NLU
    <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model-->
    <td class="speed">4,572 ± 1,018 / 1,068 ± 331</td> <!-- Model inference speed -->
-   <td class="rank">3.04</td> <!-- ScandEval rank -->
+   <td class="rank">3.05</td> <!-- ScandEval rank -->
    <td class="de ner">24.16 ± 1.74 / 21.34 ± 0.64</td> <!-- GermEval -->
    <td class="de sent">43.29 ± 3.90 / 60.47 ± 3.23</td> <!-- SB10k -->
    <td class="de la">2.34 ± 1.26 / 37.26 ± 1.09</td> <!-- ScaLA-de -->
@@ -823,7 +823,7 @@ title: German NLU
    <td class="vocabulary_size">131</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">4128</td> <!-- Maximum sequence length of the model-->
    <td class="speed">3,480 ± 727 / 822 ± 274</td> <!-- Model inference speed -->
-   <td class="rank">3.15</td> <!-- ScandEval rank -->
+   <td class="rank">3.16</td> <!-- ScandEval rank -->
    <td class="de ner">34.53 ± 1.24 / 29.89 ± 1.96</td> <!-- GermEval -->
    <td class="de sent">42.90 ± 2.66 / 56.64 ± 4.71</td> <!-- SB10k -->
    <td class="de la">1.51 ± 1.64 / 43.36 ± 4.05</td> <!-- ScaLA-de -->
@@ -839,7 +839,7 @@ title: German NLU
    <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model-->
    <td class="speed">4,880 ± 1,052 / 1,181 ± 380</td> <!-- Model inference speed -->
-   <td class="rank">3.16</td> <!-- ScandEval rank -->
+   <td class="rank">3.17</td> <!-- ScandEval rank -->
    <td class="de ner">35.78 ± 2.37 / 26.98 ± 1.75</td> <!-- GermEval -->
    <td class="de sent">34.13 ± 7.00 / 46.96 ± 8.23</td> <!-- SB10k -->
    <td class="de la">2.18 ± 1.60 / 38.27 ± 3.59</td> <!-- ScaLA-de -->
@@ -887,7 +887,7 @@ title: German NLU
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model-->
    <td class="speed">10,890 ± 2,686 / 2,186 ± 750</td> <!-- Model inference speed -->
-   <td class="rank">3.25</td> <!-- ScandEval rank -->
+   <td class="rank">3.26</td> <!-- ScandEval rank -->
    <td class="de ner">27.22 ± 1.38 / 24.48 ± 1.76</td> <!-- GermEval -->
    <td class="de sent">33.54 ± 5.12 / 49.63 ± 5.78</td> <!-- SB10k -->
    <td class="de la">0.45 ± 0.91 / 35.24 ± 3.71</td> <!-- ScaLA-de -->
@@ -903,7 +903,7 @@ title: German NLU
    <td class="vocabulary_size">152</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
    <td class="speed">8,304 ± 1,846 / 1,933 ± 617</td> <!-- Model inference speed -->
-   <td class="rank">3.26</td> <!-- ScandEval rank -->
+   <td class="rank">3.27</td> <!-- ScandEval rank -->
    <td class="de ner">28.04 ± 2.71 / 24.08 ± 1.58</td> <!-- GermEval -->
    <td class="de sent">36.21 ± 3.42 / 54.82 ± 3.32</td> <!-- SB10k -->
    <td class="de la">3.12 ± 1.42 / 46.21 ± 2.93</td> <!-- ScaLA-de -->
@@ -919,7 +919,7 @@ title: German NLU
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">2080</td> <!-- Maximum sequence length of the model-->
    <td class="speed">5,403 ± 1,133 / 1,294 ± 423</td> <!-- Model inference speed -->
-   <td class="rank">3.33</td> <!-- ScandEval rank -->
+   <td class="rank">3.34</td> <!-- ScandEval rank -->
    <td class="de ner">30.85 ± 4.69 / 24.38 ± 3.10</td> <!-- GermEval -->
    <td class="de sent">49.77 ± 2.81 / 64.87 ± 2.42</td> <!-- SB10k -->
    <td class="de la">2.67 ± 1.77 / 41.55 ± 4.54</td> <!-- ScaLA-de -->
@@ -935,7 +935,7 @@ title: German NLU
    <td class="vocabulary_size">152</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
    <td class="speed">5,666 ± 1,328 / 1,256 ± 408</td> <!-- Model inference speed -->
-   <td class="rank">3.53</td> <!-- ScandEval rank -->
+   <td class="rank">3.54</td> <!-- ScandEval rank -->
    <td class="de ner">9.23 ± 4.86 / 10.43 ± 3.83</td> <!-- GermEval -->
    <td class="de sent">38.30 ± 2.90 / 56.94 ± 2.83</td> <!-- SB10k -->
    <td class="de la">0.39 ± 1.17 / 33.47 ± 0.34</td> <!-- ScaLA-de -->
@@ -983,7 +983,7 @@ title: German NLU
    <td class="vocabulary_size">152</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
    <td class="speed">11,740 ± 3,000 / 2,209 ± 721</td> <!-- Model inference speed -->
-   <td class="rank">3.86</td> <!-- ScandEval rank -->
+   <td class="rank">3.87</td> <!-- ScandEval rank -->
    <td class="de ner">24.67 ± 0.99 / 23.98 ± 0.73</td> <!-- GermEval -->
    <td class="de sent">9.31 ± 2.97 / 21.50 ± 2.70</td> <!-- SB10k -->
    <td class="de la">1.11 ± 1.69 / 37.88 ± 4.05</td> <!-- ScaLA-de -->
@@ -1080,6 +1080,6 @@ title: German NLU
 <div class="end-note">
   <a href="https://scandeval.com/german-nlu.csv" target="_blank">Download as CSV</a>
   &nbsp;&nbsp;&bull;&nbsp;&nbsp;
-  <a href="javascript:void(0);" id="embed-link" data-embed="<iframe title=&quot;German NLU&quot; aria-label=&quot;Table&quot; id=&quot;datawrapper-chart-I9boM&quot; src=&quot;https://datawrapper.dwcdn.net/I9boM/1005/&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width: 0; min-width: 100% !important; border: none;&quot; height=&quot;400&quot; data-external=&quot;1&quot;></iframe><script type=&quot;text/javascript&quot;>!function(){&quot;use strict&quot;;window.addEventListener(&quot;message&quot;,(function(a){if(void 0!==a.data[&quot;datawrapper-height&quot;]){var e=document.querySelectorAll(&quot;iframe&quot;);for(var t in a.data[&quot;datawrapper-height&quot;])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data[&quot;datawrapper-height&quot;][t]+&quot;px&quot;;e[r].style.height=i}}}))}();
+  <a href="javascript:void(0);" id="embed-link" data-embed="<iframe title=&quot;German NLU&quot; aria-label=&quot;Table&quot; id=&quot;datawrapper-chart-I9boM&quot; src=&quot;https://datawrapper.dwcdn.net/I9boM/1006/&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width: 0; min-width: 100% !important; border: none;&quot; height=&quot;400&quot; data-external=&quot;1&quot;></iframe><script type=&quot;text/javascript&quot;>!function(){&quot;use strict&quot;;window.addEventListener(&quot;message&quot;,(function(a){if(void 0!==a.data[&quot;datawrapper-height&quot;]){var e=document.querySelectorAll(&quot;iframe&quot;);for(var t in a.data[&quot;datawrapper-height&quot;])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data[&quot;datawrapper-height&quot;][t]+&quot;px&quot;;e[r].style.height=i}}}))}();
 </script>">Copy embed HTML</a>
 </div>
