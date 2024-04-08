@@ -22,9 +22,9 @@ Twitter/twhin-bert-large,560,250,512,not-merged-model,5299,2.23,74.8,55.04,29.15
 occiglot/occiglot-7b-eu5-instruct (few-shot),7242,32,32768,not-merged-model,2088,2.23,50.46,43.16,27.09,34.01
 jhu-clsp/bernice,277,250,128,not-merged-model,5567,2.24,72.25,62.0,48.1,0.0
 microsoft/xlm-align-base,277,250,512,not-merged-model,14744,2.24,79.38,58.58,15.34,16.58
+occiglot/occiglot-7b-eu5 (few-shot),7242,32,32768,not-merged-model,2219,2.27,51.39,47.3,21.83,31.55
 seedboxai/KafkaLM-7B-German-V0.1-DPO (few-shot),7242,32,4096,not-merged-model,6070,2.27,48.92,52.57,20.74,32.87
 seedboxai/KafkaLM-7B-German-V0.1 (few-shot),7242,32,32768,not-merged-model,6065,2.27,48.35,52.51,20.36,32.88
-occiglot/occiglot-7b-eu5 (few-shot),7242,32,32768,not-merged-model,2219,2.31,47.74,47.3,21.83,31.55
 clips/mfaq,277,250,128,not-merged-model,5591,2.34,76.68,59.51,32.54,1.53
 RuterNorway/Llama-2-13b-chat-norwegian (few-shot),-1,32,4096,not-merged-model,7778,2.36,56.71,49.77,19.92,27.87
 mistralai/Mistral-7B-Instruct-v0.1 (few-shot),7242,32,32768,not-merged-model,5443,2.37,51.79,47.27,22.15,24.35

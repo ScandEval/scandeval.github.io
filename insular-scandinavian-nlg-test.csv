@@ -8,7 +8,7 @@ mistralai/Mistral-7B-v0.1 (few-shot),7242,32,32768,not-merged-model,2657,3.97,4.
 "timpal0l/tyr (few-shot, val)",7242,32,32768,merged-model,6079,4.23,4.15,4.31,50.64,-0.06,23.36,63.8,9.94,15.83,60.21,0.0
 mistralai/Mistral-7B-Instruct-v0.2 (few-shot),7242,32,32768,not-merged-model,2538,4.26,4.31,4.22,43.11,3.4,19.18,65.01,7.55,0.24,61.28,1.68
 occiglot/occiglot-7b-eu5-instruct (few-shot),7242,32,32768,not-merged-model,2088,4.3,4.39,4.22,36.79,0.71,20.66,65.25,8.1,0.35,61.9,0.0
-occiglot/occiglot-7b-eu5 (few-shot),7242,32,32768,not-merged-model,2219,4.41,4.51,4.31,40.08,1.59,15.98,62.55,7.64,-0.51,58.74,0.0
+occiglot/occiglot-7b-eu5 (few-shot),7242,32,32768,not-merged-model,2219,4.41,4.51,4.31,40.08,1.59,15.98,62.55,7.64,-0.51,58.67,0.0
 mistralai/Mistral-7B-Instruct-v0.1 (few-shot),7242,32,32768,not-merged-model,5443,4.47,4.53,4.42,36.04,-0.36,18.06,62.8,7.22,6.35,55.42,1.11
 meta-llama/Llama-2-7b-hf (few-shot),6738,32,4096,not-merged-model,2648,4.53,4.63,4.42,32.71,0.66,18.04,60.73,5.05,-0.0,52.34,0.11
 bineric/NorskGPT-Llama-7B-v0.1 (few-shot),6738,32,4096,not-merged-model,5384,4.55,4.69,4.42,34.62,-0.24,18.1,61.81,6.52,-1.9,53.38,0.46

@@ -8,11 +8,11 @@ occiglot/occiglot-7b-eu5-instruct (few-shot),7242,32,32768,not-merged-model,2088
 occiglot/occiglot-7b-de-en (few-shot),7242,32,32768,not-merged-model,1992,1.7,48.11,54.96,21.57,31.49,68.88,32.39,29.84
 seedboxai/KafkaLM-7B-German-V0.1-DPO (few-shot),7242,32,4096,not-merged-model,6070,1.7,48.92,52.57,20.74,32.87,68.88,31.38,29.83
 seedboxai/KafkaLM-7B-German-V0.1 (few-shot),7242,32,32768,not-merged-model,6065,1.73,48.35,52.51,20.36,32.88,68.82,31.36,29.98
+occiglot/occiglot-7b-eu5 (few-shot),7242,32,32768,not-merged-model,2219,1.8,51.39,47.3,21.83,31.55,69.31,32.49,22.25
 mistralai/Mistral-7B-Instruct-v0.2 (few-shot),7242,32,32768,not-merged-model,2538,1.82,55.15,47.85,24.29,24.0,67.54,25.96,31.06
-occiglot/occiglot-7b-eu5 (few-shot),7242,32,32768,not-merged-model,2219,1.83,47.74,47.3,21.83,31.55,69.31,32.49,22.25
 "mayflowergmbh/Wiedervereinigung-7b-dpo (few-shot, val)",7242,32,32768,merged-model,2374,1.88,52.17,51.92,29.06,14.59,63.78,35.38,34.16
 RuterNorway/Llama-2-13b-chat-norwegian (few-shot),-1,32,4096,not-merged-model,7778,1.9,56.71,49.77,19.92,27.87,66.93,26.02,24.88
-alpindale/Mistral-7B-v0.2-hf (few-shot),7242,32,32768,not-merged-model,3467,1.96,4.73,52.36,24.27,31.57,69.01,34.97,29.0
+alpindale/Mistral-7B-v0.2-hf (few-shot),7242,32,32768,not-merged-model,3467,1.95,4.73,52.36,24.27,31.57,69.01,34.97,29.0
 mistralai/Mistral-7B-Instruct-v0.1 (few-shot),7242,32,32768,not-merged-model,5443,1.97,51.79,47.27,22.15,24.35,67.79,26.88,20.34
 01-ai/Yi-6B (few-shot),6061,64,4096,not-merged-model,2786,2.07,44.97,53.14,7.64,30.19,66.27,29.8,22.91
 DiscoResearch/DiscoLM_German_7b_v1 (few-shot),7242,32,32768,not-merged-model,1972,2.09,42.39,48.67,8.72,36.12,68.47,23.99,20.76
@@ -26,8 +26,8 @@ google/gemma-2b (few-shot),2506,256,8192,not-merged-model,6087,2.96,16.95,44.96,
 Qwen/Qwen1.5-1.8B-Chat (few-shot),1837,152,32768,not-merged-model,8304,3.0,28.04,36.21,3.12,16.33,61.47,13.44,8.31
 AI-Sweden-Models/gpt-sw3-20b-instruct (few-shot),20918,64,2048,not-merged-model,4572,3.08,24.16,43.29,2.34,20.85,59.36,4.84,1.78
 AI-Sweden-Models/gpt-sw3-20b (few-shot),20918,64,2048,not-merged-model,4880,3.09,35.78,34.13,2.18,17.99,62.21,3.58,0.56
-Qwen/Qwen1.5-1.8B (few-shot),1837,152,32768,not-merged-model,5666,3.17,9.23,38.3,0.39,16.67,61.74,13.65,8.86
-LumiOpen/Viking-13B (few-shot),14030,131,4128,not-merged-model,3480,3.2,34.53,42.9,1.51,15.83,61.4,-1.84,-0.12
+Qwen/Qwen1.5-1.8B (few-shot),1837,152,32768,not-merged-model,5666,3.16,9.23,38.3,0.39,16.67,61.74,13.65,8.86
+LumiOpen/Viking-13B (few-shot),14030,131,4128,not-merged-model,3480,3.19,34.53,42.9,1.51,15.83,61.4,-1.84,-0.12
 RuterNorway/Llama-2-7b-chat-norwegian (few-shot),6738,32,4096,not-merged-model,10890,3.29,27.22,33.54,0.45,20.44,60.5,-0.1,-1.0
 Qwen/Qwen1.5-0.5B-Chat (few-shot),620,152,32768,not-merged-model,11740,3.53,24.67,9.31,1.11,13.6,56.42,2.75,3.41
 Qwen/Qwen1.5-0.5B (few-shot),620,152,32768,not-merged-model,11371,3.56,27.34,10.64,0.33,11.81,59.71,6.34,2.94

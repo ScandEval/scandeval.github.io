@@ -59,7 +59,7 @@ pdelobelle/robbert-v2-dutch-base,116,40,512,not-merged-model,15481,3.85,3.67,4.0
 danish-foundation-models/encoder-large-v1,354,50,512,not-merged-model,6671,3.88,3.6,4.16,49.68,0.33,9.3,72.46,2.93
 deepset/gbert-base,109,31,512,not-merged-model,16043,3.9,3.67,4.12,56.89,-0.13,6.69,80.48,0.6
 RuterNorway/Llama-2-13b-chat-norwegian (few-shot),-1,32,4096,not-merged-model,7778,3.91,3.32,4.5,28.35,3.14,19.8,60.54,-0.33
-occiglot/occiglot-7b-eu5 (few-shot),7242,32,32768,not-merged-model,2219,3.92,3.34,4.5,40.08,1.59,15.98,58.74,0.0
+occiglot/occiglot-7b-eu5 (few-shot),7242,32,32768,not-merged-model,2219,3.92,3.34,4.5,40.08,1.59,15.98,58.67,0.0
 meta-llama/Llama-2-7b-chat-hf (few-shot),6738,32,4096,not-merged-model,2643,3.94,3.37,4.5,41.1,-1.07,16.13,59.77,-0.54
 KBLab/albert-base-swedish-cased-alpha,14,50,512,not-merged-model,15925,3.96,3.79,4.13,42.07,0.27,7.35,73.8,0.81
 mistralai/Mistral-7B-Instruct-v0.1 (few-shot),7242,32,32768,not-merged-model,5443,3.97,3.46,4.48,36.04,-0.36,18.06,55.42,1.11
