@@ -620,6 +620,7 @@ def generate_csv_df(
         "num_model_parameters",
         "vocabulary_size",
         "max_sequence_length",
+        "merge",
         "speed",
         "rank",
     ]
