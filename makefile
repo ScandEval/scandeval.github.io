@@ -345,6 +345,7 @@ english-nlg:
 automatically-publish:
 	@while true; do \
 		make leaderboards; \
+		make publish; \
 		echo "Sleeping for an hour..."; \
 		sleep 1800; \
 		echo "Half an hour to go..."; \
