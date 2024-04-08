@@ -3,7 +3,7 @@ layout: leaderboard
 title: Insular Scandinavian NLG
 ---
 
-<center>Last updated: 08/04/2024 16:00:15 CET</center>
+<center>Last updated: 08/04/2024 19:03:25 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -287,7 +287,7 @@ title: Insular Scandinavian NLG
    <td class="rank">4.41</td> <!-- ScandEval rank -->
    <td class="is-rank">4.51</td> <!-- Icelandic rank -->
    <td class="fo-rank">4.31</td> <!-- Faroese rank -->
-   <td class="is ner">36.10 ± 7.99 / 33.23 ± 7.96</td> <!-- MIM-GOLD-NER -->
+   <td class="is ner">40.08 ± 2.82 / 37.15 ± 4.07</td> <!-- MIM-GOLD-NER -->
    <td class="is la">1.59 ± 1.86 / 39.93 ± 4.19</td> <!-- ScaLA-is -->
    <td class="is qa">15.98 ± 3.74 / 39.67 ± 3.36</td> <!-- NQiI -->
    <td class="is summ">62.55 ± 3.03 / 15.26 ± 2.31</td> <!-- RRN -->
@@ -295,7 +295,7 @@ title: Insular Scandinavian NLG
    <td class="is reason">-0.51 ± 1.95 / 47.23 ± 2.39</td> <!-- Winogrande-is -->
    <td class="fo ner">58.74 ± 3.04 / 58.94 ± 2.99</td> <!-- FoNE -->
    <td class="fo la">0.00 ± 0.00 / 33.26 ± 0.34</td> <!-- ScaLA-fo -->
-   <td>12.3.2</td> <!-- MIM-GOLD-NER version -->
+   <td>12.5.2</td> <!-- MIM-GOLD-NER version -->
    <td>12.1.0</td> <!-- ScaLA-is version -->
    <td>12.1.0</td> <!-- NQiI version -->
    <td>12.1.0</td> <!-- RRN version -->
@@ -571,7 +571,7 @@ title: Insular Scandinavian NLG
    <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model-->
    <td class="speed">6,471 ± 1,142 / 1,961 ± 584</td> <!-- Model inference speed -->
    <td class="rank">5.00</td> <!-- ScandEval rank -->
-   <td class="is-rank">5.02</td> <!-- Icelandic rank -->
+   <td class="is-rank">5.01</td> <!-- Icelandic rank -->
    <td class="fo-rank">4.99</td> <!-- Faroese rank -->
    <td class="is ner">20.49 ± 2.30 / 18.33 ± 1.40</td> <!-- MIM-GOLD-NER -->
    <td class="is la">-0.01 ± 2.13 / 46.02 ± 2.71</td> <!-- ScaLA-is -->
@@ -804,8 +804,8 @@ title: Insular Scandinavian NLG
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">2176</td> <!-- Maximum sequence length of the model-->
    <td class="speed">5,484 ± 1,125 / 1,317 ± 425</td> <!-- Model inference speed -->
-   <td class="rank">5.32</td> <!-- ScandEval rank -->
-   <td class="is-rank">5.48</td> <!-- Icelandic rank -->
+   <td class="rank">5.31</td> <!-- ScandEval rank -->
+   <td class="is-rank">5.47</td> <!-- Icelandic rank -->
    <td class="fo-rank">5.16</td> <!-- Faroese rank -->
    <td class="is ner">9.04 ± 5.36 / 9.25 ± 4.70</td> <!-- MIM-GOLD-NER -->
    <td class="is la">-0.08 ± 1.02 / 34.02 ± 0.68</td> <!-- ScaLA-is -->
@@ -935,6 +935,6 @@ title: Insular Scandinavian NLG
 <div class="end-note">
   <a href="https://scandeval.com/insular-scandinavian-nlg.csv" target="_blank">Download as CSV</a>
   &nbsp;&nbsp;&bull;&nbsp;&nbsp;
-  <a href="javascript:void(0);" id="embed-link" data-embed="<iframe title=&quot;Insular Scandinavian NLG&quot; aria-label=&quot;Table&quot; id=&quot;datawrapper-chart-FKbXo&quot; src=&quot;https://datawrapper.dwcdn.net/FKbXo/1011/&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width: 0; min-width: 100% !important; border: none;&quot; height=&quot;400&quot; data-external=&quot;1&quot;></iframe><script type=&quot;text/javascript&quot;>!function(){&quot;use strict&quot;;window.addEventListener(&quot;message&quot;,(function(a){if(void 0!==a.data[&quot;datawrapper-height&quot;]){var e=document.querySelectorAll(&quot;iframe&quot;);for(var t in a.data[&quot;datawrapper-height&quot;])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data[&quot;datawrapper-height&quot;][t]+&quot;px&quot;;e[r].style.height=i}}}))}();
+  <a href="javascript:void(0);" id="embed-link" data-embed="<iframe title=&quot;Insular Scandinavian NLG&quot; aria-label=&quot;Table&quot; id=&quot;datawrapper-chart-FKbXo&quot; src=&quot;https://datawrapper.dwcdn.net/FKbXo/1014/&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width: 0; min-width: 100% !important; border: none;&quot; height=&quot;400&quot; data-external=&quot;1&quot;></iframe><script type=&quot;text/javascript&quot;>!function(){&quot;use strict&quot;;window.addEventListener(&quot;message&quot;,(function(a){if(void 0!==a.data[&quot;datawrapper-height&quot;]){var e=document.querySelectorAll(&quot;iframe&quot;);for(var t in a.data[&quot;datawrapper-height&quot;])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data[&quot;datawrapper-height&quot;][t]+&quot;px&quot;;e[r].style.height=i}}}))}();
 </script>">Copy embed HTML</a>
 </div>
