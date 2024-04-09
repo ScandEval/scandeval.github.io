@@ -15,7 +15,7 @@ bineric/NorskGPT-Llama-7B-v0.1 (few-shot),6738,32,4096,not-merged-model,5384,4.5
 meta-llama/Llama-2-7b-chat-hf (few-shot),6738,32,4096,not-merged-model,2643,4.57,4.65,4.48,41.1,-1.07,16.13,62.3,3.27,1.84,59.77,-0.54
 tollefj/nordavind-7b-instruct-warm (few-shot),7248,33,2048,not-merged-model,6450,4.68,4.77,4.59,34.76,0.77,12.8,61.23,0.93,-0.76,53.24,-0.52
 LumiOpen/Viking-13B (few-shot),14030,131,4224,not-merged-model,3480,4.82,4.79,4.85,20.51,1.12,21.85,59.41,-0.48,0.06,43.11,-0.26
-Qwen/Qwen1.5-4B-Chat (few-shot),3950,152,32768,not-merged-model,4347,4.84,4.83,4.85,25.65,-0.35,14.55,62.11,6.32,-1.89,43.8,-0.42
+Qwen/Qwen1.5-4B-Chat (few-shot),3950,152,32768,not-merged-model,4347,4.84,4.84,4.85,25.65,-0.35,14.46,62.11,6.32,-1.89,43.8,-0.42
 timpal0l/Mistral-7B-v0.1-flashback-v2-instruct (few-shot),7242,32,32768,not-merged-model,5172,4.88,5.08,4.68,24.98,1.18,8.52,39.94,5.09,4.7,43.52,1.82
 HPLT/gpt-7b-nordic-prerelease (few-shot),7550,131,4096,not-merged-model,5404,4.96,4.81,5.11,27.96,-0.0,23.17,55.57,-0.57,-2.72,32.16,-0.48
 Qwen/Qwen1.5-4B (few-shot),3950,152,32768,not-merged-model,3248,4.99,4.98,4.99,15.66,-0.55,14.11,57.17,6.15,-1.71,34.2,-0.36
