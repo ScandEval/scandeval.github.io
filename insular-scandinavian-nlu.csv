@@ -17,7 +17,7 @@ vesteinn/IceBERT,163,50,512,not-merged-model,12360,2.89,2.04,3.74,85.34,55.88,13
 mideind/IceBERT-ic3,124,50,512,not-merged-model,12119,2.97,2.22,3.72,85.03,45.06,10.82,87.22,6.23
 mideind/IceBERT-igc,124,50,512,not-merged-model,12551,3.04,2.27,3.8,79.85,54.38,9.91,83.82,4.93
 "gpt-3.5-turbo-0613 (few-shot, val)",-1,100,4095,not-merged-model,921,3.05,2.38,3.73,69.59,7.28,28.5,72.48,8.29
-Geotrend/bert-base-25lang-cased,151,85,512,not-merged-model,13908,3.13,3.26,3.0,74.65,2.89,9.29,86.09,15.24
+Geotrend/bert-base-25lang-cased,151,85,512,not-merged-model,13908,3.12,3.25,3.0,74.65,2.89,9.29,86.09,15.24
 FacebookAI/xlm-roberta-large,559,250,512,not-merged-model,6663,3.17,2.47,3.86,82.83,22.78,15.72,87.85,1.17
 intfloat/multilingual-e5-large,559,250,512,not-merged-model,6732,3.38,2.89,3.86,78.43,10.78,13.79,88.39,2.85
 mideind/IceBERT-mC4-is,163,50,512,not-merged-model,12308,3.38,3.29,3.46,79.19,20.95,0.0,88.44,11.83
@@ -33,7 +33,7 @@ flax-community/nordic-roberta-wiki,124,50,512,not-merged-model,16227,3.55,3.53,3
 microsoft/xlm-align-base,277,250,512,not-merged-model,14744,3.55,3.09,4.01,78.01,5.92,10.47,85.97,0.02
 google-bert/bert-base-multilingual-uncased,167,106,512,not-merged-model,13993,3.56,3.12,3.99,60.88,13.5,9.65,73.06,5.48
 mistralai/Mistral-7B-v0.1 (few-shot),7242,32,32768,not-merged-model,2657,3.56,2.82,4.31,47.24,1.35,25.7,62.63,2.84
-"mlabonne/NeuralBeagle14-7B (few-shot, val)",7242,32,8192,merged-model,2549,3.56,2.95,4.17,49.86,1.26,22.42,62.78,3.69
+"mlabonne/NeuralBeagle14-7B (few-shot, val)",7242,32,8192,merged-model,2549,3.56,2.95,4.17,49.86,1.26,22.48,62.78,3.69
 vesteinn/DanskBERT,124,50,512,not-merged-model,15749,3.56,3.34,3.78,65.29,-0.03,10.49,85.04,4.48
 KennethEnevoldsen/dfm-sentence-encoder-medium,124,50,512,not-merged-model,14998,3.59,3.26,3.92,64.88,-0.6,12.39,84.92,2.96
 NbAiLab/nb-roberta-base-scandinavian,125,50,512,not-merged-model,14051,3.59,3.42,3.76,69.04,3.34,7.17,86.1,6.28
@@ -50,11 +50,11 @@ mistralai/Mistral-7B-Instruct-v0.2 (few-shot),7242,32,32768,not-merged-model,253
 "timpal0l/tyr (few-shot, val)",7242,32,32768,merged-model,6079,3.74,2.98,4.5,50.64,-0.06,23.36,60.21,0.0
 AI-Sweden-Models/gpt-sw3-20b (few-shot),20918,64,2048,not-merged-model,4880,3.75,3.03,4.46,27.54,4.61,28.12,46.5,3.95
 sentence-transformers/quora-distilbert-multilingual,135,120,512,not-merged-model,26458,3.75,3.56,3.94,63.36,1.02,6.48,82.91,1.67
-occiglot/occiglot-7b-eu5-instruct (few-shot),7242,32,32768,not-merged-model,2088,3.8,3.19,4.42,40.71,0.71,20.66,61.9,0.0
 DDSC/roberta-base-danish,125,50,512,not-merged-model,15004,3.81,3.62,4.0,59.63,1.76,5.55,80.21,1.1
 sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,118,250,512,not-merged-model,17428,3.82,3.68,3.96,62.44,1.91,3.69,82.24,2.84
 FacebookAI/roberta-base,124,50,512,not-merged-model,13354,3.83,3.59,4.08,60.18,1.07,6.66,81.78,-1.18
 dbmdz/bert-medium-historic-multilingual-cased,42,32,512,not-merged-model,24291,3.83,3.67,4.0,58.9,0.27,5.9,80.58,1.58
+occiglot/occiglot-7b-eu5-instruct (few-shot),7242,32,32768,not-merged-model,2088,3.84,3.19,4.5,40.71,0.71,20.66,60.37,0.0
 pdelobelle/robbert-v2-dutch-base,116,40,512,not-merged-model,15481,3.85,3.67,4.04,55.54,1.06,5.42,78.59,0.65
 danish-foundation-models/encoder-large-v1,354,50,512,not-merged-model,6671,3.88,3.6,4.16,49.68,0.33,9.3,72.46,2.93
 deepset/gbert-base,109,31,512,not-merged-model,16043,3.9,3.67,4.12,56.89,-0.13,6.69,80.48,0.6
