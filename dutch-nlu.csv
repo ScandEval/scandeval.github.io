@@ -46,7 +46,7 @@ AI-Sweden-Models/gpt-sw3-20b-instruct (few-shot),20918,64,2048,not-merged-model,
 alpindale/Mistral-7B-v0.2-hf (few-shot),7242,32,32768,not-merged-model,3467,3.13,5.83,7.04,23.83,61.88
 sentence-transformers/distiluse-base-multilingual-cased-v1,135,120,512,not-merged-model,26344,3.13,58.67,17.82,9.27,2.17
 google/gemma-2b-it (few-shot),2506,256,8192,not-merged-model,6471,3.15,38.85,11.25,-2.27,45.95
-RuterNorway/Llama-2-7b-chat-norwegian (few-shot),-1,32,4096,not-merged-model,10890,3.18,35.49,11.36,2.52,37.56
+RuterNorway/Llama-2-7b-chat-norwegian (few-shot),-1,32,4096,not-merged-model,10890,3.18,35.49,11.36,2.52,37.49
 sentence-transformers/distiluse-base-multilingual-cased,135,120,512,not-merged-model,19206,3.23,56.98,9.66,19.37,3.11
 allenai/OLMo-7B (few-shot),6888,50,2176,not-merged-model,5403,3.25,37.37,9.55,0.05,34.81
 google/gemma-2b (few-shot),2506,256,8192,not-merged-model,6087,3.3,16.9,9.95,0.41,49.15
