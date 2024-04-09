@@ -92,6 +92,9 @@ document.addEventListener('click', function (e) {
       if (column_name.match(/rank/i)) {
         sortAscending = true
       }
+      if (column_name.match(/distance/i)) {
+        sortAscending = true
+      }
     }
 
     try {
