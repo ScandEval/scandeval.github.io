@@ -3,7 +3,7 @@ layout: leaderboard
 title: German NLU
 ---
 
-<center>Last updated: 09/04/2024 00:08:40 CET</center>
+<center>Last updated: 09/04/2024 15:24:48 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -671,7 +671,7 @@ title: German NLU
    <td>12.5.2</td> <!-- GermEval version -->
    <td>10.0.1</td> <!-- SB10k version -->
    <td>12.1.0</td> <!-- ScaLA-de version -->
-   <td>12.1.0</td> <!-- GermanQuAD version -->
+   <td>12.5.2</td> <!-- GermanQuAD version -->
    </tr>
   <tr class="not-merged-model">
    <td>Rijgersberg/GEITje-7B (few-shot)</td> <!-- Model ID -->
@@ -729,11 +729,11 @@ title: German NLU
    <td class="speed">3,467 ± 656 / 986 ± 297</td> <!-- Model inference speed -->
    <td class="rank">2.72</td> <!-- ScandEval rank -->
    <td class="de ner">4.73 ± 2.55 / 4.53 ± 2.26</td> <!-- GermEval -->
-   <td class="de sent">52.36 ± 2.24 / 67.42 ± 1.67</td> <!-- SB10k -->
+   <td class="de sent">52.49 ± 2.16 / 67.50 ± 1.61</td> <!-- SB10k -->
    <td class="de la">24.27 ± 2.29 / 59.60 ± 3.10</td> <!-- ScaLA-de -->
    <td class="de qa">31.57 ± 2.96 / 59.99 ± 3.89</td> <!-- GermanQuAD -->
    <td>12.5.1</td> <!-- GermEval version -->
-   <td>12.5.1</td> <!-- SB10k version -->
+   <td>12.5.2</td> <!-- SB10k version -->
    <td>12.5.1</td> <!-- ScaLA-de version -->
    <td>12.5.1</td> <!-- GermanQuAD version -->
    </tr>
@@ -891,11 +891,11 @@ title: German NLU
    <td class="de ner">27.22 ± 1.38 / 24.48 ± 1.76</td> <!-- GermEval -->
    <td class="de sent">33.54 ± 5.12 / 49.63 ± 5.78</td> <!-- SB10k -->
    <td class="de la">0.45 ± 0.91 / 35.24 ± 3.71</td> <!-- ScaLA-de -->
-   <td class="de qa">20.44 ± 3.30 / 45.51 ± 3.32</td> <!-- GermanQuAD -->
+   <td class="de qa">20.44 ± 3.29 / 45.50 ± 3.33</td> <!-- GermanQuAD -->
    <td>9.3.1</td> <!-- GermEval version -->
    <td>9.3.1</td> <!-- SB10k version -->
    <td>9.3.1</td> <!-- ScaLA-de version -->
-   <td>12.4.0</td> <!-- GermanQuAD version -->
+   <td>12.5.2</td> <!-- GermanQuAD version -->
    </tr>
   <tr class="not-merged-model">
    <td>Qwen/Qwen1.5-1.8B-Chat (few-shot)</td> <!-- Model ID -->
@@ -1080,6 +1080,6 @@ title: German NLU
 <div class="end-note">
   <a href="https://scandeval.com/german-nlu-test.csv" target="_blank">Download as CSV</a>
   &nbsp;&nbsp;&bull;&nbsp;&nbsp;
-  <a href="javascript:void(0);" id="embed-link" data-embed="<iframe title=&quot;German NLU&quot; aria-label=&quot;Table&quot; id=&quot;datawrapper-chart-I9boM&quot; src=&quot;https://datawrapper.dwcdn.net/I9boM/1014/&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width: 0; min-width: 100% !important; border: none;&quot; height=&quot;400&quot; data-external=&quot;1&quot;></iframe><script type=&quot;text/javascript&quot;>!function(){&quot;use strict&quot;;window.addEventListener(&quot;message&quot;,(function(a){if(void 0!==a.data[&quot;datawrapper-height&quot;]){var e=document.querySelectorAll(&quot;iframe&quot;);for(var t in a.data[&quot;datawrapper-height&quot;])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data[&quot;datawrapper-height&quot;][t]+&quot;px&quot;;e[r].style.height=i}}}))}();
+  <a href="javascript:void(0);" id="embed-link" data-embed="<iframe title=&quot;German NLU&quot; aria-label=&quot;Table&quot; id=&quot;datawrapper-chart-I9boM&quot; src=&quot;https://datawrapper.dwcdn.net/I9boM/1029/&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width: 0; min-width: 100% !important; border: none;&quot; height=&quot;400&quot; data-external=&quot;1&quot;></iframe><script type=&quot;text/javascript&quot;>!function(){&quot;use strict&quot;;window.addEventListener(&quot;message&quot;,(function(a){if(void 0!==a.data[&quot;datawrapper-height&quot;]){var e=document.querySelectorAll(&quot;iframe&quot;);for(var t in a.data[&quot;datawrapper-height&quot;])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data[&quot;datawrapper-height&quot;][t]+&quot;px&quot;;e[r].style.height=i}}}))}();
 </script>">Copy embed HTML</a>
 </div>
