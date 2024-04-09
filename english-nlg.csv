@@ -31,6 +31,6 @@ LumiOpen/Viking-13B (few-shot),14030,131,4352,not-merged-model,3480,2.99,47.7,51
 allenai/OLMo-7B (few-shot),6888,50,2304,not-merged-model,5403,3.1,38.23,60.7,-0.19,61.93,51.32,5.0,1.1
 allenai/OLMo-7B-Twin-2T (few-shot),6888,50,2304,not-merged-model,5484,3.27,25.36,56.91,7.1,58.6,46.16,0.71,0.82
 allenai/OLMo-1B (few-shot),1177,50,2304,not-merged-model,8536,3.46,26.47,60.05,0.72,43.87,46.18,-0.87,0.2
-RuterNorway/Llama-2-7b-chat-norwegian (few-shot),-1,32,4096,not-merged-model,10890,3.61,18.69,21.95,0.01,36.49,60.11,3.71,0.62
+RuterNorway/Llama-2-7b-chat-norwegian (few-shot),-1,32,4096,not-merged-model,10890,3.61,18.69,21.95,0.01,36.51,60.11,3.71,0.62
 RJuro/kanelsnegl-v0.1 (few-shot),7242,32,512,not-merged-model,9757,4.33,0.0,0.0,0.41,0.0,61.26,0.0,0.36
 ai-forever/mGPT (few-shot),-1,100,1024,not-merged-model,13551,4.7,1.55,3.71,-0.42,5.58,34.62,0.37,-0.17
