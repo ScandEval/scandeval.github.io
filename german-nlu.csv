@@ -42,7 +42,7 @@ Qwen/Qwen1.5-4B-Chat (few-shot),3950,152,32768,not-merged-model,4347,2.64,42.08,
 Rijgersberg/GEITje-7B (few-shot),7242,32,32768,not-merged-model,10401,2.64,39.09,47.83,10.31,26.13
 AI-Sweden-Models/roberta-large-1160k,354,50,512,not-merged-model,5741,2.67,68.39,45.91,2.79,18.83
 AI-Sweden-Models/roberta-large-1350k,354,50,512,not-merged-model,5744,2.7,67.24,45.84,2.28,18.17
-alpindale/Mistral-7B-v0.2-hf (few-shot),7242,32,32768,not-merged-model,3467,2.72,4.73,52.36,24.27,31.57
+alpindale/Mistral-7B-v0.2-hf (few-shot),7242,32,32768,not-merged-model,3467,2.72,4.73,52.49,24.27,31.57
 sentence-transformers/distilbert-multilingual-nli-stsb-quora-ranking,135,120,512,not-merged-model,26151,2.83,66.75,49.61,17.6,0.36
 sentence-transformers/distiluse-base-multilingual-cased-v1,135,120,512,not-merged-model,26344,2.92,53.77,53.53,20.15,0.58
 sentence-transformers/distiluse-base-multilingual-cased-v2,135,120,512,not-merged-model,17807,2.92,53.13,51.94,17.74,0.06
