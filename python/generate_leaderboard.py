@@ -128,7 +128,7 @@ title: {title}
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="The maximum amount of tokens the model can process">Context</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Number of tokens processed per second / Number of tokens processed in small documents per second">Speed</span></th>
 
-   <th id="rank-col"><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="ScandEval rank, computed as 1 + the average number of standard deviations from the best model">Rank</span></th>
+   <th id="rank-col"><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="The average number of standard deviations from the best model">Rank</span></th>
     """
 
     # Add language rank columns, if there are multiple languages
@@ -138,7 +138,7 @@ title: {title}
                 continue
             language_name_title = language_name.title()
             BENCHMARK_HTML_START += f"""
-   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="{language_name_title} rank, computed as 1 + the average number of standard deviations from the best model">{language_name_title} Rank</span></th>"""
+   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="The average number of standard deviations from the best model on {language_name_title} tasks">{language_name_title} Rank</span></th>"""
         BENCHMARK_HTML_START += "\n"
 
     # Add dataset score columns
@@ -485,7 +485,7 @@ title: {title}
             float(values[dataset_underscore].split()[0])
             for values in dataset_values_sorted
         ])
-        rank_score = 1
+        rank_score = 0
         previous_scores: list[float] = list()
         for idx, values in enumerate(dataset_values_sorted):
             if idx == 0:
