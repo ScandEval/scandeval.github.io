@@ -3,7 +3,7 @@ layout: leaderboard
 title: Insular Scandinavian NLU
 ---
 
-<center>Last updated: 10/04/2024 15:03:18 CET</center>
+<center>Last updated: 10/04/2024 15:08:22 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -44,7 +44,7 @@ title: Insular Scandinavian NLU
    <td class="num_model_parameters">124</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">15,623 ± 2,828 / 3,737 ± 1,191</td> <!-- Model inference speed -->
    <td class="rank">1.46</td> <!-- ScandEval rank -->
    <td class="is-rank">1.93</td> <!-- Icelandic rank -->
@@ -65,7 +65,7 @@ title: Insular Scandinavian NLU
    <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">251</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">9,237 ± 1,562 / 2,258 ± 742</td> <!-- Model inference speed -->
    <td class="rank">1.62</td> <!-- ScandEval rank -->
    <td class="is-rank">1.39</td> <!-- Icelandic rank -->
@@ -107,7 +107,7 @@ title: Insular Scandinavian NLU
    <td class="num_model_parameters">124</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">15,436 ± 2,820 / 3,704 ± 1,187</td> <!-- Model inference speed -->
    <td class="rank">1.97</td> <!-- ScandEval rank -->
    <td class="is-rank">1.52</td> <!-- Icelandic rank -->
@@ -128,7 +128,7 @@ title: Insular Scandinavian NLU
    <td class="num_model_parameters">277</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">15,074 ± 2,990 / 3,347 ± 1,080</td> <!-- Model inference speed -->
    <td class="rank">2.13</td> <!-- ScandEval rank -->
    <td class="is-rank">2.44</td> <!-- Icelandic rank -->
@@ -149,7 +149,7 @@ title: Insular Scandinavian NLU
    <td class="num_model_parameters">575</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">256</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">3,355 ± 475 / 1,002 ± 312</td> <!-- Model inference speed -->
    <td class="rank">2.26</td> <!-- ScandEval rank -->
    <td class="is-rank">1.52</td> <!-- Icelandic rank -->
@@ -170,7 +170,7 @@ title: Insular Scandinavian NLU
    <td class="num_model_parameters">470</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">501</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">13,305 ± 3,306 / 2,414 ± 780</td> <!-- Model inference speed -->
    <td class="rank">2.36</td> <!-- ScandEval rank -->
    <td class="is-rank">2.32</td> <!-- Icelandic rank -->
@@ -191,7 +191,7 @@ title: Insular Scandinavian NLU
    <td class="num_model_parameters">22</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">96</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">128</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">5,989 ± 120 / 3,809 ± 1,230</td> <!-- Model inference speed -->
    <td class="rank">2.38</td> <!-- ScandEval rank -->
    <td class="is-rank">2.31</td> <!-- Icelandic rank -->
@@ -212,7 +212,7 @@ title: Insular Scandinavian NLU
    <td class="num_model_parameters">277</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">11,004 ± 2,244 / 2,324 ± 761</td> <!-- Model inference speed -->
    <td class="rank">2.51</td> <!-- ScandEval rank -->
    <td class="is-rank">2.02</td> <!-- Icelandic rank -->
@@ -233,7 +233,7 @@ title: Insular Scandinavian NLU
    <td class="num_model_parameters">277</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">15,081 ± 2,950 / 3,365 ± 1,092</td> <!-- Model inference speed -->
    <td class="rank">2.56</td> <!-- ScandEval rank -->
    <td class="is-rank">2.75</td> <!-- Icelandic rank -->
@@ -254,7 +254,7 @@ title: Insular Scandinavian NLU
    <td class="num_model_parameters">470</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">501</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">13,386 ± 3,349 / 2,435 ± 787</td> <!-- Model inference speed -->
    <td class="rank">2.69</td> <!-- ScandEval rank -->
    <td class="is-rank">2.40</td> <!-- Icelandic rank -->
@@ -275,7 +275,7 @@ title: Insular Scandinavian NLU
    <td class="num_model_parameters">406</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">5,677 ± 719 / 1,886 ± 604</td> <!-- Model inference speed -->
    <td class="rank">2.73</td> <!-- ScandEval rank -->
    <td class="is-rank">1.93</td> <!-- Icelandic rank -->
@@ -296,7 +296,7 @@ title: Insular Scandinavian NLU
    <td class="num_model_parameters">124</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">16,697 ± 2,113 / 5,432 ± 1,749</td> <!-- Model inference speed -->
    <td class="rank">2.73</td> <!-- ScandEval rank -->
    <td class="is-rank">1.93</td> <!-- Icelandic rank -->
@@ -317,7 +317,7 @@ title: Insular Scandinavian NLU
    <td class="num_model_parameters">125</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">10,711 ± 2,333 / 2,141 ± 689</td> <!-- Model inference speed -->
    <td class="rank">2.74</td> <!-- ScandEval rank -->
    <td class="is-rank">1.55</td> <!-- Icelandic rank -->
@@ -338,7 +338,7 @@ title: Insular Scandinavian NLU
    <td class="num_model_parameters">163</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">12,360 ± 1,611 / 3,858 ± 1,246</td> <!-- Model inference speed -->
    <td class="rank">2.90</td> <!-- ScandEval rank -->
    <td class="is-rank">2.02</td> <!-- Icelandic rank -->
@@ -359,7 +359,7 @@ title: Insular Scandinavian NLU
    <td class="num_model_parameters">124</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">12,119 ± 1,576 / 3,812 ± 1,242</td> <!-- Model inference speed -->
    <td class="rank">2.99</td> <!-- ScandEval rank -->
    <td class="is-rank">2.20</td> <!-- Icelandic rank -->
@@ -380,7 +380,7 @@ title: Insular Scandinavian NLU
    <td class="num_model_parameters">124</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">12,551 ± 1,656 / 3,918 ± 1,274</td> <!-- Model inference speed -->
    <td class="rank">3.04</td> <!-- ScandEval rank -->
    <td class="is-rank">2.24</td> <!-- Icelandic rank -->
@@ -422,7 +422,7 @@ title: Insular Scandinavian NLU
    <td class="num_model_parameters">151</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">85</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">13,908 ± 3,201 / 2,700 ± 872</td> <!-- Model inference speed -->
    <td class="rank">3.13</td> <!-- ScandEval rank -->
    <td class="is-rank">3.24</td> <!-- Icelandic rank -->
@@ -443,7 +443,7 @@ title: Insular Scandinavian NLU
    <td class="num_model_parameters">559</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">6,663 ± 1,248 / 1,619 ± 516</td> <!-- Model inference speed -->
    <td class="rank">3.19</td> <!-- ScandEval rank -->
    <td class="is-rank">2.46</td> <!-- Icelandic rank -->
@@ -464,7 +464,7 @@ title: Insular Scandinavian NLU
    <td class="num_model_parameters">163</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">12,308 ± 1,614 / 3,851 ± 1,254</td> <!-- Model inference speed -->
    <td class="rank">3.38</td> <!-- ScandEval rank -->
    <td class="is-rank">3.27</td> <!-- Icelandic rank -->
@@ -485,7 +485,7 @@ title: Insular Scandinavian NLU
    <td class="num_model_parameters">559</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">6,732 ± 1,273 / 1,633 ± 523</td> <!-- Model inference speed -->
    <td class="rank">3.40</td> <!-- ScandEval rank -->
    <td class="is-rank">2.88</td> <!-- Icelandic rank -->
@@ -506,7 +506,7 @@ title: Insular Scandinavian NLU
    <td class="num_model_parameters">354</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">6,245 ± 1,260 / 1,416 ± 453</td> <!-- Model inference speed -->
    <td class="rank">3.42</td> <!-- ScandEval rank -->
    <td class="is-rank">3.59</td> <!-- Icelandic rank -->
@@ -527,7 +527,7 @@ title: Insular Scandinavian NLU
    <td class="num_model_parameters">277</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">14,837 ± 2,928 / 3,264 ± 1,046</td> <!-- Model inference speed -->
    <td class="rank">3.44</td> <!-- ScandEval rank -->
    <td class="is-rank">2.88</td> <!-- Icelandic rank -->
@@ -548,7 +548,7 @@ title: Insular Scandinavian NLU
    <td class="num_model_parameters">103</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">23</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">15,432 ± 2,838 / 3,642 ± 1,189</td> <!-- Model inference speed -->
    <td class="rank">3.45</td> <!-- ScandEval rank -->
    <td class="is-rank">3.12</td> <!-- Icelandic rank -->
@@ -569,7 +569,7 @@ title: Insular Scandinavian NLU
    <td class="num_model_parameters">354</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">5,744 ± 969 / 1,539 ± 492</td> <!-- Model inference speed -->
    <td class="rank">3.46</td> <!-- ScandEval rank -->
    <td class="is-rank">3.02</td> <!-- Icelandic rank -->
@@ -611,7 +611,7 @@ title: Insular Scandinavian NLU
    <td class="num_model_parameters">369</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">7,138 ± 1,111 / 2,067 ± 660</td> <!-- Model inference speed -->
    <td class="rank">3.51</td> <!-- ScandEval rank -->
    <td class="is-rank">3.42</td> <!-- Icelandic rank -->
@@ -653,7 +653,7 @@ title: Insular Scandinavian NLU
    <td class="num_model_parameters">354</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">5,741 ± 987 / 1,554 ± 494</td> <!-- Model inference speed -->
    <td class="rank">3.54</td> <!-- ScandEval rank -->
    <td class="is-rank">3.17</td> <!-- Icelandic rank -->
@@ -674,7 +674,7 @@ title: Insular Scandinavian NLU
    <td class="num_model_parameters">124</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">16,227 ± 2,650 / 4,252 ± 1,393</td> <!-- Model inference speed -->
    <td class="rank">3.55</td> <!-- ScandEval rank -->
    <td class="is-rank">3.51</td> <!-- Icelandic rank -->
@@ -695,7 +695,7 @@ title: Insular Scandinavian NLU
    <td class="num_model_parameters">124</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">14,965 ± 2,550 / 3,798 ± 1,216</td> <!-- Model inference speed -->
    <td class="rank">3.56</td> <!-- ScandEval rank -->
    <td class="is-rank">3.30</td> <!-- Icelandic rank -->
@@ -716,7 +716,7 @@ title: Insular Scandinavian NLU
    <td class="num_model_parameters">167</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">106</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">13,993 ± 3,217 / 2,752 ± 893</td> <!-- Model inference speed -->
    <td class="rank">3.56</td> <!-- ScandEval rank -->
    <td class="is-rank">3.10</td> <!-- Icelandic rank -->
@@ -737,7 +737,7 @@ title: Insular Scandinavian NLU
    <td class="num_model_parameters">277</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">14,744 ± 2,870 / 3,265 ± 1,053</td> <!-- Model inference speed -->
    <td class="rank">3.57</td> <!-- ScandEval rank -->
    <td class="is-rank">3.08</td> <!-- Icelandic rank -->
@@ -779,7 +779,7 @@ title: Insular Scandinavian NLU
    <td class="num_model_parameters">124</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">15,749 ± 2,665 / 4,014 ± 1,281</td> <!-- Model inference speed -->
    <td class="rank">3.58</td> <!-- ScandEval rank -->
    <td class="is-rank">3.33</td> <!-- Icelandic rank -->
@@ -800,7 +800,7 @@ title: Insular Scandinavian NLU
    <td class="num_model_parameters">125</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">14,051 ± 3,289 / 2,704 ± 897</td> <!-- Model inference speed -->
    <td class="rank">3.60</td> <!-- ScandEval rank -->
    <td class="is-rank">3.40</td> <!-- Icelandic rank -->
@@ -821,7 +821,7 @@ title: Insular Scandinavian NLU
    <td class="num_model_parameters">124</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">15,437 ± 2,628 / 3,834 ± 1,252</td> <!-- Model inference speed -->
    <td class="rank">3.60</td> <!-- ScandEval rank -->
    <td class="is-rank">3.57</td> <!-- Icelandic rank -->
@@ -863,7 +863,7 @@ title: Insular Scandinavian NLU
    <td class="num_model_parameters">124</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">14,998 ± 2,549 / 3,833 ± 1,223</td> <!-- Model inference speed -->
    <td class="rank">3.61</td> <!-- ScandEval rank -->
    <td class="is-rank">3.25</td> <!-- Icelandic rank -->
@@ -905,7 +905,7 @@ title: Insular Scandinavian NLU
    <td class="num_model_parameters">277</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">14,918 ± 2,938 / 3,330 ± 1,088</td> <!-- Model inference speed -->
    <td class="rank">3.64</td> <!-- ScandEval rank -->
    <td class="is-rank">3.23</td> <!-- Icelandic rank -->
@@ -926,7 +926,7 @@ title: Insular Scandinavian NLU
    <td class="num_model_parameters">560</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">5,299 ± 910 / 1,415 ± 451</td> <!-- Model inference speed -->
    <td class="rank">3.65</td> <!-- ScandEval rank -->
    <td class="is-rank">3.33</td> <!-- Icelandic rank -->
@@ -968,7 +968,7 @@ title: Insular Scandinavian NLU
    <td class="num_model_parameters">177</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">120</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">15,785 ± 2,658 / 3,983 ± 1,289</td> <!-- Model inference speed -->
    <td class="rank">3.67</td> <!-- ScandEval rank -->
    <td class="is-rank">3.51</td> <!-- Icelandic rank -->
@@ -989,7 +989,7 @@ title: Insular Scandinavian NLU
    <td class="num_model_parameters">369</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">7,075 ± 1,093 / 2,057 ± 661</td> <!-- Model inference speed -->
    <td class="rank">3.67</td> <!-- ScandEval rank -->
    <td class="is-rank">3.47</td> <!-- Icelandic rank -->
@@ -1010,7 +1010,7 @@ title: Insular Scandinavian NLU
    <td class="num_model_parameters">277</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">15,040 ± 2,953 / 3,417 ± 1,100</td> <!-- Model inference speed -->
    <td class="rank">3.70</td> <!-- ScandEval rank -->
    <td class="is-rank">3.40</td> <!-- Icelandic rank -->
@@ -1031,7 +1031,7 @@ title: Insular Scandinavian NLU
    <td class="num_model_parameters">124</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">15,698 ± 2,699 / 3,891 ± 1,278</td> <!-- Model inference speed -->
    <td class="rank">3.71</td> <!-- ScandEval rank -->
    <td class="is-rank">3.57</td> <!-- Icelandic rank -->
@@ -1052,7 +1052,7 @@ title: Insular Scandinavian NLU
    <td class="num_model_parameters">124</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">16,181 ± 2,451 / 4,620 ± 1,507</td> <!-- Model inference speed -->
    <td class="rank">3.72</td> <!-- ScandEval rank -->
    <td class="is-rank">3.60</td> <!-- Icelandic rank -->
@@ -1136,7 +1136,7 @@ title: Insular Scandinavian NLU
    <td class="num_model_parameters">135</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">120</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">26,458 ± 5,992 / 5,274 ± 1,731</td> <!-- Model inference speed -->
    <td class="rank">3.77</td> <!-- ScandEval rank -->
    <td class="is-rank">3.54</td> <!-- Icelandic rank -->
@@ -1157,7 +1157,7 @@ title: Insular Scandinavian NLU
    <td class="num_model_parameters">125</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">15,004 ± 2,964 / 3,290 ± 1,092</td> <!-- Model inference speed -->
    <td class="rank">3.83</td> <!-- ScandEval rank -->
    <td class="is-rank">3.60</td> <!-- Icelandic rank -->
@@ -1178,7 +1178,7 @@ title: Insular Scandinavian NLU
    <td class="num_model_parameters">118</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">17,428 ± 3,628 / 3,529 ± 1,171</td> <!-- Model inference speed -->
    <td class="rank">3.83</td> <!-- ScandEval rank -->
    <td class="is-rank">3.66</td> <!-- Icelandic rank -->
@@ -1199,7 +1199,7 @@ title: Insular Scandinavian NLU
    <td class="num_model_parameters">124</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">13,354 ± 3,334 / 2,451 ± 777</td> <!-- Model inference speed -->
    <td class="rank">3.84</td> <!-- ScandEval rank -->
    <td class="is-rank">3.57</td> <!-- Icelandic rank -->
@@ -1220,7 +1220,7 @@ title: Insular Scandinavian NLU
    <td class="num_model_parameters">42</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">24,291 ± 4,887 / 5,096 ± 1,655</td> <!-- Model inference speed -->
    <td class="rank">3.85</td> <!-- ScandEval rank -->
    <td class="is-rank">3.65</td> <!-- Icelandic rank -->
@@ -1262,7 +1262,7 @@ title: Insular Scandinavian NLU
    <td class="num_model_parameters">116</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">40</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">15,481 ± 2,820 / 3,708 ± 1,186</td> <!-- Model inference speed -->
    <td class="rank">3.87</td> <!-- ScandEval rank -->
    <td class="is-rank">3.65</td> <!-- Icelandic rank -->
@@ -1283,7 +1283,7 @@ title: Insular Scandinavian NLU
    <td class="num_model_parameters">354</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">6,671 ± 1,380 / 1,497 ± 482</td> <!-- Model inference speed -->
    <td class="rank">3.89</td> <!-- ScandEval rank -->
    <td class="is-rank">3.59</td> <!-- Icelandic rank -->
@@ -1325,7 +1325,7 @@ title: Insular Scandinavian NLU
    <td class="num_model_parameters">109</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">31</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">16,043 ± 2,590 / 4,268 ± 1,377</td> <!-- Model inference speed -->
    <td class="rank">3.91</td> <!-- ScandEval rank -->
    <td class="is-rank">3.65</td> <!-- Icelandic rank -->
@@ -1388,7 +1388,7 @@ title: Insular Scandinavian NLU
    <td class="num_model_parameters">14</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">15,925 ± 2,281 / 4,780 ± 1,554</td> <!-- Model inference speed -->
    <td class="rank">3.96</td> <!-- ScandEval rank -->
    <td class="is-rank">3.75</td> <!-- Icelandic rank -->
@@ -1430,7 +1430,7 @@ title: Insular Scandinavian NLU
    <td class="num_model_parameters">124</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">14,491 ± 2,800 / 3,182 ± 1,026</td> <!-- Model inference speed -->
    <td class="rank">3.99</td> <!-- ScandEval rank -->
    <td class="is-rank">3.68</td> <!-- Icelandic rank -->
@@ -1493,7 +1493,7 @@ title: Insular Scandinavian NLU
    <td class="num_model_parameters">24</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">29</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">13,821 ± 2,209 / 3,547 ± 1,184</td> <!-- Model inference speed -->
    <td class="rank">4.09</td> <!-- ScandEval rank -->
    <td class="is-rank">3.97</td> <!-- Icelandic rank -->
@@ -1577,7 +1577,7 @@ title: Insular Scandinavian NLU
    <td class="num_model_parameters">125</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">15,523 ± 2,863 / 3,690 ± 1,195</td> <!-- Model inference speed -->
    <td class="rank">4.12</td> <!-- ScandEval rank -->
    <td class="is-rank">4.03</td> <!-- Icelandic rank -->
@@ -1598,7 +1598,7 @@ title: Insular Scandinavian NLU
    <td class="num_model_parameters">22</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">96</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">128</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">6,002 ± 129 / 3,832 ± 1,242</td> <!-- Model inference speed -->
    <td class="rank">4.13</td> <!-- ScandEval rank -->
    <td class="is-rank">4.21</td> <!-- Icelandic rank -->
@@ -1640,7 +1640,7 @@ title: Insular Scandinavian NLU
    <td class="num_model_parameters">14</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">128</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">5,995 ± 135 / 3,839 ± 1,247</td> <!-- Model inference speed -->
    <td class="rank">4.17</td> <!-- ScandEval rank -->
    <td class="is-rank">4.11</td> <!-- Icelandic rank -->
@@ -1661,7 +1661,7 @@ title: Insular Scandinavian NLU
    <td class="num_model_parameters">13</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">29</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">14,273 ± 2,312 / 3,555 ± 1,187</td> <!-- Model inference speed -->
    <td class="rank">4.17</td> <!-- ScandEval rank -->
    <td class="is-rank">4.03</td> <!-- Icelandic rank -->
@@ -1703,7 +1703,7 @@ title: Insular Scandinavian NLU
    <td class="num_model_parameters">124</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">16,701 ± 2,104 / 5,450 ± 1,778</td> <!-- Model inference speed -->
    <td class="rank">4.25</td> <!-- ScandEval rank -->
    <td class="is-rank">3.93</td> <!-- Icelandic rank -->
@@ -1766,7 +1766,7 @@ title: Insular Scandinavian NLU
    <td class="num_model_parameters">110</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">16,347 ± 2,191 / 5,125 ± 1,672</td> <!-- Model inference speed -->
    <td class="rank">4.39</td> <!-- ScandEval rank -->
    <td class="is-rank">4.09</td> <!-- Icelandic rank -->
@@ -1829,7 +1829,7 @@ title: Insular Scandinavian NLU
    <td class="num_model_parameters">110</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">16,091 ± 2,427 / 4,575 ± 1,485</td> <!-- Model inference speed -->
    <td class="rank">4.45</td> <!-- ScandEval rank -->
    <td class="is-rank">4.22</td> <!-- Icelandic rank -->
@@ -1850,7 +1850,7 @@ title: Insular Scandinavian NLU
    <td class="num_model_parameters">277</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">1,319 ± 94 / 656 ± 172</td> <!-- Model inference speed -->
    <td class="rank">4.48</td> <!-- ScandEval rank -->
    <td class="is-rank">4.35</td> <!-- Icelandic rank -->
@@ -1871,7 +1871,7 @@ title: Insular Scandinavian NLU
    <td class="num_model_parameters">83</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">52</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">30,013 ± 4,309 / 8,840 ± 2,859</td> <!-- Model inference speed -->
    <td class="rank">4.50</td> <!-- ScandEval rank -->
    <td class="is-rank">4.33</td> <!-- Icelandic rank -->
@@ -2081,7 +2081,7 @@ title: Insular Scandinavian NLU
    <td class="num_model_parameters">13</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">31</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">7,219 ± 712 / 3,276 ± 803</td> <!-- Model inference speed -->
    <td class="rank">4.92</td> <!-- ScandEval rank -->
    <td class="is-rank">4.46</td> <!-- Icelandic rank -->
@@ -2102,7 +2102,7 @@ title: Insular Scandinavian NLU
    <td class="num_model_parameters">112</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">33</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">16,280 ± 2,296 / 4,838 ± 1,583</td> <!-- Model inference speed -->
    <td class="rank">5.06</td> <!-- ScandEval rank -->
    <td class="is-rank">4.53</td> <!-- Icelandic rank -->
@@ -2272,6 +2272,6 @@ title: Insular Scandinavian NLU
 <div class="end-note">
   <a href="https://scandeval.com/insular-scandinavian-nlu-test.csv" target="_blank">Download as CSV</a>
   &nbsp;&nbsp;&bull;&nbsp;&nbsp;
-  <a href="javascript:void(0);" id="embed-link" data-embed="<iframe title=&quot;Insular Scandinavian NLU&quot; aria-label=&quot;Table&quot; id=&quot;datawrapper-chart-UgWP5&quot; src=&quot;https://datawrapper.dwcdn.net/UgWP5/1076/&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width: 0; min-width: 100% !important; border: none;&quot; height=&quot;400&quot; data-external=&quot;1&quot;></iframe><script type=&quot;text/javascript&quot;>!function(){&quot;use strict&quot;;window.addEventListener(&quot;message&quot;,(function(a){if(void 0!==a.data[&quot;datawrapper-height&quot;]){var e=document.querySelectorAll(&quot;iframe&quot;);for(var t in a.data[&quot;datawrapper-height&quot;])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data[&quot;datawrapper-height&quot;][t]+&quot;px&quot;;e[r].style.height=i}}}))}();
+  <a href="javascript:void(0);" id="embed-link" data-embed="<iframe title=&quot;Insular Scandinavian NLU&quot; aria-label=&quot;Table&quot; id=&quot;datawrapper-chart-UgWP5&quot; src=&quot;https://datawrapper.dwcdn.net/UgWP5/1077/&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width: 0; min-width: 100% !important; border: none;&quot; height=&quot;400&quot; data-external=&quot;1&quot;></iframe><script type=&quot;text/javascript&quot;>!function(){&quot;use strict&quot;;window.addEventListener(&quot;message&quot;,(function(a){if(void 0!==a.data[&quot;datawrapper-height&quot;]){var e=document.querySelectorAll(&quot;iframe&quot;);for(var t in a.data[&quot;datawrapper-height&quot;])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data[&quot;datawrapper-height&quot;][t]+&quot;px&quot;;e[r].style.height=i}}}))}();
 </script>">Copy embed HTML</a>
 </div>
