@@ -554,7 +554,11 @@ title: {title}
                 for model_id, row in df.iterrows()
                 if model_id not in old_df.index.values
                 or {key: val for key, val in row.to_dict().items() if "rank" not in key}
-                != {key: val for key, val in old_df.loc[model_id].to_dict().items() if "rank" not in key}
+                != {
+                    key: val
+                    for key, val in old_df.loc[model_id].to_dict().items()
+                    if "rank" not in key
+                }
             ]
         else:
             changed_model_ids = df.index.tolist()
