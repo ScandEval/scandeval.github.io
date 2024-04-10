@@ -4,7 +4,7 @@ Nexusflow/Starling-LM-7B-beta (few-shot),7242,32,8192,not-merged-model,5876,0.15
 "mlabonne/NeuralBeagle14-7B (few-shot, val)",7242,32,8192,merged-model,2549,0.38,64.81,59.6,27.06,25.22,67.31,35.84,49.13
 "mlabonne/AlphaMonarch-7B (few-shot, val)",7242,32,8192,merged-model,5340,0.5,63.36,59.8,22.98,20.96,67.58,36.08,47.99
 occiglot/occiglot-7b-de-en-instruct (few-shot),7242,32,32768,not-merged-model,1584,0.59,55.76,55.91,22.47,35.95,68.08,33.77,33.15
-alpindale/Mistral-7B-v0.2-hf (few-shot),7242,32,32768,not-merged-model,3467,0.6,55.32,52.49,24.34,31.54,69.01,34.97,29.0
+alpindale/Mistral-7B-v0.2-hf (few-shot),7242,32,32768,not-merged-model,3467,0.6,55.32,52.49,24.34,31.54,68.98,34.97,29.0
 mistralai/Mistral-7B-v0.1 (few-shot),7242,32,32768,not-merged-model,2657,0.68,55.37,54.27,23.12,31.89,68.24,35.63,26.4
 occiglot/occiglot-7b-eu5-instruct (few-shot),7242,32,32768,not-merged-model,2088,0.71,52.63,43.16,27.09,34.01,69.43,32.56,23.61
 occiglot/occiglot-7b-de-en (few-shot),7242,32,32768,not-merged-model,1992,0.72,48.11,54.96,21.57,31.49,68.88,32.39,29.84
