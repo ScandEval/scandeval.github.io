@@ -16,34 +16,8 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 
-
-def record_is_valid(record: dict) -> bool:
-    """Determine if a record is valid.
-
-    Args:
-        record:
-            The record to validate.
-
-    Returns:
-        True if the record is valid, False otherwise.
-    """
-    BANNED_VERSIONS: list[str] = ["9.3.0", "10.0.0"]
-    if record.get("version") in BANNED_VERSIONS:
-        return False
-
-    merged_model = record.get("merge", False)
-    evaluated_on_validation_split = record.get("validation_split", False)
-    openai_model = re.search(r"gpt-[34][-.0-9a-z]+", record.get("model", ""))
-    if (
-        (merged_model and not evaluated_on_validation_split)
-        or (not merged_model and evaluated_on_validation_split and not openai_model)
-    ):
-        return False
-
-    return True
-
-
 MERGE_CACHE: dict[str, bool] = dict()
+COMMERCIALLY_LICENSED_CACHE: dict[str, bool] = dict()
 
 
 @click.command()
@@ -70,7 +44,16 @@ def main(filename: str) -> None:
                     return
     num_raw_records = len(records)
 
-    # Add missing entries
+    # Build caches
+    global MERGE_CACHE
+    global COMMERCIALLY_LICENSED_CACHE
+    for record in tqdm(records, desc="Building caches"):
+        model_id = record["model"].split("@")[0]
+        if "merge" in record:
+            MERGE_CACHE[model_id] = record["merge"]
+        if "commercially_licensed" in record:
+            COMMERCIALLY_LICENSED_CACHE[model_id] = record["commercially_licensed"]
+
     records = [
         add_missing_entries(record=record)
         for record in tqdm(records, desc="Adding missing entries")
@@ -109,17 +92,17 @@ def main(filename: str) -> None:
     if num_duplicates:
         logger.info(f"Removed {num_duplicates:,} duplicates from {filename}.")
 
-    # Write new records to file
     with Path(filename).open(mode="w") as f:
         for record in records:
             f.write(json.dumps(record) + "\n")
 
-    records_without_merge = list()
+    records_without_extras = list()
     for record in records:
         record.pop("merge")
-        records_without_merge.append(record)
-    with Path(filename).with_suffix(".no_merge.jsonl").open(mode="w") as f:
-        for record in records_without_merge:
+        record.pop("commercially_licensed")
+        records_without_extras.append(record)
+    with Path(filename).with_suffix(".no_extras.jsonl").open(mode="w") as f:
+        for record in records_without_extras:
             f.write(json.dumps(record) + "\n")
 
 
@@ -139,9 +122,46 @@ def add_missing_entries(record: dict) -> dict:
         record["few_shot"] = True
     if "generative" not in record:
         record["generative"] = False
-    if "merge" not in record:
-        record["merge"] = is_merge(model_id=record["model"])
+    record["merge"] = is_merge(record=record)
+    record["commercially_licensed"] = is_commercially_licensed(record=record)
     return record
+
+
+def is_commercially_licensed(record: dict) -> bool:
+    """Asks if a model is commercially licensed.
+
+    Args:
+        record:
+            A record from the JSONL file.
+
+    Returns:
+        Whether the model is commercially licensed.
+    """
+    global COMMERCIALLY_LICENSED_CACHE
+
+    # Remove revisions from model ID
+    model_id = record["model"].split("@")[0]
+
+    # Assume that non-generative models are always commercially licensed
+    if not record.get("generative", True):
+        COMMERCIALLY_LICENSED_CACHE[model_id] = True
+
+    while True:
+        if model_id in COMMERCIALLY_LICENSED_CACHE:
+            return COMMERCIALLY_LICENSED_CACHE[model_id]
+
+        msg = f"Is {model_id!r} commercially licensed?"
+        if "/" in model_id:
+            msg += f" (https://huggingface.co/{model_id})"
+        msg += " [y/n] "
+        user_input = input(msg)
+        if user_input.lower() in {"y", "yes"}:
+            COMMERCIALLY_LICENSED_CACHE[model_id] = True
+        elif user_input.lower() in {"n", "no"}:
+            COMMERCIALLY_LICENSED_CACHE[model_id] = False
+        else:
+            print("Invalid input. Please try again.")
+            continue
 
 
 def get_hash(record: dict) -> str:
@@ -162,18 +182,18 @@ def get_hash(record: dict) -> str:
     return f"{model}{dataset}{validation_split}{few_shot * generative}"
 
 
-def is_merge(model_id: str) -> bool:
-    """Returns True if the model is a merge model, False otherwise.
+def is_merge(record: dict) -> bool:
+    """Determines if a model is a merged model.
 
     Args:
-        model_id:
-            The model ID.
+        record:
+            A record from the JSONL file.
 
     Returns:
-        True if the model is a merge model, False otherwise.
+        Whether the model is a merged model.
     """
     # Remove revisions from model ID
-    model_id = model_id.split("@")[0]
+    model_id = record["model"].split("@")[0]
 
     # Return cached value if available
     global MERGE_CACHE
@@ -202,6 +222,32 @@ def is_merge(model_id: str) -> bool:
     has_merge_tag = any(tag in model_info.tags for tag in merge_tags)
     MERGE_CACHE[model_id] = has_merge_tag
     return has_merge_tag
+
+
+def record_is_valid(record: dict) -> bool:
+    """Determine if a record is valid.
+
+    Args:
+        record:
+            The record to validate.
+
+    Returns:
+        True if the record is valid, False otherwise.
+    """
+    BANNED_VERSIONS: list[str] = ["9.3.0", "10.0.0"]
+    if record.get("version") in BANNED_VERSIONS:
+        return False
+
+    merged_model = record.get("merge", False)
+    evaluated_on_validation_split = record.get("validation_split", False)
+    openai_model = re.search(r"gpt-[34][-.0-9a-z]+", record.get("model", ""))
+    if (
+        (merged_model and not evaluated_on_validation_split)
+        or (not merged_model and evaluated_on_validation_split and not openai_model)
+    ):
+        return False
+
+    return True
 
 
 if __name__ == "__main__":

@@ -126,6 +126,7 @@ title: {title}
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Number of parameters in the model, in millions">Parameters</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Number of unique tokens that the model has been trained on, in thousands">Vocabulary size</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="The maximum amount of tokens the model can process">Context</span></th>
+   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Whether the model can be used commercially">Commercial</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Number of tokens processed per second / Number of tokens processed in small documents per second">Speed</span></th>
 
    <th id="rank-col"><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="1 + the average number of standard deviations away from the best model">Rank</span></th>
@@ -178,7 +179,8 @@ title: {title}
    <td>{model_id}</td> <!-- Model ID -->
    <td class="num_model_parameters">{num_model_parameters}</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">{vocabulary_size}</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">{max_sequence_length}</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">{max_sequence_length}</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">{commercially_licensed}</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">{speed}</td> <!-- Model inference speed -->
    <td class="rank">{rank}</td> <!-- ScandEval rank -->"""
 
@@ -345,6 +347,7 @@ title: {title}
             "num_model_parameters",
             "vocabulary_size",
             "max_sequence_length",
+            "commercially_licensed",
         ]:
             if metadata not in model_scores[model_id] and metadata in record:
                 record_metadata = str(record[metadata])
@@ -368,6 +371,7 @@ title: {title}
             num_model_parameters=model_dict.get("num_model_parameters", [""])[0],
             vocabulary_size=model_dict.get("vocabulary_size", [""])[0],
             max_sequence_length=model_dict.get("max_sequence_length", [""])[0],
+            commercially_licensed=model_dict.get("commercially_licensed", [""])[0],
             speed=model_dict.get("speed", [""])[0],
         )
 

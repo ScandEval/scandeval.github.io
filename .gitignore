@@ -2,5 +2,5 @@
 .ipynb_checkpoints/
 iframe_figures/
 __pycache__/
-*.no_merge.jsonl
+*.no_extras.jsonl
 .env
