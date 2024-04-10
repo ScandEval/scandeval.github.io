@@ -3,7 +3,7 @@ layout: leaderboard
 title: Mainland Scandinavian NLU
 ---
 
-<center>Last updated: 10/04/2024 13:38:26 CET</center>
+<center>Last updated: 10/04/2024 15:08:09 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -18,6 +18,7 @@ title: Mainland Scandinavian NLU
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Number of parameters in the model, in millions">Parameters</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Number of unique tokens that the model has been trained on, in thousands">Vocabulary size</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="The maximum amount of tokens the model can process">Context</span></th>
+   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Whether the model can be used commercially">Commercial</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Number of tokens processed per second / Number of tokens processed in small documents per second">Speed</span></th>
 
    <th id="rank-col"><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="1 + the average number of standard deviations away from the best model">Rank</span></th>
@@ -61,7 +62,8 @@ title: Mainland Scandinavian NLU
    <td>AI-Sweden-Models/roberta-large-1160k</td> <!-- Model ID -->
    <td class="num_model_parameters">355</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">5,741 ± 987 / 1,554 ± 494</td> <!-- Model inference speed -->
    <td class="rank">1.29</td> <!-- ScandEval rank -->
    <td class="da-rank">1.31</td> <!-- Danish rank -->
@@ -100,7 +102,8 @@ title: Mainland Scandinavian NLU
    <td>gpt-4-0613 (few-shot, val)</td> <!-- Model ID -->
    <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">100</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">597 ± 197 / 93 ± 33</td> <!-- Model inference speed -->
    <td class="rank">1.29</td> <!-- ScandEval rank -->
    <td class="da-rank">1.30</td> <!-- Danish rank -->
@@ -139,7 +142,8 @@ title: Mainland Scandinavian NLU
    <td>ltg/norbert3-large</td> <!-- Model ID -->
    <td class="num_model_parameters">354</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">508</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">508</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">5,048 ± 824 / 1,354 ± 429</td> <!-- Model inference speed -->
    <td class="rank">1.31</td> <!-- ScandEval rank -->
    <td class="da-rank">1.42</td> <!-- Danish rank -->
@@ -178,7 +182,8 @@ title: Mainland Scandinavian NLU
    <td>AI-Sweden-Models/roberta-large-1350k</td> <!-- Model ID -->
    <td class="num_model_parameters">355</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">5,744 ± 969 / 1,539 ± 492</td> <!-- Model inference speed -->
    <td class="rank">1.32</td> <!-- ScandEval rank -->
    <td class="da-rank">1.37</td> <!-- Danish rank -->
@@ -217,7 +222,8 @@ title: Mainland Scandinavian NLU
    <td>danish-foundation-models/encoder-large-v1</td> <!-- Model ID -->
    <td class="num_model_parameters">355</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">6,671 ± 1,380 / 1,497 ± 482</td> <!-- Model inference speed -->
    <td class="rank">1.45</td> <!-- ScandEval rank -->
    <td class="da-rank">1.30</td> <!-- Danish rank -->
@@ -256,7 +262,8 @@ title: Mainland Scandinavian NLU
    <td>KennethEnevoldsen/dfm-sentence-encoder-large-1</td> <!-- Model ID -->
    <td class="num_model_parameters">355</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">6,245 ± 1,260 / 1,416 ± 453</td> <!-- Model inference speed -->
    <td class="rank">1.46</td> <!-- ScandEval rank -->
    <td class="da-rank">1.31</td> <!-- Danish rank -->
@@ -295,7 +302,8 @@ title: Mainland Scandinavian NLU
    <td>KennethEnevoldsen/dfm-sentence-encoder-large-2</td> <!-- Model ID -->
    <td class="num_model_parameters">355</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">6,569 ± 1,320 / 1,492 ± 476</td> <!-- Model inference speed -->
    <td class="rank">1.49</td> <!-- ScandEval rank -->
    <td class="da-rank">1.31</td> <!-- Danish rank -->
@@ -334,7 +342,8 @@ title: Mainland Scandinavian NLU
    <td>google/rembert</td> <!-- Model ID -->
    <td class="num_model_parameters">576</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">256</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">256</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">3,355 ± 475 / 1,002 ± 312</td> <!-- Model inference speed -->
    <td class="rank">1.51</td> <!-- ScandEval rank -->
    <td class="da-rank">1.54</td> <!-- Danish rank -->
@@ -373,7 +382,8 @@ title: Mainland Scandinavian NLU
    <td>intfloat/multilingual-e5-large</td> <!-- Model ID -->
    <td class="num_model_parameters">560</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">6,732 ± 1,273 / 1,633 ± 523</td> <!-- Model inference speed -->
    <td class="rank">1.54</td> <!-- ScandEval rank -->
    <td class="da-rank">1.55</td> <!-- Danish rank -->
@@ -412,7 +422,8 @@ title: Mainland Scandinavian NLU
    <td>NbAiLab/nb-roberta-base-scandi</td> <!-- Model ID -->
    <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">15,079 ± 2,948 / 3,359 ± 1,091</td> <!-- Model inference speed -->
    <td class="rank">1.58</td> <!-- ScandEval rank -->
    <td class="da-rank">1.63</td> <!-- Danish rank -->
@@ -451,7 +462,8 @@ title: Mainland Scandinavian NLU
    <td>microsoft/mdeberta-v3-base</td> <!-- Model ID -->
    <td class="num_model_parameters">279</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">251</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">9,237 ± 1,562 / 2,258 ± 742</td> <!-- Model inference speed -->
    <td class="rank">1.58</td> <!-- ScandEval rank -->
    <td class="da-rank">1.68</td> <!-- Danish rank -->
@@ -490,7 +502,8 @@ title: Mainland Scandinavian NLU
    <td>NbAiLab/nb-roberta-base-scandi-1e4</td> <!-- Model ID -->
    <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">15,074 ± 2,990 / 3,347 ± 1,080</td> <!-- Model inference speed -->
    <td class="rank">1.61</td> <!-- ScandEval rank -->
    <td class="da-rank">1.73</td> <!-- Danish rank -->
@@ -529,7 +542,8 @@ title: Mainland Scandinavian NLU
    <td>ltg/norbert3-base</td> <!-- Model ID -->
    <td class="num_model_parameters">124</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">508</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">508</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">11,405 ± 1,970 / 2,856 ± 917</td> <!-- Model inference speed -->
    <td class="rank">1.61</td> <!-- ScandEval rank -->
    <td class="da-rank">1.82</td> <!-- Danish rank -->
@@ -568,7 +582,8 @@ title: Mainland Scandinavian NLU
    <td>sentence-transformers/use-cmlm-multilingual</td> <!-- Model ID -->
    <td class="num_model_parameters">471</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">501</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">13,305 ± 3,306 / 2,414 ± 780</td> <!-- Model inference speed -->
    <td class="rank">1.63</td> <!-- ScandEval rank -->
    <td class="da-rank">1.76</td> <!-- Danish rank -->
@@ -607,7 +622,8 @@ title: Mainland Scandinavian NLU
    <td>FacebookAI/xlm-roberta-large</td> <!-- Model ID -->
    <td class="num_model_parameters">560</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">6,663 ± 1,248 / 1,619 ± 516</td> <!-- Model inference speed -->
    <td class="rank">1.64</td> <!-- ScandEval rank -->
    <td class="da-rank">1.64</td> <!-- Danish rank -->
@@ -646,7 +662,8 @@ title: Mainland Scandinavian NLU
    <td>KennethEnevoldsen/dfm-sentence-encoder-medium-3</td> <!-- Model ID -->
    <td class="num_model_parameters">178</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">120</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">14,050 ± 3,278 / 2,749 ± 894</td> <!-- Model inference speed -->
    <td class="rank">1.65</td> <!-- ScandEval rank -->
    <td class="da-rank">1.65</td> <!-- Danish rank -->
@@ -685,7 +702,8 @@ title: Mainland Scandinavian NLU
    <td>vesteinn/ScandiBERT-no-faroese</td> <!-- Model ID -->
    <td class="num_model_parameters">124</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">15,436 ± 2,820 / 3,704 ± 1,187</td> <!-- Model inference speed -->
    <td class="rank">1.66</td> <!-- ScandEval rank -->
    <td class="da-rank">1.77</td> <!-- Danish rank -->
@@ -724,7 +742,8 @@ title: Mainland Scandinavian NLU
    <td>NbAiLab/nb-bert-base</td> <!-- Model ID -->
    <td class="num_model_parameters">178</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">120</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">14,050 ± 3,222 / 2,727 ± 886</td> <!-- Model inference speed -->
    <td class="rank">1.68</td> <!-- ScandEval rank -->
    <td class="da-rank">1.73</td> <!-- Danish rank -->
@@ -763,7 +782,8 @@ title: Mainland Scandinavian NLU
    <td>gpt-3.5-turbo-0613 (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">100</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">837 ± 294 / 126 ± 43</td> <!-- Model inference speed -->
    <td class="rank">1.70</td> <!-- ScandEval rank -->
    <td class="da-rank">1.59</td> <!-- Danish rank -->
@@ -802,7 +822,8 @@ title: Mainland Scandinavian NLU
    <td>gpt-3.5-turbo-0613 (few-shot, val)</td> <!-- Model ID -->
    <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">100</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">4095</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">4095</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">921 ± 293 / 113 ± 37</td> <!-- Model inference speed -->
    <td class="rank">1.71</td> <!-- ScandEval rank -->
    <td class="da-rank">1.66</td> <!-- Danish rank -->
@@ -841,7 +862,8 @@ title: Mainland Scandinavian NLU
    <td>vesteinn/FoBERT</td> <!-- Model ID -->
    <td class="num_model_parameters">124</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">15,623 ± 2,828 / 3,737 ± 1,191</td> <!-- Model inference speed -->
    <td class="rank">1.71</td> <!-- ScandEval rank -->
    <td class="da-rank">1.76</td> <!-- Danish rank -->
@@ -880,7 +902,8 @@ title: Mainland Scandinavian NLU
    <td>pere/roberta-debug-8</td> <!-- Model ID -->
    <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">15,103 ± 2,954 / 3,356 ± 1,090</td> <!-- Model inference speed -->
    <td class="rank">1.72</td> <!-- ScandEval rank -->
    <td class="da-rank">1.76</td> <!-- Danish rank -->
@@ -919,7 +942,8 @@ title: Mainland Scandinavian NLU
    <td>pere/roberta-base-exp-8</td> <!-- Model ID -->
    <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">15,112 ± 2,969 / 3,347 ± 1,093</td> <!-- Model inference speed -->
    <td class="rank">1.73</td> <!-- ScandEval rank -->
    <td class="da-rank">1.80</td> <!-- Danish rank -->
@@ -958,7 +982,8 @@ title: Mainland Scandinavian NLU
    <td>setu4993/LaBSE</td> <!-- Model ID -->
    <td class="num_model_parameters">471</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">501</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">13,386 ± 3,349 / 2,435 ± 787</td> <!-- Model inference speed -->
    <td class="rank">1.73</td> <!-- ScandEval rank -->
    <td class="da-rank">1.77</td> <!-- Danish rank -->
@@ -997,7 +1022,8 @@ title: Mainland Scandinavian NLU
    <td>pere/roberta-debug-32</td> <!-- Model ID -->
    <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">14,958 ± 2,903 / 3,331 ± 1,077</td> <!-- Model inference speed -->
    <td class="rank">1.78</td> <!-- ScandEval rank -->
    <td class="da-rank">1.79</td> <!-- Danish rank -->
@@ -1036,7 +1062,8 @@ title: Mainland Scandinavian NLU
    <td>pere/roberta-base-exp-32</td> <!-- Model ID -->
    <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">15,081 ± 2,950 / 3,365 ± 1,092</td> <!-- Model inference speed -->
    <td class="rank">1.79</td> <!-- ScandEval rank -->
    <td class="da-rank">1.93</td> <!-- Danish rank -->
@@ -1075,7 +1102,8 @@ title: Mainland Scandinavian NLU
    <td>AI-Sweden-Models/bert-large-nordic-pile-1M-steps</td> <!-- Model ID -->
    <td class="num_model_parameters">369</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">6,571 ± 1,331 / 1,493 ± 479</td> <!-- Model inference speed -->
    <td class="rank">1.89</td> <!-- ScandEval rank -->
    <td class="da-rank">2.07</td> <!-- Danish rank -->
@@ -1114,7 +1142,8 @@ title: Mainland Scandinavian NLU
    <td>pere/roberta-base-exp-32B</td> <!-- Model ID -->
    <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">15,103 ± 2,982 / 3,357 ± 1,081</td> <!-- Model inference speed -->
    <td class="rank">1.94</td> <!-- ScandEval rank -->
    <td class="da-rank">1.91</td> <!-- Danish rank -->
@@ -1153,7 +1182,8 @@ title: Mainland Scandinavian NLU
    <td>vesteinn/DanskBERT</td> <!-- Model ID -->
    <td class="num_model_parameters">124</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">15,749 ± 2,665 / 4,014 ± 1,281</td> <!-- Model inference speed -->
    <td class="rank">1.96</td> <!-- ScandEval rank -->
    <td class="da-rank">1.49</td> <!-- Danish rank -->
@@ -1192,7 +1222,8 @@ title: Mainland Scandinavian NLU
    <td>Nexusflow/Starling-LM-7B-beta (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">5,876 ± 1,021 / 1,677 ± 546</td> <!-- Model inference speed -->
    <td class="rank">2.01</td> <!-- ScandEval rank -->
    <td class="da-rank">1.90</td> <!-- Danish rank -->
@@ -1231,7 +1262,8 @@ title: Mainland Scandinavian NLU
    <td>ltg/norbert3-small</td> <!-- Model ID -->
    <td class="num_model_parameters">41</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">508</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">508</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">13,515 ± 2,514 / 3,042 ± 1,004</td> <!-- Model inference speed -->
    <td class="rank">2.01</td> <!-- ScandEval rank -->
    <td class="da-rank">2.12</td> <!-- Danish rank -->
@@ -1270,7 +1302,8 @@ title: Mainland Scandinavian NLU
    <td>KBLab/megatron-bert-large-swedish-cased-165k</td> <!-- Model ID -->
    <td class="num_model_parameters">370</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">7,138 ± 1,111 / 2,067 ± 660</td> <!-- Model inference speed -->
    <td class="rank">2.03</td> <!-- ScandEval rank -->
    <td class="da-rank">2.31</td> <!-- Danish rank -->
@@ -1309,7 +1342,8 @@ title: Mainland Scandinavian NLU
    <td>RJuro/munin-neuralbeagle-7b (few-shot, val)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,493 ± 466 / 773 ± 243</td> <!-- Model inference speed -->
    <td class="rank">2.09</td> <!-- ScandEval rank -->
    <td class="da-rank">1.95</td> <!-- Danish rank -->
@@ -1348,7 +1382,8 @@ title: Mainland Scandinavian NLU
    <td>cardiffnlp/twitter-xlm-roberta-base</td> <!-- Model ID -->
    <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">14,837 ± 2,928 / 3,264 ± 1,046</td> <!-- Model inference speed -->
    <td class="rank">2.09</td> <!-- ScandEval rank -->
    <td class="da-rank">2.11</td> <!-- Danish rank -->
@@ -1387,7 +1422,8 @@ title: Mainland Scandinavian NLU
    <td>AI-Nordics/bert-large-swedish-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">335</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">31</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">7,199 ± 1,139 / 2,051 ± 651</td> <!-- Model inference speed -->
    <td class="rank">2.11</td> <!-- ScandEval rank -->
    <td class="da-rank">2.39</td> <!-- Danish rank -->
@@ -1426,7 +1462,8 @@ title: Mainland Scandinavian NLU
    <td>KBLab/megatron-bert-large-swedish-cased-110k</td> <!-- Model ID -->
    <td class="num_model_parameters">370</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">7,075 ± 1,093 / 2,057 ± 661</td> <!-- Model inference speed -->
    <td class="rank">2.11</td> <!-- ScandEval rank -->
    <td class="da-rank">2.38</td> <!-- Danish rank -->
@@ -1465,7 +1502,8 @@ title: Mainland Scandinavian NLU
    <td>timpal0l/BeagleCatMunin (few-shot, val)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,495 ± 458 / 775 ± 244</td> <!-- Model inference speed -->
    <td class="rank">2.16</td> <!-- ScandEval rank -->
    <td class="da-rank">2.03</td> <!-- Danish rank -->
@@ -1504,7 +1542,8 @@ title: Mainland Scandinavian NLU
    <td>merge-crew/da-sv-dare-ties-density-0.9 (few-shot, val)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,443 ± 458 / 750 ± 240</td> <!-- Model inference speed -->
    <td class="rank">2.18</td> <!-- ScandEval rank -->
    <td class="da-rank">2.08</td> <!-- Danish rank -->
@@ -1543,7 +1582,8 @@ title: Mainland Scandinavian NLU
    <td>merge-crew/da-sv-slerp (few-shot, val)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,467 ± 469 / 762 ± 244</td> <!-- Model inference speed -->
    <td class="rank">2.18</td> <!-- ScandEval rank -->
    <td class="da-rank">2.01</td> <!-- Danish rank -->
@@ -1582,7 +1622,8 @@ title: Mainland Scandinavian NLU
    <td>mhenrichsen/danskgpt-chat-v2.1 (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">5,085 ± 998 / 1,306 ± 404</td> <!-- Model inference speed -->
    <td class="rank">2.18</td> <!-- ScandEval rank -->
    <td class="da-rank">1.89</td> <!-- Danish rank -->
@@ -1621,7 +1662,8 @@ title: Mainland Scandinavian NLU
    <td>merge-crew/da-sv-task-arithmetic (few-shot, val)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,500 ± 469 / 762 ± 238</td> <!-- Model inference speed -->
    <td class="rank">2.19</td> <!-- ScandEval rank -->
    <td class="da-rank">2.01</td> <!-- Danish rank -->
@@ -1660,7 +1702,8 @@ title: Mainland Scandinavian NLU
    <td>google-bert/bert-base-multilingual-uncased</td> <!-- Model ID -->
    <td class="num_model_parameters">167</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">106</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">13,993 ± 3,217 / 2,752 ± 893</td> <!-- Model inference speed -->
    <td class="rank">2.20</td> <!-- ScandEval rank -->
    <td class="da-rank">2.26</td> <!-- Danish rank -->
@@ -1699,7 +1742,8 @@ title: Mainland Scandinavian NLU
    <td>microsoft/infoxlm-large</td> <!-- Model ID -->
    <td class="num_model_parameters">560</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">6,696 ± 1,260 / 1,630 ± 515</td> <!-- Model inference speed -->
    <td class="rank">2.20</td> <!-- ScandEval rank -->
    <td class="da-rank">2.25</td> <!-- Danish rank -->
@@ -1738,7 +1782,8 @@ title: Mainland Scandinavian NLU
    <td>birgermoell/Flashback-Bellman (few-shot, val)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,887 ± 403 / 1,144 ± 345</td> <!-- Model inference speed -->
    <td class="rank">2.21</td> <!-- ScandEval rank -->
    <td class="da-rank">2.09</td> <!-- Danish rank -->
@@ -1777,7 +1822,8 @@ title: Mainland Scandinavian NLU
    <td>Geotrend/bert-base-en-fr-de-no-da-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">118</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">42</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">13,973 ± 3,205 / 2,725 ± 884</td> <!-- Model inference speed -->
    <td class="rank">2.22</td> <!-- ScandEval rank -->
    <td class="da-rank">2.19</td> <!-- Danish rank -->
@@ -1816,7 +1862,8 @@ title: Mainland Scandinavian NLU
    <td>KB/bert-base-swedish-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">125</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">16,181 ± 2,451 / 4,620 ± 1,507</td> <!-- Model inference speed -->
    <td class="rank">2.22</td> <!-- ScandEval rank -->
    <td class="da-rank">2.54</td> <!-- Danish rank -->
@@ -1855,7 +1902,8 @@ title: Mainland Scandinavian NLU
    <td>Mabeck/Heidrun-Mistral-7B-chat (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">5,822 ± 1,283 / 1,336 ± 430</td> <!-- Model inference speed -->
    <td class="rank">2.22</td> <!-- ScandEval rank -->
    <td class="da-rank">2.15</td> <!-- Danish rank -->
@@ -1894,7 +1942,8 @@ title: Mainland Scandinavian NLU
    <td>birgermoell/BeagleCatMunin-Flashback-Bellman (few-shot, val)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,890 ± 401 / 1,155 ± 348</td> <!-- Model inference speed -->
    <td class="rank">2.22</td> <!-- ScandEval rank -->
    <td class="da-rank">2.02</td> <!-- Danish rank -->
@@ -1933,7 +1982,8 @@ title: Mainland Scandinavian NLU
    <td>birgermoell/Rapid-Cycling (few-shot, val)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,346 ± 450 / 666 ± 249</td> <!-- Model inference speed -->
    <td class="rank">2.22</td> <!-- ScandEval rank -->
    <td class="da-rank">2.06</td> <!-- Danish rank -->
@@ -1972,7 +2022,8 @@ title: Mainland Scandinavian NLU
    <td>Geotrend/bert-base-25lang-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">151</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">85</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">13,908 ± 3,201 / 2,700 ± 872</td> <!-- Model inference speed -->
    <td class="rank">2.23</td> <!-- ScandEval rank -->
    <td class="da-rank">2.38</td> <!-- Danish rank -->
@@ -2011,7 +2062,8 @@ title: Mainland Scandinavian NLU
    <td>KBLab/bert-base-swedish-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">125</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">16,164 ± 2,392 / 4,574 ± 1,478</td> <!-- Model inference speed -->
    <td class="rank">2.23</td> <!-- ScandEval rank -->
    <td class="da-rank">2.54</td> <!-- Danish rank -->
@@ -2050,7 +2102,8 @@ title: Mainland Scandinavian NLU
    <td>KBLab/megatron-bert-base-swedish-cased-600k</td> <!-- Model ID -->
    <td class="num_model_parameters">135</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">15,726 ± 2,508 / 4,234 ± 1,365</td> <!-- Model inference speed -->
    <td class="rank">2.23</td> <!-- ScandEval rank -->
    <td class="da-rank">2.55</td> <!-- Danish rank -->
@@ -2089,7 +2142,8 @@ title: Mainland Scandinavian NLU
    <td>timpal0l/BeagleCatMunin2 (few-shot, val)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,477 ± 459 / 767 ± 241</td> <!-- Model inference speed -->
    <td class="rank">2.23</td> <!-- ScandEval rank -->
    <td class="da-rank">2.17</td> <!-- Danish rank -->
@@ -2128,7 +2182,8 @@ title: Mainland Scandinavian NLU
    <td>Geotrend/bert-base-en-no-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">111</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">33</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">14,081 ± 3,231 / 2,748 ± 891</td> <!-- Model inference speed -->
    <td class="rank">2.24</td> <!-- ScandEval rank -->
    <td class="da-rank">2.26</td> <!-- Danish rank -->
@@ -2167,7 +2222,8 @@ title: Mainland Scandinavian NLU
    <td>google-bert/bert-base-multilingual-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">178</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">120</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">14,083 ± 3,264 / 2,738 ± 889</td> <!-- Model inference speed -->
    <td class="rank">2.24</td> <!-- ScandEval rank -->
    <td class="da-rank">2.43</td> <!-- Danish rank -->
@@ -2206,7 +2262,8 @@ title: Mainland Scandinavian NLU
    <td>mlabonne/NeuralBeagle14-7B (few-shot, val)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,549 ± 472 / 784 ± 245</td> <!-- Model inference speed -->
    <td class="rank">2.24</td> <!-- ScandEval rank -->
    <td class="da-rank">2.10</td> <!-- Danish rank -->
@@ -2245,7 +2302,8 @@ title: Mainland Scandinavian NLU
    <td>merge-crew/da-sv-ties (few-shot, val)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,457 ± 451 / 757 ± 237</td> <!-- Model inference speed -->
    <td class="rank">2.26</td> <!-- ScandEval rank -->
    <td class="da-rank">2.13</td> <!-- Danish rank -->
@@ -2284,7 +2342,8 @@ title: Mainland Scandinavian NLU
    <td>microsoft/xlm-align-base</td> <!-- Model ID -->
    <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">14,744 ± 2,870 / 3,265 ± 1,053</td> <!-- Model inference speed -->
    <td class="rank">2.27</td> <!-- ScandEval rank -->
    <td class="da-rank">2.37</td> <!-- Danish rank -->
@@ -2323,7 +2382,8 @@ title: Mainland Scandinavian NLU
    <td>birgermoell/Munin-NeuralBeagle-NorskGPT (few-shot, val)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,903 ± 407 / 1,157 ± 350</td> <!-- Model inference speed -->
    <td class="rank">2.28</td> <!-- ScandEval rank -->
    <td class="da-rank">2.38</td> <!-- Danish rank -->
@@ -2362,7 +2422,8 @@ title: Mainland Scandinavian NLU
    <td>birgermoell/WestLake-Munin-Cat-NorskGPT (few-shot, val)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,856 ± 391 / 1,142 ± 342</td> <!-- Model inference speed -->
    <td class="rank">2.28</td> <!-- ScandEval rank -->
    <td class="da-rank">2.38</td> <!-- Danish rank -->
@@ -2401,7 +2462,8 @@ title: Mainland Scandinavian NLU
    <td>facebook/xlm-v-base</td> <!-- Model ID -->
    <td class="num_model_parameters">778</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">902</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">13,135 ± 3,232 / 2,442 ± 778</td> <!-- Model inference speed -->
    <td class="rank">2.28</td> <!-- ScandEval rank -->
    <td class="da-rank">2.18</td> <!-- Danish rank -->
@@ -2440,7 +2502,8 @@ title: Mainland Scandinavian NLU
    <td>merge-crew/da-sv-dare-ties-density-0.6 (few-shot, val)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,515 ± 465 / 785 ± 247</td> <!-- Model inference speed -->
    <td class="rank">2.29</td> <!-- ScandEval rank -->
    <td class="da-rank">2.23</td> <!-- Danish rank -->
@@ -2479,7 +2542,8 @@ title: Mainland Scandinavian NLU
    <td>timpal0l/njord-alpha (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">5,419 ± 1,274 / 1,133 ± 363</td> <!-- Model inference speed -->
    <td class="rank">2.29</td> <!-- ScandEval rank -->
    <td class="da-rank">2.27</td> <!-- Danish rank -->
@@ -2518,7 +2582,8 @@ title: Mainland Scandinavian NLU
    <td>timpal0l/tyr (few-shot, val)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">6,079 ± 1,051 / 1,760 ± 570</td> <!-- Model inference speed -->
    <td class="rank">2.29</td> <!-- ScandEval rank -->
    <td class="da-rank">2.20</td> <!-- Danish rank -->
@@ -2557,7 +2622,8 @@ title: Mainland Scandinavian NLU
    <td>Geotrend/bert-base-en-da-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">111</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">33</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">14,062 ± 3,216 / 2,733 ± 885</td> <!-- Model inference speed -->
    <td class="rank">2.30</td> <!-- ScandEval rank -->
    <td class="da-rank">2.35</td> <!-- Danish rank -->
@@ -2596,7 +2662,8 @@ title: Mainland Scandinavian NLU
    <td>KennethEnevoldsen/munin_mistral-7b (few-shot, val)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,543 ± 466 / 787 ± 247</td> <!-- Model inference speed -->
    <td class="rank">2.30</td> <!-- ScandEval rank -->
    <td class="da-rank">2.27</td> <!-- Danish rank -->
@@ -2635,7 +2702,8 @@ title: Mainland Scandinavian NLU
    <td>RJuro/munin-neuralbeagle-SkoleGPTOpenOrca-7b (few-shot, val)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">3,008 ± 429 / 991 ± 323</td> <!-- Model inference speed -->
    <td class="rank">2.30</td> <!-- ScandEval rank -->
    <td class="da-rank">2.18</td> <!-- Danish rank -->
@@ -2644,37 +2712,38 @@ title: Mainland Scandinavian NLU
    <td class="da ner">50.83 ± 2.28 / 36.96 ± 2.58</td> <!-- DANSK -->
    <td class="da sent">43.41 ± 2.56 / 48.74 ± 2.83</td> <!-- Angry Tweets -->
    <td class="da la">19.72 ± 4.69 / 52.71 ± 5.26</td> <!-- ScaLA-da -->
-   <td class="da qa">57.88 ± 2.44 / 64.46 ± 1.86</td> <!-- ScandiQA-da -->
+   <td class="da qa">57.87 ± 2.32 / 64.53 ± 1.73</td> <!-- ScandiQA-da -->
    <td class="no ner">53.68 ± 2.01 / 49.22 ± 2.67</td> <!-- NorNE-nb -->
    <td class="no ner">61.92 ± 4.06 / 49.03 ± 3.97</td> <!-- NorNE-nn -->
    <td class="no sent">47.78 ± 3.19 / 57.76 ± 2.55</td> <!-- NoReC -->
    <td class="no la">0.91 ± 1.78 / 33.51 ± 0.85</td> <!-- ScaLA-nb -->
    <td class="no la">1.24 ± 1.66 / 33.71 ± 0.94</td> <!-- ScaLA-nn -->
-   <td class="no qa">47.95 ± 2.91 / 71.02 ± 2.28</td> <!-- NorQuAD -->
+   <td class="no qa">47.76 ± 2.93 / 70.99 ± 2.39</td> <!-- NorQuAD -->
    <td class="sv ner">59.36 ± 2.75 / 47.08 ± 4.17</td> <!-- SUC3 -->
    <td class="sv sent">72.04 ± 3.27 / 63.83 ± 2.07</td> <!-- SweReC -->
    <td class="sv la">22.38 ± 7.17 / 54.70 ± 5.49</td> <!-- ScaLA-sv -->
-   <td class="sv qa">58.03 ± 1.95 / 64.06 ± 1.75</td> <!-- ScandiQA-sv -->
+   <td class="sv qa">57.96 ± 2.00 / 64.06 ± 1.76</td> <!-- ScandiQA-sv -->
    <td>9.3.2</td> <!-- DANSK version -->
    <td>9.3.2</td> <!-- Angry Tweets version -->
    <td>9.3.2</td> <!-- ScaLA-da version -->
-   <td>9.3.2</td> <!-- ScandiQA-da version -->
+   <td>12.5.2</td> <!-- ScandiQA-da version -->
    <td>9.3.2</td> <!-- NorNE-nb version -->
    <td>9.3.2</td> <!-- NorNE-nn version -->
    <td>9.3.2</td> <!-- NoReC version -->
    <td>9.3.2</td> <!-- ScaLA-nb version -->
    <td>9.3.2</td> <!-- ScaLA-nn version -->
-   <td>9.3.2</td> <!-- NorQuAD version -->
+   <td>12.5.2</td> <!-- NorQuAD version -->
    <td>9.3.2</td> <!-- SUC3 version -->
    <td>9.3.2</td> <!-- SweReC version -->
    <td>9.3.2</td> <!-- ScaLA-sv version -->
-   <td>9.3.2</td> <!-- ScandiQA-sv version -->
+   <td>12.5.2</td> <!-- ScandiQA-sv version -->
    </tr>
   <tr class="not-merged-model">
    <td>jonfd/electra-small-nordic</td> <!-- Model ID -->
    <td class="num_model_parameters">22</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">96</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">128</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">128</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">5,989 ± 120 / 3,809 ± 1,230</td> <!-- Model inference speed -->
    <td class="rank">2.31</td> <!-- ScandEval rank -->
    <td class="da-rank">2.46</td> <!-- Danish rank -->
@@ -2713,7 +2782,8 @@ title: Mainland Scandinavian NLU
    <td>timpal0l/Mistral-7B-v0.1-flashback-v2 (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,505 ± 465 / 774 ± 242</td> <!-- Model inference speed -->
    <td class="rank">2.31</td> <!-- ScandEval rank -->
    <td class="da-rank">2.26</td> <!-- Danish rank -->
@@ -2752,7 +2822,8 @@ title: Mainland Scandinavian NLU
    <td>Geotrend/bert-base-da-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">104</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">23</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">15,432 ± 2,838 / 3,642 ± 1,189</td> <!-- Model inference speed -->
    <td class="rank">2.36</td> <!-- ScandEval rank -->
    <td class="da-rank">2.42</td> <!-- Danish rank -->
@@ -2791,7 +2862,8 @@ title: Mainland Scandinavian NLU
    <td>danish-foundation-models/munin-7b-v0.1dev0 (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">6,113 ± 1,044 / 1,790 ± 579</td> <!-- Model inference speed -->
    <td class="rank">2.37</td> <!-- ScandEval rank -->
    <td class="da-rank">2.39</td> <!-- Danish rank -->
@@ -2830,7 +2902,8 @@ title: Mainland Scandinavian NLU
    <td>microsoft/infoxlm-base</td> <!-- Model ID -->
    <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">14,918 ± 2,938 / 3,330 ± 1,088</td> <!-- Model inference speed -->
    <td class="rank">2.37</td> <!-- ScandEval rank -->
    <td class="da-rank">2.42</td> <!-- Danish rank -->
@@ -2869,7 +2942,8 @@ title: Mainland Scandinavian NLU
    <td>Mabeck/Heidrun-Mistral-7B-base (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">3,823 ± 967 / 860 ± 280</td> <!-- Model inference speed -->
    <td class="rank">2.38</td> <!-- ScandEval rank -->
    <td class="da-rank">2.39</td> <!-- Danish rank -->
@@ -2908,7 +2982,8 @@ title: Mainland Scandinavian NLU
    <td>ThatsGroes/munin-SkoleGPTOpenOrca-7b-16bit (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">3,006 ± 479 / 1,053 ± 319</td> <!-- Model inference speed -->
    <td class="rank">2.38</td> <!-- ScandEval rank -->
    <td class="da-rank">2.30</td> <!-- Danish rank -->
@@ -2947,7 +3022,8 @@ title: Mainland Scandinavian NLU
    <td>alpindale/Mistral-7B-v0.2-hf (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">3,467 ± 656 / 986 ± 297</td> <!-- Model inference speed -->
    <td class="rank">2.38</td> <!-- ScandEval rank -->
    <td class="da-rank">2.25</td> <!-- Danish rank -->
@@ -2986,7 +3062,8 @@ title: Mainland Scandinavian NLU
    <td>bineric/NorskGPT-Mistral-7b (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,443 ± 451 / 761 ± 237</td> <!-- Model inference speed -->
    <td class="rank">2.38</td> <!-- ScandEval rank -->
    <td class="da-rank">2.52</td> <!-- Danish rank -->
@@ -3025,7 +3102,8 @@ title: Mainland Scandinavian NLU
    <td>mhenrichsen/hestenettetLM (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">5,160 ± 804 / 1,654 ± 516</td> <!-- Model inference speed -->
    <td class="rank">2.38</td> <!-- ScandEval rank -->
    <td class="da-rank">2.38</td> <!-- Danish rank -->
@@ -3064,7 +3142,8 @@ title: Mainland Scandinavian NLU
    <td>mistralai/Mistral-7B-v0.1 (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,657 ± 524 / 880 ± 278</td> <!-- Model inference speed -->
    <td class="rank">2.38</td> <!-- ScandEval rank -->
    <td class="da-rank">2.34</td> <!-- Danish rank -->
@@ -3103,7 +3182,8 @@ title: Mainland Scandinavian NLU
    <td>KBLab/megatron-bert-base-swedish-cased-125k</td> <!-- Model ID -->
    <td class="num_model_parameters">135</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">15,763 ± 2,523 / 4,238 ± 1,370</td> <!-- Model inference speed -->
    <td class="rank">2.41</td> <!-- ScandEval rank -->
    <td class="da-rank">2.74</td> <!-- Danish rank -->
@@ -3142,7 +3222,8 @@ title: Mainland Scandinavian NLU
    <td>mlabonne/AlphaMonarch-7B (few-shot, val)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">5,340 ± 1,262 / 1,157 ± 375</td> <!-- Model inference speed -->
    <td class="rank">2.43</td> <!-- ScandEval rank -->
    <td class="da-rank">2.26</td> <!-- Danish rank -->
@@ -3181,7 +3262,8 @@ title: Mainland Scandinavian NLU
    <td>clips/mfaq</td> <!-- Model ID -->
    <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">128</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">128</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">5,591 ± 187 / 3,349 ± 1,105</td> <!-- Model inference speed -->
    <td class="rank">2.44</td> <!-- ScandEval rank -->
    <td class="da-rank">2.45</td> <!-- Danish rank -->
@@ -3220,7 +3302,8 @@ title: Mainland Scandinavian NLU
    <td>jhu-clsp/bernice</td> <!-- Model ID -->
    <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">5,567 ± 450 / 2,483 ± 798</td> <!-- Model inference speed -->
    <td class="rank">2.46</td> <!-- ScandEval rank -->
    <td class="da-rank">2.44</td> <!-- Danish rank -->
@@ -3259,7 +3342,8 @@ title: Mainland Scandinavian NLU
    <td>birgermoell/NeuralBeagle-Flashback (few-shot, val)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,904 ± 405 / 1,155 ± 349</td> <!-- Model inference speed -->
    <td class="rank">2.47</td> <!-- ScandEval rank -->
    <td class="da-rank">2.18</td> <!-- Danish rank -->
@@ -3298,7 +3382,8 @@ title: Mainland Scandinavian NLU
    <td>flax-community/nordic-roberta-wiki</td> <!-- Model ID -->
    <td class="num_model_parameters">125</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">16,227 ± 2,650 / 4,252 ± 1,393</td> <!-- Model inference speed -->
    <td class="rank">2.48</td> <!-- ScandEval rank -->
    <td class="da-rank">2.45</td> <!-- Danish rank -->
@@ -3337,7 +3422,8 @@ title: Mainland Scandinavian NLU
    <td>DDSC/roberta-base-scandinavian</td> <!-- Model ID -->
    <td class="num_model_parameters">125</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">14,491 ± 2,800 / 3,182 ± 1,026</td> <!-- Model inference speed -->
    <td class="rank">2.49</td> <!-- ScandEval rank -->
    <td class="da-rank">2.53</td> <!-- Danish rank -->
@@ -3376,7 +3462,8 @@ title: Mainland Scandinavian NLU
    <td>sentence-transformers/paraphrase-xlm-r-multilingual-v1</td> <!-- Model ID -->
    <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">14,994 ± 2,975 / 3,374 ± 1,080</td> <!-- Model inference speed -->
    <td class="rank">2.49</td> <!-- ScandEval rank -->
    <td class="da-rank">2.37</td> <!-- Danish rank -->
@@ -3415,7 +3502,8 @@ title: Mainland Scandinavian NLU
    <td>KBLab/bert-base-swedish-cased-new</td> <!-- Model ID -->
    <td class="num_model_parameters">135</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">15,933 ± 2,541 / 4,289 ± 1,376</td> <!-- Model inference speed -->
    <td class="rank">2.50</td> <!-- ScandEval rank -->
    <td class="da-rank">2.89</td> <!-- Danish rank -->
@@ -3454,7 +3542,8 @@ title: Mainland Scandinavian NLU
    <td>RuterNorway/Llama-2-13b-chat-norwegian (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">7,778 ± 1,755 / 1,703 ± 552</td> <!-- Model inference speed -->
    <td class="rank">2.50</td> <!-- ScandEval rank -->
    <td class="da-rank">2.38</td> <!-- Danish rank -->
@@ -3493,7 +3582,8 @@ title: Mainland Scandinavian NLU
    <td>sentence-transformers/paraphrase-multilingual-mpnet-base-v2</td> <!-- Model ID -->
    <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">15,100 ± 3,019 / 3,369 ± 1,103</td> <!-- Model inference speed -->
    <td class="rank">2.50</td> <!-- ScandEval rank -->
    <td class="da-rank">2.39</td> <!-- Danish rank -->
@@ -3532,7 +3622,8 @@ title: Mainland Scandinavian NLU
    <td>mistralai/Mistral-7B-Instruct-v0.2 (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,538 ± 415 / 821 ± 253</td> <!-- Model inference speed -->
    <td class="rank">2.51</td> <!-- ScandEval rank -->
    <td class="da-rank">2.29</td> <!-- Danish rank -->
@@ -3571,7 +3662,8 @@ title: Mainland Scandinavian NLU
    <td>neph1/bellman-7b-mistral-instruct-v0.2 (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,518 ± 463 / 779 ± 243</td> <!-- Model inference speed -->
    <td class="rank">2.53</td> <!-- ScandEval rank -->
    <td class="da-rank">2.27</td> <!-- Danish rank -->
@@ -3610,7 +3702,8 @@ title: Mainland Scandinavian NLU
    <td>sentence-transformers/stsb-xlm-r-multilingual</td> <!-- Model ID -->
    <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">15,040 ± 2,953 / 3,417 ± 1,100</td> <!-- Model inference speed -->
    <td class="rank">2.55</td> <!-- ScandEval rank -->
    <td class="da-rank">2.54</td> <!-- Danish rank -->
@@ -3649,7 +3742,8 @@ title: Mainland Scandinavian NLU
    <td>bineric/NorskGPT-Llama-7B-v0.1 (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">6738</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">5,384 ± 879 / 1,746 ± 553</td> <!-- Model inference speed -->
    <td class="rank">2.56</td> <!-- ScandEval rank -->
    <td class="da-rank">2.49</td> <!-- Danish rank -->
@@ -3688,7 +3782,8 @@ title: Mainland Scandinavian NLU
    <td>danish-foundation-models/munin-7b-alpha (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">6,116 ± 1,049 / 1,784 ± 577</td> <!-- Model inference speed -->
    <td class="rank">2.56</td> <!-- ScandEval rank -->
    <td class="da-rank">2.34</td> <!-- Danish rank -->
@@ -3727,7 +3822,8 @@ title: Mainland Scandinavian NLU
    <td>flax-community/swe-roberta-wiki-oscar</td> <!-- Model ID -->
    <td class="num_model_parameters">125</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">15,437 ± 2,628 / 3,834 ± 1,252</td> <!-- Model inference speed -->
    <td class="rank">2.56</td> <!-- ScandEval rank -->
    <td class="da-rank">2.76</td> <!-- Danish rank -->
@@ -3766,7 +3862,8 @@ title: Mainland Scandinavian NLU
    <td>occiglot/occiglot-7b-eu5 (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,219 ± 427 / 717 ± 224</td> <!-- Model inference speed -->
    <td class="rank">2.57</td> <!-- ScandEval rank -->
    <td class="da-rank">2.55</td> <!-- Danish rank -->
@@ -3805,7 +3902,8 @@ title: Mainland Scandinavian NLU
    <td>distilbert/distilbert-base-multilingual-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">135</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">120</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">26,355 ± 5,946 / 5,266 ± 1,714</td> <!-- Model inference speed -->
    <td class="rank">2.58</td> <!-- ScandEval rank -->
    <td class="da-rank">2.62</td> <!-- Danish rank -->
@@ -3844,7 +3942,8 @@ title: Mainland Scandinavian NLU
    <td>mistralai/Mistral-7B-Instruct-v0.1 (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">5,443 ± 1,273 / 1,144 ± 364</td> <!-- Model inference speed -->
    <td class="rank">2.59</td> <!-- ScandEval rank -->
    <td class="da-rank">2.50</td> <!-- Danish rank -->
@@ -3883,7 +3982,8 @@ title: Mainland Scandinavian NLU
    <td>occiglot/occiglot-7b-eu5-instruct (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,088 ± 352 / 706 ± 214</td> <!-- Model inference speed -->
    <td class="rank">2.59</td> <!-- ScandEval rank -->
    <td class="da-rank">2.58</td> <!-- Danish rank -->
@@ -3922,7 +4022,8 @@ title: Mainland Scandinavian NLU
    <td>tollefj/nordavind-7b-instruct-warm (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7248</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">33</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">6,450 ± 961 / 2,082 ± 658</td> <!-- Model inference speed -->
    <td class="rank">2.60</td> <!-- ScandEval rank -->
    <td class="da-rank">2.44</td> <!-- Danish rank -->
@@ -3961,7 +4062,8 @@ title: Mainland Scandinavian NLU
    <td>Geotrend/distilbert-base-25lang-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">109</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">85</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">26,099 ± 5,881 / 5,178 ± 1,665</td> <!-- Model inference speed -->
    <td class="rank">2.61</td> <!-- ScandEval rank -->
    <td class="da-rank">2.62</td> <!-- Danish rank -->
@@ -4000,7 +4102,8 @@ title: Mainland Scandinavian NLU
    <td>Geotrend/distilbert-base-en-fr-de-no-da-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">76</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">42</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">26,081 ± 5,875 / 5,209 ± 1,692</td> <!-- Model inference speed -->
    <td class="rank">2.61</td> <!-- ScandEval rank -->
    <td class="da-rank">2.62</td> <!-- Danish rank -->
@@ -4039,7 +4142,8 @@ title: Mainland Scandinavian NLU
    <td>Geotrend/distilbert-base-en-no-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">69</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">33</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">26,597 ± 6,036 / 5,271 ± 1,697</td> <!-- Model inference speed -->
    <td class="rank">2.61</td> <!-- ScandEval rank -->
    <td class="da-rank">2.64</td> <!-- Danish rank -->
@@ -4078,7 +4182,8 @@ title: Mainland Scandinavian NLU
    <td>Geotrend/distilbert-base-en-da-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">69</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">33</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">26,196 ± 5,956 / 5,220 ± 1,691</td> <!-- Model inference speed -->
    <td class="rank">2.63</td> <!-- ScandEval rank -->
    <td class="da-rank">2.60</td> <!-- Danish rank -->
@@ -4117,7 +4222,8 @@ title: Mainland Scandinavian NLU
    <td>Twitter/twhin-bert-large</td> <!-- Model ID -->
    <td class="num_model_parameters">561</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">5,299 ± 910 / 1,415 ± 451</td> <!-- Model inference speed -->
    <td class="rank">2.63</td> <!-- ScandEval rank -->
    <td class="da-rank">2.55</td> <!-- Danish rank -->
@@ -4156,7 +4262,8 @@ title: Mainland Scandinavian NLU
    <td>Geotrend/distilbert-base-da-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">61</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">23</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">28,950 ± 5,114 / 7,010 ± 2,267</td> <!-- Model inference speed -->
    <td class="rank">2.64</td> <!-- ScandEval rank -->
    <td class="da-rank">2.62</td> <!-- Danish rank -->
@@ -4195,7 +4302,8 @@ title: Mainland Scandinavian NLU
    <td>meta-llama/Llama-2-7b-hf (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">6738</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,648 ± 467 / 799 ± 250</td> <!-- Model inference speed -->
    <td class="rank">2.64</td> <!-- ScandEval rank -->
    <td class="da-rank">2.64</td> <!-- Danish rank -->
@@ -4234,7 +4342,8 @@ title: Mainland Scandinavian NLU
    <td>merge-crew/da-sv-dare-ties-density-0.3 (few-shot, val)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,461 ± 476 / 773 ± 248</td> <!-- Model inference speed -->
    <td class="rank">2.66</td> <!-- ScandEval rank -->
    <td class="da-rank">2.55</td> <!-- Danish rank -->
@@ -4273,7 +4382,8 @@ title: Mainland Scandinavian NLU
    <td>sarnikowski/convbert-medium-small-da-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">24</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">29</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">13,821 ± 2,209 / 3,547 ± 1,184</td> <!-- Model inference speed -->
    <td class="rank">2.66</td> <!-- ScandEval rank -->
    <td class="da-rank">2.20</td> <!-- Danish rank -->
@@ -4312,7 +4422,8 @@ title: Mainland Scandinavian NLU
    <td>sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2</td> <!-- Model ID -->
    <td class="num_model_parameters">118</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">17,428 ± 3,628 / 3,529 ± 1,171</td> <!-- Model inference speed -->
    <td class="rank">2.70</td> <!-- ScandEval rank -->
    <td class="da-rank">2.63</td> <!-- Danish rank -->
@@ -4351,7 +4462,8 @@ title: Mainland Scandinavian NLU
    <td>meta-llama/Llama-2-7b-chat-hf (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">6738</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,643 ± 455 / 800 ± 247</td> <!-- Model inference speed -->
    <td class="rank">2.71</td> <!-- ScandEval rank -->
    <td class="da-rank">2.51</td> <!-- Danish rank -->
@@ -4390,7 +4502,8 @@ title: Mainland Scandinavian NLU
    <td>timpal0l/Mistral-7B-v0.1-flashback-v2-instruct (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">5,172 ± 813 / 1,647 ± 518</td> <!-- Model inference speed -->
    <td class="rank">2.71</td> <!-- ScandEval rank -->
    <td class="da-rank">2.56</td> <!-- Danish rank -->
@@ -4429,7 +4542,8 @@ title: Mainland Scandinavian NLU
    <td>Addedk/kbbert-distilled-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">82</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">29,698 ± 4,287 / 8,677 ± 2,776</td> <!-- Model inference speed -->
    <td class="rank">2.72</td> <!-- ScandEval rank -->
    <td class="da-rank">2.97</td> <!-- Danish rank -->
@@ -4468,7 +4582,8 @@ title: Mainland Scandinavian NLU
    <td>danish-foundation-models/encoder-medium-v1</td> <!-- Model ID -->
    <td class="num_model_parameters">111</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">16,130 ± 2,433 / 4,566 ± 1,473</td> <!-- Model inference speed -->
    <td class="rank">2.73</td> <!-- ScandEval rank -->
    <td class="da-rank">2.23</td> <!-- Danish rank -->
@@ -4507,7 +4622,8 @@ title: Mainland Scandinavian NLU
    <td>jannikskytt/MeDa-Bert</td> <!-- Model ID -->
    <td class="num_model_parameters">111</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">511</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">511</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">16,114 ± 2,429 / 4,566 ± 1,482</td> <!-- Model inference speed -->
    <td class="rank">2.73</td> <!-- ScandEval rank -->
    <td class="da-rank">2.24</td> <!-- Danish rank -->
@@ -4546,7 +4662,8 @@ title: Mainland Scandinavian NLU
    <td>AI-Sweden-Models/gpt-sw3-20b (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">20918</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">4,880 ± 1,052 / 1,181 ± 380</td> <!-- Model inference speed -->
    <td class="rank">2.76</td> <!-- ScandEval rank -->
    <td class="da-rank">2.88</td> <!-- Danish rank -->
@@ -4585,7 +4702,8 @@ title: Mainland Scandinavian NLU
    <td>Qwen/Qwen1.5-4B-Chat (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">3950</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">152</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">4,347 ± 893 / 1,135 ± 365</td> <!-- Model inference speed -->
    <td class="rank">2.78</td> <!-- ScandEval rank -->
    <td class="da-rank">2.61</td> <!-- Danish rank -->
@@ -4624,7 +4742,8 @@ title: Mainland Scandinavian NLU
    <td>norallm/normistral-7b-warm (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7248</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">33</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">3,175 ± 456 / 1,186 ± 354</td> <!-- Model inference speed -->
    <td class="rank">2.78</td> <!-- ScandEval rank -->
    <td class="da-rank">2.68</td> <!-- Danish rank -->
@@ -4663,7 +4782,8 @@ title: Mainland Scandinavian NLU
    <td>DDSC/roberta-base-danish</td> <!-- Model ID -->
    <td class="num_model_parameters">125</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">15,004 ± 2,964 / 3,290 ± 1,092</td> <!-- Model inference speed -->
    <td class="rank">2.79</td> <!-- ScandEval rank -->
    <td class="da-rank">2.52</td> <!-- Danish rank -->
@@ -4702,7 +4822,8 @@ title: Mainland Scandinavian NLU
    <td>Maltehb/danish-bert-botxo</td> <!-- Model ID -->
    <td class="num_model_parameters">111</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">16,091 ± 2,427 / 4,575 ± 1,485</td> <!-- Model inference speed -->
    <td class="rank">2.80</td> <!-- ScandEval rank -->
    <td class="da-rank">2.19</td> <!-- Danish rank -->
@@ -4741,7 +4862,8 @@ title: Mainland Scandinavian NLU
    <td>ltg/norbert3-xs</td> <!-- Model ID -->
    <td class="num_model_parameters">15</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">508</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">508</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">14,208 ± 2,713 / 3,059 ± 1,002</td> <!-- Model inference speed -->
    <td class="rank">2.80</td> <!-- ScandEval rank -->
    <td class="da-rank">2.85</td> <!-- Danish rank -->
@@ -4780,7 +4902,8 @@ title: Mainland Scandinavian NLU
    <td>birgermoell/roberta-swedish-scandi</td> <!-- Model ID -->
    <td class="num_model_parameters">125</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">15,385 ± 2,815 / 3,578 ± 1,177</td> <!-- Model inference speed -->
    <td class="rank">2.81</td> <!-- ScandEval rank -->
    <td class="da-rank">2.96</td> <!-- Danish rank -->
@@ -4819,7 +4942,8 @@ title: Mainland Scandinavian NLU
    <td>Addedk/mbert-swedish-distilled-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">135</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">120</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">26,091 ± 5,835 / 5,209 ± 1,690</td> <!-- Model inference speed -->
    <td class="rank">2.84</td> <!-- ScandEval rank -->
    <td class="da-rank">2.93</td> <!-- Danish rank -->
@@ -4858,7 +4982,8 @@ title: Mainland Scandinavian NLU
    <td>sarnikowski/electra-small-discriminator-da-256-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">13</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">29</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">20,340 ± 3,185 / 5,178 ± 1,700</td> <!-- Model inference speed -->
    <td class="rank">2.85</td> <!-- ScandEval rank -->
    <td class="da-rank">2.49</td> <!-- Danish rank -->
@@ -4897,7 +5022,8 @@ title: Mainland Scandinavian NLU
    <td>sarnikowski/convbert-small-da-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">13</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">29</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">14,273 ± 2,312 / 3,555 ± 1,187</td> <!-- Model inference speed -->
    <td class="rank">2.87</td> <!-- ScandEval rank -->
    <td class="da-rank">2.51</td> <!-- Danish rank -->
@@ -4936,7 +5062,8 @@ title: Mainland Scandinavian NLU
    <td>01-ai/Yi-6B (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">6061</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,786 ± 532 / 784 ± 250</td> <!-- Model inference speed -->
    <td class="rank">2.90</td> <!-- ScandEval rank -->
    <td class="da-rank">3.34</td> <!-- Danish rank -->
@@ -4975,7 +5102,8 @@ title: Mainland Scandinavian NLU
    <td>AI-Sweden-Models/gpt-sw3-6.7b-v2 (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7111</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,351 ± 448 / 707 ± 216</td> <!-- Model inference speed -->
    <td class="rank">2.96</td> <!-- ScandEval rank -->
    <td class="da-rank">3.21</td> <!-- Danish rank -->
@@ -5014,7 +5142,8 @@ title: Mainland Scandinavian NLU
    <td>dbmdz/bert-base-historic-multilingual-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">111</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">15,165 ± 3,028 / 3,385 ± 1,115</td> <!-- Model inference speed -->
    <td class="rank">2.97</td> <!-- ScandEval rank -->
    <td class="da-rank">3.22</td> <!-- Danish rank -->
@@ -5053,7 +5182,8 @@ title: Mainland Scandinavian NLU
    <td>AI-Sweden-Models/gpt-sw3-20b-instruct (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">20918</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">4,572 ± 1,018 / 1,068 ± 331</td> <!-- Model inference speed -->
    <td class="rank">2.98</td> <!-- ScandEval rank -->
    <td class="da-rank">3.05</td> <!-- Danish rank -->
@@ -5092,7 +5222,8 @@ title: Mainland Scandinavian NLU
    <td>sentence-transformers/distilbert-multilingual-nli-stsb-quora-ranking</td> <!-- Model ID -->
    <td class="num_model_parameters">135</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">120</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">26,151 ± 5,903 / 5,196 ± 1,675</td> <!-- Model inference speed -->
    <td class="rank">2.98</td> <!-- ScandEval rank -->
    <td class="da-rank">3.05</td> <!-- Danish rank -->
@@ -5131,7 +5262,8 @@ title: Mainland Scandinavian NLU
    <td>sentence-transformers/quora-distilbert-multilingual</td> <!-- Model ID -->
    <td class="num_model_parameters">135</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">120</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">26,458 ± 5,992 / 5,274 ± 1,731</td> <!-- Model inference speed -->
    <td class="rank">2.98</td> <!-- ScandEval rank -->
    <td class="da-rank">3.05</td> <!-- Danish rank -->
@@ -5170,7 +5302,8 @@ title: Mainland Scandinavian NLU
    <td>Maltehb/aelaectra-danish-electra-small-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">14</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">128</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">128</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">4,593 ± 114 / 3,034 ± 973</td> <!-- Model inference speed -->
    <td class="rank">3.01</td> <!-- ScandEval rank -->
    <td class="da-rank">2.61</td> <!-- Danish rank -->
@@ -5209,7 +5342,8 @@ title: Mainland Scandinavian NLU
    <td>LumiOpen/Viking-13B (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">14030</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">131</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">4099</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">4099</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">3,480 ± 727 / 822 ± 274</td> <!-- Model inference speed -->
    <td class="rank">3.04</td> <!-- ScandEval rank -->
    <td class="da-rank">2.90</td> <!-- Danish rank -->
@@ -5248,7 +5382,8 @@ title: Mainland Scandinavian NLU
    <td>dbmdz/bert-medium-historic-multilingual-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">42</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">24,291 ± 4,887 / 5,096 ± 1,655</td> <!-- Model inference speed -->
    <td class="rank">3.05</td> <!-- ScandEval rank -->
    <td class="da-rank">3.21</td> <!-- Danish rank -->
@@ -5287,7 +5422,8 @@ title: Mainland Scandinavian NLU
    <td>google/gemma-2b (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">2506</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">256</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">6,087 ± 1,046 / 1,902 ± 563</td> <!-- Model inference speed -->
    <td class="rank">3.07</td> <!-- ScandEval rank -->
    <td class="da-rank">2.95</td> <!-- Danish rank -->
@@ -5326,7 +5462,8 @@ title: Mainland Scandinavian NLU
    <td>Maltehb/aelaectra-danish-electra-small-uncased</td> <!-- Model ID -->
    <td class="num_model_parameters">14</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">128</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">128</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">5,995 ± 135 / 3,839 ± 1,247</td> <!-- Model inference speed -->
    <td class="rank">3.08</td> <!-- ScandEval rank -->
    <td class="da-rank">2.55</td> <!-- Danish rank -->
@@ -5365,7 +5502,8 @@ title: Mainland Scandinavian NLU
    <td>jjzha/dajobbert-base-uncased</td> <!-- Model ID -->
    <td class="num_model_parameters">110</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">16,243 ± 2,428 / 4,593 ± 1,484</td> <!-- Model inference speed -->
    <td class="rank">3.09</td> <!-- ScandEval rank -->
    <td class="da-rank">2.59</td> <!-- Danish rank -->
@@ -5404,7 +5542,8 @@ title: Mainland Scandinavian NLU
    <td>Qwen/Qwen1.5-4B (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">3950</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">152</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">3,248 ± 739 / 761 ± 252</td> <!-- Model inference speed -->
    <td class="rank">3.10</td> <!-- ScandEval rank -->
    <td class="da-rank">2.71</td> <!-- Danish rank -->
@@ -5443,7 +5582,8 @@ title: Mainland Scandinavian NLU
    <td>AI-Sweden-Models/gpt-sw3-1.3b-instruct (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">1445</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">4,544 ± 1,000 / 1,106 ± 359</td> <!-- Model inference speed -->
    <td class="rank">3.14</td> <!-- ScandEval rank -->
    <td class="da-rank">3.33</td> <!-- Danish rank -->
@@ -5482,7 +5622,8 @@ title: Mainland Scandinavian NLU
    <td>LumiOpen/Viking-7B (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7550</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">131</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">5,723 ± 1,025 / 1,670 ± 559</td> <!-- Model inference speed -->
    <td class="rank">3.21</td> <!-- ScandEval rank -->
    <td class="da-rank">3.08</td> <!-- Danish rank -->
@@ -5521,7 +5662,8 @@ title: Mainland Scandinavian NLU
    <td>allenai/OLMo-7B (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">6888</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">2051</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">2051</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">5,403 ± 1,133 / 1,294 ± 423</td> <!-- Model inference speed -->
    <td class="rank">3.25</td> <!-- ScandEval rank -->
    <td class="da-rank">3.12</td> <!-- Danish rank -->
@@ -5560,11 +5702,12 @@ title: Mainland Scandinavian NLU
    <td>HPLT/gpt-7b-nordic-prerelease (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7550</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">131</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">5,404 ± 931 / 1,638 ± 542</td> <!-- Model inference speed -->
    <td class="rank">3.26</td> <!-- ScandEval rank -->
    <td class="da-rank">3.03</td> <!-- Danish rank -->
-   <td class="no-rank">3.91</td> <!-- Norwegian rank -->
+   <td class="no-rank">3.92</td> <!-- Norwegian rank -->
    <td class="sv-rank">2.84</td> <!-- Swedish rank -->
    <td class="da ner">21.98 ± 3.33 / 18.42 ± 2.62</td> <!-- DANSK -->
    <td class="da sent">37.77 ± 3.06 / 55.35 ± 4.51</td> <!-- Angry Tweets -->
@@ -5599,7 +5742,8 @@ title: Mainland Scandinavian NLU
    <td>AI-Sweden-Models/gpt-sw3-6.7b-v2-instruct (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7111</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,383 ± 451 / 718 ± 221</td> <!-- Model inference speed -->
    <td class="rank">3.28</td> <!-- ScandEval rank -->
    <td class="da-rank">3.62</td> <!-- Danish rank -->
@@ -5638,7 +5782,8 @@ title: Mainland Scandinavian NLU
    <td>AI-Sweden-Models/gpt-sw3-1.3b (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">1445</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">4,608 ± 988 / 1,115 ± 354</td> <!-- Model inference speed -->
    <td class="rank">3.29</td> <!-- ScandEval rank -->
    <td class="da-rank">3.32</td> <!-- Danish rank -->
@@ -5677,7 +5822,8 @@ title: Mainland Scandinavian NLU
    <td>google/gemma-2b-it (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">2506</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">256</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">6,471 ± 1,142 / 1,961 ± 584</td> <!-- Model inference speed -->
    <td class="rank">3.29</td> <!-- ScandEval rank -->
    <td class="da-rank">3.14</td> <!-- Danish rank -->
@@ -5716,7 +5862,8 @@ title: Mainland Scandinavian NLU
    <td>AI-Sweden-Models/gpt-sw3-6.7b (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7111</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,285 ± 443 / 671 ± 205</td> <!-- Model inference speed -->
    <td class="rank">3.30</td> <!-- ScandEval rank -->
    <td class="da-rank">3.24</td> <!-- Danish rank -->
@@ -5755,7 +5902,8 @@ title: Mainland Scandinavian NLU
    <td>norallm/normistral-7b-scratch (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7248</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">33</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">3,192 ± 454 / 1,198 ± 357</td> <!-- Model inference speed -->
    <td class="rank">3.32</td> <!-- ScandEval rank -->
    <td class="da-rank">3.26</td> <!-- Danish rank -->
@@ -5794,7 +5942,8 @@ title: Mainland Scandinavian NLU
    <td>mhenrichsen/danskgpt-tiny-chat (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">1100</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">1,745 ± 978 / 686 ± 159</td> <!-- Model inference speed -->
    <td class="rank">3.34</td> <!-- ScandEval rank -->
    <td class="da-rank">3.16</td> <!-- Danish rank -->
@@ -5833,7 +5982,8 @@ title: Mainland Scandinavian NLU
    <td>sentence-transformers/distiluse-base-multilingual-cased-v1</td> <!-- Model ID -->
    <td class="num_model_parameters">135</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">120</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">26,344 ± 5,907 / 5,202 ± 1,679</td> <!-- Model inference speed -->
    <td class="rank">3.38</td> <!-- ScandEval rank -->
    <td class="da-rank">3.39</td> <!-- Danish rank -->
@@ -5872,7 +6022,8 @@ title: Mainland Scandinavian NLU
    <td>AI-Sweden-Models/gpt-sw3-356m-instruct (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">471</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">5,855 ± 1,373 / 1,223 ± 391</td> <!-- Model inference speed -->
    <td class="rank">3.40</td> <!-- ScandEval rank -->
    <td class="da-rank">3.33</td> <!-- Danish rank -->
@@ -5911,7 +6062,8 @@ title: Mainland Scandinavian NLU
    <td>KBLab/albert-base-swedish-cased-alpha</td> <!-- Model ID -->
    <td class="num_model_parameters">14</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">15,925 ± 2,281 / 4,780 ± 1,554</td> <!-- Model inference speed -->
    <td class="rank">3.42</td> <!-- ScandEval rank -->
    <td class="da-rank">3.65</td> <!-- Danish rank -->
@@ -5950,7 +6102,8 @@ title: Mainland Scandinavian NLU
    <td>NbAiLab/nb-gpt-j-6B-alpaca (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">6055</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">1024</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">1024</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,607 ± 592 / 680 ± 208</td> <!-- Model inference speed -->
    <td class="rank">3.43</td> <!-- ScandEval rank -->
    <td class="da-rank">3.44</td> <!-- Danish rank -->
@@ -5989,7 +6142,8 @@ title: Mainland Scandinavian NLU
    <td>dbmdz/bert-mini-historic-multilingual-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">12</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">47,122 ± 9,661 / 9,714 ± 3,152</td> <!-- Model inference speed -->
    <td class="rank">3.43</td> <!-- ScandEval rank -->
    <td class="da-rank">3.50</td> <!-- Danish rank -->
@@ -6028,7 +6182,8 @@ title: Mainland Scandinavian NLU
    <td>Qwen/Qwen1.5-1.8B-Chat (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">1837</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">152</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">8,304 ± 1,846 / 1,933 ± 617</td> <!-- Model inference speed -->
    <td class="rank">3.48</td> <!-- ScandEval rank -->
    <td class="da-rank">3.34</td> <!-- Danish rank -->
@@ -6067,7 +6222,8 @@ title: Mainland Scandinavian NLU
    <td>Qwen/Qwen1.5-1.8B (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">1837</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">152</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">5,666 ± 1,328 / 1,256 ± 408</td> <!-- Model inference speed -->
    <td class="rank">3.48</td> <!-- ScandEval rank -->
    <td class="da-rank">3.33</td> <!-- Danish rank -->
@@ -6106,7 +6262,8 @@ title: Mainland Scandinavian NLU
    <td>allenai/OLMo-7B-Twin-2T (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">6888</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">2051</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">2051</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">5,484 ± 1,125 / 1,317 ± 425</td> <!-- Model inference speed -->
    <td class="rank">3.51</td> <!-- ScandEval rank -->
    <td class="da-rank">3.56</td> <!-- Danish rank -->
@@ -6145,7 +6302,8 @@ title: Mainland Scandinavian NLU
    <td>AI-Sweden-Models/gpt-sw3-356m (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">471</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">5,758 ± 1,348 / 1,215 ± 391</td> <!-- Model inference speed -->
    <td class="rank">3.52</td> <!-- ScandEval rank -->
    <td class="da-rank">3.47</td> <!-- Danish rank -->
@@ -6184,7 +6342,8 @@ title: Mainland Scandinavian NLU
    <td>jannesg/bertsson</td> <!-- Model ID -->
    <td class="num_model_parameters">124</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">15,314 ± 2,786 / 3,666 ± 1,201</td> <!-- Model inference speed -->
    <td class="rank">3.53</td> <!-- ScandEval rank -->
    <td class="da-rank">3.64</td> <!-- Danish rank -->
@@ -6223,7 +6382,8 @@ title: Mainland Scandinavian NLU
    <td>alexanderfalk/danbert-small-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">83</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">52</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">30,013 ± 4,309 / 8,840 ± 2,859</td> <!-- Model inference speed -->
    <td class="rank">3.71</td> <!-- ScandEval rank -->
    <td class="da-rank">3.52</td> <!-- Danish rank -->
@@ -6262,7 +6422,8 @@ title: Mainland Scandinavian NLU
    <td>3ebdola/Dialectal-Arabic-XLM-R-Base</td> <!-- Model ID -->
    <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">15,177 ± 2,980 / 3,410 ± 1,076</td> <!-- Model inference speed -->
    <td class="rank">3.73</td> <!-- ScandEval rank -->
    <td class="da-rank">3.73</td> <!-- Danish rank -->
@@ -6301,7 +6462,8 @@ title: Mainland Scandinavian NLU
    <td>mhenrichsen/danskgpt-tiny (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">1100</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">8,597 ± 1,983 / 1,926 ± 600</td> <!-- Model inference speed -->
    <td class="rank">3.73</td> <!-- ScandEval rank -->
    <td class="da-rank">3.57</td> <!-- Danish rank -->
@@ -6340,7 +6502,8 @@ title: Mainland Scandinavian NLU
    <td>Qwen/Qwen1.5-0.5B-Chat (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">620</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">152</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">11,740 ± 3,000 / 2,209 ± 721</td> <!-- Model inference speed -->
    <td class="rank">3.80</td> <!-- ScandEval rank -->
    <td class="da-rank">3.79</td> <!-- Danish rank -->
@@ -6379,7 +6542,8 @@ title: Mainland Scandinavian NLU
    <td>RuterNorway/Llama-2-7b-chat-norwegian (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">10,890 ± 2,686 / 2,186 ± 750</td> <!-- Model inference speed -->
    <td class="rank">3.80</td> <!-- ScandEval rank -->
    <td class="da-rank">3.98</td> <!-- Danish rank -->
@@ -6418,7 +6582,8 @@ title: Mainland Scandinavian NLU
    <td>Qwen/Qwen1.5-0.5B (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">620</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">152</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">11,371 ± 2,924 / 2,122 ± 692</td> <!-- Model inference speed -->
    <td class="rank">3.85</td> <!-- ScandEval rank -->
    <td class="da-rank">3.74</td> <!-- Danish rank -->
@@ -6457,7 +6622,8 @@ title: Mainland Scandinavian NLU
    <td>allenai/OLMo-1B (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">1177</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">2051</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">2051</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">8,536 ± 1,926 / 1,940 ± 619</td> <!-- Model inference speed -->
    <td class="rank">3.89</td> <!-- ScandEval rank -->
    <td class="da-rank">3.85</td> <!-- Danish rank -->
@@ -6496,7 +6662,8 @@ title: Mainland Scandinavian NLU
    <td>RabotaRu/HRBert-mini</td> <!-- Model ID -->
    <td class="num_model_parameters">80</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">200</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">54,951 ± 11,500 / 11,401 ± 3,819</td> <!-- Model inference speed -->
    <td class="rank">3.94</td> <!-- ScandEval rank -->
    <td class="da-rank">3.97</td> <!-- Danish rank -->
@@ -6535,7 +6702,8 @@ title: Mainland Scandinavian NLU
    <td>fresh-xlm-roberta-base</td> <!-- Model ID -->
    <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">1,319 ± 94 / 656 ± 172</td> <!-- Model inference speed -->
    <td class="rank">4.04</td> <!-- ScandEval rank -->
    <td class="da-rank">4.05</td> <!-- Danish rank -->
@@ -6574,7 +6742,8 @@ title: Mainland Scandinavian NLU
    <td>fresh-electra-small</td> <!-- Model ID -->
    <td class="num_model_parameters">14</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">31</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">7,219 ± 712 / 3,276 ± 803</td> <!-- Model inference speed -->
    <td class="rank">4.11</td> <!-- ScandEval rank -->
    <td class="da-rank">4.20</td> <!-- Danish rank -->
@@ -6613,7 +6782,8 @@ title: Mainland Scandinavian NLU
    <td>NbAiLab/nb-gpt-j-6B-v2 (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">6051</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">1024</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">1024</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,556 ± 580 / 681 ± 214</td> <!-- Model inference speed -->
    <td class="rank">4.13</td> <!-- ScandEval rank -->
    <td class="da-rank">4.10</td> <!-- Danish rank -->
@@ -6652,7 +6822,8 @@ title: Mainland Scandinavian NLU
    <td>AI-Sweden-Models/gpt-sw3-126m-instruct (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">186</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">7,717 ± 1,553 / 2,013 ± 625</td> <!-- Model inference speed -->
    <td class="rank">4.16</td> <!-- ScandEval rank -->
    <td class="da-rank">4.15</td> <!-- Danish rank -->
@@ -6691,7 +6862,8 @@ title: Mainland Scandinavian NLU
    <td>AI-Sweden-Models/gpt-sw3-126m (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">186</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">8,958 ± 1,815 / 2,240 ± 696</td> <!-- Model inference speed -->
    <td class="rank">4.34</td> <!-- ScandEval rank -->
    <td class="da-rank">4.16</td> <!-- Danish rank -->
@@ -6730,7 +6902,8 @@ title: Mainland Scandinavian NLU
    <td>NbAiLab/nb-gpt-j-6B@sharded (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">1024</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">1024</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,630 ± 605 / 684 ± 217</td> <!-- Model inference speed -->
    <td class="rank">4.34</td> <!-- ScandEval rank -->
    <td class="da-rank">4.40</td> <!-- Danish rank -->
@@ -6769,7 +6942,8 @@ title: Mainland Scandinavian NLU
    <td>RJuro/kanelsnegl-v0.1 (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">9,757 ± 2,047 / 2,200 ± 705</td> <!-- Model inference speed -->
    <td class="rank">4.52</td> <!-- ScandEval rank -->
    <td class="da-rank">4.52</td> <!-- Danish rank -->
@@ -6808,7 +6982,8 @@ title: Mainland Scandinavian NLU
    <td>RJuro/kanelsnegl-v0.2 (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">1,373 ± 120 / 709 ± 172</td> <!-- Model inference speed -->
    <td class="rank">4.55</td> <!-- ScandEval rank -->
    <td class="da-rank">4.65</td> <!-- Danish rank -->
@@ -6847,7 +7022,8 @@ title: Mainland Scandinavian NLU
    <td>NorGLM/NorGPT-369M (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">1024</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">1024</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">19,896 ± 5,099 / 3,848 ± 1,251</td> <!-- Model inference speed -->
    <td class="rank">4.63</td> <!-- ScandEval rank -->
    <td class="da-rank">4.60</td> <!-- Danish rank -->
@@ -6886,7 +7062,8 @@ title: Mainland Scandinavian NLU
    <td>ai-forever/mGPT (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">100</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">1024</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">1024</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">13,551 ± 4,259 / 2,563 ± 838</td> <!-- Model inference speed -->
    <td class="rank">4.65</td> <!-- ScandEval rank -->
    <td class="da-rank">4.60</td> <!-- Danish rank -->
@@ -6925,7 +7102,8 @@ title: Mainland Scandinavian NLU
    <td>peter-sk/gpt-neox-da (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">1515</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">1024</td> <!-- Maximum sequence length of the model-->
+   <td class="max_sequence_length">1024</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">6,025 ± 1,442 / 1,342 ± 431</td> <!-- Model inference speed -->
    <td class="rank">4.74</td> <!-- ScandEval rank -->
    <td class="da-rank">4.67</td> <!-- Danish rank -->
@@ -6967,6 +7145,6 @@ title: Mainland Scandinavian NLU
 <div class="end-note">
   <a href="https://scandeval.com/mainland-scandinavian-nlu.csv" target="_blank">Download as CSV</a>
   &nbsp;&nbsp;&bull;&nbsp;&nbsp;
-  <a href="javascript:void(0);" id="embed-link" data-embed="<iframe title=&quot;Mainland Scandinavian NLU&quot; aria-label=&quot;Table&quot; id=&quot;datawrapper-chart-eFFRi&quot; src=&quot;https://datawrapper.dwcdn.net/eFFRi/1135/&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width: 0; min-width: 100% !important; border: none;&quot; height=&quot;400&quot; data-external=&quot;1&quot;></iframe><script type=&quot;text/javascript&quot;>!function(){&quot;use strict&quot;;window.addEventListener(&quot;message&quot;,(function(a){if(void 0!==a.data[&quot;datawrapper-height&quot;]){var e=document.querySelectorAll(&quot;iframe&quot;);for(var t in a.data[&quot;datawrapper-height&quot;])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data[&quot;datawrapper-height&quot;][t]+&quot;px&quot;;e[r].style.height=i}}}))}();
+  <a href="javascript:void(0);" id="embed-link" data-embed="<iframe title=&quot;Mainland Scandinavian NLU&quot; aria-label=&quot;Table&quot; id=&quot;datawrapper-chart-eFFRi&quot; src=&quot;https://datawrapper.dwcdn.net/eFFRi/1141/&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width: 0; min-width: 100% !important; border: none;&quot; height=&quot;400&quot; data-external=&quot;1&quot;></iframe><script type=&quot;text/javascript&quot;>!function(){&quot;use strict&quot;;window.addEventListener(&quot;message&quot;,(function(a){if(void 0!==a.data[&quot;datawrapper-height&quot;]){var e=document.querySelectorAll(&quot;iframe&quot;);for(var t in a.data[&quot;datawrapper-height&quot;])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data[&quot;datawrapper-height&quot;][t]+&quot;px&quot;;e[r].style.height=i}}}))}();
 </script>">Copy embed HTML</a>
 </div>

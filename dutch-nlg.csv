@@ -6,7 +6,7 @@ Nexusflow/Starling-LM-7B-beta (few-shot),7242,32,8192,not-merged-model,5876,1.91
 "mlabonne/AlphaMonarch-7B (few-shot, val)",7242,32,8192,merged-model,5340,2.31,64.71,11.14,25.22,46.34,67.71,38.49,47.66
 robinsmits/Qwen1.5-7B-Dutch-Chat (few-shot),7719,152,32768,not-merged-model,4686,2.46,57.81,14.62,25.34,56.81,60.51,34.78,30.29
 BramVanroy/GEITje-7B-ultra (few-shot),7242,32,8192,not-merged-model,2475,2.65,42.25,12.78,18.23,53.41,68.3,26.92,25.72
-alpindale/Mistral-7B-v0.2-hf (few-shot),7242,32,32768,not-merged-model,3467,2.66,56.76,7.11,23.55,61.89,64.34,34.97,23.9
+alpindale/Mistral-7B-v0.2-hf (few-shot),7242,32,32768,not-merged-model,3467,2.66,56.76,7.11,23.55,61.89,64.33,34.97,23.9
 mistralai/Mistral-7B-Instruct-v0.2 (few-shot),7242,32,32768,not-merged-model,2538,2.67,55.56,12.37,21.5,50.77,67.99,22.86,24.8
 mistralai/Mistral-7B-v0.1 (few-shot),7242,32,32768,not-merged-model,2657,2.69,58.15,7.94,25.41,62.56,64.24,35.49,19.88
 RuterNorway/Llama-2-13b-chat-norwegian (few-shot),-1,32,4096,not-merged-model,7778,2.8,57.66,8.41,16.93,56.29,66.22,25.7,17.92
