@@ -643,6 +643,10 @@ def generate_csv_df(
     ])
     df = df[columns_to_include]
     assert isinstance(df, pd.DataFrame)
+
+    # Ensure that the merge column is boolean
+    df["merge"] = df["merge"].map(lambda x: x == "merged-model")
+
     return df
 
 
