@@ -128,7 +128,7 @@ title: {title}
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="The maximum amount of tokens the model can process">Context</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Number of tokens processed per second / Number of tokens processed in small documents per second">Speed</span></th>
 
-   <th id="rank-col"><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="The average number of standard deviations away from the best model">Distance to SOTA</span></th>
+   <th id="rank-col"><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="1 + the average number of standard deviations away from the best model">Rank</span></th>
     """
 
     # Add language rank columns, if there are multiple languages
@@ -138,7 +138,7 @@ title: {title}
                 continue
             language_name_title = language_name.title()
             BENCHMARK_HTML_START += f"""
-   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="The average number of standard deviations away from the best model on {language_name_title} tasks">Distance to {language_name_title} SOTA</span></th>"""
+   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="1 + the average number of standard deviations away from the best model on {language_name_title} tasks">{language_name_title} Rank</span></th>"""
         BENCHMARK_HTML_START += "\n"
 
     # Add dataset score columns
@@ -485,7 +485,7 @@ title: {title}
             float(values[dataset_underscore].split()[0])
             for values in dataset_values_sorted
         ])
-        rank_score = 0
+        rank_score = 1
         previous_scores: list[float] = list()
         for idx, values in enumerate(dataset_values_sorted):
             if idx == 0:
@@ -562,7 +562,8 @@ title: {title}
         )
 
         # Build the HTML for the leaderboard
-        if changed_model_ids:
+        force_update = os.getenv("FORCE_UPDATE", "0") == "1"
+        if changed_model_ids or force_update:
             html_lines = [BENCHMARK_HTML_START]
             for values in all_values:
                 html_lines.append(BENCHMARK_ENTRY.format(**values))
