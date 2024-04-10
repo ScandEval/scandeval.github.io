@@ -1,40 +1,40 @@
-model_id,num_model_parameters,vocabulary_size,max_sequence_length,merge,speed,rank,is_rank,fo_rank,mim_gold_ner,scala_is,nqii,rrn,mmlu_is,winogrande_is,fone,scala_fo
-"gpt-4-1106-preview (few-shot, val)",-1,100,128000,not-merged-model,576,1.0,1.0,1.0,86.37,52.13,37.26,69.61,68.38,74.78,86.51,35.09
-"gpt-3.5-turbo-0613 (few-shot, val)",-1,100,4095,not-merged-model,921,3.62,3.64,3.61,69.59,7.28,28.5,67.1,23.78,18.61,72.48,8.29
-"mlabonne/NeuralBeagle14-7B (few-shot, val)",7242,32,8192,merged-model,2549,3.99,4.17,3.81,49.86,1.26,22.48,65.6,10.13,12.9,62.78,3.69
-Nexusflow/Starling-LM-7B-beta (few-shot),7242,32,8192,not-merged-model,5876,4.02,4.31,3.73,49.2,4.45,24.61,63.74,9.81,1.14,66.98,5.8
-"mlabonne/AlphaMonarch-7B (few-shot, val)",7242,32,8192,merged-model,5340,4.03,4.32,3.73,50.85,1.8,20.23,64.46,9.92,9.09,64.39,4.74
-mhenrichsen/hestenettetLM (few-shot),7242,32,32768,not-merged-model,5160,4.04,4.28,3.81,50.82,0.99,25.74,61.72,10.43,3.94,62.82,4.96
-mistralai/Mistral-7B-v0.1 (few-shot),7242,32,32768,not-merged-model,2657,4.09,4.37,3.81,47.24,1.35,25.7,61.96,10.31,1.99,62.63,2.84
-"timpal0l/tyr (few-shot, val)",7242,32,32768,merged-model,6079,4.3,4.23,4.37,50.64,-0.06,23.36,63.8,9.94,15.83,60.21,0.0
-alpindale/Mistral-7B-v0.2-hf (few-shot),7242,32,32768,not-merged-model,3467,4.37,4.36,4.37,44.85,-0.69,25.52,61.54,10.21,4.62,61.26,1.66
-mistralai/Mistral-7B-Instruct-v0.2 (few-shot),7242,32,32768,not-merged-model,2538,4.43,4.48,4.37,43.11,3.4,19.18,65.01,7.55,0.24,61.28,1.68
-occiglot/occiglot-7b-eu5-instruct (few-shot),7242,32,32768,not-merged-model,2088,4.44,4.51,4.37,40.71,0.71,20.66,65.25,8.1,0.35,60.37,0.0
-occiglot/occiglot-7b-eu5 (few-shot),7242,32,32768,not-merged-model,2219,4.49,4.61,4.37,40.08,1.59,15.98,62.55,7.64,-0.51,58.67,0.0
-mistralai/Mistral-7B-Instruct-v0.1 (few-shot),7242,32,32768,not-merged-model,5443,4.56,4.61,4.52,36.04,-0.36,18.06,62.8,7.22,6.35,55.42,1.11
-meta-llama/Llama-2-7b-hf (few-shot),6738,32,4096,not-merged-model,2648,4.62,4.71,4.52,32.71,0.66,18.04,60.73,5.05,-0.0,52.34,0.11
-bineric/NorskGPT-Llama-7B-v0.1 (few-shot),6738,32,4096,not-merged-model,5384,4.64,4.77,4.52,34.62,-0.24,18.1,61.81,6.52,-1.9,53.38,0.46
-meta-llama/Llama-2-7b-chat-hf (few-shot),6738,32,4096,not-merged-model,2643,4.64,4.73,4.55,41.1,-1.07,16.13,62.3,3.27,1.84,59.77,-0.54
-tollefj/nordavind-7b-instruct-warm (few-shot),7248,33,2048,not-merged-model,6450,4.79,4.87,4.7,34.76,0.77,12.8,61.23,0.93,-0.76,53.24,-0.52
-LumiOpen/Viking-13B (few-shot),14030,131,4224,not-merged-model,3480,4.91,4.87,4.94,20.51,1.12,21.85,59.41,-0.48,0.06,43.11,-0.26
-timpal0l/Mistral-7B-v0.1-flashback-v2-instruct (few-shot),7242,32,32768,not-merged-model,5172,4.92,5.08,4.76,24.98,1.18,8.52,39.94,5.09,4.7,43.52,1.82
-Qwen/Qwen1.5-4B-Chat (few-shot),3950,152,32768,not-merged-model,4347,4.94,4.93,4.94,25.65,-0.35,14.46,62.11,6.32,-1.89,43.8,-0.42
-HPLT/gpt-7b-nordic-prerelease (few-shot),7550,131,4096,not-merged-model,5404,5.04,4.9,5.18,27.96,-0.0,23.17,55.57,-0.57,-2.72,32.16,-0.48
-Qwen/Qwen1.5-4B (few-shot),3950,152,32768,not-merged-model,3248,5.06,5.06,5.07,15.66,-0.55,14.11,57.17,6.15,-1.71,34.2,-0.36
-google/gemma-2b-it (few-shot),2506,256,8192,not-merged-model,6471,5.08,5.09,5.07,20.49,-0.01,10.95,59.16,2.42,0.62,37.6,-1.62
-google/gemma-2b (few-shot),2506,256,8192,not-merged-model,6087,5.08,4.94,5.21,8.83,0.31,16.08,60.0,4.71,0.0,20.15,1.28
-Qwen/Qwen1.5-1.8B-Chat (few-shot),1837,152,32768,not-merged-model,8304,5.12,5.12,5.13,14.15,0.78,7.8,57.27,3.87,1.92,26.11,0.15
-Qwen/Qwen1.5-1.8B (few-shot),1837,152,32768,not-merged-model,5666,5.21,5.21,5.21,12.26,0.94,6.31,55.32,3.79,1.13,18.65,1.14
-Qwen/Qwen1.5-0.5B (few-shot),620,152,32768,not-merged-model,11371,5.22,5.26,5.18,16.2,-0.57,3.31,56.0,2.71,0.85,29.34,-1.47
-allenai/OLMo-7B (few-shot),6888,50,2176,not-merged-model,5403,5.31,5.5,5.13,8.84,-0.38,5.08,42.35,2.31,-1.79,25.08,1.69
-Qwen/Qwen1.5-0.5B-Chat (few-shot),620,152,32768,not-merged-model,11740,5.32,5.27,5.38,9.5,1.76,3.14,58.92,2.82,1.48,22.3,-0.54
-allenai/OLMo-1B (few-shot),1177,50,2176,not-merged-model,8536,5.33,5.66,5.0,13.6,-1.04,1.51,37.41,-0.09,-1.03,31.84,1.01
-allenai/OLMo-7B-Twin-2T (few-shot),6888,50,2176,not-merged-model,5484,5.35,5.48,5.21,9.04,-0.08,8.86,40.35,1.17,-3.46,19.57,0.7
-01-ai/Yi-6B (few-shot),6061,64,4096,not-merged-model,2786,5.4,4.96,5.84,0.0,2.12,16.91,60.02,8.44,0.72,0.0,-0.28
-RuterNorway/Llama-2-7b-chat-norwegian (few-shot),-1,32,4096,not-merged-model,10890,5.4,5.42,5.38,9.48,0.07,1.04,55.16,0.74,-0.16,18.86,-0.43
-NorGLM/NorGPT-369M (few-shot),-1,64,1024,not-merged-model,19896,5.64,5.66,5.63,1.68,-1.38,0.08,44.02,-0.4,0.28,1.84,0.0
-Sigurdur/icebreaker (few-shot),110,32,1024,not-merged-model,48619,5.66,5.65,5.66,0.0,0.0,0.0,44.8,0.25,0.38,0.0,0.0
-Sigurdur/icechat (few-shot),110,32,1024,not-merged-model,49558,5.68,5.69,5.66,0.0,0.0,0.0,42.46,-0.37,0.0,0.0,0.0
-Sigurdur/qa-icebreaker (few-shot),110,32,1024,not-merged-model,44889,5.68,5.7,5.66,0.0,0.0,0.0,42.23,-0.55,0.0,0.0,0.0
-ai-forever/mGPT (few-shot),-1,100,1024,not-merged-model,13551,5.91,5.98,5.84,0.0,0.0,0.0,17.11,0.69,0.47,0.0,-0.24
-Sigurdur/jonas-hallgrimsson-gpt2 (few-shot),125,51,512,not-merged-model,32644,5.94,6.21,5.66,0.0,0.0,0.0,0.0,0.08,-0.01,0.0,0.0
+model_id,num_model_parameters,vocabulary_size,max_sequence_length,commercially_licensed,merge,speed,rank,is_rank,fo_rank,mim_gold_ner,scala_is,nqii,rrn,mmlu_is,winogrande_is,fone,scala_fo
+"gpt-4-1106-preview (few-shot, val)",-1,100,128000,True,False,576,1.0,1.0,1.0,86.37,52.13,37.26,69.61,68.38,74.78,86.51,35.09
+"gpt-3.5-turbo-0613 (few-shot, val)",-1,100,4095,True,False,921,3.62,3.64,3.61,69.59,7.28,28.5,67.1,23.78,18.61,72.48,8.29
+"mlabonne/NeuralBeagle14-7B (few-shot, val)",7242,32,8192,False,True,2549,3.99,4.17,3.81,49.86,1.26,22.48,65.6,10.13,12.9,62.78,3.69
+Nexusflow/Starling-LM-7B-beta (few-shot),7242,32,8192,False,False,5876,4.02,4.31,3.73,49.2,4.45,24.61,63.74,9.81,1.14,66.98,5.8
+"mlabonne/AlphaMonarch-7B (few-shot, val)",7242,32,8192,False,True,5340,4.03,4.32,3.73,50.85,1.8,20.23,64.46,9.92,9.09,64.39,4.74
+mhenrichsen/hestenettetLM (few-shot),7242,32,32768,True,False,5160,4.04,4.28,3.81,50.82,0.99,25.74,61.72,10.43,3.94,62.82,4.96
+mistralai/Mistral-7B-v0.1 (few-shot),7242,32,32768,True,False,2657,4.09,4.37,3.81,47.24,1.35,25.7,61.96,10.31,1.99,62.63,2.84
+"timpal0l/tyr (few-shot, val)",7242,32,32768,False,True,6079,4.3,4.23,4.37,50.64,-0.06,23.36,63.8,9.94,15.83,60.21,0.0
+alpindale/Mistral-7B-v0.2-hf (few-shot),7242,32,32768,True,False,3467,4.37,4.36,4.37,44.85,-0.69,25.52,61.54,10.21,4.62,61.26,1.66
+mistralai/Mistral-7B-Instruct-v0.2 (few-shot),7242,32,32768,False,False,2538,4.43,4.48,4.37,43.11,3.4,19.18,65.01,7.55,0.24,61.28,1.68
+occiglot/occiglot-7b-eu5-instruct (few-shot),7242,32,32768,False,False,2088,4.44,4.51,4.37,40.71,0.71,20.66,65.25,8.1,0.35,60.37,0.0
+occiglot/occiglot-7b-eu5 (few-shot),7242,32,32768,True,False,2219,4.49,4.61,4.37,40.08,1.59,15.98,62.55,7.64,-0.51,58.67,0.0
+mistralai/Mistral-7B-Instruct-v0.1 (few-shot),7242,32,32768,False,False,5443,4.56,4.61,4.52,36.04,-0.36,18.06,62.8,7.22,6.35,55.42,1.11
+meta-llama/Llama-2-7b-hf (few-shot),6738,32,4096,True,False,2648,4.62,4.71,4.52,32.71,0.66,18.04,60.73,5.05,-0.0,52.34,0.11
+bineric/NorskGPT-Llama-7B-v0.1 (few-shot),6738,32,4096,False,False,5384,4.64,4.77,4.52,34.62,-0.24,18.1,61.81,6.52,-1.9,53.38,0.46
+meta-llama/Llama-2-7b-chat-hf (few-shot),6738,32,4096,False,False,2643,4.64,4.73,4.55,41.1,-1.07,16.13,62.3,3.27,1.84,59.77,-0.54
+tollefj/nordavind-7b-instruct-warm (few-shot),7248,33,2048,False,False,6450,4.79,4.87,4.7,34.76,0.77,12.8,61.23,0.93,-0.76,53.24,-0.52
+LumiOpen/Viking-13B (few-shot),14030,131,4224,True,False,3480,4.91,4.87,4.94,20.51,1.12,21.85,59.41,-0.48,0.06,43.11,-0.26
+timpal0l/Mistral-7B-v0.1-flashback-v2-instruct (few-shot),7242,32,32768,False,False,5172,4.92,5.08,4.76,24.98,1.18,8.52,39.94,5.09,4.7,43.52,1.82
+Qwen/Qwen1.5-4B-Chat (few-shot),3950,152,32768,False,False,4347,4.94,4.93,4.94,25.65,-0.35,14.46,62.11,6.32,-1.89,43.8,-0.42
+HPLT/gpt-7b-nordic-prerelease (few-shot),7550,131,4096,True,False,5404,5.04,4.9,5.18,27.96,-0.0,23.17,55.57,-0.57,-2.72,32.16,-0.48
+Qwen/Qwen1.5-4B (few-shot),3950,152,32768,True,False,3248,5.06,5.06,5.07,15.66,-0.55,14.11,57.17,6.15,-1.71,34.2,-0.36
+google/gemma-2b-it (few-shot),2506,256,8192,False,False,6471,5.08,5.09,5.07,20.49,-0.01,10.95,59.16,2.42,0.62,37.6,-1.62
+google/gemma-2b (few-shot),2506,256,8192,True,False,6087,5.08,4.94,5.21,8.83,0.31,16.08,60.0,4.71,0.0,20.15,1.28
+Qwen/Qwen1.5-1.8B-Chat (few-shot),1837,152,32768,False,False,8304,5.12,5.12,5.13,14.15,0.78,7.8,57.27,3.87,1.92,26.11,0.15
+Qwen/Qwen1.5-1.8B (few-shot),1837,152,32768,True,False,5666,5.21,5.21,5.21,12.26,0.94,6.31,55.32,3.79,1.13,18.65,1.14
+Qwen/Qwen1.5-0.5B (few-shot),620,152,32768,True,False,11371,5.22,5.26,5.18,16.2,-0.57,3.31,56.0,2.71,0.85,29.34,-1.47
+allenai/OLMo-7B (few-shot),6888,50,2176,True,False,5403,5.31,5.5,5.13,8.84,-0.38,5.08,42.35,2.31,-1.79,25.08,1.69
+Qwen/Qwen1.5-0.5B-Chat (few-shot),620,152,32768,False,False,11740,5.32,5.27,5.38,9.5,1.76,3.14,58.92,2.82,1.48,22.3,-0.54
+allenai/OLMo-1B (few-shot),1177,50,2176,True,False,8536,5.33,5.66,5.0,13.6,-1.04,1.51,37.41,-0.09,-1.03,31.84,1.01
+allenai/OLMo-7B-Twin-2T (few-shot),6888,50,2176,True,False,5484,5.35,5.48,5.21,9.04,-0.08,8.86,40.35,1.17,-3.46,19.57,0.7
+01-ai/Yi-6B (few-shot),6061,64,4096,True,False,2786,5.4,4.96,5.84,0.0,2.12,16.91,60.02,8.44,0.72,0.0,-0.28
+RuterNorway/Llama-2-7b-chat-norwegian (few-shot),-1,32,4096,False,False,10890,5.4,5.42,5.38,9.48,0.07,1.04,55.16,0.74,-0.16,18.86,-0.43
+NorGLM/NorGPT-369M (few-shot),-1,64,1024,True,False,19896,5.64,5.66,5.63,1.68,-1.38,0.08,44.02,-0.4,0.28,1.84,0.0
+Sigurdur/icebreaker (few-shot),110,32,1024,False,False,48619,5.66,5.65,5.66,0.0,0.0,0.0,44.8,0.25,0.38,0.0,0.0
+Sigurdur/icechat (few-shot),110,32,1024,False,False,49558,5.68,5.69,5.66,0.0,0.0,0.0,42.46,-0.37,0.0,0.0,0.0
+Sigurdur/qa-icebreaker (few-shot),110,32,1024,False,False,44889,5.68,5.7,5.66,0.0,0.0,0.0,42.23,-0.55,0.0,0.0,0.0
+ai-forever/mGPT (few-shot),-1,100,1024,True,False,13551,5.91,5.98,5.84,0.0,0.0,0.0,17.11,0.69,0.47,0.0,-0.24
+Sigurdur/jonas-hallgrimsson-gpt2 (few-shot),125,51,512,False,False,32644,5.94,6.21,5.66,0.0,0.0,0.0,0.0,0.08,-0.01,0.0,0.0
