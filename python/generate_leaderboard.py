@@ -648,8 +648,11 @@ def generate_csv_df(
     df = df[columns_to_include]
     assert isinstance(df, pd.DataFrame)
 
-    # Ensure that the merge column is boolean
+    # Ensure that the merge and commercially_licensed columns are booleans
     df["merge"] = df["merge"].map(lambda x: x == "merged-model")
+    df["commercially_licensed"] = df["commercially_licensed"].map(
+        lambda x: x == "True"
+    )
 
     return df
 
