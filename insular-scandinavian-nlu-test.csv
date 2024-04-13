@@ -85,7 +85,7 @@ asafaya/bert-base-arabic,110,32,512,True,False,16347,4.39,4.09,4.69,22.51,0.23,5
 google/gemma-2b (few-shot),2506,256,8192,True,False,6087,4.42,3.76,5.09,8.83,0.31,16.08,20.15,1.28
 google/gemma-2b-it (few-shot),2506,256,8192,False,False,6471,4.44,3.87,5.0,20.49,-0.01,10.95,37.6,-1.62
 Maltehb/danish-bert-botxo,110,32,512,True,False,16091,4.45,4.22,4.68,12.64,0.06,4.77,43.59,3.13
-fresh-xlm-roberta-base,277,250,512,True,False,1319,4.48,4.35,4.62,17.34,-0.06,1.02,48.7,2.37
+fresh-xlm-roberta-base,277,250,512,True,False,2214,4.48,4.35,4.62,17.34,-0.06,1.02,48.7,2.37
 alexanderfalk/danbert-small-cased,83,52,512,True,False,30013,4.5,4.33,4.68,12.39,1.63,1.7,45.16,2.24
 allenai/OLMo-7B-Twin-2T (few-shot),6888,50,2176,True,False,5484,4.58,4.08,5.09,9.04,-0.08,8.86,19.57,0.7
 Qwen/Qwen1.5-1.8B-Chat (few-shot),1837,152,32768,False,False,8304,4.6,4.06,5.14,14.15,0.78,7.8,26.11,0.15
@@ -96,7 +96,7 @@ Qwen/Qwen1.5-0.5B (few-shot),620,152,32768,True,False,11371,4.69,4.24,5.13,16.2,
 01-ai/Yi-6B (few-shot),6061,64,4096,True,False,2786,4.71,3.83,5.6,0.0,2.12,16.91,0.0,-0.28
 Qwen/Qwen1.5-0.5B-Chat (few-shot),620,152,32768,False,False,11740,4.75,4.3,5.21,9.5,1.76,3.14,22.3,-0.54
 RuterNorway/Llama-2-7b-chat-norwegian (few-shot),-1,32,4096,False,False,10890,4.81,4.41,5.21,9.48,0.07,1.04,18.86,-0.43
-fresh-electra-small,13,31,512,True,False,7219,4.92,4.46,5.39,9.96,-0.1,0.12,12.1,0.64
+fresh-electra-small,13,31,512,True,False,7561,4.92,4.46,5.39,9.96,-0.1,0.12,12.1,0.64
 ltg/norbert,112,33,512,True,False,16280,5.06,4.53,5.6,0.0,-0.03,1.68,0.0,-1.21
 NorGLM/NorGPT-369M (few-shot),-1,64,1024,True,False,19896,5.08,4.59,5.57,1.68,-1.38,0.08,1.84,0.0
 RJuro/kanelsnegl-v0.1 (few-shot),7242,32,512,True,False,9757,5.1,4.6,5.6,0.0,0.0,0.0,0.0,0.0
