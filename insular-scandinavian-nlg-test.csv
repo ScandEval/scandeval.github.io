@@ -6,7 +6,7 @@ Nexusflow/Starling-LM-7B-beta (few-shot),7242,32,8192,False,False,5876,4.02,4.31
 "mlabonne/AlphaMonarch-7B (few-shot, val)",7242,32,8192,False,True,5340,4.03,4.32,3.73,50.85,1.8,20.23,64.46,9.92,9.09,64.39,4.74
 mhenrichsen/hestenettetLM (few-shot),7242,32,32768,True,False,5160,4.04,4.27,3.81,50.82,0.99,25.74,61.72,10.43,3.94,62.82,4.96
 mistralai/Mistral-7B-v0.1 (few-shot),7242,32,32768,True,False,2657,4.09,4.37,3.81,47.24,1.35,25.7,61.96,10.31,1.99,62.63,2.84
-"timpal0l/tyr (few-shot, val)",7242,32,32768,False,True,6079,4.3,4.23,4.37,50.64,-0.06,23.36,63.8,9.94,15.83,60.21,0.0
+"AI-Sweden-Models/tyr (few-shot, val)",7242,32,32768,False,True,6079,4.3,4.23,4.37,50.64,-0.06,23.36,63.8,9.94,15.83,60.21,0.0
 alpindale/Mistral-7B-v0.2-hf (few-shot),7242,32,32768,True,False,1841,4.37,4.36,4.37,44.85,-0.69,25.52,61.54,10.42,4.46,61.26,1.66
 mistralai/Mistral-7B-Instruct-v0.2 (few-shot),7242,32,32768,False,False,2538,4.43,4.48,4.37,43.11,3.4,19.18,65.01,7.55,0.24,61.28,1.68
 occiglot/occiglot-7b-eu5-instruct (few-shot),7242,32,32768,False,False,2088,4.44,4.51,4.37,40.71,0.71,20.66,65.25,8.1,0.35,60.37,0.0
