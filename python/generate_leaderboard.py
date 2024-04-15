@@ -243,9 +243,8 @@ title: {title}
         model_id: str = record["model"]
         model_notes: list[str] = list()
 
-        # TODO: Add back when we support non-few-shot models
-        # if record.get("generative", True) and record.get("few_shot", True):
-        #     model_notes.append("few-shot")
+        if record.get("generative", True) and record.get("few_shot", True):
+            model_notes.append("few-shot")
 
         if record.get("validation_split", False):
             model_notes.append("val")
