@@ -104,7 +104,7 @@ def generate_leaderboard(
     metric_mapping["speed"] = "Number of tokens processed per second"
     metric_mapping["speed_short"] = "Number of tokens processed in small documents per second"
 
-    title_kebab = title.lower().replace(" ", "-") + "-test"
+    title_kebab = re.sub(r"[^a-zæøå\- ]", "", title.lower()).strip().replace(" ", "-") + "-test"
 
     BENCHMARK_HTML_START = f"""---
 layout: leaderboard
@@ -711,7 +711,7 @@ def get_embed_code(title: str, csv_url: str, csv_df: pd.DataFrame) -> str:
     }
 
     dw_kwargs = dict(
-        title=title,
+        title=re.sub(r"[^a-zA-Zæøå\- ]", "", title).strip(),
         chart_type="tables",
         external_data_url=csv_url,
         metadata=metadata,
