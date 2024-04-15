@@ -10,14 +10,6 @@ The `ScandEval` benchmark can be used to compare pretrained language models on t
 Danish, Swedish, Norwegian Bokmål, Norwegian Nynorsk, Icelandic, Faroese, German, Dutch
 and English.
 
-For the Scandinavian languages, [it has been
-shown](https://aclanthology.org/2023.nodalida-1.20/) that it is beneficial to separate
-the Scandinavian languages into two groups for the purpose of language model
-evaluation. The group of "Mainland Scandinavian languages" consists of Danish, Swedish,
-Norwegian Bokmål and Norwegian Nynorsk, and the group of "Insular Scandinavian
-languages" consists of Icelandic and Faroese. For this reason, the Scandinavian
-languages have been grouped into two separate leaderboards in this way.
-
 When evaluating language models we also split "Natural Language Processing" (NLP) into
 two groups. "Natural Language Understanding" (NLU) is concerned with an analysis of
 input text, and being able to extract insights from it. "Natural Language Generation"

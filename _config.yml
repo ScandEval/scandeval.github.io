@@ -18,12 +18,20 @@ description: A Natural Language Understanding Benchmark
 # List of links in the navigation bar
 navbar-links:
   About: "index"
-  Mainland Scandi:
-    - NLU Leaderboard: "mainland-scandinavian-nlu"
-    - NLG Leaderboard: "mainland-scandinavian-nlg"
-  Insular Scandi:
-    - NLU Leaderboard: "insular-scandinavian-nlu"
-    - NLG Leaderboard: "insular-scandinavian-nlg"
+  Danish:
+    - NLU Leaderboard: "danish-nlu"
+    - NLG Leaderboard: "danish-nlg"
+  Swedish:
+    - NLU Leaderboard: "swedish-nlu"
+    - NLG Leaderboard: "swedish-nlg"
+  Norwegian:
+    - NLU Leaderboard: "norwegian-nlu"
+    - NLG Leaderboard: "norwegian-nlg"
+  Icelandic:
+    - NLU Leaderboard: "icelandic-nlu"
+    - NLG Leaderboard: "icelandic-nlg"
+  Faroese:
+    - NLU Leaderboard: "faroese-nlu"
   German:
     - NLU Leaderboard: "german-nlu"
     - NLG Leaderboard: "german-nlg"
