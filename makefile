@@ -48,8 +48,8 @@ download:
 	@scp -o ConnectTimeout=5 hamster:/home/ubuntu/scandeval_benchmark_results.jsonl hamster_results.jsonl || true
 	@scp -o ConnectTimeout=5 creosote:/home/ubuntu/scandeval_benchmark_results.jsonl creosote_results.jsonl || true
 	@scp -o ConnectTimeout=5 percival:/home/alex-admin/scandeval_benchmark_results.jsonl percival_results.jsonl || true
-	@scp -o ConnectTimeout=5 dfm-a40:/home/ucloud/scandeval_benchmark_results.jsonl percival_results.jsonl || true
-	@scp -o ConnectTimeout=5 dfm-a100:/home/ucloud/scandeval_benchmark_results.jsonl percival_results.jsonl || true
+	@scp -o ConnectTimeout=5 dfm-a40:/home/ucloud/scandeval_benchmark_results.jsonl dfm-a40_results.jsonl || true
+	@scp -o ConnectTimeout=5 dfm-a100:/home/ucloud/scandeval_benchmark_results.jsonl dfm-a100_results.jsonl || true
 	@touch scandeval_benchmark_results.jsonl
 	@if [ -f blackknight_results.jsonl ]; then \
 		cat blackknight_results.jsonl >> scandeval_benchmark_results.jsonl; \
