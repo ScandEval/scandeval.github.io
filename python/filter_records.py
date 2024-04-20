@@ -241,9 +241,15 @@ def record_is_valid(record: dict) -> bool:
     merged_model = record.get("merge", False)
     evaluated_on_validation_split = record.get("validation_split", False)
     openai_model = re.search(r"gpt-[34][-.0-9a-z]+", record.get("model", ""))
+    large_model = record["num_model_parameters"] > 70_000_000_000
     if (
         (merged_model and not evaluated_on_validation_split)
-        or (not merged_model and evaluated_on_validation_split and not openai_model)
+        or (
+            not merged_model
+            and evaluated_on_validation_split
+            and not openai_model
+            and not large_model
+        )
     ):
         return False
 
