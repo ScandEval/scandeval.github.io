@@ -43,7 +43,7 @@ AI-Sweden-Models/bert-large-nordic-pile-1M-steps,369,64,512,True,False,6571,2.11
 "birgermoell/Rapid-Cycling (few-shot, val)",7242,32,32768,False,True,2346,2.11,49.99,51.25,20.66,56.82
 "merge-crew/da-sv-dare-ties-density-0.9 (few-shot, val)",7242,32,32768,True,True,2443,2.12,45.61,53.73,17.08,56.67
 cardiffnlp/twitter-xlm-roberta-base,278,250,512,True,False,14837,2.14,70.1,45.3,51.74,22.01
-meta-llama/Meta-Llama-3-8B-Instruct (few-shot),8030,128,8192,False,False,4909,2.14,57.74,48.43,27.12,46.76
+meta-llama/Meta-Llama-3-8B-Instruct (few-shot),8030,128,8192,True,False,4909,2.14,57.74,48.43,27.12,46.76
 "mlabonne/NeuralBeagle14-7B (few-shot, val)",7242,32,8192,False,True,2549,2.14,53.02,51.29,19.73,51.69
 ltg/norbert3-small,41,50,508,True,False,13515,2.15,67.89,39.34,50.9,34.82
 "merge-crew/da-sv-ties (few-shot, val)",7242,32,32768,True,True,2457,2.15,45.39,51.95,13.25,58.51

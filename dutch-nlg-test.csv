@@ -6,7 +6,7 @@ upstage/SOLAR-10.7B-v1.0 (few-shot),10732,32,4096,True,False,3780,1.93,65.37,11.
 Nexusflow/Starling-LM-7B-beta (few-shot),7242,32,8192,False,False,5876,2.0,64.47,13.83,45.69,58.03,69.34,37.6,54.33
 "mlabonne/NeuralBeagle14-7B (few-shot, val)",7242,32,8192,False,True,2549,2.28,63.53,11.25,27.76,50.94,71.2,40.23,47.87
 senseable/WestLake-7B-v2 (few-shot),7242,32,32768,False,False,5993,2.3,64.25,13.66,28.59,49.64,68.66,35.37,47.5
-meta-llama/Meta-Llama-3-8B-Instruct (few-shot),8030,128,8192,False,False,4909,2.36,68.72,14.67,32.91,45.36,67.62,36.18,33.91
+meta-llama/Meta-Llama-3-8B-Instruct (few-shot),8030,128,8192,True,False,4909,2.36,68.72,14.67,32.91,45.36,67.62,36.18,33.91
 meta-llama/Meta-Llama-3-8B (few-shot),8030,128,8192,True,False,4687,2.4,62.26,10.45,30.3,62.99,65.17,36.38,28.33
 "mlabonne/AlphaMonarch-7B (few-shot, val)",7242,32,8192,False,True,5340,2.44,64.71,11.14,25.22,46.34,67.71,38.49,47.66
 robinsmits/Qwen1.5-7B-Dutch-Chat-Sft-Bf16 (few-shot),7719,152,32768,False,False,2413,2.52,56.83,14.79,23.58,55.9,65.06,33.73,29.29

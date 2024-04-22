@@ -84,7 +84,7 @@ ThatsGroes/munin-SkoleGPTOpenOrca-7b-16bit (few-shot),7242,32,32768,False,False,
 mhenrichsen/hestenettetLM (few-shot),7242,32,32768,True,False,5160,2.12,53.0,79.7,4.32,59.03
 Geotrend/bert-base-da-cased,104,23,512,True,False,15432,2.13,74.13,62.18,36.93,37.59
 jonfd/electra-small-nordic,22,96,128,True,False,5989,2.14,71.07,66.42,69.19,11.85
-meta-llama/Meta-Llama-3-8B-Instruct (few-shot),8030,128,8192,False,False,4909,2.14,69.67,59.93,27.63,49.84
+meta-llama/Meta-Llama-3-8B-Instruct (few-shot),8030,128,8192,True,False,4909,2.14,69.67,59.93,27.63,49.84
 danish-foundation-models/munin-7b-alpha (few-shot),7242,32,32768,True,False,6116,2.15,42.23,78.8,15.47,56.75
 timpal0l/Mistral-7B-v0.1-flashback-v2-instruct (few-shot),7242,32,32768,False,False,5172,2.15,46.74,77.06,14.0,56.74
 bineric/NorskGPT-Mistral-7b (few-shot),7242,32,32768,False,False,2443,2.18,58.4,74.3,0.0,59.16

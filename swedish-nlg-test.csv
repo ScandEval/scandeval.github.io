@@ -13,7 +13,7 @@ meta-llama/Meta-Llama-3-8B (few-shot),8030,128,8192,True,False,4687,2.47,60.36,7
 "birgermoell/Flashback-Bellman (few-shot, val)",7242,32,32768,False,True,2887,2.54,55.29,78.29,18.45,58.42,67.54,29.44,37.45
 "timpal0l/BeagleCatMunin2 (few-shot, val)",7242,32,32768,False,True,2477,2.54,60.87,73.72,6.78,58.75,68.06,33.71,41.45
 "merge-crew/da-sv-dare-ties-density-0.9 (few-shot, val)",7242,32,32768,True,True,2443,2.57,46.61,76.38,34.16,58.77,66.77,29.77,25.38
-meta-llama/Meta-Llama-3-8B-Instruct (few-shot),8030,128,8192,False,False,4909,2.57,69.67,59.93,27.63,49.84,66.6,33.54,30.32
+meta-llama/Meta-Llama-3-8B-Instruct (few-shot),8030,128,8192,True,False,4909,2.57,69.67,59.93,27.63,49.84,66.6,33.54,30.32
 timpal0l/Mistral-7B-v0.1-flashback-v2 (few-shot),7242,32,32768,True,False,5054,2.57,44.14,80.14,34.23,57.07,65.15,33.24,25.5
 "RJuro/munin-neuralbeagle-SkoleGPTOpenOrca-7b (few-shot, val)",7242,32,32768,False,True,3008,2.58,59.36,72.04,22.38,57.96,65.13,29.81,35.59
 "birgermoell/Rapid-Cycling (few-shot, val)",7242,32,32768,False,True,2346,2.58,53.66,77.72,16.22,59.75,67.57,27.24,32.04

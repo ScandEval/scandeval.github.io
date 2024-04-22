@@ -7,7 +7,7 @@ VAGOsolutions/SauerkrautLM-7b-LaserChat (few-shot),7242,32,8192,False,False,2387
 "gpt-3.5-turbo-0613 (few-shot, val)",-1,100,4095,True,False,921,1.86,61.5,55.5,38.96,30.2,64.9,35.39,56.88
 "VAGOsolutions/SauerkrautLM-7b-HerO (few-shot, val)",7242,32,32768,False,True,2477,1.88,59.7,60.22,35.99,29.68,66.73,30.53,45.02
 "cstr/Spaetzle-v8-7b (few-shot, val)",7242,32,32768,False,True,5980,1.91,58.9,61.34,31.58,24.91,67.25,34.62,48.7
-meta-llama/Meta-Llama-3-8B-Instruct (few-shot),8030,128,8192,False,False,4909,1.96,68.18,58.33,29.12,28.68,65.23,38.44,37.69
+meta-llama/Meta-Llama-3-8B-Instruct (few-shot),8030,128,8192,True,False,4909,1.96,68.18,58.33,29.12,28.68,65.23,38.44,37.69
 meta-llama/Meta-Llama-3-8B (few-shot),8030,128,8192,True,False,4687,1.96,56.0,56.4,22.01,35.39,68.92,38.12,31.37
 "mlabonne/NeuralBeagle14-7B (few-shot, val)",7242,32,8192,False,True,2549,1.96,64.81,59.6,27.06,25.22,67.31,35.84,49.13
 VAGOsolutions/FC-SauerkrautLM-7b-beta (few-shot),-1,32,8192,False,False,2160,2.0,56.7,53.39,35.64,34.22,64.79,32.85,39.0

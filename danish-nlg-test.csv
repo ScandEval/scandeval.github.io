@@ -16,7 +16,7 @@ Nexusflow/Starling-LM-7B-beta (few-shot),7242,32,8192,False,False,5876,2.04,53.2
 "timpal0l/BeagleCatMunin (few-shot, val)",7242,32,32768,False,True,2495,2.32,47.62,54.73,21.8,57.26,67.31,66.49,60.41,28.51
 Mabeck/Heidrun-Mistral-7B-chat (few-shot),7242,32,32768,False,False,5822,2.35,50.8,42.79,23.25,59.9,67.5,66.61,64.8,29.18
 senseable/WestLake-7B-v2 (few-shot),7242,32,32768,False,False,5993,2.36,52.61,49.81,19.64,48.03,66.67,57.65,51.99,44.44
-meta-llama/Meta-Llama-3-8B-Instruct (few-shot),8030,128,8192,False,False,4909,2.38,57.74,48.43,27.12,46.76,66.36,57.87,50.42,29.17
+meta-llama/Meta-Llama-3-8B-Instruct (few-shot),8030,128,8192,True,False,4909,2.38,57.74,48.43,27.12,46.76,66.36,57.87,50.42,29.17
 danish-foundation-models/munin-7b-v0.1dev0 (few-shot),7242,32,8192,True,False,6113,2.39,39.12,36.47,26.76,58.75,67.89,91.32,79.92,24.76
 meta-llama/Meta-Llama-3-8B (few-shot),8030,128,8192,True,False,4687,2.39,46.31,51.29,25.7,59.79,65.16,56.2,61.16,24.99
 ThatsGroes/munin-SkoleGPTOpenOrca-7b-16bit (few-shot),7242,32,32768,False,False,3006,2.4,45.37,39.63,21.77,58.28,67.91,78.71,63.74,28.58

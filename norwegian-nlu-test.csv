@@ -40,7 +40,7 @@ jonfd/electra-small-nordic,22,96,128,True,False,5989,2.36,84.95,79.57,40.15,72.8
 upstage/SOLAR-10.7B-v1.0 (few-shot),10732,32,4096,True,False,3780,2.36,68.11,68.19,55.33,10.15,7.51,55.33
 Nexusflow/Starling-LM-7B-beta (few-shot),7242,32,8192,False,False,5876,2.37,66.22,64.14,55.48,26.13,17.32,49.75
 google-bert/bert-base-multilingual-cased,178,120,512,True,False,14083,2.37,88.72,83.08,35.87,44.22,39.55,40.55
-meta-llama/Meta-Llama-3-8B-Instruct (few-shot),8030,128,8192,False,False,4909,2.39,74.47,72.93,50.62,27.77,20.35,42.9
+meta-llama/Meta-Llama-3-8B-Instruct (few-shot),8030,128,8192,True,False,4909,2.39,74.47,72.93,50.62,27.77,20.35,42.9
 "birgermoell/Munin-NeuralBeagle-NorskGPT (few-shot, val)",7242,32,32768,False,True,2903,2.41,63.33,68.84,58.28,18.65,10.72,44.39
 "birgermoell/WestLake-Munin-Cat-NorskGPT (few-shot, val)",7242,32,32768,False,True,2856,2.41,63.33,68.84,58.28,18.65,10.72,44.39
 Geotrend/bert-base-en-no-cased,111,33,512,True,False,14081,2.42,89.07,82.69,34.97,39.58,31.27,41.89

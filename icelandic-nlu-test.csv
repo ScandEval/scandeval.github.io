@@ -20,7 +20,7 @@ setu4993/LaBSE,471,501,512,True,False,13386,2.41,80.45,36.92,11.75
 NbAiLab/nb-roberta-base-scandi-1e4,277,250,512,True,False,15074,2.42,81.83,51.09,6.66
 pere/roberta-debug-32,277,250,512,True,False,14958,2.44,79.18,50.77,6.98
 FacebookAI/xlm-roberta-large,559,250,512,True,False,6663,2.49,82.83,22.78,15.72
-meta-llama/Meta-Llama-3-8B-Instruct (few-shot),8030,128,8192,False,False,4909,2.54,61.69,6.1,31.52
+meta-llama/Meta-Llama-3-8B-Instruct (few-shot),8030,128,8192,True,False,4909,2.54,61.69,6.1,31.52
 upstage/SOLAR-10.7B-v1.0 (few-shot),10732,32,4096,True,False,3780,2.54,62.08,7.58,29.66
 "gpt-3.5-turbo-0613 (few-shot, val)",-1,100,4095,True,False,921,2.57,69.59,7.28,28.5
 meta-llama/Meta-Llama-3-8B (few-shot),8030,128,8192,True,False,4687,2.7,48.7,7.49,29.56

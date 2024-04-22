@@ -21,7 +21,7 @@ Nexusflow/Starling-LM-7B-beta (few-shot),7242,32,8192,False,False,5876,2.21,64.4
 upstage/SOLAR-10.7B-v1.0 (few-shot),10732,32,4096,True,False,3780,2.25,65.37,11.93,41.67,67.75
 cardiffnlp/twitter-xlm-roberta-base,277,250,512,True,False,14837,2.3,77.15,18.78,56.72,14.61
 sentence-transformers/paraphrase-xlm-r-multilingual-v1,277,250,512,True,False,14994,2.37,70.59,21.37,45.86,5.2
-meta-llama/Meta-Llama-3-8B-Instruct (few-shot),8030,128,8192,False,False,4909,2.4,68.72,14.67,32.91,45.36
+meta-llama/Meta-Llama-3-8B-Instruct (few-shot),8030,128,8192,True,False,4909,2.4,68.72,14.67,32.91,45.36
 DTAI-KULeuven/robbertje-1-gb-bort,45,40,512,True,False,31087,2.45,66.74,24.93,37.19,5.23
 meta-llama/Meta-Llama-3-8B (few-shot),8030,128,8192,True,False,4687,2.45,62.26,10.45,30.3,62.99
 senseable/WestLake-7B-v2 (few-shot),7242,32,32768,False,False,5993,2.51,64.25,13.66,28.59,49.64

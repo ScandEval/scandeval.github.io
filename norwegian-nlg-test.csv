@@ -7,7 +7,7 @@ Nexusflow/Starling-LM-7B-beta (few-shot),7242,32,8192,False,False,5876,2.63,66.2
 bineric/NorskGPT-Mistral-7b (few-shot),7242,32,32768,False,False,2443,2.68,63.28,61.25,56.9,65.72,13.86,10.17,49.03,32.37,47.62
 "birgermoell/Munin-NeuralBeagle-NorskGPT (few-shot, val)",7242,32,32768,False,True,2903,2.73,63.33,68.84,58.28,65.94,18.65,10.72,44.39,26.61,46.64
 "birgermoell/WestLake-Munin-Cat-NorskGPT (few-shot, val)",7242,32,32768,False,True,2856,2.73,63.33,68.84,58.28,65.94,18.65,10.72,44.39,26.61,46.64
-meta-llama/Meta-Llama-3-8B-Instruct (few-shot),8030,128,8192,False,False,4909,2.74,74.47,72.93,50.62,63.98,27.77,20.35,42.9,33.44,30.91
+meta-llama/Meta-Llama-3-8B-Instruct (few-shot),8030,128,8192,True,False,4909,2.74,74.47,72.93,50.62,63.98,27.77,20.35,42.9,33.44,30.91
 "RJuro/munin-neuralbeagle-7b (few-shot, val)",7242,32,32768,False,True,2493,2.8,61.18,65.16,55.61,65.99,20.84,9.12,42.92,27.77,39.67
 meta-llama/Meta-Llama-3-8B (few-shot),8030,128,8192,True,False,4687,2.8,61.48,61.58,49.87,63.38,21.2,19.65,53.35,33.02,24.93
 "timpal0l/BeagleCatMunin2 (few-shot, val)",7242,32,32768,False,True,2477,2.85,61.17,65.44,58.69,66.08,15.03,5.95,42.42,27.31,41.63

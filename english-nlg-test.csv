@@ -9,7 +9,7 @@ VAGOsolutions/FC-SauerkrautLM-7b-beta (few-shot),-1,32,8192,False,False,2160,1.5
 "VAGOsolutions/SauerkrautLM-7b-HerO (few-shot, val)",7242,32,32768,False,True,2477,1.72,69.26,68.63,29.87,60.92,70.2,49.51,71.47
 "mlabonne/NeuralBeagle14-7B (few-shot, val)",7242,32,8192,False,True,2549,1.8,69.16,63.85,28.4,52.69,70.55,51.74,71.96
 robinsmits/Qwen1.5-7B-Dutch-Chat-Sft-Bf16 (few-shot),7719,152,32768,False,False,2413,1.82,67.52,63.1,37.75,64.88,68.45,47.66,63.35
-meta-llama/Meta-Llama-3-8B-Instruct (few-shot),8030,128,8192,False,False,4909,1.83,75.02,67.64,32.29,54.84,69.28,53.77,57.64
+meta-llama/Meta-Llama-3-8B-Instruct (few-shot),8030,128,8192,True,False,4909,1.83,75.02,67.64,32.29,54.84,69.28,53.77,57.64
 senseable/WestLake-7B-v2 (few-shot),7242,32,32768,False,False,5993,1.83,70.62,67.78,30.99,49.56,70.76,44.11,69.2
 "cstr/Spaetzle-v8-7b (few-shot, val)",7242,32,32768,False,True,5980,1.84,69.4,65.39,26.69,49.74,71.02,52.23,74.61
 mistralai/Mistral-7B-v0.1 (few-shot),7242,32,32768,True,False,2657,1.86,63.4,68.17,30.92,73.45,69.11,47.74,34.96

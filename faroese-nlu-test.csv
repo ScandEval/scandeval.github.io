@@ -72,7 +72,7 @@ sentence-transformers/paraphrase-xlm-r-multilingual-v1,278,250,512,True,False,14
 Nexusflow/Starling-LM-7B-beta (few-shot),7242,32,8192,False,False,5876,4.51,66.98,5.8
 "mlabonne/AlphaMonarch-7B (few-shot, val)",7242,32,8192,False,True,5340,4.51,64.39,4.74
 senseable/WestLake-7B-v2 (few-shot),7242,32,32768,False,False,5993,4.51,67.42,7.02
-meta-llama/Meta-Llama-3-8B-Instruct (few-shot),8030,128,8192,False,False,4909,4.52,73.76,3.47
+meta-llama/Meta-Llama-3-8B-Instruct (few-shot),8030,128,8192,True,False,4909,4.52,73.76,3.47
 danish-foundation-models/encoder-large-v1,354,50,512,True,False,6671,4.55,72.46,2.93
 dbmdz/bert-tiny-historic-multilingual-cased,5,32,512,True,False,78027,4.55,72.08,2.65
 pdelobelle/robbert-v2-dutch-base,116,40,512,True,False,15481,4.55,78.59,0.65
