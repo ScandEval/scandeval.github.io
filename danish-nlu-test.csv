@@ -98,7 +98,7 @@ flax-community/nordic-roberta-wiki,125,50,512,True,False,16227,2.46,60.82,34.45,
 jhu-clsp/bernice,278,250,512,True,False,5567,2.46,61.98,47.2,40.52,13.53
 Geotrend/bert-base-da-cased,104,23,512,True,False,15432,2.47,62.76,32.06,30.95,37.79
 clips/mfaq,278,250,128,True,False,5591,2.47,68.49,45.6,28.26,14.34
-microsoft/infoxlm-base,278,250,512,True,False,14918,2.48,69.78,46.78,11.27,28.28
+microsoft/infoxlm-base,278,250,512,True,False,34735,2.48,69.78,46.78,11.27,28.28
 sarnikowski/electra-small-discriminator-da-256-cased,13,29,512,True,False,20340,2.49,60.63,24.38,68.58,21.03
 tollefj/nordavind-7b-instruct-warm (few-shot),7248,33,2048,False,False,6450,2.49,38.39,49.44,7.5,51.24
 meta-llama/Llama-2-7b-chat-hf (few-shot),6738,32,4096,False,False,2643,2.52,35.44,44.88,9.74,55.04
