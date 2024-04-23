@@ -9,21 +9,21 @@ AI-Sweden-Models/roberta-large-1350k,355,50,512,True,False,5744,1.4,75.22,49.94,
 ltg/norbert3-large,354,50,508,True,False,5048,1.45,73.62,48.29,71.55,48.59
 NbAiLab/nb-bert-large,355,50,512,True,False,6343,1.49,70.38,49.07,72.02,45.72
 vesteinn/DanskBERT,124,50,512,True,False,15749,1.51,72.55,52.86,75.2,37.65
-google/rembert,576,250,256,True,False,3355,1.57,70.19,50.19,69.72,39.85
+google/rembert,576,250,256,True,False,11736,1.57,70.19,50.19,69.72,39.85
 intfloat/multilingual-e5-large,560,250,512,True,False,6732,1.57,69.5,55.07,57.67,46.71
 gpt-3.5-turbo-0613 (few-shot),-1,100,4096,True,False,837,1.63,59.4,51.8,54.22,56.55
-FacebookAI/xlm-roberta-large,560,250,512,True,False,6663,1.66,72.74,48.33,57.3,43.57
+FacebookAI/xlm-roberta-large,560,250,512,True,False,17897,1.66,72.74,48.33,57.3,43.57
 NbAiLab/nb-roberta-base-scandi,278,250,512,True,False,15079,1.66,73.28,52.08,67.99,32.39
 KennethEnevoldsen/dfm-sentence-encoder-medium-3,178,120,512,True,False,14050,1.67,71.21,47.55,68.72,38.33
 "gpt-3.5-turbo-0613 (few-shot, val)",-1,100,4095,True,False,921,1.69,59.61,50.54,57.57,51.09
-microsoft/mdeberta-v3-base,279,251,512,True,False,9237,1.7,72.9,43.38,67.05,42.15
+microsoft/mdeberta-v3-base,279,251,512,True,False,20637,1.7,72.9,43.38,67.05,42.15
 NbAiLab/nb-bert-base,178,120,512,True,False,14050,1.75,70.36,46.32,66.41,36.42
 NbAiLab/nb-roberta-base-scandi-1e4,278,250,512,True,False,15074,1.75,72.16,51.7,62.03,29.95
 pere/roberta-debug-8,278,250,512,True,False,15103,1.78,71.34,49.77,64.31,31.86
-sentence-transformers/use-cmlm-multilingual,471,501,512,True,False,13305,1.78,69.17,48.03,55.31,42.34
+sentence-transformers/use-cmlm-multilingual,471,501,512,True,False,30231,1.78,69.17,48.03,55.31,42.34
 vesteinn/FoBERT,124,50,512,True,False,15623,1.78,69.65,49.18,65.45,32.4
 vesteinn/ScandiBERT-no-faroese,124,50,512,True,False,15436,1.79,69.79,47.73,68.28,31.9
-setu4993/LaBSE,471,501,512,True,False,13386,1.8,71.24,46.5,52.92,40.08
+setu4993/LaBSE,471,501,512,True,False,25418,1.8,71.24,46.5,52.92,40.08
 pere/roberta-debug-32,278,250,512,True,False,14958,1.81,68.46,50.48,64.34,30.3
 pere/roberta-base-exp-8,278,250,512,True,False,15112,1.82,68.77,49.66,60.13,32.6
 intfloat/multilingual-e5-base,278,250,512,True,False,14965,1.84,68.7,49.88,44.2,39.9

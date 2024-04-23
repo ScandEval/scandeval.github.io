@@ -1,14 +1,14 @@
 model_id,num_model_parameters,vocabulary_size,max_sequence_length,commercially_licensed,merge,speed,rank,fone,scala_fo
 vesteinn/FoBERT,124,50,512,True,False,15623,1.0,91.31,64.39
 NbAiLab/nb-roberta-base-scandi-1e4,277,250,512,True,False,15074,1.95,90.52,44.99
-microsoft/mdeberta-v3-base,278,251,512,True,False,9237,1.98,88.6,46.81
+microsoft/mdeberta-v3-base,278,251,512,True,False,20637,1.98,88.6,46.81
 pere/roberta-base-exp-32,277,250,512,True,False,15081,2.56,90.6,22.86
-sentence-transformers/use-cmlm-multilingual,470,501,512,True,False,13305,2.6,88.81,30.92
+sentence-transformers/use-cmlm-multilingual,470,501,512,True,False,30231,2.6,88.81,30.92
 vesteinn/ScandiBERT-no-faroese,124,50,512,True,False,15436,2.62,88.14,27.71
 "gpt-4-1106-preview (few-shot, val)",-1,100,128000,True,False,576,2.64,86.51,35.09
 jonfd/electra-small-nordic,22,96,128,True,False,5989,2.66,85.8,30.88
-setu4993/LaBSE,470,501,512,True,False,13386,3.26,89.16,22.76
-google/rembert,575,250,256,True,False,3355,3.29,87.35,14.65
+setu4993/LaBSE,470,501,512,True,False,25418,3.26,89.16,22.76
+google/rembert,575,250,256,True,False,11736,3.29,87.35,14.65
 mideind/IceBERT-xlmr-ic3,277,250,512,True,False,11004,3.29,87.79,22.51
 ltg/norbert3-base,124,50,512,True,False,11405,3.3,86.94,12.35
 Geotrend/bert-base-25lang-cased,151,85,512,True,False,13908,3.32,86.09,15.24
@@ -45,7 +45,7 @@ Geotrend/distilbert-base-25lang-cased,109,85,512,True,False,26099,4.35,83.21,2.3
 KB/bert-base-swedish-cased,124,50,512,True,False,16181,4.35,82.76,3.98
 sentence-transformers/stsb-xlm-r-multilingual,277,250,512,True,False,15040,4.35,82.97,2.93
 AI-Sweden-Models/roberta-large-1160k,354,50,512,True,False,5741,4.37,88.24,1.73
-FacebookAI/xlm-roberta-large,559,250,512,True,False,6663,4.37,87.85,1.17
+FacebookAI/xlm-roberta-large,559,250,512,True,False,17897,4.37,87.85,1.17
 Geotrend/distilbert-base-en-no-cased,69,33,512,True,False,26597,4.37,82.05,3.98
 sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,118,250,512,True,False,17428,4.37,82.24,2.84
 KBLab/megatron-bert-base-swedish-cased-600k,135,64,512,True,False,15726,4.4,81.02,4.0
@@ -66,7 +66,7 @@ DDSC/roberta-base-danish,125,50,512,True,False,15004,4.51,80.21,1.1
 KBLab/bert-base-swedish-cased,125,50,512,True,False,16164,4.51,79.99,1.32
 danish-foundation-models/encoder-small-v1,22,96,128,True,False,6002,4.51,79.97,0.93
 dbmdz/bert-medium-historic-multilingual-cased,42,32,512,True,False,24291,4.51,80.58,1.58
-deepset/gbert-base,109,31,512,True,False,16043,4.51,80.48,0.6
+deepset/gbert-base,109,31,512,True,False,37268,4.51,80.48,0.6
 sentence-transformers/paraphrase-xlm-r-multilingual-v1,278,250,512,True,False,14994,4.51,80.92,1.19
 Nexusflow/Starling-LM-7B-beta (few-shot),7242,32,8192,False,False,5876,4.52,66.98,5.8
 microsoft/xlm-align-base,277,250,512,True,False,14744,4.52,85.97,0.02
