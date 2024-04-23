@@ -43,7 +43,7 @@ danish-foundation-models/munin-7b-v0.1dev0 (few-shot),7242,32,8192,True,False,61
 Qwen/Qwen1.5-4B-Chat (few-shot),3950,152,32768,False,False,4347,2.1,58.56,59.62,28.55,70.04
 distilbert/distilbert-base-cased,65,29,512,True,False,19667,2.11,84.75,50.94,53.47,24.93
 Qwen/Qwen1.5-4B (few-shot),3950,152,32768,True,False,3248,2.12,55.45,60.55,28.6,70.49
-ZurichNLP/unsup-simcse-xlm-roberta-base,277,250,512,True,False,10471,2.12,85.88,51.46,35.83,43.26
+ZurichNLP/unsup-simcse-xlm-roberta-base,277,250,512,True,False,34520,2.12,85.88,51.46,35.83,43.26
 occiglot/occiglot-7b-eu5-instruct (few-shot),7242,32,32768,False,False,2088,2.12,56.9,62.1,20.17,75.29
 Twitter/twhin-bert-large,562,250,512,True,False,5299,2.13,89.5,45.98,30.58,48.44
 "cstr/Spaetzle-v8-7b (few-shot, val)",7242,32,32768,False,True,5980,2.14,69.4,65.39,26.69,49.74

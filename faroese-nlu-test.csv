@@ -55,7 +55,7 @@ clips/mfaq,277,250,512,True,False,5591,4.41,85.86,0.8
 microsoft/infoxlm-base,277,250,512,True,False,14918,4.41,85.58,0.35
 Twitter/twhin-bert-large,560,250,512,True,False,5299,4.44,84.73,1.37
 Twitter/twhin-bert-base,279,250,512,True,False,11514,4.45,84.0,1.94
-ZurichNLP/unsup-simcse-xlm-roberta-base,277,250,512,True,False,10471,4.45,84.14,1.33
+ZurichNLP/unsup-simcse-xlm-roberta-base,277,250,512,True,False,34520,4.45,84.14,1.33
 cardiffnlp/twitter-xlm-roberta-base,277,250,512,True,False,14837,4.45,83.96,1.05
 sentence-transformers/distilbert-multilingual-nli-stsb-quora-ranking,135,120,512,True,False,26151,4.47,82.91,1.67
 sentence-transformers/distiluse-base-multilingual-cased-v2,135,120,512,True,False,17807,4.47,77.0,4.09

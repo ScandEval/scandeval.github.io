@@ -54,7 +54,7 @@ occiglot/occiglot-7b-eu5-instruct (few-shot),7242,32,32768,False,False,2088,3.29
 timpal0l/Mistral-7B-v0.1-flashback-v2 (few-shot),7242,32,32768,True,False,5054,3.33,36.47,2.54,18.66
 KennethEnevoldsen/dfm-sentence-encoder-medium,124,50,512,True,False,14998,3.34,64.88,-0.6,12.39
 RuterNorway/Llama-2-13b-chat-norwegian (few-shot),-1,32,4096,False,False,7778,3.36,28.35,3.14,19.8
-ZurichNLP/unsup-simcse-xlm-roberta-base,277,250,512,True,False,10471,3.36,75.27,3.47,7.67
+ZurichNLP/unsup-simcse-xlm-roberta-base,277,250,512,True,False,34520,3.36,75.27,3.47,7.67
 HPLT/gpt-7b-nordic-prerelease (few-shot),7550,131,4096,True,False,5404,3.38,27.96,-0.0,23.17
 KennethEnevoldsen/dfm-sentence-encoder-medium-2,124,50,512,True,False,14965,3.41,64.57,0.86,10.76
 Twitter/twhin-bert-large,560,250,512,True,False,5299,3.41,71.48,2.2,8.19

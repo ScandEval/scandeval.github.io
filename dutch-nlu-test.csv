@@ -4,7 +4,7 @@ setu4993/LaBSE,470,501,512,True,False,25418,1.47,82.02,33.99,60.77,41.55
 DTAI-KULeuven/robbert-2022-dutch-base,118,43,512,True,False,11307,1.74,79.84,24.58,68.76,27.63
 pdelobelle/robbert-v2-dutch-base,116,40,512,True,False,15481,1.77,78.3,26.68,63.83,28.34
 "meta-llama/Meta-Llama-3-70B (few-shot, val)",70554,128,8317,True,False,312,1.79,72.91,19.08,54.33,63.99
-ZurichNLP/unsup-simcse-xlm-roberta-base,277,250,512,True,False,10471,1.82,78.45,22.67,54.92,31.82
+ZurichNLP/unsup-simcse-xlm-roberta-base,277,250,512,True,False,34520,1.82,78.45,22.67,54.92,31.82
 gpt-4-1106-preview (few-shot),-1,100,128000,True,False,573,1.88,66.44,15.05,74.01,57.81
 intfloat/multilingual-e5-base,277,250,512,True,False,14965,1.96,79.12,27.67,39.28,35.71
 FacebookAI/xlm-roberta-large,559,250,512,True,False,17897,2.02,83.49,8.82,64.8,50.72
