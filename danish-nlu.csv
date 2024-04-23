@@ -43,14 +43,14 @@ AI-Sweden-Models/bert-large-nordic-pile-1M-steps,369,64,512,True,False,6571,2.1,
 "birgermoell/Rapid-Cycling (few-shot, val)",7242,32,32768,False,True,2346,2.1,49.99,51.25,20.66,56.82
 upstage/SOLAR-10.7B-v1.0 (few-shot),10732,32,4096,True,False,3780,2.1,58.03,46.63,15.09,62.15
 "merge-crew/da-sv-dare-ties-density-0.9 (few-shot, val)",7242,32,32768,True,True,2443,2.11,45.61,53.73,17.08,56.67
-cardiffnlp/twitter-xlm-roberta-base,278,250,512,True,False,14837,2.13,70.1,45.3,51.74,22.01
+cardiffnlp/twitter-xlm-roberta-base,278,250,512,True,False,34475,2.13,70.1,45.3,51.74,22.01
 ltg/norbert3-small,41,50,508,True,False,13515,2.13,67.89,39.34,50.9,34.82
 meta-llama/Meta-Llama-3-8B-Instruct (few-shot),8030,128,8192,True,False,4909,2.13,57.74,48.43,27.12,46.76
 "birgermoell/Flashback-Bellman (few-shot, val)",7242,32,32768,False,True,2887,2.17,47.71,48.21,19.55,56.46
 "merge-crew/da-sv-ties (few-shot, val)",7242,32,32768,True,True,2457,2.17,45.39,51.95,13.25,58.51
 "mlabonne/NeuralBeagle14-7B (few-shot, val)",7242,32,8192,False,True,2549,2.18,53.02,51.29,19.73,51.69
 Mabeck/Heidrun-Mistral-7B-chat (few-shot),7242,32,32768,False,False,5822,2.19,50.8,42.79,23.25,59.9
-facebook/xlm-v-base,778,902,512,True,False,13135,2.19,71.42,31.86,52.95,34.66
+facebook/xlm-v-base,778,902,512,True,False,25396,2.19,71.42,31.86,52.95,34.66
 "timpal0l/BeagleCatMunin2 (few-shot, val)",7242,32,32768,False,True,2477,2.2,51.53,47.95,14.1,58.28
 Geotrend/bert-base-en-fr-de-no-da-cased,118,42,512,True,False,13973,2.21,63.38,34.78,41.08,40.32
 Maltehb/danish-bert-botxo,111,32,512,True,False,16091,2.21,66.71,43.79,45.96,26.29

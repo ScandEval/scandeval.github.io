@@ -28,7 +28,7 @@ pere/roberta-base-exp-32,277,250,512,True,False,15081,2.77,83.57,23.07,7.81
 pere/roberta-base-exp-32B,277,250,512,True,False,15103,2.79,80.78,25.2,8.46
 intfloat/multilingual-e5-large,559,250,512,True,False,6732,2.88,78.43,10.78,13.79
 intfloat/multilingual-e5-base,278,250,512,True,False,14965,2.89,75.46,15.21,10.82
-cardiffnlp/twitter-xlm-roberta-base,277,250,512,True,False,14837,2.91,72.69,28.72,8.46
+cardiffnlp/twitter-xlm-roberta-base,277,250,512,True,False,34475,2.91,72.69,28.72,8.46
 mistralai/Mistral-7B-v0.1 (few-shot),7242,32,32768,True,False,2657,2.91,47.24,1.35,25.7
 mhenrichsen/hestenettetLM (few-shot),7242,32,32768,True,False,5160,2.94,50.82,0.99,25.74
 Nexusflow/Starling-LM-7B-beta (few-shot),7242,32,8192,False,False,5876,2.99,49.2,4.45,24.61
