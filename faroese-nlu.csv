@@ -52,7 +52,7 @@ KBLab/megatron-bert-base-swedish-cased-600k,135,64,512,True,False,15726,4.4,81.0
 dbmdz/bert-base-historic-multilingual-cased,110,32,512,True,False,15165,4.4,80.45,2.52
 google-bert/bert-base-multilingual-uncased,167,106,512,True,False,13993,4.4,73.06,5.48
 clips/mfaq,277,250,512,True,False,5591,4.41,85.86,0.8
-microsoft/infoxlm-base,277,250,512,True,False,14918,4.41,85.58,0.35
+microsoft/infoxlm-base,277,250,512,True,False,34735,4.41,85.58,0.35
 Twitter/twhin-bert-large,560,250,512,True,False,5299,4.44,84.73,1.37
 Twitter/twhin-bert-base,279,250,512,True,False,11514,4.45,84.0,1.94
 ZurichNLP/unsup-simcse-xlm-roberta-base,277,250,512,True,False,34520,4.45,84.14,1.33

@@ -48,7 +48,7 @@ Twitter/twhin-bert-base,279,250,512,True,False,11514,3.23,70.38,11.09,7.67
 AI-Sweden-Models/roberta-large-1160k,354,50,512,True,False,5741,3.24,74.3,2.06,11.47
 Geotrend/bert-base-25lang-cased,151,85,512,True,False,13908,3.27,74.65,2.89,9.29
 google-bert/bert-base-multilingual-uncased,167,106,512,True,False,13993,3.27,60.88,13.5,9.65
-microsoft/infoxlm-base,277,250,512,True,False,14918,3.28,77.09,1.71,8.56
+microsoft/infoxlm-base,277,250,512,True,False,34735,3.28,77.09,1.71,8.56
 mideind/IceBERT-mC4-is,163,50,512,True,False,12308,3.29,79.19,20.95,0.0
 occiglot/occiglot-7b-eu5-instruct (few-shot),7242,32,32768,False,False,2088,3.29,40.71,0.71,20.66
 timpal0l/Mistral-7B-v0.1-flashback-v2 (few-shot),7242,32,32768,True,False,5054,3.33,36.47,2.54,18.66
