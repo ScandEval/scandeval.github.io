@@ -4,22 +4,22 @@ microsoft/mdeberta-v3-base,278,251,512,True,False,20637,1.35,81.12,54.11,30.93
 vesteinn/ScandiBERT-no-faroese,124,50,512,True,False,15436,1.5,83.94,58.64,25.35
 google/rembert,575,250,256,True,False,11736,1.59,78.05,48.29,29.38
 vesteinn/XLMR-ENIS,124,50,512,True,False,10711,1.6,82.2,48.51,27.06
-mideind/IceBERT-large,354,50,512,True,False,5677,1.88,85.14,59.31,12.84
-mideind/IceBERT,124,50,512,True,False,16697,1.88,85.32,60.44,13.31
+mideind/IceBERT-large,354,50,512,True,False,5677,1.87,85.14,59.31,12.84
+mideind/IceBERT,124,50,512,True,False,16697,1.87,85.32,60.44,13.31
 vesteinn/FoBERT,124,50,512,True,False,15623,1.9,85.04,50.78,17.76
-mideind/IceBERT-xlmr-ic3,277,250,512,True,False,11004,1.97,84.35,59.12,11.18
-vesteinn/IceBERT,124,50,512,True,False,12360,1.97,85.34,55.88,13.31
+mideind/IceBERT-xlmr-ic3,277,250,512,True,False,11004,1.96,84.35,59.12,11.18
+vesteinn/IceBERT,124,50,512,True,False,12360,1.96,85.34,55.88,13.31
 "meta-llama/Meta-Llama-3-70B (few-shot, val)",70554,128,8192,True,False,312,2.03,75.33,14.89,34.36
 mideind/IceBERT-ic3,124,50,512,True,False,12119,2.15,85.03,45.06,10.82
 mideind/IceBERT-igc,124,50,512,True,False,12551,2.19,79.85,54.38,9.91
-jonfd/electra-small-nordic,22,96,128,True,False,5989,2.24,77.4,60.64,6.51
+jonfd/electra-small-nordic,22,96,128,True,False,5989,2.23,77.4,60.64,6.51
 pere/roberta-debug-8,277,250,512,True,False,15103,2.26,79.95,47.87,8.68
 sentence-transformers/use-cmlm-multilingual,470,501,512,True,False,30231,2.3,80.91,41.91,13.73
+pere/roberta-base-exp-8,277,250,512,True,False,15112,2.36,78.58,47.36,7.68
 NbAiLab/nb-roberta-base-scandi-1e4,277,250,512,True,False,15074,2.37,81.83,51.09,6.66
-pere/roberta-base-exp-8,277,250,512,True,False,15112,2.37,78.58,47.36,7.68
 setu4993/LaBSE,471,501,512,True,False,25418,2.37,80.45,36.92,11.75
 "meta-llama/Meta-Llama-3-70B-Instruct (few-shot, val)",70554,128,8317,True,False,1673,2.39,72.91,5.01,31.86
-pere/roberta-debug-32,277,250,512,True,False,14958,2.4,79.18,50.77,6.98
+pere/roberta-debug-32,277,250,512,True,False,14958,2.39,79.18,50.77,6.98
 FacebookAI/xlm-roberta-large,559,250,512,True,False,17897,2.46,82.83,22.78,15.72
 "meta-llama/Llama-2-70b-hf (few-shot, val)",68977,32,4221,True,False,1892,2.46,63.25,0.0,32.65
 "gpt-3.5-turbo-0613 (few-shot, val)",-1,100,4095,True,False,921,2.53,69.59,7.28,28.5
@@ -42,30 +42,31 @@ AI-Sweden-Models/gpt-sw3-20b (few-shot),20918,64,2048,True,False,4880,3.08,27.54
 clips/mfaq,277,250,512,True,False,5591,3.08,77.3,3.51,11.31
 microsoft/xlm-align-base,277,250,512,True,False,14744,3.08,78.01,5.92,10.47
 alpindale/Mistral-7B-v0.2-hf (few-shot),7242,32,32768,True,False,1841,3.09,44.85,-0.69,25.52
+"meta-llama/Llama-2-70b-chat-hf (few-shot, val)",68977,32,4221,True,False,1979,3.1,46.32,-3.31,24.26
 Mabeck/Heidrun-Mistral-7B-chat (few-shot),7242,32,32768,False,False,5822,3.11,44.84,0.44,22.77
 mistralai/Mistral-7B-Instruct-v0.2 (few-shot),7242,32,32768,False,False,2538,3.11,43.11,3.4,19.18
 Geotrend/bert-base-da-cased,103,23,512,True,False,15432,3.14,73.81,6.23,10.57
 "mlabonne/AlphaMonarch-7B (few-shot, val)",7242,32,8192,False,True,5340,3.15,50.85,1.8,20.23
 "mlabonne/NeuralBeagle14-7B (few-shot, val)",7242,32,8192,False,True,2549,3.15,49.86,1.26,22.48
 Geotrend/bert-base-25lang-cased,151,85,512,True,False,13908,3.18,74.65,2.89,9.29
-Twitter/twhin-bert-base,279,250,512,True,False,11514,3.2,70.38,11.09,7.67
+Twitter/twhin-bert-base,279,250,512,True,False,11514,3.19,70.38,11.09,7.67
 timpal0l/Mistral-7B-v0.1-flashback-v2 (few-shot),7242,32,32768,True,False,5054,3.22,36.47,2.54,18.66
 AI-Sweden-Models/roberta-large-1160k,354,50,512,True,False,5741,3.23,74.3,2.06,11.47
 google-bert/bert-base-multilingual-uncased,167,106,512,True,False,13993,3.23,60.88,13.5,9.65
-mideind/IceBERT-mC4-is,163,50,512,True,False,12308,3.25,79.19,20.95,0.0
+mideind/IceBERT-mC4-is,163,50,512,True,False,12308,3.24,79.19,20.95,0.0
 microsoft/infoxlm-base,277,250,512,True,False,34735,3.26,77.09,1.71,8.56
 occiglot/occiglot-7b-eu5-instruct (few-shot),7242,32,32768,False,False,2088,3.26,40.71,0.71,20.66
 ZurichNLP/unsup-simcse-xlm-roberta-base,277,250,512,True,False,34520,3.27,75.27,3.47,7.67
 RuterNorway/Llama-2-13b-chat-norwegian (few-shot),-1,32,4096,False,False,7778,3.3,28.35,3.14,19.8
 KennethEnevoldsen/dfm-sentence-encoder-medium,124,50,512,True,False,14998,3.31,64.88,-0.6,12.39
 NbAiLab/nb-roberta-base-scandinavian,125,50,512,True,False,14051,3.33,69.04,3.34,7.17
+HPLT/gpt-7b-nordic-prerelease (few-shot),7550,131,4096,True,False,5404,3.37,27.96,-0.0,23.17
 KennethEnevoldsen/dfm-sentence-encoder-medium-2,124,50,512,True,False,14965,3.37,64.57,0.86,10.76
-HPLT/gpt-7b-nordic-prerelease (few-shot),7550,131,4096,True,False,5404,3.38,27.96,-0.0,23.17
 Twitter/twhin-bert-large,560,250,512,True,False,9707,3.39,71.48,2.2,8.19
 vesteinn/DanskBERT,124,50,512,True,False,15749,3.39,65.29,-0.03,10.49
 KBLab/megatron-bert-large-swedish-cased-165k,369,64,512,True,False,7138,3.41,63.35,4.94,7.02
 sentence-transformers/paraphrase-xlm-r-multilingual-v1,278,250,512,True,False,20154,3.41,65.15,1.15,9.56
-AI-Sweden-Models/gpt-sw3-20b-instruct (few-shot),20918,64,2048,True,False,4572,3.42,21.2,1.95,24.95
+AI-Sweden-Models/gpt-sw3-20b-instruct (few-shot),20918,64,2048,True,False,1831,3.42,21.2,1.95,24.95
 occiglot/occiglot-7b-eu5 (few-shot),7242,32,32768,True,False,2219,3.42,40.08,1.59,15.98
 AI-Nordics/bert-large-swedish-cased,334,31,512,True,False,7199,3.43,61.64,3.26,7.79
 KBLab/megatron-bert-large-swedish-cased-110k,369,64,512,True,False,7075,3.43,63.11,3.47,7.76
@@ -76,13 +77,13 @@ LumiOpen/Viking-7B (few-shot),7550,131,4096,True,False,5723,3.47,21.41,1.76,22.5
 flax-community/nordic-roberta-wiki,124,50,512,True,False,16227,3.47,63.31,2.47,5.99
 DeepPavlov/rubert-base-cased,177,120,512,True,False,15785,3.49,61.95,2.4,6.04
 meta-llama/Llama-2-7b-chat-hf (few-shot),6738,32,4096,False,False,2643,3.49,41.1,-1.07,16.13
-meta-llama/Llama-2-7b-hf (few-shot),6738,32,4096,True,False,2648,3.5,32.71,0.66,18.04
-Geotrend/distilbert-base-25lang-cased,109,85,512,True,False,26099,3.53,65.76,2.08,6.81
+meta-llama/Llama-2-7b-hf (few-shot),6738,32,4096,True,False,2648,3.49,32.71,0.66,18.04
+Geotrend/distilbert-base-25lang-cased,109,85,512,True,False,26099,3.52,65.76,2.08,6.81
 LumiOpen/Viking-13B (few-shot),14030,131,4224,True,False,3480,3.53,20.51,1.12,21.85
-3ebdola/Dialectal-Arabic-XLM-R-Base,277,250,512,True,False,15177,3.54,46.95,1.4,10.48
+3ebdola/Dialectal-Arabic-XLM-R-Base,277,250,512,True,False,12783,3.54,46.95,1.4,10.48
 bineric/NorskGPT-Llama-7B-v0.1 (few-shot),6738,32,4096,False,False,5384,3.54,34.62,-0.24,18.1
 mistralai/Mistral-7B-Instruct-v0.1 (few-shot),7242,32,32768,False,False,5443,3.54,36.04,-0.36,18.06
-sentence-transformers/quora-distilbert-multilingual,135,120,512,True,False,26458,3.55,63.36,1.02,6.48
+sentence-transformers/quora-distilbert-multilingual,135,120,512,True,False,26458,3.54,63.36,1.02,6.48
 KennethEnevoldsen/dfm-sentence-encoder-large-1,354,50,512,True,False,6245,3.56,48.31,3.18,7.94
 KBLab/bert-base-swedish-cased-new,135,64,512,True,False,15933,3.58,64.61,1.15,5.29
 norallm/normistral-7b-warm-instruct (few-shot),7248,33,4096,True,False,6194,3.58,36.59,0.86,14.58
@@ -93,23 +94,23 @@ flax-community/swe-roberta-wiki-oscar,124,50,512,True,False,15437,3.6,62.23,1.45
 Geotrend/distilbert-base-en-no-cased,69,33,512,True,False,26597,3.61,63.84,2.15,5.23
 danish-foundation-models/encoder-large-v1,354,50,512,True,False,6671,3.61,49.68,0.33,9.3
 sentence-transformers/paraphrase-multilingual-mpnet-base-v2,278,250,512,True,False,15100,3.61,64.43,0.83,4.66
-sentence-transformers/distilbert-multilingual-nli-stsb-quora-ranking,135,120,512,True,False,26151,3.62,59.15,0.8,6.14
+sentence-transformers/distilbert-multilingual-nli-stsb-quora-ranking,135,120,512,True,False,33753,3.62,59.15,0.8,6.14
 DDSC/roberta-base-danish,125,50,512,True,False,15004,3.63,59.63,1.76,5.55
 KB/bert-base-swedish-cased,124,50,512,True,False,16181,3.63,60.09,1.76,5.57
 dbmdz/bert-medium-historic-multilingual-cased,42,32,512,True,False,24291,3.65,58.9,0.27,5.9
 ltg/norbert3-base,124,50,512,True,False,11405,3.65,68.22,2.41,0.0
-tollefj/nordavind-7b-instruct-warm (few-shot),7248,33,2048,False,False,6450,3.66,34.76,0.77,12.8
-AI-Sweden-Models/gpt-sw3-1.3b (few-shot),1445,64,2048,True,False,4608,3.68,1.42,0.75,23.33
+tollefj/nordavind-7b-instruct-warm (few-shot),7248,33,2048,False,False,6450,3.65,34.76,0.77,12.8
+AI-Sweden-Models/gpt-sw3-1.3b (few-shot),1445,64,2048,True,False,4608,3.67,1.42,0.75,23.33
 pdelobelle/robbert-v2-dutch-base,116,40,512,True,False,15481,3.68,55.54,1.06,5.42
 deepset/gbert-base,109,31,512,True,False,37268,3.69,56.89,-0.13,6.69
-sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,118,250,512,True,False,17428,3.69,62.44,1.91,3.69
+sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,118,250,512,True,False,29201,3.69,62.44,1.91,3.69
 DDSC/roberta-base-scandinavian,124,50,512,True,False,14491,3.71,51.53,0.89,5.19
 KBLab/bert-base-swedish-cased,125,50,512,True,False,16164,3.71,55.25,2.19,5.14
-Qwen/Qwen1.5-4B-Chat (few-shot),3950,152,32768,False,False,4347,3.74,25.65,-0.35,14.46
+Qwen/Qwen1.5-4B-Chat (few-shot),3950,152,32768,False,False,4347,3.73,25.65,-0.35,14.46
 dbmdz/bert-base-historic-multilingual-cased,111,32,512,True,False,20047,3.74,56.62,-1.21,6.01
+sentence-transformers/distiluse-base-multilingual-cased-v2,135,120,512,True,False,33247,3.8,48.62,2.64,1.22
+sentence-transformers/distiluse-base-multilingual-cased,135,120,512,True,False,19206,3.8,47.62,2.64,1.27
 KBLab/albert-base-swedish-cased-alpha,14,50,512,True,False,15925,3.81,42.07,0.27,7.35
-sentence-transformers/distiluse-base-multilingual-cased-v2,135,120,512,True,False,17807,3.81,48.62,2.64,1.22
-sentence-transformers/distiluse-base-multilingual-cased,135,120,512,True,False,19206,3.81,47.62,2.64,1.27
 google/gemma-2b (few-shot),2506,256,8192,True,False,6087,3.84,8.83,0.31,16.08
 AI-Sweden-Models/gpt-sw3-356m-instruct (few-shot),471,64,2048,True,False,5855,3.87,17.79,0.08,15.04
 Qwen/Qwen1.5-4B (few-shot),3950,152,32768,True,False,3248,3.87,15.66,-0.55,14.11
@@ -119,32 +120,33 @@ timpal0l/Mistral-7B-v0.1-flashback-v2-instruct (few-shot),7242,32,32768,False,Fa
 01-ai/Yi-6B (few-shot),6061,64,4096,True,False,2786,3.97,0.0,2.12,16.91
 TurkuNLP/bert-base-finnish-cased-v1,124,50,512,True,False,16701,3.97,34.58,0.55,5.07
 google/gemma-2b-it (few-shot),2506,256,8192,False,False,6471,3.97,20.49,-0.01,10.95
-sentence-transformers/distiluse-base-multilingual-cased-v1,135,120,512,True,False,26344,3.99,45.47,1.14,1.63
+sentence-transformers/distiluse-base-multilingual-cased-v1,135,120,512,True,False,34042,3.98,45.47,1.14,1.63
+Maltehb/aelaectra-danish-electra-small-cased,14,32,512,True,False,4593,4.0,35.72,0.55,4.4
 ltg/norbert2,125,50,512,True,False,15523,4.0,28.74,3.0,3.47
-Maltehb/aelaectra-danish-electra-small-cased,14,32,512,True,False,4593,4.01,35.72,0.55,4.4
 sarnikowski/convbert-medium-small-da-cased,24,29,512,True,False,13821,4.05,28.16,2.05,5.37
-asafaya/bert-base-arabic,110,32,512,True,False,16347,4.12,22.51,0.23,5.05
-sarnikowski/convbert-small-da-cased,13,29,512,True,False,14273,4.12,25.49,1.63,5.28
-Maltehb/aelaectra-danish-electra-small-uncased,14,32,128,True,False,5995,4.13,30.5,3.59,0.06
-Qwen/Qwen1.5-1.8B-Chat (few-shot),1837,152,32768,False,False,8304,4.15,14.15,0.78,7.8
+asafaya/bert-base-arabic,110,32,512,True,False,16347,4.11,22.51,0.23,5.05
+sarnikowski/convbert-small-da-cased,13,29,512,True,False,14273,4.11,25.49,1.63,5.28
+Maltehb/aelaectra-danish-electra-small-uncased,14,32,128,True,False,5995,4.12,30.5,3.59,0.06
+Qwen/Qwen1.5-1.8B-Chat (few-shot),1837,152,32768,False,False,8304,4.14,14.15,0.78,7.8
 allenai/OLMo-7B-Twin-2T (few-shot),6888,50,2176,True,False,5484,4.18,9.04,-0.08,8.86
 Qwen/Qwen1.5-1.8B (few-shot),1837,152,32768,True,False,5666,4.2,12.26,0.94,6.31
-danish-foundation-models/encoder-small-v1,22,96,128,True,False,6002,4.28,28.99,-0.17,0.42
-Maltehb/danish-bert-botxo,110,32,512,True,False,16091,4.31,12.64,0.06,4.77
-Qwen/Qwen1.5-0.5B (few-shot),620,152,32768,True,False,11371,4.32,16.2,-0.57,3.31
-RJuro/kanelsnegl-v0.2 (few-shot),7242,32,512,True,False,1373,4.36,23.67,0.0,0.0
-allenai/OLMo-7B (few-shot),6888,50,2176,True,False,5403,4.36,8.84,-0.38,5.08
-Qwen/Qwen1.5-0.5B-Chat (few-shot),620,152,32768,False,False,11740,4.38,9.5,1.76,3.14
-alexanderfalk/danbert-small-cased,83,52,512,True,False,30013,4.4,12.39,1.63,1.7
-fresh-xlm-roberta-base,277,250,512,True,False,2214,4.42,17.34,-0.06,1.02
-allenai/OLMo-1B (few-shot),1177,50,2176,True,False,8536,4.46,13.6,-1.04,1.51
-RuterNorway/Llama-2-7b-chat-norwegian (few-shot),-1,32,4096,False,False,10890,4.49,9.48,0.07,1.04
-fresh-electra-small,13,31,512,True,False,7561,4.54,9.96,-0.1,0.12
-ltg/norbert,112,33,512,True,False,16280,4.62,0.0,-0.03,1.68
-NorGLM/NorGPT-369M (few-shot),-1,64,1024,True,False,19896,4.67,1.68,-1.38,0.08
-RJuro/kanelsnegl-v0.1 (few-shot),7242,32,512,True,False,9757,4.69,0.0,0.0,0.0
-Sigurdur/icebreaker (few-shot),110,32,1024,False,False,48619,4.69,0.0,0.0,0.0
-Sigurdur/icechat (few-shot),110,32,1024,False,False,49558,4.69,0.0,0.0,0.0
-Sigurdur/jonas-hallgrimsson-gpt2 (few-shot),125,51,512,False,False,32644,4.69,0.0,0.0,0.0
-Sigurdur/qa-icebreaker (few-shot),110,32,1024,False,False,44889,4.69,0.0,0.0,0.0
-ai-forever/mGPT (few-shot),-1,100,1024,True,False,13551,4.69,0.0,0.0,0.0
+danish-foundation-models/encoder-small-v1,22,96,128,True,False,6002,4.27,28.99,-0.17,0.42
+Maltehb/danish-bert-botxo,110,32,512,True,False,16091,4.3,12.64,0.06,4.77
+Qwen/Qwen1.5-0.5B (few-shot),620,152,32768,True,False,11371,4.31,16.2,-0.57,3.31
+RJuro/kanelsnegl-v0.2 (few-shot),7242,32,512,True,False,1373,4.35,23.67,0.0,0.0
+allenai/OLMo-7B (few-shot),6888,50,2176,True,False,5403,4.35,8.84,-0.38,5.08
+Qwen/Qwen1.5-0.5B-Chat (few-shot),620,152,32768,False,False,11740,4.37,9.5,1.76,3.14
+fresh-xlm-roberta-base,277,250,512,True,False,2214,4.38,17.34,-0.06,1.02
+alexanderfalk/danbert-small-cased,83,52,512,True,False,30013,4.39,12.39,1.63,1.7
+allenai/OLMo-1B (few-shot),1177,50,2176,True,False,8536,4.45,13.6,-1.04,1.51
+RuterNorway/Llama-2-7b-chat-norwegian (few-shot),-1,32,4096,False,False,10890,4.48,9.48,0.07,1.04
+fresh-electra-small,13,31,512,True,False,7840,4.54,9.96,-0.1,0.12
+"DiscoResearch/DiscoLM-70b (few-shot, val)",68977,32,8317,False,False,1973,4.61,0.0,0.0,1.86
+ltg/norbert,112,33,512,True,False,16280,4.61,0.0,-0.03,1.68
+NorGLM/NorGPT-369M (few-shot),-1,64,1024,True,False,19896,4.66,1.68,-1.38,0.08
+RJuro/kanelsnegl-v0.1 (few-shot),7242,32,512,True,False,9757,4.68,0.0,0.0,0.0
+Sigurdur/icebreaker (few-shot),110,32,1024,False,False,48619,4.68,0.0,0.0,0.0
+Sigurdur/icechat (few-shot),110,32,1024,False,False,49558,4.68,0.0,0.0,0.0
+Sigurdur/jonas-hallgrimsson-gpt2 (few-shot),125,51,512,False,False,32644,4.68,0.0,0.0,0.0
+Sigurdur/qa-icebreaker (few-shot),110,32,1024,False,False,44889,4.68,0.0,0.0,0.0
+ai-forever/mGPT (few-shot),-1,100,1024,True,False,13551,4.68,0.0,0.0,0.0
