@@ -59,7 +59,7 @@ timpal0l/Mistral-7B-v0.1-flashback-v2-instruct (few-shot),7242,32,32768,False,Fa
 Qwen/Qwen1.5-4B-Chat (few-shot),3950,152,32768,False,False,4347,2.95,35.96,42.04,8.65,53.68,63.22,37.79,29.62,16.87
 google/gemma-7b-it (few-shot),8538,256,8192,False,False,1792,2.95,43.83,29.21,12.96,49.76,65.36,41.3,31.26,15.02
 "merge-crew/da-sv-dare-ties-density-0.3 (few-shot, val)",7242,32,32768,True,True,2461,2.96,30.16,48.49,5.52,52.44,64.24,43.57,35.6,6.76
-meta-llama/Llama-2-7b-hf (few-shot),6738,32,4096,True,False,2648,3.05,31.77,43.91,0.31,58.44,65.5,20.18,35.69,7.93
+meta-llama/Llama-2-7b-hf (few-shot),6738,32,4096,True,False,930,3.05,31.77,43.91,0.31,58.44,65.5,20.18,35.69,7.93
 tollefj/nordavind-7b-instruct-warm (few-shot),7248,33,2048,False,False,6450,3.05,38.39,49.44,7.5,51.24,66.09,3.53,12.86,1.29
 Qwen/Qwen1.5-4B (few-shot),3950,152,32768,True,False,3248,3.08,32.28,39.62,5.38,54.16,62.74,37.49,29.21,15.58
 norallm/normistral-7b-warm-instruct (few-shot),-1,33,2048,True,False,6194,3.1,39.83,47.48,4.55,49.23,66.17,10.83,14.66,2.71

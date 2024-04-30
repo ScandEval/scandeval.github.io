@@ -22,7 +22,7 @@ mistralai/Mistral-7B-Instruct-v0.2 (few-shot),7242,32,32768,False,False,2538,4.5
 occiglot/occiglot-7b-eu5-instruct (few-shot),7242,32,32768,False,False,2088,4.63,40.71,0.71,20.66,65.25,8.1,0.35
 mistralai/Mistral-7B-Instruct-v0.1 (few-shot),7242,32,32768,False,False,5443,4.7,36.04,-0.36,18.06,62.8,7.22,6.35
 occiglot/occiglot-7b-eu5 (few-shot),7242,32,32768,True,False,2219,4.74,40.08,1.59,15.98,62.55,7.64,-0.51
-meta-llama/Llama-2-7b-hf (few-shot),6738,32,4096,True,False,2648,4.83,32.71,0.66,18.04,60.73,5.05,-0.0
+meta-llama/Llama-2-7b-hf (few-shot),6738,32,4096,True,False,930,4.83,32.71,0.66,18.04,60.73,5.05,-0.0
 meta-llama/Llama-2-7b-chat-hf (few-shot),6738,32,4096,False,False,2643,4.84,41.1,-1.07,16.13,62.3,3.27,1.84
 bineric/NorskGPT-Llama-7B-v0.1 (few-shot),6738,32,4096,False,False,5384,4.87,34.62,-0.24,18.1,61.81,6.52,-1.9
 AI-Sweden-Models/gpt-sw3-6.7b-v2-instruct (few-shot),7111,64,2048,True,False,2383,4.88,19.39,0.01,20.92,66.55,3.75,-2.37

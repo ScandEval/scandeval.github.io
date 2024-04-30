@@ -104,7 +104,7 @@ DDSC/roberta-base-scandinavian,125,50,512,True,False,14491,2.22,58.84,72.28,37.6
 RuterNorway/Llama-2-13b-chat-norwegian (few-shot),-1,32,4096,False,False,7778,2.22,50.85,74.17,7.51,57.32
 microsoft/xlm-align-base,278,250,512,True,False,14744,2.22,78.6,73.67,15.41,32.41
 senseable/WestLake-7B-v2 (few-shot),7242,32,32768,False,False,5993,2.22,58.9,67.74,16.52,49.41
-meta-llama/Llama-2-7b-hf (few-shot),6738,32,4096,True,False,2648,2.24,44.11,79.05,7.34,57.49
+meta-llama/Llama-2-7b-hf (few-shot),6738,32,4096,True,False,930,2.24,44.11,79.05,7.34,57.49
 sentence-transformers/stsb-xlm-r-multilingual,278,250,512,True,False,15040,2.24,68.94,72.77,40.21,20.09
 occiglot/occiglot-7b-eu5 (few-shot),7242,32,32768,True,False,2219,2.25,49.02,76.56,2.18,58.98
 sentence-transformers/paraphrase-xlm-r-multilingual-v1,278,250,512,True,False,20154,2.27,70.22,71.33,39.6,18.65

@@ -52,7 +52,7 @@ occiglot/occiglot-7b-eu5-instruct (few-shot),7242,32,32768,False,False,2088,2.14
 Qwen/Qwen1.5-4B (few-shot),3950,152,32768,True,False,3248,2.15,55.45,60.55,28.6,70.49
 Twitter/twhin-bert-large,562,250,512,True,False,9707,2.16,89.5,45.98,30.58,48.44
 meta-llama/Llama-2-7b-chat-hf (few-shot),6738,32,4096,False,False,2643,2.2,62.53,62.23,22.71,64.45
-meta-llama/Llama-2-7b-hf (few-shot),6738,32,4096,True,False,2648,2.2,55.27,65.16,20.43,69.82
+meta-llama/Llama-2-7b-hf (few-shot),6738,32,4096,True,False,930,2.2,55.27,65.16,20.43,69.82
 mistralai/Mistral-7B-Instruct-v0.2 (few-shot),7242,32,32768,False,False,2538,2.2,62.11,59.91,30.66,58.27
 "mlabonne/AlphaMonarch-7B (few-shot, val)",7242,32,8192,False,True,5340,2.2,69.19,63.77,28.43,44.39
 occiglot/occiglot-7b-eu5 (few-shot),7242,32,32768,True,False,2219,2.25,55.37,63.32,18.92,72.38

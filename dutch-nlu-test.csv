@@ -55,7 +55,7 @@ Rijgersberg/GEITje-7B (few-shot),7242,32,32768,True,False,10401,2.95,47.53,4.36,
 Twitter/twhin-bert-large,560,250,512,True,False,9707,2.95,77.35,6.55,18.25,28.37
 mistralai/Mistral-7B-Instruct-v0.1 (few-shot),7242,32,32768,False,False,5443,2.98,52.72,7.91,18.14,52.75
 meta-llama/Llama-2-7b-chat-hf (few-shot),6738,32,4096,False,False,2643,2.99,50.23,10.07,14.73,53.42
-meta-llama/Llama-2-7b-hf (few-shot),6738,32,4096,True,False,2648,3.0,40.49,7.1,18.66,59.92
+meta-llama/Llama-2-7b-hf (few-shot),6738,32,4096,True,False,930,3.0,40.49,7.1,18.66,59.92
 EuropeanParliament/EUBERT,93,66,512,True,False,20070,3.03,49.54,14.86,27.9,20.65
 AI-Sweden-Models/roberta-large-1350k,354,50,512,True,False,5744,3.11,73.03,3.65,2.0,42.85
 01-ai/Yi-6B (few-shot),6061,64,4096,True,False,2786,3.13,46.34,8.96,0.88,55.33

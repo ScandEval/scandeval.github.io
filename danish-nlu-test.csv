@@ -136,7 +136,7 @@ Qwen/Qwen1.5-4B-Chat (few-shot),3950,152,32768,False,False,4347,2.66,35.96,42.04
 timpal0l/Mistral-7B-v0.1-flashback-v2-instruct (few-shot),7242,32,32768,False,False,5172,2.66,37.02,40.65,7.48,52.71
 Geotrend/distilbert-base-en-no-cased,69,33,512,True,False,26597,2.67,57.53,32.95,33.63,27.21
 sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,118,250,512,True,False,29201,2.67,56.75,44.48,26.74,17.89
-meta-llama/Llama-2-7b-hf (few-shot),6738,32,4096,True,False,2648,2.7,31.77,43.91,0.31,58.44
+meta-llama/Llama-2-7b-hf (few-shot),6738,32,4096,True,False,930,2.7,31.77,43.91,0.31,58.44
 KBLab/megatron-bert-base-swedish-cased-125k,135,64,512,True,False,15763,2.76,53.93,36.31,23.46,27.85
 Qwen/Qwen1.5-4B (few-shot),3950,152,32768,True,False,3248,2.76,32.28,39.62,5.38,54.16
 flax-community/swe-roberta-wiki-oscar,125,50,512,True,False,15437,2.77,55.98,36.66,22.69,24.81
