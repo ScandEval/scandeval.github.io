@@ -77,7 +77,7 @@ flax-community/nordic-roberta-wiki,124,50,512,True,False,16227,3.47,63.31,2.47,5
 LumiOpen/Viking-7B (few-shot),7550,131,4096,True,False,5723,3.48,21.41,1.76,22.54
 DeepPavlov/rubert-base-cased,177,120,512,True,False,15785,3.49,61.95,2.4,6.04
 meta-llama/Llama-2-7b-chat-hf (few-shot),6738,32,4096,False,False,2643,3.49,41.1,-1.07,16.13
-meta-llama/Llama-2-7b-hf (few-shot),6738,32,4096,True,False,2648,3.5,32.71,0.66,18.04
+meta-llama/Llama-2-7b-hf (few-shot),6738,32,4096,True,False,930,3.5,32.71,0.66,18.04
 Geotrend/distilbert-base-25lang-cased,109,85,512,True,False,26099,3.52,65.76,2.08,6.81
 LumiOpen/Viking-13B (few-shot),14030,131,4224,True,False,3480,3.53,20.51,1.12,21.85
 3ebdola/Dialectal-Arabic-XLM-R-Base,277,250,512,True,False,12783,3.54,46.95,1.4,10.48

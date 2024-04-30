@@ -33,7 +33,7 @@ meta-llama/Llama-2-7b-chat-hf (few-shot),6738,32,4096,False,False,2643,2.97,50.2
 BramVanroy/GEITje-7B-ultra-sft (few-shot),7242,32,8192,False,False,5979,3.03,39.41,7.0,16.1,53.02,67.74,25.8,12.49
 timpal0l/Mistral-7B-v0.1-flashback-v2 (few-shot),7242,32,32768,True,False,5054,3.05,54.56,8.43,10.99,55.91,57.88,25.12,10.65
 01-ai/Yi-6B (few-shot),6061,64,4096,True,False,2786,3.1,46.34,8.96,0.88,55.33,58.35,29.33,20.27
-meta-llama/Llama-2-7b-hf (few-shot),6738,32,4096,True,False,2648,3.16,40.49,7.1,18.66,59.92,62.58,17.36,6.68
+meta-llama/Llama-2-7b-hf (few-shot),6738,32,4096,True,False,930,3.16,40.49,7.1,18.66,59.92,62.58,17.36,6.68
 Qwen/Qwen1.5-4B (few-shot),3950,152,32768,True,False,3248,3.23,35.74,12.55,0.23,51.3,58.9,22.2,13.11
 AI-Sweden-Models/gpt-sw3-20b (few-shot),20918,64,2048,True,False,4880,3.26,35.3,15.67,1.76,45.05,59.15,6.24,0.47
 AI-Sweden-Models/gpt-sw3-20b-instruct (few-shot),20918,64,2048,True,False,1831,3.48,24.44,18.4,4.85,39.83,54.89,4.38,1.95

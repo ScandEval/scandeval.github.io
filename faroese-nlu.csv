@@ -112,7 +112,7 @@ occiglot/occiglot-7b-eu5 (few-shot),7242,32,32768,True,False,2219,5.06,58.67,0.0
 timpal0l/Mistral-7B-v0.1-flashback-v2 (few-shot),7242,32,32768,True,False,5054,5.06,58.96,0.0
 Maltehb/danish-bert-botxo,110,32,512,True,False,16091,5.13,43.59,3.13
 TurkuNLP/bert-base-finnish-cased-v1,124,50,512,True,False,16701,5.13,51.26,1.77
-meta-llama/Llama-2-7b-hf (few-shot),6738,32,4096,True,False,2648,5.16,52.34,0.11
+meta-llama/Llama-2-7b-hf (few-shot),6738,32,4096,True,False,930,5.16,52.34,0.11
 norallm/normistral-7b-warm-instruct (few-shot),7248,33,4096,True,False,6194,5.16,54.03,0.11
 tollefj/nordavind-7b-instruct-warm (few-shot),7248,33,2048,False,False,6450,5.16,53.24,-0.52
 asafaya/bert-base-arabic,110,32,512,True,False,16347,5.24,50.44,-0.06
