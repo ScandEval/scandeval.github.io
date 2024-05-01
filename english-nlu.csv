@@ -65,7 +65,7 @@ cardiffnlp/twitter-xlm-roberta-base,277,250,512,True,False,34475,2.4,87.09,55.4,
 distilbert/distilbert-base-multilingual-cased,135,120,512,True,False,26355,2.44,87.7,36.48,40.79,29.0
 AI-Sweden-Models/gpt-sw3-20b-instruct (few-shot),20918,64,2048,True,False,1831,2.5,39.21,65.58,7.82,72.25
 Geotrend/distilbert-base-25lang-cased,109,85,512,True,False,26099,2.5,87.08,36.77,37.1,26.99
-AI-Sweden-Models/gpt-sw3-20b (few-shot),20918,64,2048,True,False,4880,2.51,45.86,62.08,6.62,65.29
+AI-Sweden-Models/gpt-sw3-20b (few-shot),20918,64,2048,True,False,1875,2.51,45.86,62.08,6.62,65.29
 Qwen/Qwen1.5-1.8B (few-shot),1837,152,32768,True,False,5666,2.56,37.22,64.34,15.3,64.41
 Qwen/Qwen1.5-1.8B-Chat (few-shot),1837,152,32768,False,False,8304,2.73,40.89,55.33,11.23,60.69
 allenai/OLMo-7B (few-shot),6888,50,2176,True,False,5403,2.77,38.23,60.7,-0.19,61.93
