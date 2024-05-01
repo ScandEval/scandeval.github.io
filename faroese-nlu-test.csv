@@ -104,7 +104,7 @@ bineric/NorskGPT-Llama-7B-v0.1 (few-shot),6738,32,4096,False,False,5384,5.05,53.
 mistralai/Mistral-7B-Instruct-v0.1 (few-shot),7242,32,32768,False,False,5443,5.05,55.42,1.11
 AI-Sweden-Models/gpt-sw3-20b (few-shot),20918,64,2048,True,False,1875,5.06,46.5,3.95
 "AI-Sweden-Models/tyr (few-shot, val)",7242,32,32768,False,True,6079,5.06,60.21,0.0
-RuterNorway/Llama-2-13b-chat-norwegian (few-shot),-1,32,4096,False,False,7778,5.06,60.54,-0.33
+RuterNorway/Llama-2-13b-chat-norwegian (few-shot),-1,32,4096,False,False,3254,5.06,60.54,-0.33
 fresh-xlm-roberta-base,277,250,512,True,False,2214,5.06,48.7,2.37
 meta-llama/Llama-2-7b-chat-hf (few-shot),6738,32,4096,False,False,2643,5.06,59.77,-0.54
 occiglot/occiglot-7b-eu5-instruct (few-shot),7242,32,32768,False,False,2088,5.06,60.37,0.0

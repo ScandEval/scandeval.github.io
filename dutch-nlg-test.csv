@@ -22,7 +22,7 @@ BramVanroy/GEITje-7B-ultra (few-shot),7242,32,8192,False,False,2475,2.71,42.25,1
 alpindale/Mistral-7B-v0.2-hf (few-shot),7242,32,32768,True,False,1841,2.71,56.76,7.11,23.55,61.89,64.33,34.92,23.87
 mistralai/Mistral-7B-Instruct-v0.2 (few-shot),7242,32,32768,False,False,2538,2.72,55.56,12.37,21.5,50.77,67.99,22.86,24.8
 Rijgersberg/GEITje-7B-chat-v2 (few-shot),7242,32,32768,False,False,5908,2.82,42.12,11.06,19.71,59.19,65.55,27.71,18.03
-RuterNorway/Llama-2-13b-chat-norwegian (few-shot),-1,32,4096,False,False,7778,2.83,57.66,8.41,16.93,56.29,66.22,25.7,17.92
+RuterNorway/Llama-2-13b-chat-norwegian (few-shot),-1,32,4096,False,False,3254,2.83,57.66,8.41,16.93,56.29,66.22,25.7,17.92
 BramVanroy/fietje-2b-chat (few-shot),2775,50,2048,False,False,4704,2.84,39.57,13.25,9.31,60.26,65.37,26.63,11.62
 occiglot/occiglot-7b-eu5-instruct (few-shot),7242,32,32768,False,False,2088,2.85,53.78,7.78,16.23,63.09,66.46,28.37,15.25
 BramVanroy/fietje-2b-instruct (few-shot),2775,50,2048,False,False,4710,2.9,36.5,13.7,4.81,60.63,66.01,26.76,12.93

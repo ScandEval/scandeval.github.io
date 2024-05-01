@@ -57,7 +57,7 @@ mideind/IceBERT-mC4-is,163,50,512,True,False,12308,3.24,79.19,20.95,0.0
 microsoft/infoxlm-base,277,250,512,True,False,34735,3.26,77.09,1.71,8.56
 occiglot/occiglot-7b-eu5-instruct (few-shot),7242,32,32768,False,False,2088,3.26,40.71,0.71,20.66
 ZurichNLP/unsup-simcse-xlm-roberta-base,277,250,512,True,False,34520,3.27,75.27,3.47,7.67
-RuterNorway/Llama-2-13b-chat-norwegian (few-shot),-1,32,4096,False,False,7778,3.3,28.35,3.14,19.8
+RuterNorway/Llama-2-13b-chat-norwegian (few-shot),-1,32,4096,False,False,3254,3.3,28.35,3.14,19.8
 KennethEnevoldsen/dfm-sentence-encoder-medium,124,50,512,True,False,14998,3.31,64.88,-0.6,12.39
 NbAiLab/nb-roberta-base-scandinavian,125,50,512,True,False,14051,3.33,69.04,3.34,7.17
 KennethEnevoldsen/dfm-sentence-encoder-medium-2,124,50,512,True,False,14965,3.37,64.57,0.86,10.76
