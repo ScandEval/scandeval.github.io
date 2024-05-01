@@ -36,7 +36,7 @@ pere/roberta-base-exp-32B,278,250,512,True,False,15103,1.93,71.81,47.83,54.99,29
 Nexusflow/Starling-LM-7B-beta (few-shot),7242,32,8192,False,False,5876,1.94,53.2,51.75,32.72,56.44
 pere/roberta-base-exp-32,278,250,512,True,False,15081,1.96,71.9,51.33,44.45,32.51
 "RJuro/munin-neuralbeagle-7b (few-shot, val)",7242,32,32768,False,True,2493,2.03,51.44,54.91,22.77,56.51
-syvai/llama3-da-base (few-shot),-1,128,8192,True,False,3191,2.04,49.97,48.61,28.16,59.55
+syvai/llama3-da-base (few-shot),8030,128,8192,True,False,3191,2.04,49.97,48.61,28.16,59.55
 four-two-labs/orpo-llama-3-swe (few-shot),8030,128,8192,False,False,4974,2.05,46.75,51.73,24.73,59.97
 "birgermoell/BeagleCatMunin-Flashback-Bellman (few-shot, val)",7242,32,32768,False,True,2890,2.06,50.4,52.3,21.3,58.17
 "timpal0l/BeagleCatMunin (few-shot, val)",7242,32,32768,False,True,2495,2.06,47.62,54.73,21.8,57.26
