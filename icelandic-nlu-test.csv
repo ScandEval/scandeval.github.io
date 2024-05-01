@@ -37,7 +37,7 @@ senseable/WestLake-7B-v2 (few-shot),7242,32,32768,False,False,5993,2.96,56.71,3.
 AI-Sweden-Models/roberta-large-1350k,354,50,512,True,False,5744,2.98,73.92,11.77,11.84
 mhenrichsen/hestenettetLM (few-shot),7242,32,32768,True,False,5160,2.98,50.82,0.99,25.74
 mistralai/Mistral-7B-v0.1 (few-shot),7242,32,32768,True,False,2657,2.98,47.24,1.35,25.7
-AI-Sweden-Models/gpt-sw3-20b (few-shot),20918,64,2048,True,False,4880,3.08,27.54,4.61,28.12
+AI-Sweden-Models/gpt-sw3-20b (few-shot),20918,64,2048,True,False,1875,3.08,27.54,4.61,28.12
 "AI-Sweden-Models/tyr (few-shot, val)",7242,32,32768,False,True,6079,3.08,50.64,-0.06,23.36
 clips/mfaq,277,250,512,True,False,5591,3.08,77.3,3.51,11.31
 microsoft/xlm-align-base,277,250,512,True,False,14744,3.08,78.01,5.92,10.47

@@ -102,7 +102,7 @@ mistralai/Mistral-7B-Instruct-v0.2 (few-shot),7242,32,32768,False,False,2538,4.9
 Maltehb/aelaectra-danish-electra-small-cased,14,32,512,True,False,4593,4.95,58.52,1.09
 bineric/NorskGPT-Llama-7B-v0.1 (few-shot),6738,32,4096,False,False,5384,5.05,53.38,0.46
 mistralai/Mistral-7B-Instruct-v0.1 (few-shot),7242,32,32768,False,False,5443,5.05,55.42,1.11
-AI-Sweden-Models/gpt-sw3-20b (few-shot),20918,64,2048,True,False,4880,5.06,46.5,3.95
+AI-Sweden-Models/gpt-sw3-20b (few-shot),20918,64,2048,True,False,1875,5.06,46.5,3.95
 "AI-Sweden-Models/tyr (few-shot, val)",7242,32,32768,False,True,6079,5.06,60.21,0.0
 RuterNorway/Llama-2-13b-chat-norwegian (few-shot),-1,32,4096,False,False,7778,5.06,60.54,-0.33
 fresh-xlm-roberta-base,277,250,512,True,False,2214,5.06,48.7,2.37
