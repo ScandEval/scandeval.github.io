@@ -26,7 +26,7 @@ seedboxai/KafkaLM-7B-German-V0.1-DPO (few-shot),7242,32,4096,False,False,6070,2.
 seedboxai/KafkaLM-7B-German-V0.1 (few-shot),7242,32,32768,True,False,6065,2.26,48.35,52.51,20.36,32.88,68.82,31.36,29.98
 occiglot/occiglot-7b-eu5 (few-shot),7242,32,32768,True,False,2219,2.29,51.39,47.3,21.83,31.55,69.31,32.49,22.25
 mistralai/Mistral-7B-Instruct-v0.2 (few-shot),7242,32,32797,False,False,2538,2.42,55.1,47.69,24.14,23.95,67.54,25.96,31.06
-RuterNorway/Llama-2-13b-chat-norwegian (few-shot),-1,32,4125,False,False,7778,2.44,57.02,49.75,19.8,27.86,66.93,26.02,24.88
+RuterNorway/Llama-2-13b-chat-norwegian (few-shot),-1,32,4125,False,False,3254,2.44,57.02,49.75,19.8,27.86,66.83,25.99,24.9
 "mayflowergmbh/Wiedervereinigung-7b-dpo (few-shot, val)",7242,32,32768,False,True,2374,2.45,52.17,51.92,29.06,14.59,63.78,35.38,34.16
 timpal0l/Mistral-7B-v0.1-flashback-v2 (few-shot),7242,32,32768,True,False,5054,2.5,50.66,54.79,20.17,27.86,65.53,27.04,17.47
 DiscoResearch/DiscoLM_German_7b_v1 (few-shot),7242,32,32768,False,False,1972,2.51,42.39,48.67,8.72,36.12,68.47,23.99,20.76

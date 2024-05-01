@@ -36,7 +36,7 @@ meta-llama/Meta-Llama-3-8B (few-shot),8030,128,8192,True,False,4687,1.96,66.31,6
 robinsmits/Qwen1.5-7B-Dutch-Chat-Sft-Bf16 (few-shot),7719,152,32768,False,False,2413,1.96,67.52,63.1,37.75,64.88
 occiglot/occiglot-7b-de-en-instruct (few-shot),7242,32,32768,False,False,1584,2.01,60.9,66.54,23.6,75.14
 timpal0l/Mistral-7B-v0.1-flashback-v2 (few-shot),7242,32,32768,True,False,5054,2.05,59.1,68.41,25.43,71.89
-RuterNorway/Llama-2-13b-chat-norwegian (few-shot),-1,32,4096,False,False,7778,2.06,64.93,64.14,28.08,62.09
+RuterNorway/Llama-2-13b-chat-norwegian (few-shot),-1,32,4096,False,False,3254,2.06,64.93,64.14,28.08,62.09
 google-bert/bert-base-multilingual-cased,177,120,512,True,False,14083,2.07,89.32,41.89,38.34,55.19
 occiglot/occiglot-7b-de-en (few-shot),7242,32,32768,True,False,1992,2.07,56.07,65.29,25.78,73.13
 01-ai/Yi-6B (few-shot),6061,64,4096,True,False,2786,2.08,52.7,68.66,25.29,75.89
