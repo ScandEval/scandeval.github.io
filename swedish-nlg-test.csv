@@ -1,9 +1,9 @@
 model_id,num_model_parameters,vocabulary_size,max_sequence_length,commercially_licensed,merge,speed,rank,suc3,swerec,scala_sv,scandiqa_sv,swedn,mmlu_sv,hellaswag_sv
-"gpt-4-0613 (few-shot, val)",-1,100,8191,True,False,597,1.07,76.86,79.19,80.93,56.5,67.83,72.53,85.67
+"gpt-4-0613 (few-shot, val)",-1,100,8191,True,False,597,1.1,76.86,79.19,80.93,53.81,67.83,72.53,85.67
 "meta-llama/Meta-Llama-3-70B (few-shot, val)",70554,128,8192,True,False,312,1.39,74.61,78.61,63.2,61.98,67.6,61.55,66.21
 "152334H/miqu-1-70b-sf (few-shot, val)",68977,32,32764,True,False,2126,1.78,62.96,75.25,53.28,56.42,67.6,53.56,59.7
 "meta-llama/Meta-Llama-3-70B-Instruct (few-shot, val)",70554,128,8192,True,False,1673,1.82,77.06,53.56,47.5,46.86,68.25,61.31,66.73
-"gpt-3.5-turbo-0613 (few-shot, val)",-1,100,4095,True,False,921,1.88,73.04,72.77,58.06,57.59,66.92,40.73,50.51
+"gpt-3.5-turbo-0613 (few-shot, val)",-1,100,4095,True,False,921,1.86,73.04,72.77,58.06,58.02,66.92,40.73,50.51
 "meta-llama/Llama-2-70b-hf (few-shot, val)",68977,32,4096,True,False,1892,1.9,64.76,75.46,43.27,63.04,68.43,46.16,50.41
 timpal0l/sol (few-shot),10732,32,4096,False,False,3701,2.07,57.51,77.31,25.06,60.16,65.22,39.52,70.93
 upstage/SOLAR-10.7B-v1.0 (few-shot),10732,32,4096,True,False,3780,2.11,59.65,77.48,16.94,62.65,65.19,39.82,68.87
@@ -92,7 +92,7 @@ mhenrichsen/danskgpt-tiny (few-shot),1100,32,2048,True,False,8597,4.13,23.92,31.
 Qwen/Qwen1.5-0.5B-Chat (few-shot),620,152,32768,False,False,11740,4.14,18.57,40.23,0.21,29.49,53.29,2.59,-0.84
 AI-Sweden-Models/gpt-sw3-356m (few-shot),471,64,2048,True,False,5758,4.16,23.77,34.29,1.57,33.7,51.36,-0.96,0.3
 AI-Sweden-Models/gpt-sw3-126m-instruct (few-shot),186,64,2048,True,False,7717,4.31,23.05,12.47,0.08,20.43,59.8,0.72,0.11
-allenai/OLMo-1B (few-shot),1177,50,2051,True,False,8536,4.31,29.39,38.95,-1.35,17.85,43.75,-0.22,0.75
+allenai/OLMo-1B (few-shot),1177,50,2051,True,False,8536,4.32,29.39,38.95,-1.35,17.85,43.75,-0.22,0.75
 RJuro/kanelsnegl-v0.1 (few-shot),7242,32,512,True,False,9757,4.51,0.0,34.63,0.0,0.0,59.04,-0.25,0.08
 RJuro/kanelsnegl-v0.2 (few-shot),7242,32,512,True,False,1373,4.53,0.0,28.62,0.0,0.0,58.16,0.47,0.71
 AI-Sweden-Models/gpt-sw3-126m (few-shot),186,64,2048,True,False,8958,4.61,5.66,8.15,-0.81,16.4,51.48,-0.49,1.17
