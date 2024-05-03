@@ -49,7 +49,7 @@ Twitter/twhin-bert-base,279,250,512,True,False,11514,2.36,70.35,55.03,43.87,2.81
 timpal0l/Mistral-7B-v0.1-flashback-v2 (few-shot),7242,32,32768,True,False,5054,2.36,50.66,54.79,20.17,27.86
 Twitter/twhin-bert-large,562,250,512,True,False,9707,2.37,74.36,53.52,22.26,11.68
 RuterNorway/Llama-2-13b-chat-norwegian (few-shot),-1,32,4125,False,False,3254,2.41,57.02,49.75,19.8,27.86
-mistralai/Mistral-7B-Instruct-v0.2 (few-shot),7242,32,32797,False,False,2538,2.47,55.1,47.69,24.14,23.95
+mistralai/Mistral-7B-Instruct-v0.2 (few-shot),7242,32,32768,False,False,2538,2.47,55.1,47.69,24.14,23.93
 DiscoResearch/DiscoLM_German_7b_v1 (few-shot),7242,32,32768,False,False,1972,2.49,42.39,48.67,8.72,36.12
 mistralai/Mistral-7B-Instruct-v0.1 (few-shot),7242,32,32768,False,False,5443,2.49,51.79,47.27,22.15,24.35
 "mayflowergmbh/Wiedervereinigung-7b-dpo (few-shot, val)",7242,32,32768,False,True,2374,2.53,52.17,51.92,29.06,14.59
