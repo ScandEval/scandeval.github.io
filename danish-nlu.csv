@@ -66,9 +66,9 @@ Geotrend/bert-base-en-fr-de-no-da-cased,118,42,512,True,False,13973,2.23,63.38,3
 "timpal0l/BeagleCatMunin2 (few-shot, val)",7242,32,32768,False,True,2477,2.23,51.53,47.95,14.1,58.28
 "RJuro/munin-neuralbeagle-SkoleGPTOpenOrca-7b (few-shot, val)",7242,32,32768,False,True,3008,2.24,50.83,43.41,19.72,57.87
 "birgermoell/NeuralBeagle-Flashback (few-shot, val)",7242,32,32768,False,True,2904,2.24,48.28,44.2,22.79,57.96
-timpal0l/Llama-3-8B-flashback-v1 (few-shot),8030,128,8192,True,False,4849,2.24,42.71,51.24,19.78,56.28
 danish-foundation-models/encoder-medium-v1,111,32,512,True,False,16130,2.25,63.42,39.91,51.01,25.76
 senseable/WestLake-7B-v2 (few-shot),7242,32,32768,False,False,5993,2.25,52.61,49.81,19.64,48.03
+timpal0l/Llama-3-8B-flashback-v1 (few-shot),8030,128,8192,True,False,4807,2.25,46.59,50.25,14.46,56.86
 jannikskytt/MeDa-Bert,111,32,511,True,False,16114,2.26,64.64,44.62,47.47,23.14
 google-bert/bert-base-multilingual-uncased,167,106,512,True,False,13993,2.29,64.92,33.5,46.75,37.09
 Geotrend/bert-base-en-no-cased,111,33,512,True,False,14081,2.32,62.66,33.91,40.96,39.93
@@ -105,8 +105,8 @@ mhenrichsen/hestenettetLM (few-shot),7242,32,32768,True,False,5160,2.46,44.9,42.
 flax-community/nordic-roberta-wiki,125,50,512,True,False,16227,2.47,60.82,34.45,41.89,26.83
 google-bert/bert-base-multilingual-cased,178,120,512,True,False,14083,2.47,63.17,32.38,27.93,39.57
 jhu-clsp/bernice,278,250,512,True,False,5567,2.47,61.98,47.2,40.52,13.53
+microsoft/infoxlm-base,278,250,512,True,False,34735,2.47,69.78,46.78,11.27,28.28
 clips/mfaq,278,250,128,True,False,5591,2.48,68.49,45.6,28.26,14.34
-microsoft/infoxlm-base,278,250,512,True,False,34735,2.48,69.78,46.78,11.27,28.28
 Geotrend/bert-base-da-cased,104,23,512,True,False,15432,2.49,62.76,32.06,30.95,37.79
 sarnikowski/electra-small-discriminator-da-256-cased,13,29,512,True,False,20340,2.5,60.63,24.38,68.58,21.03
 tollefj/nordavind-7b-instruct-warm (few-shot),7248,33,2048,False,False,6450,2.5,38.39,49.44,7.5,51.24
