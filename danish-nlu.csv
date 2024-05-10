@@ -76,7 +76,7 @@ Geotrend/bert-base-en-no-cased,111,33,512,True,False,14081,2.32,62.66,33.91,40.9
 microsoft/infoxlm-large,560,250,512,True,False,6696,2.32,74.42,37.94,15.26,44.25
 "mlabonne/AlphaMonarch-7B (few-shot, val)",7242,32,8192,False,True,5340,2.32,52.72,49.11,16.09,46.28
 neph1/bellman-7b-mistral-instruct-v0.2 (few-shot),7242,32,32768,False,False,2518,2.32,46.11,47.58,18.41,52.78
-mistralai/Mistral-7B-Instruct-v0.2 (few-shot),7242,32,32768,False,False,2538,2.34,44.89,48.09,19.06,51.56
+mistralai/Mistral-7B-Instruct-v0.2 (few-shot),7242,32,32768,False,False,634,2.34,44.89,48.09,19.06,51.56
 "KennethEnevoldsen/munin_mistral-7b (few-shot, val)",7242,32,32768,False,True,2543,2.35,46.7,47.52,8.04,60.05
 alpindale/Mistral-7B-v0.2-hf (few-shot),7242,32,32768,True,False,1841,2.35,43.65,45.86,15.19,59.14
 timpal0l/Mistral-7B-v0.1-flashback-v2 (few-shot),7242,32,32768,True,False,5054,2.35,42.43,47.82,16.51,56.95
@@ -114,7 +114,7 @@ DDSC/roberta-base-danish,125,50,512,True,False,15004,2.53,63.84,43.9,17.16,26.94
 sarnikowski/convbert-small-da-cased,13,29,512,True,False,14273,2.53,60.59,29.52,57.1,20.16
 bineric/NorskGPT-Llama-7B-v0.1 (few-shot),6738,32,4096,False,False,5384,2.56,41.63,47.73,0.0,54.25
 meta-llama/Llama-2-7b-chat-hf (few-shot),6738,32,4096,False,False,2643,2.56,35.44,44.88,9.74,55.04
-mistralai/Mistral-7B-Instruct-v0.1 (few-shot),7242,32,32768,False,False,5443,2.56,37.93,44.49,14.09,51.38
+mistralai/Mistral-7B-Instruct-v0.1 (few-shot),7242,32,32768,False,False,634,2.56,37.93,44.49,14.09,51.38
 KB/bert-base-swedish-cased,125,50,512,True,False,16181,2.57,61.74,33.28,33.15,28.67
 KBLab/bert-base-swedish-cased,125,50,512,True,False,16164,2.57,61.74,33.31,33.35,28.67
 bineric/NorskGPT-Mistral-7b (few-shot),7242,32,32768,False,False,2443,2.57,50.76,40.41,0.0,57.26

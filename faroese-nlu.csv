@@ -97,11 +97,11 @@ ltg/norbert2,125,50,512,True,False,15523,4.83,60.57,4.16
 Mabeck/Heidrun-Mistral-7B-chat (few-shot),7242,32,32768,False,False,5822,4.9,63.4,2.16
 alpindale/Mistral-7B-v0.2-hf (few-shot),7242,32,32768,True,False,1841,4.9,61.26,1.66
 meta-llama/Meta-Llama-3-8B (few-shot),8030,128,8192,True,False,4687,4.9,61.11,2.02
-mistralai/Mistral-7B-Instruct-v0.2 (few-shot),7242,32,32768,False,False,2538,4.9,61.28,1.68
+mistralai/Mistral-7B-Instruct-v0.2 (few-shot),7242,32,32768,False,False,634,4.9,61.28,1.68
 "meta-llama/Llama-2-70b-hf (few-shot, val)",68977,32,4221,True,False,1892,4.91,66.95,0.0
 Maltehb/aelaectra-danish-electra-small-cased,14,32,512,True,False,4593,4.95,58.52,1.09
 bineric/NorskGPT-Llama-7B-v0.1 (few-shot),6738,32,4096,False,False,5384,5.05,53.38,0.46
-mistralai/Mistral-7B-Instruct-v0.1 (few-shot),7242,32,32768,False,False,5443,5.05,55.42,1.11
+mistralai/Mistral-7B-Instruct-v0.1 (few-shot),7242,32,32768,False,False,634,5.05,55.42,1.11
 AI-Sweden-Models/gpt-sw3-20b (few-shot),20918,64,2048,True,False,1875,5.06,46.5,3.95
 "AI-Sweden-Models/tyr (few-shot, val)",7242,32,32768,False,True,6079,5.06,60.21,0.0
 RuterNorway/Llama-2-13b-chat-norwegian (few-shot),-1,32,4096,False,False,3254,5.06,60.54,-0.33

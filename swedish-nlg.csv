@@ -47,13 +47,13 @@ mistralai/Mistral-7B-v0.1 (few-shot),7242,32,32768,True,False,2657,2.73,53.34,80
 ThatsGroes/munin-SkoleGPTOpenOrca-7b-16bit (few-shot),7242,32,32768,False,False,3006,2.77,44.64,77.98,16.57,57.31,63.23,28.15,23.58
 danish-foundation-models/munin-7b-alpha (few-shot),7242,32,32768,True,False,6116,2.79,42.23,78.8,15.47,56.75,62.78,30.86,19.11
 timpal0l/Mistral-7B-v0.1-flashback-v2-instruct (few-shot),7242,32,32768,False,False,5172,2.83,46.74,77.06,14.0,56.74,62.56,30.87,15.79
-mistralai/Mistral-7B-Instruct-v0.2 (few-shot),7242,32,32768,False,False,2538,2.84,47.92,62.9,19.95,52.51,66.11,25.6,21.75
+mistralai/Mistral-7B-Instruct-v0.2 (few-shot),7242,32,32768,False,False,634,2.84,47.92,62.9,19.95,52.51,66.11,25.6,21.75
 "birgermoell/NeuralBeagle-Flashback (few-shot, val)",7242,32,32768,False,True,2904,2.85,51.73,36.06,19.42,59.26,67.55,23.1,29.31
 RuterNorway/Llama-2-13b-chat-norwegian (few-shot),-1,32,4096,False,False,3254,2.9,50.85,74.17,7.51,57.32,65.2,23.92,17.67
 occiglot/occiglot-7b-eu5-instruct (few-shot),7242,32,32768,False,False,2088,2.92,47.67,71.73,7.9,57.78,65.07,25.52,14.06
 occiglot/occiglot-7b-eu5 (few-shot),7242,32,32768,True,False,2219,2.94,49.02,76.56,2.18,58.98,64.42,23.68,14.05
 01-ai/Yi-6B (few-shot),6061,64,4096,True,False,2786,2.97,46.69,75.39,2.91,54.95,62.7,25.28,19.2
-mistralai/Mistral-7B-Instruct-v0.1 (few-shot),7242,32,32768,False,False,5443,2.97,45.01,73.33,11.59,52.12,63.1,24.03,15.37
+mistralai/Mistral-7B-Instruct-v0.1 (few-shot),7242,32,32768,False,False,634,2.97,45.01,73.33,11.59,52.12,63.1,24.03,15.37
 neph1/bellman-7b-mistral-instruct-v0.2 (few-shot),7242,32,32768,False,False,2518,2.98,54.38,55.84,16.05,53.22,64.9,22.36,12.52
 meta-llama/Llama-2-7b-hf (few-shot),6738,32,4096,True,False,930,3.03,44.11,79.05,7.34,57.49,64.63,15.65,8.74
 bineric/NorskGPT-Llama-7B-v0.1 (few-shot),6738,32,4096,False,False,5384,3.04,53.95,60.91,0.32,55.28,63.73,20.96,25.76

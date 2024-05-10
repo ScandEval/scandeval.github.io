@@ -118,9 +118,9 @@ distilbert/distilbert-base-multilingual-cased,135,120,512,True,False,26355,2.33,
 01-ai/Yi-6B (few-shot),6061,64,4096,True,False,2786,2.34,46.69,75.39,2.91,54.95
 "mlabonne/AlphaMonarch-7B (few-shot, val)",7242,32,8192,False,True,5340,2.34,60.53,67.03,15.1,42.46
 tollefj/nordavind-7b-instruct-warm (few-shot),7248,33,2048,False,False,6450,2.34,47.24,77.91,5.55,51.41
-mistralai/Mistral-7B-Instruct-v0.1 (few-shot),7242,32,32768,False,False,5443,2.37,45.01,73.33,11.59,52.12
+mistralai/Mistral-7B-Instruct-v0.1 (few-shot),7242,32,32768,False,False,634,2.37,45.01,73.33,11.59,52.12
 neph1/bellman-7b-mistral-instruct-v0.2 (few-shot),7242,32,32768,False,False,2518,2.37,54.38,55.84,16.05,53.22
-mistralai/Mistral-7B-Instruct-v0.2 (few-shot),7242,32,32768,False,False,2538,2.38,47.92,62.9,19.95,52.51
+mistralai/Mistral-7B-Instruct-v0.2 (few-shot),7242,32,32768,False,False,634,2.38,47.92,62.9,19.95,52.51
 AI-Sweden-Models/gpt-sw3-20b (few-shot),20918,64,2048,True,False,1875,2.39,31.86,78.88,12.26,53.58
 Geotrend/distilbert-base-25lang-cased,109,85,512,True,False,26099,2.39,70.56,60.69,30.83,31.41
 Geotrend/distilbert-base-en-da-cased,69,33,512,True,False,26196,2.39,69.62,59.42,29.01,31.82
