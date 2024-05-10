@@ -44,7 +44,7 @@ microsoft/xlm-align-base,277,250,512,True,False,14744,3.08,78.01,5.92,10.47
 alpindale/Mistral-7B-v0.2-hf (few-shot),7242,32,32768,True,False,1841,3.09,44.85,-0.69,25.52
 Mabeck/Heidrun-Mistral-7B-chat (few-shot),7242,32,32768,False,False,5822,3.11,44.84,0.44,22.77
 "meta-llama/Llama-2-70b-chat-hf (few-shot, val)",68977,32,4221,True,False,1979,3.11,46.32,-3.31,24.26
-mistralai/Mistral-7B-Instruct-v0.2 (few-shot),7242,32,32768,False,False,2538,3.11,43.11,3.4,19.18
+mistralai/Mistral-7B-Instruct-v0.2 (few-shot),7242,32,32768,False,False,634,3.11,43.11,3.4,19.18
 Geotrend/bert-base-da-cased,103,23,512,True,False,15432,3.14,73.81,6.23,10.57
 "mlabonne/AlphaMonarch-7B (few-shot, val)",7242,32,8192,False,True,5340,3.15,50.85,1.8,20.23
 "mlabonne/NeuralBeagle14-7B (few-shot, val)",7242,32,8192,False,True,2549,3.15,49.86,1.26,22.48
@@ -82,7 +82,7 @@ Geotrend/distilbert-base-25lang-cased,109,85,512,True,False,26099,3.52,65.76,2.0
 LumiOpen/Viking-13B (few-shot),14030,131,4224,True,False,3480,3.53,20.51,1.12,21.85
 3ebdola/Dialectal-Arabic-XLM-R-Base,277,250,512,True,False,12783,3.54,46.95,1.4,10.48
 bineric/NorskGPT-Llama-7B-v0.1 (few-shot),6738,32,4096,False,False,5384,3.54,34.62,-0.24,18.1
-mistralai/Mistral-7B-Instruct-v0.1 (few-shot),7242,32,32768,False,False,5443,3.54,36.04,-0.36,18.06
+mistralai/Mistral-7B-Instruct-v0.1 (few-shot),7242,32,32768,False,False,634,3.54,36.04,-0.36,18.06
 sentence-transformers/quora-distilbert-multilingual,135,120,512,True,False,26458,3.55,63.36,1.02,6.48
 KennethEnevoldsen/dfm-sentence-encoder-large-1,354,50,512,True,False,6245,3.56,48.31,3.18,7.94
 KBLab/bert-base-swedish-cased-new,135,64,512,True,False,15933,3.58,64.61,1.15,5.29

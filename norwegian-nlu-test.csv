@@ -116,10 +116,10 @@ Geotrend/distilbert-base-en-da-cased,69,33,512,True,False,26196,2.94,83.27,79.59
 flax-community/nordic-roberta-wiki,125,50,512,True,False,16227,2.94,85.42,78.92,36.27,48.07,29.81,0.44
 KBLab/megatron-bert-base-swedish-cased-125k,135,64,512,True,False,15763,2.96,77.98,75.0,33.88,24.23,18.18,20.56
 jannikskytt/MeDa-Bert,111,32,511,True,False,16114,2.96,71.69,60.0,38.94,30.32,7.99,24.02
-mistralai/Mistral-7B-Instruct-v0.2 (few-shot),7242,32,32768,False,False,2538,2.96,53.42,54.34,38.79,17.06,11.0,35.74
+mistralai/Mistral-7B-Instruct-v0.2 (few-shot),7242,32,32768,False,False,634,2.96,53.42,54.34,38.79,17.06,11.0,35.74
 occiglot/occiglot-7b-eu5-instruct (few-shot),7242,32,32768,False,False,2088,2.97,45.5,45.96,44.46,0.0,0.0,52.19
 RuterNorway/Llama-2-13b-chat-norwegian (few-shot),-1,32,4096,False,False,3254,2.98,58.61,60.4,41.36,6.52,3.95,38.93
-mistralai/Mistral-7B-Instruct-v0.1 (few-shot),7242,32,32768,False,False,5443,2.99,50.08,51.27,43.65,14.09,8.28,37.23
+mistralai/Mistral-7B-Instruct-v0.1 (few-shot),7242,32,32768,False,False,634,2.99,50.08,51.27,43.65,14.09,8.28,37.23
 neph1/bellman-7b-mistral-instruct-v0.2 (few-shot),7242,32,32768,False,False,2518,3.02,57.01,56.77,38.81,14.16,9.29,32.75
 occiglot/occiglot-7b-eu5 (few-shot),7242,32,32768,True,False,2219,3.03,45.28,46.0,44.95,0.0,0.0,43.88
 sarnikowski/convbert-medium-small-da-cased,24,29,512,True,False,13821,3.03,79.5,73.03,32.4,41.65,25.53,5.41

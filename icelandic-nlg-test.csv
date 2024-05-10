@@ -18,9 +18,9 @@ alpindale/Mistral-7B-v0.2-hf (few-shot),7242,32,32768,True,False,1841,4.48,44.85
 mistralai/Mistral-7B-v0.1 (few-shot),7242,32,32768,True,False,2657,4.48,47.24,1.35,25.7,61.96,10.31,1.99
 timpal0l/Mistral-7B-v0.1-flashback-v2 (few-shot),7242,32,32768,True,False,5054,4.53,36.47,2.54,18.66,63.68,6.94,8.3
 "meta-llama/Llama-2-70b-chat-hf (few-shot, val)",68977,32,4221,True,False,1979,4.58,46.32,-3.31,24.26,66.16,8.27,2.75
-mistralai/Mistral-7B-Instruct-v0.2 (few-shot),7242,32,32768,False,False,2538,4.58,43.11,3.4,19.18,65.01,7.55,0.24
+mistralai/Mistral-7B-Instruct-v0.2 (few-shot),7242,32,32768,False,False,634,4.58,43.11,3.4,19.18,65.01,7.55,0.24
 occiglot/occiglot-7b-eu5-instruct (few-shot),7242,32,32768,False,False,2088,4.63,40.71,0.71,20.66,65.25,8.1,0.35
-mistralai/Mistral-7B-Instruct-v0.1 (few-shot),7242,32,32768,False,False,5443,4.7,36.04,-0.36,18.06,62.8,7.22,6.35
+mistralai/Mistral-7B-Instruct-v0.1 (few-shot),7242,32,32768,False,False,634,4.7,36.04,-0.36,18.06,62.8,7.22,6.35
 occiglot/occiglot-7b-eu5 (few-shot),7242,32,32768,True,False,2219,4.74,40.08,1.59,15.98,62.55,7.64,-0.51
 meta-llama/Llama-2-7b-hf (few-shot),6738,32,4096,True,False,930,4.83,32.71,0.66,18.04,60.73,5.05,-0.0
 meta-llama/Llama-2-7b-chat-hf (few-shot),6738,32,4096,False,False,2643,4.84,41.1,-1.07,16.13,62.3,3.27,1.84

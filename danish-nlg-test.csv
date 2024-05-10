@@ -45,7 +45,7 @@ bineric/NorskGPT-Mistral-7b (few-shot),7242,32,32768,False,False,2443,2.5,50.76,
 Mabeck/Heidrun-Mistral-7B-base (few-shot),7242,32,32768,True,False,3823,2.53,40.14,39.38,21.85,58.07,67.06,60.78,61.29,16.26
 alpindale/Mistral-7B-v0.2-hf (few-shot),7242,32,32768,True,False,1841,2.53,43.65,45.86,15.19,59.14,66.3,53.67,54.52,20.51
 "merge-crew/da-sv-dare-ties-density-0.6 (few-shot, val)",7242,32,32768,True,True,2515,2.56,46.03,49.59,12.72,57.03,65.24,59.88,59.51,16.86
-mistralai/Mistral-7B-Instruct-v0.2 (few-shot),7242,32,32768,False,False,2538,2.6,44.89,48.09,19.06,51.56,66.84,51.6,35.85,22.21
+mistralai/Mistral-7B-Instruct-v0.2 (few-shot),7242,32,32768,False,False,634,2.6,44.89,48.09,19.06,51.56,66.84,51.6,35.85,22.21
 timpal0l/Mistral-7B-v0.1-flashback-v2 (few-shot),7242,32,32768,True,False,5054,2.6,42.43,47.82,16.51,56.95,65.43,50.76,50.82,14.47
 mhenrichsen/hestenettetLM (few-shot),7242,32,32768,True,False,5160,2.62,44.9,42.61,8.65,59.62,66.48,52.83,57.96,18.11
 mistralai/Mistral-7B-v0.1 (few-shot),7242,32,32768,True,False,2657,2.62,45.42,43.16,8.79,59.43,66.47,53.26,58.26,18.53
@@ -54,7 +54,7 @@ neph1/bellman-7b-mistral-instruct-v0.2 (few-shot),7242,32,32768,False,False,2518
 timpal0l/Llama-3-8B-flashback-v1 (few-shot),8030,128,8192,True,False,4807,2.7,46.59,50.25,14.46,56.86,61.98,46.91,50.98,16.33
 occiglot/occiglot-7b-eu5-instruct (few-shot),7242,32,32768,False,False,2088,2.81,40.19,42.31,1.14,57.89,66.68,44.3,48.76,15.44
 bineric/NorskGPT-Llama-7B-v0.1 (few-shot),6738,32,4096,False,False,5384,2.83,41.63,47.73,0.0,54.25,66.02,47.16,38.28,22.27
-mistralai/Mistral-7B-Instruct-v0.1 (few-shot),7242,32,32768,False,False,5443,2.83,37.93,44.49,14.09,51.38,65.8,45.07,35.36,14.85
+mistralai/Mistral-7B-Instruct-v0.1 (few-shot),7242,32,32768,False,False,634,2.83,37.93,44.49,14.09,51.38,65.8,45.07,35.36,14.85
 meta-llama/Llama-2-7b-chat-hf (few-shot),6738,32,4096,False,False,2643,2.89,35.44,44.88,9.74,55.04,66.15,32.17,35.74,11.32
 occiglot/occiglot-7b-eu5 (few-shot),7242,32,32768,True,False,2219,2.92,37.93,44.62,0.28,58.05,66.05,38.54,45.89,12.38
 google/gemma-7b-it (few-shot),8538,256,8192,False,False,1792,2.95,43.83,29.21,12.96,49.76,65.36,41.3,31.26,15.02
