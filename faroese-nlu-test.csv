@@ -121,7 +121,7 @@ asafaya/bert-base-arabic,110,32,512,True,False,16347,5.26,50.44,-0.06
 alexanderfalk/danbert-small-cased,83,52,512,True,False,30013,5.28,45.16,2.24
 timpal0l/Mistral-7B-v0.1-flashback-v2-instruct (few-shot),7242,32,32768,False,False,5172,5.28,43.52,1.82
 AI-Sweden-Models/gpt-sw3-6.7b-v2-instruct (few-shot),7111,64,2048,True,False,2383,5.33,42.14,0.72
-LumiOpen/Viking-13B (few-shot),14030,131,4224,True,False,3480,5.38,43.11,-0.26
+LumiOpen/Viking-13B (few-shot),14030,131,4224,True,False,3530,5.38,43.11,-0.26
 Qwen/Qwen1.5-4B-Chat (few-shot),3950,152,32768,False,False,4347,5.38,43.8,-0.42
 RJuro/kanelsnegl-v0.2 (few-shot),7242,32,512,True,False,1373,5.44,40.39,0.0
 AI-Sweden-Models/gpt-sw3-20b-instruct (few-shot),20918,64,2048,True,False,1831,5.49,39.5,-0.04
