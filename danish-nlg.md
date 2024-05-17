@@ -3,7 +3,7 @@ layout: leaderboard
 title: Danish NLG 🇩🇰
 ---
 
-<center>Last updated: 17/05/2024 12:15:00 CET</center>
+<center>Last updated: 17/05/2024 13:30:41 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -467,31 +467,6 @@ title: Danish NLG 🇩🇰
    <td>10.0.1</td> <!-- Danish Citizen Tests version -->
    <td>9.3.2</td> <!-- HellaSwag-da version -->
    </tr>
-  <tr class="not-merged-model">
-   <td>meta-llama/Llama-2-70b-chat-hf (few-shot, val)</td> <!-- Model ID -->
-   <td class="num_model_parameters">68977</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">1,979 ± 621 / 320 ± 105</td> <!-- Model inference speed -->
-   <td class="rank">2.24</td> <!-- ScandEval rank -->
-   <td class="da ner">52.22 ± 2.07 / 38.82 ± 1.90</td> <!-- DANSK -->
-   <td class="da sent">50.66 ± 1.88 / 62.04 ± 2.83</td> <!-- Angry Tweets -->
-   <td class="da la">23.57 ± 3.82 / 56.09 ± 4.62</td> <!-- ScaLA-da -->
-   <td class="da qa">53.82 ± 2.13 / 61.94 ± 1.63</td> <!-- ScandiQA-da -->
-   <td class="da summ">67.13 ± 0.72 / 21.62 ± 0.86</td> <!-- Nordjylland-News -->
-   <td class="da know">69.26 ± 2.89 / 76.99 ± 2.16</td> <!-- Danske Talemaader -->
-   <td class="da know">46.40 ± 2.92 / 59.45 ± 2.63</td> <!-- Danish Citizen Tests -->
-   <td class="da reason">39.72 ± 2.48 / 53.83 ± 2.19</td> <!-- HellaSwag-da -->
-   <td>12.7.0</td> <!-- DANSK version -->
-   <td>12.7.0</td> <!-- Angry Tweets version -->
-   <td>12.7.0</td> <!-- ScaLA-da version -->
-   <td>12.7.0</td> <!-- ScandiQA-da version -->
-   <td>12.7.0</td> <!-- Nordjylland-News version -->
-   <td>12.7.0</td> <!-- Danske Talemaader version -->
-   <td>12.7.0</td> <!-- Danish Citizen Tests version -->
-   <td>12.7.0</td> <!-- HellaSwag-da version -->
-   </tr>
   <tr class="merged-model">
    <td>timpal0l/BeagleCatMunin2 (few-shot, val)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
@@ -516,6 +491,31 @@ title: Danish NLG 🇩🇰
    <td>10.0.1</td> <!-- Danske Talemaader version -->
    <td>10.0.1</td> <!-- Danish Citizen Tests version -->
    <td>9.3.1</td> <!-- HellaSwag-da version -->
+   </tr>
+  <tr class="not-merged-model">
+   <td>meta-llama/Llama-2-70b-chat-hf (few-shot, val)</td> <!-- Model ID -->
+   <td class="num_model_parameters">68977</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">1,979 ± 621 / 320 ± 105</td> <!-- Model inference speed -->
+   <td class="rank">2.25</td> <!-- ScandEval rank -->
+   <td class="da ner">52.22 ± 2.07 / 38.82 ± 1.90</td> <!-- DANSK -->
+   <td class="da sent">50.66 ± 1.88 / 62.04 ± 2.83</td> <!-- Angry Tweets -->
+   <td class="da la">23.57 ± 3.82 / 56.09 ± 4.62</td> <!-- ScaLA-da -->
+   <td class="da qa">53.82 ± 2.13 / 61.94 ± 1.63</td> <!-- ScandiQA-da -->
+   <td class="da summ">67.13 ± 0.72 / 21.62 ± 0.86</td> <!-- Nordjylland-News -->
+   <td class="da know">69.26 ± 2.89 / 76.99 ± 2.16</td> <!-- Danske Talemaader -->
+   <td class="da know">46.40 ± 2.92 / 59.45 ± 2.63</td> <!-- Danish Citizen Tests -->
+   <td class="da reason">39.72 ± 2.48 / 53.83 ± 2.19</td> <!-- HellaSwag-da -->
+   <td>12.7.0</td> <!-- DANSK version -->
+   <td>12.7.0</td> <!-- Angry Tweets version -->
+   <td>12.7.0</td> <!-- ScaLA-da version -->
+   <td>12.7.0</td> <!-- ScandiQA-da version -->
+   <td>12.7.0</td> <!-- Nordjylland-News version -->
+   <td>12.7.0</td> <!-- Danske Talemaader version -->
+   <td>12.7.0</td> <!-- Danish Citizen Tests version -->
+   <td>12.7.0</td> <!-- HellaSwag-da version -->
    </tr>
   <tr class="merged-model">
    <td>timpal0l/BeagleCatMunin (few-shot, val)</td> <!-- Model ID -->
@@ -1374,7 +1374,7 @@ title: Danish NLG 🇩🇰
    <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">4,807 ± 1,152 / 979 ± 319</td> <!-- Model inference speed -->
-   <td class="rank">2.72</td> <!-- ScandEval rank -->
+   <td class="rank">2.71</td> <!-- ScandEval rank -->
    <td class="da ner">46.59 ± 4.16 / 31.16 ± 3.95</td> <!-- DANSK -->
    <td class="da sent">50.25 ± 1.25 / 66.18 ± 1.01</td> <!-- Angry Tweets -->
    <td class="da la">14.46 ± 2.48 / 50.96 ± 4.22</td> <!-- ScaLA-da -->
@@ -1391,6 +1391,56 @@ title: Danish NLG 🇩🇰
    <td>12.7.0</td> <!-- Danske Talemaader version -->
    <td>12.7.0</td> <!-- Danish Citizen Tests version -->
    <td>12.7.0</td> <!-- HellaSwag-da version -->
+   </tr>
+  <tr class="not-merged-model">
+   <td>mistralai/Mistral-7B-Instruct-v0.1 (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">634 ± 179 / 110 ± 35</td> <!-- Model inference speed -->
+   <td class="rank">2.83</td> <!-- ScandEval rank -->
+   <td class="da ner">37.93 ± 2.71 / 23.54 ± 1.99</td> <!-- DANSK -->
+   <td class="da sent">44.49 ± 2.56 / 60.64 ± 3.00</td> <!-- Angry Tweets -->
+   <td class="da la">14.09 ± 2.94 / 42.43 ± 3.30</td> <!-- ScaLA-da -->
+   <td class="da qa">51.38 ± 2.31 / 58.78 ± 1.27</td> <!-- ScandiQA-da -->
+   <td class="da summ">65.80 ± 0.93 / 19.91 ± 1.41</td> <!-- Nordjylland-News -->
+   <td class="da know">45.07 ± 1.34 / 58.18 ± 1.03</td> <!-- Danske Talemaader -->
+   <td class="da know">35.36 ± 2.19 / 55.82 ± 1.48</td> <!-- Danish Citizen Tests -->
+   <td class="da reason">14.85 ± 1.19 / 35.26 ± 1.24</td> <!-- HellaSwag-da -->
+   <td>9.3.1</td> <!-- DANSK version -->
+   <td>9.3.1</td> <!-- Angry Tweets version -->
+   <td>9.3.1</td> <!-- ScaLA-da version -->
+   <td>12.4.0</td> <!-- ScandiQA-da version -->
+   <td>12.6.1</td> <!-- Nordjylland-News version -->
+   <td>10.0.1</td> <!-- Danske Talemaader version -->
+   <td>10.0.1</td> <!-- Danish Citizen Tests version -->
+   <td>9.3.1</td> <!-- HellaSwag-da version -->
+   </tr>
+  <tr class="not-merged-model">
+   <td>occiglot/occiglot-7b-eu5-instruct (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">2,088 ± 352 / 706 ± 214</td> <!-- Model inference speed -->
+   <td class="rank">2.83</td> <!-- ScandEval rank -->
+   <td class="da ner">40.19 ± 2.55 / 29.73 ± 1.44</td> <!-- DANSK -->
+   <td class="da sent">42.31 ± 1.55 / 59.29 ± 2.00</td> <!-- Angry Tweets -->
+   <td class="da la">1.14 ± 1.22 / 33.83 ± 0.72</td> <!-- ScaLA-da -->
+   <td class="da qa">57.89 ± 1.16 / 63.95 ± 0.82</td> <!-- ScandiQA-da -->
+   <td class="da summ">66.68 ± 0.81 / 22.38 ± 0.71</td> <!-- Nordjylland-News -->
+   <td class="da know">44.30 ± 2.46 / 57.00 ± 2.30</td> <!-- Danske Talemaader -->
+   <td class="da know">48.76 ± 2.39 / 65.51 ± 1.72</td> <!-- Danish Citizen Tests -->
+   <td class="da reason">15.44 ± 1.66 / 35.82 ± 1.14</td> <!-- HellaSwag-da -->
+   <td>12.5.2</td> <!-- DANSK version -->
+   <td>12.2.0</td> <!-- Angry Tweets version -->
+   <td>12.3.1</td> <!-- ScaLA-da version -->
+   <td>12.4.0</td> <!-- ScandiQA-da version -->
+   <td>12.6.1</td> <!-- Nordjylland-News version -->
+   <td>12.3.1</td> <!-- Danske Talemaader version -->
+   <td>12.3.1</td> <!-- Danish Citizen Tests version -->
+   <td>12.3.1</td> <!-- HellaSwag-da version -->
    </tr>
   <tr class="not-merged-model">
    <td>bineric/NorskGPT-Llama-7B-v0.1 (few-shot)</td> <!-- Model ID -->
@@ -1416,56 +1466,6 @@ title: Danish NLG 🇩🇰
    <td>12.3.2</td> <!-- Danske Talemaader version -->
    <td>12.3.2</td> <!-- Danish Citizen Tests version -->
    <td>12.3.2</td> <!-- HellaSwag-da version -->
-   </tr>
-  <tr class="not-merged-model">
-   <td>mistralai/Mistral-7B-Instruct-v0.1 (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">634 ± 179 / 110 ± 35</td> <!-- Model inference speed -->
-   <td class="rank">2.84</td> <!-- ScandEval rank -->
-   <td class="da ner">37.93 ± 2.71 / 23.54 ± 1.99</td> <!-- DANSK -->
-   <td class="da sent">44.49 ± 2.56 / 60.64 ± 3.00</td> <!-- Angry Tweets -->
-   <td class="da la">14.09 ± 2.94 / 42.43 ± 3.30</td> <!-- ScaLA-da -->
-   <td class="da qa">51.38 ± 2.31 / 58.78 ± 1.27</td> <!-- ScandiQA-da -->
-   <td class="da summ">65.80 ± 0.93 / 19.91 ± 1.41</td> <!-- Nordjylland-News -->
-   <td class="da know">45.07 ± 1.34 / 58.18 ± 1.03</td> <!-- Danske Talemaader -->
-   <td class="da know">35.36 ± 2.19 / 55.82 ± 1.48</td> <!-- Danish Citizen Tests -->
-   <td class="da reason">14.85 ± 1.19 / 35.26 ± 1.24</td> <!-- HellaSwag-da -->
-   <td>9.3.1</td> <!-- DANSK version -->
-   <td>9.3.1</td> <!-- Angry Tweets version -->
-   <td>9.3.1</td> <!-- ScaLA-da version -->
-   <td>12.4.0</td> <!-- ScandiQA-da version -->
-   <td>12.6.1</td> <!-- Nordjylland-News version -->
-   <td>10.0.1</td> <!-- Danske Talemaader version -->
-   <td>10.0.1</td> <!-- Danish Citizen Tests version -->
-   <td>9.3.1</td> <!-- HellaSwag-da version -->
-   </tr>
-  <tr class="not-merged-model">
-   <td>occiglot/occiglot-7b-eu5-instruct (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">2,088 ± 352 / 706 ± 214</td> <!-- Model inference speed -->
-   <td class="rank">2.84</td> <!-- ScandEval rank -->
-   <td class="da ner">40.19 ± 2.55 / 29.73 ± 1.44</td> <!-- DANSK -->
-   <td class="da sent">42.31 ± 1.55 / 59.29 ± 2.00</td> <!-- Angry Tweets -->
-   <td class="da la">1.14 ± 1.22 / 33.83 ± 0.72</td> <!-- ScaLA-da -->
-   <td class="da qa">57.89 ± 1.16 / 63.95 ± 0.82</td> <!-- ScandiQA-da -->
-   <td class="da summ">66.68 ± 0.81 / 22.38 ± 0.71</td> <!-- Nordjylland-News -->
-   <td class="da know">44.30 ± 2.46 / 57.00 ± 2.30</td> <!-- Danske Talemaader -->
-   <td class="da know">48.76 ± 2.39 / 65.51 ± 1.72</td> <!-- Danish Citizen Tests -->
-   <td class="da reason">15.44 ± 1.66 / 35.82 ± 1.14</td> <!-- HellaSwag-da -->
-   <td>12.5.2</td> <!-- DANSK version -->
-   <td>12.2.0</td> <!-- Angry Tweets version -->
-   <td>12.3.1</td> <!-- ScaLA-da version -->
-   <td>12.4.0</td> <!-- ScandiQA-da version -->
-   <td>12.6.1</td> <!-- Nordjylland-News version -->
-   <td>12.3.1</td> <!-- Danske Talemaader version -->
-   <td>12.3.1</td> <!-- Danish Citizen Tests version -->
-   <td>12.3.1</td> <!-- HellaSwag-da version -->
    </tr>
   <tr class="not-merged-model">
    <td>meta-llama/Llama-2-7b-chat-hf (few-shot)</td> <!-- Model ID -->
@@ -1549,7 +1549,7 @@ title: Danish NLG 🇩🇰
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">4,347 ± 893 / 1,135 ± 365</td> <!-- Model inference speed -->
-   <td class="rank">2.98</td> <!-- ScandEval rank -->
+   <td class="rank">2.97</td> <!-- ScandEval rank -->
    <td class="da ner">35.96 ± 2.61 / 28.58 ± 2.58</td> <!-- DANSK -->
    <td class="da sent">42.04 ± 1.42 / 60.76 ± 1.41</td> <!-- Angry Tweets -->
    <td class="da la">8.65 ± 1.52 / 49.56 ± 3.60</td> <!-- ScaLA-da -->
@@ -1566,6 +1566,31 @@ title: Danish NLG 🇩🇰
    <td>12.1.0</td> <!-- Danske Talemaader version -->
    <td>12.1.0</td> <!-- Danish Citizen Tests version -->
    <td>12.1.0</td> <!-- HellaSwag-da version -->
+   </tr>
+  <tr class="not-merged-model">
+   <td>AI-Sweden-Models/gpt-sw3-40b (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">39927</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">409 ± 53 / 182 ± 54</td> <!-- Model inference speed -->
+   <td class="rank">3.01</td> <!-- ScandEval rank -->
+   <td class="da ner">26.57 ± 5.22 / 17.35 ± 2.79</td> <!-- DANSK -->
+   <td class="da sent">47.81 ± 1.32 / 64.26 ± 1.28</td> <!-- Angry Tweets -->
+   <td class="da la">11.13 ± 2.06 / 51.34 ± 3.02</td> <!-- ScaLA-da -->
+   <td class="da qa">53.78 ± 0.70 / 60.13 ± 0.69</td> <!-- ScandiQA-da -->
+   <td class="da summ">66.21 ± 1.17 / 21.48 ± 1.27</td> <!-- Nordjylland-News -->
+   <td class="da know">33.48 ± 3.59 / 46.04 ± 3.05</td> <!-- Danske Talemaader -->
+   <td class="da know">29.86 ± 1.89 / 49.82 ± 1.71</td> <!-- Danish Citizen Tests -->
+   <td class="da reason">6.67 ± 1.87 / 29.53 ± 1.25</td> <!-- HellaSwag-da -->
+   <td>12.9.0</td> <!-- DANSK version -->
+   <td>12.9.0</td> <!-- Angry Tweets version -->
+   <td>12.9.0</td> <!-- ScaLA-da version -->
+   <td>12.9.0</td> <!-- ScandiQA-da version -->
+   <td>12.9.0</td> <!-- Nordjylland-News version -->
+   <td>12.9.1</td> <!-- Danske Talemaader version -->
+   <td>12.9.1</td> <!-- Danish Citizen Tests version -->
+   <td>12.9.1</td> <!-- HellaSwag-da version -->
    </tr>
   <tr class="merged-model">
    <td>merge-crew/da-sv-dare-ties-density-0.3 (few-shot, val)</td> <!-- Model ID -->
@@ -1616,31 +1641,6 @@ title: Danish NLG 🇩🇰
    <td>12.3.2</td> <!-- Danske Talemaader version -->
    <td>12.3.2</td> <!-- Danish Citizen Tests version -->
    <td>12.3.2</td> <!-- HellaSwag-da version -->
-   </tr>
-  <tr class="not-merged-model">
-   <td>AI-Sweden-Models/gpt-sw3-40b (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">39927</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">409 ± 53 / 182 ± 54</td> <!-- Model inference speed -->
-   <td class="rank">3.02</td> <!-- ScandEval rank -->
-   <td class="da ner">26.57 ± 5.22 / 17.35 ± 2.79</td> <!-- DANSK -->
-   <td class="da sent">47.81 ± 1.32 / 64.26 ± 1.28</td> <!-- Angry Tweets -->
-   <td class="da la">11.13 ± 2.06 / 51.34 ± 3.02</td> <!-- ScaLA-da -->
-   <td class="da qa">53.78 ± 0.70 / 60.13 ± 0.69</td> <!-- ScandiQA-da -->
-   <td class="da summ">66.21 ± 1.17 / 21.48 ± 1.27</td> <!-- Nordjylland-News -->
-   <td class="da know">33.48 ± 3.59 / 46.04 ± 3.05</td> <!-- Danske Talemaader -->
-   <td class="da know">29.86 ± 1.89 / 49.82 ± 1.71</td> <!-- Danish Citizen Tests -->
-   <td class="da reason">6.67 ± 1.87 / 29.53 ± 1.25</td> <!-- HellaSwag-da -->
-   <td>12.9.0</td> <!-- DANSK version -->
-   <td>12.9.0</td> <!-- Angry Tweets version -->
-   <td>12.9.0</td> <!-- ScaLA-da version -->
-   <td>12.9.0</td> <!-- ScandiQA-da version -->
-   <td>12.9.0</td> <!-- Nordjylland-News version -->
-   <td>12.9.1</td> <!-- Danske Talemaader version -->
-   <td>12.9.1</td> <!-- Danish Citizen Tests version -->
-   <td>12.9.1</td> <!-- HellaSwag-da version -->
    </tr>
   <tr class="not-merged-model">
    <td>meta-llama/Llama-2-7b-hf (few-shot)</td> <!-- Model ID -->
@@ -1793,6 +1793,31 @@ title: Danish NLG 🇩🇰
    <td>12.9.0</td> <!-- HellaSwag-da version -->
    </tr>
   <tr class="not-merged-model">
+   <td>LumiOpen/Viking-13B (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">14030</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">131</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">4099</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">3,530 ± 748 / 829 ± 277</td> <!-- Model inference speed -->
+   <td class="rank">3.30</td> <!-- ScandEval rank -->
+   <td class="da ner">32.12 ± 2.72 / 22.20 ± 2.85</td> <!-- DANSK -->
+   <td class="da sent">47.92 ± 1.15 / 63.55 ± 1.65</td> <!-- Angry Tweets -->
+   <td class="da la">2.79 ± 1.58 / 42.82 ± 3.40</td> <!-- ScaLA-da -->
+   <td class="da qa">53.86 ± 0.73 / 59.73 ± 0.64</td> <!-- ScandiQA-da -->
+   <td class="da summ">63.96 ± 0.76 / 16.80 ± 1.44</td> <!-- Nordjylland-News -->
+   <td class="da know">-0.69 ± 0.71 / 23.96 ± 0.74</td> <!-- Danske Talemaader -->
+   <td class="da know">1.01 ± 3.40 / 35.43 ± 1.72</td> <!-- Danish Citizen Tests -->
+   <td class="da reason">0.19 ± 1.16 / 25.26 ± 0.63</td> <!-- HellaSwag-da -->
+   <td>12.7.0</td> <!-- DANSK version -->
+   <td>12.7.0</td> <!-- Angry Tweets version -->
+   <td>12.7.0</td> <!-- ScaLA-da version -->
+   <td>12.7.0</td> <!-- ScandiQA-da version -->
+   <td>12.7.0</td> <!-- Nordjylland-News version -->
+   <td>12.7.0</td> <!-- Danske Talemaader version -->
+   <td>12.7.0</td> <!-- Danish Citizen Tests version -->
+   <td>12.7.0</td> <!-- HellaSwag-da version -->
+   </tr>
+  <tr class="not-merged-model">
    <td>norallm/normistral-7b-warm (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7248</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">33</td> <!-- Size of the model's vocabulary -->
@@ -1893,38 +1918,13 @@ title: Danish NLG 🇩🇰
    <td>10.0.1</td> <!-- HellaSwag-da version -->
    </tr>
   <tr class="not-merged-model">
-   <td>LumiOpen/Viking-13B (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">14030</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">131</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">4099</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">3,480 ± 727 / 822 ± 274</td> <!-- Model inference speed -->
-   <td class="rank">3.43</td> <!-- ScandEval rank -->
-   <td class="da ner">28.80 ± 2.60 / 20.50 ± 2.40</td> <!-- DANSK -->
-   <td class="da sent">37.20 ± 3.92 / 53.62 ± 4.07</td> <!-- Angry Tweets -->
-   <td class="da la">2.94 ± 1.76 / 46.66 ± 3.18</td> <!-- ScaLA-da -->
-   <td class="da qa">49.57 ± 1.52 / 54.84 ± 1.68</td> <!-- ScandiQA-da -->
-   <td class="da summ">63.69 ± 0.49 / 16.88 ± 1.13</td> <!-- Nordjylland-News -->
-   <td class="da know">1.17 ± 2.12 / 24.75 ± 1.44</td> <!-- Danske Talemaader -->
-   <td class="da know">11.57 ± 3.78 / 38.65 ± 1.84</td> <!-- Danish Citizen Tests -->
-   <td class="da reason">-0.19 ± 1.08 / 25.11 ± 0.77</td> <!-- HellaSwag-da -->
-   <td>12.5.2</td> <!-- DANSK version -->
-   <td>12.5.2</td> <!-- Angry Tweets version -->
-   <td>12.5.2</td> <!-- ScaLA-da version -->
-   <td>12.5.2</td> <!-- ScandiQA-da version -->
-   <td>12.5.2</td> <!-- Nordjylland-News version -->
-   <td>12.5.2</td> <!-- Danske Talemaader version -->
-   <td>12.5.2</td> <!-- Danish Citizen Tests version -->
-   <td>12.5.2</td> <!-- HellaSwag-da version -->
-   </tr>
-  <tr class="not-merged-model">
    <td>AI-Sweden-Models/gpt-sw3-6.7b-v2 (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7111</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,351 ± 448 / 707 ± 216</td> <!-- Model inference speed -->
-   <td class="rank">3.48</td> <!-- ScandEval rank -->
+   <td class="rank">3.47</td> <!-- ScandEval rank -->
    <td class="da ner">20.84 ± 2.40 / 16.93 ± 1.98</td> <!-- DANSK -->
    <td class="da sent">18.07 ± 3.41 / 27.21 ± 2.91</td> <!-- Angry Tweets -->
    <td class="da la">10.54 ± 2.38 / 48.37 ± 3.58</td> <!-- ScaLA-da -->
@@ -2249,7 +2249,7 @@ title: Danish NLG 🇩🇰
    <td class="max_sequence_length">1024</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,607 ± 592 / 680 ± 208</td> <!-- Model inference speed -->
-   <td class="rank">3.79</td> <!-- ScandEval rank -->
+   <td class="rank">3.78</td> <!-- ScandEval rank -->
    <td class="da ner">12.95 ± 3.80 / 11.68 ± 2.31</td> <!-- DANSK -->
    <td class="da sent">27.68 ± 3.64 / 46.61 ± 4.11</td> <!-- Angry Tweets -->
    <td class="da la">1.65 ± 1.96 / 47.94 ± 2.55</td> <!-- ScaLA-da -->
@@ -2474,7 +2474,7 @@ title: Danish NLG 🇩🇰
    <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">10,890 ± 2,686 / 2,186 ± 750</td> <!-- Model inference speed -->
-   <td class="rank">4.30</td> <!-- ScandEval rank -->
+   <td class="rank">4.29</td> <!-- ScandEval rank -->
    <td class="da ner">10.12 ± 1.24 / 9.84 ± 1.12</td> <!-- DANSK -->
    <td class="da sent">10.65 ± 3.65 / 28.33 ± 5.27</td> <!-- Angry Tweets -->
    <td class="da la">-0.66 ± 1.24 / 33.61 ± 0.26</td> <!-- ScaLA-da -->
@@ -2518,6 +2518,31 @@ title: Danish NLG 🇩🇰
    <td>12.1.0</td> <!-- HellaSwag-da version -->
    </tr>
   <tr class="not-merged-model">
+   <td>AI-Sweden-Models/gpt-sw3-126m (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">186</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">8,958 ± 1,815 / 2,240 ± 696</td> <!-- Model inference speed -->
+   <td class="rank">4.46</td> <!-- ScandEval rank -->
+   <td class="da ner">3.43 ± 2.66 / 5.56 ± 1.90</td> <!-- DANSK -->
+   <td class="da sent">9.18 ± 4.25 / 26.36 ± 3.94</td> <!-- Angry Tweets -->
+   <td class="da la">-0.22 ± 1.53 / 34.20 ± 0.84</td> <!-- ScaLA-da -->
+   <td class="da qa">16.64 ± 3.32 / 19.46 ± 3.63</td> <!-- ScandiQA-da -->
+   <td class="da summ">52.34 ± 1.60 / 8.84 ± 0.78</td> <!-- Nordjylland-News -->
+   <td class="da know">-0.58 ± 0.97 / 24.00 ± 0.77</td> <!-- Danske Talemaader -->
+   <td class="da know">5.18 ± 4.75 / 36.68 ± 2.20</td> <!-- Danish Citizen Tests -->
+   <td class="da reason">-1.28 ± 0.99 / 24.75 ± 0.93</td> <!-- HellaSwag-da -->
+   <td>9.2.0</td> <!-- DANSK version -->
+   <td>9.2.0</td> <!-- Angry Tweets version -->
+   <td>9.2.0</td> <!-- ScaLA-da version -->
+   <td>12.5.1</td> <!-- ScandiQA-da version -->
+   <td>12.6.1</td> <!-- Nordjylland-News version -->
+   <td>10.0.1</td> <!-- Danske Talemaader version -->
+   <td>10.0.1</td> <!-- Danish Citizen Tests version -->
+   <td>9.2.0</td> <!-- HellaSwag-da version -->
+   </tr>
+  <tr class="not-merged-model">
    <td>NbAiLab/nb-gpt-j-6B-v2 (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">6051</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
@@ -2541,31 +2566,6 @@ title: Danish NLG 🇩🇰
    <td>11.0.0</td> <!-- Danske Talemaader version -->
    <td>11.0.0</td> <!-- Danish Citizen Tests version -->
    <td>11.0.0</td> <!-- HellaSwag-da version -->
-   </tr>
-  <tr class="not-merged-model">
-   <td>AI-Sweden-Models/gpt-sw3-126m (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">186</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">8,958 ± 1,815 / 2,240 ± 696</td> <!-- Model inference speed -->
-   <td class="rank">4.47</td> <!-- ScandEval rank -->
-   <td class="da ner">3.43 ± 2.66 / 5.56 ± 1.90</td> <!-- DANSK -->
-   <td class="da sent">9.18 ± 4.25 / 26.36 ± 3.94</td> <!-- Angry Tweets -->
-   <td class="da la">-0.22 ± 1.53 / 34.20 ± 0.84</td> <!-- ScaLA-da -->
-   <td class="da qa">16.64 ± 3.32 / 19.46 ± 3.63</td> <!-- ScandiQA-da -->
-   <td class="da summ">52.34 ± 1.60 / 8.84 ± 0.78</td> <!-- Nordjylland-News -->
-   <td class="da know">-0.58 ± 0.97 / 24.00 ± 0.77</td> <!-- Danske Talemaader -->
-   <td class="da know">5.18 ± 4.75 / 36.68 ± 2.20</td> <!-- Danish Citizen Tests -->
-   <td class="da reason">-1.28 ± 0.99 / 24.75 ± 0.93</td> <!-- HellaSwag-da -->
-   <td>9.2.0</td> <!-- DANSK version -->
-   <td>9.2.0</td> <!-- Angry Tweets version -->
-   <td>9.2.0</td> <!-- ScaLA-da version -->
-   <td>12.5.1</td> <!-- ScandiQA-da version -->
-   <td>12.6.1</td> <!-- Nordjylland-News version -->
-   <td>10.0.1</td> <!-- Danske Talemaader version -->
-   <td>10.0.1</td> <!-- Danish Citizen Tests version -->
-   <td>9.2.0</td> <!-- HellaSwag-da version -->
    </tr>
   <tr class="not-merged-model">
    <td>RJuro/kanelsnegl-v0.1 (few-shot)</td> <!-- Model ID -->
@@ -2599,7 +2599,7 @@ title: Danish NLG 🇩🇰
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">1,373 ± 120 / 709 ± 172</td> <!-- Model inference speed -->
-   <td class="rank">4.55</td> <!-- ScandEval rank -->
+   <td class="rank">4.54</td> <!-- ScandEval rank -->
    <td class="da ner">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- DANSK -->
    <td class="da sent">4.81 ± 2.69 / 19.31 ± 1.01</td> <!-- Angry Tweets -->
    <td class="da la">0.00 ± 0.00 / 33.25 ± 0.23</td> <!-- ScaLA-da -->
@@ -2724,7 +2724,7 @@ title: Danish NLG 🇩🇰
    <td class="max_sequence_length">1024</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">48,619 ± 7,681 / 13,831 ± 4,404</td> <!-- Model inference speed -->
-   <td class="rank">5.22</td> <!-- ScandEval rank -->
+   <td class="rank">5.21</td> <!-- ScandEval rank -->
    <td class="da ner">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- DANSK -->
    <td class="da sent">0.00 ± 0.00 / 18.12 ± 0.19</td> <!-- Angry Tweets -->
    <td class="da la">0.00 ± 0.00 / 33.25 ± 0.23</td> <!-- ScaLA-da -->
@@ -2749,6 +2749,6 @@ title: Danish NLG 🇩🇰
 <div class="end-note">
   <a href="https://scandeval.com/danish-nlg.csv" target="_blank">Download as CSV</a>
   &nbsp;&nbsp;&bull;&nbsp;&nbsp;
-  <a href="javascript:void(0);" id="embed-link" data-embed="<iframe title=&quot;Danish NLG&quot; aria-label=&quot;Table&quot; id=&quot;datawrapper-chart-y9Ljh&quot; src=&quot;https://datawrapper.dwcdn.net/y9Ljh/1/&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width: 0; min-width: 100% !important; border: none;&quot; height=&quot;400&quot; data-external=&quot;1&quot;></iframe><script type=&quot;text/javascript&quot;>!function(){&quot;use strict&quot;;window.addEventListener(&quot;message&quot;,(function(a){if(void 0!==a.data[&quot;datawrapper-height&quot;]){var e=document.querySelectorAll(&quot;iframe&quot;);for(var t in a.data[&quot;datawrapper-height&quot;])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data[&quot;datawrapper-height&quot;][t]+&quot;px&quot;;e[r].style.height=i}}}))}();
+  <a href="javascript:void(0);" id="embed-link" data-embed="<iframe title=&quot;Danish NLG&quot; aria-label=&quot;Table&quot; id=&quot;datawrapper-chart-Mk76J&quot; src=&quot;https://datawrapper.dwcdn.net/Mk76J/1/&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width: 0; min-width: 100% !important; border: none;&quot; height=&quot;400&quot; data-external=&quot;1&quot;></iframe><script type=&quot;text/javascript&quot;>!function(){&quot;use strict&quot;;window.addEventListener(&quot;message&quot;,(function(a){if(void 0!==a.data[&quot;datawrapper-height&quot;]){var e=document.querySelectorAll(&quot;iframe&quot;);for(var t in a.data[&quot;datawrapper-height&quot;])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data[&quot;datawrapper-height&quot;][t]+&quot;px&quot;;e[r].style.height=i}}}))}();
 </script>">Copy embed HTML</a>
 </div>

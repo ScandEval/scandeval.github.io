@@ -76,7 +76,7 @@ VAGOsolutions/SauerkrautLM-Gemma-2b (few-shot),2506,256,8192,False,False,3607,2.
 allenai/OLMo-7B-Twin-2T (few-shot),6888,50,2176,True,False,5484,2.88,25.36,56.91,7.1,58.6
 google/gemma-2b-it (few-shot),2506,256,8192,False,False,6471,2.89,40.05,48.83,5.83,63.77
 microsoft/xlm-align-base,277,250,512,True,False,14744,2.9,88.62,11.09,8.46,49.64
-LumiOpen/Viking-13B (few-shot),14030,131,4224,True,False,3480,2.93,47.7,51.87,0.14,50.83
+LumiOpen/Viking-13B (few-shot),14030,131,4224,True,False,3530,2.93,47.7,51.87,0.14,50.83
 Qwen/Qwen1.5-0.5B-Chat (few-shot),620,152,32768,False,False,11740,3.01,33.86,55.41,1.15,53.34
 sentence-transformers/distilbert-multilingual-nli-stsb-quora-ranking,135,120,512,True,False,33753,3.01,81.71,50.69,2.16,4.16
 sentence-transformers/quora-distilbert-multilingual,135,120,512,True,False,26458,3.01,81.71,50.69,2.16,4.19

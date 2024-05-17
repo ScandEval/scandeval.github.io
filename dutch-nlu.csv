@@ -78,7 +78,7 @@ dbmdz/bert-base-historic-multilingual-cased,111,32,512,True,False,20047,3.45,56.
 sentence-transformers/distiluse-base-multilingual-cased,135,120,512,True,False,19206,3.45,56.98,9.66,19.37,3.11
 jpostma/DagoBERT,116,40,512,True,False,11241,3.49,42.28,8.01,31.21,3.65
 allenai/OLMo-7B (few-shot),6888,50,2176,True,False,5403,3.53,37.37,9.55,0.05,34.81
-LumiOpen/Viking-13B (few-shot),14030,131,4224,True,False,3480,3.54,36.74,8.57,3.01,32.32
+LumiOpen/Viking-13B (few-shot),14030,131,4224,True,False,3530,3.54,36.74,8.57,3.01,32.32
 google/gemma-2b (few-shot),2506,256,8192,True,False,6087,3.63,16.9,9.95,0.41,49.15
 Tweeties/tweety-7b-dutch-v24a (few-shot),7391,50,1024,True,False,2971,3.69,35.83,12.47,16.81,0.0
 Qwen/Qwen1.5-1.8B-Chat (few-shot),1837,152,32768,False,False,8304,3.75,23.44,6.82,4.11,33.16

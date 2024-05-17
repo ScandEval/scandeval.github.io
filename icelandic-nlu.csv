@@ -80,7 +80,7 @@ LumiOpen/Viking-7B (few-shot),7550,131,4096,True,False,4969,3.48,21.41,1.76,22.5
 meta-llama/Llama-2-7b-chat-hf (few-shot),6738,32,4096,False,False,2643,3.49,41.1,-1.07,16.13
 meta-llama/Llama-2-7b-hf (few-shot),6738,32,4096,True,False,930,3.5,32.71,0.66,18.04
 Geotrend/distilbert-base-25lang-cased,109,85,512,True,False,26099,3.52,65.76,2.08,6.81
-LumiOpen/Viking-13B (few-shot),14030,131,4224,True,False,3480,3.53,20.51,1.12,21.85
+LumiOpen/Viking-13B (few-shot),14030,131,4224,True,False,3530,3.53,20.51,1.12,21.85
 3ebdola/Dialectal-Arabic-XLM-R-Base,277,250,512,True,False,12783,3.54,46.95,1.4,10.48
 bineric/NorskGPT-Llama-7B-v0.1 (few-shot),6738,32,4096,False,False,5384,3.54,34.62,-0.24,18.1
 mistralai/Mistral-7B-Instruct-v0.1 (few-shot),7242,32,32768,False,False,634,3.54,36.04,-0.36,18.06
