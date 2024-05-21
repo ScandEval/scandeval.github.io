@@ -34,7 +34,7 @@ tollefj/nordavind-7b-instruct-warm (few-shot),7248,33,2048,False,False,6450,5.01
 LumiOpen/Viking-13B (few-shot),14030,131,4224,True,False,3530,5.05,20.51,1.12,21.85,59.41,-0.48,0.06
 AI-Sweden-Models/gpt-sw3-1.3b (few-shot),1445,64,2048,True,False,4608,5.06,1.42,0.75,23.33,64.23,0.89,0.68
 HPLT/gpt-7b-nordic-prerelease (few-shot),7550,131,4096,True,False,5404,5.07,27.96,-0.0,23.17,55.57,-0.57,-2.72
-01-ai/Yi-6B (few-shot),6061,64,4096,True,False,6486,5.09,0.0,2.12,16.91,60.02,8.44,0.72
+01-ai/Yi-6B (few-shot),6061,64,4096,True,False,6435,5.09,0.0,2.12,16.91,60.02,8.44,0.72
 Qwen/Qwen1.5-4B-Chat (few-shot),3950,152,32768,False,False,4347,5.09,25.65,-0.35,14.46,62.11,6.32,-1.89
 AI-Sweden-Models/gpt-sw3-356m-instruct (few-shot),471,64,2048,True,False,5855,5.1,17.79,0.08,15.04,59.45,0.1,5.69
 google/gemma-2b (few-shot),2506,256,8192,True,False,6087,5.1,8.83,0.31,16.08,60.0,4.71,0.0
@@ -54,5 +54,5 @@ Sigurdur/icebreaker (few-shot),110,32,1024,False,False,48619,5.82,0.0,0.0,0.0,44
 allenai/OLMo-1B (few-shot),1177,50,2176,True,False,8536,5.84,13.6,-1.04,1.51,37.41,-0.09,-1.03
 Sigurdur/icechat (few-shot),110,32,1024,False,False,49558,5.87,0.0,0.0,0.0,42.46,-0.37,0.0
 Sigurdur/qa-icebreaker (few-shot),110,32,1024,False,False,44889,5.87,0.0,0.0,0.0,42.23,-0.55,0.0
-ai-forever/mGPT (few-shot),-1,100,1024,True,False,11733,6.15,0.0,0.0,0.0,17.11,0.69,0.47
+ai-forever/mGPT (few-shot),-1,100,1024,True,False,11734,6.15,0.0,0.0,0.0,17.11,0.69,0.47
 Sigurdur/jonas-hallgrimsson-gpt2 (few-shot),125,51,512,False,False,32644,6.42,0.0,0.0,0.0,0.0,0.08,-0.01

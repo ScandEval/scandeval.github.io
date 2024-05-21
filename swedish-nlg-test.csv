@@ -54,7 +54,7 @@ RuterNorway/Llama-2-13b-chat-norwegian (few-shot),-1,32,4096,False,False,3254,2.
 occiglot/occiglot-7b-eu5-instruct (few-shot),7242,32,32768,False,False,2088,2.93,47.67,71.73,7.9,57.78,65.07,25.52,14.06
 neph1/bellman-7b-mistral-instruct-v0.2 (few-shot),7242,32,32768,False,False,2518,2.94,54.38,55.84,16.05,53.22,64.9,22.36,12.52
 occiglot/occiglot-7b-eu5 (few-shot),7242,32,32768,True,False,2219,2.97,49.02,76.56,2.18,58.98,64.42,23.68,14.05
-01-ai/Yi-6B (few-shot),6061,64,4096,True,False,6486,2.99,46.69,75.39,2.91,54.95,62.7,25.28,19.2
+01-ai/Yi-6B (few-shot),6061,64,4096,True,False,6435,2.99,46.69,75.39,2.91,54.95,62.7,25.28,19.2
 mistralai/Mistral-7B-Instruct-v0.1 (few-shot),7242,32,32768,False,False,634,3.0,45.01,73.33,11.59,52.12,63.1,24.03,15.37
 meta-llama/Llama-2-7b-hf (few-shot),6738,32,4096,True,False,930,3.04,44.11,79.05,7.34,57.49,64.63,15.65,8.74
 bineric/NorskGPT-Llama-7B-v0.1 (few-shot),6738,32,4096,False,False,5384,3.06,53.95,60.91,0.32,55.28,63.73,20.96,25.76
@@ -96,7 +96,7 @@ mhenrichsen/danskgpt-tiny (few-shot),1100,32,2048,True,False,8597,4.17,23.92,31.
 AI-Sweden-Models/gpt-sw3-356m (few-shot),471,64,2048,True,False,5758,4.19,23.77,34.29,1.57,33.7,51.36,-0.96,0.3
 AI-Sweden-Models/gpt-sw3-126m-instruct (few-shot),186,64,2048,True,False,7717,4.34,23.05,12.47,0.08,20.43,59.8,0.72,0.11
 allenai/OLMo-1B (few-shot),1177,50,2051,True,False,8536,4.36,29.39,38.95,-1.35,17.85,43.75,-0.22,0.75
-RJuro/kanelsnegl-v0.1 (few-shot),7242,32,512,True,False,5857,4.54,0.0,34.63,0.0,0.0,59.04,-0.25,0.08
+RJuro/kanelsnegl-v0.1 (few-shot),7242,32,512,True,False,5847,4.54,0.0,34.63,0.0,0.0,59.04,-0.25,0.08
 RJuro/kanelsnegl-v0.2 (few-shot),7242,32,512,True,False,1373,4.56,0.0,28.62,0.0,0.0,58.16,0.47,0.71
 AI-Sweden-Models/gpt-sw3-126m (few-shot),186,64,2048,True,False,8958,4.65,5.66,8.15,-0.81,16.4,51.48,-0.49,1.17
 NbAiLab/nb-gpt-j-6B-v2 (few-shot),6051,50,1024,False,False,2556,4.88,0.31,27.42,0.07,17.82,27.09,-0.67,0.86
@@ -104,4 +104,4 @@ peter-sk/gpt-neox-da (few-shot),1515,50,1024,True,False,6025,4.97,0.26,4.75,-0.6
 NorGLM/NorGPT-369M (few-shot),-1,64,1024,True,False,19896,4.99,1.47,5.5,-2.19,0.1,37.4,-0.53,0.25
 NbAiLab/nb-gpt-j-6B@sharded (few-shot),-1,50,1024,True,False,2630,5.0,0.01,33.5,-0.02,4.79,26.97,-0.11,0.56
 Sigurdur/icebreaker (few-shot),110,32,1024,False,False,48619,5.13,0.0,-3.6,0.0,0.0,39.68,-0.2,-0.25
-ai-forever/mGPT (few-shot),-1,100,1024,True,False,11733,5.16,0.0,0.0,0.49,6.24,31.89,-0.37,0.36
+ai-forever/mGPT (few-shot),-1,100,1024,True,False,11734,5.16,0.0,0.0,0.49,6.24,31.89,-0.37,0.36
