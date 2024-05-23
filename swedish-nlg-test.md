@@ -3,7 +3,7 @@ layout: leaderboard
 title: Swedish NLG 🇸🇪
 ---
 
-<center>Last updated: 22/05/2024 09:53:54 CET</center>
+<center>Last updated: 23/05/2024 10:32:37 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -254,7 +254,7 @@ title: Swedish NLG 🇸🇪
    <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">5,876 ± 1,021 / 1,677 ± 546</td> <!-- Model inference speed -->
-   <td class="rank">2.25</td> <!-- ScandEval rank -->
+   <td class="rank">2.26</td> <!-- ScandEval rank -->
    <td class="sv ner">60.38 ± 1.60 / 36.17 ± 3.66</td> <!-- SUC3 -->
    <td class="sv sent">77.49 ± 0.98 / 72.07 ± 1.56</td> <!-- SweReC -->
    <td class="sv la">29.32 ± 2.34 / 54.43 ± 2.67</td> <!-- ScaLA-sv -->
@@ -921,7 +921,7 @@ title: Swedish NLG 🇸🇪
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,515 ± 465 / 785 ± 247</td> <!-- Model inference speed -->
-   <td class="rank">2.60</td> <!-- ScandEval rank -->
+   <td class="rank">2.61</td> <!-- ScandEval rank -->
    <td class="sv ner">45.12 ± 2.72 / 30.73 ± 4.55</td> <!-- SUC3 -->
    <td class="sv sent">78.74 ± 2.13 / 80.11 ± 2.64</td> <!-- SweReC -->
    <td class="sv la">19.74 ± 6.09 / 46.97 ± 5.83</td> <!-- ScaLA-sv -->
@@ -944,7 +944,7 @@ title: Swedish NLG 🇸🇪
    <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">6,113 ± 1,044 / 1,790 ± 579</td> <!-- Model inference speed -->
-   <td class="rank">2.62</td> <!-- ScandEval rank -->
+   <td class="rank">2.63</td> <!-- ScandEval rank -->
    <td class="sv ner">47.10 ± 2.60 / 35.06 ± 3.65</td> <!-- SUC3 -->
    <td class="sv sent">73.05 ± 5.27 / 74.56 ± 4.19</td> <!-- SweReC -->
    <td class="sv la">30.29 ± 2.63 / 61.40 ± 3.22</td> <!-- ScaLA-sv -->
@@ -990,7 +990,7 @@ title: Swedish NLG 🇸🇪
    <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">5,340 ± 1,262 / 1,157 ± 375</td> <!-- Model inference speed -->
-   <td class="rank">2.66</td> <!-- ScandEval rank -->
+   <td class="rank">2.67</td> <!-- ScandEval rank -->
    <td class="sv ner">60.53 ± 3.06 / 48.45 ± 5.19</td> <!-- SUC3 -->
    <td class="sv sent">67.03 ± 3.61 / 70.77 ± 1.95</td> <!-- SweReC -->
    <td class="sv la">15.10 ± 4.60 / 48.57 ± 2.91</td> <!-- ScaLA-sv -->
@@ -1059,7 +1059,7 @@ title: Swedish NLG 🇸🇪
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">1,841 ± 297 / 651 ± 193</td> <!-- Model inference speed -->
-   <td class="rank">2.70</td> <!-- ScandEval rank -->
+   <td class="rank">2.71</td> <!-- ScandEval rank -->
    <td class="sv ner">48.96 ± 2.72 / 39.25 ± 3.69</td> <!-- SUC3 -->
    <td class="sv sent">78.90 ± 0.95 / 78.62 ± 1.08</td> <!-- SweReC -->
    <td class="sv la">10.82 ± 3.46 / 38.95 ± 3.80</td> <!-- ScaLA-sv -->
@@ -1105,7 +1105,7 @@ title: Swedish NLG 🇸🇪
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">5,160 ± 804 / 1,654 ± 516</td> <!-- Model inference speed -->
-   <td class="rank">2.72</td> <!-- ScandEval rank -->
+   <td class="rank">2.73</td> <!-- ScandEval rank -->
    <td class="sv ner">53.00 ± 2.53 / 39.09 ± 3.72</td> <!-- SUC3 -->
    <td class="sv sent">79.70 ± 0.65 / 79.45 ± 0.68</td> <!-- SweReC -->
    <td class="sv la">4.32 ± 2.19 / 34.43 ± 0.87</td> <!-- ScaLA-sv -->
@@ -1128,7 +1128,7 @@ title: Swedish NLG 🇸🇪
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,657 ± 524 / 880 ± 278</td> <!-- Model inference speed -->
-   <td class="rank">2.72</td> <!-- ScandEval rank -->
+   <td class="rank">2.73</td> <!-- ScandEval rank -->
    <td class="sv ner">53.34 ± 2.55 / 40.48 ± 3.66</td> <!-- SUC3 -->
    <td class="sv sent">80.00 ± 0.70 / 79.80 ± 0.66</td> <!-- SweReC -->
    <td class="sv la">4.61 ± 2.18 / 34.51 ± 0.86</td> <!-- ScaLA-sv -->
@@ -1197,7 +1197,7 @@ title: Swedish NLG 🇸🇪
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">5,172 ± 813 / 1,647 ± 518</td> <!-- Model inference speed -->
-   <td class="rank">2.81</td> <!-- ScandEval rank -->
+   <td class="rank">2.82</td> <!-- ScandEval rank -->
    <td class="sv ner">46.74 ± 4.30 / 33.57 ± 4.51</td> <!-- SUC3 -->
    <td class="sv sent">77.06 ± 1.82 / 79.02 ± 1.37</td> <!-- SweReC -->
    <td class="sv la">14.00 ± 1.59 / 53.89 ± 3.10</td> <!-- ScaLA-sv -->
@@ -1220,7 +1220,7 @@ title: Swedish NLG 🇸🇪
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,904 ± 405 / 1,155 ± 349</td> <!-- Model inference speed -->
-   <td class="rank">2.82</td> <!-- ScandEval rank -->
+   <td class="rank">2.83</td> <!-- ScandEval rank -->
    <td class="sv ner">51.73 ± 4.51 / 40.50 ± 6.05</td> <!-- SUC3 -->
    <td class="sv sent">36.06 ± 3.31 / 53.46 ± 1.79</td> <!-- SweReC -->
    <td class="sv la">19.42 ± 5.08 / 46.92 ± 5.36</td> <!-- ScaLA-sv -->
@@ -1358,7 +1358,7 @@ title: Swedish NLG 🇸🇪
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">634 ± 179 / 110 ± 35</td> <!-- Model inference speed -->
-   <td class="rank">2.98</td> <!-- ScandEval rank -->
+   <td class="rank">2.99</td> <!-- ScandEval rank -->
    <td class="sv ner">45.01 ± 2.11 / 27.59 ± 3.35</td> <!-- SUC3 -->
    <td class="sv sent">73.33 ± 1.98 / 76.19 ± 1.59</td> <!-- SweReC -->
    <td class="sv la">11.59 ± 3.45 / 40.89 ± 4.15</td> <!-- ScaLA-sv -->
@@ -1542,7 +1542,7 @@ title: Swedish NLG 🇸🇪
    <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">1,875 ± 673 / 261 ± 91</td> <!-- Model inference speed -->
-   <td class="rank">3.28</td> <!-- ScandEval rank -->
+   <td class="rank">3.29</td> <!-- ScandEval rank -->
    <td class="sv ner">31.86 ± 5.09 / 21.95 ± 3.90</td> <!-- SUC3 -->
    <td class="sv sent">78.88 ± 1.58 / 79.56 ± 1.43</td> <!-- SweReC -->
    <td class="sv la">12.26 ± 1.97 / 46.90 ± 4.11</td> <!-- ScaLA-sv -->
@@ -1605,29 +1605,6 @@ title: Swedish NLG 🇸🇪
    <td>12.3.2</td> <!-- HellaSwag-sv version -->
    </tr>
   <tr class="not-merged-model">
-   <td>norallm/normistral-7b-warm-instruct (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">7248</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">33</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">6,194 ± 949 / 1,967 ± 619</td> <!-- Model inference speed -->
-   <td class="rank">3.34</td> <!-- ScandEval rank -->
-   <td class="sv ner">51.45 ± 3.13 / 26.49 ± 3.00</td> <!-- SUC3 -->
-   <td class="sv sent">63.64 ± 3.74 / 65.08 ± 2.46</td> <!-- SweReC -->
-   <td class="sv la">5.80 ± 1.74 / 51.04 ± 1.54</td> <!-- ScaLA-sv -->
-   <td class="sv qa">48.95 ± 1.00 / 57.09 ± 0.92</td> <!-- ScandiQA-sv -->
-   <td class="sv summ">62.18 ± 0.57 / 16.32 ± 0.33</td> <!-- SweDN -->
-   <td class="sv know">4.88 ± 0.59 / 25.13 ± 0.54</td> <!-- MMLU-sv -->
-   <td class="sv reason">4.63 ± 1.09 / 27.29 ± 1.02</td> <!-- HellaSwag-sv -->
-   <td>12.6.1</td> <!-- SUC3 version -->
-   <td>12.6.1</td> <!-- SweReC version -->
-   <td>12.6.1</td> <!-- ScaLA-sv version -->
-   <td>12.6.1</td> <!-- ScandiQA-sv version -->
-   <td>12.6.1</td> <!-- SweDN version -->
-   <td>12.6.1</td> <!-- MMLU-sv version -->
-   <td>12.6.1</td> <!-- HellaSwag-sv version -->
-   </tr>
-  <tr class="not-merged-model">
    <td>LumiOpen/Viking-33B (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">33119</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">131</td> <!-- Size of the model's vocabulary -->
@@ -1651,13 +1628,36 @@ title: Swedish NLG 🇸🇪
    <td>12.9.0</td> <!-- HellaSwag-sv version -->
    </tr>
   <tr class="not-merged-model">
+   <td>norallm/normistral-7b-warm-instruct (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">7248</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">33</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">6,194 ± 949 / 1,967 ± 619</td> <!-- Model inference speed -->
+   <td class="rank">3.35</td> <!-- ScandEval rank -->
+   <td class="sv ner">51.45 ± 3.13 / 26.49 ± 3.00</td> <!-- SUC3 -->
+   <td class="sv sent">63.64 ± 3.74 / 65.08 ± 2.46</td> <!-- SweReC -->
+   <td class="sv la">5.80 ± 1.74 / 51.04 ± 1.54</td> <!-- ScaLA-sv -->
+   <td class="sv qa">48.95 ± 1.00 / 57.09 ± 0.92</td> <!-- ScandiQA-sv -->
+   <td class="sv summ">62.18 ± 0.57 / 16.32 ± 0.33</td> <!-- SweDN -->
+   <td class="sv know">4.88 ± 0.59 / 25.13 ± 0.54</td> <!-- MMLU-sv -->
+   <td class="sv reason">4.63 ± 1.09 / 27.29 ± 1.02</td> <!-- HellaSwag-sv -->
+   <td>12.6.1</td> <!-- SUC3 version -->
+   <td>12.6.1</td> <!-- SweReC version -->
+   <td>12.6.1</td> <!-- ScaLA-sv version -->
+   <td>12.6.1</td> <!-- ScandiQA-sv version -->
+   <td>12.6.1</td> <!-- SweDN version -->
+   <td>12.6.1</td> <!-- MMLU-sv version -->
+   <td>12.6.1</td> <!-- HellaSwag-sv version -->
+   </tr>
+  <tr class="not-merged-model">
    <td>AI-Sweden-Models/gpt-sw3-6.7b-v2 (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7111</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,351 ± 448 / 707 ± 216</td> <!-- Model inference speed -->
-   <td class="rank">3.36</td> <!-- ScandEval rank -->
+   <td class="rank">3.37</td> <!-- ScandEval rank -->
    <td class="sv ner">28.73 ± 3.63 / 20.43 ± 3.72</td> <!-- SUC3 -->
    <td class="sv sent">77.47 ± 1.36 / 78.60 ± 1.25</td> <!-- SweReC -->
    <td class="sv la">8.78 ± 2.01 / 42.28 ± 3.17</td> <!-- ScaLA-sv -->
@@ -1789,13 +1789,36 @@ title: Swedish NLG 🇸🇪
    <td>12.1.0</td> <!-- HellaSwag-sv version -->
    </tr>
   <tr class="not-merged-model">
+   <td>HPLT/gpt-33b-nordic-prerelease (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">33119</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">131</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">4099</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">501 ± 50 / 238 ± 69</td> <!-- Model inference speed -->
+   <td class="rank">3.56</td> <!-- ScandEval rank -->
+   <td class="sv ner">33.61 ± 6.02 / 22.18 ± 4.32</td> <!-- SUC3 -->
+   <td class="sv sent">76.75 ± 1.17 / 74.66 ± 1.20</td> <!-- SweReC -->
+   <td class="sv la">1.66 ± 1.36 / 33.60 ± 0.30</td> <!-- ScaLA-sv -->
+   <td class="sv qa">50.68 ± 1.94 / 56.96 ± 1.73</td> <!-- ScandiQA-sv -->
+   <td class="sv summ">56.37 ± 1.71 / 12.78 ± 0.63</td> <!-- SweDN -->
+   <td class="sv know">-0.31 ± 0.91 / 25.20 ± 0.62</td> <!-- MMLU-sv -->
+   <td class="sv reason">-0.04 ± 0.62 / 25.05 ± 0.50</td> <!-- HellaSwag-sv -->
+   <td>12.9.1</td> <!-- SUC3 version -->
+   <td>12.9.1</td> <!-- SweReC version -->
+   <td>12.10.0</td> <!-- ScaLA-sv version -->
+   <td>12.10.0</td> <!-- ScandiQA-sv version -->
+   <td>12.10.0</td> <!-- SweDN version -->
+   <td>12.10.0</td> <!-- MMLU-sv version -->
+   <td>12.10.0</td> <!-- HellaSwag-sv version -->
+   </tr>
+  <tr class="not-merged-model">
    <td>HPLT/gpt-13b-nordic-prerelease (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">14030</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">131</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">4099</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">3,520 ± 736 / 823 ± 273</td> <!-- Model inference speed -->
-   <td class="rank">3.58</td> <!-- ScandEval rank -->
+   <td class="rank">3.59</td> <!-- ScandEval rank -->
    <td class="sv ner">32.19 ± 4.64 / 24.93 ± 4.09</td> <!-- SUC3 -->
    <td class="sv sent">72.26 ± 6.90 / 72.58 ± 5.87</td> <!-- SweReC -->
    <td class="sv la">2.39 ± 1.29 / 48.49 ± 2.46</td> <!-- ScaLA-sv -->
@@ -1810,29 +1833,6 @@ title: Swedish NLG 🇸🇪
    <td>12.6.1</td> <!-- SweDN version -->
    <td>12.6.1</td> <!-- MMLU-sv version -->
    <td>12.6.1</td> <!-- HellaSwag-sv version -->
-   </tr>
-  <tr class="not-merged-model">
-   <td>LumiOpen/Viking-7B (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">7550</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">131</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">4,969 ± 1,109 / 1,134 ± 374</td> <!-- Model inference speed -->
-   <td class="rank">3.59</td> <!-- ScandEval rank -->
-   <td class="sv ner">30.64 ± 4.19 / 23.90 ± 3.44</td> <!-- SUC3 -->
-   <td class="sv sent">72.02 ± 3.18 / 72.36 ± 3.96</td> <!-- SweReC -->
-   <td class="sv la">1.08 ± 1.36 / 38.63 ± 3.03</td> <!-- ScaLA-sv -->
-   <td class="sv qa">48.72 ± 1.05 / 54.59 ± 1.10</td> <!-- ScandiQA-sv -->
-   <td class="sv summ">57.93 ± 2.32 / 13.16 ± 1.05</td> <!-- SweDN -->
-   <td class="sv know">1.14 ± 0.79 / 22.39 ± 0.53</td> <!-- MMLU-sv -->
-   <td class="sv reason">1.13 ± 1.01 / 25.61 ± 0.65</td> <!-- HellaSwag-sv -->
-   <td>12.7.0</td> <!-- SUC3 version -->
-   <td>12.7.0</td> <!-- SweReC version -->
-   <td>12.7.0</td> <!-- ScaLA-sv version -->
-   <td>12.7.0</td> <!-- ScandiQA-sv version -->
-   <td>12.7.0</td> <!-- SweDN version -->
-   <td>12.7.0</td> <!-- MMLU-sv version -->
-   <td>12.7.0</td> <!-- HellaSwag-sv version -->
    </tr>
   <tr class="not-merged-model">
    <td>AI-Sweden-Models/gpt-sw3-1.3b-instruct (few-shot)</td> <!-- Model ID -->
@@ -1856,6 +1856,29 @@ title: Swedish NLG 🇸🇪
    <td>12.4.0</td> <!-- SweDN version -->
    <td>12.1.0</td> <!-- MMLU-sv version -->
    <td>12.1.0</td> <!-- HellaSwag-sv version -->
+   </tr>
+  <tr class="not-merged-model">
+   <td>LumiOpen/Viking-7B (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">7550</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">131</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">4,969 ± 1,109 / 1,134 ± 374</td> <!-- Model inference speed -->
+   <td class="rank">3.60</td> <!-- ScandEval rank -->
+   <td class="sv ner">30.64 ± 4.19 / 23.90 ± 3.44</td> <!-- SUC3 -->
+   <td class="sv sent">72.02 ± 3.18 / 72.36 ± 3.96</td> <!-- SweReC -->
+   <td class="sv la">1.08 ± 1.36 / 38.63 ± 3.03</td> <!-- ScaLA-sv -->
+   <td class="sv qa">48.72 ± 1.05 / 54.59 ± 1.10</td> <!-- ScandiQA-sv -->
+   <td class="sv summ">57.93 ± 2.32 / 13.16 ± 1.05</td> <!-- SweDN -->
+   <td class="sv know">1.14 ± 0.79 / 22.39 ± 0.53</td> <!-- MMLU-sv -->
+   <td class="sv reason">1.13 ± 1.01 / 25.61 ± 0.65</td> <!-- HellaSwag-sv -->
+   <td>12.7.0</td> <!-- SUC3 version -->
+   <td>12.7.0</td> <!-- SweReC version -->
+   <td>12.7.0</td> <!-- ScaLA-sv version -->
+   <td>12.7.0</td> <!-- ScandiQA-sv version -->
+   <td>12.7.0</td> <!-- SweDN version -->
+   <td>12.7.0</td> <!-- MMLU-sv version -->
+   <td>12.7.0</td> <!-- HellaSwag-sv version -->
    </tr>
   <tr class="not-merged-model">
    <td>Qwen/Qwen1.5-4B (few-shot)</td> <!-- Model ID -->
@@ -1933,7 +1956,7 @@ title: Swedish NLG 🇸🇪
    <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">5,404 ± 931 / 1,638 ± 542</td> <!-- Model inference speed -->
-   <td class="rank">3.74</td> <!-- ScandEval rank -->
+   <td class="rank">3.73</td> <!-- ScandEval rank -->
    <td class="sv ner">27.07 ± 6.33 / 25.24 ± 4.89</td> <!-- SUC3 -->
    <td class="sv sent">61.96 ± 2.69 / 67.81 ± 2.27</td> <!-- SweReC -->
    <td class="sv la">2.65 ± 1.46 / 40.25 ± 4.08</td> <!-- ScaLA-sv -->
@@ -1956,7 +1979,7 @@ title: Swedish NLG 🇸🇪
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">5,666 ± 1,328 / 1,256 ± 408</td> <!-- Model inference speed -->
-   <td class="rank">3.74</td> <!-- ScandEval rank -->
+   <td class="rank">3.73</td> <!-- ScandEval rank -->
    <td class="sv ner">18.01 ± 6.41 / 18.55 ± 4.65</td> <!-- SUC3 -->
    <td class="sv sent">51.91 ± 4.78 / 59.44 ± 4.65</td> <!-- SweReC -->
    <td class="sv la">1.49 ± 1.95 / 40.76 ± 4.07</td> <!-- ScaLA-sv -->
@@ -1979,7 +2002,7 @@ title: Swedish NLG 🇸🇪
    <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">4,608 ± 988 / 1,115 ± 354</td> <!-- Model inference speed -->
-   <td class="rank">3.75</td> <!-- ScandEval rank -->
+   <td class="rank">3.76</td> <!-- ScandEval rank -->
    <td class="sv ner">6.08 ± 5.75 / 8.77 ± 4.46</td> <!-- SUC3 -->
    <td class="sv sent">71.38 ± 1.76 / 73.21 ± 1.18</td> <!-- SweReC -->
    <td class="sv la">1.17 ± 1.07 / 49.78 ± 0.86</td> <!-- ScaLA-sv -->
@@ -2002,7 +2025,7 @@ title: Swedish NLG 🇸🇪
    <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">3,192 ± 454 / 1,198 ± 357</td> <!-- Model inference speed -->
-   <td class="rank">3.88</td> <!-- ScandEval rank -->
+   <td class="rank">3.87</td> <!-- ScandEval rank -->
    <td class="sv ner">13.79 ± 8.46 / 14.43 ± 7.23</td> <!-- SUC3 -->
    <td class="sv sent">71.59 ± 2.78 / 59.82 ± 1.71</td> <!-- SweReC -->
    <td class="sv la">-0.89 ± 1.22 / 43.82 ± 3.45</td> <!-- ScaLA-sv -->
@@ -2019,36 +2042,13 @@ title: Swedish NLG 🇸🇪
    <td>10.0.1</td> <!-- HellaSwag-sv version -->
    </tr>
   <tr class="not-merged-model">
-   <td>AI-Sweden-Models/gpt-sw3-356m-instruct (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">471</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">5,855 ± 1,373 / 1,223 ± 391</td> <!-- Model inference speed -->
-   <td class="rank">3.89</td> <!-- ScandEval rank -->
-   <td class="sv ner">14.84 ± 1.63 / 15.90 ± 1.71</td> <!-- SUC3 -->
-   <td class="sv sent">59.00 ± 3.60 / 54.09 ± 1.46</td> <!-- SweReC -->
-   <td class="sv la">0.06 ± 1.21 / 34.76 ± 1.15</td> <!-- ScaLA-sv -->
-   <td class="sv qa">34.37 ± 1.36 / 40.44 ± 1.53</td> <!-- ScandiQA-sv -->
-   <td class="sv summ">61.28 ± 0.92 / 14.60 ± 0.79</td> <!-- SweDN -->
-   <td class="sv know">0.48 ± 1.07 / 23.44 ± 0.67</td> <!-- MMLU-sv -->
-   <td class="sv reason">0.33 ± 0.50 / 25.01 ± 0.76</td> <!-- HellaSwag-sv -->
-   <td>12.5.2</td> <!-- SUC3 version -->
-   <td>9.3.2</td> <!-- SweReC version -->
-   <td>12.1.0</td> <!-- ScaLA-sv version -->
-   <td>12.4.0</td> <!-- ScandiQA-sv version -->
-   <td>12.4.0</td> <!-- SweDN version -->
-   <td>12.1.0</td> <!-- MMLU-sv version -->
-   <td>12.1.0</td> <!-- HellaSwag-sv version -->
-   </tr>
-  <tr class="not-merged-model">
    <td>mhenrichsen/danskgpt-tiny-chat (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">1100</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">1,745 ± 978 / 686 ± 159</td> <!-- Model inference speed -->
-   <td class="rank">3.90</td> <!-- ScandEval rank -->
+   <td class="rank">3.89</td> <!-- ScandEval rank -->
    <td class="sv ner">27.31 ± 4.23 / 26.33 ± 4.40</td> <!-- SUC3 -->
    <td class="sv sent">45.94 ± 12.82 / 55.94 ± 8.25</td> <!-- SweReC -->
    <td class="sv la">-0.97 ± 1.64 / 36.69 ± 2.34</td> <!-- ScaLA-sv -->
@@ -2065,13 +2065,36 @@ title: Swedish NLG 🇸🇪
    <td>9.1.2</td> <!-- HellaSwag-sv version -->
    </tr>
   <tr class="not-merged-model">
+   <td>AI-Sweden-Models/gpt-sw3-356m-instruct (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">471</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">5,855 ± 1,373 / 1,223 ± 391</td> <!-- Model inference speed -->
+   <td class="rank">3.90</td> <!-- ScandEval rank -->
+   <td class="sv ner">14.84 ± 1.63 / 15.90 ± 1.71</td> <!-- SUC3 -->
+   <td class="sv sent">59.00 ± 3.60 / 54.09 ± 1.46</td> <!-- SweReC -->
+   <td class="sv la">0.06 ± 1.21 / 34.76 ± 1.15</td> <!-- ScaLA-sv -->
+   <td class="sv qa">34.37 ± 1.36 / 40.44 ± 1.53</td> <!-- ScandiQA-sv -->
+   <td class="sv summ">61.28 ± 0.92 / 14.60 ± 0.79</td> <!-- SweDN -->
+   <td class="sv know">0.48 ± 1.07 / 23.44 ± 0.67</td> <!-- MMLU-sv -->
+   <td class="sv reason">0.33 ± 0.50 / 25.01 ± 0.76</td> <!-- HellaSwag-sv -->
+   <td>12.5.2</td> <!-- SUC3 version -->
+   <td>9.3.2</td> <!-- SweReC version -->
+   <td>12.1.0</td> <!-- ScaLA-sv version -->
+   <td>12.4.0</td> <!-- ScandiQA-sv version -->
+   <td>12.4.0</td> <!-- SweDN version -->
+   <td>12.1.0</td> <!-- MMLU-sv version -->
+   <td>12.1.0</td> <!-- HellaSwag-sv version -->
+   </tr>
+  <tr class="not-merged-model">
    <td>allenai/OLMo-7B (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">6888</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">2051</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">5,403 ± 1,133 / 1,294 ± 423</td> <!-- Model inference speed -->
-   <td class="rank">3.91</td> <!-- ScandEval rank -->
+   <td class="rank">3.92</td> <!-- ScandEval rank -->
    <td class="sv ner">37.36 ± 2.11 / 28.59 ± 3.03</td> <!-- SUC3 -->
    <td class="sv sent">72.08 ± 1.20 / 63.52 ± 3.36</td> <!-- SweReC -->
    <td class="sv la">-0.86 ± 1.61 / 33.84 ± 0.59</td> <!-- ScaLA-sv -->
@@ -2117,7 +2140,7 @@ title: Swedish NLG 🇸🇪
    <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">10,890 ± 2,686 / 2,186 ± 750</td> <!-- Model inference speed -->
-   <td class="rank">4.01</td> <!-- ScandEval rank -->
+   <td class="rank">4.00</td> <!-- ScandEval rank -->
    <td class="sv ner">22.38 ± 3.00 / 22.09 ± 2.85</td> <!-- SUC3 -->
    <td class="sv sent">31.11 ± 12.17 / 36.84 ± 11.52</td> <!-- SweReC -->
    <td class="sv la">0.09 ± 0.67 / 33.42 ± 0.30</td> <!-- ScaLA-sv -->
@@ -2163,7 +2186,7 @@ title: Swedish NLG 🇸🇪
    <td class="max_sequence_length">1024</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,607 ± 592 / 680 ± 208</td> <!-- Model inference speed -->
-   <td class="rank">4.10</td> <!-- ScandEval rank -->
+   <td class="rank">4.11</td> <!-- ScandEval rank -->
    <td class="sv ner">13.28 ± 4.32 / 13.40 ± 2.95</td> <!-- SUC3 -->
    <td class="sv sent">60.17 ± 8.39 / 65.99 ± 4.66</td> <!-- SweReC -->
    <td class="sv la">1.52 ± 1.94 / 45.19 ± 3.80</td> <!-- ScaLA-sv -->
@@ -2186,7 +2209,7 @@ title: Swedish NLG 🇸🇪
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">11,371 ± 2,924 / 2,122 ± 692</td> <!-- Model inference speed -->
-   <td class="rank">4.10</td> <!-- ScandEval rank -->
+   <td class="rank">4.11</td> <!-- ScandEval rank -->
    <td class="sv ner">28.96 ± 2.39 / 26.49 ± 3.14</td> <!-- SUC3 -->
    <td class="sv sent">26.58 ± 5.12 / 28.64 ± 5.35</td> <!-- SweReC -->
    <td class="sv la">-1.88 ± 1.46 / 35.45 ± 2.92</td> <!-- ScaLA-sv -->
@@ -2209,7 +2232,7 @@ title: Swedish NLG 🇸🇪
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">11,740 ± 3,000 / 2,209 ± 721</td> <!-- Model inference speed -->
-   <td class="rank">4.14</td> <!-- ScandEval rank -->
+   <td class="rank">4.15</td> <!-- ScandEval rank -->
    <td class="sv ner">18.57 ± 4.62 / 17.69 ± 4.61</td> <!-- SUC3 -->
    <td class="sv sent">40.23 ± 5.86 / 49.01 ± 4.77</td> <!-- SweReC -->
    <td class="sv la">0.21 ± 1.06 / 39.60 ± 3.61</td> <!-- ScaLA-sv -->
@@ -2232,7 +2255,7 @@ title: Swedish NLG 🇸🇪
    <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">8,597 ± 1,983 / 1,926 ± 600</td> <!-- Model inference speed -->
-   <td class="rank">4.15</td> <!-- ScandEval rank -->
+   <td class="rank">4.16</td> <!-- ScandEval rank -->
    <td class="sv ner">23.92 ± 6.88 / 22.42 ± 6.73</td> <!-- SUC3 -->
    <td class="sv sent">31.93 ± 14.68 / 43.80 ± 8.79</td> <!-- SweReC -->
    <td class="sv la">0.46 ± 1.91 / 43.45 ± 3.64</td> <!-- ScaLA-sv -->
@@ -2301,7 +2324,7 @@ title: Swedish NLG 🇸🇪
    <td class="max_sequence_length">2051</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">8,536 ± 1,926 / 1,940 ± 619</td> <!-- Model inference speed -->
-   <td class="rank">4.34</td> <!-- ScandEval rank -->
+   <td class="rank">4.35</td> <!-- ScandEval rank -->
    <td class="sv ner">29.39 ± 3.08 / 29.93 ± 3.14</td> <!-- SUC3 -->
    <td class="sv sent">38.95 ± 11.78 / 43.61 ± 8.46</td> <!-- SweReC -->
    <td class="sv la">-1.35 ± 1.76 / 40.70 ± 4.25</td> <!-- ScaLA-sv -->
@@ -2324,7 +2347,7 @@ title: Swedish NLG 🇸🇪
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">5,847 ± 1,029 / 1,640 ± 525</td> <!-- Model inference speed -->
-   <td class="rank">4.52</td> <!-- ScandEval rank -->
+   <td class="rank">4.53</td> <!-- ScandEval rank -->
    <td class="sv ner">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- SUC3 -->
    <td class="sv sent">34.63 ± 9.69 / 40.92 ± 6.88</td> <!-- SweReC -->
    <td class="sv la">0.00 ± 0.00 / 33.30 ± 0.27</td> <!-- ScaLA-sv -->
@@ -2347,7 +2370,7 @@ title: Swedish NLG 🇸🇪
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">1,373 ± 120 / 709 ± 172</td> <!-- Model inference speed -->
-   <td class="rank">4.59</td> <!-- ScandEval rank -->
+   <td class="rank">4.60</td> <!-- ScandEval rank -->
    <td class="sv ner">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- SUC3 -->
    <td class="sv sent">28.62 ± 12.67 / 35.36 ± 8.35</td> <!-- SweReC -->
    <td class="sv la">0.00 ± 0.00 / 33.30 ± 0.27</td> <!-- ScaLA-sv -->
@@ -2393,7 +2416,7 @@ title: Swedish NLG 🇸🇪
    <td class="max_sequence_length">1024</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,556 ± 580 / 681 ± 214</td> <!-- Model inference speed -->
-   <td class="rank">4.91</td> <!-- ScandEval rank -->
+   <td class="rank">4.92</td> <!-- ScandEval rank -->
    <td class="sv ner">0.31 ± 0.55 / 0.29 ± 0.50</td> <!-- SUC3 -->
    <td class="sv sent">27.42 ± 12.16 / 38.74 ± 10.05</td> <!-- SweReC -->
    <td class="sv la">0.07 ± 1.06 / 35.80 ± 1.73</td> <!-- ScaLA-sv -->
@@ -2462,7 +2485,7 @@ title: Swedish NLG 🇸🇪
    <td class="max_sequence_length">1024</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,630 ± 605 / 684 ± 217</td> <!-- Model inference speed -->
-   <td class="rank">4.98</td> <!-- ScandEval rank -->
+   <td class="rank">4.99</td> <!-- ScandEval rank -->
    <td class="sv ner">0.01 ± 0.02 / 0.11 ± 0.12</td> <!-- SUC3 -->
    <td class="sv sent">33.50 ± 13.13 / 39.30 ± 11.93</td> <!-- SweReC -->
    <td class="sv la">-0.02 ± 0.60 / 34.92 ± 2.99</td> <!-- ScaLA-sv -->
@@ -2485,7 +2508,7 @@ title: Swedish NLG 🇸🇪
    <td class="max_sequence_length">1024</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">48,619 ± 7,681 / 13,831 ± 4,404</td> <!-- Model inference speed -->
-   <td class="rank">5.11</td> <!-- ScandEval rank -->
+   <td class="rank">5.12</td> <!-- ScandEval rank -->
    <td class="sv ner">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- SUC3 -->
    <td class="sv sent">-3.60 ± 3.63 / 20.29 ± 1.99</td> <!-- SweReC -->
    <td class="sv la">0.00 ± 0.00 / 33.30 ± 0.27</td> <!-- ScaLA-sv -->
@@ -2531,6 +2554,6 @@ title: Swedish NLG 🇸🇪
 <div class="end-note">
   <a href="https://scandeval.com/swedish-nlg-test.csv" target="_blank">Download as CSV</a>
   &nbsp;&nbsp;&bull;&nbsp;&nbsp;
-  <a href="javascript:void(0);" id="embed-link" data-embed="<iframe title=&quot;Swedish NLG&quot; aria-label=&quot;Table&quot; id=&quot;datawrapper-chart-GAGmg&quot; src=&quot;https://datawrapper.dwcdn.net/GAGmg/1/&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width: 0; min-width: 100% !important; border: none;&quot; height=&quot;400&quot; data-external=&quot;1&quot;></iframe><script type=&quot;text/javascript&quot;>!function(){&quot;use strict&quot;;window.addEventListener(&quot;message&quot;,(function(a){if(void 0!==a.data[&quot;datawrapper-height&quot;]){var e=document.querySelectorAll(&quot;iframe&quot;);for(var t in a.data[&quot;datawrapper-height&quot;])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data[&quot;datawrapper-height&quot;][t]+&quot;px&quot;;e[r].style.height=i}}}))}();
+  <a href="javascript:void(0);" id="embed-link" data-embed="<iframe title=&quot;Swedish NLG&quot; aria-label=&quot;Table&quot; id=&quot;datawrapper-chart-nNZe1&quot; src=&quot;https://datawrapper.dwcdn.net/nNZe1/1/&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width: 0; min-width: 100% !important; border: none;&quot; height=&quot;400&quot; data-external=&quot;1&quot;></iframe><script type=&quot;text/javascript&quot;>!function(){&quot;use strict&quot;;window.addEventListener(&quot;message&quot;,(function(a){if(void 0!==a.data[&quot;datawrapper-height&quot;]){var e=document.querySelectorAll(&quot;iframe&quot;);for(var t in a.data[&quot;datawrapper-height&quot;])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data[&quot;datawrapper-height&quot;][t]+&quot;px&quot;;e[r].style.height=i}}}))}();
 </script>">Copy embed HTML</a>
 </div>
