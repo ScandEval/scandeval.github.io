@@ -3,7 +3,7 @@ layout: leaderboard
 title: English NLG 🇬🇧
 ---
 
-<center>Last updated: 30/05/2024 21:58:58 CET</center>
+<center>Last updated: 31/05/2024 10:49:27 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -49,14 +49,14 @@ title: English NLG 🇬🇧
    <td class="speed">576 ± 221 / 81 ± 28</td> <!-- Model inference speed -->
    <td class="rank">1.16</td> <!-- ScandEval rank -->
    <td class="en ner">81.79 ± 1.39 / 65.51 ± 4.16</td> <!-- CoNLL-en -->
-   <td class="en sent">67.46 ± 2.21 / 73.89 ± 1.55</td> <!-- SST5 -->
+   <td class="en sent">67.55 ± 2.34 / 74.04 ± 1.80</td> <!-- SST5 -->
    <td class="en la">51.21 ± 4.96 / 75.11 ± 2.42</td> <!-- ScaLA-en -->
    <td class="en qa">66.60 ± 1.45 / 84.48 ± 0.76</td> <!-- SQuAD -->
    <td class="en summ">68.80 ± 0.43 / 21.84 ± 0.45</td> <!-- CNN-DailyMail -->
    <td class="en know">77.80 ± 1.56 / 83.12 ± 1.19</td> <!-- MMLU -->
    <td class="en reason">89.92 ± 1.48 / 92.34 ± 1.13</td> <!-- HellaSwag -->
    <td>12.10.0</td> <!-- CoNLL-en version -->
-   <td>12.10.1</td> <!-- SST5 version -->
+   <td>12.10.2</td> <!-- SST5 version -->
    <td>12.10.2</td> <!-- ScaLA-en version -->
    <td>12.10.0</td> <!-- SQuAD version -->
    <td>12.10.0</td> <!-- CNN-DailyMail version -->
@@ -118,14 +118,14 @@ title: English NLG 🇬🇧
    <td class="speed">916 ± 329 / 114 ± 38</td> <!-- Model inference speed -->
    <td class="rank">1.41</td> <!-- ScandEval rank -->
    <td class="en ner">83.48 ± 1.52 / 75.51 ± 2.26</td> <!-- CoNLL-en -->
-   <td class="en sent">61.71 ± 2.15 / 70.46 ± 1.41</td> <!-- SST5 -->
+   <td class="en sent">62.74 ± 2.04 / 71.28 ± 1.46</td> <!-- SST5 -->
    <td class="en la">46.56 ± 3.35 / 71.13 ± 1.97</td> <!-- ScaLA-en -->
    <td class="en qa">65.41 ± 1.96 / 84.78 ± 0.68</td> <!-- SQuAD -->
    <td class="en summ">67.64 ± 0.97 / 20.90 ± 0.92</td> <!-- CNN-DailyMail -->
    <td class="en know">67.89 ± 2.82 / 74.96 ± 2.32</td> <!-- MMLU -->
    <td class="en reason">90.07 ± 2.52 / 92.50 ± 1.91</td> <!-- HellaSwag -->
    <td>12.10.0</td> <!-- CoNLL-en version -->
-   <td>12.10.1</td> <!-- SST5 version -->
+   <td>12.10.2</td> <!-- SST5 version -->
    <td>12.10.2</td> <!-- ScaLA-en version -->
    <td>12.10.0</td> <!-- SQuAD version -->
    <td>12.10.0</td> <!-- CNN-DailyMail version -->
@@ -1381,6 +1381,6 @@ title: English NLG 🇬🇧
 <div class="end-note">
   <a href="https://scandeval.com/english-nlg-test.csv" target="_blank">Download as CSV</a>
   &nbsp;&nbsp;&bull;&nbsp;&nbsp;
-  <a href="javascript:void(0);" id="embed-link" data-embed="<iframe title=&quot;English NLG&quot; aria-label=&quot;Table&quot; id=&quot;datawrapper-chart-GQmo4&quot; src=&quot;https://datawrapper.dwcdn.net/GQmo4/1/&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width: 0; min-width: 100% !important; border: none;&quot; height=&quot;400&quot; data-external=&quot;1&quot;></iframe><script type=&quot;text/javascript&quot;>!function(){&quot;use strict&quot;;window.addEventListener(&quot;message&quot;,(function(a){if(void 0!==a.data[&quot;datawrapper-height&quot;]){var e=document.querySelectorAll(&quot;iframe&quot;);for(var t in a.data[&quot;datawrapper-height&quot;])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data[&quot;datawrapper-height&quot;][t]+&quot;px&quot;;e[r].style.height=i}}}))}();
+  <a href="javascript:void(0);" id="embed-link" data-embed="<iframe title=&quot;English NLG&quot; aria-label=&quot;Table&quot; id=&quot;datawrapper-chart-ubWOw&quot; src=&quot;https://datawrapper.dwcdn.net/ubWOw/1/&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width: 0; min-width: 100% !important; border: none;&quot; height=&quot;400&quot; data-external=&quot;1&quot;></iframe><script type=&quot;text/javascript&quot;>!function(){&quot;use strict&quot;;window.addEventListener(&quot;message&quot;,(function(a){if(void 0!==a.data[&quot;datawrapper-height&quot;]){var e=document.querySelectorAll(&quot;iframe&quot;);for(var t in a.data[&quot;datawrapper-height&quot;])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data[&quot;datawrapper-height&quot;][t]+&quot;px&quot;;e[r].style.height=i}}}))}();
 </script>">Copy embed HTML</a>
 </div>
