@@ -126,7 +126,7 @@ AI-Sweden-Models/gpt-sw3-40b (few-shot),39927,64,2048,True,False,409,2.36,32.0,8
 Geotrend/distilbert-base-25lang-cased,109,85,512,True,False,26099,2.37,70.56,60.69,30.83,31.41
 mistralai/Mistral-7B-Instruct-v0.1 (few-shot),7242,32,32768,False,False,634,2.37,45.01,73.33,11.59,52.12
 mistralai/Mistral-7B-Instruct-v0.2 (few-shot),7242,32,32768,False,False,634,2.37,47.92,62.9,19.95,52.51
-AI-Sweden-Models/gpt-sw3-20b (few-shot),20918,64,2048,True,False,1875,2.39,31.86,78.88,12.26,53.58
+AI-Sweden-Models/gpt-sw3-20b (few-shot),20918,64,2048,True,False,1875,2.38,31.86,79.2,12.26,53.58
 Geotrend/distilbert-base-en-da-cased,69,33,512,True,False,26196,2.4,69.62,59.42,29.01,31.82
 Geotrend/distilbert-base-en-fr-de-no-da-cased,76,42,512,True,False,26081,2.4,69.94,59.83,29.82,31.13
 Geotrend/distilbert-base-en-no-cased,69,33,512,True,False,26597,2.4,69.28,59.53,29.36,30.42
@@ -147,7 +147,7 @@ LumiOpen/Viking-13B (few-shot),14030,131,4099,True,False,3530,2.6,36.98,68.43,2.
 Qwen/Qwen1.5-4B-Chat (few-shot),3950,152,32768,False,False,4347,2.6,40.19,64.08,5.43,53.21
 "birgermoell/NeuralBeagle-Flashback (few-shot, val)",7242,32,32768,False,True,2904,2.61,51.73,36.06,19.42,59.26
 HPLT/gpt-13b-nordic-prerelease (few-shot),14030,131,4099,True,False,3520,2.65,32.19,72.26,2.39,48.92
-allenai/OLMo-7B (few-shot),6888,50,2051,True,False,5403,2.66,37.36,72.08,-0.86,45.16
+allenai/OLMo-7B (few-shot),6888,50,2051,True,False,5403,2.65,37.36,72.08,-0.86,45.16
 LumiOpen/Viking-7B (few-shot),7550,131,4096,True,False,4969,2.67,30.64,72.02,1.08,48.72
 sentence-transformers/distilbert-multilingual-nli-stsb-quora-ranking,135,120,512,True,False,33753,2.68,65.5,68.33,14.81,16.11
 sentence-transformers/quora-distilbert-multilingual,135,120,512,True,False,26458,2.68,65.5,68.36,14.81,16.11
