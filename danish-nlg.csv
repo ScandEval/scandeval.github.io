@@ -1,6 +1,6 @@
 model_id,num_model_parameters,vocabulary_size,max_sequence_length,commercially_licensed,merge,speed,rank,dansk,angry_tweets,scala_da,scandiqa_da,nordjylland_news,danske_talemaader,danish_citizen_tests,hellaswag_da
 "gpt-4-0613 (few-shot, val)",-1,100,8192,True,False,597,1.12,64.94,59.97,71.56,56.43,66.76,94.93,93.98,81.64
-"gpt-4-1106-preview (few-shot, val)",-1,100,127999,True,False,576,1.22,66.8,61.62,66.84,56.85,66.21,94.06,97.21,78.67
+"gpt-4-1106-preview (few-shot, val)",-1,100,127999,True,False,576,1.2,66.8,61.62,66.84,56.85,66.21,95.21,97.19,78.74
 "gpt-4o-2024-05-13 (few-shot, val)",-1,200,127999,True,False,916,1.23,71.15,49.42,64.59,57.35,66.03,96.41,97.68,85.96
 "syvai/danskgpt-chat-llama3-70b (few-shot, val)",70554,128,8192,True,False,1283,1.36,65.4,62.78,57.88,62.24,66.78,86.2,80.14,66.22
 "meta-llama/Meta-Llama-3-70B (few-shot, val)",70554,128,8192,True,False,312,1.46,63.62,60.19,50.07,60.97,67.33,83.94,78.83,60.69
@@ -72,7 +72,7 @@ tollefj/nordavind-7b-instruct-warm (few-shot),7248,33,2048,False,False,6450,3.06
 norallm/normistral-7b-warm-instruct (few-shot),-1,33,2048,True,False,6194,3.09,39.83,47.48,4.55,49.23,66.17,10.83,14.66,2.71
 LumiOpen/Viking-33B (few-shot),33119,131,4099,True,False,2080,3.2,34.22,45.05,9.4,54.92,62.78,0.43,4.81,1.77
 microsoft/Phi-3-mini-128k-instruct (few-shot),3821,32,131072,True,False,7312,3.2,4.51,40.85,5.43,51.76,64.64,37.45,36.39,17.42
-LumiOpen/Viking-13B (few-shot),14030,131,4099,True,False,3530,3.25,32.12,47.92,2.79,53.86,63.96,-0.69,1.01,0.19
+LumiOpen/Viking-13B (few-shot),14030,131,4099,True,False,3530,3.24,32.12,47.92,2.79,53.86,63.96,-0.69,1.01,0.19
 norallm/normistral-7b-warm (few-shot),7248,33,2048,True,False,3175,3.27,37.8,40.51,3.35,49.08,65.81,-0.9,3.61,0.4
 AI-Sweden-Models/gpt-sw3-20b (few-shot),20918,64,2048,True,False,1875,3.28,27.41,30.24,11.34,52.8,64.47,11.04,22.71,3.03
 google/gemma-2b (few-shot),2506,256,8192,True,False,6087,3.32,19.97,40.21,2.27,50.55,63.07,15.04,30.63,4.9
@@ -89,8 +89,8 @@ AI-Sweden-Models/gpt-sw3-1.3b-instruct (few-shot),1445,64,2048,True,False,4544,3
 norallm/normistral-7b-scratch (few-shot),7248,33,2048,True,False,3192,3.62,14.88,34.66,0.29,42.16,63.19,0.58,4.6,-0.34
 HPLT/gpt-7b-nordic-prerelease (few-shot),7550,131,4096,True,False,5404,3.65,21.98,37.77,1.26,46.03,58.21,0.0,-0.87,0.0
 AI-Sweden-Models/gpt-sw3-356m-instruct (few-shot),471,64,2048,True,False,5855,3.7,11.28,34.94,2.08,36.59,63.38,-0.09,-0.76,0.28
+AI-Sweden-Models/gpt-sw3-1.3b (few-shot),1445,64,2048,True,False,4608,3.71,8.8,28.65,2.84,45.34,62.17,-1.31,3.02,-0.33
 Qwen/Qwen1.5-1.8B-Chat (few-shot),1837,152,32768,False,False,8304,3.71,18.0,26.58,0.63,41.66,57.19,22.17,12.85,7.01
-AI-Sweden-Models/gpt-sw3-1.3b (few-shot),1445,64,2048,True,False,4608,3.72,8.8,28.65,2.84,45.34,62.17,-1.31,3.02,-0.33
 NbAiLab/nb-gpt-j-6B-alpaca (few-shot),6055,50,1024,False,False,2607,3.72,12.95,27.68,1.65,38.6,63.32,4.49,12.81,-0.68
 Qwen/Qwen1.5-1.8B (few-shot),1837,152,32768,True,False,5666,3.75,9.83,29.03,0.56,46.43,56.43,14.86,17.56,4.78
 allenai/OLMo-7B (few-shot),6888,50,2051,True,False,5403,3.79,26.76,30.76,0.55,45.65,50.86,0.26,6.94,-0.11
