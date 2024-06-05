@@ -155,7 +155,7 @@ mideind/IceBERT-xlmr-ic3,278,250,512,True,False,11004,2.85,58.49,37.47,6.71,30.6
 google/gemma-7b-it (few-shot),8538,256,8192,False,False,1792,2.89,43.83,29.21,12.96,49.76
 ltg/norbert3-xs,15,50,508,True,False,14208,2.93,59.94,39.16,2.16,24.69
 KBLab/bert-base-swedish-cased-new,135,64,512,True,False,15933,2.97,59.37,38.46,4.61,23.13
-AI-Sweden-Models/gpt-sw3-20b (few-shot),20918,64,2048,True,False,1875,3.0,27.41,30.24,11.34,52.8
+AI-Sweden-Models/gpt-sw3-20b (few-shot),20918,64,2048,True,False,1875,3.0,27.41,30.23,11.34,52.8
 Addedk/mbert-swedish-distilled-cased,135,120,512,True,False,26091,3.0,56.36,31.16,21.08,19.63
 HPLT/gpt-13b-nordic-prerelease (few-shot),14030,131,4099,True,False,3520,3.0,28.72,37.19,2.96,49.53
 Addedk/kbbert-distilled-cased,82,50,512,True,False,29698,3.02,57.84,31.18,13.25,22.73
