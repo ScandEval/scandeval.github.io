@@ -7,6 +7,7 @@ import logging
 from datetime import datetime
 import time
 from typing import Any
+import warnings
 import click
 import re
 import scipy.stats as stats
@@ -15,6 +16,7 @@ import pandas as pd
 import numpy as np
 from datawrapper import Datawrapper
 from dotenv import load_dotenv
+import requests
 
 
 load_dotenv()
@@ -359,7 +361,6 @@ title: {title}
         if "merge" in record:
             model_scores[model_id]["merge"] = (str(int(record["merge"])), "", "")
 
-    # Generate language model benchmark HTML
     all_values: list[dict[str, str]] = list()
     for model_id, model_dict in model_scores.items():
 
@@ -474,9 +475,14 @@ title: {title}
         assert len(score_values_1) == len(score_values_2)
         if score_values_1 == score_values_2:
             return 0
-        test_result = stats.ttest_ind(
-            a=score_values_1, b=score_values_2, alternative="greater", equal_var=False
-        )
+        with warnings.catch_warnings():
+            warnings.filterwarnings(action="ignore", category=RuntimeWarning)
+            test_result = stats.ttest_ind(
+                a=score_values_1,
+                b=score_values_2,
+                alternative="greater",
+                equal_var=False,
+            )
         return test_result.pvalue < 0.05
 
     # Compute rank scores for all datasets
@@ -677,6 +683,16 @@ def get_embed_code(title: str, csv_url: str, csv_df: pd.DataFrame) -> str:
         ValueError:
             If the Datawrapper API key is not found.
     """
+    try:
+        internet_works = requests.get(
+            'https://google.com', timeout=3
+        ).status_code == 200
+    except requests.RequestException:
+        internet_works = False
+    if not internet_works:
+        logger.error(f"Internet not available - using blank embedding code.")
+        return "NA"
+
     api_key = os.getenv("DATAWRAPPER_API_KEY")
     if api_key is None:
         raise ValueError("No Datawrapper API key found.")
