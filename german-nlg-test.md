@@ -3,7 +3,7 @@ layout: leaderboard
 title: German NLG 🇩🇪
 ---
 
-<center>Last updated: 01/06/2024 12:42:37 CET</center>
+<center>Last updated: 06/06/2024 10:51:26 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -762,14 +762,14 @@ title: German NLG 🇩🇪
    <td class="speed">789 ± 78 / 346 ± 102</td> <!-- Model inference speed -->
    <td class="rank">2.42</td> <!-- ScandEval rank -->
    <td class="de ner">52.45 ± 2.98 / 47.91 ± 2.37</td> <!-- GermEval -->
-   <td class="de sent">49.72 ± 2.70 / 63.65 ± 2.76</td> <!-- SB10k -->
+   <td class="de sent">49.73 ± 2.78 / 63.68 ± 2.80</td> <!-- SB10k -->
    <td class="de la">20.72 ± 4.25 / 53.77 ± 5.69</td> <!-- ScaLA-de -->
    <td class="de qa">30.18 ± 4.61 / 60.07 ± 5.86</td> <!-- GermanQuAD -->
    <td class="de summ">68.97 ± 0.69 / 26.66 ± 1.82</td> <!-- MLSum -->
    <td class="de know">27.71 ± 0.66 / 45.34 ± 0.63</td> <!-- MMLU-de -->
    <td class="de reason">21.44 ± 2.29 / 40.21 ± 1.74</td> <!-- HellaSwag-de -->
    <td>12.7.0</td> <!-- GermEval version -->
-   <td>12.7.0</td> <!-- SB10k version -->
+   <td>12.10.4</td> <!-- SB10k version -->
    <td>12.7.0</td> <!-- ScaLA-de version -->
    <td>12.7.0</td> <!-- GermanQuAD version -->
    <td>12.10.0</td> <!-- MLSum version -->
@@ -1496,6 +1496,6 @@ title: German NLG 🇩🇪
 <div class="end-note">
   <a href="https://scandeval.com/german-nlg-test.csv" target="_blank">Download as CSV</a>
   &nbsp;&nbsp;&bull;&nbsp;&nbsp;
-  <a href="javascript:void(0);" id="embed-link" data-embed="<iframe title=&quot;German NLG&quot; aria-label=&quot;Table&quot; id=&quot;datawrapper-chart-Oq6b8&quot; src=&quot;https://datawrapper.dwcdn.net/Oq6b8/1/&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width: 0; min-width: 100% !important; border: none;&quot; height=&quot;400&quot; data-external=&quot;1&quot;></iframe><script type=&quot;text/javascript&quot;>!function(){&quot;use strict&quot;;window.addEventListener(&quot;message&quot;,(function(a){if(void 0!==a.data[&quot;datawrapper-height&quot;]){var e=document.querySelectorAll(&quot;iframe&quot;);for(var t in a.data[&quot;datawrapper-height&quot;])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data[&quot;datawrapper-height&quot;][t]+&quot;px&quot;;e[r].style.height=i}}}))}();
+  <a href="javascript:void(0);" id="embed-link" data-embed="<iframe title=&quot;German NLG&quot; aria-label=&quot;Table&quot; id=&quot;datawrapper-chart-jqxHG&quot; src=&quot;https://datawrapper.dwcdn.net/jqxHG/1/&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width: 0; min-width: 100% !important; border: none;&quot; height=&quot;400&quot; data-external=&quot;1&quot;></iframe><script type=&quot;text/javascript&quot;>!function(){&quot;use strict&quot;;window.addEventListener(&quot;message&quot;,(function(a){if(void 0!==a.data[&quot;datawrapper-height&quot;]){var e=document.querySelectorAll(&quot;iframe&quot;);for(var t in a.data[&quot;datawrapper-height&quot;])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data[&quot;datawrapper-height&quot;][t]+&quot;px&quot;;e[r].style.height=i}}}))}();
 </script>">Copy embed HTML</a>
 </div>
