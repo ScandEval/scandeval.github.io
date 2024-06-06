@@ -474,7 +474,7 @@ mainland-scandi-nlu:
 
 mainland-scandi-nlg:
 	@. .venv/bin/activate && \
-		python python/generate_leaderboard.py "Mainland Scandinavian NLU 🇩🇰🇳🇴🇸🇪" \
+		python python/generate_leaderboard.py "Mainland Scandinavian NLG 🇩🇰🇳🇴🇸🇪" \
 			-l da Danish \
 			-l no Norwegian \
 			-l sv Swedish \
