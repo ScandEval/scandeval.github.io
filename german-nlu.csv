@@ -53,7 +53,7 @@ VAGOsolutions/SauerkrautLM-Gemma-7b (few-shot),8538,256,8221,False,False,1410,2.
 occiglot/occiglot-7b-eu5-instruct (few-shot),7242,32,32768,False,False,2088,2.34,52.63,43.16,27.09,34.01
 occiglot/occiglot-7b-eu5 (few-shot),7242,32,32768,True,False,2219,2.37,51.39,47.3,21.83,31.55
 clips/mfaq,277,250,128,True,False,5591,2.38,76.68,59.51,32.54,1.53
-seedboxai/KafkaLM-13B-German-V0.1-DPO (few-shot),13016,32,8221,False,False,789,2.38,52.45,49.72,20.72,30.18
+seedboxai/KafkaLM-13B-German-V0.1-DPO (few-shot),13016,32,8221,False,False,789,2.38,52.45,49.73,20.72,30.18
 timpal0l/Mistral-7B-v0.1-flashback-v2 (few-shot),7242,32,32768,True,False,5054,2.38,50.66,54.79,20.17,27.86
 Twitter/twhin-bert-large,562,250,512,True,False,9707,2.39,74.36,53.52,22.26,11.68
 RuterNorway/Llama-2-13b-chat-norwegian (few-shot),-1,32,4125,False,False,3254,2.42,57.02,49.75,19.8,27.86
