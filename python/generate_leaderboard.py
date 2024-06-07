@@ -10,6 +10,7 @@ from typing import Any
 import warnings
 import click
 import re
+from datawrapper.exceptions import FailedRequest
 import scipy.stats as stats
 import os
 import pandas as pd
@@ -573,13 +574,15 @@ title: {title}
 
         df.to_csv(csv_path)
 
-        embed_code = get_embed_code(
-            title=title, csv_url=f"https://scandeval.com/{title_kebab}.csv", csv_df=df,
-        )
-
         # Build the HTML for the leaderboard
         force_update = os.getenv("FORCE_UPDATE", "0") == "1"
         if changed_model_ids or force_update:
+            embed_code = get_embed_code(
+                title=title,
+                csv_url=f"https://scandeval.com/{title_kebab}.csv",
+                csv_df=df,
+            )
+
             html_lines = [BENCHMARK_HTML_START]
             for values in all_values:
                 html_lines.append(BENCHMARK_ENTRY.format(**values))
@@ -691,7 +694,7 @@ def get_embed_code(title: str, csv_url: str, csv_df: pd.DataFrame) -> str:
         internet_works = False
     if not internet_works:
         logger.error(f"Internet not available - using blank embedding code.")
-        return "NA"
+        return ""
 
     api_key = os.getenv("DATAWRAPPER_API_KEY")
     if api_key is None:
@@ -757,14 +760,14 @@ def get_embed_code(title: str, csv_url: str, csv_df: pd.DataFrame) -> str:
             embed_code = dw.get_iframe_code(chart_id=dw_table["id"], responsive=True)
             embed_code = embed_code.replace('"', "&quot;")
             return embed_code
-        except TimeoutError:
+        except (TimeoutError, requests.ReadTimeout, FailedRequest):
             logger.warning(f"Attempt {attempt + 1} to publish the chart timed out.")
-            time.sleep(5)
     else:
         logger.error(
-            f"Failed to publish the chart after {NUM_EMBED_ATTEMPTS} attempts."
+            f"Failed to publish the chart after {NUM_EMBED_ATTEMPTS} attempts. "
+            "Returning blank embedding code."
         )
-        return "Embed code could not be generated."
+        return ""
 
 
 if __name__ == "__main__":
