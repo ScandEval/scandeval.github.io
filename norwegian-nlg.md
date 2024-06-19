@@ -3,7 +3,7 @@ layout: leaderboard
 title: Norwegian NLG 🇳🇴
 ---
 
-<center>Last updated: 18/06/2024 07:57:45 CET</center>
+<center>Last updated: 19/06/2024 15:32:50 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -1859,7 +1859,7 @@ title: Norwegian NLG 🇳🇴
    <td class="vocabulary_size">68</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">2,570 ± 486 / 739 ± 223</td> <!-- Model inference speed -->
+   <td class="speed">3,035 ± 503 / 911 ± 300</td> <!-- Model inference speed -->
    <td class="rank">3.46</td> <!-- ScandEval rank -->
    <td class="no ner">21.09 ± 6.44 / 20.45 ± 2.65</td> <!-- NorNE-nb -->
    <td class="no ner">26.31 ± 4.64 / 26.42 ± 2.98</td> <!-- NorNE-nn -->
@@ -2939,7 +2939,7 @@ title: Norwegian NLG 🇳🇴
    <td class="vocabulary_size">68</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">2,559 ± 477 / 759 ± 227</td> <!-- Model inference speed -->
+   <td class="speed">3,024 ± 496 / 909 ± 301</td> <!-- Model inference speed -->
    <td class="rank">4.72</td> <!-- ScandEval rank -->
    <td class="no ner">12.77 ± 3.48 / 14.13 ± 3.09</td> <!-- NorNE-nb -->
    <td class="no ner">10.51 ± 3.44 / 9.95 ± 3.51</td> <!-- NorNE-nn -->
@@ -3264,6 +3264,6 @@ title: Norwegian NLG 🇳🇴
 <div class="end-note">
   <a href="https://scandeval.com/norwegian-nlg.csv" target="_blank">Download as CSV</a>
   &nbsp;&nbsp;&bull;&nbsp;&nbsp;
-  <a href="javascript:void(0);" id="embed-link" data-embed="<iframe title=&quot;Norwegian NLG&quot; aria-label=&quot;Table&quot; id=&quot;datawrapper-chart-QEYB5&quot; src=&quot;https://datawrapper.dwcdn.net/QEYB5/1/&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width: 0; min-width: 100% !important; border: none;&quot; height=&quot;400&quot; data-external=&quot;1&quot;></iframe><script type=&quot;text/javascript&quot;>!function(){&quot;use strict&quot;;window.addEventListener(&quot;message&quot;,(function(a){if(void 0!==a.data[&quot;datawrapper-height&quot;]){var e=document.querySelectorAll(&quot;iframe&quot;);for(var t in a.data[&quot;datawrapper-height&quot;])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data[&quot;datawrapper-height&quot;][t]+&quot;px&quot;;e[r].style.height=i}}}))}();
+  <a href="javascript:void(0);" id="embed-link" data-embed="<iframe title=&quot;Norwegian NLG&quot; aria-label=&quot;Table&quot; id=&quot;datawrapper-chart-N239q&quot; src=&quot;https://datawrapper.dwcdn.net/N239q/1/&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width: 0; min-width: 100% !important; border: none;&quot; height=&quot;400&quot; data-external=&quot;1&quot;></iframe><script type=&quot;text/javascript&quot;>!function(){&quot;use strict&quot;;window.addEventListener(&quot;message&quot;,(function(a){if(void 0!==a.data[&quot;datawrapper-height&quot;]){var e=document.querySelectorAll(&quot;iframe&quot;);for(var t in a.data[&quot;datawrapper-height&quot;])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data[&quot;datawrapper-height&quot;][t]+&quot;px&quot;;e[r].style.height=i}}}))}();
 </script>">Copy embed HTML</a>
 </div>
