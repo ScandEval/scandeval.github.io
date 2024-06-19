@@ -246,8 +246,11 @@ title: {title}
         model_id: str = record["model"]
         model_notes: list[str] = list()
 
-        if record.get("generative", True) and record.get("few_shot", True):
-            model_notes.append("few-shot")
+        if record.get("generative", True):
+            if record.get("few_shot", True):
+                model_notes.append("few-shot")
+            else:
+                model_notes.append("zero-shot")
 
         if record.get("validation_split", False):
             model_notes.append("val")
