@@ -66,7 +66,7 @@ meta-llama/Llama-2-7b-chat-hf (few-shot),6738,32,4096,False,False,2643,3.42,44.9
 microsoft/Phi-3-mini-4k-instruct (few-shot),3821,32,4096,True,False,3698,3.43,56.33,54.68,37.18,61.44,6.76,6.79,30.11,15.54,17.55
 meta-llama/Llama-2-7b-hf (few-shot),6738,32,4096,True,False,930,3.45,42.13,43.8,41.74,62.3,0.0,0.02,44.19,14.48,6.49
 AI-Sweden-Models/gpt-sw3-20b-instruct (few-shot),20918,64,2048,True,False,1831,3.46,23.95,26.55,40.89,65.9,9.45,8.32,43.19,7.24,11.76
-NorwAI/NorwAI-Mistral-7B (few-shot),7537,68,4096,True,False,2570,3.46,21.09,26.31,49.0,63.87,7.15,7.98,47.7,5.83,5.39
+NorwAI/NorwAI-Mistral-7B (few-shot),7537,68,4096,True,False,3035,3.46,21.09,26.31,49.0,63.87,7.15,7.98,47.7,5.83,5.39
 microsoft/Phi-3-mini-128k-instruct (few-shot),3821,32,130819,True,False,7312,3.46,52.18,50.53,33.3,60.69,2.63,4.0,37.08,17.34,17.43
 Qwen/Qwen1.5-4B-Chat (few-shot),3950,152,32768,False,False,4347,3.47,44.83,46.29,32.7,60.53,3.57,1.61,42.55,17.0,16.18
 emillykkejensen/Phi-3-mini-4k-instruct-dansk (few-shot),3821,32,4096,False,False,1360,3.47,56.41,53.95,42.27,60.58,0.0,0.21,29.35,18.57,13.36
@@ -106,7 +106,7 @@ AI-Sweden-Models/gpt-sw3-126m-instruct (few-shot),186,64,2048,True,False,7717,4.
 Qwen/Qwen1.5-0.5B (few-shot),620,152,32768,True,False,11371,4.53,34.46,33.41,6.31,49.88,-1.59,0.61,5.95,2.81,2.92
 allenai/OLMo-7B (few-shot),6888,50,2051,True,False,5403,4.53,34.42,35.17,21.46,45.34,0.34,0.26,0.12,2.61,0.96
 allenai/OLMo-7B-Twin-2T (few-shot),6888,50,2051,True,False,5484,4.66,9.06,17.16,25.52,40.94,0.68,0.17,0.46,2.43,2.35
-NorwAI/NorwAI-Mistral-7B-pretrain (few-shot),7537,68,4096,True,False,2559,4.72,12.77,10.51,8.7,49.76,0.0,0.82,1.85,-2.42,1.23
+NorwAI/NorwAI-Mistral-7B-pretrain (few-shot),7537,68,4096,True,False,3024,4.72,12.77,10.51,8.7,49.76,0.0,0.82,1.85,-2.42,1.23
 AI-Sweden-Models/gpt-sw3-126m (few-shot),186,64,2048,True,False,8958,4.73,13.55,9.38,7.78,51.68,-1.46,-2.97,2.32,0.39,-0.8
 NbAiLab/nb-gpt-j-6B-v2 (few-shot),6051,50,1024,False,False,2556,4.73,5.29,6.77,20.84,44.23,0.45,0.48,2.43,0.17,-0.49
 RJuro/kanelsnegl-v0.2 (few-shot),7242,32,512,True,False,1373,4.74,0.0,0.0,1.27,59.1,0.0,0.0,0.0,0.83,0.09
