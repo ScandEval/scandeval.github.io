@@ -742,11 +742,22 @@ def get_embed_code(title: str, csv_url: str, csv_df: pd.DataFrame) -> str:
     # Load the chart if it already exists, otherwise create a new one
     all_charts = dw.get_charts()["list"]
     matching_charts = [chart for chart in all_charts if chart["title"] == title]
-    if matching_charts:
-        dw_table = matching_charts[0]
-        dw.update_chart(chart_id=dw_table["id"], **dw_kwargs)
+    for attempt in range(NUM_EMBED_ATTEMPTS):
+        try:
+            if matching_charts:
+                dw_table = matching_charts[0]
+                dw.update_chart(chart_id=dw_table["id"], **dw_kwargs)
+            else:
+                dw_table = dw.create_chart(**dw_kwargs)
+            break
+        except FailedRequest:
+            logger.warning(f"Attempt {attempt + 1} to update the chart timed out.")
     else:
-        dw_table = dw.create_chart(**dw_kwargs)
+        logger.error(
+            f"Failed to update the chart after {NUM_EMBED_ATTEMPTS} attempts. "
+            "Returning blank embedding code."
+        )
+        return ""
 
     dw.update_description(
         chart_id=dw_table["id"],
@@ -754,8 +765,6 @@ def get_embed_code(title: str, csv_url: str, csv_df: pd.DataFrame) -> str:
         source_url=csv_url.replace(".csv", ""),
         byline="Dan Saattrup Nielsen",
     )
-
-    dw.update_chart(chart_id=dw_table["id"], metadata=metadata)
 
     for attempt in range(NUM_EMBED_ATTEMPTS):
         try:
