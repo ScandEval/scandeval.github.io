@@ -64,7 +64,7 @@ occiglot/occiglot-7b-eu5 (few-shot),7242,32,32768,True,False,2219,3.3,45.28,46.0
 danish-foundation-models/munin-7b-alpha (few-shot),7242,32,32768,True,False,6116,3.32,48.89,51.95,20.54,63.67,4.39,1.2,47.16,29.07,19.15
 01-ai/Yi-6B (few-shot),6061,64,4096,True,False,6435,3.36,43.44,46.33,38.96,61.98,0.75,1.04,40.28,23.14,16.5
 neph1/bellman-7b-mistral-instruct-v0.2 (few-shot),7242,32,32768,False,False,2518,3.36,57.01,56.77,38.81,62.13,14.16,9.29,32.75,17.08,10.52
-microsoft/Phi-3-mini-4k-instruct (few-shot),3821,32,4096,True,False,3698,3.43,56.33,54.68,37.18,61.44,6.76,6.79,30.11,15.54,17.55
+microsoft/Phi-3-mini-4k-instruct (few-shot),3821,32,4096,True,False,5224,3.43,56.33,54.68,37.18,61.44,6.76,6.79,30.11,15.54,17.55
 meta-llama/Llama-2-7b-chat-hf (few-shot),6738,32,4096,False,False,2643,3.45,44.99,49.09,41.56,63.59,3.04,4.03,33.77,14.81,12.69
 microsoft/Phi-3-mini-128k-instruct (few-shot),3821,32,130819,True,False,7312,3.46,52.18,50.53,33.3,60.69,2.63,4.0,37.08,17.34,17.43
 NorwAI/NorwAI-Mistral-7B (few-shot),7537,68,4096,True,False,3035,3.48,21.09,26.31,49.0,63.87,7.15,7.98,47.7,5.83,5.39
