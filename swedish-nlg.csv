@@ -45,11 +45,11 @@ timpal0l/njord-alpha (few-shot),7242,32,32768,True,False,5431,2.61,48.19,79.95,3
 danish-foundation-models/munin-7b-v0.1dev0 (few-shot),7242,32,8192,True,False,6113,2.62,47.1,73.05,30.29,57.39,64.69,27.4,21.08
 "mlabonne/AlphaMonarch-7B (few-shot, val)",7242,32,8192,False,True,5340,2.65,60.53,67.03,15.1,42.46,67.94,27.51,42.29
 AI-Sweden-Models/Llama-3-8B (few-shot),8030,128,8192,True,False,4141,2.66,36.45,81.12,26.8,58.16,66.09,29.01,15.92
+alpindale/Mistral-7B-v0.2-hf (few-shot),7242,32,32768,True,False,1841,2.66,48.96,78.9,10.82,58.91,64.78,34.52,20.96
 meta-llama/Llama-2-13b-hf (few-shot),13016,32,4096,True,False,2898,2.66,54.52,78.45,21.55,59.71,64.59,25.51,14.97
+mistralai/Mistral-7B-v0.3 (few-shot),7248,33,32768,True,False,4120,2.66,49.18,79.08,11.06,58.98,64.79,34.51,20.84
 "KennethEnevoldsen/munin_mistral-7b (few-shot, val)",7242,32,32768,False,True,2543,2.67,52.34,77.66,6.0,60.16,65.54,31.83,20.55
 Mabeck/Heidrun-Mistral-7B-base (few-shot),7242,32,32768,True,False,3823,2.67,48.43,79.43,17.37,57.05,63.81,31.72,15.69
-alpindale/Mistral-7B-v0.2-hf (few-shot),7242,32,32768,True,False,1841,2.67,48.96,78.9,10.82,58.91,64.78,34.52,20.96
-mistralai/Mistral-7B-v0.3 (few-shot),7248,33,32768,True,False,4120,2.67,49.18,79.08,11.06,58.98,64.79,34.51,20.84
 mhenrichsen/hestenettetLM (few-shot),7242,32,32768,True,False,5160,2.68,53.0,79.7,4.32,59.03,64.89,35.48,20.54
 mistralai/Mistral-7B-v0.1 (few-shot),7242,32,32768,True,False,2657,2.68,53.34,80.0,4.61,58.99,64.87,35.52,19.67
 ThatsGroes/munin-SkoleGPTOpenOrca-7b-16bit (few-shot),7242,32,32768,False,False,3006,2.71,44.64,77.98,16.57,57.31,63.23,28.15,23.58
@@ -84,8 +84,8 @@ norallm/normistral-7b-warm-instruct (few-shot),7248,33,2048,True,False,6194,3.3,
 AI-Sweden-Models/gpt-sw3-6.7b-v2 (few-shot),7111,64,2048,True,False,2351,3.32,28.73,77.47,8.78,50.57,62.41,5.23,5.39
 AI-Sweden-Models/gpt-sw3-20b-instruct (few-shot),20918,64,2048,True,False,1831,3.37,15.7,68.23,12.39,52.04,65.44,6.86,6.92
 norallm/normistral-7b-warm (few-shot),7248,33,2048,True,False,3175,3.37,48.78,76.09,2.53,48.93,57.49,1.28,1.27
+LumiOpen/Viking-13B (few-shot),14030,131,4099,True,False,3530,3.41,31.55,78.66,2.22,52.04,61.04,0.6,0.59
 AI-Sweden-Models/gpt-sw3-6.7b-v2-instruct (few-shot),7111,64,2048,True,False,2383,3.45,14.58,56.6,10.92,50.18,64.89,6.16,10.9
-LumiOpen/Viking-13B (few-shot),14030,131,4099,True,False,3530,3.46,36.98,68.43,2.22,52.04,61.04,0.6,0.59
 google/gemma-2b (few-shot),2506,256,8192,True,False,6087,3.47,14.67,75.45,3.82,51.73,59.72,10.98,4.24
 HPLT/gpt-33b-nordic-prerelease (few-shot),33119,131,4099,True,False,501,3.5,33.61,76.75,1.66,50.68,56.37,-0.31,-0.04
 AI-Sweden-Models/gpt-sw3-1.3b-instruct (few-shot),1445,64,2048,True,False,4544,3.53,19.04,73.34,2.9,47.45,63.33,0.65,-0.18
@@ -113,11 +113,11 @@ mhenrichsen/danskgpt-tiny (few-shot),1100,32,2048,True,False,8597,4.14,23.92,31.
 AI-Sweden-Models/gpt-sw3-126m-instruct (few-shot),186,64,2048,True,False,7717,4.23,23.05,12.47,0.08,20.43,59.8,0.72,0.11
 allenai/OLMo-1B (few-shot),1177,50,2051,True,False,8536,4.31,29.39,38.95,-1.35,17.85,43.75,-0.22,0.75
 RJuro/kanelsnegl-v0.1 (few-shot),7242,32,512,True,False,5847,4.47,0.0,34.63,0.0,0.0,59.04,-0.25,0.08
-RJuro/kanelsnegl-v0.2 (few-shot),7242,32,512,True,False,1373,4.54,0.0,28.62,0.0,0.0,58.16,0.47,0.71
+RJuro/kanelsnegl-v0.2 (few-shot),7242,32,512,True,False,1373,4.53,0.0,28.62,0.0,0.0,58.16,0.47,0.71
 NorwAI/NorwAI-Mistral-7B-pretrain (few-shot),7537,68,4065,True,False,3024,4.56,9.75,17.76,1.22,14.98,48.74,-0.62,0.99
 AI-Sweden-Models/gpt-sw3-126m (few-shot),186,64,2048,True,False,8958,4.59,5.66,8.15,-0.81,16.4,51.48,-0.49,1.17
 NbAiLab/nb-gpt-j-6B-v2 (few-shot),6051,50,1024,False,False,2556,4.88,0.31,27.42,0.07,17.82,27.09,-0.67,0.86
-peter-sk/gpt-neox-da (few-shot),1515,50,1024,True,False,6025,4.9,0.26,4.75,-0.6,0.06,41.84,-0.41,0.52
+peter-sk/gpt-neox-da (few-shot),1515,50,1024,True,False,6025,4.89,0.26,4.75,-0.6,0.06,41.84,-0.41,0.52
 NbAiLab/nb-gpt-j-6B@sharded (few-shot),-1,50,1024,True,False,2630,4.95,0.01,33.5,-0.02,4.79,26.97,-0.11,0.56
 NorGLM/NorGPT-369M (few-shot),-1,64,1024,True,False,19896,5.0,1.47,5.5,-2.19,0.1,37.4,-0.53,0.25
 ai-forever/mGPT (few-shot),-1,100,1024,True,False,11734,5.06,0.0,0.0,0.49,6.24,31.89,-0.37,0.36
