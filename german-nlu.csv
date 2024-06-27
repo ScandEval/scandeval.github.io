@@ -86,7 +86,7 @@ sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,118,250,512,True,Fal
 sentence-transformers/quora-distilbert-multilingual,135,120,512,True,False,26458,3.14,64.12,49.66,0.58,0.05
 sentence-transformers/distilbert-multilingual-nli-stsb-quora-ranking,135,120,512,True,False,33753,3.16,63.78,49.69,0.74,0.02
 VAGOsolutions/SauerkrautLM-Gemma-2b (few-shot),2506,256,8192,False,False,3607,3.26,12.21,44.84,2.02,24.59
-LumiOpen/Viking-13B (few-shot),14030,131,4128,True,False,3530,3.27,34.53,42.9,1.51,15.83
+LumiOpen/Viking-13B (few-shot),14030,131,4128,True,False,1996,3.27,34.53,42.9,1.51,15.83
 Rijgersberg/GEITje-7B (few-shot),7242,32,32797,True,False,5887,3.27,0.0,47.67,9.67,26.23
 AI-Sweden-Models/gpt-sw3-20b-instruct (few-shot),20918,64,2077,True,False,1831,3.32,24.35,43.35,2.38,15.56
 sentence-transformers/distiluse-base-multilingual-cased-v2,135,120,512,True,False,33247,3.34,41.82,49.38,4.77,0.05
