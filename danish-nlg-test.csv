@@ -55,8 +55,8 @@ Mabeck/Heidrun-Mistral-7B-base (few-shot),7242,32,32768,True,False,3823,2.54,40.
 mistralai/Mistral-7B-Instruct-v0.2 (few-shot),7242,32,32768,False,False,634,2.6,44.89,48.09,19.06,51.56,66.84,51.6,35.85,22.21
 timpal0l/Mistral-7B-v0.1-flashback-v2 (few-shot),7242,32,32768,True,False,5054,2.6,42.43,47.82,16.51,56.95,65.43,50.76,50.82,14.47
 bineric/NorskGPT-Llama-13B-v0.1 (few-shot),-1,32,4096,False,False,2856,2.64,44.17,44.28,3.11,55.59,66.63,59.51,50.89,25.32
+mhenrichsen/hestenettetLM (few-shot),7242,32,32768,True,False,5160,2.64,44.9,42.61,8.65,59.62,66.48,52.83,57.96,18.11
 mistralai/Mistral-7B-v0.1 (few-shot),7242,32,32768,True,False,2657,2.64,45.42,43.16,8.79,59.43,66.47,53.26,58.26,18.53
-mhenrichsen/hestenettetLM (few-shot),7242,32,32768,True,False,5160,2.65,44.9,42.61,8.65,59.62,66.48,52.83,57.96,18.11
 RuterNorway/Llama-2-13b-chat-norwegian (few-shot),-1,32,4096,False,False,3254,2.67,43.17,43.4,11.08,56.81,67.46,52.94,41.65,17.57
 timpal0l/Llama-3-8B-flashback-v1 (few-shot),8030,128,8192,True,False,4807,2.69,46.59,50.25,14.46,56.86,61.98,46.91,50.98,16.33
 neph1/bellman-7b-mistral-instruct-v0.2 (few-shot),7242,32,32768,False,False,2518,2.7,46.11,47.58,18.41,52.78,65.65,41.77,35.86,11.59
@@ -81,10 +81,10 @@ tollefj/nordavind-7b-instruct-warm (few-shot),7248,33,2048,False,False,6450,3.08
 norallm/normistral-7b-warm-instruct (few-shot),-1,33,2048,True,False,6194,3.11,39.83,47.48,4.55,49.23,66.17,10.83,14.66,2.71
 NorwAI/NorwAI-Llama2-7B (few-shot),7033,68,4096,True,False,4438,3.14,16.72,45.89,11.25,53.17,66.51,14.84,27.95,2.41
 microsoft/Phi-3-mini-128k-instruct (few-shot),3821,32,131072,True,False,7312,3.22,4.51,40.85,5.43,51.76,64.64,37.45,36.39,17.42
-LumiOpen/Viking-33B (few-shot),33119,131,4099,True,False,2080,3.23,34.22,45.05,9.4,54.92,62.78,0.43,4.81,1.77
+LumiOpen/Viking-33B@1000B (few-shot),33119,131,4099,True,False,2080,3.23,34.22,45.05,9.4,54.92,62.78,0.43,4.81,1.77
 allenai/OLMo-1.7-7B-hf (few-shot),6888,50,4096,True,False,3371,3.27,33.8,31.57,2.76,54.2,64.19,17.75,28.24,4.5
 AI-Sweden-Models/gpt-sw3-20b (few-shot),20918,64,2048,True,False,1875,3.29,27.41,30.23,11.34,52.8,64.47,11.04,22.71,3.03
-LumiOpen/Viking-13B (few-shot),14030,131,4097,True,False,3530,3.29,28.6,48.71,2.79,53.86,63.96,-0.69,1.01,0.19
+LumiOpen/Viking-13B (few-shot),14030,131,4097,True,False,1996,3.29,28.6,48.71,2.3,53.85,63.96,-0.69,1.01,0.19
 norallm/normistral-7b-warm (few-shot),7248,33,2048,True,False,3175,3.29,37.8,40.51,3.35,49.08,65.81,-0.9,3.61,0.4
 google/gemma-2b (few-shot),2506,256,8192,True,False,6087,3.34,19.97,40.21,2.27,50.55,63.07,15.04,30.63,4.9
 01-ai/Yi-6B (few-shot),6061,64,4096,True,False,6435,3.36,35.08,4.0,3.68,55.09,64.15,34.07,33.75,13.61
