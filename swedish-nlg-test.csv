@@ -84,7 +84,7 @@ norallm/normistral-7b-warm-instruct (few-shot),7248,33,2048,True,False,6194,3.3,
 AI-Sweden-Models/gpt-sw3-6.7b-v2 (few-shot),7111,64,2048,True,False,2351,3.32,28.73,77.47,8.78,50.57,62.41,5.23,5.39
 AI-Sweden-Models/gpt-sw3-20b-instruct (few-shot),20918,64,2048,True,False,1831,3.37,15.7,68.23,12.39,52.04,65.44,6.86,6.92
 norallm/normistral-7b-warm (few-shot),7248,33,2048,True,False,3175,3.37,48.78,76.09,2.53,48.93,57.49,1.28,1.27
-LumiOpen/Viking-13B (few-shot),14030,131,4099,True,False,1996,3.38,31.55,78.66,5.69,52.04,61.04,0.6,0.59
+LumiOpen/Viking-13B (few-shot),14030,131,4099,True,False,1996,3.38,31.55,78.66,5.69,52.93,61.04,0.6,0.59
 AI-Sweden-Models/gpt-sw3-6.7b-v2-instruct (few-shot),7111,64,2048,True,False,2383,3.45,14.58,56.6,10.92,50.18,64.89,6.16,10.9
 google/gemma-2b (few-shot),2506,256,8192,True,False,6087,3.47,14.67,75.45,3.82,51.73,59.72,10.98,4.24
 HPLT/gpt-33b-nordic-prerelease (few-shot),33119,131,4099,True,False,501,3.5,33.61,76.75,1.66,50.68,56.37,-0.31,-0.04
