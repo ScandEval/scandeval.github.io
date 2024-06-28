@@ -29,12 +29,12 @@ mistralai/Mistral-7B-Instruct-v0.1 (few-shot),7242,32,32768,False,False,634,4.03
 occiglot/occiglot-7b-eu5 (few-shot),7242,32,32768,True,False,2219,4.04,40.08,1.59,15.98,62.55,7.64,-0.51
 meta-llama/Llama-2-13b-hf (few-shot),13016,32,4096,True,False,2898,4.06,36.56,1.73,21.97,63.5,6.74,-5.8
 meta-llama/Llama-2-7b-hf (few-shot),6738,32,4096,True,False,930,4.13,32.71,0.66,18.04,60.73,5.05,-0.0
+microsoft/Phi-3-mini-128k-instruct (few-shot),3821,32,131072,True,False,7312,4.13,27.22,1.31,17.24,62.0,7.06,1.06
 meta-llama/Llama-2-7b-chat-hf (few-shot),6738,32,4096,False,False,2643,4.14,41.1,-1.07,16.13,62.3,3.27,1.84
-microsoft/Phi-3-mini-128k-instruct (few-shot),3821,32,131072,True,False,7312,4.14,27.22,1.31,17.24,62.0,7.06,1.06
 microsoft/Phi-3-mini-4k-instruct (few-shot),3821,32,4096,True,False,5224,4.14,33.05,0.71,17.23,60.08,6.4,2.74
+LumiOpen/Viking-13B (few-shot),14030,131,4224,True,False,1996,4.16,26.28,2.17,22.65,62.07,-0.48,0.06
 AI-Sweden-Models/gpt-sw3-6.7b-v2-instruct (few-shot),7111,64,2048,True,False,2383,4.17,19.39,0.01,20.92,66.55,3.75,-2.37
 bineric/NorskGPT-Llama-7B-v0.1 (few-shot),6738,32,4096,False,False,5384,4.17,34.62,-0.24,18.1,61.81,6.52,-1.9
-LumiOpen/Viking-13B (few-shot),14030,131,4224,True,False,1996,4.19,26.28,2.17,21.85,59.41,-0.48,0.06
 allenai/OLMo-1.7-7B-hf (few-shot),6888,50,4096,True,False,3371,4.2,27.44,1.46,17.26,58.3,3.9,2.43
 LumiOpen/Viking-7B (few-shot),7550,131,4096,True,False,4969,4.24,21.41,1.76,22.54,57.33,1.01,-0.36
 norallm/normistral-7b-warm-instruct (few-shot),7248,33,4096,True,False,6194,4.25,36.59,0.86,14.58,61.99,1.76,-0.98
