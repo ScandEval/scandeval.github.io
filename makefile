@@ -283,7 +283,7 @@ icelandic-nlg:
 			-d ScaLA-is is la mcc macro_f1 \
 			-d NQiI is qa em f1 \
 			-d RRN is summ bertscore rouge_l \
-			-d MMLU-is is know mcc accuracy \
+			-d ARC-is is know mcc accuracy \
 			-d Winogrande-is is reason mcc accuracy
 
 faroese-nlu:
