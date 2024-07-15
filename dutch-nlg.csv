@@ -56,6 +56,7 @@ google/gemma-2b-it (few-shot),2506,256,8192,False,False,6471,3.74,38.85,11.25,-2
 google/gemma-2b (few-shot),2506,256,8192,True,False,6087,3.78,16.9,9.95,0.41,49.15,58.61,10.94,3.29
 stabilityai/stablelm-2-1_6b (few-shot),1645,100,4096,True,False,7259,3.8,36.58,6.32,4.01,52.81,52.24,10.24,6.75
 Qwen/Qwen1.5-1.8B-Chat (few-shot),1837,152,32768,False,False,8304,3.85,23.44,6.82,4.11,33.16,60.91,12.11,6.41
+NorwAI/NorwAI-Mistral-7B (few-shot),7537,68,4096,True,False,3035,3.88,24.15,8.31,1.6,37.08,59.43,3.04,3.7
 Tweeties/tweety-7b-dutch-v24a (few-shot),7391,50,1024,True,False,2971,3.95,35.83,12.47,16.81,0.0,51.61,20.21,5.94
 LumiOpen/Viking-13B (few-shot),14030,131,4224,True,False,840,4.0,36.74,8.57,3.01,32.32,51.76,0.67,-0.3
 Qwen/Qwen1.5-0.5B-Chat (few-shot),620,152,32768,False,False,11740,4.03,18.66,8.59,0.34,26.74,62.36,2.09,1.44
