@@ -50,10 +50,10 @@ download:
 	# @scp -o ConnectTimeout=5 rabbit:/home/ubuntu/scandeval_benchmark_results.jsonl rabbit_results.jsonl || true
 	# @scp -o ConnectTimeout=5 maninpink:/home/ubuntu/scandeval_benchmark_results.jsonl maininpink_results.jsonl || true
 	# @scp -o ConnectTimeout=5 hamster:/home/ubuntu/scandeval_benchmark_results.jsonl hamster_results.jsonl || true
-	# @scp -o ConnectTimeout=5 creosote:/home/ubuntu/scandeval_benchmark_results.jsonl creosote_results.jsonl || true
+	@scp -o ConnectTimeout=5 creosote:/home/ubuntu/scandeval_benchmark_results.jsonl creosote_results.jsonl || true
 	# @scp -o ConnectTimeout=5 percival:/home/alex-admin/scandeval_benchmark_results.jsonl percival_results.jsonl || true
-	@scp -o ConnectTimeout=5 dfm-a10:/home/ucloud/scandeval_benchmark_results.jsonl dfm-a10_results.jsonl || true
-	@scp -o ConnectTimeout=5 dfm-a40:/home/ucloud/scandeval_benchmark_results.jsonl dfm-a40_results.jsonl || true
+	# @scp -o ConnectTimeout=5 dfm-a10:/home/ucloud/scandeval_benchmark_results.jsonl dfm-a10_results.jsonl || true
+	# @scp -o ConnectTimeout=5 dfm-a40:/home/ucloud/scandeval_benchmark_results.jsonl dfm-a40_results.jsonl || true
 	# @scp -o ConnectTimeout=5 dfm-a100:/home/ucloud/scandeval_benchmark_results.jsonl dfm-a100_results.jsonl || true
 	@touch scandeval_benchmark_results.jsonl
 	@if [ -f blackknight_results.jsonl ]; then \
@@ -624,7 +624,7 @@ germanic-nlg:
 			-d ScaLA-is is la mcc macro_f1 \
 			-d NQiI is qa em f1 \
 			-d RRN is summ bertscore rouge_l \
-			-d MMLU-is is know mcc accuracy \
+			-d ARC-is is know mcc accuracy \
 			-d Winogrande-is is reason mcc accuracy \
 			-d GermEval de ner micro_f1_no_misc micro_f1 \
 			-d SB10k de sent mcc macro_f1 \
