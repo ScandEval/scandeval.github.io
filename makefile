@@ -104,7 +104,7 @@ danish-nlu:
 			-t ner "Named Entity Recognition" \
 			-t sent "Sentiment Classification" \
 			-t la "Linguistic Acceptability" \
-			-t qa "Question Answering" \
+			-t rc "Reading Comprehension" \
 			-m mcc "Matthews Correlation Coefficient" \
 			-m macro_f1 "Macro-average F1-score" \
 			-m micro_f1_no_misc "Micro-average F1-score without MISC tags" \
@@ -114,7 +114,7 @@ danish-nlu:
 			-d DANSK da ner micro_f1_no_misc micro_f1 \
 			-d "Angry Tweets" da sent mcc macro_f1 \
 			-d ScaLA-da da la mcc macro_f1 \
-			-d ScandiQA-da da qa em f1
+			-d ScandiQA-da da rc em f1
 
 danish-nlg:
 	@. .venv/bin/activate && \
@@ -123,7 +123,7 @@ danish-nlg:
 			-t ner "Named Entity Recognition" \
 			-t sent "Sentiment Classification" \
 			-t la "Linguistic Acceptability" \
-			-t qa "Question Answering" \
+			-t rc "Reading Comprehension" \
 			-t summ "Summarization" \
 			-t know "Knowledge" \
 			-t reason "Common Sense Reasoning" \
@@ -139,7 +139,7 @@ danish-nlg:
 			-d DANSK da ner micro_f1_no_misc micro_f1 \
 			-d "Angry Tweets" da sent mcc macro_f1 \
 			-d ScaLA-da da la mcc macro_f1 \
-			-d ScandiQA-da da qa em f1 \
+			-d ScandiQA-da da rc em f1 \
 			-d Nordjylland-News da summ bertscore rouge_l \
 			-d "Danske Talemaader" da know mcc accuracy \
 			-d "Danish Citizen Tests" da know mcc accuracy \
@@ -152,7 +152,7 @@ swedish-nlu:
 			-t ner "Named Entity Recognition" \
 			-t sent "Sentiment Classification" \
 			-t la "Linguistic Acceptability" \
-			-t qa "Question Answering" \
+			-t rc "Reading Comprehension" \
 			-m mcc "Matthews Correlation Coefficient" \
 			-m macro_f1 "Macro-average F1-score" \
 			-m micro_f1_no_misc "Micro-average F1-score without MISC tags" \
@@ -162,7 +162,7 @@ swedish-nlu:
 			-d SUC3 sv ner micro_f1_no_misc micro_f1 \
 			-d SweReC sv sent mcc macro_f1 \
 			-d ScaLA-sv sv la mcc macro_f1 \
-			-d ScandiQA-sv sv qa em f1
+			-d ScandiQA-sv sv rc em f1
 
 swedish-nlg:
 	@. .venv/bin/activate && \
@@ -171,7 +171,7 @@ swedish-nlg:
 			-t ner "Named Entity Recognition" \
 			-t sent "Sentiment Classification" \
 			-t la "Linguistic Acceptability" \
-			-t qa "Question Answering" \
+			-t rc "Reading Comprehension" \
 			-t summ "Summarization" \
 			-t know "Knowledge" \
 			-t reason "Common Sense Reasoning" \
@@ -187,7 +187,7 @@ swedish-nlg:
 			-d SUC3 sv ner micro_f1_no_misc micro_f1 \
 			-d SweReC sv sent mcc macro_f1 \
 			-d ScaLA-sv sv la mcc macro_f1 \
-			-d ScandiQA-sv sv qa em f1 \
+			-d ScandiQA-sv sv rc em f1 \
 			-d SweDN sv summ bertscore rouge_l \
 			-d MMLU-sv sv know mcc accuracy \
 			-d HellaSwag-sv sv reason mcc accuracy
@@ -199,7 +199,7 @@ norwegian-nlu:
 			-t ner "Named Entity Recognition" \
 			-t sent "Sentiment Classification" \
 			-t la "Linguistic Acceptability" \
-			-t qa "Question Answering" \
+			-t rc "Reading Comprehension" \
 			-m mcc "Matthews Correlation Coefficient" \
 			-m macro_f1 "Macro-average F1-score" \
 			-m micro_f1_no_misc "Micro-average F1-score without MISC tags" \
@@ -211,7 +211,7 @@ norwegian-nlu:
 			-d NoReC no sent mcc macro_f1 \
 			-d ScaLA-nb no la mcc macro_f1 \
 			-d ScaLA-nn no la mcc macro_f1 \
-			-d NorQuAD no qa em f1
+			-d NorQuAD no rc em f1
 
 norwegian-nlg:
 	@. .venv/bin/activate && \
@@ -220,7 +220,7 @@ norwegian-nlg:
 			-t ner "Named Entity Recognition" \
 			-t sent "Sentiment Classification" \
 			-t la "Linguistic Acceptability" \
-			-t qa "Question Answering" \
+			-t rc "Reading Comprehension" \
 			-t summ "Summarization" \
 			-t know "Knowledge" \
 			-t reason "Common Sense Reasoning" \
@@ -239,7 +239,7 @@ norwegian-nlg:
 			-d "No Sammendrag" no summ bertscore rouge_l \
 			-d ScaLA-nb no la mcc macro_f1 \
 			-d ScaLA-nn no la mcc macro_f1 \
-			-d NorQuAD no qa em f1 \
+			-d NorQuAD no rc em f1 \
 			-d MMLU-no no know mcc accuracy \
 			-d HellaSwag-no no reason mcc accuracy
 
@@ -249,7 +249,7 @@ icelandic-nlu:
 			-l is Icelandic \
 			-t ner "Named Entity Recognition" \
 			-t la "Linguistic Acceptability" \
-			-t qa "Question Answering" \
+			-t rc "Reading Comprehension" \
 			-m mcc "Matthews Correlation Coefficient" \
 			-m macro_f1 "Macro-average F1-score" \
 			-m micro_f1_no_misc "Micro-average F1-score without MISC tags" \
@@ -258,7 +258,7 @@ icelandic-nlu:
 			-m f1 "F1-score" \
 			-d MIM-GOLD-NER is ner micro_f1_no_misc micro_f1 \
 			-d ScaLA-is is la mcc macro_f1 \
-			-d NQiI is qa em f1
+			-d NQiI is rc em f1
 
 icelandic-nlg:
 	@. .venv/bin/activate && \
@@ -266,7 +266,7 @@ icelandic-nlg:
 			-l is Icelandic \
 			-t ner "Named Entity Recognition" \
 			-t la "Linguistic Acceptability" \
-			-t qa "Question Answering" \
+			-t rc "Reading Comprehension" \
 			-t summ "Summarization" \
 			-t know "Knowledge" \
 			-t reason "Common Sense Reasoning" \
@@ -281,7 +281,7 @@ icelandic-nlg:
 			-m accuracy "Accuracy" \
 			-d MIM-GOLD-NER is ner micro_f1_no_misc micro_f1 \
 			-d ScaLA-is is la mcc macro_f1 \
-			-d NQiI is qa em f1 \
+			-d NQiI is rc em f1 \
 			-d RRN is summ bertscore rouge_l \
 			-d ARC-is is know mcc accuracy \
 			-d Winogrande-is is reason mcc accuracy
@@ -306,7 +306,7 @@ german-nlu:
 			-t ner "Named Entity Recognition" \
 			-t sent "Sentiment Classification" \
 			-t la "Linguistic Acceptability" \
-			-t qa "Question Answering" \
+			-t rc "Reading Comprehension" \
 			-m mcc "Matthews Correlation Coefficient" \
 			-m macro_f1 "Macro-average F1-score" \
 			-m micro_f1_no_misc "Micro-average F1-score without MISC tags" \
@@ -316,7 +316,7 @@ german-nlu:
 			-d GermEval de ner micro_f1_no_misc micro_f1 \
 			-d SB10k de sent mcc macro_f1 \
 			-d ScaLA-de de la mcc macro_f1 \
-			-d GermanQuAD de qa em f1
+			-d GermanQuAD de rc em f1
 
 german-nlg:
 	@. .venv/bin/activate && \
@@ -325,7 +325,7 @@ german-nlg:
 			-t ner "Named Entity Recognition" \
 			-t sent "Sentiment Classification" \
 			-t la "Linguistic Acceptability" \
-			-t qa "Question Answering" \
+			-t rc "Reading Comprehension" \
 			-t summ "Summarization" \
 			-t know "Knowledge" \
 			-t reason "Common Sense Reasoning" \
@@ -341,7 +341,7 @@ german-nlg:
 			-d GermEval de ner micro_f1_no_misc micro_f1 \
 			-d SB10k de sent mcc macro_f1 \
 			-d ScaLA-de de la mcc macro_f1 \
-			-d GermanQuAD de qa em f1 \
+			-d GermanQuAD de rc em f1 \
 			-d MLSum de summ bertscore rouge_l \
 			-d MMLU-de de know mcc accuracy \
 			-d HellaSwag-de de reason mcc accuracy
@@ -353,7 +353,7 @@ dutch-nlu:
 			-t ner "Named Entity Recognition" \
 			-t sent "Sentiment Classification" \
 			-t la "Linguistic Acceptability" \
-			-t qa "Question Answering" \
+			-t rc "Reading Comprehension" \
 			-m mcc "Matthews Correlation Coefficient" \
 			-m macro_f1 "Macro-average F1-score" \
 			-m micro_f1_no_misc "Micro-average F1-score without MISC tags" \
@@ -363,7 +363,7 @@ dutch-nlu:
 			-d CoNLL-nl nl ner micro_f1_no_misc micro_f1 \
 			-d "Dutch Social" nl sent mcc macro_f1 \
 			-d ScaLA-nl nl la mcc macro_f1 \
-			-d SQuAD-nl nl qa em f1
+			-d SQuAD-nl nl rc em f1
 
 dutch-nlg:
 	@. .venv/bin/activate && \
@@ -372,7 +372,7 @@ dutch-nlg:
 			-t ner "Named Entity Recognition" \
 			-t sent "Sentiment Classification" \
 			-t la "Linguistic Acceptability" \
-			-t qa "Question Answering" \
+			-t rc "Reading Comprehension" \
 			-t summ "Summarization" \
 			-t know "Knowledge" \
 			-t reason "Common Sense Reasoning" \
@@ -388,7 +388,7 @@ dutch-nlg:
 			-d CoNLL-nl nl ner micro_f1_no_misc micro_f1 \
 			-d "Dutch Social" nl sent mcc macro_f1 \
 			-d ScaLA-nl nl la mcc macro_f1 \
-			-d SQuAD-nl nl qa em f1 \
+			-d SQuAD-nl nl rc em f1 \
 			-d Wiki-Lingua-NL nl summ bertscore rouge_l \
 			-d MMLU-nl nl know mcc accuracy \
 			-d HellaSwag-nl nl reason mcc accuracy
@@ -400,7 +400,7 @@ english-nlu:
 			-t ner "Named Entity Recognition" \
 			-t sent "Sentiment Classification" \
 			-t la "Linguistic Acceptability" \
-			-t qa "Question Answering" \
+			-t rc "Reading Comprehension" \
 			-m mcc "Matthews Correlation Coefficient" \
 			-m macro_f1 "Macro-average F1-score" \
 			-m micro_f1_no_misc "Micro-average F1-score without MISC tags" \
@@ -410,7 +410,7 @@ english-nlu:
 			-d CoNLL-en en ner micro_f1_no_misc micro_f1 \
 			-d SST5 en sent mcc macro_f1 \
 			-d ScaLA-en en la mcc macro_f1 \
-			-d SQuAD en qa em f1
+			-d SQuAD en rc em f1
 
 english-nlg:
 	@. .venv/bin/activate && \
@@ -419,7 +419,7 @@ english-nlg:
 			-t ner "Named Entity Recognition" \
 			-t sent "Sentiment Classification" \
 			-t la "Linguistic Acceptability" \
-			-t qa "Question Answering" \
+			-t rc "Reading Comprehension" \
 			-t summ "Summarization" \
 			-t know "Knowledge" \
 			-t reason "Common Sense Reasoning" \
@@ -435,7 +435,7 @@ english-nlg:
 			-d CoNLL-en en ner micro_f1_no_misc micro_f1 \
 			-d SST5 en sent mcc macro_f1 \
 			-d ScaLA-en en la mcc macro_f1 \
-			-d SQuAD en qa em f1 \
+			-d SQuAD en rc em f1 \
 			-d CNN-DailyMail en summ bertscore rouge_l \
 			-d MMLU en know mcc accuracy \
 			-d HellaSwag en reason mcc accuracy
@@ -449,7 +449,7 @@ mainland-scandi-nlu:
 			-t ner "Named Entity Recognition" \
 			-t sent "Sentiment Classification" \
 			-t la "Linguistic Acceptability" \
-			-t qa "Question Answering" \
+			-t rc "Reading Comprehension" \
 			-m mcc "Matthews Correlation Coefficient" \
 			-m macro_f1 "Macro-average F1-score" \
 			-m micro_f1_no_misc "Micro-average F1-score without MISC tags" \
@@ -460,17 +460,17 @@ mainland-scandi-nlu:
 			-d DANSK da ner micro_f1_no_misc micro_f1 \
 			-d "Angry Tweets" da sent mcc macro_f1 \
 			-d ScaLA-da da la mcc macro_f1 \
-			-d ScandiQA-da da qa em f1 \
+			-d ScandiQA-da da rc em f1 \
 			-d NorNE-nb no ner micro_f1_no_misc micro_f1 \
 			-d NorNE-nn no ner micro_f1_no_misc micro_f1 \
 			-d NoReC no sent mcc macro_f1 \
 			-d ScaLA-nb no la mcc macro_f1 \
 			-d ScaLA-nn no la mcc macro_f1 \
-			-d NorQuAD no qa em f1 \
+			-d NorQuAD no rc em f1 \
 			-d SUC3 sv ner micro_f1_no_misc micro_f1 \
 			-d SweReC sv sent mcc macro_f1 \
 			-d ScaLA-sv sv la mcc macro_f1 \
-			-d ScandiQA-sv sv qa em f1
+			-d ScandiQA-sv sv rc em f1
 
 mainland-scandi-nlg:
 	@. .venv/bin/activate && \
@@ -481,7 +481,7 @@ mainland-scandi-nlg:
 			-t ner "Named Entity Recognition" \
 			-t sent "Sentiment Classification" \
 			-t la "Linguistic Acceptability" \
-			-t qa "Question Answering" \
+			-t rc "Reading Comprehension" \
 			-t summ "Summarization" \
 			-t know "Knowledge" \
 			-t reason "Common Sense Reasoning" \
@@ -497,7 +497,7 @@ mainland-scandi-nlg:
 			-d DANSK da ner micro_f1_no_misc micro_f1 \
 			-d "Angry Tweets" da sent mcc macro_f1 \
 			-d ScaLA-da da la mcc macro_f1 \
-			-d ScandiQA-da da qa em f1 \
+			-d ScandiQA-da da rc em f1 \
 			-d Nordjylland-News da summ bertscore rouge_l \
 			-d "Danske Talemaader" da know mcc accuracy \
 			-d "Danish Citizen Tests" da know mcc accuracy \
@@ -508,13 +508,13 @@ mainland-scandi-nlg:
 			-d "No Sammendrag" no summ bertscore rouge_l \
 			-d ScaLA-nb no la mcc macro_f1 \
 			-d ScaLA-nn no la mcc macro_f1 \
-			-d NorQuAD no qa em f1 \
+			-d NorQuAD no rc em f1 \
 			-d MMLU-no no know mcc accuracy \
 			-d HellaSwag-no no reason mcc accuracy \
 			-d SUC3 sv ner micro_f1_no_misc micro_f1 \
 			-d SweReC sv sent mcc macro_f1 \
 			-d ScaLA-sv sv la mcc macro_f1 \
-			-d ScandiQA-sv sv qa em f1 \
+			-d ScandiQA-sv sv rc em f1 \
 			-d SweDN sv summ bertscore rouge_l \
 			-d MMLU-sv sv know mcc accuracy \
 			-d HellaSwag-sv sv reason mcc accuracy
@@ -532,7 +532,7 @@ germanic-nlu:
 			-t ner "Named Entity Recognition" \
 			-t sent "Sentiment Classification" \
 			-t la "Linguistic Acceptability" \
-			-t qa "Question Answering" \
+			-t rc "Reading Comprehension" \
 			-m mcc "Matthews Correlation Coefficient" \
 			-m macro_f1 "Macro-average F1-score" \
 			-m micro_f1_no_misc "Micro-average F1-score without MISC tags" \
@@ -543,32 +543,32 @@ germanic-nlu:
 			-d DANSK da ner micro_f1_no_misc micro_f1 \
 			-d "Angry Tweets" da sent mcc macro_f1 \
 			-d ScaLA-da da la mcc macro_f1 \
-			-d ScandiQA-da da qa em f1 \
+			-d ScandiQA-da da rc em f1 \
 			-d NorNE-nb no ner micro_f1_no_misc micro_f1 \
 			-d NorNE-nn no ner micro_f1_no_misc micro_f1 \
 			-d NoReC no sent mcc macro_f1 \
 			-d ScaLA-nb no la mcc macro_f1 \
 			-d ScaLA-nn no la mcc macro_f1 \
-			-d NorQuAD no qa em f1 \
+			-d NorQuAD no rc em f1 \
 			-d SUC3 sv ner micro_f1_no_misc micro_f1 \
 			-d SweReC sv sent mcc macro_f1 \
 			-d ScaLA-sv sv la mcc macro_f1 \
-			-d ScandiQA-sv sv qa em f1 \
+			-d ScandiQA-sv sv rc em f1 \
 			-d MIM-GOLD-NER is ner micro_f1_no_misc micro_f1 \
 			-d ScaLA-is is la mcc macro_f1 \
-			-d NQiI is qa em f1 \
+			-d NQiI is rc em f1 \
 			-d GermEval de ner micro_f1_no_misc micro_f1 \
 			-d SB10k de sent mcc macro_f1 \
 			-d ScaLA-de de la mcc macro_f1 \
-			-d GermanQuAD de qa em f1 \
+			-d GermanQuAD de rc em f1 \
 			-d CoNLL-nl nl ner micro_f1_no_misc micro_f1 \
 			-d "Dutch Social" nl sent mcc macro_f1 \
 			-d ScaLA-nl nl la mcc macro_f1 \
-			-d SQuAD-nl nl qa em f1 \
+			-d SQuAD-nl nl rc em f1 \
 			-d CoNLL-en en ner micro_f1_no_misc micro_f1 \
 			-d SST5 en sent mcc macro_f1 \
 			-d ScaLA-en en la mcc macro_f1 \
-			-d SQuAD en qa em f1
+			-d SQuAD en rc em f1
 
 germanic-nlg:
 	@. .venv/bin/activate && \
@@ -583,7 +583,7 @@ germanic-nlg:
 			-t ner "Named Entity Recognition" \
 			-t sent "Sentiment Classification" \
 			-t la "Linguistic Acceptability" \
-			-t qa "Question Answering" \
+			-t rc "Reading Comprehension" \
 			-t summ "Summarization" \
 			-t know "Knowledge" \
 			-t reason "Common Sense Reasoning" \
@@ -599,7 +599,7 @@ germanic-nlg:
 			-d DANSK da ner micro_f1_no_misc micro_f1 \
 			-d "Angry Tweets" da sent mcc macro_f1 \
 			-d ScaLA-da da la mcc macro_f1 \
-			-d ScandiQA-da da qa em f1 \
+			-d ScandiQA-da da rc em f1 \
 			-d Nordjylland-News da summ bertscore rouge_l \
 			-d "Danske Talemaader" da know mcc accuracy \
 			-d "Danish Citizen Tests" da know mcc accuracy \
@@ -610,40 +610,40 @@ germanic-nlg:
 			-d "No Sammendrag" no summ bertscore rouge_l \
 			-d ScaLA-nb no la mcc macro_f1 \
 			-d ScaLA-nn no la mcc macro_f1 \
-			-d NorQuAD no qa em f1 \
+			-d NorQuAD no rc em f1 \
 			-d MMLU-no no know mcc accuracy \
 			-d HellaSwag-no no reason mcc accuracy \
 			-d SUC3 sv ner micro_f1_no_misc micro_f1 \
 			-d SweReC sv sent mcc macro_f1 \
 			-d ScaLA-sv sv la mcc macro_f1 \
-			-d ScandiQA-sv sv qa em f1 \
+			-d ScandiQA-sv sv rc em f1 \
 			-d SweDN sv summ bertscore rouge_l \
 			-d MMLU-sv sv know mcc accuracy \
 			-d HellaSwag-sv sv reason mcc accuracy \
 			-d MIM-GOLD-NER is ner micro_f1_no_misc micro_f1 \
 			-d ScaLA-is is la mcc macro_f1 \
-			-d NQiI is qa em f1 \
+			-d NQiI is rc em f1 \
 			-d RRN is summ bertscore rouge_l \
 			-d ARC-is is know mcc accuracy \
 			-d Winogrande-is is reason mcc accuracy \
 			-d GermEval de ner micro_f1_no_misc micro_f1 \
 			-d SB10k de sent mcc macro_f1 \
 			-d ScaLA-de de la mcc macro_f1 \
-			-d GermanQuAD de qa em f1 \
+			-d GermanQuAD de rc em f1 \
 			-d MLSum de summ bertscore rouge_l \
 			-d MMLU-de de know mcc accuracy \
 			-d HellaSwag-de de reason mcc accuracy \
 			-d CoNLL-nl nl ner micro_f1_no_misc micro_f1 \
 			-d "Dutch Social" nl sent mcc macro_f1 \
 			-d ScaLA-nl nl la mcc macro_f1 \
-			-d SQuAD-nl nl qa em f1 \
+			-d SQuAD-nl nl rc em f1 \
 			-d Wiki-Lingua-NL nl summ bertscore rouge_l \
 			-d MMLU-nl nl know mcc accuracy \
 			-d HellaSwag-nl nl reason mcc accuracy \
 			-d CoNLL-en en ner micro_f1_no_misc micro_f1 \
 			-d SST5 en sent mcc macro_f1 \
 			-d ScaLA-en en la mcc macro_f1 \
-			-d SQuAD en qa em f1 \
+			-d SQuAD en rc em f1 \
 			-d CNN-DailyMail en summ bertscore rouge_l \
 			-d MMLU en know mcc accuracy \
 			-d HellaSwag en reason mcc accuracy
