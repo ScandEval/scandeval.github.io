@@ -1,4 +1,4 @@
-"""Removes duplicate entries from a JSONL file."""
+"""Filter ScandEval records from a JSONL file."""
 
 import warnings
 import click
@@ -23,7 +23,7 @@ COMMERCIALLY_LICENSED_CACHE: dict[str, bool] = dict()
 @click.command()
 @click.argument('filename')
 def main(filename: str) -> None:
-    """Removes duplicate entries from a JSONL file.
+    """Filter ScandEval records from a JSONL file.
 
     Args:
         filename:
@@ -57,6 +57,11 @@ def main(filename: str) -> None:
     records = [
         add_missing_entries(record=record)
         for record in tqdm(records, desc="Adding missing entries")
+    ]
+
+    records = [
+        fix_metadata(record=record)
+        for record in tqdm(records, desc="Fixing metadata in records")
     ]
 
     # Remove invalid evaluation records
@@ -127,6 +132,21 @@ def add_missing_entries(record: dict) -> dict:
     return record
 
 
+def fix_metadata(record: dict) -> dict:
+    """Fixes metadata in a record.
+
+    Args:
+        record:
+            A record from the JSONL file.
+
+    Returns:
+        The record with fixed metadata.
+    """
+    if record["task"] == "question-answering":
+        record["task"] = "reading-comprehension"
+    return record
+
+
 def is_commercially_licensed(record: dict) -> bool:
     """Asks if a model is commercially licensed.
 
@@ -179,7 +199,7 @@ def get_hash(record: dict) -> str:
     validation_split = int(record.get("validation_split", False))
     few_shot = int(record.get("few_shot", True))
     generative = int(record.get("generative", False))
-    return f"{model}{dataset}{validation_split}{few_shot * generative}"
+    return f"{model}{dataset}{validation_split}{generative * (few_shot + 1)}"
 
 
 def is_merge(record: dict) -> bool:
