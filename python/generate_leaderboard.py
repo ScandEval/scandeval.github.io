@@ -5,7 +5,6 @@ from pathlib import Path
 import json
 import logging
 from datetime import datetime
-import time
 from typing import Any
 import warnings
 import click
