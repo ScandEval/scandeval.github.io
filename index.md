@@ -30,5 +30,8 @@ iteration.
 
 All benchmark results have been computed using the associated [ScandEval Python
 package](https://github.com/ScandEval/ScandEval), which you can use to replicate the
-results as well. The methodology of the benchmark can be [found in the associated
-research paper](https://aclanthology.org/2023.nodalida-1.20/).
+results as well. The methodology of the benchmark can be found in the associated
+research papers:
+
+- [ScandEval: A Benchmark for Scandinavian Natural Language Processing](https://aclanthology.org/2023.nodalida-1.20/)
+- [Encoder vs Decoder: Comparative Analysis of Encoder and Decoder Language Models on Multilingual NLU Tasks](https://doi.org/10.48550/arXiv.2406.13469)
