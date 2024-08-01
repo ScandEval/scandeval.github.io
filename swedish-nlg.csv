@@ -1,7 +1,7 @@
 model_id,num_model_parameters,vocabulary_size,max_sequence_length,commercially_licensed,merge,speed,rank,suc3,swerec,scala_sv,scandiqa_sv,swedn,mmlu_sv,hellaswag_sv
 "gpt-4-0613 (few-shot, val)",-1,100,8191,True,False,597,1.19,76.86,79.19,80.93,53.81,67.83,72.53,85.67
-"gpt-4o-2024-05-13 (few-shot, val)",-1,200,127999,True,False,916,1.26,76.66,77.16,68.99,57.96,66.0,70.7,86.3
-"gpt-4-1106-preview (few-shot, val)",-1,100,127999,True,False,576,1.28,74.45,77.59,71.35,56.56,66.08,71.32,84.09
+"gpt-4o-2024-05-13 (few-shot, val)",-1,200,128000,True,False,916,1.26,76.66,77.16,68.99,57.96,66.0,70.7,86.3
+"gpt-4-1106-preview (few-shot, val)",-1,100,128000,True,False,576,1.28,74.45,77.59,71.35,56.56,66.08,71.32,84.09
 AI-Sweden-Models/Llama-3-8B-instruct (few-shot),8030,128,8192,False,False,4314,1.41,88.78,81.73,75.83,61.35,66.96,41.07,75.73
 "meta-llama/Meta-Llama-3-70B (few-shot, val)",70554,128,8192,True,False,312,1.46,74.61,78.61,63.2,61.98,67.6,61.55,66.21
 "152334H/miqu-1-70b-sf (few-shot, val)",68977,32,32764,True,False,2126,1.84,62.96,75.25,53.28,56.42,67.6,53.56,59.7
@@ -9,7 +9,7 @@ AI-Sweden-Models/Llama-3-8B-instruct (few-shot),8030,128,8192,False,False,4314,1
 "gpt-3.5-turbo-0613 (few-shot, val)",-1,100,4095,True,False,921,1.91,73.04,72.77,58.06,58.02,66.92,40.73,50.51
 "meta-llama/Llama-2-70b-hf (few-shot, val)",68977,32,4096,True,False,1892,1.91,64.76,75.46,43.27,63.04,68.43,46.16,50.41
 four-two-labs/lynx-micro (few-shot),2506,256,8192,False,False,10162,1.93,83.64,78.57,66.83,58.84,64.4,20.47,49.92
-gpt-4o-mini-2024-07-18 (few-shot),-1,200,127999,True,False,1171,2.08,67.38,65.51,29.41,55.67,65.7,50.06,64.58
+gpt-4o-mini-2024-07-18 (few-shot),-1,200,128000,True,False,1171,2.08,67.38,65.51,29.41,55.67,65.7,50.06,64.58
 timpal0l/sol (few-shot),10732,32,4096,False,False,3701,2.1,57.51,77.31,25.06,60.16,65.22,39.52,70.93
 upstage/SOLAR-10.7B-v1.0 (few-shot),10732,32,4096,True,False,3780,2.13,59.65,77.48,16.94,62.65,65.19,39.82,68.87
 Nexusflow/Starling-LM-7B-beta (few-shot),7242,32,8192,False,False,5876,2.27,60.38,77.49,29.32,56.79,65.75,36.05,51.15

@@ -5,8 +5,8 @@ four-two-labs/lynx-micro (few-shot),2506,256,8192,False,False,10162,1.29,83.64,7
 AI-Sweden-Models/roberta-large-1160k,355,50,512,True,False,14014,1.32,82.65,77.25,77.9,49.64
 AI-Sweden-Models/roberta-large-1350k,355,50,512,True,False,5744,1.34,82.97,77.37,73.81,49.5
 "meta-llama/Meta-Llama-3-70B (few-shot, val)",70554,128,8192,True,False,312,1.34,74.61,78.61,63.2,61.98
-"gpt-4o-2024-05-13 (few-shot, val)",-1,200,127999,True,False,916,1.35,76.66,77.16,68.99,57.96
-"gpt-4-1106-preview (few-shot, val)",-1,100,127999,True,False,576,1.37,74.45,77.59,71.35,56.56
+"gpt-4o-2024-05-13 (few-shot, val)",-1,200,128000,True,False,916,1.35,76.66,77.16,68.99,57.96
+"gpt-4-1106-preview (few-shot, val)",-1,100,128000,True,False,576,1.37,74.45,77.59,71.35,56.56
 KBLab/megatron-bert-large-swedish-cased-110k,370,64,512,True,False,7075,1.42,80.39,78.45,76.28,44.56
 KBLab/megatron-bert-large-swedish-cased-165k,370,64,512,True,False,7138,1.42,81.05,78.0,76.79,45.71
 AI-Sweden-Models/bert-large-nordic-pile-1M-steps,369,64,512,True,False,6571,1.49,80.65,77.43,76.56,41.54
@@ -70,7 +70,7 @@ google/gemma-7b (few-shot),8538,256,8067,True,False,1378,2.05,43.68,77.72,36.25,
 "meta-llama/Meta-Llama-3-70B-Instruct (few-shot, val)",70554,128,8192,True,False,1673,2.06,77.06,53.56,47.5,46.86
 "RJuro/munin-neuralbeagle-SkoleGPTOpenOrca-7b (few-shot, val)",7242,32,32768,False,True,3008,2.07,59.36,72.04,22.38,57.96
 ZurichNLP/unsup-simcse-xlm-roberta-base,278,250,512,True,False,34520,2.07,75.49,71.12,36.69,33.55
-gpt-4o-mini-2024-07-18 (few-shot),-1,200,127999,True,False,1171,2.07,67.38,65.51,29.41,55.67
+gpt-4o-mini-2024-07-18 (few-shot),-1,200,128000,True,False,1171,2.07,67.38,65.51,29.41,55.67
 "AI-Sweden-Models/tyr (few-shot, val)",7242,32,32768,False,True,6079,2.08,56.21,78.3,14.35,61.08
 Geotrend/bert-base-25lang-cased,151,85,512,True,False,13908,2.09,75.62,62.5,38.18,40.96
 "birgermoell/Rapid-Cycling (few-shot, val)",7242,32,32768,False,True,2346,2.1,53.66,77.72,16.22,59.75

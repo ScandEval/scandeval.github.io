@@ -2,7 +2,7 @@ model_id,num_model_parameters,vocabulary_size,max_sequence_length,commercially_l
 "gpt-4-0613 (few-shot, val)",-1,100,8316,True,False,597,1.14,73.35,18.92,76.7,55.03,69.97,70.71,90.07
 "meta-llama/Meta-Llama-3-70B (few-shot, val)",70554,128,8317,True,False,312,1.35,72.91,19.08,54.33,63.99,70.41,65.33,71.06
 "gpt-4-1106-preview (few-shot, val)",-1,100,128000,True,False,576,1.45,66.44,14.22,72.3,57.81,67.13,70.04,88.29
-"gpt-4o-2024-05-13 (few-shot, val)",-1,200,127999,True,False,916,1.54,76.75,10.8,56.26,55.55,66.86,73.11,92.69
+"gpt-4o-2024-05-13 (few-shot, val)",-1,200,128000,True,False,916,1.54,76.75,10.8,56.26,55.55,66.86,73.11,92.69
 "152334H/miqu-1-70b-sf (few-shot, val)",68977,32,32889,True,False,2126,1.56,67.0,15.33,55.48,61.02,68.95,54.36,70.26
 "meta-llama/Meta-Llama-3-70B-Instruct (few-shot, val)",70554,128,8317,True,False,1673,1.57,74.64,18.9,49.54,44.77,70.28,65.8,76.21
 upstage/SOLAR-10.7B-v1.0 (few-shot),10732,32,4096,True,False,3780,2.0,65.37,11.93,41.67,67.75,68.83,40.18,65.34
@@ -23,7 +23,7 @@ ReBatch/Llama-3-8B-dutch (few-shot),8030,128,8317,False,False,3800,2.64,60.14,11
 Rijgersberg/Mistral-7B-v0.1-chat-nl (few-shot),7242,32,32768,False,False,5907,2.71,56.73,11.08,19.41,58.91,68.05,31.39,16.49
 google/gemma-7b (few-shot),8538,256,8192,True,False,1378,2.72,47.75,7.68,28.28,61.49,65.6,42.19,31.45
 mistralai/Mistral-7B-v0.1 (few-shot),7242,32,32768,True,False,2657,2.78,58.15,7.94,25.41,62.56,64.24,35.49,19.88
-BramVanroy/GEITje-7B-ultra (few-shot),7242,32,8192,False,False,2475,2.79,42.25,12.78,18.23,53.41,68.3,26.92,25.72
+BramVanroy/GEITje-7B-ultra (few-shot),7242,32,8192,False,False,2475,2.79,42.2,12.78,18.23,53.41,68.3,26.92,25.72
 alpindale/Mistral-7B-v0.2-hf (few-shot),7242,32,32768,True,False,1841,2.79,56.76,7.11,23.55,61.89,64.33,34.92,23.87
 mistralai/Mistral-7B-Instruct-v0.2 (few-shot),7242,32,32768,False,False,634,2.79,55.56,12.37,21.5,50.77,67.99,22.86,24.8
 mistralai/Mistral-7B-v0.3 (few-shot),7248,33,32768,True,False,4120,2.81,56.52,7.02,23.41,61.9,64.37,34.93,23.73

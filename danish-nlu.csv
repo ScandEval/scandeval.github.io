@@ -1,6 +1,6 @@
 model_id,num_model_parameters,vocabulary_size,max_sequence_length,commercially_licensed,merge,speed,rank,dansk,angry_tweets,scala_da,scandiqa_da
 "gpt-4-0613 (few-shot, val)",-1,100,8192,True,False,597,1.24,64.94,59.97,71.56,56.43
-"gpt-4-1106-preview (few-shot, val)",-1,100,127999,True,False,576,1.26,66.8,61.62,66.84,56.85
+"gpt-4-1106-preview (few-shot, val)",-1,100,128000,True,False,576,1.26,66.8,61.62,66.84,56.85
 "syvai/danskgpt-chat-llama3-70b (few-shot, val)",70554,128,8192,True,False,1283,1.32,65.4,62.78,57.88,62.24
 AI-Sweden-Models/roberta-large-1160k,355,50,512,True,False,14014,1.39,74.16,51.2,73.87,49.34
 KennethEnevoldsen/dfm-sentence-encoder-large-1,355,50,512,True,False,6245,1.39,74.99,53.85,75.71,44.85
@@ -9,7 +9,7 @@ KennethEnevoldsen/dfm-sentence-encoder-large-2,355,50,512,True,False,6569,1.39,7
 danish-foundation-models/encoder-large-v1,355,50,512,True,False,6671,1.41,74.6,51.42,76.11,47.42
 AI-Sweden-Models/Llama-3-8B-instruct (few-shot),8030,128,8192,False,False,4314,1.44,58.44,54.96,70.55,60.95
 AI-Sweden-Models/roberta-large-1350k,355,50,512,True,False,5744,1.45,75.22,49.94,72.59,48.97
-"gpt-4o-2024-05-13 (few-shot, val)",-1,200,127999,True,False,916,1.46,71.15,49.42,64.59,57.35
+"gpt-4o-2024-05-13 (few-shot, val)",-1,200,128000,True,False,916,1.46,71.15,49.42,64.59,57.35
 ltg/norbert3-large,354,50,508,True,False,5048,1.53,73.62,48.29,71.55,48.59
 NbAiLab/nb-bert-large,355,50,512,True,False,6343,1.55,70.38,49.07,72.02,45.72
 vesteinn/DanskBERT,124,50,512,True,False,15749,1.57,72.55,52.86,75.2,37.65
@@ -61,7 +61,7 @@ timpal0l/sol (few-shot),10732,32,4096,False,False,3701,2.2,54.91,44.38,21.11,58.
 emillykkejensen/Llama-3-8B-instruct-dansk (few-shot),8030,128,4096,False,False,967,2.21,41.74,50.07,24.49,59.29
 Geotrend/bert-base-en-fr-de-no-da-cased,118,42,512,True,False,13973,2.23,63.38,34.78,41.08,40.32
 Mabeck/Heidrun-Mistral-7B-chat (few-shot),7242,32,32768,False,False,5822,2.23,50.8,42.79,23.25,59.9
-gpt-4o-mini-2024-07-18 (few-shot),-1,200,127999,True,False,1171,2.23,63.59,29.47,38.37,54.63
+gpt-4o-mini-2024-07-18 (few-shot),-1,200,128000,True,False,1171,2.23,63.59,29.47,38.37,54.63
 "mlabonne/NeuralBeagle14-7B (few-shot, val)",7242,32,8192,False,True,2549,2.23,53.02,51.29,19.73,51.69
 "merge-crew/da-sv-ties (few-shot, val)",7242,32,32768,True,True,2457,2.24,45.39,51.95,13.25,58.51
 facebook/xlm-v-base,778,902,512,True,False,25396,2.25,71.42,31.86,52.95,34.66

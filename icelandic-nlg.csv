@@ -1,8 +1,8 @@
 model_id,num_model_parameters,vocabulary_size,max_sequence_length,commercially_licensed,merge,speed,rank,mim_gold_ner,scala_is,nqii,rrn,arc_is,winogrande_is
-"gpt-4-1106-preview (few-shot, val)",-1,100,127999,True,False,576,1.15,86.37,43.03,37.26,69.61,89.09,72.03
-"gpt-4o-2024-05-13 (few-shot, val)",-1,200,127999,True,False,916,1.19,81.19,51.1,29.64,68.25,91.27,70.85
+"gpt-4-1106-preview (few-shot, val)",-1,100,128000,True,False,576,1.15,86.37,43.03,37.26,69.61,89.09,72.03
+"gpt-4o-2024-05-13 (few-shot, val)",-1,200,128000,True,False,916,1.19,81.19,51.1,29.64,68.25,91.27,70.85
 "gpt-4-0613 (few-shot, val)",-1,100,8190,True,False,597,1.45,78.67,33.65,32.25,69.21,86.32,74.02
-gpt-4o-mini-2024-07-18 (few-shot),-1,200,127999,True,False,1171,2.56,67.56,23.28,24.91,67.32,67.57,15.36
+gpt-4o-mini-2024-07-18 (few-shot),-1,200,128000,True,False,1171,2.56,67.56,23.28,24.91,67.32,67.57,15.36
 "gpt-3.5-turbo-0613 (few-shot, val)",-1,100,4095,True,False,921,2.87,69.59,7.28,28.5,67.1,49.88,18.61
 meta-llama/Meta-Llama-3-8B-Instruct (few-shot),8030,128,8192,True,False,4909,3.21,61.69,6.1,31.52,66.98,25.16,1.5
 upstage/SOLAR-10.7B-v1.0 (few-shot),10732,32,4096,True,False,3780,3.23,62.08,7.58,29.66,66.11,18.75,7.64

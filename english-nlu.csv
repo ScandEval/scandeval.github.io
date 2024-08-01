@@ -15,7 +15,7 @@ AI-Sweden-Models/roberta-large-1160k,354,50,512,True,False,14014,1.58,89.53,53.9
 "meta-llama/Meta-Llama-3-70B (few-shot, val)",70554,128,8192,True,False,312,1.58,79.06,65.53,46.28,75.2
 Nexusflow/Starling-LM-7B-beta (few-shot),7242,32,8192,False,False,5876,1.62,71.81,69.98,45.34,72.49
 AI-Sweden-Models/roberta-large-1350k,354,50,512,True,False,5744,1.64,89.48,51.88,50.69,69.46
-"gpt-4o-2024-05-13 (few-shot, val)",-1,200,127999,True,False,916,1.64,83.48,62.74,46.56,65.41
+"gpt-4o-2024-05-13 (few-shot, val)",-1,200,128000,True,False,916,1.64,83.48,62.74,46.56,65.41
 google-bert/bert-large-uncased,334,31,512,True,False,4711,1.66,88.8,57.94,59.27,52.38
 upstage/SOLAR-10.7B-v1.0 (few-shot),10732,32,4096,True,False,3780,1.67,69.5,70.01,41.35,76.79
 VAGOsolutions/FC-SauerkrautLM-7b-beta (few-shot),-1,32,8192,False,False,2160,1.71,70.15,69.36,37.09,77.39
