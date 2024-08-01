@@ -1,6 +1,6 @@
 model_id,num_model_parameters,vocabulary_size,max_sequence_length,commercially_licensed,merge,speed,rank,germeval,sb10k,scala_de,germanquad,mlsum,mmlu_de,hellaswag_de
 "gpt-4-0613 (few-shot, val)",-1,100,8220,True,False,597,1.18,69.48,64.91,50.23,33.17,66.35,71.92,82.85
-"gpt-4-1106-preview (few-shot, val)",-1,100,127998,True,False,576,1.32,68.94,60.47,51.26,30.04,63.62,73.8,83.93
+"gpt-4-1106-preview (few-shot, val)",-1,100,128000,True,False,576,1.32,68.94,60.47,51.26,30.04,63.62,73.8,83.93
 "meta-llama/Meta-Llama-3-70B (few-shot, val)",70554,128,8221,True,False,312,1.36,69.04,63.51,37.41,38.29,70.0,64.93,66.54
 "gpt-4o-2024-05-13 (few-shot, val)",-1,200,127903,True,False,916,1.43,69.99,54.82,43.66,30.06,63.8,74.13,88.18
 "meta-llama/Meta-Llama-3-70B-Instruct (few-shot, val)",70554,128,8221,True,False,1673,1.57,75.2,54.38,36.59,26.9,68.63,62.69,69.18

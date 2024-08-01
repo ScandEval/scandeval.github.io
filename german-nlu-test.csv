@@ -7,7 +7,7 @@ sentence-transformers/use-cmlm-multilingual,472,501,512,True,False,30231,1.49,77
 intfloat/multilingual-e5-large,560,250,512,True,False,6732,1.5,79.73,64.78,47.24,28.11
 "meta-llama/Meta-Llama-3-70B (few-shot, val)",70554,128,8221,True,False,312,1.57,69.04,63.51,37.41,38.29
 gwlms/deberta-base-dewiki-v1,112,32,512,True,False,18084,1.62,79.67,50.9,75.16,18.57
-"gpt-4-1106-preview (few-shot, val)",-1,100,127998,True,False,576,1.65,68.94,60.47,51.26,30.04
+"gpt-4-1106-preview (few-shot, val)",-1,100,128000,True,False,576,1.65,68.94,60.47,51.26,30.04
 setu4993/LaBSE,471,501,512,True,False,25418,1.66,79.44,58.65,52.19,23.66
 upstage/SOLAR-10.7B-v1.0 (few-shot),10732,32,4096,True,False,3780,1.68,68.11,59.79,35.45,37.27
 gwlms/teams-base-dewiki-v1-discriminator,111,32,512,True,False,30608,1.7,79.59,47.85,68.48,19.9

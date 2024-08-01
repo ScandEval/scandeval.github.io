@@ -3,7 +3,7 @@ layout: leaderboard
 title: Norwegian NLU 🇳🇴
 ---
 
-<center>Last updated: 25/07/2024 22:31:13 CET</center>
+<center>Last updated: 01/08/2024 11:51:41 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -28,7 +28,7 @@ title: Norwegian NLU 🇳🇴
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Norwegian sentiment classification - Matthews Correlation Coefficient / Macro-average F1-score">NoReC</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Norwegian linguistic acceptability - Matthews Correlation Coefficient / Macro-average F1-score">ScaLA-nb</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Norwegian linguistic acceptability - Matthews Correlation Coefficient / Macro-average F1-score">ScaLA-nn</span></th>
-   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Norwegian question answering - Exact Match / F1-score">NorQuAD</span></th>
+   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Norwegian reading comprehension - Exact Match / F1-score">NorQuAD</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="ScandEval version used to benchmark the model on NorNE-nb">NorNE-nb version</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="ScandEval version used to benchmark the model on NorNE-nn">NorNE-nn version</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="ScandEval version used to benchmark the model on NoReC">NoReC version</span></th>
@@ -51,7 +51,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">64.62 ± 1.36 / 75.40 ± 0.97</td> <!-- NoReC -->
    <td class="no la">77.97 ± 3.04 / 88.19 ± 1.89</td> <!-- ScaLA-nb -->
    <td class="no la">76.30 ± 1.56 / 87.68 ± 0.86</td> <!-- ScaLA-nn -->
-   <td class="no qa">66.03 ± 1.19 / 79.64 ± 1.09</td> <!-- NorQuAD -->
+   <td class="no rc">66.03 ± 1.19 / 79.64 ± 1.09</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -72,7 +72,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">63.40 ± 1.38 / 74.60 ± 1.12</td> <!-- NoReC -->
    <td class="no la">78.43 ± 1.47 / 88.75 ± 0.86</td> <!-- ScaLA-nb -->
    <td class="no la">79.59 ± 1.72 / 89.56 ± 0.88</td> <!-- ScaLA-nn -->
-   <td class="no qa">59.20 ± 1.13 / 73.80 ± 1.05</td> <!-- NorQuAD -->
+   <td class="no rc">59.20 ± 1.13 / 73.80 ± 1.05</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -93,7 +93,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">59.73 ± 2.46 / 70.77 ± 3.26</td> <!-- NoReC -->
    <td class="no la">74.40 ± 2.03 / 86.34 ± 1.28</td> <!-- ScaLA-nb -->
    <td class="no la">68.85 ± 3.21 / 83.17 ± 2.09</td> <!-- ScaLA-nn -->
-   <td class="no qa">57.67 ± 1.86 / 72.51 ± 1.52</td> <!-- NorQuAD -->
+   <td class="no rc">57.67 ± 1.86 / 72.51 ± 1.52</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -114,7 +114,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">60.11 ± 2.96 / 70.55 ± 3.99</td> <!-- NoReC -->
    <td class="no la">72.85 ± 5.60 / 85.73 ± 3.14</td> <!-- ScaLA-nb -->
    <td class="no la">65.56 ± 1.91 / 82.23 ± 0.97</td> <!-- ScaLA-nn -->
-   <td class="no qa">60.38 ± 0.95 / 75.42 ± 1.16</td> <!-- NorQuAD -->
+   <td class="no rc">60.38 ± 0.95 / 75.42 ± 1.16</td> <!-- NorQuAD -->
    <td>10.0.1</td> <!-- NorNE-nb version -->
    <td>10.0.1</td> <!-- NorNE-nn version -->
    <td>10.0.1</td> <!-- NoReC version -->
@@ -135,7 +135,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">58.77 ± 3.69 / 69.56 ± 4.55</td> <!-- NoReC -->
    <td class="no la">76.30 ± 2.09 / 87.19 ± 1.40</td> <!-- ScaLA-nb -->
    <td class="no la">64.11 ± 5.18 / 80.68 ± 3.72</td> <!-- ScaLA-nn -->
-   <td class="no qa">60.69 ± 1.15 / 75.73 ± 1.06</td> <!-- NorQuAD -->
+   <td class="no rc">60.69 ± 1.15 / 75.73 ± 1.06</td> <!-- NorQuAD -->
    <td>10.0.1</td> <!-- NorNE-nb version -->
    <td>10.0.1</td> <!-- NorNE-nn version -->
    <td>10.0.1</td> <!-- NoReC version -->
@@ -156,7 +156,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">72.72 ± 3.20 / 81.35 ± 2.22</td> <!-- NoReC -->
    <td class="no la">77.30 ± 2.97 / 88.39 ± 1.60</td> <!-- ScaLA-nb -->
    <td class="no la">57.18 ± 3.91 / 76.40 ± 2.66</td> <!-- ScaLA-nn -->
-   <td class="no qa">47.50 ± 2.86 / 75.24 ± 1.32</td> <!-- NorQuAD -->
+   <td class="no rc">47.50 ± 2.86 / 75.24 ± 1.32</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -177,7 +177,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">59.61 ± 1.28 / 71.40 ± 1.68</td> <!-- NoReC -->
    <td class="no la">67.88 ± 7.37 / 82.75 ± 4.57</td> <!-- ScaLA-nb -->
    <td class="no la">62.44 ± 4.39 / 80.43 ± 2.39</td> <!-- ScaLA-nn -->
-   <td class="no qa">55.69 ± 1.60 / 70.77 ± 1.64</td> <!-- NorQuAD -->
+   <td class="no rc">55.69 ± 1.60 / 70.77 ± 1.64</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -198,7 +198,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">59.84 ± 1.40 / 72.11 ± 1.25</td> <!-- NoReC -->
    <td class="no la">73.33 ± 2.17 / 85.89 ± 1.29</td> <!-- ScaLA-nb -->
    <td class="no la">71.06 ± 1.62 / 84.78 ± 1.05</td> <!-- ScaLA-nn -->
-   <td class="no qa">43.67 ± 1.71 / 57.42 ± 1.56</td> <!-- NorQuAD -->
+   <td class="no rc">43.67 ± 1.71 / 57.42 ± 1.56</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -219,7 +219,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">55.59 ± 10.43 / 67.82 ± 9.45</td> <!-- NoReC -->
    <td class="no la">71.43 ± 1.67 / 84.61 ± 1.15</td> <!-- ScaLA-nb -->
    <td class="no la">53.30 ± 13.11 / 74.52 ± 7.96</td> <!-- ScaLA-nn -->
-   <td class="no qa">57.38 ± 1.41 / 72.48 ± 1.49</td> <!-- NorQuAD -->
+   <td class="no rc">57.38 ± 1.41 / 72.48 ± 1.49</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -240,7 +240,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">58.73 ± 2.31 / 70.10 ± 2.66</td> <!-- NoReC -->
    <td class="no la">70.73 ± 3.19 / 84.71 ± 1.82</td> <!-- ScaLA-nb -->
    <td class="no la">59.58 ± 7.22 / 78.86 ± 3.51</td> <!-- ScaLA-nn -->
-   <td class="no qa">56.04 ± 1.56 / 71.02 ± 1.42</td> <!-- NorQuAD -->
+   <td class="no rc">56.04 ± 1.56 / 71.02 ± 1.42</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -261,7 +261,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">59.98 ± 1.33 / 71.70 ± 1.69</td> <!-- NoReC -->
    <td class="no la">70.18 ± 1.41 / 83.83 ± 0.91</td> <!-- ScaLA-nb -->
    <td class="no la">70.81 ± 1.50 / 84.45 ± 0.95</td> <!-- ScaLA-nn -->
-   <td class="no qa">44.27 ± 1.46 / 58.30 ± 1.82</td> <!-- NorQuAD -->
+   <td class="no rc">44.27 ± 1.46 / 58.30 ± 1.82</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -282,7 +282,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">54.19 ± 3.15 / 65.18 ± 4.55</td> <!-- NoReC -->
    <td class="no la">69.83 ± 2.01 / 84.72 ± 1.10</td> <!-- ScaLA-nb -->
    <td class="no la">54.84 ± 12.59 / 75.13 ± 9.44</td> <!-- ScaLA-nn -->
-   <td class="no qa">58.18 ± 1.84 / 71.29 ± 1.51</td> <!-- NorQuAD -->
+   <td class="no rc">58.18 ± 1.84 / 71.29 ± 1.51</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -303,7 +303,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">66.74 ± 4.50 / 74.89 ± 3.69</td> <!-- NoReC -->
    <td class="no la">59.82 ± 3.52 / 79.17 ± 2.10</td> <!-- ScaLA-nb -->
    <td class="no la">47.56 ± 3.52 / 71.91 ± 1.79</td> <!-- ScaLA-nn -->
-   <td class="no qa">60.87 ± 4.82 / 82.30 ± 2.52</td> <!-- NorQuAD -->
+   <td class="no rc">60.87 ± 4.82 / 82.30 ± 2.52</td> <!-- NorQuAD -->
    <td>12.7.0</td> <!-- NorNE-nb version -->
    <td>12.7.0</td> <!-- NorNE-nn version -->
    <td>12.7.0</td> <!-- NoReC version -->
@@ -315,7 +315,7 @@ title: Norwegian NLU 🇳🇴
    <td>gpt-4-1106-preview (few-shot, val)</td> <!-- Model ID -->
    <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">100</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">127999</td> <!-- Maximum sequence length of the model -->
+   <td class="max_sequence_length">128000</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">576 ± 221 / 81 ± 28</td> <!-- Model inference speed -->
    <td class="rank">1.63</td> <!-- ScandEval rank -->
@@ -324,7 +324,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">62.55 ± 2.82 / 72.41 ± 2.42</td> <!-- NoReC -->
    <td class="no la">74.45 ± 4.27 / 86.22 ± 2.49</td> <!-- ScaLA-nb -->
    <td class="no la">56.31 ± 5.81 / 74.04 ± 4.03</td> <!-- ScaLA-nn -->
-   <td class="no qa">44.67 ± 3.23 / 73.39 ± 1.83</td> <!-- NorQuAD -->
+   <td class="no rc">44.67 ± 3.23 / 73.39 ± 1.83</td> <!-- NorQuAD -->
    <td>12.10.0</td> <!-- NorNE-nb version -->
    <td>12.10.0</td> <!-- NorNE-nn version -->
    <td>12.10.2</td> <!-- NoReC version -->
@@ -345,7 +345,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">57.37 ± 1.31 / 70.45 ± 1.13</td> <!-- NoReC -->
    <td class="no la">69.92 ± 2.01 / 83.51 ± 1.33</td> <!-- ScaLA-nb -->
    <td class="no la">70.05 ± 1.76 / 84.13 ± 1.17</td> <!-- ScaLA-nn -->
-   <td class="no qa">41.98 ± 3.70 / 55.88 ± 3.70</td> <!-- NorQuAD -->
+   <td class="no rc">41.98 ± 3.70 / 55.88 ± 3.70</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -357,7 +357,7 @@ title: Norwegian NLU 🇳🇴
    <td>gpt-4o-2024-05-13 (few-shot, val)</td> <!-- Model ID -->
    <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">200</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">127999</td> <!-- Maximum sequence length of the model -->
+   <td class="max_sequence_length">128000</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">916 ± 329 / 114 ± 38</td> <!-- Model inference speed -->
    <td class="rank">1.67</td> <!-- ScandEval rank -->
@@ -366,7 +366,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">66.66 ± 1.91 / 77.70 ± 1.29</td> <!-- NoReC -->
    <td class="no la">64.53 ± 6.09 / 79.17 ± 4.89</td> <!-- ScaLA-nb -->
    <td class="no la">54.70 ± 4.36 / 74.94 ± 3.26</td> <!-- ScaLA-nn -->
-   <td class="no qa">43.51 ± 3.40 / 74.52 ± 1.79</td> <!-- NorQuAD -->
+   <td class="no rc">43.51 ± 3.40 / 74.52 ± 1.79</td> <!-- NorQuAD -->
    <td>12.10.0</td> <!-- NorNE-nb version -->
    <td>12.10.0</td> <!-- NorNE-nn version -->
    <td>12.10.2</td> <!-- NoReC version -->
@@ -387,7 +387,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">53.69 ± 4.28 / 63.69 ± 6.95</td> <!-- NoReC -->
    <td class="no la">70.55 ± 1.64 / 84.79 ± 0.86</td> <!-- ScaLA-nb -->
    <td class="no la">61.21 ± 1.20 / 79.87 ± 0.76</td> <!-- ScaLA-nn -->
-   <td class="no qa">48.82 ± 1.20 / 63.72 ± 1.06</td> <!-- NorQuAD -->
+   <td class="no rc">48.82 ± 1.20 / 63.72 ± 1.06</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -408,7 +408,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">60.84 ± 1.48 / 72.16 ± 1.38</td> <!-- NoReC -->
    <td class="no la">73.89 ± 1.31 / 86.19 ± 0.93</td> <!-- ScaLA-nb -->
    <td class="no la">72.10 ± 2.07 / 85.37 ± 1.33</td> <!-- ScaLA-nn -->
-   <td class="no qa">33.01 ± 3.06 / 45.28 ± 3.64</td> <!-- NorQuAD -->
+   <td class="no rc">33.01 ± 3.06 / 45.28 ± 3.64</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -429,7 +429,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">57.43 ± 1.55 / 70.43 ± 1.41</td> <!-- NoReC -->
    <td class="no la">63.31 ± 11.58 / 80.18 ± 5.59</td> <!-- ScaLA-nb -->
    <td class="no la">62.79 ± 11.35 / 79.65 ± 6.48</td> <!-- ScaLA-nn -->
-   <td class="no qa">41.05 ± 2.59 / 54.44 ± 3.33</td> <!-- NorQuAD -->
+   <td class="no rc">41.05 ± 2.59 / 54.44 ± 3.33</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -450,7 +450,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">59.10 ± 1.47 / 70.50 ± 2.06</td> <!-- NoReC -->
    <td class="no la">74.32 ± 1.76 / 86.47 ± 1.18</td> <!-- ScaLA-nb -->
    <td class="no la">72.94 ± 1.63 / 86.07 ± 0.99</td> <!-- ScaLA-nn -->
-   <td class="no qa">34.06 ± 2.05 / 45.46 ± 2.65</td> <!-- NorQuAD -->
+   <td class="no rc">34.06 ± 2.05 / 45.46 ± 2.65</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -471,7 +471,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">56.35 ± 1.25 / 69.31 ± 1.02</td> <!-- NoReC -->
    <td class="no la">59.38 ± 2.52 / 78.02 ± 1.71</td> <!-- ScaLA-nb -->
    <td class="no la">46.54 ± 3.21 / 71.78 ± 2.00</td> <!-- ScaLA-nn -->
-   <td class="no qa">55.05 ± 1.24 / 70.46 ± 1.22</td> <!-- NorQuAD -->
+   <td class="no rc">55.05 ± 1.24 / 70.46 ± 1.22</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -492,7 +492,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">50.90 ± 3.01 / 60.96 ± 5.41</td> <!-- NoReC -->
    <td class="no la">69.34 ± 3.13 / 83.11 ± 2.17</td> <!-- ScaLA-nb -->
    <td class="no la">66.24 ± 2.41 / 82.36 ± 1.49</td> <!-- ScaLA-nn -->
-   <td class="no qa">48.45 ± 0.63 / 62.96 ± 0.80</td> <!-- NorQuAD -->
+   <td class="no rc">48.45 ± 0.63 / 62.96 ± 0.80</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -513,7 +513,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">61.52 ± 1.87 / 72.72 ± 1.95</td> <!-- NoReC -->
    <td class="no la">62.34 ± 2.48 / 79.94 ± 1.46</td> <!-- ScaLA-nb -->
    <td class="no la">34.88 ± 11.23 / 66.51 ± 5.72</td> <!-- ScaLA-nn -->
-   <td class="no qa">53.01 ± 1.05 / 70.46 ± 0.86</td> <!-- NorQuAD -->
+   <td class="no rc">53.01 ± 1.05 / 70.46 ± 0.86</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -534,7 +534,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">50.25 ± 15.36 / 63.55 ± 13.05</td> <!-- NoReC -->
    <td class="no la">55.51 ± 18.28 / 74.00 ± 13.38</td> <!-- ScaLA-nb -->
    <td class="no la">43.89 ± 14.81 / 68.88 ± 10.32</td> <!-- ScaLA-nn -->
-   <td class="no qa">57.57 ± 2.43 / 72.69 ± 2.22</td> <!-- NorQuAD -->
+   <td class="no rc">57.57 ± 2.43 / 72.69 ± 2.22</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -555,7 +555,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">55.25 ± 2.36 / 66.95 ± 2.79</td> <!-- NoReC -->
    <td class="no la">68.03 ± 2.37 / 82.12 ± 1.69</td> <!-- ScaLA-nb -->
    <td class="no la">66.90 ± 2.07 / 82.33 ± 1.34</td> <!-- ScaLA-nn -->
-   <td class="no qa">41.65 ± 1.17 / 55.71 ± 1.73</td> <!-- NorQuAD -->
+   <td class="no rc">41.65 ± 1.17 / 55.71 ± 1.73</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -576,7 +576,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">52.44 ± 2.90 / 62.48 ± 4.62</td> <!-- NoReC -->
    <td class="no la">68.77 ± 2.01 / 83.10 ± 1.42</td> <!-- ScaLA-nb -->
    <td class="no la">65.40 ± 2.43 / 81.72 ± 1.68</td> <!-- ScaLA-nn -->
-   <td class="no qa">43.13 ± 2.05 / 56.76 ± 2.21</td> <!-- NorQuAD -->
+   <td class="no rc">43.13 ± 2.05 / 56.76 ± 2.21</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -597,7 +597,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">60.57 ± 1.22 / 72.70 ± 0.75</td> <!-- NoReC -->
    <td class="no la">72.11 ± 1.85 / 85.08 ± 1.24</td> <!-- ScaLA-nb -->
    <td class="no la">70.20 ± 2.24 / 84.26 ± 1.48</td> <!-- ScaLA-nn -->
-   <td class="no qa">29.94 ± 3.33 / 40.55 ± 4.21</td> <!-- NorQuAD -->
+   <td class="no rc">29.94 ± 3.33 / 40.55 ± 4.21</td> <!-- NorQuAD -->
    <td>12.10.5</td> <!-- NorNE-nb version -->
    <td>12.10.5</td> <!-- NorNE-nn version -->
    <td>12.10.5</td> <!-- NoReC version -->
@@ -618,7 +618,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">51.36 ± 3.24 / 61.35 ± 5.46</td> <!-- NoReC -->
    <td class="no la">67.29 ± 2.13 / 82.23 ± 1.36</td> <!-- ScaLA-nb -->
    <td class="no la">56.67 ± 2.29 / 76.74 ± 1.73</td> <!-- ScaLA-nn -->
-   <td class="no qa">48.63 ± 1.31 / 63.28 ± 1.09</td> <!-- NorQuAD -->
+   <td class="no rc">48.63 ± 1.31 / 63.28 ± 1.09</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -639,7 +639,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">53.23 ± 1.67 / 65.23 ± 2.65</td> <!-- NoReC -->
    <td class="no la">70.06 ± 2.33 / 83.61 ± 1.61</td> <!-- ScaLA-nb -->
    <td class="no la">66.81 ± 1.83 / 82.19 ± 1.20</td> <!-- ScaLA-nn -->
-   <td class="no qa">34.17 ± 2.16 / 47.61 ± 2.55</td> <!-- NorQuAD -->
+   <td class="no rc">34.17 ± 2.16 / 47.61 ± 2.55</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -660,7 +660,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">54.26 ± 1.75 / 67.25 ± 1.47</td> <!-- NoReC -->
    <td class="no la">59.44 ± 1.47 / 78.80 ± 1.00</td> <!-- ScaLA-nb -->
    <td class="no la">49.30 ± 1.39 / 74.02 ± 1.04</td> <!-- ScaLA-nn -->
-   <td class="no qa">46.42 ± 1.44 / 61.82 ± 1.47</td> <!-- NorQuAD -->
+   <td class="no rc">46.42 ± 1.44 / 61.82 ± 1.47</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -681,7 +681,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">63.91 ± 1.74 / 75.51 ± 1.63</td> <!-- NoReC -->
    <td class="no la">39.82 ± 3.91 / 60.91 ± 4.26</td> <!-- ScaLA-nb -->
    <td class="no la">26.86 ± 2.91 / 53.05 ± 3.88</td> <!-- ScaLA-nn -->
-   <td class="no qa">47.06 ± 3.13 / 75.80 ± 2.01</td> <!-- NorQuAD -->
+   <td class="no rc">47.06 ± 3.13 / 75.80 ± 2.01</td> <!-- NorQuAD -->
    <td>12.9.1</td> <!-- NorNE-nb version -->
    <td>12.9.1</td> <!-- NorNE-nn version -->
    <td>12.9.1</td> <!-- NoReC version -->
@@ -702,7 +702,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">52.19 ± 2.87 / 65.60 ± 2.58</td> <!-- NoReC -->
    <td class="no la">54.98 ± 14.19 / 75.67 ± 6.70</td> <!-- ScaLA-nb -->
    <td class="no la">58.33 ± 10.94 / 77.88 ± 5.29</td> <!-- ScaLA-nn -->
-   <td class="no qa">29.17 ± 1.36 / 41.75 ± 1.59</td> <!-- NorQuAD -->
+   <td class="no rc">29.17 ± 1.36 / 41.75 ± 1.59</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -723,7 +723,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">58.88 ± 3.23 / 71.00 ± 2.87</td> <!-- NoReC -->
    <td class="no la">54.29 ± 4.27 / 73.02 ± 3.26</td> <!-- ScaLA-nb -->
    <td class="no la">32.82 ± 3.43 / 56.05 ± 4.14</td> <!-- ScaLA-nn -->
-   <td class="no qa">45.35 ± 2.97 / 73.47 ± 1.69</td> <!-- NorQuAD -->
+   <td class="no rc">45.35 ± 2.97 / 73.47 ± 1.69</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -744,7 +744,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">59.29 ± 5.92 / 69.99 ± 4.80</td> <!-- NoReC -->
    <td class="no la">47.28 ± 3.57 / 69.23 ± 3.04</td> <!-- ScaLA-nb -->
    <td class="no la">32.76 ± 3.80 / 60.66 ± 3.10</td> <!-- ScaLA-nn -->
-   <td class="no qa">39.71 ± 2.59 / 71.60 ± 1.57</td> <!-- NorQuAD -->
+   <td class="no rc">39.71 ± 2.59 / 71.60 ± 1.57</td> <!-- NorQuAD -->
    <td>12.7.0</td> <!-- NorNE-nb version -->
    <td>12.7.0</td> <!-- NorNE-nn version -->
    <td>12.7.0</td> <!-- NoReC version -->
@@ -765,7 +765,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">57.64 ± 1.33 / 71.34 ± 1.15</td> <!-- NoReC -->
    <td class="no la">49.93 ± 1.78 / 69.26 ± 1.76</td> <!-- ScaLA-nb -->
    <td class="no la">34.22 ± 2.98 / 57.61 ± 3.23</td> <!-- ScaLA-nn -->
-   <td class="no qa">44.39 ± 1.06 / 71.71 ± 0.83</td> <!-- NorQuAD -->
+   <td class="no rc">44.39 ± 1.06 / 71.71 ± 0.83</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -786,7 +786,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">59.68 ± 3.30 / 70.62 ± 3.08</td> <!-- NoReC -->
    <td class="no la">27.34 ± 12.20 / 50.42 ± 9.24</td> <!-- ScaLA-nb -->
    <td class="no la">3.95 ± 4.66 / 36.08 ± 3.27</td> <!-- ScaLA-nn -->
-   <td class="no qa">57.44 ± 4.59 / 78.69 ± 3.09</td> <!-- NorQuAD -->
+   <td class="no rc">57.44 ± 4.59 / 78.69 ± 3.09</td> <!-- NorQuAD -->
    <td>12.7.0</td> <!-- NorNE-nb version -->
    <td>12.7.0</td> <!-- NorNE-nn version -->
    <td>12.7.0</td> <!-- NoReC version -->
@@ -807,7 +807,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">60.58 ± 4.96 / 70.33 ± 4.12</td> <!-- NoReC -->
    <td class="no la">47.53 ± 4.07 / 72.24 ± 2.31</td> <!-- ScaLA-nb -->
    <td class="no la">17.14 ± 4.72 / 51.14 ± 4.36</td> <!-- ScaLA-nn -->
-   <td class="no qa">41.92 ± 3.36 / 72.51 ± 1.91</td> <!-- NorQuAD -->
+   <td class="no rc">41.92 ± 3.36 / 72.51 ± 1.91</td> <!-- NorQuAD -->
    <td>12.7.0</td> <!-- NorNE-nb version -->
    <td>12.7.0</td> <!-- NorNE-nn version -->
    <td>12.7.0</td> <!-- NoReC version -->
@@ -828,7 +828,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">47.11 ± 2.05 / 60.70 ± 3.19</td> <!-- NoReC -->
    <td class="no la">52.62 ± 3.99 / 75.01 ± 2.43</td> <!-- ScaLA-nb -->
    <td class="no la">25.06 ± 6.94 / 60.75 ± 4.12</td> <!-- ScaLA-nn -->
-   <td class="no qa">38.40 ± 2.57 / 50.51 ± 3.52</td> <!-- NorQuAD -->
+   <td class="no rc">38.40 ± 2.57 / 50.51 ± 3.52</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -849,7 +849,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">47.84 ± 2.44 / 60.67 ± 3.47</td> <!-- NoReC -->
    <td class="no la">51.99 ± 11.45 / 72.87 ± 8.55</td> <!-- ScaLA-nb -->
    <td class="no la">30.57 ± 8.63 / 62.90 ± 7.32</td> <!-- ScaLA-nn -->
-   <td class="no qa">36.75 ± 2.18 / 50.77 ± 2.11</td> <!-- NorQuAD -->
+   <td class="no rc">36.75 ± 2.18 / 50.77 ± 2.11</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -870,7 +870,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">54.61 ± 1.51 / 67.19 ± 1.65</td> <!-- NoReC -->
    <td class="no la">50.35 ± 1.78 / 73.06 ± 1.46</td> <!-- ScaLA-nb -->
    <td class="no la">22.15 ± 9.02 / 58.20 ± 5.38</td> <!-- ScaLA-nn -->
-   <td class="no qa">31.77 ± 1.55 / 45.47 ± 2.02</td> <!-- NorQuAD -->
+   <td class="no rc">31.77 ± 1.55 / 45.47 ± 2.02</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -891,7 +891,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">54.46 ± 1.16 / 68.25 ± 0.76</td> <!-- NoReC -->
    <td class="no la">12.16 ± 5.91 / 50.55 ± 4.73</td> <!-- ScaLA-nb -->
    <td class="no la">8.99 ± 2.25 / 48.57 ± 3.67</td> <!-- ScaLA-nn -->
-   <td class="no qa">49.24 ± 1.30 / 64.35 ± 1.24</td> <!-- NorQuAD -->
+   <td class="no rc">49.24 ± 1.30 / 64.35 ± 1.24</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -912,7 +912,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">57.06 ± 1.54 / 71.09 ± 1.17</td> <!-- NoReC -->
    <td class="no la">26.41 ± 3.80 / 51.92 ± 5.30</td> <!-- ScaLA-nb -->
    <td class="no la">19.58 ± 1.29 / 53.93 ± 2.90</td> <!-- ScaLA-nn -->
-   <td class="no qa">51.60 ± 1.97 / 77.87 ± 1.44</td> <!-- NorQuAD -->
+   <td class="no rc">51.60 ± 1.97 / 77.87 ± 1.44</td> <!-- NorQuAD -->
    <td>12.7.0</td> <!-- NorNE-nb version -->
    <td>12.7.0</td> <!-- NorNE-nn version -->
    <td>12.7.0</td> <!-- NoReC version -->
@@ -933,7 +933,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">48.34 ± 2.10 / 60.68 ± 3.61</td> <!-- NoReC -->
    <td class="no la">55.30 ± 2.89 / 75.77 ± 1.87</td> <!-- ScaLA-nb -->
    <td class="no la">37.46 ± 2.69 / 67.68 ± 1.66</td> <!-- ScaLA-nn -->
-   <td class="no qa">24.49 ± 6.03 / 35.93 ± 8.56</td> <!-- NorQuAD -->
+   <td class="no rc">24.49 ± 6.03 / 35.93 ± 8.56</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -954,7 +954,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">36.21 ± 1.82 / 49.48 ± 2.69</td> <!-- NoReC -->
    <td class="no la">46.43 ± 1.81 / 71.65 ± 1.39</td> <!-- ScaLA-nb -->
    <td class="no la">39.82 ± 2.81 / 68.68 ± 1.81</td> <!-- ScaLA-nn -->
-   <td class="no qa">40.01 ± 1.58 / 53.12 ± 1.81</td> <!-- NorQuAD -->
+   <td class="no rc">40.01 ± 1.58 / 53.12 ± 1.81</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -975,7 +975,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">37.28 ± 2.13 / 48.69 ± 3.26</td> <!-- NoReC -->
    <td class="no la">49.41 ± 1.57 / 73.96 ± 0.87</td> <!-- ScaLA-nb -->
    <td class="no la">43.58 ± 2.23 / 71.20 ± 1.61</td> <!-- ScaLA-nn -->
-   <td class="no qa">40.35 ± 2.26 / 54.01 ± 2.42</td> <!-- NorQuAD -->
+   <td class="no rc">40.35 ± 2.26 / 54.01 ± 2.42</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -996,7 +996,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">40.15 ± 1.15 / 46.26 ± 0.47</td> <!-- NoReC -->
    <td class="no la">72.87 ± 1.11 / 85.86 ± 0.63</td> <!-- ScaLA-nb -->
    <td class="no la">63.77 ± 1.27 / 81.62 ± 0.65</td> <!-- ScaLA-nn -->
-   <td class="no qa">14.16 ± 4.55 / 19.70 ± 6.40</td> <!-- NorQuAD -->
+   <td class="no rc">14.16 ± 4.55 / 19.70 ± 6.40</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -1017,7 +1017,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">55.48 ± 1.77 / 69.68 ± 1.45</td> <!-- NoReC -->
    <td class="no la">26.13 ± 1.28 / 56.08 ± 2.05</td> <!-- ScaLA-nb -->
    <td class="no la">17.32 ± 0.77 / 54.57 ± 1.49</td> <!-- ScaLA-nn -->
-   <td class="no qa">49.75 ± 1.22 / 77.08 ± 0.60</td> <!-- NorQuAD -->
+   <td class="no rc">49.75 ± 1.22 / 77.08 ± 0.60</td> <!-- NorQuAD -->
    <td>12.5.2</td> <!-- NorNE-nb version -->
    <td>12.5.2</td> <!-- NorNE-nn version -->
    <td>12.5.2</td> <!-- NoReC version -->
@@ -1038,7 +1038,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">35.87 ± 1.85 / 48.94 ± 3.37</td> <!-- NoReC -->
    <td class="no la">44.22 ± 3.29 / 70.31 ± 2.86</td> <!-- ScaLA-nb -->
    <td class="no la">39.55 ± 7.01 / 68.65 ± 3.36</td> <!-- ScaLA-nn -->
-   <td class="no qa">40.55 ± 2.19 / 53.62 ± 2.68</td> <!-- NorQuAD -->
+   <td class="no rc">40.55 ± 2.19 / 53.62 ± 2.68</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -1059,7 +1059,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">51.30 ± 3.11 / 66.17 ± 3.21</td> <!-- NoReC -->
    <td class="no la">26.03 ± 2.08 / 61.04 ± 2.00</td> <!-- ScaLA-nb -->
    <td class="no la">19.90 ± 1.99 / 58.22 ± 1.98</td> <!-- ScaLA-nn -->
-   <td class="no qa">45.31 ± 3.83 / 71.62 ± 3.39</td> <!-- NorQuAD -->
+   <td class="no rc">45.31 ± 3.83 / 71.62 ± 3.39</td> <!-- NorQuAD -->
    <td>12.8.0</td> <!-- NorNE-nb version -->
    <td>12.8.0</td> <!-- NorNE-nn version -->
    <td>12.8.0</td> <!-- NoReC version -->
@@ -1080,7 +1080,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">55.33 ± 1.95 / 69.71 ± 1.56</td> <!-- NoReC -->
    <td class="no la">10.15 ± 3.24 / 36.27 ± 1.44</td> <!-- ScaLA-nb -->
    <td class="no la">7.51 ± 2.97 / 35.89 ± 1.30</td> <!-- ScaLA-nn -->
-   <td class="no qa">55.33 ± 3.29 / 80.42 ± 1.68</td> <!-- NorQuAD -->
+   <td class="no rc">55.33 ± 3.29 / 80.42 ± 1.68</td> <!-- NorQuAD -->
    <td>12.5.3</td> <!-- NorNE-nb version -->
    <td>12.5.3</td> <!-- NorNE-nn version -->
    <td>12.5.3</td> <!-- NoReC version -->
@@ -1101,7 +1101,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">48.85 ± 2.22 / 64.93 ± 2.00</td> <!-- NoReC -->
    <td class="no la">24.15 ± 6.12 / 56.29 ± 6.81</td> <!-- ScaLA-nb -->
    <td class="no la">21.33 ± 3.03 / 58.05 ± 2.59</td> <!-- ScaLA-nn -->
-   <td class="no qa">53.66 ± 4.34 / 75.19 ± 3.59</td> <!-- NorQuAD -->
+   <td class="no rc">53.66 ± 4.34 / 75.19 ± 3.59</td> <!-- NorQuAD -->
    <td>12.7.0</td> <!-- NorNE-nb version -->
    <td>12.7.0</td> <!-- NorNE-nn version -->
    <td>12.7.0</td> <!-- NoReC version -->
@@ -1122,7 +1122,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">50.62 ± 3.52 / 65.69 ± 3.50</td> <!-- NoReC -->
    <td class="no la">27.77 ± 1.63 / 61.75 ± 1.77</td> <!-- ScaLA-nb -->
    <td class="no la">20.35 ± 1.92 / 57.74 ± 2.28</td> <!-- ScaLA-nn -->
-   <td class="no qa">42.90 ± 3.57 / 69.90 ± 3.17</td> <!-- NorQuAD -->
+   <td class="no rc">42.90 ± 3.57 / 69.90 ± 3.17</td> <!-- NorQuAD -->
    <td>12.6.1</td> <!-- NorNE-nb version -->
    <td>12.6.1</td> <!-- NorNE-nn version -->
    <td>12.6.1</td> <!-- NoReC version -->
@@ -1143,7 +1143,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">58.28 ± 3.11 / 69.79 ± 2.39</td> <!-- NoReC -->
    <td class="no la">18.65 ± 3.84 / 45.34 ± 2.61</td> <!-- ScaLA-nb -->
    <td class="no la">10.72 ± 5.52 / 43.91 ± 3.48</td> <!-- ScaLA-nn -->
-   <td class="no qa">44.39 ± 3.95 / 70.76 ± 3.10</td> <!-- NorQuAD -->
+   <td class="no rc">44.39 ± 3.95 / 70.76 ± 3.10</td> <!-- NorQuAD -->
    <td>9.3.1</td> <!-- NorNE-nb version -->
    <td>9.3.1</td> <!-- NorNE-nn version -->
    <td>9.3.1</td> <!-- NoReC version -->
@@ -1164,7 +1164,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">58.28 ± 3.11 / 69.79 ± 2.39</td> <!-- NoReC -->
    <td class="no la">18.65 ± 3.84 / 45.34 ± 2.61</td> <!-- ScaLA-nb -->
    <td class="no la">10.72 ± 5.52 / 43.91 ± 3.48</td> <!-- ScaLA-nn -->
-   <td class="no qa">44.39 ± 3.95 / 70.76 ± 3.10</td> <!-- NorQuAD -->
+   <td class="no rc">44.39 ± 3.95 / 70.76 ± 3.10</td> <!-- NorQuAD -->
    <td>9.3.1</td> <!-- NorNE-nb version -->
    <td>9.3.1</td> <!-- NorNE-nn version -->
    <td>9.3.1</td> <!-- NoReC version -->
@@ -1185,7 +1185,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">34.97 ± 1.74 / 48.21 ± 2.02</td> <!-- NoReC -->
    <td class="no la">39.58 ± 5.70 / 67.91 ± 3.00</td> <!-- ScaLA-nb -->
    <td class="no la">31.27 ± 9.57 / 62.81 ± 7.17</td> <!-- ScaLA-nn -->
-   <td class="no qa">41.89 ± 1.64 / 55.17 ± 2.07</td> <!-- NorQuAD -->
+   <td class="no rc">41.89 ± 1.64 / 55.17 ± 2.07</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -1206,7 +1206,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">35.34 ± 1.88 / 48.31 ± 2.28</td> <!-- NoReC -->
    <td class="no la">31.45 ± 12.12 / 63.68 ± 6.21</td> <!-- ScaLA-nb -->
    <td class="no la">36.12 ± 8.59 / 66.98 ± 4.91</td> <!-- ScaLA-nn -->
-   <td class="no qa">41.59 ± 2.45 / 54.67 ± 2.65</td> <!-- NorQuAD -->
+   <td class="no rc">41.59 ± 2.45 / 54.67 ± 2.65</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -1227,7 +1227,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">49.87 ± 1.88 / 66.15 ± 1.44</td> <!-- NoReC -->
    <td class="no la">21.20 ± 6.57 / 52.29 ± 7.43</td> <!-- ScaLA-nb -->
    <td class="no la">19.65 ± 4.32 / 56.66 ± 4.40</td> <!-- ScaLA-nn -->
-   <td class="no qa">53.35 ± 4.33 / 74.98 ± 3.70</td> <!-- NorQuAD -->
+   <td class="no rc">53.35 ± 4.33 / 74.98 ± 3.70</td> <!-- NorQuAD -->
    <td>12.6.1</td> <!-- NorNE-nb version -->
    <td>12.6.1</td> <!-- NorNE-nn version -->
    <td>12.6.1</td> <!-- NoReC version -->
@@ -1248,7 +1248,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">49.62 ± 2.72 / 62.56 ± 3.88</td> <!-- NoReC -->
    <td class="no la">38.45 ± 15.28 / 67.14 ± 7.71</td> <!-- ScaLA-nb -->
    <td class="no la">11.38 ± 7.59 / 51.68 ± 4.73</td> <!-- ScaLA-nn -->
-   <td class="no qa">31.50 ± 2.41 / 47.61 ± 2.55</td> <!-- NorQuAD -->
+   <td class="no rc">31.50 ± 2.41 / 47.61 ± 2.55</td> <!-- NorQuAD -->
    <td>12.6.1</td> <!-- NorNE-nb version -->
    <td>12.6.1</td> <!-- NorNE-nn version -->
    <td>12.6.1</td> <!-- NoReC version -->
@@ -1269,7 +1269,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">48.40 ± 3.28 / 61.42 ± 3.56</td> <!-- NoReC -->
    <td class="no la">24.26 ± 2.68 / 57.31 ± 2.64</td> <!-- ScaLA-nb -->
    <td class="no la">18.43 ± 1.34 / 52.28 ± 2.63</td> <!-- ScaLA-nn -->
-   <td class="no qa">46.80 ± 2.74 / 74.57 ± 2.20</td> <!-- NorQuAD -->
+   <td class="no rc">46.80 ± 2.74 / 74.57 ± 2.20</td> <!-- NorQuAD -->
    <td>12.7.0</td> <!-- NorNE-nb version -->
    <td>12.7.0</td> <!-- NorNE-nn version -->
    <td>12.7.0</td> <!-- NoReC version -->
@@ -1290,7 +1290,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">56.90 ± 1.49 / 70.81 ± 1.30</td> <!-- NoReC -->
    <td class="no la">13.86 ± 1.95 / 44.84 ± 2.31</td> <!-- ScaLA-nb -->
    <td class="no la">10.17 ± 1.89 / 46.48 ± 2.46</td> <!-- ScaLA-nn -->
-   <td class="no qa">49.03 ± 4.22 / 74.38 ± 3.92</td> <!-- NorQuAD -->
+   <td class="no rc">49.03 ± 4.22 / 74.38 ± 3.92</td> <!-- NorQuAD -->
    <td>9.3.1</td> <!-- NorNE-nb version -->
    <td>9.3.1</td> <!-- NorNE-nn version -->
    <td>9.3.1</td> <!-- NoReC version -->
@@ -1311,7 +1311,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">35.16 ± 1.75 / 48.41 ± 2.71</td> <!-- NoReC -->
    <td class="no la">31.82 ± 8.92 / 62.98 ± 6.52</td> <!-- ScaLA-nb -->
    <td class="no la">32.94 ± 5.88 / 64.36 ± 4.59</td> <!-- ScaLA-nn -->
-   <td class="no qa">39.46 ± 1.70 / 52.33 ± 1.94</td> <!-- NorQuAD -->
+   <td class="no rc">39.46 ± 1.70 / 52.33 ± 1.94</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -1332,7 +1332,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">30.56 ± 13.68 / 45.96 ± 11.45</td> <!-- NoReC -->
    <td class="no la">9.79 ± 5.13 / 46.75 ± 6.05</td> <!-- ScaLA-nb -->
    <td class="no la">6.36 ± 2.82 / 48.52 ± 4.11</td> <!-- ScaLA-nn -->
-   <td class="no qa">60.47 ± 1.01 / 74.70 ± 0.92</td> <!-- NorQuAD -->
+   <td class="no rc">60.47 ± 1.01 / 74.70 ± 0.92</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -1353,7 +1353,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">52.90 ± 4.31 / 65.38 ± 3.73</td> <!-- NoReC -->
    <td class="no la">29.34 ± 4.34 / 59.36 ± 4.64</td> <!-- ScaLA-nb -->
    <td class="no la">17.42 ± 4.38 / 52.01 ± 3.50</td> <!-- ScaLA-nn -->
-   <td class="no qa">38.49 ± 4.41 / 67.16 ± 3.41</td> <!-- NorQuAD -->
+   <td class="no rc">38.49 ± 4.41 / 67.16 ± 3.41</td> <!-- NorQuAD -->
    <td>12.7.0</td> <!-- NorNE-nb version -->
    <td>12.7.0</td> <!-- NorNE-nn version -->
    <td>12.7.0</td> <!-- NoReC version -->
@@ -1374,7 +1374,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">44.42 ± 13.10 / 57.73 ± 11.86</td> <!-- NoReC -->
    <td class="no la">11.20 ± 2.99 / 48.77 ± 5.01</td> <!-- ScaLA-nb -->
    <td class="no la">7.12 ± 2.39 / 49.23 ± 4.14</td> <!-- ScaLA-nn -->
-   <td class="no qa">47.69 ± 1.95 / 62.39 ± 1.74</td> <!-- NorQuAD -->
+   <td class="no rc">47.69 ± 1.95 / 62.39 ± 1.74</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -1395,7 +1395,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">39.53 ± 0.99 / 50.90 ± 2.17</td> <!-- NoReC -->
    <td class="no la">27.39 ± 2.48 / 61.03 ± 2.27</td> <!-- ScaLA-nb -->
    <td class="no la">23.56 ± 2.23 / 60.05 ± 1.05</td> <!-- ScaLA-nn -->
-   <td class="no qa">39.01 ± 1.18 / 51.83 ± 1.58</td> <!-- NorQuAD -->
+   <td class="no rc">39.01 ± 1.18 / 51.83 ± 1.58</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -1407,7 +1407,7 @@ title: Norwegian NLU 🇳🇴
    <td>gpt-4o-mini-2024-07-18 (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">200</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">127999</td> <!-- Maximum sequence length of the model -->
+   <td class="max_sequence_length">128000</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">1,171 ± 378 / 120 ± 39</td> <!-- Model inference speed -->
    <td class="rank">2.54</td> <!-- ScandEval rank -->
@@ -1416,7 +1416,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">37.79 ± 4.47 / 55.88 ± 3.23</td> <!-- NoReC -->
    <td class="no la">31.59 ± 11.25 / 54.68 ± 10.28</td> <!-- ScaLA-nb -->
    <td class="no la">39.25 ± 7.82 / 62.90 ± 7.12</td> <!-- ScaLA-nn -->
-   <td class="no qa">39.43 ± 2.31 / 72.15 ± 1.71</td> <!-- NorQuAD -->
+   <td class="no rc">39.43 ± 2.31 / 72.15 ± 1.71</td> <!-- NorQuAD -->
    <td>12.11.0</td> <!-- NorNE-nb version -->
    <td>12.11.0</td> <!-- NorNE-nn version -->
    <td>12.11.0</td> <!-- NoReC version -->
@@ -1437,7 +1437,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">55.61 ± 4.02 / 68.27 ± 3.49</td> <!-- NoReC -->
    <td class="no la">20.84 ± 5.41 / 49.36 ± 4.98</td> <!-- ScaLA-nb -->
    <td class="no la">9.12 ± 3.51 / 43.06 ± 3.74</td> <!-- ScaLA-nn -->
-   <td class="no qa">42.92 ± 3.08 / 69.13 ± 2.85</td> <!-- NorQuAD -->
+   <td class="no rc">42.92 ± 3.08 / 69.13 ± 2.85</td> <!-- NorQuAD -->
    <td>9.3.2</td> <!-- NorNE-nb version -->
    <td>9.3.2</td> <!-- NorNE-nn version -->
    <td>9.3.2</td> <!-- NoReC version -->
@@ -1458,7 +1458,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">38.44 ± 1.67 / 52.60 ± 1.95</td> <!-- NoReC -->
    <td class="no la">37.54 ± 1.13 / 64.46 ± 1.44</td> <!-- ScaLA-nb -->
    <td class="no la">23.10 ± 3.66 / 58.14 ± 3.65</td> <!-- ScaLA-nn -->
-   <td class="no qa">39.97 ± 0.84 / 51.67 ± 1.11</td> <!-- NorQuAD -->
+   <td class="no rc">39.97 ± 0.84 / 51.67 ± 1.11</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -1479,7 +1479,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">58.69 ± 3.28 / 70.83 ± 2.49</td> <!-- NoReC -->
    <td class="no la">15.03 ± 2.70 / 40.22 ± 1.66</td> <!-- ScaLA-nb -->
    <td class="no la">5.95 ± 4.55 / 39.18 ± 2.91</td> <!-- ScaLA-nn -->
-   <td class="no qa">42.42 ± 2.92 / 69.53 ± 3.17</td> <!-- NorQuAD -->
+   <td class="no rc">42.42 ± 2.92 / 69.53 ± 3.17</td> <!-- NorQuAD -->
    <td>9.3.1</td> <!-- NorNE-nb version -->
    <td>9.3.1</td> <!-- NorNE-nn version -->
    <td>9.3.1</td> <!-- NoReC version -->
@@ -1500,7 +1500,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">32.73 ± 1.37 / 46.52 ± 1.86</td> <!-- NoReC -->
    <td class="no la">36.41 ± 8.89 / 65.20 ± 6.41</td> <!-- ScaLA-nb -->
    <td class="no la">30.37 ± 5.50 / 62.12 ± 5.66</td> <!-- ScaLA-nn -->
-   <td class="no qa">37.71 ± 1.11 / 49.90 ± 1.47</td> <!-- NorQuAD -->
+   <td class="no rc">37.71 ± 1.11 / 49.90 ± 1.47</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -1521,7 +1521,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">55.12 ± 5.10 / 66.55 ± 5.07</td> <!-- NoReC -->
    <td class="no la">27.12 ± 4.90 / 54.26 ± 6.80</td> <!-- ScaLA-nb -->
    <td class="no la">6.82 ± 5.06 / 46.18 ± 4.14</td> <!-- ScaLA-nn -->
-   <td class="no qa">38.50 ± 3.93 / 69.99 ± 2.23</td> <!-- NorQuAD -->
+   <td class="no rc">38.50 ± 3.93 / 69.99 ± 2.23</td> <!-- NorQuAD -->
    <td>12.7.0</td> <!-- NorNE-nb version -->
    <td>12.7.0</td> <!-- NorNE-nn version -->
    <td>12.7.0</td> <!-- NoReC version -->
@@ -1542,7 +1542,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">49.40 ± 3.40 / 60.71 ± 3.33</td> <!-- NoReC -->
    <td class="no la">24.12 ± 3.24 / 59.38 ± 2.25</td> <!-- ScaLA-nb -->
    <td class="no la">13.20 ± 3.16 / 54.42 ± 3.04</td> <!-- ScaLA-nn -->
-   <td class="no qa">47.93 ± 3.46 / 69.52 ± 3.06</td> <!-- NorQuAD -->
+   <td class="no rc">47.93 ± 3.46 / 69.52 ± 3.06</td> <!-- NorQuAD -->
    <td>10.0.1</td> <!-- NorNE-nb version -->
    <td>10.0.1</td> <!-- NorNE-nn version -->
    <td>10.0.1</td> <!-- NoReC version -->
@@ -1563,7 +1563,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">49.19 ± 1.64 / 63.36 ± 1.52</td> <!-- NoReC -->
    <td class="no la">15.17 ± 2.64 / 50.25 ± 4.51</td> <!-- ScaLA-nb -->
    <td class="no la">10.78 ± 1.99 / 50.08 ± 4.20</td> <!-- ScaLA-nn -->
-   <td class="no qa">48.99 ± 2.91 / 73.08 ± 2.26</td> <!-- NorQuAD -->
+   <td class="no rc">48.99 ± 2.91 / 73.08 ± 2.26</td> <!-- NorQuAD -->
    <td>10.0.1</td> <!-- NorNE-nb version -->
    <td>10.0.1</td> <!-- NorNE-nn version -->
    <td>10.0.1</td> <!-- NoReC version -->
@@ -1584,7 +1584,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">54.74 ± 3.71 / 67.81 ± 2.80</td> <!-- NoReC -->
    <td class="no la">14.51 ± 1.97 / 40.94 ± 1.63</td> <!-- ScaLA-nb -->
    <td class="no la">5.38 ± 4.69 / 37.62 ± 2.92</td> <!-- ScaLA-nn -->
-   <td class="no qa">42.83 ± 3.31 / 69.15 ± 2.50</td> <!-- NorQuAD -->
+   <td class="no rc">42.83 ± 3.31 / 69.15 ± 2.50</td> <!-- NorQuAD -->
    <td>9.3.2</td> <!-- NorNE-nb version -->
    <td>9.3.2</td> <!-- NorNE-nn version -->
    <td>9.3.2</td> <!-- NoReC version -->
@@ -1605,7 +1605,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">52.91 ± 2.29 / 64.64 ± 3.28</td> <!-- NoReC -->
    <td class="no la">27.55 ± 12.16 / 53.28 ± 8.27</td> <!-- ScaLA-nb -->
    <td class="no la">15.20 ± 9.06 / 51.91 ± 4.95</td> <!-- ScaLA-nn -->
-   <td class="no qa">12.36 ± 8.54 / 17.38 ± 11.78</td> <!-- NorQuAD -->
+   <td class="no rc">12.36 ± 8.54 / 17.38 ± 11.78</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -1626,7 +1626,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">56.37 ± 4.27 / 69.55 ± 4.52</td> <!-- NoReC -->
    <td class="no la">6.04 ± 5.92 / 36.34 ± 3.96</td> <!-- ScaLA-nb -->
    <td class="no la">-0.02 ± 0.04 / 33.47 ± 0.88</td> <!-- ScaLA-nn -->
-   <td class="no qa">48.85 ± 4.11 / 70.75 ± 3.73</td> <!-- NorQuAD -->
+   <td class="no rc">48.85 ± 4.11 / 70.75 ± 3.73</td> <!-- NorQuAD -->
    <td>12.5.2</td> <!-- NorNE-nb version -->
    <td>12.5.2</td> <!-- NorNE-nn version -->
    <td>12.3.1</td> <!-- NoReC version -->
@@ -1647,7 +1647,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">54.93 ± 3.49 / 68.45 ± 2.61</td> <!-- NoReC -->
    <td class="no la">9.00 ± 2.87 / 37.53 ± 2.91</td> <!-- ScaLA-nb -->
    <td class="no la">5.26 ± 3.15 / 39.01 ± 3.54</td> <!-- ScaLA-nn -->
-   <td class="no qa">45.95 ± 3.12 / 68.00 ± 3.07</td> <!-- NorQuAD -->
+   <td class="no rc">45.95 ± 3.12 / 68.00 ± 3.07</td> <!-- NorQuAD -->
    <td>10.0.1</td> <!-- NorNE-nb version -->
    <td>10.0.1</td> <!-- NorNE-nn version -->
    <td>10.0.1</td> <!-- NoReC version -->
@@ -1668,7 +1668,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">54.04 ± 2.91 / 66.46 ± 2.59</td> <!-- NoReC -->
    <td class="no la">16.75 ± 4.54 / 49.11 ± 4.45</td> <!-- ScaLA-nb -->
    <td class="no la">13.00 ± 4.46 / 49.33 ± 2.69</td> <!-- ScaLA-nn -->
-   <td class="no qa">34.48 ± 2.13 / 65.43 ± 2.07</td> <!-- NorQuAD -->
+   <td class="no rc">34.48 ± 2.13 / 65.43 ± 2.07</td> <!-- NorQuAD -->
    <td>9.3.2</td> <!-- NorNE-nb version -->
    <td>9.3.2</td> <!-- NorNE-nn version -->
    <td>9.3.2</td> <!-- NoReC version -->
@@ -1689,7 +1689,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">50.60 ± 4.90 / 66.76 ± 3.04</td> <!-- NoReC -->
    <td class="no la">18.09 ± 2.04 / 52.56 ± 2.60</td> <!-- ScaLA-nb -->
    <td class="no la">12.25 ± 2.18 / 50.79 ± 2.42</td> <!-- ScaLA-nn -->
-   <td class="no qa">38.34 ± 2.39 / 69.54 ± 1.96</td> <!-- NorQuAD -->
+   <td class="no rc">38.34 ± 2.39 / 69.54 ± 1.96</td> <!-- NorQuAD -->
    <td>12.6.1</td> <!-- NorNE-nb version -->
    <td>12.6.1</td> <!-- NorNE-nn version -->
    <td>12.6.1</td> <!-- NoReC version -->
@@ -1710,7 +1710,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">47.58 ± 1.91 / 64.35 ± 1.95</td> <!-- NoReC -->
    <td class="no la">10.52 ± 4.67 / 46.13 ± 6.95</td> <!-- ScaLA-nb -->
    <td class="no la">6.67 ± 4.53 / 40.61 ± 5.40</td> <!-- ScaLA-nn -->
-   <td class="no qa">49.89 ± 4.89 / 71.90 ± 4.09</td> <!-- NorQuAD -->
+   <td class="no rc">49.89 ± 4.89 / 71.90 ± 4.09</td> <!-- NorQuAD -->
    <td>12.7.0</td> <!-- NorNE-nb version -->
    <td>12.7.0</td> <!-- NorNE-nn version -->
    <td>12.7.0</td> <!-- NoReC version -->
@@ -1731,7 +1731,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">39.15 ± 3.29 / 53.00 ± 3.85</td> <!-- NoReC -->
    <td class="no la">21.39 ± 2.73 / 58.08 ± 1.93</td> <!-- ScaLA-nb -->
    <td class="no la">17.10 ± 3.43 / 57.00 ± 1.86</td> <!-- ScaLA-nn -->
-   <td class="no qa">35.32 ± 1.71 / 47.41 ± 2.25</td> <!-- NorQuAD -->
+   <td class="no rc">35.32 ± 1.71 / 47.41 ± 2.25</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -1752,7 +1752,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">53.41 ± 1.46 / 69.49 ± 1.05</td> <!-- NoReC -->
    <td class="no la">-1.16 ± 1.31 / 33.56 ± 0.43</td> <!-- ScaLA-nb -->
    <td class="no la">0.30 ± 0.71 / 34.08 ± 0.32</td> <!-- ScaLA-nn -->
-   <td class="no qa">49.15 ± 2.79 / 76.77 ± 1.59</td> <!-- NorQuAD -->
+   <td class="no rc">49.15 ± 2.79 / 76.77 ± 1.59</td> <!-- NorQuAD -->
    <td>12.0.0</td> <!-- NorNE-nb version -->
    <td>12.0.0</td> <!-- NorNE-nn version -->
    <td>12.0.0</td> <!-- NoReC version -->
@@ -1773,7 +1773,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">52.70 ± 4.58 / 66.82 ± 3.41</td> <!-- NoReC -->
    <td class="no la">14.87 ± 3.37 / 40.83 ± 1.91</td> <!-- ScaLA-nb -->
    <td class="no la">2.48 ± 3.31 / 35.61 ± 1.83</td> <!-- ScaLA-nn -->
-   <td class="no qa">41.43 ± 3.34 / 67.26 ± 2.73</td> <!-- NorQuAD -->
+   <td class="no rc">41.43 ± 3.34 / 67.26 ± 2.73</td> <!-- NorQuAD -->
    <td>9.3.1</td> <!-- NorNE-nb version -->
    <td>9.3.1</td> <!-- NorNE-nn version -->
    <td>9.3.1</td> <!-- NoReC version -->
@@ -1794,7 +1794,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">48.03 ± 1.71 / 65.89 ± 1.68</td> <!-- NoReC -->
    <td class="no la">22.65 ± 3.80 / 51.83 ± 5.03</td> <!-- ScaLA-nb -->
    <td class="no la">17.10 ± 4.78 / 49.03 ± 6.45</td> <!-- ScaLA-nn -->
-   <td class="no qa">44.72 ± 4.47 / 68.08 ± 4.22</td> <!-- NorQuAD -->
+   <td class="no rc">44.72 ± 4.47 / 68.08 ± 4.22</td> <!-- NorQuAD -->
    <td>12.7.0</td> <!-- NorNE-nb version -->
    <td>12.7.0</td> <!-- NorNE-nn version -->
    <td>12.7.0</td> <!-- NoReC version -->
@@ -1815,7 +1815,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">40.20 ± 1.56 / 54.68 ± 2.46</td> <!-- NoReC -->
    <td class="no la">24.45 ± 2.21 / 58.75 ± 1.80</td> <!-- ScaLA-nb -->
    <td class="no la">19.18 ± 3.55 / 57.93 ± 2.05</td> <!-- ScaLA-nn -->
-   <td class="no qa">30.69 ± 1.64 / 42.59 ± 1.94</td> <!-- NorQuAD -->
+   <td class="no rc">30.69 ± 1.64 / 42.59 ± 1.94</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -1836,7 +1836,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">53.06 ± 4.92 / 67.05 ± 4.22</td> <!-- NoReC -->
    <td class="no la">10.27 ± 5.84 / 43.06 ± 3.15</td> <!-- ScaLA-nb -->
    <td class="no la">8.06 ± 3.56 / 41.59 ± 3.99</td> <!-- ScaLA-nn -->
-   <td class="no qa">40.64 ± 2.58 / 66.46 ± 2.62</td> <!-- NorQuAD -->
+   <td class="no rc">40.64 ± 2.58 / 66.46 ± 2.62</td> <!-- NorQuAD -->
    <td>9.3.0</td> <!-- NorNE-nb version -->
    <td>9.3.0</td> <!-- NorNE-nn version -->
    <td>9.3.0</td> <!-- NoReC version -->
@@ -1857,7 +1857,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">55.87 ± 5.21 / 68.97 ± 3.95</td> <!-- NoReC -->
    <td class="no la">2.99 ± 3.04 / 34.16 ± 1.10</td> <!-- ScaLA-nb -->
    <td class="no la">-1.29 ± 2.53 / 33.32 ± 0.91</td> <!-- ScaLA-nn -->
-   <td class="no qa">44.62 ± 4.06 / 68.17 ± 3.48</td> <!-- NorQuAD -->
+   <td class="no rc">44.62 ± 4.06 / 68.17 ± 3.48</td> <!-- NorQuAD -->
    <td>10.0.1</td> <!-- NorNE-nb version -->
    <td>10.0.1</td> <!-- NorNE-nn version -->
    <td>10.0.1</td> <!-- NoReC version -->
@@ -1878,7 +1878,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">44.46 ± 4.10 / 52.31 ± 4.53</td> <!-- NoReC -->
    <td class="no la">23.99 ± 5.54 / 60.60 ± 2.74</td> <!-- ScaLA-nb -->
    <td class="no la">11.60 ± 3.18 / 53.40 ± 2.75</td> <!-- ScaLA-nn -->
-   <td class="no qa">47.02 ± 3.37 / 69.07 ± 2.64</td> <!-- NorQuAD -->
+   <td class="no rc">47.02 ± 3.37 / 69.07 ± 2.64</td> <!-- NorQuAD -->
    <td>10.0.1</td> <!-- NorNE-nb version -->
    <td>10.0.1</td> <!-- NorNE-nn version -->
    <td>10.0.1</td> <!-- NoReC version -->
@@ -1899,7 +1899,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">53.24 ± 4.75 / 67.94 ± 3.75</td> <!-- NoReC -->
    <td class="no la">11.96 ± 2.46 / 37.26 ± 1.15</td> <!-- ScaLA-nb -->
    <td class="no la">2.50 ± 4.21 / 35.26 ± 1.79</td> <!-- ScaLA-nn -->
-   <td class="no qa">39.21 ± 3.48 / 64.09 ± 3.49</td> <!-- NorQuAD -->
+   <td class="no rc">39.21 ± 3.48 / 64.09 ± 3.49</td> <!-- NorQuAD -->
    <td>9.3.1</td> <!-- NorNE-nb version -->
    <td>9.3.1</td> <!-- NorNE-nn version -->
    <td>9.3.1</td> <!-- NoReC version -->
@@ -1920,7 +1920,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">56.07 ± 5.22 / 68.93 ± 4.07</td> <!-- NoReC -->
    <td class="no la">3.81 ± 3.09 / 34.47 ± 1.22</td> <!-- ScaLA-nb -->
    <td class="no la">-1.29 ± 2.53 / 33.32 ± 0.91</td> <!-- ScaLA-nn -->
-   <td class="no qa">44.98 ± 4.12 / 68.18 ± 3.39</td> <!-- NorQuAD -->
+   <td class="no rc">44.98 ± 4.12 / 68.18 ± 3.39</td> <!-- NorQuAD -->
    <td>10.0.1</td> <!-- NorNE-nb version -->
    <td>10.0.1</td> <!-- NorNE-nn version -->
    <td>10.0.1</td> <!-- NoReC version -->
@@ -1941,7 +1941,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">48.23 ± 3.31 / 65.51 ± 3.01</td> <!-- NoReC -->
    <td class="no la">8.53 ± 3.72 / 38.61 ± 3.22</td> <!-- ScaLA-nb -->
    <td class="no la">6.65 ± 1.40 / 39.32 ± 2.51</td> <!-- ScaLA-nn -->
-   <td class="no qa">46.89 ± 3.29 / 70.96 ± 2.84</td> <!-- NorQuAD -->
+   <td class="no rc">46.89 ± 3.29 / 70.96 ± 2.84</td> <!-- NorQuAD -->
    <td>12.5.2</td> <!-- NorNE-nb version -->
    <td>12.5.2</td> <!-- NorNE-nn version -->
    <td>12.3.2</td> <!-- NoReC version -->
@@ -1962,7 +1962,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">46.74 ± 5.96 / 60.25 ± 6.04</td> <!-- NoReC -->
    <td class="no la">8.02 ± 12.19 / 50.30 ± 7.19</td> <!-- ScaLA-nb -->
    <td class="no la">17.04 ± 13.78 / 56.87 ± 7.06</td> <!-- ScaLA-nn -->
-   <td class="no qa">29.26 ± 1.27 / 42.50 ± 1.17</td> <!-- NorQuAD -->
+   <td class="no rc">29.26 ± 1.27 / 42.50 ± 1.17</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -1983,7 +1983,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">38.70 ± 2.53 / 50.88 ± 3.38</td> <!-- NoReC -->
    <td class="no la">39.13 ± 2.97 / 67.97 ± 1.68</td> <!-- ScaLA-nb -->
    <td class="no la">24.13 ± 6.88 / 60.76 ± 3.29</td> <!-- ScaLA-nn -->
-   <td class="no qa">19.04 ± 4.63 / 27.73 ± 6.70</td> <!-- NorQuAD -->
+   <td class="no rc">19.04 ± 4.63 / 27.73 ± 6.70</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -2004,7 +2004,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">41.84 ± 2.46 / 56.79 ± 2.95</td> <!-- NoReC -->
    <td class="no la">19.97 ± 3.99 / 47.40 ± 4.84</td> <!-- ScaLA-nb -->
    <td class="no la">15.61 ± 4.20 / 43.40 ± 4.90</td> <!-- ScaLA-nn -->
-   <td class="no qa">50.91 ± 4.42 / 73.43 ± 3.55</td> <!-- NorQuAD -->
+   <td class="no rc">50.91 ± 4.42 / 73.43 ± 3.55</td> <!-- NorQuAD -->
    <td>12.10.5</td> <!-- NorNE-nb version -->
    <td>12.10.5</td> <!-- NorNE-nn version -->
    <td>12.10.5</td> <!-- NoReC version -->
@@ -2025,7 +2025,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">50.41 ± 5.49 / 64.49 ± 4.37</td> <!-- NoReC -->
    <td class="no la">15.74 ± 4.15 / 41.16 ± 2.21</td> <!-- ScaLA-nb -->
    <td class="no la">2.23 ± 4.69 / 34.70 ± 1.39</td> <!-- ScaLA-nn -->
-   <td class="no qa">39.81 ± 2.81 / 65.65 ± 2.64</td> <!-- NorQuAD -->
+   <td class="no rc">39.81 ± 2.81 / 65.65 ± 2.64</td> <!-- NorQuAD -->
    <td>9.3.2</td> <!-- NorNE-nb version -->
    <td>9.3.2</td> <!-- NorNE-nn version -->
    <td>9.3.2</td> <!-- NoReC version -->
@@ -2046,7 +2046,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">39.21 ± 5.64 / 56.54 ± 6.43</td> <!-- NoReC -->
    <td class="no la">20.51 ± 4.43 / 52.48 ± 5.96</td> <!-- ScaLA-nb -->
    <td class="no la">11.66 ± 4.10 / 48.13 ± 6.13</td> <!-- ScaLA-nn -->
-   <td class="no qa">51.57 ± 3.87 / 73.95 ± 3.51</td> <!-- NorQuAD -->
+   <td class="no rc">51.57 ± 3.87 / 73.95 ± 3.51</td> <!-- NorQuAD -->
    <td>12.5.2</td> <!-- NorNE-nb version -->
    <td>12.5.2</td> <!-- NorNE-nn version -->
    <td>12.4.0</td> <!-- NoReC version -->
@@ -2067,7 +2067,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">38.17 ± 2.21 / 50.44 ± 3.11</td> <!-- NoReC -->
    <td class="no la">39.49 ± 3.36 / 68.13 ± 2.13</td> <!-- ScaLA-nb -->
    <td class="no la">22.17 ± 7.22 / 60.16 ± 3.80</td> <!-- ScaLA-nn -->
-   <td class="no qa">19.04 ± 4.63 / 27.73 ± 6.70</td> <!-- NorQuAD -->
+   <td class="no rc">19.04 ± 4.63 / 27.73 ± 6.70</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -2088,7 +2088,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">17.93 ± 14.48 / 34.24 ± 10.14</td> <!-- NoReC -->
    <td class="no la">43.46 ± 17.47 / 66.52 ± 12.26</td> <!-- ScaLA-nb -->
    <td class="no la">10.97 ± 10.84 / 43.47 ± 9.81</td> <!-- ScaLA-nn -->
-   <td class="no qa">43.74 ± 2.17 / 59.80 ± 1.86</td> <!-- NorQuAD -->
+   <td class="no rc">43.74 ± 2.17 / 59.80 ± 1.86</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -2109,7 +2109,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">51.85 ± 3.51 / 64.28 ± 2.54</td> <!-- NoReC -->
    <td class="no la">0.66 ± 1.29 / 33.42 ± 0.80</td> <!-- ScaLA-nb -->
    <td class="no la">0.53 ± 1.05 / 33.42 ± 0.73</td> <!-- ScaLA-nn -->
-   <td class="no qa">43.22 ± 2.24 / 68.55 ± 2.42</td> <!-- NorQuAD -->
+   <td class="no rc">43.22 ± 2.24 / 68.55 ± 2.42</td> <!-- NorQuAD -->
    <td>12.5.2</td> <!-- NorNE-nb version -->
    <td>12.5.2</td> <!-- NorNE-nn version -->
    <td>12.3.2</td> <!-- NoReC version -->
@@ -2130,7 +2130,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">39.63 ± 1.06 / 49.23 ± 2.13</td> <!-- NoReC -->
    <td class="no la">45.75 ± 3.27 / 71.33 ± 1.67</td> <!-- ScaLA-nb -->
    <td class="no la">33.74 ± 2.91 / 63.89 ± 3.31</td> <!-- ScaLA-nn -->
-   <td class="no qa">5.35 ± 3.79 / 7.65 ± 5.41</td> <!-- NorQuAD -->
+   <td class="no rc">5.35 ± 3.79 / 7.65 ± 5.41</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -2151,7 +2151,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">47.25 ± 4.11 / 64.53 ± 3.71</td> <!-- NoReC -->
    <td class="no la">8.66 ± 4.12 / 38.87 ± 3.40</td> <!-- ScaLA-nb -->
    <td class="no la">6.80 ± 1.59 / 39.72 ± 2.50</td> <!-- ScaLA-nn -->
-   <td class="no qa">46.86 ± 3.27 / 70.86 ± 2.79</td> <!-- NorQuAD -->
+   <td class="no rc">46.86 ± 3.27 / 70.86 ± 2.79</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -2172,7 +2172,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">50.94 ± 1.41 / 66.55 ± 1.06</td> <!-- NoReC -->
    <td class="no la">8.19 ± 1.95 / 45.17 ± 3.69</td> <!-- ScaLA-nb -->
    <td class="no la">5.55 ± 1.71 / 48.92 ± 2.94</td> <!-- ScaLA-nn -->
-   <td class="no qa">41.35 ± 2.33 / 69.72 ± 2.52</td> <!-- NorQuAD -->
+   <td class="no rc">41.35 ± 2.33 / 69.72 ± 2.52</td> <!-- NorQuAD -->
    <td>12.5.2</td> <!-- NorNE-nb version -->
    <td>12.5.2</td> <!-- NorNE-nn version -->
    <td>12.3.2</td> <!-- NoReC version -->
@@ -2193,7 +2193,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">48.80 ± 4.56 / 63.38 ± 3.06</td> <!-- NoReC -->
    <td class="no la">19.53 ± 5.49 / 51.96 ± 4.90</td> <!-- ScaLA-nb -->
    <td class="no la">9.83 ± 4.57 / 47.95 ± 2.22</td> <!-- ScaLA-nn -->
-   <td class="no qa">30.27 ± 2.28 / 62.04 ± 2.19</td> <!-- NorQuAD -->
+   <td class="no rc">30.27 ± 2.28 / 62.04 ± 2.19</td> <!-- NorQuAD -->
    <td>12.5.2</td> <!-- NorNE-nb version -->
    <td>12.5.2</td> <!-- NorNE-nn version -->
    <td>12.5.2</td> <!-- NoReC version -->
@@ -2214,7 +2214,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">49.05 ± 2.73 / 63.94 ± 2.42</td> <!-- NoReC -->
    <td class="no la">14.37 ± 2.18 / 47.80 ± 4.36</td> <!-- ScaLA-nb -->
    <td class="no la">9.96 ± 1.34 / 48.97 ± 3.77</td> <!-- ScaLA-nn -->
-   <td class="no qa">44.07 ± 3.40 / 68.49 ± 2.97</td> <!-- NorQuAD -->
+   <td class="no rc">44.07 ± 3.40 / 68.49 ± 2.97</td> <!-- NorQuAD -->
    <td>12.5.3</td> <!-- NorNE-nb version -->
    <td>12.5.3</td> <!-- NorNE-nn version -->
    <td>12.5.3</td> <!-- NoReC version -->
@@ -2235,7 +2235,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">48.86 ± 2.54 / 64.32 ± 2.46</td> <!-- NoReC -->
    <td class="no la">9.87 ± 1.78 / 44.29 ± 3.62</td> <!-- ScaLA-nb -->
    <td class="no la">6.90 ± 1.65 / 48.96 ± 3.09</td> <!-- ScaLA-nn -->
-   <td class="no qa">41.27 ± 3.42 / 69.36 ± 3.54</td> <!-- NorQuAD -->
+   <td class="no rc">41.27 ± 3.42 / 69.36 ± 3.54</td> <!-- NorQuAD -->
    <td>12.10.4</td> <!-- NorNE-nb version -->
    <td>12.10.4</td> <!-- NorNE-nn version -->
    <td>12.10.4</td> <!-- NoReC version -->
@@ -2256,7 +2256,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">37.02 ± 1.09 / 47.88 ± 2.50</td> <!-- NoReC -->
    <td class="no la">35.42 ± 12.32 / 66.30 ± 6.78</td> <!-- ScaLA-nb -->
    <td class="no la">6.87 ± 6.85 / 50.70 ± 3.62</td> <!-- ScaLA-nn -->
-   <td class="no qa">25.98 ± 2.87 / 36.16 ± 3.35</td> <!-- NorQuAD -->
+   <td class="no rc">25.98 ± 2.87 / 36.16 ± 3.35</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -2277,7 +2277,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">49.92 ± 1.44 / 63.75 ± 1.45</td> <!-- NoReC -->
    <td class="no la">7.93 ± 4.24 / 50.87 ± 2.29</td> <!-- ScaLA-nb -->
    <td class="no la">5.06 ± 0.83 / 51.44 ± 1.05</td> <!-- ScaLA-nn -->
-   <td class="no qa">22.46 ± 5.97 / 34.67 ± 8.87</td> <!-- NorQuAD -->
+   <td class="no rc">22.46 ± 5.97 / 34.67 ± 8.87</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -2298,7 +2298,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">38.52 ± 2.49 / 53.36 ± 2.80</td> <!-- NoReC -->
    <td class="no la">0.00 ± 0.00 / 33.41 ± 0.30</td> <!-- ScaLA-nb -->
    <td class="no la">0.00 ± 0.00 / 33.86 ± 0.33</td> <!-- ScaLA-nn -->
-   <td class="no qa">40.52 ± 2.89 / 66.67 ± 3.21</td> <!-- NorQuAD -->
+   <td class="no rc">40.52 ± 2.89 / 66.67 ± 3.21</td> <!-- NorQuAD -->
    <td>12.10.4</td> <!-- NorNE-nb version -->
    <td>12.10.4</td> <!-- NorNE-nn version -->
    <td>12.10.4</td> <!-- NoReC version -->
@@ -2319,7 +2319,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">47.78 ± 3.19 / 57.76 ± 2.55</td> <!-- NoReC -->
    <td class="no la">0.91 ± 1.78 / 33.51 ± 0.85</td> <!-- ScaLA-nb -->
    <td class="no la">1.24 ± 1.66 / 33.71 ± 0.94</td> <!-- ScaLA-nn -->
-   <td class="no qa">47.76 ± 2.93 / 70.99 ± 2.39</td> <!-- NorQuAD -->
+   <td class="no rc">47.76 ± 2.93 / 70.99 ± 2.39</td> <!-- NorQuAD -->
    <td>9.3.2</td> <!-- NorNE-nb version -->
    <td>9.3.2</td> <!-- NorNE-nn version -->
    <td>9.3.2</td> <!-- NoReC version -->
@@ -2340,7 +2340,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">55.53 ± 1.05 / 68.89 ± 1.16</td> <!-- NoReC -->
    <td class="no la">36.01 ± 2.02 / 64.39 ± 1.49</td> <!-- ScaLA-nb -->
    <td class="no la">14.99 ± 8.03 / 54.08 ± 5.71</td> <!-- ScaLA-nn -->
-   <td class="no qa">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- NorQuAD -->
+   <td class="no rc">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -2361,7 +2361,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">32.32 ± 2.30 / 47.12 ± 2.85</td> <!-- NoReC -->
    <td class="no la">36.15 ± 1.99 / 66.57 ± 1.11</td> <!-- ScaLA-nb -->
    <td class="no la">30.17 ± 1.72 / 63.98 ± 1.36</td> <!-- ScaLA-nn -->
-   <td class="no qa">19.71 ± 1.41 / 30.26 ± 1.56</td> <!-- NorQuAD -->
+   <td class="no rc">19.71 ± 1.41 / 30.26 ± 1.56</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -2382,7 +2382,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">48.64 ± 2.14 / 66.06 ± 1.47</td> <!-- NoReC -->
    <td class="no la">10.31 ± 3.46 / 43.68 ± 5.10</td> <!-- ScaLA-nb -->
    <td class="no la">1.11 ± 2.48 / 36.52 ± 2.31</td> <!-- ScaLA-nn -->
-   <td class="no qa">42.20 ± 3.02 / 65.18 ± 2.86</td> <!-- NorQuAD -->
+   <td class="no rc">42.20 ± 3.02 / 65.18 ± 2.86</td> <!-- NorQuAD -->
    <td>11.0.0</td> <!-- NorNE-nb version -->
    <td>11.0.0</td> <!-- NorNE-nn version -->
    <td>11.0.0</td> <!-- NoReC version -->
@@ -2403,7 +2403,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">50.39 ± 1.38 / 66.42 ± 1.20</td> <!-- NoReC -->
    <td class="no la">0.99 ± 1.03 / 33.56 ± 0.25</td> <!-- ScaLA-nb -->
    <td class="no la">1.27 ± 1.30 / 34.04 ± 0.45</td> <!-- ScaLA-nn -->
-   <td class="no qa">47.95 ± 3.19 / 72.60 ± 2.57</td> <!-- NorQuAD -->
+   <td class="no rc">47.95 ± 3.19 / 72.60 ± 2.57</td> <!-- NorQuAD -->
    <td>11.0.0</td> <!-- NorNE-nb version -->
    <td>11.0.0</td> <!-- NorNE-nn version -->
    <td>11.0.0</td> <!-- NoReC version -->
@@ -2424,7 +2424,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">33.16 ± 2.13 / 46.93 ± 2.66</td> <!-- NoReC -->
    <td class="no la">36.10 ± 2.45 / 66.11 ± 1.85</td> <!-- ScaLA-nb -->
    <td class="no la">30.10 ± 2.50 / 64.29 ± 1.69</td> <!-- ScaLA-nn -->
-   <td class="no qa">19.26 ± 1.57 / 30.04 ± 2.13</td> <!-- NorQuAD -->
+   <td class="no rc">19.26 ± 1.57 / 30.04 ± 2.13</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -2445,7 +2445,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">41.82 ± 3.69 / 53.06 ± 5.15</td> <!-- NoReC -->
    <td class="no la">25.82 ± 4.43 / 59.85 ± 4.07</td> <!-- ScaLA-nb -->
    <td class="no la">20.16 ± 3.43 / 53.83 ± 5.61</td> <!-- ScaLA-nn -->
-   <td class="no qa">52.68 ± 3.58 / 75.16 ± 2.44</td> <!-- NorQuAD -->
+   <td class="no rc">52.68 ± 3.58 / 75.16 ± 2.44</td> <!-- NorQuAD -->
    <td>12.9.1</td> <!-- NorNE-nb version -->
    <td>12.9.1</td> <!-- NorNE-nn version -->
    <td>12.9.1</td> <!-- NoReC version -->
@@ -2466,7 +2466,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">33.19 ± 1.75 / 46.63 ± 2.55</td> <!-- NoReC -->
    <td class="no la">32.60 ± 6.93 / 65.19 ± 3.31</td> <!-- ScaLA-nb -->
    <td class="no la">24.97 ± 6.47 / 61.39 ± 3.34</td> <!-- ScaLA-nn -->
-   <td class="no qa">19.93 ± 1.76 / 30.69 ± 2.36</td> <!-- NorQuAD -->
+   <td class="no rc">19.93 ± 1.76 / 30.69 ± 2.36</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -2487,7 +2487,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">32.66 ± 1.96 / 46.26 ± 3.19</td> <!-- NoReC -->
    <td class="no la">33.65 ± 6.63 / 65.22 ± 4.03</td> <!-- ScaLA-nb -->
    <td class="no la">29.07 ± 2.20 / 63.35 ± 1.54</td> <!-- ScaLA-nn -->
-   <td class="no qa">19.29 ± 1.27 / 29.94 ± 1.81</td> <!-- NorQuAD -->
+   <td class="no rc">19.29 ± 1.27 / 29.94 ± 1.81</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -2508,7 +2508,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">44.61 ± 2.28 / 62.22 ± 2.10</td> <!-- NoReC -->
    <td class="no la">12.10 ± 4.22 / 43.27 ± 5.24</td> <!-- ScaLA-nb -->
    <td class="no la">9.30 ± 0.99 / 46.11 ± 3.47</td> <!-- ScaLA-nn -->
-   <td class="no qa">45.15 ± 3.72 / 68.61 ± 3.30</td> <!-- NorQuAD -->
+   <td class="no rc">45.15 ± 3.72 / 68.61 ± 3.30</td> <!-- NorQuAD -->
    <td>12.10.4</td> <!-- NorNE-nb version -->
    <td>12.10.4</td> <!-- NorNE-nn version -->
    <td>12.10.4</td> <!-- NoReC version -->
@@ -2529,7 +2529,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">44.05 ± 2.51 / 61.80 ± 2.28</td> <!-- NoReC -->
    <td class="no la">11.60 ± 4.10 / 43.01 ± 5.07</td> <!-- ScaLA-nb -->
    <td class="no la">9.26 ± 1.14 / 46.28 ± 3.60</td> <!-- ScaLA-nn -->
-   <td class="no qa">45.23 ± 3.73 / 68.68 ± 3.29</td> <!-- NorQuAD -->
+   <td class="no rc">45.23 ± 3.73 / 68.68 ± 3.29</td> <!-- NorQuAD -->
    <td>12.5.2</td> <!-- NorNE-nb version -->
    <td>12.5.2</td> <!-- NorNE-nn version -->
    <td>12.5.1</td> <!-- NoReC version -->
@@ -2550,7 +2550,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">49.93 ± 1.46 / 62.37 ± 2.34</td> <!-- NoReC -->
    <td class="no la">38.26 ± 7.56 / 66.01 ± 3.69</td> <!-- ScaLA-nb -->
    <td class="no la">25.17 ± 5.32 / 61.27 ± 3.01</td> <!-- ScaLA-nn -->
-   <td class="no qa">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- NorQuAD -->
+   <td class="no rc">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -2571,7 +2571,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">38.93 ± 3.56 / 57.45 ± 3.77</td> <!-- NoReC -->
    <td class="no la">8.65 ± 3.33 / 47.18 ± 3.98</td> <!-- ScaLA-nb -->
    <td class="no la">5.92 ± 1.58 / 47.50 ± 3.58</td> <!-- ScaLA-nn -->
-   <td class="no qa">42.32 ± 2.80 / 69.24 ± 2.68</td> <!-- NorQuAD -->
+   <td class="no rc">42.32 ± 2.80 / 69.24 ± 2.68</td> <!-- NorQuAD -->
    <td>12.10.5</td> <!-- NorNE-nb version -->
    <td>12.10.5</td> <!-- NorNE-nn version -->
    <td>12.10.4</td> <!-- NoReC version -->
@@ -2592,7 +2592,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">28.14 ± 1.90 / 49.76 ± 1.59</td> <!-- NoReC -->
    <td class="no la">14.01 ± 2.15 / 56.43 ± 1.08</td> <!-- ScaLA-nb -->
    <td class="no la">10.15 ± 1.06 / 54.56 ± 0.71</td> <!-- ScaLA-nn -->
-   <td class="no qa">51.08 ± 2.83 / 74.34 ± 1.55</td> <!-- NorQuAD -->
+   <td class="no rc">51.08 ± 2.83 / 74.34 ± 1.55</td> <!-- NorQuAD -->
    <td>12.10.0</td> <!-- NorNE-nb version -->
    <td>12.10.0</td> <!-- NorNE-nn version -->
    <td>12.10.0</td> <!-- NoReC version -->
@@ -2613,7 +2613,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">29.37 ± 2.58 / 44.05 ± 3.33</td> <!-- NoReC -->
    <td class="no la">31.50 ± 6.37 / 64.62 ± 3.29</td> <!-- ScaLA-nb -->
    <td class="no la">24.06 ± 7.24 / 61.01 ± 3.82</td> <!-- ScaLA-nn -->
-   <td class="no qa">18.62 ± 0.81 / 29.69 ± 1.81</td> <!-- NorQuAD -->
+   <td class="no rc">18.62 ± 0.81 / 29.69 ± 1.81</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -2634,7 +2634,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">52.16 ± 0.99 / 66.79 ± 0.98</td> <!-- NoReC -->
    <td class="no la">36.30 ± 6.44 / 65.52 ± 3.06</td> <!-- ScaLA-nb -->
    <td class="no la">14.21 ± 6.44 / 52.78 ± 5.69</td> <!-- ScaLA-nn -->
-   <td class="no qa">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- NorQuAD -->
+   <td class="no rc">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -2655,7 +2655,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">30.70 ± 2.63 / 43.77 ± 2.62</td> <!-- NoReC -->
    <td class="no la">34.24 ± 2.30 / 65.60 ± 1.50</td> <!-- ScaLA-nb -->
    <td class="no la">27.20 ± 2.61 / 62.87 ± 1.41</td> <!-- ScaLA-nn -->
-   <td class="no qa">16.44 ± 1.76 / 26.22 ± 2.65</td> <!-- NorQuAD -->
+   <td class="no rc">16.44 ± 1.76 / 26.22 ± 2.65</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -2676,7 +2676,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">36.27 ± 1.57 / 50.95 ± 1.70</td> <!-- NoReC -->
    <td class="no la">48.07 ± 5.64 / 72.00 ± 4.07</td> <!-- ScaLA-nb -->
    <td class="no la">29.81 ± 3.52 / 64.03 ± 2.35</td> <!-- ScaLA-nn -->
-   <td class="no qa">0.44 ± 0.41 / 1.08 ± 0.99</td> <!-- NorQuAD -->
+   <td class="no rc">0.44 ± 0.41 / 1.08 ± 0.99</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -2697,7 +2697,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">38.94 ± 2.59 / 53.58 ± 3.33</td> <!-- NoReC -->
    <td class="no la">30.32 ± 4.68 / 62.42 ± 3.11</td> <!-- ScaLA-nb -->
    <td class="no la">7.99 ± 3.34 / 53.24 ± 1.64</td> <!-- ScaLA-nn -->
-   <td class="no qa">24.02 ± 1.35 / 37.28 ± 1.24</td> <!-- NorQuAD -->
+   <td class="no rc">24.02 ± 1.35 / 37.28 ± 1.24</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -2718,7 +2718,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">44.46 ± 3.40 / 62.00 ± 2.71</td> <!-- NoReC -->
    <td class="no la">0.00 ± 0.00 / 33.41 ± 0.30</td> <!-- ScaLA-nb -->
    <td class="no la">0.00 ± 0.00 / 33.86 ± 0.33</td> <!-- ScaLA-nn -->
-   <td class="no qa">52.19 ± 2.88 / 74.97 ± 2.11</td> <!-- NorQuAD -->
+   <td class="no rc">52.19 ± 2.88 / 74.97 ± 2.11</td> <!-- NorQuAD -->
    <td>12.5.2</td> <!-- NorNE-nb version -->
    <td>12.5.2</td> <!-- NorNE-nn version -->
    <td>12.2.0</td> <!-- NoReC version -->
@@ -2739,7 +2739,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">33.88 ± 1.40 / 49.21 ± 1.98</td> <!-- NoReC -->
    <td class="no la">24.23 ± 1.83 / 58.89 ± 1.43</td> <!-- ScaLA-nb -->
    <td class="no la">18.18 ± 2.65 / 57.28 ± 1.84</td> <!-- ScaLA-nn -->
-   <td class="no qa">20.56 ± 1.82 / 30.08 ± 2.54</td> <!-- NorQuAD -->
+   <td class="no rc">20.56 ± 1.82 / 30.08 ± 2.54</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -2760,7 +2760,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">38.79 ± 2.56 / 53.72 ± 3.01</td> <!-- NoReC -->
    <td class="no la">17.06 ± 1.53 / 56.51 ± 2.06</td> <!-- ScaLA-nb -->
    <td class="no la">11.00 ± 1.00 / 53.26 ± 2.32</td> <!-- ScaLA-nn -->
-   <td class="no qa">35.74 ± 2.44 / 64.27 ± 2.42</td> <!-- NorQuAD -->
+   <td class="no rc">35.74 ± 2.44 / 64.27 ± 2.42</td> <!-- NorQuAD -->
    <td>9.2.0</td> <!-- NorNE-nb version -->
    <td>9.2.0</td> <!-- NorNE-nn version -->
    <td>9.2.0</td> <!-- NoReC version -->
@@ -2781,7 +2781,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">41.36 ± 3.50 / 58.47 ± 3.79</td> <!-- NoReC -->
    <td class="no la">6.52 ± 2.11 / 38.10 ± 2.56</td> <!-- ScaLA-nb -->
    <td class="no la">3.95 ± 2.52 / 42.37 ± 4.20</td> <!-- ScaLA-nn -->
-   <td class="no qa">38.93 ± 2.43 / 65.76 ± 3.07</td> <!-- NorQuAD -->
+   <td class="no rc">38.93 ± 2.43 / 65.76 ± 3.07</td> <!-- NorQuAD -->
    <td>9.3.1</td> <!-- NorNE-nb version -->
    <td>9.3.1</td> <!-- NorNE-nn version -->
    <td>9.3.1</td> <!-- NoReC version -->
@@ -2802,7 +2802,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">43.65 ± 1.98 / 60.88 ± 1.36</td> <!-- NoReC -->
    <td class="no la">14.09 ± 2.85 / 44.91 ± 3.95</td> <!-- ScaLA-nb -->
    <td class="no la">8.28 ± 1.82 / 47.22 ± 3.72</td> <!-- ScaLA-nn -->
-   <td class="no qa">37.23 ± 3.15 / 63.67 ± 2.98</td> <!-- NorQuAD -->
+   <td class="no rc">37.23 ± 3.15 / 63.67 ± 2.98</td> <!-- NorQuAD -->
    <td>9.3.1</td> <!-- NorNE-nb version -->
    <td>9.3.1</td> <!-- NorNE-nn version -->
    <td>9.3.1</td> <!-- NoReC version -->
@@ -2823,7 +2823,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">38.81 ± 2.67 / 56.39 ± 3.13</td> <!-- NoReC -->
    <td class="no la">14.16 ± 2.24 / 54.43 ± 2.61</td> <!-- ScaLA-nb -->
    <td class="no la">9.29 ± 2.65 / 50.59 ± 3.99</td> <!-- ScaLA-nn -->
-   <td class="no qa">32.75 ± 1.68 / 59.21 ± 2.11</td> <!-- NorQuAD -->
+   <td class="no rc">32.75 ± 1.68 / 59.21 ± 2.11</td> <!-- NorQuAD -->
    <td>9.2.0</td> <!-- NorNE-nb version -->
    <td>9.2.0</td> <!-- NorNE-nn version -->
    <td>9.2.0</td> <!-- NoReC version -->
@@ -2844,7 +2844,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">44.95 ± 3.19 / 61.88 ± 2.88</td> <!-- NoReC -->
    <td class="no la">0.00 ± 0.00 / 33.41 ± 0.30</td> <!-- ScaLA-nb -->
    <td class="no la">0.00 ± 0.00 / 33.86 ± 0.33</td> <!-- ScaLA-nn -->
-   <td class="no qa">43.88 ± 4.07 / 66.65 ± 4.20</td> <!-- NorQuAD -->
+   <td class="no rc">43.88 ± 4.07 / 66.65 ± 4.20</td> <!-- NorQuAD -->
    <td>12.5.2</td> <!-- NorNE-nb version -->
    <td>12.5.2</td> <!-- NorNE-nn version -->
    <td>12.1.0</td> <!-- NoReC version -->
@@ -2865,7 +2865,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">33.94 ± 3.74 / 47.96 ± 4.12</td> <!-- NoReC -->
    <td class="no la">9.56 ± 5.01 / 52.24 ± 2.78</td> <!-- ScaLA-nb -->
    <td class="no la">4.16 ± 2.97 / 50.07 ± 2.09</td> <!-- ScaLA-nn -->
-   <td class="no qa">22.84 ± 2.52 / 33.72 ± 3.11</td> <!-- NorQuAD -->
+   <td class="no rc">22.84 ± 2.52 / 33.72 ± 3.11</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -2886,7 +2886,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">37.19 ± 1.76 / 47.27 ± 2.85</td> <!-- NoReC -->
    <td class="no la">13.25 ± 6.73 / 48.39 ± 7.10</td> <!-- ScaLA-nb -->
    <td class="no la">7.96 ± 5.56 / 45.68 ± 6.73</td> <!-- ScaLA-nn -->
-   <td class="no qa">18.75 ± 3.84 / 30.21 ± 5.73</td> <!-- NorQuAD -->
+   <td class="no rc">18.75 ± 3.84 / 30.21 ± 5.73</td> <!-- NorQuAD -->
    <td>12.7.0</td> <!-- NorNE-nb version -->
    <td>12.7.0</td> <!-- NorNE-nn version -->
    <td>12.7.0</td> <!-- NoReC version -->
@@ -2907,7 +2907,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">49.00 ± 3.88 / 65.98 ± 2.95</td> <!-- NoReC -->
    <td class="no la">7.15 ± 2.14 / 40.83 ± 3.95</td> <!-- ScaLA-nb -->
    <td class="no la">7.98 ± 2.64 / 45.21 ± 4.95</td> <!-- ScaLA-nn -->
-   <td class="no qa">47.70 ± 5.32 / 68.04 ± 5.37</td> <!-- NorQuAD -->
+   <td class="no rc">47.70 ± 5.32 / 68.04 ± 5.37</td> <!-- NorQuAD -->
    <td>12.10.4</td> <!-- NorNE-nb version -->
    <td>12.10.4</td> <!-- NorNE-nn version -->
    <td>12.10.4</td> <!-- NoReC version -->
@@ -2928,7 +2928,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">36.56 ± 1.53 / 51.54 ± 2.45</td> <!-- NoReC -->
    <td class="no la">31.23 ± 6.86 / 63.55 ± 5.48</td> <!-- ScaLA-nb -->
    <td class="no la">5.40 ± 4.63 / 44.64 ± 6.37</td> <!-- ScaLA-nn -->
-   <td class="no qa">22.56 ± 0.95 / 34.52 ± 1.15</td> <!-- NorQuAD -->
+   <td class="no rc">22.56 ± 0.95 / 34.52 ± 1.15</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -2949,7 +2949,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">32.40 ± 1.48 / 44.59 ± 1.66</td> <!-- NoReC -->
    <td class="no la">41.65 ± 1.95 / 70.35 ± 0.97</td> <!-- ScaLA-nb -->
    <td class="no la">25.53 ± 2.31 / 62.04 ± 1.19</td> <!-- ScaLA-nn -->
-   <td class="no qa">5.41 ± 2.79 / 8.15 ± 4.18</td> <!-- NorQuAD -->
+   <td class="no rc">5.41 ± 2.79 / 8.15 ± 4.18</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -2970,7 +2970,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">47.53 ± 0.94 / 62.73 ± 1.07</td> <!-- NoReC -->
    <td class="no la">26.92 ± 3.12 / 61.93 ± 2.04</td> <!-- ScaLA-nb -->
    <td class="no la">14.63 ± 4.00 / 56.24 ± 2.51</td> <!-- ScaLA-nn -->
-   <td class="no qa">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- NorQuAD -->
+   <td class="no rc">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -2991,7 +2991,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">23.75 ± 3.25 / 42.92 ± 4.45</td> <!-- NoReC -->
    <td class="no la">14.00 ± 4.25 / 42.71 ± 5.83</td> <!-- ScaLA-nb -->
    <td class="no la">7.61 ± 2.57 / 45.86 ± 3.96</td> <!-- ScaLA-nn -->
-   <td class="no qa">49.24 ± 4.28 / 72.68 ± 3.66</td> <!-- NorQuAD -->
+   <td class="no rc">49.24 ± 4.28 / 72.68 ± 3.66</td> <!-- NorQuAD -->
    <td>12.10.5</td> <!-- NorNE-nb version -->
    <td>12.10.5</td> <!-- NorNE-nn version -->
    <td>12.10.4</td> <!-- NoReC version -->
@@ -3012,7 +3012,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">34.17 ± 2.42 / 43.74 ± 2.19</td> <!-- NoReC -->
    <td class="no la">12.11 ± 10.47 / 50.33 ± 7.16</td> <!-- ScaLA-nb -->
    <td class="no la">4.28 ± 4.18 / 45.75 ± 4.32</td> <!-- ScaLA-nn -->
-   <td class="no qa">11.74 ± 10.45 / 16.38 ± 14.33</td> <!-- NorQuAD -->
+   <td class="no rc">11.74 ± 10.45 / 16.38 ± 14.33</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -3033,7 +3033,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">38.96 ± 2.34 / 56.27 ± 3.65</td> <!-- NoReC -->
    <td class="no la">0.75 ± 1.07 / 33.42 ± 0.29</td> <!-- ScaLA-nb -->
    <td class="no la">1.04 ± 1.93 / 33.14 ± 0.66</td> <!-- ScaLA-nn -->
-   <td class="no qa">40.28 ± 3.58 / 62.78 ± 3.34</td> <!-- NorQuAD -->
+   <td class="no rc">40.28 ± 3.58 / 62.78 ± 3.34</td> <!-- NorQuAD -->
    <td>9.3.2</td> <!-- NorNE-nb version -->
    <td>9.3.2</td> <!-- NorNE-nn version -->
    <td>10.0.0</td> <!-- NoReC version -->
@@ -3054,7 +3054,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">40.79 ± 1.70 / 57.84 ± 2.77</td> <!-- NoReC -->
    <td class="no la">5.91 ± 2.51 / 47.81 ± 3.76</td> <!-- ScaLA-nb -->
    <td class="no la">2.98 ± 2.86 / 45.49 ± 4.59</td> <!-- ScaLA-nn -->
-   <td class="no qa">37.75 ± 3.23 / 59.72 ± 3.03</td> <!-- NorQuAD -->
+   <td class="no rc">37.75 ± 3.23 / 59.72 ± 3.03</td> <!-- NorQuAD -->
    <td>12.9.0</td> <!-- NorNE-nb version -->
    <td>12.9.0</td> <!-- NorNE-nn version -->
    <td>12.9.0</td> <!-- NoReC version -->
@@ -3075,7 +3075,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">38.98 ± 5.51 / 58.23 ± 4.01</td> <!-- NoReC -->
    <td class="no la">11.54 ± 5.04 / 49.91 ± 3.96</td> <!-- ScaLA-nb -->
    <td class="no la">5.20 ± 3.47 / 46.19 ± 5.23</td> <!-- ScaLA-nn -->
-   <td class="no qa">37.54 ± 3.00 / 56.56 ± 2.96</td> <!-- NorQuAD -->
+   <td class="no rc">37.54 ± 3.00 / 56.56 ± 2.96</td> <!-- NorQuAD -->
    <td>10.0.1</td> <!-- NorNE-nb version -->
    <td>10.0.1</td> <!-- NorNE-nn version -->
    <td>10.0.1</td> <!-- NoReC version -->
@@ -3096,7 +3096,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">41.74 ± 2.25 / 57.91 ± 2.82</td> <!-- NoReC -->
    <td class="no la">0.00 ± 0.00 / 33.41 ± 0.30</td> <!-- ScaLA-nb -->
    <td class="no la">0.02 ± 0.04 / 33.88 ± 0.35</td> <!-- ScaLA-nn -->
-   <td class="no qa">44.19 ± 4.13 / 66.18 ± 4.05</td> <!-- NorQuAD -->
+   <td class="no rc">44.19 ± 4.13 / 66.18 ± 4.05</td> <!-- NorQuAD -->
    <td>9.2.0</td> <!-- NorNE-nb version -->
    <td>9.2.0</td> <!-- NorNE-nn version -->
    <td>9.2.0</td> <!-- NoReC version -->
@@ -3117,7 +3117,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">42.27 ± 1.52 / 56.76 ± 2.10</td> <!-- NoReC -->
    <td class="no la">0.00 ± 0.00 / 33.41 ± 0.30</td> <!-- ScaLA-nb -->
    <td class="no la">0.21 ± 1.00 / 34.08 ± 0.56</td> <!-- ScaLA-nn -->
-   <td class="no qa">29.35 ± 1.40 / 53.48 ± 2.01</td> <!-- NorQuAD -->
+   <td class="no rc">29.35 ± 1.40 / 53.48 ± 2.01</td> <!-- NorQuAD -->
    <td>12.10.4</td> <!-- NorNE-nb version -->
    <td>12.10.4</td> <!-- NorNE-nn version -->
    <td>12.10.4</td> <!-- NoReC version -->
@@ -3138,7 +3138,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">38.05 ± 1.85 / 47.06 ± 3.97</td> <!-- NoReC -->
    <td class="no la">8.45 ± 2.47 / 46.75 ± 3.97</td> <!-- ScaLA-nb -->
    <td class="no la">7.50 ± 1.65 / 48.14 ± 4.65</td> <!-- ScaLA-nn -->
-   <td class="no qa">40.47 ± 2.77 / 64.21 ± 2.94</td> <!-- NorQuAD -->
+   <td class="no rc">40.47 ± 2.77 / 64.21 ± 2.94</td> <!-- NorQuAD -->
    <td>12.5.2</td> <!-- NorNE-nb version -->
    <td>12.5.2</td> <!-- NorNE-nn version -->
    <td>12.3.2</td> <!-- NoReC version -->
@@ -3159,7 +3159,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">34.50 ± 1.29 / 42.21 ± 1.39</td> <!-- NoReC -->
    <td class="no la">15.17 ± 1.41 / 49.46 ± 2.90</td> <!-- ScaLA-nb -->
    <td class="no la">12.46 ± 3.29 / 48.89 ± 5.19</td> <!-- ScaLA-nn -->
-   <td class="no qa">42.81 ± 3.10 / 66.15 ± 3.21</td> <!-- NorQuAD -->
+   <td class="no rc">42.81 ± 3.10 / 66.15 ± 3.21</td> <!-- NorQuAD -->
    <td>9.3.1</td> <!-- NorNE-nb version -->
    <td>9.3.1</td> <!-- NorNE-nn version -->
    <td>12.10.0</td> <!-- NoReC version -->
@@ -3180,7 +3180,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">30.38 ± 2.29 / 42.84 ± 2.38</td> <!-- NoReC -->
    <td class="no la">21.99 ± 6.74 / 54.54 ± 7.12</td> <!-- ScaLA-nb -->
    <td class="no la">19.06 ± 4.26 / 56.45 ± 5.24</td> <!-- ScaLA-nn -->
-   <td class="no qa">9.47 ± 5.36 / 15.24 ± 8.64</td> <!-- NorQuAD -->
+   <td class="no rc">9.47 ± 5.36 / 15.24 ± 8.64</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -3201,7 +3201,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">36.06 ± 3.96 / 52.59 ± 4.67</td> <!-- NoReC -->
    <td class="no la">8.34 ± 2.97 / 45.11 ± 4.57</td> <!-- ScaLA-nb -->
    <td class="no la">6.84 ± 3.88 / 45.28 ± 5.45</td> <!-- ScaLA-nn -->
-   <td class="no qa">48.31 ± 4.22 / 69.39 ± 4.10</td> <!-- NorQuAD -->
+   <td class="no rc">48.31 ± 4.22 / 69.39 ± 4.10</td> <!-- NorQuAD -->
    <td>12.10.4</td> <!-- NorNE-nb version -->
    <td>12.10.4</td> <!-- NorNE-nn version -->
    <td>12.10.4</td> <!-- NoReC version -->
@@ -3222,7 +3222,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">36.56 ± 3.06 / 51.25 ± 3.01</td> <!-- NoReC -->
    <td class="no la">22.02 ± 5.34 / 57.45 ± 3.59</td> <!-- ScaLA-nb -->
    <td class="no la">19.72 ± 3.67 / 56.70 ± 2.89</td> <!-- ScaLA-nn -->
-   <td class="no qa">0.78 ± 0.74 / 1.49 ± 1.32</td> <!-- NorQuAD -->
+   <td class="no rc">0.78 ± 0.74 / 1.49 ± 1.32</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -3243,7 +3243,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">41.56 ± 3.37 / 57.09 ± 3.80</td> <!-- NoReC -->
    <td class="no la">3.04 ± 2.84 / 36.81 ± 2.42</td> <!-- ScaLA-nb -->
    <td class="no la">4.03 ± 2.49 / 40.55 ± 4.14</td> <!-- ScaLA-nn -->
-   <td class="no qa">33.77 ± 2.11 / 61.99 ± 2.34</td> <!-- NorQuAD -->
+   <td class="no rc">33.77 ± 2.11 / 61.99 ± 2.34</td> <!-- NorQuAD -->
    <td>9.3.1</td> <!-- NorNE-nb version -->
    <td>9.3.1</td> <!-- NorNE-nn version -->
    <td>9.3.1</td> <!-- NoReC version -->
@@ -3264,7 +3264,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">37.18 ± 1.30 / 55.44 ± 1.46</td> <!-- NoReC -->
    <td class="no la">6.76 ± 2.81 / 41.69 ± 2.82</td> <!-- ScaLA-nb -->
    <td class="no la">6.79 ± 1.51 / 45.45 ± 3.51</td> <!-- ScaLA-nn -->
-   <td class="no qa">30.11 ± 2.09 / 52.56 ± 2.38</td> <!-- NorQuAD -->
+   <td class="no rc">30.11 ± 2.09 / 52.56 ± 2.38</td> <!-- NorQuAD -->
    <td>12.10.4</td> <!-- NorNE-nb version -->
    <td>12.10.4</td> <!-- NorNE-nn version -->
    <td>12.10.4</td> <!-- NoReC version -->
@@ -3285,7 +3285,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">37.98 ± 1.72 / 43.91 ± 2.51</td> <!-- NoReC -->
    <td class="no la">7.86 ± 2.74 / 47.20 ± 2.71</td> <!-- ScaLA-nb -->
    <td class="no la">7.23 ± 1.97 / 46.62 ± 3.92</td> <!-- ScaLA-nn -->
-   <td class="no qa">33.31 ± 1.03 / 59.27 ± 1.53</td> <!-- NorQuAD -->
+   <td class="no rc">33.31 ± 1.03 / 59.27 ± 1.53</td> <!-- NorQuAD -->
    <td>12.6.1</td> <!-- NorNE-nb version -->
    <td>12.6.1</td> <!-- NorNE-nn version -->
    <td>12.6.1</td> <!-- NoReC version -->
@@ -3306,7 +3306,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">40.89 ± 3.60 / 59.86 ± 3.59</td> <!-- NoReC -->
    <td class="no la">9.45 ± 1.58 / 44.62 ± 3.29</td> <!-- ScaLA-nb -->
    <td class="no la">8.32 ± 1.89 / 42.30 ± 2.78</td> <!-- ScaLA-nn -->
-   <td class="no qa">43.19 ± 1.82 / 67.93 ± 1.55</td> <!-- NorQuAD -->
+   <td class="no rc">43.19 ± 1.82 / 67.93 ± 1.55</td> <!-- NorQuAD -->
    <td>9.3.1</td> <!-- NorNE-nb version -->
    <td>9.3.1</td> <!-- NorNE-nn version -->
    <td>9.3.1</td> <!-- NoReC version -->
@@ -3327,7 +3327,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">32.49 ± 1.55 / 43.12 ± 0.71</td> <!-- NoReC -->
    <td class="no la">35.43 ± 2.39 / 66.84 ± 1.17</td> <!-- ScaLA-nb -->
    <td class="no la">21.11 ± 1.97 / 60.09 ± 0.93</td> <!-- ScaLA-nn -->
-   <td class="no qa">1.84 ± 2.41 / 2.78 ± 3.65</td> <!-- NorQuAD -->
+   <td class="no rc">1.84 ± 2.41 / 2.78 ± 3.65</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -3348,7 +3348,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">36.68 ± 2.11 / 46.78 ± 2.71</td> <!-- NoReC -->
    <td class="no la">2.39 ± 1.54 / 43.99 ± 3.66</td> <!-- ScaLA-nb -->
    <td class="no la">1.91 ± 1.37 / 44.20 ± 4.28</td> <!-- ScaLA-nn -->
-   <td class="no qa">39.16 ± 2.56 / 62.28 ± 2.34</td> <!-- NorQuAD -->
+   <td class="no rc">39.16 ± 2.56 / 62.28 ± 2.34</td> <!-- NorQuAD -->
    <td>12.10.5</td> <!-- NorNE-nb version -->
    <td>12.10.5</td> <!-- NorNE-nn version -->
    <td>12.10.4</td> <!-- NoReC version -->
@@ -3369,7 +3369,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">34.67 ± 5.23 / 54.62 ± 5.71</td> <!-- NoReC -->
    <td class="no la">8.37 ± 1.71 / 48.94 ± 2.72</td> <!-- ScaLA-nb -->
    <td class="no la">7.76 ± 2.86 / 46.16 ± 4.77</td> <!-- ScaLA-nn -->
-   <td class="no qa">44.62 ± 3.31 / 67.57 ± 3.03</td> <!-- NorQuAD -->
+   <td class="no rc">44.62 ± 3.31 / 67.57 ± 3.03</td> <!-- NorQuAD -->
    <td>9.2.0</td> <!-- NorNE-nb version -->
    <td>9.2.0</td> <!-- NorNE-nn version -->
    <td>9.2.0</td> <!-- NoReC version -->
@@ -3390,7 +3390,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">32.29 ± 9.23 / 49.08 ± 8.36</td> <!-- NoReC -->
    <td class="no la">0.45 ± 1.61 / 49.14 ± 1.42</td> <!-- ScaLA-nb -->
    <td class="no la">-0.08 ± 1.79 / 45.89 ± 3.49</td> <!-- ScaLA-nn -->
-   <td class="no qa">23.91 ± 2.24 / 36.47 ± 2.77</td> <!-- NorQuAD -->
+   <td class="no rc">23.91 ± 2.24 / 36.47 ± 2.77</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -3411,7 +3411,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">32.70 ± 1.59 / 45.73 ± 2.82</td> <!-- NoReC -->
    <td class="no la">3.57 ± 1.55 / 37.05 ± 2.34</td> <!-- ScaLA-nb -->
    <td class="no la">1.61 ± 2.11 / 37.85 ± 3.99</td> <!-- ScaLA-nn -->
-   <td class="no qa">42.55 ± 3.36 / 67.11 ± 2.50</td> <!-- NorQuAD -->
+   <td class="no rc">42.55 ± 3.36 / 67.11 ± 2.50</td> <!-- NorQuAD -->
    <td>12.5.2</td> <!-- NorNE-nb version -->
    <td>12.5.2</td> <!-- NorNE-nn version -->
    <td>10.0.1</td> <!-- NoReC version -->
@@ -3432,7 +3432,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">29.97 ± 0.99 / 42.12 ± 0.47</td> <!-- NoReC -->
    <td class="no la">40.79 ± 2.06 / 69.48 ± 1.44</td> <!-- ScaLA-nb -->
    <td class="no la">25.08 ± 1.86 / 61.74 ± 0.81</td> <!-- ScaLA-nn -->
-   <td class="no qa">1.93 ± 2.05 / 3.62 ± 3.99</td> <!-- NorQuAD -->
+   <td class="no rc">1.93 ± 2.05 / 3.62 ± 3.99</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -3453,7 +3453,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">33.30 ± 2.01 / 51.15 ± 2.93</td> <!-- NoReC -->
    <td class="no la">2.63 ± 2.56 / 40.21 ± 3.98</td> <!-- ScaLA-nb -->
    <td class="no la">4.00 ± 1.87 / 44.87 ± 3.17</td> <!-- ScaLA-nn -->
-   <td class="no qa">37.08 ± 2.44 / 61.14 ± 2.01</td> <!-- NorQuAD -->
+   <td class="no rc">37.08 ± 2.44 / 61.14 ± 2.01</td> <!-- NorQuAD -->
    <td>12.9.1</td> <!-- NorNE-nb version -->
    <td>12.9.1</td> <!-- NorNE-nn version -->
    <td>12.9.1</td> <!-- NoReC version -->
@@ -3474,7 +3474,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">31.05 ± 7.03 / 45.69 ± 8.29</td> <!-- NoReC -->
    <td class="no la">10.80 ± 1.96 / 52.29 ± 2.55</td> <!-- ScaLA-nb -->
    <td class="no la">8.89 ± 2.52 / 47.62 ± 4.31</td> <!-- ScaLA-nn -->
-   <td class="no qa">48.78 ± 3.64 / 71.66 ± 3.34</td> <!-- NorQuAD -->
+   <td class="no rc">48.78 ± 3.64 / 71.66 ± 3.34</td> <!-- NorQuAD -->
    <td>12.9.0</td> <!-- NorNE-nb version -->
    <td>12.9.0</td> <!-- NorNE-nn version -->
    <td>12.9.0</td> <!-- NoReC version -->
@@ -3495,7 +3495,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">40.65 ± 1.63 / 55.20 ± 2.63</td> <!-- NoReC -->
    <td class="no la">29.47 ± 2.30 / 62.25 ± 1.69</td> <!-- ScaLA-nb -->
    <td class="no la">12.95 ± 3.01 / 55.31 ± 1.87</td> <!-- ScaLA-nn -->
-   <td class="no qa">0.91 ± 0.93 / 2.56 ± 2.15</td> <!-- NorQuAD -->
+   <td class="no rc">0.91 ± 0.93 / 2.56 ± 2.15</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -3516,7 +3516,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">36.97 ± 1.94 / 55.08 ± 2.30</td> <!-- NoReC -->
    <td class="no la">5.27 ± 3.31 / 40.91 ± 5.24</td> <!-- ScaLA-nb -->
    <td class="no la">1.40 ± 1.87 / 33.64 ± 0.74</td> <!-- ScaLA-nn -->
-   <td class="no qa">40.00 ± 2.26 / 62.87 ± 1.60</td> <!-- NorQuAD -->
+   <td class="no rc">40.00 ± 2.26 / 62.87 ± 1.60</td> <!-- NorQuAD -->
    <td>12.5.2</td> <!-- NorNE-nb version -->
    <td>12.5.2</td> <!-- NorNE-nn version -->
    <td>10.0.1</td> <!-- NoReC version -->
@@ -3537,7 +3537,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">20.54 ± 6.01 / 36.30 ± 6.77</td> <!-- NoReC -->
    <td class="no la">4.39 ± 3.94 / 35.23 ± 2.81</td> <!-- ScaLA-nb -->
    <td class="no la">1.20 ± 1.64 / 34.54 ± 1.31</td> <!-- ScaLA-nn -->
-   <td class="no qa">47.16 ± 4.15 / 70.08 ± 3.96</td> <!-- NorQuAD -->
+   <td class="no rc">47.16 ± 4.15 / 70.08 ± 3.96</td> <!-- NorQuAD -->
    <td>12.5.2</td> <!-- NorNE-nb version -->
    <td>12.5.2</td> <!-- NorNE-nn version -->
    <td>12.4.0</td> <!-- NoReC version -->
@@ -3558,7 +3558,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">44.59 ± 1.89 / 59.87 ± 1.84</td> <!-- NoReC -->
    <td class="no la">8.98 ± 3.55 / 52.49 ± 2.08</td> <!-- ScaLA-nb -->
    <td class="no la">5.72 ± 3.29 / 50.40 ± 3.21</td> <!-- ScaLA-nn -->
-   <td class="no qa">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- NorQuAD -->
+   <td class="no rc">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -3579,7 +3579,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">44.59 ± 1.89 / 59.87 ± 1.84</td> <!-- NoReC -->
    <td class="no la">8.98 ± 3.55 / 52.49 ± 2.08</td> <!-- ScaLA-nb -->
    <td class="no la">5.72 ± 3.29 / 50.40 ± 3.21</td> <!-- ScaLA-nn -->
-   <td class="no qa">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- NorQuAD -->
+   <td class="no rc">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -3600,7 +3600,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">29.00 ± 1.28 / 41.72 ± 0.52</td> <!-- NoReC -->
    <td class="no la">33.57 ± 2.58 / 65.22 ± 1.59</td> <!-- ScaLA-nb -->
    <td class="no la">21.79 ± 1.60 / 60.32 ± 0.99</td> <!-- ScaLA-nn -->
-   <td class="no qa">0.03 ± 0.07 / 0.05 ± 0.10</td> <!-- NorQuAD -->
+   <td class="no rc">0.03 ± 0.07 / 0.05 ± 0.10</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -3621,7 +3621,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">34.39 ± 5.34 / 50.45 ± 6.08</td> <!-- NoReC -->
    <td class="no la">2.42 ± 1.83 / 35.49 ± 2.63</td> <!-- ScaLA-nb -->
    <td class="no la">5.11 ± 2.68 / 38.37 ± 3.31</td> <!-- ScaLA-nn -->
-   <td class="no qa">42.52 ± 2.05 / 68.98 ± 2.23</td> <!-- NorQuAD -->
+   <td class="no rc">42.52 ± 2.05 / 68.98 ± 2.23</td> <!-- NorQuAD -->
    <td>9.2.0</td> <!-- NorNE-nb version -->
    <td>9.2.0</td> <!-- NorNE-nn version -->
    <td>9.2.0</td> <!-- NoReC version -->
@@ -3642,7 +3642,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">33.42 ± 1.96 / 48.63 ± 3.34</td> <!-- NoReC -->
    <td class="no la">14.99 ± 4.11 / 52.87 ± 4.48</td> <!-- ScaLA-nb -->
    <td class="no la">13.63 ± 4.52 / 53.34 ± 4.61</td> <!-- ScaLA-nn -->
-   <td class="no qa">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- NorQuAD -->
+   <td class="no rc">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -3663,7 +3663,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">25.68 ± 2.17 / 41.65 ± 2.77</td> <!-- NoReC -->
    <td class="no la">6.73 ± 5.40 / 48.20 ± 3.68</td> <!-- ScaLA-nb -->
    <td class="no la">3.35 ± 2.61 / 47.52 ± 3.20</td> <!-- ScaLA-nn -->
-   <td class="no qa">22.57 ± 1.57 / 34.64 ± 1.94</td> <!-- NorQuAD -->
+   <td class="no rc">22.57 ± 1.57 / 34.64 ± 1.94</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -3684,7 +3684,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">27.05 ± 3.33 / 45.30 ± 3.46</td> <!-- NoReC -->
    <td class="no la">1.63 ± 2.58 / 38.29 ± 4.05</td> <!-- ScaLA-nb -->
    <td class="no la">2.57 ± 1.78 / 40.92 ± 4.00</td> <!-- ScaLA-nn -->
-   <td class="no qa">39.18 ± 2.84 / 61.85 ± 3.07</td> <!-- NorQuAD -->
+   <td class="no rc">39.18 ± 2.84 / 61.85 ± 3.07</td> <!-- NorQuAD -->
    <td>11.0.0</td> <!-- NorNE-nb version -->
    <td>11.0.0</td> <!-- NorNE-nn version -->
    <td>11.0.0</td> <!-- NoReC version -->
@@ -3705,7 +3705,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">35.58 ± 2.13 / 44.49 ± 2.52</td> <!-- NoReC -->
    <td class="no la">0.82 ± 1.46 / 34.78 ± 1.54</td> <!-- ScaLA-nb -->
    <td class="no la">1.43 ± 1.70 / 34.19 ± 1.10</td> <!-- ScaLA-nn -->
-   <td class="no qa">36.06 ± 1.76 / 58.71 ± 1.63</td> <!-- NorQuAD -->
+   <td class="no rc">36.06 ± 1.76 / 58.71 ± 1.63</td> <!-- NorQuAD -->
    <td>12.5.2</td> <!-- NorNE-nb version -->
    <td>12.5.2</td> <!-- NorNE-nn version -->
    <td>9.3.1</td> <!-- NoReC version -->
@@ -3726,7 +3726,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">38.88 ± 4.12 / 54.92 ± 4.66</td> <!-- NoReC -->
    <td class="no la">3.41 ± 2.16 / 35.53 ± 2.75</td> <!-- ScaLA-nb -->
    <td class="no la">3.11 ± 1.55 / 39.80 ± 4.20</td> <!-- ScaLA-nn -->
-   <td class="no qa">30.39 ± 2.51 / 51.24 ± 2.87</td> <!-- NorQuAD -->
+   <td class="no rc">30.39 ± 2.51 / 51.24 ± 2.87</td> <!-- NorQuAD -->
    <td>12.9.1</td> <!-- NorNE-nb version -->
    <td>12.10.0</td> <!-- NorNE-nn version -->
    <td>12.9.1</td> <!-- NoReC version -->
@@ -3747,7 +3747,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">33.71 ± 2.57 / 55.00 ± 1.41</td> <!-- NoReC -->
    <td class="no la">-0.19 ± 0.77 / 33.29 ± 0.30</td> <!-- ScaLA-nb -->
    <td class="no la">-0.01 ± 1.25 / 34.51 ± 2.09</td> <!-- ScaLA-nn -->
-   <td class="no qa">30.14 ± 2.44 / 50.96 ± 3.46</td> <!-- NorQuAD -->
+   <td class="no rc">30.14 ± 2.44 / 50.96 ± 3.46</td> <!-- NorQuAD -->
    <td>12.10.8</td> <!-- NorNE-nb version -->
    <td>12.10.8</td> <!-- NorNE-nn version -->
    <td>12.10.8</td> <!-- NoReC version -->
@@ -3768,7 +3768,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">26.33 ± 1.84 / 40.67 ± 0.71</td> <!-- NoReC -->
    <td class="no la">6.62 ± 3.40 / 48.37 ± 4.02</td> <!-- ScaLA-nb -->
    <td class="no la">5.16 ± 3.07 / 45.99 ± 4.76</td> <!-- ScaLA-nn -->
-   <td class="no qa">15.75 ± 1.30 / 27.15 ± 1.91</td> <!-- NorQuAD -->
+   <td class="no rc">15.75 ± 1.30 / 27.15 ± 1.91</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -3789,7 +3789,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">33.41 ± 1.40 / 45.12 ± 1.87</td> <!-- NoReC -->
    <td class="no la">32.87 ± 1.49 / 65.82 ± 0.78</td> <!-- ScaLA-nb -->
    <td class="no la">20.09 ± 1.88 / 59.27 ± 1.08</td> <!-- ScaLA-nn -->
-   <td class="no qa">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- NorQuAD -->
+   <td class="no rc">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -3810,7 +3810,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">29.68 ± 1.91 / 43.64 ± 2.18</td> <!-- NoReC -->
    <td class="no la">15.83 ± 10.06 / 55.51 ± 5.25</td> <!-- ScaLA-nb -->
    <td class="no la">8.70 ± 4.78 / 52.69 ± 2.75</td> <!-- ScaLA-nn -->
-   <td class="no qa">1.04 ± 1.17 / 1.93 ± 2.12</td> <!-- NorQuAD -->
+   <td class="no rc">1.04 ± 1.17 / 1.93 ± 2.12</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -3831,7 +3831,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">35.86 ± 3.52 / 52.28 ± 3.76</td> <!-- NoReC -->
    <td class="no la">1.03 ± 2.07 / 36.12 ± 2.97</td> <!-- ScaLA-nb -->
    <td class="no la">2.92 ± 1.89 / 36.47 ± 2.72</td> <!-- ScaLA-nn -->
-   <td class="no qa">34.39 ± 3.15 / 54.65 ± 3.56</td> <!-- NorQuAD -->
+   <td class="no rc">34.39 ± 3.15 / 54.65 ± 3.56</td> <!-- NorQuAD -->
    <td>12.7.0</td> <!-- NorNE-nb version -->
    <td>12.7.0</td> <!-- NorNE-nn version -->
    <td>12.7.0</td> <!-- NoReC version -->
@@ -3852,7 +3852,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">29.22 ± 2.89 / 39.25 ± 1.86</td> <!-- NoReC -->
    <td class="no la">2.58 ± 2.68 / 36.11 ± 2.42</td> <!-- ScaLA-nb -->
    <td class="no la">2.79 ± 1.44 / 36.17 ± 1.51</td> <!-- ScaLA-nn -->
-   <td class="no qa">34.41 ± 3.68 / 53.61 ± 4.28</td> <!-- NorQuAD -->
+   <td class="no rc">34.41 ± 3.68 / 53.61 ± 4.28</td> <!-- NorQuAD -->
    <td>12.10.5</td> <!-- NorNE-nb version -->
    <td>12.10.4</td> <!-- NorNE-nn version -->
    <td>12.10.5</td> <!-- NoReC version -->
@@ -3873,7 +3873,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">32.19 ± 2.52 / 43.19 ± 4.63</td> <!-- NoReC -->
    <td class="no la">-0.22 ± 0.43 / 33.41 ± 0.30</td> <!-- ScaLA-nb -->
    <td class="no la">0.00 ± 0.00 / 33.86 ± 0.33</td> <!-- ScaLA-nn -->
-   <td class="no qa">20.57 ± 0.64 / 40.19 ± 1.13</td> <!-- NorQuAD -->
+   <td class="no rc">20.57 ± 0.64 / 40.19 ± 1.13</td> <!-- NorQuAD -->
    <td>12.5.2</td> <!-- NorNE-nb version -->
    <td>12.5.2</td> <!-- NorNE-nn version -->
    <td>12.3.2</td> <!-- NoReC version -->
@@ -3894,7 +3894,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">33.31 ± 2.87 / 48.75 ± 3.38</td> <!-- NoReC -->
    <td class="no la">20.34 ± 4.81 / 58.57 ± 2.56</td> <!-- ScaLA-nb -->
    <td class="no la">8.07 ± 2.44 / 53.43 ± 1.32</td> <!-- ScaLA-nn -->
-   <td class="no qa">0.00 ± 0.00 / 0.14 ± 0.16</td> <!-- NorQuAD -->
+   <td class="no rc">0.00 ± 0.00 / 0.14 ± 0.16</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -3915,7 +3915,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">22.01 ± 3.00 / 40.48 ± 2.81</td> <!-- NoReC -->
    <td class="no la">2.76 ± 1.35 / 44.34 ± 3.05</td> <!-- ScaLA-nb -->
    <td class="no la">1.45 ± 1.35 / 39.55 ± 3.53</td> <!-- ScaLA-nn -->
-   <td class="no qa">32.42 ± 1.72 / 56.65 ± 0.92</td> <!-- NorQuAD -->
+   <td class="no rc">32.42 ± 1.72 / 56.65 ± 0.92</td> <!-- NorQuAD -->
    <td>12.5.2</td> <!-- NorNE-nb version -->
    <td>12.5.2</td> <!-- NorNE-nn version -->
    <td>12.1.0</td> <!-- NoReC version -->
@@ -3936,7 +3936,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">32.89 ± 1.65 / 42.58 ± 3.16</td> <!-- NoReC -->
    <td class="no la">1.18 ± 1.00 / 33.34 ± 0.26</td> <!-- ScaLA-nb -->
    <td class="no la">0.00 ± 0.00 / 32.79 ± 0.34</td> <!-- ScaLA-nn -->
-   <td class="no qa">33.33 ± 3.73 / 53.15 ± 4.42</td> <!-- NorQuAD -->
+   <td class="no rc">33.33 ± 3.73 / 53.15 ± 4.42</td> <!-- NorQuAD -->
    <td>12.5.2</td> <!-- NorNE-nb version -->
    <td>12.5.2</td> <!-- NorNE-nn version -->
    <td>12.1.0</td> <!-- NoReC version -->
@@ -3957,7 +3957,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">47.78 ± 3.12 / 64.33 ± 2.80</td> <!-- NoReC -->
    <td class="no la">3.92 ± 1.56 / 45.78 ± 2.36</td> <!-- ScaLA-nb -->
    <td class="no la">4.27 ± 2.44 / 42.86 ± 3.51</td> <!-- ScaLA-nn -->
-   <td class="no qa">2.46 ± 0.73 / 29.01 ± 1.18</td> <!-- NorQuAD -->
+   <td class="no rc">2.46 ± 0.73 / 29.01 ± 1.18</td> <!-- NorQuAD -->
    <td>12.10.4</td> <!-- NorNE-nb version -->
    <td>12.10.4</td> <!-- NorNE-nn version -->
    <td>12.10.4</td> <!-- NoReC version -->
@@ -3978,7 +3978,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">32.83 ± 1.48 / 43.32 ± 0.69</td> <!-- NoReC -->
    <td class="no la">1.09 ± 1.93 / 48.72 ± 1.29</td> <!-- ScaLA-nb -->
    <td class="no la">0.18 ± 1.93 / 47.30 ± 1.44</td> <!-- ScaLA-nn -->
-   <td class="no qa">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- NorQuAD -->
+   <td class="no rc">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- NorQuAD -->
    <td>12.6.1</td> <!-- NorNE-nb version -->
    <td>12.6.1</td> <!-- NorNE-nn version -->
    <td>12.6.1</td> <!-- NoReC version -->
@@ -3999,7 +3999,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">32.83 ± 1.48 / 43.32 ± 0.69</td> <!-- NoReC -->
    <td class="no la">1.09 ± 1.93 / 48.72 ± 1.29</td> <!-- ScaLA-nb -->
    <td class="no la">0.18 ± 1.93 / 47.30 ± 1.44</td> <!-- ScaLA-nn -->
-   <td class="no qa">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- NorQuAD -->
+   <td class="no rc">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- NorQuAD -->
    <td>12.6.1</td> <!-- NorNE-nb version -->
    <td>12.6.1</td> <!-- NorNE-nn version -->
    <td>12.6.1</td> <!-- NoReC version -->
@@ -4020,7 +4020,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">27.28 ± 4.39 / 49.18 ± 4.23</td> <!-- NoReC -->
    <td class="no la">3.09 ± 0.79 / 42.87 ± 3.49</td> <!-- ScaLA-nb -->
    <td class="no la">1.86 ± 1.90 / 38.18 ± 1.44</td> <!-- ScaLA-nn -->
-   <td class="no qa">34.91 ± 2.65 / 54.30 ± 2.96</td> <!-- NorQuAD -->
+   <td class="no rc">34.91 ± 2.65 / 54.30 ± 2.96</td> <!-- NorQuAD -->
    <td>9.3.1</td> <!-- NorNE-nb version -->
    <td>9.3.1</td> <!-- NorNE-nn version -->
    <td>9.3.1</td> <!-- NoReC version -->
@@ -4041,7 +4041,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">27.32 ± 3.13 / 38.30 ± 2.19</td> <!-- NoReC -->
    <td class="no la">1.46 ± 1.07 / 49.06 ± 1.04</td> <!-- ScaLA-nb -->
    <td class="no la">-0.59 ± 1.36 / 45.94 ± 2.35</td> <!-- ScaLA-nn -->
-   <td class="no qa">25.62 ± 4.99 / 40.88 ± 7.54</td> <!-- NorQuAD -->
+   <td class="no rc">25.62 ± 4.99 / 40.88 ± 7.54</td> <!-- NorQuAD -->
    <td>12.6.1</td> <!-- NorNE-nb version -->
    <td>12.6.1</td> <!-- NorNE-nn version -->
    <td>12.6.1</td> <!-- NoReC version -->
@@ -4062,7 +4062,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">34.21 ± 1.63 / 47.17 ± 2.76</td> <!-- NoReC -->
    <td class="no la">0.92 ± 1.55 / 40.71 ± 2.58</td> <!-- ScaLA-nb -->
    <td class="no la">1.25 ± 2.30 / 43.49 ± 3.20</td> <!-- ScaLA-nn -->
-   <td class="no qa">18.52 ± 2.78 / 32.10 ± 4.23</td> <!-- NorQuAD -->
+   <td class="no rc">18.52 ± 2.78 / 32.10 ± 4.23</td> <!-- NorQuAD -->
    <td>9.3.1</td> <!-- NorNE-nb version -->
    <td>9.3.1</td> <!-- NorNE-nn version -->
    <td>9.3.1</td> <!-- NoReC version -->
@@ -4083,7 +4083,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">18.23 ± 9.28 / 38.93 ± 6.44</td> <!-- NoReC -->
    <td class="no la">1.68 ± 1.35 / 39.93 ± 2.78</td> <!-- ScaLA-nb -->
    <td class="no la">2.49 ± 1.88 / 40.26 ± 3.23</td> <!-- ScaLA-nn -->
-   <td class="no qa">41.80 ± 3.14 / 64.25 ± 3.13</td> <!-- NorQuAD -->
+   <td class="no rc">41.80 ± 3.14 / 64.25 ± 3.13</td> <!-- NorQuAD -->
    <td>11.0.0</td> <!-- NorNE-nb version -->
    <td>11.0.0</td> <!-- NorNE-nn version -->
    <td>11.0.0</td> <!-- NoReC version -->
@@ -4104,7 +4104,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">30.88 ± 2.75 / 46.07 ± 3.07</td> <!-- NoReC -->
    <td class="no la">-0.30 ± 1.46 / 34.93 ± 1.25</td> <!-- ScaLA-nb -->
    <td class="no la">0.45 ± 0.57 / 33.74 ± 1.25</td> <!-- ScaLA-nn -->
-   <td class="no qa">23.99 ± 1.59 / 42.69 ± 1.94</td> <!-- NorQuAD -->
+   <td class="no rc">23.99 ± 1.59 / 42.69 ± 1.94</td> <!-- NorQuAD -->
    <td>12.5.2</td> <!-- NorNE-nb version -->
    <td>12.5.2</td> <!-- NorNE-nn version -->
    <td>9.3.2</td> <!-- NoReC version -->
@@ -4125,7 +4125,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">24.59 ± 1.57 / 40.34 ± 0.99</td> <!-- NoReC -->
    <td class="no la">3.45 ± 2.10 / 50.80 ± 1.16</td> <!-- ScaLA-nb -->
    <td class="no la">2.72 ± 1.56 / 48.79 ± 1.92</td> <!-- ScaLA-nn -->
-   <td class="no qa">3.99 ± 2.02 / 7.49 ± 3.66</td> <!-- NorQuAD -->
+   <td class="no rc">3.99 ± 2.02 / 7.49 ± 3.66</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -4146,7 +4146,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">32.60 ± 1.84 / 47.47 ± 3.33</td> <!-- NoReC -->
    <td class="no la">0.34 ± 1.43 / 44.47 ± 2.44</td> <!-- ScaLA-nb -->
    <td class="no la">2.26 ± 2.27 / 45.41 ± 3.25</td> <!-- ScaLA-nn -->
-   <td class="no qa">21.33 ± 0.98 / 42.76 ± 1.02</td> <!-- NorQuAD -->
+   <td class="no rc">21.33 ± 0.98 / 42.76 ± 1.02</td> <!-- NorQuAD -->
    <td>9.3.2</td> <!-- NorNE-nb version -->
    <td>9.3.2</td> <!-- NorNE-nn version -->
    <td>10.0.1</td> <!-- NoReC version -->
@@ -4167,7 +4167,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">19.81 ± 2.15 / 40.90 ± 2.60</td> <!-- NoReC -->
    <td class="no la">8.64 ± 3.57 / 53.17 ± 1.93</td> <!-- ScaLA-nb -->
    <td class="no la">3.11 ± 1.16 / 50.44 ± 0.73</td> <!-- ScaLA-nn -->
-   <td class="no qa">15.89 ± 1.29 / 26.33 ± 2.41</td> <!-- NorQuAD -->
+   <td class="no rc">15.89 ± 1.29 / 26.33 ± 2.41</td> <!-- NorQuAD -->
    <td>12.6.1</td> <!-- NorNE-nb version -->
    <td>12.6.1</td> <!-- NorNE-nn version -->
    <td>12.6.1</td> <!-- NoReC version -->
@@ -4188,7 +4188,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">32.02 ± 1.59 / 36.85 ± 2.01</td> <!-- NoReC -->
    <td class="no la">1.49 ± 1.40 / 35.35 ± 1.51</td> <!-- ScaLA-nb -->
    <td class="no la">0.98 ± 1.85 / 35.28 ± 2.43</td> <!-- ScaLA-nn -->
-   <td class="no qa">22.87 ± 1.85 / 38.93 ± 2.59</td> <!-- NorQuAD -->
+   <td class="no rc">22.87 ± 1.85 / 38.93 ± 2.59</td> <!-- NorQuAD -->
    <td>10.0.0</td> <!-- NorNE-nb version -->
    <td>10.0.0</td> <!-- NorNE-nn version -->
    <td>10.0.0</td> <!-- NoReC version -->
@@ -4209,7 +4209,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">25.98 ± 1.33 / 40.58 ± 0.60</td> <!-- NoReC -->
    <td class="no la">2.65 ± 2.08 / 48.09 ± 1.42</td> <!-- ScaLA-nb -->
    <td class="no la">3.47 ± 1.47 / 48.98 ± 1.75</td> <!-- ScaLA-nn -->
-   <td class="no qa">0.20 ± 0.09 / 0.82 ± 0.39</td> <!-- NorQuAD -->
+   <td class="no rc">0.20 ± 0.09 / 0.82 ± 0.39</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -4230,7 +4230,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">18.85 ± 4.01 / 36.76 ± 2.79</td> <!-- NoReC -->
    <td class="no la">5.83 ± 2.36 / 51.59 ± 1.57</td> <!-- ScaLA-nb -->
    <td class="no la">4.02 ± 2.29 / 51.66 ± 1.21</td> <!-- ScaLA-nn -->
-   <td class="no qa">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- NorQuAD -->
+   <td class="no rc">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -4251,7 +4251,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">16.98 ± 3.42 / 27.01 ± 3.17</td> <!-- NoReC -->
    <td class="no la">1.57 ± 1.20 / 41.68 ± 4.20</td> <!-- ScaLA-nb -->
    <td class="no la">0.97 ± 1.79 / 40.10 ± 4.50</td> <!-- ScaLA-nn -->
-   <td class="no qa">26.28 ± 1.51 / 44.62 ± 2.11</td> <!-- NorQuAD -->
+   <td class="no rc">26.28 ± 1.51 / 44.62 ± 2.11</td> <!-- NorQuAD -->
    <td>12.10.5</td> <!-- NorNE-nb version -->
    <td>12.10.5</td> <!-- NorNE-nn version -->
    <td>12.10.5</td> <!-- NoReC version -->
@@ -4272,7 +4272,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">27.49 ± 3.13 / 48.00 ± 3.89</td> <!-- NoReC -->
    <td class="no la">-2.17 ± 1.06 / 33.52 ± 0.37</td> <!-- ScaLA-nb -->
    <td class="no la">0.26 ± 1.08 / 34.12 ± 0.45</td> <!-- ScaLA-nn -->
-   <td class="no qa">19.10 ± 2.33 / 38.96 ± 2.78</td> <!-- NorQuAD -->
+   <td class="no rc">19.10 ± 2.33 / 38.96 ± 2.78</td> <!-- NorQuAD -->
    <td>9.1.2</td> <!-- NorNE-nb version -->
    <td>9.1.2</td> <!-- NorNE-nn version -->
    <td>9.1.2</td> <!-- NoReC version -->
@@ -4293,7 +4293,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">17.44 ± 3.49 / 35.51 ± 4.10</td> <!-- NoReC -->
    <td class="no la">3.20 ± 1.84 / 34.58 ± 0.97</td> <!-- ScaLA-nb -->
    <td class="no la">2.61 ± 1.80 / 34.49 ± 1.46</td> <!-- ScaLA-nn -->
-   <td class="no qa">21.50 ± 2.60 / 40.73 ± 3.86</td> <!-- NorQuAD -->
+   <td class="no rc">21.50 ± 2.60 / 40.73 ± 3.86</td> <!-- NorQuAD -->
    <td>12.5.2</td> <!-- NorNE-nb version -->
    <td>12.5.2</td> <!-- NorNE-nn version -->
    <td>12.3.2</td> <!-- NoReC version -->
@@ -4314,7 +4314,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">24.39 ± 1.60 / 40.44 ± 1.78</td> <!-- NoReC -->
    <td class="no la">7.29 ± 2.49 / 49.37 ± 3.58</td> <!-- ScaLA-nb -->
    <td class="no la">2.57 ± 1.78 / 46.00 ± 3.32</td> <!-- ScaLA-nn -->
-   <td class="no qa">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- NorQuAD -->
+   <td class="no rc">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -4335,7 +4335,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">23.21 ± 2.32 / 44.26 ± 2.95</td> <!-- NoReC -->
    <td class="no la">2.26 ± 1.47 / 45.07 ± 4.04</td> <!-- ScaLA-nb -->
    <td class="no la">-0.66 ± 1.81 / 44.50 ± 3.45</td> <!-- ScaLA-nn -->
-   <td class="no qa">0.68 ± 0.32 / 1.50 ± 0.80</td> <!-- NorQuAD -->
+   <td class="no rc">0.68 ± 0.32 / 1.50 ± 0.80</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -4356,7 +4356,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">12.69 ± 4.51 / 32.23 ± 3.53</td> <!-- NoReC -->
    <td class="no la">2.79 ± 1.16 / 47.71 ± 2.00</td> <!-- ScaLA-nb -->
    <td class="no la">1.66 ± 2.18 / 46.60 ± 2.87</td> <!-- ScaLA-nn -->
-   <td class="no qa">0.00 ± 0.00 / 0.60 ± 0.72</td> <!-- NorQuAD -->
+   <td class="no rc">0.00 ± 0.00 / 0.60 ± 0.72</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -4377,7 +4377,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">19.85 ± 1.97 / 35.75 ± 1.74</td> <!-- NoReC -->
    <td class="no la">1.96 ± 1.33 / 44.22 ± 2.93</td> <!-- ScaLA-nb -->
    <td class="no la">-0.01 ± 1.39 / 39.57 ± 2.97</td> <!-- ScaLA-nn -->
-   <td class="no qa">16.33 ± 2.17 / 31.16 ± 3.40</td> <!-- NorQuAD -->
+   <td class="no rc">16.33 ± 2.17 / 31.16 ± 3.40</td> <!-- NorQuAD -->
    <td>12.5.2</td> <!-- NorNE-nb version -->
    <td>12.5.2</td> <!-- NorNE-nn version -->
    <td>11.0.0</td> <!-- NoReC version -->
@@ -4398,7 +4398,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">22.82 ± 3.11 / 43.88 ± 3.10</td> <!-- NoReC -->
    <td class="no la">2.70 ± 2.16 / 47.68 ± 3.18</td> <!-- ScaLA-nb -->
    <td class="no la">2.21 ± 1.46 / 42.80 ± 4.36</td> <!-- ScaLA-nn -->
-   <td class="no qa">16.31 ± 2.22 / 30.78 ± 3.64</td> <!-- NorQuAD -->
+   <td class="no rc">16.31 ± 2.22 / 30.78 ± 3.64</td> <!-- NorQuAD -->
    <td>12.5.2</td> <!-- NorNE-nb version -->
    <td>12.5.2</td> <!-- NorNE-nn version -->
    <td>10.0.1</td> <!-- NoReC version -->
@@ -4419,7 +4419,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">19.19 ± 2.87 / 37.36 ± 1.97</td> <!-- NoReC -->
    <td class="no la">2.76 ± 1.42 / 50.99 ± 0.83</td> <!-- ScaLA-nb -->
    <td class="no la">0.42 ± 1.04 / 49.39 ± 0.80</td> <!-- ScaLA-nn -->
-   <td class="no qa">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- NorQuAD -->
+   <td class="no rc">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -4440,7 +4440,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">21.46 ± 5.63 / 38.36 ± 6.18</td> <!-- NoReC -->
    <td class="no la">0.34 ± 1.25 / 33.60 ± 0.50</td> <!-- ScaLA-nb -->
    <td class="no la">0.26 ± 0.58 / 34.69 ± 3.11</td> <!-- ScaLA-nn -->
-   <td class="no qa">0.12 ± 0.04 / 9.85 ± 0.17</td> <!-- NorQuAD -->
+   <td class="no rc">0.12 ± 0.04 / 9.85 ± 0.17</td> <!-- NorQuAD -->
    <td>12.5.2</td> <!-- NorNE-nb version -->
    <td>12.5.2</td> <!-- NorNE-nn version -->
    <td>12.5.2</td> <!-- NoReC version -->
@@ -4461,7 +4461,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">12.22 ± 1.17 / 23.50 ± 3.03</td> <!-- NoReC -->
    <td class="no la">-1.18 ± 1.40 / 35.70 ± 2.67</td> <!-- ScaLA-nb -->
    <td class="no la">0.36 ± 1.28 / 37.66 ± 4.07</td> <!-- ScaLA-nn -->
-   <td class="no qa">26.86 ± 1.65 / 50.11 ± 1.80</td> <!-- NorQuAD -->
+   <td class="no rc">26.86 ± 1.65 / 50.11 ± 1.80</td> <!-- NorQuAD -->
    <td>9.3.1</td> <!-- NorNE-nb version -->
    <td>9.3.1</td> <!-- NorNE-nn version -->
    <td>9.3.1</td> <!-- NoReC version -->
@@ -4482,7 +4482,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">18.09 ± 6.14 / 31.83 ± 6.77</td> <!-- NoReC -->
    <td class="no la">-0.19 ± 1.93 / 41.38 ± 3.18</td> <!-- ScaLA-nb -->
    <td class="no la">-0.80 ± 0.89 / 40.66 ± 3.78</td> <!-- ScaLA-nn -->
-   <td class="no qa">5.84 ± 1.36 / 16.14 ± 2.48</td> <!-- NorQuAD -->
+   <td class="no rc">5.84 ± 1.36 / 16.14 ± 2.48</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -4503,7 +4503,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">11.49 ± 1.38 / 27.12 ± 1.98</td> <!-- NoReC -->
    <td class="no la">0.29 ± 1.58 / 40.21 ± 4.22</td> <!-- ScaLA-nb -->
    <td class="no la">-0.12 ± 1.48 / 39.92 ± 3.90</td> <!-- ScaLA-nn -->
-   <td class="no qa">7.80 ± 1.19 / 17.09 ± 2.72</td> <!-- NorQuAD -->
+   <td class="no rc">7.80 ± 1.19 / 17.09 ± 2.72</td> <!-- NorQuAD -->
    <td>12.5.2</td> <!-- NorNE-nb version -->
    <td>12.5.2</td> <!-- NorNE-nn version -->
    <td>11.0.0</td> <!-- NoReC version -->
@@ -4524,7 +4524,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">25.52 ± 3.72 / 41.44 ± 4.44</td> <!-- NoReC -->
    <td class="no la">0.68 ± 1.54 / 45.09 ± 2.63</td> <!-- ScaLA-nb -->
    <td class="no la">0.17 ± 2.27 / 42.02 ± 4.30</td> <!-- ScaLA-nn -->
-   <td class="no qa">0.46 ± 0.07 / 6.96 ± 0.13</td> <!-- NorQuAD -->
+   <td class="no rc">0.46 ± 0.07 / 6.96 ± 0.13</td> <!-- NorQuAD -->
    <td>12.5.2</td> <!-- NorNE-nb version -->
    <td>12.5.2</td> <!-- NorNE-nn version -->
    <td>12.5.2</td> <!-- NoReC version -->
@@ -4545,7 +4545,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">6.31 ± 3.46 / 20.67 ± 2.69</td> <!-- NoReC -->
    <td class="no la">-1.59 ± 1.08 / 36.27 ± 3.71</td> <!-- ScaLA-nb -->
    <td class="no la">0.61 ± 1.41 / 38.84 ± 5.10</td> <!-- ScaLA-nn -->
-   <td class="no qa">5.95 ± 1.53 / 16.20 ± 1.93</td> <!-- NorQuAD -->
+   <td class="no rc">5.95 ± 1.53 / 16.20 ± 1.93</td> <!-- NorQuAD -->
    <td>12.5.2</td> <!-- NorNE-nb version -->
    <td>12.5.2</td> <!-- NorNE-nn version -->
    <td>10.0.1</td> <!-- NoReC version -->
@@ -4566,7 +4566,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">15.07 ± 1.97 / 35.80 ± 1.15</td> <!-- NoReC -->
    <td class="no la">1.26 ± 1.26 / 48.42 ± 1.75</td> <!-- ScaLA-nb -->
    <td class="no la">0.49 ± 1.58 / 45.93 ± 3.88</td> <!-- ScaLA-nn -->
-   <td class="no qa">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- NorQuAD -->
+   <td class="no rc">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -4587,7 +4587,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">5.13 ± 3.33 / 20.41 ± 3.12</td> <!-- NoReC -->
    <td class="no la">0.00 ± 0.00 / 33.25 ± 0.30</td> <!-- ScaLA-nb -->
    <td class="no la">0.00 ± 0.00 / 32.79 ± 0.34</td> <!-- ScaLA-nn -->
-   <td class="no qa">7.55 ± 1.17 / 15.63 ± 2.64</td> <!-- NorQuAD -->
+   <td class="no rc">7.55 ± 1.17 / 15.63 ± 2.64</td> <!-- NorQuAD -->
    <td>11.0.0</td> <!-- NorNE-nb version -->
    <td>11.0.0</td> <!-- NorNE-nn version -->
    <td>9.3.2</td> <!-- NoReC version -->
@@ -4608,7 +4608,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">12.60 ± 2.97 / 32.27 ± 3.43</td> <!-- NoReC -->
    <td class="no la">0.50 ± 1.27 / 36.93 ± 4.00</td> <!-- ScaLA-nb -->
    <td class="no la">1.83 ± 1.64 / 37.67 ± 4.40</td> <!-- ScaLA-nn -->
-   <td class="no qa">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- NorQuAD -->
+   <td class="no rc">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -4629,7 +4629,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">9.95 ± 3.92 / 29.01 ± 2.80</td> <!-- NoReC -->
    <td class="no la">-0.95 ± 1.87 / 39.37 ± 3.33</td> <!-- ScaLA-nb -->
    <td class="no la">-0.04 ± 1.73 / 42.36 ± 4.61</td> <!-- ScaLA-nn -->
-   <td class="no qa">0.00 ± 0.00 / 3.06 ± 0.05</td> <!-- NorQuAD -->
+   <td class="no rc">0.00 ± 0.00 / 3.06 ± 0.05</td> <!-- NorQuAD -->
    <td>12.5.2</td> <!-- NorNE-nb version -->
    <td>12.5.2</td> <!-- NorNE-nn version -->
    <td>12.1.0</td> <!-- NoReC version -->
@@ -4650,7 +4650,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">20.84 ± 6.06 / 35.78 ± 5.94</td> <!-- NoReC -->
    <td class="no la">0.45 ± 1.09 / 34.65 ± 1.93</td> <!-- ScaLA-nb -->
    <td class="no la">0.48 ± 0.66 / 32.86 ± 0.34</td> <!-- ScaLA-nn -->
-   <td class="no qa">2.43 ± 0.61 / 22.78 ± 2.29</td> <!-- NorQuAD -->
+   <td class="no rc">2.43 ± 0.61 / 22.78 ± 2.29</td> <!-- NorQuAD -->
    <td>9.3.1</td> <!-- NorNE-nb version -->
    <td>9.3.1</td> <!-- NorNE-nn version -->
    <td>10.0.1</td> <!-- NoReC version -->
@@ -4671,7 +4671,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">15.29 ± 5.37 / 34.15 ± 4.23</td> <!-- NoReC -->
    <td class="no la">0.17 ± 0.84 / 36.29 ± 2.91</td> <!-- ScaLA-nb -->
    <td class="no la">0.37 ± 0.69 / 35.08 ± 2.81</td> <!-- ScaLA-nn -->
-   <td class="no qa">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- NorQuAD -->
+   <td class="no rc">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- NorQuAD -->
    <td>0.0.0</td> <!-- NorNE-nb version -->
    <td>0.0.0</td> <!-- NorNE-nn version -->
    <td>0.0.0</td> <!-- NoReC version -->
@@ -4692,7 +4692,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">20.64 ± 5.63 / 36.75 ± 3.29</td> <!-- NoReC -->
    <td class="no la">-0.99 ± 0.88 / 33.37 ± 0.27</td> <!-- ScaLA-nb -->
    <td class="no la">-0.15 ± 0.72 / 32.83 ± 0.34</td> <!-- ScaLA-nn -->
-   <td class="no qa">0.53 ± 0.31 / 22.14 ± 2.25</td> <!-- NorQuAD -->
+   <td class="no rc">0.53 ± 0.31 / 22.14 ± 2.25</td> <!-- NorQuAD -->
    <td>9.3.1</td> <!-- NorNE-nb version -->
    <td>9.3.1</td> <!-- NorNE-nn version -->
    <td>10.0.1</td> <!-- NoReC version -->
@@ -4713,7 +4713,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">8.70 ± 4.43 / 25.39 ± 3.30</td> <!-- NoReC -->
    <td class="no la">0.00 ± 1.60 / 38.54 ± 3.41</td> <!-- ScaLA-nb -->
    <td class="no la">0.82 ± 1.39 / 37.77 ± 4.45</td> <!-- ScaLA-nn -->
-   <td class="no qa">1.85 ± 0.82 / 10.19 ± 1.99</td> <!-- NorQuAD -->
+   <td class="no rc">1.85 ± 0.82 / 10.19 ± 1.99</td> <!-- NorQuAD -->
    <td>12.10.4</td> <!-- NorNE-nb version -->
    <td>12.10.4</td> <!-- NorNE-nn version -->
    <td>12.10.4</td> <!-- NoReC version -->
@@ -4734,7 +4734,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">7.78 ± 3.76 / 21.70 ± 5.02</td> <!-- NoReC -->
    <td class="no la">-1.46 ± 1.07 / 43.30 ± 2.30</td> <!-- ScaLA-nb -->
    <td class="no la">-2.97 ± 1.29 / 44.41 ± 3.18</td> <!-- ScaLA-nn -->
-   <td class="no qa">2.32 ± 0.68 / 6.65 ± 1.90</td> <!-- NorQuAD -->
+   <td class="no rc">2.32 ± 0.68 / 6.65 ± 1.90</td> <!-- NorQuAD -->
    <td>9.2.0</td> <!-- NorNE-nb version -->
    <td>9.2.0</td> <!-- NorNE-nn version -->
    <td>9.2.0</td> <!-- NoReC version -->
@@ -4755,7 +4755,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">4.76 ± 1.84 / 16.95 ± 5.07</td> <!-- NoReC -->
    <td class="no la">0.67 ± 1.94 / 40.42 ± 4.43</td> <!-- ScaLA-nb -->
    <td class="no la">-0.88 ± 1.89 / 40.70 ± 4.30</td> <!-- ScaLA-nn -->
-   <td class="no qa">0.00 ± 0.00 / 0.74 ± 0.05</td> <!-- NorQuAD -->
+   <td class="no rc">0.00 ± 0.00 / 0.74 ± 0.05</td> <!-- NorQuAD -->
    <td>9.3.1</td> <!-- NorNE-nb version -->
    <td>9.3.1</td> <!-- NorNE-nn version -->
    <td>10.0.1</td> <!-- NoReC version -->
@@ -4776,7 +4776,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">3.41 ± 2.11 / 14.87 ± 2.38</td> <!-- NoReC -->
    <td class="no la">0.22 ± 0.42 / 33.42 ± 0.29</td> <!-- ScaLA-nb -->
    <td class="no la">0.27 ± 0.79 / 38.20 ± 3.48</td> <!-- ScaLA-nn -->
-   <td class="no qa">0.00 ± 0.00 / 2.27 ± 0.89</td> <!-- NorQuAD -->
+   <td class="no rc">0.00 ± 0.00 / 2.27 ± 0.89</td> <!-- NorQuAD -->
    <td>12.5.2</td> <!-- NorNE-nb version -->
    <td>12.5.2</td> <!-- NorNE-nn version -->
    <td>12.5.2</td> <!-- NoReC version -->
@@ -4797,7 +4797,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">1.27 ± 1.21 / 9.77 ± 0.51</td> <!-- NoReC -->
    <td class="no la">0.00 ± 0.00 / 33.25 ± 0.30</td> <!-- ScaLA-nb -->
    <td class="no la">0.00 ± 0.00 / 32.79 ± 0.34</td> <!-- ScaLA-nn -->
-   <td class="no qa">0.00 ± 0.00 / 32.25 ± 0.29</td> <!-- NorQuAD -->
+   <td class="no rc">0.00 ± 0.00 / 32.25 ± 0.29</td> <!-- NorQuAD -->
    <td>10.0.1</td> <!-- NorNE-nb version -->
    <td>10.0.1</td> <!-- NorNE-nn version -->
    <td>10.0.1</td> <!-- NoReC version -->
@@ -4818,7 +4818,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">0.95 ± 0.80 / 9.68 ± 0.28</td> <!-- NoReC -->
    <td class="no la">0.00 ± 0.00 / 33.25 ± 0.30</td> <!-- ScaLA-nb -->
    <td class="no la">0.00 ± 0.00 / 32.79 ± 0.34</td> <!-- ScaLA-nn -->
-   <td class="no qa">0.00 ± 0.00 / 33.45 ± 0.27</td> <!-- NorQuAD -->
+   <td class="no rc">0.00 ± 0.00 / 33.45 ± 0.27</td> <!-- NorQuAD -->
    <td>9.3.1</td> <!-- NorNE-nb version -->
    <td>9.3.1</td> <!-- NorNE-nn version -->
    <td>9.3.1</td> <!-- NoReC version -->
@@ -4839,7 +4839,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">0.00 ± 0.00 / 9.59 ± 0.29</td> <!-- NoReC -->
    <td class="no la">0.00 ± 0.00 / 33.25 ± 0.30</td> <!-- ScaLA-nb -->
    <td class="no la">0.00 ± 0.00 / 32.79 ± 0.34</td> <!-- ScaLA-nn -->
-   <td class="no qa">0.00 ± 0.00 / 0.47 ± 0.03</td> <!-- NorQuAD -->
+   <td class="no rc">0.00 ± 0.00 / 0.47 ± 0.03</td> <!-- NorQuAD -->
    <td>12.7.0</td> <!-- NorNE-nb version -->
    <td>12.7.0</td> <!-- NorNE-nn version -->
    <td>12.7.0</td> <!-- NoReC version -->
@@ -4860,7 +4860,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">1.00 ± 1.27 / 13.84 ± 2.10</td> <!-- NoReC -->
    <td class="no la">0.00 ± 0.00 / 33.25 ± 0.30</td> <!-- ScaLA-nb -->
    <td class="no la">0.00 ± 0.00 / 32.79 ± 0.34</td> <!-- ScaLA-nn -->
-   <td class="no qa">0.00 ± 0.00 / 0.53 ± 0.06</td> <!-- NorQuAD -->
+   <td class="no rc">0.00 ± 0.00 / 0.53 ± 0.06</td> <!-- NorQuAD -->
    <td>12.7.0</td> <!-- NorNE-nb version -->
    <td>12.7.0</td> <!-- NorNE-nn version -->
    <td>12.7.0</td> <!-- NoReC version -->
@@ -4881,7 +4881,7 @@ title: Norwegian NLU 🇳🇴
    <td class="no sent">-1.43 ± 1.45 / 20.90 ± 4.96</td> <!-- NoReC -->
    <td class="no la">-0.42 ± 1.10 / 35.77 ± 3.09</td> <!-- ScaLA-nb -->
    <td class="no la">1.11 ± 2.21 / 39.28 ± 4.12</td> <!-- ScaLA-nn -->
-   <td class="no qa">0.00 ± 0.00 / 3.15 ± 0.55</td> <!-- NorQuAD -->
+   <td class="no rc">0.00 ± 0.00 / 3.15 ± 0.55</td> <!-- NorQuAD -->
    <td>10.0.1</td> <!-- NorNE-nb version -->
    <td>10.0.1</td> <!-- NorNE-nn version -->
    <td>10.0.1</td> <!-- NoReC version -->
@@ -4896,6 +4896,6 @@ title: Norwegian NLU 🇳🇴
 <div class="end-note">
   <a href="https://scandeval.com/norwegian-nlu-test.csv" target="_blank">Download as CSV</a>
   &nbsp;&nbsp;&bull;&nbsp;&nbsp;
-  <a href="javascript:void(0);" id="embed-link" data-embed="<iframe title=&quot;Norwegian NLU&quot; aria-label=&quot;Table&quot; id=&quot;datawrapper-chart-QmUh9&quot; src=&quot;https://datawrapper.dwcdn.net/QmUh9/1/&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width: 0; min-width: 100% !important; border: none;&quot; height=&quot;400&quot; data-external=&quot;1&quot;></iframe><script type=&quot;text/javascript&quot;>!function(){&quot;use strict&quot;;window.addEventListener(&quot;message&quot;,(function(a){if(void 0!==a.data[&quot;datawrapper-height&quot;]){var e=document.querySelectorAll(&quot;iframe&quot;);for(var t in a.data[&quot;datawrapper-height&quot;])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data[&quot;datawrapper-height&quot;][t]+&quot;px&quot;;e[r].style.height=i}}}))}();
+  <a href="javascript:void(0);" id="embed-link" data-embed="<iframe title=&quot;Norwegian NLU&quot; aria-label=&quot;Table&quot; id=&quot;datawrapper-chart-OEVlf&quot; src=&quot;https://datawrapper.dwcdn.net/OEVlf/1/&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width: 0; min-width: 100% !important; border: none;&quot; height=&quot;400&quot; data-external=&quot;1&quot;></iframe><script type=&quot;text/javascript&quot;>!function(){&quot;use strict&quot;;window.addEventListener(&quot;message&quot;,(function(a){if(void 0!==a.data[&quot;datawrapper-height&quot;]){var e=document.querySelectorAll(&quot;iframe&quot;);for(var t in a.data[&quot;datawrapper-height&quot;])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data[&quot;datawrapper-height&quot;][t]+&quot;px&quot;;e[r].style.height=i}}}))}();
 </script>">Copy embed HTML</a>
 </div>

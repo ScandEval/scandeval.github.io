@@ -12,9 +12,9 @@ KennethEnevoldsen/dfm-sentence-encoder-large-2,355,50,512,True,False,6569,1.56,8
 NbAiLab/nb-roberta-base-scandi,278,250,512,True,False,15079,1.57,92.24,87.58,59.98,70.18,70.81,44.27
 google/rembert,576,250,256,True,False,11736,1.58,88.7,86.11,54.19,69.83,54.84,58.18
 "meta-llama/Meta-Llama-3-70B (few-shot, val)",70554,128,8192,True,False,312,1.59,75.31,75.94,66.74,59.82,47.56,60.87
-"gpt-4-1106-preview (few-shot, val)",-1,100,127999,True,False,576,1.63,77.48,78.7,62.55,74.45,56.31,44.67
+"gpt-4-1106-preview (few-shot, val)",-1,100,128000,True,False,576,1.63,77.48,78.7,62.55,74.45,56.31,44.67
 pere/roberta-base-exp-8,278,250,512,True,False,15112,1.65,88.99,82.99,57.37,69.92,70.05,41.98
-"gpt-4o-2024-05-13 (few-shot, val)",-1,200,127999,True,False,916,1.67,79.07,81.56,66.66,64.53,54.7,43.51
+"gpt-4o-2024-05-13 (few-shot, val)",-1,200,128000,True,False,916,1.67,79.07,81.56,66.66,64.53,54.7,43.51
 microsoft/mdeberta-v3-base,279,251,512,True,False,20637,1.68,91.9,86.81,53.69,70.55,61.21,48.82
 NbAiLab/nb-bert-base,178,120,512,True,False,14050,1.69,93.01,88.43,60.84,73.89,72.1,33.01
 pere/roberta-base-exp-32,278,250,512,True,False,15081,1.7,91.66,87.74,57.43,63.31,62.79,41.05
@@ -64,7 +64,7 @@ microsoft/infoxlm-large,560,250,512,True,False,6696,2.52,91.9,86.59,30.56,9.79,6
 "timpal0l/dolphin-2.9-llama3-8b-flashback (few-shot, val)",8030,128,8192,False,True,5018,2.52,64.51,65.66,52.9,29.34,17.42,38.49
 microsoft/infoxlm-base,278,250,512,True,False,34735,2.53,90.14,84.12,44.42,11.2,7.12,47.69
 KBLab/megatron-bert-large-swedish-cased-165k,370,64,512,True,False,7138,2.54,85.99,79.47,39.53,27.39,23.56,39.01
-gpt-4o-mini-2024-07-18 (few-shot),-1,200,127999,True,False,1171,2.54,75.05,74.08,37.79,31.59,39.25,39.43
+gpt-4o-mini-2024-07-18 (few-shot),-1,200,128000,True,False,1171,2.54,75.05,74.08,37.79,31.59,39.25,39.43
 "RJuro/munin-neuralbeagle-7b (few-shot, val)",7242,32,32768,False,True,2493,2.55,61.18,65.16,55.61,20.84,9.12,42.92
 AI-Nordics/bert-large-swedish-cased,335,31,512,True,False,7199,2.56,83.32,77.97,38.44,37.54,23.1,39.97
 "timpal0l/BeagleCatMunin2 (few-shot, val)",7242,32,32768,False,True,2477,2.56,61.17,65.44,58.69,15.03,5.95,42.42
