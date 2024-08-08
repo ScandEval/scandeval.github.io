@@ -78,7 +78,7 @@ Qwen/Qwen1.5-4B-Chat (few-shot),3950,152,32768,False,False,4347,2.98,35.96,42.04
 timpal0l/Mistral-7B-v0.1-flashback-v2-instruct (few-shot),7242,32,32768,False,False,5172,2.99,37.02,40.65,7.48,52.71,64.46,47.26,49.54,9.02
 AI-Sweden-Models/gpt-sw3-40b (few-shot),39927,64,2048,True,False,409,3.01,26.57,47.81,11.13,53.78,66.21,33.48,29.86,6.67
 "merge-crew/da-sv-dare-ties-density-0.3 (few-shot, val)",7242,32,32768,True,True,2461,3.01,30.16,48.49,5.52,52.44,64.24,43.57,35.6,6.76
-ibm-granite/granite-8b-code-base (few-shot),8055,49,4096,True,False,1002,3.04,48.44,39.07,9.72,51.18,63.93,33.33,17.65,8.97
+ibm-granite/granite-8b-code-base (few-shot),8055,49,4096,True,False,1002,3.04,48.44,39.07,9.72,51.18,63.93,33.11,18.96,8.97
 meta-llama/Llama-2-7b-hf (few-shot),6738,32,4096,True,False,930,3.07,31.77,43.91,0.31,58.44,65.5,20.18,35.69,7.93
 Qwen/Qwen1.5-4B (few-shot),3950,152,32768,True,False,3248,3.08,32.28,39.62,5.38,54.16,62.74,37.49,29.21,15.58
 tollefj/nordavind-7b-instruct-warm (few-shot),7248,33,2048,False,False,6450,3.09,38.39,49.44,7.5,51.24,66.09,3.53,12.86,1.29
@@ -102,7 +102,7 @@ AI-Sweden-Models/gpt-sw3-6.7b-v2 (few-shot),7111,64,2048,True,False,2351,3.52,20
 NorwAI/NorwAI-Mistral-7B-instruct (few-shot),7537,68,4096,False,False,3027,3.53,13.78,42.16,3.52,20.02,65.03,40.74,43.43,4.5
 LumiOpen/Viking-7B (few-shot),7550,131,4096,True,False,4969,3.56,23.98,38.74,1.04,50.17,61.96,-0.06,-1.04,0.73
 mhenrichsen/danskgpt-tiny-chat (few-shot),1100,32,2048,False,False,1745,3.56,22.31,34.05,0.7,41.82,65.27,6.27,6.25,2.11
-AI-Sweden-Models/gpt-sw3-6.7b-v2-instruct (few-shot),7111,64,2048,True,False,2383,3.58,15.35,2.85,10.99,50.51,66.38,30.9,16.81,11.08
+AI-Sweden-Models/gpt-sw3-6.7b-v2-instruct (few-shot),7111,64,2048,True,False,2383,3.57,15.35,2.85,10.99,50.51,66.38,30.9,16.81,11.08
 google/gemma-2b-it (few-shot),2506,256,8192,False,False,6471,3.58,24.44,34.03,2.25,42.12,62.41,15.16,12.67,2.67
 AI-Sweden-Models/gpt-sw3-6.7b (few-shot),7111,64,2048,True,False,2285,3.62,18.23,22.71,5.03,49.11,64.58,1.11,8.76,1.7
 AI-Sweden-Models/gpt-sw3-1.3b-instruct (few-shot),1445,64,2048,True,False,4544,3.65,14.73,27.14,2.65,46.38,65.48,0.32,7.0,0.13
@@ -118,7 +118,7 @@ mhenrichsen/danskgpt-tiny (few-shot),1100,32,2048,True,False,8597,3.91,14.13,26.
 AI-Sweden-Models/gpt-sw3-356m (few-shot),471,64,2048,True,False,5758,3.93,16.13,27.61,1.96,34.79,59.05,1.0,4.85,0.28
 Qwen/Qwen1.5-0.5B-Chat (few-shot),620,152,32768,False,False,11740,4.08,17.38,10.72,1.32,34.58,55.87,4.56,22.41,1.71
 allenai/OLMo-7B-Twin-2T (few-shot),6888,50,2051,True,False,5484,4.09,7.52,18.3,3.23,46.35,53.01,2.17,0.22,-0.65
-Qwen/Qwen1.5-0.5B (few-shot),620,152,32768,True,False,11371,4.13,19.01,8.88,0.66,32.78,55.57,7.21,16.56,0.62
+Qwen/Qwen1.5-0.5B (few-shot),620,152,32768,True,False,11371,4.12,19.01,8.88,0.66,32.78,55.57,7.21,16.56,0.62
 AI-Sweden-Models/gpt-sw3-126m-instruct (few-shot),186,64,2048,True,False,7717,4.28,13.98,6.37,0.41,20.46,60.87,0.53,4.72,-0.07
 RuterNorway/Llama-2-7b-chat-norwegian (few-shot),-1,32,4096,False,False,10890,4.3,10.12,10.65,-0.66,26.08,56.92,0.1,4.29,-0.88
 NorwAI/NorwAI-Mistral-7B-pretrain (few-shot),7537,68,4096,True,False,3024,4.44,12.82,3.55,0.68,19.85,55.58,-0.11,-2.13,0.88
