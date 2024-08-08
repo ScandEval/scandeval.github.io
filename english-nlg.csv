@@ -45,7 +45,7 @@ google/gemma-7b-it (few-shot),8538,256,8445,False,False,1792,2.23,66.7,55.62,31.
 mistralai/Mistral-7B-Instruct-v0.2 (few-shot),7242,32,32768,False,False,634,2.24,62.11,59.91,30.66,58.27,69.75,34.93,44.91
 danish-foundation-models/munin-7b-v0.1dev0 (few-shot),7242,32,8192,True,False,6113,2.26,56.38,66.04,22.15,71.32,68.13,35.47,29.25
 meta-llama/Llama-2-7b-chat-hf (few-shot),6738,32,4096,False,False,2643,2.34,62.53,62.23,22.71,64.45,69.95,30.47,30.18
-ibm-granite/granite-8b-code-base (few-shot),8055,49,4351,True,False,1002,2.36,72.76,62.35,21.57,69.8,67.71,25.41,16.5
+ibm-granite/granite-8b-code-base (few-shot),8055,49,4096,True,False,1002,2.35,72.76,62.35,21.57,69.8,67.73,25.41,16.5
 occiglot/occiglot-7b-eu5 (few-shot),7242,32,32768,True,False,2219,2.37,55.37,63.32,18.92,72.38,68.61,37.04,23.54
 microsoft/phi-2 (few-shot),2780,51,2048,True,False,3472,2.42,49.16,62.41,12.31,75.79,67.79,40.15,23.21
 meta-llama/Llama-2-7b-hf (few-shot),6738,32,4096,True,False,930,2.44,55.27,65.16,20.43,69.82,68.82,25.98,11.77
