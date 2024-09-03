@@ -218,7 +218,7 @@ title: {title}
     benchmark_path.parent.mkdir(exist_ok=True, parents=True)
 
     # Create path to the scores JSONL file, and raise error if it doesn't exist
-    scores_path = Path("scandeval_benchmark_results.jsonl")
+    scores_path = Path("scandeval_benchmark_results.filtered.jsonl")
     if not scores_path.exists():
         raise FileNotFoundError(f"Could not find {scores_path!r}")
 
@@ -429,6 +429,7 @@ title: {title}
                 there are multiple scores for the model on the dataset.
         """
         validation_split = re.search(r"\(.*val.*\)", model_id) is not None
+        few_shot = re.search(r"\(.*few-shot.*\)", model_id) is not None
         model_id = re.sub(r" *\(.+\) *", "", model_id.lower())
 
         possible_score_dicts = [
@@ -436,6 +437,10 @@ title: {title}
             if dct["model"].lower() == model_id
             and dct["dataset"].lower().replace(" ", "_").replace("-", "_") == dataset
             and dct.get("validation_split", False) == validation_split
+            and (
+                not dct.get("generative", False)
+                or dct.get("few_shot", True) == few_shot
+            )
         ]
         if not possible_score_dicts:
             raise ValueError(f"Could not find scores for {model_id} on {dataset}")
