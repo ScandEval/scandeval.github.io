@@ -9,16 +9,17 @@ gpt-4o-2024-05-13 (zero-shot),-1,200,128000,True,False,1038,1.4,70.01,38.62,63.7
 "gpt-3.5-turbo-0613 (few-shot, val)",-1,100,4094,True,False,921,1.54,61.31,52.52,57.63,57.03,66.38,81.95,77.66,62.21
 "meta-llama/Meta-Llama-3-70B-Instruct (few-shot, val)",70554,128,8192,True,False,1673,1.62,63.1,53.09,40.98,51.13,67.76,85.18,79.22,70.19
 gpt-4o-mini-2024-07-18 (zero-shot),-1,200,128000,True,False,1019,1.66,57.71,47.99,53.42,50.06,64.7,82.3,86.39,72.29
+"meta-llama/Llama-2-70b-hf (few-shot, val)",68977,32,4096,True,False,1892,1.71,58.06,53.24,39.71,62.51,67.39,84.43,71.35,54.31
 "152334H/miqu-1-70b-sf (few-shot, val)",68977,32,32764,True,False,2126,1.72,56.96,55.11,42.64,54.58,66.8,83.94,73.32,60.52
-"meta-llama/Llama-2-70b-hf (few-shot, val)",68977,32,4096,True,False,1892,1.72,58.06,53.24,39.71,62.51,67.39,84.43,71.35,54.31
 gpt-4o-mini-2024-07-18 (few-shot),-1,200,128000,True,False,1171,1.87,63.59,29.47,38.37,54.63,65.94,80.46,76.16,62.12
 mhenrichsen/danskgpt-chat-v2.1 (few-shot),-1,32,32768,True,False,5085,1.94,51.08,54.69,30.95,56.56,66.9,79.39,73.22,48.16
 Nexusflow/Starling-LM-7B-beta (few-shot),7242,32,8192,False,False,5876,1.98,53.2,51.75,32.72,56.44,67.46,59.78,58.63,50.74
 timpal0l/sol (few-shot),10732,32,4096,False,False,3701,1.98,54.91,44.38,21.11,58.96,66.89,61.12,64.86,67.96
-upstage/SOLAR-10.7B-v1.0 (few-shot),10732,32,4096,True,False,3780,1.99,58.03,46.63,15.09,62.15,66.81,64.79,68.59,65.29
+upstage/SOLAR-10.7B-v1.0 (few-shot),10732,32,4096,True,False,3780,2.0,58.03,46.63,15.09,62.15,66.81,64.79,68.59,65.29
+mistralai/Mistral-Nemo-Instruct-2407 (few-shot),12248,131,1024001,True,False,7095,2.03,53.95,48.97,31.78,56.44,66.24,67.09,72.87,42.77
 "RJuro/munin-neuralbeagle-7b (few-shot, val)",7242,32,32768,False,True,2493,2.05,51.44,54.91,22.77,56.51,68.06,74.24,70.86,41.49
-"birgermoell/BeagleCatMunin-Flashback-Bellman (few-shot, val)",7242,32,32768,False,True,2890,2.17,50.4,52.3,21.3,58.17,66.25,65.32,64.76,33.7
-"birgermoell/Rapid-Cycling (few-shot, val)",7242,32,32768,False,True,2346,2.17,49.99,51.25,20.66,56.82,65.58,67.48,63.69,32.11
+"birgermoell/BeagleCatMunin-Flashback-Bellman (few-shot, val)",7242,32,32768,False,True,2890,2.16,50.4,52.3,21.3,58.17,66.25,65.32,64.76,33.7
+"birgermoell/Rapid-Cycling (few-shot, val)",7242,32,32768,False,True,2346,2.16,49.99,51.25,20.66,56.82,65.58,67.48,63.69,32.11
 "merge-crew/da-sv-task-arithmetic (few-shot, val)",7242,32,32768,True,True,2500,2.18,46.06,51.51,27.68,57.78,66.62,68.64,66.17,23.95
 "mlabonne/NeuralBeagle14-7B (few-shot, val)",7242,32,8192,False,True,2549,2.18,53.02,51.29,19.73,51.69,67.33,65.38,62.78,39.07
 "merge-crew/da-sv-slerp (few-shot, val)",7242,32,32768,True,True,2467,2.19,45.94,51.75,28.04,57.65,66.65,68.88,64.81,23.63
@@ -51,7 +52,7 @@ bineric/NorskGPT-Llama3-8b (few-shot),8030,128,8192,False,False,3695,2.37,51.4,4
 emillykkejensen/Llama-3-8B-instruct-dansk (few-shot),8030,128,4096,False,False,967,2.4,41.74,50.07,24.49,59.29,66.24,55.51,48.43,19.64
 "merge-crew/da-sv-dare-ties-density-0.9 (few-shot, val)",7242,32,32768,True,True,2443,2.41,45.61,53.73,17.08,56.67,66.14,60.58,57.89,16.45
 google/gemma-7b (few-shot),8538,256,8192,True,False,1378,2.43,19.59,46.55,32.64,59.4,66.63,74.32,65.58,24.74
-mistralai/Mistral-7B-v0.3 (few-shot),7248,33,32768,True,False,4120,2.44,43.6,45.92,15.43,59.13,66.33,53.81,61.06,20.64
+mistralai/Mistral-7B-v0.3 (few-shot),7248,33,32768,True,False,4120,2.43,43.6,45.92,15.43,59.13,66.33,53.81,61.06,20.64
 alpindale/Mistral-7B-v0.2-hf (few-shot),7242,32,32768,True,False,1841,2.45,43.65,45.86,15.19,59.14,66.3,53.67,54.52,20.51
 bineric/NorskGPT-Mistral-7b (few-shot),7242,32,32768,False,False,2443,2.45,50.76,40.41,0.0,57.26,66.89,64.32,53.18,43.42
 "merge-crew/da-sv-ties (few-shot, val)",7242,32,32768,True,True,2457,2.45,45.39,51.95,13.25,58.51,66.33,57.16,60.06,13.62
@@ -67,9 +68,9 @@ bineric/NorskGPT-Llama-13B-v0.1 (few-shot),-1,32,4096,False,False,2856,2.58,44.1
 RuterNorway/Llama-2-13b-chat-norwegian (few-shot),-1,32,4096,False,False,3254,2.59,43.17,43.4,11.08,56.81,67.46,52.94,41.65,17.57
 neph1/bellman-7b-mistral-instruct-v0.2 (few-shot),7242,32,32768,False,False,2518,2.61,46.11,47.58,18.41,52.78,65.65,41.77,35.86,11.59
 meta-llama/Llama-2-13b-hf (few-shot),13016,32,4096,True,False,2898,2.68,41.28,23.01,23.5,60.29,66.28,50.3,56.24,15.43
+bineric/NorskGPT-Llama-7B-v0.1 (few-shot),6738,32,4096,False,False,5384,2.73,41.63,47.73,0.0,54.25,66.02,47.16,38.28,22.27
 mistralai/Mistral-7B-Instruct-v0.1 (few-shot),7242,32,32768,False,False,634,2.73,37.93,44.49,14.09,51.38,65.8,45.07,35.36,14.85
 occiglot/occiglot-7b-eu5-instruct (few-shot),7242,32,32768,False,False,2088,2.73,40.19,42.31,1.14,57.89,66.68,44.3,48.76,15.44
-bineric/NorskGPT-Llama-7B-v0.1 (few-shot),6738,32,4096,False,False,5384,2.74,41.63,47.73,0.0,54.25,66.02,47.16,38.28,22.27
 meta-llama/Llama-2-7b-chat-hf (few-shot),6738,32,4096,False,False,2643,2.8,35.44,44.88,9.74,55.04,66.15,32.17,35.74,11.32
 emillykkejensen/Phi-3-mini-4k-instruct-dansk (few-shot),3821,32,4096,False,False,1360,2.81,39.96,44.93,4.01,55.01,65.29,35.28,41.62,11.81
 occiglot/occiglot-7b-eu5 (few-shot),7242,32,32768,True,False,2219,2.81,37.93,44.62,0.28,58.05,66.05,38.54,45.89,12.38
@@ -141,7 +142,7 @@ peter-sk/gpt-neox-da (few-shot),1515,50,1024,True,False,6025,4.4,0.64,-0.52,-0.0
 ai-forever/mGPT (few-shot),-1,100,1024,True,False,11734,4.52,0.65,2.61,-0.73,1.99,35.64,-0.61,6.94,-1.12
 senseable/WestLake-7B-v2 (zero-shot),7242,32,4096,False,False,1730,4.57,0.0,21.83,0.0,0.09,14.36,1.3,18.8,3.04
 Sigurdur/icebreaker (few-shot),110,32,1024,False,False,48619,4.58,0.0,0.0,0.0,0.0,37.85,0.26,-0.75,-0.88
-meta-llama/Meta-Llama-3.1-8B-Instruct (zero-shot),8030,128,131072,True,False,2363,4.63,49.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+meta-llama/Meta-Llama-3.1-8B-Instruct (zero-shot),8030,128,131072,True,False,2363,4.64,49.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 meta-llama/Meta-Llama-3-8B-Instruct (zero-shot),8030,128,8192,True,False,2363,4.66,43.41,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-mistralai/Mistral-7B-Instruct-v0.3 (zero-shot),7248,33,32768,False,False,2519,4.74,27.64,2.88,0.0,0.0,0.0,1.3,0.0,2.52
-microsoft/Phi-3-mini-4k-instruct (zero-shot),3821,32,2047,True,False,3373,4.81,25.92,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+mistralai/Mistral-7B-Instruct-v0.3 (zero-shot),7248,33,32768,False,False,2519,4.75,27.64,2.88,0.0,0.0,0.0,1.3,0.0,2.52
+microsoft/Phi-3-mini-4k-instruct (zero-shot),3821,32,2047,True,False,3373,4.82,25.92,0.0,0.0,0.0,0.0,0.0,0.0,0.0
