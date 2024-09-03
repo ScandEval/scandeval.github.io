@@ -97,7 +97,7 @@ def main(filename: str) -> None:
     if num_duplicates:
         logger.info(f"Removed {num_duplicates:,} duplicates from {filename}.")
 
-    with Path(filename).open(mode="w") as f:
+    with Path(filename).with_suffix(".filtered.jsonl").open(mode="w") as f:
         for record in records:
             f.write(json.dumps(record) + "\n")
 
