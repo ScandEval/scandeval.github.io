@@ -3,5 +3,6 @@
 iframe_figures/
 __pycache__/
 *.no_extras.jsonl
+*.filtered.jsonl
 .env
 .DS_Store
