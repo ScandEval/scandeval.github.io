@@ -54,23 +54,7 @@ def main(filename: str) -> None:
         if "commercially_licensed" in record:
             COMMERCIALLY_LICENSED_CACHE[model_id] = record["commercially_licensed"]
 
-    records = [
-        add_missing_entries(record=record)
-        for record in tqdm(records, desc="Adding missing entries")
-    ]
-
-    records = [
-        fix_metadata(record=record)
-        for record in tqdm(records, desc="Fixing metadata in records")
-    ]
-
-    # Remove invalid evaluation records
-    records = [record for record in records if record_is_valid(record=record)]
-    num_invalid_records = num_raw_records - len(records)
-    if num_invalid_records > 0:
-        logger.info(f"Removed {num_invalid_records:,} invalid records from {filename}.")
-
-    # Filter records
+    # Remove duplicates
     all_hash_values = [get_hash(dct) for dct in records]
     unique_hash_values = sorted(set(all_hash_values))
     new_records = list()
@@ -93,10 +77,32 @@ def main(filename: str) -> None:
         newest_match = matches_with_newest_version[-1]
         new_records.append(newest_match)
     records = new_records
-    num_duplicates = num_raw_records - num_invalid_records - len(records)
+    num_duplicates = num_raw_records - len(records)
     if num_duplicates:
         logger.info(f"Removed {num_duplicates:,} duplicates from {filename}.")
 
+    # Overwrite original scores file with the de-duplicated records
+    with Path(filename).open(mode="w") as f:
+        for record in records:
+            f.write(json.dumps(record) + "\n")
+
+    records = [
+        add_missing_entries(record=record)
+        for record in tqdm(records, desc="Adding missing entries")
+    ]
+
+    records = [
+        fix_metadata(record=record)
+        for record in tqdm(records, desc="Fixing metadata in records")
+    ]
+
+    # Remove invalid evaluation records
+    records = [record for record in records if record_is_valid(record=record)]
+    num_invalid_records = num_raw_records - num_duplicates - len(records)
+    if num_invalid_records > 0:
+        logger.info(f"Removed {num_invalid_records:,} invalid records from {filename}.")
+
+    # Store filtered records in separate file
     with Path(filename).with_suffix(".filtered.jsonl").open(mode="w") as f:
         for record in records:
             f.write(json.dumps(record) + "\n")
