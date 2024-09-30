@@ -68,7 +68,7 @@ microsoft/infoxlm-base,277,250,512,True,False,34735,3.28,77.09,1.71,8.56
 Geotrend/bert-base-25lang-cased,151,85,512,True,False,13908,3.29,74.65,2.89,9.29
 01-ai/Yi-1.5-6B (few-shot),6061,64,4224,True,False,2867,3.34,38.15,0.98,20.39
 KennethEnevoldsen/dfm-sentence-encoder-medium,124,50,512,True,False,14998,3.35,64.88,-0.6,12.39
-ibm-granite/granite-8b-code-base (few-shot),8055,49,4096,True,False,2313,3.36,50.89,0.5,17.43
+ibm-granite/granite-8b-code-base-4k (few-shot),8055,49,4096,True,False,2313,3.36,50.89,0.5,17.43
 timpal0l/Mistral-7B-v0.1-flashback-v2 (few-shot),7242,32,32768,True,False,5054,3.36,36.47,2.54,18.66
 LumiOpen/Viking-13B (few-shot),14030,131,4224,True,False,840,3.37,26.28,2.17,22.65
 ZurichNLP/unsup-simcse-xlm-roberta-base,277,250,512,True,False,34520,3.37,75.27,3.47,7.67

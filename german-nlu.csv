@@ -68,7 +68,7 @@ timpal0l/Mistral-7B-v0.1-flashback-v2 (few-shot),7242,32,32768,True,False,5054,2
 Twitter/twhin-bert-large,562,250,512,True,False,9707,2.46,74.36,53.52,22.26,11.68
 seedboxai/KafkaLM-13B-German-V0.1-DPO (few-shot),13016,32,8221,False,False,789,2.46,52.45,49.73,20.72,30.18
 RuterNorway/Llama-2-13b-chat-norwegian (few-shot),-1,32,4125,False,False,3254,2.49,57.02,49.75,19.8,27.86
-ibm-granite/granite-8b-code-base (few-shot),8055,49,4096,True,False,2313,2.5,59.07,49.75,14.71,29.45
+ibm-granite/granite-8b-code-base-4k (few-shot),8055,49,4096,True,False,2313,2.5,59.07,49.75,14.71,29.45
 mistralai/Mistral-7B-Instruct-v0.2 (few-shot),7242,32,32768,False,False,634,2.54,55.1,47.69,24.14,23.93
 meta-llama/Llama-2-7b-hf (few-shot),6738,32,4125,True,False,930,2.61,43.02,50.21,15.79,28.57
 Geotrend/distilbert-base-25lang-cased,109,85,512,True,False,26099,2.63,72.97,41.51,45.39,1.89

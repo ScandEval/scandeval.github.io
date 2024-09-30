@@ -39,7 +39,7 @@ meta-llama/Llama-3.2-3B-Instruct (few-shot),3213,128,131200,False,False,3602,2.9
 occiglot/occiglot-7b-eu5-instruct (few-shot),7242,32,32768,False,False,2088,2.95,53.78,7.78,16.23,63.09,66.46,28.37,15.25
 Rijgersberg/GEITje-7B-chat-v2 (few-shot),7242,32,32768,False,False,5908,2.99,42.12,11.06,19.71,59.19,65.55,27.71,18.03
 google/gemma-2-2b-it (few-shot),2614,256,8320,False,False,6789,2.99,40.49,11.34,19.49,49.35,66.86,29.3,31.33
-ibm-granite/granite-8b-code-base (few-shot),8055,49,4096,True,False,2313,3.0,63.29,13.81,8.16,56.64,63.08,16.86,6.24
+ibm-granite/granite-8b-code-base-4k (few-shot),8055,49,4096,True,False,2313,3.0,63.29,13.81,8.16,56.64,63.08,16.86,6.24
 meta-llama/Llama-2-13b-chat-hf (few-shot),13016,32,4096,True,False,2849,3.0,57.8,8.57,17.4,56.35,66.11,27.15,19.18
 RuterNorway/Llama-2-13b-chat-norwegian (few-shot),-1,32,4096,False,False,3254,3.01,57.66,8.41,16.93,56.29,66.22,25.7,17.92
 microsoft/Phi-3-mini-128k-instruct (few-shot),3821,32,131072,True,False,7312,3.02,44.27,12.84,10.44,56.4,62.6,28.63,22.58

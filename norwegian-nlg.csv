@@ -74,7 +74,7 @@ mistralai/Mistral-7B-Instruct-v0.1 (few-shot),7242,32,32768,False,False,634,3.2,
 occiglot/occiglot-7b-eu5 (few-shot),7242,32,32768,True,False,2219,3.26,45.28,46.0,44.95,63.26,0.0,0.0,43.88,20.87,13.1
 danish-foundation-models/munin-7b-alpha (few-shot),7242,32,32768,True,False,6116,3.28,48.89,51.95,20.54,63.67,4.39,1.2,47.16,29.07,19.15
 meta-llama/Llama-3.2-3B (few-shot),3213,128,131073,True,False,3713,3.28,49.57,52.13,39.96,58.99,3.2,3.72,45.54,21.88,14.24
-ibm-granite/granite-8b-code-base (few-shot),8055,49,4096,True,False,2313,3.29,68.4,65.15,42.0,61.27,5.2,3.32,37.51,12.42,8.32
+ibm-granite/granite-8b-code-base-4k (few-shot),8055,49,4096,True,False,2313,3.29,68.4,65.15,42.0,61.27,5.2,3.32,37.51,12.42,8.32
 01-ai/Yi-1.5-6B (few-shot),6061,64,4097,True,False,2867,3.32,46.02,48.72,27.86,60.92,2.41,2.5,44.7,23.93,22.39
 01-ai/Yi-6B (few-shot),6061,64,4096,True,False,6435,3.32,43.44,46.33,38.96,61.98,0.75,1.04,40.28,23.14,16.5
 meta-llama/Llama-3.2-3B-Instruct (few-shot),3213,128,131073,False,False,3602,3.33,49.69,52.21,43.89,60.43,1.41,0.37,28.31,26.91,20.36
