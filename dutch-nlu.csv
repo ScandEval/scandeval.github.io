@@ -82,7 +82,7 @@ google/gemma-2-2b-it (few-shot),2614,256,8320,False,False,6789,3.16,40.49,11.34,
 BramVanroy/fietje-2b (few-shot),2780,51,2048,True,False,4804,3.17,33.92,13.39,6.75,58.57
 BramVanroy/fietje-2b-instruct (few-shot),2775,50,2048,False,False,4710,3.18,36.5,13.7,4.81,60.63
 meta-llama/Llama-2-7b-hf (few-shot),6738,32,4096,True,False,930,3.21,40.49,7.1,18.66,59.92
-ibm-granite/granite-3b-code-base (few-shot),3483,49,2048,True,False,2732,3.22,50.88,12.39,3.31,48.44
+ibm-granite/granite-3b-code-base-2k (few-shot),3483,49,2048,True,False,2732,3.22,50.88,12.39,3.31,48.44
 01-ai/Yi-1.5-6B (few-shot),6061,64,4224,True,False,2867,3.26,51.18,9.23,1.99,54.66
 01-ai/Yi-6B (few-shot),6061,64,4096,True,False,6435,3.29,46.34,8.96,0.88,55.33
 BramVanroy/GEITje-7B-ultra-sft (few-shot),7242,32,8192,False,False,5979,3.29,39.41,7.0,16.1,53.02

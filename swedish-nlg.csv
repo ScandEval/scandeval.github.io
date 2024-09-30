@@ -108,7 +108,7 @@ AI-Sweden-Models/gpt-sw3-1.3b-instruct (few-shot),1445,64,2048,True,False,4544,3
 HPLT/gpt-13b-nordic-prerelease (few-shot),14030,131,4099,True,False,3520,3.57,32.19,72.26,2.39,48.92,57.46,-0.49,0.5
 LumiOpen/Viking-7B (few-shot),7550,131,4096,True,False,4969,3.57,30.64,72.02,1.08,48.72,57.93,1.14,1.13
 NorwAI/NorwAI-Mistral-7B-instruct (few-shot),7537,68,4065,False,False,3027,3.61,20.97,77.76,2.35,28.65,63.75,9.17,3.98
-ibm-granite/granite-3b-code-base (few-shot),3483,49,2048,True,False,2732,3.63,51.76,70.61,6.24,44.67,41.31,7.41,5.42
+ibm-granite/granite-3b-code-base-2k (few-shot),3483,49,2048,True,False,2732,3.63,51.76,70.61,6.24,44.67,41.31,7.41,5.42
 Qwen/Qwen1.5-4B (few-shot),3950,152,32768,True,False,3248,3.66,37.26,5.2,1.85,54.15,58.24,22.04,14.76
 meta-llama/Llama-3.2-1B (few-shot),1236,128,131073,True,False,7577,3.66,29.89,74.33,1.06,46.89,52.06,0.93,0.09
 Qwen/Qwen1.5-1.8B-Chat (few-shot),1837,152,32768,False,False,8304,3.67,20.94,52.54,0.34,43.55,61.19,10.74,4.83

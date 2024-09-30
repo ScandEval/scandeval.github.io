@@ -47,7 +47,7 @@ norallm/normistral-7b-warm-instruct (few-shot),7248,33,4096,True,False,6194,4.27
 tollefj/nordavind-7b-instruct-warm (few-shot),7248,33,2048,False,False,6450,4.27,34.76,0.77,12.8,61.23,2.01,-0.76
 google/gemma-2-2b (few-shot),2614,256,8193,True,False,5235,4.28,10.67,-0.21,20.22,59.97,10.08,1.16
 AI-Sweden-Models/gpt-sw3-1.3b (few-shot),1445,64,2048,True,False,4608,4.3,1.42,0.75,23.33,64.23,0.4,0.68
-ibm-granite/granite-3b-code-base (few-shot),3483,49,2048,True,False,2732,4.3,38.52,0.0,12.94,58.58,2.11,-4.75
+ibm-granite/granite-3b-code-base-2k (few-shot),3483,49,2048,True,False,2732,4.3,38.52,0.0,12.94,58.58,2.11,-4.75
 Qwen/Qwen1.5-4B-Chat (few-shot),3950,152,32768,False,False,4347,4.35,25.65,-0.35,14.46,62.11,4.5,-1.89
 AI-Sweden-Models/gpt-sw3-356m-instruct (few-shot),471,64,2048,True,False,5855,4.4,17.79,0.08,15.04,59.45,1.06,5.69
 01-ai/Yi-6B (few-shot),6061,64,4096,True,False,6435,4.45,0.0,2.12,16.91,60.02,4.35,0.72

@@ -79,7 +79,7 @@ occiglot/occiglot-7b-eu5 (few-shot),7242,32,32768,True,False,2219,2.29,55.37,63.
 meta-llama/Llama-3.2-3B (few-shot),3213,128,131200,True,False,3713,2.35,59.09,63.29,13.5,68.15
 google/gemma-2-2b-it (few-shot),2614,256,8320,False,False,6789,2.37,44.56,66.26,34.36,55.04
 Rijgersberg/GEITje-7B (few-shot),7242,32,32768,True,False,5887,2.41,53.39,65.21,12.63,65.74
-ibm-granite/granite-3b-code-base (few-shot),3483,49,2048,True,False,2732,2.41,60.64,61.2,7.63,69.83
+ibm-granite/granite-3b-code-base-2k (few-shot),3483,49,2048,True,False,2732,2.41,60.64,61.2,7.63,69.83
 microsoft/phi-2 (few-shot),2780,51,2048,True,False,3472,2.42,49.16,62.41,12.31,75.79
 Twitter/twhin-bert-base,279,250,512,True,False,11514,2.44,87.77,41.09,32.26,35.15
 sentence-transformers/paraphrase-xlm-r-multilingual-v1,278,250,512,True,False,20154,2.44,84.05,54.92,45.85,4.13

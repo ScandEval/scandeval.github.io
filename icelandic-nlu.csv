@@ -120,7 +120,7 @@ microsoft/Phi-3-mini-128k-instruct (few-shot),3821,32,131072,True,False,7312,3.6
 sentence-transformers/distilbert-multilingual-nli-stsb-quora-ranking,135,120,512,True,False,33753,3.65,59.15,0.8,6.14
 KennethEnevoldsen/dfm-sentence-encoder-large-1,354,50,512,True,False,6245,3.69,48.31,3.18,7.94
 danish-foundation-models/encoder-large-v1,354,50,512,True,False,6671,3.69,49.68,0.33,9.3
-ibm-granite/granite-3b-code-base (few-shot),3483,49,2048,True,False,2732,3.69,38.52,0.0,12.94
+ibm-granite/granite-3b-code-base-2k (few-shot),3483,49,2048,True,False,2732,3.69,38.52,0.0,12.94
 dbmdz/bert-medium-historic-multilingual-cased,42,32,512,True,False,24291,3.7,58.9,0.27,5.9
 tollefj/nordavind-7b-instruct-warm (few-shot),7248,33,2048,False,False,6450,3.7,34.76,0.77,12.8
 KBLab/bert-base-swedish-cased,125,50,512,True,False,16164,3.71,55.25,2.19,5.14
