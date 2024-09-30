@@ -64,7 +64,7 @@ Qwen/Qwen1.5-1.8B (few-shot),1837,152,32768,True,False,5666,2.71,37.22,64.34,15.
 google/gemma-2-2b (few-shot),2614,256,8448,True,False,5235,2.75,30.82,66.28,10.09,64.96,67.13,35.14,11.26
 Qwen/Qwen1.5-1.8B-Chat (few-shot),1837,152,32768,False,False,8304,2.84,40.89,55.33,11.23,60.69,67.23,26.84,23.89
 AI-Sweden-Models/gpt-sw3-20b-instruct (few-shot),20918,64,2048,True,False,1831,2.88,39.21,65.58,7.82,72.25,64.07,14.98,13.55
-ibm-granite/granite-3b-code-base (few-shot),3483,49,2048,True,False,2732,2.88,60.64,61.2,7.63,69.83,56.62,16.29,10.37
+ibm-granite/granite-3b-code-base-2k (few-shot),3483,49,2048,True,False,2732,2.88,60.64,61.2,7.63,69.83,56.62,16.29,10.37
 meta-llama/Llama-3.2-1B-Instruct (few-shot),1236,128,131328,False,False,7436,2.89,56.41,59.46,8.36,47.26,66.61,25.59,18.56
 VAGOsolutions/SauerkrautLM-Gemma-2b (few-shot),2506,256,8192,False,False,3607,3.02,23.28,61.91,6.92,64.68,65.15,22.65,14.54
 google/gemma-2b (few-shot),2506,256,8192,True,False,6087,3.02,19.65,62.14,8.3,66.3,66.51,20.38,7.41

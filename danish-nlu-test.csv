@@ -176,7 +176,7 @@ NorwAI/NorwAI-Llama2-7B (few-shot),7033,68,4096,True,False,4438,2.87,16.72,45.89
 HPLT/gpt-33b-nordic-prerelease (few-shot),33119,131,4099,True,False,501,2.88,25.35,44.7,1.43,52.29
 mideind/IceBERT-xlmr-ic3,278,250,512,True,False,11004,2.89,58.49,37.47,6.71,30.6
 google/gemma-7b-it (few-shot),8538,256,8192,False,False,1792,2.92,43.83,29.21,12.96,49.76
-ibm-granite/granite-3b-code-base (few-shot),3483,49,2048,True,False,2732,2.97,38.62,35.47,5.07,45.21
+ibm-granite/granite-3b-code-base-2k (few-shot),3483,49,2048,True,False,2732,2.97,38.62,35.47,5.07,45.21
 KBLab/bert-base-swedish-cased-new,135,64,512,True,False,15933,3.0,59.37,38.46,4.61,23.13
 ltg/norbert3-xs,15,50,508,True,False,14208,3.0,59.94,39.16,2.16,24.69
 stabilityai/stablelm-2-1_6b (few-shot),1645,100,4096,True,False,7259,3.01,28.45,39.09,1.43,51.67

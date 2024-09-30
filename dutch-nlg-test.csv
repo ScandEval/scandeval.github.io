@@ -63,7 +63,7 @@ Qwen/Qwen1.5-4B (few-shot),3950,152,32768,True,False,3248,3.38,35.74,12.55,0.23,
 meta-llama/Llama-2-7b-hf (few-shot),6738,32,4096,True,False,930,3.39,40.49,7.1,18.66,59.92,62.58,17.36,6.68
 AI-Sweden-Models/gpt-sw3-20b (few-shot),20918,64,2048,True,False,1875,3.44,35.3,15.67,1.76,45.05,59.15,6.24,0.47
 google/gemma-2-2b (few-shot),2614,256,8320,True,False,5235,3.54,22.63,8.11,8.04,52.39,61.9,22.76,8.5
-ibm-granite/granite-3b-code-base (few-shot),3483,49,2048,True,False,2732,3.54,50.88,12.39,3.31,48.44,52.5,9.22,4.45
+ibm-granite/granite-3b-code-base-2k (few-shot),3483,49,2048,True,False,2732,3.54,50.88,12.39,3.31,48.44,52.5,9.22,4.45
 allenai/OLMo-1.7-7B-hf (few-shot),6888,50,4096,True,False,3371,3.55,46.95,4.34,3.46,57.07,61.31,18.21,9.03
 ibm-granite/granite-7b-base (few-shot),6738,32,2048,True,False,4405,3.64,37.39,7.51,3.11,49.6,57.63,14.52,6.6
 AI-Sweden-Models/gpt-sw3-20b-instruct (few-shot),20918,64,2048,True,False,1831,3.67,24.44,18.4,4.85,39.83,54.89,4.38,1.95

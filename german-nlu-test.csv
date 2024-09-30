@@ -95,7 +95,7 @@ ibm-granite/granite-7b-base (few-shot),6738,32,2048,True,False,4405,3.02,37.68,4
 dbmdz/bert-base-historic-multilingual-cased,111,32,512,True,False,20047,3.04,65.35,37.77,16.07,5.67
 google/gemma-7b-it (few-shot),8538,256,8221,False,False,1792,3.05,54.2,15.43,17.49,28.68
 EuropeanParliament/EUBERT,94,66,512,True,False,20070,3.09,49.95,40.29,25.88,2.59
-ibm-granite/granite-3b-code-base (few-shot),3483,49,2048,True,False,2732,3.12,49.38,41.72,7.67,13.7
+ibm-granite/granite-3b-code-base-2k (few-shot),3483,49,2048,True,False,2732,3.12,49.38,41.72,7.67,13.7
 Qwen/Qwen1.5-4B (few-shot),3950,152,32768,True,False,3248,3.14,31.52,39.91,3.27,27.55
 sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,118,250,512,True,False,29201,3.15,60.54,54.99,0.52,0.8
 dbmdz/bert-medium-historic-multilingual-cased,42,32,512,True,False,24291,3.16,61.09,39.91,17.16,3.26
