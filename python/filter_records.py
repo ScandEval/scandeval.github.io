@@ -29,6 +29,30 @@ def main(filename: str) -> None:
         filename:
             The path to the JSONL file.
     """
+    # Build caches
+    global MERGE_CACHE
+    global COMMERCIALLY_LICENSED_CACHE
+    old_records = list()
+    with Path(filename).with_suffix(".filtered.jsonl").open(mode="r") as f:
+        for line_idx, line in enumerate(f):
+            if not line.strip():
+                continue
+            for record in line.replace("}{", "}\n{").split("\n"):
+                if not record.strip():
+                    continue
+                try:
+                    old_records.append(json.loads(record))
+                except json.JSONDecodeError:
+                    logger.error(f"Invalid JSON on line {line_idx:,}: {record}.")
+                    return
+    for record in tqdm(old_records, desc="Building caches"):
+        model_id = record["model"].split("@")[0]
+        if "merge" in record:
+            MERGE_CACHE[model_id] = record["merge"]
+        if "commercially_licensed" in record:
+            COMMERCIALLY_LICENSED_CACHE[model_id] = record["commercially_licensed"]
+    del old_records
+
     records = list()
     with Path(filename).open(mode="r") as f:
         for line_idx, line in enumerate(f):
@@ -43,16 +67,6 @@ def main(filename: str) -> None:
                     logger.error(f"Invalid JSON on line {line_idx:,}: {record}.")
                     return
     num_raw_records = len(records)
-
-    # Build caches
-    global MERGE_CACHE
-    global COMMERCIALLY_LICENSED_CACHE
-    for record in tqdm(records, desc="Building caches"):
-        model_id = record["model"].split("@")[0]
-        if "merge" in record:
-            MERGE_CACHE[model_id] = record["merge"]
-        if "commercially_licensed" in record:
-            COMMERCIALLY_LICENSED_CACHE[model_id] = record["commercially_licensed"]
 
     # Remove duplicates
     all_hash_values = [get_hash(dct) for dct in records]
