@@ -42,7 +42,7 @@ yhavinga/Boreas-7B-chat (few-shot),7242,32,32768,False,False,2913,2.71,60.22,11.
 robinsmits/Qwen1.5-7B-Dutch-Chat-Sft-Bf16 (few-shot),7719,152,32768,False,False,2413,2.72,56.83,14.79,23.58,55.9
 "mlabonne/NeuralBeagle14-7B (few-shot, val)",7242,32,8192,False,True,2549,2.75,63.53,11.25,27.76,50.94
 ReBatch/Llama-3-8B-dutch (few-shot),8030,128,8317,False,False,3800,2.79,60.14,11.07,15.67,59.93
-ibm-granite/granite-8b-code-base (few-shot),8055,49,4096,True,False,2313,2.79,63.29,13.81,8.16,56.64
+ibm-granite/granite-8b-code-base-4k (few-shot),8055,49,4096,True,False,2313,2.79,63.29,13.81,8.16,56.64
 sentence-transformers/quora-distilbert-multilingual,135,120,512,True,False,26458,2.8,67.89,23.25,21.36,4.5
 Rijgersberg/Mistral-7B-v0.1-chat-nl (few-shot),7242,32,32768,False,False,5907,2.81,56.73,11.08,19.41,58.91
 ReBatch/Reynaerde-7B-Chat (few-shot),7248,33,32768,False,False,2554,2.82,56.22,11.22,20.04,61.15

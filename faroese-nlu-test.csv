@@ -110,7 +110,7 @@ meta-llama/Meta-Llama-3-8B (few-shot),8030,128,8192,True,False,4687,5.16,61.11,2
 mistralai/Mistral-7B-Instruct-v0.2 (few-shot),7242,32,32768,False,False,634,5.16,61.28,1.68
 mistralai/Mistral-7B-v0.3 (few-shot),7248,33,32768,True,False,4120,5.16,61.32,1.3
 google/gemma-2-9b (few-shot),9242,256,8320,True,False,2038,5.17,47.88,5.79
-ibm-granite/granite-8b-code-base (few-shot),8055,49,4096,True,False,2313,5.18,66.82,-0.36
+ibm-granite/granite-8b-code-base-4k (few-shot),8055,49,4096,True,False,2313,5.18,66.82,-0.36
 "meta-llama/Llama-2-70b-hf (few-shot, val)",68977,32,4221,True,False,1892,5.18,66.95,0.0
 Maltehb/aelaectra-danish-electra-small-cased,14,32,512,True,False,4593,5.22,58.52,1.09
 google/gemma-7b-it (few-shot),8538,256,8317,False,False,1792,5.24,53.08,2.39
