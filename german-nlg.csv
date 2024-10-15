@@ -23,7 +23,7 @@ microsoft/Phi-3-mini-4k-instruct (few-shot),3821,32,4096,True,False,5224,2.08,59
 "cstr/Spaetzle-v8-7b (few-shot, val)",7242,32,32768,False,True,5980,2.11,58.9,61.34,31.58,24.91,67.25,34.62,48.7
 VAGOsolutions/FC-SauerkrautLM-7b-beta (few-shot),-1,32,8192,False,False,2160,2.12,56.7,53.39,35.64,34.22,64.79,32.85,39.0
 google/gemma-7b (few-shot),8538,256,8096,True,False,1378,2.13,39.88,56.23,32.71,36.58,69.41,41.56,30.77
-senseable/WestLake-7B-v2 (few-shot),7242,32,32768,False,False,5993,2.14,64.38,54.44,26.03,25.68,68.16,33.84,50.99
+senseable/WestLake-7B-v2 (few-shot),7242,32,32768,False,False,5993,2.13,64.38,54.44,26.03,25.68,68.16,33.84,50.99
 meta-llama/Meta-Llama-3-8B-Instruct (few-shot),8030,128,8192,True,False,4909,2.15,68.18,58.33,29.12,28.68,65.23,38.44,37.69
 microsoft/Phi-3-mini-128k-instruct (few-shot),3821,32,130976,True,False,7312,2.15,55.36,53.05,23.08,31.55,67.33,39.57,51.26
 meta-llama/Meta-Llama-3-8B (few-shot),8030,128,8192,True,False,4687,2.17,56.0,56.4,22.01,35.39,68.92,38.12,31.37
@@ -47,7 +47,7 @@ RuterNorway/Llama-2-13b-chat-norwegian (few-shot),-1,32,4125,False,False,3254,2.
 "mayflowergmbh/Wiedervereinigung-7b-dpo (few-shot, val)",7242,32,32768,False,True,2374,2.58,52.17,51.92,29.06,14.59,63.78,35.38,34.16
 timpal0l/Mistral-7B-v0.1-flashback-v2 (few-shot),7242,32,32768,True,False,5054,2.62,50.66,54.79,20.17,27.86,65.53,27.04,17.47
 01-ai/Yi-1.5-6B (few-shot),6061,64,4128,True,False,2867,2.63,48.2,47.12,12.39,30.5,65.48,30.83,24.9
-google/gemma-2-2b-it (few-shot),2614,256,8224,False,False,6789,2.63,37.72,45.86,23.65,27.96,66.41,30.32,35.22
+google/gemma-2-2b-it (few-shot),2614,256,8224,False,False,5374,2.64,37.31,46.23,23.26,28.01,66.35,30.11,35.25
 mistralai/Mistral-7B-Instruct-v0.1 (few-shot),7242,32,32797,False,False,634,2.64,47.19,47.26,22.32,24.36,67.75,26.79,20.33
 meta-llama/Llama-3.2-3B-Instruct (few-shot),3213,128,131104,False,False,3602,2.7,55.42,50.29,8.97,20.74,66.54,33.51,28.84
 meta-llama/Llama-3.2-3B (few-shot),3213,128,131104,True,False,3713,2.7,49.85,54.65,3.17,29.37,67.96,29.56,16.15
@@ -64,7 +64,7 @@ google/gemma-2-2b (few-shot),2614,256,8224,True,False,5235,3.01,19.69,50.36,9.07
 Qwen/Qwen1.5-4B (few-shot),3950,152,32768,True,False,3248,3.09,31.52,39.91,3.27,27.55,65.88,21.32,21.35
 ibm-granite/granite-7b-base (few-shot),6738,32,2048,True,False,4405,3.15,37.68,46.0,0.83,26.65,64.14,18.12,9.92
 stabilityai/stablelm-2-1_6b (few-shot),1645,100,4096,True,False,7259,3.2,34.81,51.01,0.0,25.4,63.53,11.23,7.25
-Rijgersberg/GEITje-7B (few-shot),7242,32,32797,True,False,5887,3.27,0.0,47.67,9.67,26.23,65.42,19.03,9.87
+Rijgersberg/GEITje-7B (few-shot),7242,32,32797,True,False,5887,3.28,0.0,47.67,9.67,26.23,65.42,19.03,9.87
 meta-llama/Llama-3.2-1B-Instruct (few-shot),1236,128,131104,False,False,7436,3.34,42.51,38.26,5.48,19.43,60.81,16.06,6.64
 VAGOsolutions/SauerkrautLM-Gemma-2b (few-shot),2506,256,8192,False,False,3607,3.42,12.21,44.84,2.02,24.59,62.87,16.35,8.93
 google/gemma-2b (few-shot),2506,256,8192,True,False,6087,3.44,16.95,44.96,0.77,17.92,66.8,12.11,7.32

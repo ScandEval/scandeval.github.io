@@ -150,7 +150,7 @@ Maltehb/aelaectra-danish-electra-small-uncased,14,32,128,True,False,5995,2.68,62
 AI-Sweden-Models/gpt-sw3-40b (few-shot),39927,64,2048,True,False,409,2.69,26.57,47.81,11.13,53.78
 DDSC/roberta-base-scandinavian,125,50,512,True,False,14491,2.69,43.9,44.48,30.37,28.89
 Maltehb/aelaectra-danish-electra-small-cased,14,32,128,True,False,4593,2.69,63.31,32.72,67.74,0.0
-google/gemma-2-2b-it (few-shot),2614,256,8193,False,False,6789,2.69,28.34,47.17,19.92,47.94
+google/gemma-2-2b-it (few-shot),2614,256,8193,False,False,5374,2.69,28.22,47.11,19.99,48.0
 norallm/normistral-7b-warm-instruct (few-shot),-1,33,2048,True,False,6194,2.69,39.83,47.48,4.55,49.23
 occiglot/occiglot-7b-eu5-instruct (few-shot),7242,32,32768,False,False,2088,2.69,40.19,42.31,1.14,57.89
 Geotrend/distilbert-base-en-da-cased,69,33,512,True,False,26196,2.7,59.5,31.89,36.0,28.41

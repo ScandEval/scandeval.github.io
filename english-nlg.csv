@@ -49,7 +49,7 @@ occiglot/occiglot-7b-eu5-instruct (few-shot),7242,32,32768,False,False,2088,2.24
 google/gemma-7b-it (few-shot),8538,256,8445,False,False,1792,2.25,66.7,55.62,31.36,72.58,67.24,35.27,32.54
 mistralai/Mistral-7B-Instruct-v0.2 (few-shot),7242,32,32768,False,False,634,2.26,62.11,59.91,30.66,58.27,69.75,34.93,44.91
 danish-foundation-models/munin-7b-v0.1dev0 (few-shot),7242,32,8192,True,False,6113,2.3,56.38,66.04,22.15,71.32,68.13,35.47,29.25
-google/gemma-2-2b-it (few-shot),2614,256,8448,False,False,6789,2.32,44.56,66.26,34.36,55.04,68.12,42.95,45.79
+google/gemma-2-2b-it (few-shot),2614,256,8448,False,False,5374,2.32,44.36,66.37,34.69,55.07,68.09,42.89,45.52
 meta-llama/Llama-2-7b-chat-hf (few-shot),6738,32,4096,False,False,2643,2.36,62.53,62.23,22.71,64.45,69.95,30.47,30.18
 ibm-granite/granite-8b-code-base-4k (few-shot),8055,49,4096,True,False,2313,2.37,72.76,62.35,21.57,69.8,67.73,25.63,16.44
 ibm-granite/granite-8b-code-base (few-shot),8055,49,4351,True,False,1002,2.38,72.64,62.31,22.38,69.84,67.71,25.41,16.5
