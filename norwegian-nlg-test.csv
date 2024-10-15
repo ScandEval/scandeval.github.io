@@ -54,18 +54,18 @@ AI-Sweden-Models/Llama-3-8B (few-shot),8030,128,8192,True,False,4141,2.87,44.53,
 bineric/NorskGPT-Llama-13B-v0.1 (few-shot),13016,32,4096,False,False,2856,2.91,56.72,57.62,48.86,64.86,9.87,6.9,41.27,24.51,31.41
 "merge-crew/da-sv-ties (few-shot, val)",7242,32,32768,True,True,2457,2.94,47.61,60.57,44.46,64.59,23.99,11.6,47.02,27.13,15.65
 "AI-Sweden-Models/tyr (few-shot, val)",7242,32,32768,False,True,6079,2.99,58.6,63.15,51.85,64.57,0.66,0.53,43.22,26.09,23.43
+bineric/NorskGPT-Llama-7B-v0.1 (few-shot),6738,32,4096,False,False,5384,3.0,56.18,56.96,50.94,64.21,8.19,5.55,41.35,21.27,26.81
 "merge-crew/da-sv-dare-ties-density-0.6 (few-shot, val)",7242,32,32768,True,True,2515,3.0,47.26,59.35,54.93,64.25,9.0,5.26,45.95,21.89,15.32
-bineric/NorskGPT-Llama-7B-v0.1 (few-shot),6738,32,4096,False,False,5384,3.01,56.18,56.96,50.94,64.21,8.19,5.55,41.35,21.27,26.81
 timpal0l/Llama-3-8B-flashback-v1 (few-shot),8030,128,8192,True,False,4807,3.01,59.09,60.02,47.58,58.88,10.52,6.67,49.89,29.17,17.46
 timpal0l/Mistral-7B-v0.1-flashback-v2 (few-shot),7242,32,32768,True,False,5054,3.01,48.97,51.52,49.05,63.32,14.37,9.96,44.07,25.07,15.56
+ThatsGroes/munin-SkoleGPTOpenOrca-7b-16bit (few-shot),7242,32,32768,False,False,3006,3.02,51.99,52.74,50.39,64.2,0.99,1.27,47.95,25.74,26.36
 mhenrichsen/hestenettetLM (few-shot),7242,32,32768,True,False,5160,3.02,52.52,55.6,48.23,63.53,8.53,6.65,46.89,27.67,14.2
-ThatsGroes/munin-SkoleGPTOpenOrca-7b-16bit (few-shot),7242,32,32768,False,False,3006,3.03,51.99,52.74,50.39,64.2,0.99,1.27,47.95,25.74,26.36
 mistralai/Mistral-7B-v0.1 (few-shot),7242,32,32768,True,False,2657,3.04,52.0,55.12,47.25,63.49,8.66,6.8,46.86,27.78,10.88
 meta-llama/Llama-2-13b-chat-hf (few-shot),13016,32,4096,True,False,2849,3.06,57.21,59.62,38.93,65.12,8.65,5.92,42.32,23.88,22.33
 RuterNorway/Llama-2-13b-chat-norwegian (few-shot),-1,32,4096,False,False,3254,3.07,58.61,60.4,41.36,65.33,6.52,3.95,38.93,23.32,22.3
 alpindale/Mistral-7B-v0.2-hf (few-shot),7242,32,32768,True,False,1841,3.07,50.63,52.69,44.05,63.11,11.6,9.26,45.23,28.19,13.65
 mistralai/Mistral-7B-v0.3 (few-shot),7248,33,32768,True,False,4120,3.07,50.56,52.65,44.61,63.13,12.1,9.3,45.15,28.31,13.59
-google/gemma-2-2b-it (few-shot),2614,256,8193,False,False,6789,3.12,35.53,37.56,46.73,64.61,17.03,14.39,29.73,23.03,33.07
+google/gemma-2-2b-it (few-shot),2614,256,8193,False,False,5374,3.12,35.56,37.7,46.84,64.58,17.15,14.38,29.75,23.02,33.13
 mistralai/Mistral-7B-Instruct-v0.2 (few-shot),7242,32,32768,False,False,634,3.14,53.42,54.34,38.79,64.43,17.06,11.0,35.74,20.37,21.16
 Mabeck/Heidrun-Mistral-7B-base (few-shot),7242,32,32768,True,False,3823,3.15,50.1,54.81,48.64,62.29,10.31,1.11,42.2,27.39,11.76
 google/gemma-7b-it (few-shot),8538,256,8192,False,False,1792,3.17,59.77,60.98,28.14,60.86,14.01,10.15,51.08,19.07,16.52

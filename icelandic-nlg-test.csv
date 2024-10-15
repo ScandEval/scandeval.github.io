@@ -30,12 +30,12 @@ occiglot/occiglot-7b-eu5 (few-shot),7242,32,32768,True,False,2219,4.07,40.08,1.5
 ibm-granite/granite-8b-code-base-4k (few-shot),8055,49,4096,True,False,2313,4.08,50.89,0.5,17.43,59.94,5.52,1.73
 meta-llama/Llama-2-13b-hf (few-shot),13016,32,4096,True,False,2898,4.1,36.56,1.73,21.97,63.5,5.6,-5.8
 mistralai/Mistral-7B-Instruct-v0.1 (few-shot),7242,32,32768,False,False,634,4.1,36.04,-0.36,18.06,62.8,5.44,6.35
+google/gemma-7b-it (few-shot),8538,256,8192,False,False,1792,4.12,37.69,3.11,18.34,63.71,7.7,-5.17
 meta-llama/Llama-3.2-3B-Instruct (few-shot),3213,128,131073,False,False,3602,4.13,27.62,-1.62,23.02,62.22,13.54,0.5
-google/gemma-7b-it (few-shot),8538,256,8192,False,False,1792,4.16,37.69,3.11,18.34,63.71,7.7,-5.17
 LumiOpen/Viking-13B (few-shot),14030,131,4097,True,False,840,4.17,26.28,2.17,22.65,62.07,-0.07,-2.92
 meta-llama/Llama-2-7b-chat-hf (few-shot),6738,32,4096,False,False,2643,4.17,41.1,-1.07,16.13,62.3,3.16,1.84
 AI-Sweden-Models/gpt-sw3-6.7b-v2-instruct (few-shot),7111,64,2048,True,False,2383,4.22,19.39,0.01,20.92,66.55,6.02,-2.37
-google/gemma-2-2b-it (few-shot),2614,256,8193,False,False,6789,4.24,15.18,0.78,25.45,62.85,10.73,-5.15
+google/gemma-2-2b-it (few-shot),2614,256,8193,False,False,5374,4.24,14.79,1.1,25.42,62.67,10.76,-5.2
 meta-llama/Llama-2-7b-hf (few-shot),6738,32,4096,True,False,930,4.24,32.71,0.66,18.04,60.73,3.65,-0.0
 microsoft/Phi-3-mini-128k-instruct (few-shot),3821,32,131072,True,False,7312,4.24,27.22,1.31,17.24,62.0,1.85,1.06
 bineric/NorskGPT-Llama-7B-v0.1 (few-shot),6738,32,4096,False,False,5384,4.25,34.62,-0.24,18.1,61.81,3.06,-1.9

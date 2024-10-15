@@ -66,7 +66,7 @@ timpal0l/Mistral-7B-v0.1-flashback-v2 (few-shot),7242,32,32768,True,False,5054,2
 RuterNorway/Llama-2-13b-chat-norwegian (few-shot),-1,32,4096,False,False,3254,2.67,43.17,43.4,11.08,56.81,67.46,52.94,41.65,17.57
 mhenrichsen/hestenettetLM (few-shot),7242,32,32768,True,False,5160,2.67,44.9,42.61,8.65,59.62,66.48,52.83,57.96,18.11
 mistralai/Mistral-7B-v0.1 (few-shot),7242,32,32768,True,False,2657,2.67,45.42,43.16,8.79,59.43,66.47,53.26,58.26,18.53
-google/gemma-2-2b-it (few-shot),2614,256,8193,False,False,6789,2.69,28.34,47.17,19.92,47.94,66.74,52.56,52.88,30.08
+google/gemma-2-2b-it (few-shot),2614,256,8193,False,False,5374,2.69,28.22,47.11,19.99,48.0,66.73,52.85,52.74,29.94
 timpal0l/Llama-3-8B-flashback-v1 (few-shot),8030,128,8192,True,False,4807,2.7,46.59,50.25,14.46,56.86,61.98,46.91,50.98,16.33
 neph1/bellman-7b-mistral-instruct-v0.2 (few-shot),7242,32,32768,False,False,2518,2.72,46.11,47.58,18.41,52.78,65.65,41.77,35.86,11.59
 meta-llama/Llama-2-13b-hf (few-shot),13016,32,4096,True,False,2898,2.8,41.28,23.01,23.5,60.29,66.28,50.3,56.24,15.43

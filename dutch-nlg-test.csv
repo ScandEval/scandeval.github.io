@@ -20,10 +20,10 @@ meta-llama/Meta-Llama-3.1-8B (few-shot),8030,128,131200,True,False,2439,2.4,64.7
 "mlabonne/NeuralBeagle14-7B (few-shot, val)",7242,32,8192,False,True,2549,2.43,63.53,11.25,27.76,50.94,71.2,40.23,47.87
 meta-llama/Meta-Llama-3-8B-Instruct (few-shot),8030,128,8192,True,False,4909,2.46,68.72,14.67,32.91,45.36,67.62,36.18,33.91
 skole-gpt (few-shot),-1,32,32768,False,False,3583,2.54,62.16,8.92,32.76,56.87,68.39,46.17,33.31
-meta-llama/Meta-Llama-3-8B (few-shot),8030,128,8192,True,False,4687,2.57,62.26,10.45,30.3,62.99,65.17,36.38,28.33
+meta-llama/Meta-Llama-3-8B (few-shot),8030,128,8192,True,False,4687,2.56,62.26,10.45,30.3,62.99,65.17,36.38,28.33
 "mlabonne/AlphaMonarch-7B (few-shot, val)",7242,32,8192,False,True,5340,2.57,64.71,11.14,25.22,46.34,67.71,38.49,47.66
 yhavinga/Boreas-7B-chat (few-shot),7242,32,32768,False,False,2913,2.58,60.22,11.97,30.94,52.19,66.6,35.34,31.47
-robinsmits/Qwen1.5-7B-Dutch-Chat-Sft-Bf16 (few-shot),7719,152,32768,False,False,2413,2.61,56.83,14.79,23.58,55.9,65.06,33.73,29.29
+robinsmits/Qwen1.5-7B-Dutch-Chat-Sft-Bf16 (few-shot),7719,152,32768,False,False,2413,2.62,56.83,14.79,23.58,55.9,65.06,33.73,29.29
 robinsmits/Qwen1.5-7B-Dutch-Chat (few-shot),7719,152,32768,False,False,4686,2.66,57.81,14.62,25.34,56.81,60.51,34.78,30.29
 ReBatch/Reynaerde-7B-Instruct (few-shot),7248,33,32768,False,False,2562,2.68,59.16,10.39,19.5,60.96,68.19,32.93,28.04
 ReBatch/Reynaerde-7B-Chat (few-shot),7248,33,32768,False,False,2554,2.7,56.22,11.22,20.04,61.15,68.28,32.44,31.24
@@ -39,7 +39,7 @@ microsoft/Phi-3-mini-4k-instruct (few-shot),3821,32,4096,True,False,5224,2.95,50
 meta-llama/Llama-3.2-3B-Instruct (few-shot),3213,128,131200,False,False,3602,2.96,43.19,13.18,18.16,47.91,66.84,33.8,20.78
 occiglot/occiglot-7b-eu5-instruct (few-shot),7242,32,32768,False,False,2088,2.96,53.78,7.78,16.23,63.09,66.46,28.37,15.25
 Rijgersberg/GEITje-7B-chat-v2 (few-shot),7242,32,32768,False,False,5908,2.99,42.12,11.06,19.71,59.19,65.55,27.71,18.03
-google/gemma-2-2b-it (few-shot),2614,256,8320,False,False,6789,3.0,40.49,11.34,19.49,49.35,66.86,29.3,31.33
+google/gemma-2-2b-it (few-shot),2614,256,8320,False,False,5374,3.0,40.58,11.17,19.63,49.3,66.83,29.3,31.43
 ibm-granite/granite-8b-code-base-4k (few-shot),8055,49,4096,True,False,2313,3.0,63.29,13.81,8.16,56.64,63.08,16.86,6.24
 meta-llama/Llama-2-13b-chat-hf (few-shot),13016,32,4096,True,False,2849,3.0,57.8,8.57,17.4,56.35,66.11,27.15,19.18
 RuterNorway/Llama-2-13b-chat-norwegian (few-shot),-1,32,4096,False,False,3254,3.01,57.66,8.41,16.93,56.29,66.22,25.7,17.92
@@ -84,7 +84,7 @@ NorwAI/NorwAI-Llama2-7B (few-shot),7033,68,4096,True,False,4438,4.26,22.5,6.04,-
 meta-llama/Llama-3.2-1B (few-shot),1236,128,131200,True,False,7577,4.26,22.03,4.25,1.46,41.76,51.56,5.46,-0.58
 Qwen/Qwen1.5-0.5B (few-shot),620,152,32768,True,False,11371,4.29,28.3,4.54,-0.42,20.81,58.4,7.44,1.7
 allenai/OLMo-7B-Twin-2T (few-shot),6888,50,2176,True,False,5484,4.51,18.7,3.7,2.19,38.08,43.79,0.65,-0.02
-allenai/OLMo-1B (few-shot),1177,50,2176,True,False,8536,4.79,22.58,4.92,-1.27,6.64,43.43,-0.56,0.29
+allenai/OLMo-1B (few-shot),1177,50,2176,True,False,8536,4.8,22.58,4.92,-1.27,6.64,43.43,-0.56,0.29
 RJuro/kanelsnegl-v0.1 (few-shot),7242,32,512,True,False,5847,4.91,0.0,0.95,0.0,0.0,60.14,0.11,-0.13
 NorwAI/NorwAI-Mistral-7B-pretrain (few-shot),7537,68,4096,True,False,3024,5.17,3.8,0.97,-0.37,0.4,45.25,-0.98,-0.05
 ai-forever/mGPT (few-shot),-1,100,1024,True,False,11734,5.49,0.11,-0.67,-0.97,0.29,30.2,1.45,-0.56
