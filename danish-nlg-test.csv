@@ -4,10 +4,10 @@ model_id,num_model_parameters,vocabulary_size,max_sequence_length,commercially_l
 "gpt-4o-2024-05-13 (few-shot, val)",-1,200,128000,True,False,916,1.26,71.15,49.42,64.59,57.35,66.03,96.41,97.68,85.96
 AI-Sweden-Models/Llama-3-8B-instruct (few-shot),8030,128,8192,False,False,4314,1.35,58.44,54.96,70.55,60.95,66.99,80.95,76.88,73.73
 "syvai/danskgpt-chat-llama3-70b (few-shot, val)",70554,128,8192,True,False,1283,1.37,65.4,62.78,57.88,62.24,66.78,86.2,80.14,66.22
-google/gemma-2-27b-it (few-shot),27227,256,8193,False,False,1516,1.44,59.94,59.06,58.57,57.48,68.12,85.2,84.02,71.26
+google/gemma-2-27b-it (few-shot),27227,256,8193,True,False,1516,1.44,59.94,59.06,58.57,57.48,68.12,85.2,84.02,71.26
 "meta-llama/Meta-Llama-3-70B (few-shot, val)",70554,128,8192,True,False,312,1.46,63.62,60.19,50.07,60.97,67.33,83.94,78.83,60.69
 "gpt-3.5-turbo-0613 (few-shot, val)",-1,100,4094,True,False,921,1.59,61.31,52.52,57.63,57.03,66.38,81.95,77.66,62.21
-google/gemma-2-9b-it (few-shot),9242,256,8193,False,False,2062,1.66,49.05,52.26,58.38,55.34,67.67,80.62,75.37,66.17
+google/gemma-2-9b-it (few-shot),9242,256,8193,True,False,2062,1.66,49.05,52.26,58.38,55.34,67.67,80.62,75.37,66.17
 "meta-llama/Meta-Llama-3-70B-Instruct (few-shot, val)",70554,128,8192,True,False,1673,1.66,63.1,53.09,40.98,51.13,67.76,85.18,79.22,70.19
 "meta-llama/Llama-2-70b-hf (few-shot, val)",68977,32,4096,True,False,1892,1.72,58.06,53.24,39.71,62.51,67.39,84.43,71.35,54.31
 "152334H/miqu-1-70b-sf (few-shot, val)",68977,32,32764,True,False,2126,1.79,56.96,55.11,42.64,54.58,66.8,83.94,73.32,60.52
@@ -68,7 +68,7 @@ timpal0l/Mistral-7B-v0.1-flashback-v2 (few-shot),7242,32,32768,True,False,5054,2
 RuterNorway/Llama-2-13b-chat-norwegian (few-shot),-1,32,4096,False,False,3254,2.65,43.17,43.4,11.08,56.81,67.46,52.94,41.65,17.57
 bineric/NorskGPT-Llama-13B-v0.1 (few-shot),-1,32,4096,False,False,2856,2.67,44.17,44.28,3.11,55.59,66.63,59.51,50.89,25.32
 timpal0l/Llama-3-8B-flashback-v1 (few-shot),8030,128,8192,True,False,4807,2.69,46.59,50.25,14.46,56.86,61.98,46.91,50.98,16.33
-google/gemma-2-2b-it (few-shot),2614,256,8193,False,False,5374,2.7,28.22,47.11,19.99,48.0,66.73,52.85,52.74,29.94
+google/gemma-2-2b-it (few-shot),2614,256,8193,True,False,5374,2.7,28.22,47.11,19.99,48.0,66.73,52.85,52.74,29.94
 neph1/bellman-7b-mistral-instruct-v0.2 (few-shot),7242,32,32768,False,False,2518,2.71,46.11,47.58,18.41,52.78,65.65,41.77,35.86,11.59
 meta-llama/Llama-2-13b-hf (few-shot),13016,32,4096,True,False,2898,2.79,41.28,23.01,23.5,60.29,66.28,50.3,56.24,15.43
 meta-llama/Llama-3.2-3B-Instruct (few-shot),3213,128,131073,False,False,3602,2.8,41.18,43.08,11.45,51.34,65.15,49.85,45.59,21.76

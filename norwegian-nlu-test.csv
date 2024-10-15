@@ -27,7 +27,7 @@ pere/roberta-base-exp-32,278,250,512,True,False,15081,1.75,91.66,87.74,57.43,63.
 NbAiLab/nb-sbert-base,178,120,512,True,False,17757,1.76,90.96,87.34,60.57,72.11,70.2,29.94
 vesteinn/FoBERT,124,50,512,True,False,15623,1.76,90.65,84.88,52.44,68.77,65.4,43.13
 pere/roberta-debug-8,278,250,512,True,False,15103,1.77,91.16,84.75,55.25,68.03,66.9,41.65
-google/gemma-2-27b-it (few-shot),27227,256,8193,False,False,1516,1.83,67.35,66.61,67.14,64.66,52.49,44.85
+google/gemma-2-27b-it (few-shot),27227,256,8193,True,False,1516,1.83,67.35,66.61,67.14,64.66,52.49,44.85
 setu4993/LaBSE,471,501,512,True,False,25418,1.86,90.58,85.21,54.26,59.44,49.3,46.42
 pere/roberta-debug-32,278,250,512,True,False,14958,1.89,89.07,83.27,53.23,70.06,66.81,34.17
 abhishek/autotrain-llama3-oh-sft-v0-2 (few-shot),70554,128,8192,False,False,2668,1.99,80.97,79.69,63.91,39.82,26.86,47.06
@@ -35,7 +35,7 @@ abhishek/autotrain-llama3-oh-sft-v0-2 (few-shot),70554,128,8192,False,False,2668
 intfloat/multilingual-e5-large-instruct,560,250,514,True,False,5947,2.02,89.27,83.78,63.35,55.71,12.32,38.74
 pere/roberta-base-exp-32B,278,250,512,True,False,15103,2.05,90.6,86.76,52.19,54.98,58.33,29.17
 google/gemma-2-27b (few-shot),27227,256,8193,True,False,1531,2.07,42.58,40.43,64.15,51.59,42.41,58.55
-google/gemma-2-9b-it (few-shot),9242,256,8193,False,False,2062,2.08,61.82,60.41,61.06,62.46,52.99,39.1
+google/gemma-2-9b-it (few-shot),9242,256,8193,True,False,2062,2.08,61.82,60.41,61.06,62.46,52.99,39.1
 "meta-llama/Meta-Llama-3-70B-Instruct (few-shot, val)",70554,128,8192,True,False,1673,2.1,80.5,76.47,59.29,47.28,32.76,39.71
 mistralai/Mistral-Nemo-Instruct-2407 (few-shot),12248,131,1024001,True,False,7095,2.11,70.14,68.74,60.64,35.59,29.22,49.87
 gpt-3.5-turbo-0613 (few-shot),-1,100,4096,True,False,837,2.12,74.92,75.34,57.64,49.93,34.22,44.39
@@ -151,7 +151,7 @@ sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,118,250,512,True,Fal
 KBLab/bert-base-swedish-cased-new,135,64,512,True,False,15933,3.1,83.23,79.16,33.94,9.56,4.16,22.84
 occiglot/occiglot-7b-eu5 (few-shot),7242,32,32768,True,False,2219,3.11,45.28,46.0,44.95,0.0,0.0,43.88
 meta-llama/Llama-2-13b-hf (few-shot),13016,32,4096,True,False,2898,3.13,51.12,55.35,23.75,14.0,7.61,49.24
-google/gemma-2-2b-it (few-shot),2614,256,8193,False,False,5374,3.15,35.56,37.7,46.84,17.15,14.38,29.75
+google/gemma-2-2b-it (few-shot),2614,256,8193,True,False,5374,3.15,35.56,37.7,46.84,17.15,14.38,29.75
 meta-llama/Llama-2-7b-hf (few-shot),6738,32,4096,True,False,930,3.15,42.13,43.8,41.74,0.0,0.02,44.19
 Twitter/twhin-bert-large,561,250,512,True,False,9707,3.17,86.26,80.1,34.17,12.11,4.28,11.74
 meta-llama/Llama-2-7b-chat-hf (few-shot),6738,32,4096,False,False,2643,3.17,44.99,49.09,41.56,3.04,4.03,33.77

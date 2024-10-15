@@ -2,9 +2,9 @@ model_id,num_model_parameters,vocabulary_size,max_sequence_length,commercially_l
 "gpt-4-1106-preview (few-shot, val)",-1,100,128000,True,False,576,1.16,86.37,43.03,37.26,69.61,89.09,72.03
 "gpt-4o-2024-05-13 (few-shot, val)",-1,200,128000,True,False,916,1.2,81.19,51.1,29.64,68.25,91.27,70.85
 "gpt-4-0613 (few-shot, val)",-1,100,8190,True,False,597,1.47,78.67,33.65,32.25,69.21,86.32,74.02
-google/gemma-2-27b-it (few-shot),27227,256,8193,False,False,1516,2.57,55.48,20.1,27.18,68.83,67.22,35.27
+google/gemma-2-27b-it (few-shot),27227,256,8193,True,False,1516,2.57,55.48,20.1,27.18,68.83,67.22,35.27
 gpt-4o-mini-2024-07-18 (few-shot),-1,200,128000,True,False,1171,2.63,67.56,23.28,24.91,67.32,67.57,15.36
-google/gemma-2-9b-it (few-shot),9242,256,8193,False,False,2062,2.83,45.42,24.23,24.96,68.19,54.3,24.35
+google/gemma-2-9b-it (few-shot),9242,256,8193,True,False,2062,2.83,45.42,24.23,24.96,68.19,54.3,24.35
 "gpt-3.5-turbo-0613 (few-shot, val)",-1,100,4095,True,False,921,2.89,69.59,7.28,28.5,67.1,49.88,18.61
 mistralai/Mistral-Nemo-Instruct-2407 (few-shot),12248,131,1024001,True,False,7095,3.11,59.7,4.64,29.68,68.13,41.76,13.24
 google/gemma-2-9b (few-shot),9242,256,8193,True,False,2038,3.21,30.89,5.29,32.25,67.58,55.69,17.5
@@ -36,7 +36,7 @@ meta-llama/Llama-3.2-3B-Instruct (few-shot),3213,128,131073,False,False,3602,4.0
 LumiOpen/Viking-13B (few-shot),14030,131,4097,True,False,840,4.12,26.28,2.17,22.65,62.07,-0.07,-2.92
 meta-llama/Llama-2-7b-chat-hf (few-shot),6738,32,4096,False,False,2643,4.12,41.1,-1.07,16.13,62.3,3.16,1.84
 AI-Sweden-Models/gpt-sw3-6.7b-v2-instruct (few-shot),7111,64,2048,True,False,2383,4.17,19.39,0.01,20.92,66.55,6.02,-2.37
-google/gemma-2-2b-it (few-shot),2614,256,8193,False,False,5374,4.19,14.79,1.1,25.42,62.67,10.76,-5.2
+google/gemma-2-2b-it (few-shot),2614,256,8193,True,False,5374,4.19,14.79,1.1,25.42,62.67,10.76,-5.2
 meta-llama/Llama-2-7b-hf (few-shot),6738,32,4096,True,False,930,4.19,32.71,0.66,18.04,60.73,3.65,-0.0
 microsoft/Phi-3-mini-128k-instruct (few-shot),3821,32,131072,True,False,7312,4.19,27.22,1.31,17.24,62.0,1.85,1.06
 bineric/NorskGPT-Llama-7B-v0.1 (few-shot),6738,32,4096,False,False,5384,4.2,34.62,-0.24,18.1,61.81,3.06,-1.9

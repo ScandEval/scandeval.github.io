@@ -3,7 +3,7 @@ layout: leaderboard
 title: Danish NLU 🇩🇰
 ---
 
-<center>Last updated: 15/10/2024 12:33:53 CET</center>
+<center>Last updated: 15/10/2024 12:42:33 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -226,7 +226,7 @@ title: Danish NLU 🇩🇰
    <td class="num_model_parameters">27227</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">256</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">8193</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">1,516 ± 257 / 480 ± 148</td> <!-- Model inference speed -->
    <td class="rank">1.51</td> <!-- ScandEval rank -->
    <td class="da ner">59.94 ± 1.58 / 38.00 ± 1.88</td> <!-- DANSK -->
@@ -464,7 +464,7 @@ title: Danish NLU 🇩🇰
    <td class="num_model_parameters">9242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">256</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">8193</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,062 ± 397 / 589 ± 178</td> <!-- Model inference speed -->
    <td class="rank">1.80</td> <!-- ScandEval rank -->
    <td class="da ner">49.05 ± 2.41 / 30.91 ± 2.53</td> <!-- DANSK -->
@@ -2640,7 +2640,7 @@ title: Danish NLU 🇩🇰
    <td class="num_model_parameters">2614</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">256</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">8193</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">5,374 ± 1,233 / 1,193 ± 377</td> <!-- Model inference speed -->
    <td class="rank">2.69</td> <!-- ScandEval rank -->
    <td class="da ner">28.22 ± 1.66 / 19.95 ± 1.55</td> <!-- DANSK -->
@@ -4291,6 +4291,6 @@ title: Danish NLU 🇩🇰
 <div class="end-note">
   <a href="https://scandeval.com/danish-nlu-test.csv" target="_blank">Download as CSV</a>
   &nbsp;&nbsp;&bull;&nbsp;&nbsp;
-  <a href="javascript:void(0);" id="embed-link" data-embed="<iframe title=&quot;Danish NLU&quot; aria-label=&quot;Table&quot; id=&quot;datawrapper-chart-gn1fd&quot; src=&quot;https://datawrapper.dwcdn.net/gn1fd/1/&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width: 0; min-width: 100% !important; border: none;&quot; height=&quot;400&quot; data-external=&quot;1&quot;></iframe><script type=&quot;text/javascript&quot;>!function(){&quot;use strict&quot;;window.addEventListener(&quot;message&quot;,(function(a){if(void 0!==a.data[&quot;datawrapper-height&quot;]){var e=document.querySelectorAll(&quot;iframe&quot;);for(var t in a.data[&quot;datawrapper-height&quot;])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data[&quot;datawrapper-height&quot;][t]+&quot;px&quot;;e[r].style.height=i}}}))}();
+  <a href="javascript:void(0);" id="embed-link" data-embed="<iframe title=&quot;Danish NLU&quot; aria-label=&quot;Table&quot; id=&quot;datawrapper-chart-cf5ic&quot; src=&quot;https://datawrapper.dwcdn.net/cf5ic/1/&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width: 0; min-width: 100% !important; border: none;&quot; height=&quot;400&quot; data-external=&quot;1&quot;></iframe><script type=&quot;text/javascript&quot;>!function(){&quot;use strict&quot;;window.addEventListener(&quot;message&quot;,(function(a){if(void 0!==a.data[&quot;datawrapper-height&quot;]){var e=document.querySelectorAll(&quot;iframe&quot;);for(var t in a.data[&quot;datawrapper-height&quot;])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data[&quot;datawrapper-height&quot;][t]+&quot;px&quot;;e[r].style.height=i}}}))}();
 </script>">Copy embed HTML</a>
 </div>

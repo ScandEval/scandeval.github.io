@@ -10,7 +10,7 @@ danish-foundation-models/encoder-large-v1,355,50,512,True,False,6671,1.4,74.6,51
 AI-Sweden-Models/Llama-3-8B-instruct (few-shot),8030,128,8192,False,False,4314,1.44,58.44,54.96,70.55,60.95
 AI-Sweden-Models/roberta-large-1350k,355,50,512,True,False,5744,1.46,75.22,49.94,72.59,48.97
 "gpt-4o-2024-05-13 (few-shot, val)",-1,200,128000,True,False,916,1.46,71.15,49.42,64.59,57.35
-google/gemma-2-27b-it (few-shot),27227,256,8193,False,False,1516,1.51,59.94,59.06,58.57,57.48
+google/gemma-2-27b-it (few-shot),27227,256,8193,True,False,1516,1.51,59.94,59.06,58.57,57.48
 ltg/norbert3-large,354,50,508,True,False,5048,1.53,73.62,48.29,71.55,48.59
 NbAiLab/nb-bert-large,355,50,512,True,False,6343,1.57,70.38,49.07,72.02,45.72
 vesteinn/DanskBERT,124,50,512,True,False,15749,1.57,72.55,52.86,75.2,37.65
@@ -24,7 +24,7 @@ microsoft/mdeberta-v3-base,279,251,512,True,False,20637,1.74,72.9,43.38,67.05,42
 FacebookAI/xlm-roberta-large,560,250,512,True,False,17897,1.75,72.74,48.33,57.3,43.57
 "meta-llama/Llama-2-70b-hf (few-shot, val)",68977,32,4096,True,False,1892,1.75,58.06,53.24,39.71,62.51
 "152334H/miqu-1-70b-sf (few-shot, val)",68977,32,32764,True,False,2126,1.79,56.96,55.11,42.64,54.58
-google/gemma-2-9b-it (few-shot),9242,256,8193,False,False,2062,1.8,49.05,52.26,58.38,55.34
+google/gemma-2-9b-it (few-shot),9242,256,8193,True,False,2062,1.8,49.05,52.26,58.38,55.34
 "meta-llama/Meta-Llama-3-70B-Instruct (few-shot, val)",70554,128,8192,True,False,1673,1.81,63.1,53.09,40.98,51.13
 NbAiLab/nb-bert-base,178,120,512,True,False,14050,1.82,70.36,46.32,66.41,36.42
 NbAiLab/nb-roberta-base-scandi-1e4,278,250,512,True,False,15074,1.82,72.16,51.7,62.03,29.95
@@ -152,7 +152,7 @@ DDSC/roberta-base-scandinavian,125,50,512,True,False,14491,2.68,43.9,44.48,30.37
 AI-Sweden-Models/gpt-sw3-40b (few-shot),39927,64,2048,True,False,409,2.69,26.57,47.81,11.13,53.78
 Maltehb/aelaectra-danish-electra-small-cased,14,32,128,True,False,4593,2.69,63.31,32.72,67.74,0.0
 Twitter/twhin-bert-large,561,250,512,True,False,9707,2.69,66.39,39.36,7.06,33.88
-google/gemma-2-2b-it (few-shot),2614,256,8193,False,False,5374,2.69,28.22,47.11,19.99,48.0
+google/gemma-2-2b-it (few-shot),2614,256,8193,True,False,5374,2.69,28.22,47.11,19.99,48.0
 norallm/normistral-7b-warm-instruct (few-shot),-1,33,2048,True,False,6194,2.69,39.83,47.48,4.55,49.23
 occiglot/occiglot-7b-eu5-instruct (few-shot),7242,32,32768,False,False,2088,2.69,40.19,42.31,1.14,57.89
 Geotrend/distilbert-base-en-da-cased,69,33,512,True,False,26196,2.7,59.5,31.89,36.0,28.41

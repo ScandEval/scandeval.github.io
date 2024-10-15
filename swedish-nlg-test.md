@@ -3,7 +3,7 @@ layout: leaderboard
 title: Swedish NLG 🇸🇪
 ---
 
-<center>Last updated: 15/10/2024 12:34:13 CET</center>
+<center>Last updated: 15/10/2024 12:42:52 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -160,7 +160,7 @@ title: Swedish NLG 🇸🇪
    <td class="num_model_parameters">27227</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">256</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">8193</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">1,516 ± 257 / 480 ± 148</td> <!-- Model inference speed -->
    <td class="rank">1.65</td> <!-- ScandEval rank -->
    <td class="sv ner">62.59 ± 2.04 / 45.11 ± 4.50</td> <!-- SUC3 -->
@@ -183,7 +183,7 @@ title: Swedish NLG 🇸🇪
    <td class="num_model_parameters">9242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">256</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">8193</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,062 ± 397 / 589 ± 178</td> <!-- Model inference speed -->
    <td class="rank">1.81</td> <!-- ScandEval rank -->
    <td class="sv ner">52.50 ± 1.02 / 37.38 ± 2.57</td> <!-- SUC3 -->
@@ -1609,7 +1609,7 @@ title: Swedish NLG 🇸🇪
    <td class="num_model_parameters">2614</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">256</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">8193</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">5,374 ± 1,233 / 1,193 ± 377</td> <!-- Model inference speed -->
    <td class="rank">2.83</td> <!-- ScandEval rank -->
    <td class="sv ner">35.61 ± 2.19 / 26.05 ± 2.45</td> <!-- SUC3 -->
@@ -3336,6 +3336,6 @@ title: Swedish NLG 🇸🇪
 <div class="end-note">
   <a href="https://scandeval.com/swedish-nlg-test.csv" target="_blank">Download as CSV</a>
   &nbsp;&nbsp;&bull;&nbsp;&nbsp;
-  <a href="javascript:void(0);" id="embed-link" data-embed="<iframe title=&quot;Swedish NLG&quot; aria-label=&quot;Table&quot; id=&quot;datawrapper-chart-C6Al0&quot; src=&quot;https://datawrapper.dwcdn.net/C6Al0/1/&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width: 0; min-width: 100% !important; border: none;&quot; height=&quot;400&quot; data-external=&quot;1&quot;></iframe><script type=&quot;text/javascript&quot;>!function(){&quot;use strict&quot;;window.addEventListener(&quot;message&quot;,(function(a){if(void 0!==a.data[&quot;datawrapper-height&quot;]){var e=document.querySelectorAll(&quot;iframe&quot;);for(var t in a.data[&quot;datawrapper-height&quot;])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data[&quot;datawrapper-height&quot;][t]+&quot;px&quot;;e[r].style.height=i}}}))}();
+  <a href="javascript:void(0);" id="embed-link" data-embed="<iframe title=&quot;Swedish NLG&quot; aria-label=&quot;Table&quot; id=&quot;datawrapper-chart-rkXvp&quot; src=&quot;https://datawrapper.dwcdn.net/rkXvp/1/&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width: 0; min-width: 100% !important; border: none;&quot; height=&quot;400&quot; data-external=&quot;1&quot;></iframe><script type=&quot;text/javascript&quot;>!function(){&quot;use strict&quot;;window.addEventListener(&quot;message&quot;,(function(a){if(void 0!==a.data[&quot;datawrapper-height&quot;]){var e=document.querySelectorAll(&quot;iframe&quot;);for(var t in a.data[&quot;datawrapper-height&quot;])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data[&quot;datawrapper-height&quot;][t]+&quot;px&quot;;e[r].style.height=i}}}))}();
 </script>">Copy embed HTML</a>
 </div>

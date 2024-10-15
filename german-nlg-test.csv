@@ -3,11 +3,11 @@ model_id,num_model_parameters,vocabulary_size,max_sequence_length,commercially_l
 "gpt-4-1106-preview (few-shot, val)",-1,100,128000,True,False,576,1.35,68.94,60.47,51.26,30.04,63.62,73.8,83.93
 "meta-llama/Meta-Llama-3-70B (few-shot, val)",70554,128,8221,True,False,312,1.35,69.04,63.51,37.41,38.29,70.0,64.93,66.54
 "gpt-4o-2024-05-13 (few-shot, val)",-1,200,127903,True,False,916,1.43,69.99,54.82,43.66,30.06,63.8,74.13,88.18
-google/gemma-2-27b-it (few-shot),27227,256,8224,False,False,1516,1.51,64.13,60.28,46.69,28.54,67.87,59.43,71.59
+google/gemma-2-27b-it (few-shot),27227,256,8224,True,False,1516,1.51,64.13,60.28,46.69,28.54,67.87,59.43,71.59
 upstage/SOLAR-10.7B-v1.0 (few-shot),10732,32,4096,True,False,3780,1.57,68.11,59.79,35.45,37.27,69.31,41.2,72.65
 "meta-llama/Meta-Llama-3-70B-Instruct (few-shot, val)",70554,128,8221,True,False,1673,1.58,75.2,54.38,36.59,26.9,68.63,62.69,69.18
 google/gemma-2-9b (few-shot),9242,256,8224,True,False,2038,1.68,47.39,62.89,37.22,39.11,70.44,53.28,54.51
-google/gemma-2-9b-it (few-shot),9242,256,8224,False,False,2062,1.71,50.35,58.6,45.78,30.46,67.99,53.61,68.16
+google/gemma-2-9b-it (few-shot),9242,256,8224,True,False,2062,1.71,50.35,58.6,45.78,30.46,67.99,53.61,68.16
 "152334H/miqu-1-70b-sf (few-shot, val)",68977,32,32793,True,False,2126,1.72,65.19,59.8,41.86,25.51,66.8,55.18,61.68
 "meta-llama/Llama-2-70b-hf (few-shot, val)",68977,32,4125,True,False,1892,1.75,63.71,58.17,36.33,36.06,69.82,46.44,48.89
 mistralai/Mistral-Nemo-Instruct-2407 (few-shot),12248,131,1024032,True,False,7095,1.75,66.27,57.7,35.54,34.45,68.65,47.05,52.68
@@ -48,7 +48,7 @@ RuterNorway/Llama-2-13b-chat-norwegian (few-shot),-1,32,4125,False,False,3254,2.
 "mayflowergmbh/Wiedervereinigung-7b-dpo (few-shot, val)",7242,32,32768,False,True,2374,2.57,52.17,51.92,29.06,14.59,63.78,35.38,34.16
 timpal0l/Mistral-7B-v0.1-flashback-v2 (few-shot),7242,32,32768,True,False,5054,2.6,50.66,54.79,20.17,27.86,65.53,27.04,17.47
 01-ai/Yi-1.5-6B (few-shot),6061,64,4128,True,False,2867,2.62,48.2,47.12,12.39,30.5,65.48,30.83,24.9
-google/gemma-2-2b-it (few-shot),2614,256,8224,False,False,5374,2.62,37.31,46.23,23.26,28.01,66.35,30.11,35.25
+google/gemma-2-2b-it (few-shot),2614,256,8224,True,False,5374,2.62,37.31,46.23,23.26,28.01,66.35,30.11,35.25
 mistralai/Mistral-7B-Instruct-v0.1 (few-shot),7242,32,32797,False,False,634,2.62,47.19,47.26,22.32,24.36,67.75,26.79,20.33
 meta-llama/Llama-3.2-3B (few-shot),3213,128,131104,True,False,3713,2.68,49.85,54.65,3.17,29.37,67.96,29.56,16.15
 DiscoResearch/DiscoLM_German_7b_v1 (few-shot),7242,32,32768,False,False,1972,2.69,42.39,48.67,8.72,36.12,68.47,23.99,20.76

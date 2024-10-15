@@ -20,7 +20,7 @@ AI-Sweden-Models/roberta-large-1350k,354,50,512,True,False,5744,1.65,89.48,51.88
 upstage/SOLAR-10.7B-v1.0 (few-shot),10732,32,4096,True,False,3780,1.66,69.5,70.01,41.35,76.79
 google-bert/bert-large-uncased,334,31,512,True,False,4711,1.69,88.8,57.94,59.27,52.38
 VAGOsolutions/FC-SauerkrautLM-7b-beta (few-shot),-1,32,8192,False,False,2160,1.74,70.15,69.36,37.09,77.39
-google/gemma-2-27b-it (few-shot),27227,256,8320,False,False,1516,1.74,62.4,68.68,54.17,66.96
+google/gemma-2-27b-it (few-shot),27227,256,8320,True,False,1516,1.74,62.4,68.68,54.17,66.96
 gpt-4o-mini-2024-07-18 (few-shot),-1,200,128126,True,False,1171,1.74,78.84,60.72,50.99,61.45
 intfloat/multilingual-e5-base,278,250,512,True,False,14965,1.74,89.65,61.46,51.32,50.78
 mistralai/Mistral-Nemo-Instruct-2407 (few-shot),12248,131,1024128,True,False,7095,1.75,75.24,63.05,44.75,67.7
@@ -31,7 +31,7 @@ setu4993/LaBSE,471,501,512,True,False,25418,1.81,90.33,52.93,50.7,53.77
 google-bert/bert-base-uncased,109,31,512,True,False,10296,1.86,87.62,54.01,56.97,42.37
 "152334H/miqu-1-70b-sf (few-shot, val)",68977,32,32889,True,False,2126,1.87,71.83,62.99,39.97,64.42
 skole-gpt (few-shot),-1,32,32768,False,False,3583,1.87,67.43,68.55,39.75,65.93
-google/gemma-2-9b-it (few-shot),9242,256,8320,False,False,2062,1.88,58.07,68.4,51.58,62.03
+google/gemma-2-9b-it (few-shot),9242,256,8320,True,False,2062,1.88,58.07,68.4,51.58,62.03
 "meta-llama/Meta-Llama-3-70B-Instruct (few-shot, val)",70554,128,8317,True,False,1673,1.88,81.3,66.18,38.1,53.31
 01-ai/Yi-1.5-6B (few-shot),6061,64,4224,True,False,2867,1.9,55.51,68.74,40.81,72.33
 FacebookAI/xlm-roberta-large,559,250,512,True,False,17897,1.91,89.81,41.97,35.55,68.88
@@ -78,7 +78,7 @@ mistralai/Mistral-7B-Instruct-v0.2 (few-shot),7242,32,32768,False,False,634,2.25
 meta-llama/Llama-2-7b-chat-hf (few-shot),6738,32,4096,False,False,2643,2.26,62.53,62.23,22.71,64.45
 "mlabonne/AlphaMonarch-7B (few-shot, val)",7242,32,8192,False,True,5340,2.26,69.19,63.77,28.43,44.39
 occiglot/occiglot-7b-eu5 (few-shot),7242,32,32768,True,False,2219,2.3,55.37,63.32,18.92,72.38
-google/gemma-2-2b-it (few-shot),2614,256,8320,False,False,5374,2.35,44.36,66.37,34.69,55.07
+google/gemma-2-2b-it (few-shot),2614,256,8320,True,False,5374,2.35,44.36,66.37,34.69,55.07
 meta-llama/Llama-3.2-3B (few-shot),3213,128,131200,True,False,3713,2.35,59.09,63.29,13.5,68.15
 Rijgersberg/GEITje-7B (few-shot),7242,32,32768,True,False,5887,2.41,53.39,65.21,12.63,65.74
 ibm-granite/granite-3b-code-base-2k (few-shot),3483,49,2048,True,False,2732,2.42,60.64,61.2,7.63,69.83

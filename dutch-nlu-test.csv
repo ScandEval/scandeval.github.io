@@ -15,7 +15,7 @@ DTAI-KULeuven/robbert-2023-dutch-base,124,50,512,True,False,11230,2.15,82.22,28.
 "meta-llama/Meta-Llama-3-70B-Instruct (few-shot, val)",70554,128,8317,True,False,1673,2.16,74.64,18.9,49.54,44.77
 DTAI-KULeuven/robbertje-1-gb-merged,74,40,512,True,False,21027,2.19,72.51,32.26,50.0,5.97
 FacebookAI/xlm-roberta-large,559,250,512,True,False,17897,2.19,83.49,8.82,64.8,50.72
-google/gemma-2-27b-it (few-shot),27227,256,8320,False,False,1516,2.19,65.2,14.8,59.02,59.6
+google/gemma-2-27b-it (few-shot),27227,256,8320,True,False,1516,2.19,65.2,14.8,59.02,59.6
 jhu-clsp/bernice,277,250,128,True,False,5567,2.22,78.74,22.58,55.39,5.95
 "gpt-4o-2024-05-13 (few-shot, val)",-1,200,128000,True,False,916,2.26,76.75,10.8,56.26,55.55
 DTAI-KULeuven/robbertje-1-gb-shuffled,74,40,512,True,False,20616,2.28,73.55,26.02,57.03,6.64
@@ -27,7 +27,7 @@ Nexusflow/Starling-LM-7B-beta (few-shot),7242,32,8192,False,False,5876,2.38,64.4
 upstage/SOLAR-10.7B-v1.0 (few-shot),10732,32,4096,True,False,3780,2.38,65.37,11.93,41.67,67.75
 "meta-llama/Llama-2-70b-hf (few-shot, val)",68977,32,4221,True,False,1892,2.42,66.5,7.82,49.55,65.26
 cardiffnlp/twitter-xlm-roberta-base,277,250,512,True,False,34475,2.43,77.15,18.78,56.72,14.61
-google/gemma-2-9b-it (few-shot),9242,256,8320,False,False,2062,2.45,52.62,11.78,59.23,55.78
+google/gemma-2-9b-it (few-shot),9242,256,8320,True,False,2062,2.45,52.62,11.78,59.23,55.78
 sentence-transformers/paraphrase-xlm-r-multilingual-v1,277,250,512,True,False,20154,2.48,70.59,21.37,45.86,5.2
 google/gemma-2-9b (few-shot),9242,256,8320,True,False,2038,2.5,57.13,17.43,31.39,59.33
 meta-llama/Meta-Llama-3.1-8B (few-shot),8030,128,131200,True,False,2439,2.51,64.79,11.95,32.97,63.89
@@ -83,7 +83,7 @@ BramVanroy/fietje-2b (few-shot),2780,51,2048,True,False,4804,3.17,33.92,13.39,6.
 Qwen/Qwen1.5-4B-Chat (few-shot),3950,152,32768,False,False,4347,3.17,42.52,14.68,4.07,55.18
 BramVanroy/fietje-2b-instruct (few-shot),2775,50,2048,False,False,4710,3.18,36.5,13.7,4.81,60.63
 ibm-granite/granite-3b-code-base-2k (few-shot),3483,49,2048,True,False,2732,3.2,50.88,12.39,3.31,48.44
-google/gemma-2-2b-it (few-shot),2614,256,8320,False,False,5374,3.22,40.58,11.17,19.63,49.3
+google/gemma-2-2b-it (few-shot),2614,256,8320,True,False,5374,3.22,40.58,11.17,19.63,49.3
 01-ai/Yi-1.5-6B (few-shot),6061,64,4224,True,False,2867,3.24,51.18,9.23,1.99,54.66
 meta-llama/Llama-2-7b-hf (few-shot),6738,32,4096,True,False,930,3.27,40.49,7.1,18.66,59.92
 AI-Sweden-Models/roberta-large-1350k,354,50,512,True,False,5744,3.29,73.03,3.65,2.0,42.85

@@ -5,8 +5,8 @@ model_id,num_model_parameters,vocabulary_size,max_sequence_length,commercially_l
 "meta-llama/Meta-Llama-3-70B-Instruct (few-shot, val)",70554,128,8317,True,False,1673,1.56,74.64,18.9,49.54,44.77,70.28,65.8,76.21
 "gpt-4o-2024-05-13 (few-shot, val)",-1,200,128000,True,False,916,1.6,76.75,10.8,56.26,55.55,66.86,73.11,92.69
 "152334H/miqu-1-70b-sf (few-shot, val)",68977,32,32889,True,False,2126,1.7,67.0,15.33,55.48,61.02,68.95,54.36,70.26
-google/gemma-2-27b-it (few-shot),27227,256,8320,False,False,1516,1.79,65.2,14.8,59.02,59.6,64.03,59.71,70.7
-google/gemma-2-9b-it (few-shot),9242,256,8320,False,False,2062,2.02,52.62,11.78,59.23,55.78,67.39,53.99,65.58
+google/gemma-2-27b-it (few-shot),27227,256,8320,True,False,1516,1.79,65.2,14.8,59.02,59.6,64.03,59.71,70.7
+google/gemma-2-9b-it (few-shot),9242,256,8320,True,False,2062,2.02,52.62,11.78,59.23,55.78,67.39,53.99,65.58
 upstage/SOLAR-10.7B-v1.0 (few-shot),10732,32,4096,True,False,3780,2.02,65.37,11.93,41.67,67.75,68.83,40.18,65.34
 google/gemma-2-9b (few-shot),9242,256,8320,True,False,2038,2.03,57.13,17.43,31.39,59.33,66.59,53.71,53.26
 Nexusflow/Starling-LM-7B-beta (few-shot),7242,32,8192,False,False,5876,2.08,64.47,13.83,45.69,58.03,69.34,37.6,54.33
@@ -40,7 +40,7 @@ microsoft/Phi-3-mini-4k-instruct (few-shot),3821,32,4096,True,False,5224,2.93,50
 meta-llama/Llama-3.2-3B-Instruct (few-shot),3213,128,131200,False,False,3602,2.94,43.19,13.18,18.16,47.91,66.84,33.8,20.78
 occiglot/occiglot-7b-eu5-instruct (few-shot),7242,32,32768,False,False,2088,2.94,53.78,7.78,16.23,63.09,66.46,28.37,15.25
 Rijgersberg/GEITje-7B-chat-v2 (few-shot),7242,32,32768,False,False,5908,2.97,42.12,11.06,19.71,59.19,65.55,27.71,18.03
-google/gemma-2-2b-it (few-shot),2614,256,8320,False,False,5374,2.98,40.58,11.17,19.63,49.3,66.83,29.3,31.43
+google/gemma-2-2b-it (few-shot),2614,256,8320,True,False,5374,2.98,40.58,11.17,19.63,49.3,66.83,29.3,31.43
 ibm-granite/granite-8b-code-base-4k (few-shot),8055,49,4096,True,False,2313,2.98,63.29,13.81,8.16,56.64,63.08,16.86,6.24
 meta-llama/Llama-2-13b-chat-hf (few-shot),13016,32,4096,True,False,2849,2.98,57.8,8.57,17.4,56.35,66.11,27.15,19.18
 RuterNorway/Llama-2-13b-chat-norwegian (few-shot),-1,32,4096,False,False,3254,2.99,57.66,8.41,16.93,56.29,66.22,25.7,17.92
