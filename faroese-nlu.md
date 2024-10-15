@@ -3,7 +3,7 @@ layout: leaderboard
 title: Faroese NLU 🇫🇴
 ---
 
-<center>Last updated: 15/10/2024 11:49:11 CET</center>
+<center>Last updated: 15/10/2024 12:43:23 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -76,7 +76,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">15,081 ± 2,950 / 3,365 ± 1,092</td> <!-- Model inference speed -->
-   <td class="rank">2.70</td> <!-- ScandEval rank -->
+   <td class="rank">2.71</td> <!-- ScandEval rank -->
    <td class="fo ner">90.60 ± 0.45 / 90.78 ± 0.45</td> <!-- FoNE -->
    <td class="fo la">22.86 ± 13.14 / 59.92 ± 6.74</td> <!-- ScaLA-fo -->
    <td>0.0.0</td> <!-- FoNE version -->
@@ -128,7 +128,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">128</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">5,989 ± 120 / 3,809 ± 1,230</td> <!-- Model inference speed -->
-   <td class="rank">2.80</td> <!-- ScandEval rank -->
+   <td class="rank">2.81</td> <!-- ScandEval rank -->
    <td class="fo ner">85.80 ± 0.25 / 86.58 ± 0.26</td> <!-- FoNE -->
    <td class="fo la">30.88 ± 2.36 / 63.79 ± 1.33</td> <!-- ScaLA-fo -->
    <td>0.0.0</td> <!-- FoNE version -->
@@ -141,7 +141,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">25,418 ± 6,435 / 4,536 ± 1,452</td> <!-- Model inference speed -->
-   <td class="rank">3.46</td> <!-- ScandEval rank -->
+   <td class="rank">3.47</td> <!-- ScandEval rank -->
    <td class="fo ner">89.16 ± 0.66 / 89.62 ± 0.62</td> <!-- FoNE -->
    <td class="fo la">22.76 ± 10.57 / 60.04 ± 5.76</td> <!-- ScaLA-fo -->
    <td>0.0.0</td> <!-- FoNE version -->
@@ -180,7 +180,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">11,405 ± 1,970 / 2,856 ± 917</td> <!-- Model inference speed -->
-   <td class="rank">3.50</td> <!-- ScandEval rank -->
+   <td class="rank">3.51</td> <!-- ScandEval rank -->
    <td class="fo ner">86.94 ± 0.47 / 87.58 ± 0.46</td> <!-- FoNE -->
    <td class="fo la">12.35 ± 8.96 / 53.00 ± 5.17</td> <!-- ScaLA-fo -->
    <td>12.7.0</td> <!-- FoNE version -->
@@ -206,7 +206,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">8316</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">597 ± 197 / 93 ± 33</td> <!-- Model inference speed -->
-   <td class="rank">3.60</td> <!-- ScandEval rank -->
+   <td class="rank">3.61</td> <!-- ScandEval rank -->
    <td class="fo ner">81.62 ± 2.00 / 71.11 ± 2.84</td> <!-- FoNE -->
    <td class="fo la">13.49 ± 4.68 / 43.21 ± 3.64</td> <!-- ScaLA-fo -->
    <td>12.10.0</td> <!-- FoNE version -->
@@ -232,7 +232,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">6,245 ± 1,260 / 1,416 ± 453</td> <!-- Model inference speed -->
-   <td class="rank">3.77</td> <!-- ScandEval rank -->
+   <td class="rank">3.78</td> <!-- ScandEval rank -->
    <td class="fo ner">72.99 ± 1.55 / 72.45 ± 1.56</td> <!-- FoNE -->
    <td class="fo la">13.40 ± 7.79 / 54.18 ± 5.13</td> <!-- ScaLA-fo -->
    <td>0.0.0</td> <!-- FoNE version -->
@@ -245,7 +245,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">12,308 ± 1,614 / 3,851 ± 1,254</td> <!-- Model inference speed -->
-   <td class="rank">4.11</td> <!-- ScandEval rank -->
+   <td class="rank">4.12</td> <!-- ScandEval rank -->
    <td class="fo ner">88.44 ± 0.35 / 89.11 ± 0.38</td> <!-- FoNE -->
    <td class="fo la">11.83 ± 4.90 / 48.95 ± 6.81</td> <!-- ScaLA-fo -->
    <td>0.0.0</td> <!-- FoNE version -->
@@ -336,7 +336,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">15,763 ± 2,523 / 4,238 ± 1,370</td> <!-- Model inference speed -->
-   <td class="rank">4.26</td> <!-- ScandEval rank -->
+   <td class="rank">4.27</td> <!-- ScandEval rank -->
    <td class="fo ner">80.61 ± 0.91 / 81.31 ± 0.89</td> <!-- FoNE -->
    <td class="fo la">9.60 ± 3.82 / 52.30 ± 1.73</td> <!-- ScaLA-fo -->
    <td>12.7.0</td> <!-- FoNE version -->
@@ -388,7 +388,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">14,051 ± 3,289 / 2,704 ± 897</td> <!-- Model inference speed -->
-   <td class="rank">4.43</td> <!-- ScandEval rank -->
+   <td class="rank">4.44</td> <!-- ScandEval rank -->
    <td class="fo ner">86.10 ± 0.64 / 86.75 ± 0.57</td> <!-- FoNE -->
    <td class="fo la">6.28 ± 2.41 / 49.62 ± 2.08</td> <!-- ScaLA-fo -->
    <td>0.0.0</td> <!-- FoNE version -->
@@ -401,7 +401,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">14,083 ± 3,264 / 2,738 ± 889</td> <!-- Model inference speed -->
-   <td class="rank">4.43</td> <!-- ScandEval rank -->
+   <td class="rank">4.44</td> <!-- ScandEval rank -->
    <td class="fo ner">86.36 ± 0.57 / 87.14 ± 0.52</td> <!-- FoNE -->
    <td class="fo la">6.08 ± 4.57 / 48.47 ± 3.93</td> <!-- ScaLA-fo -->
    <td>0.0.0</td> <!-- FoNE version -->
@@ -486,19 +486,6 @@ title: Faroese NLU 🇫🇴
    <td>10.0.1</td> <!-- ScaLA-fo version -->
    </tr>
   <tr class="not-merged-model">
-   <td>flax-community/swe-roberta-wiki-oscar</td> <!-- Model ID -->
-   <td class="num_model_parameters">124</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">15,437 ± 2,628 / 3,834 ± 1,252</td> <!-- Model inference speed -->
-   <td class="rank">4.54</td> <!-- ScandEval rank -->
-   <td class="fo ner">80.52 ± 0.76 / 81.35 ± 0.69</td> <!-- FoNE -->
-   <td class="fo la">6.51 ± 3.60 / 51.81 ± 1.95</td> <!-- ScaLA-fo -->
-   <td>0.0.0</td> <!-- FoNE version -->
-   <td>0.0.0</td> <!-- ScaLA-fo version -->
-   </tr>
-  <tr class="not-merged-model">
    <td>intfloat/multilingual-e5-large</td> <!-- Model ID -->
    <td class="num_model_parameters">559</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
@@ -508,6 +495,19 @@ title: Faroese NLU 🇫🇴
    <td class="rank">4.54</td> <!-- ScandEval rank -->
    <td class="fo ner">88.39 ± 0.86 / 88.75 ± 0.75</td> <!-- FoNE -->
    <td class="fo la">2.85 ± 1.32 / 48.43 ± 2.29</td> <!-- ScaLA-fo -->
+   <td>0.0.0</td> <!-- FoNE version -->
+   <td>0.0.0</td> <!-- ScaLA-fo version -->
+   </tr>
+  <tr class="not-merged-model">
+   <td>flax-community/swe-roberta-wiki-oscar</td> <!-- Model ID -->
+   <td class="num_model_parameters">124</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">15,437 ± 2,628 / 3,834 ± 1,252</td> <!-- Model inference speed -->
+   <td class="rank">4.55</td> <!-- ScandEval rank -->
+   <td class="fo ner">80.52 ± 0.76 / 81.35 ± 0.69</td> <!-- FoNE -->
+   <td class="fo la">6.51 ± 3.60 / 51.81 ± 1.95</td> <!-- ScaLA-fo -->
    <td>0.0.0</td> <!-- FoNE version -->
    <td>0.0.0</td> <!-- ScaLA-fo version -->
    </tr>
@@ -603,6 +603,19 @@ title: Faroese NLU 🇫🇴
    <td>0.0.0</td> <!-- ScaLA-fo version -->
    </tr>
   <tr class="not-merged-model">
+   <td>google/gemma-2-27b-it (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">27227</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">256</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">8320</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">1,516 ± 257 / 480 ± 148</td> <!-- Model inference speed -->
+   <td class="rank">4.62</td> <!-- ScandEval rank -->
+   <td class="fo ner">60.57 ± 2.87 / 55.05 ± 3.85</td> <!-- FoNE -->
+   <td class="fo la">11.09 ± 2.47 / 51.49 ± 2.26</td> <!-- ScaLA-fo -->
+   <td>13.0.0</td> <!-- FoNE version -->
+   <td>13.0.0</td> <!-- ScaLA-fo version -->
+   </tr>
+  <tr class="not-merged-model">
    <td>DeepPavlov/rubert-base-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">177</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">120</td> <!-- Size of the model's vocabulary -->
@@ -642,19 +655,6 @@ title: Faroese NLU 🇫🇴
    <td>0.0.0</td> <!-- ScaLA-fo version -->
    </tr>
   <tr class="not-merged-model">
-   <td>intfloat/multilingual-e5-large-instruct</td> <!-- Model ID -->
-   <td class="num_model_parameters">560</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">514</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">5,947 ± 1,301 / 1,129 ± 374</td> <!-- Model inference speed -->
-   <td class="rank">4.65</td> <!-- ScandEval rank -->
-   <td class="fo ner">88.64 ± 0.34 / 89.11 ± 0.29</td> <!-- FoNE -->
-   <td class="fo la">2.05 ± 2.30 / 47.88 ± 2.17</td> <!-- ScaLA-fo -->
-   <td>13.0.0</td> <!-- FoNE version -->
-   <td>13.0.0</td> <!-- ScaLA-fo version -->
-   </tr>
-  <tr class="not-merged-model">
    <td>sentence-transformers/stsb-xlm-r-multilingual</td> <!-- Model ID -->
    <td class="num_model_parameters">277</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
@@ -666,6 +666,19 @@ title: Faroese NLU 🇫🇴
    <td class="fo la">2.93 ± 1.96 / 46.51 ± 4.19</td> <!-- ScaLA-fo -->
    <td>0.0.0</td> <!-- FoNE version -->
    <td>0.0.0</td> <!-- ScaLA-fo version -->
+   </tr>
+  <tr class="not-merged-model">
+   <td>intfloat/multilingual-e5-large-instruct</td> <!-- Model ID -->
+   <td class="num_model_parameters">560</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">514</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">5,947 ± 1,301 / 1,129 ± 374</td> <!-- Model inference speed -->
+   <td class="rank">4.66</td> <!-- ScandEval rank -->
+   <td class="fo ner">88.64 ± 0.34 / 89.11 ± 0.29</td> <!-- FoNE -->
+   <td class="fo la">2.05 ± 2.30 / 47.88 ± 2.17</td> <!-- ScaLA-fo -->
+   <td>13.0.0</td> <!-- FoNE version -->
+   <td>13.0.0</td> <!-- ScaLA-fo version -->
    </tr>
   <tr class="not-merged-model">
    <td>AI-Sweden-Models/roberta-large-1160k</td> <!-- Model ID -->
@@ -759,19 +772,6 @@ title: Faroese NLU 🇫🇴
    <td>0.0.0</td> <!-- ScaLA-fo version -->
    </tr>
   <tr class="not-merged-model">
-   <td>152334H/miqu-1-70b-sf (few-shot, val)</td> <!-- Model ID -->
-   <td class="num_model_parameters">68977</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">32889</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">2,126 ± 676 / 319 ± 104</td> <!-- Model inference speed -->
-   <td class="rank">4.71</td> <!-- ScandEval rank -->
-   <td class="fo ner">71.89 ± 2.22 / 68.00 ± 2.95</td> <!-- FoNE -->
-   <td class="fo la">4.76 ± 2.91 / 46.92 ± 3.94</td> <!-- ScaLA-fo -->
-   <td>12.7.0</td> <!-- FoNE version -->
-   <td>12.7.0</td> <!-- ScaLA-fo version -->
-   </tr>
-  <tr class="not-merged-model">
    <td>clips/mfaq</td> <!-- Model ID -->
    <td class="num_model_parameters">277</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
@@ -798,6 +798,19 @@ title: Faroese NLU 🇫🇴
    <td>0.0.0</td> <!-- ScaLA-fo version -->
    </tr>
   <tr class="not-merged-model">
+   <td>152334H/miqu-1-70b-sf (few-shot, val)</td> <!-- Model ID -->
+   <td class="num_model_parameters">68977</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">32889</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">2,126 ± 676 / 319 ± 104</td> <!-- Model inference speed -->
+   <td class="rank">4.72</td> <!-- ScandEval rank -->
+   <td class="fo ner">71.89 ± 2.22 / 68.00 ± 2.95</td> <!-- FoNE -->
+   <td class="fo la">4.76 ± 2.91 / 46.92 ± 3.94</td> <!-- ScaLA-fo -->
+   <td>12.7.0</td> <!-- FoNE version -->
+   <td>12.7.0</td> <!-- ScaLA-fo version -->
+   </tr>
+  <tr class="not-merged-model">
    <td>Twitter/twhin-bert-large</td> <!-- Model ID -->
    <td class="num_model_parameters">560</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
@@ -817,7 +830,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">11,514 ± 2,041 / 2,862 ± 918</td> <!-- Model inference speed -->
-   <td class="rank">4.75</td> <!-- ScandEval rank -->
+   <td class="rank">4.76</td> <!-- ScandEval rank -->
    <td class="fo ner">84.00 ± 1.30 / 84.83 ± 1.28</td> <!-- FoNE -->
    <td class="fo la">1.94 ± 2.58 / 46.27 ± 2.74</td> <!-- ScaLA-fo -->
    <td>12.6.1</td> <!-- FoNE version -->
@@ -830,7 +843,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">34,520 ± 7,443 / 6,730 ± 2,224</td> <!-- Model inference speed -->
-   <td class="rank">4.75</td> <!-- ScandEval rank -->
+   <td class="rank">4.76</td> <!-- ScandEval rank -->
    <td class="fo ner">84.14 ± 0.67 / 84.82 ± 0.64</td> <!-- FoNE -->
    <td class="fo la">1.33 ± 2.18 / 48.85 ± 1.23</td> <!-- ScaLA-fo -->
    <td>12.6.1</td> <!-- FoNE version -->
@@ -843,22 +856,9 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">34,475 ± 7,465 / 6,712 ± 2,223</td> <!-- Model inference speed -->
-   <td class="rank">4.75</td> <!-- ScandEval rank -->
+   <td class="rank">4.76</td> <!-- ScandEval rank -->
    <td class="fo ner">83.96 ± 0.80 / 84.63 ± 0.76</td> <!-- FoNE -->
    <td class="fo la">1.05 ± 1.66 / 41.31 ± 4.91</td> <!-- ScaLA-fo -->
-   <td>0.0.0</td> <!-- FoNE version -->
-   <td>0.0.0</td> <!-- ScaLA-fo version -->
-   </tr>
-  <tr class="not-merged-model">
-   <td>sentence-transformers/distilbert-multilingual-nli-stsb-quora-ranking</td> <!-- Model ID -->
-   <td class="num_model_parameters">135</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">120</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">33,753 ± 8,349 / 5,937 ± 1,946</td> <!-- Model inference speed -->
-   <td class="rank">4.77</td> <!-- ScandEval rank -->
-   <td class="fo ner">82.91 ± 0.89 / 83.43 ± 0.87</td> <!-- FoNE -->
-   <td class="fo la">1.67 ± 2.22 / 46.20 ± 3.31</td> <!-- ScaLA-fo -->
    <td>0.0.0</td> <!-- FoNE version -->
    <td>0.0.0</td> <!-- ScaLA-fo version -->
    </tr>
@@ -889,13 +889,26 @@ title: Faroese NLU 🇫🇴
    <td>0.0.0</td> <!-- ScaLA-fo version -->
    </tr>
   <tr class="not-merged-model">
+   <td>sentence-transformers/distilbert-multilingual-nli-stsb-quora-ranking</td> <!-- Model ID -->
+   <td class="num_model_parameters">135</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">120</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">33,753 ± 8,349 / 5,937 ± 1,946</td> <!-- Model inference speed -->
+   <td class="rank">4.78</td> <!-- ScandEval rank -->
+   <td class="fo ner">82.91 ± 0.89 / 83.43 ± 0.87</td> <!-- FoNE -->
+   <td class="fo la">1.67 ± 2.22 / 46.20 ± 3.31</td> <!-- ScaLA-fo -->
+   <td>0.0.0</td> <!-- FoNE version -->
+   <td>0.0.0</td> <!-- ScaLA-fo version -->
+   </tr>
+  <tr class="not-merged-model">
    <td>sentence-transformers/quora-distilbert-multilingual</td> <!-- Model ID -->
    <td class="num_model_parameters">135</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">120</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">26,458 ± 5,992 / 5,274 ± 1,731</td> <!-- Model inference speed -->
-   <td class="rank">4.77</td> <!-- ScandEval rank -->
+   <td class="rank">4.78</td> <!-- ScandEval rank -->
    <td class="fo ner">82.91 ± 0.89 / 83.43 ± 0.87</td> <!-- FoNE -->
    <td class="fo la">1.67 ± 2.22 / 46.20 ± 3.31</td> <!-- ScaLA-fo -->
    <td>0.0.0</td> <!-- FoNE version -->
@@ -1019,19 +1032,6 @@ title: Faroese NLU 🇫🇴
    <td>0.0.0</td> <!-- ScaLA-fo version -->
    </tr>
   <tr class="not-merged-model">
-   <td>google/gemma-2-9b-it (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">9242</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">256</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">8320</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">2,062 ± 397 / 589 ± 178</td> <!-- Model inference speed -->
-   <td class="rank">4.82</td> <!-- ScandEval rank -->
-   <td class="fo ner">50.34 ± 1.82 / 43.26 ± 1.69</td> <!-- FoNE -->
-   <td class="fo la">8.01 ± 2.27 / 49.35 ± 3.81</td> <!-- ScaLA-fo -->
-   <td>13.0.0</td> <!-- FoNE version -->
-   <td>13.0.0</td> <!-- ScaLA-fo version -->
-   </tr>
-  <tr class="not-merged-model">
    <td>sentence-transformers/paraphrase-xlm-r-multilingual-v1</td> <!-- Model ID -->
    <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
@@ -1043,6 +1043,19 @@ title: Faroese NLU 🇫🇴
    <td class="fo la">1.19 ± 2.37 / 43.13 ± 4.70</td> <!-- ScaLA-fo -->
    <td>12.6.1</td> <!-- FoNE version -->
    <td>0.0.0</td> <!-- ScaLA-fo version -->
+   </tr>
+  <tr class="not-merged-model">
+   <td>google/gemma-2-9b-it (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">9242</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">256</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">8320</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">2,062 ± 397 / 589 ± 178</td> <!-- Model inference speed -->
+   <td class="rank">4.83</td> <!-- ScandEval rank -->
+   <td class="fo ner">50.34 ± 1.82 / 43.26 ± 1.69</td> <!-- FoNE -->
+   <td class="fo la">8.01 ± 2.27 / 49.35 ± 3.81</td> <!-- ScaLA-fo -->
+   <td>13.0.0</td> <!-- FoNE version -->
+   <td>13.0.0</td> <!-- ScaLA-fo version -->
    </tr>
   <tr class="not-merged-model">
    <td>microsoft/xlm-align-base</td> <!-- Model ID -->
@@ -1077,7 +1090,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">6,671 ± 1,380 / 1,497 ± 482</td> <!-- Model inference speed -->
-   <td class="rank">4.86</td> <!-- ScandEval rank -->
+   <td class="rank">4.87</td> <!-- ScandEval rank -->
    <td class="fo ner">72.46 ± 0.87 / 71.83 ± 0.83</td> <!-- FoNE -->
    <td class="fo la">2.93 ± 3.27 / 48.20 ± 1.50</td> <!-- ScaLA-fo -->
    <td>0.0.0</td> <!-- FoNE version -->
@@ -1090,7 +1103,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">78,027 ± 15,466 / 17,064 ± 5,335</td> <!-- Model inference speed -->
-   <td class="rank">4.86</td> <!-- ScandEval rank -->
+   <td class="rank">4.87</td> <!-- ScandEval rank -->
    <td class="fo ner">72.08 ± 1.25 / 72.93 ± 1.20</td> <!-- FoNE -->
    <td class="fo la">2.65 ± 2.40 / 48.48 ± 1.87</td> <!-- ScaLA-fo -->
    <td>0.0.0</td> <!-- FoNE version -->
@@ -1194,7 +1207,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">13,821 ± 2,209 / 3,547 ± 1,184</td> <!-- Model inference speed -->
-   <td class="rank">4.95</td> <!-- ScandEval rank -->
+   <td class="rank">4.96</td> <!-- ScandEval rank -->
    <td class="fo ner">59.66 ± 0.63 / 59.39 ± 0.60</td> <!-- FoNE -->
    <td class="fo la">4.58 ± 3.90 / 50.83 ± 2.59</td> <!-- ScaLA-fo -->
    <td>0.0.0</td> <!-- FoNE version -->
@@ -1207,7 +1220,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">12,783 ± 2,537 / 2,712 ± 885</td> <!-- Model inference speed -->
-   <td class="rank">4.96</td> <!-- ScandEval rank -->
+   <td class="rank">4.97</td> <!-- ScandEval rank -->
    <td class="fo ner">73.34 ± 1.57 / 74.24 ± 1.56</td> <!-- FoNE -->
    <td class="fo la">0.97 ± 2.25 / 44.25 ± 3.12</td> <!-- ScaLA-fo -->
    <td>12.6.1</td> <!-- FoNE version -->
@@ -1220,7 +1233,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">15,925 ± 2,281 / 4,780 ± 1,554</td> <!-- Model inference speed -->
-   <td class="rank">4.96</td> <!-- ScandEval rank -->
+   <td class="rank">4.97</td> <!-- ScandEval rank -->
    <td class="fo ner">73.80 ± 0.98 / 74.58 ± 0.92</td> <!-- FoNE -->
    <td class="fo la">0.81 ± 2.90 / 48.11 ± 2.18</td> <!-- ScaLA-fo -->
    <td>0.0.0</td> <!-- FoNE version -->
@@ -1233,7 +1246,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">1024128</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">7,095 ± 2,193 / 1,063 ± 344</td> <!-- Model inference speed -->
-   <td class="rank">4.96</td> <!-- ScandEval rank -->
+   <td class="rank">4.97</td> <!-- ScandEval rank -->
    <td class="fo ner">72.85 ± 1.76 / 65.14 ± 3.11</td> <!-- FoNE -->
    <td class="fo la">2.31 ± 1.58 / 46.15 ± 3.36</td> <!-- ScaLA-fo -->
    <td>13.0.0</td> <!-- FoNE version -->
@@ -1298,7 +1311,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,657 ± 524 / 880 ± 278</td> <!-- Model inference speed -->
-   <td class="rank">5.04</td> <!-- ScandEval rank -->
+   <td class="rank">5.05</td> <!-- ScandEval rank -->
    <td class="fo ner">62.63 ± 3.44 / 57.85 ± 3.72</td> <!-- FoNE -->
    <td class="fo la">2.84 ± 1.84 / 42.62 ± 4.53</td> <!-- ScaLA-fo -->
    <td>9.1.2</td> <!-- FoNE version -->
@@ -1311,7 +1324,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,549 ± 472 / 784 ± 245</td> <!-- Model inference speed -->
-   <td class="rank">5.04</td> <!-- ScandEval rank -->
+   <td class="rank">5.05</td> <!-- ScandEval rank -->
    <td class="fo ner">62.78 ± 3.13 / 59.73 ± 3.23</td> <!-- FoNE -->
    <td class="fo la">3.69 ± 5.47 / 48.72 ± 3.41</td> <!-- ScaLA-fo -->
    <td>9.3.2</td> <!-- FoNE version -->
@@ -1324,7 +1337,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">14,491 ± 2,800 / 3,182 ± 1,026</td> <!-- Model inference speed -->
-   <td class="rank">5.07</td> <!-- ScandEval rank -->
+   <td class="rank">5.08</td> <!-- ScandEval rank -->
    <td class="fo ner">63.86 ± 20.89 / 64.42 ± 21.07</td> <!-- FoNE -->
    <td class="fo la">0.73 ± 2.11 / 49.36 ± 1.78</td> <!-- ScaLA-fo -->
    <td>0.0.0</td> <!-- FoNE version -->
@@ -1337,7 +1350,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">4221</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">1,979 ± 621 / 320 ± 105</td> <!-- Model inference speed -->
-   <td class="rank">5.07</td> <!-- ScandEval rank -->
+   <td class="rank">5.08</td> <!-- ScandEval rank -->
    <td class="fo ner">68.27 ± 3.22 / 62.82 ± 3.53</td> <!-- FoNE -->
    <td class="fo la">0.58 ± 1.85 / 36.79 ± 4.40</td> <!-- ScaLA-fo -->
    <td>12.7.0</td> <!-- FoNE version -->
@@ -1350,7 +1363,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">131200</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,439 ± 459 / 703 ± 219</td> <!-- Model inference speed -->
-   <td class="rank">5.07</td> <!-- ScandEval rank -->
+   <td class="rank">5.08</td> <!-- ScandEval rank -->
    <td class="fo ner">65.43 ± 3.19 / 63.09 ± 4.04</td> <!-- FoNE -->
    <td class="fo la">1.12 ± 2.01 / 35.45 ± 2.25</td> <!-- ScaLA-fo -->
    <td>12.11.0</td> <!-- FoNE version -->
@@ -1363,7 +1376,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">20,070 ± 3,977 / 4,400 ± 1,435</td> <!-- Model inference speed -->
-   <td class="rank">5.10</td> <!-- ScandEval rank -->
+   <td class="rank">5.11</td> <!-- ScandEval rank -->
    <td class="fo ner">59.50 ± 1.56 / 58.98 ± 1.55</td> <!-- FoNE -->
    <td class="fo la">3.25 ± 2.04 / 49.77 ± 1.40</td> <!-- ScaLA-fo -->
    <td>12.6.1</td> <!-- FoNE version -->
@@ -1376,7 +1389,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">15,523 ± 2,863 / 3,690 ± 1,195</td> <!-- Model inference speed -->
-   <td class="rank">5.10</td> <!-- ScandEval rank -->
+   <td class="rank">5.11</td> <!-- ScandEval rank -->
    <td class="fo ner">60.57 ± 0.86 / 60.42 ± 0.90</td> <!-- FoNE -->
    <td class="fo la">4.16 ± 2.63 / 47.13 ± 3.43</td> <!-- ScaLA-fo -->
    <td>0.0.0</td> <!-- FoNE version -->
@@ -1402,7 +1415,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">5,822 ± 1,283 / 1,336 ± 430</td> <!-- Model inference speed -->
-   <td class="rank">5.17</td> <!-- ScandEval rank -->
+   <td class="rank">5.18</td> <!-- ScandEval rank -->
    <td class="fo ner">63.40 ± 2.78 / 59.96 ± 2.91</td> <!-- FoNE -->
    <td class="fo la">2.16 ± 2.25 / 39.38 ± 4.12</td> <!-- ScaLA-fo -->
    <td>12.7.0</td> <!-- FoNE version -->
@@ -1415,7 +1428,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">1,841 ± 297 / 651 ± 193</td> <!-- Model inference speed -->
-   <td class="rank">5.17</td> <!-- ScandEval rank -->
+   <td class="rank">5.18</td> <!-- ScandEval rank -->
    <td class="fo ner">61.26 ± 4.22 / 59.21 ± 4.36</td> <!-- FoNE -->
    <td class="fo la">1.66 ± 1.37 / 45.22 ± 3.21</td> <!-- ScaLA-fo -->
    <td>12.5.2</td> <!-- FoNE version -->
@@ -1428,7 +1441,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">4,687 ± 1,121 / 967 ± 313</td> <!-- Model inference speed -->
-   <td class="rank">5.17</td> <!-- ScandEval rank -->
+   <td class="rank">5.18</td> <!-- ScandEval rank -->
    <td class="fo ner">61.11 ± 4.21 / 58.55 ± 4.19</td> <!-- FoNE -->
    <td class="fo la">2.02 ± 1.68 / 39.88 ± 3.56</td> <!-- ScaLA-fo -->
    <td>12.6.1</td> <!-- FoNE version -->
@@ -1441,7 +1454,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">634 ± 179 / 110 ± 35</td> <!-- Model inference speed -->
-   <td class="rank">5.17</td> <!-- ScandEval rank -->
+   <td class="rank">5.18</td> <!-- ScandEval rank -->
    <td class="fo ner">61.28 ± 2.98 / 54.02 ± 3.55</td> <!-- FoNE -->
    <td class="fo la">1.68 ± 1.41 / 50.06 ± 1.22</td> <!-- ScaLA-fo -->
    <td>9.2.0</td> <!-- FoNE version -->
@@ -1454,7 +1467,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">4,120 ± 976 / 926 ± 306</td> <!-- Model inference speed -->
-   <td class="rank">5.17</td> <!-- ScandEval rank -->
+   <td class="rank">5.18</td> <!-- ScandEval rank -->
    <td class="fo ner">61.32 ± 4.26 / 59.28 ± 4.43</td> <!-- FoNE -->
    <td class="fo la">1.30 ± 1.64 / 45.10 ± 3.27</td> <!-- ScaLA-fo -->
    <td>12.10.4</td> <!-- FoNE version -->
@@ -1467,7 +1480,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">8320</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,038 ± 406 / 566 ± 172</td> <!-- Model inference speed -->
-   <td class="rank">5.18</td> <!-- ScandEval rank -->
+   <td class="rank">5.19</td> <!-- ScandEval rank -->
    <td class="fo ner">47.88 ± 2.68 / 43.13 ± 2.36</td> <!-- FoNE -->
    <td class="fo la">5.79 ± 1.68 / 49.03 ± 2.13</td> <!-- ScaLA-fo -->
    <td>13.0.0</td> <!-- FoNE version -->
@@ -1532,7 +1545,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">8317</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">1,792 ± 249 / 668 ± 203</td> <!-- Model inference speed -->
-   <td class="rank">5.25</td> <!-- ScandEval rank -->
+   <td class="rank">5.26</td> <!-- ScandEval rank -->
    <td class="fo ner">53.08 ± 1.92 / 52.63 ± 1.65</td> <!-- FoNE -->
    <td class="fo la">2.39 ± 2.27 / 48.60 ± 2.21</td> <!-- ScaLA-fo -->
    <td>12.10.0</td> <!-- FoNE version -->
@@ -1545,7 +1558,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">131200</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">3,602 ± 855 / 779 ± 245</td> <!-- Model inference speed -->
-   <td class="rank">5.27</td> <!-- ScandEval rank -->
+   <td class="rank">5.28</td> <!-- ScandEval rank -->
    <td class="fo ner">58.36 ± 3.61 / 47.59 ± 4.79</td> <!-- FoNE -->
    <td class="fo la">1.63 ± 1.91 / 45.60 ± 4.08</td> <!-- ScaLA-fo -->
    <td>13.0.0</td> <!-- FoNE version -->
@@ -1636,7 +1649,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">6,079 ± 1,051 / 1,760 ± 570</td> <!-- Model inference speed -->
-   <td class="rank">5.34</td> <!-- ScandEval rank -->
+   <td class="rank">5.35</td> <!-- ScandEval rank -->
    <td class="fo ner">60.21 ± 3.50 / 58.44 ± 3.67</td> <!-- FoNE -->
    <td class="fo la">0.00 ± 0.00 / 33.10 ± 0.80</td> <!-- ScaLA-fo -->
    <td>12.3.2</td> <!-- FoNE version -->
@@ -1649,7 +1662,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">3,254 ± 1,068 / 484 ± 173</td> <!-- Model inference speed -->
-   <td class="rank">5.34</td> <!-- ScandEval rank -->
+   <td class="rank">5.35</td> <!-- ScandEval rank -->
    <td class="fo ner">60.54 ± 2.28 / 58.62 ± 1.89</td> <!-- FoNE -->
    <td class="fo la">-0.33 ± 1.12 / 37.78 ± 3.09</td> <!-- ScaLA-fo -->
    <td>9.3.1</td> <!-- FoNE version -->
@@ -1662,7 +1675,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,643 ± 455 / 800 ± 247</td> <!-- Model inference speed -->
-   <td class="rank">5.34</td> <!-- ScandEval rank -->
+   <td class="rank">5.35</td> <!-- ScandEval rank -->
    <td class="fo ner">59.77 ± 3.38 / 56.97 ± 4.30</td> <!-- FoNE -->
    <td class="fo la">-0.54 ± 1.61 / 36.94 ± 2.79</td> <!-- ScaLA-fo -->
    <td>9.3.1</td> <!-- FoNE version -->
@@ -1675,7 +1688,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,088 ± 352 / 706 ± 214</td> <!-- Model inference speed -->
-   <td class="rank">5.34</td> <!-- ScandEval rank -->
+   <td class="rank">5.35</td> <!-- ScandEval rank -->
    <td class="fo ner">60.37 ± 3.60 / 59.38 ± 3.85</td> <!-- FoNE -->
    <td class="fo la">0.00 ± 0.00 / 33.26 ± 0.34</td> <!-- ScaLA-fo -->
    <td>12.5.2</td> <!-- FoNE version -->
@@ -1688,7 +1701,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,219 ± 427 / 717 ± 224</td> <!-- Model inference speed -->
-   <td class="rank">5.34</td> <!-- ScandEval rank -->
+   <td class="rank">5.35</td> <!-- ScandEval rank -->
    <td class="fo ner">58.67 ± 3.95 / 58.47 ± 3.96</td> <!-- FoNE -->
    <td class="fo la">0.00 ± 0.00 / 33.26 ± 0.34</td> <!-- ScaLA-fo -->
    <td>12.5.2</td> <!-- FoNE version -->
@@ -1701,7 +1714,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">5,054 ± 1,200 / 1,056 ± 339</td> <!-- Model inference speed -->
-   <td class="rank">5.34</td> <!-- ScandEval rank -->
+   <td class="rank">5.35</td> <!-- ScandEval rank -->
    <td class="fo ner">58.96 ± 2.05 / 52.20 ± 2.50</td> <!-- FoNE -->
    <td class="fo la">0.00 ± 0.00 / 33.26 ± 0.34</td> <!-- ScaLA-fo -->
    <td>12.5.3</td> <!-- FoNE version -->
@@ -1753,7 +1766,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">16,091 ± 2,427 / 4,575 ± 1,485</td> <!-- Model inference speed -->
-   <td class="rank">5.41</td> <!-- ScandEval rank -->
+   <td class="rank">5.42</td> <!-- ScandEval rank -->
    <td class="fo ner">43.59 ± 0.80 / 42.84 ± 0.86</td> <!-- FoNE -->
    <td class="fo la">3.13 ± 1.29 / 49.29 ± 1.28</td> <!-- ScaLA-fo -->
    <td>0.0.0</td> <!-- FoNE version -->
@@ -1766,7 +1779,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">1,378 ± 260 / 387 ± 119</td> <!-- Model inference speed -->
-   <td class="rank">5.41</td> <!-- ScandEval rank -->
+   <td class="rank">5.42</td> <!-- ScandEval rank -->
    <td class="fo ner">43.32 ± 4.46 / 42.17 ± 4.06</td> <!-- FoNE -->
    <td class="fo la">4.28 ± 3.46 / 49.12 ± 2.54</td> <!-- ScaLA-fo -->
    <td>12.9.1</td> <!-- FoNE version -->
@@ -1779,7 +1792,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">131072</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">7,312 ± 1,668 / 1,609 ± 525</td> <!-- Model inference speed -->
-   <td class="rank">5.42</td> <!-- ScandEval rank -->
+   <td class="rank">5.43</td> <!-- ScandEval rank -->
    <td class="fo ner">54.65 ± 1.45 / 44.64 ± 2.43</td> <!-- FoNE -->
    <td class="fo la">-0.67 ± 3.41 / 38.53 ± 4.31</td> <!-- ScaLA-fo -->
    <td>12.9.1</td> <!-- FoNE version -->
@@ -1792,7 +1805,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">5,224 ± 1,371 / 1,063 ± 358</td> <!-- Model inference speed -->
-   <td class="rank">5.42</td> <!-- ScandEval rank -->
+   <td class="rank">5.43</td> <!-- ScandEval rank -->
    <td class="fo ner">56.61 ± 1.75 / 47.94 ± 1.94</td> <!-- FoNE -->
    <td class="fo la">-0.19 ± 1.95 / 36.90 ± 2.70</td> <!-- ScaLA-fo -->
    <td>12.10.5</td> <!-- FoNE version -->
@@ -1805,7 +1818,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">6,194 ± 949 / 1,967 ± 619</td> <!-- Model inference speed -->
-   <td class="rank">5.42</td> <!-- ScandEval rank -->
+   <td class="rank">5.43</td> <!-- ScandEval rank -->
    <td class="fo ner">54.03 ± 3.25 / 50.83 ± 3.50</td> <!-- FoNE -->
    <td class="fo la">0.11 ± 2.33 / 44.23 ± 3.90</td> <!-- ScaLA-fo -->
    <td>12.7.0</td> <!-- FoNE version -->
@@ -1818,7 +1831,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">4224</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">840 ± 79 / 400 ± 124</td> <!-- Model inference speed -->
-   <td class="rank">5.45</td> <!-- ScandEval rank -->
+   <td class="rank">5.46</td> <!-- ScandEval rank -->
    <td class="fo ner">49.32 ± 2.20 / 46.86 ± 2.03</td> <!-- FoNE -->
    <td class="fo la">1.70 ± 2.41 / 37.62 ± 2.87</td> <!-- ScaLA-fo -->
    <td>12.10.5</td> <!-- FoNE version -->
@@ -1831,7 +1844,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">7,259 ± 2,120 / 1,240 ± 432</td> <!-- Model inference speed -->
-   <td class="rank">5.45</td> <!-- ScandEval rank -->
+   <td class="rank">5.46</td> <!-- ScandEval rank -->
    <td class="fo ner">48.39 ± 4.46 / 49.13 ± 4.10</td> <!-- FoNE -->
    <td class="fo la">1.35 ± 2.97 / 47.85 ± 1.89</td> <!-- ScaLA-fo -->
    <td>12.10.8</td> <!-- FoNE version -->
@@ -1844,7 +1857,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">16,347 ± 2,191 / 5,125 ± 1,672</td> <!-- Model inference speed -->
-   <td class="rank">5.49</td> <!-- ScandEval rank -->
+   <td class="rank">5.50</td> <!-- ScandEval rank -->
    <td class="fo ner">50.44 ± 1.82 / 49.80 ± 1.76</td> <!-- FoNE -->
    <td class="fo la">-0.06 ± 2.46 / 45.46 ± 4.05</td> <!-- ScaLA-fo -->
    <td>0.0.0</td> <!-- FoNE version -->
@@ -1857,7 +1870,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">930 ± 310 / 128 ± 43</td> <!-- Model inference speed -->
-   <td class="rank">5.49</td> <!-- ScandEval rank -->
+   <td class="rank">5.50</td> <!-- ScandEval rank -->
    <td class="fo ner">52.34 ± 5.11 / 52.53 ± 4.79</td> <!-- FoNE -->
    <td class="fo la">0.11 ± 1.45 / 33.49 ± 0.47</td> <!-- ScaLA-fo -->
    <td>9.2.0</td> <!-- FoNE version -->
@@ -1870,7 +1883,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">6,450 ± 961 / 2,082 ± 658</td> <!-- Model inference speed -->
-   <td class="rank">5.49</td> <!-- ScandEval rank -->
+   <td class="rank">5.50</td> <!-- ScandEval rank -->
    <td class="fo ner">53.24 ± 2.75 / 50.65 ± 2.85</td> <!-- FoNE -->
    <td class="fo la">-0.52 ± 1.71 / 42.25 ± 3.52</td> <!-- ScaLA-fo -->
    <td>12.5.2</td> <!-- FoNE version -->
@@ -1935,7 +1948,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">4224</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,867 ± 550 / 793 ± 253</td> <!-- Model inference speed -->
-   <td class="rank">5.57</td> <!-- ScandEval rank -->
+   <td class="rank">5.58</td> <!-- ScandEval rank -->
    <td class="fo ner">47.90 ± 4.35 / 47.09 ± 3.68</td> <!-- FoNE -->
    <td class="fo la">-0.20 ± 1.73 / 34.85 ± 2.14</td> <!-- ScaLA-fo -->
    <td>13.0.0</td> <!-- FoNE version -->
@@ -1948,7 +1961,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,383 ± 451 / 718 ± 221</td> <!-- Model inference speed -->
-   <td class="rank">5.60</td> <!-- ScandEval rank -->
+   <td class="rank">5.61</td> <!-- ScandEval rank -->
    <td class="fo ner">42.14 ± 1.37 / 42.12 ± 1.38</td> <!-- FoNE -->
    <td class="fo la">0.72 ± 1.51 / 37.81 ± 3.14</td> <!-- ScaLA-fo -->
    <td>12.7.0</td> <!-- FoNE version -->
@@ -1961,7 +1974,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">4,347 ± 893 / 1,135 ± 365</td> <!-- Model inference speed -->
-   <td class="rank">5.65</td> <!-- ScandEval rank -->
+   <td class="rank">5.66</td> <!-- ScandEval rank -->
    <td class="fo ner">43.80 ± 4.46 / 44.36 ± 3.59</td> <!-- FoNE -->
    <td class="fo la">-0.42 ± 2.18 / 34.33 ± 1.47</td> <!-- ScaLA-fo -->
    <td>12.5.2</td> <!-- FoNE version -->
@@ -1974,7 +1987,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">3,371 ± 876 / 561 ± 184</td> <!-- Model inference speed -->
-   <td class="rank">5.65</td> <!-- ScandEval rank -->
+   <td class="rank">5.66</td> <!-- ScandEval rank -->
    <td class="fo ner">43.45 ± 5.46 / 42.27 ± 5.19</td> <!-- FoNE -->
    <td class="fo la">-0.80 ± 2.08 / 40.32 ± 3.46</td> <!-- ScaLA-fo -->
    <td>12.10.5</td> <!-- FoNE version -->
@@ -2013,7 +2026,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">1,831 ± 587 / 268 ± 90</td> <!-- Model inference speed -->
-   <td class="rank">5.77</td> <!-- ScandEval rank -->
+   <td class="rank">5.78</td> <!-- ScandEval rank -->
    <td class="fo ner">39.50 ± 1.68 / 35.80 ± 1.50</td> <!-- FoNE -->
    <td class="fo la">-0.04 ± 1.87 / 33.86 ± 0.53</td> <!-- ScaLA-fo -->
    <td>9.3.1</td> <!-- FoNE version -->
@@ -2026,7 +2039,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">2176</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">8,536 ± 1,926 / 1,940 ± 619</td> <!-- Model inference speed -->
-   <td class="rank">5.80</td> <!-- ScandEval rank -->
+   <td class="rank">5.81</td> <!-- ScandEval rank -->
    <td class="fo ner">31.84 ± 5.22 / 34.80 ± 3.88</td> <!-- FoNE -->
    <td class="fo la">1.01 ± 2.39 / 39.75 ± 4.10</td> <!-- ScaLA-fo -->
    <td>12.5.2</td> <!-- FoNE version -->
@@ -2039,7 +2052,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">5,855 ± 1,373 / 1,223 ± 391</td> <!-- Model inference speed -->
-   <td class="rank">5.81</td> <!-- ScandEval rank -->
+   <td class="rank">5.82</td> <!-- ScandEval rank -->
    <td class="fo ner">37.33 ± 1.14 / 37.83 ± 1.08</td> <!-- FoNE -->
    <td class="fo la">0.31 ± 0.60 / 33.42 ± 0.32</td> <!-- ScaLA-fo -->
    <td>12.7.0</td> <!-- FoNE version -->
@@ -2052,7 +2065,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">3,248 ± 739 / 761 ± 252</td> <!-- Model inference speed -->
-   <td class="rank">5.81</td> <!-- ScandEval rank -->
+   <td class="rank">5.82</td> <!-- ScandEval rank -->
    <td class="fo ner">34.20 ± 5.85 / 35.35 ± 5.04</td> <!-- FoNE -->
    <td class="fo la">-0.36 ± 1.07 / 35.09 ± 1.96</td> <!-- ScaLA-fo -->
    <td>12.5.2</td> <!-- FoNE version -->
@@ -2065,7 +2078,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">6,471 ± 1,142 / 1,961 ± 584</td> <!-- Model inference speed -->
-   <td class="rank">5.87</td> <!-- ScandEval rank -->
+   <td class="rank">5.88</td> <!-- ScandEval rank -->
    <td class="fo ner">37.60 ± 2.86 / 36.37 ± 2.61</td> <!-- FoNE -->
    <td class="fo la">-1.62 ± 2.08 / 43.25 ± 3.61</td> <!-- ScaLA-fo -->
    <td>12.5.2</td> <!-- FoNE version -->
@@ -2078,7 +2091,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">4,969 ± 1,109 / 1,134 ± 374</td> <!-- Model inference speed -->
-   <td class="rank">5.90</td> <!-- ScandEval rank -->
+   <td class="rank">5.91</td> <!-- ScandEval rank -->
    <td class="fo ner">26.54 ± 5.30 / 26.05 ± 5.17</td> <!-- FoNE -->
    <td class="fo la">0.59 ± 2.72 / 45.88 ± 2.69</td> <!-- ScaLA-fo -->
    <td>12.7.0</td> <!-- FoNE version -->
@@ -2091,7 +2104,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">2176</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">5,403 ± 1,133 / 1,294 ± 423</td> <!-- Model inference speed -->
-   <td class="rank">5.90</td> <!-- ScandEval rank -->
+   <td class="rank">5.91</td> <!-- ScandEval rank -->
    <td class="fo ner">25.08 ± 6.04 / 25.94 ± 6.17</td> <!-- FoNE -->
    <td class="fo la">1.69 ± 2.72 / 36.58 ± 2.95</td> <!-- ScaLA-fo -->
    <td>12.5.2</td> <!-- FoNE version -->
@@ -2102,9 +2115,9 @@ title: Faroese NLU 🇫🇴
    <td class="num_model_parameters">2614</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">256</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">8320</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">5,374 ± 1,233 / 1,193 ± 377</td> <!-- Model inference speed -->
-   <td class="rank">5.90</td> <!-- ScandEval rank -->
+   <td class="rank">5.91</td> <!-- ScandEval rank -->
    <td class="fo ner">24.45 ± 3.09 / 24.45 ± 2.84</td> <!-- FoNE -->
    <td class="fo la">0.75 ± 1.18 / 45.44 ± 2.95</td> <!-- ScaLA-fo -->
    <td>13.0.0</td> <!-- FoNE version -->
@@ -2130,7 +2143,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">5,666 ± 1,328 / 1,256 ± 408</td> <!-- Model inference speed -->
-   <td class="rank">6.00</td> <!-- ScandEval rank -->
+   <td class="rank">6.01</td> <!-- ScandEval rank -->
    <td class="fo ner">18.65 ± 5.84 / 20.64 ± 4.75</td> <!-- FoNE -->
    <td class="fo la">1.14 ± 1.66 / 37.04 ± 3.83</td> <!-- ScaLA-fo -->
    <td>12.5.2</td> <!-- FoNE version -->
@@ -2143,7 +2156,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">2176</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">5,484 ± 1,125 / 1,317 ± 425</td> <!-- Model inference speed -->
-   <td class="rank">6.00</td> <!-- ScandEval rank -->
+   <td class="rank">6.01</td> <!-- ScandEval rank -->
    <td class="fo ner">19.57 ± 7.44 / 20.21 ± 6.81</td> <!-- FoNE -->
    <td class="fo la">0.70 ± 1.76 / 42.12 ± 4.88</td> <!-- ScaLA-fo -->
    <td>12.5.2</td> <!-- FoNE version -->
@@ -2156,7 +2169,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">8320</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">5,235 ± 1,226 / 1,154 ± 366</td> <!-- Model inference speed -->
-   <td class="rank">6.00</td> <!-- ScandEval rank -->
+   <td class="rank">6.01</td> <!-- ScandEval rank -->
    <td class="fo ner">19.87 ± 2.97 / 20.57 ± 3.02</td> <!-- FoNE -->
    <td class="fo la">1.15 ± 1.31 / 34.80 ± 1.23</td> <!-- ScaLA-fo -->
    <td>13.0.0</td> <!-- FoNE version -->
@@ -2169,7 +2182,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">6,087 ± 1,046 / 1,902 ± 563</td> <!-- Model inference speed -->
-   <td class="rank">6.00</td> <!-- ScandEval rank -->
+   <td class="rank">6.01</td> <!-- ScandEval rank -->
    <td class="fo ner">20.15 ± 4.19 / 19.76 ± 4.13</td> <!-- FoNE -->
    <td class="fo la">1.28 ± 1.43 / 39.41 ± 3.29</td> <!-- ScaLA-fo -->
    <td>12.5.2</td> <!-- FoNE version -->
@@ -2182,7 +2195,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">11,371 ± 2,924 / 2,122 ± 692</td> <!-- Model inference speed -->
-   <td class="rank">6.02</td> <!-- ScandEval rank -->
+   <td class="rank">6.03</td> <!-- ScandEval rank -->
    <td class="fo ner">29.34 ± 1.57 / 30.91 ± 1.51</td> <!-- FoNE -->
    <td class="fo la">-1.47 ± 1.54 / 35.84 ± 1.76</td> <!-- ScaLA-fo -->
    <td>12.5.2</td> <!-- FoNE version -->
@@ -2195,7 +2208,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">8,304 ± 1,846 / 1,933 ± 617</td> <!-- Model inference speed -->
-   <td class="rank">6.02</td> <!-- ScandEval rank -->
+   <td class="rank">6.03</td> <!-- ScandEval rank -->
    <td class="fo ner">26.11 ± 3.40 / 27.37 ± 2.80</td> <!-- FoNE -->
    <td class="fo la">0.15 ± 2.21 / 34.34 ± 0.53</td> <!-- ScaLA-fo -->
    <td>12.5.2</td> <!-- FoNE version -->
@@ -2208,7 +2221,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">131200</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">7,577 ± 1,884 / 1,555 ± 492</td> <!-- Model inference speed -->
-   <td class="rank">6.02</td> <!-- ScandEval rank -->
+   <td class="rank">6.03</td> <!-- ScandEval rank -->
    <td class="fo ner">24.82 ± 5.78 / 24.93 ± 5.16</td> <!-- FoNE -->
    <td class="fo la">-0.23 ± 1.50 / 45.07 ± 4.44</td> <!-- ScaLA-fo -->
    <td>13.0.0</td> <!-- FoNE version -->
@@ -2226,19 +2239,6 @@ title: Faroese NLU 🇫🇴
    <td class="fo la">-0.30 ± 0.59 / 33.39 ± 0.33</td> <!-- ScaLA-fo -->
    <td>12.7.0</td> <!-- FoNE version -->
    <td>12.7.0</td> <!-- ScaLA-fo version -->
-   </tr>
-  <tr class="not-merged-model">
-   <td>NorwAI/NorwAI-Llama2-7B (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">7033</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">68</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">4,438 ± 1,128 / 1,028 ± 346</td> <!-- Model inference speed -->
-   <td class="rank">6.12</td> <!-- ScandEval rank -->
-   <td class="fo ner">27.10 ± 1.40 / 27.13 ± 1.63</td> <!-- FoNE -->
-   <td class="fo la">-1.52 ± 2.13 / 37.81 ± 1.56</td> <!-- ScaLA-fo -->
-   <td>12.10.4</td> <!-- FoNE version -->
-   <td>12.10.4</td> <!-- ScaLA-fo version -->
    </tr>
   <tr class="not-merged-model">
    <td>Qwen/Qwen1.5-0.5B-Chat (few-shot)</td> <!-- Model ID -->
@@ -2267,13 +2267,26 @@ title: Faroese NLU 🇫🇴
    <td>9.3.1</td> <!-- ScaLA-fo version -->
    </tr>
   <tr class="not-merged-model">
+   <td>NorwAI/NorwAI-Llama2-7B (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">7033</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">68</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">4,438 ± 1,128 / 1,028 ± 346</td> <!-- Model inference speed -->
+   <td class="rank">6.13</td> <!-- ScandEval rank -->
+   <td class="fo ner">27.10 ± 1.40 / 27.13 ± 1.63</td> <!-- FoNE -->
+   <td class="fo la">-1.52 ± 2.13 / 37.81 ± 1.56</td> <!-- ScaLA-fo -->
+   <td>12.10.4</td> <!-- FoNE version -->
+   <td>12.10.4</td> <!-- ScaLA-fo version -->
+   </tr>
+  <tr class="not-merged-model">
    <td>fresh-electra-small</td> <!-- Model ID -->
    <td class="num_model_parameters">13</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">31</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">7,840 ± 1,538 / 3,024 ± 438</td> <!-- Model inference speed -->
-   <td class="rank">6.20</td> <!-- ScandEval rank -->
+   <td class="rank">6.21</td> <!-- ScandEval rank -->
    <td class="fo ner">12.10 ± 1.51 / 11.83 ± 1.50</td> <!-- FoNE -->
    <td class="fo la">0.64 ± 1.57 / 38.69 ± 3.19</td> <!-- ScaLA-fo -->
    <td>0.0.0</td> <!-- FoNE version -->
@@ -2286,7 +2299,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">3,024 ± 496 / 909 ± 301</td> <!-- Model inference speed -->
-   <td class="rank">6.39</td> <!-- ScandEval rank -->
+   <td class="rank">6.40</td> <!-- ScandEval rank -->
    <td class="fo ner">2.64 ± 1.41 / 2.99 ± 1.54</td> <!-- FoNE -->
    <td class="fo la">0.53 ± 1.90 / 36.70 ± 3.80</td> <!-- ScaLA-fo -->
    <td>12.10.4</td> <!-- FoNE version -->
@@ -2299,7 +2312,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">1024</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">19,896 ± 5,099 / 3,848 ± 1,251</td> <!-- Model inference speed -->
-   <td class="rank">6.51</td> <!-- ScandEval rank -->
+   <td class="rank">6.52</td> <!-- ScandEval rank -->
    <td class="fo ner">1.84 ± 1.25 / 1.80 ± 1.23</td> <!-- FoNE -->
    <td class="fo la">0.00 ± 0.00 / 33.26 ± 0.34</td> <!-- ScaLA-fo -->
    <td>12.5.2</td> <!-- FoNE version -->
@@ -2312,7 +2325,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">6,435 ± 1,316 / 1,632 ± 549</td> <!-- Model inference speed -->
-   <td class="rank">6.56</td> <!-- ScandEval rank -->
+   <td class="rank">6.57</td> <!-- ScandEval rank -->
    <td class="fo ner">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- FoNE -->
    <td class="fo la">-0.28 ± 0.79 / 33.70 ± 0.64</td> <!-- ScaLA-fo -->
    <td>9.3.2</td> <!-- FoNE version -->
@@ -2325,7 +2338,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">5,847 ± 1,029 / 1,640 ± 525</td> <!-- Model inference speed -->
-   <td class="rank">6.56</td> <!-- ScandEval rank -->
+   <td class="rank">6.57</td> <!-- ScandEval rank -->
    <td class="fo ner">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- FoNE -->
    <td class="fo la">0.00 ± 0.00 / 33.40 ± 0.34</td> <!-- ScaLA-fo -->
    <td>9.3.1</td> <!-- FoNE version -->
@@ -2338,7 +2351,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">1024</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">48,619 ± 7,681 / 13,831 ± 4,404</td> <!-- Model inference speed -->
-   <td class="rank">6.56</td> <!-- ScandEval rank -->
+   <td class="rank">6.57</td> <!-- ScandEval rank -->
    <td class="fo ner">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- FoNE -->
    <td class="fo la">0.00 ± 0.00 / 33.40 ± 0.34</td> <!-- ScaLA-fo -->
    <td>12.5.2</td> <!-- FoNE version -->
@@ -2351,7 +2364,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">1024</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">49,558 ± 7,930 / 13,921 ± 4,425</td> <!-- Model inference speed -->
-   <td class="rank">6.56</td> <!-- ScandEval rank -->
+   <td class="rank">6.57</td> <!-- ScandEval rank -->
    <td class="fo ner">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- FoNE -->
    <td class="fo la">0.00 ± 0.00 / 33.40 ± 0.34</td> <!-- ScaLA-fo -->
    <td>12.5.2</td> <!-- FoNE version -->
@@ -2364,7 +2377,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">32,644 ± 3,887 / 11,289 ± 3,585</td> <!-- Model inference speed -->
-   <td class="rank">6.56</td> <!-- ScandEval rank -->
+   <td class="rank">6.57</td> <!-- ScandEval rank -->
    <td class="fo ner">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- FoNE -->
    <td class="fo la">0.00 ± 0.00 / 33.40 ± 0.34</td> <!-- ScaLA-fo -->
    <td>12.5.2</td> <!-- FoNE version -->
@@ -2377,7 +2390,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">1024</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">44,889 ± 6,944 / 13,506 ± 4,256</td> <!-- Model inference speed -->
-   <td class="rank">6.56</td> <!-- ScandEval rank -->
+   <td class="rank">6.57</td> <!-- ScandEval rank -->
    <td class="fo ner">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- FoNE -->
    <td class="fo la">0.00 ± 0.00 / 33.40 ± 0.34</td> <!-- ScaLA-fo -->
    <td>12.5.2</td> <!-- FoNE version -->
@@ -2390,7 +2403,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">1024</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">11,734 ± 3,124 / 2,174 ± 720</td> <!-- Model inference speed -->
-   <td class="rank">6.56</td> <!-- ScandEval rank -->
+   <td class="rank">6.57</td> <!-- ScandEval rank -->
    <td class="fo ner">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- FoNE -->
    <td class="fo la">-0.24 ± 0.93 / 43.16 ± 3.72</td> <!-- ScaLA-fo -->
    <td>9.3.1</td> <!-- FoNE version -->
@@ -2403,7 +2416,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">16,280 ± 2,296 / 4,838 ± 1,583</td> <!-- Model inference speed -->
-   <td class="rank">6.56</td> <!-- ScandEval rank -->
+   <td class="rank">6.57</td> <!-- ScandEval rank -->
    <td class="fo ner">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- FoNE -->
    <td class="fo la">-1.21 ± 2.82 / 44.15 ± 3.47</td> <!-- ScaLA-fo -->
    <td>0.0.0</td> <!-- FoNE version -->
@@ -2416,6 +2429,6 @@ title: Faroese NLU 🇫🇴
 <div class="end-note">
   <a href="https://scandeval.com/faroese-nlu.csv" target="_blank">Download as CSV</a>
   &nbsp;&nbsp;&bull;&nbsp;&nbsp;
-  <a href="javascript:void(0);" id="embed-link" data-embed="<iframe title=&quot;Faroese NLU&quot; aria-label=&quot;Table&quot; id=&quot;datawrapper-chart-Kk6gv&quot; src=&quot;https://datawrapper.dwcdn.net/Kk6gv/1/&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width: 0; min-width: 100% !important; border: none;&quot; height=&quot;400&quot; data-external=&quot;1&quot;></iframe><script type=&quot;text/javascript&quot;>!function(){&quot;use strict&quot;;window.addEventListener(&quot;message&quot;,(function(a){if(void 0!==a.data[&quot;datawrapper-height&quot;]){var e=document.querySelectorAll(&quot;iframe&quot;);for(var t in a.data[&quot;datawrapper-height&quot;])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data[&quot;datawrapper-height&quot;][t]+&quot;px&quot;;e[r].style.height=i}}}))}();
+  <a href="javascript:void(0);" id="embed-link" data-embed="<iframe title=&quot;Faroese NLU&quot; aria-label=&quot;Table&quot; id=&quot;datawrapper-chart-Ixaiw&quot; src=&quot;https://datawrapper.dwcdn.net/Ixaiw/1/&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width: 0; min-width: 100% !important; border: none;&quot; height=&quot;400&quot; data-external=&quot;1&quot;></iframe><script type=&quot;text/javascript&quot;>!function(){&quot;use strict&quot;;window.addEventListener(&quot;message&quot;,(function(a){if(void 0!==a.data[&quot;datawrapper-height&quot;]){var e=document.querySelectorAll(&quot;iframe&quot;);for(var t in a.data[&quot;datawrapper-height&quot;])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data[&quot;datawrapper-height&quot;][t]+&quot;px&quot;;e[r].style.height=i}}}))}();
 </script>">Copy embed HTML</a>
 </div>
