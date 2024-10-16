@@ -71,14 +71,14 @@ timpal0l/Llama-3-8B-flashback-v1 (few-shot),8030,128,8192,True,False,4807,2.69,4
 google/gemma-2-2b-it (few-shot),2614,256,8193,True,False,5374,2.7,28.22,47.11,19.99,48.0,66.73,52.85,52.74,29.94
 neph1/bellman-7b-mistral-instruct-v0.2 (few-shot),7242,32,32768,False,False,2518,2.71,46.11,47.58,18.41,52.78,65.65,41.77,35.86,11.59
 meta-llama/Llama-2-13b-hf (few-shot),13016,32,4096,True,False,2898,2.79,41.28,23.01,23.5,60.29,66.28,50.3,56.24,15.43
-meta-llama/Llama-3.2-3B-Instruct (few-shot),3213,128,131073,False,False,3602,2.8,41.18,43.08,11.45,51.34,65.15,49.85,45.59,21.76
+meta-llama/Llama-3.2-3B-Instruct (few-shot),3213,128,131073,False,False,10424,2.8,41.12,42.77,11.52,51.14,65.19,49.78,45.88,21.89
 occiglot/occiglot-7b-eu5-instruct (few-shot),7242,32,32768,False,False,2088,2.82,40.19,42.31,1.14,57.89,66.68,44.3,48.76,15.44
 mistralai/Mistral-7B-Instruct-v0.1 (few-shot),7242,32,32768,False,False,634,2.83,37.93,44.49,14.09,51.38,65.8,45.07,35.36,14.85
 bineric/NorskGPT-Llama-7B-v0.1 (few-shot),6738,32,4096,False,False,5384,2.84,41.63,47.73,0.0,54.25,66.02,47.16,38.28,22.27
 meta-llama/Llama-2-7b-chat-hf (few-shot),6738,32,4096,False,False,2643,2.89,35.44,44.88,9.74,55.04,66.15,32.17,35.74,11.32
 occiglot/occiglot-7b-eu5 (few-shot),7242,32,32768,True,False,2219,2.9,37.93,44.62,0.28,58.05,66.05,38.54,45.89,12.38
 emillykkejensen/Phi-3-mini-4k-instruct-dansk (few-shot),3821,32,4096,False,False,1360,2.91,39.96,44.93,4.01,55.01,65.29,35.28,41.62,11.81
-meta-llama/Llama-3.2-3B (few-shot),3213,128,131073,True,False,3713,2.92,41.13,38.9,9.6,56.85,63.35,45.46,46.77,12.19
+meta-llama/Llama-3.2-3B (few-shot),3213,128,131073,True,False,3713,2.91,41.13,38.9,9.6,56.85,63.35,45.46,46.77,12.19
 microsoft/Phi-3-mini-4k-instruct (few-shot),3821,32,4096,True,False,5224,2.95,41.37,42.6,6.52,50.57,64.55,38.64,42.12,13.66
 NorwAI/NorwAI-Mistral-7B (few-shot),7537,68,4096,True,False,3035,2.96,21.47,48.39,12.46,52.51,66.53,36.65,49.97,5.64
 Qwen/Qwen1.5-4B-Chat (few-shot),3950,152,32768,False,False,4347,2.98,35.96,42.04,8.65,53.68,63.22,37.79,29.62,16.87
@@ -122,7 +122,7 @@ meta-llama/Llama-3.2-1B (few-shot),1236,128,131073,True,False,7577,3.7,19.82,35.
 norallm/normistral-7b-scratch (few-shot),7248,33,2048,True,False,3192,3.72,14.88,34.66,0.29,42.16,63.19,0.58,4.6,-0.34
 NbAiLab/nb-gpt-j-6B-alpaca (few-shot),6055,50,1024,False,False,2607,3.75,12.95,27.68,1.65,38.6,63.32,4.49,12.81,-0.68
 AI-Sweden-Models/gpt-sw3-356m-instruct (few-shot),471,64,2048,True,False,5855,3.76,11.28,34.94,2.08,36.59,63.38,-0.09,-0.76,0.28
-AI-Sweden-Models/gpt-sw3-1.3b (few-shot),1445,64,2048,True,False,4608,3.77,8.8,28.65,2.84,45.34,62.17,-1.31,3.02,-0.33
+AI-Sweden-Models/gpt-sw3-1.3b (few-shot),1445,64,2048,True,False,4608,3.78,8.8,28.65,2.84,45.34,62.17,-1.31,3.02,-0.33
 Qwen/Qwen1.5-1.8B-Chat (few-shot),1837,152,32768,False,False,8304,3.81,18.0,26.58,0.63,41.66,57.19,22.17,12.85,7.01
 Qwen/Qwen1.5-1.8B (few-shot),1837,152,32768,True,False,5666,3.82,9.83,29.03,0.56,46.43,56.43,14.86,17.56,4.78
 allenai/OLMo-7B (few-shot),6888,50,2051,True,False,5403,3.91,26.76,30.76,0.55,45.65,50.86,0.26,6.94,-0.11

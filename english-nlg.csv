@@ -37,7 +37,7 @@ mistralai/Mistral-7B-v0.3 (few-shot),7248,33,32768,True,False,4120,2.01,61.02,67
 occiglot/occiglot-7b-de-en-instruct (few-shot),7242,32,32768,False,False,1584,2.05,60.9,66.54,23.6,75.14,68.96,42.53,41.79
 "mlabonne/AlphaMonarch-7B (few-shot, val)",7242,32,8192,False,True,5340,2.06,69.19,63.77,28.43,44.39,69.77,46.53,71.36
 google/gemma-7b (few-shot),8538,256,8320,True,False,1378,2.08,47.2,63.88,35.75,69.4,69.25,50.57,35.79
-meta-llama/Llama-3.2-3B-Instruct (few-shot),3213,128,131328,False,False,3602,2.13,68.47,66.08,31.7,49.55,69.23,45.37,46.7
+meta-llama/Llama-3.2-3B-Instruct (few-shot),3213,128,131328,False,False,10424,2.13,68.44,66.0,32.04,49.54,69.23,45.5,46.5
 Qwen/Qwen1.5-4B (few-shot),3950,152,32768,True,False,3248,2.14,55.45,60.55,28.6,70.49,68.67,39.82,51.82
 timpal0l/Mistral-7B-v0.1-flashback-v2 (few-shot),7242,32,32768,True,False,5054,2.15,59.1,68.41,25.43,71.89,67.99,44.09,32.29
 Qwen/Qwen1.5-4B-Chat (few-shot),3950,152,32768,False,False,4347,2.19,58.56,59.62,28.55,70.04,67.27,38.68,47.47
