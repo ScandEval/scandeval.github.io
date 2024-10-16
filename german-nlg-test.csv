@@ -50,9 +50,9 @@ timpal0l/Mistral-7B-v0.1-flashback-v2 (few-shot),7242,32,32768,True,False,5054,2
 01-ai/Yi-1.5-6B (few-shot),6061,64,4128,True,False,2867,2.62,48.2,47.12,12.39,30.5,65.48,30.83,24.9
 google/gemma-2-2b-it (few-shot),2614,256,8224,True,False,5374,2.62,37.31,46.23,23.26,28.01,66.35,30.11,35.25
 mistralai/Mistral-7B-Instruct-v0.1 (few-shot),7242,32,32797,False,False,634,2.62,47.19,47.26,22.32,24.36,67.75,26.79,20.33
+meta-llama/Llama-3.2-3B-Instruct (few-shot),3213,128,131104,False,False,10424,2.68,55.52,50.52,9.87,20.2,66.4,33.58,28.97
 meta-llama/Llama-3.2-3B (few-shot),3213,128,131104,True,False,3713,2.68,49.85,54.65,3.17,29.37,67.96,29.56,16.15
 DiscoResearch/DiscoLM_German_7b_v1 (few-shot),7242,32,32768,False,False,1972,2.69,42.39,48.67,8.72,36.12,68.47,23.99,20.76
-meta-llama/Llama-3.2-3B-Instruct (few-shot),3213,128,131104,False,False,3602,2.69,55.42,50.29,8.97,20.74,66.54,33.51,28.84
 ibm-granite/granite-8b-code-base-4k (few-shot),8055,49,4096,True,False,2313,2.71,59.07,49.75,14.71,29.45,67.78,16.39,10.68
 DiscoResearch/Llama3-German-8B (few-shot),8030,128,8192,True,False,2383,2.75,54.34,58.32,25.7,0.5,62.61,38.63,33.51
 meta-llama/Llama-2-7b-hf (few-shot),6738,32,4125,True,False,930,2.78,43.02,50.21,15.79,28.57,68.68,18.38,8.45
@@ -61,7 +61,7 @@ meta-llama/Llama-2-7b-chat-hf (few-shot),6738,32,4125,False,False,2643,2.84,50.0
 allenai/OLMo-1.7-7B-hf (few-shot),6888,50,4096,True,False,3371,2.94,39.41,49.42,6.02,27.69,66.75,20.77,10.47
 google/gemma-2-2b (few-shot),2614,256,8224,True,False,5235,2.98,19.69,50.36,9.07,27.06,68.52,26.5,9.36
 google/gemma-7b-it (few-shot),8538,256,8221,False,False,1792,2.99,54.2,15.43,17.49,28.68,64.87,22.1,18.58
-01-ai/Yi-6B (few-shot),6061,64,4125,True,False,6435,3.03,0.0,52.66,7.33,30.05,66.09,30.33,22.89
+01-ai/Yi-6B (few-shot),6061,64,4125,True,False,6435,3.02,0.0,52.66,7.33,30.05,66.09,30.33,22.89
 Qwen/Qwen1.5-4B (few-shot),3950,152,32768,True,False,3248,3.07,31.52,39.91,3.27,27.55,65.88,21.32,21.35
 ibm-granite/granite-7b-base (few-shot),6738,32,2048,True,False,4405,3.13,37.68,46.0,0.83,26.65,64.14,18.12,9.92
 stabilityai/stablelm-2-1_6b (few-shot),1645,100,4096,True,False,7259,3.21,34.81,51.01,0.0,25.4,63.53,11.23,7.25

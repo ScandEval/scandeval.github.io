@@ -116,7 +116,7 @@ ibm-granite/granite-8b-code-base-4k (few-shot),8055,49,4096,True,False,2313,5.19
 skole-gpt (few-shot),-1,32,32768,False,False,3583,5.19,67.89,-0.41
 Maltehb/aelaectra-danish-electra-small-cased,14,32,512,True,False,4593,5.23,58.52,1.09
 google/gemma-7b-it (few-shot),8538,256,8317,False,False,1792,5.26,53.08,2.39
-meta-llama/Llama-3.2-3B-Instruct (few-shot),3213,128,131200,False,False,3602,5.28,58.36,1.63
+meta-llama/Llama-3.2-3B-Instruct (few-shot),3213,128,131200,False,False,10424,5.28,58.24,1.77
 ibm-granite/granite-3b-code-base-2k (few-shot),3483,49,2048,True,False,2732,5.29,60.88,-0.35
 meta-llama/Llama-2-13b-chat-hf (few-shot),13016,32,4096,True,False,2849,5.29,62.97,0.14
 bineric/NorskGPT-Llama-7B-v0.1 (few-shot),6738,32,4096,False,False,5384,5.31,53.38,0.46
