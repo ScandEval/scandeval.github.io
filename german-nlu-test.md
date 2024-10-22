@@ -3,7 +3,7 @@ layout: leaderboard
 title: German NLU 🇩🇪
 ---
 
-<center>Last updated: 16/10/2024 16:58:46 CET</center>
+<center>Last updated: 22/10/2024 10:21:35 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -262,7 +262,7 @@ title: German NLU 🇩🇪
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">20,637 ± 3,925 / 4,497 ± 1,502</td> <!-- Model inference speed -->
-   <td class="rank">1.79</td> <!-- ScandEval rank -->
+   <td class="rank">1.80</td> <!-- ScandEval rank -->
    <td class="de ner">77.42 ± 1.30 / 76.39 ± 1.16</td> <!-- GermEval -->
    <td class="de sent">50.90 ± 6.20 / 66.89 ± 4.34</td> <!-- SB10k -->
    <td class="de la">59.38 ± 2.00 / 79.12 ± 1.09</td> <!-- ScaLA-de -->
@@ -483,7 +483,7 @@ title: German NLU 🇩🇪
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">14,965 ± 2,890 / 3,322 ± 1,074</td> <!-- Model inference speed -->
-   <td class="rank">1.94</td> <!-- ScandEval rank -->
+   <td class="rank">1.95</td> <!-- ScandEval rank -->
    <td class="de ner">74.79 ± 1.45 / 75.10 ± 1.37</td> <!-- GermEval -->
    <td class="de sent">63.29 ± 1.54 / 75.42 ± 1.03</td> <!-- SB10k -->
    <td class="de la">45.32 ± 8.38 / 71.30 ± 4.11</td> <!-- ScaLA-de -->
@@ -500,7 +500,7 @@ title: German NLU 🇩🇪
    <td class="max_sequence_length">8224</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,062 ± 397 / 589 ± 178</td> <!-- Model inference speed -->
-   <td class="rank">1.95</td> <!-- ScandEval rank -->
+   <td class="rank">1.96</td> <!-- ScandEval rank -->
    <td class="de ner">50.35 ± 2.81 / 39.72 ± 2.62</td> <!-- GermEval -->
    <td class="de sent">58.60 ± 2.21 / 71.12 ± 1.12</td> <!-- SB10k -->
    <td class="de la">45.78 ± 1.55 / 70.64 ± 0.61</td> <!-- ScaLA-de -->
@@ -568,7 +568,7 @@ title: German NLU 🇩🇪
    <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">5,876 ± 1,021 / 1,677 ± 546</td> <!-- Model inference speed -->
-   <td class="rank">2.00</td> <!-- ScandEval rank -->
+   <td class="rank">2.01</td> <!-- ScandEval rank -->
    <td class="de ner">65.01 ± 0.68 / 43.34 ± 2.80</td> <!-- GermEval -->
    <td class="de sent">51.80 ± 1.29 / 67.45 ± 0.87</td> <!-- SB10k -->
    <td class="de la">36.18 ± 1.31 / 67.86 ± 0.51</td> <!-- ScaLA-de -->
@@ -585,7 +585,7 @@ title: German NLU 🇩🇪
    <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,387 ± 456 / 717 ± 226</td> <!-- Model inference speed -->
-   <td class="rank">2.00</td> <!-- ScandEval rank -->
+   <td class="rank">2.01</td> <!-- ScandEval rank -->
    <td class="de ner">64.73 ± 1.02 / 48.09 ± 2.90</td> <!-- GermEval -->
    <td class="de sent">51.08 ± 1.67 / 67.20 ± 1.34</td> <!-- SB10k -->
    <td class="de la">36.46 ± 1.89 / 67.99 ± 0.80</td> <!-- ScaLA-de -->
@@ -891,7 +891,7 @@ title: German NLU 🇩🇪
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">14,083 ± 3,264 / 2,738 ± 889</td> <!-- Model inference speed -->
-   <td class="rank">2.28</td> <!-- ScandEval rank -->
+   <td class="rank">2.29</td> <!-- ScandEval rank -->
    <td class="de ner">79.11 ± 0.83 / 77.83 ± 0.76</td> <!-- GermEval -->
    <td class="de sent">42.97 ± 2.64 / 61.71 ± 1.79</td> <!-- SB10k -->
    <td class="de la">42.66 ± 6.60 / 69.03 ± 3.13</td> <!-- ScaLA-de -->
@@ -908,7 +908,7 @@ title: German NLU 🇩🇪
    <td class="max_sequence_length">130976</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">7,312 ± 1,668 / 1,609 ± 525</td> <!-- Model inference speed -->
-   <td class="rank">2.29</td> <!-- ScandEval rank -->
+   <td class="rank">2.30</td> <!-- ScandEval rank -->
    <td class="de ner">55.36 ± 0.81 / 36.14 ± 1.96</td> <!-- GermEval -->
    <td class="de sent">53.05 ± 2.34 / 65.57 ± 1.92</td> <!-- SB10k -->
    <td class="de la">23.08 ± 1.54 / 58.65 ± 2.04</td> <!-- ScaLA-de -->
@@ -925,7 +925,7 @@ title: German NLU 🇩🇪
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">4,120 ± 976 / 926 ± 306</td> <!-- Model inference speed -->
-   <td class="rank">2.29</td> <!-- ScandEval rank -->
+   <td class="rank">2.30</td> <!-- ScandEval rank -->
    <td class="de ner">55.41 ± 1.45 / 48.39 ± 1.46</td> <!-- GermEval -->
    <td class="de sent">52.58 ± 2.42 / 67.52 ± 1.82</td> <!-- SB10k -->
    <td class="de la">24.10 ± 2.12 / 59.47 ± 2.92</td> <!-- ScaLA-de -->
@@ -1021,23 +1021,6 @@ title: German NLU 🇩🇪
    <td>12.11.0</td> <!-- GermanQuAD version -->
    </tr>
   <tr class="not-merged-model">
-   <td>occiglot/occiglot-7b-de-en (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">1,992 ± 319 / 706 ± 211</td> <!-- Model inference speed -->
-   <td class="rank">2.38</td> <!-- ScandEval rank -->
-   <td class="de ner">48.11 ± 2.01 / 39.66 ± 3.29</td> <!-- GermEval -->
-   <td class="de sent">54.96 ± 2.69 / 69.64 ± 2.09</td> <!-- SB10k -->
-   <td class="de la">21.57 ± 4.18 / 55.63 ± 4.56</td> <!-- ScaLA-de -->
-   <td class="de rc">31.49 ± 3.11 / 61.33 ± 3.41</td> <!-- GermanQuAD -->
-   <td>12.3.2</td> <!-- GermEval version -->
-   <td>12.3.1</td> <!-- SB10k version -->
-   <td>12.3.1</td> <!-- ScaLA-de version -->
-   <td>12.3.1</td> <!-- GermanQuAD version -->
-   </tr>
-  <tr class="not-merged-model">
    <td>occiglot/occiglot-7b-eu5-instruct (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -1053,6 +1036,23 @@ title: German NLU 🇩🇪
    <td>12.2.0</td> <!-- SB10k version -->
    <td>12.3.1</td> <!-- ScaLA-de version -->
    <td>12.4.0</td> <!-- GermanQuAD version -->
+   </tr>
+  <tr class="not-merged-model">
+   <td>occiglot/occiglot-7b-de-en (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">1,992 ± 319 / 706 ± 211</td> <!-- Model inference speed -->
+   <td class="rank">2.39</td> <!-- ScandEval rank -->
+   <td class="de ner">48.11 ± 2.01 / 39.66 ± 3.29</td> <!-- GermEval -->
+   <td class="de sent">54.96 ± 2.69 / 69.64 ± 2.09</td> <!-- SB10k -->
+   <td class="de la">21.57 ± 4.18 / 55.63 ± 4.56</td> <!-- ScaLA-de -->
+   <td class="de rc">31.49 ± 3.11 / 61.33 ± 3.41</td> <!-- GermanQuAD -->
+   <td>12.3.2</td> <!-- GermEval version -->
+   <td>12.3.1</td> <!-- SB10k version -->
+   <td>12.3.1</td> <!-- ScaLA-de version -->
+   <td>12.3.1</td> <!-- GermanQuAD version -->
    </tr>
   <tr class="not-merged-model">
    <td>Twitter/twhin-bert-base</td> <!-- Model ID -->
@@ -1078,7 +1078,7 @@ title: German NLU 🇩🇪
    <td class="max_sequence_length">8221</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">1,410 ± 299 / 370 ± 127</td> <!-- Model inference speed -->
-   <td class="rank">2.41</td> <!-- ScandEval rank -->
+   <td class="rank">2.42</td> <!-- ScandEval rank -->
    <td class="de ner">41.41 ± 2.64 / 26.93 ± 1.92</td> <!-- GermEval -->
    <td class="de sent">52.78 ± 4.59 / 66.87 ± 4.26</td> <!-- SB10k -->
    <td class="de la">27.75 ± 1.14 / 63.54 ± 0.69</td> <!-- ScaLA-de -->
@@ -1157,23 +1157,6 @@ title: German NLU 🇩🇪
    <td>12.10.5</td> <!-- GermanQuAD version -->
    </tr>
   <tr class="not-merged-model">
-   <td>timpal0l/Mistral-7B-v0.1-flashback-v2 (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">5,054 ± 1,200 / 1,056 ± 339</td> <!-- Model inference speed -->
-   <td class="rank">2.45</td> <!-- ScandEval rank -->
-   <td class="de ner">50.66 ± 1.53 / 39.89 ± 2.43</td> <!-- GermEval -->
-   <td class="de sent">54.79 ± 3.53 / 68.79 ± 3.00</td> <!-- SB10k -->
-   <td class="de la">20.17 ± 1.69 / 58.67 ± 1.13</td> <!-- ScaLA-de -->
-   <td class="de rc">27.86 ± 4.70 / 54.38 ± 5.91</td> <!-- GermanQuAD -->
-   <td>12.5.3</td> <!-- GermEval version -->
-   <td>12.5.3</td> <!-- SB10k version -->
-   <td>12.5.3</td> <!-- ScaLA-de version -->
-   <td>12.5.3</td> <!-- GermanQuAD version -->
-   </tr>
-  <tr class="not-merged-model">
    <td>Twitter/twhin-bert-large</td> <!-- Model ID -->
    <td class="num_model_parameters">562</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
@@ -1225,13 +1208,30 @@ title: German NLU 🇩🇪
    <td>12.7.0</td> <!-- GermanQuAD version -->
    </tr>
   <tr class="not-merged-model">
+   <td>timpal0l/Mistral-7B-v0.1-flashback-v2 (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">5,054 ± 1,200 / 1,056 ± 339</td> <!-- Model inference speed -->
+   <td class="rank">2.46</td> <!-- ScandEval rank -->
+   <td class="de ner">50.66 ± 1.53 / 39.89 ± 2.43</td> <!-- GermEval -->
+   <td class="de sent">54.79 ± 3.53 / 68.79 ± 3.00</td> <!-- SB10k -->
+   <td class="de la">20.17 ± 1.69 / 58.67 ± 1.13</td> <!-- ScaLA-de -->
+   <td class="de rc">27.86 ± 4.70 / 54.38 ± 5.91</td> <!-- GermanQuAD -->
+   <td>12.5.3</td> <!-- GermEval version -->
+   <td>12.5.3</td> <!-- SB10k version -->
+   <td>12.5.3</td> <!-- ScaLA-de version -->
+   <td>12.5.3</td> <!-- GermanQuAD version -->
+   </tr>
+  <tr class="not-merged-model">
    <td>RuterNorway/Llama-2-13b-chat-norwegian (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">4125</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">3,254 ± 1,068 / 484 ± 173</td> <!-- Model inference speed -->
-   <td class="rank">2.49</td> <!-- ScandEval rank -->
+   <td class="rank">2.50</td> <!-- ScandEval rank -->
    <td class="de ner">57.02 ± 1.39 / 47.95 ± 2.09</td> <!-- GermEval -->
    <td class="de sent">49.75 ± 2.02 / 62.41 ± 3.30</td> <!-- SB10k -->
    <td class="de la">19.80 ± 3.22 / 52.76 ± 5.45</td> <!-- ScaLA-de -->
@@ -1293,23 +1293,6 @@ title: German NLU 🇩🇪
    <td>12.8.0</td> <!-- GermanQuAD version -->
    </tr>
   <tr class="not-merged-model">
-   <td>Geotrend/distilbert-base-25lang-cased</td> <!-- Model ID -->
-   <td class="num_model_parameters">109</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">85</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">26,099 ± 5,881 / 5,178 ± 1,665</td> <!-- Model inference speed -->
-   <td class="rank">2.63</td> <!-- ScandEval rank -->
-   <td class="de ner">72.97 ± 0.68 / 71.83 ± 0.80</td> <!-- GermEval -->
-   <td class="de sent">41.51 ± 1.91 / 60.79 ± 1.27</td> <!-- SB10k -->
-   <td class="de la">45.39 ± 1.52 / 71.60 ± 0.73</td> <!-- ScaLA-de -->
-   <td class="de rc">1.89 ± 0.52 / 6.88 ± 1.73</td> <!-- GermanQuAD -->
-   <td>12.6.1</td> <!-- GermEval version -->
-   <td>12.6.1</td> <!-- SB10k version -->
-   <td>12.6.1</td> <!-- ScaLA-de version -->
-   <td>12.6.1</td> <!-- GermanQuAD version -->
-   </tr>
-  <tr class="not-merged-model">
    <td>mistralai/Mistral-7B-Instruct-v0.1 (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -1342,6 +1325,23 @@ title: German NLU 🇩🇪
    <td>13.0.0</td> <!-- SB10k version -->
    <td>13.0.0</td> <!-- ScaLA-de version -->
    <td>13.0.0</td> <!-- GermanQuAD version -->
+   </tr>
+  <tr class="not-merged-model">
+   <td>Geotrend/distilbert-base-25lang-cased</td> <!-- Model ID -->
+   <td class="num_model_parameters">109</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">85</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">26,099 ± 5,881 / 5,178 ± 1,665</td> <!-- Model inference speed -->
+   <td class="rank">2.64</td> <!-- ScandEval rank -->
+   <td class="de ner">72.97 ± 0.68 / 71.83 ± 0.80</td> <!-- GermEval -->
+   <td class="de sent">41.51 ± 1.91 / 60.79 ± 1.27</td> <!-- SB10k -->
+   <td class="de la">45.39 ± 1.52 / 71.60 ± 0.73</td> <!-- ScaLA-de -->
+   <td class="de rc">1.89 ± 0.52 / 6.88 ± 1.73</td> <!-- GermanQuAD -->
+   <td>12.6.1</td> <!-- GermEval version -->
+   <td>12.6.1</td> <!-- SB10k version -->
+   <td>12.6.1</td> <!-- ScaLA-de version -->
+   <td>12.6.1</td> <!-- GermanQuAD version -->
    </tr>
   <tr class="not-merged-model">
    <td>DiscoResearch/DiscoLM_German_7b_v1 (few-shot)</td> <!-- Model ID -->
@@ -1378,6 +1378,23 @@ title: German NLU 🇩🇪
    <td>12.4.0</td> <!-- GermanQuAD version -->
    </tr>
   <tr class="not-merged-model">
+   <td>TrustLLMeu/baseline-7-8b_1t-tokens_llama (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">7800</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">100</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">6,197 ± 1,118 / 1,730 ± 577</td> <!-- Model inference speed -->
+   <td class="rank">2.66</td> <!-- ScandEval rank -->
+   <td class="de ner">39.21 ± 2.29 / 36.08 ± 2.06</td> <!-- GermEval -->
+   <td class="de sent">58.36 ± 1.80 / 71.98 ± 1.17</td> <!-- SB10k -->
+   <td class="de la">7.03 ± 3.09 / 50.18 ± 3.74</td> <!-- ScaLA-de -->
+   <td class="de rc">27.02 ± 3.09 / 51.94 ± 4.17</td> <!-- GermanQuAD -->
+   <td>13.0.0</td> <!-- GermEval version -->
+   <td>13.0.0</td> <!-- SB10k version -->
+   <td>13.0.0</td> <!-- ScaLA-de version -->
+   <td>13.0.0</td> <!-- GermanQuAD version -->
+   </tr>
+  <tr class="not-merged-model">
    <td>meta-llama/Llama-3.2-3B (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">3213</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">128</td> <!-- Size of the model's vocabulary -->
@@ -1401,7 +1418,7 @@ title: German NLU 🇩🇪
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">15,040 ± 2,953 / 3,417 ± 1,100</td> <!-- Model inference speed -->
-   <td class="rank">2.67</td> <!-- ScandEval rank -->
+   <td class="rank">2.68</td> <!-- ScandEval rank -->
    <td class="de ner">67.47 ± 1.09 / 66.34 ± 1.08</td> <!-- GermEval -->
    <td class="de sent">52.85 ± 1.53 / 68.48 ± 1.02</td> <!-- SB10k -->
    <td class="de la">29.59 ± 6.40 / 60.98 ± 2.57</td> <!-- ScaLA-de -->
@@ -1410,23 +1427,6 @@ title: German NLU 🇩🇪
    <td>12.8.0</td> <!-- SB10k version -->
    <td>12.8.0</td> <!-- ScaLA-de version -->
    <td>0.0.0</td> <!-- GermanQuAD version -->
-   </tr>
-  <tr class="not-merged-model">
-   <td>sentence-transformers/paraphrase-xlm-r-multilingual-v1</td> <!-- Model ID -->
-   <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">20,154 ± 4,438 / 3,890 ± 1,256</td> <!-- Model inference speed -->
-   <td class="rank">2.70</td> <!-- ScandEval rank -->
-   <td class="de ner">69.45 ± 0.82 / 68.02 ± 0.87</td> <!-- GermEval -->
-   <td class="de sent">57.94 ± 2.12 / 71.92 ± 1.45</td> <!-- SB10k -->
-   <td class="de la">21.81 ± 12.05 / 58.13 ± 4.73</td> <!-- ScaLA-de -->
-   <td class="de rc">0.33 ± 0.15 / 3.03 ± 1.06</td> <!-- GermanQuAD -->
-   <td>12.8.0</td> <!-- GermEval version -->
-   <td>12.8.0</td> <!-- SB10k version -->
-   <td>12.8.0</td> <!-- ScaLA-de version -->
-   <td>12.8.0</td> <!-- GermanQuAD version -->
    </tr>
   <tr class="not-merged-model">
    <td>google/gemma-2-2b-it (few-shot)</td> <!-- Model ID -->
@@ -1461,6 +1461,23 @@ title: German NLU 🇩🇪
    <td>12.9.0</td> <!-- SB10k version -->
    <td>12.10.0</td> <!-- ScaLA-de version -->
    <td>12.10.0</td> <!-- GermanQuAD version -->
+   </tr>
+  <tr class="not-merged-model">
+   <td>sentence-transformers/paraphrase-xlm-r-multilingual-v1</td> <!-- Model ID -->
+   <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">20,154 ± 4,438 / 3,890 ± 1,256</td> <!-- Model inference speed -->
+   <td class="rank">2.71</td> <!-- ScandEval rank -->
+   <td class="de ner">69.45 ± 0.82 / 68.02 ± 0.87</td> <!-- GermEval -->
+   <td class="de sent">57.94 ± 2.12 / 71.92 ± 1.45</td> <!-- SB10k -->
+   <td class="de la">21.81 ± 12.05 / 58.13 ± 4.73</td> <!-- ScaLA-de -->
+   <td class="de rc">0.33 ± 0.15 / 3.03 ± 1.06</td> <!-- GermanQuAD -->
+   <td>12.8.0</td> <!-- GermEval version -->
+   <td>12.8.0</td> <!-- SB10k version -->
+   <td>12.8.0</td> <!-- ScaLA-de version -->
+   <td>12.8.0</td> <!-- GermanQuAD version -->
    </tr>
   <tr class="not-merged-model">
    <td>meta-llama/Llama-3.2-3B-Instruct (few-shot)</td> <!-- Model ID -->
@@ -1531,23 +1548,6 @@ title: German NLU 🇩🇪
    <td>12.10.0</td> <!-- GermanQuAD version -->
    </tr>
   <tr class="not-merged-model">
-   <td>Qwen/Qwen1.5-4B-Chat (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">3950</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">152</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">4,347 ± 893 / 1,135 ± 365</td> <!-- Model inference speed -->
-   <td class="rank">2.81</td> <!-- ScandEval rank -->
-   <td class="de ner">42.08 ± 1.65 / 36.90 ± 2.00</td> <!-- GermEval -->
-   <td class="de sent">41.52 ± 3.53 / 57.69 ± 3.35</td> <!-- SB10k -->
-   <td class="de la">12.78 ± 3.75 / 46.43 ± 5.48</td> <!-- ScaLA-de -->
-   <td class="de rc">29.35 ± 2.51 / 59.90 ± 2.80</td> <!-- GermanQuAD -->
-   <td>12.5.2</td> <!-- GermEval version -->
-   <td>10.0.1</td> <!-- SB10k version -->
-   <td>12.1.0</td> <!-- ScaLA-de version -->
-   <td>12.5.2</td> <!-- GermanQuAD version -->
-   </tr>
-  <tr class="not-merged-model">
    <td>DiscoResearch/Llama3-German-8B (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">8030</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">128</td> <!-- Size of the model's vocabulary -->
@@ -1565,13 +1565,30 @@ title: German NLU 🇩🇪
    <td>13.0.0</td> <!-- GermanQuAD version -->
    </tr>
   <tr class="not-merged-model">
+   <td>Qwen/Qwen1.5-4B-Chat (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">3950</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">152</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">4,347 ± 893 / 1,135 ± 365</td> <!-- Model inference speed -->
+   <td class="rank">2.82</td> <!-- ScandEval rank -->
+   <td class="de ner">42.08 ± 1.65 / 36.90 ± 2.00</td> <!-- GermEval -->
+   <td class="de sent">41.52 ± 3.53 / 57.69 ± 3.35</td> <!-- SB10k -->
+   <td class="de la">12.78 ± 3.75 / 46.43 ± 5.48</td> <!-- ScaLA-de -->
+   <td class="de rc">29.35 ± 2.51 / 59.90 ± 2.80</td> <!-- GermanQuAD -->
+   <td>12.5.2</td> <!-- GermEval version -->
+   <td>10.0.1</td> <!-- SB10k version -->
+   <td>12.1.0</td> <!-- ScaLA-de version -->
+   <td>12.5.2</td> <!-- GermanQuAD version -->
+   </tr>
+  <tr class="not-merged-model">
    <td>AI-Sweden-Models/roberta-large-1350k</td> <!-- Model ID -->
    <td class="num_model_parameters">354</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">5,744 ± 969 / 1,539 ± 492</td> <!-- Model inference speed -->
-   <td class="rank">2.83</td> <!-- ScandEval rank -->
+   <td class="rank">2.84</td> <!-- ScandEval rank -->
    <td class="de ner">67.24 ± 1.51 / 66.01 ± 1.32</td> <!-- GermEval -->
    <td class="de sent">45.84 ± 2.11 / 63.35 ± 1.48</td> <!-- SB10k -->
    <td class="de la">2.28 ± 1.62 / 35.18 ± 2.11</td> <!-- ScaLA-de -->
@@ -1588,7 +1605,7 @@ title: German NLU 🇩🇪
    <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">3,371 ± 876 / 561 ± 184</td> <!-- Model inference speed -->
-   <td class="rank">2.85</td> <!-- ScandEval rank -->
+   <td class="rank">2.86</td> <!-- ScandEval rank -->
    <td class="de ner">39.41 ± 2.30 / 36.17 ± 2.32</td> <!-- GermEval -->
    <td class="de sent">49.42 ± 4.33 / 61.57 ± 5.43</td> <!-- SB10k -->
    <td class="de la">6.02 ± 2.53 / 46.41 ± 4.35</td> <!-- ScaLA-de -->
@@ -1605,7 +1622,7 @@ title: German NLU 🇩🇪
    <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">7,259 ± 2,120 / 1,240 ± 432</td> <!-- Model inference speed -->
-   <td class="rank">2.98</td> <!-- ScandEval rank -->
+   <td class="rank">2.99</td> <!-- ScandEval rank -->
    <td class="de ner">34.81 ± 2.51 / 30.33 ± 2.95</td> <!-- GermEval -->
    <td class="de sent">51.01 ± 2.18 / 65.35 ± 2.23</td> <!-- SB10k -->
    <td class="de la">0.00 ± 0.00 / 33.34 ± 0.31</td> <!-- ScaLA-de -->
@@ -1622,7 +1639,7 @@ title: German NLU 🇩🇪
    <td class="max_sequence_length">8224</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">5,235 ± 1,226 / 1,154 ± 366</td> <!-- Model inference speed -->
-   <td class="rank">3.02</td> <!-- ScandEval rank -->
+   <td class="rank">3.03</td> <!-- ScandEval rank -->
    <td class="de ner">19.69 ± 4.71 / 19.53 ± 3.13</td> <!-- GermEval -->
    <td class="de sent">50.36 ± 2.83 / 60.36 ± 3.45</td> <!-- SB10k -->
    <td class="de la">9.07 ± 2.41 / 44.45 ± 4.37</td> <!-- ScaLA-de -->
@@ -1673,7 +1690,7 @@ title: German NLU 🇩🇪
    <td class="max_sequence_length">8221</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">1,792 ± 249 / 668 ± 203</td> <!-- Model inference speed -->
-   <td class="rank">3.05</td> <!-- ScandEval rank -->
+   <td class="rank">3.06</td> <!-- ScandEval rank -->
    <td class="de ner">54.20 ± 1.00 / 48.58 ± 1.53</td> <!-- GermEval -->
    <td class="de sent">15.43 ± 3.70 / 43.11 ± 2.77</td> <!-- SB10k -->
    <td class="de la">17.49 ± 1.23 / 57.46 ± 1.12</td> <!-- ScaLA-de -->
@@ -1707,7 +1724,7 @@ title: German NLU 🇩🇪
    <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,732 ± 868 / 662 ± 238</td> <!-- Model inference speed -->
-   <td class="rank">3.12</td> <!-- ScandEval rank -->
+   <td class="rank">3.13</td> <!-- ScandEval rank -->
    <td class="de ner">49.38 ± 2.20 / 42.66 ± 3.24</td> <!-- GermEval -->
    <td class="de sent">41.72 ± 4.07 / 60.45 ± 3.07</td> <!-- SB10k -->
    <td class="de la">7.67 ± 1.52 / 46.66 ± 3.23</td> <!-- ScaLA-de -->
@@ -1741,7 +1758,7 @@ title: German NLU 🇩🇪
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">29,201 ± 6,282 / 6,045 ± 2,027</td> <!-- Model inference speed -->
-   <td class="rank">3.15</td> <!-- ScandEval rank -->
+   <td class="rank">3.16</td> <!-- ScandEval rank -->
    <td class="de ner">60.54 ± 1.96 / 59.68 ± 1.94</td> <!-- GermEval -->
    <td class="de sent">54.99 ± 2.05 / 70.00 ± 1.37</td> <!-- SB10k -->
    <td class="de la">0.52 ± 2.01 / 49.40 ± 1.06</td> <!-- ScaLA-de -->
@@ -1769,23 +1786,6 @@ title: German NLU 🇩🇪
    <td>12.10.1</td> <!-- GermanQuAD version -->
    </tr>
   <tr class="not-merged-model">
-   <td>meta-llama/Llama-3.2-1B-Instruct (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">1236</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">128</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">131104</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">7,436 ± 1,846 / 1,508 ± 479</td> <!-- Model inference speed -->
-   <td class="rank">3.18</td> <!-- ScandEval rank -->
-   <td class="de ner">42.51 ± 1.31 / 37.05 ± 1.59</td> <!-- GermEval -->
-   <td class="de sent">38.26 ± 2.34 / 55.52 ± 2.66</td> <!-- SB10k -->
-   <td class="de la">5.48 ± 1.36 / 48.23 ± 2.44</td> <!-- ScaLA-de -->
-   <td class="de rc">19.43 ± 3.10 / 41.82 ± 3.29</td> <!-- GermanQuAD -->
-   <td>13.0.0</td> <!-- GermEval version -->
-   <td>13.0.0</td> <!-- SB10k version -->
-   <td>13.0.0</td> <!-- ScaLA-de version -->
-   <td>13.0.0</td> <!-- GermanQuAD version -->
-   </tr>
-  <tr class="not-merged-model">
    <td>01-ai/Yi-6B (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">6061</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
@@ -1801,6 +1801,23 @@ title: German NLU 🇩🇪
    <td>12.10.0</td> <!-- SB10k version -->
    <td>12.10.0</td> <!-- ScaLA-de version -->
    <td>12.10.0</td> <!-- GermanQuAD version -->
+   </tr>
+  <tr class="not-merged-model">
+   <td>meta-llama/Llama-3.2-1B-Instruct (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">1236</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">128</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">131104</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">7,436 ± 1,846 / 1,508 ± 479</td> <!-- Model inference speed -->
+   <td class="rank">3.19</td> <!-- ScandEval rank -->
+   <td class="de ner">42.51 ± 1.31 / 37.05 ± 1.59</td> <!-- GermEval -->
+   <td class="de sent">38.26 ± 2.34 / 55.52 ± 2.66</td> <!-- SB10k -->
+   <td class="de la">5.48 ± 1.36 / 48.23 ± 2.44</td> <!-- ScaLA-de -->
+   <td class="de rc">19.43 ± 3.10 / 41.82 ± 3.29</td> <!-- GermanQuAD -->
+   <td>13.0.0</td> <!-- GermEval version -->
+   <td>13.0.0</td> <!-- SB10k version -->
+   <td>13.0.0</td> <!-- ScaLA-de version -->
+   <td>13.0.0</td> <!-- GermanQuAD version -->
    </tr>
   <tr class="not-merged-model">
    <td>sentence-transformers/quora-distilbert-multilingual</td> <!-- Model ID -->
@@ -1826,7 +1843,7 @@ title: German NLU 🇩🇪
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">33,753 ± 8,349 / 5,937 ± 1,946</td> <!-- Model inference speed -->
-   <td class="rank">3.22</td> <!-- ScandEval rank -->
+   <td class="rank">3.23</td> <!-- ScandEval rank -->
    <td class="de ner">63.78 ± 0.75 / 62.34 ± 0.64</td> <!-- GermEval -->
    <td class="de sent">49.69 ± 1.56 / 66.32 ± 1.07</td> <!-- SB10k -->
    <td class="de la">0.74 ± 0.83 / 48.97 ± 0.85</td> <!-- ScaLA-de -->
@@ -1860,7 +1877,7 @@ title: German NLU 🇩🇪
    <td class="max_sequence_length">131104</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">7,577 ± 1,884 / 1,555 ± 492</td> <!-- Model inference speed -->
-   <td class="rank">3.34</td> <!-- ScandEval rank -->
+   <td class="rank">3.35</td> <!-- ScandEval rank -->
    <td class="de ner">24.79 ± 6.48 / 22.92 ± 5.74</td> <!-- GermEval -->
    <td class="de sent">47.65 ± 2.85 / 63.11 ± 2.17</td> <!-- SB10k -->
    <td class="de la">2.39 ± 1.46 / 39.92 ± 4.38</td> <!-- ScaLA-de -->
@@ -1877,7 +1894,7 @@ title: German NLU 🇩🇪
    <td class="max_sequence_length">4128</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">840 ± 79 / 400 ± 124</td> <!-- Model inference speed -->
-   <td class="rank">3.36</td> <!-- ScandEval rank -->
+   <td class="rank">3.37</td> <!-- ScandEval rank -->
    <td class="de ner">34.53 ± 1.24 / 29.89 ± 1.96</td> <!-- GermEval -->
    <td class="de sent">42.90 ± 2.66 / 56.64 ± 4.71</td> <!-- SB10k -->
    <td class="de la">1.51 ± 1.64 / 43.36 ± 4.05</td> <!-- ScaLA-de -->
@@ -2047,7 +2064,7 @@ title: German NLU 🇩🇪
    <td class="max_sequence_length">2077</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">1,875 ± 673 / 261 ± 91</td> <!-- Model inference speed -->
-   <td class="rank">3.51</td> <!-- ScandEval rank -->
+   <td class="rank">3.52</td> <!-- ScandEval rank -->
    <td class="de ner">36.17 ± 2.52 / 27.29 ± 1.74</td> <!-- GermEval -->
    <td class="de sent">34.17 ± 7.08 / 46.97 ± 8.28</td> <!-- SB10k -->
    <td class="de la">2.21 ± 1.64 / 38.29 ± 3.56</td> <!-- ScaLA-de -->
@@ -2056,23 +2073,6 @@ title: German NLU 🇩🇪
    <td>12.9.0</td> <!-- SB10k version -->
    <td>12.9.0</td> <!-- ScaLA-de version -->
    <td>12.9.0</td> <!-- GermanQuAD version -->
-   </tr>
-  <tr class="not-merged-model">
-   <td>RuterNorway/Llama-2-7b-chat-norwegian (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">6738</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">10,890 ± 2,686 / 2,186 ± 750</td> <!-- Model inference speed -->
-   <td class="rank">3.54</td> <!-- ScandEval rank -->
-   <td class="de ner">27.22 ± 1.38 / 24.48 ± 1.76</td> <!-- GermEval -->
-   <td class="de sent">33.61 ± 5.06 / 49.68 ± 5.74</td> <!-- SB10k -->
-   <td class="de la">0.45 ± 0.91 / 35.24 ± 3.71</td> <!-- ScaLA-de -->
-   <td class="de rc">20.44 ± 3.29 / 45.50 ± 3.33</td> <!-- GermanQuAD -->
-   <td>9.3.1</td> <!-- GermEval version -->
-   <td>12.10.0</td> <!-- SB10k version -->
-   <td>9.3.1</td> <!-- ScaLA-de version -->
-   <td>12.5.2</td> <!-- GermanQuAD version -->
    </tr>
   <tr class="not-merged-model">
    <td>sentence-transformers/distiluse-base-multilingual-cased-v1</td> <!-- Model ID -->
@@ -2092,13 +2092,30 @@ title: German NLU 🇩🇪
    <td>12.8.0</td> <!-- GermanQuAD version -->
    </tr>
   <tr class="not-merged-model">
+   <td>RuterNorway/Llama-2-7b-chat-norwegian (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">6738</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">10,890 ± 2,686 / 2,186 ± 750</td> <!-- Model inference speed -->
+   <td class="rank">3.55</td> <!-- ScandEval rank -->
+   <td class="de ner">27.22 ± 1.38 / 24.48 ± 1.76</td> <!-- GermEval -->
+   <td class="de sent">33.61 ± 5.06 / 49.68 ± 5.74</td> <!-- SB10k -->
+   <td class="de la">0.45 ± 0.91 / 35.24 ± 3.71</td> <!-- ScaLA-de -->
+   <td class="de rc">20.44 ± 3.29 / 45.50 ± 3.33</td> <!-- GermanQuAD -->
+   <td>9.3.1</td> <!-- GermEval version -->
+   <td>12.10.0</td> <!-- SB10k version -->
+   <td>9.3.1</td> <!-- ScaLA-de version -->
+   <td>12.5.2</td> <!-- GermanQuAD version -->
+   </tr>
+  <tr class="not-merged-model">
    <td>DiscoResearch/DiscoLM-70b (few-shot, val)</td> <!-- Model ID -->
    <td class="num_model_parameters">68977</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">8221</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">291 ± 23 / 163 ± 39</td> <!-- Model inference speed -->
-   <td class="rank">3.62</td> <!-- ScandEval rank -->
+   <td class="rank">3.63</td> <!-- ScandEval rank -->
    <td class="de ner">62.16 ± 2.83 / 48.46 ± 3.31</td> <!-- GermEval -->
    <td class="de sent">27.56 ± 3.62 / 47.04 ± 4.06</td> <!-- SB10k -->
    <td class="de la">0.59 ± 1.16 / 32.41 ± 0.74</td> <!-- ScaLA-de -->
@@ -2132,7 +2149,7 @@ title: German NLU 🇩🇪
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">5,666 ± 1,328 / 1,256 ± 408</td> <!-- Model inference speed -->
-   <td class="rank">3.70</td> <!-- ScandEval rank -->
+   <td class="rank">3.71</td> <!-- ScandEval rank -->
    <td class="de ner">9.23 ± 4.86 / 10.43 ± 3.83</td> <!-- GermEval -->
    <td class="de sent">38.30 ± 2.90 / 56.94 ± 2.83</td> <!-- SB10k -->
    <td class="de la">0.39 ± 1.17 / 33.47 ± 0.34</td> <!-- ScaLA-de -->
@@ -2141,23 +2158,6 @@ title: German NLU 🇩🇪
    <td>10.0.1</td> <!-- SB10k version -->
    <td>12.1.0</td> <!-- ScaLA-de version -->
    <td>12.1.0</td> <!-- GermanQuAD version -->
-   </tr>
-  <tr class="not-merged-model">
-   <td>seedboxai/KafkaLM-70B-German-V0.1 (few-shot, val)</td> <!-- Model ID -->
-   <td class="num_model_parameters">68977</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">4125</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">294 ± 21 / 168 ± 42</td> <!-- Model inference speed -->
-   <td class="rank">3.80</td> <!-- ScandEval rank -->
-   <td class="de ner">59.23 ± 2.95 / 52.06 ± 3.03</td> <!-- GermEval -->
-   <td class="de sent">-5.01 ± 4.03 / 18.00 ± 0.71</td> <!-- SB10k -->
-   <td class="de la">3.19 ± 4.99 / 37.63 ± 3.16</td> <!-- ScaLA-de -->
-   <td class="de rc">19.84 ± 2.17 / 56.60 ± 3.00</td> <!-- GermanQuAD -->
-   <td>12.10.0</td> <!-- GermEval version -->
-   <td>12.10.0</td> <!-- SB10k version -->
-   <td>12.10.0</td> <!-- ScaLA-de version -->
-   <td>12.10.0</td> <!-- GermanQuAD version -->
    </tr>
   <tr class="not-merged-model">
    <td>dbmdz/bert-mini-historic-multilingual-cased</td> <!-- Model ID -->
@@ -2177,13 +2177,30 @@ title: German NLU 🇩🇪
    <td>12.10.0</td> <!-- GermanQuAD version -->
    </tr>
   <tr class="not-merged-model">
+   <td>seedboxai/KafkaLM-70B-German-V0.1 (few-shot, val)</td> <!-- Model ID -->
+   <td class="num_model_parameters">68977</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">4125</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">294 ± 21 / 168 ± 42</td> <!-- Model inference speed -->
+   <td class="rank">3.81</td> <!-- ScandEval rank -->
+   <td class="de ner">59.23 ± 2.95 / 52.06 ± 3.03</td> <!-- GermEval -->
+   <td class="de sent">-5.01 ± 4.03 / 18.00 ± 0.71</td> <!-- SB10k -->
+   <td class="de la">3.19 ± 4.99 / 37.63 ± 3.16</td> <!-- ScaLA-de -->
+   <td class="de rc">19.84 ± 2.17 / 56.60 ± 3.00</td> <!-- GermanQuAD -->
+   <td>12.10.0</td> <!-- GermEval version -->
+   <td>12.10.0</td> <!-- SB10k version -->
+   <td>12.10.0</td> <!-- ScaLA-de version -->
+   <td>12.10.0</td> <!-- GermanQuAD version -->
+   </tr>
+  <tr class="not-merged-model">
    <td>dbmdz/bert-tiny-historic-multilingual-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">5</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">78,027 ± 15,466 / 17,064 ± 5,335</td> <!-- Model inference speed -->
-   <td class="rank">3.87</td> <!-- ScandEval rank -->
+   <td class="rank">3.88</td> <!-- ScandEval rank -->
    <td class="de ner">33.18 ± 2.13 / 32.48 ± 2.13</td> <!-- GermEval -->
    <td class="de sent">33.61 ± 2.23 / 55.01 ± 2.11</td> <!-- SB10k -->
    <td class="de la">1.83 ± 1.54 / 49.40 ± 1.24</td> <!-- ScaLA-de -->
@@ -2234,7 +2251,7 @@ title: German NLU 🇩🇪
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">11,740 ± 3,000 / 2,209 ± 721</td> <!-- Model inference speed -->
-   <td class="rank">4.10</td> <!-- ScandEval rank -->
+   <td class="rank">4.11</td> <!-- ScandEval rank -->
    <td class="de ner">24.67 ± 0.99 / 23.98 ± 0.73</td> <!-- GermEval -->
    <td class="de sent">9.31 ± 2.97 / 21.50 ± 2.70</td> <!-- SB10k -->
    <td class="de la">1.11 ± 1.69 / 37.88 ± 4.05</td> <!-- ScaLA-de -->
@@ -2285,7 +2302,7 @@ title: German NLU 🇩🇪
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,214 ± 94 / 1,494 ± 229</td> <!-- Model inference speed -->
-   <td class="rank">4.31</td> <!-- ScandEval rank -->
+   <td class="rank">4.32</td> <!-- ScandEval rank -->
    <td class="de ner">8.03 ± 1.35 / 8.63 ± 1.36</td> <!-- GermEval -->
    <td class="de sent">23.44 ± 7.21 / 42.87 ± 7.78</td> <!-- SB10k -->
    <td class="de la">-0.17 ± 1.13 / 39.21 ± 4.70</td> <!-- ScaLA-de -->
@@ -2319,7 +2336,7 @@ title: German NLU 🇩🇪
    <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">3,024 ± 496 / 909 ± 301</td> <!-- Model inference speed -->
-   <td class="rank">4.75</td> <!-- ScandEval rank -->
+   <td class="rank">4.76</td> <!-- ScandEval rank -->
    <td class="de ner">5.80 ± 1.56 / 5.41 ± 1.56</td> <!-- GermEval -->
    <td class="de sent">4.45 ± 1.73 / 29.26 ± 3.66</td> <!-- SB10k -->
    <td class="de la">-0.48 ± 1.33 / 43.09 ± 3.56</td> <!-- ScaLA-de -->
@@ -2370,6 +2387,6 @@ title: German NLU 🇩🇪
 <div class="end-note">
   <a href="https://scandeval.com/german-nlu-test.csv" target="_blank">Download as CSV</a>
   &nbsp;&nbsp;&bull;&nbsp;&nbsp;
-  <a href="javascript:void(0);" id="embed-link" data-embed="<iframe title=&quot;German NLU&quot; aria-label=&quot;Table&quot; id=&quot;datawrapper-chart-0OIai&quot; src=&quot;https://datawrapper.dwcdn.net/0OIai/1/&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width: 0; min-width: 100% !important; border: none;&quot; height=&quot;400&quot; data-external=&quot;1&quot;></iframe><script type=&quot;text/javascript&quot;>!function(){&quot;use strict&quot;;window.addEventListener(&quot;message&quot;,(function(a){if(void 0!==a.data[&quot;datawrapper-height&quot;]){var e=document.querySelectorAll(&quot;iframe&quot;);for(var t in a.data[&quot;datawrapper-height&quot;])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data[&quot;datawrapper-height&quot;][t]+&quot;px&quot;;e[r].style.height=i}}}))}();
+  <a href="javascript:void(0);" id="embed-link" data-embed="<iframe title=&quot;German NLU&quot; aria-label=&quot;Table&quot; id=&quot;datawrapper-chart-wIuwt&quot; src=&quot;https://datawrapper.dwcdn.net/wIuwt/1/&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width: 0; min-width: 100% !important; border: none;&quot; height=&quot;400&quot; data-external=&quot;1&quot;></iframe><script type=&quot;text/javascript&quot;>!function(){&quot;use strict&quot;;window.addEventListener(&quot;message&quot;,(function(a){if(void 0!==a.data[&quot;datawrapper-height&quot;]){var e=document.querySelectorAll(&quot;iframe&quot;);for(var t in a.data[&quot;datawrapper-height&quot;])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data[&quot;datawrapper-height&quot;][t]+&quot;px&quot;;e[r].style.height=i}}}))}();
 </script>">Copy embed HTML</a>
 </div>
