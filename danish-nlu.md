@@ -3,7 +3,7 @@ layout: leaderboard
 title: Danish NLU 🇩🇰
 ---
 
-<center>Last updated: 16/10/2024 16:57:50 CET</center>
+<center>Last updated: 22/10/2024 10:20:27 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -86,23 +86,6 @@ title: Danish NLU 🇩🇰
    <td>12.10.0</td> <!-- ScandiQA-da version -->
    </tr>
   <tr class="not-merged-model">
-   <td>AI-Sweden-Models/roberta-large-1160k</td> <!-- Model ID -->
-   <td class="num_model_parameters">355</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">14,014 ± 2,384 / 3,625 ± 1,146</td> <!-- Model inference speed -->
-   <td class="rank">1.39</td> <!-- ScandEval rank -->
-   <td class="da ner">74.16 ± 1.73 / 70.93 ± 1.67</td> <!-- DANSK -->
-   <td class="da sent">51.20 ± 1.67 / 66.62 ± 1.58</td> <!-- Angry Tweets -->
-   <td class="da la">73.87 ± 2.13 / 86.61 ± 1.17</td> <!-- ScaLA-da -->
-   <td class="da rc">49.34 ± 1.14 / 55.06 ± 1.21</td> <!-- ScandiQA-da -->
-   <td>10.0.1</td> <!-- DANSK version -->
-   <td>10.0.1</td> <!-- Angry Tweets version -->
-   <td>10.0.1</td> <!-- ScaLA-da version -->
-   <td>10.0.1</td> <!-- ScandiQA-da version -->
-   </tr>
-  <tr class="not-merged-model">
    <td>KennethEnevoldsen/dfm-sentence-encoder-large-1</td> <!-- Model ID -->
    <td class="num_model_parameters">355</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
@@ -135,6 +118,23 @@ title: Danish NLU 🇩🇰
    <td>0.0.0</td> <!-- Angry Tweets version -->
    <td>0.0.0</td> <!-- ScaLA-da version -->
    <td>0.0.0</td> <!-- ScandiQA-da version -->
+   </tr>
+  <tr class="not-merged-model">
+   <td>AI-Sweden-Models/roberta-large-1160k</td> <!-- Model ID -->
+   <td class="num_model_parameters">355</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">14,014 ± 2,384 / 3,625 ± 1,146</td> <!-- Model inference speed -->
+   <td class="rank">1.40</td> <!-- ScandEval rank -->
+   <td class="da ner">74.16 ± 1.73 / 70.93 ± 1.67</td> <!-- DANSK -->
+   <td class="da sent">51.20 ± 1.67 / 66.62 ± 1.58</td> <!-- Angry Tweets -->
+   <td class="da la">73.87 ± 2.13 / 86.61 ± 1.17</td> <!-- ScaLA-da -->
+   <td class="da rc">49.34 ± 1.14 / 55.06 ± 1.21</td> <!-- ScandiQA-da -->
+   <td>10.0.1</td> <!-- DANSK version -->
+   <td>10.0.1</td> <!-- Angry Tweets version -->
+   <td>10.0.1</td> <!-- ScaLA-da version -->
+   <td>10.0.1</td> <!-- ScandiQA-da version -->
    </tr>
   <tr class="not-merged-model">
    <td>danish-foundation-models/encoder-large-v1</td> <!-- Model ID -->
@@ -449,7 +449,7 @@ title: Danish NLU 🇩🇰
    <td class="max_sequence_length">32764</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,126 ± 676 / 319 ± 104</td> <!-- Model inference speed -->
-   <td class="rank">1.79</td> <!-- ScandEval rank -->
+   <td class="rank">1.80</td> <!-- ScandEval rank -->
    <td class="da ner">56.96 ± 2.39 / 45.84 ± 1.75</td> <!-- DANSK -->
    <td class="da sent">55.11 ± 4.11 / 69.60 ± 2.69</td> <!-- Angry Tweets -->
    <td class="da la">42.64 ± 3.22 / 71.04 ± 1.56</td> <!-- ScaLA-da -->
@@ -528,23 +528,6 @@ title: Danish NLU 🇩🇰
    <td>0.0.0</td> <!-- ScandiQA-da version -->
    </tr>
   <tr class="not-merged-model">
-   <td>NbAiLab/nb-sbert-base</td> <!-- Model ID -->
-   <td class="num_model_parameters">178</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">120</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">17,757 ± 3,883 / 3,864 ± 1,237</td> <!-- Model inference speed -->
-   <td class="rank">1.84</td> <!-- ScandEval rank -->
-   <td class="da ner">70.12 ± 1.61 / 65.80 ± 1.43</td> <!-- DANSK -->
-   <td class="da sent">47.83 ± 1.05 / 65.23 ± 0.75</td> <!-- Angry Tweets -->
-   <td class="da la">63.25 ± 2.38 / 80.82 ± 1.42</td> <!-- ScaLA-da -->
-   <td class="da rc">36.51 ± 2.05 / 41.01 ± 2.35</td> <!-- ScandiQA-da -->
-   <td>12.10.5</td> <!-- DANSK version -->
-   <td>12.10.5</td> <!-- Angry Tweets version -->
-   <td>12.10.5</td> <!-- ScaLA-da version -->
-   <td>12.10.5</td> <!-- ScandiQA-da version -->
-   </tr>
-  <tr class="not-merged-model">
    <td>pere/roberta-debug-8</td> <!-- Model ID -->
    <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
@@ -560,6 +543,23 @@ title: Danish NLU 🇩🇰
    <td>0.0.0</td> <!-- Angry Tweets version -->
    <td>0.0.0</td> <!-- ScaLA-da version -->
    <td>0.0.0</td> <!-- ScandiQA-da version -->
+   </tr>
+  <tr class="not-merged-model">
+   <td>NbAiLab/nb-sbert-base</td> <!-- Model ID -->
+   <td class="num_model_parameters">178</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">120</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">17,757 ± 3,883 / 3,864 ± 1,237</td> <!-- Model inference speed -->
+   <td class="rank">1.85</td> <!-- ScandEval rank -->
+   <td class="da ner">70.12 ± 1.61 / 65.80 ± 1.43</td> <!-- DANSK -->
+   <td class="da sent">47.83 ± 1.05 / 65.23 ± 0.75</td> <!-- Angry Tweets -->
+   <td class="da la">63.25 ± 2.38 / 80.82 ± 1.42</td> <!-- ScaLA-da -->
+   <td class="da rc">36.51 ± 2.05 / 41.01 ± 2.35</td> <!-- ScandiQA-da -->
+   <td>12.10.5</td> <!-- DANSK version -->
+   <td>12.10.5</td> <!-- Angry Tweets version -->
+   <td>12.10.5</td> <!-- ScaLA-da version -->
+   <td>12.10.5</td> <!-- ScandiQA-da version -->
    </tr>
   <tr class="not-merged-model">
    <td>pere/roberta-debug-32</td> <!-- Model ID -->
@@ -772,7 +772,7 @@ title: Danish NLU 🇩🇰
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">15,081 ± 2,950 / 3,365 ± 1,092</td> <!-- Model inference speed -->
-   <td class="rank">2.02</td> <!-- ScandEval rank -->
+   <td class="rank">2.03</td> <!-- ScandEval rank -->
    <td class="da ner">71.90 ± 1.08 / 67.25 ± 1.47</td> <!-- DANSK -->
    <td class="da sent">51.33 ± 1.24 / 67.04 ± 1.22</td> <!-- Angry Tweets -->
    <td class="da la">44.45 ± 19.17 / 70.51 ± 10.21</td> <!-- ScaLA-da -->
@@ -1180,7 +1180,7 @@ title: Danish NLU 🇩🇰
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">5,822 ± 1,283 / 1,336 ± 430</td> <!-- Model inference speed -->
-   <td class="rank">2.24</td> <!-- ScandEval rank -->
+   <td class="rank">2.25</td> <!-- ScandEval rank -->
    <td class="da ner">50.80 ± 2.33 / 34.04 ± 1.76</td> <!-- DANSK -->
    <td class="da sent">42.79 ± 2.38 / 54.47 ± 3.04</td> <!-- Angry Tweets -->
    <td class="da la">23.25 ± 3.17 / 56.31 ± 4.02</td> <!-- ScaLA-da -->
@@ -1197,7 +1197,7 @@ title: Danish NLU 🇩🇰
    <td class="max_sequence_length">128000</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">1,171 ± 378 / 120 ± 39</td> <!-- Model inference speed -->
-   <td class="rank">2.24</td> <!-- ScandEval rank -->
+   <td class="rank">2.25</td> <!-- ScandEval rank -->
    <td class="da ner">63.59 ± 2.16 / 42.42 ± 3.34</td> <!-- DANSK -->
    <td class="da sent">29.47 ± 4.78 / 50.59 ± 4.36</td> <!-- Angry Tweets -->
    <td class="da la">38.37 ± 9.13 / 60.56 ± 8.53</td> <!-- ScaLA-da -->
@@ -1276,23 +1276,6 @@ title: Danish NLU 🇩🇰
    <td>12.3.2</td> <!-- ScandiQA-da version -->
    </tr>
   <tr class="not-merged-model">
-   <td>Maltehb/danish-bert-botxo</td> <!-- Model ID -->
-   <td class="num_model_parameters">111</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">16,091 ± 2,427 / 4,575 ± 1,485</td> <!-- Model inference speed -->
-   <td class="rank">2.28</td> <!-- ScandEval rank -->
-   <td class="da ner">66.71 ± 1.80 / 61.55 ± 1.75</td> <!-- DANSK -->
-   <td class="da sent">43.79 ± 1.76 / 62.26 ± 1.35</td> <!-- Angry Tweets -->
-   <td class="da la">45.96 ± 2.91 / 69.62 ± 1.72</td> <!-- ScaLA-da -->
-   <td class="da rc">26.29 ± 2.34 / 32.91 ± 2.60</td> <!-- ScandiQA-da -->
-   <td>0.0.0</td> <!-- DANSK version -->
-   <td>0.0.0</td> <!-- Angry Tweets version -->
-   <td>0.0.0</td> <!-- ScaLA-da version -->
-   <td>0.0.0</td> <!-- ScandiQA-da version -->
-   </tr>
-  <tr class="not-merged-model">
    <td>Geotrend/bert-base-en-fr-de-no-da-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">118</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">42</td> <!-- Size of the model's vocabulary -->
@@ -1304,6 +1287,23 @@ title: Danish NLU 🇩🇰
    <td class="da sent">34.78 ± 1.49 / 55.59 ± 0.92</td> <!-- Angry Tweets -->
    <td class="da la">41.08 ± 7.28 / 69.77 ± 3.75</td> <!-- ScaLA-da -->
    <td class="da rc">40.32 ± 0.81 / 44.89 ± 0.76</td> <!-- ScandiQA-da -->
+   <td>0.0.0</td> <!-- DANSK version -->
+   <td>0.0.0</td> <!-- Angry Tweets version -->
+   <td>0.0.0</td> <!-- ScaLA-da version -->
+   <td>0.0.0</td> <!-- ScandiQA-da version -->
+   </tr>
+  <tr class="not-merged-model">
+   <td>Maltehb/danish-bert-botxo</td> <!-- Model ID -->
+   <td class="num_model_parameters">111</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">16,091 ± 2,427 / 4,575 ± 1,485</td> <!-- Model inference speed -->
+   <td class="rank">2.29</td> <!-- ScandEval rank -->
+   <td class="da ner">66.71 ± 1.80 / 61.55 ± 1.75</td> <!-- DANSK -->
+   <td class="da sent">43.79 ± 1.76 / 62.26 ± 1.35</td> <!-- Angry Tweets -->
+   <td class="da la">45.96 ± 2.91 / 69.62 ± 1.72</td> <!-- ScaLA-da -->
+   <td class="da rc">26.29 ± 2.34 / 32.91 ± 2.60</td> <!-- ScandiQA-da -->
    <td>0.0.0</td> <!-- DANSK version -->
    <td>0.0.0</td> <!-- Angry Tweets version -->
    <td>0.0.0</td> <!-- ScaLA-da version -->
@@ -1469,7 +1469,7 @@ title: Danish NLU 🇩🇰
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">13,993 ± 3,217 / 2,752 ± 893</td> <!-- Model inference speed -->
-   <td class="rank">2.35</td> <!-- ScandEval rank -->
+   <td class="rank">2.36</td> <!-- ScandEval rank -->
    <td class="da ner">64.92 ± 2.17 / 60.82 ± 1.86</td> <!-- DANSK -->
    <td class="da sent">33.50 ± 2.57 / 54.63 ± 2.14</td> <!-- Angry Tweets -->
    <td class="da la">46.75 ± 3.43 / 72.71 ± 2.11</td> <!-- ScaLA-da -->
@@ -1537,7 +1537,7 @@ title: Danish NLU 🇩🇰
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">14,081 ± 3,231 / 2,748 ± 891</td> <!-- Model inference speed -->
-   <td class="rank">2.38</td> <!-- ScandEval rank -->
+   <td class="rank">2.39</td> <!-- ScandEval rank -->
    <td class="da ner">62.66 ± 1.84 / 58.60 ± 1.78</td> <!-- DANSK -->
    <td class="da sent">33.91 ± 1.43 / 54.87 ± 1.38</td> <!-- Angry Tweets -->
    <td class="da la">40.96 ± 4.05 / 69.68 ± 2.12</td> <!-- ScaLA-da -->
@@ -1605,7 +1605,7 @@ title: Danish NLU 🇩🇰
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">1,841 ± 297 / 651 ± 193</td> <!-- Model inference speed -->
-   <td class="rank">2.40</td> <!-- ScandEval rank -->
+   <td class="rank">2.41</td> <!-- ScandEval rank -->
    <td class="da ner">43.65 ± 2.87 / 32.21 ± 2.13</td> <!-- DANSK -->
    <td class="da sent">45.86 ± 1.63 / 61.89 ± 1.57</td> <!-- Angry Tweets -->
    <td class="da la">15.19 ± 3.67 / 46.19 ± 5.60</td> <!-- ScaLA-da -->
@@ -1614,40 +1614,6 @@ title: Danish NLU 🇩🇰
    <td>12.5.1</td> <!-- Angry Tweets version -->
    <td>12.5.1</td> <!-- ScaLA-da version -->
    <td>12.5.1</td> <!-- ScandiQA-da version -->
-   </tr>
-  <tr class="not-merged-model">
-   <td>mistralai/Mistral-7B-v0.3 (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">7248</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">33</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">4,120 ± 976 / 926 ± 306</td> <!-- Model inference speed -->
-   <td class="rank">2.40</td> <!-- ScandEval rank -->
-   <td class="da ner">43.60 ± 2.94 / 32.17 ± 2.26</td> <!-- DANSK -->
-   <td class="da sent">45.92 ± 1.50 / 61.91 ± 1.50</td> <!-- Angry Tweets -->
-   <td class="da la">15.43 ± 3.79 / 46.20 ± 5.54</td> <!-- ScaLA-da -->
-   <td class="da rc">59.13 ± 0.86 / 64.43 ± 0.58</td> <!-- ScandiQA-da -->
-   <td>12.10.4</td> <!-- DANSK version -->
-   <td>12.10.4</td> <!-- Angry Tweets version -->
-   <td>12.10.4</td> <!-- ScaLA-da version -->
-   <td>12.10.4</td> <!-- ScandiQA-da version -->
-   </tr>
-  <tr class="merged-model">
-   <td>mlabonne/AlphaMonarch-7B (few-shot, val)</td> <!-- Model ID -->
-   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">5,340 ± 1,262 / 1,157 ± 375</td> <!-- Model inference speed -->
-   <td class="rank">2.40</td> <!-- ScandEval rank -->
-   <td class="da ner">52.72 ± 2.21 / 39.49 ± 3.47</td> <!-- DANSK -->
-   <td class="da sent">49.11 ± 3.91 / 64.78 ± 2.61</td> <!-- Angry Tweets -->
-   <td class="da la">16.09 ± 3.74 / 54.94 ± 2.92</td> <!-- ScaLA-da -->
-   <td class="da rc">46.28 ± 1.53 / 56.13 ± 1.09</td> <!-- ScandiQA-da -->
-   <td>12.5.2</td> <!-- DANSK version -->
-   <td>12.5.2</td> <!-- Angry Tweets version -->
-   <td>12.5.2</td> <!-- ScaLA-da version -->
-   <td>12.5.2</td> <!-- ScandiQA-da version -->
    </tr>
   <tr class="not-merged-model">
    <td>mistralai/Mistral-7B-Instruct-v0.2 (few-shot)</td> <!-- Model ID -->
@@ -1667,6 +1633,40 @@ title: Danish NLU 🇩🇰
    <td>12.4.0</td> <!-- ScandiQA-da version -->
    </tr>
   <tr class="not-merged-model">
+   <td>mistralai/Mistral-7B-v0.3 (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">7248</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">33</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">4,120 ± 976 / 926 ± 306</td> <!-- Model inference speed -->
+   <td class="rank">2.41</td> <!-- ScandEval rank -->
+   <td class="da ner">43.60 ± 2.94 / 32.17 ± 2.26</td> <!-- DANSK -->
+   <td class="da sent">45.92 ± 1.50 / 61.91 ± 1.50</td> <!-- Angry Tweets -->
+   <td class="da la">15.43 ± 3.79 / 46.20 ± 5.54</td> <!-- ScaLA-da -->
+   <td class="da rc">59.13 ± 0.86 / 64.43 ± 0.58</td> <!-- ScandiQA-da -->
+   <td>12.10.4</td> <!-- DANSK version -->
+   <td>12.10.4</td> <!-- Angry Tweets version -->
+   <td>12.10.4</td> <!-- ScaLA-da version -->
+   <td>12.10.4</td> <!-- ScandiQA-da version -->
+   </tr>
+  <tr class="merged-model">
+   <td>mlabonne/AlphaMonarch-7B (few-shot, val)</td> <!-- Model ID -->
+   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">5,340 ± 1,262 / 1,157 ± 375</td> <!-- Model inference speed -->
+   <td class="rank">2.41</td> <!-- ScandEval rank -->
+   <td class="da ner">52.72 ± 2.21 / 39.49 ± 3.47</td> <!-- DANSK -->
+   <td class="da sent">49.11 ± 3.91 / 64.78 ± 2.61</td> <!-- Angry Tweets -->
+   <td class="da la">16.09 ± 3.74 / 54.94 ± 2.92</td> <!-- ScaLA-da -->
+   <td class="da rc">46.28 ± 1.53 / 56.13 ± 1.09</td> <!-- ScandiQA-da -->
+   <td>12.5.2</td> <!-- DANSK version -->
+   <td>12.5.2</td> <!-- Angry Tweets version -->
+   <td>12.5.2</td> <!-- ScaLA-da version -->
+   <td>12.5.2</td> <!-- ScandiQA-da version -->
+   </tr>
+  <tr class="not-merged-model">
    <td>timpal0l/Mistral-7B-v0.1-flashback-v2 (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -1682,40 +1682,6 @@ title: Danish NLU 🇩🇰
    <td>12.5.3</td> <!-- Angry Tweets version -->
    <td>12.5.3</td> <!-- ScaLA-da version -->
    <td>12.5.3</td> <!-- ScandiQA-da version -->
-   </tr>
-  <tr class="not-merged-model">
-   <td>ThatsGroes/munin-SkoleGPTOpenOrca-7b-16bit (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">3,006 ± 479 / 1,053 ± 319</td> <!-- Model inference speed -->
-   <td class="rank">2.42</td> <!-- ScandEval rank -->
-   <td class="da ner">45.37 ± 2.53 / 28.99 ± 2.18</td> <!-- DANSK -->
-   <td class="da sent">39.63 ± 1.90 / 46.93 ± 2.68</td> <!-- Angry Tweets -->
-   <td class="da la">21.77 ± 3.54 / 47.96 ± 4.57</td> <!-- ScaLA-da -->
-   <td class="da rc">58.28 ± 0.73 / 64.76 ± 0.47</td> <!-- ScandiQA-da -->
-   <td>11.0.0</td> <!-- DANSK version -->
-   <td>11.0.0</td> <!-- Angry Tweets version -->
-   <td>11.0.0</td> <!-- ScaLA-da version -->
-   <td>12.4.0</td> <!-- ScandiQA-da version -->
-   </tr>
-  <tr class="not-merged-model">
-   <td>timpal0l/njord-alpha (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">5,431 ± 1,267 / 1,139 ± 365</td> <!-- Model inference speed -->
-   <td class="rank">2.42</td> <!-- ScandEval rank -->
-   <td class="da ner">38.25 ± 3.75 / 28.14 ± 3.06</td> <!-- DANSK -->
-   <td class="da sent">39.37 ± 2.09 / 56.57 ± 1.90</td> <!-- Angry Tweets -->
-   <td class="da la">29.76 ± 3.24 / 61.80 ± 2.22</td> <!-- ScaLA-da -->
-   <td class="da rc">57.02 ± 1.28 / 63.16 ± 0.90</td> <!-- ScandiQA-da -->
-   <td>12.7.0</td> <!-- DANSK version -->
-   <td>12.7.0</td> <!-- Angry Tweets version -->
-   <td>12.7.0</td> <!-- ScaLA-da version -->
-   <td>12.7.0</td> <!-- ScandiQA-da version -->
    </tr>
   <tr class="not-merged-model">
    <td>KBLab/megatron-bert-large-swedish-cased-165k</td> <!-- Model ID -->
@@ -1735,6 +1701,23 @@ title: Danish NLU 🇩🇰
    <td>0.0.0</td> <!-- ScandiQA-da version -->
    </tr>
   <tr class="not-merged-model">
+   <td>ThatsGroes/munin-SkoleGPTOpenOrca-7b-16bit (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">3,006 ± 479 / 1,053 ± 319</td> <!-- Model inference speed -->
+   <td class="rank">2.43</td> <!-- ScandEval rank -->
+   <td class="da ner">45.37 ± 2.53 / 28.99 ± 2.18</td> <!-- DANSK -->
+   <td class="da sent">39.63 ± 1.90 / 46.93 ± 2.68</td> <!-- Angry Tweets -->
+   <td class="da la">21.77 ± 3.54 / 47.96 ± 4.57</td> <!-- ScaLA-da -->
+   <td class="da rc">58.28 ± 0.73 / 64.76 ± 0.47</td> <!-- ScandiQA-da -->
+   <td>11.0.0</td> <!-- DANSK version -->
+   <td>11.0.0</td> <!-- Angry Tweets version -->
+   <td>11.0.0</td> <!-- ScaLA-da version -->
+   <td>12.4.0</td> <!-- ScandiQA-da version -->
+   </tr>
+  <tr class="not-merged-model">
    <td>ZurichNLP/unsup-simcse-xlm-roberta-base</td> <!-- Model ID -->
    <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
@@ -1750,6 +1733,23 @@ title: Danish NLU 🇩🇰
    <td>12.6.1</td> <!-- Angry Tweets version -->
    <td>12.6.1</td> <!-- ScaLA-da version -->
    <td>0.0.0</td> <!-- ScandiQA-da version -->
+   </tr>
+  <tr class="not-merged-model">
+   <td>timpal0l/njord-alpha (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">5,431 ± 1,267 / 1,139 ± 365</td> <!-- Model inference speed -->
+   <td class="rank">2.43</td> <!-- ScandEval rank -->
+   <td class="da ner">38.25 ± 3.75 / 28.14 ± 3.06</td> <!-- DANSK -->
+   <td class="da sent">39.37 ± 2.09 / 56.57 ± 1.90</td> <!-- Angry Tweets -->
+   <td class="da la">29.76 ± 3.24 / 61.80 ± 2.22</td> <!-- ScaLA-da -->
+   <td class="da rc">57.02 ± 1.28 / 63.16 ± 0.90</td> <!-- ScandiQA-da -->
+   <td>12.7.0</td> <!-- DANSK version -->
+   <td>12.7.0</td> <!-- Angry Tweets version -->
+   <td>12.7.0</td> <!-- ScaLA-da version -->
+   <td>12.7.0</td> <!-- ScandiQA-da version -->
    </tr>
   <tr class="not-merged-model">
    <td>meta-llama/Llama-2-13b-chat-hf (few-shot)</td> <!-- Model ID -->
@@ -1809,7 +1809,7 @@ title: Danish NLU 🇩🇰
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,657 ± 524 / 880 ± 278</td> <!-- Model inference speed -->
-   <td class="rank">2.47</td> <!-- ScandEval rank -->
+   <td class="rank">2.48</td> <!-- ScandEval rank -->
    <td class="da ner">45.42 ± 2.88 / 32.66 ± 2.49</td> <!-- DANSK -->
    <td class="da sent">43.16 ± 1.69 / 54.53 ± 2.83</td> <!-- Angry Tweets -->
    <td class="da la">8.79 ± 3.23 / 38.38 ± 4.22</td> <!-- ScaLA-da -->
@@ -1826,7 +1826,7 @@ title: Danish NLU 🇩🇰
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">14,062 ± 3,216 / 2,733 ± 885</td> <!-- Model inference speed -->
-   <td class="rank">2.48</td> <!-- ScandEval rank -->
+   <td class="rank">2.49</td> <!-- ScandEval rank -->
    <td class="da ner">62.57 ± 1.98 / 59.39 ± 2.04</td> <!-- DANSK -->
    <td class="da sent">33.67 ± 1.54 / 54.48 ± 1.19</td> <!-- Angry Tweets -->
    <td class="da la">35.79 ± 9.58 / 65.87 ± 5.46</td> <!-- ScaLA-da -->
@@ -1939,23 +1939,6 @@ title: Danish NLU 🇩🇰
    <td>12.5.2</td> <!-- ScandiQA-da version -->
    </tr>
   <tr class="not-merged-model">
-   <td>danish-foundation-models/munin-7b-v0.1dev0 (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">6,113 ± 1,044 / 1,790 ± 579</td> <!-- Model inference speed -->
-   <td class="rank">2.50</td> <!-- ScandEval rank -->
-   <td class="da ner">39.12 ± 4.28 / 28.74 ± 2.75</td> <!-- DANSK -->
-   <td class="da sent">36.47 ± 4.90 / 50.72 ± 6.21</td> <!-- Angry Tweets -->
-   <td class="da la">26.76 ± 4.78 / 57.02 ± 5.13</td> <!-- ScaLA-da -->
-   <td class="da rc">58.75 ± 1.19 / 64.41 ± 0.77</td> <!-- ScandiQA-da -->
-   <td>12.5.2</td> <!-- DANSK version -->
-   <td>12.4.0</td> <!-- Angry Tweets version -->
-   <td>12.4.0</td> <!-- ScaLA-da version -->
-   <td>12.4.0</td> <!-- ScandiQA-da version -->
-   </tr>
-  <tr class="not-merged-model">
    <td>Geotrend/bert-base-25lang-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">151</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">85</td> <!-- Size of the model's vocabulary -->
@@ -1971,6 +1954,23 @@ title: Danish NLU 🇩🇰
    <td>0.0.0</td> <!-- Angry Tweets version -->
    <td>0.0.0</td> <!-- ScaLA-da version -->
    <td>0.0.0</td> <!-- ScandiQA-da version -->
+   </tr>
+  <tr class="not-merged-model">
+   <td>danish-foundation-models/munin-7b-v0.1dev0 (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">6,113 ± 1,044 / 1,790 ± 579</td> <!-- Model inference speed -->
+   <td class="rank">2.51</td> <!-- ScandEval rank -->
+   <td class="da ner">39.12 ± 4.28 / 28.74 ± 2.75</td> <!-- DANSK -->
+   <td class="da sent">36.47 ± 4.90 / 50.72 ± 6.21</td> <!-- Angry Tweets -->
+   <td class="da la">26.76 ± 4.78 / 57.02 ± 5.13</td> <!-- ScaLA-da -->
+   <td class="da rc">58.75 ± 1.19 / 64.41 ± 0.77</td> <!-- ScandiQA-da -->
+   <td>12.5.2</td> <!-- DANSK version -->
+   <td>12.4.0</td> <!-- Angry Tweets version -->
+   <td>12.4.0</td> <!-- ScaLA-da version -->
+   <td>12.4.0</td> <!-- ScandiQA-da version -->
    </tr>
   <tr class="not-merged-model">
    <td>jonfd/electra-small-nordic</td> <!-- Model ID -->
@@ -2041,23 +2041,6 @@ title: Danish NLU 🇩🇰
    <td>12.7.0</td> <!-- ScandiQA-da version -->
    </tr>
   <tr class="not-merged-model">
-   <td>danish-foundation-models/munin-7b-alpha (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">6,116 ± 1,049 / 1,784 ± 577</td> <!-- Model inference speed -->
-   <td class="rank">2.52</td> <!-- ScandEval rank -->
-   <td class="da ner">40.60 ± 2.25 / 28.71 ± 1.42</td> <!-- DANSK -->
-   <td class="da sent">36.89 ± 2.27 / 43.77 ± 2.64</td> <!-- Angry Tweets -->
-   <td class="da la">26.41 ± 5.40 / 53.03 ± 6.56</td> <!-- ScaLA-da -->
-   <td class="da rc">57.81 ± 1.11 / 63.44 ± 0.81</td> <!-- ScandiQA-da -->
-   <td>12.5.2</td> <!-- DANSK version -->
-   <td>12.4.0</td> <!-- Angry Tweets version -->
-   <td>12.4.0</td> <!-- ScaLA-da version -->
-   <td>12.4.0</td> <!-- ScandiQA-da version -->
-   </tr>
-  <tr class="not-merged-model">
    <td>google/gemma-7b (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">8538</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">256</td> <!-- Size of the model's vocabulary -->
@@ -2090,6 +2073,23 @@ title: Danish NLU 🇩🇰
    <td>12.3.2</td> <!-- Angry Tweets version -->
    <td>12.3.2</td> <!-- ScaLA-da version -->
    <td>12.3.2</td> <!-- ScandiQA-da version -->
+   </tr>
+  <tr class="not-merged-model">
+   <td>danish-foundation-models/munin-7b-alpha (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">6,116 ± 1,049 / 1,784 ± 577</td> <!-- Model inference speed -->
+   <td class="rank">2.53</td> <!-- ScandEval rank -->
+   <td class="da ner">40.60 ± 2.25 / 28.71 ± 1.42</td> <!-- DANSK -->
+   <td class="da sent">36.89 ± 2.27 / 43.77 ± 2.64</td> <!-- Angry Tweets -->
+   <td class="da la">26.41 ± 5.40 / 53.03 ± 6.56</td> <!-- ScaLA-da -->
+   <td class="da rc">57.81 ± 1.11 / 63.44 ± 0.81</td> <!-- ScandiQA-da -->
+   <td>12.5.2</td> <!-- DANSK version -->
+   <td>12.4.0</td> <!-- Angry Tweets version -->
+   <td>12.4.0</td> <!-- ScaLA-da version -->
+   <td>12.4.0</td> <!-- ScandiQA-da version -->
    </tr>
   <tr class="not-merged-model">
    <td>google-bert/bert-base-multilingual-cased</td> <!-- Model ID -->
@@ -2217,28 +2217,11 @@ title: Danish NLU 🇩🇰
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">15,004 ± 2,964 / 3,290 ± 1,092</td> <!-- Model inference speed -->
-   <td class="rank">2.59</td> <!-- ScandEval rank -->
+   <td class="rank">2.60</td> <!-- ScandEval rank -->
    <td class="da ner">63.84 ± 1.73 / 59.85 ± 1.44</td> <!-- DANSK -->
    <td class="da sent">43.90 ± 1.50 / 62.31 ± 0.96</td> <!-- Angry Tweets -->
    <td class="da la">17.16 ± 13.94 / 56.47 ± 7.34</td> <!-- ScaLA-da -->
    <td class="da rc">26.94 ± 1.16 / 31.50 ± 1.03</td> <!-- ScandiQA-da -->
-   <td>0.0.0</td> <!-- DANSK version -->
-   <td>0.0.0</td> <!-- Angry Tweets version -->
-   <td>0.0.0</td> <!-- ScaLA-da version -->
-   <td>0.0.0</td> <!-- ScandiQA-da version -->
-   </tr>
-  <tr class="not-merged-model">
-   <td>sarnikowski/convbert-small-da-cased</td> <!-- Model ID -->
-   <td class="num_model_parameters">13</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">29</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">14,273 ± 2,312 / 3,555 ± 1,187</td> <!-- Model inference speed -->
-   <td class="rank">2.59</td> <!-- ScandEval rank -->
-   <td class="da ner">60.59 ± 1.84 / 57.31 ± 1.47</td> <!-- DANSK -->
-   <td class="da sent">29.52 ± 2.89 / 47.81 ± 4.54</td> <!-- Angry Tweets -->
-   <td class="da la">57.10 ± 2.02 / 78.14 ± 1.10</td> <!-- ScaLA-da -->
-   <td class="da rc">20.16 ± 0.73 / 25.69 ± 0.60</td> <!-- ScandiQA-da -->
    <td>0.0.0</td> <!-- DANSK version -->
    <td>0.0.0</td> <!-- Angry Tweets version -->
    <td>0.0.0</td> <!-- ScaLA-da version -->
@@ -2260,6 +2243,23 @@ title: Danish NLU 🇩🇰
    <td>13.0.0</td> <!-- Angry Tweets version -->
    <td>13.0.0</td> <!-- ScaLA-da version -->
    <td>13.0.0</td> <!-- ScandiQA-da version -->
+   </tr>
+  <tr class="not-merged-model">
+   <td>sarnikowski/convbert-small-da-cased</td> <!-- Model ID -->
+   <td class="num_model_parameters">13</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">29</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">14,273 ± 2,312 / 3,555 ± 1,187</td> <!-- Model inference speed -->
+   <td class="rank">2.60</td> <!-- ScandEval rank -->
+   <td class="da ner">60.59 ± 1.84 / 57.31 ± 1.47</td> <!-- DANSK -->
+   <td class="da sent">29.52 ± 2.89 / 47.81 ± 4.54</td> <!-- Angry Tweets -->
+   <td class="da la">57.10 ± 2.02 / 78.14 ± 1.10</td> <!-- ScaLA-da -->
+   <td class="da rc">20.16 ± 0.73 / 25.69 ± 0.60</td> <!-- ScandiQA-da -->
+   <td>0.0.0</td> <!-- DANSK version -->
+   <td>0.0.0</td> <!-- Angry Tweets version -->
+   <td>0.0.0</td> <!-- ScaLA-da version -->
+   <td>0.0.0</td> <!-- ScandiQA-da version -->
    </tr>
   <tr class="not-merged-model">
    <td>tollefj/nordavind-7b-instruct-warm (few-shot)</td> <!-- Model ID -->
@@ -2330,23 +2330,6 @@ title: Danish NLU 🇩🇰
    <td>12.5.1</td> <!-- ScandiQA-da version -->
    </tr>
   <tr class="not-merged-model">
-   <td>mistralai/Mistral-7B-Instruct-v0.1 (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">634 ± 179 / 110 ± 35</td> <!-- Model inference speed -->
-   <td class="rank">2.63</td> <!-- ScandEval rank -->
-   <td class="da ner">37.93 ± 2.71 / 23.54 ± 1.99</td> <!-- DANSK -->
-   <td class="da sent">44.49 ± 2.56 / 60.64 ± 3.00</td> <!-- Angry Tweets -->
-   <td class="da la">14.09 ± 2.94 / 42.43 ± 3.30</td> <!-- ScaLA-da -->
-   <td class="da rc">51.38 ± 2.31 / 58.78 ± 1.27</td> <!-- ScandiQA-da -->
-   <td>9.3.1</td> <!-- DANSK version -->
-   <td>9.3.1</td> <!-- Angry Tweets version -->
-   <td>9.3.1</td> <!-- ScaLA-da version -->
-   <td>12.4.0</td> <!-- ScandiQA-da version -->
-   </tr>
-  <tr class="not-merged-model">
    <td>KB/bert-base-swedish-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">125</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
@@ -2392,6 +2375,23 @@ title: Danish NLU 🇩🇰
    <td class="da sent">44.88 ± 1.45 / 62.35 ± 1.33</td> <!-- Angry Tweets -->
    <td class="da la">9.74 ± 1.96 / 47.42 ± 4.19</td> <!-- ScaLA-da -->
    <td class="da rc">55.04 ± 0.79 / 61.34 ± 0.81</td> <!-- ScandiQA-da -->
+   <td>9.3.1</td> <!-- DANSK version -->
+   <td>9.3.1</td> <!-- Angry Tweets version -->
+   <td>9.3.1</td> <!-- ScaLA-da version -->
+   <td>12.4.0</td> <!-- ScandiQA-da version -->
+   </tr>
+  <tr class="not-merged-model">
+   <td>mistralai/Mistral-7B-Instruct-v0.1 (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">634 ± 179 / 110 ± 35</td> <!-- Model inference speed -->
+   <td class="rank">2.64</td> <!-- ScandEval rank -->
+   <td class="da ner">37.93 ± 2.71 / 23.54 ± 1.99</td> <!-- DANSK -->
+   <td class="da sent">44.49 ± 2.56 / 60.64 ± 3.00</td> <!-- Angry Tweets -->
+   <td class="da la">14.09 ± 2.94 / 42.43 ± 3.30</td> <!-- ScaLA-da -->
+   <td class="da rc">51.38 ± 2.31 / 58.78 ± 1.27</td> <!-- ScandiQA-da -->
    <td>9.3.1</td> <!-- DANSK version -->
    <td>9.3.1</td> <!-- Angry Tweets version -->
    <td>9.3.1</td> <!-- ScaLA-da version -->
@@ -2466,40 +2466,6 @@ title: Danish NLU 🇩🇰
    <td>12.10.4</td> <!-- ScandiQA-da version -->
    </tr>
   <tr class="not-merged-model">
-   <td>ibm-granite/granite-8b-code-base-4k (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">8055</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">49</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">2,313 ± 423 / 682 ± 210</td> <!-- Model inference speed -->
-   <td class="rank">2.66</td> <!-- ScandEval rank -->
-   <td class="da ner">48.44 ± 1.69 / 36.99 ± 1.77</td> <!-- DANSK -->
-   <td class="da sent">39.07 ± 1.03 / 56.85 ± 1.91</td> <!-- Angry Tweets -->
-   <td class="da la">9.72 ± 1.58 / 46.85 ± 3.66</td> <!-- ScaLA-da -->
-   <td class="da rc">51.18 ± 0.92 / 56.54 ± 0.69</td> <!-- ScandiQA-da -->
-   <td>13.0.0</td> <!-- DANSK version -->
-   <td>13.0.0</td> <!-- Angry Tweets version -->
-   <td>13.0.0</td> <!-- ScaLA-da version -->
-   <td>13.0.0</td> <!-- ScandiQA-da version -->
-   </tr>
-  <tr class="not-merged-model">
-   <td>ibm-granite/granite-8b-code-base (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">8055</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">49</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">1,002 ± 95 / 416 ± 105</td> <!-- Model inference speed -->
-   <td class="rank">2.66</td> <!-- ScandEval rank -->
-   <td class="da ner">48.55 ± 1.75 / 37.15 ± 1.83</td> <!-- DANSK -->
-   <td class="da sent">39.16 ± 0.95 / 56.83 ± 1.90</td> <!-- Angry Tweets -->
-   <td class="da la">10.43 ± 1.91 / 46.99 ± 3.74</td> <!-- ScaLA-da -->
-   <td class="da rc">51.28 ± 0.95 / 56.75 ± 0.70</td> <!-- ScandiQA-da -->
-   <td>12.10.5</td> <!-- DANSK version -->
-   <td>12.10.5</td> <!-- Angry Tweets version -->
-   <td>12.10.5</td> <!-- ScaLA-da version -->
-   <td>12.10.5</td> <!-- ScandiQA-da version -->
-   </tr>
-  <tr class="not-merged-model">
    <td>jjzha/dajobbert-base-uncased</td> <!-- Model ID -->
    <td class="num_model_parameters">110</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -2534,21 +2500,38 @@ title: Danish NLU 🇩🇰
    <td>13.0.0</td> <!-- ScandiQA-da version -->
    </tr>
   <tr class="not-merged-model">
-   <td>Maltehb/aelaectra-danish-electra-small-uncased</td> <!-- Model ID -->
-   <td class="num_model_parameters">14</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">128</td> <!-- Maximum sequence length of the model -->
+   <td>ibm-granite/granite-8b-code-base-4k (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">8055</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">49</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">5,995 ± 135 / 3,839 ± 1,247</td> <!-- Model inference speed -->
+   <td class="speed">2,313 ± 423 / 682 ± 210</td> <!-- Model inference speed -->
    <td class="rank">2.67</td> <!-- ScandEval rank -->
-   <td class="da ner">62.52 ± 1.33 / 57.14 ± 1.29</td> <!-- DANSK -->
-   <td class="da sent">34.45 ± 3.16 / 51.40 ± 5.12</td> <!-- Angry Tweets -->
-   <td class="da la">65.15 ± 0.81 / 82.32 ± 0.45</td> <!-- ScaLA-da -->
-   <td class="da rc">2.51 ± 2.06 / 2.75 ± 2.29</td> <!-- ScandiQA-da -->
-   <td>0.0.0</td> <!-- DANSK version -->
-   <td>0.0.0</td> <!-- Angry Tweets version -->
-   <td>0.0.0</td> <!-- ScaLA-da version -->
-   <td>0.0.0</td> <!-- ScandiQA-da version -->
+   <td class="da ner">48.44 ± 1.69 / 36.99 ± 1.77</td> <!-- DANSK -->
+   <td class="da sent">39.07 ± 1.03 / 56.85 ± 1.91</td> <!-- Angry Tweets -->
+   <td class="da la">9.72 ± 1.58 / 46.85 ± 3.66</td> <!-- ScaLA-da -->
+   <td class="da rc">51.18 ± 0.92 / 56.54 ± 0.69</td> <!-- ScandiQA-da -->
+   <td>13.0.0</td> <!-- DANSK version -->
+   <td>13.0.0</td> <!-- Angry Tweets version -->
+   <td>13.0.0</td> <!-- ScaLA-da version -->
+   <td>13.0.0</td> <!-- ScandiQA-da version -->
+   </tr>
+  <tr class="not-merged-model">
+   <td>ibm-granite/granite-8b-code-base (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">8055</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">49</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">1,002 ± 95 / 416 ± 105</td> <!-- Model inference speed -->
+   <td class="rank">2.67</td> <!-- ScandEval rank -->
+   <td class="da ner">48.55 ± 1.75 / 37.15 ± 1.83</td> <!-- DANSK -->
+   <td class="da sent">39.16 ± 0.95 / 56.83 ± 1.90</td> <!-- Angry Tweets -->
+   <td class="da la">10.43 ± 1.91 / 46.99 ± 3.74</td> <!-- ScaLA-da -->
+   <td class="da rc">51.28 ± 0.95 / 56.75 ± 0.70</td> <!-- ScandiQA-da -->
+   <td>12.10.5</td> <!-- DANSK version -->
+   <td>12.10.5</td> <!-- Angry Tweets version -->
+   <td>12.10.5</td> <!-- ScaLA-da version -->
+   <td>12.10.5</td> <!-- ScandiQA-da version -->
    </tr>
   <tr class="merged-model">
    <td>merge-crew/da-sv-dare-ties-density-0.3 (few-shot, val)</td> <!-- Model ID -->
@@ -2568,17 +2551,17 @@ title: Danish NLU 🇩🇰
    <td>10.0.1</td> <!-- ScandiQA-da version -->
    </tr>
   <tr class="not-merged-model">
-   <td>DDSC/roberta-base-scandinavian</td> <!-- Model ID -->
-   <td class="num_model_parameters">125</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td>Maltehb/aelaectra-danish-electra-small-uncased</td> <!-- Model ID -->
+   <td class="num_model_parameters">14</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">128</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">14,491 ± 2,800 / 3,182 ± 1,026</td> <!-- Model inference speed -->
+   <td class="speed">5,995 ± 135 / 3,839 ± 1,247</td> <!-- Model inference speed -->
    <td class="rank">2.68</td> <!-- ScandEval rank -->
-   <td class="da ner">43.90 ± 15.70 / 41.25 ± 14.74</td> <!-- DANSK -->
-   <td class="da sent">44.48 ± 5.85 / 62.62 ± 4.55</td> <!-- Angry Tweets -->
-   <td class="da la">30.37 ± 17.09 / 63.92 ± 8.38</td> <!-- ScaLA-da -->
-   <td class="da rc">28.89 ± 1.91 / 33.71 ± 1.54</td> <!-- ScandiQA-da -->
+   <td class="da ner">62.52 ± 1.33 / 57.14 ± 1.29</td> <!-- DANSK -->
+   <td class="da sent">34.45 ± 3.16 / 51.40 ± 5.12</td> <!-- Angry Tweets -->
+   <td class="da la">65.15 ± 0.81 / 82.32 ± 0.45</td> <!-- ScaLA-da -->
+   <td class="da rc">2.51 ± 2.06 / 2.75 ± 2.29</td> <!-- ScandiQA-da -->
    <td>0.0.0</td> <!-- DANSK version -->
    <td>0.0.0</td> <!-- Angry Tweets version -->
    <td>0.0.0</td> <!-- ScaLA-da version -->
@@ -2602,6 +2585,23 @@ title: Danish NLU 🇩🇰
    <td>12.9.0</td> <!-- ScandiQA-da version -->
    </tr>
   <tr class="not-merged-model">
+   <td>DDSC/roberta-base-scandinavian</td> <!-- Model ID -->
+   <td class="num_model_parameters">125</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">14,491 ± 2,800 / 3,182 ± 1,026</td> <!-- Model inference speed -->
+   <td class="rank">2.69</td> <!-- ScandEval rank -->
+   <td class="da ner">43.90 ± 15.70 / 41.25 ± 14.74</td> <!-- DANSK -->
+   <td class="da sent">44.48 ± 5.85 / 62.62 ± 4.55</td> <!-- Angry Tweets -->
+   <td class="da la">30.37 ± 17.09 / 63.92 ± 8.38</td> <!-- ScaLA-da -->
+   <td class="da rc">28.89 ± 1.91 / 33.71 ± 1.54</td> <!-- ScandiQA-da -->
+   <td>0.0.0</td> <!-- DANSK version -->
+   <td>0.0.0</td> <!-- Angry Tweets version -->
+   <td>0.0.0</td> <!-- ScaLA-da version -->
+   <td>0.0.0</td> <!-- ScandiQA-da version -->
+   </tr>
+  <tr class="not-merged-model">
    <td>Maltehb/aelaectra-danish-electra-small-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">14</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -2619,21 +2619,21 @@ title: Danish NLU 🇩🇰
    <td>0.0.0</td> <!-- ScandiQA-da version -->
    </tr>
   <tr class="not-merged-model">
-   <td>Twitter/twhin-bert-large</td> <!-- Model ID -->
-   <td class="num_model_parameters">561</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td>TrustLLMeu/baseline-7-8b_1t-tokens_llama (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">7800</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">100</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">9,707 ± 1,664 / 2,549 ± 831</td> <!-- Model inference speed -->
+   <td class="speed">6,197 ± 1,118 / 1,730 ± 577</td> <!-- Model inference speed -->
    <td class="rank">2.69</td> <!-- ScandEval rank -->
-   <td class="da ner">66.39 ± 1.42 / 62.24 ± 1.29</td> <!-- DANSK -->
-   <td class="da sent">39.36 ± 3.13 / 58.64 ± 2.64</td> <!-- Angry Tweets -->
-   <td class="da la">7.06 ± 6.11 / 49.71 ± 4.63</td> <!-- ScaLA-da -->
-   <td class="da rc">33.88 ± 4.27 / 38.42 ± 4.16</td> <!-- ScandiQA-da -->
-   <td>0.0.0</td> <!-- DANSK version -->
-   <td>0.0.0</td> <!-- Angry Tweets version -->
-   <td>0.0.0</td> <!-- ScaLA-da version -->
-   <td>0.0.0</td> <!-- ScandiQA-da version -->
+   <td class="da ner">34.25 ± 2.28 / 30.39 ± 2.14</td> <!-- DANSK -->
+   <td class="da sent">45.67 ± 2.41 / 58.41 ± 3.04</td> <!-- Angry Tweets -->
+   <td class="da la">10.62 ± 2.37 / 53.20 ± 3.73</td> <!-- ScaLA-da -->
+   <td class="da rc">50.77 ± 2.48 / 56.92 ± 2.42</td> <!-- ScandiQA-da -->
+   <td>13.0.0</td> <!-- DANSK version -->
+   <td>13.0.0</td> <!-- Angry Tweets version -->
+   <td>13.0.0</td> <!-- ScaLA-da version -->
+   <td>13.0.0</td> <!-- ScandiQA-da version -->
    </tr>
   <tr class="not-merged-model">
    <td>google/gemma-2-2b-it (few-shot)</td> <!-- Model ID -->
@@ -2715,6 +2715,23 @@ title: Danish NLU 🇩🇰
    <td class="da sent">31.30 ± 1.80 / 52.43 ± 1.61</td> <!-- Angry Tweets -->
    <td class="da la">34.92 ± 2.74 / 66.69 ± 2.11</td> <!-- ScaLA-da -->
    <td class="da rc">27.86 ± 1.51 / 32.53 ± 1.36</td> <!-- ScandiQA-da -->
+   <td>0.0.0</td> <!-- DANSK version -->
+   <td>0.0.0</td> <!-- Angry Tweets version -->
+   <td>0.0.0</td> <!-- ScaLA-da version -->
+   <td>0.0.0</td> <!-- ScandiQA-da version -->
+   </tr>
+  <tr class="not-merged-model">
+   <td>Twitter/twhin-bert-large</td> <!-- Model ID -->
+   <td class="num_model_parameters">561</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">9,707 ± 1,664 / 2,549 ± 831</td> <!-- Model inference speed -->
+   <td class="rank">2.70</td> <!-- ScandEval rank -->
+   <td class="da ner">66.39 ± 1.42 / 62.24 ± 1.29</td> <!-- DANSK -->
+   <td class="da sent">39.36 ± 3.13 / 58.64 ± 2.64</td> <!-- Angry Tweets -->
+   <td class="da la">7.06 ± 6.11 / 49.71 ± 4.63</td> <!-- ScaLA-da -->
+   <td class="da rc">33.88 ± 4.27 / 38.42 ± 4.16</td> <!-- ScandiQA-da -->
    <td>0.0.0</td> <!-- DANSK version -->
    <td>0.0.0</td> <!-- Angry Tweets version -->
    <td>0.0.0</td> <!-- ScaLA-da version -->
@@ -2874,23 +2891,6 @@ title: Danish NLU 🇩🇰
    <td>0.0.0</td> <!-- ScandiQA-da version -->
    </tr>
   <tr class="not-merged-model">
-   <td>LumiOpen/Viking-13B (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">14030</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">131</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">4097</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">840 ± 79 / 400 ± 124</td> <!-- Model inference speed -->
-   <td class="rank">2.76</td> <!-- ScandEval rank -->
-   <td class="da ner">28.60 ± 4.69 / 20.29 ± 3.37</td> <!-- DANSK -->
-   <td class="da sent">48.71 ± 1.27 / 60.90 ± 2.95</td> <!-- Angry Tweets -->
-   <td class="da la">2.30 ± 1.34 / 37.21 ± 2.50</td> <!-- ScaLA-da -->
-   <td class="da rc">53.85 ± 1.73 / 58.96 ± 1.67</td> <!-- ScandiQA-da -->
-   <td>12.10.5</td> <!-- DANSK version -->
-   <td>12.10.5</td> <!-- Angry Tweets version -->
-   <td>12.10.5</td> <!-- ScaLA-da version -->
-   <td>12.10.5</td> <!-- ScandiQA-da version -->
-   </tr>
-  <tr class="not-merged-model">
    <td>NorwAI/NorwAI-Mistral-7B (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7537</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">68</td> <!-- Size of the model's vocabulary -->
@@ -2940,6 +2940,23 @@ title: Danish NLU 🇩🇰
    <td>12.3.2</td> <!-- Angry Tweets version -->
    <td>12.3.2</td> <!-- ScaLA-da version -->
    <td>12.4.0</td> <!-- ScandiQA-da version -->
+   </tr>
+  <tr class="not-merged-model">
+   <td>LumiOpen/Viking-13B (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">14030</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">131</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">4097</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">840 ± 79 / 400 ± 124</td> <!-- Model inference speed -->
+   <td class="rank">2.77</td> <!-- ScandEval rank -->
+   <td class="da ner">28.60 ± 4.69 / 20.29 ± 3.37</td> <!-- DANSK -->
+   <td class="da sent">48.71 ± 1.27 / 60.90 ± 2.95</td> <!-- Angry Tweets -->
+   <td class="da la">2.30 ± 1.34 / 37.21 ± 2.50</td> <!-- ScaLA-da -->
+   <td class="da rc">53.85 ± 1.73 / 58.96 ± 1.67</td> <!-- ScandiQA-da -->
+   <td>12.10.5</td> <!-- DANSK version -->
+   <td>12.10.5</td> <!-- Angry Tweets version -->
+   <td>12.10.5</td> <!-- ScaLA-da version -->
+   <td>12.10.5</td> <!-- ScandiQA-da version -->
    </tr>
   <tr class="not-merged-model">
    <td>KBLab/megatron-bert-base-swedish-cased-125k</td> <!-- Model ID -->
@@ -3033,7 +3050,7 @@ title: Danish NLU 🇩🇰
    <td class="max_sequence_length">4099</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">501 ± 50 / 238 ± 69</td> <!-- Model inference speed -->
-   <td class="rank">2.88</td> <!-- ScandEval rank -->
+   <td class="rank">2.89</td> <!-- ScandEval rank -->
    <td class="da ner">25.35 ± 3.59 / 17.77 ± 2.25</td> <!-- DANSK -->
    <td class="da sent">44.70 ± 1.80 / 60.56 ± 2.77</td> <!-- Angry Tweets -->
    <td class="da la">1.43 ± 1.60 / 34.16 ± 1.04</td> <!-- ScaLA-da -->
@@ -3095,23 +3112,6 @@ title: Danish NLU 🇩🇰
    <td>13.0.0</td> <!-- ScandiQA-da version -->
    </tr>
   <tr class="not-merged-model">
-   <td>ltg/norbert3-xs</td> <!-- Model ID -->
-   <td class="num_model_parameters">15</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">508</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">14,208 ± 2,713 / 3,059 ± 1,002</td> <!-- Model inference speed -->
-   <td class="rank">2.99</td> <!-- ScandEval rank -->
-   <td class="da ner">59.94 ± 2.06 / 58.86 ± 1.85</td> <!-- DANSK -->
-   <td class="da sent">39.16 ± 1.75 / 58.91 ± 1.21</td> <!-- Angry Tweets -->
-   <td class="da la">2.16 ± 1.61 / 48.93 ± 2.35</td> <!-- ScaLA-da -->
-   <td class="da rc">24.69 ± 1.58 / 28.57 ± 1.42</td> <!-- ScandiQA-da -->
-   <td>0.0.0</td> <!-- DANSK version -->
-   <td>0.0.0</td> <!-- Angry Tweets version -->
-   <td>0.0.0</td> <!-- ScaLA-da version -->
-   <td>0.0.0</td> <!-- ScandiQA-da version -->
-   </tr>
-  <tr class="not-merged-model">
    <td>KBLab/bert-base-swedish-cased-new</td> <!-- Model ID -->
    <td class="num_model_parameters">135</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
@@ -3123,6 +3123,23 @@ title: Danish NLU 🇩🇰
    <td class="da sent">38.46 ± 0.77 / 58.57 ± 0.67</td> <!-- Angry Tweets -->
    <td class="da la">4.61 ± 2.95 / 49.70 ± 2.34</td> <!-- ScaLA-da -->
    <td class="da rc">23.13 ± 2.72 / 28.47 ± 2.30</td> <!-- ScandiQA-da -->
+   <td>0.0.0</td> <!-- DANSK version -->
+   <td>0.0.0</td> <!-- Angry Tweets version -->
+   <td>0.0.0</td> <!-- ScaLA-da version -->
+   <td>0.0.0</td> <!-- ScandiQA-da version -->
+   </tr>
+  <tr class="not-merged-model">
+   <td>ltg/norbert3-xs</td> <!-- Model ID -->
+   <td class="num_model_parameters">15</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">508</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">14,208 ± 2,713 / 3,059 ± 1,002</td> <!-- Model inference speed -->
+   <td class="rank">3.00</td> <!-- ScandEval rank -->
+   <td class="da ner">59.94 ± 2.06 / 58.86 ± 1.85</td> <!-- DANSK -->
+   <td class="da sent">39.16 ± 1.75 / 58.91 ± 1.21</td> <!-- Angry Tweets -->
+   <td class="da la">2.16 ± 1.61 / 48.93 ± 2.35</td> <!-- ScaLA-da -->
+   <td class="da rc">24.69 ± 1.58 / 28.57 ± 1.42</td> <!-- ScandiQA-da -->
    <td>0.0.0</td> <!-- DANSK version -->
    <td>0.0.0</td> <!-- Angry Tweets version -->
    <td>0.0.0</td> <!-- ScaLA-da version -->
@@ -3271,7 +3288,7 @@ title: Danish NLU 🇩🇰
    <td class="max_sequence_length">8193</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">5,235 ± 1,226 / 1,154 ± 366</td> <!-- Model inference speed -->
-   <td class="rank">3.08</td> <!-- ScandEval rank -->
+   <td class="rank">3.09</td> <!-- ScandEval rank -->
    <td class="da ner">17.29 ± 2.84 / 13.87 ± 2.03</td> <!-- DANSK -->
    <td class="da sent">34.94 ± 2.71 / 42.58 ± 3.24</td> <!-- Angry Tweets -->
    <td class="da la">6.39 ± 2.41 / 45.03 ± 4.32</td> <!-- ScaLA-da -->
@@ -3280,23 +3297,6 @@ title: Danish NLU 🇩🇰
    <td>13.0.0</td> <!-- Angry Tweets version -->
    <td>13.0.0</td> <!-- ScaLA-da version -->
    <td>13.0.0</td> <!-- ScandiQA-da version -->
-   </tr>
-  <tr class="not-merged-model">
-   <td>birgermoell/roberta-swedish-scandi</td> <!-- Model ID -->
-   <td class="num_model_parameters">125</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">15,385 ± 2,815 / 3,578 ± 1,177</td> <!-- Model inference speed -->
-   <td class="rank">3.10</td> <!-- ScandEval rank -->
-   <td class="da ner">49.22 ± 1.85 / 47.83 ± 1.59</td> <!-- DANSK -->
-   <td class="da sent">33.51 ± 1.46 / 54.93 ± 1.21</td> <!-- Angry Tweets -->
-   <td class="da la">12.08 ± 8.71 / 54.24 ± 4.71</td> <!-- ScaLA-da -->
-   <td class="da rc">24.49 ± 1.67 / 28.88 ± 1.71</td> <!-- ScandiQA-da -->
-   <td>0.0.0</td> <!-- DANSK version -->
-   <td>0.0.0</td> <!-- Angry Tweets version -->
-   <td>0.0.0</td> <!-- ScaLA-da version -->
-   <td>0.0.0</td> <!-- ScandiQA-da version -->
    </tr>
   <tr class="not-merged-model">
    <td>google/gemma-2b (few-shot)</td> <!-- Model ID -->
@@ -3314,6 +3314,23 @@ title: Danish NLU 🇩🇰
    <td>12.1.0</td> <!-- Angry Tweets version -->
    <td>12.1.0</td> <!-- ScaLA-da version -->
    <td>12.1.0</td> <!-- ScandiQA-da version -->
+   </tr>
+  <tr class="not-merged-model">
+   <td>birgermoell/roberta-swedish-scandi</td> <!-- Model ID -->
+   <td class="num_model_parameters">125</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">15,385 ± 2,815 / 3,578 ± 1,177</td> <!-- Model inference speed -->
+   <td class="rank">3.11</td> <!-- ScandEval rank -->
+   <td class="da ner">49.22 ± 1.85 / 47.83 ± 1.59</td> <!-- DANSK -->
+   <td class="da sent">33.51 ± 1.46 / 54.93 ± 1.21</td> <!-- Angry Tweets -->
+   <td class="da la">12.08 ± 8.71 / 54.24 ± 4.71</td> <!-- ScaLA-da -->
+   <td class="da rc">24.49 ± 1.67 / 28.88 ± 1.71</td> <!-- ScandiQA-da -->
+   <td>0.0.0</td> <!-- DANSK version -->
+   <td>0.0.0</td> <!-- Angry Tweets version -->
+   <td>0.0.0</td> <!-- ScaLA-da version -->
+   <td>0.0.0</td> <!-- ScandiQA-da version -->
    </tr>
   <tr class="not-merged-model">
    <td>HPLT/gpt-7b-nordic-prerelease (few-shot)</td> <!-- Model ID -->
@@ -3390,7 +3407,7 @@ title: Danish NLU 🇩🇰
    <td class="max_sequence_length">131072</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">7,312 ± 1,668 / 1,609 ± 525</td> <!-- Model inference speed -->
-   <td class="rank">3.18</td> <!-- ScandEval rank -->
+   <td class="rank">3.19</td> <!-- ScandEval rank -->
    <td class="da ner">4.51 ± 2.12 / 3.71 ± 1.76</td> <!-- DANSK -->
    <td class="da sent">40.85 ± 1.26 / 59.79 ± 1.32</td> <!-- Angry Tweets -->
    <td class="da la">5.43 ± 1.74 / 46.21 ± 4.13</td> <!-- ScaLA-da -->
@@ -3441,7 +3458,7 @@ title: Danish NLU 🇩🇰
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">20,070 ± 3,977 / 4,400 ± 1,435</td> <!-- Model inference speed -->
-   <td class="rank">3.25</td> <!-- ScandEval rank -->
+   <td class="rank">3.26</td> <!-- ScandEval rank -->
    <td class="da ner">41.09 ± 1.83 / 40.40 ± 1.82</td> <!-- DANSK -->
    <td class="da sent">27.33 ± 1.92 / 49.78 ± 1.38</td> <!-- Angry Tweets -->
    <td class="da la">21.58 ± 3.92 / 59.41 ± 2.63</td> <!-- ScaLA-da -->
@@ -3492,7 +3509,7 @@ title: Danish NLU 🇩🇰
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">20,047 ± 4,407 / 3,844 ± 1,259</td> <!-- Model inference speed -->
-   <td class="rank">3.30</td> <!-- ScandEval rank -->
+   <td class="rank">3.31</td> <!-- ScandEval rank -->
    <td class="da ner">47.61 ± 1.71 / 45.91 ± 1.91</td> <!-- DANSK -->
    <td class="da sent">24.17 ± 1.92 / 43.75 ± 2.75</td> <!-- Angry Tweets -->
    <td class="da la">8.14 ± 3.76 / 51.78 ± 1.81</td> <!-- ScaLA-da -->
@@ -3594,7 +3611,7 @@ title: Danish NLU 🇩🇰
    <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,285 ± 443 / 671 ± 205</td> <!-- Model inference speed -->
-   <td class="rank">3.41</td> <!-- ScandEval rank -->
+   <td class="rank">3.42</td> <!-- ScandEval rank -->
    <td class="da ner">18.23 ± 5.87 / 14.77 ± 3.36</td> <!-- DANSK -->
    <td class="da sent">22.71 ± 5.21 / 35.11 ± 6.59</td> <!-- Angry Tweets -->
    <td class="da la">5.03 ± 2.51 / 49.00 ± 2.64</td> <!-- ScaLA-da -->
@@ -3645,7 +3662,7 @@ title: Danish NLU 🇩🇰
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">8,304 ± 1,846 / 1,933 ± 617</td> <!-- Model inference speed -->
-   <td class="rank">3.46</td> <!-- ScandEval rank -->
+   <td class="rank">3.47</td> <!-- ScandEval rank -->
    <td class="da ner">18.00 ± 2.52 / 14.88 ± 1.68</td> <!-- DANSK -->
    <td class="da sent">26.58 ± 2.81 / 45.88 ± 3.40</td> <!-- Angry Tweets -->
    <td class="da la">0.63 ± 1.48 / 33.42 ± 0.28</td> <!-- ScaLA-da -->
@@ -3713,7 +3730,7 @@ title: Danish NLU 🇩🇰
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">5,666 ± 1,328 / 1,256 ± 408</td> <!-- Model inference speed -->
-   <td class="rank">3.52</td> <!-- ScandEval rank -->
+   <td class="rank">3.53</td> <!-- ScandEval rank -->
    <td class="da ner">9.83 ± 3.50 / 8.97 ± 2.64</td> <!-- DANSK -->
    <td class="da sent">29.03 ± 2.48 / 46.75 ± 3.69</td> <!-- Angry Tweets -->
    <td class="da la">0.56 ± 0.87 / 33.34 ± 0.23</td> <!-- ScaLA-da -->
@@ -3781,7 +3798,7 @@ title: Danish NLU 🇩🇰
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">47,122 ± 9,661 / 9,714 ± 3,152</td> <!-- Model inference speed -->
-   <td class="rank">3.62</td> <!-- ScandEval rank -->
+   <td class="rank">3.63</td> <!-- ScandEval rank -->
    <td class="da ner">41.70 ± 1.80 / 38.74 ± 1.82</td> <!-- DANSK -->
    <td class="da sent">26.03 ± 0.90 / 48.46 ± 1.21</td> <!-- Angry Tweets -->
    <td class="da la">2.19 ± 1.92 / 49.80 ± 1.39</td> <!-- ScaLA-da -->
@@ -3798,7 +3815,7 @@ title: Danish NLU 🇩🇰
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">30,013 ± 4,309 / 8,840 ± 2,859</td> <!-- Model inference speed -->
-   <td class="rank">3.67</td> <!-- ScandEval rank -->
+   <td class="rank">3.68</td> <!-- ScandEval rank -->
    <td class="da ner">33.05 ± 1.28 / 31.68 ± 1.05</td> <!-- DANSK -->
    <td class="da sent">30.67 ± 1.28 / 51.76 ± 1.28</td> <!-- Angry Tweets -->
    <td class="da la">13.01 ± 5.22 / 55.11 ± 3.40</td> <!-- ScaLA-da -->
@@ -3900,7 +3917,7 @@ title: Danish NLU 🇩🇰
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">33,247 ± 8,123 / 6,017 ± 1,977</td> <!-- Model inference speed -->
-   <td class="rank">3.79</td> <!-- ScandEval rank -->
+   <td class="rank">3.80</td> <!-- ScandEval rank -->
    <td class="da ner">26.96 ± 1.31 / 25.63 ± 1.35</td> <!-- DANSK -->
    <td class="da sent">30.13 ± 2.10 / 46.78 ± 4.49</td> <!-- Angry Tweets -->
    <td class="da la">2.01 ± 1.29 / 48.79 ± 1.65</td> <!-- ScaLA-da -->
@@ -3917,7 +3934,7 @@ title: Danish NLU 🇩🇰
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">19,206 ± 4,451 / 3,658 ± 1,187</td> <!-- Model inference speed -->
-   <td class="rank">3.79</td> <!-- ScandEval rank -->
+   <td class="rank">3.80</td> <!-- ScandEval rank -->
    <td class="da ner">26.96 ± 1.31 / 25.63 ± 1.35</td> <!-- DANSK -->
    <td class="da sent">30.13 ± 2.10 / 46.78 ± 4.49</td> <!-- Angry Tweets -->
    <td class="da la">2.01 ± 1.29 / 48.79 ± 1.65</td> <!-- ScaLA-da -->
@@ -3934,7 +3951,7 @@ title: Danish NLU 🇩🇰
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">12,783 ± 2,537 / 2,712 ± 885</td> <!-- Model inference speed -->
-   <td class="rank">3.87</td> <!-- ScandEval rank -->
+   <td class="rank">3.88</td> <!-- ScandEval rank -->
    <td class="da ner">36.51 ± 2.44 / 36.31 ± 2.71</td> <!-- DANSK -->
    <td class="da sent">22.07 ± 2.24 / 44.70 ± 3.72</td> <!-- Angry Tweets -->
    <td class="da la">1.63 ± 1.49 / 45.36 ± 3.07</td> <!-- ScaLA-da -->
@@ -3985,7 +4002,7 @@ title: Danish NLU 🇩🇰
    <td class="max_sequence_length">2051</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">8,536 ± 1,926 / 1,940 ± 619</td> <!-- Model inference speed -->
-   <td class="rank">3.98</td> <!-- ScandEval rank -->
+   <td class="rank">3.99</td> <!-- ScandEval rank -->
    <td class="da ner">13.39 ± 2.60 / 12.39 ± 2.46</td> <!-- DANSK -->
    <td class="da sent">17.94 ± 5.58 / 32.80 ± 3.63</td> <!-- Angry Tweets -->
    <td class="da la">-2.02 ± 2.28 / 40.63 ± 4.12</td> <!-- ScaLA-da -->
@@ -4036,7 +4053,7 @@ title: Danish NLU 🇩🇰
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">54,951 ± 11,500 / 11,401 ± 3,819</td> <!-- Model inference speed -->
-   <td class="rank">4.15</td> <!-- ScandEval rank -->
+   <td class="rank">4.16</td> <!-- ScandEval rank -->
    <td class="da ner">22.21 ± 0.75 / 21.70 ± 0.70</td> <!-- DANSK -->
    <td class="da sent">20.33 ± 1.89 / 40.95 ± 2.78</td> <!-- Angry Tweets -->
    <td class="da la">0.90 ± 1.40 / 48.85 ± 2.60</td> <!-- ScaLA-da -->
@@ -4053,7 +4070,7 @@ title: Danish NLU 🇩🇰
    <td class="max_sequence_length">1024</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,556 ± 580 / 681 ± 214</td> <!-- Model inference speed -->
-   <td class="rank">4.20</td> <!-- ScandEval rank -->
+   <td class="rank">4.21</td> <!-- ScandEval rank -->
    <td class="da ner">0.24 ± 0.25 / 0.25 ± 0.21</td> <!-- DANSK -->
    <td class="da sent">27.80 ± 6.39 / 43.80 ± 5.16</td> <!-- Angry Tweets -->
    <td class="da la">0.56 ± 0.51 / 34.04 ± 1.28</td> <!-- ScaLA-da -->
@@ -4087,7 +4104,7 @@ title: Danish NLU 🇩🇰
    <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">7,717 ± 1,553 / 2,013 ± 625</td> <!-- Model inference speed -->
-   <td class="rank">4.29</td> <!-- ScandEval rank -->
+   <td class="rank">4.30</td> <!-- ScandEval rank -->
    <td class="da ner">13.98 ± 1.54 / 13.46 ± 1.42</td> <!-- DANSK -->
    <td class="da sent">6.37 ± 3.38 / 25.43 ± 4.09</td> <!-- Angry Tweets -->
    <td class="da la">0.41 ± 0.80 / 33.31 ± 0.24</td> <!-- ScaLA-da -->
@@ -4096,23 +4113,6 @@ title: Danish NLU 🇩🇰
    <td>9.3.2</td> <!-- Angry Tweets version -->
    <td>11.0.0</td> <!-- ScaLA-da version -->
    <td>12.4.0</td> <!-- ScandiQA-da version -->
-   </tr>
-  <tr class="not-merged-model">
-   <td>NorwAI/NorwAI-Mistral-7B-pretrain (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">7537</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">68</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">3,024 ± 496 / 909 ± 301</td> <!-- Model inference speed -->
-   <td class="rank">4.29</td> <!-- ScandEval rank -->
-   <td class="da ner">12.82 ± 2.64 / 12.37 ± 1.95</td> <!-- DANSK -->
-   <td class="da sent">3.55 ± 3.64 / 22.75 ± 4.02</td> <!-- Angry Tweets -->
-   <td class="da la">0.68 ± 1.41 / 35.13 ± 0.98</td> <!-- ScaLA-da -->
-   <td class="da rc">19.85 ± 1.75 / 24.31 ± 1.88</td> <!-- ScandiQA-da -->
-   <td>12.10.5</td> <!-- DANSK version -->
-   <td>12.10.5</td> <!-- Angry Tweets version -->
-   <td>12.10.5</td> <!-- ScaLA-da version -->
-   <td>12.10.5</td> <!-- ScandiQA-da version -->
    </tr>
   <tr class="not-merged-model">
    <td>AI-Sweden-Models/gpt-sw3-126m (few-shot)</td> <!-- Model ID -->
@@ -4130,6 +4130,23 @@ title: Danish NLU 🇩🇰
    <td>9.2.0</td> <!-- Angry Tweets version -->
    <td>9.2.0</td> <!-- ScaLA-da version -->
    <td>12.5.1</td> <!-- ScandiQA-da version -->
+   </tr>
+  <tr class="not-merged-model">
+   <td>NorwAI/NorwAI-Mistral-7B-pretrain (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">7537</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">68</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">3,024 ± 496 / 909 ± 301</td> <!-- Model inference speed -->
+   <td class="rank">4.30</td> <!-- ScandEval rank -->
+   <td class="da ner">12.82 ± 2.64 / 12.37 ± 1.95</td> <!-- DANSK -->
+   <td class="da sent">3.55 ± 3.64 / 22.75 ± 4.02</td> <!-- Angry Tweets -->
+   <td class="da la">0.68 ± 1.41 / 35.13 ± 0.98</td> <!-- ScaLA-da -->
+   <td class="da rc">19.85 ± 1.75 / 24.31 ± 1.88</td> <!-- ScandiQA-da -->
+   <td>12.10.5</td> <!-- DANSK version -->
+   <td>12.10.5</td> <!-- Angry Tweets version -->
+   <td>12.10.5</td> <!-- ScaLA-da version -->
+   <td>12.10.5</td> <!-- ScandiQA-da version -->
    </tr>
   <tr class="not-merged-model">
    <td>fresh-electra-small</td> <!-- Model ID -->
@@ -4206,7 +4223,7 @@ title: Danish NLU 🇩🇰
    <td class="max_sequence_length">1024</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">11,734 ± 3,124 / 2,174 ± 720</td> <!-- Model inference speed -->
-   <td class="rank">4.79</td> <!-- ScandEval rank -->
+   <td class="rank">4.80</td> <!-- ScandEval rank -->
    <td class="da ner">0.65 ± 0.68 / 0.59 ± 0.63</td> <!-- DANSK -->
    <td class="da sent">2.61 ± 2.75 / 20.51 ± 2.48</td> <!-- Angry Tweets -->
    <td class="da la">-0.73 ± 1.72 / 41.15 ± 3.71</td> <!-- ScaLA-da -->
@@ -4240,7 +4257,7 @@ title: Danish NLU 🇩🇰
    <td class="max_sequence_length">1024</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">6,025 ± 1,442 / 1,342 ± 431</td> <!-- Model inference speed -->
-   <td class="rank">4.88</td> <!-- ScandEval rank -->
+   <td class="rank">4.89</td> <!-- ScandEval rank -->
    <td class="da ner">0.64 ± 0.89 / 0.52 ± 0.69</td> <!-- DANSK -->
    <td class="da sent">-0.52 ± 1.72 / 28.55 ± 1.60</td> <!-- Angry Tweets -->
    <td class="da la">-0.02 ± 1.55 / 36.82 ± 2.52</td> <!-- ScaLA-da -->
@@ -4257,7 +4274,7 @@ title: Danish NLU 🇩🇰
    <td class="max_sequence_length">1024</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">48,619 ± 7,681 / 13,831 ± 4,404</td> <!-- Model inference speed -->
-   <td class="rank">4.90</td> <!-- ScandEval rank -->
+   <td class="rank">4.91</td> <!-- ScandEval rank -->
    <td class="da ner">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- DANSK -->
    <td class="da sent">0.00 ± 0.00 / 18.12 ± 0.19</td> <!-- Angry Tweets -->
    <td class="da la">0.00 ± 0.00 / 33.25 ± 0.23</td> <!-- ScaLA-da -->
@@ -4274,7 +4291,7 @@ title: Danish NLU 🇩🇰
    <td class="max_sequence_length">1024</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">44,889 ± 6,944 / 13,506 ± 4,256</td> <!-- Model inference speed -->
-   <td class="rank">4.90</td> <!-- ScandEval rank -->
+   <td class="rank">4.91</td> <!-- ScandEval rank -->
    <td class="da ner">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- DANSK -->
    <td class="da sent">0.07 ± 0.70 / 27.86 ± 0.36</td> <!-- Angry Tweets -->
    <td class="da la">0.00 ± 0.00 / 33.25 ± 0.23</td> <!-- ScaLA-da -->
@@ -4291,6 +4308,6 @@ title: Danish NLU 🇩🇰
 <div class="end-note">
   <a href="https://scandeval.com/danish-nlu.csv" target="_blank">Download as CSV</a>
   &nbsp;&nbsp;&bull;&nbsp;&nbsp;
-  <a href="javascript:void(0);" id="embed-link" data-embed="<iframe title=&quot;Danish NLU&quot; aria-label=&quot;Table&quot; id=&quot;datawrapper-chart-K21Mo&quot; src=&quot;https://datawrapper.dwcdn.net/K21Mo/1/&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width: 0; min-width: 100% !important; border: none;&quot; height=&quot;400&quot; data-external=&quot;1&quot;></iframe><script type=&quot;text/javascript&quot;>!function(){&quot;use strict&quot;;window.addEventListener(&quot;message&quot;,(function(a){if(void 0!==a.data[&quot;datawrapper-height&quot;]){var e=document.querySelectorAll(&quot;iframe&quot;);for(var t in a.data[&quot;datawrapper-height&quot;])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data[&quot;datawrapper-height&quot;][t]+&quot;px&quot;;e[r].style.height=i}}}))}();
+  <a href="javascript:void(0);" id="embed-link" data-embed="<iframe title=&quot;Danish NLU&quot; aria-label=&quot;Table&quot; id=&quot;datawrapper-chart-GO7zz&quot; src=&quot;https://datawrapper.dwcdn.net/GO7zz/1/&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width: 0; min-width: 100% !important; border: none;&quot; height=&quot;400&quot; data-external=&quot;1&quot;></iframe><script type=&quot;text/javascript&quot;>!function(){&quot;use strict&quot;;window.addEventListener(&quot;message&quot;,(function(a){if(void 0!==a.data[&quot;datawrapper-height&quot;]){var e=document.querySelectorAll(&quot;iframe&quot;);for(var t in a.data[&quot;datawrapper-height&quot;])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data[&quot;datawrapper-height&quot;][t]+&quot;px&quot;;e[r].style.height=i}}}))}();
 </script>">Copy embed HTML</a>
 </div>

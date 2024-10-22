@@ -3,7 +3,7 @@ layout: leaderboard
 title: English NLU 🇬🇧
 ---
 
-<center>Last updated: 16/10/2024 16:59:08 CET</center>
+<center>Last updated: 22/10/2024 10:22:03 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -58,7 +58,7 @@ title: English NLU 🇬🇧
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">5,367 ± 1,408 / 892 ± 292</td> <!-- Model inference speed -->
-   <td class="rank">1.30</td> <!-- ScandEval rank -->
+   <td class="rank">1.31</td> <!-- ScandEval rank -->
    <td class="en ner">91.57 ± 0.52 / 91.20 ± 0.41</td> <!-- CoNLL-en -->
    <td class="en sent">61.66 ± 0.85 / 60.80 ± 2.63</td> <!-- SST5 -->
    <td class="en la">68.74 ± 1.72 / 83.85 ± 1.05</td> <!-- ScaLA-en -->
@@ -109,7 +109,7 @@ title: English NLU 🇬🇧
    <td class="max_sequence_length">514</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">5,947 ± 1,301 / 1,129 ± 374</td> <!-- Model inference speed -->
-   <td class="rank">1.45</td> <!-- ScandEval rank -->
+   <td class="rank">1.46</td> <!-- ScandEval rank -->
    <td class="en ner">91.43 ± 0.52 / 91.15 ± 0.44</td> <!-- CoNLL-en -->
    <td class="en sent">66.42 ± 1.01 / 64.56 ± 1.33</td> <!-- SST5 -->
    <td class="en la">53.05 ± 12.06 / 75.49 ± 6.21</td> <!-- ScaLA-en -->
@@ -330,7 +330,7 @@ title: English NLU 🇬🇧
    <td class="max_sequence_length">128000</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">916 ± 329 / 114 ± 38</td> <!-- Model inference speed -->
-   <td class="rank">1.65</td> <!-- ScandEval rank -->
+   <td class="rank">1.66</td> <!-- ScandEval rank -->
    <td class="en ner">83.48 ± 1.52 / 75.51 ± 2.26</td> <!-- CoNLL-en -->
    <td class="en sent">62.74 ± 2.04 / 71.28 ± 1.46</td> <!-- SST5 -->
    <td class="en la">46.56 ± 3.35 / 71.13 ± 1.97</td> <!-- ScaLA-en -->
@@ -409,23 +409,6 @@ title: English NLU 🇬🇧
    <td>13.0.0</td> <!-- SQuAD version -->
    </tr>
   <tr class="not-merged-model">
-   <td>gpt-4o-mini-2024-07-18 (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">200</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">128126</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">1,171 ± 378 / 120 ± 39</td> <!-- Model inference speed -->
-   <td class="rank">1.74</td> <!-- ScandEval rank -->
-   <td class="en ner">78.84 ± 1.47 / 68.25 ± 3.41</td> <!-- CoNLL-en -->
-   <td class="en sent">60.72 ± 1.81 / 67.08 ± 1.16</td> <!-- SST5 -->
-   <td class="en la">50.99 ± 1.31 / 72.72 ± 1.34</td> <!-- ScaLA-en -->
-   <td class="en rc">61.45 ± 1.95 / 83.59 ± 0.82</td> <!-- SQuAD -->
-   <td>12.11.0</td> <!-- CoNLL-en version -->
-   <td>12.11.0</td> <!-- SST5 version -->
-   <td>12.11.0</td> <!-- ScaLA-en version -->
-   <td>12.11.0</td> <!-- SQuAD version -->
-   </tr>
-  <tr class="not-merged-model">
    <td>intfloat/multilingual-e5-base</td> <!-- Model ID -->
    <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
@@ -441,6 +424,23 @@ title: English NLU 🇬🇧
    <td>12.6.1</td> <!-- SST5 version -->
    <td>12.6.1</td> <!-- ScaLA-en version -->
    <td>12.6.1</td> <!-- SQuAD version -->
+   </tr>
+  <tr class="not-merged-model">
+   <td>gpt-4o-mini-2024-07-18 (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">200</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">128126</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">1,171 ± 378 / 120 ± 39</td> <!-- Model inference speed -->
+   <td class="rank">1.75</td> <!-- ScandEval rank -->
+   <td class="en ner">78.84 ± 1.47 / 68.25 ± 3.41</td> <!-- CoNLL-en -->
+   <td class="en sent">60.72 ± 1.81 / 67.08 ± 1.16</td> <!-- SST5 -->
+   <td class="en la">50.99 ± 1.31 / 72.72 ± 1.34</td> <!-- ScaLA-en -->
+   <td class="en rc">61.45 ± 1.95 / 83.59 ± 0.82</td> <!-- SQuAD -->
+   <td>12.11.0</td> <!-- CoNLL-en version -->
+   <td>12.11.0</td> <!-- SST5 version -->
+   <td>12.11.0</td> <!-- ScaLA-en version -->
+   <td>12.11.0</td> <!-- SQuAD version -->
    </tr>
   <tr class="not-merged-model">
    <td>mistralai/Mistral-Nemo-Instruct-2407 (few-shot)</td> <!-- Model ID -->
@@ -1055,23 +1055,6 @@ title: English NLU 🇬🇧
    <td>13.0.0</td> <!-- SQuAD version -->
    </tr>
   <tr class="not-merged-model">
-   <td>google-bert/bert-base-multilingual-cased</td> <!-- Model ID -->
-   <td class="num_model_parameters">177</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">120</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">14,083 ± 3,264 / 2,738 ± 889</td> <!-- Model inference speed -->
-   <td class="rank">2.15</td> <!-- ScandEval rank -->
-   <td class="en ner">89.32 ± 0.47 / 88.95 ± 0.35</td> <!-- CoNLL-en -->
-   <td class="en sent">41.89 ± 1.50 / 47.23 ± 0.75</td> <!-- SST5 -->
-   <td class="en la">38.34 ± 12.84 / 67.51 ± 6.66</td> <!-- ScaLA-en -->
-   <td class="en rc">55.19 ± 1.66 / 66.42 ± 1.46</td> <!-- SQuAD -->
-   <td>0.0.0</td> <!-- CoNLL-en version -->
-   <td>0.0.0</td> <!-- SST5 version -->
-   <td>0.0.0</td> <!-- ScaLA-en version -->
-   <td>0.0.0</td> <!-- SQuAD version -->
-   </tr>
-  <tr class="not-merged-model">
    <td>google/gemma-7b (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">8538</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">256</td> <!-- Size of the model's vocabulary -->
@@ -1104,6 +1087,23 @@ title: English NLU 🇬🇧
    <td>12.3.1</td> <!-- SST5 version -->
    <td>12.3.1</td> <!-- ScaLA-en version -->
    <td>12.3.1</td> <!-- SQuAD version -->
+   </tr>
+  <tr class="not-merged-model">
+   <td>google-bert/bert-base-multilingual-cased</td> <!-- Model ID -->
+   <td class="num_model_parameters">177</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">120</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">14,083 ± 3,264 / 2,738 ± 889</td> <!-- Model inference speed -->
+   <td class="rank">2.16</td> <!-- ScandEval rank -->
+   <td class="en ner">89.32 ± 0.47 / 88.95 ± 0.35</td> <!-- CoNLL-en -->
+   <td class="en sent">41.89 ± 1.50 / 47.23 ± 0.75</td> <!-- SST5 -->
+   <td class="en la">38.34 ± 12.84 / 67.51 ± 6.66</td> <!-- ScaLA-en -->
+   <td class="en rc">55.19 ± 1.66 / 66.42 ± 1.46</td> <!-- SQuAD -->
+   <td>0.0.0</td> <!-- CoNLL-en version -->
+   <td>0.0.0</td> <!-- SST5 version -->
+   <td>0.0.0</td> <!-- ScaLA-en version -->
+   <td>0.0.0</td> <!-- SQuAD version -->
    </tr>
   <tr class="not-merged-model">
    <td>meta-llama/Llama-2-13b-chat-hf (few-shot)</td> <!-- Model ID -->
@@ -1310,23 +1310,6 @@ title: English NLU 🇬🇧
    <td>12.9.1</td> <!-- SQuAD version -->
    </tr>
   <tr class="not-merged-model">
-   <td>mistralai/Mistral-7B-Instruct-v0.2 (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">634 ± 179 / 110 ± 35</td> <!-- Model inference speed -->
-   <td class="rank">2.25</td> <!-- ScandEval rank -->
-   <td class="en ner">62.11 ± 1.61 / 52.36 ± 2.00</td> <!-- CoNLL-en -->
-   <td class="en sent">59.91 ± 2.10 / 68.92 ± 1.21</td> <!-- SST5 -->
-   <td class="en la">30.66 ± 3.60 / 64.32 ± 2.03</td> <!-- ScaLA-en -->
-   <td class="en rc">58.27 ± 2.09 / 77.85 ± 0.70</td> <!-- SQuAD -->
-   <td>9.3.1</td> <!-- CoNLL-en version -->
-   <td>9.2.0</td> <!-- SST5 version -->
-   <td>9.3.1</td> <!-- ScaLA-en version -->
-   <td>12.4.0</td> <!-- SQuAD version -->
-   </tr>
-  <tr class="not-merged-model">
    <td>meta-llama/Llama-2-7b-chat-hf (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">6738</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -1340,6 +1323,23 @@ title: English NLU 🇬🇧
    <td class="en rc">64.45 ± 1.39 / 80.79 ± 0.79</td> <!-- SQuAD -->
    <td>9.3.1</td> <!-- CoNLL-en version -->
    <td>9.3.1</td> <!-- SST5 version -->
+   <td>9.3.1</td> <!-- ScaLA-en version -->
+   <td>12.4.0</td> <!-- SQuAD version -->
+   </tr>
+  <tr class="not-merged-model">
+   <td>mistralai/Mistral-7B-Instruct-v0.2 (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">634 ± 179 / 110 ± 35</td> <!-- Model inference speed -->
+   <td class="rank">2.26</td> <!-- ScandEval rank -->
+   <td class="en ner">62.11 ± 1.61 / 52.36 ± 2.00</td> <!-- CoNLL-en -->
+   <td class="en sent">59.91 ± 2.10 / 68.92 ± 1.21</td> <!-- SST5 -->
+   <td class="en la">30.66 ± 3.60 / 64.32 ± 2.03</td> <!-- ScaLA-en -->
+   <td class="en rc">58.27 ± 2.09 / 77.85 ± 0.70</td> <!-- SQuAD -->
+   <td>9.3.1</td> <!-- CoNLL-en version -->
+   <td>9.2.0</td> <!-- SST5 version -->
    <td>9.3.1</td> <!-- ScaLA-en version -->
    <td>12.4.0</td> <!-- SQuAD version -->
    </tr>
@@ -1435,7 +1435,7 @@ title: English NLU 🇬🇧
    <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,732 ± 868 / 662 ± 238</td> <!-- Model inference speed -->
-   <td class="rank">2.42</td> <!-- ScandEval rank -->
+   <td class="rank">2.41</td> <!-- ScandEval rank -->
    <td class="en ner">60.64 ± 2.11 / 55.14 ± 2.01</td> <!-- CoNLL-en -->
    <td class="en sent">61.20 ± 1.16 / 61.92 ± 1.68</td> <!-- SST5 -->
    <td class="en la">7.63 ± 2.79 / 46.39 ± 3.79</td> <!-- ScaLA-en -->
@@ -1469,7 +1469,7 @@ title: English NLU 🇬🇧
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">20,154 ± 4,438 / 3,890 ± 1,256</td> <!-- Model inference speed -->
-   <td class="rank">2.44</td> <!-- ScandEval rank -->
+   <td class="rank">2.45</td> <!-- ScandEval rank -->
    <td class="en ner">84.05 ± 0.61 / 84.48 ± 0.51</td> <!-- CoNLL-en -->
    <td class="en sent">54.92 ± 1.28 / 52.65 ± 0.58</td> <!-- SST5 -->
    <td class="en la">45.85 ± 1.41 / 71.78 ± 0.82</td> <!-- ScaLA-en -->
@@ -1486,28 +1486,11 @@ title: English NLU 🇬🇧
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">15,040 ± 2,953 / 3,417 ± 1,100</td> <!-- Model inference speed -->
-   <td class="rank">2.44</td> <!-- ScandEval rank -->
+   <td class="rank">2.45</td> <!-- ScandEval rank -->
    <td class="en ner">82.39 ± 0.62 / 83.07 ± 0.48</td> <!-- CoNLL-en -->
    <td class="en sent">57.35 ± 1.00 / 54.82 ± 0.65</td> <!-- SST5 -->
    <td class="en la">47.29 ± 2.10 / 71.85 ± 1.30</td> <!-- ScaLA-en -->
    <td class="en rc">4.29 ± 0.33 / 10.53 ± 0.29</td> <!-- SQuAD -->
-   <td>12.6.1</td> <!-- CoNLL-en version -->
-   <td>12.6.1</td> <!-- SST5 version -->
-   <td>12.6.1</td> <!-- ScaLA-en version -->
-   <td>12.6.1</td> <!-- SQuAD version -->
-   </tr>
-  <tr class="not-merged-model">
-   <td>cardiffnlp/twitter-xlm-roberta-base</td> <!-- Model ID -->
-   <td class="num_model_parameters">277</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">34,475 ± 7,465 / 6,712 ± 2,223</td> <!-- Model inference speed -->
-   <td class="rank">2.45</td> <!-- ScandEval rank -->
-   <td class="en ner">87.09 ± 0.61 / 87.25 ± 0.49</td> <!-- CoNLL-en -->
-   <td class="en sent">55.40 ± 0.56 / 52.86 ± 0.29</td> <!-- SST5 -->
-   <td class="en la">39.78 ± 3.59 / 67.21 ± 2.02</td> <!-- ScaLA-en -->
-   <td class="en rc">6.20 ± 4.26 / 13.47 ± 5.29</td> <!-- SQuAD -->
    <td>12.6.1</td> <!-- CoNLL-en version -->
    <td>12.6.1</td> <!-- SST5 version -->
    <td>12.6.1</td> <!-- ScaLA-en version -->
@@ -1531,6 +1514,40 @@ title: English NLU 🇬🇧
    <td>12.6.1</td> <!-- SQuAD version -->
    </tr>
   <tr class="not-merged-model">
+   <td>cardiffnlp/twitter-xlm-roberta-base</td> <!-- Model ID -->
+   <td class="num_model_parameters">277</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">34,475 ± 7,465 / 6,712 ± 2,223</td> <!-- Model inference speed -->
+   <td class="rank">2.46</td> <!-- ScandEval rank -->
+   <td class="en ner">87.09 ± 0.61 / 87.25 ± 0.49</td> <!-- CoNLL-en -->
+   <td class="en sent">55.40 ± 0.56 / 52.86 ± 0.29</td> <!-- SST5 -->
+   <td class="en la">39.78 ± 3.59 / 67.21 ± 2.02</td> <!-- ScaLA-en -->
+   <td class="en rc">6.20 ± 4.26 / 13.47 ± 5.29</td> <!-- SQuAD -->
+   <td>12.6.1</td> <!-- CoNLL-en version -->
+   <td>12.6.1</td> <!-- SST5 version -->
+   <td>12.6.1</td> <!-- ScaLA-en version -->
+   <td>12.6.1</td> <!-- SQuAD version -->
+   </tr>
+  <tr class="not-merged-model">
+   <td>stabilityai/stablelm-2-1_6b (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">1645</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">100</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">7,259 ± 2,120 / 1,240 ± 432</td> <!-- Model inference speed -->
+   <td class="rank">2.48</td> <!-- ScandEval rank -->
+   <td class="en ner">47.50 ± 1.70 / 41.85 ± 1.68</td> <!-- CoNLL-en -->
+   <td class="en sent">64.69 ± 1.33 / 57.60 ± 0.63</td> <!-- SST5 -->
+   <td class="en la">8.01 ± 1.97 / 51.78 ± 1.65</td> <!-- ScaLA-en -->
+   <td class="en rc">71.81 ± 1.05 / 80.90 ± 0.72</td> <!-- SQuAD -->
+   <td>12.10.8</td> <!-- CoNLL-en version -->
+   <td>12.10.8</td> <!-- SST5 version -->
+   <td>12.10.8</td> <!-- ScaLA-en version -->
+   <td>12.10.8</td> <!-- SQuAD version -->
+   </tr>
+  <tr class="not-merged-model">
    <td>distilbert/distilbert-base-multilingual-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">135</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">120</td> <!-- Size of the model's vocabulary -->
@@ -1546,23 +1563,6 @@ title: English NLU 🇬🇧
    <td>0.0.0</td> <!-- SST5 version -->
    <td>0.0.0</td> <!-- ScaLA-en version -->
    <td>0.0.0</td> <!-- SQuAD version -->
-   </tr>
-  <tr class="not-merged-model">
-   <td>stabilityai/stablelm-2-1_6b (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">1645</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">100</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">7,259 ± 2,120 / 1,240 ± 432</td> <!-- Model inference speed -->
-   <td class="rank">2.49</td> <!-- ScandEval rank -->
-   <td class="en ner">47.50 ± 1.70 / 41.85 ± 1.68</td> <!-- CoNLL-en -->
-   <td class="en sent">64.69 ± 1.33 / 57.60 ± 0.63</td> <!-- SST5 -->
-   <td class="en la">8.01 ± 1.97 / 51.78 ± 1.65</td> <!-- ScaLA-en -->
-   <td class="en rc">71.81 ± 1.05 / 80.90 ± 0.72</td> <!-- SQuAD -->
-   <td>12.10.8</td> <!-- CoNLL-en version -->
-   <td>12.10.8</td> <!-- SST5 version -->
-   <td>12.10.8</td> <!-- ScaLA-en version -->
-   <td>12.10.8</td> <!-- SQuAD version -->
    </tr>
   <tr class="not-merged-model">
    <td>ibm-granite/granite-7b-base (few-shot)</td> <!-- Model ID -->
@@ -1605,7 +1605,7 @@ title: English NLU 🇬🇧
    <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">1,875 ± 673 / 261 ± 91</td> <!-- Model inference speed -->
-   <td class="rank">2.58</td> <!-- ScandEval rank -->
+   <td class="rank">2.57</td> <!-- ScandEval rank -->
    <td class="en ner">45.86 ± 3.18 / 40.23 ± 2.41</td> <!-- CoNLL-en -->
    <td class="en sent">62.08 ± 3.29 / 55.11 ± 1.68</td> <!-- SST5 -->
    <td class="en la">6.62 ± 2.43 / 48.79 ± 3.77</td> <!-- ScaLA-en -->
@@ -1622,7 +1622,7 @@ title: English NLU 🇬🇧
    <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">1,831 ± 587 / 268 ± 90</td> <!-- Model inference speed -->
-   <td class="rank">2.59</td> <!-- ScandEval rank -->
+   <td class="rank">2.58</td> <!-- ScandEval rank -->
    <td class="en ner">39.21 ± 1.52 / 34.08 ± 1.88</td> <!-- CoNLL-en -->
    <td class="en sent">65.58 ± 1.59 / 57.86 ± 1.13</td> <!-- SST5 -->
    <td class="en la">7.82 ± 1.43 / 51.19 ± 1.75</td> <!-- ScaLA-en -->
@@ -1667,6 +1667,23 @@ title: English NLU 🇬🇧
    <td>12.1.0</td> <!-- SQuAD version -->
    </tr>
   <tr class="not-merged-model">
+   <td>TrustLLMeu/baseline-7-8b_1t-tokens_llama (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">7800</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">100</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">6,197 ± 1,118 / 1,730 ± 577</td> <!-- Model inference speed -->
+   <td class="rank">2.63</td> <!-- ScandEval rank -->
+   <td class="en ner">45.89 ± 2.63 / 42.96 ± 2.56</td> <!-- CoNLL-en -->
+   <td class="en sent">59.29 ± 1.35 / 65.59 ± 1.02</td> <!-- SST5 -->
+   <td class="en la">9.11 ± 2.36 / 52.02 ± 2.16</td> <!-- ScaLA-en -->
+   <td class="en rc">66.74 ± 1.21 / 77.75 ± 1.09</td> <!-- SQuAD -->
+   <td>13.0.0</td> <!-- CoNLL-en version -->
+   <td>13.0.0</td> <!-- SST5 version -->
+   <td>13.0.0</td> <!-- ScaLA-en version -->
+   <td>13.0.0</td> <!-- SQuAD version -->
+   </tr>
+  <tr class="not-merged-model">
    <td>google/gemma-2-2b (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">2614</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">256</td> <!-- Size of the model's vocabulary -->
@@ -1690,7 +1707,7 @@ title: English NLU 🇬🇧
    <td class="max_sequence_length">131200</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">7,436 ± 1,846 / 1,508 ± 479</td> <!-- Model inference speed -->
-   <td class="rank">2.76</td> <!-- ScandEval rank -->
+   <td class="rank">2.75</td> <!-- ScandEval rank -->
    <td class="en ner">56.41 ± 1.79 / 52.05 ± 1.57</td> <!-- CoNLL-en -->
    <td class="en sent">59.46 ± 1.16 / 65.61 ± 1.08</td> <!-- SST5 -->
    <td class="en la">8.36 ± 0.71 / 49.50 ± 2.90</td> <!-- ScaLA-en -->
@@ -1758,7 +1775,7 @@ title: English NLU 🇬🇧
    <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">6,087 ± 1,046 / 1,902 ± 563</td> <!-- Model inference speed -->
-   <td class="rank">2.89</td> <!-- ScandEval rank -->
+   <td class="rank">2.88</td> <!-- ScandEval rank -->
    <td class="en ner">19.65 ± 5.96 / 18.64 ± 5.49</td> <!-- CoNLL-en -->
    <td class="en sent">62.14 ± 1.16 / 67.81 ± 0.65</td> <!-- SST5 -->
    <td class="en la">8.30 ± 1.63 / 45.01 ± 3.82</td> <!-- ScaLA-en -->
@@ -1786,6 +1803,23 @@ title: English NLU 🇬🇧
    <td>12.6.1</td> <!-- SQuAD version -->
    </tr>
   <tr class="not-merged-model">
+   <td>allenai/OLMo-7B-Twin-2T (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">6888</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">2176</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">5,484 ± 1,125 / 1,317 ± 425</td> <!-- Model inference speed -->
+   <td class="rank">2.95</td> <!-- ScandEval rank -->
+   <td class="en ner">25.36 ± 8.05 / 24.05 ± 7.34</td> <!-- CoNLL-en -->
+   <td class="en sent">56.91 ± 2.41 / 66.15 ± 1.54</td> <!-- SST5 -->
+   <td class="en la">7.10 ± 2.89 / 49.36 ± 4.03</td> <!-- ScaLA-en -->
+   <td class="en rc">58.60 ± 5.37 / 70.37 ± 4.71</td> <!-- SQuAD -->
+   <td>12.5.2</td> <!-- CoNLL-en version -->
+   <td>12.5.2</td> <!-- SST5 version -->
+   <td>12.5.2</td> <!-- ScaLA-en version -->
+   <td>12.5.2</td> <!-- SQuAD version -->
+   </tr>
+  <tr class="not-merged-model">
    <td>NorwAI/NorwAI-Llama2-7B (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7033</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">68</td> <!-- Size of the model's vocabulary -->
@@ -1801,23 +1835,6 @@ title: English NLU 🇬🇧
    <td>12.10.4</td> <!-- SST5 version -->
    <td>12.10.4</td> <!-- ScaLA-en version -->
    <td>12.10.4</td> <!-- SQuAD version -->
-   </tr>
-  <tr class="not-merged-model">
-   <td>allenai/OLMo-7B-Twin-2T (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">6888</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">2176</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">5,484 ± 1,125 / 1,317 ± 425</td> <!-- Model inference speed -->
-   <td class="rank">2.96</td> <!-- ScandEval rank -->
-   <td class="en ner">25.36 ± 8.05 / 24.05 ± 7.34</td> <!-- CoNLL-en -->
-   <td class="en sent">56.91 ± 2.41 / 66.15 ± 1.54</td> <!-- SST5 -->
-   <td class="en la">7.10 ± 2.89 / 49.36 ± 4.03</td> <!-- ScaLA-en -->
-   <td class="en rc">58.60 ± 5.37 / 70.37 ± 4.71</td> <!-- SQuAD -->
-   <td>12.5.2</td> <!-- CoNLL-en version -->
-   <td>12.5.2</td> <!-- SST5 version -->
-   <td>12.5.2</td> <!-- ScaLA-en version -->
-   <td>12.5.2</td> <!-- SQuAD version -->
    </tr>
   <tr class="not-merged-model">
    <td>google/gemma-2b-it (few-shot)</td> <!-- Model ID -->
@@ -1956,23 +1973,6 @@ title: English NLU 🇬🇧
    <td>12.1.0</td> <!-- SQuAD version -->
    </tr>
   <tr class="not-merged-model">
-   <td>sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2</td> <!-- Model ID -->
-   <td class="num_model_parameters">118</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">29,201 ± 6,282 / 6,045 ± 2,027</td> <!-- Model inference speed -->
-   <td class="rank">3.15</td> <!-- ScandEval rank -->
-   <td class="en ner">77.50 ± 0.54 / 78.82 ± 0.48</td> <!-- CoNLL-en -->
-   <td class="en sent">53.10 ± 1.18 / 51.88 ± 0.50</td> <!-- SST5 -->
-   <td class="en la">-0.35 ± 1.84 / 48.74 ± 1.43</td> <!-- ScaLA-en -->
-   <td class="en rc">3.13 ± 0.27 / 9.98 ± 0.25</td> <!-- SQuAD -->
-   <td>12.6.1</td> <!-- CoNLL-en version -->
-   <td>12.6.1</td> <!-- SST5 version -->
-   <td>12.6.1</td> <!-- ScaLA-en version -->
-   <td>12.6.1</td> <!-- SQuAD version -->
-   </tr>
-  <tr class="not-merged-model">
    <td>EuropeanParliament/EUBERT</td> <!-- Model ID -->
    <td class="num_model_parameters">94</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">66</td> <!-- Size of the model's vocabulary -->
@@ -1990,13 +1990,30 @@ title: English NLU 🇬🇧
    <td>12.6.1</td> <!-- SQuAD version -->
    </tr>
   <tr class="not-merged-model">
+   <td>sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2</td> <!-- Model ID -->
+   <td class="num_model_parameters">118</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">29,201 ± 6,282 / 6,045 ± 2,027</td> <!-- Model inference speed -->
+   <td class="rank">3.16</td> <!-- ScandEval rank -->
+   <td class="en ner">77.50 ± 0.54 / 78.82 ± 0.48</td> <!-- CoNLL-en -->
+   <td class="en sent">53.10 ± 1.18 / 51.88 ± 0.50</td> <!-- SST5 -->
+   <td class="en la">-0.35 ± 1.84 / 48.74 ± 1.43</td> <!-- ScaLA-en -->
+   <td class="en rc">3.13 ± 0.27 / 9.98 ± 0.25</td> <!-- SQuAD -->
+   <td>12.6.1</td> <!-- CoNLL-en version -->
+   <td>12.6.1</td> <!-- SST5 version -->
+   <td>12.6.1</td> <!-- ScaLA-en version -->
+   <td>12.6.1</td> <!-- SQuAD version -->
+   </tr>
+  <tr class="not-merged-model">
    <td>allenai/OLMo-1B (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">1177</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">2176</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">8,536 ± 1,926 / 1,940 ± 619</td> <!-- Model inference speed -->
-   <td class="rank">3.17</td> <!-- ScandEval rank -->
+   <td class="rank">3.18</td> <!-- ScandEval rank -->
    <td class="en ner">26.47 ± 6.25 / 28.27 ± 5.35</td> <!-- CoNLL-en -->
    <td class="en sent">60.05 ± 3.94 / 56.18 ± 1.90</td> <!-- SST5 -->
    <td class="en la">0.72 ± 1.90 / 42.84 ± 3.50</td> <!-- ScaLA-en -->
@@ -2013,7 +2030,7 @@ title: English NLU 🇬🇧
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">20,047 ± 4,407 / 3,844 ± 1,259</td> <!-- Model inference speed -->
-   <td class="rank">3.20</td> <!-- ScandEval rank -->
+   <td class="rank">3.21</td> <!-- ScandEval rank -->
    <td class="en ner">77.64 ± 0.74 / 79.56 ± 0.53</td> <!-- CoNLL-en -->
    <td class="en sent">12.42 ± 9.17 / 33.80 ± 4.31</td> <!-- SST5 -->
    <td class="en la">13.65 ± 6.22 / 53.84 ± 2.20</td> <!-- ScaLA-en -->
@@ -2064,7 +2081,7 @@ title: English NLU 🇬🇧
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">34,042 ± 8,482 / 5,951 ± 1,950</td> <!-- Model inference speed -->
-   <td class="rank">3.52</td> <!-- ScandEval rank -->
+   <td class="rank">3.53</td> <!-- ScandEval rank -->
    <td class="en ner">71.33 ± 0.75 / 73.43 ± 0.61</td> <!-- CoNLL-en -->
    <td class="en sent">36.75 ± 1.28 / 47.80 ± 1.46</td> <!-- SST5 -->
    <td class="en la">0.24 ± 1.44 / 47.55 ± 1.59</td> <!-- ScaLA-en -->
@@ -2098,7 +2115,7 @@ title: English NLU 🇬🇧
    <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">10,890 ± 2,686 / 2,186 ± 750</td> <!-- Model inference speed -->
-   <td class="rank">3.89</td> <!-- ScandEval rank -->
+   <td class="rank">3.90</td> <!-- ScandEval rank -->
    <td class="en ner">18.69 ± 7.23 / 18.50 ± 6.51</td> <!-- CoNLL-en -->
    <td class="en sent">21.95 ± 6.30 / 33.38 ± 4.79</td> <!-- SST5 -->
    <td class="en la">0.01 ± 1.91 / 39.40 ± 3.94</td> <!-- ScaLA-en -->
@@ -2115,7 +2132,7 @@ title: English NLU 🇬🇧
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">12,783 ± 2,537 / 2,712 ± 885</td> <!-- Model inference speed -->
-   <td class="rank">4.01</td> <!-- ScandEval rank -->
+   <td class="rank">4.02</td> <!-- ScandEval rank -->
    <td class="en ner">68.25 ± 2.50 / 70.44 ± 2.50</td> <!-- CoNLL-en -->
    <td class="en sent">1.92 ± 1.68 / 28.84 ± 2.38</td> <!-- SST5 -->
    <td class="en la">1.08 ± 1.34 / 47.42 ± 1.71</td> <!-- ScaLA-en -->
@@ -2149,7 +2166,7 @@ title: English NLU 🇬🇧
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">7,840 ± 1,538 / 3,024 ± 438</td> <!-- Model inference speed -->
-   <td class="rank">4.55</td> <!-- ScandEval rank -->
+   <td class="rank">4.56</td> <!-- ScandEval rank -->
    <td class="en ner">30.77 ± 0.92 / 30.14 ± 1.03</td> <!-- CoNLL-en -->
    <td class="en sent">0.58 ± 1.45 / 20.82 ± 1.74</td> <!-- SST5 -->
    <td class="en la">-0.17 ± 0.47 / 37.18 ± 3.93</td> <!-- ScaLA-en -->
@@ -2166,7 +2183,7 @@ title: English NLU 🇬🇧
    <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">3,024 ± 496 / 909 ± 301</td> <!-- Model inference speed -->
-   <td class="rank">4.83</td> <!-- ScandEval rank -->
+   <td class="rank">4.84</td> <!-- ScandEval rank -->
    <td class="en ner">12.34 ± 2.70 / 12.41 ± 2.54</td> <!-- CoNLL-en -->
    <td class="en sent">-1.48 ± 3.09 / 21.17 ± 2.22</td> <!-- SST5 -->
    <td class="en la">-0.48 ± 1.52 / 42.45 ± 3.99</td> <!-- ScaLA-en -->
@@ -2183,7 +2200,7 @@ title: English NLU 🇬🇧
    <td class="max_sequence_length">1024</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">11,734 ± 3,124 / 2,174 ± 720</td> <!-- Model inference speed -->
-   <td class="rank">4.84</td> <!-- ScandEval rank -->
+   <td class="rank">4.85</td> <!-- ScandEval rank -->
    <td class="en ner">1.55 ± 1.98 / 1.45 ± 1.82</td> <!-- CoNLL-en -->
    <td class="en sent">3.71 ± 3.16 / 22.09 ± 2.08</td> <!-- SST5 -->
    <td class="en la">-0.42 ± 1.56 / 40.58 ± 3.74</td> <!-- ScaLA-en -->
@@ -2200,7 +2217,7 @@ title: English NLU 🇬🇧
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">5,847 ± 1,029 / 1,640 ± 525</td> <!-- Model inference speed -->
-   <td class="rank">4.95</td> <!-- ScandEval rank -->
+   <td class="rank">4.96</td> <!-- ScandEval rank -->
    <td class="en ner">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- CoNLL-en -->
    <td class="en sent">0.00 ± 0.00 / 19.61 ± 0.22</td> <!-- SST5 -->
    <td class="en la">0.41 ± 0.55 / 33.46 ± 0.37</td> <!-- ScaLA-en -->
@@ -2217,6 +2234,6 @@ title: English NLU 🇬🇧
 <div class="end-note">
   <a href="https://scandeval.com/english-nlu.csv" target="_blank">Download as CSV</a>
   &nbsp;&nbsp;&bull;&nbsp;&nbsp;
-  <a href="javascript:void(0);" id="embed-link" data-embed="<iframe title=&quot;English NLU&quot; aria-label=&quot;Table&quot; id=&quot;datawrapper-chart-Q1FMr&quot; src=&quot;https://datawrapper.dwcdn.net/Q1FMr/1/&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width: 0; min-width: 100% !important; border: none;&quot; height=&quot;400&quot; data-external=&quot;1&quot;></iframe><script type=&quot;text/javascript&quot;>!function(){&quot;use strict&quot;;window.addEventListener(&quot;message&quot;,(function(a){if(void 0!==a.data[&quot;datawrapper-height&quot;]){var e=document.querySelectorAll(&quot;iframe&quot;);for(var t in a.data[&quot;datawrapper-height&quot;])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data[&quot;datawrapper-height&quot;][t]+&quot;px&quot;;e[r].style.height=i}}}))}();
+  <a href="javascript:void(0);" id="embed-link" data-embed="<iframe title=&quot;English NLU&quot; aria-label=&quot;Table&quot; id=&quot;datawrapper-chart-7wFye&quot; src=&quot;https://datawrapper.dwcdn.net/7wFye/1/&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width: 0; min-width: 100% !important; border: none;&quot; height=&quot;400&quot; data-external=&quot;1&quot;></iframe><script type=&quot;text/javascript&quot;>!function(){&quot;use strict&quot;;window.addEventListener(&quot;message&quot;,(function(a){if(void 0!==a.data[&quot;datawrapper-height&quot;]){var e=document.querySelectorAll(&quot;iframe&quot;);for(var t in a.data[&quot;datawrapper-height&quot;])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data[&quot;datawrapper-height&quot;][t]+&quot;px&quot;;e[r].style.height=i}}}))}();
 </script>">Copy embed HTML</a>
 </div>
