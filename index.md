@@ -35,3 +35,12 @@ research papers:
 
 - [ScandEval: A Benchmark for Scandinavian Natural Language Processing](https://aclanthology.org/2023.nodalida-1.20/)
 - [Encoder vs Decoder: Comparative Analysis of Encoder and Decoder Language Models on Multilingual NLU Tasks](https://doi.org/10.48550/arXiv.2406.13469)
+
+
+## Frequently asked questions
+
+### How do you determine if a model is "Commercial" or not? 
+We generally determine this based on whether a model's license allows commercial use of the model. However if we are aware that a model is trained on data, that does not allow for commercial use, we will specify it as non-commercial model, despite the stated license. If you find an issue with any of models feel free to open an [issue](https://github.com/ScandEval/ScandEval/issues).
+
+### Not finding the answer that you are looking for?
+If don't find the answer that you are looking for feel free to ask your question in the [forum](https://github.com/ScandEval/ScandEval/discussions).
