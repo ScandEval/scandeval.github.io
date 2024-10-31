@@ -278,7 +278,7 @@ def record_is_valid(record: dict) -> bool:
     if record.get("version") in BANNED_VERSIONS:
         return False
 
-    # TEMP
+    # TEMP: Remove this when we want to include zero-shot models
     if (
         "generative" in record
         and "few_shot" in record
