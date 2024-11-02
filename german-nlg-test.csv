@@ -1,10 +1,10 @@
 model_id,num_model_parameters,vocabulary_size,max_sequence_length,commercially_licensed,merge,speed,rank,germeval,sb10k,scala_de,germanquad,mlsum,mmlu_de,hellaswag_de
 "gpt-4-0613 (few-shot, val)",-1,100,8220,True,False,597,1.21,69.48,64.91,50.23,33.17,66.35,71.92,82.85
 "gpt-4-1106-preview (few-shot, val)",-1,100,128000,True,False,576,1.35,68.94,60.47,51.26,30.04,63.62,73.8,83.93
-"meta-llama/Llama-3-70B (few-shot, val)",70554,128,8221,True,False,312,1.36,69.04,63.51,37.41,38.29,70.0,64.93,66.54
+"meta-llama/Meta-Llama-3-70B (few-shot, val)",70554,128,8221,True,False,312,1.36,69.04,63.51,37.41,38.29,70.0,64.93,66.54
 "gpt-4o-2024-05-13 (few-shot, val)",-1,200,127903,True,False,916,1.43,69.99,54.82,43.66,30.06,63.8,74.13,88.18
 google/gemma-2-27b-it (few-shot),27227,256,8224,True,False,1516,1.49,64.13,60.28,46.69,28.54,67.87,59.43,71.59
-"meta-llama/Llama-3-70B-Instruct (few-shot, val)",70554,128,8221,True,False,1673,1.58,75.2,54.38,36.59,26.9,68.63,62.69,69.18
+"meta-llama/Meta-Llama-3-70B-Instruct (few-shot, val)",70554,128,8221,True,False,1673,1.58,75.2,54.38,36.59,26.9,68.63,62.69,69.18
 upstage/SOLAR-10.7B-v1.0 (few-shot),10732,32,4096,True,False,3780,1.59,68.11,59.79,35.45,37.27,69.31,41.2,72.65
 "152334H/miqu-1-70b-sf (few-shot, val)",68977,32,32793,True,False,2126,1.68,65.19,59.8,41.86,25.51,66.8,55.18,61.68
 google/gemma-2-9b (few-shot),9242,256,8224,True,False,2038,1.68,47.39,62.89,37.22,39.11,70.44,53.28,54.51
@@ -28,9 +28,9 @@ microsoft/Phi-3-mini-4k-instruct (few-shot),3821,32,4096,True,False,5224,2.07,59
 "mlabonne/NeuralBeagle14-7B (few-shot, val)",7242,32,8192,False,True,2549,2.1,64.81,59.6,27.06,25.22,67.31,35.84,49.13
 senseable/WestLake-7B-v2 (few-shot),7242,32,32768,False,False,5993,2.12,64.38,54.44,26.03,25.68,68.16,33.84,50.99
 google/gemma-7b (few-shot),8538,256,8096,True,False,1378,2.14,39.88,56.23,32.71,36.58,69.41,41.56,30.77
-meta-llama/Llama-3-8B-Instruct (few-shot),8030,128,8192,True,False,4909,2.15,68.18,58.33,29.12,28.68,65.23,38.44,37.69
+meta-llama/Meta-Llama-3-8B-Instruct (few-shot),8030,128,8192,True,False,4909,2.15,68.18,58.33,29.12,28.68,65.23,38.44,37.69
 VAGOsolutions/FC-SauerkrautLM-7b-beta (few-shot),-1,32,8192,False,False,2160,2.17,56.7,53.39,35.64,34.22,64.79,32.85,39.0
-meta-llama/Llama-3-8B (few-shot),8030,128,8192,True,False,4687,2.19,56.0,56.4,22.01,35.39,68.92,38.12,31.37
+meta-llama/Meta-Llama-3-8B (few-shot),8030,128,8192,True,False,4687,2.19,56.0,56.4,22.01,35.39,68.92,38.12,31.37
 microsoft/Phi-3-mini-128k-instruct (few-shot),3821,32,130976,True,False,7312,2.2,55.36,53.05,23.08,31.55,67.33,39.57,51.26
 "meta-llama/Llama-2-70b-chat-hf (few-shot, val)",68977,32,4125,True,False,1979,2.21,62.39,53.16,31.81,28.99,66.98,35.72,35.26
 occiglot/occiglot-7b-de-en-instruct (few-shot),7242,32,32768,False,False,1584,2.22,55.76,55.91,22.47,35.95,68.08,33.77,33.15

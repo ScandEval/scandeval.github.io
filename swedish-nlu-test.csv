@@ -3,7 +3,7 @@ AI-Sweden-Models/Llama-3-8B-instruct (few-shot),8030,128,8192,False,False,4314,1
 "gpt-4-0613 (few-shot, val)",-1,100,8192,True,False,597,1.28,76.86,79.19,80.93,53.81
 four-two-labs/lynx-micro (few-shot),2506,256,8192,False,False,10162,1.31,83.64,78.57,66.83,58.84
 AI-Sweden-Models/roberta-large-1160k,355,50,512,True,False,14014,1.33,82.65,77.25,77.9,49.64
-"meta-llama/Llama-3-70B (few-shot, val)",70554,128,8192,True,False,312,1.34,74.61,78.61,63.2,61.98
+"meta-llama/Meta-Llama-3-70B (few-shot, val)",70554,128,8192,True,False,312,1.34,74.61,78.61,63.2,61.98
 AI-Sweden-Models/roberta-large-1350k,355,50,512,True,False,5744,1.35,82.97,77.37,73.81,49.5
 "gpt-4-1106-preview (few-shot, val)",-1,100,128000,True,False,576,1.37,74.45,77.59,71.35,56.56
 "gpt-4o-2024-05-13 (few-shot, val)",-1,200,128000,True,False,916,1.37,76.66,77.16,68.99,57.96
@@ -51,7 +51,7 @@ timpal0l/Llama-3-8B-flashback-v1 (few-shot),8030,128,8192,True,False,4807,1.86,5
 pere/roberta-base-exp-32,278,250,512,True,False,15081,1.88,79.75,74.73,53.55,32.2
 four-two-labs/orpo-llama-3-swe (few-shot),8030,128,8192,False,False,4974,1.92,60.93,79.74,26.02,59.84
 "timpal0l/dolphin-2.9-llama3-8b-flashback (few-shot, val)",8030,128,8192,False,True,5018,1.92,65.33,74.99,32.65,55.71
-meta-llama/Llama-3-8B (few-shot),8030,128,8192,True,False,4687,1.93,60.36,79.74,28.24,59.73
+meta-llama/Meta-Llama-3-8B (few-shot),8030,128,8192,True,False,4687,1.93,60.36,79.74,28.24,59.73
 pere/roberta-base-exp-8,278,250,512,True,False,15112,1.93,73.44,73.63,58.91,32.39
 mistralai/Mistral-Nemo-Instruct-2407 (few-shot),12248,131,1024001,True,False,7095,1.94,62.86,70.54,37.5,58.0
 mistralai/Ministral-8B-Instruct-2410 (few-shot),8020,131,32768,True,False,5821,1.97,67.49,76.74,22.37,57.15
@@ -76,7 +76,7 @@ google-bert/bert-base-multilingual-cased,178,120,512,True,False,14083,2.06,76.29
 "merge-crew/da-sv-dare-ties-density-0.9 (few-shot, val)",7242,32,32768,True,True,2443,2.06,46.61,76.38,34.16,58.77
 timpal0l/Mistral-7B-v0.1-flashback-v2 (few-shot),7242,32,32768,True,False,5054,2.06,44.14,80.14,34.23,57.07
 meta-llama/Llama-2-13b-hf (few-shot),13016,32,4096,True,False,2898,2.08,54.52,78.45,21.55,59.71
-"meta-llama/Llama-3-70B-Instruct (few-shot, val)",70554,128,8192,True,False,1673,2.08,77.06,53.56,47.5,46.86
+"meta-llama/Meta-Llama-3-70B-Instruct (few-shot, val)",70554,128,8192,True,False,1673,2.08,77.06,53.56,47.5,46.86
 gpt-4o-mini-2024-07-18 (few-shot),-1,200,128000,True,False,1171,2.09,67.38,65.51,29.41,55.67
 "AI-Sweden-Models/tyr (few-shot, val)",7242,32,32768,False,True,6079,2.1,56.21,78.3,14.35,61.08
 Geotrend/bert-base-25lang-cased,151,85,512,True,False,13908,2.1,75.62,62.5,38.18,40.96
@@ -111,7 +111,7 @@ mistralai/Mistral-7B-v0.1 (few-shot),7242,32,32768,True,False,2657,2.22,53.34,80
 mistralai/Mistral-7B-v0.3 (few-shot),7248,33,32768,True,False,4120,2.22,49.18,79.08,11.06,58.98
 bineric/NorskGPT-Llama3-8b (few-shot),8030,128,8192,False,False,3695,2.23,63.19,76.06,5.34,56.7
 mhenrichsen/hestenettetLM (few-shot),7242,32,32768,True,False,5160,2.23,53.0,79.7,4.32,59.03
-meta-llama/Llama-3-8B-Instruct (few-shot),8030,128,8192,True,False,4909,2.24,69.67,59.93,27.63,49.84
+meta-llama/Meta-Llama-3-8B-Instruct (few-shot),8030,128,8192,True,False,4909,2.24,69.67,59.93,27.63,49.84
 "KennethEnevoldsen/munin_mistral-7b (few-shot, val)",7242,32,32768,False,True,2543,2.25,52.34,77.66,6.0,60.16
 jonfd/electra-small-nordic,22,96,128,True,False,5989,2.25,71.07,66.42,69.19,11.85
 ThatsGroes/munin-SkoleGPTOpenOrca-7b-16bit (few-shot),7242,32,32768,False,False,3006,2.26,44.64,77.98,16.57,57.31
