@@ -25,10 +25,10 @@ CohereForAI/aya-23-8B (few-shot),8028,256,8192,False,False,5608,1.8,61.14,69.68,
 ibm-granite/granite-3.0-8b-base (few-shot),8171,49,4096,True,False,5116,1.81,53.37,68.88,37.17,69.02,68.38,51.0,78.18
 "VAGOsolutions/SauerkrautLM-7b-HerO (few-shot, val)",7242,32,32768,False,True,2477,1.83,69.26,68.63,29.87,60.92,70.2,49.51,71.47
 01-ai/Yi-1.5-6B (few-shot),6061,64,4352,True,False,2867,1.84,55.51,68.74,40.81,72.33,67.71,48.36,68.5
-meta-llama/Meta-Llama-3.1-8B-Instruct (few-shot),8030,128,131328,True,False,2411,1.85,76.95,68.12,34.34,47.88,69.57,56.62,69.03
+meta-llama/Llama-3.1-8B-Instruct (few-shot),8030,128,131328,True,False,2411,1.85,76.95,68.12,34.34,47.88,69.57,56.62,69.03
 "meta-llama/Llama-2-70b-chat-hf (few-shot, val)",68977,32,4096,True,False,1979,1.87,72.8,63.76,28.37,64.7,71.04,47.0,61.56
+meta-llama/Llama-3.1-8B (few-shot),8030,128,131328,True,False,2439,1.9,69.86,66.76,30.96,71.39,67.93,52.47,43.95
 meta-llama/Meta-Llama-3-8B-Instruct (few-shot),8030,128,8192,True,False,4909,1.9,75.02,67.64,32.29,54.84,69.28,53.77,57.64
-meta-llama/Meta-Llama-3.1-8B (few-shot),8030,128,131328,True,False,2439,1.9,69.86,66.76,30.96,71.39,67.93,52.47,43.95
 robinsmits/Qwen1.5-7B-Dutch-Chat-Sft-Bf16 (few-shot),7719,152,32768,False,False,2413,1.9,67.52,63.1,37.75,64.88,68.45,47.66,63.35
 "mlabonne/NeuralBeagle14-7B (few-shot, val)",7242,32,8192,False,True,2549,1.94,69.16,63.85,28.4,52.69,70.55,51.74,71.96
 microsoft/Phi-3-mini-128k-instruct (few-shot),3821,32,131072,True,False,7312,1.96,64.09,46.77,31.62,71.25,69.54,57.66,72.26

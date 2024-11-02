@@ -30,14 +30,14 @@ intfloat/multilingual-e5-base,278,250,512,True,False,14965,1.96,74.79,63.29,45.3
 google/gemma-2-9b-it (few-shot),9242,256,8224,True,False,2062,1.97,50.35,58.6,45.78,30.46
 CohereForAI/aya-23-8B (few-shot),8028,256,8192,False,False,5608,1.99,58.69,56.49,30.04,36.36
 "VAGOsolutions/SauerkrautLM-7b-HerO (few-shot, val)",7242,32,32768,False,True,2477,1.99,59.7,60.22,35.99,29.68
-meta-llama/Meta-Llama-3.1-8B (few-shot),8030,128,131104,True,False,2439,1.99,60.46,58.57,26.25,34.85
+meta-llama/Llama-3.1-8B (few-shot),8030,128,131104,True,False,2439,1.99,60.46,58.57,26.25,34.85
 Nexusflow/Starling-LM-7B-beta (few-shot),7242,32,8192,False,False,5876,2.0,65.01,51.8,36.18,32.12
 VAGOsolutions/SauerkrautLM-7b-LaserChat (few-shot),7242,32,8192,False,False,2387,2.0,64.73,51.08,36.46,33.3
 facebook/xlm-v-base,778,902,512,True,False,25396,2.01,76.45,58.25,34.43,21.08
 "gpt-3.5-turbo-0613 (few-shot, val)",-1,100,4095,True,False,921,2.02,61.5,55.5,38.96,30.2
 VAGOsolutions/FC-SauerkrautLM-7b-beta (few-shot),-1,32,8192,False,False,2160,2.03,56.7,53.39,35.64,34.22
+meta-llama/Llama-3.1-8B-Instruct (few-shot),8030,128,131104,True,False,2411,2.04,67.61,59.96,28.25,28.79
 meta-llama/Meta-Llama-3-8B-Instruct (few-shot),8030,128,8192,True,False,4909,2.04,68.18,58.33,29.12,28.68
-meta-llama/Meta-Llama-3.1-8B-Instruct (few-shot),8030,128,131104,True,False,2411,2.04,67.61,59.96,28.25,28.79
 gpt-4o-mini-2024-07-18 (few-shot),-1,200,128030,True,False,1171,2.06,67.9,51.88,46.77,24.7
 "cstr/Spaetzle-v8-7b (few-shot, val)",7242,32,32768,False,True,5980,2.11,58.9,61.34,31.58,24.91
 ibm-granite/granite-3.0-8b-base (few-shot),8171,49,4128,True,False,5116,2.13,52.61,61.7,23.89,33.72

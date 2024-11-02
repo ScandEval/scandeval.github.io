@@ -8,10 +8,10 @@ google/gemma-2-9b-it (few-shot),9242,256,8193,True,False,2062,2.96,45.42,24.23,2
 "gpt-3.5-turbo-0613 (few-shot, val)",-1,100,4095,True,False,921,3.03,69.59,7.28,28.5,67.1,49.88,18.61
 mistralai/Mistral-Nemo-Instruct-2407 (few-shot),12248,131,1024001,True,False,7095,3.28,59.7,4.64,29.68,68.13,41.76,13.24
 google/gemma-2-9b (few-shot),9242,256,8193,True,False,2038,3.37,30.89,5.29,32.25,67.58,55.69,17.5
-meta-llama/Meta-Llama-3.1-8B-Instruct (few-shot),8030,128,131073,True,False,2411,3.45,55.09,8.45,29.65,68.27,30.33,10.48
+meta-llama/Llama-3.1-8B-Instruct (few-shot),8030,128,131073,True,False,2411,3.45,55.09,8.45,29.65,68.27,30.33,10.48
 mistralai/Ministral-8B-Instruct-2410 (few-shot),8020,131,32768,True,False,5821,3.52,56.09,8.51,29.23,65.9,30.58,6.77
 meta-llama/Meta-Llama-3-8B-Instruct (few-shot),8030,128,8192,True,False,4909,3.53,61.69,6.1,31.52,66.98,25.16,1.5
-meta-llama/Meta-Llama-3.1-8B (few-shot),8030,128,131073,True,False,2439,3.54,52.57,4.87,30.12,66.17,25.93,8.48
+meta-llama/Llama-3.1-8B (few-shot),8030,128,131073,True,False,2439,3.54,52.57,4.87,30.12,66.17,25.93,8.48
 upstage/SOLAR-10.7B-v1.0 (few-shot),10732,32,4096,True,False,3780,3.56,62.08,7.58,29.66,66.11,18.75,7.64
 meta-llama/Meta-Llama-3-8B (few-shot),8030,128,8192,True,False,4687,3.6,48.7,7.49,29.56,66.34,26.78,7.41
 skole-gpt (few-shot),-1,32,32768,False,False,3583,3.73,42.15,4.49,27.51,66.89,19.27,9.45

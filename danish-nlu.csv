@@ -53,7 +53,7 @@ four-two-labs/orpo-llama-3-swe (few-shot),8030,128,8192,False,False,4974,2.09,46
 "birgermoell/BeagleCatMunin-Flashback-Bellman (few-shot, val)",7242,32,32768,False,True,2890,2.14,50.4,52.3,21.3,58.17
 meta-llama/Meta-Llama-3-8B (few-shot),8030,128,8192,True,False,4687,2.14,46.31,51.29,25.7,59.79
 syvai/llama3-da-base (few-shot),8030,128,8192,True,False,3191,2.14,49.97,48.61,28.16,59.55
-meta-llama/Meta-Llama-3.1-8B (few-shot),8030,128,131073,True,False,2439,2.15,47.68,49.71,25.48,60.31
+meta-llama/Llama-3.1-8B (few-shot),8030,128,131073,True,False,2439,2.15,47.68,49.71,25.48,60.31
 ltg/norbert3-small,41,50,508,True,False,13515,2.17,67.89,39.34,50.9,34.82
 "merge-crew/da-sv-dare-ties-density-0.9 (few-shot, val)",7242,32,32768,True,True,2443,2.17,45.61,53.73,17.08,56.67
 "timpal0l/dolphin-2.9-llama3-8b-flashback (few-shot, val)",8030,128,8192,False,True,5018,2.17,51.37,52.17,27.98,51.65
@@ -87,7 +87,7 @@ senseable/WestLake-7B-v2 (few-shot),7242,32,32768,False,False,5993,2.31,52.61,49
 ibm-granite/granite-3.0-8b-base (few-shot),8171,49,4097,True,False,5116,2.33,44.58,47.16,19.2,58.41
 danish-foundation-models/encoder-medium-v1,111,32,512,True,False,16130,2.34,63.42,39.91,51.01,25.76
 google-bert/bert-base-multilingual-uncased,167,106,512,True,False,13993,2.35,64.92,33.5,46.75,37.09
-meta-llama/Meta-Llama-3.1-8B-Instruct (few-shot),8030,128,131073,True,False,2411,2.36,57.19,51.3,10.31,48.8
+meta-llama/Llama-3.1-8B-Instruct (few-shot),8030,128,131073,True,False,2411,2.36,57.19,51.3,10.31,48.8
 AI-Sweden-Models/Llama-3-8B (few-shot),8030,128,8192,True,False,4141,2.37,36.72,46.48,26.1,58.0
 "merge-crew/da-sv-dare-ties-density-0.6 (few-shot, val)",7242,32,32768,True,True,2515,2.37,46.03,49.59,12.72,57.03
 microsoft/infoxlm-large,560,250,512,True,False,6696,2.37,74.42,37.94,15.26,44.25

@@ -32,11 +32,11 @@ pere/roberta-base-exp-32B,277,250,512,True,False,15103,2.66,80.78,25.2,8.46
 "152334H/miqu-1-70b-sf (few-shot, val)",68977,32,32889,True,False,2126,2.7,61.13,7.75,27.27
 upstage/SOLAR-10.7B-v1.0 (few-shot),10732,32,4096,True,False,3780,2.7,62.08,7.58,29.66
 google/gemma-2-9b-it (few-shot),9242,256,8320,True,False,2062,2.73,45.42,24.23,24.96
-meta-llama/Meta-Llama-3.1-8B-Instruct (few-shot),8030,128,131200,True,False,2411,2.78,55.09,8.45,29.65
+meta-llama/Llama-3.1-8B-Instruct (few-shot),8030,128,131200,True,False,2411,2.78,55.09,8.45,29.65
 mistralai/Ministral-8B-Instruct-2410 (few-shot),8020,131,32768,True,False,5821,2.78,56.09,8.51,29.23
 mistralai/Mistral-Nemo-Instruct-2407 (few-shot),12248,131,1024128,True,False,7095,2.78,59.7,4.64,29.68
 cardiffnlp/twitter-xlm-roberta-base,277,250,512,True,False,34475,2.79,72.69,28.72,8.46
-meta-llama/Meta-Llama-3.1-8B (few-shot),8030,128,131200,True,False,2439,2.8,52.57,4.87,30.12
+meta-llama/Llama-3.1-8B (few-shot),8030,128,131200,True,False,2439,2.8,52.57,4.87,30.12
 pere/roberta-base-exp-32,277,250,512,True,False,15081,2.84,83.57,23.07,7.81
 meta-llama/Meta-Llama-3-8B (few-shot),8030,128,8192,True,False,4687,2.88,48.7,7.49,29.56
 intfloat/multilingual-e5-large,559,250,512,True,False,6732,2.9,78.43,10.78,13.79

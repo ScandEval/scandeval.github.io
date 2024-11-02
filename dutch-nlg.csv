@@ -17,10 +17,10 @@ CohereForAI/aya-expanse-8b (few-shot),8028,256,8192,False,False,5581,2.28,62.07,
 ibm-granite/granite-3.0-8b-base (few-shot),8171,49,4224,True,False,5116,2.3,53.21,13.72,40.85,62.41,66.7,39.74,54.37
 mistralai/Mistral-Nemo-Instruct-2407 (few-shot),12248,131,1024128,True,False,7095,2.33,66.57,10.1,40.31,59.99,68.66,42.5,48.51
 "meta-llama/Llama-2-70b-chat-hf (few-shot, val)",68977,32,4221,True,False,1979,2.38,64.0,13.3,30.88,54.14,68.71,45.47,42.91
-meta-llama/Meta-Llama-3.1-8B-Instruct (few-shot),8030,128,131200,True,False,2411,2.41,69.76,15.51,37.58,41.26,68.84,40.98,39.98
+meta-llama/Llama-3.1-8B-Instruct (few-shot),8030,128,131200,True,False,2411,2.41,69.76,15.51,37.58,41.26,68.84,40.98,39.98
 senseable/WestLake-7B-v2 (few-shot),7242,32,32768,False,False,5993,2.44,64.25,13.66,28.59,49.64,68.66,35.37,47.5
 gpt-4o-mini-2024-07-18 (few-shot),-1,200,128126,True,False,1171,2.45,68.2,5.65,31.15,53.17,67.62,54.56,65.27
-meta-llama/Meta-Llama-3.1-8B (few-shot),8030,128,131200,True,False,2439,2.46,64.79,11.95,32.97,63.89,66.29,38.44,30.88
+meta-llama/Llama-3.1-8B (few-shot),8030,128,131200,True,False,2439,2.46,64.79,11.95,32.97,63.89,66.29,38.44,30.88
 CohereForAI/aya-23-8B (few-shot),8028,256,8192,False,False,5608,2.48,60.81,7.9,31.12,63.0,72.9,32.37,53.32
 "mlabonne/NeuralBeagle14-7B (few-shot, val)",7242,32,8192,False,True,2549,2.5,63.53,11.25,27.76,50.94,71.2,40.23,47.87
 meta-llama/Meta-Llama-3-8B-Instruct (few-shot),8030,128,8192,True,False,4909,2.54,68.72,14.67,32.91,45.36,67.62,36.18,33.91

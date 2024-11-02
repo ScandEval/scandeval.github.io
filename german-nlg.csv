@@ -20,8 +20,8 @@ CohereForAI/aya-23-8B (few-shot),8028,256,8192,False,False,5608,1.96,58.69,56.49
 CohereForAI/aya-expanse-8b (few-shot),8028,256,8192,False,False,5581,1.97,61.29,59.19,33.31,22.29,69.05,44.87,63.66
 "gpt-3.5-turbo-0613 (few-shot, val)",-1,100,4095,True,False,921,2.0,61.5,55.5,38.96,30.2,64.9,35.39,56.88
 ibm-granite/granite-3.0-8b-base (few-shot),8171,49,4128,True,False,5116,2.01,52.61,61.7,23.89,33.72,70.32,39.82,53.82
-meta-llama/Meta-Llama-3.1-8B-Instruct (few-shot),8030,128,131104,True,False,2411,2.03,67.61,59.96,28.25,28.79,66.87,40.0,45.93
-meta-llama/Meta-Llama-3.1-8B (few-shot),8030,128,131104,True,False,2439,2.03,60.46,58.57,26.25,34.85,69.58,38.77,34.29
+meta-llama/Llama-3.1-8B-Instruct (few-shot),8030,128,131104,True,False,2411,2.03,67.61,59.96,28.25,28.79,66.87,40.0,45.93
+meta-llama/Llama-3.1-8B (few-shot),8030,128,131104,True,False,2439,2.03,60.46,58.57,26.25,34.85,69.58,38.77,34.29
 "VAGOsolutions/SauerkrautLM-7b-HerO (few-shot, val)",7242,32,32768,False,True,2477,2.05,59.7,60.22,35.99,29.68,66.73,30.53,45.02
 microsoft/Phi-3-mini-4k-instruct (few-shot),3821,32,4096,True,False,5224,2.07,59.68,54.75,30.22,29.27,66.64,39.5,51.29
 "cstr/Spaetzle-v8-7b (few-shot, val)",7242,32,32768,False,True,5980,2.1,58.9,61.34,31.58,24.91,67.25,34.62,48.7

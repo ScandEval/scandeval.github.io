@@ -44,7 +44,7 @@ NbAiLab/nb-bert-base,178,120,512,True,False,14050,1.81,80.38,71.21,64.03,35.33
 NbAiLab/nb-sbert-base,178,120,512,True,False,17757,1.81,80.26,71.05,62.49,33.8
 intfloat/multilingual-e5-base,278,250,512,True,False,14965,1.81,79.02,76.06,50.19,40.65
 pere/roberta-debug-8,278,250,512,True,False,15103,1.81,74.48,74.58,69.07,31.66
-meta-llama/Meta-Llama-3.1-8B (few-shot),8030,128,131073,True,False,2439,1.84,63.85,79.96,31.7,59.33
+meta-llama/Llama-3.1-8B (few-shot),8030,128,131073,True,False,2439,1.84,63.85,79.96,31.7,59.33
 pere/roberta-debug-32,278,250,512,True,False,14958,1.84,72.25,75.04,70.16,31.89
 flax-community/swe-roberta-wiki-oscar,125,50,512,True,False,15437,1.86,75.4,76.22,65.73,29.34
 timpal0l/Llama-3-8B-flashback-v1 (few-shot),8030,128,8192,True,False,4807,1.86,59.03,81.13,33.06,58.21
@@ -68,7 +68,7 @@ microsoft/infoxlm-large,560,250,512,True,False,6696,2.03,79.53,75.42,18.44,48.19
 "timpal0l/BeagleCatMunin (few-shot, val)",7242,32,32768,False,True,2495,2.03,50.53,77.37,27.84,59.98
 timpal0l/njord-alpha (few-shot),7242,32,32768,True,False,5431,2.03,48.19,79.95,32.85,57.39
 upstage/SOLAR-10.7B-v1.0 (few-shot),10732,32,4096,True,False,3780,2.03,59.65,77.48,16.94,62.65
-meta-llama/Meta-Llama-3.1-8B-Instruct (few-shot),8030,128,131073,True,False,2411,2.04,71.52,80.46,12.29,53.54
+meta-llama/Llama-3.1-8B-Instruct (few-shot),8030,128,131073,True,False,2411,2.04,71.52,80.46,12.29,53.54
 "RJuro/munin-neuralbeagle-7b (few-shot, val)",7242,32,32768,False,True,2493,2.05,62.96,77.13,15.73,58.43
 google/gemma-7b (few-shot),8538,256,8067,True,False,1378,2.05,43.68,77.72,36.25,58.62
 "RJuro/munin-neuralbeagle-SkoleGPTOpenOrca-7b (few-shot, val)",7242,32,32768,False,True,3008,2.06,59.36,72.04,22.38,57.96

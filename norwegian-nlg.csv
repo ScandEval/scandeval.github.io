@@ -20,10 +20,10 @@ Nexusflow/Starling-LM-7B-beta (few-shot),7242,32,8192,False,False,5876,2.46,66.2
 mistralai/Ministral-8B-Instruct-2410 (few-shot),8020,131,32768,True,False,5821,2.49,69.85,68.83,54.49,64.05,28.55,17.47,43.55,34.93,49.83
 bineric/NorskGPT-Llama3-8b (few-shot),8030,128,8192,False,False,3695,2.52,66.94,67.69,48.4,65.84,24.26,18.43,46.8,33.55,47.32
 AI-Sweden-Models/Llama-3-8B-instruct (few-shot),8030,128,8192,False,False,4314,2.54,85.07,81.43,38.52,65.02,0.0,0.0,40.52,41.57,72.25
-meta-llama/Meta-Llama-3.1-8B (few-shot),8030,128,131073,True,False,2439,2.54,64.62,65.1,52.87,63.88,28.34,22.4,53.2,35.8,30.31
+meta-llama/Llama-3.1-8B (few-shot),8030,128,131073,True,False,2439,2.54,64.62,65.1,52.87,63.88,28.34,22.4,53.2,35.8,30.31
 abhishek/autotrain-llama3-orpo-v2 (few-shot),8030,128,8192,False,False,8532,2.55,74.62,74.22,51.3,63.93,26.03,19.9,45.31,33.28,30.6
 bineric/NorskGPT-Mistral-7b (few-shot),7242,32,32768,False,False,2443,2.55,63.28,61.25,56.9,65.72,13.86,10.17,49.03,32.37,47.62
-meta-llama/Meta-Llama-3.1-8B-Instruct (few-shot),8030,128,131073,True,False,2411,2.57,74.77,72.8,57.3,66.08,5.23,11.51,43.93,38.1,39.3
+meta-llama/Llama-3.1-8B-Instruct (few-shot),8030,128,131073,True,False,2411,2.57,74.77,72.8,57.3,66.08,5.23,11.51,43.93,38.1,39.3
 "birgermoell/Munin-NeuralBeagle-NorskGPT (few-shot, val)",7242,32,32768,False,True,2903,2.59,63.33,68.84,58.28,65.94,18.65,10.72,44.39,26.61,46.64
 "birgermoell/WestLake-Munin-Cat-NorskGPT (few-shot, val)",7242,32,32768,False,True,2856,2.59,63.33,68.84,58.28,65.94,18.65,10.72,44.39,26.61,46.64
 skole-gpt (few-shot),-1,32,32768,False,False,3583,2.6,62.52,61.55,52.09,64.7,21.99,16.84,47.3,39.99,32.16

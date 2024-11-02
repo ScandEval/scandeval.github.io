@@ -32,8 +32,8 @@ google/gemma-2-9b-it (few-shot),9242,256,8320,True,False,2062,2.47,52.62,11.78,5
 sentence-transformers/paraphrase-xlm-r-multilingual-v1,277,250,512,True,False,20154,2.51,70.59,21.37,45.86,5.2
 google/gemma-2-9b (few-shot),9242,256,8320,True,False,2038,2.54,57.13,17.43,31.39,59.33
 mistralai/Mistral-Nemo-Instruct-2407 (few-shot),12248,131,1024128,True,False,7095,2.54,66.57,10.1,40.31,59.99
-meta-llama/Meta-Llama-3.1-8B (few-shot),8030,128,131200,True,False,2439,2.55,64.79,11.95,32.97,63.89
-meta-llama/Meta-Llama-3.1-8B-Instruct (few-shot),8030,128,131200,True,False,2411,2.56,69.76,15.51,37.58,41.26
+meta-llama/Llama-3.1-8B (few-shot),8030,128,131200,True,False,2439,2.55,64.79,11.95,32.97,63.89
+meta-llama/Llama-3.1-8B-Instruct (few-shot),8030,128,131200,True,False,2411,2.56,69.76,15.51,37.58,41.26
 ibm-granite/granite-3.0-8b-base (few-shot),8171,49,4224,True,False,5116,2.57,53.21,13.72,40.85,62.41
 DTAI-KULeuven/robbertje-1-gb-bort,45,40,512,True,False,31087,2.63,66.74,24.93,37.19,5.23
 "meta-llama/Llama-2-70b-chat-hf (few-shot, val)",68977,32,4221,True,False,1979,2.67,64.0,13.3,30.88,54.14
