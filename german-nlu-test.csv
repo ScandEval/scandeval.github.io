@@ -6,7 +6,7 @@ intfloat/multilingual-e5-large-instruct,560,250,514,True,False,5947,1.49,79.77,6
 "gpt-4-0613 (few-shot, val)",-1,100,8220,True,False,597,1.53,69.48,64.91,50.23,33.17
 intfloat/multilingual-e5-large,560,250,512,True,False,6732,1.53,79.73,64.78,47.24,28.11
 sentence-transformers/use-cmlm-multilingual,472,501,512,True,False,30231,1.54,77.03,59.5,59.3,26.67
-"meta-llama/Meta-Llama-3-70B (few-shot, val)",70554,128,8221,True,False,312,1.6,69.04,63.51,37.41,38.29
+"meta-llama/Llama-3-70B (few-shot, val)",70554,128,8221,True,False,312,1.6,69.04,63.51,37.41,38.29
 gwlms/deberta-base-dewiki-v1,112,32,512,True,False,18084,1.63,79.67,50.9,75.16,18.57
 "gpt-4-1106-preview (few-shot, val)",-1,100,128000,True,False,576,1.71,68.94,60.47,51.26,30.04
 setu4993/LaBSE,471,501,512,True,False,25418,1.71,79.44,58.65,52.19,23.66
@@ -24,25 +24,25 @@ mistralai/Mistral-Nemo-Instruct-2407 (few-shot),12248,131,1024032,True,False,709
 deepset/gbert-base,111,31,512,True,False,37268,1.9,80.09,59.8,47.48,14.39
 google/gemma-2-9b (few-shot),9242,256,8224,True,False,2038,1.91,47.39,62.89,37.22,39.11
 mistralai/Ministral-8B-Instruct-2410 (few-shot),8020,131,32768,True,False,5821,1.93,66.0,54.76,33.55,32.69
-"meta-llama/Meta-Llama-3-70B-Instruct (few-shot, val)",70554,128,8221,True,False,1673,1.94,75.2,54.38,36.59,26.9
+"meta-llama/Llama-3-70B-Instruct (few-shot, val)",70554,128,8221,True,False,1673,1.94,75.2,54.38,36.59,26.9
 skole-gpt (few-shot),-1,32,32768,False,False,3583,1.94,57.82,59.45,36.75,33.55
 intfloat/multilingual-e5-base,278,250,512,True,False,14965,1.96,74.79,63.29,45.32,16.42
 google/gemma-2-9b-it (few-shot),9242,256,8224,True,False,2062,1.97,50.35,58.6,45.78,30.46
 CohereForAI/aya-23-8B (few-shot),8028,256,8192,False,False,5608,1.99,58.69,56.49,30.04,36.36
 "VAGOsolutions/SauerkrautLM-7b-HerO (few-shot, val)",7242,32,32768,False,True,2477,1.99,59.7,60.22,35.99,29.68
-meta-llama/Meta-Llama-3.1-8B (few-shot),8030,128,131104,True,False,2439,1.99,60.46,58.57,26.25,34.85
+meta-llama/Llama-3.1-8B (few-shot),8030,128,131104,True,False,2439,1.99,60.46,58.57,26.25,34.85
 Nexusflow/Starling-LM-7B-beta (few-shot),7242,32,8192,False,False,5876,2.0,65.01,51.8,36.18,32.12
 VAGOsolutions/SauerkrautLM-7b-LaserChat (few-shot),7242,32,8192,False,False,2387,2.0,64.73,51.08,36.46,33.3
 facebook/xlm-v-base,778,902,512,True,False,25396,2.01,76.45,58.25,34.43,21.08
 "gpt-3.5-turbo-0613 (few-shot, val)",-1,100,4095,True,False,921,2.02,61.5,55.5,38.96,30.2
 VAGOsolutions/FC-SauerkrautLM-7b-beta (few-shot),-1,32,8192,False,False,2160,2.03,56.7,53.39,35.64,34.22
-meta-llama/Meta-Llama-3-8B-Instruct (few-shot),8030,128,8192,True,False,4909,2.04,68.18,58.33,29.12,28.68
-meta-llama/Meta-Llama-3.1-8B-Instruct (few-shot),8030,128,131104,True,False,2411,2.04,67.61,59.96,28.25,28.79
+meta-llama/Llama-3-8B-Instruct (few-shot),8030,128,8192,True,False,4909,2.04,68.18,58.33,29.12,28.68
+meta-llama/Llama-3.1-8B-Instruct (few-shot),8030,128,131104,True,False,2411,2.04,67.61,59.96,28.25,28.79
 gpt-4o-mini-2024-07-18 (few-shot),-1,200,128030,True,False,1171,2.06,67.9,51.88,46.77,24.7
 "cstr/Spaetzle-v8-7b (few-shot, val)",7242,32,32768,False,True,5980,2.11,58.9,61.34,31.58,24.91
 ibm-granite/granite-3.0-8b-base (few-shot),8171,49,4128,True,False,5116,2.13,52.61,61.7,23.89,33.72
 "meta-llama/Llama-2-70b-chat-hf (few-shot, val)",68977,32,4125,True,False,1979,2.13,62.39,53.16,31.81,28.99
-meta-llama/Meta-Llama-3-8B (few-shot),8030,128,8192,True,False,4687,2.14,56.0,56.4,22.01,35.39
+meta-llama/Llama-3-8B (few-shot),8030,128,8192,True,False,4687,2.14,56.0,56.4,22.01,35.39
 "mlabonne/NeuralBeagle14-7B (few-shot, val)",7242,32,8192,False,True,2549,2.15,64.81,59.6,27.06,25.22
 occiglot/occiglot-7b-de-en-instruct (few-shot),7242,32,32768,False,False,1584,2.16,55.76,55.91,22.47,35.95
 google-bert/bert-base-multilingual-uncased,168,106,512,True,False,13993,2.18,77.5,43.25,51.74,17.83

@@ -1,8 +1,8 @@
 model_id,num_model_parameters,vocabulary_size,max_sequence_length,commercially_licensed,merge,speed,rank,conll_nl,dutch_social,scala_nl,squad_nl,wiki_lingua_nl,mmlu_nl,hellaswag_nl
 "gpt-4-0613 (few-shot, val)",-1,100,8316,True,False,597,1.22,73.35,18.92,76.7,55.03,69.97,70.71,90.07
-"meta-llama/Meta-Llama-3-70B (few-shot, val)",70554,128,8317,True,False,312,1.46,72.91,19.08,54.33,63.99,70.41,65.33,71.06
+"meta-llama/Llama-3-70B (few-shot, val)",70554,128,8317,True,False,312,1.46,72.91,19.08,54.33,63.99,70.41,65.33,71.06
 "gpt-4-1106-preview (few-shot, val)",-1,100,128000,True,False,576,1.52,66.44,14.22,72.3,57.81,67.13,70.04,88.29
-"meta-llama/Meta-Llama-3-70B-Instruct (few-shot, val)",70554,128,8317,True,False,1673,1.63,74.64,18.9,49.54,44.77,70.28,65.8,76.21
+"meta-llama/Llama-3-70B-Instruct (few-shot, val)",70554,128,8317,True,False,1673,1.63,74.64,18.9,49.54,44.77,70.28,65.8,76.21
 "gpt-4o-2024-05-13 (few-shot, val)",-1,200,128000,True,False,916,1.67,76.75,10.8,56.26,55.55,66.86,73.11,92.69
 "152334H/miqu-1-70b-sf (few-shot, val)",68977,32,32889,True,False,2126,1.77,67.0,15.33,55.48,61.02,68.95,54.36,70.26
 google/gemma-2-27b-it (few-shot),27227,256,8320,True,False,1516,1.86,65.2,14.8,59.02,59.6,64.03,59.71,70.7
@@ -17,17 +17,17 @@ CohereForAI/aya-expanse-8b (few-shot),8028,256,8192,False,False,5581,2.28,62.07,
 ibm-granite/granite-3.0-8b-base (few-shot),8171,49,4224,True,False,5116,2.3,53.21,13.72,40.85,62.41,66.7,39.74,54.37
 mistralai/Mistral-Nemo-Instruct-2407 (few-shot),12248,131,1024128,True,False,7095,2.33,66.57,10.1,40.31,59.99,68.66,42.5,48.51
 "meta-llama/Llama-2-70b-chat-hf (few-shot, val)",68977,32,4221,True,False,1979,2.38,64.0,13.3,30.88,54.14,68.71,45.47,42.91
-meta-llama/Meta-Llama-3.1-8B-Instruct (few-shot),8030,128,131200,True,False,2411,2.41,69.76,15.51,37.58,41.26,68.84,40.98,39.98
+meta-llama/Llama-3.1-8B-Instruct (few-shot),8030,128,131200,True,False,2411,2.41,69.76,15.51,37.58,41.26,68.84,40.98,39.98
 senseable/WestLake-7B-v2 (few-shot),7242,32,32768,False,False,5993,2.44,64.25,13.66,28.59,49.64,68.66,35.37,47.5
 gpt-4o-mini-2024-07-18 (few-shot),-1,200,128126,True,False,1171,2.45,68.2,5.65,31.15,53.17,67.62,54.56,65.27
-meta-llama/Meta-Llama-3.1-8B (few-shot),8030,128,131200,True,False,2439,2.46,64.79,11.95,32.97,63.89,66.29,38.44,30.88
+meta-llama/Llama-3.1-8B (few-shot),8030,128,131200,True,False,2439,2.46,64.79,11.95,32.97,63.89,66.29,38.44,30.88
 CohereForAI/aya-23-8B (few-shot),8028,256,8192,False,False,5608,2.48,60.81,7.9,31.12,63.0,72.9,32.37,53.32
 "mlabonne/NeuralBeagle14-7B (few-shot, val)",7242,32,8192,False,True,2549,2.5,63.53,11.25,27.76,50.94,71.2,40.23,47.87
-meta-llama/Meta-Llama-3-8B-Instruct (few-shot),8030,128,8192,True,False,4909,2.54,68.72,14.67,32.91,45.36,67.62,36.18,33.91
+meta-llama/Llama-3-8B-Instruct (few-shot),8030,128,8192,True,False,4909,2.54,68.72,14.67,32.91,45.36,67.62,36.18,33.91
 skole-gpt (few-shot),-1,32,32768,False,False,3583,2.57,62.16,8.92,32.76,56.87,68.39,46.17,33.31
 "mlabonne/AlphaMonarch-7B (few-shot, val)",7242,32,8192,False,True,5340,2.62,64.71,11.14,25.22,46.34,67.71,38.49,47.66
 yhavinga/Boreas-7B-chat (few-shot),7242,32,32768,False,False,2913,2.63,60.22,11.97,30.94,52.19,66.6,35.34,31.47
-meta-llama/Meta-Llama-3-8B (few-shot),8030,128,8192,True,False,4687,2.64,62.26,10.45,30.3,62.99,65.17,36.38,28.33
+meta-llama/Llama-3-8B (few-shot),8030,128,8192,True,False,4687,2.64,62.26,10.45,30.3,62.99,65.17,36.38,28.33
 robinsmits/Qwen1.5-7B-Dutch-Chat-Sft-Bf16 (few-shot),7719,152,32768,False,False,2413,2.69,56.83,14.79,23.58,55.9,65.06,33.73,29.29
 robinsmits/Qwen1.5-7B-Dutch-Chat (few-shot),7719,152,32768,False,False,4686,2.73,57.81,14.62,25.34,56.81,60.51,34.78,30.29
 ReBatch/Reynaerde-7B-Instruct (few-shot),7248,33,32768,False,False,2562,2.74,59.16,10.39,19.5,60.96,68.19,32.93,28.04

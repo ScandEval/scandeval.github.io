@@ -2,9 +2,9 @@ model_id,num_model_parameters,vocabulary_size,max_sequence_length,commercially_l
 "gpt-4-0613 (few-shot, val)",-1,100,8191,True,False,597,1.19,81.16,75.75,72.72,65.92,77.3,57.18,47.5,68.77,88.3
 "gpt-4o-2024-05-13 (few-shot, val)",-1,200,128000,True,False,916,1.33,79.07,81.56,66.66,63.25,64.53,54.7,43.51,73.81,89.91
 "gpt-4-1106-preview (few-shot, val)",-1,100,128000,True,False,576,1.35,77.48,78.7,62.55,63.6,74.45,56.31,44.67,70.84,86.3
-"meta-llama/Meta-Llama-3-70B (few-shot, val)",70554,128,8192,True,False,312,1.45,75.31,75.94,66.74,65.78,59.82,47.56,60.87,62.45,65.29
+"meta-llama/Llama-3-70B (few-shot, val)",70554,128,8192,True,False,312,1.45,75.31,75.94,66.74,65.78,59.82,47.56,60.87,62.45,65.29
 google/gemma-2-27b-it (few-shot),27227,256,8193,True,False,1516,1.64,67.35,66.61,67.14,66.24,64.66,52.49,44.85,58.34,70.87
-"meta-llama/Meta-Llama-3-70B-Instruct (few-shot, val)",70554,128,8192,True,False,1673,1.87,80.5,76.47,59.29,65.7,47.28,32.76,39.71,63.58,63.41
+"meta-llama/Llama-3-70B-Instruct (few-shot, val)",70554,128,8192,True,False,1673,1.87,80.5,76.47,59.29,65.7,47.28,32.76,39.71,63.58,63.41
 google/gemma-2-9b-it (few-shot),9242,256,8193,True,False,2062,1.88,61.82,60.41,61.06,65.94,62.46,52.99,39.1,49.45,67.96
 abhishek/autotrain-llama3-oh-sft-v0-2 (few-shot),70554,128,8192,False,False,2668,1.89,80.97,79.69,63.91,65.47,39.82,26.86,47.06,60.88,57.46
 google/gemma-2-27b (few-shot),27227,256,8193,True,False,1531,1.94,42.58,40.43,64.15,66.84,51.59,42.41,58.55,57.29,53.73
@@ -20,18 +20,18 @@ Nexusflow/Starling-LM-7B-beta (few-shot),7242,32,8192,False,False,5876,2.46,66.2
 mistralai/Ministral-8B-Instruct-2410 (few-shot),8020,131,32768,True,False,5821,2.49,69.85,68.83,54.49,64.05,28.55,17.47,43.55,34.93,49.83
 bineric/NorskGPT-Llama3-8b (few-shot),8030,128,8192,False,False,3695,2.52,66.94,67.69,48.4,65.84,24.26,18.43,46.8,33.55,47.32
 AI-Sweden-Models/Llama-3-8B-instruct (few-shot),8030,128,8192,False,False,4314,2.54,85.07,81.43,38.52,65.02,0.0,0.0,40.52,41.57,72.25
-meta-llama/Meta-Llama-3.1-8B (few-shot),8030,128,131073,True,False,2439,2.54,64.62,65.1,52.87,63.88,28.34,22.4,53.2,35.8,30.31
+meta-llama/Llama-3.1-8B (few-shot),8030,128,131073,True,False,2439,2.54,64.62,65.1,52.87,63.88,28.34,22.4,53.2,35.8,30.31
 abhishek/autotrain-llama3-orpo-v2 (few-shot),8030,128,8192,False,False,8532,2.55,74.62,74.22,51.3,63.93,26.03,19.9,45.31,33.28,30.6
 bineric/NorskGPT-Mistral-7b (few-shot),7242,32,32768,False,False,2443,2.55,63.28,61.25,56.9,65.72,13.86,10.17,49.03,32.37,47.62
-meta-llama/Meta-Llama-3.1-8B-Instruct (few-shot),8030,128,131073,True,False,2411,2.57,74.77,72.8,57.3,66.08,5.23,11.51,43.93,38.1,39.3
+meta-llama/Llama-3.1-8B-Instruct (few-shot),8030,128,131073,True,False,2411,2.57,74.77,72.8,57.3,66.08,5.23,11.51,43.93,38.1,39.3
 "birgermoell/Munin-NeuralBeagle-NorskGPT (few-shot, val)",7242,32,32768,False,True,2903,2.59,63.33,68.84,58.28,65.94,18.65,10.72,44.39,26.61,46.64
 "birgermoell/WestLake-Munin-Cat-NorskGPT (few-shot, val)",7242,32,32768,False,True,2856,2.59,63.33,68.84,58.28,65.94,18.65,10.72,44.39,26.61,46.64
 skole-gpt (few-shot),-1,32,32768,False,False,3583,2.6,62.52,61.55,52.09,64.7,21.99,16.84,47.3,39.99,32.16
-meta-llama/Meta-Llama-3-8B-Instruct (few-shot),8030,128,8192,True,False,4909,2.62,74.47,72.93,50.62,63.98,27.77,20.35,42.9,33.44,30.91
+meta-llama/Llama-3-8B-Instruct (few-shot),8030,128,8192,True,False,4909,2.62,74.47,72.93,50.62,63.98,27.77,20.35,42.9,33.44,30.91
 "RJuro/munin-neuralbeagle-7b (few-shot, val)",7242,32,32768,False,True,2493,2.65,61.18,65.16,55.61,65.99,20.84,9.12,42.92,27.77,39.67
 "timpal0l/BeagleCatMunin2 (few-shot, val)",7242,32,32768,False,True,2477,2.65,61.17,65.44,58.69,66.08,15.03,5.95,42.42,27.31,41.63
 four-two-labs/orpo-llama-3-swe (few-shot),8030,128,8192,False,False,4974,2.66,61.63,61.3,48.85,63.67,24.15,21.33,53.66,33.52,26.04
-meta-llama/Meta-Llama-3-8B (few-shot),8030,128,8192,True,False,4687,2.66,61.48,61.58,49.87,63.38,21.2,19.65,53.35,33.02,24.93
+meta-llama/Llama-3-8B (few-shot),8030,128,8192,True,False,4687,2.66,61.48,61.58,49.87,63.38,21.2,19.65,53.35,33.02,24.93
 "meta-llama/Llama-2-70b-chat-hf (few-shot, val)",68977,32,3843,True,False,1979,2.72,60.21,62.99,55.12,65.11,27.12,6.82,38.5,32.3,34.43
 "timpal0l/dolphin-2.9-llama3-8b-flashback (few-shot, val)",8030,128,8192,False,True,5018,2.76,64.51,65.66,52.9,64.12,29.34,17.42,38.49,25.77,31.8
 "mlabonne/NeuralBeagle14-7B (few-shot, val)",7242,32,8192,False,True,2549,2.79,62.47,66.69,54.04,65.74,16.75,13.0,34.48,28.39,35.19
