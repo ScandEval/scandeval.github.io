@@ -297,12 +297,16 @@ faroese-nlu:
 			-l fo Faroese \
 			-t ner "Named Entity Recognition" \
 			-t la "Linguistic Acceptability" \
+			-t rc "Reading Comprehension" \
 			-m mcc "Matthews Correlation Coefficient" \
 			-m macro_f1 "Macro-average F1-score" \
 			-m micro_f1_no_misc "Micro-average F1-score without MISC tags" \
 			-m micro_f1 "Micro-average F1-score with MISC tags" \
+			-m em "Exact Match" \
+			-m f1 "F1-score" \
 			-d FoNE fo ner micro_f1_no_misc micro_f1 \
-			-d ScaLA-fo fo la mcc macro_f1
+			-d ScaLA-fo fo la mcc macro_f1 \
+			-d FoQA fo rc em f1
 
 german-nlu:
 	@. .venv/bin/activate && \
