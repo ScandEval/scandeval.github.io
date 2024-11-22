@@ -52,7 +52,7 @@ download:
 	# @scp -o ConnectTimeout=5 creosote:/home/ubuntu/scandeval_benchmark_results.jsonl creosote_results.jsonl || true
 	@scp -o ConnectTimeout=5 percival:/home/alex-admin/scandeval/scandeval_benchmark_results.jsonl percival_results.jsonl || true
 	@scp -o ConnectTimeout=5 lancelot:/home/alex-admin/scandeval/scandeval_benchmark_results.jsonl lancelot_results.jsonl || true
-	@scp -o ConnectTimeout=5 blacknight:/home/alex-admin/scandeval/scandeval_benchmark_results.jsonl blackknight_results.jsonl || true
+	@scp -o ConnectTimeout=5 blackknight:/home/alex-admin/scandeval/scandeval_benchmark_results.jsonl blackknight_results.jsonl || true
 	@touch scandeval_benchmark_results.jsonl
 	@if [ -f blackknight_results.jsonl ]; then \
 		cat blackknight_results.jsonl >> scandeval_benchmark_results.jsonl; \
