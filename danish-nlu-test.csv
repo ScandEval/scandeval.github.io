@@ -21,7 +21,7 @@ gpt-3.5-turbo-0613 (few-shot),-1,100,4096,True,False,837,1.67,59.4,51.8,54.22,56
 KennethEnevoldsen/dfm-sentence-encoder-medium-3,178,120,512,True,False,14050,1.72,71.21,47.55,68.72,38.33
 NbAiLab/nb-roberta-base-scandi,278,250,512,True,False,15079,1.72,73.28,52.08,67.99,32.39
 microsoft/mdeberta-v3-base,279,251,512,True,False,20637,1.72,72.9,43.38,67.05,42.15
-CohereForAI/aya-expanse-32b (few-shot),32296,256,8193,True,False,2288,1.73,61.15,56.39,37.75,58.09
+CohereForAI/aya-expanse-32b (few-shot),32296,256,8193,False,False,2288,1.73,61.15,56.39,37.75,58.09
 FacebookAI/xlm-roberta-large,560,250,512,True,False,17897,1.73,72.74,48.33,57.3,43.57
 "meta-llama/Llama-2-70b-hf (few-shot, val)",68977,32,4096,True,False,1892,1.75,58.06,53.24,39.71,62.51
 "152334H/miqu-1-70b-sf (few-shot, val)",68977,32,32764,True,False,2126,1.77,56.96,55.11,42.64,54.58
