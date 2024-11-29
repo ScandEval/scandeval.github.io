@@ -26,7 +26,7 @@ meta-llama/Llama-3.1-8B-Instruct (few-shot),8030,128,131073,True,False,2411,2.39
 four-two-labs/orpo-llama-3-swe (few-shot),8030,128,8192,False,False,4974,2.42,60.93,79.74,26.02,59.84,64.99,36.35,27.22
 meta-llama/Meta-Llama-3-8B (few-shot),8030,128,8192,True,False,4687,2.42,60.36,79.74,28.24,59.73,64.81,35.86,26.49
 timpal0l/Llama-3-8B-flashback-v1 (few-shot),8030,128,8192,True,False,4807,2.42,59.03,81.13,33.06,58.21,64.42,35.24,25.14
-"RJuro/munin-neuralbeagle-7b (few-shot, val)",7242,32,32768,False,True,2493,2.44,62.96,77.13,15.73,58.43,67.58,32.54,34.94
+"RJuro/munin-neuralbeagle-7b (few-shot, val)",7242,32,32768,False,True,2493,2.45,62.96,77.13,15.73,58.43,67.58,32.54,34.94
 "meta-llama/Llama-2-70b-chat-hf (few-shot, val)",68977,32,3843,True,False,1979,2.46,55.91,64.52,23.85,58.88,67.57,37.6,31.78
 google/gemma-7b (few-shot),8538,256,8192,True,False,1378,2.47,43.68,77.72,36.25,58.62,64.44,39.94,25.96
 "timpal0l/BeagleCatMunin2 (few-shot, val)",7242,32,32768,False,True,2477,2.47,60.87,73.72,6.78,58.75,68.06,33.71,41.45
@@ -73,7 +73,7 @@ mistralai/Mistral-7B-Instruct-v0.2 (few-shot),7242,32,32768,False,False,634,2.83
 "birgermoell/NeuralBeagle-Flashback (few-shot, val)",7242,32,32768,False,True,2904,2.85,51.73,36.06,19.42,59.26,67.55,23.1,29.31
 meta-llama/Llama-3.2-3B-Instruct (few-shot),3213,128,131073,False,False,10424,2.85,43.74,76.98,16.01,48.38,64.98,29.44,22.42
 timpal0l/Mistral-7B-v0.1-flashback-v2-instruct (few-shot),7242,32,32768,False,False,5172,2.85,46.74,77.06,14.0,56.74,62.56,30.87,15.79
-google/gemma-2-2b-it (few-shot),2614,256,8193,True,False,5374,2.87,35.61,75.84,15.62,47.76,65.16,27.0,31.43
+google/gemma-2-2b-it (few-shot),2614,256,8193,True,False,5374,2.88,35.61,75.84,15.62,47.76,65.16,27.0,31.43
 RuterNorway/Llama-2-13b-chat-norwegian (few-shot),-1,32,4096,False,False,3254,2.89,50.85,74.17,7.51,57.32,65.2,23.92,17.67
 meta-llama/Llama-3.2-3B (few-shot),3213,128,131073,True,False,3713,2.9,51.06,77.76,5.88,57.43,62.73,27.05,13.3
 occiglot/occiglot-7b-eu5-instruct (few-shot),7242,32,32768,False,False,2088,2.91,47.67,71.73,7.9,57.78,65.07,25.52,14.06
@@ -84,8 +84,8 @@ neph1/bellman-7b-mistral-instruct-v0.2 (few-shot),7242,32,32768,False,False,2518
 mistralai/Mistral-7B-Instruct-v0.1 (few-shot),7242,32,32768,False,False,634,2.99,45.01,73.33,11.59,52.12,63.1,24.03,15.37
 meta-llama/Llama-2-7b-hf (few-shot),6738,32,4096,True,False,930,3.02,44.11,79.05,7.34,57.49,64.63,15.65,8.74
 bineric/NorskGPT-Llama-7B-v0.1 (few-shot),6738,32,4096,False,False,5384,3.04,53.95,60.91,0.32,55.28,63.73,20.96,25.76
-ibm-granite/granite-8b-code-base-4k (few-shot),8055,49,4096,True,False,2313,3.1,59.77,74.45,3.97,50.18,62.61,14.34,7.4
 allenai/OLMo-1.7-7B-hf (few-shot),6888,50,4096,True,False,3371,3.11,41.25,76.6,6.37,54.87,62.9,16.18,8.52
+ibm-granite/granite-8b-code-base-4k (few-shot),8055,49,4096,True,False,2313,3.11,59.77,74.45,3.97,50.18,62.61,14.34,7.4
 meta-llama/Llama-2-7b-chat-hf (few-shot),6738,32,4096,False,False,2643,3.12,39.72,66.18,6.74,54.05,65.92,17.73,12.85
 "merge-crew/da-sv-dare-ties-density-0.3 (few-shot, val)",7242,32,32768,True,True,2461,3.14,32.37,75.33,12.73,53.05,64.74,15.6,9.81
 ibm-granite/granite-3.0-2b-instruct (few-shot),2634,49,4097,True,False,10194,3.15,45.23,72.76,11.25,52.22,61.56,18.14,6.77
@@ -129,7 +129,7 @@ ibm-granite/granite-3b-code-base-2k (few-shot),3483,49,2048,True,False,2732,3.63
 Qwen/Qwen1.5-4B (few-shot),3950,152,32768,True,False,3248,3.65,37.26,5.2,1.85,54.15,58.24,22.04,14.76
 ibm-granite/granite-3b-code-instruct-2k (few-shot),3483,49,2048,True,False,9059,3.65,50.1,65.67,4.55,42.83,45.16,7.58,3.79
 Qwen/Qwen1.5-1.8B-Chat (few-shot),1837,152,32768,False,False,8304,3.68,20.94,52.54,0.34,43.55,61.19,10.74,4.83
-meta-llama/Llama-3.2-1B (few-shot),1236,128,131073,True,False,7577,3.7,29.89,74.33,1.06,46.89,52.06,0.93,0.09
+meta-llama/Llama-3.2-1B (few-shot),1236,128,131073,True,False,7577,3.71,29.89,74.33,1.06,46.89,52.06,0.93,0.09
 AI-Sweden-Models/gpt-sw3-6.7b (few-shot),7111,64,2048,True,False,2285,3.74,18.83,53.68,3.49,49.81,61.05,1.22,0.6
 AI-Sweden-Models/gpt-sw3-1.3b (few-shot),1445,64,2048,True,False,4608,3.75,6.08,71.38,1.17,45.55,60.11,2.2,0.67
 Qwen/Qwen1.5-1.8B (few-shot),1837,152,32768,True,False,5666,3.76,18.01,51.91,1.49,44.83,54.82,11.54,7.19
@@ -140,28 +140,29 @@ AI-Sweden-Models/gpt-sw3-356m-instruct (few-shot),471,64,2048,True,False,5855,3.
 allenai/OLMo-7B (few-shot),6888,50,2051,True,False,5403,3.9,37.36,72.08,-0.86,45.16,41.03,-0.83,-0.62
 norallm/normistral-7b-scratch (few-shot),7248,33,2048,True,False,3192,3.92,13.79,71.59,-0.89,38.33,55.77,-0.39,-0.52
 mhenrichsen/danskgpt-tiny-chat (few-shot),1100,32,2048,False,False,1745,3.95,27.31,45.94,-0.97,35.57,55.79,0.14,0.52
+ibm-granite/granite-3.0-1b-a400m-base (few-shot),1385,49,4096,True,False,7808,3.96,23.26,55.06,1.81,35.49,54.8,-1.51,0.41
 allenai/OLMo-7B-Twin-2T (few-shot),6888,50,2051,True,False,5484,4.02,20.49,70.04,2.28,45.85,39.53,0.69,0.12
 RuterNorway/Llama-2-7b-chat-norwegian (few-shot),-1,32,4096,False,False,10890,4.03,22.38,31.11,0.09,44.36,55.44,1.12,-0.91
 google/gemma-2b-it (few-shot),2506,256,8192,False,False,6471,4.05,33.51,43.97,0.53,39.39,40.55,11.06,1.03
-Qwen/Qwen1.5-0.5B (few-shot),620,152,32768,True,False,11371,4.07,28.96,26.58,-1.88,34.59,53.36,6.52,1.91
-NbAiLab/nb-gpt-j-6B-alpaca (few-shot),6055,50,1024,False,False,2607,4.11,13.28,60.17,1.52,37.23,46.68,-0.03,0.02
+Qwen/Qwen1.5-0.5B (few-shot),620,152,32768,True,False,11371,4.08,28.96,26.58,-1.88,34.59,53.36,6.52,1.91
+NbAiLab/nb-gpt-j-6B-alpaca (few-shot),6055,50,1024,False,False,2607,4.12,13.28,60.17,1.52,37.23,46.68,-0.03,0.02
 AI-Sweden-Models/gpt-sw3-356m (few-shot),471,64,2048,True,False,5758,4.13,23.77,34.29,1.57,33.7,51.36,-0.96,0.3
 Qwen/Qwen1.5-0.5B-Chat (few-shot),620,152,32768,False,False,11740,4.15,18.57,40.23,0.21,29.49,53.29,2.59,-0.84
 mhenrichsen/danskgpt-tiny (few-shot),1100,32,2048,True,False,8597,4.19,23.92,31.93,0.46,30.81,52.68,-0.85,-1.24
-AI-Sweden-Models/gpt-sw3-126m-instruct (few-shot),186,64,2048,True,False,7717,4.27,23.05,12.47,0.08,20.43,59.8,0.72,0.11
-allenai/OLMo-1B (few-shot),1177,50,2051,True,False,8536,4.34,29.39,38.95,-1.35,17.85,43.75,-0.22,0.75
-HuggingFaceTB/SmolLM2-360M (few-shot),362,49,8192,True,False,22023,4.46,18.22,11.52,1.72,27.27,45.57,0.69,0.68
+AI-Sweden-Models/gpt-sw3-126m-instruct (few-shot),186,64,2048,True,False,7717,4.28,23.05,12.47,0.08,20.43,59.8,0.72,0.11
+allenai/OLMo-1B (few-shot),1177,50,2051,True,False,8536,4.35,29.39,38.95,-1.35,17.85,43.75,-0.22,0.75
+HuggingFaceTB/SmolLM2-360M (few-shot),362,49,8192,True,False,22023,4.47,18.22,11.52,1.72,27.27,45.57,0.69,0.68
 RJuro/kanelsnegl-v0.1 (few-shot),7242,32,512,True,False,5847,4.55,0.0,34.63,0.0,0.0,59.04,-0.25,0.08
-HuggingFaceTB/SmolLM2-135M (few-shot),135,49,8192,True,False,26346,4.61,19.15,-3.03,0.06,14.18,51.51,0.02,0.04
 RJuro/kanelsnegl-v0.2 (few-shot),7242,32,512,True,False,1373,4.61,0.0,28.62,0.0,0.0,58.16,0.47,0.71
-AI-Sweden-Models/gpt-sw3-126m (few-shot),186,64,2048,True,False,8958,4.62,5.66,8.15,-0.81,16.4,51.48,-0.49,1.17
+HuggingFaceTB/SmolLM2-135M (few-shot),135,49,8192,True,False,26346,4.62,19.15,-3.03,0.06,14.18,51.51,0.02,0.04
 NorwAI/NorwAI-Mistral-7B-pretrain (few-shot),7537,68,4065,True,False,3024,4.62,9.75,17.76,1.22,14.98,48.74,-0.62,0.99
+AI-Sweden-Models/gpt-sw3-126m (few-shot),186,64,2048,True,False,8958,4.63,5.66,8.15,-0.81,16.4,51.48,-0.49,1.17
 HuggingFaceTB/SmolLM2-360M-Instruct (few-shot),362,49,8192,True,False,21777,4.72,13.64,9.34,2.2,26.06,37.49,-0.0,0.78
 HuggingFaceTB/SmolLM2-135M-Instruct (few-shot),135,49,8192,True,False,25602,4.8,17.09,7.41,0.47,11.73,38.3,0.3,0.06
 NbAiLab/nb-gpt-j-6B-v2 (few-shot),6051,50,1024,False,False,2556,4.95,0.31,27.42,0.07,17.82,27.09,-0.67,0.86
-peter-sk/gpt-neox-da (few-shot),1515,50,1024,True,False,6025,4.97,0.26,4.75,-0.6,0.06,41.84,-0.41,0.52
+peter-sk/gpt-neox-da (few-shot),1515,50,1024,True,False,6025,4.98,0.26,4.75,-0.6,0.06,41.84,-0.41,0.52
 NbAiLab/nb-gpt-j-6B@sharded (few-shot),-1,50,1024,True,False,2630,5.04,0.01,33.5,-0.02,4.79,26.97,-0.11,0.56
-NorGLM/NorGPT-369M (few-shot),-1,64,1024,True,False,19896,5.06,1.47,5.5,-2.19,0.1,37.4,-0.53,0.25
+NorGLM/NorGPT-369M (few-shot),-1,64,1024,True,False,19896,5.07,1.47,5.5,-2.19,0.1,37.4,-0.53,0.25
 ssmits/Falcon2-5.5B-multilingual (few-shot),5465,65,8192,True,False,7692,5.09,0.0,0.0,0.0,0.0,40.82,1.19,1.55
 Sigurdur/icebreaker (few-shot),110,32,1024,False,False,48619,5.16,0.0,-3.6,0.0,0.0,39.68,-0.2,-0.25
 ai-forever/mGPT (few-shot),-1,100,1024,True,False,11734,5.19,0.0,0.0,0.49,6.24,31.89,-0.37,0.36
