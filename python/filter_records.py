@@ -274,8 +274,9 @@ def record_is_valid(record: dict) -> bool:
     Returns:
         True if the record is valid, False otherwise.
     """
+    BANNED_MODELS: list[str] = ["AI-Sweden-Models/Llama-3-8B-instruct"]
     BANNED_VERSIONS: list[str] = ["9.3.0", "10.0.0"]
-    if record.get("version") in BANNED_VERSIONS:
+    if record.get("model") in BANNED_MODELS or record.get("version") in BANNED_VERSIONS:
         return False
 
     # TEMP: Remove this when we want to include zero-shot models
