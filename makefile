@@ -250,6 +250,7 @@ icelandic-nlu:
 		python python/generate_leaderboard.py "Icelandic NLU 🇮🇸" \
 			-l is Icelandic \
 			-t ner "Named Entity Recognition" \
+			-t sent "Sentiment Classification" \
 			-t la "Linguistic Acceptability" \
 			-t rc "Reading Comprehension" \
 			-m mcc "Matthews Correlation Coefficient" \
@@ -259,6 +260,7 @@ icelandic-nlu:
 			-m em "Exact Match" \
 			-m f1 "F1-score" \
 			-d MIM-GOLD-NER is ner micro_f1_no_misc micro_f1 \
+			-d Hotter-and-Colder-sentiment is sent mcc macro_f1 \
 			-d ScaLA-is is la mcc macro_f1 \
 			-d NQiI is rc em f1
 
@@ -267,6 +269,7 @@ icelandic-nlg:
 		python python/generate_leaderboard.py "Icelandic NLG 🇮🇸" \
 			-l is Icelandic \
 			-t ner "Named Entity Recognition" \
+			-t sent "Sentiment Classification" \
 			-t la "Linguistic Acceptability" \
 			-t rc "Reading Comprehension" \
 			-t summ "Summarization" \
@@ -282,6 +285,7 @@ icelandic-nlg:
 			-m rouge_l "ROUGE-L" \
 			-m accuracy "Accuracy" \
 			-d MIM-GOLD-NER is ner micro_f1_no_misc micro_f1 \
+			-d Hotter-and-Colder-sentiment is sent mcc macro_f1 \
 			-d ScaLA-is is la mcc macro_f1 \
 			-d NQiI is rc em f1 \
 			-d RRN is summ bertscore rouge_l \
@@ -293,6 +297,7 @@ faroese-nlu:
 		python python/generate_leaderboard.py "Faroese NLU 🇫🇴" \
 			-l fo Faroese \
 			-t ner "Named Entity Recognition" \
+			-t sent "Sentiment Classification" \
 			-t la "Linguistic Acceptability" \
 			-t rc "Reading Comprehension" \
 			-m mcc "Matthews Correlation Coefficient" \
@@ -302,6 +307,7 @@ faroese-nlu:
 			-m em "Exact Match" \
 			-m f1 "F1-score" \
 			-d FoNE fo ner micro_f1_no_misc micro_f1 \
+			-d FoSent fo sent mcc macro_f1 \
 			-d ScaLA-fo fo la mcc macro_f1 \
 			-d FoQA fo rc em f1
 
