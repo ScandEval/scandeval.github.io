@@ -538,6 +538,7 @@ germanic-nlu:
 			-l no Norwegian \
 			-l sv Swedish \
 			-l is Icelandic \
+			-l fo Faroese \
 			-l de German \
 			-l nl Dutch \
 			-l en English \
@@ -567,8 +568,13 @@ germanic-nlu:
 			-d ScaLA-sv sv la mcc macro_f1 \
 			-d ScandiQA-sv sv rc em f1 \
 			-d MIM-GOLD-NER is ner micro_f1_no_misc micro_f1 \
+			-d Hotter-and-Colder-sentiment is sent mcc macro_f1 \
 			-d ScaLA-is is la mcc macro_f1 \
 			-d NQiI is rc em f1 \
+			-d FoNE fo ner micro_f1_no_misc micro_f1 \
+			-d FoSent fo sent mcc macro_f1 \
+			-d ScaLA-fo fo la mcc macro_f1 \
+			-d FoQA fo rc em f1 \
 			-d GermEval de ner micro_f1_no_misc micro_f1 \
 			-d SB10k de sent mcc macro_f1 \
 			-d ScaLA-de de la mcc macro_f1 \
@@ -589,6 +595,7 @@ germanic-nlg:
 			-l no Norwegian \
 			-l sv Swedish \
 			-l is Icelandic \
+			-l fo Faroese \
 			-l de German \
 			-l nl Dutch \
 			-l en English \
@@ -633,11 +640,16 @@ germanic-nlg:
 			-d MMLU-sv sv know mcc accuracy \
 			-d HellaSwag-sv sv reason mcc accuracy \
 			-d MIM-GOLD-NER is ner micro_f1_no_misc micro_f1 \
+			-d Hotter-and-Colder-sentiment is sent mcc macro_f1 \
 			-d ScaLA-is is la mcc macro_f1 \
 			-d NQiI is rc em f1 \
 			-d RRN is summ bertscore rouge_l \
 			-d ARC-is is know mcc accuracy \
 			-d Winogrande-is is reason mcc accuracy \
+			-d FoNE fo ner micro_f1_no_misc micro_f1 \
+			-d FoSent fo sent mcc macro_f1 \
+			-d ScaLA-fo fo la mcc macro_f1 \
+			-d FoQA fo rc em f1 \
 			-d GermEval de ner micro_f1_no_misc micro_f1 \
 			-d SB10k de sent mcc macro_f1 \
 			-d ScaLA-de de la mcc macro_f1 \
