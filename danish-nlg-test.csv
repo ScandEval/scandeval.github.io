@@ -21,6 +21,7 @@ timpal0l/sol (few-shot),10732,32,4096,False,False,3701,2.12,54.91,44.38,21.11,58
 mistralai/Mistral-Nemo-Instruct-2407 (few-shot),12248,131,1024001,True,False,7095,2.13,53.95,48.97,31.78,56.44,66.24,67.09,72.87,42.77
 mistralai/Ministral-8B-Instruct-2410 (few-shot),8020,131,32768,True,False,5821,2.19,52.49,49.67,22.8,57.07,66.75,59.57,65.34,53.97
 skole-gpt (few-shot),-1,32,32768,False,False,3583,2.22,49.17,51.51,32.04,58.52,66.83,65.77,77.56,30.34
+utter-project/EuroLLM-9B-Instruct (few-shot),9152,128,4096,False,False,5763,2.24,34.0,53.97,32.21,57.1,67.55,80.75,74.77,36.86
 "timpal0l/BeagleCatMunin2 (few-shot, val)",7242,32,32768,False,True,2477,2.27,51.53,47.95,14.1,58.28,68.04,67.37,66.75,42.21
 "meta-llama/Llama-2-70b-chat-hf (few-shot, val)",68977,32,4096,True,False,1979,2.28,52.22,50.66,23.57,53.82,67.13,69.26,46.4,39.72
 "mlabonne/NeuralBeagle14-7B (few-shot, val)",7242,32,8192,False,True,2549,2.28,53.02,51.29,19.73,51.69,67.33,65.38,62.78,39.07
@@ -53,7 +54,7 @@ danish-foundation-models/munin-7b-alpha (few-shot),7242,32,32768,True,False,6116
 "KennethEnevoldsen/munin_mistral-7b (few-shot, val)",7242,32,32768,False,True,2543,2.48,46.7,47.52,8.04,60.05,67.18,70.49,66.28,25.13
 "merge-crew/da-sv-dare-ties-density-0.9 (few-shot, val)",7242,32,32768,True,True,2443,2.49,45.61,53.73,17.08,56.67,66.14,60.58,57.89,16.45
 "AI-Sweden-Models/tyr (few-shot, val)",7242,32,32768,False,True,6079,2.5,47.01,50.6,13.73,56.35,66.82,57.53,67.04,22.16
-bineric/NorskGPT-Llama3-8b (few-shot),8030,128,8192,False,False,3695,2.51,51.4,42.13,3.91,57.81,66.7,65.15,57.36,44.55
+bineric/NorskGPT-Llama3-8b (few-shot),8030,128,8192,False,False,3695,2.5,51.4,42.13,3.91,57.81,66.7,65.15,57.36,44.55
 google/gemma-7b (few-shot),8538,256,8192,True,False,1378,2.52,19.59,46.55,32.64,59.4,66.63,74.32,65.58,24.74
 emillykkejensen/Llama-3-8B-instruct-dansk (few-shot),8030,128,4096,False,False,967,2.56,41.74,50.07,24.49,59.29,66.24,55.51,48.43,19.64
 ibm-granite/granite-3.0-8b-base (few-shot),8171,49,4097,True,False,5116,2.58,44.58,47.16,19.2,58.41,65.64,32.05,47.42,28.73
@@ -78,9 +79,9 @@ neph1/bellman-7b-mistral-instruct-v0.2 (few-shot),7242,32,32768,False,False,2518
 ibm-granite/granite-3.0-8b-instruct (few-shot),8171,49,4096,True,False,5090,2.75,44.92,49.31,10.14,57.34,66.02,33.71,43.55,21.34
 meta-llama/Llama-2-13b-hf (few-shot),13016,32,4096,True,False,2898,2.82,41.28,23.01,23.5,60.29,66.28,50.3,56.24,15.43
 meta-llama/Llama-3.2-3B-Instruct (few-shot),3213,128,131073,False,False,10424,2.83,41.12,42.77,11.52,51.14,65.19,49.78,45.88,21.89
+bineric/NorskGPT-Llama-7B-v0.1 (few-shot),6738,32,4096,False,False,5384,2.89,41.63,47.73,0.0,54.25,66.02,47.16,38.28,22.27
 mistralai/Mistral-7B-Instruct-v0.1 (few-shot),7242,32,32768,False,False,634,2.89,37.93,44.49,14.09,51.38,65.8,45.07,35.36,14.85
 occiglot/occiglot-7b-eu5-instruct (few-shot),7242,32,32768,False,False,2088,2.89,40.19,42.31,1.14,57.89,66.68,44.3,48.76,15.44
-bineric/NorskGPT-Llama-7B-v0.1 (few-shot),6738,32,4096,False,False,5384,2.9,41.63,47.73,0.0,54.25,66.02,47.16,38.28,22.27
 neuralmagic/Sparse-Llama-3.1-8B-2of4 (few-shot),8030,128,131072,True,False,2841,2.93,27.6,37.08,10.84,58.67,63.45,38.31,46.65,28.92
 meta-llama/Llama-3.2-3B (few-shot),3213,128,131073,True,False,3713,2.95,41.13,38.9,9.6,56.85,63.35,45.46,46.77,12.19
 meta-llama/Llama-2-7b-chat-hf (few-shot),6738,32,4096,False,False,2643,2.96,35.44,44.88,9.74,55.04,66.15,32.17,35.74,11.32
@@ -96,8 +97,8 @@ ibm-granite/granite-8b-code-base-4k (few-shot),8055,49,4096,True,False,2313,3.07
 ibm-granite/granite-8b-code-base (few-shot),8055,49,4096,True,False,1002,3.07,48.55,39.16,10.43,51.28,63.95,33.33,17.65,8.97
 ibm-granite/granite-3.0-2b-instruct (few-shot),2634,49,4097,True,False,10194,3.08,41.79,41.86,11.86,51.97,64.86,29.55,26.2,3.64
 "merge-crew/da-sv-dare-ties-density-0.3 (few-shot, val)",7242,32,32768,True,True,2461,3.1,30.16,48.49,5.52,52.44,64.24,43.57,35.6,6.76
+meta-llama/Llama-2-7b-hf (few-shot),6738,32,4096,True,False,930,3.12,31.77,43.91,0.31,58.44,65.5,20.18,35.69,7.93
 Qwen/Qwen1.5-4B (few-shot),3950,152,32768,True,False,3248,3.13,32.28,39.62,5.38,54.16,62.74,37.49,29.21,15.58
-meta-llama/Llama-2-7b-hf (few-shot),6738,32,4096,True,False,930,3.13,31.77,43.91,0.31,58.44,65.5,20.18,35.69,7.93
 ibm-granite/granite-8b-code-instruct-4k (few-shot),8055,49,4096,True,False,5617,3.14,45.9,37.11,11.7,50.11,63.86,32.44,7.46,5.62
 tollefj/nordavind-7b-instruct-warm (few-shot),7248,33,2048,False,False,6450,3.14,38.39,49.44,7.5,51.24,66.09,3.53,12.86,1.29
 norallm/normistral-7b-warm-instruct (few-shot),-1,33,2048,True,False,6194,3.18,39.83,47.48,4.55,49.23,66.17,10.83,14.66,2.71
@@ -170,4 +171,4 @@ NorGLM/NorGPT-369M (few-shot),-1,64,1024,True,False,19896,4.79,1.13,2.06,-0.36,0
 peter-sk/gpt-neox-da (few-shot),1515,50,1024,True,False,6025,4.91,0.64,-0.52,-0.02,0.48,50.23,0.9,4.1,0.04
 ssmits/Falcon2-5.5B-multilingual (few-shot),5465,65,8192,True,False,7692,5.13,0.0,0.0,0.0,0.02,42.82,4.55,-1.17,-1.26
 ai-forever/mGPT (few-shot),-1,100,1024,True,False,11734,5.21,0.65,2.61,-0.73,1.99,35.64,-0.61,6.94,-1.12
-Sigurdur/icebreaker (few-shot),110,32,1024,False,False,48619,5.33,0.0,0.0,0.0,0.0,37.85,0.26,-0.75,-0.88
+Sigurdur/icebreaker (few-shot),110,32,1024,False,False,48619,5.34,0.0,0.0,0.0,0.0,37.85,0.26,-0.75,-0.88
