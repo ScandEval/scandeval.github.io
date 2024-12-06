@@ -3,7 +3,7 @@ layout: leaderboard
 title: Germanic NLG 🇪🇺
 ---
 
-<center>Last updated: 05/12/2024 16:19:17 CET</center>
+<center>Last updated: 06/12/2024 09:26:17 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -154,13 +154,13 @@ title: Germanic NLG 🇪🇺
    <td class="max_sequence_length">128000</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">576 ± 221 / 81 ± 28</td> <!-- Model inference speed -->
-   <td class="rank">1.15</td> <!-- ScandEval rank -->
+   <td class="rank">1.16</td> <!-- ScandEval rank -->
    <td class="da-rank">1.15</td> <!-- Danish rank -->
    <td class="no-rank">1.19</td> <!-- Norwegian rank -->
    <td class="sv-rank">1.04</td> <!-- Swedish rank -->
-   <td class="is-rank">1.12</td> <!-- Icelandic rank -->
+   <td class="is-rank">1.13</td> <!-- Icelandic rank -->
    <td class="fo-rank">1.00</td> <!-- Faroese rank -->
-   <td class="de-rank">1.22</td> <!-- German rank -->
+   <td class="de-rank">1.25</td> <!-- German rank -->
    <td class="nl-rank">1.34</td> <!-- Dutch rank -->
    <td class="en-rank">1.17</td> <!-- English rank -->
    <td class="da ner">66.80 ± 3.01 / 45.69 ± 2.85</td> <!-- DANSK -->
@@ -288,10 +288,10 @@ title: Germanic NLG 🇪🇺
    <td class="no-rank">1.19</td> <!-- Norwegian rank -->
    <td class="sv-rank">1.04</td> <!-- Swedish rank -->
    <td class="is-rank">1.16</td> <!-- Icelandic rank -->
-   <td class="fo-rank">2.72</td> <!-- Faroese rank -->
-   <td class="de-rank">1.33</td> <!-- German rank -->
+   <td class="fo-rank">2.75</td> <!-- Faroese rank -->
+   <td class="de-rank">1.35</td> <!-- German rank -->
    <td class="nl-rank">1.51</td> <!-- Dutch rank -->
-   <td class="en-rank">1.25</td> <!-- English rank -->
+   <td class="en-rank">1.26</td> <!-- English rank -->
    <td class="da ner">71.15 ± 2.89 / 52.24 ± 3.76</td> <!-- DANSK -->
    <td class="da sent">49.42 ± 3.29 / 61.74 ± 2.59</td> <!-- Angry Tweets -->
    <td class="da la">64.59 ± 2.97 / 79.93 ± 1.88</td> <!-- ScaLA-da -->
@@ -412,14 +412,14 @@ title: Germanic NLG 🇪🇺
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">5,821 ± 1,090 / 1,561 ± 506</td> <!-- Model inference speed -->
-   <td class="rank">2.21</td> <!-- ScandEval rank -->
-   <td class="da-rank">2.08</td> <!-- Danish rank -->
-   <td class="no-rank">2.31</td> <!-- Norwegian rank -->
+   <td class="rank">2.22</td> <!-- ScandEval rank -->
+   <td class="da-rank">2.07</td> <!-- Danish rank -->
+   <td class="no-rank">2.32</td> <!-- Norwegian rank -->
    <td class="sv-rank">2.00</td> <!-- Swedish rank -->
-   <td class="is-rank">3.08</td> <!-- Icelandic rank -->
-   <td class="fo-rank">2.91</td> <!-- Faroese rank -->
-   <td class="de-rank">1.66</td> <!-- German rank -->
-   <td class="nl-rank">1.99</td> <!-- Dutch rank -->
+   <td class="is-rank">3.12</td> <!-- Icelandic rank -->
+   <td class="fo-rank">2.93</td> <!-- Faroese rank -->
+   <td class="de-rank">1.68</td> <!-- German rank -->
+   <td class="nl-rank">1.98</td> <!-- Dutch rank -->
    <td class="en-rank">1.63</td> <!-- English rank -->
    <td class="da ner">52.49 ± 1.89 / 38.85 ± 1.94</td> <!-- DANSK -->
    <td class="da sent">49.67 ± 1.40 / 65.83 ± 1.40</td> <!-- Angry Tweets -->
@@ -541,13 +541,13 @@ title: Germanic NLG 🇪🇺
    <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">5,876 ± 1,021 / 1,677 ± 546</td> <!-- Model inference speed -->
-   <td class="rank">2.23</td> <!-- ScandEval rank -->
+   <td class="rank">2.25</td> <!-- ScandEval rank -->
    <td class="da-rank">2.04</td> <!-- Danish rank -->
-   <td class="no-rank">2.28</td> <!-- Norwegian rank -->
-   <td class="sv-rank">2.07</td> <!-- Swedish rank -->
-   <td class="is-rank">3.60</td> <!-- Icelandic rank -->
-   <td class="fo-rank">2.62</td> <!-- Faroese rank -->
-   <td class="de-rank">1.83</td> <!-- German rank -->
+   <td class="no-rank">2.30</td> <!-- Norwegian rank -->
+   <td class="sv-rank">2.08</td> <!-- Swedish rank -->
+   <td class="is-rank">3.65</td> <!-- Icelandic rank -->
+   <td class="fo-rank">2.65</td> <!-- Faroese rank -->
+   <td class="de-rank">1.86</td> <!-- German rank -->
    <td class="nl-rank">1.97</td> <!-- Dutch rank -->
    <td class="en-rank">1.45</td> <!-- English rank -->
    <td class="da ner">53.20 ± 1.97 / 32.89 ± 2.00</td> <!-- DANSK -->
@@ -670,13 +670,13 @@ title: Germanic NLG 🇪🇺
    <td class="max_sequence_length">131073</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,411 ± 465 / 686 ± 215</td> <!-- Model inference speed -->
-   <td class="rank">2.32</td> <!-- ScandEval rank -->
+   <td class="rank">2.33</td> <!-- ScandEval rank -->
    <td class="da-rank">2.32</td> <!-- Danish rank -->
-   <td class="no-rank">2.37</td> <!-- Norwegian rank -->
-   <td class="sv-rank">2.20</td> <!-- Swedish rank -->
-   <td class="is-rank">2.98</td> <!-- Icelandic rank -->
-   <td class="fo-rank">2.74</td> <!-- Faroese rank -->
-   <td class="de-rank">1.95</td> <!-- German rank -->
+   <td class="no-rank">2.39</td> <!-- Norwegian rank -->
+   <td class="sv-rank">2.19</td> <!-- Swedish rank -->
+   <td class="is-rank">3.02</td> <!-- Icelandic rank -->
+   <td class="fo-rank">2.77</td> <!-- Faroese rank -->
+   <td class="de-rank">1.98</td> <!-- German rank -->
    <td class="nl-rank">2.19</td> <!-- Dutch rank -->
    <td class="en-rank">1.80</td> <!-- English rank -->
    <td class="da ner">57.19 ± 1.73 / 44.34 ± 2.43</td> <!-- DANSK -->
@@ -799,15 +799,15 @@ title: Germanic NLG 🇪🇺
    <td class="max_sequence_length">131073</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,439 ± 459 / 703 ± 219</td> <!-- Model inference speed -->
-   <td class="rank">2.37</td> <!-- ScandEval rank -->
+   <td class="rank">2.39</td> <!-- ScandEval rank -->
    <td class="da-rank">2.32</td> <!-- Danish rank -->
-   <td class="no-rank">2.37</td> <!-- Norwegian rank -->
+   <td class="no-rank">2.38</td> <!-- Norwegian rank -->
    <td class="sv-rank">2.10</td> <!-- Swedish rank -->
-   <td class="is-rank">3.06</td> <!-- Icelandic rank -->
-   <td class="fo-rank">2.99</td> <!-- Faroese rank -->
-   <td class="de-rank">1.97</td> <!-- German rank -->
+   <td class="is-rank">3.10</td> <!-- Icelandic rank -->
+   <td class="fo-rank">3.01</td> <!-- Faroese rank -->
+   <td class="de-rank">2.00</td> <!-- German rank -->
    <td class="nl-rank">2.26</td> <!-- Dutch rank -->
-   <td class="en-rank">1.91</td> <!-- English rank -->
+   <td class="en-rank">1.92</td> <!-- English rank -->
    <td class="da ner">47.68 ± 2.50 / 32.67 ± 2.45</td> <!-- DANSK -->
    <td class="da sent">49.71 ± 1.43 / 64.00 ± 1.96</td> <!-- Angry Tweets -->
    <td class="da la">25.48 ± 2.83 / 58.45 ± 2.63</td> <!-- ScaLA-da -->
@@ -928,14 +928,14 @@ title: Germanic NLG 🇪🇺
    <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">4,909 ± 1,215 / 978 ± 319</td> <!-- Model inference speed -->
-   <td class="rank">2.38</td> <!-- ScandEval rank -->
+   <td class="rank">2.40</td> <!-- ScandEval rank -->
    <td class="da-rank">2.38</td> <!-- Danish rank -->
-   <td class="no-rank">2.40</td> <!-- Norwegian rank -->
-   <td class="sv-rank">2.27</td> <!-- Swedish rank -->
-   <td class="is-rank">3.15</td> <!-- Icelandic rank -->
-   <td class="fo-rank">2.66</td> <!-- Faroese rank -->
-   <td class="de-rank">2.06</td> <!-- German rank -->
-   <td class="nl-rank">2.30</td> <!-- Dutch rank -->
+   <td class="no-rank">2.42</td> <!-- Norwegian rank -->
+   <td class="sv-rank">2.28</td> <!-- Swedish rank -->
+   <td class="is-rank">3.19</td> <!-- Icelandic rank -->
+   <td class="fo-rank">2.68</td> <!-- Faroese rank -->
+   <td class="de-rank">2.09</td> <!-- German rank -->
+   <td class="nl-rank">2.31</td> <!-- Dutch rank -->
    <td class="en-rank">1.86</td> <!-- English rank -->
    <td class="da ner">57.74 ± 2.06 / 40.66 ± 2.58</td> <!-- DANSK -->
    <td class="da sent">48.43 ± 3.31 / 62.09 ± 3.62</td> <!-- Angry Tweets -->
@@ -1057,15 +1057,15 @@ title: Germanic NLG 🇪🇺
    <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">5,581 ± 1,066 / 1,471 ± 483</td> <!-- Model inference speed -->
-   <td class="rank">2.46</td> <!-- ScandEval rank -->
+   <td class="rank">2.48</td> <!-- ScandEval rank -->
    <td class="da-rank">2.40</td> <!-- Danish rank -->
-   <td class="no-rank">2.60</td> <!-- Norwegian rank -->
+   <td class="no-rank">2.61</td> <!-- Norwegian rank -->
    <td class="sv-rank">2.31</td> <!-- Swedish rank -->
-   <td class="is-rank">3.77</td> <!-- Icelandic rank -->
-   <td class="fo-rank">2.95</td> <!-- Faroese rank -->
-   <td class="de-rank">1.86</td> <!-- German rank -->
-   <td class="nl-rank">2.09</td> <!-- Dutch rank -->
-   <td class="en-rank">1.73</td> <!-- English rank -->
+   <td class="is-rank">3.81</td> <!-- Icelandic rank -->
+   <td class="fo-rank">2.98</td> <!-- Faroese rank -->
+   <td class="de-rank">1.89</td> <!-- German rank -->
+   <td class="nl-rank">2.10</td> <!-- Dutch rank -->
+   <td class="en-rank">1.74</td> <!-- English rank -->
    <td class="da ner">51.32 ± 3.82 / 25.54 ± 2.10</td> <!-- DANSK -->
    <td class="da sent">52.00 ± 1.67 / 66.25 ± 1.77</td> <!-- Angry Tweets -->
    <td class="da la">18.48 ± 2.44 / 52.18 ± 4.28</td> <!-- ScaLA-da -->
@@ -1186,15 +1186,15 @@ title: Germanic NLG 🇪🇺
    <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">4,687 ± 1,121 / 967 ± 313</td> <!-- Model inference speed -->
-   <td class="rank">2.49</td> <!-- ScandEval rank -->
+   <td class="rank">2.51</td> <!-- ScandEval rank -->
    <td class="da-rank">2.35</td> <!-- Danish rank -->
-   <td class="no-rank">2.52</td> <!-- Norwegian rank -->
+   <td class="no-rank">2.54</td> <!-- Norwegian rank -->
    <td class="sv-rank">2.20</td> <!-- Swedish rank -->
-   <td class="is-rank">3.10</td> <!-- Icelandic rank -->
-   <td class="fo-rank">3.21</td> <!-- Faroese rank -->
-   <td class="de-rank">2.08</td> <!-- German rank -->
-   <td class="nl-rank">2.48</td> <!-- Dutch rank -->
-   <td class="en-rank">2.00</td> <!-- English rank -->
+   <td class="is-rank">3.13</td> <!-- Icelandic rank -->
+   <td class="fo-rank">3.23</td> <!-- Faroese rank -->
+   <td class="de-rank">2.14</td> <!-- German rank -->
+   <td class="nl-rank">2.49</td> <!-- Dutch rank -->
+   <td class="en-rank">1.99</td> <!-- English rank -->
    <td class="da ner">46.31 ± 3.22 / 29.09 ± 2.52</td> <!-- DANSK -->
    <td class="da sent">51.29 ± 1.47 / 66.35 ± 1.70</td> <!-- Angry Tweets -->
    <td class="da la">25.70 ± 4.59 / 55.65 ± 5.87</td> <!-- ScaLA-da -->
@@ -1315,14 +1315,14 @@ title: Germanic NLG 🇪🇺
    <td class="max_sequence_length">4097</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">5,116 ± 943 / 1,436 ± 472</td> <!-- Model inference speed -->
-   <td class="rank">2.58</td> <!-- ScandEval rank -->
+   <td class="rank">2.60</td> <!-- ScandEval rank -->
    <td class="da-rank">2.54</td> <!-- Danish rank -->
-   <td class="no-rank">2.73</td> <!-- Norwegian rank -->
-   <td class="sv-rank">2.48</td> <!-- Swedish rank -->
-   <td class="is-rank">4.01</td> <!-- Icelandic rank -->
-   <td class="fo-rank">3.10</td> <!-- Faroese rank -->
-   <td class="de-rank">1.96</td> <!-- German rank -->
-   <td class="nl-rank">2.11</td> <!-- Dutch rank -->
+   <td class="no-rank">2.75</td> <!-- Norwegian rank -->
+   <td class="sv-rank">2.49</td> <!-- Swedish rank -->
+   <td class="is-rank">4.05</td> <!-- Icelandic rank -->
+   <td class="fo-rank">3.13</td> <!-- Faroese rank -->
+   <td class="de-rank">1.99</td> <!-- German rank -->
+   <td class="nl-rank">2.12</td> <!-- Dutch rank -->
    <td class="en-rank">1.73</td> <!-- English rank -->
    <td class="da ner">44.58 ± 2.62 / 33.50 ± 2.75</td> <!-- DANSK -->
    <td class="da sent">47.16 ± 1.36 / 64.63 ± 1.18</td> <!-- Angry Tweets -->
@@ -1438,19 +1438,148 @@ title: Germanic NLG 🇪🇺
    <td>13.0.0</td> <!-- HellaSwag version -->
    </tr>
   <tr class="not-merged-model">
+   <td>utter-project/EuroLLM-9B-Instruct (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">9152</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">128</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">5,763 ± 1,178 / 1,390 ± 446</td> <!-- Model inference speed -->
+   <td class="rank">2.61</td> <!-- ScandEval rank -->
+   <td class="da-rank">2.20</td> <!-- Danish rank -->
+   <td class="no-rank">2.65</td> <!-- Norwegian rank -->
+   <td class="sv-rank">2.25</td> <!-- Swedish rank -->
+   <td class="is-rank">3.95</td> <!-- Icelandic rank -->
+   <td class="fo-rank">3.20</td> <!-- Faroese rank -->
+   <td class="de-rank">2.14</td> <!-- German rank -->
+   <td class="nl-rank">2.30</td> <!-- Dutch rank -->
+   <td class="en-rank">2.16</td> <!-- English rank -->
+   <td class="da ner">34.00 ± 2.69 / 25.49 ± 2.06</td> <!-- DANSK -->
+   <td class="da sent">53.97 ± 1.21 / 68.40 ± 1.28</td> <!-- Angry Tweets -->
+   <td class="da la">32.21 ± 4.81 / 56.97 ± 5.83</td> <!-- ScaLA-da -->
+   <td class="da rc">57.10 ± 0.99 / 63.73 ± 0.85</td> <!-- ScandiQA-da -->
+   <td class="da summ">67.55 ± 1.08 / 23.77 ± 0.94</td> <!-- Nordjylland-News -->
+   <td class="da know">80.75 ± 1.25 / 85.31 ± 0.98</td> <!-- Danske Talemaader -->
+   <td class="da know">74.77 ± 1.93 / 83.14 ± 1.29</td> <!-- Danish Citizen Tests -->
+   <td class="da reason">36.86 ± 1.37 / 51.61 ± 1.09</td> <!-- HellaSwag-da -->
+   <td class="no ner">40.91 ± 2.56 / 33.22 ± 1.88</td> <!-- NorNE-nb -->
+   <td class="no ner">42.91 ± 2.34 / 35.61 ± 2.22</td> <!-- NorNE-nn -->
+   <td class="no sent">52.62 ± 2.01 / 68.10 ± 2.25</td> <!-- NoReC -->
+   <td class="no summ">65.77 ± 0.38 / 19.35 ± 0.75</td> <!-- No Sammendrag -->
+   <td class="no la">9.70 ± 4.22 / 36.58 ± 1.69</td> <!-- ScaLA-nb -->
+   <td class="no la">11.98 ± 2.76 / 39.37 ± 2.76</td> <!-- ScaLA-nn -->
+   <td class="no rc">47.36 ± 4.28 / 72.71 ± 4.10</td> <!-- NorQuAD -->
+   <td class="no know">36.97 ± 1.21 / 52.08 ± 0.96</td> <!-- MMLU-no -->
+   <td class="no reason">37.64 ± 1.86 / 51.95 ± 1.52</td> <!-- HellaSwag-no -->
+   <td class="sv ner">40.59 ± 1.98 / 28.19 ± 1.47</td> <!-- SUC3 -->
+   <td class="sv sent">76.02 ± 2.40 / 77.86 ± 1.70</td> <!-- SweReC -->
+   <td class="sv la">33.98 ± 5.90 / 57.44 ± 6.59</td> <!-- ScaLA-sv -->
+   <td class="sv rc">56.98 ± 0.58 / 63.97 ± 0.66</td> <!-- ScandiQA-sv -->
+   <td class="sv summ">66.33 ± 0.19 / 20.77 ± 0.27</td> <!-- SweDN -->
+   <td class="sv know">40.09 ± 0.90 / 54.78 ± 0.70</td> <!-- MMLU-sv -->
+   <td class="sv reason">36.27 ± 1.57 / 50.67 ± 1.45</td> <!-- HellaSwag-sv -->
+   <td class="is ner">24.92 ± 3.54 / 23.09 ± 3.30</td> <!-- MIM-GOLD-NER -->
+   <td class="is sent">9.76 ± 7.16 / 26.68 ± 6.80</td> <!-- Hotter-and-Colder-sentiment -->
+   <td class="is la">0.15 ± 0.29 / 33.01 ± 0.31</td> <!-- ScaLA-is -->
+   <td class="is rc">28.18 ± 1.51 / 54.08 ± 0.71</td> <!-- NQiI -->
+   <td class="is summ">64.67 ± 1.48 / 18.74 ± 1.31</td> <!-- RRN -->
+   <td class="is know">11.10 ± 0.78 / 33.53 ± 0.69</td> <!-- ARC-is -->
+   <td class="is reason">0.89 ± 1.86 / 51.27 ± 1.18</td> <!-- Winogrande-is -->
+   <td class="fo ner">49.32 ± 1.94 / 47.58 ± 2.12</td> <!-- FoNE -->
+   <td class="fo sent">34.21 ± 5.26 / 43.22 ± 4.37</td> <!-- FoSent -->
+   <td class="fo la">0.16 ± 0.32 / 33.30 ± 0.32</td> <!-- ScaLA-fo -->
+   <td class="fo rc">46.06 ± 2.09 / 65.02 ± 1.80</td> <!-- FoQA -->
+   <td class="de ner">40.85 ± 2.21 / 34.64 ± 2.00</td> <!-- GermEval -->
+   <td class="de sent">56.53 ± 2.49 / 69.48 ± 1.70</td> <!-- SB10k -->
+   <td class="de la">24.74 ± 4.45 / 56.60 ± 5.56</td> <!-- ScaLA-de -->
+   <td class="de rc">38.20 ± 1.47 / 67.94 ± 2.19</td> <!-- GermanQuAD -->
+   <td class="de summ">69.44 ± 1.03 / 28.76 ± 2.71</td> <!-- MLSum -->
+   <td class="de know">39.43 ± 1.06 / 54.28 ± 0.77</td> <!-- MMLU-de -->
+   <td class="de reason">37.67 ± 1.13 / 51.67 ± 1.11</td> <!-- HellaSwag-de -->
+   <td class="nl ner">43.06 ± 1.89 / 30.50 ± 1.45</td> <!-- CoNLL-nl -->
+   <td class="nl sent">11.95 ± 2.25 / 33.40 ± 1.41</td> <!-- Dutch Social -->
+   <td class="nl la">40.85 ± 3.31 / 68.94 ± 2.23</td> <!-- ScaLA-nl -->
+   <td class="nl rc">63.42 ± 0.63 / 74.62 ± 0.52</td> <!-- SQuAD-nl -->
+   <td class="nl summ">69.33 ± 0.60 / 23.01 ± 1.18</td> <!-- Wiki-Lingua-NL -->
+   <td class="nl know">41.90 ± 1.02 / 56.09 ± 0.76</td> <!-- MMLU-nl -->
+   <td class="nl reason">36.69 ± 1.64 / 50.85 ± 1.65</td> <!-- HellaSwag-nl -->
+   <td class="en ner">44.81 ± 2.07 / 39.51 ± 1.62</td> <!-- CoNLL-en -->
+   <td class="en sent">62.54 ± 2.18 / 68.78 ± 1.18</td> <!-- SST5 -->
+   <td class="en la">28.10 ± 4.55 / 62.46 ± 4.36</td> <!-- ScaLA-en -->
+   <td class="en rc">71.71 ± 2.21 / 84.31 ± 1.69</td> <!-- SQuAD -->
+   <td class="en summ">69.27 ± 0.77 / 25.38 ± 1.10</td> <!-- CNN-DailyMail -->
+   <td class="en know">45.95 ± 0.80 / 59.04 ± 0.60</td> <!-- MMLU -->
+   <td class="en reason">43.97 ± 1.97 / 56.43 ± 1.61</td> <!-- HellaSwag -->
+   <td>13.1.0</td> <!-- DANSK version -->
+   <td>13.1.0</td> <!-- Angry Tweets version -->
+   <td>13.1.0</td> <!-- ScaLA-da version -->
+   <td>13.1.0</td> <!-- ScandiQA-da version -->
+   <td>13.1.0</td> <!-- Nordjylland-News version -->
+   <td>13.1.0</td> <!-- Danske Talemaader version -->
+   <td>13.1.0</td> <!-- Danish Citizen Tests version -->
+   <td>13.1.0</td> <!-- HellaSwag-da version -->
+   <td>13.1.0</td> <!-- NorNE-nb version -->
+   <td>13.1.0</td> <!-- NorNE-nn version -->
+   <td>13.1.0</td> <!-- NoReC version -->
+   <td>13.1.0</td> <!-- No Sammendrag version -->
+   <td>13.1.0</td> <!-- ScaLA-nb version -->
+   <td>13.1.0</td> <!-- ScaLA-nn version -->
+   <td>13.1.0</td> <!-- NorQuAD version -->
+   <td>13.1.0</td> <!-- MMLU-no version -->
+   <td>13.1.0</td> <!-- HellaSwag-no version -->
+   <td>13.1.0</td> <!-- SUC3 version -->
+   <td>13.1.0</td> <!-- SweReC version -->
+   <td>13.1.0</td> <!-- ScaLA-sv version -->
+   <td>13.1.0</td> <!-- ScandiQA-sv version -->
+   <td>13.1.0</td> <!-- SweDN version -->
+   <td>13.1.0</td> <!-- MMLU-sv version -->
+   <td>13.1.0</td> <!-- HellaSwag-sv version -->
+   <td>13.1.0</td> <!-- MIM-GOLD-NER version -->
+   <td>13.3.0</td> <!-- Hotter-and-Colder-sentiment version -->
+   <td>13.1.0</td> <!-- ScaLA-is version -->
+   <td>13.1.0</td> <!-- NQiI version -->
+   <td>13.1.0</td> <!-- RRN version -->
+   <td>13.1.0</td> <!-- ARC-is version -->
+   <td>13.1.0</td> <!-- Winogrande-is version -->
+   <td>13.1.0</td> <!-- FoNE version -->
+   <td>13.3.0</td> <!-- FoSent version -->
+   <td>13.1.0</td> <!-- ScaLA-fo version -->
+   <td>13.1.0</td> <!-- FoQA version -->
+   <td>13.1.0</td> <!-- GermEval version -->
+   <td>13.1.0</td> <!-- SB10k version -->
+   <td>13.1.0</td> <!-- ScaLA-de version -->
+   <td>13.1.0</td> <!-- GermanQuAD version -->
+   <td>13.1.0</td> <!-- MLSum version -->
+   <td>13.1.0</td> <!-- MMLU-de version -->
+   <td>13.1.0</td> <!-- HellaSwag-de version -->
+   <td>13.1.0</td> <!-- CoNLL-nl version -->
+   <td>13.1.0</td> <!-- Dutch Social version -->
+   <td>13.1.0</td> <!-- ScaLA-nl version -->
+   <td>13.1.0</td> <!-- SQuAD-nl version -->
+   <td>13.1.0</td> <!-- Wiki-Lingua-NL version -->
+   <td>13.1.0</td> <!-- MMLU-nl version -->
+   <td>13.1.0</td> <!-- HellaSwag-nl version -->
+   <td>13.1.0</td> <!-- CoNLL-en version -->
+   <td>13.1.0</td> <!-- SST5 version -->
+   <td>13.1.0</td> <!-- ScaLA-en version -->
+   <td>13.1.0</td> <!-- SQuAD version -->
+   <td>13.1.0</td> <!-- CNN-DailyMail version -->
+   <td>13.1.0</td> <!-- MMLU version -->
+   <td>13.1.0</td> <!-- HellaSwag version -->
+   </tr>
+  <tr class="not-merged-model">
    <td>senseable/WestLake-7B-v2 (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">5,993 ± 1,028 / 1,742 ± 561</td> <!-- Model inference speed -->
-   <td class="rank">2.63</td> <!-- ScandEval rank -->
+   <td class="rank">2.64</td> <!-- ScandEval rank -->
    <td class="da-rank">2.34</td> <!-- Danish rank -->
-   <td class="no-rank">2.58</td> <!-- Norwegian rank -->
-   <td class="sv-rank">2.38</td> <!-- Swedish rank -->
-   <td class="is-rank">3.75</td> <!-- Icelandic rank -->
-   <td class="fo-rank">3.69</td> <!-- Faroese rank -->
-   <td class="de-rank">2.09</td> <!-- German rank -->
+   <td class="no-rank">2.60</td> <!-- Norwegian rank -->
+   <td class="sv-rank">2.39</td> <!-- Swedish rank -->
+   <td class="is-rank">3.79</td> <!-- Icelandic rank -->
+   <td class="fo-rank">3.71</td> <!-- Faroese rank -->
+   <td class="de-rank">2.11</td> <!-- German rank -->
    <td class="nl-rank">2.24</td> <!-- Dutch rank -->
    <td class="en-rank">1.94</td> <!-- English rank -->
    <td class="da ner">52.61 ± 1.77 / 33.64 ± 2.67</td> <!-- DANSK -->
@@ -1573,13 +1702,13 @@ title: Germanic NLG 🇪🇺
    <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">5,608 ± 1,062 / 1,472 ± 479</td> <!-- Model inference speed -->
-   <td class="rank">2.67</td> <!-- ScandEval rank -->
+   <td class="rank">2.69</td> <!-- ScandEval rank -->
    <td class="da-rank">2.67</td> <!-- Danish rank -->
-   <td class="no-rank">2.98</td> <!-- Norwegian rank -->
+   <td class="no-rank">2.99</td> <!-- Norwegian rank -->
    <td class="sv-rank">2.55</td> <!-- Swedish rank -->
-   <td class="is-rank">3.88</td> <!-- Icelandic rank -->
-   <td class="fo-rank">3.37</td> <!-- Faroese rank -->
-   <td class="de-rank">1.90</td> <!-- German rank -->
+   <td class="is-rank">3.93</td> <!-- Icelandic rank -->
+   <td class="fo-rank">3.40</td> <!-- Faroese rank -->
+   <td class="de-rank">1.95</td> <!-- German rank -->
    <td class="nl-rank">2.28</td> <!-- Dutch rank -->
    <td class="en-rank">1.76</td> <!-- English rank -->
    <td class="da ner">47.08 ± 3.39 / 32.34 ± 2.97</td> <!-- DANSK -->
@@ -1702,14 +1831,14 @@ title: Germanic NLG 🇪🇺
    <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">5,090 ± 937 / 1,423 ± 466</td> <!-- Model inference speed -->
-   <td class="rank">2.69</td> <!-- ScandEval rank -->
+   <td class="rank">2.71</td> <!-- ScandEval rank -->
    <td class="da-rank">2.68</td> <!-- Danish rank -->
-   <td class="no-rank">2.80</td> <!-- Norwegian rank -->
+   <td class="no-rank">2.82</td> <!-- Norwegian rank -->
    <td class="sv-rank">2.54</td> <!-- Swedish rank -->
-   <td class="is-rank">3.90</td> <!-- Icelandic rank -->
-   <td class="fo-rank">3.10</td> <!-- Faroese rank -->
-   <td class="de-rank">2.22</td> <!-- German rank -->
-   <td class="nl-rank">2.58</td> <!-- Dutch rank -->
+   <td class="is-rank">3.95</td> <!-- Icelandic rank -->
+   <td class="fo-rank">3.13</td> <!-- Faroese rank -->
+   <td class="de-rank">2.24</td> <!-- German rank -->
+   <td class="nl-rank">2.59</td> <!-- Dutch rank -->
    <td class="en-rank">1.72</td> <!-- English rank -->
    <td class="da ner">44.92 ± 3.05 / 32.65 ± 2.50</td> <!-- DANSK -->
    <td class="da sent">49.31 ± 1.35 / 66.02 ± 1.10</td> <!-- Angry Tweets -->
@@ -1831,15 +1960,15 @@ title: Germanic NLG 🇪🇺
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">4,120 ± 976 / 926 ± 306</td> <!-- Model inference speed -->
-   <td class="rank">2.69</td> <!-- ScandEval rank -->
+   <td class="rank">2.71</td> <!-- ScandEval rank -->
    <td class="da-rank">2.52</td> <!-- Danish rank -->
-   <td class="no-rank">2.89</td> <!-- Norwegian rank -->
+   <td class="no-rank">2.91</td> <!-- Norwegian rank -->
    <td class="sv-rank">2.50</td> <!-- Swedish rank -->
-   <td class="is-rank">3.54</td> <!-- Icelandic rank -->
-   <td class="fo-rank">3.15</td> <!-- Faroese rank -->
-   <td class="de-rank">2.19</td> <!-- German rank -->
-   <td class="nl-rank">2.73</td> <!-- Dutch rank -->
-   <td class="en-rank">2.00</td> <!-- English rank -->
+   <td class="is-rank">3.59</td> <!-- Icelandic rank -->
+   <td class="fo-rank">3.17</td> <!-- Faroese rank -->
+   <td class="de-rank">2.25</td> <!-- German rank -->
+   <td class="nl-rank">2.74</td> <!-- Dutch rank -->
+   <td class="en-rank">2.01</td> <!-- English rank -->
    <td class="da ner">43.60 ± 2.94 / 32.17 ± 2.26</td> <!-- DANSK -->
    <td class="da sent">45.92 ± 1.50 / 61.91 ± 1.50</td> <!-- Angry Tweets -->
    <td class="da la">15.43 ± 3.79 / 46.20 ± 5.54</td> <!-- ScaLA-da -->
@@ -1960,14 +2089,14 @@ title: Germanic NLG 🇪🇺
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,657 ± 524 / 880 ± 278</td> <!-- Model inference speed -->
-   <td class="rank">2.71</td> <!-- ScandEval rank -->
+   <td class="rank">2.72</td> <!-- ScandEval rank -->
    <td class="da-rank">2.59</td> <!-- Danish rank -->
-   <td class="no-rank">2.91</td> <!-- Norwegian rank -->
+   <td class="no-rank">2.93</td> <!-- Norwegian rank -->
    <td class="sv-rank">2.50</td> <!-- Swedish rank -->
-   <td class="is-rank">3.59</td> <!-- Icelandic rank -->
-   <td class="fo-rank">3.18</td> <!-- Faroese rank -->
-   <td class="de-rank">2.23</td> <!-- German rank -->
-   <td class="nl-rank">2.67</td> <!-- Dutch rank -->
+   <td class="is-rank">3.64</td> <!-- Icelandic rank -->
+   <td class="fo-rank">3.21</td> <!-- Faroese rank -->
+   <td class="de-rank">2.25</td> <!-- German rank -->
+   <td class="nl-rank">2.68</td> <!-- Dutch rank -->
    <td class="en-rank">1.99</td> <!-- English rank -->
    <td class="da ner">45.42 ± 2.88 / 32.66 ± 2.49</td> <!-- DANSK -->
    <td class="da sent">43.16 ± 1.69 / 54.53 ± 2.83</td> <!-- Angry Tweets -->
@@ -2089,13 +2218,13 @@ title: Germanic NLG 🇪🇺
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">634 ± 179 / 110 ± 35</td> <!-- Model inference speed -->
-   <td class="rank">2.81</td> <!-- ScandEval rank -->
+   <td class="rank">2.83</td> <!-- ScandEval rank -->
    <td class="da-rank">2.61</td> <!-- Danish rank -->
-   <td class="no-rank">2.97</td> <!-- Norwegian rank -->
+   <td class="no-rank">2.99</td> <!-- Norwegian rank -->
    <td class="sv-rank">2.64</td> <!-- Swedish rank -->
-   <td class="is-rank">3.76</td> <!-- Icelandic rank -->
-   <td class="fo-rank">3.14</td> <!-- Faroese rank -->
-   <td class="de-rank">2.44</td> <!-- German rank -->
+   <td class="is-rank">3.81</td> <!-- Icelandic rank -->
+   <td class="fo-rank">3.16</td> <!-- Faroese rank -->
+   <td class="de-rank">2.47</td> <!-- German rank -->
    <td class="nl-rank">2.70</td> <!-- Dutch rank -->
    <td class="en-rank">2.23</td> <!-- English rank -->
    <td class="da ner">44.89 ± 2.46 / 29.13 ± 1.92</td> <!-- DANSK -->
@@ -2218,14 +2347,14 @@ title: Germanic NLG 🇪🇺
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">5,054 ± 1,200 / 1,056 ± 339</td> <!-- Model inference speed -->
-   <td class="rank">2.89</td> <!-- ScandEval rank -->
-   <td class="da-rank">2.61</td> <!-- Danish rank -->
-   <td class="no-rank">2.92</td> <!-- Norwegian rank -->
+   <td class="rank">2.90</td> <!-- ScandEval rank -->
+   <td class="da-rank">2.62</td> <!-- Danish rank -->
+   <td class="no-rank">2.93</td> <!-- Norwegian rank -->
    <td class="sv-rank">2.35</td> <!-- Swedish rank -->
-   <td class="is-rank">3.81</td> <!-- Icelandic rank -->
-   <td class="fo-rank">3.56</td> <!-- Faroese rank -->
-   <td class="de-rank">2.53</td> <!-- German rank -->
-   <td class="nl-rank">3.18</td> <!-- Dutch rank -->
+   <td class="is-rank">3.86</td> <!-- Icelandic rank -->
+   <td class="fo-rank">3.59</td> <!-- Faroese rank -->
+   <td class="de-rank">2.55</td> <!-- German rank -->
+   <td class="nl-rank">3.19</td> <!-- Dutch rank -->
    <td class="en-rank">2.14</td> <!-- English rank -->
    <td class="da ner">42.43 ± 3.36 / 29.30 ± 2.53</td> <!-- DANSK -->
    <td class="da sent">47.82 ± 2.00 / 63.19 ± 2.09</td> <!-- Angry Tweets -->
@@ -2347,14 +2476,14 @@ title: Germanic NLG 🇪🇺
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,088 ± 352 / 706 ± 214</td> <!-- Model inference speed -->
-   <td class="rank">2.94</td> <!-- ScandEval rank -->
+   <td class="rank">2.96</td> <!-- ScandEval rank -->
    <td class="da-rank">2.82</td> <!-- Danish rank -->
-   <td class="no-rank">3.07</td> <!-- Norwegian rank -->
-   <td class="sv-rank">2.70</td> <!-- Swedish rank -->
-   <td class="is-rank">3.85</td> <!-- Icelandic rank -->
-   <td class="fo-rank">3.69</td> <!-- Faroese rank -->
-   <td class="de-rank">2.28</td> <!-- German rank -->
-   <td class="nl-rank">2.85</td> <!-- Dutch rank -->
+   <td class="no-rank">3.09</td> <!-- Norwegian rank -->
+   <td class="sv-rank">2.71</td> <!-- Swedish rank -->
+   <td class="is-rank">3.90</td> <!-- Icelandic rank -->
+   <td class="fo-rank">3.71</td> <!-- Faroese rank -->
+   <td class="de-rank">2.31</td> <!-- German rank -->
+   <td class="nl-rank">2.86</td> <!-- Dutch rank -->
    <td class="en-rank">2.27</td> <!-- English rank -->
    <td class="da ner">40.19 ± 2.55 / 29.73 ± 1.44</td> <!-- DANSK -->
    <td class="da sent">42.31 ± 1.55 / 59.29 ± 2.00</td> <!-- Angry Tweets -->
@@ -2476,14 +2605,14 @@ title: Germanic NLG 🇪🇺
    <td class="max_sequence_length">131073</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">10,424 ± 2,641 / 2,081 ± 666</td> <!-- Model inference speed -->
-   <td class="rank">2.95</td> <!-- ScandEval rank -->
+   <td class="rank">2.97</td> <!-- ScandEval rank -->
    <td class="da-rank">2.79</td> <!-- Danish rank -->
-   <td class="no-rank">3.21</td> <!-- Norwegian rank -->
-   <td class="sv-rank">2.66</td> <!-- Swedish rank -->
-   <td class="is-rank">3.99</td> <!-- Icelandic rank -->
-   <td class="fo-rank">3.47</td> <!-- Faroese rank -->
-   <td class="de-rank">2.60</td> <!-- German rank -->
-   <td class="nl-rank">2.80</td> <!-- Dutch rank -->
+   <td class="no-rank">3.23</td> <!-- Norwegian rank -->
+   <td class="sv-rank">2.67</td> <!-- Swedish rank -->
+   <td class="is-rank">4.03</td> <!-- Icelandic rank -->
+   <td class="fo-rank">3.49</td> <!-- Faroese rank -->
+   <td class="de-rank">2.63</td> <!-- German rank -->
+   <td class="nl-rank">2.81</td> <!-- Dutch rank -->
    <td class="en-rank">2.09</td> <!-- English rank -->
    <td class="da ner">41.12 ± 3.39 / 32.50 ± 2.74</td> <!-- DANSK -->
    <td class="da sent">42.77 ± 2.76 / 54.70 ± 4.19</td> <!-- Angry Tweets -->
@@ -2605,14 +2734,14 @@ title: Germanic NLG 🇪🇺
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">634 ± 179 / 110 ± 35</td> <!-- Model inference speed -->
-   <td class="rank">3.00</td> <!-- ScandEval rank -->
+   <td class="rank">3.01</td> <!-- ScandEval rank -->
    <td class="da-rank">2.79</td> <!-- Danish rank -->
-   <td class="no-rank">3.10</td> <!-- Norwegian rank -->
-   <td class="sv-rank">2.80</td> <!-- Swedish rank -->
-   <td class="is-rank">3.99</td> <!-- Icelandic rank -->
-   <td class="fo-rank">3.56</td> <!-- Faroese rank -->
-   <td class="de-rank">2.58</td> <!-- German rank -->
-   <td class="nl-rank">2.99</td> <!-- Dutch rank -->
+   <td class="no-rank">3.12</td> <!-- Norwegian rank -->
+   <td class="sv-rank">2.81</td> <!-- Swedish rank -->
+   <td class="is-rank">4.04</td> <!-- Icelandic rank -->
+   <td class="fo-rank">3.59</td> <!-- Faroese rank -->
+   <td class="de-rank">2.61</td> <!-- German rank -->
+   <td class="nl-rank">3.00</td> <!-- Dutch rank -->
    <td class="en-rank">2.16</td> <!-- English rank -->
    <td class="da ner">37.93 ± 2.71 / 23.54 ± 1.99</td> <!-- DANSK -->
    <td class="da sent">44.49 ± 2.56 / 60.64 ± 3.00</td> <!-- Angry Tweets -->
@@ -2734,14 +2863,14 @@ title: Germanic NLG 🇪🇺
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,219 ± 427 / 717 ± 224</td> <!-- Model inference speed -->
-   <td class="rank">3.01</td> <!-- ScandEval rank -->
-   <td class="da-rank">2.88</td> <!-- Danish rank -->
-   <td class="no-rank">3.18</td> <!-- Norwegian rank -->
-   <td class="sv-rank">2.74</td> <!-- Swedish rank -->
-   <td class="is-rank">3.99</td> <!-- Icelandic rank -->
-   <td class="fo-rank">3.66</td> <!-- Faroese rank -->
-   <td class="de-rank">2.34</td> <!-- German rank -->
-   <td class="nl-rank">2.96</td> <!-- Dutch rank -->
+   <td class="rank">3.03</td> <!-- ScandEval rank -->
+   <td class="da-rank">2.87</td> <!-- Danish rank -->
+   <td class="no-rank">3.19</td> <!-- Norwegian rank -->
+   <td class="sv-rank">2.75</td> <!-- Swedish rank -->
+   <td class="is-rank">4.04</td> <!-- Icelandic rank -->
+   <td class="fo-rank">3.68</td> <!-- Faroese rank -->
+   <td class="de-rank">2.37</td> <!-- German rank -->
+   <td class="nl-rank">2.97</td> <!-- Dutch rank -->
    <td class="en-rank">2.35</td> <!-- English rank -->
    <td class="da ner">37.93 ± 3.09 / 29.50 ± 2.18</td> <!-- DANSK -->
    <td class="da sent">44.62 ± 1.98 / 62.62 ± 1.54</td> <!-- Angry Tweets -->
@@ -2863,15 +2992,15 @@ title: Germanic NLG 🇪🇺
    <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,313 ± 423 / 682 ± 210</td> <!-- Model inference speed -->
-   <td class="rank">3.03</td> <!-- ScandEval rank -->
+   <td class="rank">3.05</td> <!-- ScandEval rank -->
    <td class="da-rank">3.01</td> <!-- Danish rank -->
-   <td class="no-rank">3.18</td> <!-- Norwegian rank -->
-   <td class="sv-rank">2.89</td> <!-- Swedish rank -->
-   <td class="is-rank">3.98</td> <!-- Icelandic rank -->
-   <td class="fo-rank">3.33</td> <!-- Faroese rank -->
-   <td class="de-rank">2.61</td> <!-- German rank -->
+   <td class="no-rank">3.20</td> <!-- Norwegian rank -->
+   <td class="sv-rank">2.90</td> <!-- Swedish rank -->
+   <td class="is-rank">4.03</td> <!-- Icelandic rank -->
+   <td class="fo-rank">3.36</td> <!-- Faroese rank -->
+   <td class="de-rank">2.64</td> <!-- German rank -->
    <td class="nl-rank">2.89</td> <!-- Dutch rank -->
-   <td class="en-rank">2.33</td> <!-- English rank -->
+   <td class="en-rank">2.34</td> <!-- English rank -->
    <td class="da ner">48.44 ± 1.69 / 36.99 ± 1.77</td> <!-- DANSK -->
    <td class="da sent">39.07 ± 1.03 / 56.85 ± 1.91</td> <!-- Angry Tweets -->
    <td class="da la">9.72 ± 1.58 / 46.85 ± 3.66</td> <!-- ScaLA-da -->
@@ -2992,15 +3121,15 @@ title: Germanic NLG 🇪🇺
    <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,643 ± 455 / 800 ± 247</td> <!-- Model inference speed -->
-   <td class="rank">3.11</td> <!-- ScandEval rank -->
+   <td class="rank">3.12</td> <!-- ScandEval rank -->
    <td class="da-rank">2.89</td> <!-- Danish rank -->
-   <td class="no-rank">3.28</td> <!-- Norwegian rank -->
-   <td class="sv-rank">2.91</td> <!-- Swedish rank -->
-   <td class="is-rank">4.00</td> <!-- Icelandic rank -->
-   <td class="fo-rank">3.72</td> <!-- Faroese rank -->
-   <td class="de-rank">2.75</td> <!-- German rank -->
-   <td class="nl-rank">2.97</td> <!-- Dutch rank -->
-   <td class="en-rank">2.32</td> <!-- English rank -->
+   <td class="no-rank">3.30</td> <!-- Norwegian rank -->
+   <td class="sv-rank">2.92</td> <!-- Swedish rank -->
+   <td class="is-rank">4.05</td> <!-- Icelandic rank -->
+   <td class="fo-rank">3.74</td> <!-- Faroese rank -->
+   <td class="de-rank">2.78</td> <!-- German rank -->
+   <td class="nl-rank">2.98</td> <!-- Dutch rank -->
+   <td class="en-rank">2.33</td> <!-- English rank -->
    <td class="da ner">35.44 ± 3.00 / 24.63 ± 1.65</td> <!-- DANSK -->
    <td class="da sent">44.88 ± 1.45 / 62.35 ± 1.33</td> <!-- Angry Tweets -->
    <td class="da la">9.74 ± 1.96 / 47.42 ± 4.19</td> <!-- ScaLA-da -->
@@ -3121,14 +3250,14 @@ title: Germanic NLG 🇪🇺
    <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">5,617 ± 995 / 1,623 ± 540</td> <!-- Model inference speed -->
-   <td class="rank">3.17</td> <!-- ScandEval rank -->
+   <td class="rank">3.18</td> <!-- ScandEval rank -->
    <td class="da-rank">3.10</td> <!-- Danish rank -->
-   <td class="no-rank">3.26</td> <!-- Norwegian rank -->
+   <td class="no-rank">3.28</td> <!-- Norwegian rank -->
    <td class="sv-rank">2.95</td> <!-- Swedish rank -->
-   <td class="is-rank">4.33</td> <!-- Icelandic rank -->
-   <td class="fo-rank">3.45</td> <!-- Faroese rank -->
-   <td class="de-rank">2.81</td> <!-- German rank -->
-   <td class="nl-rank">3.01</td> <!-- Dutch rank -->
+   <td class="is-rank">4.35</td> <!-- Icelandic rank -->
+   <td class="fo-rank">3.48</td> <!-- Faroese rank -->
+   <td class="de-rank">2.84</td> <!-- German rank -->
+   <td class="nl-rank">3.02</td> <!-- Dutch rank -->
    <td class="en-rank">2.41</td> <!-- English rank -->
    <td class="da ner">45.90 ± 2.53 / 33.00 ± 1.93</td> <!-- DANSK -->
    <td class="da sent">37.11 ± 1.88 / 56.47 ± 1.59</td> <!-- Angry Tweets -->
@@ -3250,14 +3379,14 @@ title: Germanic NLG 🇪🇺
    <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">10,246 ± 3,021 / 1,629 ± 550</td> <!-- Model inference speed -->
-   <td class="rank">3.32</td> <!-- ScandEval rank -->
+   <td class="rank">3.34</td> <!-- ScandEval rank -->
    <td class="da-rank">3.35</td> <!-- Danish rank -->
-   <td class="no-rank">3.56</td> <!-- Norwegian rank -->
-   <td class="sv-rank">3.10</td> <!-- Swedish rank -->
-   <td class="is-rank">4.38</td> <!-- Icelandic rank -->
-   <td class="fo-rank">4.12</td> <!-- Faroese rank -->
-   <td class="de-rank">2.72</td> <!-- German rank -->
-   <td class="nl-rank">2.97</td> <!-- Dutch rank -->
+   <td class="no-rank">3.58</td> <!-- Norwegian rank -->
+   <td class="sv-rank">3.11</td> <!-- Swedish rank -->
+   <td class="is-rank">4.43</td> <!-- Icelandic rank -->
+   <td class="fo-rank">4.15</td> <!-- Faroese rank -->
+   <td class="de-rank">2.75</td> <!-- German rank -->
+   <td class="nl-rank">2.98</td> <!-- Dutch rank -->
    <td class="en-rank">2.35</td> <!-- English rank -->
    <td class="da ner">37.37 ± 2.46 / 26.81 ± 2.24</td> <!-- DANSK -->
    <td class="da sent">31.44 ± 1.82 / 48.96 ± 2.35</td> <!-- Angry Tweets -->
@@ -3379,14 +3508,14 @@ title: Germanic NLG 🇪🇺
    <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">6,275 ± 1,193 / 1,755 ± 578</td> <!-- Model inference speed -->
-   <td class="rank">3.46</td> <!-- ScandEval rank -->
-   <td class="da-rank">3.49</td> <!-- Danish rank -->
-   <td class="no-rank">3.69</td> <!-- Norwegian rank -->
+   <td class="rank">3.49</td> <!-- ScandEval rank -->
+   <td class="da-rank">3.52</td> <!-- Danish rank -->
+   <td class="no-rank">3.74</td> <!-- Norwegian rank -->
    <td class="sv-rank">3.13</td> <!-- Swedish rank -->
-   <td class="is-rank">3.95</td> <!-- Icelandic rank -->
-   <td class="fo-rank">3.74</td> <!-- Faroese rank -->
-   <td class="de-rank">3.39</td> <!-- German rank -->
-   <td class="nl-rank">3.55</td> <!-- Dutch rank -->
+   <td class="is-rank">3.99</td> <!-- Icelandic rank -->
+   <td class="fo-rank">3.77</td> <!-- Faroese rank -->
+   <td class="de-rank">3.44</td> <!-- German rank -->
+   <td class="nl-rank">3.56</td> <!-- Dutch rank -->
    <td class="en-rank">2.76</td> <!-- English rank -->
    <td class="da ner">28.18 ± 3.39 / 24.25 ± 3.30</td> <!-- DANSK -->
    <td class="da sent">29.32 ± 7.19 / 41.08 ± 8.29</td> <!-- Angry Tweets -->
@@ -3508,14 +3637,14 @@ title: Germanic NLG 🇪🇺
    <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">10,504 ± 3,028 / 1,678 ± 559</td> <!-- Model inference speed -->
-   <td class="rank">3.49</td> <!-- ScandEval rank -->
-   <td class="da-rank">3.60</td> <!-- Danish rank -->
-   <td class="no-rank">3.64</td> <!-- Norwegian rank -->
-   <td class="sv-rank">3.27</td> <!-- Swedish rank -->
-   <td class="is-rank">4.58</td> <!-- Icelandic rank -->
-   <td class="fo-rank">4.31</td> <!-- Faroese rank -->
-   <td class="de-rank">2.99</td> <!-- German rank -->
-   <td class="nl-rank">3.10</td> <!-- Dutch rank -->
+   <td class="rank">3.51</td> <!-- ScandEval rank -->
+   <td class="da-rank">3.59</td> <!-- Danish rank -->
+   <td class="no-rank">3.66</td> <!-- Norwegian rank -->
+   <td class="sv-rank">3.28</td> <!-- Swedish rank -->
+   <td class="is-rank">4.62</td> <!-- Icelandic rank -->
+   <td class="fo-rank">4.33</td> <!-- Faroese rank -->
+   <td class="de-rank">3.02</td> <!-- German rank -->
+   <td class="nl-rank">3.11</td> <!-- Dutch rank -->
    <td class="en-rank">2.46</td> <!-- English rank -->
    <td class="da ner">31.80 ± 2.87 / 23.06 ± 2.09</td> <!-- DANSK -->
    <td class="da sent">6.85 ± 2.25 / 19.42 ± 0.91</td> <!-- Angry Tweets -->
@@ -3637,14 +3766,14 @@ title: Germanic NLG 🇪🇺
    <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">9,059 ± 1,947 / 2,201 ± 728</td> <!-- Model inference speed -->
-   <td class="rank">3.59</td> <!-- ScandEval rank -->
+   <td class="rank">3.60</td> <!-- ScandEval rank -->
    <td class="da-rank">3.45</td> <!-- Danish rank -->
-   <td class="no-rank">3.66</td> <!-- Norwegian rank -->
-   <td class="sv-rank">3.39</td> <!-- Swedish rank -->
-   <td class="is-rank">4.57</td> <!-- Icelandic rank -->
+   <td class="no-rank">3.68</td> <!-- Norwegian rank -->
+   <td class="sv-rank">3.40</td> <!-- Swedish rank -->
+   <td class="is-rank">4.59</td> <!-- Icelandic rank -->
    <td class="fo-rank">4.16</td> <!-- Faroese rank -->
-   <td class="de-rank">3.26</td> <!-- German rank -->
-   <td class="nl-rank">3.45</td> <!-- Dutch rank -->
+   <td class="de-rank">3.30</td> <!-- German rank -->
+   <td class="nl-rank">3.46</td> <!-- Dutch rank -->
    <td class="en-rank">2.77</td> <!-- English rank -->
    <td class="da ner">37.21 ± 2.75 / 27.74 ± 2.59</td> <!-- DANSK -->
    <td class="da sent">31.54 ± 2.39 / 50.61 ± 2.88</td> <!-- Angry Tweets -->
@@ -3766,15 +3895,15 @@ title: Germanic NLG 🇪🇺
    <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,732 ± 868 / 662 ± 238</td> <!-- Model inference speed -->
-   <td class="rank">3.63</td> <!-- ScandEval rank -->
-   <td class="da-rank">3.35</td> <!-- Danish rank -->
-   <td class="no-rank">4.04</td> <!-- Norwegian rank -->
-   <td class="sv-rank">3.41</td> <!-- Swedish rank -->
-   <td class="is-rank">4.24</td> <!-- Icelandic rank -->
-   <td class="fo-rank">4.04</td> <!-- Faroese rank -->
-   <td class="de-rank">3.57</td> <!-- German rank -->
-   <td class="nl-rank">3.41</td> <!-- Dutch rank -->
-   <td class="en-rank">2.96</td> <!-- English rank -->
+   <td class="rank">3.65</td> <!-- ScandEval rank -->
+   <td class="da-rank">3.36</td> <!-- Danish rank -->
+   <td class="no-rank">4.07</td> <!-- Norwegian rank -->
+   <td class="sv-rank">3.43</td> <!-- Swedish rank -->
+   <td class="is-rank">4.29</td> <!-- Icelandic rank -->
+   <td class="fo-rank">4.07</td> <!-- Faroese rank -->
+   <td class="de-rank">3.61</td> <!-- German rank -->
+   <td class="nl-rank">3.43</td> <!-- Dutch rank -->
+   <td class="en-rank">2.97</td> <!-- English rank -->
    <td class="da ner">38.62 ± 3.40 / 27.71 ± 3.01</td> <!-- DANSK -->
    <td class="da sent">35.47 ± 1.35 / 52.70 ± 2.05</td> <!-- Angry Tweets -->
    <td class="da la">5.07 ± 1.76 / 43.91 ± 4.86</td> <!-- ScaLA-da -->
@@ -3895,15 +4024,15 @@ title: Germanic NLG 🇪🇺
    <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">15,971 ± 3,654 / 3,609 ± 1,197</td> <!-- Model inference speed -->
-   <td class="rank">3.73</td> <!-- ScandEval rank -->
-   <td class="da-rank">3.62</td> <!-- Danish rank -->
-   <td class="no-rank">4.11</td> <!-- Norwegian rank -->
-   <td class="sv-rank">3.40</td> <!-- Swedish rank -->
-   <td class="is-rank">4.29</td> <!-- Icelandic rank -->
-   <td class="fo-rank">4.45</td> <!-- Faroese rank -->
-   <td class="de-rank">3.50</td> <!-- German rank -->
-   <td class="nl-rank">3.88</td> <!-- Dutch rank -->
-   <td class="en-rank">2.56</td> <!-- English rank -->
+   <td class="rank">3.75</td> <!-- ScandEval rank -->
+   <td class="da-rank">3.63</td> <!-- Danish rank -->
+   <td class="no-rank">4.15</td> <!-- Norwegian rank -->
+   <td class="sv-rank">3.41</td> <!-- Swedish rank -->
+   <td class="is-rank">4.34</td> <!-- Icelandic rank -->
+   <td class="fo-rank">4.48</td> <!-- Faroese rank -->
+   <td class="de-rank">3.54</td> <!-- German rank -->
+   <td class="nl-rank">3.89</td> <!-- Dutch rank -->
+   <td class="en-rank">2.57</td> <!-- English rank -->
    <td class="da ner">29.44 ± 1.81 / 20.31 ± 1.68</td> <!-- DANSK -->
    <td class="da sent">18.49 ± 2.47 / 35.29 ± 2.83</td> <!-- Angry Tweets -->
    <td class="da la">1.73 ± 1.63 / 38.18 ± 4.15</td> <!-- ScaLA-da -->
@@ -4018,21 +4147,150 @@ title: Germanic NLG 🇪🇺
    <td>13.1.0</td> <!-- HellaSwag version -->
    </tr>
   <tr class="not-merged-model">
+   <td>utter-project/EuroLLM-1.7B-Instruct (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">1657</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">128</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">15,009 ± 4,072 / 2,702 ± 878</td> <!-- Model inference speed -->
+   <td class="rank">3.76</td> <!-- ScandEval rank -->
+   <td class="da-rank">3.52</td> <!-- Danish rank -->
+   <td class="no-rank">3.81</td> <!-- Norwegian rank -->
+   <td class="sv-rank">3.34</td> <!-- Swedish rank -->
+   <td class="is-rank">4.63</td> <!-- Icelandic rank -->
+   <td class="fo-rank">4.64</td> <!-- Faroese rank -->
+   <td class="de-rank">3.37</td> <!-- German rank -->
+   <td class="nl-rank">3.65</td> <!-- Dutch rank -->
+   <td class="en-rank">3.14</td> <!-- English rank -->
+   <td class="da ner">19.61 ± 2.68 / 17.44 ± 2.64</td> <!-- DANSK -->
+   <td class="da sent">37.92 ± 1.74 / 46.23 ± 1.91</td> <!-- Angry Tweets -->
+   <td class="da la">2.81 ± 1.13 / 38.15 ± 2.81</td> <!-- ScaLA-da -->
+   <td class="da rc">50.05 ± 1.02 / 56.82 ± 0.77</td> <!-- ScandiQA-da -->
+   <td class="da summ">63.91 ± 1.29 / 18.26 ± 1.57</td> <!-- Nordjylland-News -->
+   <td class="da know">2.54 ± 1.89 / 25.25 ± 1.06</td> <!-- Danske Talemaader -->
+   <td class="da know">17.85 ± 2.63 / 40.98 ± 1.12</td> <!-- Danish Citizen Tests -->
+   <td class="da reason">0.52 ± 0.97 / 25.60 ± 0.68</td> <!-- HellaSwag-da -->
+   <td class="no ner">31.43 ± 1.78 / 30.82 ± 2.35</td> <!-- NorNE-nb -->
+   <td class="no ner">36.92 ± 1.75 / 37.80 ± 1.67</td> <!-- NorNE-nn -->
+   <td class="no sent">30.63 ± 1.48 / 37.24 ± 1.90</td> <!-- NoReC -->
+   <td class="no summ">59.45 ± 1.98 / 10.85 ± 1.59</td> <!-- No Sammendrag -->
+   <td class="no la">0.98 ± 1.59 / 42.00 ± 2.28</td> <!-- ScaLA-nb -->
+   <td class="no la">1.67 ± 1.96 / 34.92 ± 1.93</td> <!-- ScaLA-nn -->
+   <td class="no rc">33.24 ± 2.51 / 55.11 ± 2.82</td> <!-- NorQuAD -->
+   <td class="no know">1.85 ± 1.02 / 24.15 ± 0.66</td> <!-- MMLU-no -->
+   <td class="no reason">-1.18 ± 1.33 / 24.23 ± 0.94</td> <!-- HellaSwag-no -->
+   <td class="sv ner">27.41 ± 2.70 / 24.45 ± 3.82</td> <!-- SUC3 -->
+   <td class="sv sent">72.24 ± 0.82 / 68.89 ± 2.63</td> <!-- SweReC -->
+   <td class="sv la">0.13 ± 1.85 / 36.22 ± 3.14</td> <!-- ScaLA-sv -->
+   <td class="sv rc">49.77 ± 0.63 / 56.59 ± 0.54</td> <!-- ScandiQA-sv -->
+   <td class="sv summ">63.23 ± 0.51 / 17.40 ± 0.45</td> <!-- SweDN -->
+   <td class="sv know">3.39 ± 0.48 / 25.11 ± 0.71</td> <!-- MMLU-sv -->
+   <td class="sv reason">0.54 ± 0.72 / 25.45 ± 0.45</td> <!-- HellaSwag-sv -->
+   <td class="is ner">13.29 ± 2.33 / 14.72 ± 2.11</td> <!-- MIM-GOLD-NER -->
+   <td class="is sent">6.83 ± 5.62 / 31.41 ± 4.70</td> <!-- Hotter-and-Colder-sentiment -->
+   <td class="is la">0.92 ± 1.51 / 42.09 ± 3.39</td> <!-- ScaLA-is -->
+   <td class="is rc">7.49 ± 1.26 / 24.16 ± 1.95</td> <!-- NQiI -->
+   <td class="is summ">56.76 ± 2.66 / 9.80 ± 1.05</td> <!-- RRN -->
+   <td class="is know">0.59 ± 0.49 / 23.09 ± 0.56</td> <!-- ARC-is -->
+   <td class="is reason">1.87 ± 3.67 / 49.58 ± 3.20</td> <!-- Winogrande-is -->
+   <td class="fo ner">33.53 ± 3.87 / 35.41 ± 3.77</td> <!-- FoNE -->
+   <td class="fo sent">4.25 ± 5.04 / 26.21 ± 4.24</td> <!-- FoSent -->
+   <td class="fo la">-2.32 ± 2.11 / 45.19 ± 2.78</td> <!-- ScaLA-fo -->
+   <td class="fo rc">15.41 ± 2.05 / 25.07 ± 1.98</td> <!-- FoQA -->
+   <td class="de ner">28.49 ± 2.30 / 24.73 ± 1.76</td> <!-- GermEval -->
+   <td class="de sent">43.18 ± 2.89 / 58.22 ± 3.50</td> <!-- SB10k -->
+   <td class="de la">2.92 ± 1.40 / 44.65 ± 3.51</td> <!-- ScaLA-de -->
+   <td class="de rc">23.26 ± 3.37 / 48.47 ± 3.57</td> <!-- GermanQuAD -->
+   <td class="de summ">64.64 ± 0.93 / 17.38 ± 1.77</td> <!-- MLSum -->
+   <td class="de know">2.60 ± 0.88 / 26.76 ± 0.79</td> <!-- MMLU-de -->
+   <td class="de reason">1.46 ± 1.09 / 26.00 ± 0.95</td> <!-- HellaSwag-de -->
+   <td class="nl ner">32.45 ± 2.17 / 30.83 ± 2.31</td> <!-- CoNLL-nl -->
+   <td class="nl sent">7.03 ± 2.08 / 34.16 ± 1.83</td> <!-- Dutch Social -->
+   <td class="nl la">5.58 ± 1.32 / 44.79 ± 3.28</td> <!-- ScaLA-nl -->
+   <td class="nl rc">51.18 ± 1.19 / 61.82 ± 1.19</td> <!-- SQuAD-nl -->
+   <td class="nl summ">61.96 ± 0.80 / 14.66 ± 0.48</td> <!-- Wiki-Lingua-NL -->
+   <td class="nl know">2.53 ± 1.10 / 25.95 ± 1.10</td> <!-- MMLU-nl -->
+   <td class="nl reason">1.04 ± 0.74 / 25.13 ± 0.68</td> <!-- HellaSwag-nl -->
+   <td class="en ner">37.47 ± 1.64 / 32.39 ± 2.53</td> <!-- CoNLL-en -->
+   <td class="en sent">58.61 ± 2.46 / 62.78 ± 1.22</td> <!-- SST5 -->
+   <td class="en la">5.30 ± 1.43 / 46.95 ± 3.51</td> <!-- ScaLA-en -->
+   <td class="en rc">63.26 ± 0.73 / 74.41 ± 0.65</td> <!-- SQuAD -->
+   <td class="en summ">67.24 ± 0.36 / 21.22 ± 0.36</td> <!-- CNN-DailyMail -->
+   <td class="en know">3.93 ± 0.84 / 28.88 ± 0.73</td> <!-- MMLU -->
+   <td class="en reason">1.26 ± 1.14 / 25.56 ± 0.82</td> <!-- HellaSwag -->
+   <td>13.1.0</td> <!-- DANSK version -->
+   <td>13.1.0</td> <!-- Angry Tweets version -->
+   <td>13.1.0</td> <!-- ScaLA-da version -->
+   <td>13.1.0</td> <!-- ScandiQA-da version -->
+   <td>13.1.0</td> <!-- Nordjylland-News version -->
+   <td>13.1.0</td> <!-- Danske Talemaader version -->
+   <td>13.1.0</td> <!-- Danish Citizen Tests version -->
+   <td>13.1.0</td> <!-- HellaSwag-da version -->
+   <td>13.1.0</td> <!-- NorNE-nb version -->
+   <td>13.1.0</td> <!-- NorNE-nn version -->
+   <td>13.1.0</td> <!-- NoReC version -->
+   <td>13.1.0</td> <!-- No Sammendrag version -->
+   <td>13.1.0</td> <!-- ScaLA-nb version -->
+   <td>13.1.0</td> <!-- ScaLA-nn version -->
+   <td>13.1.0</td> <!-- NorQuAD version -->
+   <td>13.1.0</td> <!-- MMLU-no version -->
+   <td>13.1.0</td> <!-- HellaSwag-no version -->
+   <td>13.1.0</td> <!-- SUC3 version -->
+   <td>13.1.0</td> <!-- SweReC version -->
+   <td>13.1.0</td> <!-- ScaLA-sv version -->
+   <td>13.1.0</td> <!-- ScandiQA-sv version -->
+   <td>13.1.0</td> <!-- SweDN version -->
+   <td>13.1.0</td> <!-- MMLU-sv version -->
+   <td>13.1.0</td> <!-- HellaSwag-sv version -->
+   <td>13.1.0</td> <!-- MIM-GOLD-NER version -->
+   <td>13.3.0</td> <!-- Hotter-and-Colder-sentiment version -->
+   <td>13.1.0</td> <!-- ScaLA-is version -->
+   <td>13.1.0</td> <!-- NQiI version -->
+   <td>13.1.0</td> <!-- RRN version -->
+   <td>13.1.0</td> <!-- ARC-is version -->
+   <td>13.1.0</td> <!-- Winogrande-is version -->
+   <td>13.1.0</td> <!-- FoNE version -->
+   <td>13.3.0</td> <!-- FoSent version -->
+   <td>13.1.0</td> <!-- ScaLA-fo version -->
+   <td>13.1.0</td> <!-- FoQA version -->
+   <td>13.1.0</td> <!-- GermEval version -->
+   <td>13.1.0</td> <!-- SB10k version -->
+   <td>13.1.0</td> <!-- ScaLA-de version -->
+   <td>13.1.0</td> <!-- GermanQuAD version -->
+   <td>13.1.0</td> <!-- MLSum version -->
+   <td>13.1.0</td> <!-- MMLU-de version -->
+   <td>13.1.0</td> <!-- HellaSwag-de version -->
+   <td>13.1.0</td> <!-- CoNLL-nl version -->
+   <td>13.1.0</td> <!-- Dutch Social version -->
+   <td>13.1.0</td> <!-- ScaLA-nl version -->
+   <td>13.1.0</td> <!-- SQuAD-nl version -->
+   <td>13.1.0</td> <!-- Wiki-Lingua-NL version -->
+   <td>13.1.0</td> <!-- MMLU-nl version -->
+   <td>13.1.0</td> <!-- HellaSwag-nl version -->
+   <td>13.1.0</td> <!-- CoNLL-en version -->
+   <td>13.1.0</td> <!-- SST5 version -->
+   <td>13.1.0</td> <!-- ScaLA-en version -->
+   <td>13.1.0</td> <!-- SQuAD version -->
+   <td>13.1.0</td> <!-- CNN-DailyMail version -->
+   <td>13.1.0</td> <!-- MMLU version -->
+   <td>13.1.0</td> <!-- HellaSwag version -->
+   </tr>
+  <tr class="not-merged-model">
    <td>HuggingFaceTB/SmolLM2-1.7B (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">1711</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">49</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">16,249 ± 3,690 / 3,689 ± 1,226</td> <!-- Model inference speed -->
-   <td class="rank">3.81</td> <!-- ScandEval rank -->
+   <td class="rank">3.83</td> <!-- ScandEval rank -->
    <td class="da-rank">3.81</td> <!-- Danish rank -->
-   <td class="no-rank">4.04</td> <!-- Norwegian rank -->
-   <td class="sv-rank">3.34</td> <!-- Swedish rank -->
-   <td class="is-rank">4.38</td> <!-- Icelandic rank -->
-   <td class="fo-rank">4.63</td> <!-- Faroese rank -->
-   <td class="de-rank">3.50</td> <!-- German rank -->
-   <td class="nl-rank">3.92</td> <!-- Dutch rank -->
-   <td class="en-rank">2.86</td> <!-- English rank -->
+   <td class="no-rank">4.08</td> <!-- Norwegian rank -->
+   <td class="sv-rank">3.35</td> <!-- Swedish rank -->
+   <td class="is-rank">4.43</td> <!-- Icelandic rank -->
+   <td class="fo-rank">4.65</td> <!-- Faroese rank -->
+   <td class="de-rank">3.55</td> <!-- German rank -->
+   <td class="nl-rank">3.94</td> <!-- Dutch rank -->
+   <td class="en-rank">2.84</td> <!-- English rank -->
    <td class="da ner">24.47 ± 3.42 / 18.70 ± 2.18</td> <!-- DANSK -->
    <td class="da sent">9.93 ± 2.70 / 23.57 ± 3.00</td> <!-- Angry Tweets -->
    <td class="da la">1.22 ± 1.81 / 35.31 ± 1.93</td> <!-- ScaLA-da -->
@@ -4153,15 +4411,15 @@ title: Germanic NLG 🇪🇺
    <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">22,023 ± 6,203 / 3,675 ± 1,231</td> <!-- Model inference speed -->
-   <td class="rank">4.33</td> <!-- ScandEval rank -->
-   <td class="da-rank">4.32</td> <!-- Danish rank -->
-   <td class="no-rank">4.61</td> <!-- Norwegian rank -->
-   <td class="sv-rank">4.29</td> <!-- Swedish rank -->
-   <td class="is-rank">4.67</td> <!-- Icelandic rank -->
-   <td class="fo-rank">4.85</td> <!-- Faroese rank -->
-   <td class="de-rank">4.04</td> <!-- German rank -->
-   <td class="nl-rank">4.19</td> <!-- Dutch rank -->
-   <td class="en-rank">3.67</td> <!-- English rank -->
+   <td class="rank">4.37</td> <!-- ScandEval rank -->
+   <td class="da-rank">4.33</td> <!-- Danish rank -->
+   <td class="no-rank">4.65</td> <!-- Norwegian rank -->
+   <td class="sv-rank">4.32</td> <!-- Swedish rank -->
+   <td class="is-rank">4.82</td> <!-- Icelandic rank -->
+   <td class="fo-rank">4.88</td> <!-- Faroese rank -->
+   <td class="de-rank">4.08</td> <!-- German rank -->
+   <td class="nl-rank">4.20</td> <!-- Dutch rank -->
+   <td class="en-rank">3.68</td> <!-- English rank -->
    <td class="da ner">12.68 ± 1.39 / 12.32 ± 1.19</td> <!-- DANSK -->
    <td class="da sent">3.61 ± 2.69 / 19.01 ± 3.95</td> <!-- Angry Tweets -->
    <td class="da la">1.79 ± 0.97 / 36.23 ± 3.19</td> <!-- ScaLA-da -->
@@ -4282,15 +4540,15 @@ title: Germanic NLG 🇪🇺
    <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">21,777 ± 6,115 / 3,617 ± 1,211</td> <!-- Model inference speed -->
-   <td class="rank">4.41</td> <!-- ScandEval rank -->
+   <td class="rank">4.43</td> <!-- ScandEval rank -->
    <td class="da-rank">4.42</td> <!-- Danish rank -->
-   <td class="no-rank">4.63</td> <!-- Norwegian rank -->
-   <td class="sv-rank">4.41</td> <!-- Swedish rank -->
-   <td class="is-rank">4.81</td> <!-- Icelandic rank -->
-   <td class="fo-rank">4.87</td> <!-- Faroese rank -->
-   <td class="de-rank">4.29</td> <!-- German rank -->
-   <td class="nl-rank">4.32</td> <!-- Dutch rank -->
-   <td class="en-rank">3.53</td> <!-- English rank -->
+   <td class="no-rank">4.66</td> <!-- Norwegian rank -->
+   <td class="sv-rank">4.44</td> <!-- Swedish rank -->
+   <td class="is-rank">4.83</td> <!-- Icelandic rank -->
+   <td class="fo-rank">4.89</td> <!-- Faroese rank -->
+   <td class="de-rank">4.34</td> <!-- German rank -->
+   <td class="nl-rank">4.35</td> <!-- Dutch rank -->
+   <td class="en-rank">3.54</td> <!-- English rank -->
    <td class="da ner">8.97 ± 3.18 / 8.62 ± 2.72</td> <!-- DANSK -->
    <td class="da sent">2.66 ± 2.70 / 16.29 ± 2.34</td> <!-- Angry Tweets -->
    <td class="da la">1.65 ± 1.38 / 44.50 ± 3.21</td> <!-- ScaLA-da -->
@@ -4411,15 +4669,15 @@ title: Germanic NLG 🇪🇺
    <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">26,346 ± 7,812 / 4,082 ± 1,372</td> <!-- Model inference speed -->
-   <td class="rank">4.58</td> <!-- ScandEval rank -->
-   <td class="da-rank">4.69</td> <!-- Danish rank -->
-   <td class="no-rank">4.51</td> <!-- Norwegian rank -->
-   <td class="sv-rank">4.41</td> <!-- Swedish rank -->
-   <td class="is-rank">4.71</td> <!-- Icelandic rank -->
-   <td class="fo-rank">4.94</td> <!-- Faroese rank -->
-   <td class="de-rank">4.44</td> <!-- German rank -->
-   <td class="nl-rank">4.57</td> <!-- Dutch rank -->
-   <td class="en-rank">4.37</td> <!-- English rank -->
+   <td class="rank">4.61</td> <!-- ScandEval rank -->
+   <td class="da-rank">4.72</td> <!-- Danish rank -->
+   <td class="no-rank">4.54</td> <!-- Norwegian rank -->
+   <td class="sv-rank">4.44</td> <!-- Swedish rank -->
+   <td class="is-rank">4.75</td> <!-- Icelandic rank -->
+   <td class="fo-rank">4.97</td> <!-- Faroese rank -->
+   <td class="de-rank">4.48</td> <!-- German rank -->
+   <td class="nl-rank">4.61</td> <!-- Dutch rank -->
+   <td class="en-rank">4.40</td> <!-- English rank -->
    <td class="da ner">13.72 ± 1.83 / 13.41 ± 1.52</td> <!-- DANSK -->
    <td class="da sent">3.79 ± 3.11 / 21.06 ± 4.74</td> <!-- Angry Tweets -->
    <td class="da la">-0.45 ± 0.70 / 39.69 ± 4.95</td> <!-- ScaLA-da -->
@@ -4540,15 +4798,15 @@ title: Germanic NLG 🇪🇺
    <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">25,602 ± 7,583 / 3,953 ± 1,325</td> <!-- Model inference speed -->
-   <td class="rank">4.60</td> <!-- ScandEval rank -->
-   <td class="da-rank">4.45</td> <!-- Danish rank -->
-   <td class="no-rank">4.59</td> <!-- Norwegian rank -->
-   <td class="sv-rank">4.54</td> <!-- Swedish rank -->
-   <td class="is-rank">4.91</td> <!-- Icelandic rank -->
-   <td class="fo-rank">4.84</td> <!-- Faroese rank -->
-   <td class="de-rank">4.51</td> <!-- German rank -->
-   <td class="nl-rank">4.67</td> <!-- Dutch rank -->
-   <td class="en-rank">4.26</td> <!-- English rank -->
+   <td class="rank">4.63</td> <!-- ScandEval rank -->
+   <td class="da-rank">4.46</td> <!-- Danish rank -->
+   <td class="no-rank">4.65</td> <!-- Norwegian rank -->
+   <td class="sv-rank">4.57</td> <!-- Swedish rank -->
+   <td class="is-rank">4.93</td> <!-- Icelandic rank -->
+   <td class="fo-rank">4.87</td> <!-- Faroese rank -->
+   <td class="de-rank">4.56</td> <!-- German rank -->
+   <td class="nl-rank">4.69</td> <!-- Dutch rank -->
+   <td class="en-rank">4.28</td> <!-- English rank -->
    <td class="da ner">12.11 ± 1.07 / 11.48 ± 1.07</td> <!-- DANSK -->
    <td class="da sent">2.61 ± 3.22 / 18.95 ± 3.93</td> <!-- Angry Tweets -->
    <td class="da la">0.25 ± 1.87 / 39.65 ± 4.00</td> <!-- ScaLA-da -->
@@ -4669,15 +4927,15 @@ title: Germanic NLG 🇪🇺
    <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">7,692 ± 1,423 / 1,960 ± 644</td> <!-- Model inference speed -->
-   <td class="rank">5.11</td> <!-- ScandEval rank -->
-   <td class="da-rank">5.15</td> <!-- Danish rank -->
-   <td class="no-rank">5.06</td> <!-- Norwegian rank -->
-   <td class="sv-rank">4.86</td> <!-- Swedish rank -->
-   <td class="is-rank">5.34</td> <!-- Icelandic rank -->
-   <td class="fo-rank">5.34</td> <!-- Faroese rank -->
-   <td class="de-rank">4.88</td> <!-- German rank -->
-   <td class="nl-rank">5.05</td> <!-- Dutch rank -->
-   <td class="en-rank">5.21</td> <!-- English rank -->
+   <td class="rank">5.15</td> <!-- ScandEval rank -->
+   <td class="da-rank">5.18</td> <!-- Danish rank -->
+   <td class="no-rank">5.09</td> <!-- Norwegian rank -->
+   <td class="sv-rank">4.90</td> <!-- Swedish rank -->
+   <td class="is-rank">5.40</td> <!-- Icelandic rank -->
+   <td class="fo-rank">5.37</td> <!-- Faroese rank -->
+   <td class="de-rank">4.93</td> <!-- German rank -->
+   <td class="nl-rank">5.09</td> <!-- Dutch rank -->
+   <td class="en-rank">5.25</td> <!-- English rank -->
    <td class="da ner">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- DANSK -->
    <td class="da sent">0.00 ± 0.00 / 18.12 ± 0.19</td> <!-- Angry Tweets -->
    <td class="da la">0.00 ± 0.00 / 33.25 ± 0.23</td> <!-- ScaLA-da -->
@@ -4798,6 +5056,6 @@ title: Germanic NLG 🇪🇺
 <div class="end-note">
   <a href="https://scandeval.com/germanic-nlg.csv" target="_blank">Download as CSV</a>
   &nbsp;&nbsp;&bull;&nbsp;&nbsp;
-  <a href="javascript:void(0);" id="embed-link" data-embed="<iframe title=&quot;Germanic NLG&quot; aria-label=&quot;Table&quot; id=&quot;datawrapper-chart-xfVPo&quot; src=&quot;https://datawrapper.dwcdn.net/xfVPo/1/&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width: 0; min-width: 100% !important; border: none;&quot; height=&quot;400&quot; data-external=&quot;1&quot;></iframe><script type=&quot;text/javascript&quot;>!function(){&quot;use strict&quot;;window.addEventListener(&quot;message&quot;,(function(a){if(void 0!==a.data[&quot;datawrapper-height&quot;]){var e=document.querySelectorAll(&quot;iframe&quot;);for(var t in a.data[&quot;datawrapper-height&quot;])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data[&quot;datawrapper-height&quot;][t]+&quot;px&quot;;e[r].style.height=i}}}))}();
+  <a href="javascript:void(0);" id="embed-link" data-embed="<iframe title=&quot;Germanic NLG&quot; aria-label=&quot;Table&quot; id=&quot;datawrapper-chart-JMLFD&quot; src=&quot;https://datawrapper.dwcdn.net/JMLFD/1/&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width: 0; min-width: 100% !important; border: none;&quot; height=&quot;400&quot; data-external=&quot;1&quot;></iframe><script type=&quot;text/javascript&quot;>!function(){&quot;use strict&quot;;window.addEventListener(&quot;message&quot;,(function(a){if(void 0!==a.data[&quot;datawrapper-height&quot;]){var e=document.querySelectorAll(&quot;iframe&quot;);for(var t in a.data[&quot;datawrapper-height&quot;])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data[&quot;datawrapper-height&quot;][t]+&quot;px&quot;;e[r].style.height=i}}}))}();
 </script>">Copy embed HTML</a>
 </div>
