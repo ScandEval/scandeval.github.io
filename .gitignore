@@ -2,7 +2,6 @@
 .ipynb_checkpoints/
 iframe_figures/
 __pycache__/
-*.no_extras.jsonl
-*.filtered.jsonl
 .env
 .DS_Store
+*.no_extras.jsonl

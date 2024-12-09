@@ -7,8 +7,8 @@ from pathlib import Path
 import logging
 from huggingface_hub import HfApi
 from huggingface_hub.hf_api import RepositoryNotFoundError
-import re
 from tqdm.auto import tqdm
+import typing as t
 
 logging.basicConfig(
     level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s"
@@ -274,10 +274,28 @@ def record_is_valid(record: dict) -> bool:
     Returns:
         True if the record is valid, False otherwise.
     """
-    BANNED_MODELS: list[str] = ["AI-Sweden-Models/Llama-3-8B-instruct"]
-    BANNED_VERSIONS: list[str] = ["9.3.0", "10.0.0"]
-    if record.get("model") in BANNED_MODELS or record.get("version") in BANNED_VERSIONS:
-        return False
+    BANNED_CRITERIA: list[dict[str, t.Any]] = [
+        dict(scandeval_version="9.3.0"),
+        dict(scandeval_version="10.0.0"),
+        dict(model="AI-Sweden-Models/Llama-3-8B-instruct", language="~sv"),
+    ]
+
+    for criteria in BANNED_CRITERIA:
+        for key, banned_value in criteria.items():
+            if key not in record:
+                continue
+
+            if key == "language":
+                record_values = record["dataset_languages"]
+            else:
+                record_values = [record[key]]
+
+            for record_value in record_values:
+                if isinstance(banned_value, str) and banned_value.startswith("~"):
+                    if record_value != banned_value[1:]:
+                        return False
+                elif record.get(key) == banned_value:
+                    return False
 
     # TEMP: Remove this when we want to include zero-shot models
     if (
@@ -290,17 +308,7 @@ def record_is_valid(record: dict) -> bool:
 
     merged_model = record.get("merge", False)
     evaluated_on_validation_split = record.get("validation_split", False)
-    openai_model = re.search(r"gpt-[34][-.0-9a-z]+", record.get("model", ""))
-    large_model = record["num_model_parameters"] > 60_000_000_000
-    if (
-        (merged_model and not evaluated_on_validation_split)
-        or (
-            not merged_model
-            and evaluated_on_validation_split
-            and not openai_model
-            and not large_model
-        )
-    ):
+    if merged_model and not evaluated_on_validation_split:
         return False
 
     return True
