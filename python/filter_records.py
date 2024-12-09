@@ -274,28 +274,15 @@ def record_is_valid(record: dict) -> bool:
     Returns:
         True if the record is valid, False otherwise.
     """
-    BANNED_CRITERIA: list[dict[str, t.Any]] = [
-        dict(scandeval_version="9.3.0"),
-        dict(scandeval_version="10.0.0"),
-        dict(model="AI-Sweden-Models/Llama-3-8B-instruct", language="~sv"),
-    ]
+    BANNED_VERSIONS: list[str] = ["9.3.0", "10.0.0"]
+    if record.get("scandeval_version") in BANNED_VERSIONS:
+        return False
 
-    for criteria in BANNED_CRITERIA:
-        for key, banned_value in criteria.items():
-            if key not in record:
-                continue
-
-            if key == "language":
-                record_values = record["dataset_languages"]
-            else:
-                record_values = [record[key]]
-
-            for record_value in record_values:
-                if isinstance(banned_value, str) and banned_value.startswith("~"):
-                    if record_value != banned_value[1:]:
-                        return False
-                elif record.get(key) == banned_value:
-                    return False
+    if (
+        record.get("model") == "AI-Sweden-Models/Llama-3-8B-instruct"
+        and "sv" not in record.get("dataset_languages", [])
+    ):
+        return False
 
     # TEMP: Remove this when we want to include zero-shot models
     if (
