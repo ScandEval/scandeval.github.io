@@ -278,12 +278,6 @@ def record_is_valid(record: dict) -> bool:
     if record.get("scandeval_version") in BANNED_VERSIONS:
         return False
 
-    if (
-        record.get("model") == "AI-Sweden-Models/Llama-3-8B-instruct"
-        and "sv" not in record.get("dataset_languages", [])
-    ):
-        return False
-
     # TEMP: Remove this when we want to include zero-shot models
     if (
         "generative" in record
