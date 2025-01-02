@@ -173,9 +173,8 @@ title: {title}
 <div class="end-note">
   <a href="https://scandeval.com/{title_kebab}.csv" target="_blank">Download as CSV</a>
   &nbsp;&nbsp;&bull;&nbsp;&nbsp;
-  <a href="javascript:void(0);" id="embed-link" data-embed="{embed_code}">Copy embed HTML</a>
 </div>
-""".format(title_kebab=title_kebab, embed_code="{embed_code}")
+""".format(title_kebab=title_kebab)
 
     BENCHMARK_ENTRY = """  <tr class="{merge}">
    <td>{model_id}</td> <!-- Model ID -->
@@ -450,7 +449,11 @@ title: {title}
         raw_scores = [
             result_dict.get(f"test_{metric_name}", result_dict.get(metric_name, -1))
             for score_dict in possible_score_dicts
-            for result_dict in score_dict["results"]["raw"]["test"]
+            for result_dict in (
+                score_dict["results"]["raw"]["test"]
+                if "test" in score_dict["results"]["raw"]
+                else score_dict["results"]["raw"]
+            )
             for dataset, _, _, metric_name, _ in datasets
             if dataset.lower().replace(" ", "-") == score_dict["dataset"]
         ]
@@ -584,16 +587,10 @@ title: {title}
         # Build the HTML for the leaderboard
         force_update = os.getenv("FORCE_UPDATE", "0") == "1"
         if changed_model_ids or force_update:
-            embed_code = get_embed_code(
-                title=title,
-                csv_url=f"https://scandeval.com/{title_kebab}.csv",
-                csv_df=df,
-            )
-
             html_lines = [BENCHMARK_HTML_START]
             for values in all_values:
                 html_lines.append(BENCHMARK_ENTRY.format(**values))
-            html_lines.append(BENCHMARK_HTML_END.format(embed_code=embed_code))
+            html_lines.append(BENCHMARK_HTML_END)
             html = "\n".join(html_lines)
 
             with benchmark_path.open("w") as f:
@@ -673,117 +670,6 @@ def generate_csv_df(
     )
 
     return df
-
-
-def get_embed_code(title: str, csv_url: str, csv_df: pd.DataFrame) -> str:
-    """Get the HTML embed code for the leaderboard.
-
-    Args:
-        title:
-            The title of the leaderboard.
-        csv_url:
-            The URL to the CSV file.
-        csv_df:
-            The DataFrame containing the values.
-
-    Returns:
-        The HTML embed code for the leaderboard.
-
-    Raises:
-        ValueError:
-            If the Datawrapper API key is not found.
-    """
-    try:
-        internet_works = requests.get(
-            'https://google.com', timeout=3
-        ).status_code == 200
-    except requests.RequestException:
-        internet_works = False
-    if not internet_works:
-        logger.error(f"Internet not available - using blank embedding code.")
-        return ""
-
-    api_key = os.getenv("DATAWRAPPER_API_KEY")
-    if api_key is None:
-        raise ValueError("No Datawrapper API key found.")
-
-    dw = Datawrapper(access_token=api_key)
-
-    # Never generate embed code for test leaderboards
-    csv_url = csv_url.replace("-test", "")
-
-    # Create the metadata for the datawrapper table, being all the relevant formatting
-    metadata: dict[str, Any] = dict(
-        visualize=dict(
-            perPage=10,
-            showRank=True,
-            firstColumnIsSticky=True,
-            searchable=True,
-        ),
-    )
-    number_columns = [
-        col
-        for col in csv_df.columns
-        if col not in [
-            "model_id",
-            "num_model_parameters",
-            "vocabulary_size",
-            "max_sequence_length",
-            "speed",
-        ]
-    ]
-    metadata['visualize']["columns"] = {
-        number_column: dict(format="0.00") for number_column in number_columns
-    }
-
-    dw_kwargs = dict(
-        title=re.sub(r"[^a-zA-Zæøå\- ]", "", title).strip(),
-        chart_type="tables",
-        external_data_url=csv_url,
-        metadata=metadata,
-    )
-
-    # Load the chart if it already exists, otherwise create a new one
-    all_charts = dw.get_charts()["list"]
-    matching_charts = [chart for chart in all_charts if chart["title"] == title]
-    for attempt in range(NUM_EMBED_ATTEMPTS):
-        try:
-            if matching_charts:
-                dw_table = matching_charts[0]
-                dw.update_chart(chart_id=dw_table["id"], **dw_kwargs)
-            else:
-                dw_table = dw.create_chart(**dw_kwargs)
-            break
-        except FailedRequest:
-            logger.warning(f"Attempt {attempt + 1} to update the chart timed out.")
-    else:
-        logger.error(
-            f"Failed to update the chart after {NUM_EMBED_ATTEMPTS} attempts. "
-            "Returning blank embedding code."
-        )
-        return ""
-
-    dw.update_description(
-        chart_id=dw_table["id"],
-        source_name="ScandEval",
-        source_url=csv_url.replace(".csv", ""),
-        byline="Dan Saattrup Nielsen",
-    )
-
-    for attempt in range(NUM_EMBED_ATTEMPTS):
-        try:
-            dw.publish_chart(chart_id=dw_table["id"], display=False)
-            embed_code = dw.get_iframe_code(chart_id=dw_table["id"], responsive=True)
-            embed_code = embed_code.replace('"', "&quot;")
-            return embed_code
-        except (TimeoutError, requests.ReadTimeout, FailedRequest):
-            logger.warning(f"Attempt {attempt + 1} to publish the chart timed out.")
-    else:
-        logger.error(
-            f"Failed to publish the chart after {NUM_EMBED_ATTEMPTS} attempts. "
-            "Returning blank embedding code."
-        )
-        return ""
 
 
 if __name__ == "__main__":
