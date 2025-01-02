@@ -3,7 +3,7 @@ layout: leaderboard
 title: Germanic NLU 🇪🇺
 ---
 
-<center>Last updated: 02/01/2025 10:54:14 CET</center>
+<center>Last updated: 02/01/2025 17:08:36 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -1300,10 +1300,10 @@ title: Germanic NLU 🇪🇺
    <td class="max_sequence_length">131072</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">1,005 ± 330 / 196 ± 74</td> <!-- Model inference speed -->
-   <td class="rank">2.25</td> <!-- ScandEval rank -->
+   <td class="rank">2.26</td> <!-- ScandEval rank -->
    <td class="da-rank">1.95</td> <!-- Danish rank -->
    <td class="no-rank">2.25</td> <!-- Norwegian rank -->
-   <td class="sv-rank">1.97</td> <!-- Swedish rank -->
+   <td class="sv-rank">1.98</td> <!-- Swedish rank -->
    <td class="is-rank">2.80</td> <!-- Icelandic rank -->
    <td class="fo-rank">2.92</td> <!-- Faroese rank -->
    <td class="de-rank">1.89</td> <!-- German rank -->
@@ -1385,10 +1385,10 @@ title: Germanic NLU 🇪🇺
    <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">1,046 ± 295 / 180 ± 60</td> <!-- Model inference speed -->
-   <td class="rank">2.32</td> <!-- ScandEval rank -->
+   <td class="rank">2.33</td> <!-- ScandEval rank -->
    <td class="da-rank">2.08</td> <!-- Danish rank -->
    <td class="no-rank">2.24</td> <!-- Norwegian rank -->
-   <td class="sv-rank">1.90</td> <!-- Swedish rank -->
+   <td class="sv-rank">1.91</td> <!-- Swedish rank -->
    <td class="is-rank">2.54</td> <!-- Icelandic rank -->
    <td class="fo-rank">3.47</td> <!-- Faroese rank -->
    <td class="de-rank">2.01</td> <!-- German rank -->
@@ -1404,10 +1404,10 @@ title: Germanic NLU 🇪🇺
    <td class="no la">21.20 ± 6.57 / 52.29 ± 7.43</td> <!-- ScaLA-nb -->
    <td class="no la">19.65 ± 4.32 / 56.66 ± 4.40</td> <!-- ScaLA-nn -->
    <td class="no rc">53.35 ± 4.33 / 74.98 ± 3.70</td> <!-- NorQuAD -->
-   <td class="sv ner">60.00 ± 2.44 / 40.98 ± 4.79</td> <!-- SUC3 -->
-   <td class="sv sent">80.47 ± 0.83 / 80.93 ± 0.60</td> <!-- SweReC -->
-   <td class="sv la">35.24 ± 2.31 / 62.57 ± 3.20</td> <!-- ScaLA-sv -->
-   <td class="sv rc">47.68 ± 6.27 / 54.30 ± 6.64</td> <!-- ScandiQA-sv -->
+   <td class="sv ner">59.92 ± 2.46 / 40.98 ± 4.90</td> <!-- SUC3 -->
+   <td class="sv sent">80.51 ± 0.82 / 80.98 ± 0.60</td> <!-- SweReC -->
+   <td class="sv la">34.87 ± 2.21 / 62.39 ± 3.23</td> <!-- ScaLA-sv -->
+   <td class="sv rc">47.69 ± 6.29 / 54.30 ± 6.65</td> <!-- ScandiQA-sv -->
    <td class="is ner">50.45 ± 1.95 / 37.62 ± 3.95</td> <!-- MIM-GOLD-NER -->
    <td class="is sent">43.85 ± 1.31 / 60.58 ± 1.20</td> <!-- Hotter-and-Colder-sentiment -->
    <td class="is la">10.82 ± 1.73 / 48.66 ± 3.57</td> <!-- ScaLA-is -->
@@ -2323,7 +2323,7 @@ title: Germanic NLU 🇪🇺
    <td class="rank">2.58</td> <!-- ScandEval rank -->
    <td class="da-rank">2.11</td> <!-- Danish rank -->
    <td class="no-rank">2.62</td> <!-- Norwegian rank -->
-   <td class="sv-rank">2.06</td> <!-- Swedish rank -->
+   <td class="sv-rank">2.07</td> <!-- Swedish rank -->
    <td class="is-rank">3.64</td> <!-- Icelandic rank -->
    <td class="fo-rank">3.44</td> <!-- Faroese rank -->
    <td class="de-rank">2.08</td> <!-- German rank -->
@@ -2578,7 +2578,7 @@ title: Germanic NLU 🇪🇺
    <td class="rank">2.67</td> <!-- ScandEval rank -->
    <td class="da-rank">2.32</td> <!-- Danish rank -->
    <td class="no-rank">2.57</td> <!-- Norwegian rank -->
-   <td class="sv-rank">1.96</td> <!-- Swedish rank -->
+   <td class="sv-rank">1.97</td> <!-- Swedish rank -->
    <td class="is-rank">3.47</td> <!-- Icelandic rank -->
    <td class="fo-rank">3.78</td> <!-- Faroese rank -->
    <td class="de-rank">2.29</td> <!-- German rank -->
@@ -3088,7 +3088,7 @@ title: Germanic NLU 🇪🇺
    <td class="rank">2.77</td> <!-- ScandEval rank -->
    <td class="da-rank">2.59</td> <!-- Danish rank -->
    <td class="no-rank">2.79</td> <!-- Norwegian rank -->
-   <td class="sv-rank">2.27</td> <!-- Swedish rank -->
+   <td class="sv-rank">2.28</td> <!-- Swedish rank -->
    <td class="is-rank">3.50</td> <!-- Icelandic rank -->
    <td class="fo-rank">3.85</td> <!-- Faroese rank -->
    <td class="de-rank">2.21</td> <!-- German rank -->
