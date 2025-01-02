@@ -3,7 +3,7 @@ layout: leaderboard
 title: Mainland Scandinavian NLU 🇩🇰🇳🇴🇸🇪
 ---
 
-<center>Last updated: 02/01/2025 10:54:28 CET</center>
+<center>Last updated: 02/01/2025 17:08:49 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -2199,10 +2199,10 @@ title: Mainland Scandinavian NLU 🇩🇰🇳🇴🇸🇪
    <td class="no la">21.20 ± 6.57 / 52.29 ± 7.43</td> <!-- ScaLA-nb -->
    <td class="no la">19.65 ± 4.32 / 56.66 ± 4.40</td> <!-- ScaLA-nn -->
    <td class="no rc">53.35 ± 4.33 / 74.98 ± 3.70</td> <!-- NorQuAD -->
-   <td class="sv ner">60.00 ± 2.44 / 40.98 ± 4.79</td> <!-- SUC3 -->
-   <td class="sv sent">80.47 ± 0.83 / 80.93 ± 0.60</td> <!-- SweReC -->
-   <td class="sv la">35.24 ± 2.31 / 62.57 ± 3.20</td> <!-- ScaLA-sv -->
-   <td class="sv rc">47.68 ± 6.27 / 54.30 ± 6.64</td> <!-- ScandiQA-sv -->
+   <td class="sv ner">59.92 ± 2.46 / 40.98 ± 4.90</td> <!-- SUC3 -->
+   <td class="sv sent">80.51 ± 0.82 / 80.98 ± 0.60</td> <!-- SweReC -->
+   <td class="sv la">34.87 ± 2.21 / 62.39 ± 3.23</td> <!-- ScaLA-sv -->
+   <td class="sv rc">47.69 ± 6.29 / 54.30 ± 6.65</td> <!-- ScandiQA-sv -->
    <td>14.0.3</td> <!-- DANSK version -->
    <td>14.0.3</td> <!-- Angry Tweets version -->
    <td>14.0.3</td> <!-- ScaLA-da version -->

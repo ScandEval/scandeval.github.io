@@ -3,7 +3,7 @@ layout: leaderboard
 title: Germanic NLG 🇪🇺
 ---
 
-<center>Last updated: 02/01/2025 10:54:21 CET</center>
+<center>Last updated: 02/01/2025 17:08:42 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -1186,10 +1186,10 @@ title: Germanic NLG 🇪🇺
    <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">1,629 ± 573 / 262 ± 149</td> <!-- Model inference speed -->
-   <td class="rank">2.41</td> <!-- ScandEval rank -->
+   <td class="rank">2.42</td> <!-- ScandEval rank -->
    <td class="da-rank">2.34</td> <!-- Danish rank -->
    <td class="no-rank">2.18</td> <!-- Norwegian rank -->
-   <td class="sv-rank">2.26</td> <!-- Swedish rank -->
+   <td class="sv-rank">2.27</td> <!-- Swedish rank -->
    <td class="is-rank">3.69</td> <!-- Icelandic rank -->
    <td class="fo-rank">3.38</td> <!-- Faroese rank -->
    <td class="de-rank">1.82</td> <!-- German rank -->
@@ -1470,10 +1470,10 @@ title: Germanic NLG 🇪🇺
    <td class="no rc">53.35 ± 4.33 / 74.98 ± 3.70</td> <!-- NorQuAD -->
    <td class="no know">33.02 ± 1.35 / 49.25 ± 1.04</td> <!-- MMLU-no -->
    <td class="no reason">24.93 ± 3.13 / 42.47 ± 2.74</td> <!-- HellaSwag-no -->
-   <td class="sv ner">60.00 ± 2.44 / 40.98 ± 4.79</td> <!-- SUC3 -->
-   <td class="sv sent">80.47 ± 0.83 / 80.93 ± 0.60</td> <!-- SweReC -->
-   <td class="sv la">35.24 ± 2.31 / 62.57 ± 3.20</td> <!-- ScaLA-sv -->
-   <td class="sv rc">47.68 ± 6.27 / 54.30 ± 6.64</td> <!-- ScandiQA-sv -->
+   <td class="sv ner">59.92 ± 2.46 / 40.98 ± 4.90</td> <!-- SUC3 -->
+   <td class="sv sent">80.51 ± 0.82 / 80.98 ± 0.60</td> <!-- SweReC -->
+   <td class="sv la">34.87 ± 2.21 / 62.39 ± 3.23</td> <!-- ScaLA-sv -->
+   <td class="sv rc">47.69 ± 6.29 / 54.30 ± 6.65</td> <!-- ScandiQA-sv -->
    <td class="sv summ">64.81 ± 0.24 / 18.56 ± 0.35</td> <!-- SweDN -->
    <td class="sv know">35.86 ± 0.90 / 51.39 ± 0.69</td> <!-- MMLU-sv -->
    <td class="sv reason">26.49 ± 1.89 / 44.41 ± 1.56</td> <!-- HellaSwag-sv -->
@@ -2350,7 +2350,7 @@ title: Germanic NLG 🇪🇺
    <td class="rank">2.67</td> <!-- ScandEval rank -->
    <td class="da-rank">2.41</td> <!-- Danish rank -->
    <td class="no-rank">2.74</td> <!-- Norwegian rank -->
-   <td class="sv-rank">2.40</td> <!-- Swedish rank -->
+   <td class="sv-rank">2.41</td> <!-- Swedish rank -->
    <td class="is-rank">3.70</td> <!-- Icelandic rank -->
    <td class="fo-rank">3.16</td> <!-- Faroese rank -->
    <td class="de-rank">2.19</td> <!-- German rank -->
@@ -5317,7 +5317,7 @@ title: Germanic NLG 🇪🇺
    <td class="rank">4.16</td> <!-- ScandEval rank -->
    <td class="da-rank">4.10</td> <!-- Danish rank -->
    <td class="no-rank">4.35</td> <!-- Norwegian rank -->
-   <td class="sv-rank">4.08</td> <!-- Swedish rank -->
+   <td class="sv-rank">4.09</td> <!-- Swedish rank -->
    <td class="is-rank">4.65</td> <!-- Icelandic rank -->
    <td class="fo-rank">4.65</td> <!-- Faroese rank -->
    <td class="de-rank">3.90</td> <!-- German rank -->
@@ -5962,7 +5962,7 @@ title: Germanic NLG 🇪🇺
    <td class="rank">4.41</td> <!-- ScandEval rank -->
    <td class="da-rank">4.28</td> <!-- Danish rank -->
    <td class="no-rank">4.42</td> <!-- Norwegian rank -->
-   <td class="sv-rank">4.32</td> <!-- Swedish rank -->
+   <td class="sv-rank">4.33</td> <!-- Swedish rank -->
    <td class="is-rank">4.92</td> <!-- Icelandic rank -->
    <td class="fo-rank">4.69</td> <!-- Faroese rank -->
    <td class="de-rank">4.16</td> <!-- German rank -->
