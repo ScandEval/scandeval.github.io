@@ -49,34 +49,11 @@ publish-test-leaderboards:
 	@echo "Published test leaderboards!"
 
 download:
-	# @scp -o ConnectTimeout=5 rabbit:/home/ubuntu/scandeval_benchmark_results.jsonl rabbit_results.jsonl || true
-	# @scp -o ConnectTimeout=5 maninpink:/home/ubuntu/scandeval_benchmark_results.jsonl maininpink_results.jsonl || true
-	# @scp -o ConnectTimeout=5 hamster:/home/ubuntu/scandeval_benchmark_results.jsonl hamster_results.jsonl || true
-	# @scp -o ConnectTimeout=5 creosote:/home/ubuntu/scandeval_benchmark_results.jsonl creosote_results.jsonl || true
 	@scp -o ConnectTimeout=5 percival:/home/alex-admin/scandeval/scandeval_benchmark_results.jsonl percival_results.jsonl || true
 	@scp -o ConnectTimeout=5 lancelot:/home/alex-admin/scandeval/scandeval_benchmark_results.jsonl lancelot_results.jsonl || true
 	@scp -o ConnectTimeout=5 blackknight:/home/alex-admin/scandeval/scandeval_benchmark_results.jsonl blackknight_results.jsonl || true
+	@scp -o ConnectTimeout=5 scandeval:/home/ubuntu/scandeval/scandeval_benchmark_results.jsonl scandeval_results.jsonl || true
 	@touch scandeval_benchmark_results.jsonl
-	@if [ -f blackknight_results.jsonl ]; then \
-		cat blackknight_results.jsonl >> scandeval_benchmark_results.jsonl; \
-		rm blackknight_results.jsonl; \
-	fi
-	@if [ -f rabbit_results.jsonl ]; then \
-		cat rabbit_results.jsonl >> scandeval_benchmark_results.jsonl; \
-		rm rabbit_results.jsonl; \
-	fi
-	@if [ -f maininpink_results.jsonl ]; then \
-		cat maininpink_results.jsonl >> scandeval_benchmark_results.jsonl; \
-		rm maininpink_results.jsonl; \
-	fi
-	@if [ -f hamster_results.jsonl ]; then \
-		cat hamster_results.jsonl >> scandeval_benchmark_results.jsonl; \
-		rm hamster_results.jsonl; \
-	fi
-	@if [ -f creosote_results.jsonl ]; then \
-		cat creosote_results.jsonl >> scandeval_benchmark_results.jsonl; \
-		rm creosote_results.jsonl; \
-	fi
 	@if [ -f percival_results.jsonl ]; then \
 		cat percival_results.jsonl >> scandeval_benchmark_results.jsonl; \
 		rm percival_results.jsonl; \
@@ -85,17 +62,13 @@ download:
 		cat lancelot_results.jsonl >> scandeval_benchmark_results.jsonl; \
 		rm lancelot_results.jsonl; \
 	fi
-	@if [ -f dfm-a10_results.jsonl ]; then \
-		cat dfm-a10_results.jsonl >> scandeval_benchmark_results.jsonl; \
-		rm dfm-a10_results.jsonl; \
+	@if [ -f blackknight_results.jsonl ]; then \
+		cat blackknight_results.jsonl >> scandeval_benchmark_results.jsonl; \
+		rm blackknight_results.jsonl; \
 	fi
-	@if [ -f dfm-a40_results.jsonl ]; then \
-		cat dfm-a40_results.jsonl >> scandeval_benchmark_results.jsonl; \
-		rm dfm-a40_results.jsonl; \
-	fi
-	@if [ -f dfm-a100_results.jsonl ]; then \
-		cat dfm-a100_results.jsonl >> scandeval_benchmark_results.jsonl; \
-		rm dfm-a100_results.jsonl; \
+	@if [ -f scandeval_results.jsonl ]; then \
+		cat scandeval_results.jsonl >> scandeval_benchmark_results.jsonl; \
+		rm scandeval_results.jsonl; \
 	fi
 
 filter_records:
