@@ -6,7 +6,7 @@ model_id,num_model_parameters,vocabulary_size,max_sequence_length,commercially_l
 "gpt-4o-2024-05-13 (zero-shot, val)",-1,200,8191,True,False,637,2.03,72.85,53.43,49.26,27.36,67.01,78.98,9.83
 "gpt-4o-mini-2024-07-18 (zero-shot, val)",-1,200,8191,True,False,908,2.42,31.11,50.02,35.85,26.93,66.48,72.8,28.63
 ThatsGroes/gemma-2-27b-it-FP8-Dynamic (few-shot),28411,256,4096,True,False,3633,2.44,67.23,50.38,20.01,21.18,67.61,66.74,33.03
-"claude-3-5-sonnet-20241022 (zero-shot, val)",-1,0,200000,True,False,193,2.69,61.7,51.24,52.43,22.92,66.02,15.97,5.31
+"claude-3-5-sonnet-20241022 (zero-shot, val)",-1,-1,200000,True,False,193,2.69,61.7,51.24,52.43,22.92,66.02,15.97,5.31
 meta-llama/Meta-Llama-3-8B-Instruct (few-shot),8030,128,8192,True,False,1007,3.16,60.2,38.09,9.14,28.66,67.5,17.93,5.59
 meta-llama/Llama-3.1-8B (few-shot),8030,128,131072,True,False,2610,3.22,52.97,43.06,8.13,31.99,65.19,21.56,4.44
 meta-llama/Meta-Llama-3-8B (few-shot),8030,128,8192,True,False,1335,3.23,50.45,43.85,10.82,31.94,65.22,19.93,4.52
@@ -23,7 +23,7 @@ AI-Sweden-Models/gpt-sw3-6.7b-v2-instruct (few-shot),7111,64,2048,True,False,147
 timpal0l/Mistral-7B-v0.1-flashback-v2 (few-shot),7242,32,32768,True,False,5054,3.91,36.47,16.08,2.54,18.66,63.68,5.12,8.3
 CohereForAI/aya-23-8B (few-shot),8028,256,8192,False,False,1121,3.92,47.16,19.77,3.84,21.75,59.16,3.7,-3.24
 LumiOpen/Viking-7B (few-shot),7550,131,4096,True,False,1431,3.92,33.21,33.41,1.37,25.76,56.52,0.81,-3.96
-"claude-3-5-haiku-20241022 (zero-shot, val)",-1,0,200000,True,False,277,3.95,34.99,31.19,-10.68,23.65,66.12,9.0,0.0
+"claude-3-5-haiku-20241022 (zero-shot, val)",-1,-1,200000,True,False,277,3.95,34.99,31.19,-10.68,23.65,66.12,9.0,0.0
 occiglot/occiglot-7b-eu5-instruct (few-shot),7242,32,32768,False,False,2088,3.96,40.71,14.7,0.71,20.66,65.25,5.35,0.35
 01-ai/Yi-1.5-6B (few-shot),6061,64,4097,True,False,2867,3.98,38.15,10.58,0.98,20.39,61.23,7.59,3.44
 ibm-granite/granite-3.0-8b-instruct (few-shot),8171,49,4096,True,False,1118,3.99,42.67,9.95,1.11,22.25,63.81,5.12,0.89

@@ -12,7 +12,7 @@ meta-llama/Llama-3.1-8B-Instruct (few-shot),8030,128,131072,True,False,1005,3.09
 setu4993/LaBSE,470,501,512,True,False,25418,3.11,89.16,21.57,22.76,30.55
 meta-llama/Llama-3.1-8B (few-shot),8030,128,131072,True,False,2610,3.13,65.65,47.04,3.55,45.01
 "gpt-4o-mini-2024-07-18 (few-shot, val)",-1,200,8191,True,False,784,3.16,73.8,39.45,34.78,0.87
-"claude-3-5-sonnet-20241022 (zero-shot, val)",-1,0,200000,True,False,193,3.17,72.52,8.17,32.38,45.34
+"claude-3-5-sonnet-20241022 (zero-shot, val)",-1,-1,200000,True,False,193,3.17,72.52,8.17,32.38,45.34
 "gpt-4-1106-preview (zero-shot, val)",-1,100,8191,True,False,436,3.25,57.52,13.18,28.03,59.06
 "gpt-4o-2024-05-13 (few-shot, val)",-1,200,128000,True,False,916,3.25,81.86,27.3,-0.97,56.45
 pere/roberta-base-exp-32,277,250,512,True,False,15081,3.41,90.6,11.28,22.86,24.9
@@ -80,7 +80,7 @@ openGPT-X/Teuken-7B-instruct-research-v0.4 (few-shot),7453,251,4096,False,False,
 sentence-transformers/distilbert-multilingual-nli-stsb-quora-ranking,135,120,512,True,False,33753,4.41,82.91,9.77,1.67,0.0
 sentence-transformers/quora-distilbert-multilingual,135,120,512,True,False,26458,4.41,82.91,9.77,1.67,0.0
 sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,118,250,512,True,False,29201,4.42,82.24,6.35,2.84,0.0
-"claude-3-5-haiku-20241022 (zero-shot, val)",-1,0,200000,True,False,277,4.43,51.06,-3.58,4.1,45.29
+"claude-3-5-haiku-20241022 (zero-shot, val)",-1,-1,200000,True,False,277,4.43,51.06,-3.58,4.1,45.29
 patrickvonplaten/norwegian-roberta-base,124,50,512,True,False,15698,4.43,82.57,1.68,5.74,0.0
 Geotrend/distilbert-base-en-no-cased,69,33,512,True,False,26597,4.44,82.05,4.4,3.98,0.97
 KB/bert-base-swedish-cased,124,50,512,True,False,16181,4.44,82.76,3.46,3.98,0.0

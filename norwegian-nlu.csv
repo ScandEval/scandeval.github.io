@@ -30,7 +30,7 @@ ltg/norbert3-small,41,50,508,True,False,13515,1.75,90.02,86.52,51.36,67.29,56.67
 google/gemma-2-27b-it (few-shot),27227,256,8193,True,False,1516,1.81,67.35,66.61,67.14,64.66,52.49,44.85
 pere/roberta-debug-32,278,250,512,True,False,14958,1.85,89.07,83.27,53.23,70.06,66.81,34.17
 setu4993/LaBSE,471,501,512,True,False,25418,1.86,90.58,85.21,54.26,59.44,49.3,46.42
-"claude-3-5-sonnet-20241022 (zero-shot, val)",-1,0,200000,True,False,193,1.88,74.23,70.5,50.92,76.1,72.03,40.57
+"claude-3-5-sonnet-20241022 (zero-shot, val)",-1,-1,200000,True,False,193,1.88,74.23,70.5,50.92,76.1,72.03,40.57
 abhishek/autotrain-llama3-oh-sft-v0-2 (few-shot),70554,128,8192,False,False,2668,1.94,80.97,79.69,63.91,39.82,26.86,47.06
 google/gemma-2-27b (few-shot),27227,256,8193,True,False,1531,2.02,42.58,40.43,64.15,51.59,42.41,58.55
 "gpt-3.5-turbo-0613 (few-shot, val)",-1,100,4095,True,False,921,2.04,77.7,73.92,58.88,54.29,32.82,45.35
@@ -199,7 +199,7 @@ AI-Sweden-Models/gpt-sw3-40b (few-shot),39927,64,2048,True,False,409,3.34,24.07,
 Maltehb/aelaectra-danish-electra-small-cased,14,32,128,True,False,4593,3.34,71.85,67.14,29.0,33.57,21.79,0.03
 AI-Sweden-Models/gpt-sw3-1.3b-instruct (few-shot),1445,64,2048,True,False,4544,3.38,33.08,38.28,35.58,0.82,1.43,36.06
 neuralmagic/Sparse-Llama-3.1-8B-2of4 (few-shot),8030,128,131072,True,False,2996,3.38,35.54,36.61,32.18,0.0,0.0,43.47
-"claude-3-5-haiku-20241022 (zero-shot, val)",-1,0,200000,True,False,277,3.39,69.39,62.76,3.97,31.65,5.86,36.65
+"claude-3-5-haiku-20241022 (zero-shot, val)",-1,-1,200000,True,False,277,3.39,69.39,62.76,3.97,31.65,5.86,36.65
 dbmdz/bert-base-historic-multilingual-cased,111,32,512,True,False,20047,3.39,68.63,67.7,25.68,6.73,3.35,22.57
 AI-Sweden-Models/gpt-sw3-6.7b-v2-instruct (few-shot),7111,64,2048,True,False,1473,3.4,24.67,29.03,34.39,2.42,5.11,42.52
 HPLT/gpt-33b-nordic-prerelease (few-shot),33119,131,4099,True,False,501,3.41,31.38,37.84,38.88,3.41,3.11,30.39

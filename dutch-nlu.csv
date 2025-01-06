@@ -27,7 +27,7 @@ DTAI-KULeuven/robbert-2023-dutch-large,354,50,512,True,False,5444,2.41,81.05,16.
 upstage/SOLAR-10.7B-v1.0 (few-shot),10732,32,4096,True,False,3780,2.41,65.37,11.93,41.67,67.75
 google/rembert,575,250,512,True,False,11736,2.42,75.49,4.79,66.47,55.7
 "gpt-4-1106-preview (zero-shot, val)",-1,100,8191,True,False,436,2.42,55.72,11.13,67.28,54.2
-"claude-3-5-sonnet-20241022 (zero-shot, val)",-1,0,200000,True,False,193,2.43,62.41,12.64,74.06,35.77
+"claude-3-5-sonnet-20241022 (zero-shot, val)",-1,-1,200000,True,False,193,2.43,62.41,12.64,74.06,35.77
 "gpt-3.5-turbo-0613 (few-shot, val)",-1,100,4095,True,False,921,2.44,68.96,8.81,58.95,55.57
 cardiffnlp/twitter-xlm-roberta-base,277,250,512,True,False,34475,2.47,77.15,18.78,56.72,14.61
 "meta-llama/Llama-2-70b-hf (few-shot, val)",68977,32,4221,True,False,1892,2.47,66.5,7.82,49.55,65.26
@@ -55,7 +55,7 @@ skole-gpt-mixtral (few-shot),-1,32,32768,False,False,3583,2.79,62.16,8.92,32.76,
 ibm-granite/granite-3.0-8b-instruct (few-shot),8171,49,4096,True,False,1118,2.81,53.62,13.37,23.47,61.2
 "mlabonne/NeuralBeagle14-7B (few-shot, val)",7242,32,8192,False,True,2549,2.81,63.53,11.25,27.76,50.94
 sentence-transformers/quora-distilbert-multilingual,135,120,512,True,False,26458,2.82,67.89,23.25,21.36,4.5
-"claude-3-5-haiku-20241022 (zero-shot, val)",-1,0,200000,True,False,277,2.83,61.15,12.71,35.26,41.27
+"claude-3-5-haiku-20241022 (zero-shot, val)",-1,-1,200000,True,False,277,2.83,61.15,12.71,35.26,41.27
 meta-llama/Llama-3.1-8B-Instruct (few-shot),8030,128,131200,True,False,1005,2.85,69.76,9.09,37.58,41.26
 ibm-granite/granite-8b-code-base-4k (few-shot),8055,49,4096,True,False,2313,2.86,63.29,13.81,8.16,56.64
 mistralai/Mistral-7B-v0.1 (few-shot),7242,32,32768,True,False,1446,2.86,58.15,7.94,25.41,62.56
