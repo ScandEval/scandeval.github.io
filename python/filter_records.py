@@ -278,15 +278,6 @@ def record_is_valid(record: dict) -> bool:
     if record.get("scandeval_version") in BANNED_VERSIONS:
         return False
 
-    # TEMP: Remove this when we want to include zero-shot models
-    if (
-        "generative" in record
-        and "few_shot" in record
-        and record["generative"]
-        and not record["few_shot"]
-    ):
-        return False
-
     merged_model = record.get("merge", False)
     evaluated_on_validation_split = record.get("validation_split", False)
     if merged_model and not evaluated_on_validation_split:
