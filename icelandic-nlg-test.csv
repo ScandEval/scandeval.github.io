@@ -3,7 +3,7 @@ model_id,num_model_parameters,vocabulary_size,max_sequence_length,commercially_l
 "gpt-4-1106-preview (few-shot, val)",-1,100,128000,True,False,576,1.21,86.37,49.59,43.03,37.26,69.61,89.09,72.03
 "gpt-4o-mini-2024-07-18 (few-shot, val)",-1,200,8191,True,False,784,1.89,64.69,56.18,45.52,15.8,67.06,82.1,42.82
 ThatsGroes/gemma-2-27b-it-FP8-Dynamic (few-shot),28411,256,4096,True,False,3633,2.63,67.23,50.38,20.01,21.18,67.61,66.74,33.03
-meta-llama/Meta-Llama-3-8B (few-shot),8030,128,8192,True,False,1046,3.56,50.45,43.85,10.82,31.94,65.22,19.93,4.52
+meta-llama/Meta-Llama-3-8B (few-shot),8030,128,8192,True,False,1335,3.56,50.45,43.85,10.82,31.94,65.22,19.93,4.52
 meta-llama/Llama-3.1-8B (few-shot),8030,128,131072,True,False,2610,3.58,52.97,43.06,8.13,31.99,65.19,21.56,4.44
 meta-llama/Meta-Llama-3-8B-Instruct (few-shot),8030,128,8192,True,False,1007,3.59,60.2,38.09,9.14,28.66,67.5,17.93,5.59
 meta-llama/Llama-3.1-8B-Instruct (few-shot),8030,128,131072,True,False,1005,3.62,46.48,39.91,11.72,25.91,67.67,25.83,6.4

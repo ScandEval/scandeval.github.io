@@ -3,7 +3,7 @@ layout: leaderboard
 title: Faroese NLU 🇫🇴
 ---
 
-<center>Last updated: 02/01/2025 10:53:56 CET</center>
+<center>Last updated: 06/01/2025 10:20:09 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -516,7 +516,7 @@ title: Faroese NLU 🇫🇴
    <td class="vocabulary_size">128</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">1,046 ± 295 / 180 ± 60</td> <!-- Model inference speed -->
+   <td class="speed">1,335 ± 338 / 260 ± 88</td> <!-- Model inference speed -->
    <td class="rank">3.85</td> <!-- ScandEval rank -->
    <td class="fo ner">61.11 ± 4.21 / 58.55 ± 4.19</td> <!-- FoNE -->
    <td class="fo sent">19.96 ± 5.17 / 31.78 ± 5.62</td> <!-- FoSent -->

@@ -27,7 +27,7 @@ intfloat/multilingual-e5-large,559,250,512,True,False,6732,3.8,88.39,18.28,2.85,
 mistralai/Mistral-7B-v0.3 (few-shot),7248,33,32768,True,False,1364,3.82,61.32,23.3,1.3,44.98
 mideind/IceBERT-xlmr-ic3,277,250,512,True,False,11004,3.83,87.79,7.8,22.51,11.16
 ibm-granite/granite-8b-code-base-4k (few-shot),8055,49,4096,True,False,2313,3.85,66.82,26.68,-0.36,36.47
-meta-llama/Meta-Llama-3-8B (few-shot),8030,128,8192,True,False,1046,3.85,61.11,19.96,2.02,50.34
+meta-llama/Meta-Llama-3-8B (few-shot),8030,128,8192,True,False,1335,3.85,61.11,19.96,2.02,50.34
 Geotrend/bert-base-25lang-cased,151,85,512,True,False,13908,3.86,86.09,5.17,15.24,14.82
 mhenrichsen/hestenettetLM (few-shot),7242,32,4096,True,False,1151,3.86,61.81,28.66,2.19,35.62
 CohereForAI/aya-23-8B (few-shot),8028,256,8192,False,False,1121,3.88,62.22,25.58,0.01,38.7
