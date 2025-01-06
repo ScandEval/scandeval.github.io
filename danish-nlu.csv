@@ -58,7 +58,7 @@ ltg/norbert3-small,41,50,508,True,False,13515,2.14,67.89,39.34,50.9,34.82
 AI-Sweden-Models/bert-large-nordic-pile-1M-steps,369,64,512,True,False,6571,2.15,67.4,41.53,41.62,37.3
 google/gemma-2-9b (few-shot),9242,256,8193,True,False,2038,2.16,44.16,38.84,43.42,60.11
 syvai/llama3-da-base (few-shot),8030,128,8192,True,False,3229,2.16,50.0,51.72,23.59,55.52
-meta-llama/Meta-Llama-3-8B (few-shot),8030,128,8192,True,False,1046,2.17,49.46,51.26,31.94,49.75
+meta-llama/Meta-Llama-3-8B (few-shot),8030,128,8192,True,False,1335,2.17,49.46,51.26,31.94,49.75
 upstage/SOLAR-10.7B-v1.0 (few-shot),10732,32,4096,True,False,3780,2.17,58.03,46.63,15.09,62.15
 "merge-crew/da-sv-dare-ties-density-0.9 (few-shot, val)",7242,32,32768,True,True,2443,2.18,45.61,53.73,17.08,56.67
 "meta-llama/Llama-2-70b-chat-hf (few-shot, val)",68977,32,4096,True,False,1979,2.18,52.22,50.66,23.57,53.82
@@ -142,7 +142,7 @@ Mabeck/Heidrun-Mistral-7B-chat (few-shot),7242,32,4096,False,False,1419,2.6,51.9
 meta-llama/Llama-3.2-3B-Instruct (few-shot),3213,128,131073,False,False,10424,2.6,41.12,42.77,11.52,51.14
 mistralai/Mistral-7B-Instruct-v0.1 (few-shot),7242,32,32768,False,False,634,2.61,37.93,44.49,14.09,51.38
 bineric/NorskGPT-Llama-13B-v0.1 (few-shot),-1,32,4096,False,False,2856,2.62,44.17,44.28,3.11,55.59
-bineric/NorskGPT-Mistral-7b (few-shot),7242,32,32768,False,False,2443,2.62,50.76,40.41,0.0,57.26
+bineric/NorskGPT-Mistral-7b (few-shot),7242,32,32768,False,False,1269,2.62,50.76,40.41,0.0,57.26
 KBLab/megatron-bert-base-swedish-cased-600k,135,64,512,True,False,15726,2.63,57.97,39.4,23.5,31.87
 meta-llama/Llama-2-7b-chat-hf (few-shot),6738,32,4096,False,False,2643,2.63,35.44,44.88,9.74,55.04
 sentence-transformers/stsb-xlm-r-multilingual,278,250,512,True,False,15040,2.63,58.52,42.26,34.8,19.6

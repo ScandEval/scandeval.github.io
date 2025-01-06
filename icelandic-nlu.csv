@@ -17,7 +17,7 @@ sentence-transformers/use-cmlm-multilingual,472,501,512,True,False,30231,2.16,80
 NbAiLab/nb-roberta-base-scandi-1e4,278,250,514,True,False,15074,2.22,81.83,48.91,51.09,6.66
 pere/roberta-base-exp-8,278,250,514,True,False,15112,2.24,78.58,46.87,47.36,7.68
 jonfd/electra-small-nordic,22,96,512,True,False,5989,2.26,77.4,39.05,60.64,6.51
-meta-llama/Meta-Llama-3-8B (few-shot),8030,128,8192,True,False,1046,2.28,50.45,43.85,10.82,31.94
+meta-llama/Meta-Llama-3-8B (few-shot),8030,128,8192,True,False,1335,2.28,50.45,43.85,10.82,31.94
 ThatsGroes/gemma-2-27b-it-FP8-Dynamic (few-shot),28411,256,4096,True,False,3633,2.32,67.23,50.38,20.01,21.18
 setu4993/LaBSE,471,501,512,True,False,25418,2.33,80.45,46.4,36.92,11.75
 FacebookAI/xlm-roberta-large,561,250,514,True,False,17897,2.39,82.83,48.41,22.78,15.72

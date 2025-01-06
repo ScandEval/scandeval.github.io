@@ -34,7 +34,7 @@ senseable/WestLake-7B-v2 (few-shot),7242,32,32768,False,False,5993,1.9,70.62,67.
 neuralmagic/Sparse-Llama-3.1-8B-2of4 (few-shot),8030,128,131072,True,False,2996,1.91,59.28,68.49,21.95,78.16,69.54,46.35,60.61
 "cstr/Spaetzle-v8-7b (few-shot, val)",7242,32,32768,False,True,5980,1.92,69.4,65.39,26.69,49.74,71.02,52.23,74.61
 mistralai/Mistral-7B-v0.1 (few-shot),7242,32,32768,True,False,1446,1.94,63.4,68.17,30.92,73.45,69.11,47.74,34.96
-meta-llama/Meta-Llama-3-8B (few-shot),8030,128,8192,True,False,1046,1.95,66.31,64.3,28.18,70.38,67.9,52.54,41.19
+meta-llama/Meta-Llama-3-8B (few-shot),8030,128,8192,True,False,1335,1.95,66.31,64.3,28.18,70.38,67.9,52.54,41.19
 alpindale/Mistral-7B-v0.2-hf (few-shot),7242,32,32768,True,False,1841,1.96,61.02,67.1,29.82,73.5,69.02,47.13,35.88
 mistralai/Mistral-7B-v0.3 (few-shot),7248,33,32768,True,False,1364,1.96,61.02,67.29,30.1,73.59,69.04,47.63,35.63
 ibm-granite/granite-3.0-2b-base (few-shot),2534,49,4352,True,False,10187,1.97,57.78,67.81,22.81,72.9,67.33,37.8,67.23
