@@ -344,7 +344,11 @@ title: {title}
         record["num_model_parameters"] = num_params
 
         # Round the vocabulary size to nearest thousand
-        vocab_size = round(record["vocabulary_size"] / 1_000)
+        vocab_size = (
+            round(record["vocabulary_size"] / 1_000)
+            if record["vocabulary_size"] >= 0
+            else "unknown"
+        )
         record["vocabulary_size"] = vocab_size
 
         # Add the model metadata to the model's dict, if it hasn't previously been
