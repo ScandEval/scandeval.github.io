@@ -24,7 +24,7 @@ skole-gpt-mixtral (few-shot),-1,32,32768,False,False,3583,1.87,57.82,59.45,36.75
 dbmdz/bert-base-german-uncased,111,31,512,True,False,36020,1.88,77.55,56.48,63.49,12.39
 "gpt-4-1106-preview (zero-shot, val)",-1,100,8191,True,False,436,1.89,57.47,58.67,54.55,27.02
 mistralai/Mistral-Nemo-Instruct-2407 (few-shot),12248,131,1024032,True,False,7095,1.9,66.27,57.7,35.54,34.45
-"claude-3-5-sonnet-20241022 (zero-shot, val)",-1,0,200000,True,False,193,1.91,61.83,61.59,46.4,23.77
+"claude-3-5-sonnet-20241022 (zero-shot, val)",-1,-1,200000,True,False,193,1.91,61.83,61.59,46.4,23.77
 "meta-llama/Meta-Llama-3-70B-Instruct (few-shot, val)",70554,128,8221,True,False,1673,1.91,75.2,54.38,36.59,26.9
 "152334H/miqu-1-70b-sf (few-shot, val)",68977,32,32793,True,False,2126,1.95,65.19,59.8,41.86,25.51
 "VAGOsolutions/SauerkrautLM-7b-HerO (few-shot, val)",7242,32,32768,False,True,2477,1.95,59.7,60.22,35.99,29.68
@@ -96,7 +96,7 @@ ibm-granite/granite-3.0-3b-a800m-instruct (few-shot),3374,49,4096,True,False,102
 "mayflowergmbh/Wiedervereinigung-7b-dpo (few-shot, val)",7242,32,32768,False,True,2374,2.64,52.17,51.92,29.06,14.59
 google/gemma-2-2b-it (few-shot),2614,256,8224,True,False,5374,2.67,37.31,46.23,23.26,28.01
 meta-llama/Llama-2-7b-chat-hf (few-shot),6738,32,4125,False,False,2643,2.69,50.09,46.52,15.23,25.54
-"claude-3-5-haiku-20241022 (zero-shot, val)",-1,0,200000,True,False,277,2.7,55.59,43.73,23.74,21.36
+"claude-3-5-haiku-20241022 (zero-shot, val)",-1,-1,200000,True,False,277,2.7,55.59,43.73,23.74,21.36
 ibm-granite/granite-8b-code-instruct-4k (few-shot),8055,49,4096,True,False,5617,2.7,54.45,43.62,15.24,26.0
 meta-llama/Llama-3.2-3B-Instruct (few-shot),3213,128,131104,False,False,10424,2.71,55.52,50.52,9.87,20.2
 sentence-transformers/paraphrase-xlm-r-multilingual-v1,278,250,512,True,False,20154,2.73,69.45,57.94,21.81,0.33

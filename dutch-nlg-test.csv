@@ -32,7 +32,7 @@ Nexusflow/Starling-LM-7B-beta (few-shot),7242,32,4096,False,False,1629,2.57,62.8
 meta-llama/Llama-3.1-8B-Instruct (few-shot),8030,128,131200,True,False,1005,2.57,69.76,9.09,37.58,41.26,68.84,40.98,39.98
 ibm-granite/granite-3.0-8b-base (few-shot),8171,49,4096,True,False,973,2.59,52.26,12.74,43.78,53.11,66.01,34.35,31.89
 yhavinga/Boreas-7B-chat (few-shot),7242,32,32768,False,False,2913,2.6,60.22,11.97,30.94,52.19,66.6,35.34,31.47
-"claude-3-5-sonnet-20241022 (zero-shot, val)",-1,0,200000,True,False,193,2.61,62.41,12.64,74.06,35.77,64.25,27.77,14.21
+"claude-3-5-sonnet-20241022 (zero-shot, val)",-1,-1,200000,True,False,193,2.61,62.41,12.64,74.06,35.77,64.25,27.77,14.21
 meta-llama/Meta-Llama-3-8B (few-shot),8030,128,8192,True,False,1335,2.62,62.26,10.45,30.3,62.99,65.17,36.38,28.33
 robinsmits/Qwen1.5-7B-Dutch-Chat-Sft-Bf16 (few-shot),7719,152,32768,False,False,2413,2.63,56.83,14.79,23.58,55.9,65.06,33.73,29.29
 robinsmits/Qwen1.5-7B-Dutch-Chat (few-shot),7719,152,32768,False,False,4686,2.66,57.81,14.62,25.34,56.81,60.51,34.78,30.29
@@ -60,7 +60,7 @@ RuterNorway/Llama-2-13b-chat-norwegian (few-shot),-1,32,4096,False,False,3254,3.
 ibm-granite/granite-8b-code-base-4k (few-shot),8055,49,4096,True,False,2313,3.0,63.29,13.81,8.16,56.64,63.08,16.86,6.24
 microsoft/Phi-3-mini-128k-instruct (few-shot),3821,32,131072,True,False,7312,3.01,44.27,12.84,10.44,56.4,62.6,28.63,22.58
 BramVanroy/fietje-2b-instruct (few-shot),2775,50,2048,False,False,4710,3.02,36.5,13.7,4.81,60.63,66.01,26.76,12.93
-"claude-3-5-haiku-20241022 (zero-shot, val)",-1,0,200000,True,False,277,3.02,61.15,12.71,35.26,41.27,64.93,8.55,10.69
+"claude-3-5-haiku-20241022 (zero-shot, val)",-1,-1,200000,True,False,277,3.02,61.15,12.71,35.26,41.27,64.93,8.55,10.69
 google/gemma-7b-it (few-shot),8538,256,8317,False,False,1792,3.04,53.93,12.83,6.58,53.45,65.89,19.58,13.68
 BramVanroy/fietje-2b-chat (few-shot),2775,50,2048,False,False,4704,3.06,39.57,13.25,9.31,60.26,65.37,26.63,11.62
 Rijgersberg/GEITje-7B-chat (few-shot),7242,32,32768,False,False,5920,3.07,50.69,8.16,20.45,54.48,66.92,24.89,9.84

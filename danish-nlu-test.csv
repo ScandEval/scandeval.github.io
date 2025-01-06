@@ -2,7 +2,7 @@ model_id,num_model_parameters,vocabulary_size,max_sequence_length,commercially_l
 "gpt-4-1106-preview (few-shot, val)",-1,100,128000,True,False,576,1.26,66.8,61.62,66.84,56.85
 "gpt-4-0613 (few-shot, val)",-1,100,8192,True,False,597,1.31,64.94,59.97,71.56,56.43
 "syvai/danskgpt-chat-llama3-70b (few-shot, val)",70554,128,8192,True,False,1283,1.32,65.4,62.78,57.88,62.24
-"claude-3-5-sonnet-20241022 (zero-shot, val)",-1,0,200000,True,False,193,1.37,65.88,63.61,71.03,46.24
+"claude-3-5-sonnet-20241022 (zero-shot, val)",-1,-1,200000,True,False,193,1.37,65.88,63.61,71.03,46.24
 AI-Sweden-Models/roberta-large-1160k,355,50,512,True,False,14014,1.38,74.16,51.2,73.87,49.34
 KennethEnevoldsen/dfm-sentence-encoder-large-2,355,50,512,True,False,6569,1.38,75.3,55.12,76.34,45.15
 danish-foundation-models/encoder-large-v1,355,50,512,True,False,6671,1.41,74.6,51.42,76.11,47.42
@@ -74,7 +74,7 @@ facebook/xlm-v-base,778,902,512,True,False,25396,2.23,71.42,31.86,52.95,34.66
 "mlabonne/NeuralBeagle14-7B (few-shot, val)",7242,32,8192,False,True,2549,2.23,53.02,51.29,19.73,51.69
 timpal0l/sol (few-shot),10732,32,4096,False,False,3701,2.23,54.91,44.38,21.11,58.96
 utter-project/EuroLLM-9B-Instruct (few-shot),9152,128,4096,False,False,1483,2.23,34.0,53.97,32.21,57.1
-"claude-3-5-haiku-20241022 (zero-shot, val)",-1,0,200000,True,False,277,2.26,59.48,56.46,20.57,38.23
+"claude-3-5-haiku-20241022 (zero-shot, val)",-1,-1,200000,True,False,277,2.26,59.48,56.46,20.57,38.23
 emillykkejensen/Llama-3-8B-instruct-dansk (few-shot),8030,128,4096,False,False,967,2.26,41.74,50.07,24.49,59.29
 meta-llama/Llama-3.1-8B (few-shot),8030,128,131072,True,False,2610,2.26,50.92,50.45,26.35,48.38
 "timpal0l/BeagleCatMunin2 (few-shot, val)",7242,32,32768,False,True,2477,2.26,51.53,47.95,14.1,58.28
