@@ -31,7 +31,7 @@ mistralai/Mistral-Nemo-Instruct-2407 (few-shot),12248,131,1024032,True,False,709
 intfloat/multilingual-e5-base,278,250,512,True,False,14965,1.95,74.79,63.29,45.32,16.42
 deepset/gbert-base,111,31,512,True,False,37268,1.96,80.09,59.8,47.48,14.39
 google/gemma-2-9b-it (few-shot),9242,256,8224,True,False,2062,1.97,50.35,58.6,45.78,30.46
-mistralai/Ministral-8B-Instruct-2410 (few-shot),8020,131,32768,True,False,912,2.0,66.0,50.38,33.55,32.69
+mistralai/Ministral-8B-Instruct-2410 (few-shot),8020,131,32768,True,False,2801,2.0,66.0,50.38,33.55,32.69
 "gpt-3.5-turbo-0613 (few-shot, val)",-1,100,4095,True,False,921,2.01,61.5,55.5,38.96,30.2
 "gpt-4o-2024-05-13 (zero-shot, val)",-1,200,8191,True,False,637,2.01,67.18,50.12,44.98,27.01
 "gpt-4o-mini-2024-07-18 (zero-shot, val)",-1,200,8191,True,False,908,2.02,59.19,52.66,46.66,26.02

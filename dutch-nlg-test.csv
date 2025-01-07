@@ -17,7 +17,7 @@ google/gemma-2-9b-it (few-shot),9242,256,8320,True,False,2062,2.11,52.62,11.78,5
 ThatsGroes/gemma-2-27b-it-FP8-Dynamic (few-shot),28411,256,4096,True,False,3633,2.12,68.17,10.56,56.89,53.05,64.01,58.74,65.18
 "gpt-3.5-turbo-0613 (few-shot, val)",-1,100,4095,True,False,921,2.18,68.96,8.81,58.95,55.57,69.13,42.28,61.52
 "meta-llama/Llama-2-70b-hf (few-shot, val)",68977,32,4221,True,False,1892,2.22,66.5,7.82,49.55,65.26,67.28,49.41,54.5
-mistralai/Ministral-8B-Instruct-2410 (few-shot),8020,131,32768,True,False,912,2.26,66.51,11.91,34.46,59.23,68.87,40.81,60.68
+mistralai/Ministral-8B-Instruct-2410 (few-shot),8020,131,32768,True,False,2801,2.26,66.51,11.91,34.46,59.23,68.87,40.81,60.68
 mistralai/Mistral-Nemo-Instruct-2407 (few-shot),12248,131,1024128,True,False,7095,2.33,66.57,10.1,40.31,59.99,68.66,42.5,48.51
 "meta-llama/Llama-2-70b-chat-hf (few-shot, val)",68977,32,4221,True,False,1979,2.35,64.0,13.3,30.88,54.14,68.71,45.47,42.91
 senseable/WestLake-7B-v2 (few-shot),7242,32,32768,False,False,5993,2.39,64.25,13.66,28.59,49.64,68.66,35.37,47.5

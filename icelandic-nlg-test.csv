@@ -11,7 +11,7 @@ meta-llama/Meta-Llama-3-8B-Instruct (few-shot),8030,128,8192,True,False,1007,3.1
 meta-llama/Llama-3.1-8B (few-shot),8030,128,131072,True,False,2610,3.22,52.97,43.06,8.13,31.99,65.19,21.56,4.44
 meta-llama/Meta-Llama-3-8B (few-shot),8030,128,8192,True,False,1335,3.23,50.45,43.85,10.82,31.94,65.22,19.93,4.52
 meta-llama/Llama-3.1-8B-Instruct (few-shot),8030,128,131072,True,False,1005,3.24,46.48,39.91,11.72,25.91,67.67,25.83,6.4
-mistralai/Ministral-8B-Instruct-2410 (few-shot),8020,131,32768,True,False,912,3.48,47.1,24.43,7.19,28.73,66.62,21.98,0.1
+mistralai/Ministral-8B-Instruct-2410 (few-shot),8020,131,32768,True,False,2801,3.48,47.1,24.43,7.19,28.73,66.62,21.98,0.1
 mhenrichsen/hestenettetLM (few-shot),7242,32,4096,True,False,1151,3.61,50.99,33.88,3.69,27.31,56.73,8.81,3.23
 mistralai/Mistral-7B-v0.1 (few-shot),7242,32,4096,True,False,1446,3.61,50.69,33.2,3.97,27.11,56.76,8.71,3.21
 mistralai/Mistral-7B-v0.3 (few-shot),7248,33,32768,True,False,1364,3.75,46.73,34.59,1.9,25.17,55.71,7.21,2.09
