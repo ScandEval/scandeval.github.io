@@ -19,7 +19,7 @@ pere/roberta-base-exp-32,277,250,512,True,False,15081,3.41,90.6,11.28,22.86,24.9
 vesteinn/ScandiBERT-no-faroese,124,50,512,True,False,15436,3.46,88.14,6.88,27.71,20.47
 ibm-granite/granite-3.0-8b-base (few-shot),8171,49,4224,True,False,973,3.49,61.47,31.99,1.44,41.54
 mistralai/Mistral-7B-Instruct-v0.2 (few-shot),7242,32,32768,False,False,2370,3.53,61.28,32.07,1.68,39.0
-mistralai/Ministral-8B-Instruct-2410 (few-shot),8020,131,32768,True,False,912,3.56,65.55,29.49,2.05,47.72
+mistralai/Ministral-8B-Instruct-2410 (few-shot),8020,131,32768,True,False,2801,3.56,65.55,29.49,2.05,47.72
 utter-project/EuroLLM-9B-Instruct (few-shot),9152,128,4096,False,False,1483,3.63,54.79,35.84,0.0,41.94
 CohereForAI/aya-expanse-8b (few-shot),8028,256,8192,False,False,1018,3.64,64.72,28.57,5.12,38.83
 Mabeck/Heidrun-Mistral-7B-chat (few-shot),7242,32,32768,False,False,1419,3.65,63.4,26.9,2.16,40.73

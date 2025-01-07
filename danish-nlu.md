@@ -3,7 +3,7 @@ layout: leaderboard
 title: Danish NLU 🇩🇰
 ---
 
-<center>Last updated: 06/01/2025 11:00:33 CET</center>
+<center>Last updated: 07/01/2025 09:54:18 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -1519,7 +1519,7 @@ title: Danish NLU 🇩🇰
    <td class="vocabulary_size">131</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">912 ± 238 / 179 ± 70</td> <!-- Model inference speed -->
+   <td class="speed">2,801 ± 715 / 518 ± 173</td> <!-- Model inference speed -->
    <td class="rank">2.30</td> <!-- ScandEval rank -->
    <td class="da ner">55.49 ± 2.05 / 34.11 ± 1.79</td> <!-- DANSK -->
    <td class="da sent">49.18 ± 1.89 / 65.27 ± 1.69</td> <!-- Angry Tweets -->
@@ -1536,7 +1536,7 @@ title: Danish NLU 🇩🇰
    <td class="vocabulary_size">128</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">4,807 ± 1,152 / 979 ± 319</td> <!-- Model inference speed -->
+   <td class="speed">3,004 ± 771 / 534 ± 179</td> <!-- Model inference speed -->
    <td class="rank">2.30</td> <!-- ScandEval rank -->
    <td class="da ner">46.59 ± 4.16 / 31.16 ± 3.95</td> <!-- DANSK -->
    <td class="da sent">50.25 ± 1.25 / 66.18 ± 1.01</td> <!-- Angry Tweets -->

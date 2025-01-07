@@ -3,7 +3,7 @@ layout: leaderboard
 title: German NLU 🇩🇪
 ---
 
-<center>Last updated: 06/01/2025 11:01:03 CET</center>
+<center>Last updated: 07/01/2025 09:54:50 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -584,7 +584,7 @@ title: German NLU 🇩🇪
    <td class="vocabulary_size">131</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">912 ± 238 / 179 ± 70</td> <!-- Model inference speed -->
+   <td class="speed">2,801 ± 715 / 518 ± 173</td> <!-- Model inference speed -->
    <td class="rank">2.00</td> <!-- ScandEval rank -->
    <td class="de ner">66.00 ± 1.13 / 54.14 ± 2.44</td> <!-- GermEval -->
    <td class="de sent">50.38 ± 2.43 / 66.37 ± 1.61</td> <!-- SB10k -->

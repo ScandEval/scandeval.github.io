@@ -86,8 +86,8 @@ Nexusflow/Starling-LM-7B-beta (few-shot),7242,32,4096,False,False,1629,2.29,51.9
 "birgermoell/Flashback-Bellman (few-shot, val)",7242,32,32768,False,True,2887,2.29,47.71,48.21,19.55,56.46
 "merge-crew/da-sv-ties (few-shot, val)",7242,32,32768,True,True,2457,2.29,45.39,51.95,13.25,58.51
 jannikskytt/MeDa-Bert,111,32,511,True,False,16114,2.3,64.64,44.62,47.47,23.14
-mistralai/Ministral-8B-Instruct-2410 (few-shot),8020,131,32768,True,False,912,2.3,55.49,49.18,7.4,57.72
-timpal0l/Llama-3-8B-flashback-v1 (few-shot),8030,128,8192,True,False,4807,2.3,46.59,50.25,14.46,56.86
+mistralai/Ministral-8B-Instruct-2410 (few-shot),8020,131,32768,True,False,2801,2.3,55.49,49.18,7.4,57.72
+timpal0l/Llama-3-8B-flashback-v1 (few-shot),8030,128,8192,True,False,3004,2.3,46.59,50.25,14.46,56.86
 "RJuro/munin-neuralbeagle-SkoleGPTOpenOrca-7b (few-shot, val)",7242,32,32768,False,True,3008,2.31,50.83,43.41,19.72,57.87
 ibm-granite/granite-3.0-8b-base (few-shot),8171,49,4097,True,False,973,2.31,44.58,47.16,19.2,58.41
 senseable/WestLake-7B-v2 (few-shot),7242,32,32768,False,False,5993,2.31,52.61,49.81,19.64,48.03

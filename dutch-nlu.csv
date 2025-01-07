@@ -37,7 +37,7 @@ google/gemma-2-9b (few-shot),9242,256,8320,True,False,2038,2.51,57.13,17.43,31.3
 meta-llama/Llama-3.1-8B (few-shot),8030,128,131200,True,False,2610,2.51,64.79,11.95,32.97,63.89
 sentence-transformers/paraphrase-xlm-r-multilingual-v1,277,250,512,True,False,20154,2.51,70.59,21.37,45.86,5.2
 mistralai/Mistral-Nemo-Instruct-2407 (few-shot),12248,131,1024128,True,False,7095,2.56,66.57,10.1,40.31,59.99
-mistralai/Ministral-8B-Instruct-2410 (few-shot),8020,131,32768,True,False,912,2.6,66.51,11.91,34.46,59.23
+mistralai/Ministral-8B-Instruct-2410 (few-shot),8020,131,32768,True,False,2801,2.6,66.51,11.91,34.46,59.23
 DTAI-KULeuven/robbertje-1-gb-bort,45,40,512,True,False,31087,2.62,66.74,24.93,37.19,5.23
 meta-llama/Meta-Llama-3-8B-Instruct (few-shot),8030,128,8192,True,False,1007,2.63,68.72,14.67,32.91,45.36
 CohereForAI/aya-expanse-8b (few-shot),8028,256,8192,False,False,1018,2.68,62.07,13.7,35.14,49.15

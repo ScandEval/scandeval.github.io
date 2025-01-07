@@ -3,7 +3,7 @@ layout: leaderboard
 title: Icelandic NLG 🇮🇸
 ---
 
-<center>Last updated: 06/01/2025 11:00:59 CET</center>
+<center>Last updated: 07/01/2025 09:54:46 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -322,7 +322,7 @@ title: Icelandic NLG 🇮🇸
    <td class="vocabulary_size">131</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">912 ± 238 / 179 ± 70</td> <!-- Model inference speed -->
+   <td class="speed">2,801 ± 715 / 518 ± 173</td> <!-- Model inference speed -->
    <td class="rank">3.48</td> <!-- ScandEval rank -->
    <td class="is ner">47.10 ± 1.90 / 22.63 ± 2.03</td> <!-- MIM-GOLD-NER -->
    <td class="is sent">24.43 ± 2.98 / 39.27 ± 3.37</td> <!-- Hotter-and-Colder-sentiment -->

@@ -54,7 +54,7 @@ bineric/NorskGPT-Llama3-8b (few-shot),8030,128,8192,False,False,3695,2.4,51.4,42
 danish-foundation-models/munin-7b-alpha (few-shot),7242,32,32768,True,False,6116,2.4,40.6,36.89,26.41,57.81,67.27,77.63,67.83,25.16
 meta-llama/Llama-3.1-8B (few-shot),8030,128,131072,True,False,2610,2.41,50.92,50.45,26.35,48.38,64.89,51.88,62.31,27.37
 "birgermoell/Flashback-Bellman (few-shot, val)",7242,32,32768,False,True,2887,2.42,47.71,48.21,19.55,56.46,65.46,61.29,60.29,28.33
-mistralai/Ministral-8B-Instruct-2410 (few-shot),8020,131,32768,True,False,912,2.42,55.49,49.18,7.4,57.72,65.1,45.83,59.45,35.46
+mistralai/Ministral-8B-Instruct-2410 (few-shot),8020,131,32768,True,False,2801,2.42,55.49,49.18,7.4,57.72,65.1,45.83,59.45,35.46
 "AI-Sweden-Models/tyr (few-shot, val)",7242,32,32768,False,True,6079,2.43,47.01,50.6,13.73,56.35,66.82,57.53,67.04,22.16
 Nexusflow/Starling-LM-7B-beta (few-shot),7242,32,4096,False,False,1629,2.43,51.94,51.97,29.99,38.99,64.49,35.95,59.76,34.63
 "merge-crew/da-sv-dare-ties-density-0.9 (few-shot, val)",7242,32,32768,True,True,2443,2.43,45.61,53.73,17.08,56.67,66.14,60.58,57.89,16.45
@@ -79,7 +79,7 @@ timpal0l/Mistral-7B-v0.1-flashback-v2 (few-shot),7242,32,32768,True,False,5054,2
 RuterNorway/Llama-2-13b-chat-norwegian (few-shot),-1,32,4096,False,False,3254,2.62,43.17,43.4,11.08,56.81,67.46,52.94,41.65,17.57
 bineric/NorskGPT-Llama-13B-v0.1 (few-shot),-1,32,4096,False,False,2856,2.62,44.17,44.28,3.11,55.59,66.63,59.51,50.89,25.32
 ibm-granite/granite-3.0-8b-instruct (few-shot),8171,49,4096,True,False,1118,2.64,44.92,49.31,10.14,57.34,66.02,33.71,43.55,21.34
-timpal0l/Llama-3-8B-flashback-v1 (few-shot),8030,128,8192,True,False,4807,2.64,46.59,50.25,14.46,56.86,61.98,46.91,50.98,16.33
+timpal0l/Llama-3-8B-flashback-v1 (few-shot),8030,128,8192,True,False,3004,2.64,46.59,50.25,14.46,56.86,61.98,46.91,50.98,16.33
 neph1/bellman-7b-mistral-instruct-v0.2 (few-shot),7242,32,32768,False,False,2518,2.65,46.11,47.58,18.41,52.78,65.65,41.77,35.86,11.59
 google/gemma-2-2b-it (few-shot),2614,256,8193,True,False,5374,2.66,28.22,47.11,19.99,48.0,66.73,52.85,52.74,29.94
 Mabeck/Heidrun-Mistral-7B-chat (few-shot),7242,32,4096,False,False,1419,2.72,51.93,49.86,20.25,25.84,66.28,42.73,60.78,16.39
