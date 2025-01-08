@@ -20,7 +20,7 @@ Nexusflow/Starling-LM-7B-beta (few-shot),7242,32,4096,False,False,1629,1.65,72.7
 "gpt-4-1106-preview (zero-shot, val)",-1,100,8191,True,False,436,1.65,42.4,65.24,44.59,62.94,68.33,78.8,82.6
 skole-gpt-mixtral (few-shot),-1,32,32768,False,False,3583,1.65,67.43,68.55,39.75,65.93,70.9,59.14,57.88
 "gpt-3.5-turbo-0613 (few-shot, val)",-1,100,4095,True,False,921,1.66,71.48,66.41,41.43,67.9,69.57,43.69,75.6
-mistralai/Ministral-8B-Instruct-2410 (few-shot),8020,131,32768,True,False,2801,1.66,72.4,63.46,35.86,68.42,69.38,53.42,78.36
+mistralai/Ministral-8B-Instruct-2410 (few-shot),8020,131,32768,True,False,1302,1.66,72.4,63.46,35.86,68.42,69.38,53.42,78.36
 google/gemma-2-9b (few-shot),9242,256,8448,True,False,2038,1.69,50.9,68.91,43.79,69.17,69.67,61.34,62.23
 ibm-granite/granite-3.0-8b-instruct (few-shot),8171,49,4096,True,False,1118,1.75,66.17,68.03,39.76,71.21,69.3,49.99,52.45
 CohereForAI/aya-expanse-8b (few-shot),8028,256,8192,False,False,1018,1.77,67.33,68.67,31.18,68.33,72.23,49.41,58.93
