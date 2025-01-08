@@ -88,7 +88,7 @@ meta-llama/Llama-3.1-8B (few-shot),8030,128,131072,True,False,2610,2.29,50.92,47
 "RJuro/munin-neuralbeagle-SkoleGPTOpenOrca-7b (few-shot, val)",7242,32,32768,False,True,3008,2.3,50.83,43.41,19.72,57.87
 ibm-granite/granite-3.0-8b-base (few-shot),8171,49,4097,True,False,973,2.3,44.58,47.16,19.2,58.41
 jannikskytt/MeDa-Bert,111,32,511,True,False,16114,2.3,64.64,44.62,47.47,23.14
-mistralai/Ministral-8B-Instruct-2410 (few-shot),8020,131,32768,True,False,2801,2.3,55.49,49.18,7.4,57.72
+mistralai/Ministral-8B-Instruct-2410 (few-shot),8020,131,32768,True,False,1302,2.3,55.49,49.18,7.4,57.72
 senseable/WestLake-7B-v2 (few-shot),7242,32,32768,False,False,5993,2.3,52.61,49.81,19.64,48.03
 timpal0l/Llama-3-8B-flashback-v1 (few-shot),8030,128,8192,True,False,3004,2.3,46.59,50.25,14.46,56.86
 danish-foundation-models/encoder-medium-v1,111,32,512,True,False,16130,2.32,63.42,39.91,51.01,25.76
