@@ -3,7 +3,7 @@ layout: leaderboard
 title: Swedish NLU 🇸🇪
 ---
 
-<center>Last updated: 08/01/2025 11:01:50 CET</center>
+<center>Last updated: 09/01/2025 09:21:00 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -584,7 +584,7 @@ title: Swedish NLU 🇸🇪
    <td class="vocabulary_size">128</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">1,480 ± 378 / 285 ± 96</td> <!-- Model inference speed -->
+   <td class="speed">1,472 ± 376 / 284 ± 96</td> <!-- Model inference speed -->
    <td class="rank">1.66</td> <!-- ScandEval rank -->
    <td class="sv ner">84.77 ± 1.36 / 72.07 ± 2.30</td> <!-- SUC3 -->
    <td class="sv sent">80.10 ± 0.54 / 80.57 ± 0.45</td> <!-- SweReC -->
@@ -1927,7 +1927,7 @@ title: Swedish NLU 🇸🇪
    <td class="vocabulary_size">128</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">3,695 ± 1,277 / 532 ± 183</td> <!-- Model inference speed -->
+   <td class="speed">3,382 ± 383 / 1,309 ± 509</td> <!-- Model inference speed -->
    <td class="rank">2.18</td> <!-- ScandEval rank -->
    <td class="sv ner">63.19 ± 2.83 / 51.22 ± 3.61</td> <!-- SUC3 -->
    <td class="sv sent">76.06 ± 0.64 / 61.59 ± 0.77</td> <!-- SweReC -->

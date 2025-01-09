@@ -51,7 +51,7 @@ pere/roberta-base-exp-32B,278,250,512,True,False,15103,2.02,71.81,47.83,54.99,29
 meta-llama/Llama-3.1-8B-Instruct (few-shot),8030,128,131072,True,False,1005,2.04,54.7,54.81,32.11,48.87
 skole-gpt-mixtral (few-shot),-1,32,32768,False,False,3583,2.04,49.17,51.51,32.04,58.52
 mistralai/Mistral-Nemo-Instruct-2407 (few-shot),12248,131,1024001,True,False,7095,2.06,53.95,48.97,31.78,56.44
-AI-Sweden-Models/Llama-3-8B-instruct (few-shot),8030,128,8192,False,False,1480,2.09,58.57,51.63,28.82,51.98
+AI-Sweden-Models/Llama-3-8B-instruct (few-shot),8030,128,8192,False,False,1472,2.09,58.57,51.63,28.82,51.98
 "merge-crew/da-sv-slerp (few-shot, val)",7242,32,32768,True,True,2467,2.12,45.94,51.75,28.04,57.65
 "merge-crew/da-sv-task-arithmetic (few-shot, val)",7242,32,32768,True,True,2500,2.12,46.06,51.51,27.68,57.78
 "birgermoell/BeagleCatMunin-Flashback-Bellman (few-shot, val)",7242,32,32768,False,True,2890,2.13,50.4,52.3,21.3,58.17
@@ -124,7 +124,7 @@ Mabeck/Heidrun-Mistral-7B-base (few-shot),7242,32,32768,True,False,3823,2.48,40.
 "birgermoell/Munin-NeuralBeagle-NorskGPT (few-shot, val)",7242,32,32768,False,True,2903,2.48,51.85,44.02,1.22,57.69
 "birgermoell/WestLake-Munin-Cat-NorskGPT (few-shot, val)",7242,32,32768,False,True,2856,2.48,51.85,44.02,1.22,57.69
 RuterNorway/Llama-2-13b-chat-norwegian (few-shot),-1,32,4096,False,False,3254,2.49,43.17,43.4,11.08,56.81
-bineric/NorskGPT-Llama3-8b (few-shot),8030,128,8192,False,False,3695,2.49,51.4,42.13,3.91,57.81
+bineric/NorskGPT-Llama3-8b (few-shot),8030,128,8192,False,False,3382,2.49,51.4,42.13,3.91,57.81
 microsoft/xlm-align-base,278,250,512,True,False,14744,2.49,70.36,47.83,11.87,29.87
 jonfd/electra-small-nordic,22,96,128,True,False,5989,2.5,65.4,34.43,67.27,6.6
 sentence-transformers/paraphrase-multilingual-mpnet-base-v2,278,250,512,True,False,15100,2.5,61.18,49.13,29.66,19.99
