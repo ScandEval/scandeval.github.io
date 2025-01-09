@@ -3,7 +3,7 @@ layout: leaderboard
 title: English NLG 🇬🇧
 ---
 
-<center>Last updated: 08/01/2025 11:02:32 CET</center>
+<center>Last updated: 09/01/2025 09:21:38 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -1039,14 +1039,14 @@ title: English NLG 🇬🇧
    <td class="rank">1.98</td> <!-- ScandEval rank -->
    <td class="en ner">56.16 ± 3.59 / 51.12 ± 2.58</td> <!-- CoNLL-en -->
    <td class="en sent">68.27 ± 0.53 / 60.37 ± 0.57</td> <!-- SST5 -->
-   <td class="en la">23.88 ± 2.16 / 60.87 ± 1.62</td> <!-- ScaLA-en -->
+   <td class="en la">23.82 ± 2.16 / 60.83 ± 1.63</td> <!-- ScaLA-en -->
    <td class="en rc">74.23 ± 1.31 / 85.11 ± 0.73</td> <!-- SQuAD -->
    <td class="en summ">72.14 ± 0.13 / 29.83 ± 0.23</td> <!-- CNN-DailyMail -->
    <td class="en know">33.04 ± 1.30 / 49.51 ± 0.98</td> <!-- MMLU -->
    <td class="en reason">55.10 ± 1.39 / 64.78 ± 1.34</td> <!-- HellaSwag -->
    <td>14.0.4</td> <!-- CoNLL-en version -->
-   <td>14.0.4</td> <!-- SST5 version -->
-   <td>14.0.4</td> <!-- ScaLA-en version -->
+   <td>14.1.2</td> <!-- SST5 version -->
+   <td>14.1.2</td> <!-- ScaLA-en version -->
    <td>14.0.4</td> <!-- SQuAD version -->
    <td>14.0.4</td> <!-- CNN-DailyMail version -->
    <td>14.0.4</td> <!-- MMLU version -->
@@ -1061,15 +1061,15 @@ title: English NLG 🇬🇧
    <td class="speed">973 ± 251 / 174 ± 59</td> <!-- Model inference speed -->
    <td class="rank">1.98</td> <!-- ScandEval rank -->
    <td class="en ner">55.76 ± 2.15 / 52.69 ± 1.24</td> <!-- CoNLL-en -->
-   <td class="en sent">66.89 ± 1.09 / 69.50 ± 0.96</td> <!-- SST5 -->
-   <td class="en la">36.47 ± 2.07 / 67.43 ± 1.29</td> <!-- ScaLA-en -->
+   <td class="en sent">66.89 ± 1.11 / 69.52 ± 0.94</td> <!-- SST5 -->
+   <td class="en la">36.60 ± 2.37 / 67.85 ± 1.19</td> <!-- ScaLA-en -->
    <td class="en rc">67.55 ± 1.46 / 80.25 ± 1.22</td> <!-- SQuAD -->
    <td class="en summ">66.51 ± 0.93 / 21.81 ± 1.31</td> <!-- CNN-DailyMail -->
    <td class="en know">46.22 ± 1.20 / 59.52 ± 0.94</td> <!-- MMLU -->
    <td class="en reason">52.23 ± 2.04 / 61.87 ± 1.91</td> <!-- HellaSwag -->
    <td>14.0.4</td> <!-- CoNLL-en version -->
-   <td>14.0.4</td> <!-- SST5 version -->
-   <td>14.0.4</td> <!-- ScaLA-en version -->
+   <td>14.1.2</td> <!-- SST5 version -->
+   <td>14.1.2</td> <!-- ScaLA-en version -->
    <td>14.0.4</td> <!-- SQuAD version -->
    <td>14.0.4</td> <!-- CNN-DailyMail version -->
    <td>14.0.4</td> <!-- MMLU version -->
@@ -1996,6 +1996,29 @@ title: English NLG 🇬🇧
    <td>13.0.0</td> <!-- HellaSwag version -->
    </tr>
   <tr class="not-merged-model">
+   <td>NbAiLab/nb-llama-3.1-8B (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">8030</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">128</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">131072</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">1,297 ± 338 / 245 ± 83</td> <!-- Model inference speed -->
+   <td class="rank">2.65</td> <!-- ScandEval rank -->
+   <td class="en ner">62.90 ± 2.49 / 56.12 ± 1.92</td> <!-- CoNLL-en -->
+   <td class="en sent">62.26 ± 1.62 / 66.24 ± 0.84</td> <!-- SST5 -->
+   <td class="en la">24.37 ± 1.47 / 60.05 ± 1.82</td> <!-- ScaLA-en -->
+   <td class="en rc">25.93 ± 4.95 / 47.47 ± 4.90</td> <!-- SQuAD -->
+   <td class="en summ">63.31 ± 0.93 / 15.85 ± 0.47</td> <!-- CNN-DailyMail -->
+   <td class="en know">40.90 ± 1.22 / 55.74 ± 0.97</td> <!-- MMLU -->
+   <td class="en reason">16.59 ± 3.39 / 36.28 ± 2.78</td> <!-- HellaSwag -->
+   <td>14.0.4</td> <!-- CoNLL-en version -->
+   <td>14.1.2</td> <!-- SST5 version -->
+   <td>14.1.2</td> <!-- ScaLA-en version -->
+   <td>14.0.4</td> <!-- SQuAD version -->
+   <td>14.0.4</td> <!-- CNN-DailyMail version -->
+   <td>14.0.4</td> <!-- MMLU version -->
+   <td>14.0.4</td> <!-- HellaSwag version -->
+   </tr>
+  <tr class="not-merged-model">
    <td>HuggingFaceTB/SmolLM2-1.7B (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">1711</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">49</td> <!-- Size of the model's vocabulary -->
@@ -2017,29 +2040,6 @@ title: English NLG 🇬🇧
    <td>13.1.0</td> <!-- CNN-DailyMail version -->
    <td>13.1.0</td> <!-- MMLU version -->
    <td>13.1.0</td> <!-- HellaSwag version -->
-   </tr>
-  <tr class="not-merged-model">
-   <td>NbAiLab/nb-llama-3.1-8B (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">8030</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">128</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">131072</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">1,297 ± 338 / 245 ± 83</td> <!-- Model inference speed -->
-   <td class="rank">2.68</td> <!-- ScandEval rank -->
-   <td class="en ner">62.90 ± 2.49 / 56.12 ± 1.92</td> <!-- CoNLL-en -->
-   <td class="en sent">62.39 ± 1.67 / 66.36 ± 0.89</td> <!-- SST5 -->
-   <td class="en la">19.96 ± 4.17 / 51.63 ± 5.43</td> <!-- ScaLA-en -->
-   <td class="en rc">25.93 ± 4.95 / 47.47 ± 4.90</td> <!-- SQuAD -->
-   <td class="en summ">63.31 ± 0.93 / 15.85 ± 0.47</td> <!-- CNN-DailyMail -->
-   <td class="en know">40.90 ± 1.22 / 55.74 ± 0.97</td> <!-- MMLU -->
-   <td class="en reason">16.59 ± 3.39 / 36.28 ± 2.78</td> <!-- HellaSwag -->
-   <td>14.0.4</td> <!-- CoNLL-en version -->
-   <td>14.0.4</td> <!-- SST5 version -->
-   <td>14.0.4</td> <!-- ScaLA-en version -->
-   <td>14.0.4</td> <!-- SQuAD version -->
-   <td>14.0.4</td> <!-- CNN-DailyMail version -->
-   <td>14.0.4</td> <!-- MMLU version -->
-   <td>14.0.4</td> <!-- HellaSwag version -->
    </tr>
   <tr class="not-merged-model">
    <td>google/gemma-2-2b (few-shot)</td> <!-- Model ID -->
@@ -2692,17 +2692,17 @@ title: English NLG 🇬🇧
    <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">10,756 ± 3,589 / 1,157 ± 670</td> <!-- Model inference speed -->
-   <td class="rank">3.76</td> <!-- ScandEval rank -->
+   <td class="rank">3.75</td> <!-- ScandEval rank -->
    <td class="en ner">40.45 ± 3.27 / 37.90 ± 2.99</td> <!-- CoNLL-en -->
-   <td class="en sent">47.72 ± 3.58 / 56.94 ± 1.93</td> <!-- SST5 -->
-   <td class="en la">-1.04 ± 1.90 / 39.17 ± 3.50</td> <!-- ScaLA-en -->
+   <td class="en sent">47.89 ± 3.76 / 56.99 ± 2.11</td> <!-- SST5 -->
+   <td class="en la">0.28 ± 1.01 / 44.40 ± 3.07</td> <!-- ScaLA-en -->
    <td class="en rc">26.77 ± 5.45 / 35.60 ± 6.25</td> <!-- SQuAD -->
    <td class="en summ">50.31 ± 7.81 / 13.58 ± 2.12</td> <!-- CNN-DailyMail -->
    <td class="en know">1.03 ± 0.82 / 26.95 ± 0.56</td> <!-- MMLU -->
    <td class="en reason">-0.30 ± 1.30 / 24.99 ± 1.10</td> <!-- HellaSwag -->
    <td>14.0.4</td> <!-- CoNLL-en version -->
-   <td>14.0.4</td> <!-- SST5 version -->
-   <td>14.0.4</td> <!-- ScaLA-en version -->
+   <td>14.1.2</td> <!-- SST5 version -->
+   <td>14.1.2</td> <!-- ScaLA-en version -->
    <td>14.0.4</td> <!-- SQuAD version -->
    <td>14.0.4</td> <!-- CNN-DailyMail version -->
    <td>14.0.4</td> <!-- MMLU version -->
@@ -2738,17 +2738,17 @@ title: English NLG 🇬🇧
    <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,519 ± 841 / 323 ± 104</td> <!-- Model inference speed -->
-   <td class="rank">3.84</td> <!-- ScandEval rank -->
+   <td class="rank">3.83</td> <!-- ScandEval rank -->
    <td class="en ner">21.60 ± 4.23 / 23.22 ± 3.33</td> <!-- CoNLL-en -->
-   <td class="en sent">45.04 ± 5.17 / 50.76 ± 4.28</td> <!-- SST5 -->
-   <td class="en la">-0.60 ± 0.87 / 34.57 ± 1.70</td> <!-- ScaLA-en -->
+   <td class="en sent">45.04 ± 5.19 / 50.60 ± 4.14</td> <!-- SST5 -->
+   <td class="en la">-0.46 ± 1.47 / 44.56 ± 3.38</td> <!-- ScaLA-en -->
    <td class="en rc">33.46 ± 2.84 / 44.25 ± 3.38</td> <!-- SQuAD -->
    <td class="en summ">49.12 ± 7.39 / 12.74 ± 2.01</td> <!-- CNN-DailyMail -->
    <td class="en know">2.37 ± 0.75 / 27.67 ± 0.77</td> <!-- MMLU -->
    <td class="en reason">-0.33 ± 1.21 / 25.00 ± 1.15</td> <!-- HellaSwag -->
    <td>14.0.4</td> <!-- CoNLL-en version -->
-   <td>14.0.4</td> <!-- SST5 version -->
-   <td>14.0.4</td> <!-- ScaLA-en version -->
+   <td>14.1.2</td> <!-- SST5 version -->
+   <td>14.1.2</td> <!-- ScaLA-en version -->
    <td>14.0.4</td> <!-- SQuAD version -->
    <td>14.0.4</td> <!-- CNN-DailyMail version -->
    <td>14.0.4</td> <!-- MMLU version -->
@@ -2761,17 +2761,17 @@ title: English NLG 🇬🇧
    <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">6,513 ± 1,241 / 1,282 ± 644</td> <!-- Model inference speed -->
-   <td class="rank">3.90</td> <!-- ScandEval rank -->
+   <td class="rank">3.89</td> <!-- ScandEval rank -->
    <td class="en ner">27.37 ± 4.57 / 26.50 ± 4.52</td> <!-- CoNLL-en -->
-   <td class="en sent">36.14 ± 7.74 / 45.63 ± 7.84</td> <!-- SST5 -->
-   <td class="en la">-1.97 ± 1.83 / 43.64 ± 2.89</td> <!-- ScaLA-en -->
+   <td class="en sent">36.35 ± 7.92 / 45.58 ± 8.18</td> <!-- SST5 -->
+   <td class="en la">-0.37 ± 1.89 / 44.67 ± 2.86</td> <!-- ScaLA-en -->
    <td class="en rc">7.42 ± 2.13 / 16.44 ± 2.71</td> <!-- SQuAD -->
    <td class="en summ">60.89 ± 0.87 / 17.36 ± 0.62</td> <!-- CNN-DailyMail -->
    <td class="en know">2.21 ± 1.17 / 26.40 ± 1.12</td> <!-- MMLU -->
    <td class="en reason">-0.90 ± 0.79 / 24.52 ± 0.70</td> <!-- HellaSwag -->
    <td>14.0.4</td> <!-- CoNLL-en version -->
-   <td>14.0.4</td> <!-- SST5 version -->
-   <td>14.0.4</td> <!-- ScaLA-en version -->
+   <td>14.1.2</td> <!-- SST5 version -->
+   <td>14.1.2</td> <!-- ScaLA-en version -->
    <td>14.0.4</td> <!-- SQuAD version -->
    <td>14.0.4</td> <!-- CNN-DailyMail version -->
    <td>14.0.4</td> <!-- MMLU version -->
@@ -2830,17 +2830,17 @@ title: English NLG 🇬🇧
    <td class="max_sequence_length">131072</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">1,880 ± 556 / 280 ± 95</td> <!-- Model inference speed -->
-   <td class="rank">4.11</td> <!-- ScandEval rank -->
+   <td class="rank">4.14</td> <!-- ScandEval rank -->
    <td class="en ner">0.02 ± 0.03 / 0.01 ± 0.03</td> <!-- CoNLL-en -->
-   <td class="en sent">60.98 ± 1.60 / 58.19 ± 1.01</td> <!-- SST5 -->
-   <td class="en la">2.26 ± 3.46 / 36.14 ± 4.01</td> <!-- ScaLA-en -->
+   <td class="en sent">60.98 ± 1.52 / 58.15 ± 0.97</td> <!-- SST5 -->
+   <td class="en la">0.00 ± 0.00 / 33.36 ± 0.27</td> <!-- ScaLA-en -->
    <td class="en rc">9.94 ± 1.53 / 26.50 ± 2.35</td> <!-- SQuAD -->
    <td class="en summ">41.10 ± 2.34 / 6.64 ± 0.65</td> <!-- CNN-DailyMail -->
    <td class="en know">12.17 ± 1.07 / 31.75 ± 1.03</td> <!-- MMLU -->
    <td class="en reason">0.62 ± 1.44 / 25.00 ± 0.88</td> <!-- HellaSwag -->
    <td>14.0.4</td> <!-- CoNLL-en version -->
-   <td>14.0.4</td> <!-- SST5 version -->
-   <td>14.0.4</td> <!-- ScaLA-en version -->
+   <td>14.1.2</td> <!-- SST5 version -->
+   <td>14.1.2</td> <!-- ScaLA-en version -->
    <td>14.0.4</td> <!-- SQuAD version -->
    <td>14.0.4</td> <!-- CNN-DailyMail version -->
    <td>14.0.4</td> <!-- MMLU version -->
@@ -2853,17 +2853,40 @@ title: English NLG 🇬🇧
    <td class="max_sequence_length">131072</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">3,424 ± 1,080 / 464 ± 158</td> <!-- Model inference speed -->
-   <td class="rank">4.20</td> <!-- ScandEval rank -->
+   <td class="rank">4.23</td> <!-- ScandEval rank -->
    <td class="en ner">3.98 ± 3.16 / 3.68 ± 2.99</td> <!-- CoNLL-en -->
-   <td class="en sent">39.56 ± 6.39 / 48.56 ± 7.74</td> <!-- SST5 -->
-   <td class="en la">5.15 ± 1.53 / 46.63 ± 3.93</td> <!-- ScaLA-en -->
+   <td class="en sent">39.54 ± 6.40 / 48.55 ± 7.75</td> <!-- SST5 -->
+   <td class="en la">3.41 ± 1.85 / 41.04 ± 4.56</td> <!-- ScaLA-en -->
    <td class="en rc">26.96 ± 2.30 / 42.51 ± 3.06</td> <!-- SQuAD -->
    <td class="en summ">43.27 ± 1.15 / 7.42 ± 0.80</td> <!-- CNN-DailyMail -->
    <td class="en know">2.45 ± 1.06 / 28.00 ± 0.77</td> <!-- MMLU -->
    <td class="en reason">-0.84 ± 1.17 / 24.50 ± 0.79</td> <!-- HellaSwag -->
    <td>14.0.4</td> <!-- CoNLL-en version -->
-   <td>14.0.4</td> <!-- SST5 version -->
-   <td>14.0.4</td> <!-- ScaLA-en version -->
+   <td>14.1.2</td> <!-- SST5 version -->
+   <td>14.1.2</td> <!-- ScaLA-en version -->
+   <td>14.0.4</td> <!-- SQuAD version -->
+   <td>14.0.4</td> <!-- CNN-DailyMail version -->
+   <td>14.0.4</td> <!-- MMLU version -->
+   <td>14.0.4</td> <!-- HellaSwag version -->
+   </tr>
+  <tr class="not-merged-model">
+   <td>PleIAs/Pleias-350m-Preview (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">353</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">66</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">10,242 ± 3,432 / 1,335 ± 484</td> <!-- Model inference speed -->
+   <td class="rank">4.23</td> <!-- ScandEval rank -->
+   <td class="en ner">31.79 ± 3.88 / 31.32 ± 2.81</td> <!-- CoNLL-en -->
+   <td class="en sent">19.13 ± 9.92 / 33.51 ± 6.97</td> <!-- SST5 -->
+   <td class="en la">-0.03 ± 1.07 / 36.37 ± 2.34</td> <!-- ScaLA-en -->
+   <td class="en rc">12.35 ± 1.80 / 21.93 ± 1.63</td> <!-- SQuAD -->
+   <td class="en summ">46.13 ± 6.88 / 11.20 ± 1.59</td> <!-- CNN-DailyMail -->
+   <td class="en know">-1.20 ± 0.68 / 23.43 ± 0.94</td> <!-- MMLU -->
+   <td class="en reason">0.47 ± 1.47 / 25.42 ± 1.15</td> <!-- HellaSwag -->
+   <td>14.0.4</td> <!-- CoNLL-en version -->
+   <td>14.1.2</td> <!-- SST5 version -->
+   <td>14.1.2</td> <!-- ScaLA-en version -->
    <td>14.0.4</td> <!-- SQuAD version -->
    <td>14.0.4</td> <!-- CNN-DailyMail version -->
    <td>14.0.4</td> <!-- MMLU version -->
@@ -2878,38 +2901,15 @@ title: English NLG 🇬🇧
    <td class="speed">2,331 ± 787 / 301 ± 97</td> <!-- Model inference speed -->
    <td class="rank">4.24</td> <!-- ScandEval rank -->
    <td class="en ner">27.45 ± 4.13 / 27.11 ± 3.47</td> <!-- CoNLL-en -->
-   <td class="en sent">27.24 ± 8.04 / 39.08 ± 6.46</td> <!-- SST5 -->
-   <td class="en la">0.32 ± 0.85 / 43.07 ± 3.37</td> <!-- ScaLA-en -->
+   <td class="en sent">27.39 ± 8.29 / 39.38 ± 6.65</td> <!-- SST5 -->
+   <td class="en la">0.31 ± 1.47 / 39.37 ± 3.75</td> <!-- ScaLA-en -->
    <td class="en rc">15.62 ± 2.29 / 26.76 ± 1.43</td> <!-- SQuAD -->
    <td class="en summ">43.83 ± 6.89 / 8.96 ± 1.14</td> <!-- CNN-DailyMail -->
    <td class="en know">0.65 ± 0.70 / 24.30 ± 0.79</td> <!-- MMLU -->
    <td class="en reason">-0.44 ± 1.22 / 24.71 ± 0.98</td> <!-- HellaSwag -->
    <td>14.0.4</td> <!-- CoNLL-en version -->
-   <td>14.0.4</td> <!-- SST5 version -->
-   <td>14.0.4</td> <!-- ScaLA-en version -->
-   <td>14.0.4</td> <!-- SQuAD version -->
-   <td>14.0.4</td> <!-- CNN-DailyMail version -->
-   <td>14.0.4</td> <!-- MMLU version -->
-   <td>14.0.4</td> <!-- HellaSwag version -->
-   </tr>
-  <tr class="not-merged-model">
-   <td>PleIAs/Pleias-350m-Preview (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">353</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">66</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">10,242 ± 3,432 / 1,335 ± 484</td> <!-- Model inference speed -->
-   <td class="rank">4.32</td> <!-- ScandEval rank -->
-   <td class="en ner">31.79 ± 3.88 / 31.32 ± 2.81</td> <!-- CoNLL-en -->
-   <td class="en sent">18.45 ± 9.77 / 33.15 ± 6.93</td> <!-- SST5 -->
-   <td class="en la">-0.28 ± 1.49 / 40.66 ± 3.99</td> <!-- ScaLA-en -->
-   <td class="en rc">12.35 ± 1.80 / 21.93 ± 1.63</td> <!-- SQuAD -->
-   <td class="en summ">46.13 ± 6.88 / 11.20 ± 1.59</td> <!-- CNN-DailyMail -->
-   <td class="en know">-1.20 ± 0.68 / 23.43 ± 0.94</td> <!-- MMLU -->
-   <td class="en reason">0.47 ± 1.47 / 25.42 ± 1.15</td> <!-- HellaSwag -->
-   <td>14.0.4</td> <!-- CoNLL-en version -->
-   <td>14.0.4</td> <!-- SST5 version -->
-   <td>14.0.4</td> <!-- ScaLA-en version -->
+   <td>14.1.2</td> <!-- SST5 version -->
+   <td>14.1.2</td> <!-- ScaLA-en version -->
    <td>14.0.4</td> <!-- SQuAD version -->
    <td>14.0.4</td> <!-- CNN-DailyMail version -->
    <td>14.0.4</td> <!-- MMLU version -->
@@ -2922,7 +2922,7 @@ title: English NLG 🇬🇧
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">5,847 ± 1,029 / 1,640 ± 525</td> <!-- Model inference speed -->
-   <td class="rank">4.53</td> <!-- ScandEval rank -->
+   <td class="rank">4.54</td> <!-- ScandEval rank -->
    <td class="en ner">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- CoNLL-en -->
    <td class="en sent">0.00 ± 0.00 / 19.61 ± 0.22</td> <!-- SST5 -->
    <td class="en la">0.41 ± 0.55 / 33.46 ± 0.37</td> <!-- ScaLA-en -->
@@ -2991,7 +2991,7 @@ title: English NLG 🇬🇧
    <td class="max_sequence_length">1024</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">11,734 ± 3,124 / 2,174 ± 720</td> <!-- Model inference speed -->
-   <td class="rank">4.91</td> <!-- ScandEval rank -->
+   <td class="rank">4.92</td> <!-- ScandEval rank -->
    <td class="en ner">1.55 ± 1.98 / 1.45 ± 1.82</td> <!-- CoNLL-en -->
    <td class="en sent">3.71 ± 3.16 / 22.09 ± 2.08</td> <!-- SST5 -->
    <td class="en la">-0.42 ± 1.56 / 40.58 ± 3.74</td> <!-- ScaLA-en -->

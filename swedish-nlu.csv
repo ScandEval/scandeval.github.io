@@ -31,7 +31,7 @@ FacebookAI/xlm-roberta-large,560,250,512,True,False,17897,1.62,80.33,76.63,49.72
 KBLab/bert-base-swedish-cased-new,135,64,512,True,False,15933,1.64,79.99,76.04,73.52,30.6
 NbAiLab/nb-roberta-base-scandi-1e4,278,250,512,True,False,15074,1.64,79.9,76.2,73.62,32.38
 "152334H/miqu-1-70b-sf (few-shot, val)",68977,32,32764,True,False,2126,1.66,62.96,75.25,53.28,56.42
-AI-Sweden-Models/Llama-3-8B-instruct (few-shot),8030,128,8192,False,False,1480,1.66,84.77,80.1,29.17,54.68
+AI-Sweden-Models/Llama-3-8B-instruct (few-shot),8030,128,8192,False,False,1472,1.66,84.77,80.1,29.17,54.68
 KennethEnevoldsen/dfm-sentence-encoder-large-1,355,50,512,True,False,6245,1.66,71.65,74.92,63.43,46.2
 "meta-llama/Llama-2-70b-hf (few-shot, val)",68977,32,4096,True,False,1892,1.67,64.76,75.46,43.27,63.04
 KennethEnevoldsen/dfm-sentence-encoder-large-2,355,50,512,True,False,6569,1.68,71.86,74.67,62.77,44.77
@@ -110,7 +110,7 @@ mhenrichsen/danskgpt-chat-v2.1 (few-shot),-1,32,32768,True,False,5085,2.15,54.37
 ibm-granite/granite-3.0-8b-base (few-shot),8171,49,4097,True,False,973,2.16,44.8,75.92,24.84,56.71
 meta-llama/Meta-Llama-3-8B-Instruct (few-shot),8030,128,8192,True,False,1007,2.16,69.67,59.93,27.63,49.84
 Nexusflow/Starling-LM-7B-beta (few-shot),7242,32,4096,False,False,1629,2.18,56.28,77.51,23.25,47.09
-bineric/NorskGPT-Llama3-8b (few-shot),8030,128,8192,False,False,3695,2.18,63.19,76.06,5.34,56.7
+bineric/NorskGPT-Llama3-8b (few-shot),8030,128,8192,False,False,3382,2.18,63.19,76.06,5.34,56.7
 jonfd/electra-small-nordic,22,96,128,True,False,5989,2.18,71.07,66.42,69.19,11.85
 meta-llama/Llama-2-13b-chat-hf (few-shot),13016,32,4096,True,False,2849,2.18,49.9,77.19,14.67,57.12
 mhenrichsen/hestenettetLM (few-shot),7242,32,32768,True,False,1151,2.18,53.0,79.7,4.32,59.03
