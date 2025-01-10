@@ -25,7 +25,7 @@ pere/roberta-base-exp-8,278,250,514,True,False,15112,2.25,78.58,46.87,47.36,7.68
 "gpt-4o-mini-2024-07-18 (zero-shot, val)",-1,200,8191,True,False,908,2.28,31.11,50.02,35.85,26.93
 ThatsGroes/gemma-2-27b-it-FP8-Dynamic (few-shot),28411,256,4096,True,False,3633,2.32,67.23,50.38,20.01,21.18
 pere/roberta-base-exp-32,278,250,514,True,False,15081,2.46,83.57,48.56,23.07,7.81
-meta-llama/Llama-3.1-8B (few-shot),8030,128,131072,True,False,2610,2.5,52.97,41.29,5.95,31.99
+meta-llama/Llama-3.1-8B (few-shot),8030,128,131072,True,False,2986,2.5,52.97,41.29,5.95,31.99
 meta-llama/Meta-Llama-3-8B-Instruct (few-shot),8030,128,8192,True,False,1007,2.54,60.2,38.09,9.14,28.66
 intfloat/multilingual-e5-large,560,250,514,True,False,6732,2.59,78.43,48.52,10.78,13.79
 meta-llama/Meta-Llama-3-8B (few-shot),8030,128,8192,True,False,1335,2.59,50.45,34.68,8.69,31.94
@@ -48,7 +48,7 @@ mistralai/Mistral-7B-v0.3 (few-shot),7248,33,32768,True,False,1364,3.07,46.73,26
 KennethEnevoldsen/dfm-sentence-encoder-medium,124,50,514,True,False,14998,3.1,64.88,36.18,-0.6,12.39
 microsoft/infoxlm-base,278,250,514,True,False,34735,3.1,77.09,33.14,1.71,8.56
 sentence-transformers/stsb-xlm-r-multilingual,278,250,514,True,False,15040,3.11,66.23,37.79,0.04,10.04
-Nexusflow/Starling-LM-7B-beta (few-shot),7242,32,4096,False,False,1629,3.12,42.23,27.93,6.38,19.39
+Nexusflow/Starling-LM-7B-beta (few-shot),7242,32,4096,False,False,4136,3.12,42.23,27.93,6.38,19.39
 AI-Sweden-Models/gpt-sw3-6.7b-v2-instruct (few-shot),7111,64,2048,True,False,1473,3.16,19.41,44.79,1.93,21.13
 LumiOpen/Viking-7B (few-shot),7550,131,4096,True,False,1431,3.16,33.21,25.5,-0.08,25.76
 NbAiLab/nb-roberta-base-scandinavian,125,50,514,True,False,14051,3.18,69.04,35.21,3.34,7.17
@@ -57,7 +57,7 @@ mideind/IceBERT-mC4-is,163,50,514,True,False,12308,3.2,79.19,24.55,20.95,0.0
 NbAiLab/nb-sbert-base,178,120,512,True,False,17757,3.21,69.89,36.03,2.2,6.45
 senseable/WestLake-7B-v2 (few-shot),7242,32,4096,False,False,5993,3.22,56.71,7.92,3.44,21.55
 sentence-transformers/paraphrase-xlm-r-multilingual-v1,278,250,514,True,False,20154,3.22,65.15,33.26,1.15,9.56
-CohereForAI/aya-expanse-8b (few-shot),8028,256,8192,False,False,1018,3.23,28.98,19.83,4.93,24.72
+CohereForAI/aya-expanse-8b (few-shot),8028,256,8192,False,False,2686,3.23,28.98,19.83,4.93,24.72
 KBLab/megatron-bert-large-swedish-cased-165k,370,64,512,True,False,7138,3.23,63.35,33.92,4.94,7.02
 AI-Nordics/bert-large-swedish-cased,335,31,512,True,False,7199,3.25,61.64,34.76,3.26,7.79
 KBLab/megatron-bert-base-swedish-cased-600k,135,64,512,True,False,15726,3.26,63.43,36.11,2.56,7.0
@@ -84,7 +84,7 @@ neuralmagic/Sparse-Llama-3.1-8B-2of4 (few-shot),8030,128,131072,True,False,2996,
 MaLA-LM/emma-500-llama2-7b (few-shot),6738,32,4096,True,False,6275,3.44,31.81,18.33,3.63,16.72
 flax-community/swe-roberta-wiki-oscar,125,50,514,True,False,15437,3.44,62.23,26.59,1.45,5.52
 patrickvonplaten/norwegian-roberta-base,125,50,514,True,False,15698,3.44,60.79,26.49,1.29,6.64
-CohereForAI/aya-23-8B (few-shot),8028,256,8192,False,False,1121,3.45,47.16,0.33,3.84,21.75
+CohereForAI/aya-23-8B (few-shot),8028,256,8192,False,False,2707,3.45,47.16,0.33,3.84,21.75
 DDSC/roberta-base-scandinavian,125,50,514,True,False,14491,3.45,51.53,34.36,0.89,5.19
 KB/bert-base-swedish-cased,125,50,512,True,False,16181,3.46,60.09,28.9,1.76,5.57
 KBLab/bert-base-swedish-cased,125,50,512,True,False,16164,3.47,55.25,29.1,2.19,5.14
@@ -112,7 +112,7 @@ deepset/gbert-base,111,31,512,True,False,37268,3.59,56.89,21.07,-0.13,6.69
 microsoft/Phi-3-mini-128k-instruct (few-shot),3821,32,131072,True,False,7312,3.6,27.22,17.8,1.31,17.24
 sentence-transformers/distiluse-base-multilingual-cased,135,120,512,True,False,19206,3.6,47.62,33.35,2.64,1.27
 sentence-transformers/distiluse-base-multilingual-cased-v1,135,120,512,True,False,34042,3.61,45.47,35.18,1.14,1.63
-ibm-granite/granite-3.0-8b-base (few-shot),8171,49,4096,True,False,973,3.62,37.82,-0.29,-0.12,21.59
+ibm-granite/granite-3.0-8b-base (few-shot),8171,49,4096,True,False,2515,3.62,37.82,-0.29,-0.12,21.59
 timpal0l/Mistral-7B-v0.1-flashback-v2 (few-shot),7242,32,4096,True,False,5054,3.64,36.47,1.84,2.54,18.66
 google/gemma-2-2b (few-shot),2614,256,4096,True,False,5235,3.68,10.67,12.86,-0.21,20.22
 norallm/normistral-7b-warm-instruct (few-shot),7248,33,4096,True,False,6194,3.68,36.59,11.75,0.86,14.58

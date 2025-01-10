@@ -33,7 +33,7 @@ google/gemma-7b (few-shot),8538,256,8192,True,False,1378,2.41,43.68,77.72,36.25,
 "merge-crew/da-sv-slerp (few-shot, val)",7242,32,32768,True,True,2467,2.42,46.57,76.53,33.43,59.87,66.76,28.89,30.36
 "merge-crew/da-sv-task-arithmetic (few-shot, val)",7242,32,32768,True,True,2500,2.42,47.28,76.62,33.23,60.0,66.68,29.95,31.12
 utter-project/EuroLLM-9B-Instruct (few-shot),9152,128,4096,False,False,1483,2.42,40.59,76.02,33.98,56.98,66.33,40.09,36.27
-CohereForAI/aya-expanse-8b (few-shot),8028,256,8192,False,False,1018,2.43,57.38,78.43,14.52,53.14,65.69,37.32,38.28
+CohereForAI/aya-expanse-8b (few-shot),8028,256,8192,False,False,2686,2.43,57.38,78.43,14.52,53.14,65.69,37.32,38.28
 bineric/NorskGPT-Llama3-8b (few-shot),8030,128,8192,False,False,3382,2.44,63.19,76.06,5.34,56.7,66.25,36.23,43.6
 "mlabonne/NeuralBeagle14-7B (few-shot, val)",7242,32,8192,False,True,2549,2.44,61.25,76.03,16.28,50.96,68.35,32.3,38.78
 "RJuro/munin-neuralbeagle-SkoleGPTOpenOrca-7b (few-shot, val)",7242,32,32768,False,True,3008,2.45,59.36,72.04,22.38,57.96,65.13,29.81,35.59
@@ -48,17 +48,17 @@ timpal0l/Mistral-7B-v0.1-flashback-v2 (few-shot),7242,32,32768,True,False,5054,2
 "merge-crew/da-sv-ties (few-shot, val)",7242,32,32768,True,True,2457,2.51,48.36,76.57,20.94,59.07,66.59,31.44,26.04
 mhenrichsen/danskgpt-chat-v2.1 (few-shot),-1,32,32768,True,False,5085,2.51,54.37,75.98,17.98,55.07,64.42,32.81,36.24
 mistralai/Ministral-8B-Instruct-2410 (few-shot),8020,131,32768,True,False,1302,2.51,54.76,73.32,16.17,57.94,65.95,30.08,39.51
-Nexusflow/Starling-LM-7B-beta (few-shot),7242,32,4096,False,False,1629,2.52,56.28,77.51,23.25,47.09,65.58,31.52,39.95
-meta-llama/Llama-3.1-8B (few-shot),8030,128,131072,True,False,2610,2.53,62.19,80.31,30.29,42.78,64.14,35.1,23.18
+Nexusflow/Starling-LM-7B-beta (few-shot),7242,32,4096,False,False,4136,2.52,56.28,77.51,23.25,47.09,65.58,31.52,39.95
+meta-llama/Llama-3.1-8B (few-shot),8030,128,131072,True,False,2986,2.53,62.19,80.31,30.29,42.78,64.14,35.1,23.18
 senseable/WestLake-7B-v2 (few-shot),7242,32,32768,False,False,5993,2.53,58.9,67.74,16.52,49.41,66.09,31.76,45.84
-bineric/NorskGPT-Mistral-7b (few-shot),7242,32,32768,False,False,1269,2.54,58.4,74.3,0.0,59.16,65.36,35.01,43.72
+bineric/NorskGPT-Mistral-7b (few-shot),7242,32,32768,False,False,1440,2.54,58.4,74.3,0.0,59.16,65.36,35.01,43.72
 timpal0l/Llama-3-8B-flashback-v1 (few-shot),8030,128,8192,True,False,3004,2.54,57.01,81.97,31.16,53.99,63.7,29.77,15.86
 meta-llama/Meta-Llama-3-8B (few-shot),8030,128,8192,True,False,1335,2.55,59.92,80.91,26.39,47.69,63.94,33.39,20.21
 Mabeck/Heidrun-Mistral-7B-chat (few-shot),7242,32,32768,False,False,1419,2.57,55.06,77.5,17.47,58.67,64.18,31.04,23.57
 timpal0l/njord-alpha (few-shot),7242,32,32768,True,False,5431,2.57,48.19,79.95,32.85,57.39,65.95,25.32,14.55
 "merge-crew/da-sv-dare-ties-density-0.6 (few-shot, val)",7242,32,32768,True,True,2515,2.58,45.12,78.74,19.74,60.15,66.41,31.24,22.3
 "mlabonne/AlphaMonarch-7B (few-shot, val)",7242,32,8192,False,True,5340,2.58,60.53,67.03,15.1,42.46,67.94,27.51,42.29
-ibm-granite/granite-3.0-8b-base (few-shot),8171,49,4096,True,False,973,2.59,44.8,75.92,24.84,56.71,63.65,26.71,30.43
+ibm-granite/granite-3.0-8b-base (few-shot),8171,49,4096,True,False,2515,2.59,44.8,75.92,24.84,56.71,63.65,26.71,30.43
 danish-foundation-models/munin-7b-v0.1dev0 (few-shot),7242,32,8192,True,False,6113,2.61,47.1,73.05,30.29,57.39,64.69,27.4,21.08
 meta-llama/Llama-2-13b-hf (few-shot),13016,32,4096,True,False,2898,2.62,54.52,78.45,21.55,59.71,64.59,25.51,14.97
 AI-Sweden-Models/Llama-3-8B (few-shot),8030,128,8192,True,False,4141,2.65,36.45,81.12,26.8,58.16,66.09,29.01,15.92
@@ -69,7 +69,7 @@ mistralai/Mistral-7B-v0.3 (few-shot),7248,33,32768,True,False,1364,2.65,49.18,79
 "KennethEnevoldsen/munin_mistral-7b (few-shot, val)",7242,32,32768,False,True,2543,2.66,52.34,77.66,6.0,60.16,65.54,31.83,20.55
 Mabeck/Heidrun-Mistral-7B-base (few-shot),7242,32,32768,True,False,3823,2.67,48.43,79.43,17.37,57.05,63.81,31.72,15.69
 ibm-granite/granite-3.0-8b-instruct (few-shot),8171,49,4096,True,False,1118,2.67,44.94,76.78,16.96,56.83,65.09,26.57,24.62
-CohereForAI/aya-23-8B (few-shot),8028,256,8192,False,False,1121,2.69,60.04,76.21,7.54,58.6,63.0,20.97,28.96
+CohereForAI/aya-23-8B (few-shot),8028,256,8192,False,False,2707,2.69,60.04,76.21,7.54,58.6,63.0,20.97,28.96
 meta-llama/Llama-2-13b-chat-hf (few-shot),13016,32,4096,True,False,2849,2.69,49.9,77.19,14.67,57.12,66.25,24.4,19.3
 ThatsGroes/munin-SkoleGPTOpenOrca-7b-16bit (few-shot),7242,32,32768,False,False,3006,2.71,44.64,77.98,16.57,57.31,63.23,28.15,23.58
 danish-foundation-models/munin-7b-alpha (few-shot),7242,32,32768,True,False,6116,2.74,42.23,78.8,15.47,56.75,62.78,30.86,19.11

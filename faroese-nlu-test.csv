@@ -21,14 +21,14 @@ vesteinn/ScandiBERT-no-faroese,124,50,512,True,False,15436,3.54,88.14,6.88,27.71
 mistralai/Ministral-8B-Instruct-2410 (few-shot),8020,131,32768,True,False,1302,3.58,65.55,29.49,2.05,47.72
 intfloat/multilingual-e5-large-instruct,560,250,514,True,False,5947,3.59,88.64,23.63,2.05,24.09
 mistralai/Mistral-7B-v0.1 (few-shot),7242,32,32768,True,False,1446,3.62,62.63,25.57,2.84,44.06
-meta-llama/Llama-3.1-8B (few-shot),8030,128,131072,True,False,2610,3.64,65.65,24.3,0.61,45.01
+meta-llama/Llama-3.1-8B (few-shot),8030,128,131072,True,False,2986,3.64,65.65,24.3,0.61,45.01
 utter-project/EuroLLM-9B-Instruct (few-shot),9152,128,4096,False,False,1483,3.64,54.79,35.84,0.0,41.94
-CohereForAI/aya-expanse-8b (few-shot),8028,256,8192,False,False,1018,3.65,64.72,28.57,5.12,38.83
+CohereForAI/aya-expanse-8b (few-shot),8028,256,8192,False,False,2686,3.65,64.72,28.57,5.12,38.83
 mistralai/Mistral-7B-v0.3 (few-shot),7248,33,32768,True,False,1364,3.66,61.32,26.73,1.3,44.98
 Mabeck/Heidrun-Mistral-7B-chat (few-shot),7242,32,32768,False,False,1419,3.67,63.4,26.9,2.16,40.73
 mideind/IceBERT-xlmr-ic3,277,250,512,True,False,11004,3.67,87.79,7.8,22.51,11.16
 intfloat/multilingual-e5-large,559,250,512,True,False,6732,3.69,88.39,18.28,2.85,31.03
-ibm-granite/granite-3.0-8b-base (few-shot),8171,49,4224,True,False,973,3.71,61.47,24.35,1.44,41.54
+ibm-granite/granite-3.0-8b-base (few-shot),8171,49,4224,True,False,2515,3.71,61.47,24.35,1.44,41.54
 ibm-granite/granite-3.0-8b-instruct (few-shot),8171,49,4096,True,False,1118,3.71,59.96,28.33,2.24,39.52
 NbAiLab/nb-sbert-base,177,120,512,True,False,17757,3.75,86.2,19.12,11.8,7.47
 meta-llama/Meta-Llama-3-8B (few-shot),8030,128,8192,True,False,1335,3.76,61.11,19.4,2.02,50.34
@@ -42,10 +42,10 @@ ibm-granite/granite-8b-code-base-4k (few-shot),8055,49,4096,True,False,2313,3.93
 mideind/IceBERT-large,406,50,512,True,False,5677,3.94,86.84,2.92,9.82,21.19
 intfloat/multilingual-e5-base,278,250,512,True,False,14965,3.95,87.44,10.97,7.38,14.8
 mideind/IceBERT,124,50,512,True,False,16697,3.95,86.5,8.64,10.13,5.35
-CohereForAI/aya-23-8B (few-shot),8028,256,8192,False,False,1121,3.97,62.22,17.34,0.01,38.7
+CohereForAI/aya-23-8B (few-shot),8028,256,8192,False,False,2707,3.97,62.22,17.34,0.01,38.7
 mideind/IceBERT-ic3,124,50,512,True,False,12119,3.97,87.22,15.94,6.23,2.98
 vesteinn/XLMR-ENIS,125,50,512,True,False,10711,3.97,87.09,15.11,3.09,5.75
-Nexusflow/Starling-LM-7B-beta (few-shot),7242,32,4096,False,False,1629,3.98,62.2,26.68,7.07,11.97
+Nexusflow/Starling-LM-7B-beta (few-shot),7242,32,4096,False,False,4136,3.98,62.2,26.68,7.07,11.97
 ZurichNLP/unsup-simcse-xlm-roberta-base,277,250,512,True,False,34520,3.98,84.14,21.2,1.33,14.2
 FacebookAI/xlm-roberta-large,559,250,512,True,False,17897,4.03,87.85,5.14,1.17,27.72
 ibm-granite/granite-8b-code-instruct-4k (few-shot),8055,49,4096,True,False,5617,4.05,60.46,21.59,0.51,33.54
