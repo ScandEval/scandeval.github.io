@@ -9,7 +9,7 @@ ThatsGroes/gemma-2-27b-it-FP8-Dynamic (few-shot),28411,256,4096,True,False,3633,
 "claude-3-5-sonnet-20241022 (zero-shot, val)",-1,-1,200000,True,False,193,2.69,61.7,51.24,52.43,22.92,66.02,15.97,5.31
 meta-llama/Meta-Llama-3-8B-Instruct (few-shot),8030,128,8192,True,False,1007,3.18,60.2,38.09,9.14,28.66,67.5,17.93,5.59
 meta-llama/Llama-3.1-8B-Instruct (few-shot),8030,128,131072,True,False,1005,3.23,46.48,39.91,11.72,25.91,67.67,25.83,6.4
-meta-llama/Llama-3.1-8B (few-shot),8030,128,131072,True,False,2610,3.28,52.97,41.29,5.95,31.99,65.19,21.56,4.44
+meta-llama/Llama-3.1-8B (few-shot),8030,128,131072,True,False,2986,3.28,52.97,41.29,5.95,31.99,65.19,21.56,4.44
 meta-llama/Meta-Llama-3-8B (few-shot),8030,128,8192,True,False,1335,3.31,50.45,34.68,8.69,31.94,65.22,19.93,4.52
 mistralai/Ministral-8B-Instruct-2410 (few-shot),8020,131,32768,True,False,1302,3.49,47.1,24.43,7.19,28.73,66.62,21.98,0.1
 mhenrichsen/hestenettetLM (few-shot),7242,32,4096,True,False,1151,3.7,50.99,24.17,1.15,27.31,56.73,8.81,3.23
@@ -17,8 +17,8 @@ mistralai/Mistral-7B-v0.1 (few-shot),7242,32,4096,True,False,1446,3.7,50.69,24.3
 senseable/WestLake-7B-v2 (few-shot),7242,32,32768,False,False,5993,3.76,56.71,7.92,3.44,21.55,65.39,9.11,3.3
 mistralai/Mistral-7B-v0.3 (few-shot),7248,33,32768,True,False,1364,3.81,46.73,26.28,1.5,25.17,55.71,7.21,2.09
 meta-llama/Llama-3.2-3B (few-shot),3213,128,131073,True,False,3713,3.83,42.04,14.53,0.0,24.07,61.8,13.79,0.25
-CohereForAI/aya-expanse-8b (few-shot),8028,256,8192,False,False,1018,3.84,28.98,19.83,4.93,24.72,63.45,10.97,4.23
-Nexusflow/Starling-LM-7B-beta (few-shot),7242,32,4096,False,False,1629,3.84,42.23,27.93,6.38,19.39,61.92,4.22,0.31
+CohereForAI/aya-expanse-8b (few-shot),8028,256,8192,False,False,2686,3.84,28.98,19.83,4.93,24.72,63.45,10.97,4.23
+Nexusflow/Starling-LM-7B-beta (few-shot),7242,32,4096,False,False,4136,3.84,42.23,27.93,6.38,19.39,61.92,4.22,0.31
 AI-Sweden-Models/gpt-sw3-6.7b-v2-instruct (few-shot),7111,64,2048,True,False,1473,3.91,19.41,44.79,1.93,21.13,61.9,4.05,-2.29
 occiglot/occiglot-7b-eu5-instruct (few-shot),7242,32,32768,False,False,2088,3.91,40.71,14.7,0.71,20.66,65.25,5.35,0.35
 "claude-3-5-haiku-20241022 (zero-shot, val)",-1,-1,200000,True,False,277,3.95,34.99,31.19,-10.68,23.65,66.12,9.0,0.0
@@ -32,11 +32,11 @@ ibm-granite/granite-8b-code-base-4k (few-shot),8055,49,4096,True,False,2313,4.02
 01-ai/Yi-1.5-6B (few-shot),6061,64,4097,True,False,2867,4.04,38.15,5.32,0.98,20.39,61.23,7.59,3.44
 timpal0l/Mistral-7B-v0.1-flashback-v2 (few-shot),7242,32,32768,True,False,5054,4.04,36.47,1.84,2.54,18.66,63.68,5.12,8.3
 meta-llama/Llama-3.2-3B-Instruct (few-shot),3213,128,131073,False,False,10424,4.06,27.57,10.07,-1.39,22.98,62.0,13.33,0.74
-ibm-granite/granite-3.0-8b-base (few-shot),8171,49,4096,True,False,973,4.07,37.82,-0.29,-0.12,21.59,62.35,6.54,1.83
+ibm-granite/granite-3.0-8b-base (few-shot),8171,49,4096,True,False,2515,4.07,37.82,-0.29,-0.12,21.59,62.35,6.54,1.83
 meta-llama/Llama-2-7b-chat-hf (few-shot),6738,32,4096,False,False,2643,4.07,41.1,13.59,-1.07,16.13,62.3,3.16,1.84
 mistralai/Mistral-7B-Instruct-v0.2 (few-shot),7242,32,32768,False,False,2370,4.07,34.8,17.64,5.46,12.66,61.79,2.88,-1.11
 google/gemma-2-2b-it (few-shot),2614,256,8193,True,False,5374,4.08,14.79,15.24,1.1,25.42,62.67,10.76,-5.2
-CohereForAI/aya-23-8B (few-shot),8028,256,8192,False,False,1121,4.11,47.16,0.33,3.84,21.75,59.16,3.7,-3.24
+CohereForAI/aya-23-8B (few-shot),8028,256,8192,False,False,2707,4.11,47.16,0.33,3.84,21.75,59.16,3.7,-3.24
 HPLT/gpt-7b-nordic-prerelease (few-shot),7550,131,4096,True,False,1382,4.13,29.67,26.31,-0.03,21.77,52.52,0.09,-0.74
 microsoft/Phi-3-mini-128k-instruct (few-shot),3821,32,131072,True,False,7312,4.13,27.22,17.8,1.31,17.24,62.0,1.85,1.06
 microsoft/Phi-3-mini-4k-instruct (few-shot),3821,32,4096,True,False,3194,4.14,33.05,14.42,0.71,17.23,60.08,2.67,2.74

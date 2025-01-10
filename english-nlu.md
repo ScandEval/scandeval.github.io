@@ -3,7 +3,7 @@ layout: leaderboard
 title: English NLU 🇬🇧
 ---
 
-<center>Last updated: 09/01/2025 09:21:36 CET</center>
+<center>Last updated: 10/01/2025 11:27:45 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -295,7 +295,7 @@ title: English NLU 🇬🇧
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">1,915 ± 502 / 301 ± 157</td> <!-- Model inference speed -->
+   <td class="speed">4,413 ± 1,265 / 551 ± 184</td> <!-- Model inference speed -->
    <td class="rank">1.65</td> <!-- ScandEval rank -->
    <td class="en ner">72.31 ± 0.95 / 58.34 ± 1.84</td> <!-- CoNLL-en -->
    <td class="en sent">69.64 ± 0.81 / 74.44 ± 0.54</td> <!-- SST5 -->
@@ -550,7 +550,7 @@ title: English NLU 🇬🇧
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">1,629 ± 573 / 262 ± 149</td> <!-- Model inference speed -->
+   <td class="speed">4,136 ± 1,282 / 668 ± 326</td> <!-- Model inference speed -->
    <td class="rank">1.82</td> <!-- ScandEval rank -->
    <td class="en ner">72.77 ± 1.02 / 57.29 ± 1.58</td> <!-- CoNLL-en -->
    <td class="en sent">70.12 ± 0.78 / 74.54 ± 0.50</td> <!-- SST5 -->
@@ -754,7 +754,7 @@ title: English NLU 🇬🇧
    <td class="vocabulary_size">128</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">131200</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">2,610 ± 751 / 176 ± 66</td> <!-- Model inference speed -->
+   <td class="speed">2,986 ± 823 / 276 ± 94</td> <!-- Model inference speed -->
    <td class="rank">1.90</td> <!-- ScandEval rank -->
    <td class="en ner">69.86 ± 2.10 / 62.68 ± 2.21</td> <!-- CoNLL-en -->
    <td class="en sent">66.76 ± 0.72 / 68.58 ± 0.72</td> <!-- SST5 -->
@@ -856,7 +856,7 @@ title: English NLU 🇬🇧
    <td class="vocabulary_size">256</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">1,018 ± 326 / 189 ± 73</td> <!-- Model inference speed -->
+   <td class="speed">2,686 ± 685 / 491 ± 164</td> <!-- Model inference speed -->
    <td class="rank">1.94</td> <!-- ScandEval rank -->
    <td class="en ner">67.33 ± 1.57 / 53.00 ± 0.88</td> <!-- CoNLL-en -->
    <td class="en sent">68.67 ± 0.74 / 66.23 ± 0.49</td> <!-- SST5 -->
@@ -1043,7 +1043,7 @@ title: English NLU 🇬🇧
    <td class="vocabulary_size">49</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">973 ± 251 / 174 ± 59</td> <!-- Model inference speed -->
+   <td class="speed">2,515 ± 625 / 476 ± 159</td> <!-- Model inference speed -->
    <td class="rank">2.03</td> <!-- ScandEval rank -->
    <td class="en ner">55.76 ± 2.15 / 52.69 ± 1.24</td> <!-- CoNLL-en -->
    <td class="en sent">66.89 ± 1.11 / 69.52 ± 0.94</td> <!-- SST5 -->
@@ -1128,7 +1128,7 @@ title: English NLU 🇬🇧
    <td class="vocabulary_size">256</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">1,121 ± 288 / 205 ± 68</td> <!-- Model inference speed -->
+   <td class="speed">2,707 ± 688 / 497 ± 166</td> <!-- Model inference speed -->
    <td class="rank">2.08</td> <!-- ScandEval rank -->
    <td class="en ner">56.16 ± 3.59 / 51.12 ± 2.58</td> <!-- CoNLL-en -->
    <td class="en sent">68.27 ± 0.53 / 60.37 ± 0.57</td> <!-- SST5 -->

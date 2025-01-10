@@ -66,7 +66,7 @@ google/gemma-2-9b (few-shot),9242,256,8193,True,False,2038,2.16,44.16,38.84,43.4
 "birgermoell/Rapid-Cycling (few-shot, val)",7242,32,32768,False,True,2346,2.17,49.99,51.25,20.66,56.82
 "merge-crew/da-sv-dare-ties-density-0.9 (few-shot, val)",7242,32,32768,True,True,2443,2.19,45.61,53.73,17.08,56.67
 meta-llama/Meta-Llama-3-8B-Instruct (few-shot),8030,128,8192,True,False,1007,2.2,57.74,48.43,27.12,46.76
-CohereForAI/aya-expanse-8b (few-shot),8028,256,8192,False,False,1018,2.21,51.32,52.0,18.48,52.43
+CohereForAI/aya-expanse-8b (few-shot),8028,256,8192,False,False,2686,2.21,51.32,52.0,18.48,52.43
 cardiffnlp/twitter-xlm-roberta-base,278,250,512,True,False,34475,2.21,70.1,45.3,51.74,22.01
 facebook/xlm-v-base,778,902,512,True,False,25396,2.22,71.42,31.86,52.95,34.66
 syvai/llama3-da-base (few-shot),8030,128,8192,True,False,3229,2.22,50.0,48.24,25.59,55.52
@@ -82,11 +82,11 @@ Maltehb/danish-bert-botxo,111,32,512,True,False,16091,2.27,66.71,43.79,45.96,26.
 Geotrend/bert-base-en-fr-de-no-da-cased,118,42,512,True,False,13973,2.28,63.38,34.78,41.08,40.32
 "birgermoell/Flashback-Bellman (few-shot, val)",7242,32,32768,False,True,2887,2.28,47.71,48.21,19.55,56.46
 sarnikowski/convbert-medium-small-da-cased,24,29,512,True,False,13821,2.28,64.28,36.85,63.55,24.52
-Nexusflow/Starling-LM-7B-beta (few-shot),7242,32,4096,False,False,1629,2.29,51.94,51.97,29.99,38.99
+Nexusflow/Starling-LM-7B-beta (few-shot),7242,32,4096,False,False,4136,2.29,51.94,51.97,29.99,38.99
 "merge-crew/da-sv-ties (few-shot, val)",7242,32,32768,True,True,2457,2.29,45.39,51.95,13.25,58.51
-meta-llama/Llama-3.1-8B (few-shot),8030,128,131072,True,False,2610,2.29,50.92,47.86,29.19,48.38
+meta-llama/Llama-3.1-8B (few-shot),8030,128,131072,True,False,2986,2.29,50.92,47.86,29.19,48.38
 "RJuro/munin-neuralbeagle-SkoleGPTOpenOrca-7b (few-shot, val)",7242,32,32768,False,True,3008,2.3,50.83,43.41,19.72,57.87
-ibm-granite/granite-3.0-8b-base (few-shot),8171,49,4097,True,False,973,2.3,44.58,47.16,19.2,58.41
+ibm-granite/granite-3.0-8b-base (few-shot),8171,49,4097,True,False,2515,2.3,44.58,47.16,19.2,58.41
 jannikskytt/MeDa-Bert,111,32,511,True,False,16114,2.3,64.64,44.62,47.47,23.14
 mistralai/Ministral-8B-Instruct-2410 (few-shot),8020,131,32768,True,False,1302,2.3,55.49,49.18,7.4,57.72
 senseable/WestLake-7B-v2 (few-shot),7242,32,32768,False,False,5993,2.3,52.61,49.81,19.64,48.03
@@ -102,7 +102,7 @@ AI-Sweden-Models/Llama-3-8B (few-shot),8030,128,8192,True,False,4141,2.36,36.72,
 Geotrend/bert-base-en-no-cased,111,33,512,True,False,14081,2.38,62.66,33.91,40.96,39.93
 timpal0l/Mistral-7B-v0.1-flashback-v2 (few-shot),7242,32,32768,True,False,5054,2.38,42.43,47.82,16.51,56.95
 timpal0l/njord-alpha (few-shot),7242,32,32768,True,False,5431,2.38,38.25,39.37,29.76,57.02
-CohereForAI/aya-23-8B (few-shot),8028,256,8192,False,False,1121,2.39,47.08,47.16,8.41,58.83
+CohereForAI/aya-23-8B (few-shot),8028,256,8192,False,False,2707,2.39,47.08,47.16,8.41,58.83
 alpindale/Mistral-7B-v0.2-hf (few-shot),7242,32,32768,True,False,1841,2.39,43.65,45.86,15.19,59.14
 mistralai/Mistral-7B-Instruct-v0.2 (few-shot),7242,32,32768,False,False,2370,2.39,44.89,48.09,19.06,51.56
 mistralai/Mistral-7B-v0.3 (few-shot),7248,33,32768,True,False,1364,2.39,43.6,45.92,15.43,59.13
@@ -148,7 +148,7 @@ mistralai/Mistral-7B-Instruct-v0.1 (few-shot),7242,32,32768,False,False,634,2.61
 KBLab/megatron-bert-base-swedish-cased-600k,135,64,512,True,False,15726,2.62,57.97,39.4,23.5,31.87
 Mabeck/Heidrun-Mistral-7B-chat (few-shot),7242,32,4096,False,False,1419,2.62,51.93,49.86,20.25,25.84
 bineric/NorskGPT-Llama-13B-v0.1 (few-shot),-1,32,4096,False,False,2856,2.62,44.17,44.28,3.11,55.59
-bineric/NorskGPT-Mistral-7b (few-shot),7242,32,32768,False,False,1269,2.62,50.76,40.41,0.0,57.26
+bineric/NorskGPT-Mistral-7b (few-shot),7242,32,32768,False,False,1440,2.62,50.76,40.41,0.0,57.26
 meta-llama/Llama-2-7b-chat-hf (few-shot),6738,32,4096,False,False,2643,2.63,35.44,44.88,9.74,55.04
 sentence-transformers/stsb-xlm-r-multilingual,278,250,512,True,False,15040,2.63,58.52,42.26,34.8,19.6
 LumiOpen/Viking-33B@1000B (few-shot),33119,131,4099,True,False,2080,2.64,34.22,45.05,9.4,54.92

@@ -78,7 +78,7 @@ timpal0l/Mistral-7B-v0.1-flashback-v2 (few-shot),7242,32,32768,True,False,5054,2
 Geotrend/bert-base-25lang-cased,151,85,512,True,False,13908,2.03,75.62,62.5,38.18,40.96
 "birgermoell/Flashback-Bellman (few-shot, val)",7242,32,32768,False,True,2887,2.03,55.29,78.29,18.45,58.42
 meta-llama/Llama-3.1-8B-Instruct (few-shot),8030,128,131072,True,False,1005,2.04,55.8,79.23,32.67,46.88
-meta-llama/Llama-3.1-8B (few-shot),8030,128,131072,True,False,2610,2.05,62.19,80.31,30.29,42.78
+meta-llama/Llama-3.1-8B (few-shot),8030,128,131072,True,False,2986,2.05,62.19,80.31,30.29,42.78
 "RJuro/munin-neuralbeagle-SkoleGPTOpenOrca-7b (few-shot, val)",7242,32,32768,False,True,3008,2.06,59.36,72.04,22.38,57.96
 meta-llama/Meta-Llama-3-8B (few-shot),8030,128,8192,True,False,1335,2.06,59.92,80.91,26.39,47.69
 "birgermoell/Rapid-Cycling (few-shot, val)",7242,32,32768,False,True,2346,2.07,53.66,77.72,16.22,59.75
@@ -96,20 +96,20 @@ Mabeck/Heidrun-Mistral-7B-base (few-shot),7242,32,32768,True,False,3823,2.12,48.
 Twitter/twhin-bert-base,279,250,512,True,False,11514,2.13,70.17,66.62,46.72,31.38
 "merge-crew/da-sv-dare-ties-density-0.6 (few-shot, val)",7242,32,32768,True,True,2515,2.13,45.12,78.74,19.74,60.15
 "timpal0l/BeagleCatMunin2 (few-shot, val)",7242,32,32768,False,True,2477,2.13,60.87,73.72,6.78,58.75
-CohereForAI/aya-expanse-8b (few-shot),8028,256,8192,False,False,1018,2.14,57.38,78.43,14.52,53.14
+CohereForAI/aya-expanse-8b (few-shot),8028,256,8192,False,False,2686,2.14,57.38,78.43,14.52,53.14
 Geotrend/bert-base-en-fr-de-no-da-cased,118,42,512,True,False,13973,2.14,76.55,61.6,37.44,39.32
 Geotrend/bert-base-en-no-cased,111,33,512,True,False,14081,2.14,75.33,61.8,36.62,39.95
 flax-community/nordic-roberta-wiki,125,50,512,True,False,16227,2.14,72.9,61.11,55.05,29.04
 utter-project/EuroLLM-9B-Instruct (few-shot),9152,128,4096,False,False,1483,2.14,40.59,76.02,33.98,56.98
 AI-Sweden-Models/Llama-3-8B (few-shot),8030,128,8192,True,False,4141,2.15,36.45,81.12,26.8,58.16
-CohereForAI/aya-23-8B (few-shot),8028,256,8192,False,False,1121,2.15,60.04,76.21,7.54,58.6
+CohereForAI/aya-23-8B (few-shot),8028,256,8192,False,False,2707,2.15,60.04,76.21,7.54,58.6
 "birgermoell/Munin-NeuralBeagle-NorskGPT (few-shot, val)",7242,32,32768,False,True,2903,2.15,63.85,73.72,-0.56,60.1
 "birgermoell/WestLake-Munin-Cat-NorskGPT (few-shot, val)",7242,32,32768,False,True,2856,2.15,63.85,73.72,-0.56,60.1
 mhenrichsen/danskgpt-chat-v2.1 (few-shot),-1,32,32768,True,False,5085,2.15,54.37,75.98,17.98,55.07
 "mlabonne/NeuralBeagle14-7B (few-shot, val)",7242,32,8192,False,True,2549,2.15,61.25,76.03,16.28,50.96
-ibm-granite/granite-3.0-8b-base (few-shot),8171,49,4097,True,False,973,2.16,44.8,75.92,24.84,56.71
+ibm-granite/granite-3.0-8b-base (few-shot),8171,49,4097,True,False,2515,2.16,44.8,75.92,24.84,56.71
 meta-llama/Meta-Llama-3-8B-Instruct (few-shot),8030,128,8192,True,False,1007,2.16,69.67,59.93,27.63,49.84
-Nexusflow/Starling-LM-7B-beta (few-shot),7242,32,4096,False,False,1629,2.18,56.28,77.51,23.25,47.09
+Nexusflow/Starling-LM-7B-beta (few-shot),7242,32,4096,False,False,4136,2.18,56.28,77.51,23.25,47.09
 bineric/NorskGPT-Llama3-8b (few-shot),8030,128,8192,False,False,3382,2.18,63.19,76.06,5.34,56.7
 jonfd/electra-small-nordic,22,96,128,True,False,5989,2.18,71.07,66.42,69.19,11.85
 meta-llama/Llama-2-13b-chat-hf (few-shot),13016,32,4096,True,False,2849,2.18,49.9,77.19,14.67,57.12
@@ -124,7 +124,7 @@ jhu-clsp/bernice,278,250,128,True,False,5567,2.2,71.34,70.91,53.52,16.41
 "KennethEnevoldsen/munin_mistral-7b (few-shot, val)",7242,32,32768,False,True,2543,2.21,52.34,77.66,6.0,60.16
 ThatsGroes/munin-SkoleGPTOpenOrca-7b-16bit (few-shot),7242,32,32768,False,False,3006,2.22,44.64,77.98,16.57,57.31
 ibm-granite/granite-3.0-8b-instruct (few-shot),8171,49,4096,True,False,1118,2.22,44.94,76.78,16.96,56.83
-bineric/NorskGPT-Mistral-7b (few-shot),7242,32,32768,False,False,1269,2.25,58.4,74.3,0.0,59.16
+bineric/NorskGPT-Mistral-7b (few-shot),7242,32,32768,False,False,1440,2.25,58.4,74.3,0.0,59.16
 danish-foundation-models/munin-7b-alpha (few-shot),7242,32,32768,True,False,6116,2.25,42.23,78.8,15.47,56.75
 meta-llama/Llama-3.2-3B (few-shot),3213,128,131073,True,False,3713,2.25,51.06,77.76,5.88,57.43
 timpal0l/Mistral-7B-v0.1-flashback-v2-instruct (few-shot),7242,32,32768,False,False,5172,2.25,46.74,77.06,14.0,56.74
