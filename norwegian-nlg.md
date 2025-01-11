@@ -3,7 +3,7 @@ layout: leaderboard
 title: Norwegian NLG 🇳🇴
 ---
 
-<center>Last updated: 10/01/2025 12:30:15 CET</center>
+<center>Last updated: 11/01/2025 11:03:25 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -105,7 +105,7 @@ title: Norwegian NLG 🇳🇴
    <td class="max_sequence_length">128000</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">576 ± 221 / 81 ± 28</td> <!-- Model inference speed -->
-   <td class="rank">1.39</td> <!-- ScandEval rank -->
+   <td class="rank">1.40</td> <!-- ScandEval rank -->
    <td class="no ner">77.48 ± 2.32 / 55.87 ± 2.83</td> <!-- NorNE-nb -->
    <td class="no ner">78.70 ± 2.78 / 57.58 ± 4.23</td> <!-- NorNE-nn -->
    <td class="no sent">62.55 ± 2.82 / 72.41 ± 2.42</td> <!-- NoReC -->
@@ -186,7 +186,7 @@ title: Norwegian NLG 🇳🇴
    <td class="max_sequence_length">8193</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">1,516 ± 257 / 480 ± 148</td> <!-- Model inference speed -->
-   <td class="rank">1.62</td> <!-- ScandEval rank -->
+   <td class="rank">1.63</td> <!-- ScandEval rank -->
    <td class="no ner">67.35 ± 2.33 / 56.75 ± 3.04</td> <!-- NorNE-nb -->
    <td class="no ner">66.61 ± 1.81 / 57.24 ± 4.35</td> <!-- NorNE-nn -->
    <td class="no sent">67.14 ± 1.22 / 78.63 ± 0.96</td> <!-- NoReC -->
@@ -205,6 +205,33 @@ title: Norwegian NLG 🇳🇴
    <td>13.0.0</td> <!-- NorQuAD version -->
    <td>13.0.0</td> <!-- MMLU-no version -->
    <td>13.0.0</td> <!-- HellaSwag-no version -->
+   </tr>
+  <tr class="not-merged-model">
+   <td>meta-llama/Llama-3.1-70B-Instruct (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">70554</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">128</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">131072</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">1,409 ± 457 / 186 ± 63</td> <!-- Model inference speed -->
+   <td class="rank">1.77</td> <!-- ScandEval rank -->
+   <td class="no ner">80.05 ± 0.87 / 67.79 ± 1.90</td> <!-- NorNE-nb -->
+   <td class="no ner">80.67 ± 0.92 / 69.11 ± 3.29</td> <!-- NorNE-nn -->
+   <td class="no sent">40.65 ± 0.45 / 40.56 ± 0.29</td> <!-- NoReC -->
+   <td class="no summ">66.56 ± 0.47 / 19.70 ± 1.10</td> <!-- No Sammendrag -->
+   <td class="no la">56.42 ± 1.70 / 76.10 ± 1.29</td> <!-- ScaLA-nb -->
+   <td class="no la">38.21 ± 3.25 / 64.61 ± 2.89</td> <!-- ScaLA-nn -->
+   <td class="no rc">49.22 ± 2.20 / 74.92 ± 1.35</td> <!-- NorQuAD -->
+   <td class="no know">65.19 ± 0.76 / 73.71 ± 0.58</td> <!-- MMLU-no -->
+   <td class="no reason">69.47 ± 1.66 / 76.67 ± 1.30</td> <!-- HellaSwag-no -->
+   <td>14.0.3</td> <!-- NorNE-nb version -->
+   <td>14.0.3</td> <!-- NorNE-nn version -->
+   <td>14.0.3</td> <!-- NoReC version -->
+   <td>14.0.3</td> <!-- No Sammendrag version -->
+   <td>14.0.3</td> <!-- ScaLA-nb version -->
+   <td>14.0.3</td> <!-- ScaLA-nn version -->
+   <td>14.0.3</td> <!-- NorQuAD version -->
+   <td>14.0.3</td> <!-- MMLU-no version -->
+   <td>14.0.3</td> <!-- HellaSwag-no version -->
    </tr>
   <tr class="not-merged-model">
    <td>gpt-4o-2024-05-13 (zero-shot, val)</td> <!-- Model ID -->
@@ -234,22 +261,22 @@ title: Norwegian NLG 🇳🇴
    <td>14.0.3</td> <!-- HellaSwag-no version -->
    </tr>
   <tr class="not-merged-model">
-   <td>meta-llama/Llama-3.1-70B-Instruct (few-shot)</td> <!-- Model ID -->
+   <td>meta-llama/Llama-3.3-70B-Instruct (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">70554</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">128</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">131072</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">1,409 ± 457 / 186 ± 63</td> <!-- Model inference speed -->
+   <td class="speed">1,353 ± 443 / 180 ± 61</td> <!-- Model inference speed -->
    <td class="rank">1.78</td> <!-- ScandEval rank -->
-   <td class="no ner">80.05 ± 0.87 / 67.79 ± 1.90</td> <!-- NorNE-nb -->
-   <td class="no ner">80.67 ± 0.92 / 69.11 ± 3.29</td> <!-- NorNE-nn -->
-   <td class="no sent">40.65 ± 0.45 / 40.56 ± 0.29</td> <!-- NoReC -->
-   <td class="no summ">66.56 ± 0.47 / 19.70 ± 1.10</td> <!-- No Sammendrag -->
-   <td class="no la">56.42 ± 1.70 / 76.10 ± 1.29</td> <!-- ScaLA-nb -->
-   <td class="no la">38.21 ± 3.25 / 64.61 ± 2.89</td> <!-- ScaLA-nn -->
-   <td class="no rc">49.22 ± 2.20 / 74.92 ± 1.35</td> <!-- NorQuAD -->
-   <td class="no know">65.19 ± 0.76 / 73.71 ± 0.58</td> <!-- MMLU-no -->
-   <td class="no reason">69.47 ± 1.66 / 76.67 ± 1.30</td> <!-- HellaSwag-no -->
+   <td class="no ner">79.84 ± 1.02 / 67.96 ± 2.10</td> <!-- NorNE-nb -->
+   <td class="no ner">79.93 ± 0.81 / 68.93 ± 2.65</td> <!-- NorNE-nn -->
+   <td class="no sent">41.11 ± 0.41 / 40.48 ± 0.38</td> <!-- NoReC -->
+   <td class="no summ">65.38 ± 0.46 / 16.49 ± 1.02</td> <!-- No Sammendrag -->
+   <td class="no la">57.84 ± 1.77 / 77.97 ± 1.19</td> <!-- ScaLA-nb -->
+   <td class="no la">43.52 ± 2.51 / 69.59 ± 2.20</td> <!-- ScaLA-nn -->
+   <td class="no rc">40.92 ± 1.45 / 69.52 ± 1.07</td> <!-- NorQuAD -->
+   <td class="no know">66.69 ± 0.64 / 74.99 ± 0.47</td> <!-- MMLU-no -->
+   <td class="no reason">75.66 ± 1.08 / 81.60 ± 0.80</td> <!-- HellaSwag-no -->
    <td>14.0.3</td> <!-- NorNE-nb version -->
    <td>14.0.3</td> <!-- NorNE-nn version -->
    <td>14.0.3</td> <!-- NoReC version -->
@@ -286,33 +313,6 @@ title: Norwegian NLG 🇳🇴
    <td>12.9.1</td> <!-- NorQuAD version -->
    <td>12.9.1</td> <!-- MMLU-no version -->
    <td>12.9.1</td> <!-- HellaSwag-no version -->
-   </tr>
-  <tr class="not-merged-model">
-   <td>meta-llama/Llama-3.3-70B-Instruct (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">70554</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">128</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">131072</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">1,353 ± 443 / 180 ± 61</td> <!-- Model inference speed -->
-   <td class="rank">1.79</td> <!-- ScandEval rank -->
-   <td class="no ner">79.84 ± 1.02 / 67.96 ± 2.10</td> <!-- NorNE-nb -->
-   <td class="no ner">79.93 ± 0.81 / 68.93 ± 2.65</td> <!-- NorNE-nn -->
-   <td class="no sent">41.11 ± 0.41 / 40.48 ± 0.38</td> <!-- NoReC -->
-   <td class="no summ">65.38 ± 0.46 / 16.49 ± 1.02</td> <!-- No Sammendrag -->
-   <td class="no la">57.84 ± 1.77 / 77.97 ± 1.19</td> <!-- ScaLA-nb -->
-   <td class="no la">43.52 ± 2.51 / 69.59 ± 2.20</td> <!-- ScaLA-nn -->
-   <td class="no rc">40.92 ± 1.45 / 69.52 ± 1.07</td> <!-- NorQuAD -->
-   <td class="no know">66.69 ± 0.64 / 74.99 ± 0.47</td> <!-- MMLU-no -->
-   <td class="no reason">75.66 ± 1.08 / 81.60 ± 0.80</td> <!-- HellaSwag-no -->
-   <td>14.0.3</td> <!-- NorNE-nb version -->
-   <td>14.0.3</td> <!-- NorNE-nn version -->
-   <td>14.0.3</td> <!-- NoReC version -->
-   <td>14.0.3</td> <!-- No Sammendrag version -->
-   <td>14.0.3</td> <!-- ScaLA-nb version -->
-   <td>14.0.3</td> <!-- ScaLA-nn version -->
-   <td>14.0.3</td> <!-- NorQuAD version -->
-   <td>14.0.3</td> <!-- MMLU-no version -->
-   <td>14.0.3</td> <!-- HellaSwag-no version -->
    </tr>
   <tr class="not-merged-model">
    <td>meta-llama/Meta-Llama-3-70B-Instruct (few-shot, val)</td> <!-- Model ID -->
@@ -423,6 +423,33 @@ title: Norwegian NLG 🇳🇴
    <td>13.0.0</td> <!-- HellaSwag-no version -->
    </tr>
   <tr class="not-merged-model">
+   <td>gpt-4o-mini-2024-07-18 (few-shot, val)</td> <!-- Model ID -->
+   <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">200</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">8191</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">784 ± 310 / 95 ± 28</td> <!-- Model inference speed -->
+   <td class="rank">1.92</td> <!-- ScandEval rank -->
+   <td class="no ner">72.74 ± 1.75 / 57.58 ± 4.14</td> <!-- NorNE-nb -->
+   <td class="no ner">69.17 ± 2.61 / 56.34 ± 3.95</td> <!-- NorNE-nn -->
+   <td class="no sent">67.45 ± 4.03 / 77.50 ± 2.90</td> <!-- NoReC -->
+   <td class="no summ">63.00 ± 0.19 / 11.59 ± 0.22</td> <!-- No Sammendrag -->
+   <td class="no la">74.27 ± 2.57 / 86.86 ± 1.43</td> <!-- ScaLA-nb -->
+   <td class="no la">54.83 ± 3.96 / 76.91 ± 1.98</td> <!-- ScaLA-nn -->
+   <td class="no rc">3.67 ± 1.64 / 43.45 ± 1.90</td> <!-- NorQuAD -->
+   <td class="no know">59.93 ± 2.64 / 69.69 ± 1.97</td> <!-- MMLU-no -->
+   <td class="no reason">76.01 ± 1.56 / 81.33 ± 1.30</td> <!-- HellaSwag-no -->
+   <td>14.0.0</td> <!-- NorNE-nb version -->
+   <td>14.0.0</td> <!-- NorNE-nn version -->
+   <td>14.0.0</td> <!-- NoReC version -->
+   <td>14.0.1</td> <!-- No Sammendrag version -->
+   <td>14.0.0</td> <!-- ScaLA-nb version -->
+   <td>14.0.0</td> <!-- ScaLA-nn version -->
+   <td>14.0.0</td> <!-- NorQuAD version -->
+   <td>14.0.1</td> <!-- MMLU-no version -->
+   <td>14.0.1</td> <!-- HellaSwag-no version -->
+   </tr>
+  <tr class="not-merged-model">
    <td>ThatsGroes/gemma-2-27b-it-FP8-Dynamic (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">28411</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">256</td> <!-- Size of the model's vocabulary -->
@@ -448,33 +475,6 @@ title: Norwegian NLG 🇳🇴
    <td>14.0.4</td> <!-- NorQuAD version -->
    <td>14.0.4</td> <!-- MMLU-no version -->
    <td>14.0.4</td> <!-- HellaSwag-no version -->
-   </tr>
-  <tr class="not-merged-model">
-   <td>gpt-4o-mini-2024-07-18 (few-shot, val)</td> <!-- Model ID -->
-   <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">200</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">8191</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">784 ± 310 / 95 ± 28</td> <!-- Model inference speed -->
-   <td class="rank">1.93</td> <!-- ScandEval rank -->
-   <td class="no ner">72.74 ± 1.75 / 57.58 ± 4.14</td> <!-- NorNE-nb -->
-   <td class="no ner">69.17 ± 2.61 / 56.34 ± 3.95</td> <!-- NorNE-nn -->
-   <td class="no sent">67.45 ± 4.03 / 77.50 ± 2.90</td> <!-- NoReC -->
-   <td class="no summ">63.00 ± 0.19 / 11.59 ± 0.22</td> <!-- No Sammendrag -->
-   <td class="no la">74.27 ± 2.57 / 86.86 ± 1.43</td> <!-- ScaLA-nb -->
-   <td class="no la">54.83 ± 3.96 / 76.91 ± 1.98</td> <!-- ScaLA-nn -->
-   <td class="no rc">3.67 ± 1.64 / 43.45 ± 1.90</td> <!-- NorQuAD -->
-   <td class="no know">59.93 ± 2.64 / 69.69 ± 1.97</td> <!-- MMLU-no -->
-   <td class="no reason">76.01 ± 1.56 / 81.33 ± 1.30</td> <!-- HellaSwag-no -->
-   <td>14.0.0</td> <!-- NorNE-nb version -->
-   <td>14.0.0</td> <!-- NorNE-nn version -->
-   <td>14.0.0</td> <!-- NoReC version -->
-   <td>14.0.1</td> <!-- No Sammendrag version -->
-   <td>14.0.0</td> <!-- ScaLA-nb version -->
-   <td>14.0.0</td> <!-- ScaLA-nn version -->
-   <td>14.0.0</td> <!-- NorQuAD version -->
-   <td>14.0.1</td> <!-- MMLU-no version -->
-   <td>14.0.1</td> <!-- HellaSwag-no version -->
    </tr>
   <tr class="not-merged-model">
    <td>gpt-3.5-turbo-0613 (few-shot, val)</td> <!-- Model ID -->
@@ -645,7 +645,7 @@ title: Norwegian NLG 🇳🇴
    <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">3,701 ± 876 / 771 ± 247</td> <!-- Model inference speed -->
-   <td class="rank">2.15</td> <!-- ScandEval rank -->
+   <td class="rank">2.14</td> <!-- ScandEval rank -->
    <td class="no ner">65.14 ± 1.62 / 52.85 ± 3.03</td> <!-- NorNE-nb -->
    <td class="no ner">65.88 ± 1.53 / 52.89 ± 2.29</td> <!-- NorNE-nn -->
    <td class="no sent">57.06 ± 1.54 / 71.09 ± 1.17</td> <!-- NoReC -->
@@ -664,33 +664,6 @@ title: Norwegian NLG 🇳🇴
    <td>12.7.0</td> <!-- NorQuAD version -->
    <td>12.7.0</td> <!-- MMLU-no version -->
    <td>12.7.0</td> <!-- HellaSwag-no version -->
-   </tr>
-  <tr class="not-merged-model">
-   <td>mistralai/Mistral-Nemo-Instruct-2407 (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">12248</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">131</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">1024001</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">7,095 ± 2,193 / 1,063 ± 344</td> <!-- Model inference speed -->
-   <td class="rank">2.20</td> <!-- ScandEval rank -->
-   <td class="no ner">70.14 ± 1.60 / 51.03 ± 3.02</td> <!-- NorNE-nb -->
-   <td class="no ner">68.74 ± 1.21 / 51.48 ± 2.96</td> <!-- NorNE-nn -->
-   <td class="no sent">60.64 ± 2.52 / 73.91 ± 1.86</td> <!-- NoReC -->
-   <td class="no summ">64.61 ± 0.40 / 16.10 ± 0.86</td> <!-- No Sammendrag -->
-   <td class="no la">35.59 ± 2.29 / 61.96 ± 3.72</td> <!-- ScaLA-nb -->
-   <td class="no la">29.22 ± 2.86 / 60.98 ± 4.02</td> <!-- ScaLA-nn -->
-   <td class="no rc">49.87 ± 4.84 / 76.01 ± 3.10</td> <!-- NorQuAD -->
-   <td class="no know">39.07 ± 0.84 / 53.89 ± 0.69</td> <!-- MMLU-no -->
-   <td class="no reason">37.95 ± 3.53 / 51.35 ± 3.17</td> <!-- HellaSwag-no -->
-   <td>13.0.0</td> <!-- NorNE-nb version -->
-   <td>13.0.0</td> <!-- NorNE-nn version -->
-   <td>13.0.0</td> <!-- NoReC version -->
-   <td>13.0.0</td> <!-- No Sammendrag version -->
-   <td>13.0.0</td> <!-- ScaLA-nb version -->
-   <td>13.0.0</td> <!-- ScaLA-nn version -->
-   <td>13.0.0</td> <!-- NorQuAD version -->
-   <td>13.0.0</td> <!-- MMLU-no version -->
-   <td>13.0.0</td> <!-- HellaSwag-no version -->
    </tr>
   <tr class="not-merged-model">
    <td>gpt-4o-mini-2024-07-18 (zero-shot, val)</td> <!-- Model ID -->
@@ -718,6 +691,33 @@ title: Norwegian NLG 🇳🇴
    <td>14.0.1</td> <!-- NorQuAD version -->
    <td>14.0.3</td> <!-- MMLU-no version -->
    <td>14.0.3</td> <!-- HellaSwag-no version -->
+   </tr>
+  <tr class="not-merged-model">
+   <td>mistralai/Mistral-Nemo-Instruct-2407 (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">12248</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">131</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">1024001</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">7,095 ± 2,193 / 1,063 ± 344</td> <!-- Model inference speed -->
+   <td class="rank">2.22</td> <!-- ScandEval rank -->
+   <td class="no ner">70.14 ± 1.60 / 51.03 ± 3.02</td> <!-- NorNE-nb -->
+   <td class="no ner">68.74 ± 1.21 / 51.48 ± 2.96</td> <!-- NorNE-nn -->
+   <td class="no sent">60.64 ± 2.52 / 73.91 ± 1.86</td> <!-- NoReC -->
+   <td class="no summ">64.61 ± 0.40 / 16.10 ± 0.86</td> <!-- No Sammendrag -->
+   <td class="no la">35.59 ± 2.29 / 61.96 ± 3.72</td> <!-- ScaLA-nb -->
+   <td class="no la">29.22 ± 2.86 / 60.98 ± 4.02</td> <!-- ScaLA-nn -->
+   <td class="no rc">49.87 ± 4.84 / 76.01 ± 3.10</td> <!-- NorQuAD -->
+   <td class="no know">39.07 ± 0.84 / 53.89 ± 0.69</td> <!-- MMLU-no -->
+   <td class="no reason">37.95 ± 3.53 / 51.35 ± 3.17</td> <!-- HellaSwag-no -->
+   <td>13.0.0</td> <!-- NorNE-nb version -->
+   <td>13.0.0</td> <!-- NorNE-nn version -->
+   <td>13.0.0</td> <!-- NoReC version -->
+   <td>13.0.0</td> <!-- No Sammendrag version -->
+   <td>13.0.0</td> <!-- ScaLA-nb version -->
+   <td>13.0.0</td> <!-- ScaLA-nn version -->
+   <td>13.0.0</td> <!-- NorQuAD version -->
+   <td>13.0.0</td> <!-- MMLU-no version -->
+   <td>13.0.0</td> <!-- HellaSwag-no version -->
    </tr>
   <tr class="not-merged-model">
    <td>mgoin/Nemotron-4-340B-Instruct-hf-FP8 (few-shot)</td> <!-- Model ID -->
@@ -834,7 +834,7 @@ title: Norwegian NLG 🇳🇴
    <td class="max_sequence_length">200000</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">193 ± 87 / 55 ± 19</td> <!-- Model inference speed -->
-   <td class="rank">2.39</td> <!-- ScandEval rank -->
+   <td class="rank">2.38</td> <!-- ScandEval rank -->
    <td class="no ner">74.23 ± 1.86 / 70.66 ± 2.97</td> <!-- NorNE-nb -->
    <td class="no ner">70.50 ± 2.19 / 65.71 ± 2.34</td> <!-- NorNE-nn -->
    <td class="no sent">50.92 ± 2.29 / 63.00 ± 1.71</td> <!-- NoReC -->
@@ -861,7 +861,7 @@ title: Norwegian NLG 🇳🇴
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,903 ± 407 / 1,157 ± 350</td> <!-- Model inference speed -->
-   <td class="rank">2.44</td> <!-- ScandEval rank -->
+   <td class="rank">2.45</td> <!-- ScandEval rank -->
    <td class="no ner">63.33 ± 2.69 / 53.24 ± 3.41</td> <!-- NorNE-nb -->
    <td class="no ner">68.84 ± 1.87 / 53.85 ± 3.78</td> <!-- NorNE-nn -->
    <td class="no sent">58.28 ± 3.11 / 69.79 ± 2.39</td> <!-- NoReC -->
@@ -888,7 +888,7 @@ title: Norwegian NLG 🇳🇴
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,856 ± 391 / 1,142 ± 342</td> <!-- Model inference speed -->
-   <td class="rank">2.44</td> <!-- ScandEval rank -->
+   <td class="rank">2.45</td> <!-- ScandEval rank -->
    <td class="no ner">63.33 ± 2.69 / 53.24 ± 3.41</td> <!-- NorNE-nb -->
    <td class="no ner">68.84 ± 1.87 / 53.85 ± 3.78</td> <!-- NorNE-nn -->
    <td class="no sent">58.28 ± 3.11 / 69.79 ± 2.39</td> <!-- NoReC -->
@@ -915,7 +915,7 @@ title: Norwegian NLG 🇳🇴
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">9,015 ± 2,966 / 1,121 ± 510</td> <!-- Model inference speed -->
-   <td class="rank">2.45</td> <!-- ScandEval rank -->
+   <td class="rank">2.46</td> <!-- ScandEval rank -->
    <td class="no ner">58.05 ± 2.37 / 42.27 ± 2.34</td> <!-- NorNE-nb -->
    <td class="no ner">59.65 ± 1.56 / 42.70 ± 2.35</td> <!-- NorNE-nn -->
    <td class="no sent">57.94 ± 2.51 / 71.75 ± 2.43</td> <!-- NoReC -->
@@ -934,6 +934,33 @@ title: Norwegian NLG 🇳🇴
    <td>14.0.4</td> <!-- NorQuAD version -->
    <td>14.0.4</td> <!-- MMLU-no version -->
    <td>14.0.4</td> <!-- HellaSwag-no version -->
+   </tr>
+  <tr class="not-merged-model">
+   <td>skole-gpt-mixtral (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">3,583 ± 977 / 686 ± 231</td> <!-- Model inference speed -->
+   <td class="rank">2.49</td> <!-- ScandEval rank -->
+   <td class="no ner">62.52 ± 2.14 / 49.42 ± 3.83</td> <!-- NorNE-nb -->
+   <td class="no ner">61.55 ± 1.68 / 47.53 ± 3.65</td> <!-- NorNE-nn -->
+   <td class="no sent">52.09 ± 3.90 / 65.72 ± 4.14</td> <!-- NoReC -->
+   <td class="no summ">64.70 ± 0.79 / 17.10 ± 1.35</td> <!-- No Sammendrag -->
+   <td class="no la">21.99 ± 2.17 / 58.21 ± 2.38</td> <!-- ScaLA-nb -->
+   <td class="no la">16.84 ± 2.07 / 51.76 ± 4.30</td> <!-- ScaLA-nn -->
+   <td class="no rc">47.30 ± 4.17 / 72.60 ± 3.24</td> <!-- NorQuAD -->
+   <td class="no know">39.99 ± 1.01 / 54.90 ± 0.76</td> <!-- MMLU-no -->
+   <td class="no reason">32.16 ± 1.91 / 48.12 ± 1.74</td> <!-- HellaSwag-no -->
+   <td>13.0.0</td> <!-- NorNE-nb version -->
+   <td>13.0.0</td> <!-- NorNE-nn version -->
+   <td>13.0.0</td> <!-- NoReC version -->
+   <td>13.0.0</td> <!-- No Sammendrag version -->
+   <td>13.0.0</td> <!-- ScaLA-nb version -->
+   <td>13.0.0</td> <!-- ScaLA-nn version -->
+   <td>13.0.0</td> <!-- NorQuAD version -->
+   <td>13.0.0</td> <!-- MMLU-no version -->
+   <td>13.0.0</td> <!-- HellaSwag-no version -->
    </tr>
   <tr class="merged-model">
    <td>RJuro/munin-neuralbeagle-7b (few-shot, val)</td> <!-- Model ID -->
@@ -961,33 +988,6 @@ title: Norwegian NLG 🇳🇴
    <td>12.5.2</td> <!-- NorQuAD version -->
    <td>9.3.2</td> <!-- MMLU-no version -->
    <td>9.3.2</td> <!-- HellaSwag-no version -->
-   </tr>
-  <tr class="not-merged-model">
-   <td>skole-gpt-mixtral (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">3,583 ± 977 / 686 ± 231</td> <!-- Model inference speed -->
-   <td class="rank">2.50</td> <!-- ScandEval rank -->
-   <td class="no ner">62.52 ± 2.14 / 49.42 ± 3.83</td> <!-- NorNE-nb -->
-   <td class="no ner">61.55 ± 1.68 / 47.53 ± 3.65</td> <!-- NorNE-nn -->
-   <td class="no sent">52.09 ± 3.90 / 65.72 ± 4.14</td> <!-- NoReC -->
-   <td class="no summ">64.70 ± 0.79 / 17.10 ± 1.35</td> <!-- No Sammendrag -->
-   <td class="no la">21.99 ± 2.17 / 58.21 ± 2.38</td> <!-- ScaLA-nb -->
-   <td class="no la">16.84 ± 2.07 / 51.76 ± 4.30</td> <!-- ScaLA-nn -->
-   <td class="no rc">47.30 ± 4.17 / 72.60 ± 3.24</td> <!-- NorQuAD -->
-   <td class="no know">39.99 ± 1.01 / 54.90 ± 0.76</td> <!-- MMLU-no -->
-   <td class="no reason">32.16 ± 1.91 / 48.12 ± 1.74</td> <!-- HellaSwag-no -->
-   <td>13.0.0</td> <!-- NorNE-nb version -->
-   <td>13.0.0</td> <!-- NorNE-nn version -->
-   <td>13.0.0</td> <!-- NoReC version -->
-   <td>13.0.0</td> <!-- No Sammendrag version -->
-   <td>13.0.0</td> <!-- ScaLA-nb version -->
-   <td>13.0.0</td> <!-- ScaLA-nn version -->
-   <td>13.0.0</td> <!-- NorQuAD version -->
-   <td>13.0.0</td> <!-- MMLU-no version -->
-   <td>13.0.0</td> <!-- HellaSwag-no version -->
    </tr>
   <tr class="not-merged-model">
    <td>CohereForAI/c4ai-command-r-08-2024 (few-shot)</td> <!-- Model ID -->
@@ -1097,33 +1097,6 @@ title: Norwegian NLG 🇳🇴
    <td>14.0.4</td> <!-- MMLU-no version -->
    <td>14.0.4</td> <!-- HellaSwag-no version -->
    </tr>
-  <tr class="not-merged-model">
-   <td>meta-llama/Llama-2-70b-chat-hf (few-shot, val)</td> <!-- Model ID -->
-   <td class="num_model_parameters">68977</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">3843</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">1,979 ± 621 / 320 ± 105</td> <!-- Model inference speed -->
-   <td class="rank">2.60</td> <!-- ScandEval rank -->
-   <td class="no ner">60.21 ± 1.86 / 47.06 ± 3.08</td> <!-- NorNE-nb -->
-   <td class="no ner">62.99 ± 2.66 / 48.82 ± 5.49</td> <!-- NorNE-nn -->
-   <td class="no sent">55.12 ± 5.10 / 66.55 ± 5.07</td> <!-- NoReC -->
-   <td class="no summ">65.11 ± 0.66 / 17.82 ± 1.21</td> <!-- No Sammendrag -->
-   <td class="no la">27.12 ± 4.90 / 54.26 ± 6.80</td> <!-- ScaLA-nb -->
-   <td class="no la">6.82 ± 5.06 / 46.18 ± 4.14</td> <!-- ScaLA-nn -->
-   <td class="no rc">38.50 ± 3.93 / 69.99 ± 2.23</td> <!-- NorQuAD -->
-   <td class="no know">32.30 ± 3.42 / 48.32 ± 2.61</td> <!-- MMLU-no -->
-   <td class="no reason">34.43 ± 2.91 / 49.65 ± 2.23</td> <!-- HellaSwag-no -->
-   <td>12.7.0</td> <!-- NorNE-nb version -->
-   <td>12.7.0</td> <!-- NorNE-nn version -->
-   <td>12.7.0</td> <!-- NoReC version -->
-   <td>12.7.0</td> <!-- No Sammendrag version -->
-   <td>12.7.0</td> <!-- ScaLA-nb version -->
-   <td>12.7.0</td> <!-- ScaLA-nn version -->
-   <td>12.7.0</td> <!-- NorQuAD version -->
-   <td>12.7.0</td> <!-- MMLU-no version -->
-   <td>12.7.0</td> <!-- HellaSwag-no version -->
-   </tr>
   <tr class="merged-model">
    <td>timpal0l/dolphin-2.9-llama3-8b-flashback (few-shot, val)</td> <!-- Model ID -->
    <td class="num_model_parameters">8030</td> <!-- Number of trainable parameters -->
@@ -1131,7 +1104,7 @@ title: Norwegian NLG 🇳🇴
    <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">5,018 ± 1,216 / 996 ± 324</td> <!-- Model inference speed -->
-   <td class="rank">2.60</td> <!-- ScandEval rank -->
+   <td class="rank">2.59</td> <!-- ScandEval rank -->
    <td class="no ner">64.51 ± 3.28 / 51.06 ± 4.78</td> <!-- NorNE-nb -->
    <td class="no ner">65.66 ± 3.82 / 53.90 ± 4.32</td> <!-- NorNE-nn -->
    <td class="no sent">52.90 ± 4.31 / 65.38 ± 3.73</td> <!-- NoReC -->
@@ -1152,85 +1125,31 @@ title: Norwegian NLG 🇳🇴
    <td>12.7.0</td> <!-- HellaSwag-no version -->
    </tr>
   <tr class="not-merged-model">
-   <td>meta-llama/Llama-3.1-8B-Instruct (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">8030</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">128</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">131073</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">1,005 ± 330 / 196 ± 74</td> <!-- Model inference speed -->
-   <td class="rank">2.62</td> <!-- ScandEval rank -->
-   <td class="no ner">64.55 ± 1.69 / 56.81 ± 2.50</td> <!-- NorNE-nb -->
-   <td class="no ner">66.44 ± 1.38 / 60.02 ± 3.36</td> <!-- NorNE-nn -->
-   <td class="no sent">35.17 ± 0.32 / 38.11 ± 0.29</td> <!-- NoReC -->
-   <td class="no summ">64.48 ± 0.14 / 15.14 ± 0.38</td> <!-- No Sammendrag -->
-   <td class="no la">27.41 ± 1.97 / 54.94 ± 2.06</td> <!-- ScaLA-nb -->
-   <td class="no la">15.60 ± 2.05 / 46.51 ± 2.41</td> <!-- ScaLA-nn -->
-   <td class="no rc">43.11 ± 2.22 / 69.74 ± 1.60</td> <!-- NorQuAD -->
-   <td class="no know">38.10 ± 0.57 / 52.64 ± 0.47</td> <!-- MMLU-no -->
-   <td class="no reason">39.30 ± 1.01 / 54.03 ± 0.82</td> <!-- HellaSwag-no -->
-   <td>14.1.2</td> <!-- NorNE-nb version -->
-   <td>14.1.2</td> <!-- NorNE-nn version -->
-   <td>14.1.2</td> <!-- NoReC version -->
-   <td>14.1.2</td> <!-- No Sammendrag version -->
-   <td>14.1.2</td> <!-- ScaLA-nb version -->
-   <td>14.1.2</td> <!-- ScaLA-nn version -->
-   <td>14.1.2</td> <!-- NorQuAD version -->
-   <td>13.0.0</td> <!-- MMLU-no version -->
-   <td>13.0.0</td> <!-- HellaSwag-no version -->
-   </tr>
-  <tr class="not-merged-model">
-   <td>senseable/WestLake-7B-v2 (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
+   <td>meta-llama/Llama-2-70b-chat-hf (few-shot, val)</td> <!-- Model ID -->
+   <td class="num_model_parameters">68977</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">5,993 ± 1,028 / 1,742 ± 561</td> <!-- Model inference speed -->
-   <td class="rank">2.62</td> <!-- ScandEval rank -->
-   <td class="no ner">64.37 ± 2.17 / 52.81 ± 2.48</td> <!-- NorNE-nb -->
-   <td class="no ner">62.77 ± 0.83 / 51.80 ± 2.77</td> <!-- NorNE-nn -->
-   <td class="no sent">50.60 ± 4.90 / 66.76 ± 3.04</td> <!-- NoReC -->
-   <td class="no summ">65.09 ± 0.31 / 17.27 ± 0.66</td> <!-- No Sammendrag -->
-   <td class="no la">18.09 ± 2.04 / 52.56 ± 2.60</td> <!-- ScaLA-nb -->
-   <td class="no la">12.25 ± 2.18 / 50.79 ± 2.42</td> <!-- ScaLA-nn -->
-   <td class="no rc">38.34 ± 2.39 / 69.54 ± 1.96</td> <!-- NorQuAD -->
-   <td class="no know">27.33 ± 0.72 / 45.16 ± 0.55</td> <!-- MMLU-no -->
-   <td class="no reason">41.59 ± 2.61 / 56.02 ± 2.08</td> <!-- HellaSwag-no -->
-   <td>12.6.1</td> <!-- NorNE-nb version -->
-   <td>12.6.1</td> <!-- NorNE-nn version -->
-   <td>12.6.1</td> <!-- NoReC version -->
-   <td>12.6.1</td> <!-- No Sammendrag version -->
-   <td>12.6.1</td> <!-- ScaLA-nb version -->
-   <td>12.6.1</td> <!-- ScaLA-nn version -->
-   <td>12.6.1</td> <!-- NorQuAD version -->
-   <td>12.6.1</td> <!-- MMLU-no version -->
-   <td>12.6.1</td> <!-- HellaSwag-no version -->
-   </tr>
-  <tr class="not-merged-model">
-   <td>meta-llama/Meta-Llama-3-8B-Instruct (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">8030</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">128</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
+   <td class="max_sequence_length">3843</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">1,007 ± 316 / 162 ± 45</td> <!-- Model inference speed -->
-   <td class="rank">2.64</td> <!-- ScandEval rank -->
-   <td class="no ner">74.47 ± 1.47 / 65.57 ± 2.39</td> <!-- NorNE-nb -->
-   <td class="no ner">72.93 ± 1.00 / 65.44 ± 2.55</td> <!-- NorNE-nn -->
-   <td class="no sent">34.44 ± 0.42 / 37.94 ± 0.39</td> <!-- NoReC -->
-   <td class="no summ">63.98 ± 0.50 / 14.75 ± 0.79</td> <!-- No Sammendrag -->
-   <td class="no la">27.77 ± 1.63 / 61.75 ± 1.77</td> <!-- ScaLA-nb -->
-   <td class="no la">20.35 ± 1.92 / 57.74 ± 2.28</td> <!-- ScaLA-nn -->
-   <td class="no rc">42.90 ± 3.57 / 69.90 ± 3.17</td> <!-- NorQuAD -->
-   <td class="no know">33.44 ± 0.67 / 48.76 ± 0.58</td> <!-- MMLU-no -->
-   <td class="no reason">30.91 ± 1.88 / 45.85 ± 1.93</td> <!-- HellaSwag-no -->
-   <td>12.6.1</td> <!-- NorNE-nb version -->
-   <td>12.6.1</td> <!-- NorNE-nn version -->
-   <td>14.0.4</td> <!-- NoReC version -->
-   <td>12.6.1</td> <!-- No Sammendrag version -->
-   <td>12.6.1</td> <!-- ScaLA-nb version -->
-   <td>12.6.1</td> <!-- ScaLA-nn version -->
-   <td>12.6.1</td> <!-- NorQuAD version -->
-   <td>12.6.1</td> <!-- MMLU-no version -->
-   <td>12.6.1</td> <!-- HellaSwag-no version -->
+   <td class="speed">1,979 ± 621 / 320 ± 105</td> <!-- Model inference speed -->
+   <td class="rank">2.61</td> <!-- ScandEval rank -->
+   <td class="no ner">60.21 ± 1.86 / 47.06 ± 3.08</td> <!-- NorNE-nb -->
+   <td class="no ner">62.99 ± 2.66 / 48.82 ± 5.49</td> <!-- NorNE-nn -->
+   <td class="no sent">55.12 ± 5.10 / 66.55 ± 5.07</td> <!-- NoReC -->
+   <td class="no summ">65.11 ± 0.66 / 17.82 ± 1.21</td> <!-- No Sammendrag -->
+   <td class="no la">27.12 ± 4.90 / 54.26 ± 6.80</td> <!-- ScaLA-nb -->
+   <td class="no la">6.82 ± 5.06 / 46.18 ± 4.14</td> <!-- ScaLA-nn -->
+   <td class="no rc">38.50 ± 3.93 / 69.99 ± 2.23</td> <!-- NorQuAD -->
+   <td class="no know">32.30 ± 3.42 / 48.32 ± 2.61</td> <!-- MMLU-no -->
+   <td class="no reason">34.43 ± 2.91 / 49.65 ± 2.23</td> <!-- HellaSwag-no -->
+   <td>12.7.0</td> <!-- NorNE-nb version -->
+   <td>12.7.0</td> <!-- NorNE-nn version -->
+   <td>12.7.0</td> <!-- NoReC version -->
+   <td>12.7.0</td> <!-- No Sammendrag version -->
+   <td>12.7.0</td> <!-- ScaLA-nb version -->
+   <td>12.7.0</td> <!-- ScaLA-nn version -->
+   <td>12.7.0</td> <!-- NorQuAD version -->
+   <td>12.7.0</td> <!-- MMLU-no version -->
+   <td>12.7.0</td> <!-- HellaSwag-no version -->
    </tr>
   <tr class="merged-model">
    <td>mlabonne/NeuralBeagle14-7B (few-shot, val)</td> <!-- Model ID -->
@@ -1239,7 +1158,7 @@ title: Norwegian NLG 🇳🇴
    <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,549 ± 472 / 784 ± 245</td> <!-- Model inference speed -->
-   <td class="rank">2.65</td> <!-- ScandEval rank -->
+   <td class="rank">2.63</td> <!-- ScandEval rank -->
    <td class="no ner">62.47 ± 2.56 / 57.71 ± 3.02</td> <!-- NorNE-nb -->
    <td class="no ner">66.69 ± 2.91 / 58.83 ± 3.70</td> <!-- NorNE-nn -->
    <td class="no sent">54.04 ± 2.91 / 66.46 ± 2.59</td> <!-- NoReC -->
@@ -1260,13 +1179,40 @@ title: Norwegian NLG 🇳🇴
    <td>9.3.2</td> <!-- HellaSwag-no version -->
    </tr>
   <tr class="not-merged-model">
+   <td>senseable/WestLake-7B-v2 (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">5,993 ± 1,028 / 1,742 ± 561</td> <!-- Model inference speed -->
+   <td class="rank">2.63</td> <!-- ScandEval rank -->
+   <td class="no ner">64.37 ± 2.17 / 52.81 ± 2.48</td> <!-- NorNE-nb -->
+   <td class="no ner">62.77 ± 0.83 / 51.80 ± 2.77</td> <!-- NorNE-nn -->
+   <td class="no sent">50.60 ± 4.90 / 66.76 ± 3.04</td> <!-- NoReC -->
+   <td class="no summ">65.09 ± 0.31 / 17.27 ± 0.66</td> <!-- No Sammendrag -->
+   <td class="no la">18.09 ± 2.04 / 52.56 ± 2.60</td> <!-- ScaLA-nb -->
+   <td class="no la">12.25 ± 2.18 / 50.79 ± 2.42</td> <!-- ScaLA-nn -->
+   <td class="no rc">38.34 ± 2.39 / 69.54 ± 1.96</td> <!-- NorQuAD -->
+   <td class="no know">27.33 ± 0.72 / 45.16 ± 0.55</td> <!-- MMLU-no -->
+   <td class="no reason">41.59 ± 2.61 / 56.02 ± 2.08</td> <!-- HellaSwag-no -->
+   <td>12.6.1</td> <!-- NorNE-nb version -->
+   <td>12.6.1</td> <!-- NorNE-nn version -->
+   <td>12.6.1</td> <!-- NoReC version -->
+   <td>12.6.1</td> <!-- No Sammendrag version -->
+   <td>12.6.1</td> <!-- ScaLA-nb version -->
+   <td>12.6.1</td> <!-- ScaLA-nn version -->
+   <td>12.6.1</td> <!-- NorQuAD version -->
+   <td>12.6.1</td> <!-- MMLU-no version -->
+   <td>12.6.1</td> <!-- HellaSwag-no version -->
+   </tr>
+  <tr class="not-merged-model">
    <td>CohereForAI/aya-expanse-8b (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">8028</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">256</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,686 ± 685 / 491 ± 164</td> <!-- Model inference speed -->
-   <td class="rank">2.66</td> <!-- ScandEval rank -->
+   <td class="rank">2.65</td> <!-- ScandEval rank -->
    <td class="no ner">66.55 ± 2.12 / 39.28 ± 3.45</td> <!-- NorNE-nb -->
    <td class="no ner">63.63 ± 1.62 / 37.25 ± 3.49</td> <!-- NorNE-nn -->
    <td class="no sent">38.61 ± 2.28 / 51.46 ± 2.62</td> <!-- NoReC -->
@@ -1287,13 +1233,40 @@ title: Norwegian NLG 🇳🇴
    <td>13.0.0</td> <!-- HellaSwag-no version -->
    </tr>
   <tr class="not-merged-model">
+   <td>meta-llama/Llama-3.1-8B-Instruct (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">8030</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">128</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">131072</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">1,473 ± 377 / 283 ± 96</td> <!-- Model inference speed -->
+   <td class="rank">2.65</td> <!-- ScandEval rank -->
+   <td class="no ner">64.55 ± 1.69 / 56.81 ± 2.50</td> <!-- NorNE-nb -->
+   <td class="no ner">66.44 ± 1.38 / 60.02 ± 3.36</td> <!-- NorNE-nn -->
+   <td class="no sent">35.17 ± 0.32 / 38.11 ± 0.29</td> <!-- NoReC -->
+   <td class="no summ">64.48 ± 0.14 / 15.14 ± 0.38</td> <!-- No Sammendrag -->
+   <td class="no la">27.41 ± 1.97 / 54.94 ± 2.06</td> <!-- ScaLA-nb -->
+   <td class="no la">15.60 ± 2.05 / 46.51 ± 2.41</td> <!-- ScaLA-nn -->
+   <td class="no rc">43.11 ± 2.22 / 69.74 ± 1.60</td> <!-- NorQuAD -->
+   <td class="no know">35.02 ± 1.24 / 51.13 ± 0.94</td> <!-- MMLU-no -->
+   <td class="no reason">37.61 ± 0.88 / 53.12 ± 0.65</td> <!-- HellaSwag-no -->
+   <td>14.1.2</td> <!-- NorNE-nb version -->
+   <td>14.1.2</td> <!-- NorNE-nn version -->
+   <td>14.1.2</td> <!-- NoReC version -->
+   <td>14.1.2</td> <!-- No Sammendrag version -->
+   <td>14.1.2</td> <!-- ScaLA-nb version -->
+   <td>14.1.2</td> <!-- ScaLA-nn version -->
+   <td>14.1.2</td> <!-- NorQuAD version -->
+   <td>14.1.2</td> <!-- MMLU-no version -->
+   <td>14.1.2</td> <!-- HellaSwag-no version -->
+   </tr>
+  <tr class="not-merged-model">
    <td>utter-project/EuroLLM-9B-Instruct (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">9152</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">128</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">1,483 ± 321 / 379 ± 158</td> <!-- Model inference speed -->
-   <td class="rank">2.66</td> <!-- ScandEval rank -->
+   <td class="rank">2.67</td> <!-- ScandEval rank -->
    <td class="no ner">40.91 ± 2.56 / 33.22 ± 1.88</td> <!-- NorNE-nb -->
    <td class="no ner">42.91 ± 2.34 / 35.61 ± 2.22</td> <!-- NorNE-nn -->
    <td class="no sent">52.62 ± 2.01 / 68.10 ± 2.25</td> <!-- NoReC -->
@@ -1312,6 +1285,33 @@ title: Norwegian NLG 🇳🇴
    <td>13.1.0</td> <!-- NorQuAD version -->
    <td>13.1.0</td> <!-- MMLU-no version -->
    <td>13.1.0</td> <!-- HellaSwag-no version -->
+   </tr>
+  <tr class="not-merged-model">
+   <td>meta-llama/Meta-Llama-3-8B-Instruct (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">8030</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">128</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">1,483 ± 377 / 287 ± 97</td> <!-- Model inference speed -->
+   <td class="rank">2.68</td> <!-- ScandEval rank -->
+   <td class="no ner">66.56 ± 1.70 / 58.47 ± 2.40</td> <!-- NorNE-nb -->
+   <td class="no ner">68.29 ± 1.47 / 61.22 ± 2.25</td> <!-- NorNE-nn -->
+   <td class="no sent">34.47 ± 0.44 / 37.96 ± 0.40</td> <!-- NoReC -->
+   <td class="no summ">63.80 ± 0.09 / 13.37 ± 0.15</td> <!-- No Sammendrag -->
+   <td class="no la">28.22 ± 1.37 / 59.51 ± 1.44</td> <!-- ScaLA-nb -->
+   <td class="no la">18.21 ± 2.21 / 52.84 ± 2.30</td> <!-- ScaLA-nn -->
+   <td class="no rc">47.34 ± 1.99 / 73.23 ± 1.29</td> <!-- NorQuAD -->
+   <td class="no know">30.78 ± 0.81 / 47.33 ± 0.75</td> <!-- MMLU-no -->
+   <td class="no reason">31.49 ± 1.29 / 48.15 ± 0.99</td> <!-- HellaSwag-no -->
+   <td>14.1.2</td> <!-- NorNE-nb version -->
+   <td>14.1.2</td> <!-- NorNE-nn version -->
+   <td>14.1.2</td> <!-- NoReC version -->
+   <td>14.1.2</td> <!-- No Sammendrag version -->
+   <td>14.1.2</td> <!-- ScaLA-nb version -->
+   <td>14.1.2</td> <!-- ScaLA-nn version -->
+   <td>14.1.2</td> <!-- NorQuAD version -->
+   <td>14.1.2</td> <!-- MMLU-no version -->
+   <td>14.1.2</td> <!-- HellaSwag-no version -->
    </tr>
   <tr class="not-merged-model">
    <td>mistralai/Mixtral-8x7B-v0.1 (few-shot)</td> <!-- Model ID -->
@@ -1340,32 +1340,32 @@ title: Norwegian NLG 🇳🇴
    <td>14.0.4</td> <!-- MMLU-no version -->
    <td>14.0.4</td> <!-- HellaSwag-no version -->
    </tr>
-  <tr class="not-merged-model">
-   <td>Mabeck/Heidrun-Mistral-7B-chat (few-shot)</td> <!-- Model ID -->
+  <tr class="merged-model">
+   <td>birgermoell/BeagleCatMunin-Flashback-Bellman (few-shot, val)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">1,419 ± 349 / 286 ± 97</td> <!-- Model inference speed -->
+   <td class="speed">2,890 ± 401 / 1,155 ± 348</td> <!-- Model inference speed -->
    <td class="rank">2.69</td> <!-- ScandEval rank -->
-   <td class="no ner">61.41 ± 1.71 / 52.32 ± 2.63</td> <!-- NorNE-nb -->
-   <td class="no ner">59.49 ± 1.26 / 49.45 ± 3.31</td> <!-- NorNE-nn -->
-   <td class="no sent">49.19 ± 1.64 / 63.36 ± 1.52</td> <!-- NoReC -->
-   <td class="no summ">64.22 ± 0.52 / 16.72 ± 0.66</td> <!-- No Sammendrag -->
-   <td class="no la">15.17 ± 2.64 / 50.25 ± 4.51</td> <!-- ScaLA-nb -->
-   <td class="no la">10.78 ± 1.99 / 50.08 ± 4.20</td> <!-- ScaLA-nn -->
-   <td class="no rc">48.99 ± 2.91 / 73.08 ± 2.26</td> <!-- NorQuAD -->
-   <td class="no know">27.64 ± 1.39 / 45.78 ± 1.03</td> <!-- MMLU-no -->
-   <td class="no reason">25.74 ± 1.87 / 43.95 ± 1.58</td> <!-- HellaSwag-no -->
-   <td>10.0.1</td> <!-- NorNE-nb version -->
-   <td>10.0.1</td> <!-- NorNE-nn version -->
-   <td>10.0.1</td> <!-- NoReC version -->
-   <td>12.5.0</td> <!-- No Sammendrag version -->
-   <td>10.0.1</td> <!-- ScaLA-nb version -->
-   <td>10.0.1</td> <!-- ScaLA-nn version -->
-   <td>12.5.0</td> <!-- NorQuAD version -->
-   <td>10.0.1</td> <!-- MMLU-no version -->
-   <td>10.0.1</td> <!-- HellaSwag-no version -->
+   <td class="no ner">53.96 ± 3.37 / 49.84 ± 3.30</td> <!-- NorNE-nb -->
+   <td class="no ner">63.45 ± 2.27 / 53.13 ± 3.43</td> <!-- NorNE-nn -->
+   <td class="no sent">52.70 ± 4.58 / 66.82 ± 3.41</td> <!-- NoReC -->
+   <td class="no summ">65.23 ± 0.55 / 18.64 ± 0.86</td> <!-- No Sammendrag -->
+   <td class="no la">14.87 ± 3.37 / 40.83 ± 1.91</td> <!-- ScaLA-nb -->
+   <td class="no la">2.48 ± 3.31 / 35.61 ± 1.83</td> <!-- ScaLA-nn -->
+   <td class="no rc">41.43 ± 3.34 / 67.26 ± 2.73</td> <!-- NorQuAD -->
+   <td class="no know">27.42 ± 2.13 / 45.20 ± 1.58</td> <!-- MMLU-no -->
+   <td class="no reason">36.05 ± 3.95 / 51.68 ± 2.96</td> <!-- HellaSwag-no -->
+   <td>9.3.1</td> <!-- NorNE-nb version -->
+   <td>9.3.1</td> <!-- NorNE-nn version -->
+   <td>9.3.1</td> <!-- NoReC version -->
+   <td>9.3.1</td> <!-- No Sammendrag version -->
+   <td>9.3.1</td> <!-- ScaLA-nb version -->
+   <td>9.3.1</td> <!-- ScaLA-nn version -->
+   <td>12.5.2</td> <!-- NorQuAD version -->
+   <td>9.3.1</td> <!-- MMLU-no version -->
+   <td>9.3.1</td> <!-- HellaSwag-no version -->
    </tr>
   <tr class="not-merged-model">
    <td>mistralai/Mixtral-8x7B-Instruct-v0.1 (few-shot)</td> <!-- Model ID -->
@@ -1395,40 +1395,13 @@ title: Norwegian NLG 🇳🇴
    <td>14.0.4</td> <!-- HellaSwag-no version -->
    </tr>
   <tr class="merged-model">
-   <td>birgermoell/BeagleCatMunin-Flashback-Bellman (few-shot, val)</td> <!-- Model ID -->
-   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">2,890 ± 401 / 1,155 ± 348</td> <!-- Model inference speed -->
-   <td class="rank">2.70</td> <!-- ScandEval rank -->
-   <td class="no ner">53.96 ± 3.37 / 49.84 ± 3.30</td> <!-- NorNE-nb -->
-   <td class="no ner">63.45 ± 2.27 / 53.13 ± 3.43</td> <!-- NorNE-nn -->
-   <td class="no sent">52.70 ± 4.58 / 66.82 ± 3.41</td> <!-- NoReC -->
-   <td class="no summ">65.23 ± 0.55 / 18.64 ± 0.86</td> <!-- No Sammendrag -->
-   <td class="no la">14.87 ± 3.37 / 40.83 ± 1.91</td> <!-- ScaLA-nb -->
-   <td class="no la">2.48 ± 3.31 / 35.61 ± 1.83</td> <!-- ScaLA-nn -->
-   <td class="no rc">41.43 ± 3.34 / 67.26 ± 2.73</td> <!-- NorQuAD -->
-   <td class="no know">27.42 ± 2.13 / 45.20 ± 1.58</td> <!-- MMLU-no -->
-   <td class="no reason">36.05 ± 3.95 / 51.68 ± 2.96</td> <!-- HellaSwag-no -->
-   <td>9.3.1</td> <!-- NorNE-nb version -->
-   <td>9.3.1</td> <!-- NorNE-nn version -->
-   <td>9.3.1</td> <!-- NoReC version -->
-   <td>9.3.1</td> <!-- No Sammendrag version -->
-   <td>9.3.1</td> <!-- ScaLA-nb version -->
-   <td>9.3.1</td> <!-- ScaLA-nn version -->
-   <td>12.5.2</td> <!-- NorQuAD version -->
-   <td>9.3.1</td> <!-- MMLU-no version -->
-   <td>9.3.1</td> <!-- HellaSwag-no version -->
-   </tr>
-  <tr class="merged-model">
    <td>timpal0l/BeagleCatMunin (few-shot, val)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,495 ± 458 / 775 ± 244</td> <!-- Model inference speed -->
-   <td class="rank">2.70</td> <!-- ScandEval rank -->
+   <td class="rank">2.69</td> <!-- ScandEval rank -->
    <td class="no ner">54.04 ± 2.86 / 48.50 ± 2.85</td> <!-- NorNE-nb -->
    <td class="no ner">62.21 ± 3.31 / 50.38 ± 4.32</td> <!-- NorNE-nn -->
    <td class="no sent">54.74 ± 3.71 / 67.81 ± 2.80</td> <!-- NoReC -->
@@ -1449,85 +1422,31 @@ title: Norwegian NLG 🇳🇴
    <td>9.3.2</td> <!-- HellaSwag-no version -->
    </tr>
   <tr class="not-merged-model">
-   <td>meta-llama/Meta-Llama-3-8B (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">8030</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">128</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">1,335 ± 338 / 260 ± 88</td> <!-- Model inference speed -->
-   <td class="rank">2.71</td> <!-- ScandEval rank -->
-   <td class="no ner">61.48 ± 1.83 / 47.65 ± 2.94</td> <!-- NorNE-nb -->
-   <td class="no ner">61.58 ± 2.21 / 50.10 ± 2.68</td> <!-- NorNE-nn -->
-   <td class="no sent">32.94 ± 0.86 / 37.52 ± 0.43</td> <!-- NoReC -->
-   <td class="no summ">63.38 ± 1.15 / 15.74 ± 1.68</td> <!-- No Sammendrag -->
-   <td class="no la">21.20 ± 6.57 / 52.29 ± 7.43</td> <!-- ScaLA-nb -->
-   <td class="no la">19.65 ± 4.32 / 56.66 ± 4.40</td> <!-- ScaLA-nn -->
-   <td class="no rc">53.35 ± 4.33 / 74.98 ± 3.70</td> <!-- NorQuAD -->
-   <td class="no know">33.02 ± 1.35 / 49.25 ± 1.04</td> <!-- MMLU-no -->
-   <td class="no reason">24.93 ± 3.13 / 42.47 ± 2.74</td> <!-- HellaSwag-no -->
-   <td>12.6.1</td> <!-- NorNE-nb version -->
-   <td>12.6.1</td> <!-- NorNE-nn version -->
-   <td>14.1.2</td> <!-- NoReC version -->
-   <td>12.6.1</td> <!-- No Sammendrag version -->
-   <td>12.6.1</td> <!-- ScaLA-nb version -->
-   <td>12.6.1</td> <!-- ScaLA-nn version -->
-   <td>12.6.1</td> <!-- NorQuAD version -->
-   <td>12.6.1</td> <!-- MMLU-no version -->
-   <td>12.6.1</td> <!-- HellaSwag-no version -->
-   </tr>
-  <tr class="not-merged-model">
-   <td>nvidia/mistral-nemo-minitron-8b-base (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">8414</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">131</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">2,470 ± 836 / 326 ± 111</td> <!-- Model inference speed -->
-   <td class="rank">2.71</td> <!-- ScandEval rank -->
-   <td class="no ner">64.15 ± 1.20 / 47.04 ± 3.09</td> <!-- NorNE-nb -->
-   <td class="no ner">62.16 ± 1.91 / 46.60 ± 2.86</td> <!-- NorNE-nn -->
-   <td class="no sent">55.29 ± 1.82 / 69.90 ± 1.64</td> <!-- NoReC -->
-   <td class="no summ">60.17 ± 0.83 / 13.31 ± 0.63</td> <!-- No Sammendrag -->
-   <td class="no la">32.30 ± 3.70 / 60.88 ± 3.83</td> <!-- ScaLA-nb -->
-   <td class="no la">22.82 ± 1.34 / 57.53 ± 2.19</td> <!-- ScaLA-nn -->
-   <td class="no rc">32.62 ± 5.27 / 54.92 ± 6.28</td> <!-- NorQuAD -->
-   <td class="no know">35.37 ± 1.16 / 50.76 ± 0.97</td> <!-- MMLU-no -->
-   <td class="no reason">15.39 ± 2.01 / 32.25 ± 1.49</td> <!-- HellaSwag-no -->
-   <td>14.1.1</td> <!-- NorNE-nb version -->
-   <td>14.1.1</td> <!-- NorNE-nn version -->
-   <td>14.1.1</td> <!-- NoReC version -->
-   <td>14.1.1</td> <!-- No Sammendrag version -->
-   <td>14.1.1</td> <!-- ScaLA-nb version -->
-   <td>14.1.1</td> <!-- ScaLA-nn version -->
-   <td>14.1.1</td> <!-- NorQuAD version -->
-   <td>14.1.1</td> <!-- MMLU-no version -->
-   <td>14.1.1</td> <!-- HellaSwag-no version -->
-   </tr>
-  <tr class="not-merged-model">
-   <td>mistralai/Ministral-8B-Instruct-2410 (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">8020</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">131</td> <!-- Size of the model's vocabulary -->
+   <td>Mabeck/Heidrun-Mistral-7B-chat (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">1,302 ± 323 / 253 ± 86</td> <!-- Model inference speed -->
-   <td class="rank">2.73</td> <!-- ScandEval rank -->
-   <td class="no ner">67.24 ± 1.06 / 45.38 ± 2.20</td> <!-- NorNE-nb -->
-   <td class="no ner">66.08 ± 1.05 / 47.58 ± 3.27</td> <!-- NorNE-nn -->
-   <td class="no sent">31.41 ± 0.86 / 33.56 ± 0.97</td> <!-- NoReC -->
-   <td class="no summ">62.89 ± 0.12 / 11.72 ± 0.18</td> <!-- No Sammendrag -->
-   <td class="no la">28.72 ± 2.42 / 58.62 ± 3.68</td> <!-- ScaLA-nb -->
-   <td class="no la">20.55 ± 3.71 / 54.24 ± 4.15</td> <!-- ScaLA-nn -->
-   <td class="no rc">40.60 ± 2.39 / 68.91 ± 2.08</td> <!-- NorQuAD -->
-   <td class="no know">30.39 ± 1.20 / 46.55 ± 1.05</td> <!-- MMLU-no -->
-   <td class="no reason">38.46 ± 2.98 / 52.16 ± 2.44</td> <!-- HellaSwag-no -->
-   <td>14.1.2</td> <!-- NorNE-nb version -->
-   <td>14.1.2</td> <!-- NorNE-nn version -->
-   <td>14.1.2</td> <!-- NoReC version -->
-   <td>14.1.2</td> <!-- No Sammendrag version -->
-   <td>14.1.2</td> <!-- ScaLA-nb version -->
-   <td>14.1.2</td> <!-- ScaLA-nn version -->
-   <td>14.1.2</td> <!-- NorQuAD version -->
-   <td>14.1.2</td> <!-- MMLU-no version -->
-   <td>14.1.2</td> <!-- HellaSwag-no version -->
+   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">1,419 ± 349 / 286 ± 97</td> <!-- Model inference speed -->
+   <td class="rank">2.70</td> <!-- ScandEval rank -->
+   <td class="no ner">61.41 ± 1.71 / 52.32 ± 2.63</td> <!-- NorNE-nb -->
+   <td class="no ner">59.49 ± 1.26 / 49.45 ± 3.31</td> <!-- NorNE-nn -->
+   <td class="no sent">49.19 ± 1.64 / 63.36 ± 1.52</td> <!-- NoReC -->
+   <td class="no summ">64.22 ± 0.52 / 16.72 ± 0.66</td> <!-- No Sammendrag -->
+   <td class="no la">15.17 ± 2.64 / 50.25 ± 4.51</td> <!-- ScaLA-nb -->
+   <td class="no la">10.78 ± 1.99 / 50.08 ± 4.20</td> <!-- ScaLA-nn -->
+   <td class="no rc">48.99 ± 2.91 / 73.08 ± 2.26</td> <!-- NorQuAD -->
+   <td class="no know">27.64 ± 1.39 / 45.78 ± 1.03</td> <!-- MMLU-no -->
+   <td class="no reason">25.74 ± 1.87 / 43.95 ± 1.58</td> <!-- HellaSwag-no -->
+   <td>10.0.1</td> <!-- NorNE-nb version -->
+   <td>10.0.1</td> <!-- NorNE-nn version -->
+   <td>10.0.1</td> <!-- NoReC version -->
+   <td>12.5.0</td> <!-- No Sammendrag version -->
+   <td>10.0.1</td> <!-- ScaLA-nb version -->
+   <td>10.0.1</td> <!-- ScaLA-nn version -->
+   <td>12.5.0</td> <!-- NorQuAD version -->
+   <td>10.0.1</td> <!-- MMLU-no version -->
+   <td>10.0.1</td> <!-- HellaSwag-no version -->
    </tr>
   <tr class="merged-model">
    <td>mlabonne/AlphaMonarch-7B (few-shot, val)</td> <!-- Model ID -->
@@ -1536,7 +1455,7 @@ title: Norwegian NLG 🇳🇴
    <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">5,340 ± 1,262 / 1,157 ± 375</td> <!-- Model inference speed -->
-   <td class="rank">2.73</td> <!-- ScandEval rank -->
+   <td class="rank">2.71</td> <!-- ScandEval rank -->
    <td class="no ner">61.90 ± 2.57 / 57.16 ± 2.81</td> <!-- NorNE-nb -->
    <td class="no ner">66.92 ± 2.52 / 57.81 ± 3.54</td> <!-- NorNE-nn -->
    <td class="no sent">48.80 ± 4.56 / 63.38 ± 3.06</td> <!-- NoReC -->
@@ -1556,32 +1475,32 @@ title: Norwegian NLG 🇳🇴
    <td>12.5.2</td> <!-- MMLU-no version -->
    <td>12.5.2</td> <!-- HellaSwag-no version -->
    </tr>
-  <tr class="merged-model">
-   <td>birgermoell/Flashback-Bellman (few-shot, val)</td> <!-- Model ID -->
-   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">2,887 ± 403 / 1,144 ± 345</td> <!-- Model inference speed -->
-   <td class="rank">2.74</td> <!-- ScandEval rank -->
-   <td class="no ner">56.44 ± 3.14 / 50.10 ± 4.61</td> <!-- NorNE-nb -->
-   <td class="no ner">66.56 ± 2.40 / 54.48 ± 4.93</td> <!-- NorNE-nn -->
-   <td class="no sent">53.24 ± 4.75 / 67.94 ± 3.75</td> <!-- NoReC -->
-   <td class="no summ">64.96 ± 0.56 / 17.92 ± 0.82</td> <!-- No Sammendrag -->
-   <td class="no la">11.96 ± 2.46 / 37.26 ± 1.15</td> <!-- ScaLA-nb -->
-   <td class="no la">2.50 ± 4.21 / 35.26 ± 1.79</td> <!-- ScaLA-nn -->
-   <td class="no rc">39.21 ± 3.48 / 64.09 ± 3.49</td> <!-- NorQuAD -->
-   <td class="no know">26.64 ± 1.95 / 44.88 ± 1.41</td> <!-- MMLU-no -->
-   <td class="no reason">31.14 ± 2.64 / 48.01 ± 2.14</td> <!-- HellaSwag-no -->
-   <td>9.3.1</td> <!-- NorNE-nb version -->
-   <td>9.3.1</td> <!-- NorNE-nn version -->
-   <td>9.3.1</td> <!-- NoReC version -->
-   <td>9.3.1</td> <!-- No Sammendrag version -->
-   <td>9.3.1</td> <!-- ScaLA-nb version -->
-   <td>9.3.1</td> <!-- ScaLA-nn version -->
-   <td>12.5.2</td> <!-- NorQuAD version -->
-   <td>9.3.1</td> <!-- MMLU-no version -->
-   <td>9.3.1</td> <!-- HellaSwag-no version -->
+  <tr class="not-merged-model">
+   <td>nvidia/mistral-nemo-minitron-8b-base (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">8414</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">131</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">2,470 ± 836 / 326 ± 111</td> <!-- Model inference speed -->
+   <td class="rank">2.72</td> <!-- ScandEval rank -->
+   <td class="no ner">64.15 ± 1.20 / 47.04 ± 3.09</td> <!-- NorNE-nb -->
+   <td class="no ner">62.16 ± 1.91 / 46.60 ± 2.86</td> <!-- NorNE-nn -->
+   <td class="no sent">55.29 ± 1.82 / 69.90 ± 1.64</td> <!-- NoReC -->
+   <td class="no summ">60.17 ± 0.83 / 13.31 ± 0.63</td> <!-- No Sammendrag -->
+   <td class="no la">32.30 ± 3.70 / 60.88 ± 3.83</td> <!-- ScaLA-nb -->
+   <td class="no la">22.82 ± 1.34 / 57.53 ± 2.19</td> <!-- ScaLA-nn -->
+   <td class="no rc">32.62 ± 5.27 / 54.92 ± 6.28</td> <!-- NorQuAD -->
+   <td class="no know">35.37 ± 1.16 / 50.76 ± 0.97</td> <!-- MMLU-no -->
+   <td class="no reason">15.39 ± 2.01 / 32.25 ± 1.49</td> <!-- HellaSwag-no -->
+   <td>14.1.1</td> <!-- NorNE-nb version -->
+   <td>14.1.1</td> <!-- NorNE-nn version -->
+   <td>14.1.1</td> <!-- NoReC version -->
+   <td>14.1.1</td> <!-- No Sammendrag version -->
+   <td>14.1.1</td> <!-- ScaLA-nb version -->
+   <td>14.1.1</td> <!-- ScaLA-nn version -->
+   <td>14.1.1</td> <!-- NorQuAD version -->
+   <td>14.1.1</td> <!-- MMLU-no version -->
+   <td>14.1.1</td> <!-- HellaSwag-no version -->
    </tr>
   <tr class="merged-model">
    <td>birgermoell/Rapid-Cycling (few-shot, val)</td> <!-- Model ID -->
@@ -1590,7 +1509,7 @@ title: Norwegian NLG 🇳🇴
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,346 ± 450 / 666 ± 249</td> <!-- Model inference speed -->
-   <td class="rank">2.74</td> <!-- ScandEval rank -->
+   <td class="rank">2.73</td> <!-- ScandEval rank -->
    <td class="no ner">55.93 ± 2.70 / 50.51 ± 3.15</td> <!-- NorNE-nb -->
    <td class="no ner">63.85 ± 2.45 / 53.11 ± 4.11</td> <!-- NorNE-nn -->
    <td class="no sent">50.41 ± 5.49 / 64.49 ± 4.37</td> <!-- NoReC -->
@@ -1610,32 +1529,32 @@ title: Norwegian NLG 🇳🇴
    <td>9.3.2</td> <!-- MMLU-no version -->
    <td>9.3.2</td> <!-- HellaSwag-no version -->
    </tr>
-  <tr class="merged-model">
-   <td>KennethEnevoldsen/munin_mistral-7b (few-shot, val)</td> <!-- Model ID -->
-   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
+  <tr class="not-merged-model">
+   <td>mistralai/Ministral-8B-Instruct-2410 (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">8020</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">131</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">2,543 ± 466 / 787 ± 247</td> <!-- Model inference speed -->
-   <td class="rank">2.75</td> <!-- ScandEval rank -->
-   <td class="no ner">51.82 ± 4.16 / 44.64 ± 4.66</td> <!-- NorNE-nb -->
-   <td class="no ner">62.55 ± 3.84 / 49.66 ± 5.87</td> <!-- NorNE-nn -->
-   <td class="no sent">56.37 ± 4.27 / 69.55 ± 4.52</td> <!-- NoReC -->
-   <td class="no summ">63.74 ± 1.20 / 16.64 ± 1.53</td> <!-- No Sammendrag -->
-   <td class="no la">6.04 ± 5.92 / 36.34 ± 3.96</td> <!-- ScaLA-nb -->
-   <td class="no la">-0.02 ± 0.04 / 33.47 ± 0.88</td> <!-- ScaLA-nn -->
-   <td class="no rc">48.85 ± 4.11 / 70.75 ± 3.73</td> <!-- NorQuAD -->
-   <td class="no know">28.43 ± 2.75 / 45.94 ± 2.14</td> <!-- MMLU-no -->
-   <td class="no reason">20.49 ± 3.69 / 40.00 ± 2.80</td> <!-- HellaSwag-no -->
-   <td>12.5.2</td> <!-- NorNE-nb version -->
-   <td>12.5.2</td> <!-- NorNE-nn version -->
-   <td>12.3.1</td> <!-- NoReC version -->
-   <td>12.3.2</td> <!-- No Sammendrag version -->
-   <td>12.3.2</td> <!-- ScaLA-nb version -->
-   <td>12.3.2</td> <!-- ScaLA-nn version -->
-   <td>12.3.2</td> <!-- NorQuAD version -->
-   <td>12.3.2</td> <!-- MMLU-no version -->
-   <td>12.3.2</td> <!-- HellaSwag-no version -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">1,302 ± 323 / 253 ± 86</td> <!-- Model inference speed -->
+   <td class="rank">2.74</td> <!-- ScandEval rank -->
+   <td class="no ner">67.24 ± 1.06 / 45.38 ± 2.20</td> <!-- NorNE-nb -->
+   <td class="no ner">66.08 ± 1.05 / 47.58 ± 3.27</td> <!-- NorNE-nn -->
+   <td class="no sent">31.41 ± 0.86 / 33.56 ± 0.97</td> <!-- NoReC -->
+   <td class="no summ">62.89 ± 0.12 / 11.72 ± 0.18</td> <!-- No Sammendrag -->
+   <td class="no la">28.72 ± 2.42 / 58.62 ± 3.68</td> <!-- ScaLA-nb -->
+   <td class="no la">20.55 ± 3.71 / 54.24 ± 4.15</td> <!-- ScaLA-nn -->
+   <td class="no rc">40.60 ± 2.39 / 68.91 ± 2.08</td> <!-- NorQuAD -->
+   <td class="no know">30.39 ± 1.20 / 46.55 ± 1.05</td> <!-- MMLU-no -->
+   <td class="no reason">38.46 ± 2.98 / 52.16 ± 2.44</td> <!-- HellaSwag-no -->
+   <td>14.1.2</td> <!-- NorNE-nb version -->
+   <td>14.1.2</td> <!-- NorNE-nn version -->
+   <td>14.1.2</td> <!-- NoReC version -->
+   <td>14.1.2</td> <!-- No Sammendrag version -->
+   <td>14.1.2</td> <!-- ScaLA-nb version -->
+   <td>14.1.2</td> <!-- ScaLA-nn version -->
+   <td>14.1.2</td> <!-- NorQuAD version -->
+   <td>14.1.2</td> <!-- MMLU-no version -->
+   <td>14.1.2</td> <!-- HellaSwag-no version -->
    </tr>
   <tr class="merged-model">
    <td>RJuro/munin-neuralbeagle-SkoleGPTOpenOrca-7b (few-shot, val)</td> <!-- Model ID -->
@@ -1663,6 +1582,60 @@ title: Norwegian NLG 🇳🇴
    <td>12.5.2</td> <!-- NorQuAD version -->
    <td>9.3.2</td> <!-- MMLU-no version -->
    <td>9.3.2</td> <!-- HellaSwag-no version -->
+   </tr>
+  <tr class="merged-model">
+   <td>KennethEnevoldsen/munin_mistral-7b (few-shot, val)</td> <!-- Model ID -->
+   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">2,543 ± 466 / 787 ± 247</td> <!-- Model inference speed -->
+   <td class="rank">2.76</td> <!-- ScandEval rank -->
+   <td class="no ner">51.82 ± 4.16 / 44.64 ± 4.66</td> <!-- NorNE-nb -->
+   <td class="no ner">62.55 ± 3.84 / 49.66 ± 5.87</td> <!-- NorNE-nn -->
+   <td class="no sent">56.37 ± 4.27 / 69.55 ± 4.52</td> <!-- NoReC -->
+   <td class="no summ">63.74 ± 1.20 / 16.64 ± 1.53</td> <!-- No Sammendrag -->
+   <td class="no la">6.04 ± 5.92 / 36.34 ± 3.96</td> <!-- ScaLA-nb -->
+   <td class="no la">-0.02 ± 0.04 / 33.47 ± 0.88</td> <!-- ScaLA-nn -->
+   <td class="no rc">48.85 ± 4.11 / 70.75 ± 3.73</td> <!-- NorQuAD -->
+   <td class="no know">28.43 ± 2.75 / 45.94 ± 2.14</td> <!-- MMLU-no -->
+   <td class="no reason">20.49 ± 3.69 / 40.00 ± 2.80</td> <!-- HellaSwag-no -->
+   <td>12.5.2</td> <!-- NorNE-nb version -->
+   <td>12.5.2</td> <!-- NorNE-nn version -->
+   <td>12.3.1</td> <!-- NoReC version -->
+   <td>12.3.2</td> <!-- No Sammendrag version -->
+   <td>12.3.2</td> <!-- ScaLA-nb version -->
+   <td>12.3.2</td> <!-- ScaLA-nn version -->
+   <td>12.3.2</td> <!-- NorQuAD version -->
+   <td>12.3.2</td> <!-- MMLU-no version -->
+   <td>12.3.2</td> <!-- HellaSwag-no version -->
+   </tr>
+  <tr class="merged-model">
+   <td>birgermoell/Flashback-Bellman (few-shot, val)</td> <!-- Model ID -->
+   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">2,887 ± 403 / 1,144 ± 345</td> <!-- Model inference speed -->
+   <td class="rank">2.76</td> <!-- ScandEval rank -->
+   <td class="no ner">56.44 ± 3.14 / 50.10 ± 4.61</td> <!-- NorNE-nb -->
+   <td class="no ner">66.56 ± 2.40 / 54.48 ± 4.93</td> <!-- NorNE-nn -->
+   <td class="no sent">53.24 ± 4.75 / 67.94 ± 3.75</td> <!-- NoReC -->
+   <td class="no summ">64.96 ± 0.56 / 17.92 ± 0.82</td> <!-- No Sammendrag -->
+   <td class="no la">11.96 ± 2.46 / 37.26 ± 1.15</td> <!-- ScaLA-nb -->
+   <td class="no la">2.50 ± 4.21 / 35.26 ± 1.79</td> <!-- ScaLA-nn -->
+   <td class="no rc">39.21 ± 3.48 / 64.09 ± 3.49</td> <!-- NorQuAD -->
+   <td class="no know">26.64 ± 1.95 / 44.88 ± 1.41</td> <!-- MMLU-no -->
+   <td class="no reason">31.14 ± 2.64 / 48.01 ± 2.14</td> <!-- HellaSwag-no -->
+   <td>9.3.1</td> <!-- NorNE-nb version -->
+   <td>9.3.1</td> <!-- NorNE-nn version -->
+   <td>9.3.1</td> <!-- NoReC version -->
+   <td>9.3.1</td> <!-- No Sammendrag version -->
+   <td>9.3.1</td> <!-- ScaLA-nb version -->
+   <td>9.3.1</td> <!-- ScaLA-nn version -->
+   <td>12.5.2</td> <!-- NorQuAD version -->
+   <td>9.3.1</td> <!-- MMLU-no version -->
+   <td>9.3.1</td> <!-- HellaSwag-no version -->
    </tr>
   <tr class="not-merged-model">
    <td>ibm-granite/granite-3.0-8b-base (few-shot)</td> <!-- Model ID -->
@@ -1833,7 +1806,7 @@ title: Norwegian NLG 🇳🇴
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">5,431 ± 1,267 / 1,139 ± 365</td> <!-- Model inference speed -->
-   <td class="rank">2.78</td> <!-- ScandEval rank -->
+   <td class="rank">2.79</td> <!-- ScandEval rank -->
    <td class="no ner">50.47 ± 2.96 / 43.31 ± 2.54</td> <!-- NorNE-nb -->
    <td class="no ner">51.97 ± 3.83 / 42.66 ± 5.03</td> <!-- NorNE-nn -->
    <td class="no sent">48.03 ± 1.71 / 65.89 ± 1.68</td> <!-- NoReC -->
@@ -1860,7 +1833,7 @@ title: Norwegian NLG 🇳🇴
    <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,856 ± 645 / 709 ± 243</td> <!-- Model inference speed -->
-   <td class="rank">2.80</td> <!-- ScandEval rank -->
+   <td class="rank">2.81</td> <!-- ScandEval rank -->
    <td class="no ner">56.72 ± 1.90 / 43.75 ± 2.72</td> <!-- NorNE-nb -->
    <td class="no ner">57.62 ± 1.35 / 43.81 ± 2.43</td> <!-- NorNE-nn -->
    <td class="no sent">48.86 ± 2.54 / 64.32 ± 2.46</td> <!-- NoReC -->
@@ -1887,7 +1860,7 @@ title: Norwegian NLG 🇳🇴
    <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">4,141 ± 994 / 905 ± 299</td> <!-- Model inference speed -->
-   <td class="rank">2.82</td> <!-- ScandEval rank -->
+   <td class="rank">2.83</td> <!-- ScandEval rank -->
    <td class="no ner">44.53 ± 2.58 / 36.59 ± 1.71</td> <!-- NorNE-nb -->
    <td class="no ner">47.02 ± 2.08 / 39.99 ± 2.76</td> <!-- NorNE-nn -->
    <td class="no sent">41.84 ± 2.46 / 56.79 ± 2.95</td> <!-- NoReC -->
@@ -2022,7 +1995,7 @@ title: Norwegian NLG 🇳🇴
    <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">1,472 ± 376 / 284 ± 96</td> <!-- Model inference speed -->
-   <td class="rank">2.85</td> <!-- ScandEval rank -->
+   <td class="rank">2.86</td> <!-- ScandEval rank -->
    <td class="no ner">81.96 ± 1.06 / 76.25 ± 1.32</td> <!-- NorNE-nb -->
    <td class="no ner">78.42 ± 1.01 / 75.40 ± 0.97</td> <!-- NorNE-nn -->
    <td class="no sent">35.30 ± 0.64 / 38.72 ± 0.50</td> <!-- NoReC -->
@@ -2151,33 +2124,6 @@ title: Norwegian NLG 🇳🇴
    <td>14.1.2</td> <!-- HellaSwag-no version -->
    </tr>
   <tr class="not-merged-model">
-   <td>mhenrichsen/hestenettetLM (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">1,151 ± 294 / 227 ± 76</td> <!-- Model inference speed -->
-   <td class="rank">2.90</td> <!-- ScandEval rank -->
-   <td class="no ner">52.52 ± 1.85 / 43.46 ± 2.21</td> <!-- NorNE-nb -->
-   <td class="no ner">55.60 ± 3.22 / 45.25 ± 4.20</td> <!-- NorNE-nn -->
-   <td class="no sent">48.23 ± 3.31 / 65.51 ± 3.01</td> <!-- NoReC -->
-   <td class="no summ">63.53 ± 1.47 / 16.54 ± 1.59</td> <!-- No Sammendrag -->
-   <td class="no la">8.53 ± 3.72 / 38.61 ± 3.22</td> <!-- ScaLA-nb -->
-   <td class="no la">6.65 ± 1.40 / 39.32 ± 2.51</td> <!-- ScaLA-nn -->
-   <td class="no rc">46.89 ± 3.29 / 70.96 ± 2.84</td> <!-- NorQuAD -->
-   <td class="no know">27.67 ± 0.91 / 45.77 ± 0.66</td> <!-- MMLU-no -->
-   <td class="no reason">14.20 ± 3.45 / 34.89 ± 2.57</td> <!-- HellaSwag-no -->
-   <td>12.5.2</td> <!-- NorNE-nb version -->
-   <td>12.5.2</td> <!-- NorNE-nn version -->
-   <td>12.3.2</td> <!-- NoReC version -->
-   <td>12.3.2</td> <!-- No Sammendrag version -->
-   <td>12.3.2</td> <!-- ScaLA-nb version -->
-   <td>12.3.2</td> <!-- ScaLA-nn version -->
-   <td>12.3.2</td> <!-- NorQuAD version -->
-   <td>12.3.2</td> <!-- MMLU-no version -->
-   <td>12.3.2</td> <!-- HellaSwag-no version -->
-   </tr>
-  <tr class="not-merged-model">
    <td>timpal0l/Llama-3-8B-flashback-v1 (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">8030</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">128</td> <!-- Size of the model's vocabulary -->
@@ -2203,6 +2149,33 @@ title: Norwegian NLG 🇳🇴
    <td>12.7.0</td> <!-- NorQuAD version -->
    <td>12.7.0</td> <!-- MMLU-no version -->
    <td>12.7.0</td> <!-- HellaSwag-no version -->
+   </tr>
+  <tr class="not-merged-model">
+   <td>timpal0l/Mistral-7B-v0.1-flashback-v2 (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">5,054 ± 1,200 / 1,056 ± 339</td> <!-- Model inference speed -->
+   <td class="rank">2.90</td> <!-- ScandEval rank -->
+   <td class="no ner">48.97 ± 2.42 / 39.15 ± 2.78</td> <!-- NorNE-nb -->
+   <td class="no ner">51.52 ± 2.96 / 40.17 ± 3.62</td> <!-- NorNE-nn -->
+   <td class="no sent">49.05 ± 2.73 / 63.94 ± 2.42</td> <!-- NoReC -->
+   <td class="no summ">63.32 ± 1.58 / 16.33 ± 1.63</td> <!-- No Sammendrag -->
+   <td class="no la">14.37 ± 2.18 / 47.80 ± 4.36</td> <!-- ScaLA-nb -->
+   <td class="no la">9.96 ± 1.34 / 48.97 ± 3.77</td> <!-- ScaLA-nn -->
+   <td class="no rc">44.07 ± 3.40 / 68.49 ± 2.97</td> <!-- NorQuAD -->
+   <td class="no know">25.07 ± 1.48 / 43.13 ± 1.15</td> <!-- MMLU-no -->
+   <td class="no reason">15.56 ± 3.55 / 35.85 ± 2.56</td> <!-- HellaSwag-no -->
+   <td>12.5.3</td> <!-- NorNE-nb version -->
+   <td>12.5.3</td> <!-- NorNE-nn version -->
+   <td>12.5.3</td> <!-- NoReC version -->
+   <td>12.5.3</td> <!-- No Sammendrag version -->
+   <td>12.5.3</td> <!-- ScaLA-nb version -->
+   <td>12.5.3</td> <!-- ScaLA-nn version -->
+   <td>12.5.3</td> <!-- NorQuAD version -->
+   <td>12.5.3</td> <!-- MMLU-no version -->
+   <td>12.5.3</td> <!-- HellaSwag-no version -->
    </tr>
   <tr class="not-merged-model">
    <td>CohereForAI/c4ai-command-r-v01 (few-shot)</td> <!-- Model ID -->
@@ -2232,40 +2205,13 @@ title: Norwegian NLG 🇳🇴
    <td>14.1.1</td> <!-- HellaSwag-no version -->
    </tr>
   <tr class="not-merged-model">
-   <td>timpal0l/Mistral-7B-v0.1-flashback-v2 (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">5,054 ± 1,200 / 1,056 ± 339</td> <!-- Model inference speed -->
-   <td class="rank">2.91</td> <!-- ScandEval rank -->
-   <td class="no ner">48.97 ± 2.42 / 39.15 ± 2.78</td> <!-- NorNE-nb -->
-   <td class="no ner">51.52 ± 2.96 / 40.17 ± 3.62</td> <!-- NorNE-nn -->
-   <td class="no sent">49.05 ± 2.73 / 63.94 ± 2.42</td> <!-- NoReC -->
-   <td class="no summ">63.32 ± 1.58 / 16.33 ± 1.63</td> <!-- No Sammendrag -->
-   <td class="no la">14.37 ± 2.18 / 47.80 ± 4.36</td> <!-- ScaLA-nb -->
-   <td class="no la">9.96 ± 1.34 / 48.97 ± 3.77</td> <!-- ScaLA-nn -->
-   <td class="no rc">44.07 ± 3.40 / 68.49 ± 2.97</td> <!-- NorQuAD -->
-   <td class="no know">25.07 ± 1.48 / 43.13 ± 1.15</td> <!-- MMLU-no -->
-   <td class="no reason">15.56 ± 3.55 / 35.85 ± 2.56</td> <!-- HellaSwag-no -->
-   <td>12.5.3</td> <!-- NorNE-nb version -->
-   <td>12.5.3</td> <!-- NorNE-nn version -->
-   <td>12.5.3</td> <!-- NoReC version -->
-   <td>12.5.3</td> <!-- No Sammendrag version -->
-   <td>12.5.3</td> <!-- ScaLA-nb version -->
-   <td>12.5.3</td> <!-- ScaLA-nn version -->
-   <td>12.5.3</td> <!-- NorQuAD version -->
-   <td>12.5.3</td> <!-- MMLU-no version -->
-   <td>12.5.3</td> <!-- HellaSwag-no version -->
-   </tr>
-  <tr class="not-merged-model">
    <td>NbAiLab/nb-llama-3.1-70B (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">70554</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">128</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">131072</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">1,220 ± 411 / 158 ± 53</td> <!-- Model inference speed -->
-   <td class="rank">2.92</td> <!-- ScandEval rank -->
+   <td class="rank">2.91</td> <!-- ScandEval rank -->
    <td class="no ner">65.75 ± 2.00 / 59.69 ± 2.98</td> <!-- NorNE-nb -->
    <td class="no ner">70.12 ± 2.22 / 63.49 ± 3.83</td> <!-- NorNE-nn -->
    <td class="no sent">41.90 ± 3.43 / 49.94 ± 4.59</td> <!-- NoReC -->
@@ -2284,6 +2230,33 @@ title: Norwegian NLG 🇳🇴
    <td>14.0.4</td> <!-- NorQuAD version -->
    <td>14.0.4</td> <!-- MMLU-no version -->
    <td>14.0.4</td> <!-- HellaSwag-no version -->
+   </tr>
+  <tr class="not-merged-model">
+   <td>mhenrichsen/hestenettetLM (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">1,151 ± 294 / 227 ± 76</td> <!-- Model inference speed -->
+   <td class="rank">2.91</td> <!-- ScandEval rank -->
+   <td class="no ner">52.52 ± 1.85 / 43.46 ± 2.21</td> <!-- NorNE-nb -->
+   <td class="no ner">55.60 ± 3.22 / 45.25 ± 4.20</td> <!-- NorNE-nn -->
+   <td class="no sent">48.23 ± 3.31 / 65.51 ± 3.01</td> <!-- NoReC -->
+   <td class="no summ">63.53 ± 1.47 / 16.54 ± 1.59</td> <!-- No Sammendrag -->
+   <td class="no la">8.53 ± 3.72 / 38.61 ± 3.22</td> <!-- ScaLA-nb -->
+   <td class="no la">6.65 ± 1.40 / 39.32 ± 2.51</td> <!-- ScaLA-nn -->
+   <td class="no rc">46.89 ± 3.29 / 70.96 ± 2.84</td> <!-- NorQuAD -->
+   <td class="no know">27.67 ± 0.91 / 45.77 ± 0.66</td> <!-- MMLU-no -->
+   <td class="no reason">14.20 ± 3.45 / 34.89 ± 2.57</td> <!-- HellaSwag-no -->
+   <td>12.5.2</td> <!-- NorNE-nb version -->
+   <td>12.5.2</td> <!-- NorNE-nn version -->
+   <td>12.3.2</td> <!-- NoReC version -->
+   <td>12.3.2</td> <!-- No Sammendrag version -->
+   <td>12.3.2</td> <!-- ScaLA-nb version -->
+   <td>12.3.2</td> <!-- ScaLA-nn version -->
+   <td>12.3.2</td> <!-- NorQuAD version -->
+   <td>12.3.2</td> <!-- MMLU-no version -->
+   <td>12.3.2</td> <!-- HellaSwag-no version -->
    </tr>
   <tr class="not-merged-model">
    <td>mistralai/Mistral-7B-v0.1 (few-shot)</td> <!-- Model ID -->
@@ -2365,6 +2338,33 @@ title: Norwegian NLG 🇳🇴
    <td>9.3.1</td> <!-- NorQuAD version -->
    <td>9.3.1</td> <!-- MMLU-no version -->
    <td>9.3.1</td> <!-- HellaSwag-no version -->
+   </tr>
+  <tr class="not-merged-model">
+   <td>meta-llama/Meta-Llama-3-8B (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">8030</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">128</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">1,477 ± 376 / 285 ± 97</td> <!-- Model inference speed -->
+   <td class="rank">2.96</td> <!-- ScandEval rank -->
+   <td class="no ner">62.89 ± 2.01 / 50.34 ± 1.92</td> <!-- NorNE-nb -->
+   <td class="no ner">56.18 ± 3.26 / 47.30 ± 2.62</td> <!-- NorNE-nn -->
+   <td class="no sent">33.07 ± 0.73 / 37.60 ± 0.49</td> <!-- NoReC -->
+   <td class="no summ">61.95 ± 0.69 / 14.09 ± 0.61</td> <!-- No Sammendrag -->
+   <td class="no la">30.73 ± 3.19 / 64.06 ± 2.41</td> <!-- ScaLA-nb -->
+   <td class="no la">20.57 ± 3.62 / 54.22 ± 5.15</td> <!-- ScaLA-nn -->
+   <td class="no rc">30.77 ± 4.33 / 54.66 ± 4.41</td> <!-- NorQuAD -->
+   <td class="no know">30.95 ± 1.33 / 47.50 ± 0.99</td> <!-- MMLU-no -->
+   <td class="no reason">21.98 ± 2.12 / 41.07 ± 1.52</td> <!-- HellaSwag-no -->
+   <td>14.1.2</td> <!-- NorNE-nb version -->
+   <td>14.1.2</td> <!-- NorNE-nn version -->
+   <td>14.1.2</td> <!-- NoReC version -->
+   <td>14.1.2</td> <!-- No Sammendrag version -->
+   <td>14.1.2</td> <!-- ScaLA-nb version -->
+   <td>14.1.2</td> <!-- ScaLA-nn version -->
+   <td>14.1.2</td> <!-- NorQuAD version -->
+   <td>14.1.2</td> <!-- MMLU-no version -->
+   <td>14.1.2</td> <!-- HellaSwag-no version -->
    </tr>
   <tr class="not-merged-model">
    <td>alpindale/Mistral-7B-v0.2-hf (few-shot)</td> <!-- Model ID -->
@@ -2475,6 +2475,33 @@ title: Norwegian NLG 🇳🇴
    <td>11.0.0</td> <!-- HellaSwag-no version -->
    </tr>
   <tr class="not-merged-model">
+   <td>google/gemma-2-2b-it (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">2614</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">256</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">8193</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">5,374 ± 1,233 / 1,193 ± 377</td> <!-- Model inference speed -->
+   <td class="rank">3.02</td> <!-- ScandEval rank -->
+   <td class="no ner">35.56 ± 1.33 / 28.84 ± 2.19</td> <!-- NorNE-nb -->
+   <td class="no ner">37.70 ± 3.04 / 30.22 ± 2.39</td> <!-- NorNE-nn -->
+   <td class="no sent">46.84 ± 2.20 / 63.22 ± 1.89</td> <!-- NoReC -->
+   <td class="no summ">64.58 ± 0.33 / 17.00 ± 0.45</td> <!-- No Sammendrag -->
+   <td class="no la">17.15 ± 2.01 / 55.59 ± 2.04</td> <!-- ScaLA-nb -->
+   <td class="no la">14.38 ± 1.96 / 54.95 ± 1.73</td> <!-- ScaLA-nn -->
+   <td class="no rc">29.75 ± 1.52 / 63.79 ± 1.50</td> <!-- NorQuAD -->
+   <td class="no know">23.02 ± 1.05 / 41.85 ± 0.86</td> <!-- MMLU-no -->
+   <td class="no reason">33.13 ± 1.06 / 49.47 ± 0.83</td> <!-- HellaSwag-no -->
+   <td>13.0.0</td> <!-- NorNE-nb version -->
+   <td>13.0.0</td> <!-- NorNE-nn version -->
+   <td>13.0.0</td> <!-- NoReC version -->
+   <td>13.0.0</td> <!-- No Sammendrag version -->
+   <td>13.0.0</td> <!-- ScaLA-nb version -->
+   <td>13.0.0</td> <!-- ScaLA-nn version -->
+   <td>13.0.0</td> <!-- NorQuAD version -->
+   <td>13.0.0</td> <!-- MMLU-no version -->
+   <td>13.0.0</td> <!-- HellaSwag-no version -->
+   </tr>
+  <tr class="not-merged-model">
    <td>mistralai/Mistral-7B-Instruct-v0.2 (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -2527,33 +2554,6 @@ title: Norwegian NLG 🇳🇴
    <td>14.1.2</td> <!-- NorQuAD version -->
    <td>14.1.2</td> <!-- MMLU-no version -->
    <td>14.1.2</td> <!-- HellaSwag-no version -->
-   </tr>
-  <tr class="not-merged-model">
-   <td>google/gemma-2-2b-it (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">2614</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">256</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">8193</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">5,374 ± 1,233 / 1,193 ± 377</td> <!-- Model inference speed -->
-   <td class="rank">3.03</td> <!-- ScandEval rank -->
-   <td class="no ner">35.56 ± 1.33 / 28.84 ± 2.19</td> <!-- NorNE-nb -->
-   <td class="no ner">37.70 ± 3.04 / 30.22 ± 2.39</td> <!-- NorNE-nn -->
-   <td class="no sent">46.84 ± 2.20 / 63.22 ± 1.89</td> <!-- NoReC -->
-   <td class="no summ">64.58 ± 0.33 / 17.00 ± 0.45</td> <!-- No Sammendrag -->
-   <td class="no la">17.15 ± 2.01 / 55.59 ± 2.04</td> <!-- ScaLA-nb -->
-   <td class="no la">14.38 ± 1.96 / 54.95 ± 1.73</td> <!-- ScaLA-nn -->
-   <td class="no rc">29.75 ± 1.52 / 63.79 ± 1.50</td> <!-- NorQuAD -->
-   <td class="no know">23.02 ± 1.05 / 41.85 ± 0.86</td> <!-- MMLU-no -->
-   <td class="no reason">33.13 ± 1.06 / 49.47 ± 0.83</td> <!-- HellaSwag-no -->
-   <td>13.0.0</td> <!-- NorNE-nb version -->
-   <td>13.0.0</td> <!-- NorNE-nn version -->
-   <td>13.0.0</td> <!-- NoReC version -->
-   <td>13.0.0</td> <!-- No Sammendrag version -->
-   <td>13.0.0</td> <!-- ScaLA-nb version -->
-   <td>13.0.0</td> <!-- ScaLA-nn version -->
-   <td>13.0.0</td> <!-- NorQuAD version -->
-   <td>13.0.0</td> <!-- MMLU-no version -->
-   <td>13.0.0</td> <!-- HellaSwag-no version -->
    </tr>
   <tr class="not-merged-model">
    <td>occiglot/occiglot-7b-eu5-instruct (few-shot)</td> <!-- Model ID -->
@@ -2886,7 +2886,7 @@ title: Norwegian NLG 🇳🇴
    <td class="max_sequence_length">131072</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,996 ± 817 / 284 ± 96</td> <!-- Model inference speed -->
-   <td class="rank">3.19</td> <!-- ScandEval rank -->
+   <td class="rank">3.20</td> <!-- ScandEval rank -->
    <td class="no ner">35.54 ± 2.35 / 35.62 ± 2.50</td> <!-- NorNE-nb -->
    <td class="no ner">36.61 ± 1.95 / 37.38 ± 1.88</td> <!-- NorNE-nn -->
    <td class="no sent">32.18 ± 6.27 / 50.19 ± 5.62</td> <!-- NoReC -->
@@ -2993,8 +2993,8 @@ title: Norwegian NLG 🇳🇴
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">3,194 ± 687 / 650 ± 216</td> <!-- Model inference speed -->
-   <td class="rank">3.24</td> <!-- ScandEval rank -->
+   <td class="speed">8,681 ± 1,650 / 2,177 ± 717</td> <!-- Model inference speed -->
+   <td class="rank">3.25</td> <!-- ScandEval rank -->
    <td class="no ner">56.33 ± 1.63 / 36.68 ± 3.27</td> <!-- NorNE-nb -->
    <td class="no ner">54.68 ± 1.29 / 37.85 ± 3.79</td> <!-- NorNE-nn -->
    <td class="no sent">37.18 ± 1.30 / 55.44 ± 1.46</td> <!-- NoReC -->
@@ -3339,33 +3339,6 @@ title: Norwegian NLG 🇳🇴
    <td>9.3.1</td> <!-- HellaSwag-no version -->
    </tr>
   <tr class="not-merged-model">
-   <td>tollefj/nordavind-7b-instruct-warm (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">7248</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">33</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">6,450 ± 961 / 2,082 ± 658</td> <!-- Model inference speed -->
-   <td class="rank">3.38</td> <!-- ScandEval rank -->
-   <td class="no ner">38.82 ± 5.36 / 30.48 ± 1.91</td> <!-- NorNE-nb -->
-   <td class="no ner">43.28 ± 3.13 / 33.87 ± 3.30</td> <!-- NorNE-nn -->
-   <td class="no sent">38.05 ± 1.85 / 47.06 ± 3.97</td> <!-- NoReC -->
-   <td class="no summ">64.04 ± 1.06 / 17.41 ± 1.19</td> <!-- No Sammendrag -->
-   <td class="no la">8.45 ± 2.47 / 46.75 ± 3.97</td> <!-- ScaLA-nb -->
-   <td class="no la">7.50 ± 1.65 / 48.14 ± 4.65</td> <!-- ScaLA-nn -->
-   <td class="no rc">40.47 ± 2.77 / 64.21 ± 2.94</td> <!-- NorQuAD -->
-   <td class="no know">2.60 ± 1.14 / 25.13 ± 0.64</td> <!-- MMLU-no -->
-   <td class="no reason">3.83 ± 0.86 / 26.37 ± 0.88</td> <!-- HellaSwag-no -->
-   <td>12.5.2</td> <!-- NorNE-nb version -->
-   <td>12.5.2</td> <!-- NorNE-nn version -->
-   <td>12.3.2</td> <!-- NoReC version -->
-   <td>12.4.0</td> <!-- No Sammendrag version -->
-   <td>12.3.2</td> <!-- ScaLA-nb version -->
-   <td>12.3.2</td> <!-- ScaLA-nn version -->
-   <td>12.4.0</td> <!-- NorQuAD version -->
-   <td>12.3.2</td> <!-- MMLU-no version -->
-   <td>12.3.2</td> <!-- HellaSwag-no version -->
-   </tr>
-  <tr class="not-merged-model">
    <td>claude-3-5-haiku-20241022 (zero-shot, val)</td> <!-- Model ID -->
    <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">unknown</td> <!-- Size of the model's vocabulary -->
@@ -3393,13 +3366,40 @@ title: Norwegian NLG 🇳🇴
    <td>14.0.3</td> <!-- HellaSwag-no version -->
    </tr>
   <tr class="not-merged-model">
+   <td>tollefj/nordavind-7b-instruct-warm (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">7248</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">33</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">6,450 ± 961 / 2,082 ± 658</td> <!-- Model inference speed -->
+   <td class="rank">3.39</td> <!-- ScandEval rank -->
+   <td class="no ner">38.82 ± 5.36 / 30.48 ± 1.91</td> <!-- NorNE-nb -->
+   <td class="no ner">43.28 ± 3.13 / 33.87 ± 3.30</td> <!-- NorNE-nn -->
+   <td class="no sent">38.05 ± 1.85 / 47.06 ± 3.97</td> <!-- NoReC -->
+   <td class="no summ">64.04 ± 1.06 / 17.41 ± 1.19</td> <!-- No Sammendrag -->
+   <td class="no la">8.45 ± 2.47 / 46.75 ± 3.97</td> <!-- ScaLA-nb -->
+   <td class="no la">7.50 ± 1.65 / 48.14 ± 4.65</td> <!-- ScaLA-nn -->
+   <td class="no rc">40.47 ± 2.77 / 64.21 ± 2.94</td> <!-- NorQuAD -->
+   <td class="no know">2.60 ± 1.14 / 25.13 ± 0.64</td> <!-- MMLU-no -->
+   <td class="no reason">3.83 ± 0.86 / 26.37 ± 0.88</td> <!-- HellaSwag-no -->
+   <td>12.5.2</td> <!-- NorNE-nb version -->
+   <td>12.5.2</td> <!-- NorNE-nn version -->
+   <td>12.3.2</td> <!-- NoReC version -->
+   <td>12.4.0</td> <!-- No Sammendrag version -->
+   <td>12.3.2</td> <!-- ScaLA-nb version -->
+   <td>12.3.2</td> <!-- ScaLA-nn version -->
+   <td>12.4.0</td> <!-- NorQuAD version -->
+   <td>12.3.2</td> <!-- MMLU-no version -->
+   <td>12.3.2</td> <!-- HellaSwag-no version -->
+   </tr>
+  <tr class="not-merged-model">
    <td>NorwAI/NorwAI-Llama2-7B (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7033</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">68</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">4,438 ± 1,128 / 1,028 ± 346</td> <!-- Model inference speed -->
-   <td class="rank">3.40</td> <!-- ScandEval rank -->
+   <td class="rank">3.41</td> <!-- ScandEval rank -->
    <td class="no ner">31.45 ± 1.64 / 31.64 ± 1.89</td> <!-- NorNE-nb -->
    <td class="no ner">33.85 ± 1.95 / 34.29 ± 1.91</td> <!-- NorNE-nn -->
    <td class="no sent">36.06 ± 3.96 / 52.59 ± 4.67</td> <!-- NoReC -->
@@ -3534,7 +3534,7 @@ title: Norwegian NLG 🇳🇴
    <td class="max_sequence_length">1795</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">409 ± 53 / 182 ± 54</td> <!-- Model inference speed -->
-   <td class="rank">3.46</td> <!-- ScandEval rank -->
+   <td class="rank">3.47</td> <!-- ScandEval rank -->
    <td class="no ner">24.07 ± 5.59 / 19.09 ± 2.55</td> <!-- NorNE-nb -->
    <td class="no ner">26.67 ± 6.24 / 21.18 ± 2.80</td> <!-- NorNE-nn -->
    <td class="no sent">31.05 ± 7.03 / 45.69 ± 8.29</td> <!-- NoReC -->
@@ -3669,7 +3669,7 @@ title: Norwegian NLG 🇳🇴
    <td class="max_sequence_length">4099</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,080 ± 700 / 331 ± 117</td> <!-- Model inference speed -->
-   <td class="rank">3.56</td> <!-- ScandEval rank -->
+   <td class="rank">3.57</td> <!-- ScandEval rank -->
    <td class="no ner">40.40 ± 2.29 / 30.41 ± 2.07</td> <!-- NorNE-nb -->
    <td class="no ner">44.45 ± 3.61 / 34.06 ± 3.27</td> <!-- NorNE-nn -->
    <td class="no sent">40.79 ± 1.70 / 57.84 ± 2.77</td> <!-- NoReC -->
@@ -3804,7 +3804,7 @@ title: Norwegian NLG 🇳🇴
    <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">6,275 ± 1,193 / 1,755 ± 578</td> <!-- Model inference speed -->
-   <td class="rank">3.63</td> <!-- ScandEval rank -->
+   <td class="rank">3.64</td> <!-- ScandEval rank -->
    <td class="no ner">36.96 ± 3.10 / 34.68 ± 3.19</td> <!-- NorNE-nb -->
    <td class="no ner">39.38 ± 3.30 / 37.06 ± 3.49</td> <!-- NorNE-nn -->
    <td class="no sent">32.67 ± 2.52 / 44.37 ± 3.06</td> <!-- NoReC -->
@@ -4371,7 +4371,7 @@ title: Norwegian NLG 🇳🇴
    <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">16,249 ± 3,690 / 3,689 ± 1,226</td> <!-- Model inference speed -->
-   <td class="rank">3.97</td> <!-- ScandEval rank -->
+   <td class="rank">3.98</td> <!-- ScandEval rank -->
    <td class="no ner">26.70 ± 4.42 / 24.56 ± 2.10</td> <!-- NorNE-nb -->
    <td class="no ner">28.23 ± 3.78 / 28.27 ± 2.80</td> <!-- NorNE-nn -->
    <td class="no sent">23.25 ± 4.16 / 36.07 ± 4.20</td> <!-- NoReC -->
@@ -4392,33 +4392,6 @@ title: Norwegian NLG 🇳🇴
    <td>13.1.0</td> <!-- HellaSwag-no version -->
    </tr>
   <tr class="not-merged-model">
-   <td>meta-llama/Llama-3.2-1B (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">1236</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">128</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">131073</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">7,577 ± 1,884 / 1,555 ± 492</td> <!-- Model inference speed -->
-   <td class="rank">3.97</td> <!-- ScandEval rank -->
-   <td class="no ner">30.54 ± 3.75 / 29.88 ± 3.25</td> <!-- NorNE-nb -->
-   <td class="no ner">31.34 ± 4.72 / 30.46 ± 4.56</td> <!-- NorNE-nn -->
-   <td class="no sent">29.50 ± 4.18 / 49.19 ± 4.59</td> <!-- NoReC -->
-   <td class="no summ">53.31 ± 0.98 / 7.37 ± 0.54</td> <!-- No Sammendrag -->
-   <td class="no la">-0.13 ± 1.28 / 37.46 ± 3.25</td> <!-- ScaLA-nb -->
-   <td class="no la">0.02 ± 1.75 / 39.49 ± 4.41</td> <!-- ScaLA-nn -->
-   <td class="no rc">19.59 ± 5.61 / 34.02 ± 8.33</td> <!-- NorQuAD -->
-   <td class="no know">2.49 ± 1.09 / 25.63 ± 0.78</td> <!-- MMLU-no -->
-   <td class="no reason">2.53 ± 1.16 / 26.30 ± 0.82</td> <!-- HellaSwag-no -->
-   <td>13.0.0</td> <!-- NorNE-nb version -->
-   <td>13.0.0</td> <!-- NorNE-nn version -->
-   <td>13.0.0</td> <!-- NoReC version -->
-   <td>13.0.0</td> <!-- No Sammendrag version -->
-   <td>13.0.0</td> <!-- ScaLA-nb version -->
-   <td>13.0.0</td> <!-- ScaLA-nn version -->
-   <td>13.0.0</td> <!-- NorQuAD version -->
-   <td>13.0.0</td> <!-- MMLU-no version -->
-   <td>13.0.0</td> <!-- HellaSwag-no version -->
-   </tr>
-  <tr class="not-merged-model">
    <td>ibm-granite/granite-3b-code-base-2k (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">3483</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">49</td> <!-- Size of the model's vocabulary -->
@@ -4435,6 +4408,33 @@ title: Norwegian NLG 🇳🇴
    <td class="no rc">2.37 ± 0.20 / 12.14 ± 1.07</td> <!-- NorQuAD -->
    <td class="no know">8.68 ± 1.17 / 31.15 ± 0.84</td> <!-- MMLU-no -->
    <td class="no reason">6.19 ± 0.85 / 29.29 ± 0.77</td> <!-- HellaSwag-no -->
+   <td>13.0.0</td> <!-- NorNE-nb version -->
+   <td>13.0.0</td> <!-- NorNE-nn version -->
+   <td>13.0.0</td> <!-- NoReC version -->
+   <td>13.0.0</td> <!-- No Sammendrag version -->
+   <td>13.0.0</td> <!-- ScaLA-nb version -->
+   <td>13.0.0</td> <!-- ScaLA-nn version -->
+   <td>13.0.0</td> <!-- NorQuAD version -->
+   <td>13.0.0</td> <!-- MMLU-no version -->
+   <td>13.0.0</td> <!-- HellaSwag-no version -->
+   </tr>
+  <tr class="not-merged-model">
+   <td>meta-llama/Llama-3.2-1B (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">1236</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">128</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">131073</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">7,577 ± 1,884 / 1,555 ± 492</td> <!-- Model inference speed -->
+   <td class="rank">3.98</td> <!-- ScandEval rank -->
+   <td class="no ner">30.54 ± 3.75 / 29.88 ± 3.25</td> <!-- NorNE-nb -->
+   <td class="no ner">31.34 ± 4.72 / 30.46 ± 4.56</td> <!-- NorNE-nn -->
+   <td class="no sent">29.50 ± 4.18 / 49.19 ± 4.59</td> <!-- NoReC -->
+   <td class="no summ">53.31 ± 0.98 / 7.37 ± 0.54</td> <!-- No Sammendrag -->
+   <td class="no la">-0.13 ± 1.28 / 37.46 ± 3.25</td> <!-- ScaLA-nb -->
+   <td class="no la">0.02 ± 1.75 / 39.49 ± 4.41</td> <!-- ScaLA-nn -->
+   <td class="no rc">19.59 ± 5.61 / 34.02 ± 8.33</td> <!-- NorQuAD -->
+   <td class="no know">2.49 ± 1.09 / 25.63 ± 0.78</td> <!-- MMLU-no -->
+   <td class="no reason">2.53 ± 1.16 / 26.30 ± 0.82</td> <!-- HellaSwag-no -->
    <td>13.0.0</td> <!-- NorNE-nb version -->
    <td>13.0.0</td> <!-- NorNE-nn version -->
    <td>13.0.0</td> <!-- NoReC version -->
@@ -4614,7 +4614,7 @@ title: Norwegian NLG 🇳🇴
    <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">7,808 ± 2,183 / 1,289 ± 428</td> <!-- Model inference speed -->
-   <td class="rank">4.15</td> <!-- ScandEval rank -->
+   <td class="rank">4.16</td> <!-- ScandEval rank -->
    <td class="no ner">31.16 ± 1.45 / 30.20 ± 1.07</td> <!-- NorNE-nb -->
    <td class="no ner">29.73 ± 2.46 / 28.89 ± 2.68</td> <!-- NorNE-nn -->
    <td class="no sent">17.59 ± 2.80 / 35.34 ± 4.36</td> <!-- NoReC -->
@@ -4641,7 +4641,7 @@ title: Norwegian NLG 🇳🇴
    <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">8,597 ± 1,983 / 1,926 ± 600</td> <!-- Model inference speed -->
-   <td class="rank">4.17</td> <!-- ScandEval rank -->
+   <td class="rank">4.16</td> <!-- ScandEval rank -->
    <td class="no ner">27.37 ± 6.89 / 27.19 ± 7.19</td> <!-- NorNE-nb -->
    <td class="no ner">27.59 ± 6.34 / 28.03 ± 6.94</td> <!-- NorNE-nn -->
    <td class="no sent">18.09 ± 6.14 / 31.83 ± 6.77</td> <!-- NoReC -->
@@ -4743,33 +4743,6 @@ title: Norwegian NLG 🇳🇴
    <td>14.0.4</td> <!-- HellaSwag-no version -->
    </tr>
   <tr class="not-merged-model">
-   <td>PleIAs/Pleias-1.2b-Preview (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">1195</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">66</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">10,756 ± 3,589 / 1,157 ± 670</td> <!-- Model inference speed -->
-   <td class="rank">4.22</td> <!-- ScandEval rank -->
-   <td class="no ner">38.96 ± 2.67 / 36.82 ± 3.28</td> <!-- NorNE-nb -->
-   <td class="no ner">40.42 ± 2.43 / 38.81 ± 2.83</td> <!-- NorNE-nn -->
-   <td class="no sent">19.42 ± 3.09 / 26.64 ± 4.19</td> <!-- NoReC -->
-   <td class="no summ">49.86 ± 2.91 / 6.53 ± 1.00</td> <!-- No Sammendrag -->
-   <td class="no la">-0.13 ± 0.55 / 33.43 ± 0.23</td> <!-- ScaLA-nb -->
-   <td class="no la">0.77 ± 1.22 / 33.80 ± 0.25</td> <!-- ScaLA-nn -->
-   <td class="no rc">4.70 ± 1.89 / 8.66 ± 3.16</td> <!-- NorQuAD -->
-   <td class="no know">-0.21 ± 1.45 / 24.34 ± 0.86</td> <!-- MMLU-no -->
-   <td class="no reason">-0.56 ± 1.00 / 24.97 ± 0.77</td> <!-- HellaSwag-no -->
-   <td>14.0.4</td> <!-- NorNE-nb version -->
-   <td>14.0.4</td> <!-- NorNE-nn version -->
-   <td>14.1.2</td> <!-- NoReC version -->
-   <td>14.0.4</td> <!-- No Sammendrag version -->
-   <td>14.1.2</td> <!-- ScaLA-nb version -->
-   <td>14.1.2</td> <!-- ScaLA-nn version -->
-   <td>14.0.4</td> <!-- NorQuAD version -->
-   <td>14.0.4</td> <!-- MMLU-no version -->
-   <td>14.0.4</td> <!-- HellaSwag-no version -->
-   </tr>
-  <tr class="not-merged-model">
    <td>AI-Sweden-Models/gpt-sw3-126m-instruct (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">186</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
@@ -4795,6 +4768,60 @@ title: Norwegian NLG 🇳🇴
    <td>12.4.0</td> <!-- NorQuAD version -->
    <td>11.0.0</td> <!-- MMLU-no version -->
    <td>11.0.0</td> <!-- HellaSwag-no version -->
+   </tr>
+  <tr class="not-merged-model">
+   <td>PleIAs/Pleias-1.2b-Preview (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">1195</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">66</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">10,756 ± 3,589 / 1,157 ± 670</td> <!-- Model inference speed -->
+   <td class="rank">4.23</td> <!-- ScandEval rank -->
+   <td class="no ner">38.96 ± 2.67 / 36.82 ± 3.28</td> <!-- NorNE-nb -->
+   <td class="no ner">40.42 ± 2.43 / 38.81 ± 2.83</td> <!-- NorNE-nn -->
+   <td class="no sent">19.42 ± 3.09 / 26.64 ± 4.19</td> <!-- NoReC -->
+   <td class="no summ">49.86 ± 2.91 / 6.53 ± 1.00</td> <!-- No Sammendrag -->
+   <td class="no la">-0.13 ± 0.55 / 33.43 ± 0.23</td> <!-- ScaLA-nb -->
+   <td class="no la">0.77 ± 1.22 / 33.80 ± 0.25</td> <!-- ScaLA-nn -->
+   <td class="no rc">4.70 ± 1.89 / 8.66 ± 3.16</td> <!-- NorQuAD -->
+   <td class="no know">-0.21 ± 1.45 / 24.34 ± 0.86</td> <!-- MMLU-no -->
+   <td class="no reason">-0.56 ± 1.00 / 24.97 ± 0.77</td> <!-- HellaSwag-no -->
+   <td>14.0.4</td> <!-- NorNE-nb version -->
+   <td>14.0.4</td> <!-- NorNE-nn version -->
+   <td>14.1.2</td> <!-- NoReC version -->
+   <td>14.0.4</td> <!-- No Sammendrag version -->
+   <td>14.1.2</td> <!-- ScaLA-nb version -->
+   <td>14.1.2</td> <!-- ScaLA-nn version -->
+   <td>14.0.4</td> <!-- NorQuAD version -->
+   <td>14.0.4</td> <!-- MMLU-no version -->
+   <td>14.0.4</td> <!-- HellaSwag-no version -->
+   </tr>
+  <tr class="not-merged-model">
+   <td>tiiuae/Falcon3-1B-Instruct (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">1669</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">131</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">9,270 ± 2,690 / 1,434 ± 437</td> <!-- Model inference speed -->
+   <td class="rank">4.23</td> <!-- ScandEval rank -->
+   <td class="no ner">29.25 ± 2.15 / 28.34 ± 2.25</td> <!-- NorNE-nb -->
+   <td class="no ner">25.45 ± 1.96 / 24.62 ± 1.86</td> <!-- NorNE-nn -->
+   <td class="no sent">11.28 ± 0.71 / 22.46 ± 2.54</td> <!-- NoReC -->
+   <td class="no summ">55.58 ± 1.17 / 8.04 ± 0.65</td> <!-- No Sammendrag -->
+   <td class="no la">1.52 ± 1.26 / 40.82 ± 4.08</td> <!-- ScaLA-nb -->
+   <td class="no la">0.52 ± 1.60 / 41.23 ± 4.21</td> <!-- ScaLA-nn -->
+   <td class="no rc">8.47 ± 0.94 / 20.43 ± 2.10</td> <!-- NorQuAD -->
+   <td class="no know">2.62 ± 1.32 / 26.23 ± 0.92</td> <!-- MMLU-no -->
+   <td class="no reason">-0.06 ± 0.97 / 24.96 ± 0.73</td> <!-- HellaSwag-no -->
+   <td>14.1.2</td> <!-- NorNE-nb version -->
+   <td>14.1.2</td> <!-- NorNE-nn version -->
+   <td>14.1.2</td> <!-- NoReC version -->
+   <td>14.1.2</td> <!-- No Sammendrag version -->
+   <td>14.1.2</td> <!-- ScaLA-nb version -->
+   <td>14.1.2</td> <!-- ScaLA-nn version -->
+   <td>14.1.2</td> <!-- NorQuAD version -->
+   <td>14.1.2</td> <!-- MMLU-no version -->
+   <td>14.1.2</td> <!-- HellaSwag-no version -->
    </tr>
   <tr class="not-merged-model">
    <td>PleIAs/Pleias-Nano (few-shot)</td> <!-- Model ID -->
@@ -4938,7 +4965,7 @@ title: Norwegian NLG 🇳🇴
    <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">22,023 ± 6,203 / 3,675 ± 1,231</td> <!-- Model inference speed -->
-   <td class="rank">4.48</td> <!-- ScandEval rank -->
+   <td class="rank">4.49</td> <!-- ScandEval rank -->
    <td class="no ner">26.60 ± 1.99 / 23.60 ± 2.05</td> <!-- NorNE-nb -->
    <td class="no ner">23.70 ± 1.58 / 23.04 ± 2.17</td> <!-- NorNE-nn -->
    <td class="no sent">6.21 ± 2.55 / 23.74 ± 3.28</td> <!-- NoReC -->
@@ -4959,40 +4986,13 @@ title: Norwegian NLG 🇳🇴
    <td>13.1.0</td> <!-- HellaSwag-no version -->
    </tr>
   <tr class="not-merged-model">
-   <td>HuggingFaceTB/SmolLM2-360M-Instruct (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">362</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">49</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">21,777 ± 6,115 / 3,617 ± 1,211</td> <!-- Model inference speed -->
-   <td class="rank">4.49</td> <!-- ScandEval rank -->
-   <td class="no ner">20.37 ± 5.55 / 21.57 ± 3.57</td> <!-- NorNE-nb -->
-   <td class="no ner">21.27 ± 5.10 / 22.34 ± 4.41</td> <!-- NorNE-nn -->
-   <td class="no sent">7.60 ± 2.24 / 26.47 ± 2.89</td> <!-- NoReC -->
-   <td class="no summ">49.27 ± 1.15 / 7.39 ± 0.36</td> <!-- No Sammendrag -->
-   <td class="no la">1.31 ± 1.92 / 45.75 ± 3.36</td> <!-- ScaLA-nb -->
-   <td class="no la">0.51 ± 1.81 / 38.71 ± 2.95</td> <!-- ScaLA-nn -->
-   <td class="no rc">4.80 ± 1.18 / 10.53 ± 2.12</td> <!-- NorQuAD -->
-   <td class="no know">-0.90 ± 0.97 / 21.85 ± 0.55</td> <!-- MMLU-no -->
-   <td class="no reason">-1.00 ± 0.70 / 24.21 ± 0.55</td> <!-- HellaSwag-no -->
-   <td>13.1.0</td> <!-- NorNE-nb version -->
-   <td>13.1.0</td> <!-- NorNE-nn version -->
-   <td>13.1.0</td> <!-- NoReC version -->
-   <td>13.1.0</td> <!-- No Sammendrag version -->
-   <td>13.1.0</td> <!-- ScaLA-nb version -->
-   <td>13.1.0</td> <!-- ScaLA-nn version -->
-   <td>13.1.0</td> <!-- NorQuAD version -->
-   <td>13.1.0</td> <!-- MMLU-no version -->
-   <td>13.1.0</td> <!-- HellaSwag-no version -->
-   </tr>
-  <tr class="not-merged-model">
    <td>NbAiLab/nb-llama-3.2-1B (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">1236</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">128</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">131072</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">3,424 ± 1,080 / 464 ± 158</td> <!-- Model inference speed -->
-   <td class="rank">4.50</td> <!-- ScandEval rank -->
+   <td class="rank">4.49</td> <!-- ScandEval rank -->
    <td class="no ner">10.60 ± 5.84 / 10.10 ± 5.81</td> <!-- NorNE-nb -->
    <td class="no ner">22.63 ± 4.50 / 21.78 ± 4.61</td> <!-- NorNE-nn -->
    <td class="no sent">19.76 ± 6.05 / 25.69 ± 5.67</td> <!-- NoReC -->
@@ -5011,6 +5011,33 @@ title: Norwegian NLG 🇳🇴
    <td>14.0.4</td> <!-- NorQuAD version -->
    <td>14.0.4</td> <!-- MMLU-no version -->
    <td>14.0.4</td> <!-- HellaSwag-no version -->
+   </tr>
+  <tr class="not-merged-model">
+   <td>HuggingFaceTB/SmolLM2-360M-Instruct (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">362</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">49</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">21,777 ± 6,115 / 3,617 ± 1,211</td> <!-- Model inference speed -->
+   <td class="rank">4.50</td> <!-- ScandEval rank -->
+   <td class="no ner">20.37 ± 5.55 / 21.57 ± 3.57</td> <!-- NorNE-nb -->
+   <td class="no ner">21.27 ± 5.10 / 22.34 ± 4.41</td> <!-- NorNE-nn -->
+   <td class="no sent">7.60 ± 2.24 / 26.47 ± 2.89</td> <!-- NoReC -->
+   <td class="no summ">49.27 ± 1.15 / 7.39 ± 0.36</td> <!-- No Sammendrag -->
+   <td class="no la">1.31 ± 1.92 / 45.75 ± 3.36</td> <!-- ScaLA-nb -->
+   <td class="no la">0.51 ± 1.81 / 38.71 ± 2.95</td> <!-- ScaLA-nn -->
+   <td class="no rc">4.80 ± 1.18 / 10.53 ± 2.12</td> <!-- NorQuAD -->
+   <td class="no know">-0.90 ± 0.97 / 21.85 ± 0.55</td> <!-- MMLU-no -->
+   <td class="no reason">-1.00 ± 0.70 / 24.21 ± 0.55</td> <!-- HellaSwag-no -->
+   <td>13.1.0</td> <!-- NorNE-nb version -->
+   <td>13.1.0</td> <!-- NorNE-nn version -->
+   <td>13.1.0</td> <!-- NoReC version -->
+   <td>13.1.0</td> <!-- No Sammendrag version -->
+   <td>13.1.0</td> <!-- ScaLA-nb version -->
+   <td>13.1.0</td> <!-- ScaLA-nn version -->
+   <td>13.1.0</td> <!-- NorQuAD version -->
+   <td>13.1.0</td> <!-- MMLU-no version -->
+   <td>13.1.0</td> <!-- HellaSwag-no version -->
    </tr>
   <tr class="not-merged-model">
    <td>NbAiLab/nb-llama-3.2-3B (few-shot)</td> <!-- Model ID -->
@@ -5040,33 +5067,6 @@ title: Norwegian NLG 🇳🇴
    <td>14.0.4</td> <!-- HellaSwag-no version -->
    </tr>
   <tr class="not-merged-model">
-   <td>AI-Sweden-Models/gpt-sw3-126m (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">186</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">8,958 ± 1,815 / 2,240 ± 696</td> <!-- Model inference speed -->
-   <td class="rank">4.52</td> <!-- ScandEval rank -->
-   <td class="no ner">13.55 ± 6.73 / 15.90 ± 5.66</td> <!-- NorNE-nb -->
-   <td class="no ner">9.38 ± 4.88 / 11.18 ± 4.52</td> <!-- NorNE-nn -->
-   <td class="no sent">7.78 ± 3.76 / 21.70 ± 5.02</td> <!-- NoReC -->
-   <td class="no summ">51.68 ± 2.20 / 7.39 ± 0.89</td> <!-- No Sammendrag -->
-   <td class="no la">-1.46 ± 1.07 / 43.30 ± 2.30</td> <!-- ScaLA-nb -->
-   <td class="no la">-2.97 ± 1.29 / 44.41 ± 3.18</td> <!-- ScaLA-nn -->
-   <td class="no rc">2.32 ± 0.68 / 6.65 ± 1.90</td> <!-- NorQuAD -->
-   <td class="no know">0.39 ± 1.28 / 23.22 ± 0.56</td> <!-- MMLU-no -->
-   <td class="no reason">-0.80 ± 0.71 / 24.77 ± 0.62</td> <!-- HellaSwag-no -->
-   <td>9.2.0</td> <!-- NorNE-nb version -->
-   <td>9.2.0</td> <!-- NorNE-nn version -->
-   <td>9.2.0</td> <!-- NoReC version -->
-   <td>11.0.0</td> <!-- No Sammendrag version -->
-   <td>9.2.0</td> <!-- ScaLA-nb version -->
-   <td>9.2.0</td> <!-- ScaLA-nn version -->
-   <td>12.5.1</td> <!-- NorQuAD version -->
-   <td>9.2.0</td> <!-- MMLU-no version -->
-   <td>9.2.0</td> <!-- HellaSwag-no version -->
-   </tr>
-  <tr class="not-merged-model">
    <td>allenai/OLMo-7B-Twin-2T (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">6888</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
@@ -5092,6 +5092,33 @@ title: Norwegian NLG 🇳🇴
    <td>12.5.2</td> <!-- NorQuAD version -->
    <td>12.5.2</td> <!-- MMLU-no version -->
    <td>12.5.2</td> <!-- HellaSwag-no version -->
+   </tr>
+  <tr class="not-merged-model">
+   <td>AI-Sweden-Models/gpt-sw3-126m (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">186</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">8,958 ± 1,815 / 2,240 ± 696</td> <!-- Model inference speed -->
+   <td class="rank">4.53</td> <!-- ScandEval rank -->
+   <td class="no ner">13.55 ± 6.73 / 15.90 ± 5.66</td> <!-- NorNE-nb -->
+   <td class="no ner">9.38 ± 4.88 / 11.18 ± 4.52</td> <!-- NorNE-nn -->
+   <td class="no sent">7.78 ± 3.76 / 21.70 ± 5.02</td> <!-- NoReC -->
+   <td class="no summ">51.68 ± 2.20 / 7.39 ± 0.89</td> <!-- No Sammendrag -->
+   <td class="no la">-1.46 ± 1.07 / 43.30 ± 2.30</td> <!-- ScaLA-nb -->
+   <td class="no la">-2.97 ± 1.29 / 44.41 ± 3.18</td> <!-- ScaLA-nn -->
+   <td class="no rc">2.32 ± 0.68 / 6.65 ± 1.90</td> <!-- NorQuAD -->
+   <td class="no know">0.39 ± 1.28 / 23.22 ± 0.56</td> <!-- MMLU-no -->
+   <td class="no reason">-0.80 ± 0.71 / 24.77 ± 0.62</td> <!-- HellaSwag-no -->
+   <td>9.2.0</td> <!-- NorNE-nb version -->
+   <td>9.2.0</td> <!-- NorNE-nn version -->
+   <td>9.2.0</td> <!-- NoReC version -->
+   <td>11.0.0</td> <!-- No Sammendrag version -->
+   <td>9.2.0</td> <!-- ScaLA-nb version -->
+   <td>9.2.0</td> <!-- ScaLA-nn version -->
+   <td>12.5.1</td> <!-- NorQuAD version -->
+   <td>9.2.0</td> <!-- MMLU-no version -->
+   <td>9.2.0</td> <!-- HellaSwag-no version -->
    </tr>
   <tr class="not-merged-model">
    <td>NorwAI/NorwAI-Mistral-7B-pretrain (few-shot)</td> <!-- Model ID -->
@@ -5127,7 +5154,7 @@ title: Norwegian NLG 🇳🇴
    <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">10,242 ± 3,432 / 1,335 ± 484</td> <!-- Model inference speed -->
-   <td class="rank">4.53</td> <!-- ScandEval rank -->
+   <td class="rank">4.54</td> <!-- ScandEval rank -->
    <td class="no ner">26.59 ± 2.14 / 26.61 ± 2.49</td> <!-- NorNE-nb -->
    <td class="no ner">26.78 ± 1.46 / 26.94 ± 1.92</td> <!-- NorNE-nn -->
    <td class="no sent">7.91 ± 2.20 / 17.44 ± 3.42</td> <!-- NoReC -->
@@ -5175,33 +5202,6 @@ title: Norwegian NLG 🇳🇴
    <td>11.0.0</td> <!-- HellaSwag-no version -->
    </tr>
   <tr class="not-merged-model">
-   <td>RJuro/kanelsnegl-v0.1 (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">5,847 ± 1,029 / 1,640 ± 525</td> <!-- Model inference speed -->
-   <td class="rank">4.57</td> <!-- ScandEval rank -->
-   <td class="no ner">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- NorNE-nb -->
-   <td class="no ner">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- NorNE-nn -->
-   <td class="no sent">0.95 ± 0.80 / 9.68 ± 0.28</td> <!-- NoReC -->
-   <td class="no summ">59.32 ± 0.11 / 9.47 ± 0.12</td> <!-- No Sammendrag -->
-   <td class="no la">0.00 ± 0.00 / 33.25 ± 0.30</td> <!-- ScaLA-nb -->
-   <td class="no la">0.00 ± 0.00 / 32.79 ± 0.34</td> <!-- ScaLA-nn -->
-   <td class="no rc">0.00 ± 0.00 / 33.45 ± 0.27</td> <!-- NorQuAD -->
-   <td class="no know">0.18 ± 0.35 / 21.91 ± 0.52</td> <!-- MMLU-no -->
-   <td class="no reason">0.30 ± 0.40 / 25.03 ± 0.88</td> <!-- HellaSwag-no -->
-   <td>9.3.1</td> <!-- NorNE-nb version -->
-   <td>9.3.1</td> <!-- NorNE-nn version -->
-   <td>9.3.1</td> <!-- NoReC version -->
-   <td>11.0.0</td> <!-- No Sammendrag version -->
-   <td>9.3.1</td> <!-- ScaLA-nb version -->
-   <td>9.3.1</td> <!-- ScaLA-nn version -->
-   <td>12.5.1</td> <!-- NorQuAD version -->
-   <td>9.3.1</td> <!-- MMLU-no version -->
-   <td>9.3.1</td> <!-- HellaSwag-no version -->
-   </tr>
-  <tr class="not-merged-model">
    <td>RJuro/kanelsnegl-v0.2 (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -5227,6 +5227,33 @@ title: Norwegian NLG 🇳🇴
    <td>10.0.1</td> <!-- NorQuAD version -->
    <td>10.0.1</td> <!-- MMLU-no version -->
    <td>11.0.0</td> <!-- HellaSwag-no version -->
+   </tr>
+  <tr class="not-merged-model">
+   <td>RJuro/kanelsnegl-v0.1 (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">5,847 ± 1,029 / 1,640 ± 525</td> <!-- Model inference speed -->
+   <td class="rank">4.58</td> <!-- ScandEval rank -->
+   <td class="no ner">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- NorNE-nb -->
+   <td class="no ner">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- NorNE-nn -->
+   <td class="no sent">0.95 ± 0.80 / 9.68 ± 0.28</td> <!-- NoReC -->
+   <td class="no summ">59.32 ± 0.11 / 9.47 ± 0.12</td> <!-- No Sammendrag -->
+   <td class="no la">0.00 ± 0.00 / 33.25 ± 0.30</td> <!-- ScaLA-nb -->
+   <td class="no la">0.00 ± 0.00 / 32.79 ± 0.34</td> <!-- ScaLA-nn -->
+   <td class="no rc">0.00 ± 0.00 / 33.45 ± 0.27</td> <!-- NorQuAD -->
+   <td class="no know">0.18 ± 0.35 / 21.91 ± 0.52</td> <!-- MMLU-no -->
+   <td class="no reason">0.30 ± 0.40 / 25.03 ± 0.88</td> <!-- HellaSwag-no -->
+   <td>9.3.1</td> <!-- NorNE-nb version -->
+   <td>9.3.1</td> <!-- NorNE-nn version -->
+   <td>9.3.1</td> <!-- NoReC version -->
+   <td>11.0.0</td> <!-- No Sammendrag version -->
+   <td>9.3.1</td> <!-- ScaLA-nb version -->
+   <td>9.3.1</td> <!-- ScaLA-nn version -->
+   <td>12.5.1</td> <!-- NorQuAD version -->
+   <td>9.3.1</td> <!-- MMLU-no version -->
+   <td>9.3.1</td> <!-- HellaSwag-no version -->
    </tr>
   <tr class="not-merged-model">
    <td>allenai/OLMo-1B (few-shot)</td> <!-- Model ID -->

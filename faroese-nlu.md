@@ -3,7 +3,7 @@ layout: leaderboard
 title: Faroese NLU 🇫🇴
 ---
 
-<center>Last updated: 10/01/2025 12:30:26 CET</center>
+<center>Last updated: 11/01/2025 11:03:36 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -92,7 +92,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">1,219 ± 412 / 158 ± 53</td> <!-- Model inference speed -->
-   <td class="rank">2.42</td> <!-- ScandEval rank -->
+   <td class="rank">2.41</td> <!-- ScandEval rank -->
    <td class="fo ner">76.56 ± 1.09 / 58.59 ± 3.63</td> <!-- FoNE -->
    <td class="fo sent">46.61 ± 1.58 / 47.25 ± 1.29</td> <!-- FoSent -->
    <td class="fo la">23.45 ± 2.41 / 59.84 ± 1.99</td> <!-- ScaLA-fo -->
@@ -177,7 +177,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">8191</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">637 ± 306 / 92 ± 31</td> <!-- Model inference speed -->
-   <td class="rank">2.69</td> <!-- ScandEval rank -->
+   <td class="rank">2.68</td> <!-- ScandEval rank -->
    <td class="fo ner">68.00 ± 1.08 / 37.75 ± 1.09</td> <!-- FoNE -->
    <td class="fo sent">27.30 ± 4.69 / 30.12 ± 3.11</td> <!-- FoSent -->
    <td class="fo la">28.09 ± 3.31 / 54.91 ± 2.24</td> <!-- ScaLA-fo -->
@@ -228,7 +228,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">131072</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">1,208 ± 412 / 156 ± 53</td> <!-- Model inference speed -->
-   <td class="rank">2.73</td> <!-- ScandEval rank -->
+   <td class="rank">2.72</td> <!-- ScandEval rank -->
    <td class="fo ner">64.88 ± 1.71 / 37.91 ± 1.50</td> <!-- FoNE -->
    <td class="fo sent">52.56 ± 2.14 / 49.94 ± 1.21</td> <!-- FoSent -->
    <td class="fo la">14.28 ± 1.04 / 45.93 ± 2.64</td> <!-- ScaLA-fo -->
@@ -245,7 +245,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">30,231 ± 8,171 / 4,863 ± 1,598</td> <!-- Model inference speed -->
-   <td class="rank">2.78</td> <!-- ScandEval rank -->
+   <td class="rank">2.79</td> <!-- ScandEval rank -->
    <td class="fo ner">88.81 ± 0.65 / 89.12 ± 0.56</td> <!-- FoNE -->
    <td class="fo sent">15.45 ± 3.96 / 40.77 ± 4.75</td> <!-- FoSent -->
    <td class="fo la">30.92 ± 8.65 / 63.05 ± 4.66</td> <!-- ScaLA-fo -->
@@ -262,7 +262,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">20,637 ± 3,925 / 4,497 ± 1,502</td> <!-- Model inference speed -->
-   <td class="rank">2.81</td> <!-- ScandEval rank -->
+   <td class="rank">2.82</td> <!-- ScandEval rank -->
    <td class="fo ner">88.60 ± 0.60 / 89.37 ± 0.54</td> <!-- FoNE -->
    <td class="fo sent">6.70 ± 4.85 / 25.36 ± 7.25</td> <!-- FoSent -->
    <td class="fo la">46.81 ± 2.12 / 72.76 ± 1.40</td> <!-- ScaLA-fo -->
@@ -279,7 +279,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">8191</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">908 ± 303 / 96 ± 36</td> <!-- Model inference speed -->
-   <td class="rank">2.86</td> <!-- ScandEval rank -->
+   <td class="rank">2.85</td> <!-- ScandEval rank -->
    <td class="fo ner">53.92 ± 1.55 / 28.59 ± 1.28</td> <!-- FoNE -->
    <td class="fo sent">35.05 ± 3.84 / 34.41 ± 2.93</td> <!-- FoSent -->
    <td class="fo la">23.12 ± 4.18 / 60.20 ± 2.01</td> <!-- ScaLA-fo -->
@@ -312,7 +312,7 @@ title: Faroese NLU 🇫🇴
    <td class="vocabulary_size">128</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">1,007 ± 316 / 162 ± 45</td> <!-- Model inference speed -->
+   <td class="speed">1,483 ± 377 / 287 ± 97</td> <!-- Model inference speed -->
    <td class="rank">3.02</td> <!-- ScandEval rank -->
    <td class="fo ner">70.61 ± 1.12 / 68.27 ± 1.76</td> <!-- FoNE -->
    <td class="fo sent">45.78 ± 2.05 / 47.72 ± 1.15</td> <!-- FoSent -->
@@ -347,7 +347,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">8191</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">784 ± 310 / 95 ± 28</td> <!-- Model inference speed -->
-   <td class="rank">3.06</td> <!-- ScandEval rank -->
+   <td class="rank">3.05</td> <!-- ScandEval rank -->
    <td class="fo ner">73.80 ± 2.44 / 63.06 ± 3.84</td> <!-- FoNE -->
    <td class="fo sent">39.45 ± 8.53 / 62.38 ± 6.69</td> <!-- FoSent -->
    <td class="fo la">34.78 ± 4.81 / 63.14 ± 2.83</td> <!-- ScaLA-fo -->
@@ -364,7 +364,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">8191</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">436 ± 152 / 57 ± 21</td> <!-- Model inference speed -->
-   <td class="rank">3.08</td> <!-- ScandEval rank -->
+   <td class="rank">3.07</td> <!-- ScandEval rank -->
    <td class="fo ner">57.52 ± 2.17 / 36.36 ± 1.53</td> <!-- FoNE -->
    <td class="fo sent">13.18 ± 5.13 / 19.41 ± 3.41</td> <!-- FoSent -->
    <td class="fo la">28.03 ± 3.90 / 62.26 ± 2.03</td> <!-- ScaLA-fo -->
@@ -380,7 +380,7 @@ title: Faroese NLU 🇫🇴
    <td class="vocabulary_size">128</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">131072</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">1,005 ± 330 / 196 ± 74</td> <!-- Model inference speed -->
+   <td class="speed">1,473 ± 377 / 283 ± 96</td> <!-- Model inference speed -->
    <td class="rank">3.09</td> <!-- ScandEval rank -->
    <td class="fo ner">67.67 ± 1.31 / 59.86 ± 2.12</td> <!-- FoNE -->
    <td class="fo sent">48.54 ± 2.43 / 49.17 ± 1.48</td> <!-- FoSent -->
@@ -426,6 +426,23 @@ title: Faroese NLU 🇫🇴
    <td>13.0.0</td> <!-- FoQA version -->
    </tr>
   <tr class="not-merged-model">
+   <td>nvidia/mistral-nemo-minitron-8b-base (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">8414</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">131</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">2,470 ± 836 / 326 ± 111</td> <!-- Model inference speed -->
+   <td class="rank">3.20</td> <!-- ScandEval rank -->
+   <td class="fo ner">66.18 ± 1.87 / 62.76 ± 2.46</td> <!-- FoNE -->
+   <td class="fo sent">39.48 ± 3.86 / 56.83 ± 3.61</td> <!-- FoSent -->
+   <td class="fo la">5.78 ± 1.69 / 47.83 ± 3.37</td> <!-- ScaLA-fo -->
+   <td class="fo rc">44.81 ± 2.15 / 63.16 ± 2.38</td> <!-- FoQA -->
+   <td>14.1.1</td> <!-- FoNE version -->
+   <td>14.1.1</td> <!-- FoSent version -->
+   <td>14.1.1</td> <!-- ScaLA-fo version -->
+   <td>14.1.1</td> <!-- FoQA version -->
+   </tr>
+  <tr class="not-merged-model">
    <td>pere/roberta-base-exp-32</td> <!-- Model ID -->
    <td class="num_model_parameters">277</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
@@ -443,30 +460,13 @@ title: Faroese NLU 🇫🇴
    <td>13.0.0</td> <!-- FoQA version -->
    </tr>
   <tr class="not-merged-model">
-   <td>nvidia/mistral-nemo-minitron-8b-base (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">8414</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">131</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">2,470 ± 836 / 326 ± 111</td> <!-- Model inference speed -->
-   <td class="rank">3.21</td> <!-- ScandEval rank -->
-   <td class="fo ner">66.18 ± 1.87 / 62.76 ± 2.46</td> <!-- FoNE -->
-   <td class="fo sent">39.48 ± 3.86 / 56.83 ± 3.61</td> <!-- FoSent -->
-   <td class="fo la">5.78 ± 1.69 / 47.83 ± 3.37</td> <!-- ScaLA-fo -->
-   <td class="fo rc">44.81 ± 2.15 / 63.16 ± 2.38</td> <!-- FoQA -->
-   <td>14.1.1</td> <!-- FoNE version -->
-   <td>14.1.1</td> <!-- FoSent version -->
-   <td>14.1.1</td> <!-- ScaLA-fo version -->
-   <td>14.1.1</td> <!-- FoQA version -->
-   </tr>
-  <tr class="not-merged-model">
    <td>mgoin/Nemotron-4-340B-Instruct-hf-FP8 (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">341029</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">256</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">1,904 ± 475 / 361 ± 121</td> <!-- Model inference speed -->
-   <td class="rank">3.25</td> <!-- ScandEval rank -->
+   <td class="rank">3.24</td> <!-- ScandEval rank -->
    <td class="fo ner">55.31 ± 9.55 / 44.19 ± 6.59</td> <!-- FoNE -->
    <td class="fo sent">51.62 ± 10.21 / 62.71 ± 10.54</td> <!-- FoSent -->
    <td class="fo la">15.07 ± 1.77 / 54.46 ± 2.11</td> <!-- ScaLA-fo -->
@@ -483,7 +483,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">15,436 ± 2,820 / 3,704 ± 1,187</td> <!-- Model inference speed -->
-   <td class="rank">3.27</td> <!-- ScandEval rank -->
+   <td class="rank">3.28</td> <!-- ScandEval rank -->
    <td class="fo ner">88.14 ± 0.58 / 88.89 ± 0.52</td> <!-- FoNE -->
    <td class="fo sent">6.88 ± 5.56 / 24.40 ± 8.37</td> <!-- FoSent -->
    <td class="fo la">27.71 ± 9.67 / 61.60 ± 5.69</td> <!-- ScaLA-fo -->
@@ -534,7 +534,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">9,015 ± 2,966 / 1,121 ± 510</td> <!-- Model inference speed -->
-   <td class="rank">3.40</td> <!-- ScandEval rank -->
+   <td class="rank">3.39</td> <!-- ScandEval rank -->
    <td class="fo ner">58.62 ± 3.34 / 53.80 ± 3.15</td> <!-- FoNE -->
    <td class="fo sent">40.74 ± 5.37 / 57.33 ± 4.26</td> <!-- FoSent -->
    <td class="fo la">5.58 ± 2.68 / 45.68 ± 4.79</td> <!-- ScaLA-fo -->
@@ -551,7 +551,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">11,004 ± 2,244 / 2,324 ± 761</td> <!-- Model inference speed -->
-   <td class="rank">3.42</td> <!-- ScandEval rank -->
+   <td class="rank">3.43</td> <!-- ScandEval rank -->
    <td class="fo ner">87.79 ± 0.40 / 88.46 ± 0.31</td> <!-- FoNE -->
    <td class="fo sent">7.80 ± 5.19 / 24.52 ± 6.96</td> <!-- FoSent -->
    <td class="fo la">22.51 ± 10.65 / 55.58 ± 8.05</td> <!-- ScaLA-fo -->
@@ -585,7 +585,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">514</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">5,947 ± 1,301 / 1,129 ± 374</td> <!-- Model inference speed -->
-   <td class="rank">3.46</td> <!-- ScandEval rank -->
+   <td class="rank">3.47</td> <!-- ScandEval rank -->
    <td class="fo ner">88.64 ± 0.34 / 89.11 ± 0.29</td> <!-- FoNE -->
    <td class="fo sent">23.63 ± 6.26 / 44.37 ± 7.53</td> <!-- FoSent -->
    <td class="fo la">2.05 ± 2.30 / 47.88 ± 2.17</td> <!-- ScaLA-fo -->
@@ -619,7 +619,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,368 ± 793 / 317 ± 108</td> <!-- Model inference speed -->
-   <td class="rank">3.52</td> <!-- ScandEval rank -->
+   <td class="rank">3.51</td> <!-- ScandEval rank -->
    <td class="fo ner">62.60 ± 3.09 / 54.91 ± 2.40</td> <!-- FoNE -->
    <td class="fo sent">31.36 ± 5.40 / 50.13 ± 5.67</td> <!-- FoSent -->
    <td class="fo la">5.21 ± 3.15 / 46.32 ± 4.42</td> <!-- ScaLA-fo -->
@@ -628,23 +628,6 @@ title: Faroese NLU 🇫🇴
    <td>14.0.4</td> <!-- FoSent version -->
    <td>14.0.4</td> <!-- ScaLA-fo version -->
    <td>14.0.4</td> <!-- FoQA version -->
-   </tr>
-  <tr class="not-merged-model">
-   <td>intfloat/multilingual-e5-large</td> <!-- Model ID -->
-   <td class="num_model_parameters">559</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">6,732 ± 1,273 / 1,633 ± 523</td> <!-- Model inference speed -->
-   <td class="rank">3.52</td> <!-- ScandEval rank -->
-   <td class="fo ner">88.39 ± 0.86 / 88.75 ± 0.75</td> <!-- FoNE -->
-   <td class="fo sent">18.28 ± 3.38 / 39.08 ± 2.62</td> <!-- FoSent -->
-   <td class="fo la">2.85 ± 1.32 / 48.43 ± 2.29</td> <!-- ScaLA-fo -->
-   <td class="fo rc">31.03 ± 1.94 / 43.72 ± 2.89</td> <!-- FoQA -->
-   <td>0.0.0</td> <!-- FoNE version -->
-   <td>13.3.0</td> <!-- FoSent version -->
-   <td>0.0.0</td> <!-- ScaLA-fo version -->
-   <td>13.0.0</td> <!-- FoQA version -->
    </tr>
   <tr class="not-merged-model">
    <td>jonfd/electra-small-nordic</td> <!-- Model ID -->
@@ -664,6 +647,40 @@ title: Faroese NLU 🇫🇴
    <td>13.0.0</td> <!-- FoQA version -->
    </tr>
   <tr class="not-merged-model">
+   <td>intfloat/multilingual-e5-large</td> <!-- Model ID -->
+   <td class="num_model_parameters">559</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">6,732 ± 1,273 / 1,633 ± 523</td> <!-- Model inference speed -->
+   <td class="rank">3.53</td> <!-- ScandEval rank -->
+   <td class="fo ner">88.39 ± 0.86 / 88.75 ± 0.75</td> <!-- FoNE -->
+   <td class="fo sent">18.28 ± 3.38 / 39.08 ± 2.62</td> <!-- FoSent -->
+   <td class="fo la">2.85 ± 1.32 / 48.43 ± 2.29</td> <!-- ScaLA-fo -->
+   <td class="fo rc">31.03 ± 1.94 / 43.72 ± 2.89</td> <!-- FoQA -->
+   <td>0.0.0</td> <!-- FoNE version -->
+   <td>13.3.0</td> <!-- FoSent version -->
+   <td>0.0.0</td> <!-- ScaLA-fo version -->
+   <td>13.0.0</td> <!-- FoQA version -->
+   </tr>
+  <tr class="not-merged-model">
+   <td>CohereForAI/aya-expanse-8b (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">8028</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">256</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">2,686 ± 685 / 491 ± 164</td> <!-- Model inference speed -->
+   <td class="rank">3.54</td> <!-- ScandEval rank -->
+   <td class="fo ner">64.72 ± 1.73 / 47.25 ± 4.90</td> <!-- FoNE -->
+   <td class="fo sent">28.57 ± 4.08 / 50.22 ± 2.92</td> <!-- FoSent -->
+   <td class="fo la">5.12 ± 1.16 / 51.09 ± 0.89</td> <!-- ScaLA-fo -->
+   <td class="fo rc">38.83 ± 3.81 / 56.89 ± 3.51</td> <!-- FoQA -->
+   <td>14.0.4</td> <!-- FoNE version -->
+   <td>14.0.4</td> <!-- FoSent version -->
+   <td>14.0.4</td> <!-- ScaLA-fo version -->
+   <td>14.0.4</td> <!-- FoQA version -->
+   </tr>
+  <tr class="not-merged-model">
    <td>meta-llama/Llama-3.1-8B (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">8030</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">128</td> <!-- Size of the model's vocabulary -->
@@ -678,23 +695,6 @@ title: Faroese NLU 🇫🇴
    <td>14.0.4</td> <!-- FoNE version -->
    <td>14.1.2</td> <!-- FoSent version -->
    <td>14.1.2</td> <!-- ScaLA-fo version -->
-   <td>14.0.4</td> <!-- FoQA version -->
-   </tr>
-  <tr class="not-merged-model">
-   <td>CohereForAI/aya-expanse-8b (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">8028</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">256</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">2,686 ± 685 / 491 ± 164</td> <!-- Model inference speed -->
-   <td class="rank">3.55</td> <!-- ScandEval rank -->
-   <td class="fo ner">64.72 ± 1.73 / 47.25 ± 4.90</td> <!-- FoNE -->
-   <td class="fo sent">28.57 ± 4.08 / 50.22 ± 2.92</td> <!-- FoSent -->
-   <td class="fo la">5.12 ± 1.16 / 51.09 ± 0.89</td> <!-- ScaLA-fo -->
-   <td class="fo rc">38.83 ± 3.81 / 56.89 ± 3.51</td> <!-- FoQA -->
-   <td>14.0.4</td> <!-- FoNE version -->
-   <td>14.0.4</td> <!-- FoSent version -->
-   <td>14.0.4</td> <!-- ScaLA-fo version -->
    <td>14.0.4</td> <!-- FoQA version -->
    </tr>
   <tr class="not-merged-model">
@@ -738,7 +738,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">1,364 ± 343 / 266 ± 90</td> <!-- Model inference speed -->
-   <td class="rank">3.57</td> <!-- ScandEval rank -->
+   <td class="rank">3.56</td> <!-- ScandEval rank -->
    <td class="fo ner">61.32 ± 4.26 / 59.28 ± 4.43</td> <!-- FoNE -->
    <td class="fo sent">26.73 ± 4.70 / 45.03 ± 5.25</td> <!-- FoSent -->
    <td class="fo la">1.30 ± 1.64 / 45.10 ± 3.27</td> <!-- ScaLA-fo -->
@@ -772,7 +772,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,370 ± 416 / 711 ± 242</td> <!-- Model inference speed -->
-   <td class="rank">3.60</td> <!-- ScandEval rank -->
+   <td class="rank">3.59</td> <!-- ScandEval rank -->
    <td class="fo ner">61.28 ± 2.98 / 54.02 ± 3.55</td> <!-- FoNE -->
    <td class="fo sent">32.07 ± 3.55 / 51.69 ± 3.46</td> <!-- FoSent -->
    <td class="fo la">1.68 ± 1.41 / 50.06 ± 1.22</td> <!-- ScaLA-fo -->
@@ -789,7 +789,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">1,483 ± 321 / 379 ± 158</td> <!-- Model inference speed -->
-   <td class="rank">3.60</td> <!-- ScandEval rank -->
+   <td class="rank">3.59</td> <!-- ScandEval rank -->
    <td class="fo ner">54.79 ± 2.33 / 46.30 ± 4.57</td> <!-- FoNE -->
    <td class="fo sent">35.84 ± 8.64 / 48.22 ± 7.58</td> <!-- FoSent -->
    <td class="fo la">0.00 ± 0.00 / 33.26 ± 0.54</td> <!-- ScaLA-fo -->
@@ -817,13 +817,30 @@ title: Faroese NLU 🇫🇴
    <td>13.0.0</td> <!-- FoQA version -->
    </tr>
   <tr class="not-merged-model">
+   <td>meta-llama/Meta-Llama-3-8B (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">8030</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">128</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">1,477 ± 376 / 285 ± 97</td> <!-- Model inference speed -->
+   <td class="rank">3.62</td> <!-- ScandEval rank -->
+   <td class="fo ner">61.11 ± 4.21 / 58.55 ± 4.19</td> <!-- FoNE -->
+   <td class="fo sent">19.40 ± 8.13 / 32.14 ± 7.75</td> <!-- FoSent -->
+   <td class="fo la">2.02 ± 1.68 / 39.88 ± 3.56</td> <!-- ScaLA-fo -->
+   <td class="fo rc">50.34 ± 1.74 / 71.74 ± 1.27</td> <!-- FoQA -->
+   <td>12.6.1</td> <!-- FoNE version -->
+   <td>14.1.2</td> <!-- FoSent version -->
+   <td>12.6.1</td> <!-- ScaLA-fo version -->
+   <td>13.0.0</td> <!-- FoQA version -->
+   </tr>
+  <tr class="not-merged-model">
    <td>Geotrend/bert-base-25lang-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">151</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">85</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">13,908 ± 3,201 / 2,700 ± 872</td> <!-- Model inference speed -->
-   <td class="rank">3.62</td> <!-- ScandEval rank -->
+   <td class="rank">3.63</td> <!-- ScandEval rank -->
    <td class="fo ner">86.09 ± 1.03 / 86.85 ± 1.02</td> <!-- FoNE -->
    <td class="fo sent">5.17 ± 4.32 / 26.72 ± 6.11</td> <!-- FoSent -->
    <td class="fo la">15.24 ± 6.84 / 50.54 ± 4.85</td> <!-- ScaLA-fo -->
@@ -840,7 +857,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">17,757 ± 3,883 / 3,864 ± 1,237</td> <!-- Model inference speed -->
-   <td class="rank">3.62</td> <!-- ScandEval rank -->
+   <td class="rank">3.63</td> <!-- ScandEval rank -->
    <td class="fo ner">86.20 ± 0.50 / 86.91 ± 0.46</td> <!-- FoNE -->
    <td class="fo sent">19.12 ± 2.94 / 41.88 ± 2.47</td> <!-- FoSent -->
    <td class="fo la">11.80 ± 7.52 / 53.06 ± 5.04</td> <!-- ScaLA-fo -->
@@ -848,23 +865,6 @@ title: Faroese NLU 🇫🇴
    <td>12.10.5</td> <!-- FoNE version -->
    <td>13.3.0</td> <!-- FoSent version -->
    <td>12.10.5</td> <!-- ScaLA-fo version -->
-   <td>13.0.0</td> <!-- FoQA version -->
-   </tr>
-  <tr class="not-merged-model">
-   <td>meta-llama/Meta-Llama-3-8B (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">8030</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">128</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">1,335 ± 338 / 260 ± 88</td> <!-- Model inference speed -->
-   <td class="rank">3.62</td> <!-- ScandEval rank -->
-   <td class="fo ner">61.11 ± 4.21 / 58.55 ± 4.19</td> <!-- FoNE -->
-   <td class="fo sent">19.40 ± 8.13 / 32.14 ± 7.75</td> <!-- FoSent -->
-   <td class="fo la">2.02 ± 1.68 / 39.88 ± 3.56</td> <!-- ScaLA-fo -->
-   <td class="fo rc">50.34 ± 1.74 / 71.74 ± 1.27</td> <!-- FoQA -->
-   <td>12.6.1</td> <!-- FoNE version -->
-   <td>14.1.2</td> <!-- FoSent version -->
-   <td>12.6.1</td> <!-- ScaLA-fo version -->
    <td>13.0.0</td> <!-- FoQA version -->
    </tr>
   <tr class="not-merged-model">
@@ -942,7 +942,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">3,161 ± 676 / 1,247 ± 481</td> <!-- Model inference speed -->
-   <td class="rank">3.69</td> <!-- ScandEval rank -->
+   <td class="rank">3.68</td> <!-- ScandEval rank -->
    <td class="fo ner">67.72 ± 1.04 / 51.81 ± 3.32</td> <!-- FoNE -->
    <td class="fo sent">42.98 ± 3.22 / 60.44 ± 2.81</td> <!-- FoSent -->
    <td class="fo la">6.40 ± 1.61 / 51.02 ± 1.86</td> <!-- ScaLA-fo -->
@@ -1004,40 +1004,6 @@ title: Faroese NLU 🇫🇴
    <td>14.0.4</td> <!-- FoQA version -->
    </tr>
   <tr class="not-merged-model">
-   <td>mideind/IceBERT-ic3</td> <!-- Model ID -->
-   <td class="num_model_parameters">124</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">12,119 ± 1,576 / 3,812 ± 1,242</td> <!-- Model inference speed -->
-   <td class="rank">3.77</td> <!-- ScandEval rank -->
-   <td class="fo ner">87.22 ± 0.68 / 87.92 ± 0.59</td> <!-- FoNE -->
-   <td class="fo sent">15.94 ± 5.79 / 37.27 ± 7.66</td> <!-- FoSent -->
-   <td class="fo la">6.23 ± 6.96 / 48.55 ± 4.87</td> <!-- ScaLA-fo -->
-   <td class="fo rc">2.98 ± 1.75 / 4.35 ± 2.54</td> <!-- FoQA -->
-   <td>0.0.0</td> <!-- FoNE version -->
-   <td>13.3.0</td> <!-- FoSent version -->
-   <td>0.0.0</td> <!-- ScaLA-fo version -->
-   <td>13.0.0</td> <!-- FoQA version -->
-   </tr>
-  <tr class="not-merged-model">
-   <td>mideind/IceBERT</td> <!-- Model ID -->
-   <td class="num_model_parameters">124</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">16,697 ± 2,113 / 5,432 ± 1,749</td> <!-- Model inference speed -->
-   <td class="rank">3.77</td> <!-- ScandEval rank -->
-   <td class="fo ner">86.50 ± 0.96 / 87.11 ± 0.90</td> <!-- FoNE -->
-   <td class="fo sent">8.64 ± 5.25 / 29.80 ± 8.39</td> <!-- FoSent -->
-   <td class="fo la">10.13 ± 8.55 / 47.31 ± 7.04</td> <!-- ScaLA-fo -->
-   <td class="fo rc">5.35 ± 3.50 / 8.28 ± 5.36</td> <!-- FoQA -->
-   <td>0.0.0</td> <!-- FoNE version -->
-   <td>13.3.0</td> <!-- FoSent version -->
-   <td>0.0.0</td> <!-- ScaLA-fo version -->
-   <td>13.0.0</td> <!-- FoQA version -->
-   </tr>
-  <tr class="not-merged-model">
    <td>ibm-granite/granite-8b-code-base-4k (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">8055</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">49</td> <!-- Size of the model's vocabulary -->
@@ -1055,17 +1021,34 @@ title: Faroese NLU 🇫🇴
    <td>13.0.0</td> <!-- FoQA version -->
    </tr>
   <tr class="not-merged-model">
-   <td>FacebookAI/xlm-roberta-large</td> <!-- Model ID -->
-   <td class="num_model_parameters">559</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
+   <td>mideind/IceBERT-ic3</td> <!-- Model ID -->
+   <td class="num_model_parameters">124</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">17,897 ± 3,921 / 3,463 ± 1,141</td> <!-- Model inference speed -->
-   <td class="rank">3.79</td> <!-- ScandEval rank -->
-   <td class="fo ner">87.85 ± 0.95 / 88.21 ± 0.87</td> <!-- FoNE -->
-   <td class="fo sent">5.14 ± 5.42 / 22.03 ± 5.69</td> <!-- FoSent -->
-   <td class="fo la">1.17 ± 2.11 / 40.94 ± 5.07</td> <!-- ScaLA-fo -->
-   <td class="fo rc">27.72 ± 1.48 / 39.88 ± 2.04</td> <!-- FoQA -->
+   <td class="speed">12,119 ± 1,576 / 3,812 ± 1,242</td> <!-- Model inference speed -->
+   <td class="rank">3.78</td> <!-- ScandEval rank -->
+   <td class="fo ner">87.22 ± 0.68 / 87.92 ± 0.59</td> <!-- FoNE -->
+   <td class="fo sent">15.94 ± 5.79 / 37.27 ± 7.66</td> <!-- FoSent -->
+   <td class="fo la">6.23 ± 6.96 / 48.55 ± 4.87</td> <!-- ScaLA-fo -->
+   <td class="fo rc">2.98 ± 1.75 / 4.35 ± 2.54</td> <!-- FoQA -->
+   <td>0.0.0</td> <!-- FoNE version -->
+   <td>13.3.0</td> <!-- FoSent version -->
+   <td>0.0.0</td> <!-- ScaLA-fo version -->
+   <td>13.0.0</td> <!-- FoQA version -->
+   </tr>
+  <tr class="not-merged-model">
+   <td>mideind/IceBERT</td> <!-- Model ID -->
+   <td class="num_model_parameters">124</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">16,697 ± 2,113 / 5,432 ± 1,749</td> <!-- Model inference speed -->
+   <td class="rank">3.78</td> <!-- ScandEval rank -->
+   <td class="fo ner">86.50 ± 0.96 / 87.11 ± 0.90</td> <!-- FoNE -->
+   <td class="fo sent">8.64 ± 5.25 / 29.80 ± 8.39</td> <!-- FoSent -->
+   <td class="fo la">10.13 ± 8.55 / 47.31 ± 7.04</td> <!-- ScaLA-fo -->
+   <td class="fo rc">5.35 ± 3.50 / 8.28 ± 5.36</td> <!-- FoQA -->
    <td>0.0.0</td> <!-- FoNE version -->
    <td>13.3.0</td> <!-- FoSent version -->
    <td>0.0.0</td> <!-- ScaLA-fo version -->
@@ -1083,6 +1066,23 @@ title: Faroese NLU 🇫🇴
    <td class="fo sent">15.11 ± 7.40 / 38.19 ± 7.66</td> <!-- FoSent -->
    <td class="fo la">3.09 ± 1.98 / 39.41 ± 4.45</td> <!-- ScaLA-fo -->
    <td class="fo rc">5.75 ± 2.66 / 8.73 ± 4.07</td> <!-- FoQA -->
+   <td>0.0.0</td> <!-- FoNE version -->
+   <td>13.3.0</td> <!-- FoSent version -->
+   <td>0.0.0</td> <!-- ScaLA-fo version -->
+   <td>13.0.0</td> <!-- FoQA version -->
+   </tr>
+  <tr class="not-merged-model">
+   <td>FacebookAI/xlm-roberta-large</td> <!-- Model ID -->
+   <td class="num_model_parameters">559</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">17,897 ± 3,921 / 3,463 ± 1,141</td> <!-- Model inference speed -->
+   <td class="rank">3.80</td> <!-- ScandEval rank -->
+   <td class="fo ner">87.85 ± 0.95 / 88.21 ± 0.87</td> <!-- FoNE -->
+   <td class="fo sent">5.14 ± 5.42 / 22.03 ± 5.69</td> <!-- FoSent -->
+   <td class="fo la">1.17 ± 2.11 / 40.94 ± 5.07</td> <!-- ScaLA-fo -->
+   <td class="fo rc">27.72 ± 1.48 / 39.88 ± 2.04</td> <!-- FoQA -->
    <td>0.0.0</td> <!-- FoNE version -->
    <td>13.3.0</td> <!-- FoSent version -->
    <td>0.0.0</td> <!-- ScaLA-fo version -->
@@ -1225,13 +1225,30 @@ title: Faroese NLU 🇫🇴
    <td>13.0.0</td> <!-- FoQA version -->
    </tr>
   <tr class="not-merged-model">
+   <td>mistralai/Mistral-7B-Instruct-v0.1 (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">634 ± 179 / 110 ± 35</td> <!-- Model inference speed -->
+   <td class="rank">3.92</td> <!-- ScandEval rank -->
+   <td class="fo ner">55.42 ± 2.12 / 46.41 ± 2.50</td> <!-- FoNE -->
+   <td class="fo sent">15.85 ± 6.84 / 36.28 ± 7.13</td> <!-- FoSent -->
+   <td class="fo la">1.11 ± 2.41 / 36.79 ± 4.00</td> <!-- ScaLA-fo -->
+   <td class="fo rc">33.54 ± 1.29 / 50.80 ± 1.31</td> <!-- FoQA -->
+   <td>9.3.1</td> <!-- FoNE version -->
+   <td>13.3.0</td> <!-- FoSent version -->
+   <td>9.3.1</td> <!-- ScaLA-fo version -->
+   <td>13.0.0</td> <!-- FoQA version -->
+   </tr>
+  <tr class="not-merged-model">
    <td>KBLab/megatron-bert-base-swedish-cased-125k</td> <!-- Model ID -->
    <td class="num_model_parameters">135</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">15,763 ± 2,523 / 4,238 ± 1,370</td> <!-- Model inference speed -->
-   <td class="rank">3.93</td> <!-- ScandEval rank -->
+   <td class="rank">3.94</td> <!-- ScandEval rank -->
    <td class="fo ner">80.61 ± 0.91 / 81.31 ± 0.89</td> <!-- FoNE -->
    <td class="fo sent">2.87 ± 3.48 / 19.80 ± 4.75</td> <!-- FoSent -->
    <td class="fo la">9.60 ± 3.82 / 52.30 ± 1.73</td> <!-- ScaLA-fo -->
@@ -1242,20 +1259,20 @@ title: Faroese NLU 🇫🇴
    <td>13.0.0</td> <!-- FoQA version -->
    </tr>
   <tr class="not-merged-model">
-   <td>mistralai/Mistral-7B-Instruct-v0.1 (few-shot)</td> <!-- Model ID -->
+   <td>occiglot/occiglot-7b-eu5 (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">634 ± 179 / 110 ± 35</td> <!-- Model inference speed -->
-   <td class="rank">3.93</td> <!-- ScandEval rank -->
-   <td class="fo ner">55.42 ± 2.12 / 46.41 ± 2.50</td> <!-- FoNE -->
-   <td class="fo sent">15.85 ± 6.84 / 36.28 ± 7.13</td> <!-- FoSent -->
-   <td class="fo la">1.11 ± 2.41 / 36.79 ± 4.00</td> <!-- ScaLA-fo -->
-   <td class="fo rc">33.54 ± 1.29 / 50.80 ± 1.31</td> <!-- FoQA -->
-   <td>9.3.1</td> <!-- FoNE version -->
-   <td>13.3.0</td> <!-- FoSent version -->
-   <td>9.3.1</td> <!-- ScaLA-fo version -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">2,219 ± 427 / 717 ± 224</td> <!-- Model inference speed -->
+   <td class="rank">3.94</td> <!-- ScandEval rank -->
+   <td class="fo ner">58.67 ± 3.95 / 58.47 ± 3.96</td> <!-- FoNE -->
+   <td class="fo sent">10.39 ± 7.55 / 30.73 ± 6.92</td> <!-- FoSent -->
+   <td class="fo la">0.00 ± 0.00 / 33.26 ± 0.34</td> <!-- ScaLA-fo -->
+   <td class="fo rc">40.95 ± 1.80 / 55.82 ± 1.95</td> <!-- FoQA -->
+   <td>12.5.2</td> <!-- FoNE version -->
+   <td>14.1.2</td> <!-- FoSent version -->
+   <td>12.1.0</td> <!-- ScaLA-fo version -->
    <td>13.0.0</td> <!-- FoQA version -->
    </tr>
   <tr class="not-merged-model">
@@ -1310,51 +1327,17 @@ title: Faroese NLU 🇫🇴
    <td>13.0.0</td> <!-- FoQA version -->
    </tr>
   <tr class="not-merged-model">
-   <td>occiglot/occiglot-7b-eu5 (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">2,219 ± 427 / 717 ± 224</td> <!-- Model inference speed -->
-   <td class="rank">3.95</td> <!-- ScandEval rank -->
-   <td class="fo ner">58.67 ± 3.95 / 58.47 ± 3.96</td> <!-- FoNE -->
-   <td class="fo sent">10.39 ± 7.55 / 30.73 ± 6.92</td> <!-- FoSent -->
-   <td class="fo la">0.00 ± 0.00 / 33.26 ± 0.34</td> <!-- ScaLA-fo -->
-   <td class="fo rc">40.95 ± 1.80 / 55.82 ± 1.95</td> <!-- FoQA -->
-   <td>12.5.2</td> <!-- FoNE version -->
-   <td>14.1.2</td> <!-- FoSent version -->
-   <td>12.1.0</td> <!-- ScaLA-fo version -->
-   <td>13.0.0</td> <!-- FoQA version -->
-   </tr>
-  <tr class="not-merged-model">
    <td>vesteinn/IceBERT</td> <!-- Model ID -->
    <td class="num_model_parameters">163</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">12,360 ± 1,611 / 3,858 ± 1,246</td> <!-- Model inference speed -->
-   <td class="rank">3.95</td> <!-- ScandEval rank -->
+   <td class="rank">3.96</td> <!-- ScandEval rank -->
    <td class="fo ner">87.13 ± 0.58 / 87.70 ± 0.45</td> <!-- FoNE -->
    <td class="fo sent">8.64 ± 5.25 / 29.80 ± 8.39</td> <!-- FoSent -->
    <td class="fo la">3.66 ± 3.33 / 40.81 ± 4.34</td> <!-- ScaLA-fo -->
    <td class="fo rc">5.07 ± 3.59 / 8.05 ± 5.61</td> <!-- FoQA -->
-   <td>0.0.0</td> <!-- FoNE version -->
-   <td>13.3.0</td> <!-- FoSent version -->
-   <td>0.0.0</td> <!-- ScaLA-fo version -->
-   <td>13.0.0</td> <!-- FoQA version -->
-   </tr>
-  <tr class="not-merged-model">
-   <td>mideind/IceBERT-mC4-is</td> <!-- Model ID -->
-   <td class="num_model_parameters">163</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">12,308 ± 1,614 / 3,851 ± 1,254</td> <!-- Model inference speed -->
-   <td class="rank">3.98</td> <!-- ScandEval rank -->
-   <td class="fo ner">88.44 ± 0.35 / 89.11 ± 0.38</td> <!-- FoNE -->
-   <td class="fo sent">1.73 ± 3.39 / 17.03 ± 2.53</td> <!-- FoSent -->
-   <td class="fo la">11.83 ± 4.90 / 48.95 ± 6.81</td> <!-- ScaLA-fo -->
-   <td class="fo rc">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- FoQA -->
    <td>0.0.0</td> <!-- FoNE version -->
    <td>13.3.0</td> <!-- FoSent version -->
    <td>0.0.0</td> <!-- ScaLA-fo version -->
@@ -1378,23 +1361,6 @@ title: Faroese NLU 🇫🇴
    <td>13.0.0</td> <!-- FoQA version -->
    </tr>
   <tr class="not-merged-model">
-   <td>Geotrend/bert-base-da-cased</td> <!-- Model ID -->
-   <td class="num_model_parameters">103</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">23</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">15,432 ± 2,838 / 3,642 ± 1,189</td> <!-- Model inference speed -->
-   <td class="rank">3.99</td> <!-- ScandEval rank -->
-   <td class="fo ner">86.62 ± 0.43 / 87.31 ± 0.44</td> <!-- FoNE -->
-   <td class="fo sent">2.99 ± 2.41 / 22.15 ± 2.57</td> <!-- FoSent -->
-   <td class="fo la">3.64 ± 3.82 / 49.77 ± 2.26</td> <!-- ScaLA-fo -->
-   <td class="fo rc">13.84 ± 1.99 / 21.44 ± 2.62</td> <!-- FoQA -->
-   <td>0.0.0</td> <!-- FoNE version -->
-   <td>13.3.0</td> <!-- FoSent version -->
-   <td>0.0.0</td> <!-- ScaLA-fo version -->
-   <td>13.0.0</td> <!-- FoQA version -->
-   </tr>
-  <tr class="not-merged-model">
    <td>mideind/IceBERT-igc</td> <!-- Model ID -->
    <td class="num_model_parameters">124</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
@@ -1406,6 +1372,40 @@ title: Faroese NLU 🇫🇴
    <td class="fo sent">12.12 ± 5.60 / 32.60 ± 6.48</td> <!-- FoSent -->
    <td class="fo la">4.93 ± 3.16 / 45.85 ± 3.66</td> <!-- ScaLA-fo -->
    <td class="fo rc">5.17 ± 2.95 / 7.88 ± 4.65</td> <!-- FoQA -->
+   <td>0.0.0</td> <!-- FoNE version -->
+   <td>13.3.0</td> <!-- FoSent version -->
+   <td>0.0.0</td> <!-- ScaLA-fo version -->
+   <td>13.0.0</td> <!-- FoQA version -->
+   </tr>
+  <tr class="not-merged-model">
+   <td>mideind/IceBERT-mC4-is</td> <!-- Model ID -->
+   <td class="num_model_parameters">163</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">12,308 ± 1,614 / 3,851 ± 1,254</td> <!-- Model inference speed -->
+   <td class="rank">3.99</td> <!-- ScandEval rank -->
+   <td class="fo ner">88.44 ± 0.35 / 89.11 ± 0.38</td> <!-- FoNE -->
+   <td class="fo sent">1.73 ± 3.39 / 17.03 ± 2.53</td> <!-- FoSent -->
+   <td class="fo la">11.83 ± 4.90 / 48.95 ± 6.81</td> <!-- ScaLA-fo -->
+   <td class="fo rc">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- FoQA -->
+   <td>0.0.0</td> <!-- FoNE version -->
+   <td>13.3.0</td> <!-- FoSent version -->
+   <td>0.0.0</td> <!-- ScaLA-fo version -->
+   <td>13.0.0</td> <!-- FoQA version -->
+   </tr>
+  <tr class="not-merged-model">
+   <td>Geotrend/bert-base-da-cased</td> <!-- Model ID -->
+   <td class="num_model_parameters">103</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">23</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">15,432 ± 2,838 / 3,642 ± 1,189</td> <!-- Model inference speed -->
+   <td class="rank">4.00</td> <!-- ScandEval rank -->
+   <td class="fo ner">86.62 ± 0.43 / 87.31 ± 0.44</td> <!-- FoNE -->
+   <td class="fo sent">2.99 ± 2.41 / 22.15 ± 2.57</td> <!-- FoSent -->
+   <td class="fo la">3.64 ± 3.82 / 49.77 ± 2.26</td> <!-- ScaLA-fo -->
+   <td class="fo rc">13.84 ± 1.99 / 21.44 ± 2.62</td> <!-- FoQA -->
    <td>0.0.0</td> <!-- FoNE version -->
    <td>13.3.0</td> <!-- FoSent version -->
    <td>0.0.0</td> <!-- ScaLA-fo version -->
@@ -1435,7 +1435,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">15,726 ± 2,508 / 4,234 ± 1,365</td> <!-- Model inference speed -->
-   <td class="rank">4.01</td> <!-- ScandEval rank -->
+   <td class="rank">4.02</td> <!-- ScandEval rank -->
    <td class="fo ner">81.02 ± 0.75 / 81.74 ± 0.75</td> <!-- FoNE -->
    <td class="fo sent">7.39 ± 3.22 / 27.62 ± 2.64</td> <!-- FoSent -->
    <td class="fo la">4.00 ± 2.04 / 50.51 ± 1.11</td> <!-- ScaLA-fo -->
@@ -1443,6 +1443,23 @@ title: Faroese NLU 🇫🇴
    <td>12.7.0</td> <!-- FoNE version -->
    <td>13.3.0</td> <!-- FoSent version -->
    <td>12.7.0</td> <!-- ScaLA-fo version -->
+   <td>13.0.0</td> <!-- FoQA version -->
+   </tr>
+  <tr class="not-merged-model">
+   <td>meta-llama/Llama-2-7b-chat-hf (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">6738</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">2,643 ± 455 / 800 ± 247</td> <!-- Model inference speed -->
+   <td class="rank">4.04</td> <!-- ScandEval rank -->
+   <td class="fo ner">59.77 ± 3.38 / 56.97 ± 4.30</td> <!-- FoNE -->
+   <td class="fo sent">13.24 ± 5.37 / 38.49 ± 4.97</td> <!-- FoSent -->
+   <td class="fo la">-0.54 ± 1.61 / 36.94 ± 2.79</td> <!-- ScaLA-fo -->
+   <td class="fo rc">31.87 ± 2.20 / 46.21 ± 1.15</td> <!-- FoQA -->
+   <td>9.3.1</td> <!-- FoNE version -->
+   <td>13.3.0</td> <!-- FoSent version -->
+   <td>9.3.1</td> <!-- ScaLA-fo version -->
    <td>13.0.0</td> <!-- FoQA version -->
    </tr>
   <tr class="not-merged-model">
@@ -1463,23 +1480,6 @@ title: Faroese NLU 🇫🇴
    <td>13.0.0</td> <!-- FoQA version -->
    </tr>
   <tr class="not-merged-model">
-   <td>meta-llama/Llama-2-7b-chat-hf (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">6738</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">2,643 ± 455 / 800 ± 247</td> <!-- Model inference speed -->
-   <td class="rank">4.05</td> <!-- ScandEval rank -->
-   <td class="fo ner">59.77 ± 3.38 / 56.97 ± 4.30</td> <!-- FoNE -->
-   <td class="fo sent">13.24 ± 5.37 / 38.49 ± 4.97</td> <!-- FoSent -->
-   <td class="fo la">-0.54 ± 1.61 / 36.94 ± 2.79</td> <!-- ScaLA-fo -->
-   <td class="fo rc">31.87 ± 2.20 / 46.21 ± 1.15</td> <!-- FoQA -->
-   <td>9.3.1</td> <!-- FoNE version -->
-   <td>13.3.0</td> <!-- FoSent version -->
-   <td>9.3.1</td> <!-- ScaLA-fo version -->
-   <td>13.0.0</td> <!-- FoQA version -->
-   </tr>
-  <tr class="not-merged-model">
    <td>KBLab/megatron-bert-large-swedish-cased-110k</td> <!-- Model ID -->
    <td class="num_model_parameters">369</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
@@ -1497,6 +1497,23 @@ title: Faroese NLU 🇫🇴
    <td>13.0.0</td> <!-- FoQA version -->
    </tr>
   <tr class="not-merged-model">
+   <td>MaLA-LM/emma-500-llama2-7b (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">6738</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">6,275 ± 1,193 / 1,755 ± 578</td> <!-- Model inference speed -->
+   <td class="rank">4.06</td> <!-- ScandEval rank -->
+   <td class="fo ner">40.18 ± 3.60 / 39.95 ± 3.38</td> <!-- FoNE -->
+   <td class="fo sent">14.19 ± 8.12 / 28.15 ± 8.15</td> <!-- FoSent -->
+   <td class="fo la">0.31 ± 1.71 / 41.35 ± 4.05</td> <!-- ScaLA-fo -->
+   <td class="fo rc">41.60 ± 2.49 / 60.78 ± 2.12</td> <!-- FoQA -->
+   <td>13.0.0</td> <!-- FoNE version -->
+   <td>13.3.0</td> <!-- FoSent version -->
+   <td>13.0.0</td> <!-- ScaLA-fo version -->
+   <td>13.0.0</td> <!-- FoQA version -->
+   </tr>
+  <tr class="not-merged-model">
    <td>senseable/WestLake-7B-v2 (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">7242</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -1511,23 +1528,6 @@ title: Faroese NLU 🇫🇴
    <td>12.6.1</td> <!-- FoNE version -->
    <td>13.3.0</td> <!-- FoSent version -->
    <td>12.6.1</td> <!-- ScaLA-fo version -->
-   <td>13.0.0</td> <!-- FoQA version -->
-   </tr>
-  <tr class="not-merged-model">
-   <td>MaLA-LM/emma-500-llama2-7b (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">6738</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">6,275 ± 1,193 / 1,755 ± 578</td> <!-- Model inference speed -->
-   <td class="rank">4.08</td> <!-- ScandEval rank -->
-   <td class="fo ner">40.18 ± 3.60 / 39.95 ± 3.38</td> <!-- FoNE -->
-   <td class="fo sent">14.19 ± 8.12 / 28.15 ± 8.15</td> <!-- FoSent -->
-   <td class="fo la">0.31 ± 1.71 / 41.35 ± 4.05</td> <!-- ScaLA-fo -->
-   <td class="fo rc">41.60 ± 2.49 / 60.78 ± 2.12</td> <!-- FoQA -->
-   <td>13.0.0</td> <!-- FoNE version -->
-   <td>13.3.0</td> <!-- FoSent version -->
-   <td>13.0.0</td> <!-- ScaLA-fo version -->
    <td>13.0.0</td> <!-- FoQA version -->
    </tr>
   <tr class="not-merged-model">
@@ -1593,23 +1593,6 @@ title: Faroese NLU 🇫🇴
    <td class="fo sent">2.33 ± 1.48 / 20.95 ± 2.83</td> <!-- FoSent -->
    <td class="fo la">5.48 ± 2.42 / 49.18 ± 3.63</td> <!-- ScaLA-fo -->
    <td class="fo rc">11.29 ± 2.19 / 18.32 ± 2.98</td> <!-- FoQA -->
-   <td>0.0.0</td> <!-- FoNE version -->
-   <td>13.3.0</td> <!-- FoSent version -->
-   <td>0.0.0</td> <!-- ScaLA-fo version -->
-   <td>13.0.0</td> <!-- FoQA version -->
-   </tr>
-  <tr class="not-merged-model">
-   <td>patrickvonplaten/norwegian-roberta-base</td> <!-- Model ID -->
-   <td class="num_model_parameters">124</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">15,698 ± 2,699 / 3,891 ± 1,278</td> <!-- Model inference speed -->
-   <td class="rank">4.16</td> <!-- ScandEval rank -->
-   <td class="fo ner">82.57 ± 0.93 / 83.35 ± 0.91</td> <!-- FoNE -->
-   <td class="fo sent">1.68 ± 4.03 / 18.08 ± 3.73</td> <!-- FoSent -->
-   <td class="fo la">5.74 ± 3.53 / 48.75 ± 3.22</td> <!-- ScaLA-fo -->
-   <td class="fo rc">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- FoQA -->
    <td>0.0.0</td> <!-- FoNE version -->
    <td>13.3.0</td> <!-- FoSent version -->
    <td>0.0.0</td> <!-- ScaLA-fo version -->
@@ -1701,20 +1684,20 @@ title: Faroese NLU 🇫🇴
    <td>13.0.0</td> <!-- FoQA version -->
    </tr>
   <tr class="not-merged-model">
-   <td>Geotrend/distilbert-base-25lang-cased</td> <!-- Model ID -->
-   <td class="num_model_parameters">109</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">85</td> <!-- Size of the model's vocabulary -->
+   <td>patrickvonplaten/norwegian-roberta-base</td> <!-- Model ID -->
+   <td class="num_model_parameters">124</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">26,099 ± 5,881 / 5,178 ± 1,665</td> <!-- Model inference speed -->
-   <td class="rank">4.18</td> <!-- ScandEval rank -->
-   <td class="fo ner">83.21 ± 0.53 / 83.81 ± 0.45</td> <!-- FoNE -->
-   <td class="fo sent">3.90 ± 4.05 / 25.25 ± 5.25</td> <!-- FoSent -->
-   <td class="fo la">2.37 ± 4.63 / 48.46 ± 3.19</td> <!-- ScaLA-fo -->
-   <td class="fo rc">1.35 ± 1.03 / 2.54 ± 1.88</td> <!-- FoQA -->
-   <td>12.6.1</td> <!-- FoNE version -->
+   <td class="speed">15,698 ± 2,699 / 3,891 ± 1,278</td> <!-- Model inference speed -->
+   <td class="rank">4.17</td> <!-- ScandEval rank -->
+   <td class="fo ner">82.57 ± 0.93 / 83.35 ± 0.91</td> <!-- FoNE -->
+   <td class="fo sent">1.68 ± 4.03 / 18.08 ± 3.73</td> <!-- FoSent -->
+   <td class="fo la">5.74 ± 3.53 / 48.75 ± 3.22</td> <!-- ScaLA-fo -->
+   <td class="fo rc">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- FoQA -->
+   <td>0.0.0</td> <!-- FoNE version -->
    <td>13.3.0</td> <!-- FoSent version -->
-   <td>12.6.1</td> <!-- ScaLA-fo version -->
+   <td>0.0.0</td> <!-- ScaLA-fo version -->
    <td>13.0.0</td> <!-- FoQA version -->
    </tr>
   <tr class="not-merged-model">
@@ -1724,7 +1707,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">200000</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">277 ± 77 / 70 ± 25</td> <!-- Model inference speed -->
-   <td class="rank">4.19</td> <!-- ScandEval rank -->
+   <td class="rank">4.18</td> <!-- ScandEval rank -->
    <td class="fo ner">51.06 ± 1.45 / 30.27 ± 1.00</td> <!-- FoNE -->
    <td class="fo sent">-3.58 ± 4.03 / 14.94 ± 2.38</td> <!-- FoSent -->
    <td class="fo la">4.10 ± 4.03 / 37.28 ± 1.78</td> <!-- ScaLA-fo -->
@@ -1733,6 +1716,23 @@ title: Faroese NLU 🇫🇴
    <td>14.0.2</td> <!-- FoSent version -->
    <td>14.0.3</td> <!-- ScaLA-fo version -->
    <td>14.0.3</td> <!-- FoQA version -->
+   </tr>
+  <tr class="not-merged-model">
+   <td>Geotrend/distilbert-base-25lang-cased</td> <!-- Model ID -->
+   <td class="num_model_parameters">109</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">85</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">26,099 ± 5,881 / 5,178 ± 1,665</td> <!-- Model inference speed -->
+   <td class="rank">4.19</td> <!-- ScandEval rank -->
+   <td class="fo ner">83.21 ± 0.53 / 83.81 ± 0.45</td> <!-- FoNE -->
+   <td class="fo sent">3.90 ± 4.05 / 25.25 ± 5.25</td> <!-- FoSent -->
+   <td class="fo la">2.37 ± 4.63 / 48.46 ± 3.19</td> <!-- ScaLA-fo -->
+   <td class="fo rc">1.35 ± 1.03 / 2.54 ± 1.88</td> <!-- FoQA -->
+   <td>12.6.1</td> <!-- FoNE version -->
+   <td>13.3.0</td> <!-- FoSent version -->
+   <td>12.6.1</td> <!-- ScaLA-fo version -->
+   <td>13.0.0</td> <!-- FoQA version -->
    </tr>
   <tr class="not-merged-model">
    <td>flax-community/swe-roberta-wiki-oscar</td> <!-- Model ID -->
@@ -1752,23 +1752,6 @@ title: Faroese NLU 🇫🇴
    <td>13.0.0</td> <!-- FoQA version -->
    </tr>
   <tr class="not-merged-model">
-   <td>vesteinn/DanskBERT</td> <!-- Model ID -->
-   <td class="num_model_parameters">124</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">15,749 ± 2,665 / 4,014 ± 1,281</td> <!-- Model inference speed -->
-   <td class="rank">4.19</td> <!-- ScandEval rank -->
-   <td class="fo ner">85.04 ± 0.57 / 85.72 ± 0.50</td> <!-- FoNE -->
-   <td class="fo sent">2.02 ± 4.21 / 21.25 ± 5.15</td> <!-- FoSent -->
-   <td class="fo la">4.48 ± 1.63 / 44.45 ± 4.77</td> <!-- ScaLA-fo -->
-   <td class="fo rc">0.15 ± 0.29 / 0.21 ± 0.39</td> <!-- FoQA -->
-   <td>0.0.0</td> <!-- FoNE version -->
-   <td>13.3.0</td> <!-- FoSent version -->
-   <td>0.0.0</td> <!-- ScaLA-fo version -->
-   <td>13.0.0</td> <!-- FoQA version -->
-   </tr>
-  <tr class="not-merged-model">
    <td>sentence-transformers/paraphrase-multilingual-mpnet-base-v2</td> <!-- Model ID -->
    <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
@@ -1781,6 +1764,23 @@ title: Faroese NLU 🇫🇴
    <td class="fo la">0.25 ± 2.87 / 44.81 ± 2.90</td> <!-- ScaLA-fo -->
    <td class="fo rc">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- FoQA -->
    <td>12.7.0</td> <!-- FoNE version -->
+   <td>13.3.0</td> <!-- FoSent version -->
+   <td>0.0.0</td> <!-- ScaLA-fo version -->
+   <td>13.0.0</td> <!-- FoQA version -->
+   </tr>
+  <tr class="not-merged-model">
+   <td>vesteinn/DanskBERT</td> <!-- Model ID -->
+   <td class="num_model_parameters">124</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">15,749 ± 2,665 / 4,014 ± 1,281</td> <!-- Model inference speed -->
+   <td class="rank">4.20</td> <!-- ScandEval rank -->
+   <td class="fo ner">85.04 ± 0.57 / 85.72 ± 0.50</td> <!-- FoNE -->
+   <td class="fo sent">2.02 ± 4.21 / 21.25 ± 5.15</td> <!-- FoSent -->
+   <td class="fo la">4.48 ± 1.63 / 44.45 ± 4.77</td> <!-- ScaLA-fo -->
+   <td class="fo rc">0.15 ± 0.29 / 0.21 ± 0.39</td> <!-- FoQA -->
+   <td>0.0.0</td> <!-- FoNE version -->
    <td>13.3.0</td> <!-- FoSent version -->
    <td>0.0.0</td> <!-- ScaLA-fo version -->
    <td>13.0.0</td> <!-- FoQA version -->
@@ -1820,13 +1820,30 @@ title: Faroese NLU 🇫🇴
    <td>13.0.0</td> <!-- FoQA version -->
    </tr>
   <tr class="not-merged-model">
+   <td>DeepPavlov/rubert-base-cased</td> <!-- Model ID -->
+   <td class="num_model_parameters">177</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">120</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">15,785 ± 2,658 / 3,983 ± 1,289</td> <!-- Model inference speed -->
+   <td class="rank">4.24</td> <!-- ScandEval rank -->
+   <td class="fo ner">83.15 ± 0.73 / 83.90 ± 0.74</td> <!-- FoNE -->
+   <td class="fo sent">0.56 ± 4.44 / 29.23 ± 3.77</td> <!-- FoSent -->
+   <td class="fo la">3.21 ± 2.89 / 47.97 ± 3.56</td> <!-- ScaLA-fo -->
+   <td class="fo rc">1.53 ± 1.23 / 2.95 ± 2.23</td> <!-- FoQA -->
+   <td>0.0.0</td> <!-- FoNE version -->
+   <td>13.3.0</td> <!-- FoSent version -->
+   <td>0.0.0</td> <!-- ScaLA-fo version -->
+   <td>13.0.0</td> <!-- FoQA version -->
+   </tr>
+  <tr class="not-merged-model">
    <td>KB/bert-base-swedish-cased</td> <!-- Model ID -->
    <td class="num_model_parameters">124</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">16,181 ± 2,451 / 4,620 ± 1,507</td> <!-- Model inference speed -->
-   <td class="rank">4.23</td> <!-- ScandEval rank -->
+   <td class="rank">4.24</td> <!-- ScandEval rank -->
    <td class="fo ner">82.76 ± 1.26 / 83.50 ± 1.20</td> <!-- FoNE -->
    <td class="fo sent">3.46 ± 2.02 / 20.63 ± 3.68</td> <!-- FoSent -->
    <td class="fo la">3.98 ± 2.70 / 47.46 ± 2.35</td> <!-- ScaLA-fo -->
@@ -1843,28 +1860,11 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">9,707 ± 1,664 / 2,549 ± 831</td> <!-- Model inference speed -->
-   <td class="rank">4.23</td> <!-- ScandEval rank -->
+   <td class="rank">4.24</td> <!-- ScandEval rank -->
    <td class="fo ner">84.73 ± 1.49 / 85.19 ± 1.59</td> <!-- FoNE -->
    <td class="fo sent">-0.64 ± 3.87 / 22.47 ± 3.96</td> <!-- FoSent -->
    <td class="fo la">1.37 ± 2.46 / 39.78 ± 3.24</td> <!-- ScaLA-fo -->
    <td class="fo rc">4.15 ± 4.39 / 5.74 ± 6.06</td> <!-- FoQA -->
-   <td>0.0.0</td> <!-- FoNE version -->
-   <td>13.3.0</td> <!-- FoSent version -->
-   <td>0.0.0</td> <!-- ScaLA-fo version -->
-   <td>13.0.0</td> <!-- FoQA version -->
-   </tr>
-  <tr class="not-merged-model">
-   <td>DeepPavlov/rubert-base-cased</td> <!-- Model ID -->
-   <td class="num_model_parameters">177</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">120</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">15,785 ± 2,658 / 3,983 ± 1,289</td> <!-- Model inference speed -->
-   <td class="rank">4.24</td> <!-- ScandEval rank -->
-   <td class="fo ner">83.15 ± 0.73 / 83.90 ± 0.74</td> <!-- FoNE -->
-   <td class="fo sent">0.56 ± 4.44 / 29.23 ± 3.77</td> <!-- FoSent -->
-   <td class="fo la">3.21 ± 2.89 / 47.97 ± 3.56</td> <!-- ScaLA-fo -->
-   <td class="fo rc">1.53 ± 1.23 / 2.95 ± 2.23</td> <!-- FoQA -->
    <td>0.0.0</td> <!-- FoNE version -->
    <td>13.3.0</td> <!-- FoSent version -->
    <td>0.0.0</td> <!-- ScaLA-fo version -->
@@ -2013,27 +2013,10 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">24,291 ± 4,887 / 5,096 ± 1,655</td> <!-- Model inference speed -->
-   <td class="rank">4.31</td> <!-- ScandEval rank -->
+   <td class="rank">4.32</td> <!-- ScandEval rank -->
    <td class="fo ner">80.58 ± 0.45 / 81.29 ± 0.46</td> <!-- FoNE -->
    <td class="fo sent">3.06 ± 2.93 / 25.95 ± 1.54</td> <!-- FoSent -->
    <td class="fo la">1.58 ± 2.34 / 49.16 ± 2.33</td> <!-- ScaLA-fo -->
-   <td class="fo rc">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- FoQA -->
-   <td>0.0.0</td> <!-- FoNE version -->
-   <td>13.3.0</td> <!-- FoSent version -->
-   <td>0.0.0</td> <!-- ScaLA-fo version -->
-   <td>13.0.0</td> <!-- FoQA version -->
-   </tr>
-  <tr class="not-merged-model">
-   <td>microsoft/infoxlm-base</td> <!-- Model ID -->
-   <td class="num_model_parameters">277</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">34,735 ± 7,558 / 6,846 ± 2,312</td> <!-- Model inference speed -->
-   <td class="rank">4.34</td> <!-- ScandEval rank -->
-   <td class="fo ner">85.58 ± 1.04 / 86.23 ± 1.03</td> <!-- FoNE -->
-   <td class="fo sent">0.37 ± 2.84 / 16.66 ± 1.24</td> <!-- FoSent -->
-   <td class="fo la">0.35 ± 2.36 / 43.55 ± 4.58</td> <!-- ScaLA-fo -->
    <td class="fo rc">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- FoQA -->
    <td>0.0.0</td> <!-- FoNE version -->
    <td>13.3.0</td> <!-- FoSent version -->
@@ -2047,7 +2030,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">1,438 ± 410 / 233 ± 79</td> <!-- Model inference speed -->
-   <td class="rank">4.35</td> <!-- ScandEval rank -->
+   <td class="rank">4.33</td> <!-- ScandEval rank -->
    <td class="fo ner">39.78 ± 1.79 / 31.09 ± 2.58</td> <!-- FoNE -->
    <td class="fo sent">16.03 ± 6.81 / 39.68 ± 7.16</td> <!-- FoSent -->
    <td class="fo la">-0.48 ± 1.85 / 33.39 ± 0.49</td> <!-- ScaLA-fo -->
@@ -2056,6 +2039,23 @@ title: Faroese NLU 🇫🇴
    <td>14.0.4</td> <!-- FoSent version -->
    <td>14.0.4</td> <!-- ScaLA-fo version -->
    <td>14.0.4</td> <!-- FoQA version -->
+   </tr>
+  <tr class="not-merged-model">
+   <td>microsoft/infoxlm-base</td> <!-- Model ID -->
+   <td class="num_model_parameters">277</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">34,735 ± 7,558 / 6,846 ± 2,312</td> <!-- Model inference speed -->
+   <td class="rank">4.35</td> <!-- ScandEval rank -->
+   <td class="fo ner">85.58 ± 1.04 / 86.23 ± 1.03</td> <!-- FoNE -->
+   <td class="fo sent">0.37 ± 2.84 / 16.66 ± 1.24</td> <!-- FoSent -->
+   <td class="fo la">0.35 ± 2.36 / 43.55 ± 4.58</td> <!-- ScaLA-fo -->
+   <td class="fo rc">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- FoQA -->
+   <td>0.0.0</td> <!-- FoNE version -->
+   <td>13.3.0</td> <!-- FoSent version -->
+   <td>0.0.0</td> <!-- ScaLA-fo version -->
+   <td>13.0.0</td> <!-- FoQA version -->
    </tr>
   <tr class="not-merged-model">
    <td>Maltehb/aelaectra-danish-electra-small-uncased</td> <!-- Model ID -->
@@ -2075,6 +2075,23 @@ title: Faroese NLU 🇫🇴
    <td>13.0.0</td> <!-- FoQA version -->
    </tr>
   <tr class="not-merged-model">
+   <td>ibm-granite/granite-3.0-3b-a800m-instruct (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">3374</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">49</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">10,246 ± 3,021 / 1,629 ± 550</td> <!-- Model inference speed -->
+   <td class="rank">4.36</td> <!-- ScandEval rank -->
+   <td class="fo ner">45.56 ± 1.92 / 42.78 ± 1.78</td> <!-- FoNE -->
+   <td class="fo sent">7.44 ± 3.71 / 28.90 ± 5.97</td> <!-- FoSent -->
+   <td class="fo la">0.92 ± 2.19 / 40.29 ± 3.87</td> <!-- ScaLA-fo -->
+   <td class="fo rc">20.82 ± 1.22 / 31.49 ± 1.49</td> <!-- FoQA -->
+   <td>13.0.0</td> <!-- FoNE version -->
+   <td>13.3.0</td> <!-- FoSent version -->
+   <td>13.0.0</td> <!-- ScaLA-fo version -->
+   <td>13.0.0</td> <!-- FoQA version -->
+   </tr>
+  <tr class="not-merged-model">
    <td>DDSC/roberta-base-scandinavian</td> <!-- Model ID -->
    <td class="num_model_parameters">124</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">50</td> <!-- Size of the model's vocabulary -->
@@ -2089,23 +2106,6 @@ title: Faroese NLU 🇫🇴
    <td>0.0.0</td> <!-- FoNE version -->
    <td>13.3.0</td> <!-- FoSent version -->
    <td>0.0.0</td> <!-- ScaLA-fo version -->
-   <td>13.0.0</td> <!-- FoQA version -->
-   </tr>
-  <tr class="not-merged-model">
-   <td>ibm-granite/granite-3.0-3b-a800m-instruct (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">3374</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">49</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">10,246 ± 3,021 / 1,629 ± 550</td> <!-- Model inference speed -->
-   <td class="rank">4.37</td> <!-- ScandEval rank -->
-   <td class="fo ner">45.56 ± 1.92 / 42.78 ± 1.78</td> <!-- FoNE -->
-   <td class="fo sent">7.44 ± 3.71 / 28.90 ± 5.97</td> <!-- FoSent -->
-   <td class="fo la">0.92 ± 2.19 / 40.29 ± 3.87</td> <!-- ScaLA-fo -->
-   <td class="fo rc">20.82 ± 1.22 / 31.49 ± 1.49</td> <!-- FoQA -->
-   <td>13.0.0</td> <!-- FoNE version -->
-   <td>13.3.0</td> <!-- FoSent version -->
-   <td>13.0.0</td> <!-- ScaLA-fo version -->
    <td>13.0.0</td> <!-- FoQA version -->
    </tr>
   <tr class="not-merged-model">
@@ -2183,7 +2183,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">9,059 ± 1,947 / 2,201 ± 728</td> <!-- Model inference speed -->
-   <td class="rank">4.43</td> <!-- ScandEval rank -->
+   <td class="rank">4.42</td> <!-- ScandEval rank -->
    <td class="fo ner">56.88 ± 2.51 / 57.68 ± 2.14</td> <!-- FoNE -->
    <td class="fo sent">3.80 ± 5.87 / 28.41 ± 4.70</td> <!-- FoSent -->
    <td class="fo la">-0.21 ± 2.20 / 34.20 ± 1.19</td> <!-- ScaLA-fo -->
@@ -2200,7 +2200,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">15,523 ± 2,863 / 3,690 ± 1,195</td> <!-- Model inference speed -->
-   <td class="rank">4.44</td> <!-- ScandEval rank -->
+   <td class="rank">4.43</td> <!-- ScandEval rank -->
    <td class="fo ner">60.57 ± 0.86 / 60.42 ± 0.90</td> <!-- FoNE -->
    <td class="fo sent">2.58 ± 3.12 / 27.61 ± 2.89</td> <!-- FoSent -->
    <td class="fo la">4.16 ± 2.63 / 47.13 ± 3.43</td> <!-- ScaLA-fo -->
@@ -2217,7 +2217,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">20,070 ± 3,977 / 4,400 ± 1,435</td> <!-- Model inference speed -->
-   <td class="rank">4.47</td> <!-- ScandEval rank -->
+   <td class="rank">4.46</td> <!-- ScandEval rank -->
    <td class="fo ner">59.50 ± 1.56 / 58.98 ± 1.55</td> <!-- FoNE -->
    <td class="fo sent">0.94 ± 4.40 / 23.64 ± 4.57</td> <!-- FoSent -->
    <td class="fo la">3.25 ± 2.04 / 49.77 ± 1.40</td> <!-- ScaLA-fo -->
@@ -2285,7 +2285,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">10,504 ± 3,028 / 1,678 ± 559</td> <!-- Model inference speed -->
-   <td class="rank">4.57</td> <!-- ScandEval rank -->
+   <td class="rank">4.56</td> <!-- ScandEval rank -->
    <td class="fo ner">41.27 ± 4.31 / 40.85 ± 4.31</td> <!-- FoNE -->
    <td class="fo sent">5.40 ± 3.00 / 17.90 ± 2.95</td> <!-- FoSent -->
    <td class="fo la">-0.20 ± 2.17 / 43.01 ± 3.39</td> <!-- ScaLA-fo -->
@@ -2319,7 +2319,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">15,971 ± 3,654 / 3,609 ± 1,197</td> <!-- Model inference speed -->
-   <td class="rank">4.70</td> <!-- ScandEval rank -->
+   <td class="rank">4.69</td> <!-- ScandEval rank -->
    <td class="fo ner">40.28 ± 3.29 / 42.15 ± 2.85</td> <!-- FoNE -->
    <td class="fo sent">3.94 ± 3.10 / 30.51 ± 3.43</td> <!-- FoSent -->
    <td class="fo la">-0.26 ± 1.92 / 38.29 ± 4.03</td> <!-- ScaLA-fo -->
@@ -2353,7 +2353,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">15,009 ± 4,072 / 2,702 ± 878</td> <!-- Model inference speed -->
-   <td class="rank">4.81</td> <!-- ScandEval rank -->
+   <td class="rank">4.80</td> <!-- ScandEval rank -->
    <td class="fo ner">33.53 ± 3.87 / 35.41 ± 3.77</td> <!-- FoNE -->
    <td class="fo sent">4.25 ± 5.04 / 26.21 ± 4.24</td> <!-- FoSent -->
    <td class="fo la">-2.32 ± 2.11 / 45.19 ± 2.78</td> <!-- ScaLA-fo -->
@@ -2370,7 +2370,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">16,249 ± 3,690 / 3,689 ± 1,226</td> <!-- Model inference speed -->
-   <td class="rank">4.87</td> <!-- ScandEval rank -->
+   <td class="rank">4.86</td> <!-- ScandEval rank -->
    <td class="fo ner">27.91 ± 4.97 / 30.98 ± 4.28</td> <!-- FoNE -->
    <td class="fo sent">0.77 ± 4.14 / 23.56 ± 3.58</td> <!-- FoSent -->
    <td class="fo la">-0.48 ± 0.89 / 33.97 ± 1.00</td> <!-- ScaLA-fo -->
@@ -2387,7 +2387,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">10,756 ± 3,589 / 1,157 ± 670</td> <!-- Model inference speed -->
-   <td class="rank">4.88</td> <!-- ScandEval rank -->
+   <td class="rank">4.87</td> <!-- ScandEval rank -->
    <td class="fo ner">38.91 ± 4.57 / 39.53 ± 3.74</td> <!-- FoNE -->
    <td class="fo sent">-1.72 ± 2.43 / 16.58 ± 3.29</td> <!-- FoSent -->
    <td class="fo la">0.66 ± 0.95 / 33.60 ± 0.66</td> <!-- ScaLA-fo -->
@@ -2404,7 +2404,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">21,777 ± 6,115 / 3,617 ± 1,211</td> <!-- Model inference speed -->
-   <td class="rank">5.05</td> <!-- ScandEval rank -->
+   <td class="rank">5.03</td> <!-- ScandEval rank -->
    <td class="fo ner">26.85 ± 3.99 / 27.35 ± 3.60</td> <!-- FoNE -->
    <td class="fo sent">3.07 ± 2.88 / 28.68 ± 2.63</td> <!-- FoSent -->
    <td class="fo la">-0.12 ± 1.62 / 45.84 ± 3.59</td> <!-- ScaLA-fo -->
@@ -2421,28 +2421,11 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">10,242 ± 3,432 / 1,335 ± 484</td> <!-- Model inference speed -->
-   <td class="rank">5.05</td> <!-- ScandEval rank -->
+   <td class="rank">5.03</td> <!-- ScandEval rank -->
    <td class="fo ner">31.99 ± 3.53 / 32.31 ± 3.75</td> <!-- FoNE -->
    <td class="fo sent">0.00 ± 0.00 / 13.57 ± 0.43</td> <!-- FoSent -->
    <td class="fo la">0.48 ± 1.60 / 37.69 ± 4.37</td> <!-- ScaLA-fo -->
    <td class="fo rc">0.29 ± 0.29 / 0.89 ± 0.74</td> <!-- FoQA -->
-   <td>14.0.4</td> <!-- FoNE version -->
-   <td>14.1.2</td> <!-- FoSent version -->
-   <td>14.1.2</td> <!-- ScaLA-fo version -->
-   <td>14.0.4</td> <!-- FoQA version -->
-   </tr>
-  <tr class="not-merged-model">
-   <td>PleIAs/Pleias-Nano (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">1195</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">66</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">2,519 ± 841 / 323 ± 104</td> <!-- Model inference speed -->
-   <td class="rank">5.07</td> <!-- ScandEval rank -->
-   <td class="fo ner">20.76 ± 6.32 / 22.79 ± 5.85</td> <!-- FoNE -->
-   <td class="fo sent">-1.78 ± 2.38 / 16.36 ± 2.94</td> <!-- FoSent -->
-   <td class="fo la">0.87 ± 1.94 / 34.86 ± 1.71</td> <!-- ScaLA-fo -->
-   <td class="fo rc">3.58 ± 2.75 / 6.25 ± 4.69</td> <!-- FoQA -->
    <td>14.0.4</td> <!-- FoNE version -->
    <td>14.1.2</td> <!-- FoSent version -->
    <td>14.1.2</td> <!-- ScaLA-fo version -->
@@ -2455,7 +2438,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">25,602 ± 7,583 / 3,953 ± 1,325</td> <!-- Model inference speed -->
-   <td class="rank">5.08</td> <!-- ScandEval rank -->
+   <td class="rank">5.06</td> <!-- ScandEval rank -->
    <td class="fo ner">23.22 ± 3.22 / 24.30 ± 2.81</td> <!-- FoNE -->
    <td class="fo sent">3.78 ± 2.95 / 27.36 ± 2.62</td> <!-- FoSent -->
    <td class="fo la">0.41 ± 2.39 / 39.64 ± 3.47</td> <!-- ScaLA-fo -->
@@ -2466,13 +2449,30 @@ title: Faroese NLU 🇫🇴
    <td>13.1.0</td> <!-- FoQA version -->
    </tr>
   <tr class="not-merged-model">
+   <td>PleIAs/Pleias-Nano (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">1195</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">66</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">2,519 ± 841 / 323 ± 104</td> <!-- Model inference speed -->
+   <td class="rank">5.06</td> <!-- ScandEval rank -->
+   <td class="fo ner">20.76 ± 6.32 / 22.79 ± 5.85</td> <!-- FoNE -->
+   <td class="fo sent">-1.78 ± 2.38 / 16.36 ± 2.94</td> <!-- FoSent -->
+   <td class="fo la">0.87 ± 1.94 / 34.86 ± 1.71</td> <!-- ScaLA-fo -->
+   <td class="fo rc">3.58 ± 2.75 / 6.25 ± 4.69</td> <!-- FoQA -->
+   <td>14.0.4</td> <!-- FoNE version -->
+   <td>14.1.2</td> <!-- FoSent version -->
+   <td>14.1.2</td> <!-- ScaLA-fo version -->
+   <td>14.0.4</td> <!-- FoQA version -->
+   </tr>
+  <tr class="not-merged-model">
    <td>HuggingFaceTB/SmolLM2-360M (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">362</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">49</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">22,023 ± 6,203 / 3,675 ± 1,231</td> <!-- Model inference speed -->
-   <td class="rank">5.09</td> <!-- ScandEval rank -->
+   <td class="rank">5.08</td> <!-- ScandEval rank -->
    <td class="fo ner">28.14 ± 2.42 / 28.12 ± 2.55</td> <!-- FoNE -->
    <td class="fo sent">-0.56 ± 5.13 / 23.83 ± 3.35</td> <!-- FoSent -->
    <td class="fo la">-0.06 ± 0.67 / 33.85 ± 0.68</td> <!-- ScaLA-fo -->
@@ -2489,7 +2489,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">6,513 ± 1,241 / 1,282 ± 644</td> <!-- Model inference speed -->
-   <td class="rank">5.10</td> <!-- ScandEval rank -->
+   <td class="rank">5.08</td> <!-- ScandEval rank -->
    <td class="fo ner">22.75 ± 5.63 / 23.52 ± 4.86</td> <!-- FoNE -->
    <td class="fo sent">-0.03 ± 6.54 / 23.66 ± 3.61</td> <!-- FoSent -->
    <td class="fo la">-0.78 ± 1.59 / 33.93 ± 0.87</td> <!-- ScaLA-fo -->
@@ -2506,7 +2506,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">26,346 ± 7,812 / 4,082 ± 1,372</td> <!-- Model inference speed -->
-   <td class="rank">5.12</td> <!-- ScandEval rank -->
+   <td class="rank">5.10</td> <!-- ScandEval rank -->
    <td class="fo ner">25.51 ± 2.40 / 26.43 ± 1.77</td> <!-- FoNE -->
    <td class="fo sent">-0.24 ± 2.92 / 26.18 ± 4.52</td> <!-- FoSent -->
    <td class="fo la">0.46 ± 1.43 / 36.19 ± 3.30</td> <!-- ScaLA-fo -->
@@ -2517,13 +2517,30 @@ title: Faroese NLU 🇫🇴
    <td>13.1.0</td> <!-- FoQA version -->
    </tr>
   <tr class="not-merged-model">
+   <td>tiiuae/Falcon3-1B-Instruct (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">1669</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">131</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">9,270 ± 2,690 / 1,434 ± 437</td> <!-- Model inference speed -->
+   <td class="rank">5.10</td> <!-- ScandEval rank -->
+   <td class="fo ner">14.18 ± 3.48 / 13.89 ± 3.46</td> <!-- FoNE -->
+   <td class="fo sent">2.36 ± 2.76 / 17.70 ± 4.11</td> <!-- FoSent -->
+   <td class="fo la">2.29 ± 2.66 / 48.34 ± 3.37</td> <!-- ScaLA-fo -->
+   <td class="fo rc">6.35 ± 1.25 / 12.91 ± 1.66</td> <!-- FoQA -->
+   <td>14.1.2</td> <!-- FoNE version -->
+   <td>14.1.2</td> <!-- FoSent version -->
+   <td>14.1.2</td> <!-- ScaLA-fo version -->
+   <td>14.1.2</td> <!-- FoQA version -->
+   </tr>
+  <tr class="not-merged-model">
    <td>PleIAs/Pleias-Pico (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">353</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">66</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">2,331 ± 787 / 301 ± 97</td> <!-- Model inference speed -->
-   <td class="rank">5.13</td> <!-- ScandEval rank -->
+   <td class="rank">5.11</td> <!-- ScandEval rank -->
    <td class="fo ner">22.55 ± 5.84 / 22.62 ± 6.04</td> <!-- FoNE -->
    <td class="fo sent">0.67 ± 1.52 / 13.76 ± 0.51</td> <!-- FoSent -->
    <td class="fo la">0.87 ± 1.83 / 38.38 ± 4.75</td> <!-- ScaLA-fo -->
@@ -2540,7 +2557,7 @@ title: Faroese NLU 🇫🇴
    <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">7,692 ± 1,423 / 1,960 ± 644</td> <!-- Model inference speed -->
-   <td class="rank">5.52</td> <!-- ScandEval rank -->
+   <td class="rank">5.49</td> <!-- ScandEval rank -->
    <td class="fo ner">0.00 ± 0.00 / 0.00 ± 0.00</td> <!-- FoNE -->
    <td class="fo sent">0.74 ± 1.78 / 13.97 ± 0.80</td> <!-- FoSent -->
    <td class="fo la">0.00 ± 0.00 / 33.40 ± 0.34</td> <!-- ScaLA-fo -->

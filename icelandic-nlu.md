@@ -3,7 +3,7 @@ layout: leaderboard
 title: Icelandic NLU 🇮🇸
 ---
 
-<center>Last updated: 10/01/2025 12:30:20 CET</center>
+<center>Last updated: 11/01/2025 11:03:30 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -177,7 +177,7 @@ title: Icelandic NLU 🇮🇸
    <td class="max_sequence_length">514</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">15,623 ± 2,828 / 3,737 ± 1,191</td> <!-- Model inference speed -->
-   <td class="rank">1.76</td> <!-- ScandEval rank -->
+   <td class="rank">1.77</td> <!-- ScandEval rank -->
    <td class="is ner">85.04 ± 0.95 / 80.51 ± 1.10</td> <!-- MIM-GOLD-NER -->
    <td class="is sent">48.45 ± 1.37 / 64.80 ± 1.08</td> <!-- Hotter-and-Colder-sentiment -->
    <td class="is la">50.78 ± 2.21 / 73.10 ± 1.10</td> <!-- ScaLA-is -->
@@ -669,7 +669,7 @@ title: Icelandic NLU 🇮🇸
    <td class="vocabulary_size">128</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">1,007 ± 316 / 162 ± 45</td> <!-- Model inference speed -->
+   <td class="speed">1,483 ± 377 / 287 ± 97</td> <!-- Model inference speed -->
    <td class="rank">2.53</td> <!-- ScandEval rank -->
    <td class="is ner">60.20 ± 2.76 / 40.38 ± 4.22</td> <!-- MIM-GOLD-NER -->
    <td class="is sent">38.09 ± 2.38 / 54.51 ± 2.16</td> <!-- Hotter-and-Colder-sentiment -->
@@ -703,7 +703,7 @@ title: Icelandic NLU 🇮🇸
    <td class="vocabulary_size">128</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">1,335 ± 338 / 260 ± 88</td> <!-- Model inference speed -->
+   <td class="speed">1,477 ± 376 / 285 ± 97</td> <!-- Model inference speed -->
    <td class="rank">2.58</td> <!-- ScandEval rank -->
    <td class="is ner">50.45 ± 1.95 / 37.62 ± 3.95</td> <!-- MIM-GOLD-NER -->
    <td class="is sent">34.68 ± 3.74 / 53.39 ± 3.75</td> <!-- Hotter-and-Colder-sentiment -->
@@ -754,7 +754,7 @@ title: Icelandic NLU 🇮🇸
    <td class="vocabulary_size">128</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">131072</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">1,005 ± 330 / 196 ± 74</td> <!-- Model inference speed -->
+   <td class="speed">1,473 ± 377 / 283 ± 96</td> <!-- Model inference speed -->
    <td class="rank">2.66</td> <!-- ScandEval rank -->
    <td class="is ner">46.48 ± 1.98 / 24.57 ± 1.73</td> <!-- MIM-GOLD-NER -->
    <td class="is sent">39.91 ± 2.35 / 57.39 ± 1.64</td> <!-- Hotter-and-Colder-sentiment -->
@@ -1021,23 +1021,6 @@ title: Icelandic NLU 🇮🇸
    <td>14.0.4</td> <!-- NQiI version -->
    </tr>
   <tr class="not-merged-model">
-   <td>mistralai/Mistral-7B-v0.3 (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">7248</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">33</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">1,364 ± 343 / 266 ± 90</td> <!-- Model inference speed -->
-   <td class="rank">3.06</td> <!-- ScandEval rank -->
-   <td class="is ner">46.73 ± 3.51 / 38.01 ± 4.18</td> <!-- MIM-GOLD-NER -->
-   <td class="is sent">26.28 ± 4.82 / 46.42 ± 4.24</td> <!-- Hotter-and-Colder-sentiment -->
-   <td class="is la">1.50 ± 1.18 / 36.24 ± 1.65</td> <!-- ScaLA-is -->
-   <td class="is rc">25.17 ± 3.82 / 50.14 ± 2.43</td> <!-- NQiI -->
-   <td>14.0.3</td> <!-- MIM-GOLD-NER version -->
-   <td>14.1.2</td> <!-- Hotter-and-Colder-sentiment version -->
-   <td>14.1.2</td> <!-- ScaLA-is version -->
-   <td>14.0.3</td> <!-- NQiI version -->
-   </tr>
-  <tr class="not-merged-model">
    <td>microsoft/infoxlm-base</td> <!-- Model ID -->
    <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
@@ -1053,6 +1036,23 @@ title: Icelandic NLU 🇮🇸
    <td>13.3.0</td> <!-- Hotter-and-Colder-sentiment version -->
    <td>0.0.0</td> <!-- ScaLA-is version -->
    <td>0.0.0</td> <!-- NQiI version -->
+   </tr>
+  <tr class="not-merged-model">
+   <td>mistralai/Mistral-7B-v0.3 (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">7248</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">33</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">1,364 ± 343 / 266 ± 90</td> <!-- Model inference speed -->
+   <td class="rank">3.07</td> <!-- ScandEval rank -->
+   <td class="is ner">46.73 ± 3.51 / 38.01 ± 4.18</td> <!-- MIM-GOLD-NER -->
+   <td class="is sent">26.28 ± 4.82 / 46.42 ± 4.24</td> <!-- Hotter-and-Colder-sentiment -->
+   <td class="is la">1.50 ± 1.18 / 36.24 ± 1.65</td> <!-- ScaLA-is -->
+   <td class="is rc">25.17 ± 3.82 / 50.14 ± 2.43</td> <!-- NQiI -->
+   <td>14.0.3</td> <!-- MIM-GOLD-NER version -->
+   <td>14.1.2</td> <!-- Hotter-and-Colder-sentiment version -->
+   <td>14.1.2</td> <!-- ScaLA-is version -->
+   <td>14.0.3</td> <!-- NQiI version -->
    </tr>
   <tr class="not-merged-model">
    <td>KennethEnevoldsen/dfm-sentence-encoder-medium</td> <!-- Model ID -->
@@ -1565,23 +1565,6 @@ title: Icelandic NLU 🇮🇸
    <td>12.7.0</td> <!-- NQiI version -->
    </tr>
   <tr class="not-merged-model">
-   <td>KBLab/megatron-bert-large-swedish-cased-110k</td> <!-- Model ID -->
-   <td class="num_model_parameters">370</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">7,075 ± 1,093 / 2,057 ± 661</td> <!-- Model inference speed -->
-   <td class="rank">3.36</td> <!-- ScandEval rank -->
-   <td class="is ner">63.11 ± 1.31 / 65.36 ± 1.28</td> <!-- MIM-GOLD-NER -->
-   <td class="is sent">26.38 ± 1.89 / 48.24 ± 1.26</td> <!-- Hotter-and-Colder-sentiment -->
-   <td class="is la">3.47 ± 1.38 / 48.04 ± 2.34</td> <!-- ScaLA-is -->
-   <td class="is rc">7.76 ± 0.57 / 36.28 ± 1.35</td> <!-- NQiI -->
-   <td>0.0.0</td> <!-- MIM-GOLD-NER version -->
-   <td>13.3.0</td> <!-- Hotter-and-Colder-sentiment version -->
-   <td>0.0.0</td> <!-- ScaLA-is version -->
-   <td>0.0.0</td> <!-- NQiI version -->
-   </tr>
-  <tr class="not-merged-model">
    <td>NbAiLab/nb-llama-3.1-70B (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">70554</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">128</td> <!-- Size of the model's vocabulary -->
@@ -1614,6 +1597,23 @@ title: Icelandic NLU 🇮🇸
    <td>13.3.0</td> <!-- Hotter-and-Colder-sentiment version -->
    <td>13.0.0</td> <!-- ScaLA-is version -->
    <td>13.0.0</td> <!-- NQiI version -->
+   </tr>
+  <tr class="not-merged-model">
+   <td>KBLab/megatron-bert-large-swedish-cased-110k</td> <!-- Model ID -->
+   <td class="num_model_parameters">370</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">64</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">512</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">7,075 ± 1,093 / 2,057 ± 661</td> <!-- Model inference speed -->
+   <td class="rank">3.37</td> <!-- ScandEval rank -->
+   <td class="is ner">63.11 ± 1.31 / 65.36 ± 1.28</td> <!-- MIM-GOLD-NER -->
+   <td class="is sent">26.38 ± 1.89 / 48.24 ± 1.26</td> <!-- Hotter-and-Colder-sentiment -->
+   <td class="is la">3.47 ± 1.38 / 48.04 ± 2.34</td> <!-- ScaLA-is -->
+   <td class="is rc">7.76 ± 0.57 / 36.28 ± 1.35</td> <!-- NQiI -->
+   <td>0.0.0</td> <!-- MIM-GOLD-NER version -->
+   <td>13.3.0</td> <!-- Hotter-and-Colder-sentiment version -->
+   <td>0.0.0</td> <!-- ScaLA-is version -->
+   <td>0.0.0</td> <!-- NQiI version -->
    </tr>
   <tr class="not-merged-model">
    <td>occiglot/occiglot-7b-eu5-instruct (few-shot)</td> <!-- Model ID -->
@@ -1978,7 +1978,7 @@ title: Icelandic NLU 🇮🇸
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
    <td class="max_sequence_length">2047</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">3,194 ± 687 / 650 ± 216</td> <!-- Model inference speed -->
+   <td class="speed">8,681 ± 1,650 / 2,177 ± 717</td> <!-- Model inference speed -->
    <td class="rank">3.50</td> <!-- ScandEval rank -->
    <td class="is ner">33.05 ± 4.29 / 29.75 ± 3.67</td> <!-- MIM-GOLD-NER -->
    <td class="is sent">14.42 ± 3.18 / 37.82 ± 2.65</td> <!-- Hotter-and-Colder-sentiment -->
@@ -2574,7 +2574,7 @@ title: Icelandic NLU 🇮🇸
    <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">4,608 ± 988 / 1,115 ± 354</td> <!-- Model inference speed -->
-   <td class="rank">3.87</td> <!-- ScandEval rank -->
+   <td class="rank">3.86</td> <!-- ScandEval rank -->
    <td class="is ner">1.42 ± 1.60 / 3.11 ± 1.85</td> <!-- MIM-GOLD-NER -->
    <td class="is sent">4.18 ± 2.03 / 17.89 ± 1.60</td> <!-- Hotter-and-Colder-sentiment -->
    <td class="is la">0.75 ± 0.73 / 45.87 ± 2.20</td> <!-- ScaLA-is -->
@@ -2738,6 +2738,23 @@ title: Icelandic NLU 🇮🇸
    <td>13.0.0</td> <!-- NQiI version -->
    </tr>
   <tr class="not-merged-model">
+   <td>openGPT-X/Teuken-7B-instruct-commercial-v0.4 (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">7453</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">251</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">1,438 ± 410 / 233 ± 79</td> <!-- Model inference speed -->
+   <td class="rank">3.93</td> <!-- ScandEval rank -->
+   <td class="is ner">26.58 ± 1.47 / 22.13 ± 2.38</td> <!-- MIM-GOLD-NER -->
+   <td class="is sent">-0.79 ± 2.98 / 26.06 ± 1.66</td> <!-- Hotter-and-Colder-sentiment -->
+   <td class="is la">0.63 ± 1.36 / 43.80 ± 3.59</td> <!-- ScaLA-is -->
+   <td class="is rc">15.14 ± 2.49 / 44.23 ± 2.12</td> <!-- NQiI -->
+   <td>14.0.4</td> <!-- MIM-GOLD-NER version -->
+   <td>14.0.4</td> <!-- Hotter-and-Colder-sentiment version -->
+   <td>14.0.4</td> <!-- ScaLA-is version -->
+   <td>14.0.4</td> <!-- NQiI version -->
+   </tr>
+  <tr class="not-merged-model">
    <td>ibm-granite/granite-3b-code-instruct-2k (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">3483</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">49</td> <!-- Size of the model's vocabulary -->
@@ -2770,23 +2787,6 @@ title: Icelandic NLU 🇮🇸
    <td>14.1.2</td> <!-- Hotter-and-Colder-sentiment version -->
    <td>12.10.5</td> <!-- ScaLA-is version -->
    <td>12.10.5</td> <!-- NQiI version -->
-   </tr>
-  <tr class="not-merged-model">
-   <td>openGPT-X/Teuken-7B-instruct-commercial-v0.4 (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">7453</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">251</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">1,438 ± 410 / 233 ± 79</td> <!-- Model inference speed -->
-   <td class="rank">3.94</td> <!-- ScandEval rank -->
-   <td class="is ner">26.58 ± 1.47 / 22.13 ± 2.38</td> <!-- MIM-GOLD-NER -->
-   <td class="is sent">-0.79 ± 2.98 / 26.06 ± 1.66</td> <!-- Hotter-and-Colder-sentiment -->
-   <td class="is la">0.63 ± 1.36 / 43.80 ± 3.59</td> <!-- ScaLA-is -->
-   <td class="is rc">15.14 ± 2.49 / 44.23 ± 2.12</td> <!-- NQiI -->
-   <td>14.0.4</td> <!-- MIM-GOLD-NER version -->
-   <td>14.0.4</td> <!-- Hotter-and-Colder-sentiment version -->
-   <td>14.0.4</td> <!-- ScaLA-is version -->
-   <td>14.0.4</td> <!-- NQiI version -->
    </tr>
   <tr class="not-merged-model">
    <td>stabilityai/stablelm-2-1_6b (few-shot)</td> <!-- Model ID -->
@@ -2840,6 +2840,23 @@ title: Icelandic NLU 🇮🇸
    <td>0.0.0</td> <!-- NQiI version -->
    </tr>
   <tr class="not-merged-model">
+   <td>fresh-xlm-roberta-base</td> <!-- Model ID -->
+   <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">514</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">2,214 ± 94 / 1,494 ± 229</td> <!-- Model inference speed -->
+   <td class="rank">4.06</td> <!-- ScandEval rank -->
+   <td class="is ner">17.34 ± 1.13 / 16.43 ± 1.26</td> <!-- MIM-GOLD-NER -->
+   <td class="is sent">25.25 ± 3.12 / 44.40 ± 4.52</td> <!-- Hotter-and-Colder-sentiment -->
+   <td class="is la">-0.06 ± 0.99 / 36.73 ± 3.00</td> <!-- ScaLA-is -->
+   <td class="is rc">1.02 ± 0.30 / 21.61 ± 1.10</td> <!-- NQiI -->
+   <td>0.0.0</td> <!-- MIM-GOLD-NER version -->
+   <td>13.3.0</td> <!-- Hotter-and-Colder-sentiment version -->
+   <td>0.0.0</td> <!-- ScaLA-is version -->
+   <td>0.0.0</td> <!-- NQiI version -->
+   </tr>
+  <tr class="not-merged-model">
    <td>ibm-granite/granite-3.0-3b-a800m-base (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">3374</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">49</td> <!-- Size of the model's vocabulary -->
@@ -2868,23 +2885,6 @@ title: Icelandic NLU 🇮🇸
    <td class="is sent">30.18 ± 1.07 / 50.55 ± 0.86</td> <!-- Hotter-and-Colder-sentiment -->
    <td class="is la">-0.10 ± 1.46 / 35.81 ± 3.45</td> <!-- ScaLA-is -->
    <td class="is rc">0.12 ± 0.10 / 4.48 ± 1.39</td> <!-- NQiI -->
-   <td>0.0.0</td> <!-- MIM-GOLD-NER version -->
-   <td>13.3.0</td> <!-- Hotter-and-Colder-sentiment version -->
-   <td>0.0.0</td> <!-- ScaLA-is version -->
-   <td>0.0.0</td> <!-- NQiI version -->
-   </tr>
-  <tr class="not-merged-model">
-   <td>fresh-xlm-roberta-base</td> <!-- Model ID -->
-   <td class="num_model_parameters">278</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">250</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">514</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">2,214 ± 94 / 1,494 ± 229</td> <!-- Model inference speed -->
-   <td class="rank">4.07</td> <!-- ScandEval rank -->
-   <td class="is ner">17.34 ± 1.13 / 16.43 ± 1.26</td> <!-- MIM-GOLD-NER -->
-   <td class="is sent">25.25 ± 3.12 / 44.40 ± 4.52</td> <!-- Hotter-and-Colder-sentiment -->
-   <td class="is la">-0.06 ± 0.99 / 36.73 ± 3.00</td> <!-- ScaLA-is -->
-   <td class="is rc">1.02 ± 0.30 / 21.61 ± 1.10</td> <!-- NQiI -->
    <td>0.0.0</td> <!-- MIM-GOLD-NER version -->
    <td>13.3.0</td> <!-- Hotter-and-Colder-sentiment version -->
    <td>0.0.0</td> <!-- ScaLA-is version -->
@@ -3135,7 +3135,7 @@ title: Icelandic NLU 🇮🇸
    <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">10,242 ± 3,432 / 1,335 ± 484</td> <!-- Model inference speed -->
-   <td class="rank">4.34</td> <!-- ScandEval rank -->
+   <td class="rank">4.33</td> <!-- ScandEval rank -->
    <td class="is ner">17.73 ± 1.58 / 18.22 ± 1.53</td> <!-- MIM-GOLD-NER -->
    <td class="is sent">2.38 ± 2.00 / 21.79 ± 2.03</td> <!-- Hotter-and-Colder-sentiment -->
    <td class="is la">-0.18 ± 1.21 / 37.94 ± 4.17</td> <!-- ScaLA-is -->
@@ -3197,6 +3197,23 @@ title: Icelandic NLU 🇮🇸
    <td>13.1.0</td> <!-- NQiI version -->
    </tr>
   <tr class="not-merged-model">
+   <td>tiiuae/Falcon3-1B-Instruct (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">1669</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">131</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">9,270 ± 2,690 / 1,434 ± 437</td> <!-- Model inference speed -->
+   <td class="rank">4.37</td> <!-- ScandEval rank -->
+   <td class="is ner">9.39 ± 3.31 / 9.28 ± 3.38</td> <!-- MIM-GOLD-NER -->
+   <td class="is sent">6.44 ± 2.00 / 22.24 ± 3.62</td> <!-- Hotter-and-Colder-sentiment -->
+   <td class="is la">-0.72 ± 1.67 / 43.21 ± 3.74</td> <!-- ScaLA-is -->
+   <td class="is rc">3.34 ± 0.98 / 21.41 ± 2.93</td> <!-- NQiI -->
+   <td>14.1.2</td> <!-- MIM-GOLD-NER version -->
+   <td>14.1.2</td> <!-- Hotter-and-Colder-sentiment version -->
+   <td>14.1.2</td> <!-- ScaLA-is version -->
+   <td>14.1.2</td> <!-- NQiI version -->
+   </tr>
+  <tr class="not-merged-model">
    <td>PleIAs/Pleias-Pico (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">353</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">66</td> <!-- Size of the model's vocabulary -->
@@ -3254,7 +3271,7 @@ title: Icelandic NLU 🇮🇸
    <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">10,890 ± 2,686 / 2,186 ± 750</td> <!-- Model inference speed -->
-   <td class="rank">4.42</td> <!-- ScandEval rank -->
+   <td class="rank">4.41</td> <!-- ScandEval rank -->
    <td class="is ner">9.48 ± 1.48 / 10.10 ± 1.44</td> <!-- MIM-GOLD-NER -->
    <td class="is sent">3.32 ± 3.76 / 21.42 ± 3.52</td> <!-- Hotter-and-Colder-sentiment -->
    <td class="is la">0.07 ± 1.06 / 43.54 ± 3.63</td> <!-- ScaLA-is -->
