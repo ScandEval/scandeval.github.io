@@ -3,7 +3,7 @@ layout: leaderboard
 title: Dutch NLU 🇳🇱
 ---
 
-<center>Last updated: 11/01/2025 11:03:45 CET</center>
+<center>Last updated: 11/01/2025 17:22:53 CET</center>
 
 <div class="blocked centered">
   <input type="checkbox" id="merged-models-checkbox">
@@ -909,14 +909,14 @@ title: Dutch NLU 🇳🇱
    <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">4,136 ± 1,282 / 668 ± 326</td> <!-- Model inference speed -->
    <td class="rank">2.70</td> <!-- ScandEval rank -->
-   <td class="nl ner">62.86 ± 2.07 / 33.76 ± 1.85</td> <!-- CoNLL-nl -->
-   <td class="nl sent">15.11 ± 1.83 / 40.18 ± 1.61</td> <!-- Dutch Social -->
-   <td class="nl la">39.11 ± 1.22 / 68.00 ± 1.24</td> <!-- ScaLA-nl -->
-   <td class="nl rc">36.48 ± 2.80 / 59.22 ± 2.19</td> <!-- SQuAD-nl -->
-   <td>14.0.4</td> <!-- CoNLL-nl version -->
-   <td>14.0.4</td> <!-- Dutch Social version -->
-   <td>14.0.4</td> <!-- ScaLA-nl version -->
-   <td>14.0.4</td> <!-- SQuAD-nl version -->
+   <td class="nl ner">63.01 ± 2.00 / 33.76 ± 1.86</td> <!-- CoNLL-nl -->
+   <td class="nl sent">15.13 ± 1.83 / 40.18 ± 1.61</td> <!-- Dutch Social -->
+   <td class="nl la">39.20 ± 1.25 / 68.05 ± 1.27</td> <!-- ScaLA-nl -->
+   <td class="nl rc">36.46 ± 2.79 / 59.21 ± 2.19</td> <!-- SQuAD-nl -->
+   <td>14.1.2</td> <!-- CoNLL-nl version -->
+   <td>14.1.2</td> <!-- Dutch Social version -->
+   <td>14.1.2</td> <!-- ScaLA-nl version -->
+   <td>14.1.2</td> <!-- SQuAD-nl version -->
    </tr>
   <tr class="not-merged-model">
    <td>mistralai/Mixtral-8x7B-Instruct-v0.1 (few-shot)</td> <!-- Model ID -->
@@ -1055,6 +1055,23 @@ title: Dutch NLU 🇳🇱
    <td>14.1.2</td> <!-- SQuAD-nl version -->
    </tr>
   <tr class="not-merged-model">
+   <td>CohereForAI/aya-23-8B (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">8028</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">256</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">2,707 ± 688 / 497 ± 166</td> <!-- Model inference speed -->
+   <td class="rank">2.81</td> <!-- ScandEval rank -->
+   <td class="nl ner">60.81 ± 1.94 / 46.59 ± 3.32</td> <!-- CoNLL-nl -->
+   <td class="nl sent">7.90 ± 1.63 / 24.82 ± 0.95</td> <!-- Dutch Social -->
+   <td class="nl la">31.12 ± 2.35 / 64.29 ± 1.88</td> <!-- ScaLA-nl -->
+   <td class="nl rc">63.00 ± 1.23 / 74.60 ± 0.67</td> <!-- SQuAD-nl -->
+   <td>13.0.0</td> <!-- CoNLL-nl version -->
+   <td>13.0.0</td> <!-- Dutch Social version -->
+   <td>13.0.0</td> <!-- ScaLA-nl version -->
+   <td>13.0.0</td> <!-- SQuAD-nl version -->
+   </tr>
+  <tr class="not-merged-model">
    <td>skole-gpt-mixtral (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">unknown</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">32</td> <!-- Size of the model's vocabulary -->
@@ -1066,23 +1083,6 @@ title: Dutch NLU 🇳🇱
    <td class="nl sent">8.92 ± 1.08 / 24.28 ± 0.76</td> <!-- Dutch Social -->
    <td class="nl la">32.76 ± 2.94 / 65.17 ± 2.79</td> <!-- ScaLA-nl -->
    <td class="nl rc">56.87 ± 0.92 / 72.57 ± 0.85</td> <!-- SQuAD-nl -->
-   <td>13.0.0</td> <!-- CoNLL-nl version -->
-   <td>13.0.0</td> <!-- Dutch Social version -->
-   <td>13.0.0</td> <!-- ScaLA-nl version -->
-   <td>13.0.0</td> <!-- SQuAD-nl version -->
-   </tr>
-  <tr class="not-merged-model">
-   <td>CohereForAI/aya-23-8B (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">8028</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">256</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">8192</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">False</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">2,707 ± 688 / 497 ± 166</td> <!-- Model inference speed -->
-   <td class="rank">2.82</td> <!-- ScandEval rank -->
-   <td class="nl ner">60.81 ± 1.94 / 46.59 ± 3.32</td> <!-- CoNLL-nl -->
-   <td class="nl sent">7.90 ± 1.63 / 24.82 ± 0.95</td> <!-- Dutch Social -->
-   <td class="nl la">31.12 ± 2.35 / 64.29 ± 1.88</td> <!-- ScaLA-nl -->
-   <td class="nl rc">63.00 ± 1.23 / 74.60 ± 0.67</td> <!-- SQuAD-nl -->
    <td>13.0.0</td> <!-- CoNLL-nl version -->
    <td>13.0.0</td> <!-- Dutch Social version -->
    <td>13.0.0</td> <!-- ScaLA-nl version -->
@@ -1418,7 +1418,7 @@ title: Dutch NLU 🇳🇱
    <td class="max_sequence_length">4096</td> <!-- Maximum sequence length of the model -->
    <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
    <td class="speed">5,617 ± 995 / 1,623 ± 540</td> <!-- Model inference speed -->
-   <td class="rank">3.00</td> <!-- ScandEval rank -->
+   <td class="rank">2.99</td> <!-- ScandEval rank -->
    <td class="nl ner">60.72 ± 2.14 / 45.52 ± 2.46</td> <!-- CoNLL-nl -->
    <td class="nl sent">12.38 ± 1.62 / 29.91 ± 1.91</td> <!-- Dutch Social -->
    <td class="nl la">10.96 ± 1.47 / 47.97 ± 3.45</td> <!-- ScaLA-nl -->
@@ -1565,6 +1565,23 @@ title: Dutch NLU 🇳🇱
    <td>12.10.5</td> <!-- SQuAD-nl version -->
    </tr>
   <tr class="not-merged-model">
+   <td>NorwAI/NorwAI-Mixtral-8x7B (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">46998</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">68</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">2,368 ± 793 / 317 ± 108</td> <!-- Model inference speed -->
+   <td class="rank">3.07</td> <!-- ScandEval rank -->
+   <td class="nl ner">62.76 ± 3.54 / 40.29 ± 1.82</td> <!-- CoNLL-nl -->
+   <td class="nl sent">13.83 ± 1.32 / 37.70 ± 1.94</td> <!-- Dutch Social -->
+   <td class="nl la">24.44 ± 2.86 / 58.02 ± 2.28</td> <!-- ScaLA-nl -->
+   <td class="nl rc">26.17 ± 2.88 / 37.61 ± 2.20</td> <!-- SQuAD-nl -->
+   <td>14.0.4</td> <!-- CoNLL-nl version -->
+   <td>14.0.4</td> <!-- Dutch Social version -->
+   <td>14.0.4</td> <!-- ScaLA-nl version -->
+   <td>14.0.4</td> <!-- SQuAD-nl version -->
+   </tr>
+  <tr class="not-merged-model">
    <td>google/gemma-7b (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">8538</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">256</td> <!-- Size of the model's vocabulary -->
@@ -1580,23 +1597,6 @@ title: Dutch NLU 🇳🇱
    <td>12.9.1</td> <!-- Dutch Social version -->
    <td>12.9.1</td> <!-- ScaLA-nl version -->
    <td>12.9.1</td> <!-- SQuAD-nl version -->
-   </tr>
-  <tr class="not-merged-model">
-   <td>NorwAI/NorwAI-Mixtral-8x7B (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">46998</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">68</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">32768</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">2,368 ± 793 / 317 ± 108</td> <!-- Model inference speed -->
-   <td class="rank">3.08</td> <!-- ScandEval rank -->
-   <td class="nl ner">62.76 ± 3.54 / 40.29 ± 1.82</td> <!-- CoNLL-nl -->
-   <td class="nl sent">13.83 ± 1.32 / 37.70 ± 1.94</td> <!-- Dutch Social -->
-   <td class="nl la">24.44 ± 2.86 / 58.02 ± 2.28</td> <!-- ScaLA-nl -->
-   <td class="nl rc">26.17 ± 2.88 / 37.61 ± 2.20</td> <!-- SQuAD-nl -->
-   <td>14.0.4</td> <!-- CoNLL-nl version -->
-   <td>14.0.4</td> <!-- Dutch Social version -->
-   <td>14.0.4</td> <!-- ScaLA-nl version -->
-   <td>14.0.4</td> <!-- SQuAD-nl version -->
    </tr>
   <tr class="not-merged-model">
    <td>Rijgersberg/GEITje-7B-chat-v2 (few-shot)</td> <!-- Model ID -->
@@ -1837,6 +1837,23 @@ title: Dutch NLU 🇳🇱
    <td>0.0.0</td> <!-- SQuAD-nl version -->
    </tr>
   <tr class="not-merged-model">
+   <td>BramVanroy/fietje-2b (few-shot)</td> <!-- Model ID -->
+   <td class="num_model_parameters">2780</td> <!-- Number of trainable parameters -->
+   <td class="vocabulary_size">51</td> <!-- Size of the model's vocabulary -->
+   <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model -->
+   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
+   <td class="speed">4,804 ± 1,045 / 1,220 ± 392</td> <!-- Model inference speed -->
+   <td class="rank">3.20</td> <!-- ScandEval rank -->
+   <td class="nl ner">33.92 ± 3.43 / 28.63 ± 2.42</td> <!-- CoNLL-nl -->
+   <td class="nl sent">13.39 ± 1.64 / 41.03 ± 1.87</td> <!-- Dutch Social -->
+   <td class="nl la">6.75 ± 2.55 / 41.28 ± 2.37</td> <!-- ScaLA-nl -->
+   <td class="nl rc">58.57 ± 1.03 / 69.39 ± 0.79</td> <!-- SQuAD-nl -->
+   <td>12.6.1</td> <!-- CoNLL-nl version -->
+   <td>12.6.1</td> <!-- Dutch Social version -->
+   <td>12.6.1</td> <!-- ScaLA-nl version -->
+   <td>12.6.1</td> <!-- SQuAD-nl version -->
+   </tr>
+  <tr class="not-merged-model">
    <td>Qwen/Qwen1.5-4B-Chat (few-shot)</td> <!-- Model ID -->
    <td class="num_model_parameters">3950</td> <!-- Number of trainable parameters -->
    <td class="vocabulary_size">152</td> <!-- Size of the model's vocabulary -->
@@ -1886,23 +1903,6 @@ title: Dutch NLU 🇳🇱
    <td>13.0.0</td> <!-- Dutch Social version -->
    <td>13.0.0</td> <!-- ScaLA-nl version -->
    <td>13.0.0</td> <!-- SQuAD-nl version -->
-   </tr>
-  <tr class="not-merged-model">
-   <td>BramVanroy/fietje-2b (few-shot)</td> <!-- Model ID -->
-   <td class="num_model_parameters">2780</td> <!-- Number of trainable parameters -->
-   <td class="vocabulary_size">51</td> <!-- Size of the model's vocabulary -->
-   <td class="max_sequence_length">2048</td> <!-- Maximum sequence length of the model -->
-   <td class="commercially_licensed">True</td> <!-- Whether the model is commercially licensed -->
-   <td class="speed">4,804 ± 1,045 / 1,220 ± 392</td> <!-- Model inference speed -->
-   <td class="rank">3.21</td> <!-- ScandEval rank -->
-   <td class="nl ner">33.92 ± 3.43 / 28.63 ± 2.42</td> <!-- CoNLL-nl -->
-   <td class="nl sent">13.39 ± 1.64 / 41.03 ± 1.87</td> <!-- Dutch Social -->
-   <td class="nl la">6.75 ± 2.55 / 41.28 ± 2.37</td> <!-- ScaLA-nl -->
-   <td class="nl rc">58.57 ± 1.03 / 69.39 ± 0.79</td> <!-- SQuAD-nl -->
-   <td>12.6.1</td> <!-- CoNLL-nl version -->
-   <td>12.6.1</td> <!-- Dutch Social version -->
-   <td>12.6.1</td> <!-- ScaLA-nl version -->
-   <td>12.6.1</td> <!-- SQuAD-nl version -->
    </tr>
   <tr class="not-merged-model">
    <td>meta-llama/Llama-2-7b-chat-hf (few-shot)</td> <!-- Model ID -->
